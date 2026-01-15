@@ -119,16 +119,14 @@ const showSubmitModal = ref(false);
 
 const { data: incident, pending, error } = await useAsyncData<Incident>(`incident-${slug}`, async () => {
   try {
-    // In a real app, this might fetch from an API or a content module.
-    // Here we import the JSON directly based on the slug.
-    return await import(`~/data/incidents/${slug}.json`);
+    // Import YAML directly based on the slug.
+    return await import(`~/data/incidents/${slug}.yaml`);
   } catch (e) {
     if (import.meta.dev) console.error(e);
     // Return null to trigger the "Not Found" state
     return null;
   }
 });
-
 // Using import() returns a module with 'default', accessing it:
 const unwrapModule = (mod: any) => mod?.default || mod;
 

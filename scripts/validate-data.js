@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import { fileURLToPath } from 'url';
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
+import yaml from 'js-yaml';
 
 const ajv = new Ajv();
 addFormats(ajv);
@@ -38,7 +39,7 @@ function validateEvidenceCustom(evidence, id) {
 }
 
 function validateIncidentCustom(incident, id) {
-  const required = ['date_start', 'city', 'summary', 'status', 'tags', 'evidence_ids'];
+  const required = ['date_start', 'city', 'title', 'summary', 'status', 'tags', 'evidence_ids'];
   required.forEach(field => {
     if (!incident[field]) throw new Error(`Incident ${id} missing '${field}'`);
   });
@@ -67,9 +68,9 @@ const victimIncidentRefs = new Map(); // victim_id -> [{incident_id, supporting_
 // Validate Incidents
 const incidentsDir = path.join(dataDir, 'incidents');
 if (fs.existsSync(incidentsDir)) {
-  const files = fs.readdirSync(incidentsDir).filter(f => f.endsWith('.json'));
+  const files = fs.readdirSync(incidentsDir).filter(f => (f.endsWith('.yaml') || f.endsWith('.yml')) && f !== 'index.yaml');
   for (const file of files) {
-    const content = JSON.parse(fs.readFileSync(path.join(incidentsDir, file), 'utf-8'));
+    const content = yaml.load(fs.readFileSync(path.join(incidentsDir, file), 'utf-8'));
     const valid = validateIncident(content);
     if (!valid) {
       console.error(`[INVALID] Incident ${file}:`, validateIncident.errors);
