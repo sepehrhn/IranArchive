@@ -1,5 +1,6 @@
 import { defineNuxtConfig } from 'nuxt/config';
 import Aura from '@primevue/themes/aura';
+import yaml from '@rollup/plugin-yaml';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -8,6 +9,11 @@ export default defineNuxtConfig({
     ssr: true,
     experimental: {
         appManifest: false
+    },
+    vite: {
+        plugins: [
+            yaml()
+        ]
     },
 
     app: {

@@ -7,7 +7,8 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "validate": "node scripts/validate-data.js"
   },
   "dependencies": {
     "@nuxtjs/color-mode": "latest",
@@ -23,6 +24,12 @@
   },
   "devDependencies": {
     "@primevue/nuxt-module": "^4.5.4",
+    "@rollup/plugin-yaml": "^4.1.2",
+    "@types/js-yaml": "^4.0.9",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.1",
     "tailwindcss-primeui": "latest"
   }
 }

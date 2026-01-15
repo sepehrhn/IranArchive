@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import incidentsData from '~/data/incidents/index.json';
+import incidentsData from '~/data/incidents/index.yaml';
 import { getStatusColor, formatDate } from '~/utils/formatters';
 
 const { t } = useI18n()

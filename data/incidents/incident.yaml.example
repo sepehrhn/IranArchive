@@ -1,0 +1,31 @@
+# Unique identifier for the incident (URL-friendly, no spaces)
+# Example: protest-tehran-sep-17
+incident_id: example-incident-slug
+
+# Human-readable title
+title: Protest in Tehran
+
+# Brief summary of the event (shown in lists)
+summary: This is a brief summary of the incident describing what happened, where, and who was involved.
+
+# Date range of the incident (ISO 8601 format)
+# Note: precision can be 'exact', 'approx', or 'unknown' if added to extended date object
+date_start: '2022-09-17T14:30:00Z'
+date_end: '2022-09-17T16:00:00Z'
+
+# Location details
+city: Tehran
+province: Tehran
+
+# Verification status
+# Options: unverified, partially_verified, verified, disputed
+status: unverified
+
+# Tags for categorization (lower-case, underscores)
+tags:
+  - protest
+  - women_rights
+  - tehran
+
+# IDs of evidence files related to this incident
+evidence_ids: []

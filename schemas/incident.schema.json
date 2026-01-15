@@ -2,29 +2,59 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
-    "incident_id": { "type": "string" },
-    "date_start": { "type": "string", "format": "date-time" },
-    "date_end": { "type": "string", "format": "date-time" },
-    "city": { "type": "string" },
-    "province": { "type": "string" },
-    "summary": { "type": "string" },
+    "incident_id": {
+      "type": "string"
+    },
+    "_comment": {
+      "type": "string"
+    },
+    "date_start": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "date_end": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "city": {
+      "type": "string"
+    },
+    "province": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
     "status": {
       "type": "string",
-      "enum": ["unverified", "partially_verified", "verified", "disputed"]
+      "enum": [
+        "unverified",
+        "partially_verified",
+        "verified",
+        "disputed"
+      ]
     },
     "tags": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     },
     "evidence_ids": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "string"
+      }
     }
   },
   "required": [
     "incident_id",
     "date_start",
     "city",
+    "title",
     "summary",
     "status",
     "tags",
