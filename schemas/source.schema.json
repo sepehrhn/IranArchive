@@ -1,0 +1,71 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "required": [
+        "id",
+        "type",
+        "title"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string",
+            "enum": [
+                "news",
+                "hr_report",
+                "social",
+                "video",
+                "photo",
+                "document",
+                "testimony",
+                "other"
+            ]
+        },
+        "title": {
+            "type": "string"
+        },
+        "publisher": {
+            "type": "string"
+        },
+        "author": {
+            "type": "string"
+        },
+        "date_published": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "language": {
+            "type": "string"
+        },
+        "url": {
+            "type": "string",
+            "format": "uri"
+        },
+        "archive_url": {
+            "type": "string",
+            "format": "uri"
+        },
+        "summary": {
+            "type": "string"
+        },
+        "supports_claims": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "enum": [
+                    "identity",
+                    "date",
+                    "location",
+                    "cause",
+                    "incident_link",
+                    "other"
+                ]
+            }
+        },
+        "notes": {
+            "type": "string"
+        }
+    }
+}

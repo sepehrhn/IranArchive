@@ -1,0 +1,47 @@
+name: Takedown Request
+description: Request removal of content due to privacy, safety, or copyright
+title: "Takedown Request: [Target]"
+labels: ["submission", "takedown", "urgent", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Takedown Request ⚠️
+        **Important:** This repository is public. Do not include sensitive private details (like your home address) in this form if possible.
+        If you are a victim or immediate family member, we prioritize your request.
+
+  - type: input
+    id: target
+    attributes:
+      label: URL or ID
+      description: The content you want removed.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason for Takedown
+      options:
+        - "Privacy / Safety (I am the subject/family)"
+        - "Copyright Infringement"
+        - "Incorrect / False Info"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Explanation
+      description: Please provide details.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I am authorized to make this request.
+          required: true

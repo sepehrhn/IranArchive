@@ -1,0 +1,60 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "evidence_id": {
+            "type": "string"
+        },
+        "incident_id": {
+            "type": "string"
+        },
+        "type": {
+            "type": "string",
+            "enum": [
+                "video",
+                "photo",
+                "doc",
+                "testimony"
+            ]
+        },
+        "source_url": {
+            "type": "string",
+            "format": "uri"
+        },
+        "source_archived_url": {
+            "type": "string",
+            "format": "uri"
+        },
+        "captured_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "uploaded_at": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "hash_sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+        },
+        "notes": {
+            "type": "string"
+        },
+        "pii_risk": {
+            "type": "string",
+            "enum": [
+                "low",
+                "medium",
+                "high"
+            ]
+        }
+    },
+    "required": [
+        "evidence_id",
+        "incident_id",
+        "type",
+        "source_url",
+        "pii_risk"
+    ],
+    "additionalProperties": false
+}

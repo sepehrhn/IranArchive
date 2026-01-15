@@ -1,0 +1,73 @@
+name: Triage Issues
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Triage Submission
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const labels = issue.labels.map(l => l.name);
+            
+            // Define checklist based on labels
+            let checklist = "";
+            let newLabels = [];
+
+            if (labels.includes('evidence')) {
+                checklist = `
+            ### Maintainer Triage Checklist (Evidence)
+            - [ ] **Safety Check**: Confirm no PII (phone numbers, addresses, national IDs) in body.
+            - [ ] **Link Rot**: Archive evidence links (via Internet Archive/GhostArchive).
+            - [ ] **Deduplication**: Search existing incident IDs for duplicates.
+            - [ ] **Verification**: Assign initial confidence level.
+            - [ ] **Action**: Create PR to add to data/incidents/ or close.
+                `;
+            } else if (labels.includes('correction')) {
+                 checklist = `
+            ### Maintainer Triage Checklist (Correction)
+            - [ ] **Verify Claim**: Check provided sources.
+            - [ ] **Consensus**: If disputed, check multiple independent sources.
+            - [ ] **Action**: Create PR to edit JSON or close with explanation.
+                 `;
+            } else if (labels.includes('takedown')) {
+                 checklist = `
+            ### Maintainer Triage Checklist (URGENT TAKEDOWN)
+            - [ ] **Identity Check**: Verify requester is subject/family (if applicable).
+            - [ ] **Safety First**: If safety risk, prioritize removal over verification.
+            - [ ] **Action**: Create PR to remove content immediately.
+                 `;
+                 if (!labels.includes('urgent')) newLabels.push('urgent');
+            }
+
+            if (!labels.includes('needs-triage')) {
+                newLabels.push('needs-triage');
+            }
+
+            // Apply labels
+            if (newLabels.length > 0) {
+               await github.rest.issues.addLabels({
+                 owner: context.repo.owner,
+                 repo: context.repo.repo,
+                 issue_number: issue.number,
+                 labels: newLabels
+               });
+            }
+
+            // Post Checklist
+            if (checklist) {
+               await github.rest.issues.createComment({
+                 owner: context.repo.owner,
+                 repo: context.repo.repo,
+                 issue_number: issue.number,
+                 body: checklist.trim()
+               });
+            }

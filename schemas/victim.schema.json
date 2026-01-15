@@ -1,0 +1,220 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "required": [
+        "id",
+        "slug",
+        "names",
+        "status",
+        "death",
+        "sources"
+    ],
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "slug": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+        },
+        "names": {
+            "type": "object",
+            "required": [
+                "latin"
+            ],
+            "properties": {
+                "native": {
+                    "type": "string"
+                },
+                "latin": {
+                    "type": "string"
+                },
+                "aliases": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "status": {
+            "type": "object",
+            "required": [
+                "level"
+            ],
+            "properties": {
+                "level": {
+                    "type": "string",
+                    "enum": [
+                        "confirmed",
+                        "probable",
+                        "unverified"
+                    ]
+                },
+                "rationale": {
+                    "type": "string"
+                }
+            }
+        },
+        "death": {
+            "type": "object",
+            "required": [
+                "date_precision",
+                "location_precision"
+            ],
+            "properties": {
+                "date": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "date_precision": {
+                    "type": "string",
+                    "enum": [
+                        "exact",
+                        "approx",
+                        "range",
+                        "unknown"
+                    ]
+                },
+                "date_range": {
+                    "type": "object",
+                    "properties": {
+                        "start": {
+                            "type": "string",
+                            "format": "date-time"
+                        },
+                        "end": {
+                            "type": "string",
+                            "format": "date-time"
+                        }
+                    }
+                },
+                "location": {
+                    "type": "object",
+                    "properties": {
+                        "country": {
+                            "type": "string"
+                        },
+                        "province": {
+                            "type": "string"
+                        },
+                        "city": {
+                            "type": "string"
+                        },
+                        "neighborhood": {
+                            "type": "string"
+                        }
+                    }
+                },
+                "location_precision": {
+                    "type": "string",
+                    "enum": [
+                        "exact",
+                        "city",
+                        "province",
+                        "unknown"
+                    ]
+                },
+                "cause": {
+                    "type": "string"
+                },
+                "summary": {
+                    "type": "string"
+                }
+            }
+        },
+        "photo": {
+            "type": "object",
+            "required": [
+                "path"
+            ],
+            "properties": {
+                "path": {
+                    "type": "string"
+                },
+                "credit": {
+                    "type": "string"
+                },
+                "license": {
+                    "type": "string"
+                },
+                "consent_note": {
+                    "type": "string"
+                },
+                "alt": {
+                    "type": "string"
+                }
+            }
+        },
+        "sources": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+                "type": "string"
+            }
+        },
+        "incident_links": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "incident_id",
+                    "relation",
+                    "confidence",
+                    "supporting_sources"
+                ],
+                "properties": {
+                    "incident_id": {
+                        "type": "string"
+                    },
+                    "relation": {
+                        "type": "string",
+                        "enum": [
+                            "killed",
+                            "injured_then_died",
+                            "missing_presumed_dead",
+                            "other"
+                        ]
+                    },
+                    "confidence": {
+                        "type": "string",
+                        "enum": [
+                            "high",
+                            "medium",
+                            "low"
+                        ]
+                    },
+                    "supporting_sources": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "bio": {
+            "type": "string"
+        },
+        "tags": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "notes": {
+            "type": "string"
+        },
+        "last_updated": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "contributors": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+name: Privacy / Takedown Request
+description: Request removal of data for privacy or safety reasons
+title: "[Privacy]: Takedown Request"
+labels: ["privacy", "priority"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We take safety and dignity seriously. Requests from family members are prioritized.
+  - type: input
+    id: record_id
+    attributes:
+      label: Record ID / URL
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for Removal
+      description: e.g. "Family request", "Safety risk", "Incorrect Identity"
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact (Optional)
+      description: How can we reach you to confirm? (Private email)
