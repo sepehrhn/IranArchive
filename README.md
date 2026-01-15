@@ -73,3 +73,25 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Deployment (GitHub Pages)
+
+This project is configured to deploy automatically to GitHub Pages using GitHub Actions.
+
+### Workflow
+
+The deployment workflow is defined in `.github/workflows/deploy.yml`:
+1.  Triggers on push to `main` or manual dispatch.
+2.  Builds the site using `npm run build` with the `github_pages` preset.
+3.  Uploads the `.output/public` directory.
+4.  Deploys to GitHub Pages environment.
+
+### Custom Domain
+
+The file `public/CNAME` ensures the custom domain `iranarchive.net` is preserved.
+
+### Setup Required
+
+To enable deployment:
+1.  Go to the repository **Settings** > **Pages**.
+2.  Under **Build and deployment**, select **Source** as **GitHub Actions**.
