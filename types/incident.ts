@@ -55,7 +55,7 @@ export interface Corroboration {
 }
 
 export interface Evidence {
-    id: string;
+    // id: string; // Injected at runtime from filename
     type: EvidenceType;
     title: string;
     description: string;
@@ -109,7 +109,7 @@ export interface RelatedIncident {
 }
 
 export interface Incident {
-    id: string;
+    // id: string; // Injected at runtime from filename
     status: IncidentStatus;
     occurred_at: DateRange;
     location: Location;
@@ -126,7 +126,7 @@ export interface Incident {
     limitations: string[];
 
     // Collections
-    evidence: Evidence[];
+    evidence_ids: string[]; // References to evidence filenames/IDs
     sources: Source[];
     timeline: TimelineEvent[];
     review_history: ReviewEntry[];

@@ -1,6 +1,7 @@
 import { defineNuxtConfig } from 'nuxt/config';
 import Aura from '@primevue/themes/aura';
 import yaml from '@rollup/plugin-yaml';
+import { resolve } from 'path';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -37,7 +38,7 @@ export default defineNuxtConfig({
         },
         publicAssets: [
             {
-                dir: 'data/evidence',
+                dir: resolve(__dirname, 'data/evidence'),
                 baseURL: '/evidence'
             }
         ]

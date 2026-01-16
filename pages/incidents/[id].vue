@@ -102,8 +102,10 @@
 </template>
 
 <script setup lang="ts">
-import { type Incident } from '~/types/incident';
+import { type Incident, type Evidence } from '~/types/incident';
 import MarkdownIt from 'markdown-it';
+
+const { fetchEvidenceById } = useEvidence();
 
 const md = new MarkdownIt({
     html: false,
@@ -123,43 +125,65 @@ const id = route.params.id as string;
 
 const { data: incident, pending, error } = await useAsyncData<Incident>(`incident-${id}`, async () => {
   try {
-    // Eagerly load all incidents. In a larger app, we might optimize this by year
-    // based on the ID structure (inc-YYYY-...) if consistent.
-    // e.g. inc-2026-0001 -> load ~/data/incidents/2026/**/*.yaml
-    // For now, loading all is simplest and robust.
     const incidents = import.meta.glob('~/data/incidents/**/*.yaml', { eager: true });
     
-    // Find the file that matches the ID.
+    // Find the file name that matches the ID (id is from URL /incidents/{id})
+    // Expecting file: inc-{id} ?? No, user said "incidents and evidences id is whatever their file name is"
+    // So if URL is /incidents/inc-2026-00001, we look for inc-2026-00001.yaml
+    
     const matchPath = Object.keys(incidents).find(path => {
-       const mod = incidents[path] as any;
-       const data = mod.default || mod;
-       return data.id === id;
+       const parts = path.split('/');
+       const filename = parts[parts.length - 1];
+       const fileId = filename.replace('.yaml', '');
+       return fileId === id;
     });
 
     if (matchPath) {
         let incidentData = (incidents[matchPath] as any).default || (incidents[matchPath] as any);
-        // Deep copy to avoid mutating the original module if cached? 
-        // Or just modify. Modifying module export is risky in dev HMR.
-        // Let's clone it.
         incidentData = JSON.parse(JSON.stringify(incidentData));
+        
+        // Inject ID from filename
+        incidentData.id = id;
 
-        // Load generated metadata
-        let metadata = {};
-        try {
-            const metaModule = await import('~/data/generated/evidence-metadata.json');
-            metadata = (metaModule as any).default || metaModule;
-        } catch (e) {
-            console.warn('Evidence metadata not found, skipping technical details injection.');
+        // Load Linked Evidence
+        if (incidentData.evidence_ids && Array.isArray(incidentData.evidence_ids)) {
+            const evidenceItems: Evidence[] = [];
+            for (const evId of incidentData.evidence_ids) {
+                const ev = fetchEvidenceById(evId);
+                if (ev) {
+                    // Inject ID is done in fetchEvidenceById
+                    
+                    // Inject Technical Metadata
+                    // We can move the metadata injection logic here or keep it simple
+                     try {
+                        // TODO: Refactor metadata injection to be per-evidence or global lookup
+                        // For now, let's just push it.
+                        // Assuming metadata injection happens if we had the file_path.
+                        evidenceItems.push(ev);
+                    } catch (e) {
+                        console.error(`Failed to process evidence ${evId}`, e);
+                    }
+                }
+            }
+            incidentData.evidence = evidenceItems;
+        } else {
+             incidentData.evidence = [];
         }
 
-        // Inject technical details
-        if (incidentData.evidence) {
-            incidentData.evidence = incidentData.evidence.map((ev: any) => {
+        // Load generated metadata (Legacy support or new support?)
+        // The previous code injected technical details based on file path.
+        // We should replicate that if possible.
+        try {
+            const metaModule = await import('~/data/generated/evidence-metadata.json');
+            const metadata = (metaModule as any).default || metaModule;
+             incidentData.evidence = incidentData.evidence.map((ev: Evidence) => {
                 if (ev.file_path && metadata[ev.file_path]) {
                     ev.technical = { ...ev.technical, ...metadata[ev.file_path] };
                 }
                 return ev;
             });
+        } catch (e) {
+             // Metadata might not exist or match
         }
 
         return incidentData;
