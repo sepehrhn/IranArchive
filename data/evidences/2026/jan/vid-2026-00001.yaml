@@ -1,0 +1,28 @@
+# Type: 'video' | 'photo' | 'document'
+type: "video"
+title: "Karaj street patrol and gunfire (alleged martial law)"
+description: "Submitted video described as showing armed forces marching through streets in Karaj and firing shots into the air. The submitter alleges civilians at windows were shot at."
+# Relative path to file in /data/evidence (served via /evidence/)
+file_path: "ev-2026-00001-vid-001.mp4"
+# When the footage was captured (YYYY/MM/DD)
+captured_at: "2026/01/09"
+# Location claimed in the footage/metadata
+claimed_location: "Karaj"
+
+# Provenance / Chain of Custody
+provenance:
+  submitted_by: "Anonymous"
+  first_published_at: "2026/01/09"
+  first_published_url: "https://x.com/dariush_Zand/status/2011888671201669318"
+  chain_of_custody_note: "Received via secure drop."
+
+# Corroboration with other evidence
+corroboration:
+  related_evidence_ids: []
+  notes: ""
+
+# Flags: e.g. 'verified_location', 'verified_time', 'graphic_content'
+flags: []
+# Content warning
+# Options: 'graphic' | 'violence' | 'none'
+content_warning: "none"

@@ -82,7 +82,7 @@
                                         <span class="text-gray-500 block">Submitted By:</span>
                                         {{ item.provenance.submitted_by }}
                                     </div>
-                                    <div v-if="item.technical.sha256">
+                                    <div v-if="item.technical?.sha256">
                                         <span class="text-gray-500 block">SHA256:</span>
                                         <span class="font-mono break-all text-[10px]">{{ item.technical.sha256 }}</span>
                                     </div>

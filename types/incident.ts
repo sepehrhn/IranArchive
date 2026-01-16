@@ -63,7 +63,7 @@ export interface Evidence {
     captured_at?: string; // Format: YYYY/MM/DD or ISO
     claimed_location?: string;
     provenance: Provenance;
-    technical: TechnicalDetails;
+    technical?: TechnicalDetails;
     corroboration: Corroboration;
     flags: string[];
     content_warning?: ContentWarning;

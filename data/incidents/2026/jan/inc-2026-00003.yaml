@@ -1,0 +1,237 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "disputed"
+
+# Date and time range of the incident
+occurred_at:
+  # Start time in YYYY/MM/DD format
+  start: "2026/01/09"
+  start_time: ""
+  # End time (optional)
+  end: ""
+  end_time: ""
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Approx"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Gilan"
+  # City name
+  city: "Rasht"
+  # Specific address or landmark (optional)
+  address: "Rasht Municipality Square (Meydan-e Shahrdari) / Rasht Bazaar vicinity"
+  # Latitude (optional)
+  lat: 37.27837686403026
+  # Longitude (optional)
+  lng: 49.583035801216205
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Protest, Crackdown, Arson"
+
+# Estimated severity statistics (optional)
+# each range has 'min' and 'max' properties
+severity:
+  deaths:
+    min: 0
+    max: 0
+  injured:
+    min: 0
+    max: 0
+  arrests:
+    min: 0
+    max: 0
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Rasht Bazaar fire and alleged mass killing pattern (Rasht, Gilan)"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "During Jan 2026 protests, a major fire impacted Rasht Bazaar/market area amid conflicting claims of responsibility; Iran International commentary and social testimony allege security forces used the fire to trap crowds and shot fleeing protesters, but casualty and damage figures remain unverified."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  During the January 2026 protests, multiple information streams reported a large fire affecting Rasht Bazaar (بازار رشت) and/or the adjacent market area, along with allegations of lethal force used against protesters.
+
+  **Conflicting attribution narratives**
+  - State-aligned/Islamic Republic–affiliated reporting framed the fire as arson by “rioters/protesters” and emphasized the destruction of shops.
+  - Opposition / human-rights–linked reporting and social media testimony alleged that security forces initiated and/or exploited the fire as a containment method and then shot people attempting to exit the market area.
+
+  **Iran International studio segment (Ali Hossein Ghazizadeh) – added claims**
+  In a studio segment published on 1404/10/23 (2026-01-13), Ali Hossein Ghazizadeh described the incident as a major crime beginning Thursday night and continuing into Friday, and stated that a significant disinformation campaign followed showing burned shops as a cover narrative.
+  He argued it would be illogical for protesters to burn a large part of the bazaar (private property of participants), and claimed:
+  - fire trucks were prevented from entering because the area was surrounded by security forces;
+  - the fire was allowed to spread such that protesters faced a forced choice between burning or moving toward security forces;
+  - those who escaped were shot;
+  - the scale of killings nearly exceeded the capacity of Rasht mortuaries;
+  - bodies were left in hospital courtyards, and some families removed bodies without normal procedures due to fear authorities would withhold bodies or erase traces (including fears of “Khavaran-like” secret burials);
+  - arrests expanded city-wide and communications were cut, with fears of an execution wave to silence witnesses.
+  
+  **Status rationale**
+  The incident is marked **disputed** because core elements (cause of fire, perimeter control, denial of firefighting access, casualty totals, and systematic concealment) rely on a combination of commentary, witness relays, and unverified social footage without sufficient independent, primary corroboration in this report.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "A major fire occurred at/near Rasht Bazaar during the January 2026 protests."
+  - "Property damage was significant; some narratives cite ~200–300 shops affected (exact figure unverified)."
+  - "Attribution is disputed: Islamic Republic–aligned reports blame protesters/rioters; other accounts allege security forces initiated/used the fire tactically."
+  - "Iran International commentary alleges security forces surrounded the area and prevented fire trucks from entering."
+  - "Iran International commentary alleges the fire was allowed to spread to force crowd movement and that people fleeing were shot."
+  - "Iran International commentary alleges casualties were large enough to strain mortuary capacity and that bodies were removed from hospitals without standard documentation due to fear of concealment."
+  - "Iran International commentary alleges an ensuing wave of arrests and communications suppression; fears of executions were discussed."
+  - "An Instagram-originated video narrative (later amplified on X) alleges a similar trap-and-shoot pattern at bazaar exits."
+
+# Open questions or missing information
+open_questions:
+  - "What is the exact ignition point and timeline of the fire (start time, spread path, extinguishment), and which bazaar sections were affected?"
+  - "Is there independently verifiable evidence that fire services were denied access (multiple witnesses, dispatch logs, municipal records, credible contemporaneous video)?"
+  - "Are there independently verifiable indicators of perimeter control (unit IDs, vehicle markings, geolocated footage, multi-angle videos)?"
+  - "What are confirmed casualty figures linked specifically to this Rasht incident (names, hospital/clinic intake, burial records), distinct from broader nationwide claims?"
+  - "What arrests occurred in Rasht immediately after (counts, charges, identities), and is there evidence of subsequent executions tied to this incident?"
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "The Iran International segment is studio commentary (not a published forensic investigation) and appears to rely on information streams not fully disclosed in the clip."
+  - "State-aligned sources and opposition/human-rights–linked sources present conflicting narratives; neither is independently validated here."
+  - "The Instagram/X video narrative is not independently verified for date, geolocation, completeness, or provenance."
+  - "No confirmed casualty list or independently audited damage assessment is included in this incident file."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+# Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
+# IDs are the filenames (e.g. ev-2026-00001-vid-001)
+evidence_ids:
+  - "vid-2026-00002"
+  - "vid-2026-00003"
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-001"
+    label: "Tasnim: 'Rasht Bazaar set on fire' (state-aligned framing)"
+    url: "https://www.tasnimnews.com/fa/media/1404/10/20/3491652/%D8%A7%D8%BA%D8%AA%D8%B4%D8%A7%D8%B4%DA%AF%D8%B1%D8%A7%D9%86-%D8%A8%D8%A7%D8%B2%D8%A7%D8%B1-%D8%B1%D8%B4%D8%AA-%D8%B1%D8%A7-%D8%A8%D9%87-%D8%A2%D8%AA%D8%B4-%DA%A9%D8%B4%DB%8C%D8%AF%D9%86%D8%AF"
+    publisher: "Tasnim News Agency"
+    published_at: "2026/01/10 12:53"
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "Attributes bazaar fire to 'rioters/protesters'; early state-aligned narrative."
+
+  - id: "src-002"
+    label: "Iran International article: human-rights-linked account of market-area entrapment and shootings (if used)"
+    url: "https://www.iranintl.com/202601144303"
+    publisher: "Iran International"
+    published_at: "2026/01/14"
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "Claims about arson blocking escape and subsequent shootings in/near market area; relies on witness/NGO relays."
+
+  - id: "src-003"
+    label: "MahdadIrani (X): amplification post alleging ~300 shops burned and security-force responsibility"
+    url: "https://x.com/MahdadIrani/status/2011670321430945828"
+    publisher: "X (social media)"
+    published_at: ""
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Amplifies bazaar-circularity and '~300 shops' claims; provenance linked by submitter to Instagram video."
+
+  - id: "src-004"
+    label: "Tavaana (X): amplification post claiming 'confirmed' Rasht Bazaar set on fire, ~300 shops burned"
+    url: "https://x.com/Tavaana/status/2011716821528052197"
+    publisher: "X (social media)"
+    published_at: ""
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Amplifies narrative and references video; confirmation status not independently established here."
+
+  - id: "src-005"
+    label: "the_zhalzzz (Instagram): video + narrated first-person account (submitter transcript)"
+    url: "https://www.instagram.com/the_zhalzzz/"
+    publisher: "Instagram (social media)"
+    published_at: "2026/01/14"
+    type: "primary"
+    archived_urls: []
+    language: "en"
+    notes: "Submitter-provided transcript alleges intentional ignition and shootings; exact reel URL should be preserved + archived; independent verification pending."
+
+  - id: "src-006"
+    label: "Iran International video: 'جزییات جدید از قتل‌عام معترضان در رشت' (studio segment with Ali Hossein Ghazizadeh)"
+    url: "https://www.iranintl.com/fa/video/ott_d7cf076d5fc04244a85d997ee32fd689"
+    publisher: "Iran International"
+    published_at: "2026/01/13"
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "Studio commentary describes denial of firefighting access, alleged mass shootings, mortuary overload, irregular burials, arrests, and fears of executions."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/08"
+    title: "Crowds gather; movement toward bazaar/market area (reported)"
+    description: "Accounts describe crowds forming near Municipality Square and moving toward bazaar/market area as violence escalated."
+    evidence_ids: ["vid-2026-00002"]
+
+  - at: "2026/01/08"
+    title: "Fire reported in bazaar/market area"
+    description: "A major fire is reported affecting Rasht Bazaar/market area; ignition cause and first source contested."
+    evidence_ids: ["vid-2026-00002"]
+
+  - at: "2026/01/08"
+    title: "Claimed denial of firefighting access"
+    description: "Iran International studio commentary alleges the area was surrounded and fire trucks were not allowed to enter."
+    evidence_ids: ["vid-2026-00003"]
+
+  - at: "2026/01/08"
+    title: "Alleged shootings as people fled"
+    description: "Multiple narratives allege people escaping the bazaar/market area were shot; casualty figures unverified."
+    evidence_ids: ["vid-2026-00002", "vid-2026-00003"]
+
+  - at: "2026/01/09"
+    title: "Bodies at hospitals; irregular removal/burials (alleged)"
+    description: "Iran International studio commentary alleges bodies were left in hospital courtyards and some families removed bodies without official procedures due to fear of concealment."
+    evidence_ids: ["vid-2026-00003"]
+
+  - at: "2026/01/09"
+    title: "Arrest wave and communications suppression (alleged)"
+    description: "Iran International studio commentary alleges broad arrests and attempts to cut communications after the incident."
+    evidence_ids: ["vid-2026-00003"]
+
+  - at: "2026/01/10"
+    title: "State-aligned attribution published"
+    description: "Tasnim publishes a report alleging rioters/protesters set Rasht Bazaar on fire."
+    evidence_ids: []
+
+  - at: "2026/01/13"
+    title: "Iran International studio segment summarizes alleged pattern and concealment"
+    description: "Ghazizadeh describes trap-by-fire tactic, shootings, mortuary overload, concealment fears, arrests, and execution risk; also claims similar patterns occurred in other cities."
+    evidence_ids: ["vid-2026-00003"]
+
+# Internal review history
+review_history:
+  - at: "2026/01/16"
+    reviewer: "Sepehr"
+    change: "created"
+    to_status: "disputed"
+    notes: "Initialized from open-web reporting + social media amplification; awaiting stronger primary evidence and casualty verification."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []
