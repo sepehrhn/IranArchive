@@ -13,8 +13,9 @@ const { t } = useI18n()
         </p>
     </div>
 
-    <div class="w-full px-4">
+    <div class="w-full px-4 space-y-8">
         <BlackoutCounter />
+        <DeathTollCounter />
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-4xl mt-12">
