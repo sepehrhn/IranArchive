@@ -1,0 +1,154 @@
+# Unique identifier for the incident (URL-friendly, no spaces, persistent)
+id: "inc-2026-00001"
+
+# Verification status of the incident
+# Options: 'not_verified' | 'disputed' | 'verified'
+status: "verified"
+
+# Date and time range of the incident
+occurred_at:
+  # Start time in YYYY/MM/DD format
+  start: "2026/01/15"
+  start_time: "20:00"
+  # End time (optional)
+  end: ""
+  end_time: ""
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Alborz"
+  # City name
+  city: "Karaj"
+  # Specific address or landmark (optional)
+  address: ""
+  # Latitude (optional)
+  lat: 
+  # Longitude (optional)
+  lng: 
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Martial Law"
+
+# Estimated severity statistics (optional)
+# each range has 'min' and 'max' properties
+severity:
+  deaths:
+    min: 0
+    max: 0
+  injured:
+    min: 0
+    max: 0
+  arrests:
+    min: 0
+    max: 0
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Martial Law in Karaj"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "An eyewitness report and attached video allege that security forces imposed martial-law-like conditions in Karaj, marching through streets and firing shots into the air while threatening or shooting at civilians seen at windows."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  A video submitted with an eyewitness note describes martial-law-like conditions in Karaj (Alborz Province) on Friday, January 9, 2026.
+
+  According to the person who recorded the video, armed forces were marching through the streets and firing shots into the air. The recorder further claims that people who were even standing by windows were shot at.
+
+  The incident is currently **not verified** beyond the submitted material and requires additional corroboration (exact location within Karaj, unit identification, timing, and any confirmed casualties).
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Martial-law-like conditions were imposed in Karaj on January 9, 2026."
+  - "Armed forces marched through streets and fired shots into the air."
+  - "The recorder claims civilians visible at windows were shot at."
+
+# Open questions or missing information
+open_questions:
+  - "Exact neighborhood/street in Karaj where the video was recorded?"
+  - "Approximate capture time on January 9, 2026 (morning/afternoon/night)?"
+  - "Which force/unit is visible or audible (e.g., uniform markings, vehicles, insignia)?"
+  - "Were there confirmed injuries or deaths linked to shots fired at windows?"
+  - "Are there additional videos/photos from other witnesses that match the same scene?"
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "Currently based on a single eyewitness note and a single attached video; independent corroboration not yet added."
+  - "No verified geolocation, verified timestamp, or identified unit/chain of command at time of drafting."
+  - "Claims about people being shot at windows are not yet corroborated by additional sources."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence items (Videos, Photos, Documents)
+evidence:
+  - id: "ev-2026-00001-vid-001"
+    # Type: 'video' | 'photo' | 'document'
+    type: "video"
+    title: "Karaj street patrol and gunfire (alleged martial law)"
+    description: "Submitted video described as showing armed forces marching through streets in Karaj and firing shots into the air. The submitter alleges civilians at windows were shot at."
+    # Relative path to file in /data/evidence (served via /evidence/)
+    file_path: "2026/jan/karaj-martial-law-vid-001.mp4"
+    # When the footage was captured (YYYY/MM/DD)
+    captured_at: "2026/01/09"
+    # Location claimed in the footage/metadata
+    claimed_location: "Karaj"
+    
+    # Provenance / Chain of Custody
+    provenance:
+      submitted_by: "Anonymous"
+      first_published_at: "2026/01/09"
+      first_published_url: "https://x.com/dariush_Zand/status/2011888671201669318"
+      chain_of_custody_note: "Received via secure drop."
+    
+    # Corroboration with other evidence
+    corroboration:
+      related_evidence_ids: []
+      notes: ""
+    
+    # Flags: e.g. 'verified_location', 'verified_time', 'graphic_content'
+    flags: []
+    # Content warning
+    # Options: 'graphic' | 'violence' | 'none'
+    content_warning: "none"
+
+# Sources (News reports, social media posts, etc.)
+sources: []
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/09"
+    title: "Video Recorded"
+    description: "Witness records armed forces marching and firing in Karaj."
+    # Evidence IDs linked to this specific moment
+    evidence_ids: ["ev-2026-00001-vid-001"]
+
+# Internal review history
+review_history:
+  - at: "2026/01/16"
+    reviewer: "Sepehr"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "created"
+    to_status: "verified"
+    notes: "Initial draft based on submission."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []

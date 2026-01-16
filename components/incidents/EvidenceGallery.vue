@@ -21,10 +21,10 @@
       <div v-for="item in filteredEvidence" :key="item.id" :id="`evidence-${item.id}`" class="flex flex-col group">
         <Card class="flex-1 overflow-hidden" :class="{'border-red-500 border relative': isSensitive(item)}">
             <template #header>
-                <div class="relative h-48 bg-gray-100 dark:bg-gray-800 overflow-hidden">
+                <div class="relative h-48 bg-gray-100 dark:bg-gray-800 overflow-hidden cursor-pointer" @click="openMedia(item)">
                     <!-- Blur filter for sensitive content -->
                     <div 
-                        class="absolute inset-0 z-10 transition-all duration-300 flex items-center justify-center p-4 text-center cursor-pointer"
+                        class="absolute inset-0 z-10 transition-all duration-300 flex items-center justify-center p-4 text-center"
                         :class="[isSensitive(item) ? 'backdrop-blur-xl bg-gray-900/40 hover:backdrop-blur-sm' : '']"
                     >
                          <div v-if="isSensitive(item)" class="text-white drop-shadow-md">
@@ -32,22 +32,28 @@
                             <div class="font-bold uppercase tracking-wider text-sm mt-1 bg-red-600 px-2 py-0.5 rounded text-white inline-block">Sensitive Content</div>
                         </div>
                         
-                        <div v-if="!isSensitive(item)" class="text-center text-gray-500">
+                        <div v-if="!isSensitive(item)" class="text-center text-gray-500 group-hover:scale-110 transition-transform">
                              <i :class="getTypeIcon(item.type)" class="text-4xl mb-2"></i>
                             <div class="text-xs uppercase tracking-wider p-2">{{ item.type }}</div>
                         </div>
                     </div>
 
                     <!-- Underlying Content (Placeholder) -->
+                     <!-- Content Display -->
                      <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-50">
-                        <!-- In a real app, the actual image/video thumbnail would go here -->
-                        <i :class="getTypeIcon(item.type)" class="text-6xl text-gray-300 dark:text-gray-700"></i>
+                        <template v-if="item.type === 'video' || item.type === 'photo'">
+                             <img v-if="item.type === 'photo'" :src="`/evidence/${item.file_path}`" class="w-full h-full object-cover" />
+                             <!-- For video thumbnail we could try to load it or just show icon -->
+                             <video v-else-if="item.type === 'video'" :src="`/evidence/${item.file_path}`" class="w-full h-full object-cover" preload="metadata"></video>
+                             <i v-else :class="getTypeIcon(item.type)" class="text-6xl text-gray-300 dark:text-gray-700"></i>
+                        </template>
+                        <i v-else :class="getTypeIcon(item.type)" class="text-6xl text-gray-300 dark:text-gray-700"></i>
                      </div>
                 </div>
             </template>
             <template #title>
                 <div class="flex justify-between items-start gap-2">
-                    <span class="text-lg leading-tight">{{ item.title }}</span>
+                    <span class="text-lg leading-tight cursor-pointer hover:text-primary-500" @click="openMedia(item)">{{ item.title }}</span>
                 </div>
             </template>
             <template #subtitle>
@@ -57,16 +63,8 @@
                 <p class="text-sm text-gray-700 dark:text-gray-300 mb-4 line-clamp-3">{{ item.description }}</p>
                 
                 <div class="space-y-4">
-                     <!-- Links -->
-                     <div class="flex flex-wrap gap-2 text-xs">
-                         <a :href="item.urls.primary" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-primary-600 hover:underline">
-                            <i class="pi pi-external-link"></i> Primary Source
-                         </a>
-                         <span v-if="item.urls.archived?.length" class="text-gray-400">|</span>
-                         <a v-for="(url, i) in item.urls.archived" :key="i" :href="url" target="_blank" rel="noopener noreferrer" class="flex items-center gap-1 text-gray-500 hover:text-gray-700">
-                            <i class="pi pi-history"></i> Archive {{ i + 1 }}
-                         </a>
-                     </div>
+                     <!-- Media Source -->
+                     <!-- REMOVED DOWNLOAD LINK -->
 
                      <Divider />
 
@@ -107,6 +105,47 @@
     <div v-if="filteredEvidence.length === 0" class="text-center py-12 text-gray-500 bg-gray-50 dark:bg-gray-800 rounded-lg">
         No evidence matches your filter criteria.
     </div>
+
+    <!-- Media Modal -->
+    <Dialog 
+        v-model:visible="displayModal" 
+        modal 
+        :header="selectedEvidence?.title" 
+        :style="{ width: '80vw', maxWidth: '1000px' }"
+        :dismissableMask="true"
+        :closeOnEscape="true"
+        class="media-modal"
+    >
+        <div v-if="selectedEvidence" class="flex flex-col items-center justify-center p-0 overflow-hidden bg-black rounded-lg">
+            <template v-if="selectedEvidence.type === 'photo'">
+                <img :src="`/evidence/${selectedEvidence.file_path}`" :alt="selectedEvidence.title" class="max-w-full max-h-[70vh] object-contain" @contextmenu.prevent />
+            </template>
+            <template v-else-if="selectedEvidence.type === 'video'">
+                <video 
+                    :src="`/evidence/${selectedEvidence.file_path}`" 
+                    controls 
+                    controlsList="nodownload" 
+                    class="max-w-full max-h-[70vh]" 
+                    autoplay
+                    @contextmenu.prevent
+                ></video>
+            </template>
+            <template v-else>
+                 <div class="p-10 text-center text-white">
+                    <i :class="getTypeIcon(selectedEvidence.type)" class="text-6xl mb-4"></i>
+                    <p>This content cannot be previewed directly.</p>
+                 </div>
+            </template>
+        </div>
+        <template #footer>
+            <div class="flex justify-between items-center w-full">
+                 <div class="text-sm text-gray-500">
+                    {{ selectedEvidence?.description }}
+                 </div>
+                 <!-- No download button -->
+            </div>
+        </template>
+    </Dialog>
   </div>
 </template>
 
@@ -118,8 +157,11 @@ const props = defineProps<{
   evidence: Evidence[];
 }>();
 
-const types: EvidenceType[] = ['video', 'photo', 'document', 'testimony'];
+const types: EvidenceType[] = ['video', 'photo', 'document'];
 const selectedType = ref<EvidenceType | null>(null);
+
+const displayModal = ref(false);
+const selectedEvidence = ref<Evidence | null>(null);
 
 const filteredEvidence = computed(() => {
     return props.evidence.filter(item => {
@@ -137,8 +179,24 @@ const getTypeIcon = (type: EvidenceType) => {
         case 'video': return 'pi pi-video';
         case 'photo': return 'pi pi-image';
         case 'document': return 'pi pi-file';
-        case 'testimony': return 'pi pi-user';
         default: return 'pi pi-file';
     }
 };
+
+const openMedia = (item: Evidence) => {
+    selectedEvidence.value = item;
+    displayModal.value = true;
+};
 </script>
+
+<style scoped>
+/* Prevent image selection */
+img, video {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    user-select: none;
+}
+</style>

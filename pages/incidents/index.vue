@@ -1,19 +1,20 @@
 <script setup lang="ts">
-import incidentsData from '~/data/incidents/index.yaml';
-import { getStatusColor, formatDate } from '~/utils/formatters';
+import { type Incident } from '~/types/incident';
+import { getStatusColor, formatDate, formatStatus } from '~/utils/formatters';
 
 const { t } = useI18n()
 
-// Type definition for the index items
-interface IncidentSummary {
-    slug: string;
-    title: string;
-    summary: string;
-    status: string;
-    date: string;
-}
+// Load all incidents using glob import
+const incidentModules = import.meta.glob('~/data/incidents/**/*.yaml', { eager: true });
 
-const incidents = ref<IncidentSummary[]>(incidentsData);
+const incidents = computed(() => {
+    return Object.values(incidentModules)
+        .map((mod: any) => mod.default as Incident)
+        .filter(incident => incident.status !== 'draft')
+        .sort((a, b) => {
+            return new Date(b.occurred_at.start).getTime() - new Date(a.occurred_at.start).getTime();
+        });
+});
 </script>
 
 <template>
@@ -24,14 +25,14 @@ const incidents = ref<IncidentSummary[]>(incidentsData);
         </div>
 
         <DataTable :value="incidents" tableStyle="min-width: 50rem" stripedRows paginator :rows="10">
-            <Column field="date" header="Date" sortable style="width: 15%">
+            <Column field="occurred_at.start" header="Date" sortable style="width: 15%">
                 <template #body="slotProps">
-                    {{ formatDate(slotProps.data.date) }}
+                    {{ formatDate(slotProps.data.occurred_at.start) }}
                 </template>
             </Column>
             <Column header="Title" sortable field="title" style="width: 25%">
                 <template #body="slotProps">
-                    <NuxtLink :to="`/incidents/${slotProps.data.slug}`" class="font-semibold text-primary-600 hover:underline">
+                    <NuxtLink :to="`/incidents/${slotProps.data.id}`" class="font-semibold text-primary-600 hover:underline">
                         {{ slotProps.data.title }}
                     </NuxtLink>
                 </template>
@@ -45,12 +46,12 @@ const incidents = ref<IncidentSummary[]>(incidentsData);
             </Column>
             <Column header="Status" style="width: 10%" sortable field="status">
                 <template #body="slotProps">
-                    <Tag :value="slotProps.data.status" :severity="getStatusColor(slotProps.data.status)" class="capitalize" />
+                    <Tag :value="formatStatus(slotProps.data.status)" :severity="getStatusColor(slotProps.data.status)" />
                 </template>
             </Column>
              <Column style="width: 10%">
                 <template #body="slotProps">
-                    <NuxtLink :to="`/incidents/${slotProps.data.slug}`">
+                    <NuxtLink :to="`/incidents/${slotProps.data.id}`">
                         <Button icon="pi pi-arrow-right" text rounded aria-label="View" />
                     </NuxtLink>
                 </template>

@@ -15,7 +15,7 @@
                 </div>
                 
                 <div class="prose dark:prose-invert max-w-none mb-6">
-                    <p class="lead text-lg">{{ incident.narrative }}</p>
+                    <div class="lead text-lg" v-html="renderMarkdown(incident.narrative)"></div>
                 </div>
 
                 <div class="bg-surface-50 dark:bg-surface-900 rounded-lg p-6 border-l-4 border-primary-500">
@@ -66,16 +66,7 @@
         <div class="lg:col-span-4 space-y-8">
             
             <!-- Submit CTA -->
-            <Card class="bg-primary-50 dark:bg-primary-900/10 border border-primary-100 dark:border-primary-800 shadow-sm">
-                <template #content>
-                    <div class="text-center">
-                        <i class="pi pi-verified text-4xl text-primary-500 mb-2"></i>
-                        <h3 class="font-bold text-lg mb-1">Have more information?</h3>
-                        <p class="text-sm text-gray-600 dark:text-gray-400 mb-4">Submit evidence, suggest corrections, or verify details anonymously.</p>
-                        <Button label="Submit Update" icon="pi pi-send" @click="showSubmitModal = true" class="w-full" />
-                    </div>
-                </template>
-            </Card>
+
 
             <!-- Verification Status -->
              <section>
@@ -92,7 +83,7 @@
       </div>
     
       <!-- Modals -->
-      <IncidentsSubmitUpdateModal v-model:visible="showSubmitModal" />
+
       
     </div>
     
@@ -112,48 +103,51 @@
 
 <script setup lang="ts">
 import { type Incident } from '~/types/incident';
+import MarkdownIt from 'markdown-it';
+
+const md = new MarkdownIt({
+    html: false,
+    linkify: true,
+    breaks: true
+});
+
+const renderMarkdown = (text: string) => {
+    if (!text) return '';
+    return md.render(text);
+};
 
 const route = useRoute();
-const slug = route.params.slug as string;
-const showSubmitModal = ref(false);
+// Using ID instead of slug
+const id = route.params.id as string;
 
-const { data: incident, pending, error } = await useAsyncData<Incident>(`incident-${slug}`, async () => {
+
+const { data: incident, pending, error } = await useAsyncData<Incident>(`incident-${id}`, async () => {
   try {
-    // Glob import all yaml files in data/incidents recursively
-    const incidents = import.meta.glob('~/data/incidents/**/*.yaml');
+    // Eagerly load all incidents. In a larger app, we might optimize this by year
+    // based on the ID structure (inc-YYYY-...) if consistent.
+    // e.g. inc-2026-0001 -> load ~/data/incidents/2026/**/*.yaml
+    // For now, loading all is simplest and robust.
+    const incidents = import.meta.glob('~/data/incidents/**/*.yaml', { eager: true });
     
-    // Find the file that matches the slug. 
-    // We assume slugs are unique across all folders.
-    // The key is the path, e.g., "../data/incidents/2026/01/incident.yaml"
+    // Find the file that matches the ID.
     const matchPath = Object.keys(incidents).find(path => {
-       // We'll have to lazy load to check the slug, or rely on filename? 
-       // The user request implies the slug is inside the file.
-       // However, loading ALL files to check slug is expensive.
-       // But wait, earlier code assumed filename matches slug? 
-       // "Import YAML directly based on the slug." -> return await import(`~/data/incidents/${slug}.yaml`);
-       // The new structure is date based. "martial-law-karaj-jan2026" is the slug, but file is "incident.yaml" inside "2026/01".
-       // This implies I can't find it easily by filename unless the filename IS the slug.
-       // But the user said: "Refactor `data/incidents` to `data/incidents/YYYY/MM/`" and "Move existing `incident.yaml` to `data/incidents/2026/01/`".
-       // If I name the file `incident.yaml`, I can't look it up by slug without reading it.
-       // UNLESS, I iterate and search. Since this generates a static site or runs on server, it might be okay.
-       // ALTERNATIVE: The file name IS the slug. `data/incidents/2026/01/martial-law-karaj-jan2026.yaml`.
-       // This is much better for lookup.
-       // Let's assume I should rename the file to the slug Name.
-       return path.endsWith(`/${slug}.yaml`);
+       const mod = incidents[path] as any;
+       const data = mod.default || mod;
+       return data.id === id;
     });
 
     if (matchPath) {
-        let incidentData = await incidents[matchPath]();
-        incidentData = unwrapModule(incidentData);
+        let incidentData = (incidents[matchPath] as any).default || (incidents[matchPath] as any);
+        // Deep copy to avoid mutating the original module if cached? 
+        // Or just modify. Modifying module export is risky in dev HMR.
+        // Let's clone it.
+        incidentData = JSON.parse(JSON.stringify(incidentData));
 
         // Load generated metadata
-        // In a real prod build, this JSON should be imported or fetched.
-        // For SSG, importing it allows Vite to bundle it.
-        // We use a try-catch to avoid breaking if file doesn't exist yet.
         let metadata = {};
         try {
             const metaModule = await import('~/data/generated/evidence-metadata.json');
-            metadata = unwrapModule(metaModule);
+            metadata = (metaModule as any).default || metaModule;
         } catch (e) {
             console.warn('Evidence metadata not found, skipping technical details injection.');
         }
@@ -176,12 +170,6 @@ const { data: incident, pending, error } = await useAsyncData<Incident>(`inciden
     return null;
   }
 });
-// Using import() returns a module with 'default', accessing it:
-const unwrapModule = (mod: any) => mod?.default || mod;
-
-if (incident.value) {
-    incident.value = unwrapModule(incident.value);
-}
 
 useHead({
   title: incident.value ? `${incident.value.title} - IranArchive` : 'Incident Not Found',
@@ -191,9 +179,12 @@ const scrollToEvidence = (id: string) => {
     const el = document.getElementById(`evidence-${id}`);
     if (el) {
         el.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        // Optional: highlight effect
         el.classList.add('ring-2', 'ring-primary-500', 'ring-offset-2');
         setTimeout(() => el.classList.remove('ring-2', 'ring-primary-500', 'ring-offset-2'), 2000);
     }
 };
+
+onMounted(() => {
+    // Optional: if markdown content has links, we can process them here
+});
 </script>

@@ -2,7 +2,7 @@
   <div class="relative pl-4 border-l border-gray-200 dark:border-gray-700 space-y-8">
     <div v-for="(event, index) in events" :key="index" class="relative">
       <!-- Dot -->
-      <div class="absolute -left-[21px] top-1.5 w-4 h-4 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
+      <div class="absolute -left-[24.5px] top-1.5 w-4 h-4 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
       
       <div class="mb-1 text-sm text-gray-500 dark:text-gray-400 font-mono">
         {{ formatDateTime(event.at) }}

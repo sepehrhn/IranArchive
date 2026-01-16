@@ -8,7 +8,7 @@
             </div>
         </template>
         <template #content>
-            <p class="text-sm text-gray-600 dark:text-gray-300 mb-4">{{ statusDescription }}</p>
+            <div class="text-sm text-gray-600 dark:text-gray-300 mb-4" v-html="statusDescription"></div>
             
             <div v-if="incident.status === 'disputed'" class="mb-4 p-3 bg-orange-50 dark:bg-orange-900/20 rounded border border-orange-200 dark:border-orange-800">
                 <h4 class="font-semibold text-orange-800 dark:text-orange-200 text-sm mb-1">Disputed Points</h4>
@@ -28,8 +28,8 @@
     </Card>
 
     <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
-        <h4 class="font-semibold text-sm mb-3">Review History / Change Log</h4>
-        <Timeline :value="incident.review_history">
+        <h4 class="font-semibold text-sm mb-3">Change Log</h4>
+        <Timeline :value="incident.review_history" align="left">
              <template #content="slotProps">
                  <div class="text-xs pb-4">
                      <span class="font-bold">{{ slotProps.item.reviewer }}</span>
@@ -37,7 +37,7 @@
                      <span class="text-gray-500">{{ formatDate(slotProps.item.at) }}</span>
                      <div class="mt-1">
                          <Badge :value="slotProps.item.change" severity="secondary" size="small" />
-                         <span class="ml-2 text-gray-600 dark:text-gray-400">{{ slotProps.item.notes }}</span>
+                         <span class="ml-2 text-gray-600 dark:text-gray-400" v-html="renderMarkdown(slotProps.item.notes)"></span>
                      </div>
                  </div>
              </template>
@@ -49,6 +49,13 @@
 <script setup lang="ts">
 import { type Incident } from '~/types/incident';
 import { formatDate } from '~/utils/formatters';
+import MarkdownIt from 'markdown-it';
+
+const md = new MarkdownIt({
+    html: false,
+    linkify: true,
+    breaks: true
+});
 
 const props = defineProps<{
     incident: Incident;
@@ -72,12 +79,21 @@ const statusIcon = computed(() => {
 });
 
 const statusDescription = computed(() => {
+    let text = '';
     switch(props.incident.status) {
-        case 'verified': return 'This incident has been verified through multiple independent sources and evidence. The core facts are considered established.';
-        case 'disputed': return 'There are conflicting reports or unresolved questions regarding key aspects of this incident. See disputed points below.';
-        case 'not_verified': return 'This incident is currently based on unverified reports. Proceed with caution.';
-        default: return '';
+        case 'verified': 
+            text = 'This incident has been **verified** through multiple independent sources and evidence. The core facts are considered established.';
+            break;
+        case 'disputed': 
+            text = 'There are conflicting reports or unresolved questions regarding key aspects of this incident. See disputed points below.';
+            break;
+        case 'not_verified': 
+            text = 'The incident is currently **not verified** beyond the submitted material and requires additional corroboration.';
+            break;
+        default: 
+            text = '';
     }
+    return md.render(text);
 });
 
 // In a real app, this might be computed from specific fields or flags
@@ -88,4 +104,15 @@ const rubric = computed(() => [
     { label: 'Credible Reporting', checked: props.incident.sources.some(s => s.type === 'primary' || s.publisher) },
     { label: 'Independent Corroboration', checked: props.incident.status === 'verified' }
 ]);
+
+const renderMarkdown = (text: string) => {
+    if (!text) return '';
+    return md.render(text);
+};
 </script>
+
+<style scoped>
+:deep(.p-timeline-event-opposite) {
+    display: none;
+}
+</style>

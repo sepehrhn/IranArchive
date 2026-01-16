@@ -12,7 +12,7 @@
       <div class="flex flex-wrap items-start justify-between gap-4">
         <h1 class="text-3xl font-bold text-gray-900 dark:text-white">{{ incident.title }}</h1>
         <div class="flex gap-2">
-            <Tag :value="incident.status.toUpperCase()" :severity="getStatusColor(incident.status)" />
+            <Tag :value="formatStatus(incident.status)" :severity="getStatusColor(incident.status)" />
         </div>
       </div>
 
@@ -41,7 +41,7 @@
       </div>
 
       <div class="flex flex-wrap gap-2 mt-2">
-        <Chip v-for="tag in incident.tags" :key="tag" :label="tag" class="text-xs" />
+        <!-- Tags removed -->
       </div>
 
       <Card class="mt-4 bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 shadow-none">
@@ -79,7 +79,7 @@
 
 <script setup lang="ts">
 import { type Incident, type StatsRange } from '~/types/incident';
-import { formatRange, getStatusColor } from '~/utils/formatters';
+import { formatRange, getStatusColor, formatStatus } from '~/utils/formatters';
 
 defineProps<{
   incident: Incident;

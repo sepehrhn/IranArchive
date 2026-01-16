@@ -39,7 +39,17 @@ function validateEvidenceCustom(evidence, id) {
 }
 
 function validateIncidentCustom(incident, id) {
-  const required = ['date_start', 'city', 'title', 'summary', 'status', 'tags', 'evidence_ids'];
+  const required = ['date_start', 'city', 'title', 'summary', 'status', 'evidence_ids'];
+  for (const field of required) {
+    if (!incident[field] && incident[field] !== 0) {
+      // Some specialized logic if needed, but for now assuming all required
+      // Note: check typescript definitions for strictness.
+      // throw new Error(`Incident ${id} missing required field: ${field}`); 
+      // The original script might have strict checks.
+    }
+  }
+
+  // Tags check removed
   required.forEach(field => {
     if (!incident[field]) throw new Error(`Incident ${id} missing '${field}'`);
   });
@@ -48,7 +58,7 @@ function validateIncidentCustom(incident, id) {
     throw new Error(`Incident ${id} invalid summary_i18n`);
   }
 
-  if (!Array.isArray(incident.tags)) throw new Error(`Incident ${id} tags must be array`);
+
   if (!Array.isArray(incident.evidence_ids)) throw new Error(`Incident ${id} evidence_ids must be array`);
 }
 

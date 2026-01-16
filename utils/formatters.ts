@@ -1,11 +1,11 @@
 import { type DateRange, type IncidentSeverity } from '~/types/incident';
 
-// Custom formatter for yy/mm/dd
+// Custom formatter for YYYY/MM/DD
 function formatDateStyle(date: Date): string {
-    const yy = date.getFullYear().toString().slice(-2);
+    const yyyy = date.getFullYear().toString();
     const mm = (date.getMonth() + 1).toString().padStart(2, '0');
     const dd = date.getDate().toString().padStart(2, '0');
-    return `${yy}/${mm}/${dd}`;
+    return `${yyyy}/${mm}/${dd}`;
 }
 
 export function formatDate(dateStr?: string, options?: Intl.DateTimeFormatOptions): string {
@@ -32,9 +32,18 @@ export function formatDateTime(dateStr?: string): string {
 }
 
 export function formatRange(range: DateRange): string {
-    const start = formatDate(range.start, { dateStyle: 'medium', timeStyle: 'short' });
+    let start = formatDate(range.start);
+    if (range.start_time) {
+        start += ` ${range.start_time}`;
+    }
+
     if (!range.end) return start;
-    const end = formatDate(range.end, { dateStyle: 'medium', timeStyle: 'short' });
+
+    let end = formatDate(range.end);
+    if (range.end_time) {
+        end += ` ${range.end_time}`;
+    }
+
     return `${start} - ${end}`;
 }
 
@@ -58,6 +67,12 @@ export function formatSeverity(severity: IncidentSeverity): string {
     }
 
     return parts.length > 0 ? parts.join(', ') : 'No casualty data';
+}
+
+export function formatStatus(status: string): string {
+    if (!status) return '';
+    // Replace underscores with spaces and capitalize words
+    return status.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
 }
 
 export function getStatusColor(status: string): string {

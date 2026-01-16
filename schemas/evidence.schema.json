@@ -13,8 +13,7 @@
             "enum": [
                 "video",
                 "photo",
-                "doc",
-                "testimony"
+                "doc"
             ]
         },
         "source_url": {

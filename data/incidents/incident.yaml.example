@@ -1,31 +1,161 @@
-# Unique identifier for the incident (URL-friendly, no spaces)
-# Example: protest-tehran-sep-17
-incident_id: example-incident-slug
+# Unique identifier for the incident (URL-friendly, no spaces, persistent)
+id: "inc-YYYY-0000X"
 
-# Human-readable title
-title: Protest in Tehran
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "not_verified"
 
-# Brief summary of the event (shown in lists)
-summary: This is a brief summary of the incident describing what happened, where, and who was involved.
-
-# Date range of the incident (ISO 8601 format)
-# Note: precision can be 'exact', 'approx', or 'unknown' if added to extended date object
-date_start: '2022-09-17T14:30:00Z'
-date_end: '2022-09-17T16:00:00Z'
+# Date and time range of the incident
+occurred_at:
+  # Start time in YYYY/MM/DD format
+  start: "2026/01/01"
+  # End time (optional)
+  end: ""
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
 
 # Location details
-city: Tehran
-province: Tehran
+location:
+  country: "Iran"
+  # Province name
+  province: "Tehran"
+  # City name
+  city: "Tehran"
+  # Specific address or landmark (optional)
+  address: ""
+  # Latitude (optional)
+  lat: 
+  # Longitude (optional)
+  lng: 
 
-# Verification status
-# Options: unverified, partially_verified, verified, disputed
-status: unverified
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Protest"
 
-# Tags for categorization (lower-case, underscores)
-tags:
-  - protest
-  - women_rights
-  - tehran
+# Estimated severity statistics (optional)
+# each range has 'min' and 'max' properties
+severity:
+  deaths:
+    min: 0
+    max: 0
+  injured:
+    min: 0
+    max: 0
+  arrests:
+    min: 0
+    max: 0
 
-# IDs of evidence files related to this incident
-evidence_ids: []
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Title of the Incident"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "A brief summary of what happened."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  A detailed description of the incident...
+  Can span multiple paragraphs.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Claim 1"
+  - "Claim 2"
+
+# Open questions or missing information
+open_questions:
+  - "Who lay command?"
+  - "Exact number of injured?"
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "Verified footage is limited"
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence items (Videos, Photos, Documents)
+evidence:
+  - id: "ev-YYYY-0000X-vid-001"
+    # Type: 'video' | 'photo' | 'document'
+    type: "video"
+    title: "Video Title"
+    description: "Description..."
+    # Relative path to file in /data/evidence (served via /evidence/)
+    # Path format: YYYY/mon/filename.ext (e.g. 2026/jan/video.mp4)
+    file_path: "YYYY/mon/filename.mp4"
+    # When the footage was captured (YYYY/MM/DD)
+    captured_at: "2026/01/01"
+    # Location claimed in the footage/metadata
+    claimed_location: "Location"
+    
+    # Provenance / Chain of Custody
+    provenance:
+      submitted_by: "Anonymous"
+      first_published_at: "2026/01/01"
+      first_published_url: ""
+      chain_of_custody_note: "Downloaded directly from source."
+    
+    # Corroboration with other evidence
+    corroboration:
+      related_evidence_ids: []
+      notes: ""
+    
+    # Flags: e.g. 'verified_location', 'verified_time', 'graphic_content'
+    flags: []
+    # Content warning
+    # Options: 'graphic' | 'violence' | 'none'
+    content_warning: "none"
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-001"
+    label: "News Report Title"
+    url: "https://news.com/report"
+    publisher: "News Agency"
+    published_at: "2026/01/02"
+    # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Corroborates time and place."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/01"
+    title: "Event Starts"
+    description: "Crowd begins to form."
+    # Evidence IDs linked to this specific moment
+    evidence_ids: ["ev-YYYY-0000X-vid-001"]
+
+# Internal review history
+review_history:
+  - at: "2026/01/03"
+    reviewer: "user_id"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "created"
+    to_status: "not_verified"
+    notes: "Initial draft."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims:
+  - id: "vic-001"
+    name: "Name of Victim"
+    slug: "victim-slug"
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents:
+  - id: "inc-YYYY-0000Y"
+    title: "Related Incident Title"
+    slug: "related-incident-slug"
+    status: "verified"
