@@ -1,6 +1,3 @@
-# Unique identifier for the incident (URL-friendly, no spaces, persistent)
-id: "inc-YYYY-0000X"
-
 # Verification status of the incident
 # Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
 status: "not_verified"
@@ -80,38 +77,11 @@ limitations:
 # Collections
 # -----------------------------------------------------------------------------
 
-# Evidence items (Videos, Photos, Documents)
-evidence:
-  - id: "ev-YYYY-0000X-vid-001"
-    # Type: 'video' | 'photo' | 'document'
-    type: "video"
-    title: "Video Title"
-    description: "Description..."
-    # Relative path to file in /data/evidence (served via /evidence/)
-    # Path format: YYYY/mon/filename.ext (e.g. 2026/jan/video.mp4)
-    file_path: "YYYY/mon/filename.mp4"
-    # When the footage was captured (YYYY/MM/DD)
-    captured_at: "2026/01/01"
-    # Location claimed in the footage/metadata
-    claimed_location: "Location"
-    
-    # Provenance / Chain of Custody
-    provenance:
-      submitted_by: "Anonymous"
-      first_published_at: "2026/01/01"
-      first_published_url: ""
-      chain_of_custody_note: "Downloaded directly from source."
-    
-    # Corroboration with other evidence
-    corroboration:
-      related_evidence_ids: []
-      notes: ""
-    
-    # Flags: e.g. 'verified_location', 'verified_time', 'graphic_content'
-    flags: []
-    # Content warning
-    # Options: 'graphic' | 'violence' | 'none'
-    content_warning: "none"
+# Evidence IDs (referencing files in /data/evidences/)
+# Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
+# IDs are the filenames (e.g. ev-2026-00001-vid-001)
+evidence_ids:
+  - "ev-YYYY-0000X-vid-001"
 
 # Sources (News reports, social media posts, etc.)
 sources:

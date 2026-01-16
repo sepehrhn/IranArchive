@@ -3,7 +3,7 @@ import { type Evidence } from '~/types/incident';
 export const useEvidence = () => {
     // Eagerly load all evidence files.
     // In a larger app, we could optimize this or use a server endpoint.
-    const evidenceFiles = import.meta.glob('~/data/evidence/**/*.yaml', { eager: true });
+    const evidenceFiles = import.meta.glob('~/data/evidences/**/*.yaml', { eager: true });
 
     const fetchEvidenceById = (id: string): Evidence | null => {
         // Since we are looking for a file named <id>.yaml

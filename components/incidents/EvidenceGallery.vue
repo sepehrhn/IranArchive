@@ -161,7 +161,7 @@ const config = useRuntimeConfig();
 const getEvidenceUrl = (path: string) => {
     // Ensure base URL is handled correctly
     const baseUrl = config.app.baseURL.endsWith('/') ? config.app.baseURL : `${config.app.baseURL}/`;
-    return `${baseUrl}evidence/${path}`;
+    return `${baseUrl}evidences/${path}`;
 };
 
 const types: EvidenceType[] = ['video', 'photo', 'document'];

@@ -38,8 +38,8 @@ export default defineNuxtConfig({
         },
         publicAssets: [
             {
-                dir: resolve(__dirname, 'data/evidence'),
-                baseURL: '/evidence'
+                dir: resolve(__dirname, 'data/evidences'),
+                baseURL: '/evidences'
             }
         ]
     },

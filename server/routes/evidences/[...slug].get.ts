@@ -15,7 +15,7 @@ export default defineEventHandler(async (event) => {
 
     // Construct absolute path. Note: in production (bundled), managing data dir might be different.
     // For local dev and "prerender" copy logic, we look at the source.
-    const filePath = resolve(process.cwd(), 'data', 'evidence', safeSlug);
+    const filePath = resolve(process.cwd(), 'data', 'evidences', safeSlug);
 
     if (!existsSync(filePath)) {
         throw createError({ statusCode: 404, statusMessage: 'File not found' });
