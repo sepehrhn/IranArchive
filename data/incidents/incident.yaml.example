@@ -101,6 +101,7 @@ sources:
 # Timeline of events within the incident
 timeline:
   - at: "2026/01/01"
+    time: "14:30"
     title: "Event Starts"
     description: "Crowd begins to form."
     # Evidence IDs linked to this specific moment

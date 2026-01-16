@@ -98,6 +98,7 @@ sources: []
 # Timeline of events within the incident
 timeline:
   - at: "2026/01/09"
+    time: ""
     title: "Video Recorded"
     description: "Witness records armed forces marching and firing in Karaj."
     # Evidence IDs linked to this specific moment

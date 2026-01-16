@@ -12,6 +12,7 @@
     "gen-metadata": "node scripts/generate-metadata.js"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^2.0.2",
     "@nuxtjs/color-mode": "latest",
     "@nuxtjs/i18n": "latest",
     "@nuxtjs/tailwindcss": "latest",
@@ -26,9 +27,6 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@oxc-minify/binding-linux-x64-gnu": "^0.102.0",
-    "@oxc-parser/binding-linux-x64-gnu": "^0.102.0",
-    "@oxc-transform/binding-linux-x64-gnu": "^0.102.0",
     "@primevue/nuxt-module": "^4.5.4",
     "@rollup/plugin-yaml": "^4.1.2",
     "@types/js-yaml": "^4.0.9",

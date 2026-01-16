@@ -19,6 +19,14 @@ const toggleDark = () => {
         </div>
         
         <div class="flex items-center gap-4">
+            <a href="https://x.com/Iran_Archive" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+                <Button 
+                    icon="pi pi-twitter" 
+                    severity="secondary" 
+                    rounded 
+                    text 
+                />
+            </a>
             <Button 
                 @click="toggleDark" 
                 :icon="isDark ? 'pi pi-moon' : 'pi pi-sun'" 
