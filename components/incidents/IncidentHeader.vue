@@ -51,8 +51,11 @@
                     <h3 class="font-semibold mb-2">Summary</h3>
                     <p class="text-gray-700 dark:text-gray-300">{{ incident.summary }}</p>
                 </div>
-                <Divider layout="vertical" class="hidden md:flex" />
-                <Divider layout="horizontal" class="flex md:hidden" />
+                <!-- Vertical Divider (Desktop) -->
+                <div class="hidden md:block w-px bg-surface-200 dark:bg-surface-700 self-stretch shrink-0"></div>
+                <!-- Horizontal Divider (Mobile) -->
+                <div class="block md:hidden h-px w-full bg-surface-200 dark:bg-surface-700"></div>
+                
                 <div class="w-full md:w-1/3">
                     <h3 class="font-semibold mb-2">Confirmed Impact</h3>
                     <ul class="space-y-1 text-sm">
