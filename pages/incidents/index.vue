@@ -8,8 +8,20 @@ const { t } = useI18n()
 const incidentModules = import.meta.glob('~/data/incidents/**/*.yaml', { eager: true });
 
 const incidents = computed(() => {
-    return Object.values(incidentModules)
-        .map((mod: any) => mod.default as Incident)
+    return Object.entries(incidentModules)
+        .map(([path, mod]: [string, any]) => {
+            const incident = mod.default as Incident;
+            
+            // Derive ID from filename
+            const parts = path.split('/');
+            const filename = parts[parts.length - 1];
+            const id = filename.replace('.yaml', '');
+            
+            return {
+                ...incident,
+                id
+            };
+        })
         .filter(incident => incident.status !== 'draft')
         .sort((a, b) => {
             return new Date(b.occurred_at.start).getTime() - new Date(a.occurred_at.start).getTime();
