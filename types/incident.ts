@@ -83,6 +83,7 @@ export interface Source {
 
 export interface TimelineEvent {
     at: string; // Format: YYYY/MM/DD or ISO
+    time?: string; // Format: HH:MM (24h)
     title: string;
     description: string;
     evidence_ids?: string[];

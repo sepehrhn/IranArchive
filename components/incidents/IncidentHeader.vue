@@ -31,13 +31,12 @@
       </div>
 
       <!-- Map Placeholder (to be replaced with MapLibre/Leaflet later if needed) -->
-      <div v-if="incident.location.lat" class="w-full h-48 bg-gray-100 dark:bg-gray-800 rounded-lg flex items-center justify-center text-gray-500 overflow-hidden relative border border-gray-200 dark:border-gray-700">
-         <div class="absolute inset-0 flex items-center justify-center">
-             <div class="text-center">
-                 <i class="pi pi-map text-2xl mb-2"></i>
-                 <p class="text-sm">Map Preview: {{ incident.location.lat }}, {{ incident.location.lng }}</p>
-             </div>
-         </div>
+      <!-- Map Preview -->
+      <div v-if="incident.location.lat" class="w-full h-48 rounded-lg overflow-hidden border border-gray-200 dark:border-gray-700">
+          <IncidentsIncidentMap 
+            :lat="incident.location.lat" 
+            :lng="incident.location.lng" 
+          />
       </div>
 
       <div class="flex flex-wrap gap-2 mt-2">

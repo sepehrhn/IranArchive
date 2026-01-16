@@ -8,7 +8,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const DATA_DIR = path.resolve(__dirname, '../data');
-const EVIDENCE_DIR = path.join(DATA_DIR, 'evidence');
+const EVIDENCE_DIR = path.join(DATA_DIR, 'evidences');
 const OUTPUT_FILE = path.join(DATA_DIR, 'generated', 'evidence-metadata.json');
 
 // Map of extension to mime type (incomplete, but covers basics)

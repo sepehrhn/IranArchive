@@ -1,8 +1,50 @@
 {
-  "2026/jan/karaj-martial-law-vid-001.mp4": {
+  "2026/jan/vid-2026-00001.mp4": {
     "sha256": "88e87dd4d88b1831325068f4f813f9a97ca527f9bd0bb771959c2a0876991dc2",
     "file_size_bytes": 2502201,
     "format": "mp4",
     "mime_type": "video/mp4"
+  },
+  "2026/jan/vid-2026-00001.yaml": {
+    "sha256": "73c666eb4837a7fc78a92ea75fca0f12032c1e8308204f4a733ae61678c4ad3d",
+    "file_size_bytes": 1075,
+    "format": "yaml",
+    "mime_type": "application/octet-stream"
+  },
+  "2026/jan/vid-2026-00002.mp4": {
+    "sha256": "0cf7e7fdb9c2b26c15ee9f46ae38edc7bf141257b270e3f1c194c48c05985b76",
+    "file_size_bytes": 20949282,
+    "format": "mp4",
+    "mime_type": "video/mp4"
+  },
+  "2026/jan/vid-2026-00002.yaml": {
+    "sha256": "d15e675727b05a1ccbf4f191b3f57af561021dec546ad137a52129a529b435ff",
+    "file_size_bytes": 1135,
+    "format": "yaml",
+    "mime_type": "application/octet-stream"
+  },
+  "2026/jan/vid-2026-00003.mp4": {
+    "sha256": "319126c587707cb231de4672b0c878c97f47214078fea357a962e381998893ce",
+    "file_size_bytes": 54258001,
+    "format": "mp4",
+    "mime_type": "video/mp4"
+  },
+  "2026/jan/vid-2026-00003.yaml": {
+    "sha256": "d7fcc55752b39a2c54a6a9b0600c6ad879753f3b4334e54664734a7e14077baf",
+    "file_size_bytes": 1052,
+    "format": "yaml",
+    "mime_type": "application/octet-stream"
+  },
+  "2026/jan/vid-2026-00004.mp4": {
+    "sha256": "562c32a4accd4ae560aba712ef116c7c194497b590486f321dc9058cba42bf5f",
+    "file_size_bytes": 4671152,
+    "format": "mp4",
+    "mime_type": "video/mp4"
+  },
+  "2026/jan/vid-2026-00004.yaml": {
+    "sha256": "f1c616b0da8c25c239ae071113adc6b7dbaeb1df038836d76ca5164d0246e30e",
+    "file_size_bytes": 938,
+    "format": "yaml",
+    "mime_type": "application/octet-stream"
   }
 }

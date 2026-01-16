@@ -17,6 +17,16 @@ export default defineNuxtConfig({
         ]
     },
 
+    css: [
+        'primeicons/primeicons.css'
+    ],
+
+    runtimeConfig: {
+        public: {
+            googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY || ''
+        }
+    },
+
     app: {
         baseURL: process.env.NUXT_APP_BASE_URL || '/',
         head: {
@@ -38,8 +48,9 @@ export default defineNuxtConfig({
         },
         publicAssets: [
             {
-                dir: resolve(__dirname, 'data/evidences'),
-                baseURL: '/evidences'
+                dir: resolve(process.cwd(), 'data/evidences'),
+                baseURL: '/evidences',
+                maxAge: 60 * 60 * 24 * 365 // 1 year
             }
         ]
     },

@@ -109,6 +109,7 @@ sources:
 # Timeline of events within the incident
 timeline:
   - at: "2026/01/15"
+    time: ""
     title: "Resident report received/published"
     description: "A Tabriz resident reports curfew guidance (after 20:00), closures of the Grand Bazaar and major food retailers, and widespread deployment of security forces across the city."
     evidence_ids: []

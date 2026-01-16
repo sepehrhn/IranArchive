@@ -5,7 +5,7 @@
       <div class="absolute -left-[24.5px] top-1.5 w-4 h-4 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
       
       <div class="mb-1 text-sm text-gray-500 dark:text-gray-400 font-mono">
-        {{ formatDateTime(event.at) }}
+        {{ formatDate(event.at) }}<span v-if="event.time" class="ml-1">{{ event.time }}</span>
       </div>
       
       <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">{{ event.title }}</h3>
@@ -31,7 +31,7 @@
 
 <script setup lang="ts">
 import { type TimelineEvent } from '~/types/incident';
-import { formatDateTime } from '~/utils/formatters';
+import { formatDate } from '~/utils/formatters';
 
 defineProps<{
   events: TimelineEvent[];
