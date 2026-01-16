@@ -8,13 +8,16 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "validate": "node scripts/validate-data.js"
+    "validate": "node scripts/validate-data.js",
+    "gen-metadata": "node scripts/generate-metadata.js"
   },
   "dependencies": {
     "@nuxtjs/color-mode": "latest",
     "@nuxtjs/i18n": "latest",
     "@nuxtjs/tailwindcss": "latest",
     "@primevue/themes": "latest",
+    "@types/markdown-it": "^14.1.2",
+    "markdown-it": "^14.1.0",
     "nuxt": "^3.11.2",
     "primeicons": "latest",
     "primevue": "latest",

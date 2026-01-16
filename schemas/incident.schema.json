@@ -37,12 +37,6 @@
         "disputed"
       ]
     },
-    "tags": {
-      "type": "array",
-      "items": {
-        "type": "string"
-      }
-    },
     "evidence_ids": {
       "type": "array",
       "items": {
@@ -57,7 +51,6 @@
     "title",
     "summary",
     "status",
-    "tags",
     "evidence_ids"
   ],
   "additionalProperties": false

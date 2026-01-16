@@ -1,6 +1,6 @@
-export type IncidentStatus = 'not_verified' | 'disputed' | 'verified';
+export type IncidentStatus = 'draft' | 'not_verified' | 'disputed' | 'verified';
 
-export type EvidenceType = 'video' | 'photo' | 'document' | 'testimony';
+export type EvidenceType = 'video' | 'photo' | 'document';
 export type ContentWarning = 'graphic' | 'violence' | 'none';
 export type SourceType = 'primary' | 'secondary';
 
@@ -8,14 +8,16 @@ export interface Location {
     country: string;
     province?: string;
     city?: string;
-    address?: string;
+    address?: string; // Optional if event covers the entire city
     lat?: number;
     lng?: number;
 }
 
 export interface DateRange {
-    start: string;
-    end?: string;
+    start: string; // Format: YYYY/MM/DD or ISO
+    start_time?: string; // Format: HH:MM (24h)
+    end?: string;  // Format: YYYY/MM/DD or ISO
+    end_time?: string; // Format: HH:MM (24h)
     timezone: string;
     precision: 'exact' | 'approx' | 'unknown';
 }
@@ -57,12 +59,8 @@ export interface Evidence {
     type: EvidenceType;
     title: string;
     description: string;
-    urls: {
-        primary: string;
-        mirrors?: string[];
-        archived?: string[];
-    };
-    captured_at?: string; // ISO Date
+    file_path: string; // Relative path to /public/evidence, e.g. "2026/01/video.mp4"
+    captured_at?: string; // Format: YYYY/MM/DD or ISO
     claimed_location?: string;
     provenance: Provenance;
     technical: TechnicalDetails;
@@ -76,7 +74,7 @@ export interface Source {
     label: string;
     url: string;
     publisher?: string;
-    published_at?: string; // ISO Date
+    published_at?: string; // Format: YYYY/MM/DD or ISO
     type: SourceType;
     archived_urls?: string[];
     language?: string;
@@ -84,14 +82,14 @@ export interface Source {
 }
 
 export interface TimelineEvent {
-    at: string; // ISO Date
+    at: string; // Format: YYYY/MM/DD or ISO
     title: string;
     description: string;
     evidence_ids?: string[];
 }
 
 export interface ReviewEntry {
-    at: string; // ISO Date
+    at: string; // Format: YYYY/MM/DD or ISO
     reviewer: string;
     change: 'created' | 'status_changed' | 'evidence_added' | 'details_updated';
     from_status?: IncidentStatus;
@@ -102,24 +100,21 @@ export interface ReviewEntry {
 export interface Victim {
     id: string;
     name: string;
-    slug?: string;
 }
 
 export interface RelatedIncident {
     id: string;
     title: string;
-    slug: string;
     status: IncidentStatus;
 }
 
 export interface Incident {
     id: string;
-    slug: string;
     status: IncidentStatus;
     occurred_at: DateRange;
     location: Location;
     incident_type: string;
-    tags: string[];
+    // Tags removed
     severity: IncidentSeverity;
 
     // Content

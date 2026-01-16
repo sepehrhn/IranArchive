@@ -1,0 +1,136 @@
+# Unique identifier for the incident (URL-friendly, no spaces, persistent)
+id: "inc-2026-00002"
+
+# Verification status of the incident
+# Options: 'not_verified' | 'disputed' | 'verified'
+status: "not_verified"
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/15"
+  start_time: "20:00"
+  # End date/time (optional)
+  end: ""
+  end_time: ""
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "East Azerbaijan"
+  # City name
+  city: "Tabriz"
+  # Specific address or landmark (optional)
+  address: ""
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Martial Law"
+
+# Estimated severity statistics (optional)
+# each range has 'min' and 'max' properties
+severity:
+  deaths:
+    min: 0
+    max: 0
+  injured:
+    min: 0
+    max: 0
+  arrests:
+    min: 0
+    max: 0
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Martial Law in Tabriz"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "A resident reported to Iran International that authorities announced a curfew in Tabriz (no street presence after 20:00) and that large markets and major grocery stores were closed, with widespread security deployments across the city."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  On January 15, 2026, a Tabriz resident sent a message to Iran International claiming that “martial law” conditions had been imposed in the city.
+
+  The source reported that residents were told they should not be in the streets after 20:00. They also stated that Tabriz’s Grand Bazaar and major grocery/food retailers were fully closed, while some small local shops opened for limited hours. According to the source, access to basic goods (including meat, chicken, and rice) had become difficult.
+
+  The source further claimed that large numbers of military and security forces were deployed across all areas of Tabriz, including smaller neighborhoods far from the city center, stationed on foot and in military buses.
+
+  This incident is currently **not verified** beyond the single-source report and requires corroboration (official notices, additional eyewitnesses, imagery/video, and confirmation of closures and deployments).
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Authorities announced a curfew in Tabriz, instructing residents not to be on the streets after 20:00."
+  - "The Grand Bazaar of Tabriz and major food retailers were fully closed."
+  - "Access to key staples (meat, chicken, rice) became difficult due to closures and disruptions."
+  - "Military and security forces were widely deployed across Tabriz, including peripheral neighborhoods, on foot and in military buses."
+
+# Open questions or missing information
+open_questions:
+  - "Was there an official written order/notice for the curfew or closures (and what agency issued it)?"
+  - "When did the measures begin (date/time) and how long are they expected to last?"
+  - "Which units/organizations were deployed (e.g., police, IRGC, Basij), and can uniforms/vehicles be identified?"
+  - "Are there photos/videos confirming closures of the Grand Bazaar and major grocery stores?"
+  - "Are there verified reports of detentions, injuries, or the use of force linked to enforcement of the curfew?"
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "Based on a single citizen message relayed by a media outlet; no independent corroboration included in the submission."
+  - "No geolocated imagery, official documentation, or third-party verification of closures, shortages, or deployments at time of drafting."
+  - "No confirmed casualty, injury, or arrest figures available."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence items (Videos, Photos, Documents)
+evidence: []
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-2026-00001"
+    label: "پیام مخاطب: در تبریز حکومت نظامی برقرار شده است"
+    url: "https://www.iranintl.com/202601150139"
+    publisher: "Iran International"
+    published_at: "2026/01/15"
+    # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "Corroborates time and place."
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/15"
+    title: "Resident report received/published"
+    description: "A Tabriz resident reports curfew guidance (after 20:00), closures of the Grand Bazaar and major food retailers, and widespread deployment of security forces across the city."
+    evidence_ids: []
+
+# Internal review history
+review_history:
+  - at: "2026/01/16"
+    reviewer: "Sepehr"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "created"
+    to_status: "not_verified"
+    notes: "Created based on a single-source resident report relayed by Iran International."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []
