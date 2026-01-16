@@ -42,9 +42,9 @@
                      <!-- Content Display -->
                      <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-50">
                         <template v-if="item.type === 'video' || item.type === 'photo'">
-                             <img v-if="item.type === 'photo'" :src="`/evidence/${item.file_path}`" class="w-full h-full object-cover" />
+                             <img v-if="item.type === 'photo'" :src="getEvidenceUrl(item.file_path)" class="w-full h-full object-cover" />
                              <!-- For video thumbnail we could try to load it or just show icon -->
-                             <video v-else-if="item.type === 'video'" :src="`/evidence/${item.file_path}`" class="w-full h-full object-cover" preload="metadata"></video>
+                             <video v-else-if="item.type === 'video'" :src="getEvidenceUrl(item.file_path)" class="w-full h-full object-cover" preload="metadata"></video>
                              <i v-else :class="getTypeIcon(item.type)" class="text-6xl text-gray-300 dark:text-gray-700"></i>
                         </template>
                         <i v-else :class="getTypeIcon(item.type)" class="text-6xl text-gray-300 dark:text-gray-700"></i>
@@ -118,11 +118,11 @@
     >
         <div v-if="selectedEvidence" class="flex flex-col items-center justify-center p-0 overflow-hidden bg-black rounded-lg">
             <template v-if="selectedEvidence.type === 'photo'">
-                <img :src="`/evidence/${selectedEvidence.file_path}`" :alt="selectedEvidence.title" class="max-w-full max-h-[70vh] object-contain" @contextmenu.prevent />
+                <img :src="getEvidenceUrl(selectedEvidence.file_path)" :alt="selectedEvidence.title" class="max-w-full max-h-[70vh] object-contain" @contextmenu.prevent />
             </template>
             <template v-else-if="selectedEvidence.type === 'video'">
                 <video 
-                    :src="`/evidence/${selectedEvidence.file_path}`" 
+                    :src="getEvidenceUrl(selectedEvidence.file_path)" 
                     controls 
                     controlsList="nodownload" 
                     class="max-w-full max-h-[70vh]" 
@@ -156,6 +156,13 @@ import { formatDate, formatDateTime } from '~/utils/formatters';
 const props = defineProps<{
   evidence: Evidence[];
 }>();
+
+const config = useRuntimeConfig();
+const getEvidenceUrl = (path: string) => {
+    // Ensure base URL is handled correctly
+    const baseUrl = config.app.baseURL.endsWith('/') ? config.app.baseURL : `${config.app.baseURL}/`;
+    return `${baseUrl}evidence/${path}`;
+};
 
 const types: EvidenceType[] = ['video', 'photo', 'document'];
 const selectedType = ref<EvidenceType | null>(null);
