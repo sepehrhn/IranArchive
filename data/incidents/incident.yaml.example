@@ -4,10 +4,12 @@ status: "not_verified"
 
 # Date and time range of the incident
 occurred_at:
-  # Start time in YYYY/MM/DD format
+  # Start date in YYYY/MM/DD format
   start: "2026/01/01"
-  # End time (optional)
+  start_time: "20:00"
+  # End date (optional)
   end: ""
+  end_time: ""
   # Timezone string (e.g. 'Asia/Tehran')
   timezone: "Asia/Tehran"
   # Date precision
