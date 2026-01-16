@@ -34,7 +34,13 @@ export default defineNuxtConfig({
         preset: 'github-pages',
         prerender: {
             routes: []
-        }
+        },
+        publicAssets: [
+            {
+                dir: 'data/evidence',
+                baseURL: '/evidence'
+            }
+        ]
     },
 
 
