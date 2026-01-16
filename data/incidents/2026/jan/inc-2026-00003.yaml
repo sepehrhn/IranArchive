@@ -5,11 +5,11 @@ status: "disputed"
 # Date and time range of the incident
 occurred_at:
   # Start time in YYYY/MM/DD format
-  start: "2026/01/09"
-  start_time: ""
+  start: "2026/01/08"
+  start_time: "20:00"
   # End time (optional)
-  end: ""
-  end_time: ""
+  end: "2026/01/09"
+  end_time: "20:00"
   # Timezone string (e.g. 'Asia/Tehran')
   timezone: "Asia/Tehran"
   # Date precision
@@ -193,65 +193,75 @@ sources:
 
 # Timeline of events within the incident
 timeline:
-  - at: "2026/01/09"
-    time: ""
+  - at: "2026/01/08"
+    time: "20:00"
     title: "Crowds gather near Municipality Square; movement toward bazaar/market area (reported)"
     description: "Accounts describe crowds forming near Meydān-e Shahrdāri and moving toward bazaar/market area as violence escalated."
     evidence_ids: ["vid-2026-00002"]
+    source_ids: ["src-002", "src-005"]
 
-  - at: "2026/01/09"
-    time: ""
+  - at: "2026/01/08"
+    time: "21:00"
     title: "Fire reported in bazaar/market area"
     description: "A major fire is reported affecting Rasht Bazaar/market area; ignition cause and first source contested."
     evidence_ids: ["vid-2026-00002", "vid-2026-00004"]
+    source_ids: ["src-001", "src-002", "src-003", "src-004"]
 
-  - at: "2026/01/09"
-    time: ""
-    title: "Claimed denial of firefighting access"
-    description: "Iran International studio commentary alleges the area was surrounded and fire trucks were not allowed to enter."
-    evidence_ids: ["vid-2026-00003"]
-
-  - at: "2026/01/09"
+  - at: "2026/01/08"
     time: ""
     title: "Claimed denial of firefighting access (contested)"
-    description: "Iran International commentary alleges the area was surrounded and fire trucks were not allowed to enter."
+    description: "Iran International studio commentary alleges the area was surrounded and fire trucks were not allowed to enter."
     evidence_ids: ["vid-2026-00003"]
+    source_ids: ["src-006"]
 
-  - at: "2026/01/09"
+  - at: "2026/01/08"
     time: ""
     title: "Alleged shootings as people fled (contested)"
     description: "Multiple narratives allege people escaping the bazaar/market area were shot; casualty figures unverified."
     evidence_ids: ["vid-2026-00002", "vid-2026-00003"]
+    source_ids: ["src-002", "src-005", "src-006"]
 
   - at: "2026/01/09"
     time: ""
     title: "Bodies at hospitals; irregular removal/burials (alleged)"
     description: "Iran International commentary alleges bodies were left in hospital courtyards and some families removed bodies without official procedures due to fear of concealment."
     evidence_ids: ["vid-2026-00003"]
+    source_ids: ["src-006"]
 
   - at: "2026/01/09"
     time: ""
     title: "Arrest wave and communications suppression (alleged)"
     description: "Iran International commentary alleges broad arrests and attempts to cut communications after the incident."
     evidence_ids: ["vid-2026-00003"]
+    source_ids: ["src-006"]
 
-  - at: "2026/01/09"
+  - at: "2026/01/12"
     time: ""
     title: "IRIB follow-up report filmed 'three days after' the fire (exact broadcast date unknown)"
     description: "IRIB reports from the bazaar area, claims >300 shops burned, interviews shopkeepers about financial losses and mitigation; includes governor remarks and firefighters still extinguishing. Segment frames incident as 'terrorist fire.'"
     evidence_ids: ["vid-2026-00004"]
+    source_ids: ["src-007"]
 
-  - at: "2026/01/09"
+  - at: "2026/01/12"
     time: ""
     title: "State-aligned attribution published"
     description: "Tasnim publishes a report alleging rioters/protesters set Rasht Bazaar on fire."
     evidence_ids: []
+    source_ids: ["src-001"]
 
-  - at: "2026/01/09"
+  - at: "2026/01/13"
     time: ""
     title: "Iran International studio segment summarizes alleged pattern and concealment"
     description: "Analyst describes trap-by-fire tactic, shootings, mortuary overload, irregular burials, arrests, and execution risk; claims similar patterns occurred in other cities."
     evidence_ids: ["vid-2026-00003"]
+    source_ids: ["src-006"]
+
+  - at: "2026/01/14"
+    time: "09:34"
+    title: "Instagram post by @the_zhalzzz"
+    description: ""
+    evidence_ids: ["vid-2026-00002"]
+    source_ids: ["src-005"]
 
 # Internal review history
 review_history:

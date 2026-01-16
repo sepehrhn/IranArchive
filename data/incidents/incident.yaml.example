@@ -106,6 +106,8 @@ timeline:
     description: "Crowd begins to form."
     # Evidence IDs linked to this specific moment
     evidence_ids: ["ev-YYYY-0000X-vid-001"]
+    # Source IDs linked to this specific moment
+    source_ids: ["src-001"]
 
 # Internal review history
 review_history:

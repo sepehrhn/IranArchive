@@ -6,7 +6,7 @@
         <i class="pi pi-star-fill text-yellow-500"></i> Primary Sources
       </h3>
       <div class="space-y-4">
-        <div v-for="source in primarySources" :key="source.id" class="p-4 bg-white dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg hover:shadow-md transition-shadow">
+        <div v-for="source in primarySources" :key="source.id" :id="`source-${source.id}`" class="p-4 bg-white dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg hover:shadow-md transition-shadow">
           <a :href="source.url" target="_blank" rel="noopener noreferrer" class="block group">
             <h4 class="font-medium text-primary-600 group-hover:underline mb-1">{{ source.label }}</h4>
             <div class="text-xs text-gray-500 mb-2 truncate">{{ source.url }}</div>
@@ -27,7 +27,7 @@
       </h3>
       <div class="space-y-2">
          <ul class="list-disc list-inside space-y-2">
-             <li v-for="source in secondarySources" :key="source.id" class="text-sm text-gray-700 dark:text-gray-300">
+             <li v-for="source in secondarySources" :key="source.id" :id="`source-${source.id}`" class="text-sm text-gray-700 dark:text-gray-300">
                 <a :href="source.url" target="_blank" rel="noopener noreferrer" class="text-primary-600 hover:underline">
                     {{ source.label }}
                 </a>

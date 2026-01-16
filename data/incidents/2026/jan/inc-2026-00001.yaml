@@ -103,6 +103,7 @@ timeline:
     description: "Witness records armed forces marching and firing in Karaj."
     # Evidence IDs linked to this specific moment
     evidence_ids: ["ev-2026-00001-vid-001"]
+    source_ids: []
 
 # Internal review history
 review_history:

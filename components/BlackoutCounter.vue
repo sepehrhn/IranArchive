@@ -56,5 +56,30 @@ onUnmounted(() => {
                 <span class="text-xs md:text-sm uppercase text-surface-400 mt-2">Seconds</span>
             </div>
         </div>
+
+        <div class="w-full mt-8 border-t border-surface-700 pt-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                <div class="flex flex-col items-center space-y-2 p-3 bg-surface-800 rounded-lg">
+                    <i class="pi pi-check-circle text-green-500 text-2xl"></i>
+                    <span class="font-bold text-green-500">SMS Restored</span>
+                    <span class="text-xs text-surface-400">Mobile Networks</span>
+                </div>
+                <div class="flex flex-col items-center space-y-2 p-3 bg-surface-800 rounded-lg">
+                    <i class="pi pi-times-circle text-red-500 text-2xl"></i>
+                    <span class="font-bold text-red-500">Voice Calls</span>
+                    <span class="text-xs text-surface-400">Unavailable</span>
+                </div>
+                <div class="flex flex-col items-center space-y-2 p-3 bg-surface-800 rounded-lg">
+                    <i class="pi pi-times-circle text-red-500 text-2xl"></i>
+                    <span class="font-bold text-red-500">Internet</span>
+                    <span class="text-xs text-surface-400">Unavailable</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4 text-xs text-surface-500 text-center max-w-lg leading-relaxed bg-surface-800/50 p-3 rounded border border-surface-700">
+            <span class="block mb-1 font-semibold text-surface-400">New Report (Jan 17, 12:25 AM):</span>
+            Iran International cited local media reports stating that while SMS services have been restored across mobile networks, voice calls and internet access remain unavailable.
+        </div>
     </div>
 </template>
