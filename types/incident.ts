@@ -87,6 +87,7 @@ export interface TimelineEvent {
     title: string;
     description: string;
     evidence_ids?: string[];
+    source_ids?: string[];
 }
 
 export interface ReviewEntry {

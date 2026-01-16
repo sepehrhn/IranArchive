@@ -76,7 +76,7 @@
             <!-- Timeline -->
             <section class="sticky top-4">
                  <h2 class="text-xl font-bold mb-4">Timeline</h2>
-                 <IncidentsTimelineBlock :events="incident.timeline" @view-evidence="scrollToEvidence" />
+                 <IncidentsTimelineBlock :events="incident.timeline" :sources="incident.sources" @view-evidence="scrollToEvidence" @view-source="scrollToSource"/>
             </section>
 
         </div>
@@ -205,6 +205,15 @@ const scrollToEvidence = (id: string) => {
         el.scrollIntoView({ behavior: 'smooth', block: 'center' });
         el.classList.add('ring-2', 'ring-primary-500', 'ring-offset-2');
         setTimeout(() => el.classList.remove('ring-2', 'ring-primary-500', 'ring-offset-2'), 2000);
+    }
+};
+
+const scrollToSource = (id: string) => {
+    const el = document.getElementById(`source-${id}`);
+    if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        el.classList.add('ring-2', 'ring-blue-500', 'ring-offset-2');
+        setTimeout(() => el.classList.remove('ring-2', 'ring-blue-500', 'ring-offset-2'), 2000);
     }
 };
 
