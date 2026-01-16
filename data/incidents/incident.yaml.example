@@ -57,9 +57,7 @@ title: "Title of the Incident"
 summary: "A brief summary of what happened."
 
 # Detailed narrative of the event. Supports Markdown.
-narrative: |
-  A detailed description of the incident...
-  Can span multiple paragraphs.
+narrative: "A detailed description of the incident...\n\nCan span multiple paragraphs."
 
 # Key claims made about the incident (that may or may not be verified yet)
 key_claims:

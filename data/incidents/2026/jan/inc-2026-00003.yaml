@@ -3,13 +3,14 @@
 status: "disputed"
 
 # Date and time range of the incident
+# NOTE: Reported timelines conflict (state media coverage vs. diaspora/eyewitness claims).
 occurred_at:
-  # Start time in YYYY/MM/DD format
+  # Start date in YYYY/MM/DD format
   start: "2026/01/08"
   start_time: "20:00"
-  # End time (optional)
-  end: "2026/01/09"
-  end_time: "20:00"
+  # End date (optional)
+  end: "2026/01/11"
+  end_time: "06:00"
   # Timezone string (e.g. 'Asia/Tehran')
   timezone: "Asia/Tehran"
   # Date precision
@@ -24,17 +25,18 @@ location:
   # City name
   city: "Rasht"
   # Specific address or landmark (optional)
-  address: "Rasht Municipality Square (Meydan-e Shahrdari) / Rasht Bazaar vicinity"
+  address: "Rasht Bazaar (بازار رشت) / Municipality Square (میدان شهرداری) / surrounding market area"
   # Latitude (optional)
   lat: 37.27837686403026
   # Longitude (optional)
   lng: 49.583035801216205
 
 # Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
-incident_type: "Protest, Crackdown, Arson"
+incident_type: "Protest / Crackdown / Arson (disputed attribution)"
 
 # Estimated severity statistics (optional)
 # each range has 'min' and 'max' properties
+# NOTE: Casualty counts are unverified and highly disputed; see `key_claims` and `limitations`.
 severity:
   deaths:
     min: 0
@@ -51,61 +53,42 @@ severity:
 # -----------------------------------------------------------------------------
 
 # Human-readable title of the incident
-title: "Rasht Bazaar fire and alleged mass killing pattern"
+title: "Rasht Bazaar Fire (بازار رشت) and Disputed Claims of a Lethal Security-Forces Trap"
 
 # Brief summary (1-2 sentences) for lists and previews
-summary: "During Jan 2026 protests, a major fire impacted Rasht Bazaar/market area. Islamic Republic state media framed it as a 'terrorist' arson attack by protesters, while Iran International commentary and social testimony allege security forces used the fire to trap crowds and shot fleeing protesters; casualty and attribution remain unverified and contested."
+summary: "Iranian state media reported a major fire in Rasht Bazaar destroying 300+ shops and framed it as a 'terrorist' act, while opposition and social media accounts alleged a security-forces false-flag arson used to trap and shoot protesters; attribution and casualty claims remain unverified."
 
 # Detailed narrative of the event. Supports Markdown.
-narrative: |
-  During the January 2026 protests, multiple sources reported a large fire affecting Rasht Bazaar (بازار رشت) and/or the surrounding market area in Rasht, Gilan. Attribution and accompanying violence claims remain disputed.
+narrative: "**Overview**\n\nDuring the January 2026 Iranian national uprising—and amid significant communications disruption inside Iran—multiple information streams reported a major fire affecting **Rasht Bazaar (بازار رشت)** and the surrounding market area in Rasht, Gilan. The existence of a large fire is broadly reported, but **responsibility for the ignition, the intent behind it, and associated claims of lethal violence** remain **contested**.\n\n**State media narrative (IRIB)**\n\nOn **January 12, 2026**, Islamic Republic of Iran Broadcasting (**IRIB**) aired a report presented by **Mahdi Mahmoudi** describing the event as a **“terrorist fire”** in Rasht Bazaar, using language implying protesters are terrorists/foreign agents.  \nThe segment:\n- asserts that **more than 300 shops burned**, including via **aerial imagery**;\n- focuses on **shopkeeper interviews** describing severe losses and urging government mitigation (e.g., preventing returned checks);\n- includes remarks from the **governor** promising support and footage of **firefighters still working on-site**.\n\nA notable editorial feature in the segment is an **audible cut** as a firefighter begins discussing the need for **designated places for peaceful protest**, suggesting the broadcast narrative may have been edited to avoid messages inconsistent with the “terrorism” framing.\n\n**Social media amplification and early diaspora visibility**\n\nThe IRIB framing circulated widely on social media and was amplified by **state-affiliated outlets (e.g., Tasnim)**. Because of the reported **digital blackout**, this state-media circulation appears to have been one of the earliest ways **Iranian diaspora audiences** became aware of the incident. Online reaction frequently framed the bazaar fire as a **false-flag operation**, arguing that protests in/around the bazaar likely involved **shopkeepers themselves** and that burning a marketplace would be counter to their interests. Some users further argued that large-scale marketplace burnings were **not widely reported** earlier in the uprising (since **25 December 2025**), increasing suspicion.\n\n**Iran International “exclusive” segment and alleged operational pattern**\n\nOn **January 13, 2026**, **Iran International** broadcast a segment stating it had obtained **exclusive information**, featuring analyst **Ali Hossein Ghazizadeh**. In this account, the Rasht events are framed as a major state crime beginning **Thursday night and continuing into Friday**, alleging that:\n- security forces **surrounded** the area and **prevented fire trucks** from entering;\n- the fire was **allowed to expand** so protesters faced a forced choice between burning or moving toward security forces;\n- those fleeing were **shot**, with killings described as so extensive that they nearly **exceeded mortuary capacity**;\n- bodies were left at hospitals, and some families pursued **irregular burials** due to fears of concealment;\n- a subsequent wave of **arrests** and communications suppression followed, with warnings of potential executions to silence witnesses.\n\nThe segment does not clearly explain, within the clip, how the “exclusive” information was gathered or independently verified.\n\n**Diaspora eyewitness-style allegations and escalation of claims**\n\nAfter the Iran International segment, social media accounts began citing and “confirming” variations of the same narrative. An Instagram user (**the_zhalzzz**) posted an English-language reel stating the account was relayed by eyewitnesses and individuals described as members of the **“Javidan Guard.”**  \nIn parallel, an X account (**@LiberalAntiLeft**) posted a thread on **January 14, 2026**, claiming to share a report received from a Javidan Guard member. The thread alleges armed, unidentified pickup trucks with machine guns fired into crowds near **Municipality Square (میدان شهرداری)**, that people fled toward bazaar alleys, and that security forces set parts of the bazaar on fire to destroy evidence—asserting extremely high fatalities (1,000–2,000) in one scene. These claims are **unverified** and are recorded here as disputed allegations requiring substantial corroboration.\n\n**Current assessment**\n\nThis incident remains classified as **disputed** due to:\n- conflicting narratives from state media versus opposition/social sources;\n- the absence (in this report file) of independently verifiable primary evidence establishing **who ignited the fire** and whether **firefighting access was blocked**;\n- the lack of a confirmed casualty list or independently audited damage assessment."
 
-  **State media narrative (IRIB / Seday-o Sima)**
-  In a state-TV style report presented by IRIB reporter Mahdi Mahmoudi, the incident is described as a “terrorist fire” in Rasht market, with language implying protesters are terrorists/foreign agents. The segment asserts that **more than 300 shops** burned, including via aerial imagery, and focuses on interviews with shopkeepers describing severe financial losses and calling for government mitigation (e.g., returned checks). The report includes remarks from the governor promising support and footage of firefighters still extinguishing remaining flames. The segment contains an audible cut while a firefighter begins discussing the need for designated places for peaceful protest.
-
-  **Opposition / human-rights-linked and social narratives**
-  - A widely circulated first-person video narrative (originating on Instagram and later amplified on X) alleges security forces intentionally set the fire to trap crowds inside the bazaar and then shot people trying to escape.
-  - An Iran International studio segment with analyst Ali Hossein Ghazizadeh frames the Rasht events as a major state crime beginning Thursday night and continuing into Friday, alleging that security forces surrounded the area, blocked fire trucks, forced crowd movement via the spreading fire, and shot people fleeing; it further claims mortuary capacity was strained, bodies were left in hospitals, and families pursued irregular burials due to fear of concealment, followed by arrests and communications suppression.
-
-  **Assessment (why disputed)**
-  The incident is classified as **disputed** because:
-  - IRIB asserts a “terrorist arson” framing but, within the provided transcript, does not present direct proof of perpetrators and interviewed individuals (shopkeepers, governor, firefighter) do not explicitly attribute the ignition to protesters.
-  - Opposition/social claims of deliberate entrapment, denial of firefighting access, and mass shootings are severe but not independently corroborated in this incident file by primary, verifiable evidence (e.g., geolocated/time-bounded multi-angle footage, emergency dispatch logs, confirmed casualty lists).
 
 # Key claims made about the incident (that may or may not be verified yet)
 key_claims:
-  # Baseline event
-  - "A major fire occurred at/near Rasht Bazaar during the January 2026 protests."
-  - "Property damage was significant; multiple narratives cite ~300 shops affected (exact number unverified)."
-
-  # IRIB narrative claims (state media framing)
-  - "IRIB framed the event as a 'terrorist fire incident' and implied protesters/foreign agents were responsible."
-  - "IRIB claimed (including via aerial imagery) that more than 300 shops burned in the Rasht market area."
-  - "IRIB interviews focused on shopkeeper losses and requests for state mitigation; interviewees did not (in the provided transcript) explicitly name who set the fire."
-
-  # Opposition/social claims (contested)
-  - "An Instagram-originated narrative (later amplified on X) alleges security forces intentionally ignited the fire to trap crowds and shot those fleeing."
-  - "Iran International studio commentary alleges security forces surrounded the area, blocked fire trucks, allowed the fire to spread to force crowd movement, and shot escapees."
-  - "Iran International studio commentary alleges casualties strained mortuary capacity, bodies remained at hospitals, and some families pursued irregular burials due to fear of concealment."
-  - "Iran International studio commentary alleges an ensuing arrest wave and communications suppression, with fears of executions to erase traces."
+  - "A large fire occurred in Rasht Bazaar / surrounding market area and destroyed more than 300 shops (state media claim)."
+  - "IRIB framed the fire as a 'terrorist' act and implied protesters were foreign agents; interviewees shown did not explicitly identify perpetrators in the aired excerpts."
+  - "An audible cut occurs during a firefighter’s remarks about designated places for peaceful protest, suggesting editorial control in the broadcast."
+  - "Opposition/diaspora accounts allege the fire was a false-flag operation by security forces."
+  - "Iran International’s analyst alleged security forces surrounded the area, blocked fire trucks, used the expanding fire to force crowd movement, and shot people escaping."
+  - "Some social media threads allege mass casualties (up to thousands) and arson intended to destroy evidence; these figures are not independently verified."
+  - "Claims of widespread arrests and communications suppression in Rasht following the incident were reported by Iran International and echoed by social media users."
 
 # Open questions or missing information
 open_questions:
-  - "Exact incident time window: What are the confirmed start/peak/extinguishment times for the fire, and which bazaar sections were affected?"
-  - "Exact broadcast metadata: When did the IRIB segment air (date/time) and is an original link/archive available?"
-  - "Evidence of cause/origin: Are there municipal/fire-service records, dispatch logs, or credible contemporaneous footage showing the ignition point?"
-  - "Firefighting access: Is there independent corroboration that fire trucks were blocked, and by whom?"
-  - "Casualties: Are there confirmed fatalities/injuries linked specifically to this Rasht bazaar/market incident (names, hospital intake, burial records)?"
-  - "Perpetrator attribution: Is there verifiable evidence supporting either 'protester arson' or 'security-force tactical arson' claims?"
-  - "Arrests/executions: What arrests followed in Rasht, and are any subsequent executions credibly linked to this incident?"
+  - "What is the most defensible incident time window (exact night(s) and sequence: Municipality Square crowding, bazaar entry, ignition, shooting)?"
+  - "Where exactly did the ignition(s) occur within the bazaar/market complex, and what sections burned (map-level precision)?"
+  - "Were fire trucks formally dispatched, and if so, are there logs, radio traffic, or verified eyewitness footage proving denial of entry?"
+  - "Are there independently verifiable hospital/morgue indicators (capacity, admissions, burial records) supporting large-casualty claims?"
+  - "Can the origin and chain-of-custody of each circulated video be reconstructed (first uploader, time, geolocation cues, edits)?"
+  - "Who are the named/identifiable officials or units on scene (police, Basij, IRGC, special units), and what is the evidence basis?"
+  - "What is the best estimate of economic damage (insured/uninsured, shop count, affected corridors) from non-state sources?"
 
 # Limitations of the current report (e.g. lack of video, biased sources)
 limitations:
-  - "IRIB source material is state media with an explicit narrative frame; the transcript here is user-prepared and the original broadcast link/archive is not yet attached."
-  - "The IRIB segment (as transcribed) asserts a perpetrator narrative but does not show direct proof of who set the fire; key parts (e.g., firefighter audio) appear cut."
-  - "Iran International segment is studio commentary and does not itself constitute a forensic investigation; underlying documents are not fully disclosed in the clip."
-  - "The Instagram/X narrative is not independently verified for date, geolocation, completeness, or provenance."
-  - "No independently audited damage assessment or verified casualty list is included in this incident file."
+  - "Information environment is heavily degraded by reported digital blackout; independent verification is limited."
+  - "Primary state sources (IRIB, affiliated outlets) have strong incentives to frame protesters as 'terrorists' and may omit contradictory testimony."
+  - "Opposition media and diaspora social media accounts may amplify worst-case claims; sourcing and verification methods are often unspecified."
+  - "No independently audited casualty figures are available in this report; all high-fatality claims remain disputed."
+  - "Current evidence set is mainly broadcast segments and social posts; additional on-the-ground footage, timestamps, and geolocation are needed."
 
 # -----------------------------------------------------------------------------
 # Collections
