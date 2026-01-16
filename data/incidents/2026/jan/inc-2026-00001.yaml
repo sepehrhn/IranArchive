@@ -1,5 +1,3 @@
-# Unique identifier is now the filename: inc-2026-00001
-
 # Verification status of the incident
 # Options: 'not_verified' | 'disputed' | 'verified'
 status: "verified"
@@ -90,7 +88,7 @@ limitations:
 # Collections
 # -----------------------------------------------------------------------------
 
-# Evidence IDs (referencing files in /data/evidence/)
+# Evidence IDs (referencing files in /data/evidences/)
 evidence_ids:
   - "ev-2026-00001-vid-001"
 

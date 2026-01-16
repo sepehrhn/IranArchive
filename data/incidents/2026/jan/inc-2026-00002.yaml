@@ -1,6 +1,3 @@
-# Unique identifier for the incident (URL-friendly, no spaces, persistent)
-id: "inc-2026-00002"
-
 # Verification status of the incident
 # Options: 'not_verified' | 'disputed' | 'verified'
 status: "not_verified"
@@ -94,8 +91,8 @@ limitations:
 # Collections
 # -----------------------------------------------------------------------------
 
-# Evidence items (Videos, Photos, Documents)
-evidence: []
+# Evidence IDs (referencing files in /data/evidences/)
+evidence_ids: []
 
 # Sources (News reports, social media posts, etc.)
 sources:
