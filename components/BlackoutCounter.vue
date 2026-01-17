@@ -79,11 +79,11 @@ onUnmounted(() => {
 
         <div class="mt-4 text-xs text-surface-500 text-center max-w-lg leading-relaxed bg-surface-800/50 p-3 rounded border border-surface-700 space-y-3">
             <div>
-                <span class="block mb-1 font-semibold text-surface-400">Update (Jan 17, 05:15 AM):</span>
-                Netblocks reported a very slight rise in connectivity after 200 hours, but overall traffic remains at ~2% of ordinary levels with no indication of a significant return. Internet remains <strong>unavailable</strong>.
+                <span class="block mb-1 font-semibold text-surface-400">Update (Jan 17, 15:00):</span>
+                Netblocks reported a slight rise in connectivity earlier, but Cloudflare Radar confirmed the restoration was short-lived, as traffic fell back to near-zero at 14:30 local time. Internet remains <strong>unavailable</strong>.
             </div>
             <div class="pt-2 border-t border-surface-700/50">
-                <span class="block mb-1 font-semibold text-surface-400">Update (Jan 17, 12:25 AM):</span>
+                <span class="block mb-1 font-semibold text-surface-400">Update (Jan 17, 00:25):</span>
                 Iran International cited local media reports stating that SMS services and voice calls have been restored across mobile networks <strong>internally</strong>, but international connectivity remains blocked.
             </div>
         </div>
