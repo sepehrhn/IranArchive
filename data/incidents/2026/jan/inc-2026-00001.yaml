@@ -2,6 +2,10 @@
 # Options: 'not_verified' | 'disputed' | 'verified'
 status: "verified"
 
+ratings:
+  truth_confidence: 8
+  evidence_availability: 6
+
 # Date and time range of the incident
 occurred_at:
   # Start time in YYYY/MM/DD format
@@ -57,7 +61,12 @@ title: "Martial Law in Karaj"
 summary: "An eyewitness report and attached video allege that security forces imposed martial-law-like conditions in Karaj, marching through streets and firing shots into the air while threatening or shooting at civilians seen at windows."
 
 # Detailed narrative of the event. Supports Markdown.
-narrative: "A video submitted with an eyewitness note describes martial-law-like conditions in Karaj (Alborz Province) on Friday, January 9, 2026.\n\nAccording to the person who recorded the video, armed forces were marching through the streets and firing shots into the air. The recorder further claims that people who were even standing by windows were shot at.\n\nThe incident is currently **not verified** beyond the submitted material and requires additional corroboration (exact location within Karaj, unit identification, timing, and any confirmed casualties)."
+narrative: |
+  A video submitted with an eyewitness note describes martial-law-like conditions in Karaj (Alborz Province) on Friday, January 9, 2026.
+
+  According to the person who recorded the video, armed forces were marching through the streets and firing shots into the air. The recorder further claims that people who were even standing by windows were shot at.
+
+  The incident is currently **not verified** beyond the submitted material and requires additional corroboration (exact location within Karaj, unit identification, timing, and any confirmed casualties).
 
 # Key claims made about the incident (that may or may not be verified yet)
 key_claims:

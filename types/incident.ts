@@ -136,4 +136,12 @@ export interface Incident {
     // Relations
     victims: Victim[];
     related_incidents: RelatedIncident[];
+
+    // Ratings
+    ratings?: IncidentRatings;
+}
+
+export interface IncidentRatings {
+    truth_confidence?: number; // 1-10
+    evidence_availability?: number; // 1-10
 }

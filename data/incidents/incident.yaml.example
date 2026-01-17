@@ -2,6 +2,12 @@
 # Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
 status: "not_verified"
 
+ratings:
+  # Integer 1..10. Likelihood the core claim is true.
+  truth_confidence: 5
+  # Integer 1..10. Amount/quality of reviewable evidence available.
+  evidence_availability: 5
+
 # Date and time range of the incident
 occurred_at:
   # Start date in YYYY/MM/DD format
@@ -57,7 +63,12 @@ title: "Title of the Incident"
 summary: "A brief summary of what happened."
 
 # Detailed narrative of the event. Supports Markdown.
-narrative: "A detailed description of the incident...\n\nCan span multiple paragraphs."
+narrative: |
+  A detailed description of the incident...
+  
+  Can span multiple paragraphs. To create a new paragraph, leave an empty line between the text blocks.
+  
+  This ensures that the text is rendered correctly with spacing in the UI.
 
 # Key claims made about the incident (that may or may not be verified yet)
 key_claims:
