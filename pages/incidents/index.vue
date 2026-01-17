@@ -33,6 +33,12 @@ const onRowClick = (event: any) => {
 
 // Use !important for hover background to ensure it overrides the striped row background
 const rowClass = () => 'cursor-pointer hover:!bg-primary-50 dark:hover:!bg-primary-900/20 transition-colors duration-200';
+
+const getRatingColor = (value: number) => {
+    if (value <= 4) return 'var(--p-red-500)';
+    if (value <= 7) return 'var(--p-orange-500)';
+    return 'var(--p-green-500)';
+};
 </script>
 
 <template>
@@ -74,11 +80,11 @@ const rowClass = () => 'cursor-pointer hover:!bg-primary-50 dark:hover:!bg-prima
                 <template #body="{ data }">
                     <div class="flex items-center justify-center gap-2" v-if="data.ratings">
                         <div class="flex flex-col items-center" v-if="data.ratings.truth_confidence">
-                            <Knob v-model="data.ratings.truth_confidence" :min="0" :max="10" :size="50" readonly :strokeWidth="5" valueColor="var(--p-primary-500)" rangeColor="var(--p-surface-200)" />
+                            <Knob v-model="data.ratings.truth_confidence" :min="0" :max="10" :size="50" readonly :strokeWidth="5" :valueColor="getRatingColor(data.ratings.truth_confidence)" rangeColor="var(--p-surface-200)" />
                             <span class="text-[10px] uppercase font-bold text-gray-500 mt-1">Truth</span>
                         </div>
                         <div class="flex flex-col items-center" v-if="data.ratings.evidence_availability">
-                            <Knob v-model="data.ratings.evidence_availability" :min="0" :max="10" :size="50" readonly :strokeWidth="5" valueColor="var(--p-cyan-500)" rangeColor="var(--p-surface-200)" />
+                            <Knob v-model="data.ratings.evidence_availability" :min="0" :max="10" :size="50" readonly :strokeWidth="5" :valueColor="getRatingColor(data.ratings.evidence_availability)" rangeColor="var(--p-surface-200)" />
                             <span class="text-[10px] uppercase font-bold text-gray-500 mt-1">Evidence</span>
                         </div>
                     </div>
