@@ -9,7 +9,7 @@ This guide explains how to add new victims to the registry. We prioritize accura
 ## 2. Directory Structure
 - `data/victims/`: Stores victim profiles as JSON.
 - `data/sources/`: Stores source citation metadata.
-- `public/media/victims/`: Stores profile photos.
+- `public/media/victims/`: Stores profile images.
 
 ## 3. Adding a Victim
 1. **Create Source Files**: First, ensure the sources you are citing exist in `data/sources/`.
@@ -45,4 +45,4 @@ This guide explains how to add new victims to the registry. We prioritize accura
 
 ## 4. Safety & Ethics
 - Use "unknown" for precision fields rather than guessing.
-- Respect family wishes regarding photos or names if known.
+- Respect family wishes regarding images or names if known.

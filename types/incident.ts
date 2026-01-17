@@ -1,6 +1,6 @@
 export type IncidentStatus = 'draft' | 'not_verified' | 'disputed' | 'verified';
 
-export type EvidenceType = 'video' | 'photo' | 'document';
+export type EvidenceType = 'video' | 'image' | 'document';
 export type ContentWarning = 'graphic' | 'violence' | 'none';
 export type SourceType = 'primary' | 'secondary';
 

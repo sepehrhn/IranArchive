@@ -1,0 +1,46 @@
+# Type: 'video' | 'image' | 'document'
+type: "video"
+
+# Human-readable title of the evidence
+title: "Title of the Evidence"
+
+# Detailed description of what is shown/heard
+description: "A detailed description of the content..."
+
+# Relative path to file in /data/evidence (served via /evidence/)
+file_path: "2026/jan/filename.ext"
+
+# When the footage was captured (YYYY/MM/DD)
+# Use ISO format if time is known: "YYYY-MM-DDTHH:MM:SS"
+captured_at: "YYYY/MM/DD"
+
+# Location claimed in the footage/metadata
+claimed_location: "City, Region"
+
+# Provenance / Chain of Custody
+provenance:
+  submitted_by: "Name or Alias (or Anonymous)"
+  first_published_at: "YYYY/MM/DD"
+  first_published_url: "https://example.com/original-post"
+  chain_of_custody_note: "Details on how the file was obtained (e.g. download, secure drop)."
+
+# Corroboration with other evidence
+corroboration:
+  related_evidence_ids: []
+  notes: "Notes on cross-referencing or matching with other evidence."
+
+# Technical metadata (optional/automated)
+technical:
+  sha256: ""
+  file_size_bytes: 0
+  format: "mp4"
+  duration_seconds: 0
+  exif_summary: ""
+  reencoded: false
+
+# Flags: e.g. 'verified_location', 'verified_time', 'graphic_content', 'sensitive'
+flags: []
+
+# Content warning
+# Options: 'graphic' | 'violence' | 'none'
+content_warning: "none"
