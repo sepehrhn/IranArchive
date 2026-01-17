@@ -1,6 +1,10 @@
 # Verification status of the incident
 # Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
-status: "not_verified"
+status: "verified"
+
+ratings:
+  truth_confidence: 8
+  evidence_availability: 1
 
 # Date and time range of the incident
 occurred_at:
@@ -57,7 +61,12 @@ title: "Bushehr Protest Shooting Report"
 summary: "A caller from Bushehr reported confirmed shooting during the January 9, 2026 protests and claimed an unverified death toll between 20–30 in Bushehr city."
 
 # Detailed narrative of the event. Supports Markdown.
-narrative: "On 2026/01/13, a report was received via phone call from a person in Bushehr regarding the protests that occurred on 2026/01/09 in Bushehr city.\n\nThe source claimed that security forces (or armed actors) opened fire during the protest, and stated that shooting is confirmed. The source further claimed that the death toll in Bushehr city for the 2026/01/09 protest was between 20 and 30.\n\nNo supporting media, documents, names, or independent corroboration were provided at the time of submission. This report is recorded as **not verified** and should be treated as an initial lead pending additional evidence and corroborating sources."
+narrative: |
+  On 2026/01/13, a report was received via phone call from a person in Bushehr regarding the protests that occurred on 2026/01/09 in Bushehr city.
+  
+  The source claimed that security forces (or armed actors) opened fire during the protest, and stated that shooting is confirmed. The source further claimed that the death toll in Bushehr city for the 2026/01/09 protest was between 20 and 30.
+  
+  No supporting media, documents, names, or independent corroboration were provided at the time of submission. This report is recorded as **not verified** and should be treated as an initial lead pending additional evidence and corroborating sources.
 
 # Key claims made about the incident (that may or may not be verified yet)
 key_claims:
@@ -119,12 +128,19 @@ timeline:
 
 # Internal review history
 review_history:
-  - at: "2026/01/16"
+  - at: "2026/01/13"
     reviewer: "Sepehr"
     # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
     change: "created"
     to_status: "not_verified"
     notes: "Initial intake from phone report; confirmed shooting claimed, casualty estimate unverified."
+  - at: "2026/01/17"
+    reviewer: "Sepehr"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "status_changed"
+    to_status: "verified"
+    notes: "With a list of some victims confirmed by our sources, our confidence is raised to 9,
+      as we’re only uncertain about the exact death toll. The status has been changed to Verified."
 
 # -----------------------------------------------------------------------------
 # Relations

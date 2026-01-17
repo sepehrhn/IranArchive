@@ -11,8 +11,19 @@
     <div class="flex flex-col gap-4">
       <div class="flex flex-wrap items-start justify-between gap-4">
         <h1 class="text-3xl font-bold text-gray-900 dark:text-white">{{ incident.title }}</h1>
-        <div class="flex gap-2">
-            <Tag :value="formatStatus(incident.status)" :severity="getStatusColor(incident.status)" />
+        <div class="flex items-center gap-6">
+            <Tag :value="formatStatus(incident.status)" :severity="getStatusColor(incident.status)" class="text-base px-3 py-1" />
+            
+            <div class="flex items-center gap-4" v-if="incident.ratings">
+                <div class="flex flex-col items-center" v-if="incident.ratings.truth_confidence" v-tooltip="'Likelihood the core claim is true (1–10).'">
+                    <Knob v-model="incident.ratings.truth_confidence" :min="0" :max="10" :size="60" readonly :strokeWidth="5" valueColor="var(--p-primary-500)" rangeColor="var(--p-surface-200)" />
+                    <span class="text-[10px] uppercase font-bold text-gray-500 mt-1">Truth</span>
+                </div>
+                <div class="flex flex-col items-center" v-if="incident.ratings.evidence_availability" v-tooltip="'Amount/quality of reviewable evidence available (1–10).'">
+                    <Knob v-model="incident.ratings.evidence_availability" :min="0" :max="10" :size="60" readonly :strokeWidth="5" valueColor="var(--p-cyan-500)" rangeColor="var(--p-surface-200)" />
+                    <span class="text-[10px] uppercase font-bold text-gray-500 mt-1">Evidence</span>
+                </div>
+            </div>
         </div>
       </div>
 
