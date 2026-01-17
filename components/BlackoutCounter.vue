@@ -60,14 +60,14 @@ onUnmounted(() => {
         <div class="w-full mt-8 border-t border-surface-700 pt-6">
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
                 <div class="flex flex-col items-center space-y-2 p-3 bg-surface-800 rounded-lg">
-                    <i class="pi pi-check-circle text-green-500 text-2xl"></i>
-                    <span class="font-bold text-green-500">SMS Restored</span>
-                    <span class="text-xs text-surface-400">Mobile Networks</span>
+                    <i class="pi pi-exclamation-circle text-yellow-500 text-2xl"></i>
+                    <span class="font-bold text-yellow-500">Internal SMS</span>
+                    <span class="text-xs text-surface-400">Restored (No Int'l)</span>
                 </div>
                 <div class="flex flex-col items-center space-y-2 p-3 bg-surface-800 rounded-lg">
-                    <i class="pi pi-times-circle text-red-500 text-2xl"></i>
-                    <span class="font-bold text-red-500">Voice Calls</span>
-                    <span class="text-xs text-surface-400">Unavailable</span>
+                    <i class="pi pi-exclamation-circle text-yellow-500 text-2xl"></i>
+                    <span class="font-bold text-yellow-500">Internal Voice</span>
+                    <span class="text-xs text-surface-400">Restored (No Int'l)</span>
                 </div>
                 <div class="flex flex-col items-center space-y-2 p-3 bg-surface-800 rounded-lg">
                     <i class="pi pi-times-circle text-red-500 text-2xl"></i>
@@ -77,9 +77,15 @@ onUnmounted(() => {
             </div>
         </div>
 
-        <div class="mt-4 text-xs text-surface-500 text-center max-w-lg leading-relaxed bg-surface-800/50 p-3 rounded border border-surface-700">
-            <span class="block mb-1 font-semibold text-surface-400">New Report (Jan 17, 12:25 AM):</span>
-            Iran International cited local media reports stating that while SMS services have been restored across mobile networks, voice calls and internet access remain unavailable.
+        <div class="mt-4 text-xs text-surface-500 text-center max-w-lg leading-relaxed bg-surface-800/50 p-3 rounded border border-surface-700 space-y-3">
+            <div>
+                <span class="block mb-1 font-semibold text-surface-400">Update (Jan 17, 05:15 AM):</span>
+                Netblocks reported a very slight rise in connectivity after 200 hours, but overall traffic remains at ~2% of ordinary levels with no indication of a significant return. Internet remains <strong>unavailable</strong>.
+            </div>
+            <div class="pt-2 border-t border-surface-700/50">
+                <span class="block mb-1 font-semibold text-surface-400">Update (Jan 17, 12:25 AM):</span>
+                Iran International cited local media reports stating that SMS services and voice calls have been restored across mobile networks <strong>internally</strong>, but international connectivity remains blocked.
+            </div>
         </div>
     </div>
 </template>
