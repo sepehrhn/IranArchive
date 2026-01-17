@@ -18,7 +18,8 @@ export default defineNuxtConfig({
     },
 
     css: [
-        'primeicons/primeicons.css'
+        'primeicons/primeicons.css',
+        '~/assets/css/theme.css'
     ],
 
     runtimeConfig: {
@@ -36,7 +37,10 @@ export default defineNuxtConfig({
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' }
             ],
             link: [
-                { rel: 'icon', type: 'image/svg+xml', href: '/lion-and-sun.svg' }
+                { rel: 'icon', type: 'image/svg+xml', href: '/lion-and-sun.svg' },
+                { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+                { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+                { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap' }
             ]
         }
     },
@@ -68,7 +72,7 @@ export default defineNuxtConfig({
             theme: {
                 preset: Aura,
                 options: {
-                    darkModeSelector: '.dark',
+                    darkModeSelector: '[data-theme="dark"]',
                 }
             },
             ripple: true
@@ -79,7 +83,8 @@ export default defineNuxtConfig({
     colorMode: {
         classSuffix: '',
         preference: 'system',
-        fallback: 'light'
+        fallback: 'light',
+        dataValue: 'theme'
     },
 
     i18n: {

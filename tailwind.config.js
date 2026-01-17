@@ -1,7 +1,7 @@
 import primeui from 'tailwindcss-primeui';
 
 export default {
-    darkMode: 'class',
+    darkMode: ['selector', '[data-theme="dark"]'],
     content: [
         "./components/**/*.{js,vue,ts}",
         "./layouts/**/*.vue",
@@ -13,21 +13,45 @@ export default {
     theme: {
         extend: {
             colors: {
-                // we can define semantic tokens here if needed
-                'surface': {
-                    0: '#ffffff',
-                    50: '#f8fafc',
-                    100: '#f1f5f9',
-                    200: '#e2e8f0',
-                    300: '#cbd5e1',
-                    400: '#94a3b8',
-                    500: '#64748b',
-                    600: '#475569',
-                    700: '#334155',
-                    800: '#1e293b',
-                    900: '#0f172a',
-                    950: '#020617',
-                }
+                bg: 'var(--bg)',
+                surface: {
+                    1: 'var(--surface-1)',
+                    2: 'var(--surface-2)',
+                    // Keeping standard scales for utility if needed, but mapped to vars where possible or just keep literals
+                    50: 'var(--p-slate-50)',
+                    100: 'var(--p-slate-100)',
+                    200: 'var(--p-slate-200)',
+                    300: 'var(--p-slate-300)',
+                    400: 'var(--p-slate-400)',
+                    500: 'var(--p-slate-500)',
+                    600: 'var(--p-slate-600)',
+                    700: 'var(--p-slate-700)',
+                    800: 'var(--p-slate-800)',
+                    900: 'var(--p-slate-900)',
+                    950: 'var(--p-slate-950)',
+                },
+                text: 'var(--text)',
+                muted: 'var(--muted)',
+                border: 'var(--border)',
+                primary: {
+                    DEFAULT: 'var(--primary)',
+                    contrast: 'var(--primary-contrast)',
+                    // Map scales if necessary, or just use variables
+                    50: 'var(--p-primary-50)',
+                    100: 'var(--p-primary-100)',
+                    200: 'var(--p-primary-200)',
+                    400: 'var(--p-primary-400)',
+                    500: 'var(--p-primary-500)',
+                    600: 'var(--p-primary-600)',
+                    700: 'var(--p-primary-700)',
+                },
+                danger: 'var(--danger)',
+                warning: 'var(--warning)',
+                success: 'var(--success)',
+                info: 'var(--info)',
+            },
+            fontFamily: {
+                sans: ['Inter', 'system-ui', 'sans-serif'],
             }
         },
     },
