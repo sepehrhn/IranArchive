@@ -1,0 +1,144 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "verified"
+
+ratings:
+  # Integer 1..10. Likelihood the core claim is true.
+  truth_confidence: 10
+  # Integer 1..10. Amount/quality of reviewable evidence available.
+  evidence_availability: 10
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/08"
+  start_time: ""
+  # End date (optional)
+  end: "2026/01/09"
+  end_time: ""
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Approx"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Mazandaran"
+  # City name
+  city: "Qaemshahr (Shahi)"
+  # Specific address or landmark (optional)
+  address: ""
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Crackdown"
+
+# Estimated severity statistics (optional)
+# each range has 'min' and 'max' properties
+severity:
+  deaths:
+    min: 0
+    max: 0
+  injured:
+    min: 0
+    max: 0
+  arrests:
+    min: 0
+    max: 0
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Presence of plainclothes armed units in protests"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "Video received and published by Manoto shows armed plainclothes personnel present at street protests in Qaemshahr, interacting with and directing riot police units. The chain of command and formal affiliation of these armed plainclothes actors is not identifiable from the footage."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  During protests in Qaemshahr (also referred to as Shahi) on 8–9 January 2026, video published by Manoto shows the presence of plainclothes individuals operating alongside uniformed security forces.
+  
+  In the footage, these plainclothes actors are seen carrying firearms and engaging actively at the scene, including giving directions or guidance to forces described as riot police ("Special Unit"). Their conduct appears operational rather than purely observational (e.g., not limited to filming or passive presence).
+  
+  While the video supports the claim that armed plainclothes units were present and played an active role in on-the-ground repression, the footage does not make clear which organization they belong to, who commanded them, or under what formal authority they operated.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Armed plainclothes personnel were present at the Qaemshahr protests on Jan 8–9, 2026."
+  - "Plainclothes personnel interacted with and in some cases directed/guided uniformed riot police units at the scene."
+  - "The organizational affiliation and command authority of the plainclothes personnel are not identifiable from the footage."
+
+# Open questions or missing information
+open_questions:
+  - "Which entity/organization did the armed plainclothes personnel belong to (e.g., IRGC, Basij, Intelligence, contracted auxiliaries)?"
+  - "Who exercised command and control over these plainclothes personnel on the ground?"
+  - "Exact street/landmark location within Qaemshahr where the footage was recorded?"
+  - "Exact capture time(s) within Jan 8–9, 2026 (and whether multiple clips/times are combined)?"
+  - "Type of firearms (model/caliber) and whether shots were fired in the captured segment(s)?"
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "Footage does not provide verifiable identifiers (faces, insignia, unit markings) sufficient to attribute the plainclothes personnel to a specific command structure."
+  - "Exact capture time and precise location within the city are not confirmed by embedded metadata in the publicly shared post."
+  - "This report focuses on presence/role of plainclothes armed units; it does not establish casualty counts or the full sequence of events."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+# Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
+# IDs are the filenames (e.g. ev-2026-00001-vid-001)
+evidence_ids:
+  - "ev-2026-00010-vid-001"
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-001"
+    label: "Manoto News (X) — Video from Qaemshahr protests showing active role of armed plainclothes actors"
+    url: "https://x.com/ManotoNews/status/2012478464528421082?s=20"
+    publisher: "Manoto News"
+    published_at: "2026/01/17"
+    # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "Manoto states the video was received by the network and describes plainclothes individuals firing/filming and directing riot police at the protest scene."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/08"
+    time: ""
+    title: "Armed plainclothes actors observed operating alongside riot police"
+    description: "Video segment shows armed plainclothes personnel present at the protest scene and interacting with uniformed forces, including apparent direction/guidance of riot police. Command authority is not identifiable in the footage."
+    # Evidence IDs linked to this specific moment
+    evidence_ids: ["ev-2026-00010-vid-001"]
+    # Source IDs linked to this specific moment
+    source_ids: ["src-001"]
+
+# Internal review history
+review_history:
+  - at: "2026/01/17"
+    reviewer: "IA-editor"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "created"
+    to_status: "verified"
+    notes: "Created from Manoto-published footage documenting armed plainclothes presence and operational role; core claim verified; affiliation/command remains unknown."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []
