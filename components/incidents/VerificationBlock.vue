@@ -8,7 +8,7 @@
             </div>
         </template>
         <template #content>
-            <div class="text-sm text-gray-600 dark:text-gray-300 mb-4" v-html="statusDescription"></div>
+            <div class="text-sm text-surface-600 dark:text-surface-300 mb-4" v-html="statusDescription"></div>
             
             <div v-if="incident.status === 'disputed'" class="mb-4 p-3 bg-orange-50 dark:bg-orange-900/20 rounded border border-orange-200 dark:border-orange-800">
                 <h4 class="font-semibold text-orange-800 dark:text-orange-200 text-sm mb-1">Disputed Points</h4>
@@ -17,27 +17,27 @@
                 </ul>
             </div>
 
-            <h4 class="font-semibold text-sm mb-2">Verification Rubric</h4>
+            <h4 class="font-semibold text-sm mb-2 text-surface-900 dark:text-surface-0">Verification Rubric</h4>
              <ul class="space-y-2">
                 <li v-for="(item, idx) in rubric" :key="idx" class="flex items-center gap-2 text-sm">
-                    <i class="pi" :class="item.checked ? 'pi-check-circle text-green-500' : 'pi-minus-circle text-gray-400'"></i>
-                    <span :class="{'text-gray-500': !item.checked}">{{ item.label }}</span>
+                    <i class="pi" :class="item.checked ? 'pi-check-circle text-green-500' : 'pi-minus-circle text-surface-400'"></i>
+                    <span :class="{'text-surface-500': !item.checked, 'text-surface-900 dark:text-surface-100': item.checked}">{{ item.label }}</span>
                 </li>
              </ul>
         </template>
     </Card>
 
-    <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
+    <div class="bg-surface-50 dark:bg-surface-900 rounded-lg p-4">
         <h4 class="font-semibold text-sm mb-3">Change Log</h4>
         <Timeline :value="incident.review_history" align="left">
              <template #content="slotProps">
                  <div class="text-xs pb-4">
-                     <span class="font-bold">{{ slotProps.item.reviewer }}</span>
-                     <span class="mx-1 text-gray-400">•</span>
-                     <span class="text-gray-500">{{ formatDate(slotProps.item.at) }}</span>
+                     <span class="font-bold text-surface-900 dark:text-surface-0">{{ slotProps.item.reviewer }}</span>
+                     <span class="mx-1 text-surface-400">•</span>
+                     <span class="text-surface-500">{{ formatDate(slotProps.item.at) }}</span>
                      <div class="mt-1">
                          <Badge :value="slotProps.item.change" severity="secondary" size="small" />
-                         <span class="ml-2 text-gray-600 dark:text-gray-400" v-html="renderMarkdown(slotProps.item.notes)"></span>
+                         <div class="ml-2 inline-block text-surface-600 dark:text-surface-400" v-html="renderMarkdown(slotProps.item.notes)"></div>
                      </div>
                  </div>
              </template>

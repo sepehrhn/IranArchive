@@ -120,14 +120,14 @@ timeline:
     title: "Armed plainclothes actors observed operating alongside riot police"
     description: "Video segment shows armed plainclothes personnel present at the protest scene and interacting with uniformed forces, including apparent direction/guidance of riot police. Command authority is not identifiable in the footage."
     # Evidence IDs linked to this specific moment
-    evidence_ids: ["ev-2026-00010-vid-001"]
+    evidence_ids: []
     # Source IDs linked to this specific moment
     source_ids: ["src-001"]
 
 # Internal review history
 review_history:
   - at: "2026/01/17"
-    reviewer: "IA-editor"
+    reviewer: "Sepehr"
     # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
     change: "created"
     to_status: "verified"

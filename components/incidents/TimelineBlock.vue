@@ -1,16 +1,16 @@
 <template>
-  <div class="relative pl-4 border-l border-gray-200 dark:border-gray-700 space-y-8">
+  <div class="relative pl-4 border-l border-surface-200 dark:border-surface-700 space-y-8">
     <div v-for="(event, index) in events" :key="index" class="relative">
       <!-- Dot -->
-      <div class="absolute -left-[24.5px] top-1.5 w-4 h-4 rounded-full bg-primary-500 border-4 border-white dark:border-gray-900"></div>
+      <div class="absolute -left-[24.5px] top-1.5 w-4 h-4 rounded-full bg-primary-500 border-4 border-surface-0 dark:border-surface-900"></div>
       
-      <div class="mb-1 text-sm text-gray-500 dark:text-gray-400 font-mono">
+      <div class="mb-1 text-sm text-surface-500 dark:text-surface-400 font-mono">
         {{ formatDate(event.at) }}<span v-if="event.time" class="ml-1">{{ event.time }}</span>
       </div>
       
-      <h3 class="text-lg font-bold text-gray-900 dark:text-white mb-2">{{ event.title }}</h3>
+      <h3 class="text-lg font-bold text-surface-900 dark:text-surface-0 mb-2">{{ event.title }}</h3>
       
-      <p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-3">
+      <p class="text-surface-700 dark:text-surface-300 leading-relaxed mb-3">
         {{ event.description }}
       </p>
       
