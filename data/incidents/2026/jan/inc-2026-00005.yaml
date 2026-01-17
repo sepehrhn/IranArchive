@@ -1,6 +1,6 @@
 # Verification status of the incident
 # Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
-status: "not_verified"
+status: "draft"
 
 ratings:
   # Integer 1..10. Likelihood the core claim is true.

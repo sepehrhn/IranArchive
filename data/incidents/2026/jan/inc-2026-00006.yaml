@@ -1,0 +1,143 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "not_verified"
+
+ratings:
+  # Integer 1..10. Likelihood the core claim is true.
+  truth_confidence: 4
+  # Integer 1..10. Amount/quality of reviewable evidence available.
+  evidence_availability: 2
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/17"
+  start_time: ""
+  # End date (optional)
+  end: ""
+  end_time: ""
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Unknown"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: ""
+  # City name
+  city: ""
+  # Specific address or landmark (optional)
+  address: ""
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Surveillance / Marking / Home Raid (Alleged)"
+
+# Estimated severity statistics (optional)
+# each range has 'min' and 'max' properties
+severity:
+  deaths:
+    min: 0
+    max: 0
+  injured:
+    min: 0
+    max: 0
+  arrests:
+    min: 0
+    max: 0
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "UV Marking of Protesters’ Apartment Doors Prior to Night Raids"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "A social media post shares a screenshot of a conversation alleging security forces covertly marked homes (visible only under UV light) to later conduct nighttime raids and arrests."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  An X user shared a screenshot of a private conversation claiming that authorities identified apartments from which residents chanted slogans, then covertly applied a substance (paint/marker) on doors, hallways, entryways, or doormats that was not visible under normal light and could allegedly be seen only with ultraviolet (UV) light.
+
+  The claim states that after several days, security forces reportedly raided these homes late at night and arrested occupants. The person in the screenshot asserts this happened to them and to at least ~10 other people they know of, and urges others who chanted from their homes to check door areas using UV light and remove any marking to avoid arrest.
+
+  At present, the report is based on a single social media post containing a screenshot; no independent corroboration, location details, dates, or direct evidence of markings/raids are provided in the referenced material.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Authorities identified apartments/homes from which residents chanted slogans during protests."
+  - "Covert markings were applied to doors/entryways/hallways/doormats using a substance only visible under UV light."
+  - "After several days, nighttime raids were conducted at marked homes and residents were arrested."
+  - "The claimant reports this occurred to them and at least ~10 other individuals they are aware of."
+
+# Open questions or missing information
+open_questions:
+  - "When did the alleged marking and subsequent raids occur (date range)?"
+  - "Where did this occur (province/city/neighborhood/building type)?"
+  - "Which entity allegedly conducted the marking and raids (police, IRGC, Basij, plainclothes units, etc.)?"
+  - "Are there any images/videos of the UV-visible markings, or testimonies from additional affected households?"
+  - "How many arrests are credibly attributable to this alleged method?"
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "Single-source claim presented via a screenshot of an alleged conversation; authenticity cannot be verified from the post alone."
+  - "No verifiable images/videos of UV-visible markings, no arrest documentation, and no independent corroboration provided."
+  - "Date and location are unspecified in the shared material."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+# Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
+# IDs are the filenames (e.g. ev-2026-00001-vid-001)
+evidence_ids: 
+  - "img-2026-00001"
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-001"
+    label: "X post sharing screenshot alleging UV-only markings used to target homes for night raids"
+    url: "https://x.com/AliAshtari9/status/2012520806329241902"
+    publisher: "X (Twitter)"
+    published_at: ""
+    # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "Contains a screenshot of a purported conversation describing the alleged tactic; no independent corroboration included."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/17"
+    time: "13:42"
+    title: "Allegation shared publicly via screenshot"
+    description: "An X post shared a screenshot of a conversation alleging UV-only markings were used to target homes for later night raids and arrests."
+    evidence_ids: ["img-2026-00001"]
+    source_ids: ["src-001"]
+
+# Internal review history
+review_history:
+  - at: "2026/01/17"
+    reviewer: "Sepehr"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "created"
+    to_status: "not_verified"
+    notes: "Initial report created from a single social media source sharing a screenshot; date/location/details unknown."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []

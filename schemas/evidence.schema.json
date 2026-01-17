@@ -12,7 +12,7 @@
             "type": "string",
             "enum": [
                 "video",
-                "photo",
+                "image",
                 "doc"
             ]
         },

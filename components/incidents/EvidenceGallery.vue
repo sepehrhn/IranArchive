@@ -41,8 +41,8 @@
                     <!-- Underlying Content (Placeholder) -->
                      <!-- Content Display -->
                      <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-50">
-                        <template v-if="item.type === 'video' || item.type === 'photo'">
-                             <img v-if="item.type === 'photo'" :src="getEvidenceUrl(item.file_path)" class="w-full h-full object-cover" />
+                        <template v-if="item.type === 'video' || item.type === 'image'">
+                             <img v-if="item.type === 'image'" :src="getEvidenceUrl(item.file_path)" class="w-full h-full object-cover" />
                              <!-- For video thumbnail we could try to load it or just show icon -->
                              <video v-else-if="item.type === 'video'" :src="getEvidenceUrl(item.file_path)" class="w-full h-full object-cover" preload="metadata"></video>
                              <i v-else :class="getTypeIcon(item.type)" class="text-6xl text-gray-300 dark:text-gray-700"></i>
@@ -117,7 +117,7 @@
         class="media-modal"
     >
         <div v-if="selectedEvidence" class="flex flex-col items-center justify-center p-0 overflow-hidden bg-black rounded-lg">
-            <template v-if="selectedEvidence.type === 'photo'">
+            <template v-if="selectedEvidence.type === 'image'">
                 <img :src="getEvidenceUrl(selectedEvidence.file_path)" :alt="selectedEvidence.title" class="max-w-full max-h-[70vh] object-contain" @contextmenu.prevent />
             </template>
             <template v-else-if="selectedEvidence.type === 'video'">
@@ -164,7 +164,7 @@ const getEvidenceUrl = (path: string) => {
     return `${baseUrl}evidences/${path}`;
 };
 
-const types: EvidenceType[] = ['video', 'photo', 'document'];
+const types: EvidenceType[] = ['video', 'image', 'document'];
 const selectedType = ref<EvidenceType | null>(null);
 
 const displayModal = ref(false);
@@ -184,7 +184,7 @@ const isSensitive = (item: Evidence) => {
 const getTypeIcon = (type: EvidenceType) => {
     switch (type) {
         case 'video': return 'pi pi-video';
-        case 'photo': return 'pi pi-image';
+        case 'image': return 'pi pi-image';
         case 'document': return 'pi pi-file';
         default: return 'pi pi-file';
     }

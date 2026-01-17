@@ -1,0 +1,53 @@
+# Evidence file: /data/evidences/2026/01/ev-2026-00011-img-001.yaml
+
+# Type: 'video' | 'image' | 'document'
+type: "image"
+
+# Human-readable title of the evidence
+title: "Screenshot of conversation about UV-only door marking prior to night raids"
+
+# Detailed description of what is shown/heard
+description: >
+  A screenshot (shared on X) of a Persian-language conversation. The speaker claims authorities
+  identified homes where residents chanted slogans, then covertly marked doors/entry areas with
+  a substance visible only under ultraviolet (UV) light. The speaker alleges that after several
+  days, late-night raids occurred and residents were arrested, and urges others to check their
+  door area with UV light and remove any marking.
+
+# Relative path to file in /data/evidence (served via /evidence/)
+file_path: "2026/jan/img-2026-00001.jpeg"
+
+# When the footage was captured (YYYY/MM/DD)
+# Use ISO format if time is known: "YYYY-MM-DDTHH:MM:SS"
+captured_at: ""
+
+# Location claimed in the footage/metadata
+claimed_location: ""
+
+# Provenance / Chain of Custody
+provenance:
+  submitted_by: "@AliAshtari9 (X user)"
+  first_published_at: ""
+  first_published_url: "https://x.com/AliAshtari9/status/2012520806329241902"
+  chain_of_custody_note: "Screenshot image obtained from the referenced X post (downloaded/saved from the post)."
+
+# Corroboration with other evidence
+corroboration:
+  related_evidence_ids: []
+  notes: "No additional corroborating evidence linked yet (e.g., photos of UV markings, arrest records, or independent testimonies)."
+
+# Technical metadata (optional/automated)
+technical:
+  sha256: ""
+  file_size_bytes: 0
+  format: "png"
+  duration_seconds: 0
+  exif_summary: ""
+  reencoded: false
+
+# Flags: e.g. 'verified_location', 'verified_time', 'graphic_content', 'sensitive'
+flags: []
+
+# Content warning
+# Options: 'graphic' | 'violence' | 'none'
+content_warning: "none"
