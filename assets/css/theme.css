@@ -1,80 +1,76 @@
 :root {
-  /* Primitive Colors (Internal use) */
-  --p-slate-50: #f8fafc;
-  --p-slate-100: #f1f5f9;
-  --p-slate-200: #e2e8f0;
-  --p-slate-300: #cbd5e1;
-  --p-slate-400: #94a3b8;
-  --p-slate-500: #64748b;
-  --p-slate-600: #475569;
-  --p-slate-700: #334155;
-  --p-slate-800: #1e293b;
-  --p-slate-900: #0f172a;
-  --p-slate-950: #020617;
+    /* Primitive Colors (Internal use) */
+    --p-slate-50: #f8fafc;
+    --p-slate-100: #f1f5f9;
+    --p-slate-200: #e2e8f0;
+    --p-slate-300: #cbd5e1;
+    --p-slate-400: #94a3b8;
+    --p-slate-500: #64748b;
+    --p-slate-600: #475569;
+    --p-slate-700: #334155;
+    --p-slate-800: #1e293b;
+    --p-slate-900: #0f172a;
+    --p-slate-950: #020617;
 
-  /* Primary Brand Color (Emerald/Green for Iran flag implication or standard Blue? 
-     "Lion and Sun" often implies gold/red. 
-     Let's go with a Gold/Ochre for distinctive archival feel or standard Blue.
-     IranArchive existing code uses `primary`.
-     I will use a sophisticated 'Gold' as primary or 'Slate'? 
-     Let's stick to a safe 'Indigo' or 'Blue' but let's look at the logo name 'lion-and-sun'.
-     Let's use a Gold/Amber as Primary to match the Lion. 
-  */
-  --p-primary-50: #fffbeb;
-  --p-primary-100: #fef3c7;
-  --p-primary-200: #fde68a;
-  --p-primary-300: #fcd34d;
-  --p-primary-400: #fbbf24;
-  --p-primary-500: #f59e0b;
-  --p-primary-600: #d97706;
-  --p-primary-700: #b45309;
-  --p-primary-800: #92400e;
-  --p-primary-900: #78350f;
-  --p-primary-950: #451a03;
+    /* Primary Brand Color (Gold/Amber) */
+    --p-primary-50: #fffbeb !important;
+    --p-primary-100: #fef3c7 !important;
+    --p-primary-200: #fde68a !important;
+    --p-primary-300: #fcd34d !important;
+    --p-primary-400: #fbbf24 !important;
+    --p-primary-500: #f59e0b !important;
+    --p-primary-600: #d97706 !important;
+    --p-primary-700: #b45309 !important;
+    --p-primary-800: #92400e !important;
+    --p-primary-900: #78350f !important;
+    --p-primary-950: #451a03 !important;
 }
 
 [data-theme="light"] {
-  /* Semantic Tokens */
-  --bg: var(--p-slate-50);
-  --surface-1: #ffffff;      /* Cards, Panels */
-  --surface-2: var(--p-slate-50); /* Backgrounds */
-  --text: var(--p-slate-900);
-  --muted: var(--p-slate-500);
-  --border: var(--p-slate-200);
-  
-  --primary: var(--p-primary-600);
-  --primary-contrast: #ffffff;
-  
-  --danger: #ef4444;
-  --warning: #f59e0b;
-  --success: #10b981;
-  --info: #3b82f6;
+    /* Semantic Tokens */
+    --bg: var(--p-slate-50);
+    --surface-1: #ffffff;
+    /* Cards, Panels */
+    --surface-2: var(--p-slate-50);
+    /* Backgrounds */
+    --text: var(--p-slate-900);
+    --muted: var(--p-slate-500);
+    --border: var(--p-slate-200);
 
-  --focus-ring: 0 0 0 2px var(--p-slate-50), 0 0 0 4px var(--p-primary-500);
-  --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-  --overlay: rgba(0, 0, 0, 0.4);
+    --primary: var(--p-primary-600);
+    --primary-contrast: #ffffff;
+
+    --danger: #ef4444;
+    --warning: #f59e0b;
+    --success: #10b981;
+    --info: #3b82f6;
+
+    --focus-ring: 0 0 0 2px var(--p-slate-50), 0 0 0 4px var(--p-primary-500);
+    --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    --overlay: rgba(0, 0, 0, 0.4);
 }
 
 [data-theme="dark"] {
-  /* Semantic Tokens */
-  --bg: var(--p-slate-950);
-  --surface-1: var(--p-slate-900);
-  --surface-2: var(--p-slate-950);
-  --text: var(--p-slate-50);
-  --muted: var(--p-slate-400);
-  --border: var(--p-slate-800);
-  
-  --primary: var(--p-primary-400); /* Lighter in dark mode */
-  --primary-contrast: var(--p-slate-950);
-  
-  --danger: #f87171;
-  --warning: #fbbf24;
-  --success: #34d399;
-  --info: #60a5fa;
+    /* Semantic Tokens */
+    --bg: var(--p-slate-950);
+    --surface-1: var(--p-slate-900);
+    --surface-2: var(--p-slate-950);
+    --text: var(--p-slate-50);
+    --muted: var(--p-slate-400);
+    --border: var(--p-slate-800);
 
-  --focus-ring: 0 0 0 2px var(--p-slate-900), 0 0 0 4px var(--p-primary-400);
-  --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.5), 0 2px 4px -2px rgb(0 0 0 / 0.5);
-  --overlay: rgba(0, 0, 0, 0.7);
+    --primary: var(--p-primary-400);
+    /* Lighter in dark mode */
+    --primary-contrast: var(--p-slate-950);
+
+    --danger: #f87171;
+    --warning: #fbbf24;
+    --success: #34d399;
+    --info: #60a5fa;
+
+    --focus-ring: 0 0 0 2px var(--p-slate-900), 0 0 0 4px var(--p-primary-400);
+    --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.5), 0 2px 4px -2px rgb(0 0 0 / 0.5);
+    --overlay: rgba(0, 0, 0, 0.7);
 }
 
 /* Base global styles */
@@ -86,18 +82,21 @@ html {
 
 /* Scrollbar customization */
 ::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+    width: 8px;
+    height: 8px;
 }
+
 ::-webkit-scrollbar-track {
-  background: var(--bg); 
+    background: var(--bg);
 }
+
 ::-webkit-scrollbar-thumb {
-  background: var(--muted); 
-  border-radius: 4px;
+    background: var(--muted);
+    border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--text); 
+    background: var(--text);
 }
 
 /* PrimeVue Overrides to map to our tokens */
@@ -105,7 +104,7 @@ html {
     --p-content-border-radius: 6px;
     --p-primary-color: var(--primary);
     --p-primary-contrast-color: var(--primary-contrast);
-    
+
     /* Map PrimeVue Surfaces to our Palette (Slate) */
     --p-surface-0: #ffffff;
     --p-surface-50: var(--p-slate-50);
@@ -131,7 +130,8 @@ html {
    CSS variables update or PrimeVue knows it's dark.
 */
 [data-theme="dark"] {
-    --p-surface-0: var(--p-slate-950); /* Invert for dark mode logic generally handled by PrimeVue themes, 
+    --p-surface-0: var(--p-slate-950);
+    /* Invert for dark mode logic generally handled by PrimeVue themes, 
                                           but if we manually control, we might need this. 
                                           Actually, let's let PrimeVue handle it by using the correct selector. */
 }
