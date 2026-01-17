@@ -9,7 +9,7 @@ const { t } = useI18n()
             They can't post. You can.
         </h1>
         <p class="text-xl text-surface-600 dark:text-surface-300 font-mono">
-            #IranDigitalBlackout #MassacreIran
+            #IranDigitalBlackout #IranMassacre
         </p>
     </div>
 
