@@ -57,14 +57,14 @@ severity:
 # -----------------------------------------------------------------------------
 
 # Human-readable title of the incident
-title: "Presence of plainclothes armed units in protests"
+title: "Presence of plainclothes armed units in the uprising"
 
 # Brief summary (1-2 sentences) for lists and previews
-summary: "Video received and published by Manoto shows armed plainclothes personnel present at street protests in Qaemshahr, interacting with and directing riot police units. The chain of command and formal affiliation of these armed plainclothes actors is not identifiable from the footage."
+summary: "Video received and published by Manoto shows armed plainclothes personnel present at the uprising in Qaemshahr, interacting with and directing riot police units. The chain of command and formal affiliation of these armed plainclothes actors is not identifiable from the footage."
 
 # Detailed narrative of the event. Supports Markdown.
 narrative: |
-  During protests in Qaemshahr (also referred to as Shahi) on 8–9 January 2026, video published by Manoto shows the presence of plainclothes individuals operating alongside uniformed security forces.
+  During the uprising in Qaemshahr (also referred to as Shahi) on 8–9 January 2026, video published by Manoto shows the presence of plainclothes individuals operating alongside uniformed security forces.
   
   In the footage, these plainclothes actors are seen carrying firearms and engaging actively at the scene, including giving directions or guidance to forces described as riot police ("Special Unit"). Their conduct appears operational rather than purely observational (e.g., not limited to filming or passive presence).
   
@@ -72,7 +72,7 @@ narrative: |
 
 # Key claims made about the incident (that may or may not be verified yet)
 key_claims:
-  - "Armed plainclothes personnel were present at the Qaemshahr protests on Jan 8–9, 2026."
+  - "Armed plainclothes personnel were present at the Qaemshahr uprising on Jan 8–9, 2026."
   - "Plainclothes personnel interacted with and in some cases directed/guided uniformed riot police units at the scene."
   - "The organizational affiliation and command authority of the plainclothes personnel are not identifiable from the footage."
 
@@ -103,7 +103,7 @@ evidence_ids:
 # Sources (News reports, social media posts, etc.)
 sources:
   - id: "src-001"
-    label: "Manoto News (X) — Video from Qaemshahr protests showing active role of armed plainclothes actors"
+    label: "Manoto News (X) — Video from Qaemshahr uprising showing active role of armed plainclothes actors"
     url: "https://x.com/ManotoNews/status/2012478464528421082?s=20"
     publisher: "Manoto News"
     published_at: "2026/01/17"
@@ -111,14 +111,14 @@ sources:
     type: "secondary"
     archived_urls: []
     language: "fa"
-    notes: "Manoto states the video was received by the network and describes plainclothes individuals firing/filming and directing riot police at the protest scene."
+    notes: "Manoto states the video was received by the network and describes plainclothes individuals firing/filming and directing riot police at the uprising scene."
 
 # Timeline of events within the incident
 timeline:
   - at: "2026/01/08"
     time: ""
     title: "Armed plainclothes actors observed operating alongside riot police"
-    description: "Video segment shows armed plainclothes personnel present at the protest scene and interacting with uniformed forces, including apparent direction/guidance of riot police. Command authority is not identifiable in the footage."
+    description: "Video segment shows armed plainclothes personnel present at the uprising scene and interacting with uniformed forces, including apparent direction/guidance of riot police. Command authority is not identifiable in the footage."
     # Evidence IDs linked to this specific moment
     evidence_ids: []
     # Source IDs linked to this specific moment

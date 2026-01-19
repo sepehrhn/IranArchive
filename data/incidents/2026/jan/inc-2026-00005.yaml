@@ -37,7 +37,7 @@ location:
   lng: 
 
 # Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
-incident_type: "Protest"
+incident_type: "Uprising"
 
 # Estimated severity statistics (optional)
 # each range has 'min' and 'max' properties

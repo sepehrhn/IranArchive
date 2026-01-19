@@ -8,7 +8,7 @@ const { t } = useI18n()
             Death Toll Estimate
         </h2>
         <div class="text-surface-600 dark:text-surface-400 text-sm text-center max-w-lg font-medium">
-            Casualties during nationwide protests (Jan 8-9, 2026)
+            Casualties during nationwide uprising (Jan 8-9, 2026)
         </div>
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full mt-4">
