@@ -114,27 +114,29 @@ const handleListSelect = (iso: string) => {
           <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">
             Global Pressure Tracker
           </h1>
-          <p class="text-surface-500 dark:text-surface-400 mt-1 max-w-2xl">
+          <p class="text-surface-500 dark:text-surface-400 mt-1 max-w-2xl text-sm md:text-base">
             Visualizing the international community's policy posture towards the Islamic Republic.
           </p>
         </div>
-        <div class="flex gap-2">
-          <Button label="Methodology" icon="pi pi-info-circle" severity="secondary" @click="methodologyVisible = true" />
+        <div class="flex gap-2 w-full md:w-auto">
+          <Button label="Methodology" icon="pi pi-info-circle" severity="secondary" @click="methodologyVisible = true" class="w-full md:w-auto" />
         </div>
       </div>
 
       <!-- Controls Toolbar -->
-      <div class="flex flex-col lg:flex-row gap-4 justify-between items-center pt-2">
-        <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
+      <div class="flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center pt-2">
+        <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
           <IconField iconPosition="left" class="w-full sm:w-64">
             <InputIcon class="pi pi-search" />
             <InputText v-model="searchQuery" placeholder="Search Country" class="w-full" />
           </IconField>
           
-          <SelectButton v-model="colorMode" :options="colorModes" optionLabel="label" optionValue="value" class="w-full sm:w-auto overflow-x-auto" />
+          <div class="w-full sm:w-auto overflow-x-auto pb-2 sm:pb-0 -mx-4 px-4 sm:mx-0 sm:px-0 no-scrollbar">
+            <SelectButton v-model="colorMode" :options="colorModes" optionLabel="label" optionValue="value" class="whitespace-nowrap min-w-max" />
+          </div>
         </div>
 
-        <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-end">
+        <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-between lg:justify-end">
            <div class="flex items-center gap-2">
              <Checkbox v-model="onlyWithEvidence" :binary="true" inputId="evidence-check" />
              <label for="evidence-check" class="text-sm cursor-pointer select-none">Has Evidence</label>
@@ -201,3 +203,13 @@ const handleListSelect = (iso: string) => {
 
   </div>
 </template>
+
+<style scoped>
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+</style>

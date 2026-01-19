@@ -10,7 +10,6 @@ import {
 import { 
   TIER_COLORS, TIER_LABELS, DIPLOMACY_COLORS, IRGC_COLORS, UN_COLORS, SECURITY_COLORS 
 } from '@/utils/countryColors';
-import Sidebar from 'primevue/sidebar';
 
 const props = defineProps<{
   visible: boolean;
@@ -82,7 +81,7 @@ const formatDate = (dateStr?: string) => {
 </script>
 
 <template>
-  <Sidebar v-model:visible="isVisible" position="right" class="w-full md:w-[480px] p-0" :showCloseIcon="true">
+  <Drawer v-model:visible="isVisible" position="right" class="w-full md:w-[480px] p-0" :showCloseIcon="true">
     <template #header>
       <div class="flex items-center gap-3" v-if="country">
         <!-- Optional URL-based flag or just name -->
@@ -189,5 +188,5 @@ const formatDate = (dateStr?: string) => {
       </div>
 
     </div>
-  </Sidebar>
+  </Drawer>
 </template>
