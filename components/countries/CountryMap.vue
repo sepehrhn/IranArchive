@@ -121,7 +121,7 @@ const handleReset = () => {
 </script>
 
 <template>
-  <div class="w-full overflow-hidden bg-[#F0F3F4] dark:bg-[#1a202c] rounded-xl border border-surface-200 dark:border-surface-700 relative group">
+  <div class="w-full overflow-hidden bg-[#F0F3F4] dark:bg-[#1a202c] rounded-xl border border-surface-200 dark:border-surface-700 relative group touch-none">
     <svg 
       ref="svgRef"
       :viewBox="`0 0 ${width} ${height}`" 
@@ -135,7 +135,7 @@ const handleReset = () => {
           :fill="feature.properties.fill"
           :stroke="selectedIso === feature.properties.iso2 ? '#000' : '#fff'"
           :stroke-width="selectedIso === feature.properties.iso2 ? 1.5/currentZoom : 0.5/currentZoom"
-          class="transition-colors duration-200 hover:opacity-80 cursor-pointer outline-none"
+          class="transition-opacity duration-200 hover:opacity-80 cursor-pointer outline-none"
           @click.stop="handleClick(feature)"
         >
           <title>{{ feature.properties.NAME }}: {{ feature.properties.data?.derived_tier || 'Unknown' }}</title>

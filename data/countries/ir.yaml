@@ -1,12 +1,12 @@
 iso2: IR
-name: "Free Iran"
+name: "Iran"
 region: "Asia"
 subregion: "Southern Asia"
 last_reviewed_at: '2026-01-19'
 scores:
-  diplomacy: 20
-  irgc: 20
-  un: 20
+  diplomacy: 30
+  irgc: 25
+  un: 25
   security: 20
   force_tier: A
 diplomacy:
