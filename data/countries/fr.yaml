@@ -1,0 +1,30 @@
+iso2: FR
+name: "France"
+region: "Europe"
+subregion: "Western Europe"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 15
+  irgc: 10
+  un: 20
+  security: 10
+  force_tier: B
+diplomacy:
+  status: full_relations
+  expelled_diplomats: unknown
+  iran_mission_status: unknown
+  summary: "Relations engaged but highly tense. French citizens held hostage (Cécile Kohler). E3 member pushing for nuclear compliance."
+irgc_designation:
+  status: security_threat
+  summary: "Condemned IRGC actions. Pushing for sanctions snapback."
+un_posture:
+  status: supports_accountability
+  supports_un_investigations: true
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "E3 member. Leads resolutions on human rights."
+security_posture:
+  status: explicit_support
+  summary: "Naval presence in Gulf (EMASOH). Intercepted Iranian drones attacking Israel."
+evidence: []

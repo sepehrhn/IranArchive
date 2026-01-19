@@ -1,0 +1,30 @@
+iso2: KW
+name: "Kuwait"
+region: "Asia"
+subregion: "Western Asia"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 10
+  irgc: 0
+  un: 5
+  security: 0
+  force_tier: D
+diplomacy:
+  status: full_relations
+  expelled_diplomats: unknown
+  iran_mission_status: unknown
+  summary: "Restored ambassador in 2022. Dispute over Durra gas field remains."
+irgc_designation:
+  status: rejected_or_no
+  summary: "No designation."
+un_posture:
+  status: neutral_inconsistent
+  supports_un_investigations: false
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Mixed."
+security_posture:
+  status: unknown
+  summary: "None known."
+evidence: []

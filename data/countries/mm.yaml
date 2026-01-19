@@ -1,0 +1,30 @@
+iso2: MM
+name: "Myanmar"
+region: "Asia"
+subregion: "South-eastern Asia"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: -5
+  irgc: 0
+  un: -10
+  security: -10
+  force_tier: G
+diplomacy:
+  status: enhanced_engagement
+  expelled_diplomats: unknown
+  iran_mission_status: embassy
+  summary: "Junta government strengthening ties. Purchasing Iranian arms (drone technology)."
+irgc_designation:
+  status: rejected_or_no
+  summary: "No designation."
+un_posture:
+  status: protects_regime
+  supports_un_investigations: false
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Votes with Iran bloc."
+security_posture:
+  status: opposed
+  summary: "Reports of Iranian weapons supplies to the Junta."
+evidence: []

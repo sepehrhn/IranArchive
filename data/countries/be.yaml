@@ -1,0 +1,30 @@
+iso2: BE
+name: "Belgium"
+region: "Europe"
+subregion: "Western Europe"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 10
+  irgc: 0
+  un: 10
+  security: 5
+  force_tier: C
+diplomacy:
+  status: full_relations
+  expelled_diplomats: unknown
+  iran_mission_status: unknown
+  summary: "Relations strained by 'hostage diplomacy' (Vandecasteele/Assadi prisoner swap). Recalled ambassador for consultations in past."
+irgc_designation:
+  status: rejected_or_no
+  summary: "Advocates for EU-wide designation."
+un_posture:
+  status: supports_accountability
+  supports_un_investigations: false
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Consistently votes for HR resolutions."
+security_posture:
+  status: conditional_support
+  summary: "Intelligence monitoring of Iranian agents (Assadi case)."
+evidence: []

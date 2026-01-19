@@ -1,0 +1,30 @@
+iso2: CR
+name: "Costa Rica"
+region: "Americas"
+subregion: "Central America"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 15
+  irgc: 0
+  un: 20
+  security: 0
+  force_tier: C
+diplomacy:
+  status: full_relations
+  expelled_diplomats: none
+  iran_mission_status: unknown
+  summary: "Maintains relations but is a strong advocate for human rights globally."
+irgc_designation:
+  status: rejected_or_no
+  summary: "No designation."
+un_posture:
+  status: supports_accountability
+  supports_un_investigations: true
+  supports_sanctions_or_condemnation: true
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Consistently supports human rights resolutions at the UN."
+security_posture:
+  status: unknown
+  summary: "Demilitarized nation, no security ties."
+evidence: []

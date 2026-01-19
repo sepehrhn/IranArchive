@@ -1,0 +1,30 @@
+iso2: PK
+name: "Pakistan"
+region: "Asia"
+subregion: "Southern Asia"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 5
+  irgc: 0
+  un: 0
+  security: -5
+  force_tier: E
+diplomacy:
+  status: enhanced_engagement
+  expelled_diplomats: unknown
+  iran_mission_status: embassy
+  summary: "Strong but complex ties. Iran-Pakistan gas pipeline promised. Raisi visited Apr 2024."
+irgc_designation:
+  status: rejected_or_no
+  summary: "No designation."
+un_posture:
+  status: neutral_inconsistent
+  supports_un_investigations: false
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Abstains or supports Iran."
+security_posture:
+  status: unknown
+  summary: "Reciprocal missile strikes on separatist targets in early 2024 showed tension, but de-escalated quickly."
+evidence: []

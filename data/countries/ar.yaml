@@ -1,0 +1,30 @@
+iso2: AR
+name: "Argentina"
+region: "Americas"
+subregion: "South America"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 25
+  irgc: 20
+  un: 20
+  security: 15
+  force_tier: B
+diplomacy:
+  status: downgraded
+  expelled_diplomats: limited
+  iran_mission_status: embassy
+  summary: "Relations strained by AMIA (1994) and Israeli Embassy (1992) bombings legacy. Recent administration strongly aligns with Israel/US."
+irgc_designation:
+  status: under_consideration
+  summary: "Has frozen assets of suspected operatives; strong political moves to designate."
+un_posture:
+  status: supports_accountability
+  supports_un_investigations: true
+  supports_sanctions_or_condemnation: true
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Consistently supports human rights investigations."
+security_posture:
+  status: explicit_support
+  summary: "Cooperates on counter-terrorism; specifically targets Hezbollah/IRGC networks in the Tri-Border Area."
+evidence: []

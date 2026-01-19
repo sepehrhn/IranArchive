@@ -1,0 +1,30 @@
+iso2: AU
+name: "Australia"
+region: "Oceania"
+subregion: "Australia and New Zealand"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 15
+  irgc: 5
+  un: 20
+  security: 10
+  force_tier: C
+diplomacy:
+  status: full_relations
+  expelled_diplomats: unknown
+  iran_mission_status: unknown
+  summary: "Relations strained. Suspended bilateral human rights dialogue. Imposed Magnitsky-style sanctions on Iranian individuals."
+irgc_designation:
+  status: rejected_or_no
+  summary: "Senate recommended listing as terrorist organization. Government considering legal implications."
+un_posture:
+  status: supports_accountability
+  supports_un_investigations: true
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Consistently co-sponsors HR resolutions."
+security_posture:
+  status: explicit_support
+  summary: "Participates in maritime security in the Middle East. Concens over dual-use technology proliferation."
+evidence: []

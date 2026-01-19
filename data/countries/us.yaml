@@ -1,0 +1,30 @@
+iso2: US
+name: "United States"
+region: "Americas"
+subregion: "Northern America"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 30
+  irgc: 25
+  un: 25
+  security: 20
+  force_tier: A
+diplomacy:
+  status: severed
+  expelled_diplomats: all
+  iran_mission_status: interests_section
+  summary: "Diplomatic relations severed since 1980. Leads global maximum pressure campaign."
+irgc_designation:
+  status: designated_full
+  summary: "Designated as a Foreign Terrorist Organization (FTO) in 2019."
+un_posture:
+  status: leads_accountability
+  supports_un_investigations: true
+  supports_sanctions_or_condemnation: true
+  supports_evidence_preservation: true
+  supports_credential_limits: true
+  summary: "Spearheads most UN resolutions condemning human rights abuses and nuclear proliferation."
+security_posture:
+  status: explicit_support
+  summary: "Leads maritime security coalitions; enforces secondary sanctions; conducts deterrence operations."
+evidence: []

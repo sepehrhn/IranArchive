@@ -1,0 +1,30 @@
+iso2: AL
+name: "Albania"
+region: "Europe"
+subregion: "Southern Europe"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 20
+  irgc: 5
+  un: 10
+  security: 10
+  force_tier: B
+diplomacy:
+  status: severed
+  expelled_diplomats: all
+  iran_mission_status: none
+  summary: "Severed diplomatic relations in Sep 2022 following massive Iranian cyberattacks. Hosts MEK (Mojahedin-e Khalq) members."
+irgc_designation:
+  status: security_threat
+  summary: "Expelled Iranian diplomats for plotting terrorist attacks against dissidents."
+un_posture:
+  status: supports_accountability
+  supports_un_investigations: false
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Co-sponsored UN resolutions on Iranian human rights."
+security_posture:
+  status: explicit_support
+  summary: "Target of direct Iranian cyber warfare."
+evidence: []

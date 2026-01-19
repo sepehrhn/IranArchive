@@ -1,0 +1,30 @@
+iso2: NL
+name: "Netherlands"
+region: "Europe"
+subregion: "Western Europe"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 15
+  irgc: 15
+  un: 15
+  security: 10
+  force_tier: B
+diplomacy:
+  status: full_relations
+  expelled_diplomats: unknown
+  iran_mission_status: unknown
+  summary: "Relations tense. Recalled ambassador in past. Strong critic of Iran's human rights record."
+irgc_designation:
+  status: security_threat
+  summary: "Parliament voted to designate IRGC as terrorist organization. Leading push within EU."
+un_posture:
+  status: supports_accountability
+  supports_un_investigations: false
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Consistently votes for HR resolutions."
+security_posture:
+  status: explicit_support
+  summary: "Intelligence services (AIVD) actively monitor Iranian proliferation networks."
+evidence: []
