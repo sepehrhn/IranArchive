@@ -1,0 +1,30 @@
+iso2: GB
+name: "United Kingdom"
+region: "Europe"
+subregion: "Northern Europe"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 15
+  irgc: 15
+  un: 20
+  security: 15
+  force_tier: B
+diplomacy:
+  status: full_relations
+  expelled_diplomats: unknown
+  iran_mission_status: unknown
+  summary: "Relations tense. UK leading new sanctions regime. Iran International (media) threats on UK soil caused strain."
+irgc_designation:
+  status: security_threat
+  summary: "Sanctioned many leaders. Designation as terrorist organization debated in Parliament."
+un_posture:
+  status: supports_accountability
+  supports_un_investigations: true
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "E3 member. Leads resolutions on human rights."
+security_posture:
+  status: explicit_support
+  summary: "Participates in Red Sea maritime security operations."
+evidence: []

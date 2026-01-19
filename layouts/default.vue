@@ -13,10 +13,13 @@ const { t } = useI18n()
                 
                 <div class="flex items-center gap-1 md:gap-4">
                     <NuxtLink to="/" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors">
-                        {{ t('common.home') }}
+                        Home
                     </NuxtLink>
                     <NuxtLink to="/incidents" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors">
-                        {{ t('common.incidents') }}
+                        Incidents
+                    </NuxtLink>
+                    <NuxtLink to="/countries" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors">
+                        Global Pressure
                     </NuxtLink>
                     <div class="w-px h-6 bg-surface-200 dark:bg-surface-700 mx-1 hidden md:block"></div>
                     <ThemeToggle />

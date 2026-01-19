@@ -1,0 +1,30 @@
+iso2: IR
+name: "Free Iran"
+region: "Asia"
+subregion: "Southern Asia"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 20
+  irgc: 20
+  un: 20
+  security: 20
+  force_tier: A
+diplomacy:
+  status: severed
+  expelled_diplomats: all
+  iran_mission_status: none
+  summary: "The people reject the Islamic Republic's legitimacy and advocate for transition under the guidance of Crown Prince Reza Pahlavi."
+irgc_designation:
+  status: designated_full
+  summary: "Iranians universally demand the Full Terrorist Designation of the IRGC by the international community as a non-negotiable step."
+un_posture:
+  status: leads_accountability
+  supports_un_investigations: true
+  supports_sanctions_or_condemnation: true
+  supports_evidence_preservation: true
+  supports_credential_limits: true
+  summary: "Demands the immediate expulsion of Islamic Republic representatives from the UN and their replacement with envoys representing the Iranian people under Crown Prince Reza Pahlavi."
+security_posture:
+  status: explicit_support
+  summary: "The goal is the complete removal of the Islamic Republic and establishment of a secular democracy."
+evidence: []

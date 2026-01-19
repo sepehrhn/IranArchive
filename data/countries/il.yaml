@@ -1,0 +1,30 @@
+iso2: IL
+name: "Israel"
+region: "Asia"
+subregion: "Western Asia"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 20
+  irgc: 20
+  un: 20
+  security: 20
+  force_tier: A
+diplomacy:
+  status: no_relations
+  expelled_diplomats: unknown
+  iran_mission_status: unknown
+  summary: "State of war. Iran's top regional adversary."
+irgc_designation:
+  status: designated_terrorist
+  summary: "Designated FTO."
+un_posture:
+  status: supports_accountability
+  supports_un_investigations: true
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Leads international pressure."
+security_posture:
+  status: explicit_support
+  summary: "Active military operations against IRGC/proxies (Syria, Lebanon, Gaza, Yemen)."
+evidence: []

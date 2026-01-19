@@ -1,0 +1,30 @@
+iso2: DK
+name: "Denmark"
+region: "Europe"
+subregion: "Northern Europe"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 15
+  irgc: 5
+  un: 15
+  security: 10
+  force_tier: C
+diplomacy:
+  status: full_relations
+  expelled_diplomats: unknown
+  iran_mission_status: unknown
+  summary: "Relations cool. Recalled ambassador in 2018 over Iranian assassination plot on Danish soil."
+irgc_designation:
+  status: rejected_or_no
+  summary: "Supports EU-wide designation discussions."
+un_posture:
+  status: supports_accountability
+  supports_un_investigations: false
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Consistently votes for HR resolutions."
+security_posture:
+  status: explicit_support
+  summary: "Participates in maritime security missions."
+evidence: []

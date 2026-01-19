@@ -1,0 +1,30 @@
+iso2: CA
+name: "Canada"
+region: "Americas"
+subregion: "Northern America"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 25
+  irgc: 25
+  un: 25
+  security: 15
+  force_tier: B
+diplomacy:
+  status: severed
+  expelled_diplomats: all
+  iran_mission_status: none
+  summary: "Severed relations in 2012. Designates regime as a state sponsor of terrorism (Justice for Victims of Terrorism Act)."
+irgc_designation:
+  status: designated_full
+  summary: "Officially listed the IRGC as a terrorist entity in June 2024."
+un_posture:
+  status: leads_accountability
+  supports_un_investigations: true
+  supports_sanctions_or_condemnation: true
+  supports_evidence_preservation: true
+  supports_credential_limits: false
+  summary: "Leads the annual UN General Assembly resolution on Iran's human rights situation."
+security_posture:
+  status: explicit_support
+  summary: "Enforces robust sanctions; coordinates with Five Eyes on threat assessment."
+evidence: []

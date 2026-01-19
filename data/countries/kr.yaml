@@ -1,0 +1,30 @@
+iso2: KR
+name: "South Korea"
+region: "Asia"
+subregion: "Eastern Asia"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 10
+  irgc: 0
+  un: 10
+  security: 5
+  force_tier: C
+diplomacy:
+  status: full_relations
+  expelled_diplomats: unknown
+  iran_mission_status: unknown
+  summary: "Relations strained for years over frozen assets ($6bn), recently released (2023). Remains cool due to US alignment."
+irgc_designation:
+  status: rejected_or_no
+  summary: "No designation."
+un_posture:
+  status: supports_accountability
+  supports_un_investigations: false
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Often votes for HR resolutions."
+security_posture:
+  status: conditional_support
+  summary: "Strong US military ally. Monitors North Korea-Iran missile cooperation."
+evidence: []

@@ -1,0 +1,30 @@
+iso2: KP
+name: "North Korea"
+region: "Asia"
+subregion: "Eastern Asia"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: -10
+  irgc: 0
+  un: -10
+  security: -15
+  force_tier: G
+diplomacy:
+  status: enhanced_engagement
+  expelled_diplomats: unknown
+  iran_mission_status: embassy
+  summary: "Historic ally against 'Western imperialism'. Cooperation on missile technology."
+irgc_designation:
+  status: rejected_or_no
+  summary: "No designation."
+un_posture:
+  status: protects_regime
+  supports_un_investigations: false
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Consistently supports Iran."
+security_posture:
+  status: opposed
+  summary: "Extensive missile and defense technology proliferation cooperation."
+evidence: []

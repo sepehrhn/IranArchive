@@ -1,0 +1,203 @@
+<script setup lang="ts">
+import { ref, computed, onMounted } from 'vue';
+import { useCountries } from '@/composables/useCountries';
+import { useHead } from '#imports';
+import { 
+  OverallTier, 
+  DiplomacyStatus,
+  IRGCDesignationStatus,
+  UNPostureStatus,
+  SecurityPostureStatus
+} from '@/types/countries';
+import CountryMap from '@/components/countries/CountryMap.vue';
+import CountryLegend from '@/components/countries/CountryLegend.vue';
+import CountryDrawer from '@/components/countries/CountryDrawer.vue';
+import MethodologyModal from '@/components/countries/MethodologyModal.vue';
+
+// SEO
+useHead({
+  title: 'Global Pressure Tracker - IranArchive',
+  meta: [
+    { name: 'description', content: 'Tracking global policy posture towards the Islamic Republic of Iran across Diplomacy, IRGC Designation, UN Accountability, and Security Support.' }
+  ]
+});
+
+// Data
+const { loadCountries, getAllCountries, getCountryByIso } = useCountries();
+const loading = ref(true);
+
+onMounted(async () => {
+  await loadCountries();
+  loading.value = false;
+});
+
+// State
+const searchQuery = ref('');
+const colorMode = ref<'Overall' | 'Diplomacy' | 'IRGC' | 'UN' | 'Security'>('Overall');
+const selectedTier = ref<OverallTier[]>([]);
+const onlyWithEvidence = ref(false);
+const sortMode = ref<'Name' | 'Score' | 'Reviewed'>('Name');
+
+const selectedIso = ref<string | null>(null);
+const drawerVisible = ref(false);
+const methodologyVisible = ref(false);
+
+const colorModes = [
+  { label: 'Overall Pressure', value: 'Overall' },
+  { label: 'Diplomacy', value: 'Diplomacy' },
+  { label: 'IRGC Designation', value: 'IRGC' },
+  { label: 'UN Posture', value: 'UN' },
+  { label: 'Security Support', value: 'Security' }
+];
+
+const tiers = Object.values(OverallTier).filter(t => t !== OverallTier.Unknown);
+
+// Filtering
+const filteredCountries = computed(() => {
+  let result = getAllCountries.value;
+
+  // Search
+  if (searchQuery.value) {
+    const q = searchQuery.value.toLowerCase();
+    result = result.filter(c => 
+      c.name.toLowerCase().includes(q) || 
+      c.iso2.toLowerCase().includes(q)
+    );
+  }
+
+  // Tier Filter (Available in Overall mode mostly, but useful always)
+  if (selectedTier.value.length > 0) {
+    result = result.filter(c => selectedTier.value.includes(c.derived_tier || OverallTier.Unknown));
+  }
+
+  // Evidence Filter
+  if (onlyWithEvidence.value) {
+    result = result.filter(c => c.evidence && c.evidence.length > 0);
+  }
+
+  // Sorting
+  return result.sort((a, b) => {
+    if (sortMode.value === 'Score') {
+      return (b.derived_scores?.overall || 0) - (a.derived_scores?.overall || 0);
+    }
+    if (sortMode.value === 'Reviewed') {
+      return (b.last_reviewed_at || '').localeCompare(a.last_reviewed_at || '');
+    }
+    return a.name.localeCompare(b.name);
+  });
+});
+
+const selectedCountry = computed(() => {
+  return selectedIso.value ? getCountryByIso(selectedIso.value) : null;
+});
+
+const handleMapSelect = (iso: string) => {
+  selectedIso.value = iso;
+  drawerVisible.value = true;
+};
+
+const handleListSelect = (iso: string) => {
+  selectedIso.value = iso;
+  drawerVisible.value = true;
+  // Scroll map into view on mobile?
+};
+</script>
+
+<template>
+  <div class="min-h-screen pb-12">
+    <!-- Header Card -->
+    <div class="flex flex-col gap-6 bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-6">
+      
+      <!-- Title & Main Actions -->
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+        <div>
+          <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">
+            Global Pressure Tracker
+          </h1>
+          <p class="text-surface-500 dark:text-surface-400 mt-1 max-w-2xl">
+            Visualizing the international community's policy posture towards the Islamic Republic.
+          </p>
+        </div>
+        <div class="flex gap-2">
+          <Button label="Methodology" icon="pi pi-info-circle" severity="secondary" @click="methodologyVisible = true" />
+        </div>
+      </div>
+
+      <!-- Controls Toolbar -->
+      <div class="flex flex-col lg:flex-row gap-4 justify-between items-center pt-2">
+        <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto">
+          <IconField iconPosition="left" class="w-full sm:w-64">
+            <InputIcon class="pi pi-search" />
+            <InputText v-model="searchQuery" placeholder="Search Country" class="w-full" />
+          </IconField>
+          
+          <SelectButton v-model="colorMode" :options="colorModes" optionLabel="label" optionValue="value" class="w-full sm:w-auto overflow-x-auto" />
+        </div>
+
+        <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-end">
+           <div class="flex items-center gap-2">
+             <Checkbox v-model="onlyWithEvidence" :binary="true" inputId="evidence-check" />
+             <label for="evidence-check" class="text-sm cursor-pointer select-none">Has Evidence</label>
+           </div>
+           
+           <Dropdown v-model="sortMode" :options="['Name', 'Score', 'Reviewed']" placeholder="Sort By" class="w-32" />
+        </div>
+      </div>
+    </div>
+
+      <!-- Map & List Grid -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+        
+        <!-- Map Column -->
+        <div class="lg:col-span-8 space-y-4">
+          <CountryMap 
+            :countries="filteredCountries" 
+            :mode="colorMode"
+            :selectedIso="selectedIso"
+            @select="handleMapSelect"
+          />
+          <CountryLegend :mode="colorMode" />
+        </div>
+
+        <!-- List Column -->
+        <div class="lg:col-span-4 flex flex-col gap-4">
+          <div class="bg-surface-0 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm flex flex-col max-h-[600px]">
+            <div class="p-4 border-b border-surface-200 dark:border-surface-700 font-semibold flex justify-between items-center">
+              <span>Countries ({{ filteredCountries.length }})</span>
+            </div>
+            <div class="overflow-y-auto flex-1 p-2 space-y-1">
+              <div 
+                v-for="country in filteredCountries" 
+                :key="country.iso2"
+                class="p-3 rounded-lg hover:bg-surface-100 dark:hover:bg-surface-800 cursor-pointer transition flex justify-between items-center group"
+                :class="{ 'bg-primary-50 dark:bg-primary-900/20 border border-primary-200 dark:border-primary-800': selectedIso === country.iso2 }"
+                @click="handleListSelect(country.iso2)"
+              >
+                <div class="flex items-center gap-3">
+                  <!-- <img :src="`/flags/${country.iso2.toLowerCase()}.svg`" class="w-6 h-4 object-cover rounded shadow-sm opacity-80" /> -->
+                  <span class="font-medium">{{ country.name }}</span>
+                </div>
+                <div class="flex items-center gap-3">
+                   <span class="text-sm font-bold text-surface-500">{{ country.derived_tier }}</span>
+                   <i class="pi pi-chevron-right text-surface-400 opacity-0 group-hover:opacity-100 transition"></i>
+                </div>
+              </div>
+              <div v-if="filteredCountries.length === 0" class="p-8 text-center text-surface-500">
+                No countries found matching your criteria.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    <!-- Components -->
+    <CountryDrawer 
+      v-model:visible="drawerVisible" 
+      :country="selectedCountry"
+    />
+    
+    <MethodologyModal v-model:visible="methodologyVisible" />
+
+  </div>
+</template>

@@ -1,0 +1,30 @@
+iso2: ZA
+name: "South Africa"
+region: "Africa"
+subregion: "Southern Africa"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: -5
+  irgc: 0
+  un: -10
+  security: 0
+  force_tier: E
+diplomacy:
+  status: enhanced_engagement
+  expelled_diplomats: unknown
+  iran_mission_status: embassy
+  summary: "Strong relations. BRICS partner. Iran supported anti-apartheid movements historically. FM Abdollahian visited in 2023."
+irgc_designation:
+  status: rejected_or_no
+  summary: "No designation."
+un_posture:
+  status: neutral_inconsistent
+  supports_un_investigations: false
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Often abstains or votes against country-specific mandates, prioritizing non-alignment narrative."
+security_posture:
+  status: unknown
+  summary: "Naval drills (Mosi II) with Russia/China/South Africa have raised Western concerns."
+evidence: []

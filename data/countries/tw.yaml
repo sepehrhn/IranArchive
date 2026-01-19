@@ -1,0 +1,30 @@
+iso2: TW
+name: "Taiwan"
+region: "Asia"
+subregion: "Eastern Asia"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 0
+  irgc: 0
+  un: 0
+  security: 0
+  force_tier: D
+diplomacy:
+  status: no_resident_mission
+  expelled_diplomats: none
+  iran_mission_status: none
+  summary: "No official relations (Iran follows One China policy). Trade office presence in past limited."
+irgc_designation:
+  status: rejected_or_no
+  summary: "No designation."
+un_posture:
+  status: neutral_inconsistent
+  supports_un_investigations: false
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Not a UN member."
+security_posture:
+  status: unknown
+  summary: "Monitors global threats but no direct interaction."
+evidence: []

@@ -1,0 +1,30 @@
+iso2: AT
+name: "Austria"
+region: "Europe"
+subregion: "Western Europe"
+last_reviewed_at: '2026-01-19'
+scores:
+  diplomacy: 10
+  irgc: 0
+  un: 5
+  security: 0
+  force_tier: D
+diplomacy:
+  status: full_relations
+  expelled_diplomats: unknown
+  iran_mission_status: unknown
+  summary: "Maintains relations. Historic venue for nuclear talks (JCPOA). Prioritizes dialogue."
+irgc_designation:
+  status: rejected_or_no
+  summary: "No designation."
+un_posture:
+  status: supports_accountability
+  supports_un_investigations: false
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Supports HR resolutions."
+security_posture:
+  status: unknown
+  summary: "None known."
+evidence: []
