@@ -1,11 +1,19 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 import { useCampaigns } from '~/composables/useCampaigns';
+import { useCampaignSigning } from '~/composables/useCampaignSigning';
 import { useCountries } from '~/composables/useCountries';
 import type { CampaignStatus } from '~/types/campaign';
 
 const { getAllCampaigns } = useCampaigns();
 const allCampaigns = getAllCampaigns();
+
+// Signing Logic
+const { loadSigned, isSigned, markSigned } = useCampaignSigning();
+
+onMounted(() => {
+  loadSigned();
+});
 
 // SEO
 useHead({
@@ -53,6 +61,12 @@ const filteredCampaigns = computed(() => {
 // Sorting
   // Create a copy to sort
   result = [...result].sort((a, b) => {
+    // 1. Unsigned first (Visual priority)
+    const aSigned = isSigned(a.id);
+    const bSigned = isSigned(b.id);
+    if (aSigned !== bSigned) return aSigned ? 1 : -1;
+
+    // 2. Selected Sort Option
     if (sortOption.value === 'title') {
       return a.title.localeCompare(b.title);
     }
@@ -147,19 +161,31 @@ const formatCountries = (codes: string[]) => {
                 v-for="campaign in filteredCampaigns"
                 :key="campaign.id"
                 :href="campaign.url"
+                @click="markSigned(campaign.id)"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="group block bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-xl overflow-hidden hover:shadow-lg hover:border-primary-500/50 transition-all duration-300 transform hover:-translate-y-1"
             >
                 <!-- Thumbnail -->
-                <div class="aspect-video w-full bg-surface-100 dark:bg-surface-800 relative overflow-hidden">
+                <div 
+                  class="aspect-video w-full bg-surface-100 dark:bg-surface-800 relative overflow-hidden campaign-img-wrap"
+                  :class="{ 'signed': isSigned(campaign.id) }"
+                >
                     <img 
                         :src="campaign.thumbnailUrl || '/campaign-placeholder.svg'" 
                         :alt="campaign.title"
                         loading="lazy"
-                        class="w-full h-full object-cover"
+                        class="w-full h-full object-cover transition-all duration-300 campaign-img"
                     />
-                     <div class="absolute top-3 right-3 flex gap-2">
+                     
+                     <!-- Signed Overlay/Stamp -->
+                     <div v-if="isSigned(campaign.id)" class="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
+                        <div class="seal text-white px-4 py-2 text-xl tracking-widest uppercase rounded-sm backdrop-blur-sm">
+                           Signed
+                        </div>
+                     </div>
+
+                     <div class="absolute top-3 right-3 flex gap-2 z-20">
                         <Badge :value="campaign.status.toUpperCase()" :severity="getStatusSeverity(campaign.status)" />
                      </div>
                 </div>
@@ -189,3 +215,29 @@ const formatCountries = (codes: string[]) => {
     </div>
   </div>
 </template>
+
+<style scoped>
+/* Signed State Styling */
+.campaign-img-wrap.signed::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  pointer-events: none;
+  transition: background 0.3s ease;
+}
+
+.campaign-img-wrap.signed .campaign-img {
+  opacity: 0.45;
+  filter: grayscale(30%) contrast(95%);
+}
+
+.seal {
+  border: 3px solid rgba(255, 255, 255, 0.92);
+  background: rgba(0, 0, 0, 0.35);
+  letter-spacing: 0.14em;
+  font-weight: 800;
+  transform: rotate(-8deg);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+</style>
