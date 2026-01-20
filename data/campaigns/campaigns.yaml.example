@@ -1,0 +1,25 @@
+# Campaign Config Template
+# Copy this file to a new .yaml file in /data/campaigns/ with a unique ID as filename (e.g., camp-2026-00001.yaml)
+# Do NOT fill the "id" field; it is derived from the filename.
+
+# Required
+# Must be a valid URL
+url: "https://www.change.org/example-petition"
+title: "Example Title of the Campaign"
+
+# Optional
+
+# Filename only (e.g. "my-image.jpg"). Must exist in /data/campaigns/img/
+thumbnail: ""
+
+# Options: "active", "closed", "victory", "unknown"
+status: "active"
+
+# List of ISO2 codes. Leave empty/commented for International/All.
+countries: []
+
+# true or false
+featured: false
+
+# Format: YYYY/MM/DD
+created_at: ""

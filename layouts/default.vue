@@ -29,9 +29,24 @@ const closeMenu = () => {
                     <NuxtLink to="/victims" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors">
                         Victims
                     </NuxtLink>
-                    <NuxtLink to="/countries" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors">
-                        Global Pressure
-                    </NuxtLink>
+                    <div class="relative group">
+                        <button class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors flex items-center gap-1 outline-none focus:ring-2 focus:ring-primary-500/50">
+                            Global Pressure
+                            <i class="pi pi-chevron-down text-xs opacity-70"></i>
+                        </button>
+                        <div class="absolute top-full right-0 mt-1 w-48 bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-800 rounded-xl shadow-xl overflow-hidden invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-all duration-200 transform origin-top-right z-50">
+                            <div class="flex flex-col py-1">
+                                <NuxtLink to="/countries" class="px-4 py-2.5 hover:bg-surface-100 dark:hover:bg-surface-800 text-sm flex items-center gap-2 group/item">
+                                    <i class="pi pi-globe text-primary-500"></i>
+                                    <span class="group-hover/item:text-primary-600 dark:group-hover/item:text-primary-400 transition-colors">Tracker</span>
+                                </NuxtLink>
+                                <NuxtLink to="/campaigns" class="px-4 py-2.5 hover:bg-surface-100 dark:hover:bg-surface-800 text-sm flex items-center gap-2 group/item">
+                                    <i class="pi pi-megaphone text-primary-500"></i>
+                                    <span class="group-hover/item:text-primary-600 dark:group-hover/item:text-primary-400 transition-colors">Campaigns</span>
+                                </NuxtLink>
+                            </div>
+                        </div>
+                    </div>
                     <div class="w-px h-6 bg-surface-200 dark:bg-surface-700 mx-1"></div>
                     <ThemeToggle />
                 </div>
@@ -65,10 +80,17 @@ const closeMenu = () => {
                      <i class="pi pi-user text-surface-500"></i>
                     <span>Victims</span>
                 </NuxtLink>
-                <NuxtLink to="/countries" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors flex items-center gap-3" @click="closeMenu">
-                    <i class="pi pi-globe text-surface-500"></i>
-                    <span>Global Pressure</span>
-                </NuxtLink>
+                <div class="mt-2 pt-2 border-t border-surface-100 dark:border-surface-800">
+                    <div class="px-3 py-2 text-xs font-bold text-surface-500 uppercase tracking-wider">Global Pressure</div>
+                    <NuxtLink to="/countries" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors flex items-center gap-3 ml-2" @click="closeMenu">
+                        <i class="pi pi-globe text-surface-500"></i>
+                        <span>Tracker</span>
+                    </NuxtLink>
+                    <NuxtLink to="/campaigns" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors flex items-center gap-3 ml-2" @click="closeMenu">
+                        <i class="pi pi-megaphone text-surface-500"></i>
+                        <span>Campaigns</span>
+                    </NuxtLink>
+                </div>
             </div>
         </Drawer>
 

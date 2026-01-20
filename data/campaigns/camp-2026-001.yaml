@@ -1,0 +1,25 @@
+# Campaign Config
+# Do NOT fill the "id" field; it is derived from the filename.
+
+# Required
+# Must be a valid URL
+url: "https://c.org/KyLQFVp4xp"
+title: "Norway Must End Diplomatic Relations with the Islamic Republic"
+
+# Optional
+
+# Filename only (e.g. "my-image.jpg"). Must exist in /data/campaigns/img/
+thumbnail: "camp-2026-001.jpg"
+
+# Options: "active", "closed", "victory", "unknown"
+status: "active"
+
+# List of ISO2 codes. Leave empty/commented for International/All.
+countries: 
+  - NO
+
+# true or false
+featured: false
+
+# Format: YYYY/MM/DD
+created_at: ""
