@@ -327,7 +327,8 @@ review_history:
 # -----------------------------------------------------------------------------
 
 # Victims involved
-victims: []
+victims:
+  - vic-2026-00001
 
 # Related incidents (e.g. other protests in the same chain)
 related_incidents: []

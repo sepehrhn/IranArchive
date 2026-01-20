@@ -9,9 +9,8 @@
                 <NuxtLink 
                     v-for="victim in victims" 
                     :key="victim.id"
-                    :to="victim.slug ? `/victims/${victim.slug}` : undefined" 
+                    :to="`/victims/${victim.id}`" 
                     class="no-underline"
-                    :class="{'cursor-default pointer-events-none': !victim.slug}"
                 >
                     <Chip :label="victim.name" class="cursor-pointer hover:bg-surface-200 dark:hover:bg-surface-700 transition-colors" />
                 </NuxtLink>

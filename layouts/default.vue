@@ -10,8 +10,8 @@ const closeMenu = () => {
 </script>
 
 <template>
-    <div class="min-h-screen flex flex-col bg-surface-50 dark:bg-surface-950 text-surface-900 dark:text-surface-0 font-sans transition-colors duration-300">
-        <header class="sticky top-0 z-50 border-b border-surface-200 dark:border-surface-800 bg-surface-0 dark:bg-surface-900 transition-colors duration-300">
+    <div class="min-h-screen flex flex-col bg-surface-50 dark:bg-surface-950 text-surface-900 dark:text-surface-0 font-sans">
+        <header class="sticky top-0 z-50 border-b border-surface-200 dark:border-surface-800 bg-surface-0 dark:bg-surface-900">
             <nav class="container mx-auto px-4 h-16 flex items-center justify-between">
                 <NuxtLink to="/" class="flex items-center gap-2 font-bold text-xl tracking-tight text-primary-600 dark:text-primary-400 hover:opacity-80 transition-opacity" @click="closeMenu">
                     <img src="/lion-and-sun.svg" alt="Lion and Sun" class="h-10 w-auto" />
@@ -25,6 +25,9 @@ const closeMenu = () => {
                     </NuxtLink>
                     <NuxtLink to="/incidents" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors">
                         Incidents
+                    </NuxtLink>
+                    <NuxtLink to="/victims" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors">
+                        Victims
                     </NuxtLink>
                     <NuxtLink to="/countries" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors">
                         Global Pressure
@@ -57,6 +60,10 @@ const closeMenu = () => {
                 <NuxtLink to="/incidents" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors flex items-center gap-3" @click="closeMenu">
                      <i class="pi pi-exclamation-triangle text-surface-500"></i>
                     <span>Incidents</span>
+                </NuxtLink>
+                <NuxtLink to="/victims" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors flex items-center gap-3" @click="closeMenu">
+                     <i class="pi pi-user text-surface-500"></i>
+                    <span>Victims</span>
                 </NuxtLink>
                 <NuxtLink to="/countries" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors flex items-center gap-3" @click="closeMenu">
                     <i class="pi pi-globe text-surface-500"></i>

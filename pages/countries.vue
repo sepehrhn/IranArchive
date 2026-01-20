@@ -171,7 +171,7 @@ const handleListSelect = (iso: string) => {
               <div 
                 v-for="country in filteredCountries" 
                 :key="country.iso2"
-                class="p-3 rounded-lg hover:bg-surface-100 dark:hover:bg-surface-800 cursor-pointer transition flex justify-between items-center group"
+                class="p-3 rounded-lg hover:bg-surface-100 dark:hover:bg-surface-800 cursor-pointer flex justify-between items-center group"
                 :class="{ 'bg-primary-50 dark:bg-primary-900/20 border border-primary-200 dark:border-primary-800': selectedIso === country.iso2 }"
                 @click="handleListSelect(country.iso2)"
               >

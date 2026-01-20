@@ -1,11 +1,8 @@
 import { type DateRange, type IncidentSeverity } from '~/types/incident';
 
-// Custom formatter for YYYY/MM/DD
+// Custom formatter for MMM D, YYYY (e.g., Jan 16, 2026)
 function formatDateStyle(date: Date): string {
-    const yyyy = date.getFullYear().toString();
-    const mm = (date.getMonth() + 1).toString().padStart(2, '0');
-    const dd = date.getDate().toString().padStart(2, '0');
-    return `${yyyy}/${mm}/${dd}`;
+    return new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', year: 'numeric' }).format(date);
 }
 
 export function formatDate(dateStr?: string, options?: Intl.DateTimeFormatOptions): string {
