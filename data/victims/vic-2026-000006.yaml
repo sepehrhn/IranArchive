@@ -1,0 +1,72 @@
+# ==========================================
+# Victim Documentation Template
+# ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
+
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
+photo: "vic-2026-000006.jpg"
+
+# Full Name in English
+name: "Erfan Abdipour"
+
+# Age at time of death (Optional, remove if unknown)
+age: 23
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: "Iran"
+
+# Province/State
+province: "Tehran"
+
+# City where the death/incident occurred
+city: "Tehran"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: "2026/01/08"
+
+# -----------------------------------------------------------------------------
+# Status & Verification
+# -----------------------------------------------------------------------------
+
+# Status: 'verified' | 'not_verified'
+# - verified: Death confirmation from trusted sources or multiple corroborating reports.
+# - not_verified: Reported but currently lacking definitive confirmation.
+status: "verified"
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Short summary max 1-2 sentences. Displayed in lists.
+summary: "A 23-year-old young man, was killed in Sadeghieh, Tehran, by a sniper's bullet that directly targeted his heart."
+
+# Detailed notes. Supports basic markdown.
+notes: |
+  .
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# List of URLs to news reports, social media posts, or human rights organization entries.
+sources:
+  - "https://example.com/source1"
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.

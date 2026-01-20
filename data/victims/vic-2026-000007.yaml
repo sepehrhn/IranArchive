@@ -1,0 +1,90 @@
+# ==========================================
+# Victim Documentation Template
+# ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
+
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
+photo: "vic-2026-000007.jpg"
+
+# Full Name in English
+name: "Amirhesam Khodayarifard"
+
+# Age at time of death (Optional, remove if unknown)
+age: 21
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: "Iran"
+
+# Province/State
+province: "Lorestan"
+
+# City where the death/incident occurred
+city: "Kuhdasht"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: "2025/12/30"
+
+# -----------------------------------------------------------------------------
+# Status & Verification
+# -----------------------------------------------------------------------------
+
+# Status: 'verified' | 'not_verified'
+# - verified: Death confirmation from trusted sources or multiple corroborating reports.
+# - not_verified: Reported but currently lacking definitive confirmation.
+status: "verified"
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Short summary max 1-2 sentences. Displayed in lists.
+summary: "An Iranian protester from Kuhdasht, Lorestan, killed after being shot in the head during the 2025–2026 uprising; authorities later promoted claims he was a Basij member and pressured his family to repeat that narrative."
+
+# Detailed notes. Supports basic markdown.
+notes: |
+  Amirhesam Khodayarifard (born 19 June 2004) was a protester from Kuhdasht, Lorestan Province, and was killed during the 2025–2026 Iranian protests.
+
+  **Killing (reported sequence)**
+  - He was among protesters in Kuhdasht during demonstrations that moved toward Imam Square.
+  - Witness accounts and video reports cited by IranWire and Hengaw state he was shot at close range in the head by security forces / a plainclothes agent.
+  - He was transferred to medical facilities in Khorramabad and died several hours later from his injuries.
+
+  **Suspected perpetrator (allegation)**
+  - IranWire reported local allegations identifying **Ebrahim Aharoun**, described as a retired IRGC member acting in plainclothes, as the shooter (unverified allegation).
+
+  **Disinformation / coercion against family**
+  - Government-affiliated media promoted a narrative that he was a Basij member and that he was killed due to “violent actions by protesters.”
+  - Reports state officials (including local authorities and IRGC-linked figures) pressured the family and conditioned release of the body / permission for burial on the family publicly stating he was Basij; the family reportedly refused.
+
+  **Identity / community context**
+  - Multiple reports describe the family as followers of the **Yarsan** faith (Mirbig clan).
+
+  **Note on inconsistencies**
+  - Some reporting describes his age differently (e.g., “22” in one outlet). This profile uses age 21 consistent with the date of birth widely reported.
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# List of URLs to news reports, social media posts, or human rights organization entries.
+sources:
+  - "https://en.wikipedia.org/wiki/Killing_of_Amirhesam_Khodayarifard"
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
