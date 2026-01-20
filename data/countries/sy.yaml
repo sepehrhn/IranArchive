@@ -2,29 +2,29 @@ iso2: SY
 name: "Syria"
 region: "Asia"
 subregion: "Western Asia"
-last_reviewed_at: '2026-01-19'
+last_reviewed_at: '2026-01-20'
 scores:
-  diplomacy: -10
-  irgc: 0
-  un: -10
-  security: -20
-  force_tier: G
+  diplomacy: 0
+  irgc: 5
+  un: 0
+  security: 0
+  force_tier: D
 diplomacy:
-  status: enhanced_engagement
+  status: minimal_relations
   expelled_diplomats: unknown
-  iran_mission_status: embassy
-  summary: "Vital ally. Iran saved Assad regime. Raisi visited May 2023."
+  iran_mission_status: unknown
+  summary: "Al-Asad government fell. New transitional government in power. Alliance with Iran effectively ended."
 irgc_designation:
   status: rejected_or_no
-  summary: "IRGC operates openly with bases."
+  summary: "New government expected to expel IRGC elements. Status under review."
 un_posture:
-  status: protects_regime
+  status: neutral
   supports_un_investigations: false
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Consistently supports Iran."
+  summary: "New government position on Iran at UN is pending."
 security_posture:
-  status: opposed
-  summary: "Major hub for weapons transit to Hezbollah. Iranian bases linked to attacks on US/Israel."
+  status: neutral
+  summary: "Weapons transit and IRGC bases likely disrupted by regime change."
 evidence: []
