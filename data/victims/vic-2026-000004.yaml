@@ -1,0 +1,71 @@
+# ==========================================
+# Victim Documentation Template
+# ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
+
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
+photo: "vic-2026-000004.jpg"
+
+# Full Name in English
+name: "Nima Jozaii"
+
+# Age at time of death (Optional, remove if unknown)
+age: 
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: "Iran"
+
+# Province/State
+province: "Bushehr"
+
+# City where the death/incident occurred
+city: "Bushehr"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: ""
+
+# -----------------------------------------------------------------------------
+# Status & Verification
+# -----------------------------------------------------------------------------
+
+# Status: 'verified' | 'not_verified'
+# - verified: Death confirmation from trusted sources or multiple corroborating reports.
+# - not_verified: Reported but currently lacking definitive confirmation.
+status: "not_verified"
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Short summary max 1-2 sentences. Displayed in lists.
+summary: ""
+
+# Detailed notes. Supports basic markdown.
+notes: |
+  .
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# List of URLs to news reports, social media posts, or human rights organization entries.
+sources: []
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
