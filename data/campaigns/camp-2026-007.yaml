@@ -1,0 +1,51 @@
+# Campaign Config
+# Do NOT fill the "id" field; it is derived from the filename.
+
+# Required
+# Must be a valid URL
+url: "https://actionnetwork.org/forms/signez-la-petition-iran-demandons-linscription-des-gardiens-de-la-revolution-sur-la-liste-des-organisations-terroristes/"
+title: "Designate IRGC as Terrorist Organization (EU)"
+
+# Optional
+
+# Filename only (e.g. "my-image.jpg"). Must exist in /data/campaigns/img/
+thumbnail: "camp-2026-007.jpg"
+
+# Options: "active", "closed", "victory", "unknown"
+status: "active"
+
+# List of ISO2 codes. Leave empty/commented for International/All.
+countries:
+  - AT
+  - BE
+  - BG
+  - HR
+  - CY
+  - CZ
+  - DK
+  - EE
+  - FI
+  - FR
+  - DE
+  - GR
+  - HU
+  - IE
+  - IT
+  - LV
+  - LT
+  - LU
+  - MT
+  - NL
+  - PL
+  - PT
+  - RO
+  - SK
+  - SI
+  - ES
+  - SE
+
+# true or false
+featured: false
+
+# Format: YYYY/MM/DD
+created_at: "2026/01/16"
