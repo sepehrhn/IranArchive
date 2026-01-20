@@ -1,0 +1,25 @@
+# Campaign Config
+# Do NOT fill the "id" field; it is derived from the filename.
+
+# Required
+# Must be a valid URL
+url: "https://c.org/x5TySMkPRT"
+title: "Dissolution of the Iranian Canadian Congress (ICC)"
+
+# Optional
+
+# Filename only (e.g. "my-image.jpg"). Must exist in /data/campaigns/img/
+thumbnail: "camp-2026-006.jpg"
+
+# Options: "active", "closed", "victory", "unknown"
+status: "active"
+
+# List of ISO2 codes. Leave empty/commented for International/All.
+countries: 
+  - CA
+
+# true or false
+featured: false
+
+# Format: YYYY/MM/DD
+created_at: ""
