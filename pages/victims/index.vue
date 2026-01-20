@@ -109,7 +109,7 @@ onMounted(() => {
                         <InputIcon class="pi pi-search"></InputIcon>
                         <InputText v-model="searchQuery" placeholder="Search victims..." class="w-full" />
                     </IconField>
-                    <Button label="Clear Filters" icon="pi pi-filter-slash" outlined severity="secondary" @click="clearFilters" class="hidden md:flex" />
+
                 </div>
             </div>
 

@@ -7,6 +7,18 @@ import VictimPhoto from '@/components/victims/VictimPhoto.vue';
 import VictimStatusBadge from '@/components/victims/VictimStatusBadge.vue';
 import VictimSources from '@/components/victims/VictimSources.vue';
 import { formatDate } from '@/utils/formatters';
+import MarkdownIt from 'markdown-it';
+
+const md = new MarkdownIt({
+    html: false,
+    linkify: true,
+    breaks: true
+});
+
+const renderMarkdown = (text: string) => {
+    if (!text) return '';
+    return md.render(text);
+};
 
 const route = useRoute();
 const id = route.params.id as string;
@@ -139,7 +151,7 @@ const formattedDate = computed(() => {
             <div v-if="victim.notes" class="space-y-4">
                 <h2 class="text-2xl font-bold text-surface-900 dark:text-surface-0">Notes</h2>
                 <div class="prose dark:prose-invert max-w-none">
-                    <p>{{ victim.notes }}</p>
+                     <div class="lead text-lg" v-html="renderMarkdown(victim.notes)"></div>
                 </div>
             </div>
 
