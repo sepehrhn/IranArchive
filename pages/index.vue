@@ -44,23 +44,27 @@ const { t } = useI18n()
             </div>
         </NuxtLink>
 
-        <div class="group relative">
-            <div class="h-full bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-800 rounded-2xl p-8 shadow-sm opacity-60 grayscale-[50%] cursor-not-allowed relative overflow-hidden">
+        <NuxtLink to="/victims" class="group">
+            <div class="h-full bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-800 rounded-2xl p-8 shadow-sm hover:shadow-xl hover:border-primary-500/30 transition-all duration-300 transform hover:-translate-y-1 relative overflow-hidden">
+                <div class="absolute top-0 right-0 w-32 h-32 bg-primary-500/10 rounded-full blur-2xl -mr-16 -mt-16 group-hover:bg-primary-500/20 transition-colors"></div>
+                
                 <div class="flex items-center gap-3 mb-4">
-                     <div class="p-3 bg-surface-100 dark:bg-surface-800 rounded-xl">
+                     <div class="p-3 bg-surface-100 dark:bg-surface-800 rounded-xl group-hover:bg-primary-50 dark:group-hover:bg-primary-900/20 transition-colors">
                         <i class="pi pi-users text-blue-500 text-2xl" />
                     </div>
-                    <h2 class="text-xl font-bold text-surface-900 dark:text-surface-0">Victims</h2>
-                    <Tag value="Coming Soon" severity="secondary" class="ml-auto" />
+                    <h2 class="text-xl font-bold text-surface-900 dark:text-surface-0 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">Victims</h2>
                 </div>
                 
                 <p class="mb-6 text-surface-600 dark:text-surface-400 leading-relaxed">
                     A dedicated memorial database honoring those who lost their lives to the regime's brutality.
                 </p>
                 
-                <Button label="Coming Soon" disabled severity="secondary" outlined class="w-full" />
+                <div class="flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
+                    <span>View Database</span>
+                    <i class="pi pi-arrow-right ml-2 text-sm"></i>
+                </div>
             </div>
-        </div>
+        </NuxtLink>
     </div>
   </div>
 </template>

@@ -134,7 +134,7 @@ export interface Incident {
     review_history: ReviewEntry[];
 
     // Relations
-    victims: Victim[];
+    victims: string[];
     related_incidents: RelatedIncident[];
 
     // Ratings

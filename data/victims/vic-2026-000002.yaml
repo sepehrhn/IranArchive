@@ -1,0 +1,74 @@
+# ==========================================
+# Victim Documentation Template
+# ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
+
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
+photo: "vic-2026-000002.jpeg"
+
+# Full Name in English
+name: "Ahmad Abbasi"
+
+# Age at time of death (Optional, remove if unknown)
+age: 
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: "Iran"
+
+# Province/State
+province: "Tehran"
+
+# City where the death/incident occurred
+city: "Tehran"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: "2026/01/08"
+
+# -----------------------------------------------------------------------------
+# Status & Verification
+# -----------------------------------------------------------------------------
+
+# Status: 'verified' | 'not_verified'
+# - verified: Death confirmation from trusted sources or multiple corroborating reports.
+# - not_verified: Reported but currently lacking definitive confirmation.
+status: "verified"
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Short summary max 1-2 sentences. Displayed in lists.
+summary: "Ahmad Abbasi, a theatre actor and writer, was shot and killed by security forces during a peaceful protest in Pirouzi St, Tehran."
+
+# Detailed notes. Supports basic markdown.
+notes: |
+  During protests on Pirouzi St in Tehran on Thursday, Jan 8, 2026, a young man named Ahmad Abbasi was killed by live ammunition. 
+  Ahmad was originally from Karaj &  worked as a theatre actor and writer in Tehran. The Abbasi family has reportedly been required 
+  to pay $3,500, a so-called “bullet fee” to proceed with their son’s burial, which they have been unable to pay so far.
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# List of URLs to news reports, social media posts, or human rights organization entries.
+sources:
+  - "https://x.com/Soranmansournia/status/2011808950832804173"
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.

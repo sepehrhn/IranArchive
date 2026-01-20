@@ -104,6 +104,7 @@
 <script setup lang="ts">
 import { type Incident, type Evidence } from '~/types/incident';
 import MarkdownIt from 'markdown-it';
+import { useVictims } from '~/composables/useVictims';
 
 const { fetchEvidenceById } = useEvidence();
 
@@ -184,6 +185,33 @@ const { data: incident, pending, error } = await useAsyncData<Incident>(`inciden
             });
         } catch (e) {
              // Metadata might not exist or match
+        }
+
+
+
+        // Enrich Victims
+        if (incidentData.victims && Array.isArray(incidentData.victims)) {
+            const { getVictimById } = useVictims();
+            const enrichedVictims = [];
+            
+            // incidentData.victims is now string[]
+            for (const vId of incidentData.victims) {
+                // Ensure vId is a string before using it
+                if (typeof vId === 'string') {
+                    const fullVictim = await getVictimById(vId);
+                    if (fullVictim) {
+                        enrichedVictims.push({
+                            id: vId,
+                            name: fullVictim.name,
+                            ...fullVictim
+                        });
+                    } else {
+                         // Fallback if not found: create a minimal object
+                         enrichedVictims.push({ id: vId, name: vId });
+                    }
+                }
+            }
+            incidentData.victims = enrichedVictims as any;
         }
 
         return incidentData;
