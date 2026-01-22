@@ -13,7 +13,7 @@ const { t } = useI18n()
         
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full mt-4">
             <div class="flex flex-col items-center">
-                <span class="text-3xl md:text-4xl font-mono font-bold text-red-600 dark:text-red-500">16,500+</span>
+                <span class="text-3xl md:text-4xl font-mono font-bold text-red-600 dark:text-red-500">20,000+</span>
                 <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold text-center">Confirmed Dead</span>
             </div>
             <div class="flex flex-col items-center">
