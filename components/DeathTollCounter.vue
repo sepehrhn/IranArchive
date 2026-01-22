@@ -27,7 +27,7 @@ const { t } = useI18n()
         </div>
         
         <div class="text-xs text-surface-500 dark:text-surface-500 mt-4 text-center italic max-w-lg">
-            Source: The Sunday Times citing medical professionals (Jan 2026)
+            Source: <a href="https://www.bloomberg.com/news/articles/2026-01-22/iran-protest-deaths-seen-rising-with-one-estimate-topping-20-000" target="_blank" class="underline hover:text-red-600 dark:hover:text-red-400 transition-colors">Bloomberg citing UN reports (Jan 2026)</a>
         </div>
     </div>
 </template>
