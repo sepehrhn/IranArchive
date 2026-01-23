@@ -12,7 +12,7 @@ const { t } = useI18n()
             They can't post. <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-red-600 dark:from-primary-400 dark:to-red-400">You can.</span>
         </h1>
         <p class="text-2xl text-surface-600 dark:text-surface-300 font-mono tracking-wide relative z-10">
-            #DigitalBlackoutIran #IranMassacre
+            #R2PforIran #IranMassacre #IRGCTerrorists
         </p>
     </div>
 

@@ -15,8 +15,8 @@ thumbnail: "camp-2026-009.png"
 status: "active"
 
 # List of ISO2 codes. Leave empty/commented for International/All.
-# countries:
-#   - US
+countries:
+  - US
 
 # true or false
 featured: false
