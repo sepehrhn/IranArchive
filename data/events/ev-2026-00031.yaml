@@ -40,32 +40,27 @@ type: "rally"
 # [REQUIRED] Timing
 # ISO 8601 format: YYYY-MM-DDTHH:mm:ss
 # Timezone is REQUIRED for correct display across the world.
-start_at: "2026-01-25T13:00:00"
-end_at: "2026-01-25T15:00:00" # Optional but recommended
-timezone: "America/Vancouver"     # IANA timezone identifier (e.g., America/New_York)
-date_precision: "Exact"       # Options: Exact, Approx, Unknown
+date:
+  # Start time in YYYY/MM/DD format
+  start: "2026/01/25"
+  start_time: "13:00"
+  # End time (optional)
+  end: "2026/01/25"
+  end_time: "15:00"
+  precision: "Exact"
 
 # Location (Required for in_person/hybrid)
 location:
   # Full country name (e.g. Germany)
-  country: "Canada"
-  # 2-letter ISO code (uppercase) - used for flags/filtering
-  country_iso2: "CA"          
+  country: "CA"
   # City name
   city: "Vancouver"
-  # Name of the specific place (e.g. Brandenburg Gate)
-  venue_name: "Vancouver Art Gallery, 750 Hornby St."
   # Full address
   address: "Vancouver Art Gallery, 750 Hornby St."
-  # Visibility options for safety:
-  # - public: Full details shown
-  # - approximate: Only city/country shown
-  # - withheld: Location details hidden entirely
-  location_visibility: "public" 
-  # Optional details
-  meeting_point: ""
-  route: ""
-
+  # Latitude (optional)
+  lat: 49.2828495
+  # Longitude (optional)
+  lng: -123.1206248
 # Online Specifics (Required for online/hybrid)
 online:
   platform: ""          # e.g., Zoom, YouTube, X Spaces
@@ -108,8 +103,3 @@ sources:
     url: "https://drive.google.com/file/d/1MhryAGaqXRY_ODqPKjzy8wRcp3srd3aH/view?usp=drive_link"
 
 # Media
-# List of filenames (images/videos) located in /data/events/docs/
-# e.g. img-2026-00001.jpg
-media: []
-  # - img-2026-00001.jpg
-  # - vid-2026-00001.mp4

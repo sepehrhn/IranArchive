@@ -6,38 +6,26 @@ const props = defineProps<{
     event: ParsedEvent
 }>();
 
-const showLocal = ref(false);
+const formattedDate = computed(() => {
+    const d = props.event.date;
+    // Format: "Mon, Feb 09 • 20:00"
+    // Since we don't have timezone, we just parse the string and format it.
+    // We treat the string as "local" to the event.
+    // Parsing "YYYY/MM/DD HH:mm"
+    
+    // Safety check
+    if (!d || !d.start) return 'Invalid Date';
 
-const timeFormat = new Intl.DateTimeFormat('en-US', {
-    weekday: 'short', month: 'short', day: 'numeric',
-    hour: 'numeric', minute: 'numeric',
-    timeZoneName: 'short'
-});
-
-const eventTime = computed(() => {
-    return timeFormat.format(new Date(props.event.start_at));
-    // Implementation note: Ideally we'd strictly respect props.event.timezone for formatting the "Event Time"
-    // But Intl API defaults to local if not overridden. We need to force timezone.
-});
-
-// Helper to format in specific timezone
-const formatInZone = (dateStr: string, zone: string) => {
     try {
-        return new Date(dateStr).toLocaleString('en-US', {
-            timeZone: zone,
-            weekday: 'short', month: 'short', day: 'numeric',
-            hour: 'numeric', minute: 'numeric', timeZoneName: 'short'
-        });
-    } catch (e) {
-        return dateStr; // Fallback
-    }
-}
+        const dateObj = new Date(d.start + (d.start_time ? ' ' + d.start_time : ''));
+        if (isNaN(dateObj.getTime())) return 'Invalid Date';
 
-const localTime = computed(() => {
-    return new Date(props.event.start_at).toLocaleString('en-US', {
-        weekday: 'short', month: 'short', day: 'numeric',
-        hour: 'numeric', minute: 'numeric', timeZoneName: 'short'
-    });
+        return dateObj.toLocaleDateString('en-US', {
+            weekday: 'short', month: 'short', day: 'numeric'
+        }) + (d.start_time ? ` • ${d.start_time}` : '');
+    } catch (e) {
+        return `${d.start} ${d.start_time}`;
+    }
 });
 </script>
 
@@ -46,13 +34,9 @@ const localTime = computed(() => {
         <div class="flex items-center gap-2 font-medium text-surface-900 dark:text-surface-0">
             <i class="pi pi-calendar text-primary"></i>
             <span>
-                {{ showLocal ? localTime : formatInZone(event.start_at, event.timezone) }}
+                {{ formattedDate }}
             </span>
         </div>
-        <div class="flex items-center gap-2 pl-6">
-            <small class="text-muted-color cursor-pointer hover:underline" @click="showLocal = !showLocal">
-                {{ showLocal ? 'Show Event Time' : 'Show My Local Time' }}
-            </small>
-        </div>
+        <!-- Removed timezone toggle as timezone feature is removed -->
     </div>
 </template>

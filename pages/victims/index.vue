@@ -92,33 +92,38 @@ onMounted(() => {
 
 <template>
     <div class="space-y-6">
-        <!-- Unified Header & Controls Card -->
-        <div class="bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-800 shadow-sm flex flex-col gap-6">
-            
-            <!-- Top Row: Title/Count & Search -->
-            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+        <!-- Header Card -->
+        <div class="flex flex-col gap-6 bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-800 shadow-sm mb-6">
+            <!-- Title & Actions -->
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                 <div>
                     <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">Victims</h1>
                     <p class="text-surface-500 dark:text-surface-400 mt-1">
                         {{ filteredVictims.length }} records found
                     </p>
                 </div>
-
-                <div class="flex flex-col sm:flex-row gap-4">
-                     <IconField iconPosition="left" class="w-full sm:w-64">
-                        <InputIcon class="pi pi-search"></InputIcon>
-                        <InputText v-model="searchQuery" placeholder="Search victims..." class="w-full" />
-                    </IconField>
-
+                <div>
+                    <NuxtLink to="/docs/victims-submission">
+                        <Button label="Submit Victim" icon="pi pi-plus" size="small" />
+                    </NuxtLink>
                 </div>
             </div>
+        </div>
 
-            <!-- Filters Row -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-                 <Dropdown v-model="selectedCity" :options="cities" placeholder="Filter by City" showClear class="w-full" />
-                 <Dropdown v-model="selectedProvince" :options="provinces" placeholder="Filter by Province" showClear class="w-full" />
+        <!-- Controls Toolbar -->
+        <div class="flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center bg-surface-0 dark:bg-surface-900 p-4 rounded-xl border border-surface-200 dark:border-surface-800 shadow-sm mb-8">
+            <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
+                <IconField iconPosition="left" class="w-full sm:w-64">
+                     <InputIcon class="pi pi-search"></InputIcon>
+                     <InputText v-model="searchQuery" placeholder="Search victims..." class="w-full" />
+                 </IconField>
+            </div>
+
+            <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-between lg:justify-end">
+                 <Dropdown v-model="selectedCity" :options="cities" placeholder="City" showClear class="w-full sm:w-40" />
+                 <Dropdown v-model="selectedProvince" :options="provinces" placeholder="Province" showClear class="w-full sm:w-40" />
                  
-                 <Dropdown v-model="selectedStatus" :options="statuses" placeholder="Filter by Status" showClear class="w-full">
+                 <Dropdown v-model="selectedStatus" :options="statuses" placeholder="Status" showClear class="w-full sm:w-40">
                     <template #option="{ option }">
                         {{ formatStatusLabel(option) }}
                     </template>
@@ -128,7 +133,7 @@ onMounted(() => {
                     </template>
                  </Dropdown>
 
-                 <Dropdown v-model="selectedSort" :options="sortOptions" optionLabel="label" optionValue="value" placeholder="Sort Order" class="w-full" />
+                 <Dropdown v-model="selectedSort" :options="sortOptions" optionLabel="label" optionValue="value" placeholder="Sort Order" class="w-full sm:w-40" />
             </div>
             
             <!-- Mobile Clear Button -->

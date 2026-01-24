@@ -44,33 +44,28 @@ format: "in_person"
 type: "rally"       
 
 # [REQUIRED] Timing
-# ISO 8601 format: YYYY-MM-DDTHH:mm:ss
-# Timezone is REQUIRED for correct display across the world.
-start_at: "2026-02-01T14:00:00"
-end_at: "2026-02-01T17:00:00" # Optional but recommended
-timezone: "Europe/Berlin"     # IANA timezone identifier (e.g., America/New_York)
-date_precision: "Exact"       # Options: Exact, Approx, Unknown
+date:
+  # Start time in YYYY/MM/DD format
+  start: "2026/02/01"
+  start_time: "14:00"
+  # End time (optional)
+  end: "2026/02/01"
+  end_time: "17:00"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
 
 # Location (Required for in_person/hybrid)
 location:
-  # Full country name (e.g. Germany)
-  country: "Germany"
-  # 2-letter ISO code (uppercase) - used for flags/filtering
-  country_iso2: "DE"          
+  country: "DE"
   # City name
   city: "Berlin"
-  # Name of the specific place (e.g. Brandenburg Gate)
-  venue_name: "Brandenburg Gate"
-  # Full address
+  # Specific address or landmark (optional)
   address: "Pariser Platz, 10117 Berlin"
-  # Visibility options for safety:
-  # - public: Full details shown
-  # - approximate: Only city/country shown
-  # - withheld: Location details hidden entirely
-  location_visibility: "public" 
-  # Optional details
-  meeting_point: "North side of the square"
-  route: "Marching towards Bundestag"
+  # Latitude (optional)
+  lat: 52.5163
+  # Longitude (optional)
+  lng: 13.3777
 
 # Online Specifics (Required for online/hybrid)
 # online:
@@ -105,7 +100,7 @@ featured: false               # Set to true to highlight this event in the list
 
 # [REQUIRED] Verification & Status
 # Status of the event information.
-# Options: draft, not_verified, verified, disputed
+# Options: draft, not_verified, verified
 status: "verified"            
 
 # Source links verifying the event details
@@ -113,9 +108,4 @@ sources:
   - title: "Organizer Announcement"
     url: "https://x.com/status/12345"
 
-# Media
-# List of filenames (images/videos) located in /data/events/docs/
-# e.g. img-2026-00001.jpg
-media:
-  - img-2026-00001.jpg
-  # - vid-2026-00001.mp4
+

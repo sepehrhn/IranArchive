@@ -46,7 +46,7 @@ const filteredEvents = computed(() => {
         res = res.filter(e => e.type === filters.value.type);
     }
     if (filters.value.country) {
-        res = res.filter(e => e.location?.country_iso2 === filters.value.country?.toUpperCase());
+        res = res.filter(e => e.location?.country === filters.value.country?.toUpperCase());
     }
 
     // 3. Sort: Featured First, then by Date (Ascending for upcoming, Descending for held)
@@ -96,18 +96,53 @@ const typeOptions = [
 const { getAllCountries, loadCountries } = useCountries();
 loadCountries();
 
-const countryOptions = computed(() => {
-    return getAllCountries.value.map(c => ({
-        label: c.name,
-        value: c.iso2
-    })).sort((a, b) => a.label.localeCompare(b.label));
+
+
+const selectedCountry = ref<{ label: string, value: string } | null>(null);
+const filteredCountries = ref<{ label: string, value: string }[]>([]);
+
+const allCountryOptions = computed(() => {
+    if (!events.value) return [];
+
+    // Get countries with planned (upcoming/ongoing) events
+    const plannedCountries = new Set(
+        events.value
+            .filter(e => ['upcoming', 'ongoing'].includes(e.computed_state) && e.location?.country)
+            .map(e => e.location!.country)
+    );
+
+    return getAllCountries.value
+        .filter(c => plannedCountries.has(c.iso2))
+        .map(c => ({
+            label: c.name,
+            value: c.iso2
+        }))
+        .sort((a, b) => a.label.localeCompare(b.label));
+});
+
+const searchCountry = (event: { query: string }) => {
+    const query = event.query.toLowerCase();
+    
+    if (!query.trim()) {
+        filteredCountries.value = [...allCountryOptions.value];
+    } else {
+        filteredCountries.value = allCountryOptions.value.filter(c => 
+            c.label.toLowerCase().includes(query)
+        );
+    }
+};
+
+// Sync selected object with filter value
+watch(selectedCountry, (newVal) => {
+    filters.value.country = newVal ? newVal.value : null;
 });
 </script>
 
 <template>
     <div class="container mx-auto px-4 py-8">
         <!-- Header Card -->
-        <div class="flex flex-col gap-6 bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-8">
+        <!-- Header Card -->
+        <div class="flex flex-col gap-6 bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-6">
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                 <div>
                     <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">
@@ -126,21 +161,28 @@ const countryOptions = computed(() => {
                     </a>
                 </div>
             </div>
+        </div>
 
-            <!-- Controls Toolbar -->
-            <div class="flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center pt-2 border-t border-surface-100 dark:border-surface-800 mt-2">
-                <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
-                    <IconField iconPosition="left" class="w-full sm:w-64">
-                        <InputIcon class="pi pi-search" />
-                        <InputText v-model="filters.search" placeholder="Search events..." class="w-full" />
-                    </IconField>
-                </div>
+        <!-- Controls Toolbar -->
+        <div class="flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center bg-surface-0 dark:bg-surface-900 p-4 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-8">
+            <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
+                <IconField iconPosition="left" class="w-full sm:w-64">
+                    <InputIcon class="pi pi-search" />
+                    <InputText v-model="filters.search" placeholder="Search events..." class="w-full" />
+                </IconField>
+            </div>
 
-                <div class="flex flex-wrap items-center gap-3 w-full lg:w-auto justify-between lg:justify-end">
-                     <Select v-model="filters.format" :options="formatOptions" optionLabel="label" optionValue="value" placeholder="Format" class="w-full sm:w-40" />
-                     <Select v-model="filters.type" :options="typeOptions" optionLabel="label" optionValue="value" placeholder="Type" class="w-full sm:w-40" />
-                     <Select v-model="filters.country" :options="countryOptions" optionLabel="label" optionValue="value" placeholder="Country" class="w-full sm:w-48" filter showClear />
-                </div>
+            <div class="flex flex-wrap items-center gap-3 w-full lg:w-auto justify-between lg:justify-end">
+                 <Select v-model="filters.format" :options="formatOptions" optionLabel="label" optionValue="value" placeholder="Format" class="w-full sm:w-40" />
+                 <Select v-model="filters.type" :options="typeOptions" optionLabel="label" optionValue="value" placeholder="Type" class="w-full sm:w-40" />
+                 <AutoComplete v-model="selectedCountry" :suggestions="filteredCountries" optionLabel="label" placeholder="Country" class="w-full sm:w-48" dropdown @complete="searchCountry" forceSelection completeOnFocus>
+                    <template #option="slotProps">
+                        <div class="flex items-center gap-2">
+                            <img :src="`https://flagcdn.com/24x18/${slotProps.option.value.toLowerCase()}.png`" :alt="slotProps.option.label" class="w-6 h-4 object-cover rounded-sm" />
+                            <div>{{ slotProps.option.label }}</div>
+                        </div>
+                    </template>
+                 </AutoComplete>
             </div>
         </div>
 
@@ -152,10 +194,10 @@ const countryOptions = computed(() => {
                 <EventsEventCard v-for="ev in filteredEvents" :key="ev.id" :event="ev" />
              </div>
              
-             <div v-else class="text-center py-20 bg-surface-50 dark:bg-surface-900/50 rounded-xl border border-surface-200 dark:border-surface-800 border-dashed">
-                <i class="pi pi-search text-4xl text-surface-400 mb-4 block"></i>
-                <p class="text-xl text-surface-500">No events found matching your criteria.</p>
-                <Button label="Clear Filters" text class="mt-2" @click="() => { filters.search=''; filters.format=null; filters.type=null; filters.country=null; activeTab=0; }" />
+             <div v-else class="text-center py-20 bg-surface-50 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-800 border-dashed">
+                <i class="pi pi-search text-4xl text-surface-400 dark:text-surface-600 mb-4 block"></i>
+                <p class="text-xl text-surface-500 dark:text-surface-400">No events found matching your criteria.</p>
+                <Button label="Clear Filters" text class="mt-2" @click="() => { filters.search=''; filters.format=null; filters.type=null; activeTab=0; selectedCountry = null; }" />
              </div>
         </div>
     </div>

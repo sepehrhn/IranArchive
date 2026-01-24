@@ -79,13 +79,10 @@ onUnmounted(() => {
 
         <div class="mt-4 text-xs text-surface-600 dark:text-surface-400 text-center max-w-lg leading-relaxed bg-surface-50 dark:bg-surface-800 p-4 rounded-lg border border-surface-200 dark:border-surface-700 space-y-3 shadow-inner">
             <div>
-                <span class="block mb-1 font-bold text-surface-700 dark:text-surface-300">Update (Jan 19, 8:43):</span>
-                NetBlocks reported that with the Iran internet blackout now spanning its twelfth day, metrics show that national connectivity remains minimal. In recent days, the filternet has occasionally allowed messages through, suggesting that the regime is testing a more heavily filtered intranet.
+                <span class="block mb-1 font-bold text-surface-700 dark:text-surface-300">Update (Jan 24, 09:59):</span>
+                <a href="https://x.com/netblocks/status/2015001590856335855" target="_blank" class="text-primary-600 dark:text-primary-400 hover:underline">NetBlocks reported</a>: Iran's internet blackout continues in its third week despite a brief momentary restoration of international connectivity around hour 375. Online platforms are occasionally whitelisted and some users have been able to tunnel out over the last couple of days.
             </div>
-            <div class="pt-2 border-t border-surface-200 dark:border-surface-700">
-                <span class="block mb-1 font-bold text-surface-700 dark:text-surface-300">Update (Jan 18, 14:26):</span>
-                Traffic data indicate a significant return to some online services including Google, suggesting that <strong>heavily filtered access</strong> has been enabled. However, ordinary internet connectivity remains disrupted.
-            </div>
+
         </div>
     </div>
 </template>

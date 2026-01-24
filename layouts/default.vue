@@ -20,9 +20,7 @@ const closeMenu = () => {
                 
                 <!-- Desktop Menu -->
                 <div class="hidden md:flex items-center gap-1 md:gap-4">
-                    <NuxtLink to="/" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors">
-                        Home
-                    </NuxtLink>
+
                     <NuxtLink to="/incidents" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors">
                         Incidents
                     </NuxtLink>
@@ -71,10 +69,7 @@ const closeMenu = () => {
                 </div>
             </template>
             <div class="flex flex-col gap-2">
-                <NuxtLink to="/" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors flex items-center gap-3" @click="closeMenu">
-                    <i class="pi pi-home text-surface-500"></i>
-                    <span>Home</span>
-                </NuxtLink>
+
                 <NuxtLink to="/incidents" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors flex items-center gap-3" @click="closeMenu">
                      <i class="pi pi-exclamation-triangle text-surface-500"></i>
                     <span>Incidents</span>
