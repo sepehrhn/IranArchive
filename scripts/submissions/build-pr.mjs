@@ -109,7 +109,11 @@ function extractYear(data, kind) {
 /**
  * Generate incident YAML
  */
-function generateIncidentYAML(data, year, id) {
+function generateIncidentYAML(data, year, id, evidenceFiles = []) {
+    const evidenceYaml = evidenceFiles.length > 0
+        ? `evidences:\n${evidenceFiles.map(f => `  - file_path: "${f.path}"\n    type: "${f.type}"`).join('\n')}`
+        : '';
+
     const yaml = `# Incident ${id}
 # Submitted via public submission form
 
@@ -135,7 +139,8 @@ status: "not_verified"
 
 ratings:
   truth_confidence: 5
-  evidence_availability: 5
+  evidence_availability: ${evidenceFiles.length > 0 ? 8 : 5}
+${evidenceYaml}
 
 sources:
 ${data.sources && data.sources.length > 0 ? data.sources.map(s => `  - "${s}"`).join('\n') : '  []'}
@@ -236,7 +241,35 @@ function processSubmission() {
 
     if (kind === 'incident') {
         yamlFilename = `inc-${year}-${id}.yaml`;
-        yamlContent = generateIncidentYAML(data, year, id);
+
+        // Handle evidence files if present
+        const evidenceFiles = [];
+        if (files && files.length > 0) {
+            const month = getMonthName(data.occurred_at?.start || submittedAt);
+
+            for (const file of files) {
+                const sanitized = sanitizeFilename(file.originalName);
+                const evidenceFilename = `${submissionId}-${sanitized}`;
+                const evidencePath = `${year}/${month}/${evidenceFilename}`;
+
+                const sourcePath = path.join('.submission-temp/uploads', path.basename(file.key));
+                const destPath = path.join(ROOT_DIR, 'data/evidences', evidencePath);
+
+                fs.mkdirSync(path.dirname(destPath), { recursive: true });
+                fs.copyFileSync(sourcePath, destPath);
+                console.log(`Copied evidence: ${destPath}`);
+
+                // Determine evidence type from mime
+                let evidenceType = 'document';
+                if (file.mime.startsWith('image/')) evidenceType = 'image';
+                else if (file.mime.startsWith('video/')) evidenceType = 'video';
+
+                evidenceFiles.push({ path: evidencePath, type: evidenceType });
+                mediaFiles.push({ type: 'evidence', path: destPath });
+            }
+        }
+
+        yamlContent = generateIncidentYAML(data, year, id, evidenceFiles);
 
         const yamlPath = path.join(ROOT_DIR, 'data/incidents', yamlFilename);
         fs.writeFileSync(yamlPath, yamlContent);
@@ -317,7 +350,8 @@ function generatePRBody(kind, id, year, data, mediaFiles) {
 
     let summary = '';
     if (kind === 'incident') {
-        summary = `**Title:** ${data.title}\n**Date:** ${data.occurred_at?.start || 'Unknown'}\n**Location:** ${data.location?.city || ''}, ${data.location?.province || ''}`;
+        const evidenceCount = data.evidence_count || 0;
+        summary = `**Title:** ${data.title}\n**Date:** ${data.occurred_at?.start || 'Unknown'}\n**Location:** ${data.location?.city || ''}, ${data.location?.province || ''}\n**Evidence Files:** ${evidenceCount}`;
     } else if (kind === 'victim') {
         summary = `**Name:** ${data.name}\n**Age:** ${data.age || 'Unknown'}\n**Date of Death:** ${data.date_of_death || 'Unknown'}\n**Location:** ${data.city}, ${data.province}`;
     } else if (kind === 'evidence') {

@@ -80,7 +80,6 @@
 import { ref } from 'vue';
 import IncidentSubmissionForm from '~/components/submissions/IncidentSubmissionForm.vue';
 import VictimSubmissionForm from '~/components/submissions/VictimSubmissionForm.vue';
-import EvidenceSubmissionForm from '~/components/submissions/EvidenceSubmissionForm.vue';
 import {  
   initUpload,
   completeSubmission,
