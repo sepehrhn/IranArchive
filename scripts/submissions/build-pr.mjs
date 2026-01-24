@@ -203,8 +203,8 @@ ${data.occupation ? `occupation: "${data.occupation}"` : 'occupation: ""'}
 country: "${data.country || 'Iran'}"
 
 # Incident Location
-${data.incident_location_province ? `incident_location_province: "${data.incident_location_province}"` : 'incident_location_province: ""'}
-${data.incident_location_city ? `incident_location_city: "${data.incident_location_city}"` : 'incident_location_city: ""'}
+${data.incident_province ? `incident_province: "${data.incident_province}"` : 'incident_province: ""'}
+${data.incident_city ? `incident_city: "${data.incident_city}"` : 'incident_city: ""'}
 
 # Death Information
 ${data.date_of_death ? `date_of_death: "${data.date_of_death}"` : 'date_of_death: ""'}

@@ -46,11 +46,9 @@ occupation: ""
 # Country
 country: "Iran"
 
-# Incident Location - Province where the death/incident occurred
-incident_location_province: ""
-
-# Incident Location - City where the death/incident occurred
-incident_location_city: ""
+# Incident Location
+incident_province: ""
+incident_city: ""
 
 # Date of Death (Format: YYYY/MM/DD)
 date_of_death: "2026/01/20"
