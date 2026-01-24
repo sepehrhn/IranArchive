@@ -39,7 +39,14 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div>
+          <label class="block text-sm font-medium mb-2">Country</label>
+          <InputText
+            v-model="form.country"
+            class="w-full"
+          />
+        </div>
         <div>
           <label class="block text-sm font-medium mb-2">Province</label>
           <InputText
@@ -59,7 +66,7 @@
       </div>
 
       <div>
-        <label class="block text-sm font-medium mb-2">Notes (optional)</label>
+        <label class="block text-sm font-medium mb-2">Notes</label>
         <Textarea
           v-model="form.notes"
           rows="4"
@@ -69,7 +76,18 @@
       </div>
 
       <div>
-        <label class="block text-sm font-medium mb-2">Photo (optional)</label>
+        <label class="block text-sm font-medium mb-2">Sources</label>
+        <Textarea
+          v-model="sourcesText"
+          rows="3"
+          placeholder="One URL per line"
+          class="w-full"
+        />
+        <small class="text-surface-500">Enter URLs to news articles, social media posts, etc. One per line.</small>
+      </div>
+
+      <div>
+        <label class="block text-sm font-medium mb-2">Photo</label>
         <FileUpload
           mode="basic"
           accept="image/jpeg,image/png,image/webp"
@@ -129,10 +147,13 @@ const form = ref({
   name: '',
   age: null as number | null,
   dateOfDeath: null as Date | null,
+  country: 'Iran',
   province: '',
   city: '',
   notes: ''
 });
+
+const sourcesText = ref('');
 
 onMounted(() => {
   if (!document.getElementById('turnstile-script')) {
@@ -170,14 +191,20 @@ function handleSubmit() {
     return;
   }
 
+  const sources = sourcesText.value
+    .split('\n')
+    .map(s => s.trim())
+    .filter(s => s.length > 0);
+
   const data = {
     name: form.value.name,
     age: form.value.age,
-    country: 'Iran',
+    country: form.value.country,
     province: form.value.province,
     city: form.value.city,
     date_of_death: formatDate(form.value.dateOfDeath),
     notes: form.value.notes,
+    sources,
     status: 'not_verified'
   };
 
@@ -201,10 +228,12 @@ function resetForm() {
     name: '',
     age: null,
     dateOfDeath: null,
+    country: 'Iran',
     province: '',
     city: '',
     notes: ''
   };
+  sourcesText.value = '';
   selectedFile.value = null;
   submitted.value = false;
 }
