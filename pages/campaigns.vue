@@ -3,6 +3,7 @@ import { ref, computed, onMounted } from 'vue';
 import { useCampaigns } from '~/composables/useCampaigns';
 import { useCampaignSigning } from '~/composables/useCampaignSigning';
 import { useCountries } from '~/composables/useCountries';
+import { getMediaUrl } from '~/utils/mediaUrl';
 import type { CampaignStatus } from '~/types/campaign';
 
 const { getAllCampaigns } = useCampaigns();
@@ -14,6 +15,20 @@ const { loadSigned, isSigned, markSigned } = useCampaignSigning();
 onMounted(() => {
   loadSigned();
 });
+
+// SEO
+useHead({
+  title: 'Campaigns - IranArchive',
+  meta: [
+    { name: 'description', content: 'Petitions and campaigns hosted on Change.org pressuring the Islamic Republic. Join the global call for justice.' }
+  ]
+});
+
+// Campaign Image URL Generation
+const getCampaignImageUrl = (filename: string | undefined) => {
+  if (!filename) return '/campaign-placeholder.svg';
+  return getMediaUrl({ kind: 'campaign_img', relativePath: filename });
+};
 
 // SEO
 useHead({
@@ -173,7 +188,7 @@ const formatCountries = (codes: string[]) => {
                   :class="{ 'signed': isSigned(campaign.id) }"
                 >
                     <img 
-                        :src="campaign.thumbnailUrl || '/campaign-placeholder.svg'" 
+                        :src="getCampaignImageUrl(campaign.thumbnail)" 
                         :alt="campaign.title"
                         loading="lazy"
                         class="w-full h-full object-cover transition-all duration-300 campaign-img"
