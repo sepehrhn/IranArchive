@@ -1,0 +1,23 @@
+name = "iranarchive-submissions"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+[observability]
+enabled = true
+
+[vars]
+ALLOWED_ORIGINS = "https://iranarchive.net,http://localhost:3000"
+GH_REPO_OWNER = "sepehrhn"
+GH_REPO_NAME = "IranArchive"
+
+[[r2_buckets]]
+binding = "SUBMISSIONS_BUCKET"
+bucket_name = "iranarchive-submissions"
+
+[[kv_namespaces]]
+binding = "SUBMISSIONS_KV"
+id = "f32065d84ae14c54b6b8d32709167e1b"
+
+# Secrets (set via: wrangler secret put SECRET_NAME)
+# TURNSTILE_SECRET_KEY
+# GH_DISPATCH_TOKEN
