@@ -87,6 +87,33 @@
         />
         <small class="text-surface-500">Enter URLs to news articles, social media posts, etc. One per line.</small>
       </div>
+
+      <div>
+        <label class="block text-sm font-medium mb-2">Evidence Files (optional)</label>
+        <FileUpload
+          mode="advanced"
+          :multiple="true"
+          accept="image/jpeg,image/png,image/webp,image/gif,video/mp4,video/webm,video/quicktime,application/pdf"
+          :maxFileSize="90000000"
+          @select="onFileSelect"
+          @remove="onFileRemove"
+          chooseLabel="Add Evidence Files"
+          uploadLabel="Upload"
+          cancelLabel="Clear All"
+          :showUploadButton="false"
+          :showCancelButton="true"
+        >
+          <template #empty>
+            <p class="text-sm text-surface-500">Drag and drop evidence files here, or click to browse.</p>
+          </template>
+        </FileUpload>
+        <small class="text-surface-500">
+          Images (JPG, PNG, WebP, GIF), Videos (MP4, WebM), or Documents (PDF). Max 90MB total.
+        </small>
+        <div v-if="selectedFiles.length > 0" class="mt-2">
+          <p class="text-sm font-medium">Selected: {{ selectedFiles.length }} file(s)</p>
+        </div>
+      </div>
     </div>
 
     <!-- Turnstile -->
@@ -130,6 +157,7 @@ const config = useRuntimeConfig();
 const turnstileContainer = ref<HTMLElement>();
 const turnstileToken = ref('');
 const submitted = ref(false);
+const selectedFiles = ref<File[]>([]);
 
 const form = ref({
   title: '',
@@ -171,6 +199,15 @@ function renderTurnstile() {
   });
 }
 
+function onFileSelect(event: any) {
+  selectedFiles.value = event.files;
+}
+
+function onFileRemove(event: any) {
+  // PrimeVue FileUpload handles file list internally
+  selectedFiles.value = event.files;
+}
+
 function handleSubmit() {
   submitted.value = true;
 
@@ -197,13 +234,14 @@ function handleSubmit() {
       city: form.value.city
     },
     description: form.value.description,
-    sources
+    sources,
+    evidence_count: selectedFiles.value.length
   };
 
   emit('submit', {
     kind: 'incident',
     data,
-    files: [],
+    files: selectedFiles.value,
     turnstileToken: turnstileToken.value
   });
 }
@@ -224,6 +262,7 @@ function resetForm() {
     description: ''
   };
   sourcesText.value = '';
+  selectedFiles.value = [];
   submitted.value = false;
 }
 </script>
