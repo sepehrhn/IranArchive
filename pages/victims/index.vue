@@ -4,7 +4,8 @@ import { useVictims } from '@/composables/useVictims';
 import type { Victim } from '@/types/victims';
 import VictimGalleryCard from '@/components/victims/VictimGalleryCard.vue';
 import VictimSubmissionForm from '~/components/submissions/VictimSubmissionForm.vue';
-import { submitToAPI } from '~/utils/submissionsClient';
+import { initUpload, uploadToR2, completeSubmission } from '~/utils/submissionsClient';
+import type { UploadedFileInfo } from '~/utils/submissionsClient';
 
 useHead({
     title: 'Victims - IranArchive',
@@ -86,7 +87,47 @@ const handleSubmission = async (payload: any) => {
     submitSuccess.value = false;
 
     try {
-        await submitToAPI(payload);
+        const { kind, data, files, turnstileToken } = payload;
+
+        // Step 1: Initialize upload
+        const fileInfos = await Promise.all(
+            files.map(async (file: File) => ({
+                name: file.name,
+                size: file.size,
+                mime: file.type,
+                sha256: '' // Will be calculated by initUpload
+            }))
+        );
+
+        const initResponse = await initUpload({
+            turnstileToken,
+            files: fileInfos,
+            kind
+        });
+
+        // Step 2: Upload files to R2
+        const uploadedFiles: UploadedFileInfo[] = [];
+        for (let i = 0; i < files.length; i++) {
+            await uploadToR2(files[i], initResponse.uploads[i].putUrl);
+            uploadedFiles.push({
+                key: initResponse.uploads[i].key,
+                originalName: files[i].name,
+                name: files[i].name,
+                size: files[i].size,
+                mime: files[i].type,
+                sha256: ''
+            });
+        }
+
+        // Step 3: Complete submission
+        await completeSubmission({
+            submissionId: initResponse.submissionId,
+            kind,
+            payload: data,
+            uploadedFiles,
+            turnstileToken
+        });
+
         submitSuccess.value = true;
         setTimeout(() => {
             showSubmitDialog.value = false;
