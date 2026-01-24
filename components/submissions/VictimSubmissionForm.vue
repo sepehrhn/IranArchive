@@ -196,17 +196,6 @@
             :invalid="submitted && form.sourceType === 'Social Media' && !form.socialMediaLink"
           />
         </div>
-
-        <div>
-          <label class="block text-sm font-medium mb-2">Sources</label>
-          <Textarea
-            v-model="sourcesText"
-            rows="3"
-            placeholder="One URL per line"
-            class="w-full"
-          />
-          <small class="text-surface-500">Enter URLs to news articles, social media posts, etc. One per line.</small>
-        </div>
       </div>
     </div>
 
@@ -300,7 +289,6 @@ const form = ref({
   socialMediaLink: ''
 });
 
-const sourcesText = ref('');
 
 onMounted(() => {
   if (!document.getElementById('turnstile-script')) {
@@ -413,7 +401,6 @@ function resetForm() {
     sourceType: '',
     socialMediaLink: ''
   };
-  sourcesText.value = '';
   selectedFile.value = null;
   submitted.value = false;
 }
