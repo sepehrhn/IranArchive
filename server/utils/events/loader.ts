@@ -8,13 +8,21 @@ import { EventSchema, type EventData, type ParsedEvent, EventStateSchema } from 
 const EVENTS_DIR = path.resolve(process.cwd(), 'data/events');
 const ONGOING_WINDOW_HOURS = 6; // Default duration if end_at is missing
 
+// Helper to parse date string "YYYY/MM/DD" and time "HH:mm"
+function parseEventDate(dateStr: string, timeStr?: string | null): Date {
+    const d = new Date(dateStr + (timeStr ? ' ' + timeStr : ''));
+    return d;
+}
+
 // Helper to compute state
 function computeEventState(event: EventData): string {
     if (event.state) return event.state;
 
     const now = new Date();
-    const start = new Date(event.start_at);
-    let end = event.end_at ? new Date(event.end_at) : null;
+    const start = parseEventDate(event.date.start, event.date.start_time);
+    let end = (event.date.end)
+        ? parseEventDate(event.date.end, event.date.end_time)
+        : null;
 
     // If no end time, assume a default window
     if (!end) {
@@ -50,7 +58,7 @@ export async function loadEvents(): Promise<ParsedEvent[]> {
             if (!result.success) {
                 // Formatting Zod errors
                 const zodError = result.error;
-                const issues = zodError.errors || zodError.issues || [];
+                const issues = zodError.issues;
                 const errorMsg = issues.map(e => `${e.path.join('.')}: ${e.message}`).join(', ');
                 errors.push(`File ${file}: ${errorMsg}`);
                 continue;
@@ -82,5 +90,9 @@ export async function loadEvents(): Promise<ParsedEvent[]> {
     // Sort: Upcoming (Ascending start), Ongoing (Ascending start), Held (Descending start)
     // Actually, simple default sort: Start date descending? Or separated?
     // Let's just return raw list, let API/Frontend sort.
-    return validEvents.sort((a, b) => new Date(b.start_at).getTime() - new Date(a.start_at).getTime());
+    return validEvents.sort((a, b) => {
+        const dateA = parseEventDate(a.date.start, a.date.start_time).getTime();
+        const dateB = parseEventDate(b.date.start, b.date.start_time).getTime();
+        return dateB - dateA;
+    });
 }

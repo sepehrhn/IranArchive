@@ -40,32 +40,27 @@ type: "rally"
 # [REQUIRED] Timing
 # ISO 8601 format: YYYY-MM-DDTHH:mm:ss
 # Timezone is REQUIRED for correct display across the world.
-start_at: "2026-01-25T14:00:00"
-end_at: ~ # Optional but recommended
-timezone: "America/New_York"     # IANA timezone identifier (e.g., America/New_York)
-date_precision: "Exact"       # Options: Exact, Approx, Unknown
+date:
+  # Start time in YYYY/MM/DD format
+  start: "2026/01/25"
+  start_time: "14:00"
+  # End time (optional)
+  end: ""
+  end_time: ""
+  precision: "Exact"
 
 # Location (Required for in_person/hybrid)
 location:
   # Full country name (e.g. Germany)
-  country: "USA"
-  # 2-letter ISO code (uppercase) - used for flags/filtering
-  country_iso2: "US"          
+  country: "US"
   # City name
   city: "Atlanta"
-  # Name of the specific place (e.g. Brandenburg Gate)
-  venue_name: "CNN center, 190 Marietta St NW"
   # Full address
   address: "CNN center, 190 Marietta St NW"
-  # Visibility options for safety:
-  # - public: Full details shown
-  # - approximate: Only city/country shown
-  # - withheld: Location details hidden entirely
-  location_visibility: "public" 
-  # Optional details
-  meeting_point: ""
-  route: ""
-
+  # Latitude (optional)
+  lat: 33.7577860
+  # Longitude (optional)
+  lng: -84.3948459
 # Online Specifics (Required for online/hybrid)
 online:
   platform: ""          # e.g., Zoom, YouTube, X Spaces
@@ -108,8 +103,3 @@ sources:
     url: "https://drive.google.com/file/d/1iIRPSPnQ-JLYmKDXwhiR6o1tdCEr9iiX/view"
 
 # Media
-# List of filenames (images/videos) located in /data/events/docs/
-# e.g. img-2026-00001.jpg
-media: []
-  # - img-2026-00001.jpg
-  # - vid-2026-00001.mp4

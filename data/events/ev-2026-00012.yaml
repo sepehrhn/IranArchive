@@ -40,32 +40,27 @@ type: "rally"
 # [REQUIRED] Timing
 # ISO 8601 format: YYYY-MM-DDTHH:mm:ss
 # Timezone is REQUIRED for correct display across the world.
-start_at: "2026-01-24T17:00:00"
-end_at: "2026-01-24T20:00:00" # Optional but recommended
-timezone: "Europe/Berlin"     # IANA timezone identifier (e.g., America/New_York)
-date_precision: "Exact"       # Options: Exact, Approx, Unknown
+date:
+  # Start time in YYYY/MM/DD format
+  start: "2026/01/24"
+  start_time: "17:00"
+  # End time (optional)
+  end: "2026/01/24"
+  end_time: "20:00"
+  precision: "Exact"
 
 # Location (Required for in_person/hybrid)
 location:
   # Full country name (e.g. Germany)
-  country: "Germany"
-  # 2-letter ISO code (uppercase) - used for flags/filtering
-  country_iso2: "DE"          
+  country: "DE"
   # City name
   city: "Hamburg"
-  # Name of the specific place (e.g. Brandenburg Gate)
-  venue_name: "Jungfernstieg 54 (opposite Nivea-Haus)"
   # Full address
   address: "Jungfernstieg 54 (opposite Nivea-Haus)"
-  # Visibility options for safety:
-  # - public: Full details shown
-  # - approximate: Only city/country shown
-  # - withheld: Location details hidden entirely
-  location_visibility: "public" 
-  # Optional details
-  meeting_point: ""
-  route: ""
-
+  # Latitude (optional)
+  lat: 53.5503410
+  # Longitude (optional)
+  lng: 10.0006540
 # Online Specifics (Required for online/hybrid)
 online:
   platform: ""          # e.g., Zoom, YouTube, X Spaces
@@ -108,8 +103,3 @@ sources:
     url: "https://drive.google.com/file/d/1SR13OuHsEN4P7nWFkO5oVwQ7MWQ9mKVa/view?usp=drive_link"
 
 # Media
-# List of filenames (images/videos) located in /data/events/docs/
-# e.g. img-2026-00001.jpg
-media: []
-  # - img-2026-00001.jpg
-  # - vid-2026-00001.mp4

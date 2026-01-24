@@ -4,13 +4,9 @@ The Iran Archive Events calendar is a community-driven effort to track global so
 
 ## How to Submit
 
-### Option 1: GitHub Pull Request (Preferred)
+### Option 1: Tag us on 𝕏 (Twitter)
 
-1.  Fork the [Iran Archive repository](https://github.com/sepehrhn/IranArchive).
-2.  Navigate to `data/events/`.
-3.  Create a new file named `ev-YYYY-XXXXX.yaml` (increment the last number available).
-4.  Copy the content from `events.yaml.example` and fill in your event details.
-5.  Submit a Pull Request.
+Tag our 𝕏 page [@Iran_Archive](https://x.com/Iran_Archive) on your event announcement on 𝕏.
 
 ### Option 2: Email
 
@@ -31,7 +27,6 @@ Please ensure you provide at least:
 
 All events are reviewed. We assign a verification status:
 -   **Verified**: Confirmed by reliable sources or known organizers.
--   **Disputed**: Conflicting reports about time/location.
 -   **Not Verified**: Source is unclear.
 
 We prioritize the safety of attendees. If an event location is sensitive, set `location_visibility` to `approximate` or `withheld`.

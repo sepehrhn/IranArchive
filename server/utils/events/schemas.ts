@@ -10,21 +10,28 @@ export const EventTypeSchema = z.enum([
     "training", "community_meetup", "other"
 ]);
 export const DatePrecisionSchema = z.enum(["Exact", "Approx", "Unknown"]);
-export const LocationVisibilitySchema = z.enum(["public", "approximate", "withheld_until_day_of", "withheld"]);
+
+// Date Schema shared
+// Moved here to access DatePrecisionSchema
+const DateInfoSchema = z.object({
+    start: z.string().regex(/^\d{4}\/\d{2}\/\d{2}$/, "Must be YYYY/MM/DD"),
+    start_time: z.string().regex(/^\d{2}:\d{2}$/, "Must be HH:mm").optional().or(z.literal('')),
+    end: z.string().regex(/^\d{4}\/\d{2}\/\d{2}$/, "Must be YYYY/MM/DD").optional().or(z.literal('')),
+    end_time: z.string().regex(/^\d{2}:\d{2}$/, "Must be HH:mm").optional().or(z.literal('')),
+    precision: DatePrecisionSchema
+});
+
 export const OnlineAccessSchema = z.enum(["public", "rsvp_required", "invite_only"]);
-export const VerificationStatusSchema = z.enum(["draft", "not_verified", "disputed", "verified"]);
-export const MediaTypeSchema = z.enum(["image", "video", "link"]);
+export const VerificationStatusSchema = z.enum(["draft", "not_verified", "verified"]);
+
 
 // Sub-schemas
 const LocationSchema = z.object({
-    country: z.string().min(1),
-    country_iso2: z.string().length(2).transform(val => val.toUpperCase()),
+    country: z.string().length(2).transform(val => val.toUpperCase()),
     city: z.string().optional(),
-    venue_name: z.string().optional(),
     address: z.string().optional(),
-    location_visibility: LocationVisibilitySchema,
-    meeting_point: z.string().optional(),
-    route: z.string().optional(),
+    lat: z.number().optional().nullable(),
+    lng: z.number().optional().nullable(),
 });
 
 const OnlineSchema = z.object({
@@ -74,10 +81,8 @@ export const EventSchema = z.object({
     tags: z.array(z.string()).optional(),
 
     // Timing
-    start_at: z.string().regex(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}/, "Must be valid ISO 8601 datetime"),
-    end_at: z.string().regex(/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}/, "Must be valid ISO 8601 datetime").optional().nullable(),
-    timezone: z.string().min(1), // Basic check, fuller validation in loader
-    date_precision: DatePrecisionSchema,
+    // Timing
+    date: DateInfoSchema,
 
     // Sections
     location: LocationSchema.optional().nullable(),
@@ -91,10 +96,7 @@ export const EventSchema = z.object({
     sources: z.array(SourceSchema).optional(),
 
     // Options
-    featured: z.boolean().default(false),
-
-    // Media (Simple list of filenames in /data/events/)
-    media: z.array(z.string()).optional()
+    featured: z.boolean().default(false)
 }).refine(data => {
     // Logic: if in_person or hybrid, location is required
     if ((data.format === 'in_person' || data.format === 'hybrid') && !data.location) {

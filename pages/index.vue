@@ -3,7 +3,7 @@ const { t } = useI18n()
 </script>
 
 <template>
-  <div class="py-20 flex flex-col items-center justify-center text-center space-y-12">
+  <div class="py-5 flex flex-col items-center justify-center text-center space-y-12">
     <div class="space-y-6 max-w-4xl relative">
         <!-- Background Glow -->
         <div class="absolute -top-20 left-1/2 -translate-x-1/2 w-64 h-64 bg-primary-500/20 blur-[100px] rounded-full pointer-events-none"></div>

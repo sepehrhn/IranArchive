@@ -119,41 +119,42 @@ const formatCountries = (codes: string[]) => {
   <div class="min-h-screen pb-12">
     <div class="container mx-auto px-4 mt-6">
       
-      <!-- Header Card -->
-      <div class="flex flex-col gap-6 bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-6">
-        
-        <!-- Title & Main Actions -->
-        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-          <div>
-            <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">
-              Campaigns
-            </h1>
-            <p class="text-surface-500 dark:text-surface-400 mt-1 max-w-2xl text-sm md:text-base">
-              Petitions and collective actions pressuring the regime.
-            </p>
-          </div>
-          <div class="flex gap-2 w-full md:w-auto">
-             <div class="text-xs text-surface-500 italic max-w-xs text-right hidden md:block">
-                Petitions are hosted on Change.org;<br>IranArchive is not affiliated.
-             </div>
-          </div>
+        <!-- Header Card -->
+        <div class="flex flex-col gap-6 bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-6">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div>
+                    <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">
+                        Campaigns
+                    </h1>
+                    <p class="text-surface-500 dark:text-surface-400 mt-1 max-w-2xl text-sm md:text-base">
+                        Petitions and collective actions pressuring the regime.
+                    </p>
+                </div>
+                <div class="flex gap-2 w-full md:w-auto items-center">
+                    <div class="text-xs text-surface-500 italic max-w-xs text-right hidden md:block mr-2">
+                        Petitions are hosted on Change.org;<br>IranArchive is not affiliated.
+                    </div>
+                    <NuxtLink to="/docs/campaigns-submission">
+                        <Button label="Submit Campaign" icon="pi pi-plus" size="small" />
+                    </NuxtLink>
+                </div>
+            </div>
         </div>
 
         <!-- Controls Toolbar -->
-        <div class="flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center pt-2">
-          <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
-             <IconField iconPosition="left" class="w-full sm:w-64">
-                <InputIcon class="pi pi-search" />
-                <InputText v-model="searchQuery" placeholder="Search campaigns" class="w-full" />
-             </IconField>
-          </div>
+        <div class="flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center bg-surface-0 dark:bg-surface-900 p-4 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-8">
+            <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
+                <IconField iconPosition="left" class="w-full sm:w-64">
+                    <InputIcon class="pi pi-search" />
+                    <InputText v-model="searchQuery" placeholder="Search campaigns" class="w-full" />
+                </IconField>
+            </div>
 
-          <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-between lg:justify-end">
-             <Select v-model="statusFilter" :options="statusOptions" optionLabel="label" optionValue="value" placeholder="Status" class="w-full sm:w-48" />
-             <Select v-model="sortOption" :options="sortOptions" optionLabel="label" optionValue="value" placeholder="Sort By" class="w-full sm:w-64" />
-          </div>
+            <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-between lg:justify-end">
+                 <Select v-model="statusFilter" :options="statusOptions" optionLabel="label" optionValue="value" placeholder="Status" class="w-full sm:w-48" />
+                 <Select v-model="sortOption" :options="sortOptions" optionLabel="label" optionValue="value" placeholder="Sort By" class="w-full sm:w-64" />
+            </div>
         </div>
-      </div>
 
         <!-- Grid -->
         <div v-if="filteredCampaigns.length > 0" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

@@ -18,7 +18,7 @@ export interface DateRange {
     start_time?: string; // Format: HH:MM (24h)
     end?: string;  // Format: YYYY/MM/DD or ISO
     end_time?: string; // Format: HH:MM (24h)
-    timezone: string;
+
     precision: 'exact' | 'approx' | 'unknown';
 }
 

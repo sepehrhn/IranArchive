@@ -1,5 +1,17 @@
 <script setup lang="ts">
 import type { ParsedEvent } from '~/server/utils/events/schemas';
+import MarkdownIt from 'markdown-it';
+
+const md = new MarkdownIt({
+    html: false,
+    linkify: true,
+    breaks: true
+});
+
+const renderMarkdown = (text: string) => {
+    if (!text) return '';
+    return md.render(text);
+};
 
 const route = useRoute();
 const { data: event, error } = await useFetch<ParsedEvent>(`/api/events/${route.params.id}`);
@@ -91,7 +103,7 @@ ${ev.description || ''}
                 <!-- Description -->
                 <div v-if="event.description" class="prose dark:prose-invert max-w-none">
                     <h3 class="text-xl font-bold mb-2">About this Event</h3>
-                    <div class="whitespace-pre-line">{{ event.description }}</div>
+                    <div v-html="renderMarkdown(event.description)"></div>
                 </div>
 
                 <!-- Speakers -->
@@ -106,11 +118,7 @@ ${ev.description || ''}
                     </div>
                 </div>
 
-                <!-- Media Gallery -->
-                <div v-if="event.media && event.media.length > 0" class="space-y-4">
-                    <h3 class="text-xl font-bold border-b pb-2">Media & Documents</h3>
-                    <EventsEventMediaGallery :media="event.media" />
-                </div>
+
 
                 <!-- Sources -->
                 <div v-if="event.sources?.length">
@@ -144,8 +152,10 @@ ${ev.description || ''}
                     </div>
                 </div>
 
-                <!-- Map Placeholder (Optional) -->
-                <!-- Could add a static map image if coords were available -->
+                <!-- Map -->
+                <div v-if="event.location?.lat && event.location?.lng" class="h-64 rounded-xl overflow-hidden border border-surface-200 dark:border-surface-700 shadow-sm">
+                    <IncidentsIncidentMap :lat="event.location.lat" :lng="event.location.lng" />
+                </div>
 
                 <!-- Verification Score Removed as requested -->
             </div>

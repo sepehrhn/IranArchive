@@ -38,7 +38,7 @@ const stateSeverity = {
         <Badge :value="event.type.replace('_', ' ').toUpperCase()" severity="secondary" variant="outline" />
         
         <!-- Verification -->
-         <Tag v-if="event.status === 'verified'" icon="pi pi-check-circle" severity="success" value="Verified" rounded class="!bg-green-100 !text-green-700 dark:!bg-green-500/20 dark:!text-green-400"></Tag>
+         <Tag v-if="event.status === 'verified'" icon="pi pi-check-circle" severity="success" value="Verified" rounded class="!bg-green-100 !text-green-700 dark:!bg-green-600 dark:!text-white"></Tag>
          <Tag v-if="event.status === 'disputed'" icon="pi pi-exclamation-triangle" severity="warn" value="Disputed" rounded class="!bg-orange-100 !text-orange-700 dark:!bg-orange-500/20 dark:!text-orange-400"></Tag>
     </div>
 </template>

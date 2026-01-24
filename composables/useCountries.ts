@@ -59,7 +59,7 @@ export const useCountries = () => {
             // Simple validation logging
             const total = Object.keys(rawCountries.value).length;
             const unknowns = Object.values(rawCountries.value).filter(c => c.derived_tier === OverallTier.Unknown).length;
-            console.log(`[useCountries] Loaded ${total} countries. ${unknowns} Unknowns.`);
+
 
         } catch (e: any) {
             error.value = e.message;

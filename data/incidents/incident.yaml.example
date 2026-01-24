@@ -16,8 +16,7 @@ occurred_at:
   # End date (optional)
   end: ""
   end_time: ""
-  # Timezone string (e.g. 'Asia/Tehran')
-  timezone: "Asia/Tehran"
+
   # Date precision
   # Options: 'Exact' | 'Approx' | 'Unknown'
   precision: "Exact"
