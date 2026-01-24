@@ -36,6 +36,9 @@ jobs:
         run: npm run build -- --preset github_pages
         env:
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          NUXT_PUBLIC_MEDIA_REPO_OWNER: ${{ github.repository_owner }}
+          NUXT_PUBLIC_MEDIA_REPO_NAME: ${{ github.event.repository.name }}
+          NUXT_PUBLIC_MEDIA_REPO_REF: ${{ github.ref_name }}
 
       - name: Verify build output
         run: |

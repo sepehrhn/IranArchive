@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
+import { getMediaUrl } from '~/utils/mediaUrl';
 
 const props = withDefaults(defineProps<{
     src?: string;
@@ -12,6 +13,15 @@ const props = withDefaults(defineProps<{
 });
 
 const placeholderSrc = '/images/victims/placeholder.png';
+
+// Generate photo URL from GitHub or use placeholder
+const photoUrl = computed(() => {
+    if (!props.src) return placeholderSrc;
+    // If src is already a full URL, use it
+    if (props.src.startsWith('http')) return props.src;
+    // Otherwise, generate GitHub raw URL
+    return getMediaUrl({ kind: 'victim_photo', relativePath: props.src });
+});
 
 const aspectRatioClass = computed(() => {
     return props.aspect === 'square' ? 'aspect-square' : 'aspect-[4/5]';
@@ -35,7 +45,7 @@ const handleError = (e: Event) => {
 <template>
     <div :class="['relative overflow-hidden rounded-lg bg-surface-100 dark:bg-surface-800', aspectRatioClass, sizeClass]">
         <img 
-            :src="src || placeholderSrc" 
+            :src="photoUrl" 
             :alt="alt"
             loading="lazy"
             class="w-full h-full object-cover transition-opacity duration-300"

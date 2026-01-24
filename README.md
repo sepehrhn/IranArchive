@@ -74,6 +74,45 @@ bun run preview
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
+## Media Architecture
+
+### Overview
+Media files (evidences, campaign images, victim photos) are stored in the Git repository but are **NOT copied** into the static build output. Instead, they are loaded at runtime directly from GitHub raw URLs.
+
+### Media Directories
+- `/data/evidences/**` - Evidence images, videos, and documents
+- `/data/campaigns/img/**` - Campaign thumbnail images  
+- `/data/victims/img/**` - Victim photos
+
+### How It Works
+1. YAML files reference media by **filename** or **relative path**
+2. The `utils/mediaUrl.ts` utility generates GitHub raw URLs at render time
+3. Components use `getMediaUrl()` to convert paths to full URLs
+4. Example: `2026/jan/video.mp4` → `https://raw.githubusercontent.com/sepehrhn/IranArchive/main/data/evidences/2026/jan/video.mp4`
+
+### Configuration
+Configure media loading via environment variables:
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `NUXT_PUBLIC_MEDIA_REPO_OWNER` | `sepehrhn` | GitHub repository owner |
+| `NUXT_PUBLIC_MEDIA_REPO_NAME` | `IranArchive` | GitHub repository name |
+| `NUXT_PUBLIC_MEDIA_REPO_REF` | `main` | Git branch/tag/ref to load from |
+| `NUXT_PUBLIC_MEDIA_BASE_RAW_URL` | `https://raw.githubusercontent.com` | Base URL for raw content |
+
+### Local Development
+Media files are loaded from GitHub even during local development. Ensure you have an internet connection when running `npm run dev`.
+
+### Limitations
+- **GitHub file size limit**: 100MB per file
+- **Rate limiting**: GitHub raw URLs may be rate-limited under heavy traffic
+- **Internet required**: Media won't load without internet connection (including development)
+
+### Benefits
+- **Smaller deployments**: Static output excludes all media files
+- **Faster builds**: No need to copy large media files during build
+- **Direct source**: Media always loads from the repository source of truth
+
 ## Deployment (GitHub Pages)
 
 This project is configured to deploy automatically to GitHub Pages using GitHub Actions.

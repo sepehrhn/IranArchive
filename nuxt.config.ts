@@ -24,7 +24,12 @@ export default defineNuxtConfig({
 
     runtimeConfig: {
         public: {
-            googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY || ''
+            googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY || '',
+            // Media loading from GitHub raw URLs
+            mediaRepoOwner: process.env.NUXT_PUBLIC_MEDIA_REPO_OWNER || 'sepehrhn',
+            mediaRepoName: process.env.NUXT_PUBLIC_MEDIA_REPO_NAME || 'IranArchive',
+            mediaRepoRef: process.env.NUXT_PUBLIC_MEDIA_REPO_REF || 'main',
+            mediaBaseRawUrl: process.env.NUXT_PUBLIC_MEDIA_BASE_RAW_URL || 'https://raw.githubusercontent.com'
         }
     },
 
@@ -49,19 +54,9 @@ export default defineNuxtConfig({
         preset: 'github-pages',
         prerender: {
             routes: ['/data/events/events.ics']
-        },
-        publicAssets: [
-            {
-                dir: resolve(process.cwd(), 'data/evidences'),
-                baseURL: '/evidences',
-                maxAge: 60 * 60 * 24 * 365 // 1 year
-            },
-            {
-                dir: resolve(process.cwd(), 'data/events/docs'),
-                baseURL: '/events-media',
-                maxAge: 60 * 60 * 24 * 365 // 1 year
-            }
-        ]
+        }
+        // Note: Media files (evidences, campaigns, victims) are NOT copied to static output.
+        // They are loaded at runtime from GitHub raw URLs via utils/mediaUrl.ts
     },
 
 

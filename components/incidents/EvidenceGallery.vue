@@ -144,16 +144,14 @@
 <script setup lang="ts">
 import { type Evidence, type EvidenceType } from '~/types/incident';
 import { formatDate, formatDateTime } from '~/utils/formatters';
+import { getMediaUrl } from '~/utils/mediaUrl';
 
 const props = defineProps<{
   evidence: Evidence[];
 }>();
 
-const config = useRuntimeConfig();
 const getEvidenceUrl = (path: string) => {
-    // Ensure base URL is handled correctly
-    const baseUrl = config.app.baseURL.endsWith('/') ? config.app.baseURL : `${config.app.baseURL}/`;
-    return `${baseUrl}evidences/${path}`;
+    return getMediaUrl({ kind: 'evidence', relativePath: path });
 };
 
 const types: EvidenceType[] = ['video', 'image', 'document'];

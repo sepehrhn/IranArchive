@@ -5,8 +5,6 @@ import yaml from 'js-yaml';
 
 // Import all campaign YAML files
 const campaignFiles = import.meta.glob('/data/campaigns/*.yaml', { query: '?raw', import: 'default', eager: true });
-// Import all campaign images
-const campaignImages = import.meta.glob('/data/campaigns/img/*', { query: '?url', import: 'default', eager: true });
 
 export const useCampaigns = () => {
     const campaigns = ref<Campaign[]>([]);
@@ -48,7 +46,7 @@ export const useCampaigns = () => {
                 const validStatuses: CampaignStatus[] = ['active', 'closed', 'victory', 'unknown'];
                 const status: CampaignStatus = validStatuses.includes(data.status) ? data.status : 'unknown';
 
-                // Normalize countries
+                // Keep countries
                 let countries: string[] = [];
                 if (Array.isArray(data.countries)) {
                     countries = data.countries
@@ -56,19 +54,11 @@ export const useCampaigns = () => {
                         .filter((c: string) => /^[A-Z]{2}$/.test(c));
                 }
 
-                // Resolve Thumbnail
-                let thumbnailUrl = undefined;
-                if (data.thumbnail) {
-                    const key = `/data/campaigns/img/${data.thumbnail}`;
-                    thumbnailUrl = campaignImages[key];
-                }
-
                 const campaign: Campaign = {
                     id: filename,
                     url: data.url,
                     title: data.title,
-                    thumbnail: data.thumbnail,
-                    thumbnailUrl,
+                    thumbnail: data.thumbnail, // Filename only - URL generated at render time
                     status,
                     countries,
                     featured: Boolean(data.featured),

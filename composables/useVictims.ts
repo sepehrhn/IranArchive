@@ -19,18 +19,6 @@ export const useVictims = () => {
             const files = import.meta.glob('/data/victims/*.yaml', { eager: true });
             const loadedVictims: Victim[] = [];
 
-            // Load images map from data/victims/img
-            // eager: true, as: 'url' (via query) gives us the public path/processed URL
-            const imageFiles = import.meta.glob('/data/victims/img/*.{jpg,jpeg,png,webp}', { eager: true, query: '?url', import: 'default' });
-
-            // Normalize image map: filename -> url
-            const imageMap = new Map<string, string>();
-            for (const path in imageFiles) {
-                const parts = path.split('/');
-                const filename = parts[parts.length - 1];
-                imageMap.set(filename, imageFiles[path] as string);
-            }
-
             // Load base victim data
             for (const path in files) {
                 const module = files[path] as any;
@@ -42,20 +30,11 @@ export const useVictims = () => {
                 const id = fileName.replace('.yaml', '');
 
                 if (data && data.name) {
-                    let photoUrl = data.photo;
-
-                    // If photo is just a filename, try to find it in our image map
-                    if (photoUrl && !photoUrl.startsWith('/') && !photoUrl.startsWith('http')) {
-                        if (imageMap.has(photoUrl)) {
-                            photoUrl = imageMap.get(photoUrl);
-                        }
-                    }
-
-                    // Initialize incident_ids as empty, we will compute them
+                    // Keep photo as filename only - URL generated at render time
                     loadedVictims.push({
                         ...data,
                         id: id,
-                        photo: photoUrl,
+                        photo: data.photo, // Filename only
                         incident_ids: []
                     } as Victim);
                 } else {
