@@ -3,6 +3,8 @@ import { ref, computed, onMounted, watch } from 'vue';
 import { useVictims } from '@/composables/useVictims';
 import type { Victim } from '@/types/victims';
 import VictimGalleryCard from '@/components/victims/VictimGalleryCard.vue';
+import VictimSubmissionForm from '~/components/submissions/VictimSubmissionForm.vue';
+import { submitToAPI } from '~/utils/submissionsClient';
 
 useHead({
     title: 'Victims - IranArchive',
@@ -30,6 +32,10 @@ const selectedProvince = ref<string>();
 const selectedStatus = ref<string>();
 const dateRange = ref<Date[]>();
 const selectedSort = ref('recent');
+const showSubmitDialog = ref(false);
+const submitting = ref(false);
+const submitSuccess = ref(false);
+const submitError = ref('');
 
 const sortOptions = [
     { label: 'Recent', value: 'recent' },
@@ -74,6 +80,25 @@ const clearFilters = () => {
     applyFilters();
 };
 
+const handleSubmission = async (payload: any) => {
+    submitting.value = true;
+    submitError.value = '';
+    submitSuccess.value = false;
+
+    try {
+        await submitToAPI(payload);
+        submitSuccess.value = true;
+        setTimeout(() => {
+            showSubmitDialog.value = false;
+            submitSuccess.value = false;
+        }, 3000);
+    } catch (error) {
+        submitError.value = error instanceof Error ? error.message : 'Submission failed';
+    } finally {
+        submitting.value = false;
+    }
+};
+
 const formatStatusLabel = (s: string) => {
     if (s === 'not_verified') return 'Not Verified';
     return s.charAt(0).toUpperCase() + s.slice(1);
@@ -102,9 +127,15 @@ onMounted(() => {
                         {{ filteredVictims.length }} records found
                     </p>
                 </div>
-                <div>
+                <div class="flex items-center gap-3">
+                    <Button
+                        label="Submit Victim"
+                        icon="pi pi-plus"
+                        @click="showSubmitDialog = true"
+                        class="text-sm"
+                    />
                     <NuxtLink to="/docs/victims-submission">
-                        <Button label="Submit Victim" icon="pi pi-plus" size="small" />
+                        <Button label="Documentation" icon="pi pi-book" severity="secondary" outlined class="text-sm" />
                     </NuxtLink>
                 </div>
             </div>
@@ -158,4 +189,20 @@ onMounted(() => {
             <Button label="Clear Filters" text @click="clearFilters" />
         </div>
     </div>
+
+    <!-- Submit Dialog -->
+    <Dialog v-model:visible="showSubmitDialog" modal header="Submit New Victim" :style="{ width: '50rem' }" :breakpoints="{ '960px': '75vw', '640px': '90vw' }">
+        <div v-if="submitSuccess" class="text-center py-6">
+            <i class="pi pi-check-circle text-6xl text-green-500 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Submission Successful!</h3>
+            <p class="text-surface-600 dark:text-surface-400">Thank you for your submission. It will be reviewed shortly.</p>
+        </div>
+        <div v-else-if="submitError" class="text-center py-6">
+            <i class="pi pi-times-circle text-6xl text-red-500 mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2 text-red-600">Submission Failed</h3>
+            <p class="text-surface-600 dark:text-surface-400">{{ submitError }}</p>
+            <Button label="Try Again" @click="submitError = ''" class="mt-4" />
+        </div>
+        <VictimSubmissionForm v-else :submitting="submitting" @submit="handleSubmission" />
+    </Dialog>
 </template>
