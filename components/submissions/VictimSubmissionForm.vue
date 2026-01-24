@@ -360,7 +360,7 @@ function handleSubmit() {
     source_social_media_link: form.value.socialMediaLink,
     sources,
     // Status
-    status: 'verified'
+    status: 'Killed'
   };
 
   const files = selectedFile.value ? [selectedFile.value] : [];

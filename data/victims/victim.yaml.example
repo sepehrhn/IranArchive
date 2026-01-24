@@ -63,13 +63,13 @@ date_of_death_precision: "Exact"
 cause_of_death: ""
 
 # -----------------------------------------------------------------------------
-# Status & Verification
+# Status
 # -----------------------------------------------------------------------------
 
-# Status: 'verified' | 'not_verified'
-# - verified: Death confirmation from trusted sources or multiple corroborating reports.
-# - not_verified: Reported but currently lacking definitive confirmation.
-status: "verified"
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: "Killed"
 
 # -----------------------------------------------------------------------------
 # Narrative

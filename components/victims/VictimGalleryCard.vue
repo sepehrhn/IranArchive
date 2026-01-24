@@ -17,7 +17,7 @@ const formattedDate = computed(() => {
 
 // Use placeholder if no photo provided
 const photoSrc = computed(() => {
-    return props.victim.photo || '/data/victims/img/placeholder.png';
+    return props.victim.photo || '/placeholder-victim.png';
 });
 </script>
 

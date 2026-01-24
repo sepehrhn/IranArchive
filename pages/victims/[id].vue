@@ -157,7 +157,10 @@ const formattedDate = computed(() => {
 
             <!-- Sources -->
             <div class="border-t border-surface-200 dark:border-surface-800 pt-8">
-                 <VictimSources :sources="victim.sources" />
+                 <VictimSources 
+                    :source-type="victim.source_type"
+                    :social-media-link="victim.source_social_media_link"
+                 />
             </div>
         </div>
     </div>

@@ -12,7 +12,7 @@ const props = withDefaults(defineProps<{
     size: 'md'
 });
 
-const placeholderSrc = '/data/victims/img/placeholder.png';
+const placeholderSrc = '/placeholder-victim.png';
 
 // Generate photo URL from GitHub or use placeholder
 const photoUrl = computed(() => {
