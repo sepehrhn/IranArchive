@@ -28,13 +28,17 @@ function getNextId(kind, year) {
     const prefixes = {
         incident: `inc-${year}-`,
         victim: `vic-${year}-`,
-        evidence: `evi-${year}-`
+        evidence: `evi-${year}-`,
+        event: `ev-${year}-`,
+        campaign: `camp-${year}-`
     };
 
     const dirs = {
         incident: path.join(ROOT_DIR, 'data/incidents'),
         victim: path.join(ROOT_DIR, 'data/victims'),
-        evidence: path.join(ROOT_DIR, 'data/evidences')
+        evidence: path.join(ROOT_DIR, 'data/evidences'),
+        event: path.join(ROOT_DIR, 'data/events'),
+        campaign: path.join(ROOT_DIR, 'data/campaigns')
     };
 
     const prefix = prefixes[kind];
@@ -97,6 +101,8 @@ function extractYear(data, kind) {
         dateStr = data.date_of_death;
     } else if (kind === 'evidence' && data.captured_at) {
         dateStr = data.captured_at;
+    } else if (kind === 'event' && data.date?.start) {
+        dateStr = data.date.start;
     }
 
     if (dateStr) {
@@ -229,6 +235,90 @@ submission:
 }
 
 /**
+ * Generate event YAML
+ */
+function generateEventYAML(data, year, id) {
+    const yaml = `# Event ${id}
+# Submitted via public submission form
+
+title: "${data.title || 'Untitled Event'}"
+
+summary: "${data.summary || ''}"
+
+description: |
+  ${data.description || ''}
+
+state: "upcoming"
+
+format: "${data.format || 'in_person'}"
+
+type: "${data.type || 'other'}"
+
+date:
+  start: "${data.date?.start || ''}"
+  start_time: "${data.date?.start_time || ''}"
+  precision: "${data.date?.precision || 'Exact'}"
+
+${data.location ? `location:
+  country: "${data.location.country || ''}"
+  city: "${data.location.city || ''}"
+  ${data.location.address ? `address: "${data.location.address}"` : ''}
+` : ''}
+
+organizer:
+  name: "${data.organizer?.name || 'Anonymous'}"
+  ${data.organizer?.contact ? `contact: "${data.organizer.contact}"` : ''}
+
+featured: false
+
+status: "not_verified"
+
+sources: []
+
+submission:
+  submitted_by: "Anonymous"
+  received_at: "${submittedAt}"
+  submission_id: "${submissionId}"
+`;
+
+    return yaml;
+}
+
+/**
+ * Generate campaign YAML
+ */
+function generateCampaignYAML(data, year, id, thumbnailFilename) {
+    const yaml = `# Campaign ${id}
+# Submitted via public submission form
+
+url: "${data.url || ''}"
+
+title: "${data.title || 'Untitled Campaign'}"
+
+${thumbnailFilename ? `thumbnail: "${thumbnailFilename}"` : '# No thumbnail provided'}
+
+status: "${data.status || 'active'}"
+
+${data.description ? `description: |
+  ${data.description}
+` : ''}
+
+countries: []
+
+featured: false
+
+created_at: "${formatDate(submittedAt)}"
+
+submission:
+  submitted_by: "Anonymous"
+  received_at: "${submittedAt}"
+  submission_id: "${submissionId}"
+`;
+
+    return yaml;
+}
+
+/**
  * Process submission
  */
 function processSubmission() {
@@ -329,6 +419,41 @@ function processSubmission() {
         const yamlPath = path.join(ROOT_DIR, 'data/evidences', yamlFilename);
         fs.writeFileSync(yamlPath, yamlContent);
         console.log(`Created: ${yamlPath}`);
+    } else if (kind === 'event') {
+        yamlFilename = `ev-${year}-${id}.yaml`;
+        yamlContent = generateEventYAML(data, year, id);
+
+        const yamlPath = path.join(ROOT_DIR, 'data/events', yamlFilename);
+        fs.mkdirSync(path.dirname(yamlPath), { recursive: true });
+        fs.writeFileSync(yamlPath, yamlContent);
+        console.log(`Created: ${yamlPath}`);
+
+    } else if (kind === 'campaign') {
+        yamlFilename = `camp-${year}-${id}.yaml`;
+
+        // Handle thumbnail if present
+        let thumbnailFilename = null;
+        if (files && files.length > 0) {
+            const thumbnail = files[0];
+            const ext = path.extname(thumbnail.originalName);
+            thumbnailFilename = `camp-${year}-${id}${ext}`;
+
+            const sourcePath = path.join('.submission-temp/uploads', path.basename(thumbnail.key));
+            const destPath = path.join(ROOT_DIR, 'data/campaigns/img', thumbnailFilename);
+
+            fs.mkdirSync(path.dirname(destPath), { recursive: true });
+            fs.copyFileSync(sourcePath, destPath);
+            console.log(`Copied thumbnail: ${destPath}`);
+
+            mediaFiles.push({ type: 'thumbnail', path: destPath });
+        }
+
+        yamlContent = generateCampaignYAML(data, year, id, thumbnailFilename);
+
+        const yamlPath = path.join(ROOT_DIR, 'data/campaigns', yamlFilename);
+        fs.mkdirSync(path.dirname(yamlPath), { recursive: true });
+        fs.writeFileSync(yamlPath, yamlContent);
+        console.log(`Created: ${yamlPath}`);
     }
 
     // Generate PR body
@@ -345,7 +470,9 @@ function generatePRBody(kind, id, year, data, mediaFiles) {
     const kindLabels = {
         incident: 'Incident Report',
         victim: 'Victim Report',
-        evidence: 'Evidence Submission'
+        evidence: 'Evidence Submission',
+        event: 'Event Submission',
+        campaign: 'Campaign Submission'
     };
 
     let summary = '';
@@ -356,7 +483,27 @@ function generatePRBody(kind, id, year, data, mediaFiles) {
         summary = `**Name:** ${data.name}\n**Age:** ${data.age || 'Unknown'}\n**Date of Death:** ${data.date_of_death || 'Unknown'}\n**Location:** ${data.city}, ${data.province}`;
     } else if (kind === 'evidence') {
         summary = `**Title:** ${data.title}\n**Type:** ${data.type}\n**Date:** ${data.captured_at || 'Unknown'}`;
+    } else if (kind === 'event') {
+        summary = `**Title:** ${data.title}\n**Date:** ${data.date?.start || 'Unknown'}\n**Format:** ${data.format}\n**Type:** ${data.type}\n**Location:** ${data.location?.city || 'Online'}, ${data.location?.country || ''}`;
+    } else if (kind === 'campaign') {
+        summary = `**Title:** ${data.title}\n**URL:** ${data.url}\n**Status:** ${data.status}`;
     }
+
+    const dirMap = {
+        incident: 'data/incidents',
+        victim: 'data/victims',
+        evidence: 'data/evidences',
+        event: 'data/events',
+        campaign: 'data/campaigns'
+    };
+
+    const filePrefix = {
+        incident: 'inc',
+        victim: 'vic',
+        evidence: 'evi',
+        event: 'ev',
+        campaign: 'camp'
+    };
 
     const body = `## ${kindLabels[kind]} Submission
 
@@ -374,7 +521,7 @@ ${summary}
 
 ### Files Created
 
-- YAML: \`${kind === 'incident' ? 'data/incidents' : kind === 'victim' ? 'data/victims' : 'data/evidences'}/${kind.substring(0, 3)}-${year}-${id}.yaml\`
+- YAML: \`${dirMap[kind]}/${filePrefix[kind]}-${year}-${id}.yaml\`
 ${mediaFiles.map(f => `- Media: \`${f.path.replace(ROOT_DIR, '')}\``).join('\n')}
 
 ---
