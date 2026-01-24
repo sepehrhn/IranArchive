@@ -5,7 +5,7 @@
  * Implements 2-step upload: init → upload files to R2 → complete
  */
 
-export type SubmissionKind = 'incident' | 'victim' | 'evidence';
+export type SubmissionKind = 'incident' | 'victim' | 'event' | 'campaign';
 
 export interface FileInfo {
     name: string;
