@@ -91,9 +91,6 @@ source_type: ""
 # Social Media Link (Required if source_type is 'Social Media')
 source_social_media_link: ""
 
-# List of URLs to news reports, social media posts, or human rights organization entries.
-sources:
-  - "https://example.com/source1"
 
 # -----------------------------------------------------------------------------
 # Relationships
