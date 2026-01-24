@@ -218,8 +218,6 @@ ${data.description ? `description: |\n  ${data.description.split('\n').join('\n 
 # Sources
 ${data.source_type ? `source_type: "${data.source_type}"` : 'source_type: ""'}
 ${data.source_social_media_link ? `source_social_media_link: "${data.source_social_media_link}"` : 'source_social_media_link: ""'}
-sources:
-${data.sources && data.sources.length > 0 ? data.sources.map(s => `  - "${s}"`).join('\n') : '  []'}
 
 submission:
   submitted_by: "${data.submitted_by || 'Anonymous'}"
