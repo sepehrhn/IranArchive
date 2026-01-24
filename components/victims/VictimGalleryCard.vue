@@ -14,13 +14,21 @@ const formattedDate = computed(() => {
     if (!props.victim.date_of_death) return 'Unknown Date';
     return formatDate(props.victim.date_of_death);
 });
+
+// Use placeholder if no photo provided
+const photoSrc = computed(() => {
+    return props.victim.photo || '/data/victims/img/placeholder.png';
+});
 </script>
 
 <template>
     <NuxtLink :to="`/victims/${victim.id}`" class="group block h-full focus:outline-none focus:ring-2 focus:ring-primary-500 rounded-lg">
         <div class="bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg overflow-hidden h-full shadow-sm hover:shadow-md transition-shadow">
-            <div class="relative">
-                <VictimPhoto :src="victim.photo" :alt="victim.name" aspect="portrait" />
+            <div class="relative overflow-hidden">
+                <!-- Grayscale by default, colorful on hover -->
+                <div class="victim-photo-wrapper">
+                    <VictimPhoto :src="photoSrc" :alt="victim.name" aspect="portrait" />
+                </div>
                 <div class="absolute top-2 left-2">
                     <VictimStatusBadge :status="victim.status" />
                 </div>
@@ -49,3 +57,14 @@ const formattedDate = computed(() => {
         </div>
     </NuxtLink>
 </template>
+
+<style scoped>
+.victim-photo-wrapper :deep(img) {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.group:hover .victim-photo-wrapper :deep(img) {
+    filter: grayscale(0%);
+}
+</style>
