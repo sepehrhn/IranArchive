@@ -17,8 +17,27 @@ photo: ""
 # Full Name in English
 name: "Firstname Lastname"
 
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ""
+
+# Province of Birth (Optional)
+birth_province: ""
+
+# City of Birth (Optional)
+birth_city: ""
+
+# Gender (Optional: "Male" or "Female")
+gender: ""
+
 # Age at time of death (Optional, remove if unknown)
 age: 25
+
+# Occupation (Optional)
+occupation: ""
 
 # -----------------------------------------------------------------------------
 # Location & Timing
@@ -27,14 +46,23 @@ age: 25
 # Country
 country: "Iran"
 
-# Province/State
-province: "Tehran"
+# Incident Location - Province where the death/incident occurred
+incident_location_province: ""
 
-# City where the death/incident occurred
-city: "Tehran"
+# Incident Location - City where the death/incident occurred
+incident_location_city: ""
 
 # Date of Death (Format: YYYY/MM/DD)
 date_of_death: "2026/01/20"
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: "Exact"
+
+# Cause of Death (Optional)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown' | 'Other'
+cause_of_death: ""
 
 # -----------------------------------------------------------------------------
 # Status & Verification
@@ -43,20 +71,27 @@ date_of_death: "2026/01/20"
 # Status: 'verified' | 'not_verified'
 # - verified: Death confirmation from trusted sources or multiple corroborating reports.
 # - not_verified: Reported but currently lacking definitive confirmation.
-status: "not_verified"
+status: "verified"
 
 # -----------------------------------------------------------------------------
 # Narrative
 # -----------------------------------------------------------------------------
 
-# Detailed notes. Supports basic markdown.
-notes: |
-  Additional details about the circumstances, witness reports, or biographical information.
+# Detailed incident description. Supports basic markdown.
+description: |
+  Detailed description of the incident, circumstances, witness reports, or biographical information.
   Can include multiple paragraphs.
 
 # -----------------------------------------------------------------------------
 # Sources & References
 # -----------------------------------------------------------------------------
+
+# Source Type (Optional)
+# Options: 'Family or Close Friend' | 'Eyewitness' | 'Hospital/Forensic' | 'Local Report' | 'Social Media'
+source_type: ""
+
+# Social Media Link (Required if source_type is 'Social Media')
+source_social_media_link: ""
 
 # List of URLs to news reports, social media posts, or human rights organization entries.
 sources:

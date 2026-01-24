@@ -191,20 +191,33 @@ function generateVictimYAML(data, year, id, photoFilename) {
 ${photoFilename ? `photo: "${photoFilename}"` : '# No photo provided'}
 
 name: "${data.name || 'Unknown'}"
-${data.age ? `age: ${data.age}` : '# Age unknown'}
+
+# Personal & Birth Information
+${data.birth_date ? `birth_date: "${data.birth_date}"` : 'birth_date: ""'}
+${data.birth_province ? `birth_province: "${data.birth_province}"` : 'birth_province: ""'}
+${data.birth_city ? `birth_city: "${data.birth_city}"` : 'birth_city: ""'}
+${data.gender ? `gender: "${data.gender}"` : 'gender: ""'}
+${data.age ? `age: ${data.age}` : 'age: '}
+${data.occupation ? `occupation: "${data.occupation}"` : 'occupation: ""'}
 
 country: "${data.country || 'Iran'}"
-province: "${data.province || ''}"
-city: "${data.city || ''}"
 
-date_of_death: "${data.date_of_death || ''}"
+# Incident Location
+${data.incident_location_province ? `incident_location_province: "${data.incident_location_province}"` : 'incident_location_province: ""'}
+${data.incident_location_city ? `incident_location_city: "${data.incident_location_city}"` : 'incident_location_city: ""'}
 
-status: "${data.status || 'not_verified'}"
+# Death Information
+${data.date_of_death ? `date_of_death: "${data.date_of_death}"` : 'date_of_death: ""'}
+${data.date_of_death_precision ? `date_of_death_precision: "${data.date_of_death_precision}"` : 'date_of_death_precision: "Exact"'}
+${data.cause_of_death ? `cause_of_death: "${data.cause_of_death}"` : 'cause_of_death: ""'}
 
-${data.summary ? `summary: "${data.summary}"` : ''}
+status: "${data.status || 'verified'}"
 
-${data.notes ? `notes: |\n  ${data.notes.split('\n').join('\n  ')}` : ''}
+${data.description ? `description: |\n  ${data.description.split('\n').join('\n  ')}` : ''}
 
+# Sources
+${data.source_type ? `source_type: "${data.source_type}"` : 'source_type: ""'}
+${data.source_social_media_link ? `source_social_media_link: "${data.source_social_media_link}"` : 'source_social_media_link: ""'}
 sources:
 ${data.sources && data.sources.length > 0 ? data.sources.map(s => `  - "${s}"`).join('\n') : '  []'}
 

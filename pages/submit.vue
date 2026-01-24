@@ -8,7 +8,7 @@
           Submit Information
         </h1>
         <p class="text-surface-500 dark:text-surface-400 mt-2">
-          Submit incidents, victims, events, or campaigns anonymously. All submissions are reviewed before publishing.
+          Submit incidents, events, or campaigns anonymously. All submissions are reviewed before publishing.
         </p>
       </div>
 
@@ -37,7 +37,7 @@
 
       <!-- Form Tabs -->
       <div v-else class="bg-surface-0 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm">
-        <TabView v-model:activeIndex="activeTab">
+        <TabView v-model:activeIndex="activeTab" class="w-full">
           
           <!-- Incident Tab -->
           <TabPanel header="Incident">
@@ -48,19 +48,10 @@
             />
           </TabPanel>
 
-          <!-- Victim Tab -->
-          <TabPanel header="Victim">
-            <VictimSubmissionForm
-              v-if="activeTab === 1"
-              @submit="handleSubmit"
-              :submitting="submitting"
-            />
-          </TabPanel>
-
           <!-- Event Tab -->
           <TabPanel header="Event">
             <EventSubmissionForm
-              v-if="activeTab === 2"
+              v-if="activeTab === 1"
               @submit="handleSubmit"
               :submitting="submitting"
             />
@@ -69,7 +60,7 @@
           <!-- Campaign Tab -->
           <TabPanel header="Campaign">
             <CampaignSubmissionForm
-              v-if="activeTab === 3"
+              v-if="activeTab === 2"
               @submit="handleSubmit"
               :submitting="submitting"
             />
@@ -88,7 +79,6 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 import IncidentSubmissionForm from '~/components/submissions/IncidentSubmissionForm.vue';
-import VictimSubmissionForm from '~/components/submissions/VictimSubmissionForm.vue';
 import EventSubmissionForm from '~/components/submissions/EventSubmissionForm.vue';
 import CampaignSubmissionForm from '~/components/submissions/CampaignSubmissionForm.vue';
 import {  
@@ -103,7 +93,7 @@ import {
 useHead({
   title: 'Submit Information - IranArchive',
   meta: [
-    { name: 'description', content: 'Submit incidents, victims, events, or campaigns to IranArchive anonymously.' }
+    { name: 'description', content: 'Submit incidents, events, or campaigns to IranArchive anonymously.' }
   ]
 });
 
