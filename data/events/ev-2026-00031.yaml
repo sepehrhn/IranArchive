@@ -1,0 +1,115 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# This file serves as a template and documentation for adding new events.
+# Use this structure to submit new events to the platform.
+#
+# FILENAME CONVENTION:
+#   ev-YYYY-XXXXX.yaml (e.g., ev-2026-00001.yaml)
+#   The filename (without extension) becomes the unique Event ID.
+# -----------------------------------------------------------------------------
+
+# [REQUIRED] Core Details
+# The visible title of the event (e.g. "Berlin Rally for Freedom")
+title: "Vancouver Rally"
+
+# A short, single-sentence summary shown on the event card. Keep it under 150 chars.
+summary: "Solidarity gathering in Vancouver, Canada."
+
+# A full description of the event. Supports Markdown (bold, links, lists).
+# Use the pipe (|) for multi-line text blocks.
+description: |
+  Solidarity rally for the people of Iran.
+  
+  **Venue:** Vancouver Art Gallery, 750 Hornby St.
+
+# State of the event. usually computed automatically from start/end times.
+# Options: upcoming, ongoing, held, canceled, postponed
+state: "upcoming"
+
+# [REQUIRED] Categorization
+# The physical format of the event. 
+# Options: in_person, online, hybrid
+format: "in_person" 
+
+# The type of activity. 
+# Options: rally, march, vigil, sit_in, webinar, seminar, panel, 
+# conference, workshop, fundraiser, film_screening, training, community_meetup, other
+type: "rally"       
+
+# [REQUIRED] Timing
+# ISO 8601 format: YYYY-MM-DDTHH:mm:ss
+# Timezone is REQUIRED for correct display across the world.
+start_at: "2026-01-25T13:00:00"
+end_at: "2026-01-25T15:00:00" # Optional but recommended
+timezone: "America/Vancouver"     # IANA timezone identifier (e.g., America/New_York)
+date_precision: "Exact"       # Options: Exact, Approx, Unknown
+
+# Location (Required for in_person/hybrid)
+location:
+  # Full country name (e.g. Germany)
+  country: "Canada"
+  # 2-letter ISO code (uppercase) - used for flags/filtering
+  country_iso2: "CA"          
+  # City name
+  city: "Vancouver"
+  # Name of the specific place (e.g. Brandenburg Gate)
+  venue_name: "Vancouver Art Gallery, 750 Hornby St."
+  # Full address
+  address: "Vancouver Art Gallery, 750 Hornby St."
+  # Visibility options for safety:
+  # - public: Full details shown
+  # - approximate: Only city/country shown
+  # - withheld: Location details hidden entirely
+  location_visibility: "public" 
+  # Optional details
+  meeting_point: ""
+  route: ""
+
+# Online Specifics (Required for online/hybrid)
+online:
+  platform: ""          # e.g., Zoom, YouTube, X Spaces
+  join_url: ~
+  backup_url: ~
+  access: ~          # Options: public, rsvp_required, invite_only
+  registration_url: ~
+  recording_expected: false
+  recording_url: ~ # Link to recording after event
+
+# [REQUIRED] Organizer
+organizer:
+  name: "Local Organizers"
+  website: "https://drive.google.com/file/d/1MhryAGaqXRY_ODqPKjzy8wRcp3srd3aH/view?usp=drive_link"
+  contact_email: ""
+  # Social media links for the organizer
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+# Speakers (Optional, good for panels/webinars)
+speakers: []
+#   - name: "Jane Doe"
+#     title: "Human Rights Lawyer"
+#     bio: "Short bio here."
+#     links: ["https://example.com"]
+
+# Features
+featured: false               # Set to true to highlight this event in the list
+
+# [REQUIRED] Verification & Status
+# Status of the event information.
+# Options: draft, not_verified, verified, disputed
+status: "verified"            
+
+# Source links verifying the event details
+sources:
+  - title: "Poster/Link"
+    url: "https://drive.google.com/file/d/1MhryAGaqXRY_ODqPKjzy8wRcp3srd3aH/view?usp=drive_link"
+
+# Media
+# List of filenames (images/videos) located in /data/events/docs/
+# e.g. img-2026-00001.jpg
+media: []
+  # - img-2026-00001.jpg
+  # - vid-2026-00001.mp4

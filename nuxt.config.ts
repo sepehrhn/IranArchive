@@ -48,12 +48,17 @@ export default defineNuxtConfig({
     nitro: {
         preset: 'github-pages',
         prerender: {
-            routes: []
+            routes: ['/data/events/events.ics']
         },
         publicAssets: [
             {
                 dir: resolve(process.cwd(), 'data/evidences'),
                 baseURL: '/evidences',
+                maxAge: 60 * 60 * 24 * 365 // 1 year
+            },
+            {
+                dir: resolve(process.cwd(), 'data/events/docs'),
+                baseURL: '/events-media',
                 maxAge: 60 * 60 * 24 * 365 // 1 year
             }
         ]

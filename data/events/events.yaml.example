@@ -1,0 +1,121 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# This file serves as a template and documentation for adding new events.
+# Use this structure to submit new events to the platform.
+#
+# FILENAME CONVENTION:
+#   ev-YYYY-XXXXX.yaml (e.g., ev-2026-00001.yaml)
+#   The filename (without extension) becomes the unique Event ID.
+# -----------------------------------------------------------------------------
+
+# [REQUIRED] Core Details
+# The visible title of the event (e.g. "Berlin Rally for Freedom")
+title: "Global Rally for Freedom"
+
+# A short, single-sentence summary shown on the event card. Keep it under 150 chars.
+summary: "A massive gathering in solidarity with Iranian protesters."
+
+# A full description of the event. Supports Markdown (bold, links, lists).
+# Use the pipe (|) for multi-line text blocks.
+description: |
+  Join us for a peaceful demonstration to echo the voices of the brave people in Iran.
+  We will march from the central station to the parliament.
+  
+  **Agenda:**
+  - 14:00: Gathering
+  - 15:00: March starts
+  - 16:30: Closing speeches
+  
+  Bring flags and signs.
+
+# State of the event. usually computed automatically from start/end times.
+# Options: upcoming, ongoing, held, canceled, postponed
+state: "upcoming"
+
+# [REQUIRED] Categorization
+# The physical format of the event. 
+# Options: in_person, online, hybrid
+format: "in_person" 
+
+# The type of activity. 
+# Options: rally, march, vigil, sit_in, webinar, seminar, panel, 
+# conference, workshop, fundraiser, film_screening, training, community_meetup, other
+type: "rally"       
+
+# [REQUIRED] Timing
+# ISO 8601 format: YYYY-MM-DDTHH:mm:ss
+# Timezone is REQUIRED for correct display across the world.
+start_at: "2026-02-01T14:00:00"
+end_at: "2026-02-01T17:00:00" # Optional but recommended
+timezone: "Europe/Berlin"     # IANA timezone identifier (e.g., America/New_York)
+date_precision: "Exact"       # Options: Exact, Approx, Unknown
+
+# Location (Required for in_person/hybrid)
+location:
+  # Full country name (e.g. Germany)
+  country: "Germany"
+  # 2-letter ISO code (uppercase) - used for flags/filtering
+  country_iso2: "DE"          
+  # City name
+  city: "Berlin"
+  # Name of the specific place (e.g. Brandenburg Gate)
+  venue_name: "Brandenburg Gate"
+  # Full address
+  address: "Pariser Platz, 10117 Berlin"
+  # Visibility options for safety:
+  # - public: Full details shown
+  # - approximate: Only city/country shown
+  # - withheld: Location details hidden entirely
+  location_visibility: "public" 
+  # Optional details
+  meeting_point: "North side of the square"
+  route: "Marching towards Bundestag"
+
+# Online Specifics (Required for online/hybrid)
+# online:
+#   platform: "Zoom"          # e.g., Zoom, YouTube, X Spaces
+#   join_url: "https://..."
+#   backup_url: "https://..."
+#   access: "public"          # Options: public, rsvp_required, invite_only
+#   registration_url: "https://..."
+#   recording_expected: true
+#   recording_url: "https://..." # Link to recording after event
+
+# [REQUIRED] Organizer
+organizer:
+  name: "Iranians for Justice"
+  website: "https://example.org"
+  contact_email: "info@example.org"
+  # Social media links for the organizer
+  socials:
+    x: "https://x.com/example"
+    instagram: "https://instagram.com/example"
+    telegram: "https://t.me/example"
+
+# Speakers (Optional, good for panels/webinars)
+# speakers:
+#   - name: "Jane Doe"
+#     title: "Human Rights Lawyer"
+#     bio: "Short bio here."
+#     links: ["https://example.com"]
+
+# Features
+featured: false               # Set to true to highlight this event in the list
+
+# [REQUIRED] Verification & Status
+# Status of the event information.
+# Options: draft, not_verified, verified, disputed
+status: "verified"            
+
+# Source links verifying the event details
+sources:
+  - title: "Organizer Announcement"
+    url: "https://x.com/status/12345"
+
+# Media
+# List of filenames (images/videos) located in /data/events/docs/
+# e.g. img-2026-00001.jpg
+media:
+  - img-2026-00001.jpg
+  # - vid-2026-00001.mp4
