@@ -29,6 +29,9 @@ const closeMenu = () => {
                     <NuxtLink to="/victims" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors">
                         Victims
                     </NuxtLink>
+                    <NuxtLink to="/events" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors">
+                        Events
+                    </NuxtLink>
                     <div class="relative group">
                         <button class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors flex items-center gap-1 outline-none focus:ring-2 focus:ring-primary-500/50">
                             Global Pressure
@@ -79,6 +82,10 @@ const closeMenu = () => {
                 <NuxtLink to="/victims" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors flex items-center gap-3" @click="closeMenu">
                      <i class="pi pi-user text-surface-500"></i>
                     <span>Victims</span>
+                </NuxtLink>
+                <NuxtLink to="/events" class="px-3 py-2 rounded-md hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors flex items-center gap-3" @click="closeMenu">
+                     <i class="pi pi-calendar text-surface-500"></i>
+                    <span>Events</span>
                 </NuxtLink>
                 <div class="mt-2 pt-2 border-t border-surface-100 dark:border-surface-800">
                     <div class="px-3 py-2 text-xs font-bold text-surface-500 uppercase tracking-wider">Global Pressure</div>
