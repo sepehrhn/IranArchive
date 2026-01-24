@@ -142,7 +142,7 @@
           <div>
             <label class="block text-sm font-medium mb-2">Province</label>
             <Select
-              v-model="form.incidentProvince"
+              v-model="form.incident_province"
               :options="provinces"
               optionLabel="name"
               optionValue="name"
@@ -154,7 +154,7 @@
           <div>
             <label class="block text-sm font-medium mb-2">City</label>
             <InputText
-              v-model="form.incidentCity"
+              v-model="form.incident_city"
               placeholder="e.g., Tehran"
               class="w-full"
             />
@@ -291,8 +291,8 @@ const form = ref({
   deathDateApproximate: false,
   causeOfDeath: '',
   // Incident location
-  incidentProvince: '',
-  incidentCity: '',
+  incident_province: '',
+  incident_city: '',
   // Description
   description: '',
   // Source info
@@ -359,8 +359,8 @@ function handleSubmit() {
     occupation: form.value.occupation,
     // Location
     country: 'Iran',
-    incident_location_province: form.value.incidentProvince,
-    incident_location_city: form.value.incidentCity,
+    incident_province: form.value.incident_province,
+    incident_city: form.value.incident_city,
     // Death info
     date_of_death: formatDate(form.value.dateOfDeath),
     date_of_death_precision: form.value.dateOfDeath ? (form.value.deathDateApproximate ? 'Approximate' : 'Exact') : '',
@@ -405,8 +405,8 @@ function resetForm() {
     deathDateApproximate: false,
     causeOfDeath: '',
     // Incident location
-    incidentProvince: '',
-    incidentCity: '',
+    incident_province: '',
+    incident_city: '',
     // Description
     description: '',
     // Source info
