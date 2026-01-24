@@ -148,12 +148,13 @@ export function validateFile(file: File, kind: SubmissionKind): { valid: boolean
     // Check MIME type
     const allowedTypes: Record<SubmissionKind, string[]> = {
         victim: ['image/jpeg', 'image/png', 'image/webp'],
-        evidence: [
+        incident: [
             'image/jpeg', 'image/png', 'image/webp', 'image/gif',
             'video/mp4', 'video/webm', 'video/quicktime',
             'application/pdf'
         ],
-        incident: [] // No files for incidents
+        event: [], // No files for events
+        campaign: ['image/jpeg', 'image/png', 'image/webp']
     };
 
     const allowed = allowedTypes[kind];

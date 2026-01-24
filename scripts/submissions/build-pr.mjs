@@ -137,19 +137,40 @@ location:
   country: "${data.location?.country || 'Iran'}"
   province: "${data.location?.province || ''}"
   city: "${data.location?.city || ''}"
+  ${data.location?.address ? `address: "${data.location.address}"` : ''}
+  ${data.location?.lat ? `lat: ${data.location.lat}` : ''}
+  ${data.location?.lng ? `lng: ${data.location.lng}` : ''}
 
 description: |
   ${data.description || ''}
 
 status: "not_verified"
 
+${data.severity ? `severity:
+  deaths:
+    min: ${data.severity.deaths?.min || 0}
+    max: ${data.severity.deaths?.max || 0}
+  injured:
+    min: ${data.severity.injured?.min || 0}
+    max: ${data.severity.injured?.max || 0}
+  arrests:
+    min: ${data.severity.arrests?.min || 0}
+    max: ${data.severity.arrests?.max || 0}
+` : ''}
+
 ratings:
   truth_confidence: 5
   evidence_availability: ${evidenceFiles.length > 0 ? 8 : 5}
 ${evidenceYaml}
 
+${data.evidence_ids && data.evidence_ids.length > 0 ? `evidence_ids:\n${data.evidence_ids.map(id => `  - "${id}"`).join('\n')}` : ''}
+
 sources:
 ${data.sources && data.sources.length > 0 ? data.sources.map(s => `  - "${s}"`).join('\n') : '  []'}
+
+${data.victims && data.victims.length > 0 ? `victims:\n${data.victims.map(id => `  - "${id}"`).join('\n')}` : ''}
+
+${data.related_incidents && data.related_incidents.length > 0 ? `related_incidents:\n${data.related_incidents.map(id => `  - "${id}"`).join('\n')}` : ''}
 
 submission:
   submitted_by: "${data.submitted_by || 'Anonymous'}"
