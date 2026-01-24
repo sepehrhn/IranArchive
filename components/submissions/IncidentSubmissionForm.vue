@@ -29,10 +29,41 @@
           />
         </div>
         <div>
-          <label class="block text-sm font-medium mb-2">Start Time (optional)</label>
+          <label class="block text-sm font-medium mb-2">Start Time</label>
           <InputText
             v-model="form.startTime"
             placeholder="HH:MM"
+            class="w-full"
+          />
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div>
+          <label class="block text-sm font-medium mb-2">End Date</label>
+          <Calendar
+            v-model="form.endDate"
+            dateFormat="yy/mm/dd"
+            showIcon
+            class="w-full"
+            placeholder="YYYY/MM/DD"
+          />
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-2">End Time</label>
+          <InputText
+            v-model="form.endTime"
+            placeholder="HH:MM"
+            class="w-full"
+          />
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-2">Precision</label>
+          <Select
+            v-model="form.precision"
+            :options="precisionOptions"
+            optionLabel="label"
+            optionValue="value"
             class="w-full"
           />
         </div>
@@ -65,6 +96,37 @@
         </div>
       </div>
 
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div>
+          <label class="block text-sm font-medium mb-2">Address</label>
+          <InputText
+            v-model="form.address"
+            placeholder="Specific location or landmark"
+            class="w-full"
+          />
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-2">Latitude</label>
+          <InputNumber
+            v-model="form.lat"
+            placeholder="e.g., 35.6892"
+            class="w-full"
+            :minFractionDigits="0"
+            :maxFractionDigits="8"
+          />
+        </div>
+        <div>
+          <label class="block text-sm font-medium mb-2">Longitude</label>
+          <InputNumber
+            v-model="form.lng"
+            placeholder="e.g., 51.3890"
+            class="w-full"
+            :minFractionDigits="0"
+            :maxFractionDigits="8"
+          />
+        </div>
+      </div>
+
       <div>
         <label class="block text-sm font-medium mb-2">Description *</label>
         <Textarea
@@ -78,7 +140,7 @@
       </div>
 
       <div>
-        <label class="block text-sm font-medium mb-2">Sources (optional)</label>
+        <label class="block text-sm font-medium mb-2">Sources</label>
         <Textarea
           v-model="sourcesText"
           rows="3"
@@ -88,8 +150,87 @@
         <small class="text-surface-500">Enter URLs to news articles, social media posts, etc. One per line.</small>
       </div>
 
+      <!-- Casualties/Severity -->
+      <div class="space-y-3">
+        <h4 class="text-md font-semibold text-surface-900 dark:text-surface-0">Severity (Casualties)</h4>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div>
+            <label class="block text-sm font-medium mb-2">Deaths (Min)</label>
+            <InputNumber
+              v-model="form.deaths_min"
+              placeholder="0"
+              class="w-full"
+              :min="0"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-2">Deaths (Max)</label>
+            <InputNumber
+              v-model="form.deaths_max"
+              placeholder="0"
+              class="w-full"
+              :min="0"
+            />
+          </div>
+          <div class="flex items-end">
+            <small class="text-surface-500 pb-2">Estimated death toll range</small>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div>
+            <label class="block text-sm font-medium mb-2">Injured (Min)</label>
+            <InputNumber
+              v-model="form.injured_min"
+              placeholder="0"
+              class="w-full"
+              :min="0"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-2">Injured (Max)</label>
+            <InputNumber
+              v-model="form.injured_max"
+              placeholder="0"
+              class="w-full"
+              :min="0"
+            />
+          </div>
+          <div class="flex items-end">
+            <small class="text-surface-500 pb-2">Estimated injured range</small>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div>
+            <label class="block text-sm font-medium mb-2">Arrests (Min)</label>
+            <InputNumber
+              v-model="form.arrests_min"
+              placeholder="0"
+              class="w-full"
+              :min="0"
+            />
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-2">Arrests (Max)</label>
+            <InputNumber
+              v-model="form.arrests_max"
+              placeholder="0"
+              class="w-full"
+              :min="0"
+            />
+          </div>
+          <div class="flex items-end">
+            <small class="text-surface-500 pb-2">Estimated arrests range</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Evidence Files -->
+
       <div>
-        <label class="block text-sm font-medium mb-2">Evidence Files (optional)</label>
+        <label class="block text-sm font-medium mb-2">Evidence Files</label>
         <FileUpload
           mode="advanced"
           :multiple="true"
@@ -112,6 +253,41 @@
         </small>
         <div v-if="selectedFiles.length > 0" class="mt-2">
           <p class="text-sm font-medium">Selected: {{ selectedFiles.length }} file(s)</p>
+        </div>
+      </div>
+
+      <!-- Relationships -->
+      <div class="space-y-3">
+        <h4 class="text-md font-semibold text-surface-900 dark:text-surface-0">Relationships</h4>
+        
+        <div>
+          <label class="block text-sm font-medium mb-2">Evidence IDs</label>
+          <InputText
+            v-model="form.evidence_ids"
+            placeholder="vid-2026-00001, vid-2026-00002"
+            class="w-full"
+          />
+          <small class="text-surface-500">Comma-separated evidence IDs to link to this incident</small>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-2">Victim IDs</label>
+          <InputText
+            v-model="form.victim_ids"
+            placeholder="vic-2026-00001, vic-2026-00002"
+            class="w-full"
+          />
+          <small class="text-surface-500">Comma-separated victim IDs involved in this incident</small>
+        </div>
+
+        <div>
+          <label class="block text-sm font-medium mb-2">Related Incident IDs</label>
+          <InputText
+            v-model="form.related_incident_ids"
+            placeholder="inc-2026-00001, inc-2026-00002"
+            class="w-full"
+          />
+          <small class="text-surface-500">Comma-separated incident IDs related to this one</small>
         </div>
       </div>
     </div>
@@ -159,14 +335,35 @@ const turnstileToken = ref('');
 const submitted = ref(false);
 const selectedFiles = ref<File[]>([]);
 
+const precisionOptions = [
+  { label: 'Exact', value: 'Exact' },
+  { label: 'Approximate', value: 'Approx' },
+  { label: 'Unknown', value: 'Unknown' }
+];
+
 const form = ref({
   title: '',
   startDate: null as Date | null,
   startTime: '',
+  endDate: null as Date | null,
+  endTime: '',
+  precision: 'Exact',
   country: 'Iran',
   province: '',
   city: '',
-  description: ''
+  address: '',
+  lat: null as number | null,
+  lng: null as number | null,
+  description: '',
+  deaths_min: null as number | null,
+  deaths_max: null as number | null,
+  injured_min: null as number | null,
+  injured_max: null as number | null,
+  arrests_min: null as number | null,
+  arrests_max: null as number | null,
+  evidence_ids: '',
+  victim_ids: '',
+  related_incident_ids: ''
 });
 
 const sourcesText = ref('');
@@ -220,21 +417,59 @@ function handleSubmit() {
     .map(s => s.trim())
     .filter(s => s.length > 0);
 
+  // Parse ID arrays
+  const evidence_ids = form.value.evidence_ids
+    .split(',')
+    .map(s => s.trim())
+    .filter(s => s.length > 0);
+
+  const victim_ids = form.value.victim_ids
+    .split(',')
+    .map(s => s.trim())
+    .filter(s => s.length > 0);
+
+  const related_incident_ids = form.value.related_incident_ids
+    .split(',')
+    .map(s => s.trim())
+    .filter(s => s.length > 0);
+
   const data = {
     title: form.value.title,
     occurred_at: {
       start: formatDate(form.value.startDate),
       start_time: form.value.startTime,
+      end: formatDate(form.value.endDate),
+      end_time: form.value.endTime,
       timezone: 'Asia/Tehran',
-      precision: 'Exact'
+      precision: form.value.precision
     },
     location: {
       country: form.value.country,
       province: form.value.province,
-      city: form.value.city
+      city: form.value.city,
+      address: form.value.address,
+      lat: form.value.lat,
+      lng: form.value.lng
     },
     description: form.value.description,
     sources,
+    severity: {
+      deaths: {
+        min: form.value.deaths_min || 0,
+        max: form.value.deaths_max || 0
+      },
+      injured: {
+        min: form.value.injured_min || 0,
+        max: form.value.injured_max || 0
+      },
+      arrests: {
+        min: form.value.arrests_min || 0,
+        max: form.value.arrests_max || 0
+      }
+    },
+    evidence_ids,
+    victims: victim_ids,
+    related_incidents: related_incident_ids,
     evidence_count: selectedFiles.value.length
   };
 
@@ -256,10 +491,25 @@ function resetForm() {
     title: '',
     startDate: null,
     startTime: '',
+    endDate: null,
+    endTime: '',
+    precision: 'Exact',
     country: 'Iran',
     province: '',
     city: '',
-    description: ''
+    address: '',
+    lat: null,
+    lng: null,
+    description: '',
+    deaths_min: null,
+    deaths_max: null,
+    injured_min: null,
+    injured_max: null,
+    arrests_min: null,
+    arrests_max: null,
+    evidence_ids: '',
+    victim_ids: '',
+    related_incident_ids: ''
   };
   sourcesText.value = '';
   selectedFiles.value = [];
