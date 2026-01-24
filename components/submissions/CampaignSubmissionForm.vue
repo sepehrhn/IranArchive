@@ -6,7 +6,7 @@
       <h3 class="text-lg font-semibold text-surface-900 dark:text-surface-0">Campaign Information</h3>
       
       <div>
-        <label class="block text-sm font-medium mb-2">Campaign URL *</label>
+        <label class="block text-sm font-medium mb-2">Campaign URL <span class="text-red-500">*</span></label>
         <InputText
           v-model="form.url"
           placeholder="https://www.change.org/..."
@@ -18,7 +18,7 @@
       </div>
 
       <div>
-        <label class="block text-sm font-medium mb-2">Campaign Title *</label>
+        <label class="block text-sm font-medium mb-2">Campaign Title <span class="text-red-500">*</span></label>
         <InputText
           v-model="form.title"
           placeholder="Title of the campaign"
@@ -41,7 +41,7 @@
       </div>
 
       <div>
-        <label class="block text-sm font-medium mb-2">Thumbnail Image (optional)</label>
+        <label class="block text-sm font-medium mb-2">Thumbnail Image</label>
         <FileUpload
           mode="basic"
           accept="image/jpeg,image/png,image/webp"
@@ -54,7 +54,7 @@
       </div>
 
       <div>
-        <label class="block text-sm font-medium mb-2">Description (optional)</label>
+        <label class="block text-sm font-medium mb-2">Description</label>
         <Textarea
           v-model="form.description"
           rows="4"

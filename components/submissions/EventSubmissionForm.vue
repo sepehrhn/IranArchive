@@ -6,7 +6,7 @@
       <h3 class="text-lg font-semibold text-surface-900 dark:text-surface-0">Event Information</h3>
      
       <div>
-        <label class="block text-sm font-medium mb-2">Title *</label>
+        <label class="block text-sm font-medium mb-2">Title <span class="text-red-500">*</span></label>
         <InputText
           v-model="form.title"
           placeholder="Event title"
@@ -17,7 +17,7 @@
       </div>
 
       <div>
-        <label class="block text-sm font-medium mb-2">Summary *</label>
+        <label class="block text-sm font-medium mb-2">Summary <span class="text-red-500">*</span></label>
         <Textarea
           v-model="form.summary"
           rows="2"
@@ -30,7 +30,7 @@
       </div>
 
       <div>
-        <label class="block text-sm font-medium mb-2">Description *</label>
+        <label class="block text-sm font-medium mb-2">Description <span class="text-red-500">*</span></label>
         <Textarea
           v-model="form.description"
           rows="6"
@@ -125,7 +125,7 @@
       </div>
 
       <div>
-        <label class="block text-sm font-medium mb-2">Contact Info (optional)</label>
+        <label class="block text-sm font-medium mb-2">Contact Info</label>
         <InputText
           v-model="form.organizerContact"
           placeholder="Email or website"
