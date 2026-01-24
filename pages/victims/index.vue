@@ -136,8 +136,6 @@ onMounted(() => {
                  <Dropdown v-model="selectedSort" :options="sortOptions" optionLabel="label" optionValue="value" placeholder="Sort Order" class="w-full sm:w-40" />
             </div>
             
-            <!-- Mobile Clear Button -->
-            <Button label="Clear Filters" icon="pi pi-filter-slash" outlined severity="secondary" @click="clearFilters" class="w-full md:hidden" />
         </div>
 
         <!-- Results -->
