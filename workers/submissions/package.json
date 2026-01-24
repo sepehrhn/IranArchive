@@ -1,0 +1,20 @@
+{
+    "name": "iranarchive-submissions",
+    "version": "0.1.0",
+    "description": "Cloudflare Worker for IranArchive public submissions",
+    "main": "src/index.ts",
+    "scripts": {
+        "dev": "wrangler dev",
+        "deploy": "wrangler deploy",
+        "tail": "wrangler tail"
+    },
+    "dependencies": {
+        "hono": "^4.0.0",
+        "ulid": "^2.3.0"
+    },
+    "devDependencies": {
+        "@cloudflare/workers-types": "^4.20241127.0",
+        "wrangler": "^3.90.0",
+        "typescript": "^5.7.2"
+    }
+}

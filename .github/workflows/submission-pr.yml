@@ -1,0 +1,94 @@
+name: Process Submission and Create PR
+
+on:
+  repository_dispatch:
+    types: [iranarchive_submission]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-submission-pr:
+    runs-on: ubuntu-latest
+    
+    env:
+      SUBMISSION_ID: ${{ github.event.client_payload.submissionId }}
+      SUBMISSION_KIND: ${{ github.event.client_payload.kind }}
+      PAYLOAD_KEY: ${{ github.event.client_payload.payloadKey }}
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Configure AWS CLI for R2
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          aws-region: auto
+      
+      - name: Download submission payload
+        run: |
+          mkdir -p .submission-temp
+          aws s3 cp s3://${{ secrets.R2_BUCKET }}/${{ env.PAYLOAD_KEY }} .submission-temp/payload.json \
+            --endpoint-url ${{ secrets.R2_ENDPOINT }}
+      
+      - name: Download uploaded files
+        run: |
+          # Parse upload keys from payload
+          node -e "
+            const fs = require('fs');
+            const payload = JSON.parse(fs.readFileSync('.submission-temp/payload.json', 'utf-8'));
+            const keys = payload.files.map(f => f.key);
+            fs.writeFileSync('.submission-temp/upload-keys.json', JSON.stringify(keys));
+          "
+          
+          # Download each file
+          for key in $(node -e "console.log(JSON.parse(require('fs').readFileSync('.submission-temp/upload-keys.json')).join(' '))"); do
+            mkdir -p .submission-temp/uploads
+            aws s3 cp "s3://${{ secrets.R2_BUCKET }}/$key" ".submission-temp/uploads/" \
+              --endpoint-url ${{ secrets.R2_ENDPOINT }}
+          done
+      
+      - name: Build PR files
+        run: node scripts/submissions/build-pr.mjs
+      
+      - name: Create Pull Request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Branch name
+          BRANCH="submissions/${{ env.SUBMISSION_KIND }}/${{ env.SUBMISSION_ID }}"
+          
+          # Create and checkout branch
+          git checkout -b "$BRANCH"
+          
+          # Configure git
+          git config user.name "IranArchive Bot"
+          git config user.email "bot@iranarchive.net"
+          
+          # Commit changes
+          git add data/
+          git commit -m "Submission: ${{ env.SUBMISSION_KIND }} (${{ env.SUBMISSION_ID }})"
+          
+          # Push branch
+          git push -u origin "$BRANCH"
+          
+          # Create PR
+          gh pr create \
+            --title "Submission: ${{ env.SUBMISSION_KIND }} (${{ env.SUBMISSION_ID }})" \
+            --body-file .submission-temp/pr-body.md \
+            --label "submission" \
+            --label "submission:${{ env.SUBMISSION_KIND }}"
+      
+      - name: Cleanup
+        if: always()
+        run: rm -rf .submission-temp

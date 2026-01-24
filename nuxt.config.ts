@@ -29,7 +29,10 @@ export default defineNuxtConfig({
             mediaRepoOwner: process.env.NUXT_PUBLIC_MEDIA_REPO_OWNER || 'sepehrhn',
             mediaRepoName: process.env.NUXT_PUBLIC_MEDIA_REPO_NAME || 'IranArchive',
             mediaRepoRef: process.env.NUXT_PUBLIC_MEDIA_REPO_REF || 'main',
-            mediaBaseRawUrl: process.env.NUXT_PUBLIC_MEDIA_BASE_RAW_URL || 'https://raw.githubusercontent.com'
+            mediaBaseRawUrl: process.env.NUXT_PUBLIC_MEDIA_BASE_RAW_URL || 'https://raw.githubusercontent.com',
+            // Submissions API
+            submissionApiBase: process.env.NUXT_PUBLIC_SUBMISSION_API_BASE || '',
+            turnstileSiteKey: process.env.NUXT_PUBLIC_TURNSTILE_SITE_KEY || ''
         }
     },
 
