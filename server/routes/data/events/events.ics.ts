@@ -5,8 +5,14 @@ export default defineEventHandler(async (event) => {
     // Filter only upcoming and ongoing for the subscription feed
     const activeEvents = allEvents.filter(e => ['upcoming', 'ongoing'].includes(e.computed_state));
 
-    const formatDate = (dateStr: string) => {
-        return new Date(dateStr).toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+    // Helper to parse event date from YAML structure
+    const parseEventDate = (dateStr: string, timeStr?: string | null): Date => {
+        const d = new Date(dateStr + (timeStr ? ' ' + timeStr : ''));
+        return d;
+    };
+
+    const formatDate = (date: Date) => {
+        return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
     };
 
     const lines = [
@@ -20,8 +26,17 @@ export default defineEventHandler(async (event) => {
     ];
 
     for (const ev of activeEvents) {
-        const start = formatDate(ev.start_at);
-        const end = ev.end_at ? formatDate(ev.end_at) : formatDate(new Date(new Date(ev.start_at).getTime() + 3600000).toISOString());
+        const startDate = parseEventDate(ev.date.start, ev.date.start_time);
+        const start = formatDate(startDate);
+
+        let endDate: Date;
+        if (ev.date.end) {
+            endDate = parseEventDate(ev.date.end, ev.date.end_time);
+        } else {
+            // Default to 1 hour after start if no end time specified
+            endDate = new Date(startDate.getTime() + 3600000);
+        }
+        const end = formatDate(endDate);
 
         const description = `
 ${ev.summary}
@@ -32,12 +47,12 @@ Link: https://iranarchive.net/events/${ev.id}
 ${ev.description || ''}
 `.trim();
 
-        const location = ev.format === 'online' ? 'Online' : `${ev.location?.venue_name || ''} ${ev.location?.address || ''}, ${ev.location?.city || ''}, ${ev.location?.country || ''}`;
+        const location = ev.format === 'online' ? 'Online' : `${ev.location?.address || ''}, ${ev.location?.city || ''}, ${ev.location?.country || ''}`.trim();
 
         lines.push(
             'BEGIN:VEVENT',
             `UID:${ev.id}@iranarchive.net`,
-            `DTSTAMP:${formatDate(new Date().toISOString())}`,
+            `DTSTAMP:${formatDate(new Date())}`,
             `DTSTART:${start}`,
             `DTEND:${end}`,
             `SUMMARY:${ev.title}`,
