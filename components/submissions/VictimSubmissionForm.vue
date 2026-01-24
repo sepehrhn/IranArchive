@@ -85,19 +85,6 @@
         />
         <small class="text-surface-500">Enter URLs to news articles, social media posts, etc. One per line.</small>
       </div>
-
-      <div>
-        <label class="block text-sm font-medium mb-2">Photo</label>
-        <FileUpload
-          mode="basic"
-          accept="image/jpeg,image/png,image/webp"
-          :maxFileSize="10000000"
-          @select="onFileSelect"
-          chooseLabel="Choose Photo"
-          class="w-full"
-        />
-        <small class="text-surface-500">JPEG, PNG, or WebP. Max 10MB.</small>
-      </div>
     </div>
 
     <!-- Turnstile -->
