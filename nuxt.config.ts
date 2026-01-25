@@ -31,7 +31,7 @@ export default defineNuxtConfig({
             mediaRepoRef: process.env.NUXT_PUBLIC_MEDIA_REPO_REF || 'main',
             mediaBaseRawUrl: process.env.NUXT_PUBLIC_MEDIA_BASE_RAW_URL || 'https://raw.githubusercontent.com',
             // Submissions API
-            submissionApiBase: process.env.NUXT_PUBLIC_SUBMISSION_API_BASE || '',
+            submissionApiBase: process.env.NUXT_PUBLIC_SUBMISSION_API_BASE || 'https://iranarchive-submissions.sepehrhadaeghnia.workers.dev',
             turnstileSiteKey: process.env.NUXT_PUBLIC_TURNSTILE_SITE_KEY || '0x4AAAAAACOtO5pJOUTTP3dd'
         }
     },
