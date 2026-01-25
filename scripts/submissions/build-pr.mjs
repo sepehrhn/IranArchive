@@ -512,7 +512,13 @@ function generatePRBody(kind, id, year, data, mediaFiles) {
         const evidenceCount = data.evidence_count || 0;
         summary = `**Title:** ${data.title}\n**Date:** ${data.occurred_at?.start || 'Unknown'}\n**Location:** ${data.location?.city || ''}, ${data.location?.province || ''}\n**Evidence Files:** ${evidenceCount}`;
     } else if (kind === 'victim') {
-        summary = `**Name:** ${data.name}\n**Age:** ${data.age || 'Unknown'}\n**Date of Death:** ${data.date_of_death || 'Unknown'}\n**Location:** ${data.city}, ${data.province}`;
+        const status = data.status || 'Killed';
+        const dateLabel = status === 'Missing' ? 'Last Seen Date' : 'Date of Death';
+        const dateValue = data.date_of_death || 'Unknown';
+        const city = data.incident_location_city || data.incident_city || '';
+        const province = data.incident_location_province || data.incident_province || '';
+
+        summary = `**Name:** ${data.name}\n**Status:** ${status}\n**Age:** ${data.age || 'Unknown'}\n**${dateLabel}:** ${dateValue}\n**Location:** ${city}, ${province}`;
     } else if (kind === 'evidence') {
         summary = `**Title:** ${data.title}\n**Type:** ${data.type}\n**Date:** ${data.captured_at || 'Unknown'}`;
     } else if (kind === 'event') {
