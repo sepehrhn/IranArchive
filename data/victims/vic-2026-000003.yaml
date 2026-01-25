@@ -1,17 +1,17 @@
 # ==========================================
-# Victim Documentation - Zohreh Fazeli
+# Victim Documentation - Zahra Fazeli
 # ==========================================
 
 photo: "vic-2026-000003.jpg"
 
-name: "Zohreh Fazeli"
+name: "Zahra Fazeli"
 
 # Personal & Birth Information
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: "Female"
+age: 38
 occupation: ""
 
 # Location & Timing
@@ -22,16 +22,18 @@ incident_province: "Bushehr"
 incident_city: "Bushehr"
 
 # Death Information
-date_of_death: ""
+date_of_death: "2026/01/09"
 date_of_death_precision: "Exact"
-cause_of_death: ""
+cause_of_death: "Gunshot"
 
 # Status
 status: "Killed"
 
 # Detailed incident description. Supports basic markdown.
 description: |
-  .
+  During protests on Friday, 9 Jan 2026, in Bushehr, southern Iran, armed motorbike units of IR suppressive forces shot Zahra Fazeli in the chest. She was 38 years old.
+
+  Her family released Zahra's body by paying a $4,500 “bullet fee.” Zahra was laid to rest on Friday, 16 Jan 2026.
 
 # Sources
 source_type: ""

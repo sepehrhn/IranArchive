@@ -18,12 +18,12 @@ occupation: "Photographer"
 country: "Iran"
 
 # Incident Location
-incident_province: "Bushehr"
-incident_city: "Bushehr"
+incident_province: "Tehran"
+incident_city: "Tehran"
 
 # Death Information
 date_of_death: "2026/01/09"
-date_of_death_precision: "Exact"
+date_of_death_precision: "Approximate"
 cause_of_death: ""
 
 # Status
@@ -31,7 +31,7 @@ status: "Killed"
 
 # Detailed incident description. Supports basic markdown.
 description: |
-  A 28 years old Iranian photographer was killed by Islamic Republic agents on January 9, 2026.
+  Shot by security forces in Sadeghiye, Tehran on January 9, 2026. He has been buried in plot 329.
 
 # Sources
 source_type: "Social Media"
