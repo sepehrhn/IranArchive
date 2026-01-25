@@ -39,6 +39,8 @@ jobs:
           NUXT_PUBLIC_MEDIA_REPO_OWNER: ${{ github.repository_owner }}
           NUXT_PUBLIC_MEDIA_REPO_NAME: ${{ github.event.repository.name }}
           NUXT_PUBLIC_MEDIA_REPO_REF: ${{ github.ref_name }}
+          NUXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ secrets.NUXT_PUBLIC_TURNSTILE_SITE_KEY }}
+          NUXT_PUBLIC_SUBMISSION_API_BASE: ${{ secrets.NUXT_PUBLIC_SUBMISSION_API_BASE }}
 
       - name: Verify build output
         run: |
