@@ -22,17 +22,10 @@ const submissionId = process.env.SUBMISSION_ID;
 console.log(`Processing ${kind} submission: ${submissionId}`);
 
 /**
- * Get next sequential ID for a given kind and year
+ * Get unique ID for a given kind and year
+ * Uses first 8 chars of submissionId to ensure uniqueness across concurrent PRs
  */
 function getNextId(kind, year) {
-    const prefixes = {
-        incident: `inc-${year}-`,
-        victim: `vic-${year}-`,
-        evidence: `evi-${year}-`,
-        event: `ev-${year}-`,
-        campaign: `camp-${year}-`
-    };
-
     const dirs = {
         incident: path.join(ROOT_DIR, 'data/incidents'),
         victim: path.join(ROOT_DIR, 'data/victims'),
@@ -41,23 +34,15 @@ function getNextId(kind, year) {
         campaign: path.join(ROOT_DIR, 'data/campaigns')
     };
 
-    const prefix = prefixes[kind];
     const dir = dirs[kind];
 
     if (!fs.existsSync(dir)) {
         fs.mkdirSync(dir, { recursive: true });
     }
 
-    const existingFiles = fs.readdirSync(dir)
-        .filter(f => f.startsWith(prefix) && f.endsWith('.yaml'))
-        .map(f => {
-            const match = f.match(/-(\d+)\.yaml$/);
-            return match ? parseInt(match[1]) : 0;
-        })
-        .sort((a, b) => b - a);
-
-    const nextNum = (existingFiles[0] || 0) + 1;
-    return String(nextNum).padStart(5, '0');
+    // Use short hash of submission ID for uniqueness
+    // validation against duplicates is low risk due to UUID source
+    return submissionId.slice(0, 8);
 }
 
 /**
