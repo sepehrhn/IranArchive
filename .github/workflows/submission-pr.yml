@@ -16,6 +16,9 @@ jobs:
       SUBMISSION_ID: ${{ github.event.client_payload.submissionId }}
       SUBMISSION_KIND: ${{ github.event.client_payload.kind }}
       PAYLOAD_KEY: ${{ github.event.client_payload.payloadKey }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+      AWS_DEFAULT_REGION: us-east-1
     
     steps:
       - name: Checkout repository
@@ -27,13 +30,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-      
-      - name: Configure AWS CLI for R2
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: ${{ secrets.R2_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          aws-region: us-east-1
       
       - name: Download submission payload
         run: |
