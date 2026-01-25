@@ -13,19 +13,40 @@ const props = defineProps<{
     event: ParsedEvent
 }>();
 
-const isExpanded = ref(false);
-const showEditDialog = ref(false);
-const editSubmitting = ref(false);
+import { initUpload, completeSubmission } from '~/utils/submissionsClient';
 
-const handleEditSubmit = (payload: any) => {
-    editSubmitting.value = true;
-    console.log('Update Event Payload:', payload);
-    // In a real app, this would be an API call
-    setTimeout(() => {
-        editSubmitting.value = false;
-        showEditDialog.value = false;
-        // Optionally show a success message or refresh the parent
-    }, 1500);
+const isExpanded = ref(false);
+const showUpdateDialog = ref(false);
+const updateSubmitting = ref(false);
+
+const handleUpdateSubmit = async (payload: any) => {
+    updateSubmitting.value = true;
+    try {
+        // Init upload (even if no files, we need the flow or at least the ID)
+        // Note: initUpload requires files array.
+        const initResponse = await initUpload({
+            turnstileToken: payload.turnstileToken,
+            kind: payload.kind,
+            files: [] // No files for update currently
+        });
+
+        // Complete submission
+        await completeSubmission({
+            submissionId: initResponse.submissionId,
+            kind: payload.kind,
+            payload: payload.data,
+            uploadedFiles: [],
+            turnstileToken: payload.turnstileToken
+        });
+
+        showUpdateDialog.value = false;
+        alert('Thank you! Your update suggestion has been submitted for review.');
+    } catch (error: any) {
+        console.error('Update submission error:', error);
+        alert(`Update failed: ${error.message || 'Unknown error'}`);
+    } finally {
+        updateSubmitting.value = false;
+    }
 };
 
 const excerpt = computed(() => {
@@ -138,21 +159,21 @@ Link: ${ev.online?.join_url || window.location.href}
 <template>
 
     <div class="group relative border border-surface-200 dark:border-surface-800 rounded-2xl bg-surface-0 dark:bg-surface-900 overflow-hidden hover:shadow-xl hover:shadow-primary-500/5 transition-all duration-300 backdrop-blur-sm h-full flex flex-col">
-        <!-- Edit Icon (Absolute Top Right) -->
-        <div class="absolute top-6 right-6 z-10">
-            <button 
-                @click.stop="showEditDialog = true" 
-                class="text-surface-400 hover:text-primary-500 transition-colors duration-200"
-                title="Edit Event"
+        <!-- Update Button (Absolute Top Right) -->
+        <div v-if="['upcoming', 'ongoing', 'postponed'].includes(event.computed_state)" class="absolute top-6 right-6 z-10">
+             <button 
+                @click.stop="showUpdateDialog = true" 
+                class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-100 dark:bg-surface-800 hover:bg-surface-200 dark:hover:bg-surface-700 border border-surface-200 dark:border-surface-700 shadow-sm hover:shadow text-xs font-bold text-surface-600 dark:text-surface-300 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-200 backdrop-blur-sm"
             >
-                <i class="pi pi-pencil text-xs"></i>
+                <i class="pi pi-pencil text-[10px]"></i>
+                <span>Update</span>
             </button>
         </div>
 
         <!-- Card Header (Always Visible) -->
         <div class="p-5 md:p-6 pb-2">
             <!-- Status + Title + Format -->
-            <div class="flex flex-wrap items-center gap-3 mb-6 pr-8"> <!-- pr-8 to avoid overlap with edit button -->
+            <div class="flex flex-wrap items-center gap-3 mb-6 pr-24"> <!-- pr-24 to avoid overlap with update button -->
                 
                 <!-- Status Dot -->
                 <div class="relative flex-shrink-0 flex items-center justify-center">
@@ -258,7 +279,7 @@ Link: ${ev.online?.join_url || window.location.href}
                             <i class="pi pi-align-left text-primary-500 text-[10px]"></i>
                             Description
                         </h4>
-                        <div class="prose prose-sm dark:prose-invert max-w-none text-surface-700 dark:text-surface-300 bg-surface-50/50 dark:bg-surface-950/50 p-4 rounded-xl border border-surface-100/50 dark:border-surface-700/50">
+                        <div class="prose prose-sm dark:prose-invert max-w-none text-surface-700 dark:text-surface-300 bg-surface-50/50 dark:bg-surface-950/50 p-4 rounded-xl border border-surface-100/50 dark:border-surface-800">
                             <div v-html="renderMarkdown(event.description)"></div>
                         </div>
                     </div>
@@ -269,7 +290,7 @@ Link: ${ev.online?.join_url || window.location.href}
                             <i class="pi pi-map text-primary-500 text-[10px]"></i>
                             Location
                         </h4>
-                        <div class="bg-surface-0 dark:bg-surface-950 border border-surface-100 dark:border-surface-700 rounded-xl overflow-hidden shadow-sm">
+                        <div class="bg-surface-0 dark:bg-surface-950 border border-surface-100 dark:border-surface-800 rounded-xl overflow-hidden shadow-sm">
                             <div class="h-48">
                                 <IncidentsIncidentMap :lat="event.location.lat" :lng="event.location.lng" />
                             </div>
@@ -282,19 +303,19 @@ Link: ${ev.online?.join_url || window.location.href}
                             <i class="pi pi-users text-primary-500 text-[10px]"></i>
                             Organizer
                         </h4>
-                        <div class="flex items-center justify-between bg-surface-50/50 dark:bg-surface-950/50 p-4 rounded-xl border border-surface-100/50 dark:border-surface-700/50">
+                        <div class="flex items-center justify-between bg-surface-50/50 dark:bg-surface-950/50 p-4 rounded-xl border border-surface-100/50 dark:border-surface-800">
                             <div class="font-bold text-sm text-surface-900 dark:text-surface-100">{{ event.organizer.name }}</div>
                             <div class="flex gap-2">
-                                <a v-if="event.organizer.website" :href="event.organizer.website" target="_blank" class="w-8 h-8 rounded-lg flex items-center justify-center bg-white dark:bg-surface-800 text-surface-500 hover:text-primary-500 transition-all border border-surface-100 dark:border-surface-700 hover:border-primary-200 shadow-sm">
+                                <a v-if="event.organizer.website" :href="event.organizer.website" target="_blank" class="w-8 h-8 rounded-lg flex items-center justify-center bg-white dark:bg-surface-800 text-surface-500 hover:text-primary-500 transition-all border border-surface-100 dark:border-surface-800 hover:border-primary-200 shadow-sm">
                                     <i class="pi pi-globe text-xs"></i>
                                 </a>
-                                <a v-if="event.organizer.socials?.x" :href="event.organizer.socials.x" target="_blank" class="w-8 h-8 rounded-lg flex items-center justify-center bg-white dark:bg-surface-800 text-surface-500 hover:text-primary-500 transition-all border border-surface-100 dark:border-surface-700 hover:border-primary-200 shadow-sm">
+                                <a v-if="event.organizer.socials?.x" :href="event.organizer.socials.x" target="_blank" class="w-8 h-8 rounded-lg flex items-center justify-center bg-white dark:bg-surface-800 text-surface-500 hover:text-primary-500 transition-all border border-surface-100 dark:border-surface-800 hover:border-primary-200 shadow-sm">
                                     <i class="pi pi-twitter text-xs"></i>
                                 </a>
-                                <a v-if="event.organizer.socials?.instagram" :href="event.organizer.socials.instagram" target="_blank" class="w-8 h-8 rounded-lg flex items-center justify-center bg-white dark:bg-surface-800 text-surface-500 hover:text-primary-500 transition-all border border-surface-100 dark:border-surface-700 hover:border-primary-200 shadow-sm">
+                                <a v-if="event.organizer.socials?.instagram" :href="event.organizer.socials.instagram" target="_blank" class="w-8 h-8 rounded-lg flex items-center justify-center bg-white dark:bg-surface-800 text-surface-500 hover:text-primary-500 transition-all border border-surface-100 dark:border-surface-800 hover:border-primary-200 shadow-sm">
                                     <i class="pi pi-instagram text-xs"></i>
                                 </a>
-                                <a v-if="event.organizer.socials?.telegram" :href="event.organizer.socials.telegram" target="_blank" class="w-8 h-8 rounded-lg flex items-center justify-center bg-white dark:bg-surface-800 text-surface-500 hover:text-primary-500 transition-all border border-surface-100 dark:border-surface-700 hover:border-primary-200 shadow-sm">
+                                <a v-if="event.organizer.socials?.telegram" :href="event.organizer.socials.telegram" target="_blank" class="w-8 h-8 rounded-lg flex items-center justify-center bg-white dark:bg-surface-800 text-surface-500 hover:text-primary-500 transition-all border border-surface-100 dark:border-surface-800 hover:border-primary-200 shadow-sm">
                                     <i class="pi pi-send text-xs"></i>
                                 </a>
                             </div>
@@ -324,18 +345,19 @@ Link: ${ev.online?.join_url || window.location.href}
             </div>
         </Dialog>
 
-        <!-- Edit Event Dialog -->
+        <!-- Update Event Dialog -->
         <Dialog 
-            v-model:visible="showEditDialog" 
+            v-model:visible="showUpdateDialog" 
             modal 
-            header="Edit Event" 
-            :style="{ width: '90vw', maxWidth: '1000px' }"
+            header="Suggest Update" 
+            :style="{ width: '90vw', maxWidth: '600px' }"
             :draggable="false"
         >
-            <SubmissionsEventSubmissionForm 
+            <SubmissionsEventUpdateForm 
                 :initialData="event" 
-                :submitting="editSubmitting"
-                @submit="handleEditSubmit"
+                :submitting="updateSubmitting"
+                @submit="handleUpdateSubmit"
+                @cancel="showUpdateDialog = false"
             />
         </Dialog>
     </div>

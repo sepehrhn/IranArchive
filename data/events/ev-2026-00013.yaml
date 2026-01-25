@@ -17,10 +17,8 @@
 # The visible title of the event (e.g. "Berlin Rally for Freedom")
 title: Nice Rally
 
-
 # Set to true to highlight this event in the list
 featured: false
-
 
 # A full description of the event. Supports Markdown (bold, links, lists).
 # Use the pipe (|) for multi-line text blocks.
@@ -31,12 +29,10 @@ description: |
 
   
 
-
 # [REQUIRED] Categorization
 # The type of event (physical vs online format)
 # Options: in_person, online, hybrid
-type: hybrid
-
+type: in_person
 
 # [REQUIRED] Timing
 date:
@@ -44,7 +40,6 @@ date:
   start_time: "14:00"
   end: ""
   end_time: ""
-
 
 # Location (Required for in_person/hybrid events)
 location:
@@ -55,24 +50,19 @@ location:
   lng: 7.2683912
 
 online:
-  platform: ""
-  join_url: null
-  backup_url: null
+  platform: "TBD"
+  join_url: "https://example.com/join"
   registration_url: null
-  recording_expected: false
-  recording_url: null
-
 
 # Online Specifics (Required for online/hybrid events)
 # online:
 #   platform: "Zoom"          # e.g., Zoom, YouTube, X Spaces
-#   join_url: "https://..."
-#   backup_url: "https://..."
+#   join_url: "https://example.com/join"
 #   registration_url: "https://..."
-#   recording_expected: true
-#   recording_url: "https://..." # Link to recording after event
 
 # [REQUIRED] Organizer
+announcement: ""
+
 organizer:
   name: Local Organizers
   website: https://drive.google.com/file/d/1qoXuW8KEoOfv-PoEOsQy_pFnfDkKWICE/view
