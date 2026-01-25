@@ -78,6 +78,10 @@ jobs:
           # Push branch
           git push -u origin "$BRANCH"
           
+          # Create labels if they don't exist
+          gh label create "submission" --color "0e8a16" --description "Content submission" || true
+          gh label create "submission:${{ env.SUBMISSION_KIND }}" --color "fbca04" || true
+          
           # Create PR
           gh pr create \
             --title "Submission: ${{ env.SUBMISSION_KIND }} (${{ env.SUBMISSION_ID }})" \
