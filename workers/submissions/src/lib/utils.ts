@@ -49,8 +49,8 @@ export async function checkRateLimit(env: Env, ipHash: string): Promise<boolean>
     const timestamps: number[] = JSON.parse(value);
     const recentSubmissions = timestamps.filter(t => t > windowStart);
 
-    // Allow max 3 submissions per hour (spam prevention without hard limits)
-    if (recentSubmissions.length >= 3) {
+    // Allow max 20 submissions per hour
+    if (recentSubmissions.length >= 20) {
         return false;
     }
 
