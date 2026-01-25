@@ -16,7 +16,7 @@ const emit = defineEmits<{
     close: [];
 }>();
 
-const { getAllCountries } = useCountries();
+const { getAllCountries, getCountryFlagUrl } = useCountries();
 
 const countryName = computed(() => {
     if (!props.selectedCountry) return null;
@@ -50,7 +50,7 @@ const clearCountry = () => {
             <div v-if="selectedCountry" class="mb-6 animate-fadein">
                 <div class="flex items-center gap-3 p-3 bg-primary-50 dark:bg-primary-900/10 border border-primary-200 dark:border-primary-800/30 rounded-xl mb-4">
                     <img 
-                        :src="`https://flagcdn.com/24x18/${selectedCountry.toLowerCase()}.png`" 
+                        :src="getCountryFlagUrl(selectedCountry)"
                         class="w-6 h-4 object-cover rounded shadow-sm"
                     />
                     <span class="font-bold text-primary-700 dark:text-primary-300 flex-1">{{ countryName }}</span>

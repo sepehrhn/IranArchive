@@ -22,7 +22,7 @@ const formattedDate = computed(() => {
 
         return dateObj.toLocaleDateString('en-US', {
             weekday: 'short', month: 'short', day: 'numeric'
-        }) + (d.start_time ? ` • ${d.start_time}` : '');
+        }) + (d.start_time ? ` — ${d.start_time}` : '');
     } catch (e) {
         return `${d.start} ${d.start_time}`;
     }

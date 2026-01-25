@@ -13,7 +13,7 @@ const emit = defineEmits<{
     selectCountry: [countryCode: string | null];
 }>();
 
-const { getAllCountries } = useCountries();
+const { getAllCountries, getCountryFlagUrl } = useCountries();
 
 const countriesWithEvents = computed(() => {
     if (!props.events) return [];
@@ -68,7 +68,7 @@ const countriesWithEvents = computed(() => {
             >
                 <div class="flex items-center gap-3 min-w-0 flex-1">
                     <img 
-                        :src="`https://flagcdn.com/24x18/${country.iso2.toLowerCase()}.png`" 
+                        :src="getCountryFlagUrl(country.iso2)"
                         :alt="country.name" 
                         class="w-6 h-4 object-cover rounded shadow-sm flex-shrink-0"
                     />

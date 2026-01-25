@@ -53,19 +53,16 @@ location:
   city: "Berlin"
   # Specific address or landmark (optional)
   address: "Pariser Platz, 10117 Berlin"
-  # Latitude (optional)
+  # Latitude (auto-calculated from address if not provided)
   lat: 52.5163
-  # Longitude (optional)
+  # Longitude (auto-calculated from address if not provided)
   lng: 13.3777
 
 # Online Specifics (Required for online/hybrid events)
 # online:
 #   platform: "Zoom"          # e.g., Zoom, YouTube, X Spaces
 #   join_url: "https://..."
-#   backup_url: "https://..."
 #   registration_url: "https://..."
-#   recording_expected: true
-#   recording_url: "https://..." # Link to recording after event
 
 # [REQUIRED] Organizer
 organizer:
@@ -78,7 +75,7 @@ organizer:
     instagram: "https://instagram.com/example"
     telegram: "https://t.me/example"
 
-# Poster image URL (optional)
-poster: "https://example.org/poster.jpg"
+# Announcement link (Required) - e.g. Instgram post or tweet
+announcement: "https://example.org/poster.jpg"
 
 # Features

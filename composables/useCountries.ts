@@ -75,11 +75,28 @@ export const useCountries = () => {
         return rawCountries.value[iso2?.toUpperCase()];
     };
 
+    const getCountryFlagUrl = (iso2: string) => {
+        if (!iso2) return '';
+        const code = iso2.toUpperCase();
+
+        // Convert ISO2 to Unicode code points for Twemoji
+        const codePoints = code
+            .split('')
+            .map(char => 127397 + char.charCodeAt(0));
+
+        const emojiCode = codePoints
+            .map(code => code.toString(16))
+            .join('-');
+
+        return `https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/72x72/${emojiCode}.png`;
+    };
+
     return {
         isLoaded,
         error,
         loadCountries,
         getAllCountries,
-        getCountryByIso
+        getCountryByIso,
+        getCountryFlagUrl
     };
 };

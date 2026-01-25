@@ -17,10 +17,8 @@
 # The visible title of the event (e.g. "Berlin Rally for Freedom")
 title: Scottsdale Rally
 
-
 # Set to true to highlight this event in the list
 featured: false
-
 
 # A full description of the event. Supports Markdown (bold, links, lists).
 # Use the pipe (|) for multi-line text blocks.
@@ -31,12 +29,10 @@ description: |
 
   
 
-
 # [REQUIRED] Categorization
 # The type of event (physical vs online format)
 # Options: in_person, online, hybrid
-type: hybrid
-
+type: in_person
 
 # [REQUIRED] Timing
 date:
@@ -44,7 +40,6 @@ date:
   start_time: "15:00"
   end: 2026/01/25
   end_time: "17:00"
-
 
 # Location (Required for in_person/hybrid events)
 location:
@@ -55,24 +50,19 @@ location:
   lng: -111.926291
 
 online:
-  platform: ""
-  join_url: null
-  backup_url: null
+  platform: "TBD"
+  join_url: "https://example.com/join"
   registration_url: null
-  recording_expected: false
-  recording_url: null
-
 
 # Online Specifics (Required for online/hybrid events)
 # online:
 #   platform: "Zoom"          # e.g., Zoom, YouTube, X Spaces
-#   join_url: "https://..."
-#   backup_url: "https://..."
+#   join_url: "https://example.com/join"
 #   registration_url: "https://..."
-#   recording_expected: true
-#   recording_url: "https://..." # Link to recording after event
 
 # [REQUIRED] Organizer
+announcement: ""
+
 organizer:
   name: Local Organizers
   website: https://drive.google.com/file/d/1gDTiwxDEcLBhCiEIcQpXS3QgSkVit8dT/view?usp=drive_link

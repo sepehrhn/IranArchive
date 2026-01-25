@@ -7,7 +7,7 @@ export const EventTypeSchema = z.enum(["in_person", "online", "hybrid"]); // Ren
 // Date Schema - removed precision field
 const DateInfoSchema = z.object({
     start: z.string().regex(/^\d{4}\/\d{2}\/\d{2}$/, "Must be YYYY/MM/DD"),
-    start_time: z.string().regex(/^\d{2}:\d{2}$/, "Must be HH:mm").optional().or(z.literal('')),
+    start_time: z.string().regex(/^\d{2}:\d{2}$/, "Must be HH:mm"),
     end: z.string().regex(/^\d{4}\/\d{2}\/\d{2}$/, "Must be YYYY/MM/DD").optional().or(z.literal('')),
     end_time: z.string().regex(/^\d{2}:\d{2}$/, "Must be HH:mm").optional().or(z.literal('')),
 });
@@ -15,7 +15,7 @@ const DateInfoSchema = z.object({
 
 // Sub-schemas
 const LocationSchema = z.object({
-    country: z.string().length(2).transform(val => val.toUpperCase()),
+    country: z.string().min(2).transform(val => val.toUpperCase()),
     city: z.string().optional(),
     address: z.string().optional(),
     lat: z.number().optional().nullable(),
@@ -24,16 +24,13 @@ const LocationSchema = z.object({
 
 // Online Schema - removed access field (all events are public)
 const OnlineSchema = z.object({
-    platform: z.string().optional(),
-    join_url: z.union([z.string().url(), z.literal('')]).optional().nullable(),
-    backup_url: z.union([z.string().url(), z.literal('')]).optional().nullable(),
+    platform: z.string().min(1),
+    join_url: z.string().url(),
     registration_url: z.union([z.string().url(), z.literal('')]).optional().nullable(),
-    recording_expected: z.boolean().optional(),
-    recording_url: z.union([z.string().url(), z.literal('')]).optional().nullable(),
 });
 
 const OrganizerSchema = z.object({
-    name: z.string().min(1),
+    name: z.string().optional(),
     website: z.union([z.string().url(), z.literal('')]).optional().nullable(),
     contact_email: z.union([z.string().email(), z.literal('')]).optional().nullable(),
     socials: z.object({
@@ -65,7 +62,7 @@ export const EventSchema = z.object({
     // Removed speakers, verification (status), and sources sections
 
     // Media
-    poster: z.union([z.string().url(), z.literal('')]).optional().nullable(), // New: poster image URL
+    announcement: z.union([z.string().url(), z.literal('')]).optional().nullable(), // Renamed from poster, required URL but optional for legacy
 
     // Options
     featured: z.boolean().default(false)
@@ -74,10 +71,14 @@ export const EventSchema = z.object({
     if ((data.type === 'in_person' || data.type === 'hybrid') && !data.location) {
         return false;
     }
+    // Logic: if online or hybrid, online section is required
+    if ((data.type === 'online' || data.type === 'hybrid') && !data.online) {
+        return false;
+    }
     return true;
 }, {
-    message: "Location is required for in_person or hybrid events",
-    path: ["location"]
+    message: "Location/Online details required based on event type",
+    path: ["type"]
 });
 
 export type EventData = z.infer<typeof EventSchema>;

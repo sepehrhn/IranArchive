@@ -23,7 +23,6 @@ const selectedCountry = ref<string | null>(null);
 const selectedCity = ref<string | null>(null);
 const showPastEvents = ref(false);
 const showSubmitDialog = ref(false);
-const showMobileFilters = ref(false); // Mobile Drawer State
 const filterLoading = ref(false);
 
 // Stats
@@ -82,13 +81,6 @@ const filteredEvents = computed(() => {
     return res;
 });
 
-const activeFilterCount = computed(() => {
-    let count = 0;
-    if (selectedCountry.value) count++;
-    if (selectedCity.value) count++;
-    return count;
-});
-
 const handleCountrySelect = (countryCode: string | null) => {
     selectedCountry.value = countryCode;
     selectedCity.value = null; // Reset city when country changes
@@ -96,13 +88,6 @@ const handleCountrySelect = (countryCode: string | null) => {
 
 const handleCitySelect = (city: string | null) => {
     selectedCity.value = city;
-};
-
-const clearFilters = () => {
-    searchQuery.value = '';
-    selectedCountry.value = null;
-    selectedCity.value = null;
-    showPastEvents.value = false;
 };
 
 // Auto-select first country on page load or context change
@@ -197,7 +182,7 @@ const isLoading = computed(() => pending.value || filterLoading.value);
                             label="Submit an Event"
                             icon="pi pi-plus"
                             @click="showSubmitDialog = true"
-                            class="shadow-lg"
+                            class="hidden md:flex shadow-lg"
                         />
                         
                         <!-- Past Events Toggle (Desktop) -->
@@ -209,26 +194,19 @@ const isLoading = computed(() => pending.value || filterLoading.value);
                 </div>
             </div>
 
-            <!-- Stats/Context (Mobile Only) + Filter Trigger -->
-            <div class="md:hidden mb-6 flex items-center justify-between px-1">
-                 <div class="flex items-center gap-3">
-                    <span class="text-sm font-bold text-surface-600 dark:text-surface-300">Show past events</span>
-                    <InputSwitch v-model="showPastEvents" />
-                </div>
-                
-                <!-- Mobile Filter Button -->
-                <Button 
-                    icon="pi pi-filter" 
-                    rounded
-                    outlined
-                    severity="secondary"
-                    class="!w-10 !h-10 !border-surface-300 dark:!border-surface-600 !text-surface-700 dark:!text-surface-200" 
-                    @click="showMobileFilters = true"
-                >
-                    <Badge v-if="activeFilterCount > 0" :value="activeFilterCount" severity="danger" class="!absolute -top-1 -right-1" />
-                </Button>
+            <!-- Mobile Filters (Inline) -->
+            <div class="md:hidden mb-6">
+                <EventsMobileFilters 
+                    :events="events || []"
+                    :selectedCountry="selectedCountry"
+                    :selectedCity="selectedCity"
+                    :showPastEvents="showPastEvents"
+                    @update:selectedCountry="handleCountrySelect"
+                    @update:selectedCity="handleCitySelect"
+                    @update:showPastEvents="showPastEvents = $event"
+                />
             </div>
-            
+
             <!-- Mobile Submit Button (Floating) -->
             <div class="fixed bottom-6 right-6 z-20 md:hidden">
                 <Button 
@@ -236,7 +214,7 @@ const isLoading = computed(() => pending.value || filterLoading.value);
                     rounded
                     raised
                     size="large"
-                    class="!w-14 !h-14 !shadow-2xl !bg-primary-600 shadow-primary-500/30"
+                    class="!w-14 !h-14 !shadow-2xl shadow-primary-500/30"
                     @click="showSubmitDialog = true"
                 />
             </div>
@@ -308,37 +286,19 @@ const isLoading = computed(() => pending.value || filterLoading.value);
                     </div>
                 </main>
             </div>
-        </div>
 
-        <!-- Submit Event Dialog -->
-        <Dialog 
-            v-model:visible="showSubmitDialog" 
-            modal 
-            header="Submit a Global Solidarity Event" 
-            :style="{ width: '90vw', maxWidth: '1000px' }"
-            :draggable="false"
-            class="submission-dialog"
-        >
-            <SubmissionsEventSubmissionForm />
-        </Dialog>
-
-        <!-- Mobile Filters Drawer -->
-        <Sidebar 
-            v-model:visible="showMobileFilters" 
-            position="right" 
-            class="!w-full md:!w-[28rem] !p-0"
-            :showCloseIcon="false"
-        >
-            <EventsMobileFilterDrawer 
-                :events="events || []"
-                :selectedCountry="selectedCountry"
-                :selectedCity="selectedCity"
-                :showPastEvents="showPastEvents"
-                @selectCountry="handleCountrySelect"
-                @selectCity="handleCitySelect"
-                @close="showMobileFilters = false"
-            />
-        </Sidebar>
+            <!-- Submit Event Dialog -->
+            <Dialog 
+                v-model:visible="showSubmitDialog" 
+                modal 
+                header="Submit a Global Solidarity Event" 
+                :style="{ width: '90vw', maxWidth: '1000px' }"
+                :draggable="false"
+                class="submission-dialog"
+            >
+                <SubmissionsEventSubmissionForm />
+            </Dialog>
+    </div>
     </div>
 </template>
 
