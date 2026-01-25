@@ -218,7 +218,7 @@ onMounted(() => {
         <!-- Hero Section -->
         <div class="relative bg-gradient-to-br from-surface-800 via-surface-700 to-surface-800 dark:from-surface-950 dark:via-surface-900 dark:to-surface-950 rounded-2xl overflow-hidden">
             <div class="absolute inset-0 bg-[url('/images/pattern.svg')] opacity-5"></div>
-            <div class="relative px-8 py-12 md:py-16">
+            <div class="relative px-8 py-10 md:py-12">
                 <div class="max-w-3xl">
                     <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
                         Remembering the Victims
@@ -232,7 +232,9 @@ onMounted(() => {
                     <div class="flex flex-wrap gap-6 mb-8">
                         <div class="flex items-center gap-3">
                             <div class="w-12 h-12 rounded-full bg-red-500/20 flex items-center justify-center">
-                                <i class="pi pi-heart-fill text-red-400 text-xl"></i>
+                                <svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-red-400">
+                                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09l.4-.5C13.1 3.3 14.8 3 16.5 3 19.6 3 22 5.4 22 8.5c0 3.8-3.4 6.9-8.5 11.5L12 21.35zm0-16.3c-1.5 0-2.8.8-3.6 2.1l3.6 4.4L10 14l2 4-1.5 2.5 1.5.8 2-3L12 14l2-2.5-3.5-4.4c.7-1.3 2.1-2.1 3.5-2.1c2.2 0 4 1.8 4 4c0 2.8-2.5 5.3-7.5 9.8l1 1c5-4.5 7.5-7.5 7.5-10.8 0-3.3-2.7-6-6-6z" />
+                                </svg>
                             </div>
                             <div>
                                 <p class="text-3xl font-bold text-white">{{ killedCount }}</p>
@@ -241,7 +243,7 @@ onMounted(() => {
                         </div>
                         <div class="flex items-center gap-3">
                             <div class="w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center">
-                                <i class="pi pi-question-circle text-orange-400 text-xl"></i>
+                                <i class="pi pi-search text-orange-400 text-xl"></i>
                             </div>
                             <div>
                                 <p class="text-3xl font-bold text-white">{{ missingCount }}</p>
@@ -258,19 +260,16 @@ onMounted(() => {
                             </div>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Action Buttons -->
-                    <div class="flex flex-wrap gap-4">
-                        <Button
-                            label="Submit a Victim"
-                            icon="pi pi-plus"
-                            @click="showSubmitDialog = true"
-                            class="!bg-white !text-surface-900 hover:!bg-surface-100"
-                        />
-                        <NuxtLink to="/docs/victims-submission">
-                            <Button label="Submission Guide" icon="pi pi-book" outlined class="!border-white/30 !text-white hover:!bg-white/10" />
-                        </NuxtLink>
-                    </div>
+                <!-- Action Button in Top Right -->
+                <div class="absolute top-8 right-8 md:top-12 md:right-8">
+                    <Button
+                        label="Submit a Victim"
+                        icon="pi pi-plus"
+                        @click="showSubmitDialog = true"
+                        class="!bg-white !text-surface-900 hover:!bg-surface-100 shadow-lg"
+                    />
                 </div>
             </div>
         </div>
