@@ -63,17 +63,11 @@ export async function calculateSHA256(file: File): Promise<string> {
  */
 export async function initUpload(params: InitUploadParams): Promise<InitUploadResponse> {
     const config = useRuntimeConfig();
-    const baseUrl = config.public.submissionApiBase;
-
-    if (!baseUrl) {
-        throw new Error('Submission API base URL not configured');
-    }
+    const baseUrl = config.public.submissionApiBase || 'https://iranarchive-submissions.sepehrhadaeghnia.workers.dev';
 
     // Calculate SHA-256 for all files
     const filesWithHash: FileInfo[] = [];
     for (const file of params.files) {
-        // Note: file.sha256 should be calculated before calling this
-        // This is a TypeScript type issue - we'll handle it in the component
         filesWithHash.push(file as FileInfo);
     }
 
@@ -94,11 +88,7 @@ export async function initUpload(params: InitUploadParams): Promise<InitUploadRe
  */
 export async function completeSubmission(params: CompleteSubmissionParams): Promise<CompleteSubmissionResponse> {
     const config = useRuntimeConfig();
-    const baseUrl = config.public.submissionApiBase;
-
-    if (!baseUrl) {
-        throw new Error('Submission API base URL not configured');
-    }
+    const baseUrl = config.public.submissionApiBase || 'https://iranarchive-submissions.sepehrhadaeghnia.workers.dev';
 
     const response = await $fetch<CompleteSubmissionResponse>(`${baseUrl}/api/submissions/complete`, {
         method: 'POST',
@@ -118,7 +108,13 @@ export async function completeSubmission(params: CompleteSubmissionParams): Prom
  * Upload file to R2 using presigned URL
  */
 export async function uploadToR2(file: File, putUrl: string): Promise<void> {
-    const response = await fetch(putUrl, {
+    const config = useRuntimeConfig();
+    const baseUrl = config.public.submissionApiBase || 'https://iranarchive-submissions.sepehrhadaeghnia.workers.dev';
+
+    // If putUrl is relative, prepend baseUrl
+    const url = putUrl.startsWith('http') ? putUrl : `${baseUrl}${putUrl}`;
+
+    const response = await fetch(url, {
         method: 'PUT',
         body: file,
         headers: {
