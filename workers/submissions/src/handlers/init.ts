@@ -12,8 +12,9 @@ export async function handleInit(c: Context<{ Bindings: Env }>): Promise<Respons
         const ip = c.req.header('CF-Connecting-IP') || c.req.header('X-Forwarded-For') || 'unknown';
         const ipHash = await hashIP(ip);
 
-        // Verify Turnstile
-        const turnstileValid = await verifyTurnstile(turnstileToken, c.env.TURNSTILE_SECRET_KEY, ip);
+        // Verify Turnstile - Trim secret key to remove potential newlines
+        const secretKey = (c.env.TURNSTILE_SECRET_KEY || '').trim();
+        const turnstileValid = await verifyTurnstile(turnstileToken, secretKey, ip);
         if (!turnstileValid) {
             return c.json({ error: 'Invalid captcha' }, 403);
         }
@@ -76,8 +77,13 @@ export async function handleInit(c: Context<{ Bindings: Env }>): Promise<Respons
 
         return c.json(response);
 
-    } catch (error) {
+    } catch (error: any) {
         console.error('Init error:', error);
-        return c.json({ error: 'Internal server error' }, 500);
+        // RETURN DETAILED ERROR FOR DEBUGGING
+        return c.json({
+            error: 'Internal server error',
+            details: error.message || String(error),
+            stack: error.stack
+        }, 500);
     }
 }
