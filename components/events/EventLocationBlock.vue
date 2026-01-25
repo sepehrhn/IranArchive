@@ -18,21 +18,15 @@ const countryName = computed(() => {
 </script>
 
 <template>
-    <div v-if="loc" class="flex flex-col gap-1 text-sm">
-        <div class="flex items-start gap-2">
-            <i class="pi pi-map-marker text-primary mt-1"></i>
-            <div>
-                <!-- Always show Country/City unless totally withheld (unlikely per schema) -->
-                <div class="font-medium text-surface-900 dark:text-surface-0">
-                    {{ loc.city ? `${loc.city}, ` : '' }}{{ countryName }}
-                </div>
-
-                <div v-if="loc.address">{{ loc.address }}</div>
-            </div>
+    <div v-if="loc" class="flex flex-col gap-1">
+        <!-- Always show Country/City unless totally withheld (unlikely per schema) -->
+        <div class="font-semibold text-base text-surface-900 dark:text-surface-0">
+            {{ loc.city ? `${loc.city}, ` : '' }}{{ countryName }}
         </div>
+
+        <div v-if="loc.address" class="text-sm text-surface-600 dark:text-surface-300">{{ loc.address }}</div>
     </div>
-    <div v-else-if="event.format === 'online'" class="flex items-center gap-2 text-sm">
-        <i class="pi pi-globe text-primary"></i>
-        <span>Online Event</span>
+    <div v-else-if="event.type === 'online'" class="font-semibold text-base text-surface-900 dark:text-surface-0">
+        Online Event
     </div>
 </template>

@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Farhad Amani
+# ==========================================
+
+photo: "vic-2026-000020.jpeg"
+
+name: "Farhad Amani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 20
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Tehran"
+
+# Death Information
+date_of_death: "2026/01/22"
+date_of_death_precision: "Exact"
+cause_of_death: "Execution"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Farhad Amani was arrested on January 8, 2026, in the Punak area of Tehran. 
+  He was executed on January 22, 2026, just two weeks after his arrest.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://javidnaam.org/PersonDetail?id=6975e1e26ca573c07bcb7d8c"

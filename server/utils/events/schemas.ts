@@ -1,28 +1,16 @@
 import { z } from 'zod';
 
 // Reusable enums
-export const EventStateSchema = z.enum(["upcoming", "ongoing", "held", "canceled", "postponed"]);
-export const EventFormatSchema = z.enum(["in_person", "online", "hybrid"]);
-export const EventTypeSchema = z.enum([
-    "rally", "march", "vigil", "sit_in",
-    "webinar", "seminar", "panel", "conference",
-    "workshop", "fundraiser", "film_screening",
-    "training", "community_meetup", "other"
-]);
-export const DatePrecisionSchema = z.enum(["Exact", "Approx", "Unknown"]);
+export const EventStateSchema = z.enum(["upcoming", "ongoing", "held", "past", "canceled", "postponed"]);
+export const EventTypeSchema = z.enum(["in_person", "online", "hybrid"]); // Renamed from EventFormatSchema
 
-// Date Schema shared
-// Moved here to access DatePrecisionSchema
+// Date Schema - removed precision field
 const DateInfoSchema = z.object({
     start: z.string().regex(/^\d{4}\/\d{2}\/\d{2}$/, "Must be YYYY/MM/DD"),
     start_time: z.string().regex(/^\d{2}:\d{2}$/, "Must be HH:mm").optional().or(z.literal('')),
     end: z.string().regex(/^\d{4}\/\d{2}\/\d{2}$/, "Must be YYYY/MM/DD").optional().or(z.literal('')),
     end_time: z.string().regex(/^\d{2}:\d{2}$/, "Must be HH:mm").optional().or(z.literal('')),
-    precision: DatePrecisionSchema
 });
-
-export const OnlineAccessSchema = z.enum(["public", "rsvp_required", "invite_only"]);
-export const VerificationStatusSchema = z.enum(["draft", "not_verified", "verified"]);
 
 
 // Sub-schemas
@@ -34,11 +22,11 @@ const LocationSchema = z.object({
     lng: z.number().optional().nullable(),
 });
 
+// Online Schema - removed access field (all events are public)
 const OnlineSchema = z.object({
     platform: z.string().optional(),
     join_url: z.union([z.string().url(), z.literal('')]).optional().nullable(),
     backup_url: z.union([z.string().url(), z.literal('')]).optional().nullable(),
-    access: z.union([OnlineAccessSchema, z.literal('')]).optional().nullable(),
     registration_url: z.union([z.string().url(), z.literal('')]).optional().nullable(),
     recording_expected: z.boolean().optional(),
     recording_url: z.union([z.string().url(), z.literal('')]).optional().nullable(),
@@ -56,31 +44,17 @@ const OrganizerSchema = z.object({
     }).optional(),
 });
 
-const SpeakerSchema = z.object({
-    name: z.string().min(1),
-    title: z.string().optional(),
-    bio: z.string().optional(),
-    links: z.array(z.string().url()).optional(),
-});
-
-
-
-const SourceSchema = z.object({
-    title: z.string(),
-    url: z.string().url()
-});
+// Removed SpeakerSchema - speakers section no longer needed
+// Removed SourceSchema - sources section no longer needed
 
 export const EventSchema = z.object({
     // Core
     title: z.string().min(1),
-    summary: z.string().min(1),
     description: z.string().optional(),
-    state: EventStateSchema.optional(),
-    format: EventFormatSchema,
-    type: EventTypeSchema,
+    // state is now always computed automatically - no longer in YAML
+    type: EventTypeSchema, // Renamed from 'format'
     tags: z.array(z.string()).optional(),
 
-    // Timing
     // Timing
     date: DateInfoSchema,
 
@@ -88,18 +62,16 @@ export const EventSchema = z.object({
     location: LocationSchema.optional().nullable(),
     online: OnlineSchema.optional().nullable(),
     organizer: OrganizerSchema,
-    speakers: z.array(SpeakerSchema).optional().nullable(),
+    // Removed speakers, verification (status), and sources sections
 
-    // Verification
-    status: VerificationStatusSchema,
-
-    sources: z.array(SourceSchema).optional(),
+    // Media
+    poster: z.union([z.string().url(), z.literal('')]).optional().nullable(), // New: poster image URL
 
     // Options
     featured: z.boolean().default(false)
 }).refine(data => {
     // Logic: if in_person or hybrid, location is required
-    if ((data.format === 'in_person' || data.format === 'hybrid') && !data.location) {
+    if ((data.type === 'in_person' || data.type === 'hybrid') && !data.location) {
         return false;
     }
     return true;
