@@ -500,7 +500,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, nextTick } from 'vue';
 import provincesData from '~/data/provinces.json';
 
 const props = defineProps<{
@@ -592,26 +592,41 @@ const form = ref({
 });
 
 onMounted(() => {
+  // Load Turnstile script on mount
   if (!document.getElementById('turnstile-script')) {
     const script = document.createElement('script');
     script.id = 'turnstile-script';
-    script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js';
+    script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
     script.async = true;
     script.defer = true;
-    script.onload = () => renderTurnstile();
     document.head.appendChild(script);
-  } else {
-    renderTurnstile();
   }
 });
 
 function renderTurnstile() {
-  if (!(window as any).turnstile || !turnstileContainer.value) return;
+  // Only render when we're on the review step and container exists
+  if (currentStep.value !== 3) return;
+  if (!(window as any).turnstile) {
+    // Script not loaded yet, retry
+    setTimeout(renderTurnstile, 200);
+    return;
+  }
+  if (!turnstileContainer.value) {
+    // Container not ready yet, retry
+    setTimeout(renderTurnstile, 100);
+    return;
+  }
+  
+  // Clear any existing widget first
+  turnstileContainer.value.innerHTML = '';
   
   (window as any).turnstile.render(turnstileContainer.value, {
     sitekey: config.public.turnstileSiteKey,
     callback: (token: string) => {
       turnstileToken.value = token;
+    },
+    'error-callback': () => {
+      console.error('Turnstile error');
     }
   });
 }
@@ -688,7 +703,7 @@ function handleNext() {
     currentStep.value++;
     // Render turnstile when reaching review step
     if (currentStep.value === 3) {
-      setTimeout(() => renderTurnstile(), 100);
+      nextTick(() => renderTurnstile());
     }
   }
 }
