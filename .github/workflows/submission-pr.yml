@@ -75,8 +75,8 @@ jobs:
           git add data/
           git commit -m "Submission: ${{ env.SUBMISSION_KIND }} (${{ env.SUBMISSION_ID }})"
           
-          # Push branch
-          git push -u origin "$BRANCH"
+          # Push branch (force to handle retries)
+          git push -f -u origin "$BRANCH"
           
           # Create labels if they don't exist
           gh label create "submission" --color "0e8a16" --description "Content submission" || true
