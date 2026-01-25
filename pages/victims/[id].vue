@@ -90,6 +90,17 @@ const birthLocation = computed(() => {
     if (victim.value?.birth_province) parts.push(victim.value.birth_province);
     return parts.join(', ') || null;
 });
+
+// X (Twitter) Share Logic
+const xShareUrl = computed(() => {
+    if (!victim.value?.name) return '';
+    
+    const nameHashtag = victim.value.name.replace(/\s+/g, '_');
+    const text = `#IranMassacre #${nameHashtag}`;
+    const url = `https://x.com/intent/post?text=${encodeURIComponent(text)}`;
+    
+    return url;
+});
 </script>
 
 <template>
@@ -128,8 +139,21 @@ const birthLocation = computed(() => {
                 <div class="md:col-span-2 flex flex-col gap-6">
                     <!-- Name and Status -->
                     <div class="flex items-start justify-between gap-4 flex-wrap">
-                        <h1 class="text-3xl md:text-4xl font-bold text-surface-900 dark:text-surface-0">{{ victim.name }}</h1>
-                        <VictimStatusBadge :status="victim.status" class="mt-1" />
+                        <div class="flex flex-col gap-2">
+                            <h1 class="text-3xl md:text-4xl font-bold text-surface-900 dark:text-surface-0">{{ victim.name }}</h1>
+                            <div class="flex items-center gap-3">
+                                <VictimStatusBadge :status="victim.status" />
+                                <a 
+                                    :href="xShareUrl" 
+                                    target="_blank" 
+                                    rel="noopener noreferrer"
+                                    class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-900 dark:bg-surface-0 text-surface-0 dark:text-surface-900 hover:opacity-80 transition-opacity text-sm font-medium"
+                                >
+                                    <i class="pi pi-twitter"></i>
+                                    <span>Share on 𝕏</span>
+                                </a>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Quick Info Grid -->
