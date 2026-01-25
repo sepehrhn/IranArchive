@@ -1,0 +1,118 @@
+# ==========================================
+# Victim Documentation Template
+# ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
+
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
+photo: "vic-2026-000010.png"
+
+# Full Name in English
+name: "Arash Nikkhou"
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ""
+
+# Province of Birth (Optional)
+birth_province: ""
+
+# City of Birth (Optional)
+birth_city: ""
+
+# Gender (Optional: "Male" or "Female")
+gender: "Male"
+
+# Occupation (Optional)
+occupation: "Environmental Activist'"
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: "Iran"
+
+# Incident Location
+incident_province: "Kohgiluyeh and Boyer-Ahmad"
+incident_city: "Dehdasht"
+
+# Date of Death (Format: YYYY/MM/DD)
+# NOTE (Missing-person convention): this field is used as the LAST SEEN / disappearance date.
+date_of_death: "2026/01/19"
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: "Exact"
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown' | 'Other'
+cause_of_death: ""
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' |
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: "Arrested and transferred to unknown location"
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown' | 'Other'
+suspected_actor: "Security Forces"
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: "Missing"
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Arash Nikhoo is a teacher and environmental activist in Kohgiluyeh and Boyer-Ahmad province, known for organizing and participating in grassroots efforts to protect the Zagros forests and respond to wildfires through the volunteer group “Yegan Siyavash.”
+
+  He was reported arrested by Iranian security forces in late Dey 1404 (mid–late January 2026). Reporting differs on the precise arrest location (Dehdasht vs. Yasuj) and the exact day cited across posts and coverage; IranWire and human-rights reporting state that since his arrest, no official information has been provided about his place of detention, the detaining authority, or any charges.
+
+  **Last seen / disappearance date used above (per IranArchive missing-person convention):** 2026/01/19 (reported as 29 Dey 1404; marked *Approximate* due to conflicting date/location reporting).
+
+  Additional links (for cross-checking):
+  - https://www.iranintl.com/202601206686
+  - https://iranwire.com/fa/news-1/147893-%D8%A2%D8%B1%D8%B4-%D9%86%DB%8C%DA%A9%D8%AE%D9%88-%DA%A9%D9%86%D8%B4%DA%AF%D8%B1-%D9%85%D8%AD%DB%8C%D8%B7%D8%B2%DB%8C%D8%B3%D8%AA-%D8%A8%D8%A7%D8%B2%D8%AF%D8%A7%D8%B4%D8%AA-%D8%B4%D8%AF
+  - https://www.hra-news.org/2026/hranews/a-1a692fd8/
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Type (Optional)
+# Options: 'Family or Close Friend' | 'Eyewitness' | 'Hospital/Forensic' | 'Local Report' | 'Social Media'
+source_type: "Social Media"
+
+# Social Media Link (Required if source_type is 'Social Media')
+source_social_media_link: "https://x.com/sinaaghighi/status/2013680226815955126?s=20"
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
