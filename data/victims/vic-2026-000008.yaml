@@ -11,28 +11,29 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 28
-occupation: "Photographer"
+age: 
+occupation: ""
 
 # Location & Timing
 country: "Iran"
 
 # Incident Location
-incident_province: ""
-incident_city: ""
+incident_province: "Lorestan"
+incident_city: "Kuhdasht"
 
 # Death Information
-date_of_death: "2026/01/09"
+date_of_death: "2026/01/12"
 date_of_death_precision: "Exact"
 cause_of_death: ""
 
 # Status
 status: "Killed"
 
-# Narrative
+# Detailed incident description. Supports basic markdown.
 description: |
-  A 28 years old Iranian photographer was killed by Islamic Republic agents on January 9, 2026.
+  An Iranian protester from Kuhdasht, Lorestan, killed after being shot in the head during the 2025–2026 uprising; 
+  authorities later promoted claims he was a Basij member and pressured his family to repeat that narrative.
 
 # Sources
 source_type: "Social Media"
-source_social_media_link: "https://www.instagram.com/p/DEUAAlOMDqT/?igsh=MW1pczZybTh2aTFt"
+source_social_media_link: "https://www.instagram.com/p/DEU-MxJsqPJ/?igsh=MTgycnMwejhoam1u"

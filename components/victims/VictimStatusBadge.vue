@@ -19,8 +19,18 @@ const severity = computed(() => {
 const displayText = computed(() => {
     return props.status.charAt(0).toUpperCase() + props.status.slice(1);
 });
+const statusClasses = computed(() => {
+    switch (props.status.toLowerCase()) {
+        case 'killed':
+            return '!bg-red-600 !text-red-200 border-none shadow-sm font-semibold';
+        case 'missing':
+            return '!bg-orange-500 !text-orange-200 border-none shadow-sm font-semibold';
+        default:
+            return '';
+    }
+});
 </script>
 
 <template>
-    <Tag :value="displayText" :severity="severity" />
+    <Tag :value="displayText" :class="statusClasses" />
 </template>

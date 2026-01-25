@@ -80,24 +80,46 @@ export const useVictims = () => {
         return victimsData.value.find(v => v.id === id) || null;
     };
 
+    /**
+     * Build filter options from victims data
+     * Returns unique cities, provinces, and statuses
+     */
     const buildFilterOptions = (victims: Victim[]) => {
         const cities = new Set<string>();
         const provinces = new Set<string>();
         const statuses = new Set<string>();
+        const provinceCityMap = new Map<string, Set<string>>();
 
         victims.forEach(v => {
-            if (v.city) cities.add(v.city);
-            if (v.province) provinces.add(v.province);
+            // Use incident location fields
+            if (v.incident_city) cities.add(v.incident_city);
+            if (v.incident_province) {
+                provinces.add(v.incident_province);
+                // Build province -> cities mapping
+                if (!provinceCityMap.has(v.incident_province)) {
+                    provinceCityMap.set(v.incident_province, new Set());
+                }
+                if (v.incident_city) {
+                    provinceCityMap.get(v.incident_province)!.add(v.incident_city);
+                }
+            }
             if (v.status) statuses.add(v.status);
         });
 
         return {
             cities: Array.from(cities).sort(),
             provinces: Array.from(provinces).sort(),
-            statuses: Array.from(statuses).sort()
+            statuses: Array.from(statuses).sort(),
+            provinceCityMap: Object.fromEntries(
+                Array.from(provinceCityMap.entries()).map(([k, v]) => [k, Array.from(v).sort()])
+            )
         };
     };
 
+    /**
+     * Apply filters and search to victims list
+     * Search is expanded to include name, description, occupation, and location
+     */
     const applyVictimQuery = (victims: Victim[], query: {
         q?: string,
         city?: string,
@@ -109,33 +131,47 @@ export const useVictims = () => {
     }): Victim[] => {
         let result = [...victims];
 
-        // Text Search
+        // Text Search - expanded to multiple fields
         if (query.q) {
-            const qLower = query.q.toLowerCase();
-            result = result.filter(v =>
-                v.name.toLowerCase().includes(qLower) ||
-                v.city.toLowerCase().includes(qLower) ||
-                (v.province && v.province.toLowerCase().includes(qLower))
-            );
+            const qLower = query.q.toLowerCase().trim();
+            result = result.filter(v => {
+                const searchableFields = [
+                    v.name,
+                    v.incident_city,
+                    v.incident_province,
+                    v.occupation,
+                    v.description,
+                    v.cause_of_death
+                ];
+                return searchableFields.some(field =>
+                    field && field.toLowerCase().includes(qLower)
+                );
+            });
         }
 
-        // Exact filters
+        // Exact filters - use incident location fields
         if (query.city) {
-            result = result.filter(v => v.city === query.city);
+            result = result.filter(v => v.incident_city === query.city);
         }
         if (query.province) {
-            result = result.filter(v => v.province === query.province);
+            result = result.filter(v => v.incident_province === query.province);
         }
         if (query.status) {
-            result = result.filter(v => v.status === query.status);
+            result = result.filter(v => v.status?.toLowerCase() === query.status.toLowerCase());
         }
 
         // Date Range
         if (query.dateFrom) {
-            result = result.filter(v => new Date(v.date_of_death) >= query.dateFrom!);
+            result = result.filter(v => {
+                if (!v.date_of_death) return false;
+                return new Date(v.date_of_death) >= query.dateFrom!;
+            });
         }
         if (query.dateTo) {
-            result = result.filter(v => new Date(v.date_of_death) <= query.dateTo!);
+            result = result.filter(v => {
+                if (!v.date_of_death) return false;
+                return new Date(v.date_of_death) <= query.dateTo!;
+            });
         }
 
         // Sorting
@@ -149,12 +185,18 @@ export const useVictims = () => {
                     case 'recent':
                     default:
                         // Date descending
-                        return new Date(b.date_of_death).getTime() - new Date(a.date_of_death).getTime();
+                        const dateA = a.date_of_death ? new Date(a.date_of_death).getTime() : 0;
+                        const dateB = b.date_of_death ? new Date(b.date_of_death).getTime() : 0;
+                        return dateB - dateA;
                 }
             });
         } else {
             // Default sort: recent
-            result.sort((a, b) => new Date(b.date_of_death).getTime() - new Date(a.date_of_death).getTime());
+            result.sort((a, b) => {
+                const dateA = a.date_of_death ? new Date(a.date_of_death).getTime() : 0;
+                const dateB = b.date_of_death ? new Date(b.date_of_death).getTime() : 0;
+                return dateB - dateA;
+            });
         }
 
         return result;

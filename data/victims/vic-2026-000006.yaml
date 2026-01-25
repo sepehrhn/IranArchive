@@ -29,9 +29,9 @@ cause_of_death: ""
 # Status
 status: "Killed"
 
-# Narrative
+# Detailed incident description. Supports basic markdown.
 description: |
-  Amin Zarei, a 23-year-old young man, was killed in Sadeghieh, Tehran, by a sniper's bullet that directly targeted his heart.
+  Killed in Sadeghieh, Tehran, by a sniper's bullet that directly targeted his heart.
 
 # Sources
 source_type: ""
