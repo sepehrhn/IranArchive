@@ -1,48 +1,53 @@
 <template>
   <div class="space-y-6">
-    <!-- Stepper Header -->
-    <div class="flex items-center justify-between mb-6">
-      <div 
-        v-for="(step, index) in steps" 
-        :key="step.id"
-        class="flex items-center flex-1"
-      >
-        <div class="flex items-center gap-3">
+    <!-- Stepper Header Redesign -->
+    <div class="relative mb-16 pt-4 px-6 md:px-12">
+      <!-- Progress Bar Background (Behind) -->
+      <div class="absolute top-[2.25rem] left-10 right-10 md:left-24 md:right-24 h-1 bg-surface-100 dark:bg-surface-800 rounded-full">
+        <!-- Active Progress Line -->
+        <div 
+          class="h-full bg-primary-500 transition-all duration-500 rounded-full shadow-[0_0_10px_rgba(var(--primary-500-rgb),0.5)]"
+          :style="{ width: `${(currentStep / (steps.length - 1)) * 100}%` }"
+        ></div>
+      </div>
+      
+      <!-- Stepper Content -->
+      <div class="relative flex justify-between items-start">
+        <div 
+          v-for="(step, index) in steps" 
+          :key="step.id"
+          class="flex flex-col items-center group relative z-10"
+        >
+          <!-- Step Indicator -->
           <div 
             :class="[
-              'w-10 h-10 rounded-full flex items-center justify-center font-bold text-sm transition-all',
+              'w-10 h-10 rounded-xl flex items-center justify-center font-bold text-sm transition-all duration-300 relative',
               currentStep === index 
-                ? 'bg-primary-500 text-white shadow-lg scale-110' 
+                ? 'bg-primary-500 text-white shadow-[0_0_20px_rgba(var(--primary-500-rgb),0.4)] scale-110 rotate-3' 
                 : currentStep > index 
-                  ? 'bg-green-500 text-white' 
-                  : 'bg-surface-200 dark:bg-surface-700 text-surface-600 dark:text-surface-400'
+                  ? 'bg-green-500 text-white scale-90' 
+                  : 'bg-surface-100 dark:bg-surface-800 text-surface-400 dark:text-surface-600 border border-surface-200 dark:border-surface-700'
             ]"
           >
-            <i v-if="currentStep > index" class="pi pi-check"></i>
+            <i v-if="currentStep > index" class="pi pi-check text-xs"></i>
             <span v-else>{{ index + 1 }}</span>
+            
+            <!-- Active Pulse Effect -->
+            <div v-if="currentStep === index" class="absolute inset-0 rounded-xl bg-primary-500 animate-ping opacity-20"></div>
           </div>
-          <div class="hidden sm:block">
-            <p 
-              :class="[
-                'text-sm font-medium',
-                currentStep === index 
-                  ? 'text-primary-600 dark:text-primary-400' 
-                  : 'text-surface-600 dark:text-surface-400'
-              ]"
-            >
-              {{ step.label }}
-            </p>
+
+          <!-- Step Label -->
+          <div 
+            class="mt-4 text-center transition-all duration-300 w-20 sm:w-32"
+            :class="[
+              currentStep === index 
+                ? 'text-primary-600 dark:text-primary-400 font-bold translate-y-0 opacity-100' 
+                : 'text-surface-500 dark:text-surface-400 font-medium translate-y-1 opacity-70 group-hover:opacity-100'
+            ]"
+          >
+            <p class="text-[10px] sm:text-xs uppercase tracking-wider leading-tight">{{ step.label }}</p>
           </div>
         </div>
-        <div 
-          v-if="index < steps.length - 1" 
-          :class="[
-            'flex-1 h-1 mx-4 rounded',
-            currentStep > index 
-              ? 'bg-green-500' 
-              : 'bg-surface-200 dark:bg-surface-700'
-          ]"
-        ></div>
       </div>
     </div>
 
@@ -56,39 +61,63 @@
           <p class="text-surface-500">Select the status of the victim you are reporting</p>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
           <button
             type="button"
             @click="form.status = 'Killed'"
             :class="[
-              'p-8 rounded-xl border-2 transition-all text-left',
+              'group p-8 rounded-2xl border-2 transition-all duration-300 text-left relative overflow-hidden',
               form.status === 'Killed'
-                ? 'border-red-500 bg-red-50 dark:bg-red-900/20 shadow-lg'
-                : 'border-surface-200 dark:border-surface-700 hover:border-red-300 hover:bg-surface-50 dark:hover:bg-surface-800'
+                ? 'border-red-500 bg-red-50/50 dark:bg-red-900/10 shadow-xl scale-[1.02]'
+                : 'border-surface-200 dark:border-surface-800 hover:border-red-300 hover:bg-red-50/20 dark:hover:bg-red-900/5'
             ]"
           >
-            <div class="w-16 h-16 rounded-full bg-red-100 dark:bg-red-900/40 flex items-center justify-center mb-4">
-              <i class="pi pi-heart-fill text-3xl text-red-500"></i>
+            <div class="absolute -right-4 -bottom-4 opacity-10 group-hover:opacity-20 transition-opacity">
+              <svg viewBox="0 0 24 24" fill="currentColor" class="w-48 h-48 text-red-500">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09l.4-.5C13.1 3.3 14.8 3 16.5 3 19.6 3 22 5.4 22 8.5c0 3.8-3.4 6.9-8.5 11.5L12 21.35zm0-16.3c-1.5 0-2.8.8-3.6 2.1l3.6 4.4L10 14l2 4-1.5 2.5 1.5.8 2-3L12 14l2-2.5-3.5-4.4c.7-1.3 2.1-2.1 3.5-2.1c2.2 0 4 1.8 4 4c0 2.8-2.5 5.3-7.5 9.8l1 1c5-4.5 7.5-7.5 7.5-10.8 0-3.3-2.7-6-6-6z" />
+              </svg>
             </div>
-            <h3 class="text-xl font-bold text-surface-900 dark:text-surface-0 mb-2">Killed</h3>
-            <p class="text-surface-500 text-sm">The person was killed during the protests or by regime forces.</p>
+            
+            <div 
+              :class="[
+                'w-24 h-24 rounded-2xl flex items-center justify-center mb-6 transition-all duration-500',
+                form.status === 'Killed' ? 'bg-red-500 shadow-lg shadow-red-500/40 rotate-6' : 'bg-red-100 dark:bg-red-900/40 group-hover:rotate-3'
+              ]"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor" :class="['w-14 h-14 transition-colors duration-500', form.status === 'Killed' ? 'text-white' : 'text-red-500']">
+                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09l.4-.5C13.1 3.3 14.8 3 16.5 3 19.6 3 22 5.4 22 8.5c0 3.8-3.4 6.9-8.5 11.5L12 21.35zm0-16.3c-1.5 0-2.8.8-3.6 2.1l3.6 4.4L10 14l2 4-1.5 2.5 1.5.8 2-3L12 14l2-2.5-3.5-4.4c.7-1.3 2.1-2.1 3.5-2.1c2.2 0 4 1.8 4 4c0 2.8-2.5 5.3-7.5 9.8l1 1c5-4.5 7.5-7.5 7.5-10.8 0-3.3-2.7-6-6-6z" />
+              </svg>
+            </div>
+            
+            <h3 class="text-2xl font-black text-surface-900 dark:text-surface-0 mb-2">Killed</h3>
+            <p class="text-surface-500 dark:text-surface-400 text-sm leading-relaxed">Report a martyr who was killed by the regime forces.</p>
           </button>
 
           <button
             type="button"
             @click="form.status = 'Missing'"
             :class="[
-              'p-8 rounded-xl border-2 transition-all text-left',
+              'group p-8 rounded-2xl border-2 transition-all duration-300 text-left relative overflow-hidden',
               form.status === 'Missing'
-                ? 'border-orange-500 bg-orange-50 dark:bg-orange-900/20 shadow-lg'
-                : 'border-surface-200 dark:border-surface-700 hover:border-orange-300 hover:bg-surface-50 dark:hover:bg-surface-800'
+                ? 'border-orange-500 bg-orange-50/50 dark:bg-orange-900/10 shadow-xl scale-[1.02]'
+                : 'border-surface-200 dark:border-surface-800 hover:border-orange-300 hover:bg-orange-50/20 dark:hover:bg-orange-900/5'
             ]"
           >
-            <div class="w-16 h-16 rounded-full bg-orange-100 dark:bg-orange-900/40 flex items-center justify-center mb-4">
-              <i class="pi pi-question-circle text-3xl text-orange-500"></i>
+            <div class="absolute -right-4 -bottom-4 opacity-10 group-hover:opacity-20 transition-opacity">
+              <i class="pi pi-search text-9xl text-orange-500"></i>
             </div>
-            <h3 class="text-xl font-bold text-surface-900 dark:text-surface-0 mb-2">Missing</h3>
-            <p class="text-surface-500 text-sm">The person is missing and their whereabouts are unknown.</p>
+
+            <div 
+              :class="[
+                'w-24 h-24 rounded-2xl flex items-center justify-center mb-6 transition-all duration-500',
+                form.status === 'Missing' ? 'bg-orange-500 shadow-lg shadow-orange-500/40 -rotate-6' : 'bg-orange-100 dark:bg-orange-900/40 group-hover:-rotate-3'
+              ]"
+            >
+              <i :class="['pi pi-search text-5xl transition-colors duration-500', form.status === 'Missing' ? 'text-white' : 'text-orange-500']"></i>
+            </div>
+            
+            <h3 class="text-2xl font-black text-surface-900 dark:text-surface-0 mb-2">Missing</h3>
+            <p class="text-surface-500 dark:text-surface-400 text-sm leading-relaxed">Report someone who has been abducted or is missing.</p>
           </button>
         </div>
 
@@ -98,366 +127,493 @@
       </div>
 
       <!-- Step 2: Personal Info -->
-      <div v-if="currentStep === 1" class="space-y-6">
-        <div class="text-center mb-6">
-          <h2 class="text-2xl font-bold text-surface-900 dark:text-surface-0 mb-2">Personal Information</h2>
-          <p class="text-surface-500">Tell us about the victim</p>
+      <div v-if="currentStep === 1" class="space-y-8">
+        <div class="text-center mb-10">
+          <div class="inline-block p-3 rounded-2xl bg-primary-50 dark:bg-primary-900/20 mb-4">
+            <i class="pi pi-user text-3xl text-primary-500"></i>
+          </div>
+          <h2 class="text-3xl font-black text-surface-900 dark:text-surface-0 mb-2">Personal Information</h2>
+          <p class="text-surface-500 text-lg">Tell us about the identity of the victim</p>
         </div>
 
-        <div class="max-w-2xl mx-auto space-y-5">
-          <!-- Photo Upload -->
-          <div>
-            <label class="block text-sm font-medium mb-2 text-surface-700 dark:text-surface-300">Photo</label>
-            <label 
-              class="flex flex-col items-center justify-center w-full h-36 border-2 border-dashed rounded-xl cursor-pointer transition-all"
+        <div class="max-w-2xl mx-auto space-y-6">
+          <!-- Photo Upload Redesign -->
+          <div class="relative group">
+            <label class="block text-sm font-bold mb-3 text-surface-700 dark:text-surface-300 ml-1">Victim Photo</label>
+            <div 
+              class="relative flex flex-col items-center justify-center w-full h-48 border-2 border-dashed rounded-2xl cursor-pointer transition-all duration-300 overflow-hidden"
               :class="[
                 selectedFile 
-                  ? 'border-primary-400 bg-primary-50 dark:bg-primary-900/20' 
-                  : 'border-surface-300 dark:border-surface-600 hover:border-primary-400 dark:hover:border-primary-500 bg-surface-50 dark:bg-surface-800 hover:bg-surface-100 dark:hover:bg-surface-700'
+                  ? 'border-primary-500 bg-primary-50/30 dark:bg-primary-900/10' 
+                  : 'border-surface-300 dark:border-surface-700 hover:border-primary-400 dark:hover:border-primary-500 bg-surface-100 dark:bg-surface-900 hover:bg-surface-200 dark:hover:bg-surface-800'
               ]"
             >
-              <!-- Preview if file selected -->
-              <div v-if="selectedFile && previewUrl" class="flex items-center gap-4 px-4">
-                <img :src="previewUrl" alt="Preview" class="w-16 h-16 rounded-lg object-cover shadow-sm" />
-                <div class="text-left">
-                  <p class="text-sm font-medium text-surface-900 dark:text-surface-0 truncate max-w-[200px]">{{ selectedFile.name }}</p>
-                  <p class="text-xs text-surface-500">{{ formatFileSize(selectedFile.size) }}</p>
-                  <button 
-                    type="button"
-                    @click.prevent="clearFile"
-                    class="text-xs text-red-500 hover:text-red-600 mt-1"
-                  >
-                    Remove
-                  </button>
-                </div>
-              </div>
-              <!-- Default upload prompt -->
-              <div v-else class="flex flex-col items-center justify-center py-4">
-                <div class="w-12 h-12 rounded-full bg-surface-200 dark:bg-surface-700 flex items-center justify-center mb-2">
-                  <i class="pi pi-image text-xl text-surface-400 dark:text-surface-500"></i>
-                </div>
-                <p class="text-sm text-surface-600 dark:text-surface-400">Click to upload photo</p>
-                <p class="text-xs text-surface-400 dark:text-surface-500 mt-1">JPG, PNG. Max 10MB</p>
-              </div>
               <input 
                 type="file" 
-                class="hidden" 
+                class="absolute inset-0 opacity-0 cursor-pointer z-20" 
                 accept=".jpg,.jpeg,.jfif,.pjpeg,.pjp,.png,image/jpeg,image/png"
                 @change="onFileInputChange"
               />
-            </label>
+              
+              <!-- Preview if file selected -->
+              <div v-if="selectedFile && previewUrl" class="absolute inset-0 flex items-center gap-6 px-6 z-10 bg-surface-0/90 dark:bg-surface-900/90 backdrop-blur-sm">
+                <div class="relative group/img">
+                  <img :src="previewUrl" alt="Preview" class="w-24 h-24 rounded-2xl object-cover shadow-2xl ring-4 ring-surface-100 dark:ring-surface-800 dark:brightness-[0.85]" />
+                  <div class="absolute inset-0 bg-black/20 rounded-2xl opacity-0 group-hover/img:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
+                    <i class="pi pi-eye text-white text-xl"></i>
+                  </div>
+                </div>
+                <div class="flex-1 min-w-0">
+                  <p class="text-base font-bold text-surface-900 dark:text-surface-0 truncate">{{ selectedFile.name }}</p>
+                  <p class="text-sm text-surface-500 font-medium">{{ formatFileSize(selectedFile.size) }}</p>
+                  <button 
+                    type="button"
+                    @click.stop.prevent="clearFile"
+                    class="mt-3 px-4 py-1.5 rounded-lg bg-red-50 dark:bg-red-900/20 text-red-500 hover:bg-red-100 dark:hover:bg-red-900/30 text-xs font-bold transition-colors flex items-center gap-2"
+                  >
+                    <i class="pi pi-trash"></i>
+                    Remove Photo
+                  </button>
+                </div>
+              </div>
+
+              <!-- Default upload prompt -->
+              <div v-else class="flex flex-col items-center justify-center py-6 pointer-events-none">
+                <div class="w-16 h-16 rounded-3xl bg-surface-200 dark:bg-surface-700 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-500">
+                  <i class="pi pi-cloud-upload text-3xl text-surface-500 group-hover:text-primary-500 transition-colors"></i>
+                </div>
+                <p class="text-lg font-bold text-surface-700 dark:text-surface-200">Drop photo here or click</p>
+                <p class="text-sm text-surface-500 mt-2">Maximum file size: <span class="font-bold">2MB</span></p>
+              </div>
+            </div>
           </div>
 
-          <!-- Name -->
-          <div>
-            <label class="block text-sm font-medium mb-2">Full Name <span class="text-red-500">*</span></label>
-            <InputText
-              v-model="form.name"
-              placeholder="Full name of the victim"
-              class="w-full"
-              :invalid="stepErrors.name"
-            />
-            <small v-if="stepErrors.name" class="text-red-500">Name is required</small>
-          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Name -->
+            <div class="md:col-span-2">
+              <IftaLabel>
+                <InputText
+                  id="v_name"
+                  v-model="form.name"
+                  class="w-full"
+                  variant="filled"
+                  :invalid="stepErrors.name"
+                />
+                <label for="v_name">Full Name *</label>
+              </IftaLabel>
+              <small v-if="stepErrors.name" class="text-red-500 mt-1 block px-1">Please enter the victim's name</small>
+            </div>
 
-          <!-- Age & Gender -->
-          <div class="grid grid-cols-2 gap-4">
-            <div>
-              <label class="block text-sm font-medium mb-2">Age</label>
+            <!-- Age & Gender -->
+            <IftaLabel>
               <InputNumber
+                id="v_age"
                 v-model="form.age"
-                placeholder="Age"
                 class="w-full"
+                variant="filled"
                 :min="0"
                 :max="150"
               />
-            </div>
-            <div>
-              <label class="block text-sm font-medium mb-2">Gender</label>
+              <label for="v_age">Age</label>
+            </IftaLabel>
+
+            <IftaLabel>
               <Select
+                id="v_gender"
                 v-model="form.gender"
                 :options="genderOptions"
-                placeholder="Select"
                 class="w-full"
+                variant="filled"
               />
+              <label for="v_gender">Gender</label>
+            </IftaLabel>
+
+            <!-- Occupation -->
+            <div class="md:col-span-2">
+              <IftaLabel>
+                <InputText
+                  id="v_occ"
+                  v-model="form.occupation"
+                  class="w-full"
+                  variant="filled"
+                />
+                <label for="v_occ">Occupation (e.g., Student, Teacher)</label>
+              </IftaLabel>
             </div>
-          </div>
 
-          <!-- Occupation -->
-          <div>
-            <label class="block text-sm font-medium mb-2">Occupation</label>
-            <InputText
-              v-model="form.occupation"
-              placeholder="e.g., Teacher, Student, Engineer"
-              class="w-full"
-            />
-          </div>
-
-          <!-- Birth Information -->
-          <div>
-            <label class="block text-sm font-medium mb-2">Birth Date</label>
-            <Calendar
-              v-model="form.birthDate"
-              dateFormat="yy/mm/dd"
-              showIcon
-              class="w-full"
-              placeholder="YYYY/MM/DD"
-            />
-          </div>
-          
-          <div class="grid grid-cols-2 gap-4">
-            <div>
-              <label class="block text-sm font-medium mb-2">Birth Province</label>
-              <Select
+            <!-- Birth Information -->
+            <div class="md:col-span-2">
+              <IftaLabel>
+                <Calendar
+                  id="v_birth_date"
+                  v-model="form.birthDate"
+                  dateFormat="yy/mm/dd"
+                  showIcon
+                  class="w-full"
+                  variant="filled"
+                  placeholder=" "
+                />
+                <label for="v_birth_date">Birth Date (YYYY/MM/DD)</label>
+              </IftaLabel>
+            </div>
+            
+            <IftaLabel>
+              <AutoComplete
+                id="v_birth_prov"
                 v-model="form.birthProvince"
-                :options="provinces"
+                :suggestions="filteredProvinces"
+                @complete="searchProvinces"
                 optionLabel="name"
                 optionValue="name"
-                placeholder="Province"
                 class="w-full"
-                filter
+                variant="filled"
+                dropdown
               />
-            </div>
-            <div>
-              <label class="block text-sm font-medium mb-2">Birth City</label>
+              <label for="v_birth_prov">Birth Province</label>
+            </IftaLabel>
+
+            <IftaLabel>
               <InputText
+                id="v_birth_city"
                 v-model="form.birthCity"
-                placeholder="City"
                 class="w-full"
+                variant="filled"
               />
-            </div>
+              <label for="v_birth_city">Birth City</label>
+            </IftaLabel>
           </div>
         </div>
       </div>
 
       <!-- Step 3: Incident Details -->
-      <div v-if="currentStep === 2" class="space-y-6">
-        <div class="text-center mb-6">
-          <h2 class="text-2xl font-bold text-surface-900 dark:text-surface-0 mb-2">Incident Details</h2>
-          <p class="text-surface-500">Provide information about the incident</p>
+      <div v-if="currentStep === 2" class="space-y-8">
+        <div class="text-center mb-10">
+          <div class="inline-block p-3 rounded-2xl bg-red-50 dark:bg-red-900/20 mb-4">
+            <i class="pi pi-map-marker text-3xl text-red-500"></i>
+          </div>
+          <h2 class="text-3xl font-black text-surface-900 dark:text-surface-0 mb-2">Incident Details</h2>
+          <p class="text-surface-500 text-lg">Help us document what happened and where</p>
         </div>
 
-        <div class="max-w-2xl mx-auto space-y-5">
-          <!-- Location -->
-          <div class="grid grid-cols-2 gap-4">
-            <div>
-              <label class="block text-sm font-medium mb-2">
-                {{ form.status === 'Missing' ? 'Last Seen Location - Province' : 'Incident Location - Province' }}
-              </label>
-              <Select
-                v-model="form.incident_province"
-                :options="provinces"
-                optionLabel="name"
-                optionValue="name"
-                placeholder="Select province"
-                class="w-full"
-                filter
-              />
-            </div>
-            <div>
-              <label class="block text-sm font-medium mb-2">
-                {{ form.status === 'Missing' ? 'Last Seen Location - City' : 'Incident Location - City' }}
-              </label>
-              <InputText
-                v-model="form.incident_city"
-                placeholder="e.g., Tehran"
-                class="w-full"
-              />
+        <div class="max-w-2xl mx-auto space-y-8">
+          <!-- Location Group -->
+          <div class="space-y-4">
+            <h3 class="text-xs font-black uppercase tracking-widest text-surface-400 mb-2">Location</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <IftaLabel>
+                <AutoComplete
+                  id="inc_prov"
+                  v-model="form.incident_province"
+                  :suggestions="filteredProvinces"
+                  @complete="searchProvinces"
+                  optionLabel="name"
+                  optionValue="name"
+                  class="w-full"
+                  variant="filled"
+                  dropdown
+                />
+                <label for="inc_prov">{{ form.status === 'Missing' ? 'Last Seen Province' : 'Incident Province' }}</label>
+              </IftaLabel>
+
+              <IftaLabel>
+                <InputText
+                  id="inc_city"
+                  v-model="form.incident_city"
+                  class="w-full"
+                  variant="filled"
+                />
+                <label for="inc_city">{{ form.status === 'Missing' ? 'Last Seen City' : 'Incident City' }}</label>
+              </IftaLabel>
             </div>
           </div>
 
-          <!-- Date -->
-          <div class="grid grid-cols-2 gap-4">
-            <div>
-              <label class="block text-sm font-medium mb-2">
-                {{ form.status === 'Missing' ? 'Last Seen Date' : 'Date of Death' }}
-              </label>
-              <Calendar
-                v-model="form.dateOfDeath"
-                dateFormat="yy/mm/dd"
-                showIcon
-                class="w-full"
-                placeholder="YYYY/MM/DD"
-              />
-            </div>
-            <div class="flex items-end pb-2">
-              <div class="flex items-center">
+          <!-- Date Group -->
+          <div class="space-y-4">
+            <h3 class="text-xs font-black uppercase tracking-widest text-surface-400 mb-2">Timeline</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <IftaLabel>
+                <Calendar
+                  id="inc_date"
+                  v-model="form.dateOfDeath"
+                  dateFormat="yy/mm/dd"
+                  showIcon
+                  class="w-full"
+                  variant="filled"
+                  placeholder=" "
+                />
+                <label for="inc_date">{{ form.status === 'Missing' ? 'Last Seen Date' : 'Date of Death' }}</label>
+              </IftaLabel>
+
+              <div class="flex items-center gap-3 bg-surface-100 dark:bg-surface-900 p-3 rounded-xl border border-surface-200 dark:border-surface-700 w-full">
                 <Checkbox v-model="form.deathDateApproximate" inputId="approximate" binary />
-                <label for="approximate" class="ml-2 text-sm">Approximate Date</label>
+                <label for="approximate" class="text-sm font-bold text-surface-700 dark:text-surface-300">Approximate Date</label>
               </div>
             </div>
           </div>
 
-          <!-- Cause of Death (only for Killed) -->
-          <div v-if="form.status === 'Killed'">
-            <label class="block text-sm font-medium mb-2">Cause of Death</label>
-            <Select
-              v-model="form.causeOfDeath"
-              :options="causeOfDeathOptions"
-              placeholder="Select cause"
-              class="w-full"
-            />
-          </div>
+          <!-- Specific Fields based on status -->
+          <div class="space-y-6">
+            <h3 class="text-xs font-black uppercase tracking-widest text-surface-400 mb-2">Circumstances</h3>
+            
+            <IftaLabel v-if="form.status === 'Killed'">
+              <Select
+                id="inc_cause"
+                v-model="form.causeOfDeath"
+                :options="causeOfDeathOptions"
+                class="w-full"
+                variant="filled"
+              />
+              <label for="inc_cause">Cause of Death</label>
+            </IftaLabel>
 
-          <!-- Disappearance Circumstances (only for Missing) -->
-          <div v-if="form.status === 'Missing'">
-            <label class="block text-sm font-medium mb-2">Disappearance Circumstances</label>
-            <Select
-              v-model="form.disappearanceCircumstances"
-              :options="disappearanceCircumstancesOptions"
-              placeholder="Select circumstances"
-              class="w-full"
-            />
-          </div>
+            <template v-if="form.status === 'Missing'">
+              <div class="grid grid-cols-1 gap-6">
+                <IftaLabel>
+                  <Select
+                    id="inc_circum"
+                    v-model="form.disappearanceCircumstances"
+                    :options="disappearanceCircumstancesOptions"
+                    class="w-full"
+                    variant="filled"
+                  />
+                  <label for="inc_circum">Disappearance Circumstances</label>
+                </IftaLabel>
 
-          <!-- Suspected Actor (only for Missing) -->
-          <div v-if="form.status === 'Missing'">
-            <label class="block text-sm font-medium mb-2">Suspected Actor</label>
-            <Select
-              v-model="form.suspectedActor"
-              :options="suspectedActorOptions"
-              placeholder="Select suspected actor"
-              class="w-full"
-            />
-          </div>
+                <IftaLabel>
+                  <Select
+                    id="inc_actor"
+                    v-model="form.suspectedActor"
+                    :options="suspectedActorOptions"
+                    class="w-full"
+                    variant="filled"
+                  />
+                  <label for="inc_actor">Suspected Actor</label>
+                </IftaLabel>
+              </div>
+            </template>
 
-          <!-- Description -->
-          <div>
-            <label class="block text-sm font-medium mb-2">
-              {{ form.status === 'Missing' ? 'Additional Details' : 'Incident Description' }}
-            </label>
-            <Textarea
-              v-model="form.description"
-              rows="4"
-              :placeholder="form.status === 'Missing' ? 'Any additional details about the disappearance...' : 'Describe what happened, any details about the incident...'"
-              class="w-full"
-            />
+            <IftaLabel>
+              <Textarea
+                id="inc_desc"
+                v-model="form.description"
+                rows="4"
+                class="w-full"
+                variant="filled"
+                autoResize
+              />
+              <label for="inc_desc">{{ form.status === 'Missing' ? 'Additional Details' : 'Incident Description' }}</label>
+            </IftaLabel>
           </div>
 
           <!-- Source Information -->
-          <div class="border-t border-surface-200 dark:border-surface-700 pt-5">
-            <h3 class="font-semibold mb-4">Source Information</h3>
-            
-            <div class="mb-4">
-              <label class="block text-sm font-medium mb-2">Source Type <span class="text-red-500">*</span></label>
-              <Select
-                v-model="form.sourceType"
-                :options="sourceTypeOptions"
-                placeholder="How do you know about this?"
-                class="w-full"
-                :invalid="stepErrors.sourceType"
-              />
-               <small v-if="stepErrors.sourceType" class="text-red-500">Source type is required</small>
+          <div class="p-6 rounded-2xl bg-primary-50/50 dark:bg-primary-900/5 border border-primary-100 dark:border-primary-900/20 space-y-6">
+            <div class="flex items-center gap-3 mb-2">
+              <i class="pi pi-verified text-primary-500"></i>
+              <h3 class="font-bold text-surface-900 dark:text-surface-0">Source Verification</h3>
             </div>
+            
+            <div class="grid grid-cols-1 gap-6">
+              <div>
+                <IftaLabel>
+                  <Select
+                    id="src_type"
+                    v-model="form.sourceType"
+                    :options="sourceTypeOptions"
+                    class="w-full"
+                    variant="filled"
+                    :invalid="stepErrors.sourceType"
+                  />
+                  <label for="src_type">Source Type *</label>
+                </IftaLabel>
+                <small v-if="stepErrors.sourceType" class="text-red-500 mt-1 block px-1">Please select a source type</small>
+              </div>
 
-            <div v-if="form.sourceType === 'Social Media'">
-              <label class="block text-sm font-medium mb-2">Social Media Link <span class="text-red-500">*</span></label>
-              <InputText
-                v-model="form.socialMediaLink"
-                placeholder="https://twitter.com/... or https://instagram.com/..."
-                class="w-full"
-                :invalid="stepErrors.socialMediaLink"
-              />
-              <small v-if="stepErrors.socialMediaLink" class="text-red-500">Link is required for social media sources</small>
+              <div v-if="form.sourceType === 'Social Media'">
+                <IftaLabel>
+                  <InputText
+                    id="src_link"
+                    v-model="form.socialMediaLink"
+                    class="w-full"
+                    variant="filled"
+                    :invalid="stepErrors.socialMediaLink"
+                  />
+                  <label for="src_link">Social Media Link *</label>
+                </IftaLabel>
+                <small v-if="stepErrors.socialMediaLink" class="text-red-500 mt-1 block px-1">Link is required for social media sources</small>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Step 4: Review -->
-      <div v-if="currentStep === 3" class="space-y-6">
-        <div class="text-center mb-6">
-          <h2 class="text-2xl font-bold text-surface-900 dark:text-surface-0 mb-2">Review Your Submission</h2>
-          <p class="text-surface-500">Please verify all information before submitting</p>
+      <div v-if="currentStep === 3" class="space-y-8">
+        <div class="text-center mb-10">
+          <div class="inline-block p-3 rounded-2xl bg-amber-50 dark:bg-amber-900/20 mb-4">
+            <i class="pi pi-clipboard text-3xl text-amber-500"></i>
+          </div>
+          <h2 class="text-3xl font-black text-surface-900 dark:text-surface-0 mb-2">Review Submission</h2>
+          <p class="text-surface-500 text-lg">Verify the record before official archival</p>
         </div>
 
-        <div class="max-w-2xl mx-auto space-y-4">
-          <!-- Status Badge -->
-          <div class="text-center mb-6">
-            <span 
+        <div class="max-w-4xl mx-auto">
+          <div class="bg-surface-0 dark:bg-surface-900 rounded-3xl border border-surface-200 dark:border-surface-800 shadow-2xl overflow-hidden">
+            <!-- Header/Status Banner -->
+            <div 
               :class="[
-                'inline-flex items-center gap-2 px-6 py-3 rounded-full font-bold text-lg',
-                form.status === 'Killed' 
-                  ? 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400' 
-                  : 'bg-orange-100 text-orange-700 dark:bg-orange-900/30 dark:text-orange-400'
+                'px-8 py-6 flex flex-col md:flex-row justify-between items-center gap-4 border-b',
+                form.status === 'Killed' ? 'bg-red-50/50 dark:bg-red-900/10 border-red-100 dark:border-red-900/20' : 'bg-orange-50/50 dark:bg-orange-900/10 border-orange-100 dark:border-orange-900/20'
               ]"
             >
-              <i :class="form.status === 'Killed' ? 'pi pi-heart-fill' : 'pi pi-question-circle'"></i>
-              {{ form.status }}
-            </span>
-          </div>
-
-          <!-- Personal Info Card -->
-          <div class="bg-surface-50 dark:bg-surface-800 rounded-xl p-5">
-            <h3 class="font-bold text-surface-900 dark:text-surface-0 mb-3 flex items-center gap-2">
-              <i class="pi pi-user text-primary-500"></i>
-              Personal Information
-            </h3>
-            <div class="grid grid-cols-2 gap-3 text-sm">
-              <div>
-                <span class="text-surface-500">Name:</span>
-                <span class="ml-2 font-medium text-surface-900 dark:text-surface-0">{{ form.name || '-' }}</span>
+              <div class="flex items-center gap-4">
+                <div 
+                  :class="[
+                    'w-12 h-12 rounded-xl flex items-center justify-center text-xl shadow-lg',
+                    form.status === 'Killed' ? 'bg-red-500 text-white' : 'bg-orange-500 text-white'
+                  ]"
+                >
+                  <i :class="form.status === 'Killed' ? 'pi pi-heart-fill' : 'pi pi-search'"></i>
+                </div>
+                <div>
+                  <h3 class="text-xl font-black text-surface-900 dark:text-surface-0">ARCHIVAL RECORD</h3>
+                  <p :class="['text-sm font-bold uppercase tracking-widest', form.status === 'Killed' ? 'text-red-600 dark:text-red-400' : 'text-orange-600 dark:text-orange-400']">
+                    {{ form.status }} Status
+                  </p>
+                </div>
               </div>
-              <div>
-                <span class="text-surface-500">Age:</span>
-                <span class="ml-2 font-medium text-surface-900 dark:text-surface-0">{{ form.age || '-' }}</span>
-              </div>
-              <div>
-                <span class="text-surface-500">Gender:</span>
-                <span class="ml-2 font-medium text-surface-900 dark:text-surface-0">{{ form.gender || '-' }}</span>
-              </div>
-              <div>
-                <span class="text-surface-500">Occupation:</span>
-                <span class="ml-2 font-medium text-surface-900 dark:text-surface-0">{{ form.occupation || '-' }}</span>
+              <div class="flex items-center gap-2 px-4 py-2 bg-white dark:bg-surface-800 rounded-xl shadow-sm border border-surface-200 dark:border-surface-700">
+                <i class="pi pi-calendar text-primary-500"></i>
+                <span class="text-sm font-bold text-surface-600 dark:text-surface-300">{{ new Date().toLocaleDateString() }}</span>
               </div>
             </div>
-          </div>
 
-          <!-- Incident Details Card -->
-          <div class="bg-surface-50 dark:bg-surface-800 rounded-xl p-5">
-            <h3 class="font-bold text-surface-900 dark:text-surface-0 mb-3 flex items-center gap-2">
-              <i class="pi pi-map-marker text-red-500"></i>
-              {{ form.status === 'Missing' ? 'Disappearance Details' : 'Incident Details' }}
-            </h3>
-            <div class="grid grid-cols-2 gap-3 text-sm">
-              <div>
-                <span class="text-surface-500">{{ form.status === 'Missing' ? 'Last Seen:' : 'Location:' }}</span>
-                <span class="ml-2 font-medium text-surface-900 dark:text-surface-0">
-                  {{ form.incident_city || '-' }}{{ form.incident_province ? `, ${form.incident_province}` : '' }}
-                </span>
-              </div>
-              <div>
-                <span class="text-surface-500">{{ form.status === 'Missing' ? 'Last Seen Date:' : 'Date:' }}</span>
-                <span class="ml-2 font-medium text-surface-900 dark:text-surface-0">
-                  {{ form.dateOfDeath ? formatDateDisplay(form.dateOfDeath) : '-' }}
-                  {{ form.deathDateApproximate ? '(Approx.)' : '' }}
-                </span>
-              </div>
-              <div v-if="form.status === 'Killed'">
-                <span class="text-surface-500">Cause:</span>
-                <span class="ml-2 font-medium text-surface-900 dark:text-surface-0">{{ form.causeOfDeath || '-' }}</span>
-              </div>
-              <div v-if="form.status === 'Missing'">
-                <span class="text-surface-500">Circumstances:</span>
-                <span class="ml-2 font-medium text-surface-900 dark:text-surface-0">{{ form.disappearanceCircumstances || '-' }}</span>
-              </div>
-              <div v-if="form.status === 'Missing'">
-                <span class="text-surface-500">Suspected Actor:</span>
-                <span class="ml-2 font-medium text-surface-900 dark:text-surface-0">{{ form.suspectedActor || '-' }}</span>
-              </div>
-              <div>
-                <span class="text-surface-500">Source:</span>
-                <span class="ml-2 font-medium text-surface-900 dark:text-surface-0">{{ form.sourceType || '-' }}</span>
+            <div class="p-8 md:p-10">
+              <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
+                <!-- Left: Photo & Basic Identity -->
+                <div class="md:col-span-4 flex flex-col items-center md:items-start">
+                  <div class="relative w-full aspect-square md:w-full max-w-[240px] rounded-3xl overflow-hidden shadow-2xl ring-8 ring-surface-100 dark:ring-surface-900/50 mb-6 bg-surface-100 dark:bg-surface-950 flex items-center justify-center">
+                    <img v-if="previewUrl" :src="previewUrl" alt="Victim Photo" class="w-full h-full object-cover dark:brightness-[0.85]" />
+                    <div v-else class="flex flex-col items-center text-surface-300 dark:text-surface-600 p-8 text-center">
+                      <i class="pi pi-user text-6xl mb-4"></i>
+                      <p class="text-sm font-bold">No Photo Provided</p>
+                    </div>
+                  </div>
+                  <div class="text-center md:text-left w-full">
+                    <h4 class="text-2xl font-black text-surface-900 dark:text-surface-0 mb-1">{{ form.name }}</h4>
+                    <p class="text-primary-500 font-bold mb-4">{{ form.occupation || 'Occupation Not Listed' }}</p>
+                    <div class="flex flex-wrap justify-center md:justify-start gap-2">
+                      <span v-if="form.age" class="px-3 py-1 bg-surface-100 dark:bg-surface-800 rounded-full text-xs font-bold text-surface-600 dark:text-surface-400">
+                        {{ form.age }} Years Old
+                      </span>
+                      <span v-if="form.gender" class="px-3 py-1 bg-surface-100 dark:bg-surface-800 rounded-full text-xs font-bold text-surface-600 dark:text-surface-400">
+                        {{ form.gender }}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Right: Details Grid -->
+                <div class="md:col-span-8 space-y-8">
+                  <!-- Birth Info Section -->
+                  <div>
+                    <div class="flex items-center gap-2 mb-4 border-b border-surface-100 dark:border-surface-800 pb-2">
+                      <i class="pi pi-user-plus text-primary-500"></i>
+                      <h5 class="text-sm font-black uppercase tracking-widest text-surface-400">Personal History</h5>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8">
+                      <div>
+                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Birth Date</p>
+                        <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.birthDate ? formatDateDisplay(form.birthDate) : 'Not Disclosed' }}</p>
+                      </div>
+                      <div>
+                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Origin</p>
+                        <p class="text-sm font-bold text-surface-800 dark:text-surface-200">
+                          {{ form.birthCity }}{{ form.birthProvince ? `, ${form.birthProvince}` : '' }}{{ !form.birthCity && !form.birthProvince ? 'Not Disclosed' : '' }}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Incident Section -->
+                  <div>
+                    <div class="flex items-center gap-2 mb-4 border-b border-surface-100 dark:border-surface-800 pb-2">
+                      <i class="pi pi-exclamation-triangle text-red-500"></i>
+                      <h5 class="text-sm font-black uppercase tracking-widest text-surface-400">Incident Details</h5>
+                    </div>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8">
+                      <div>
+                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Date of Incident</p>
+                        <p class="text-sm font-bold text-surface-800 dark:text-surface-200">
+                          {{ form.dateOfDeath ? formatDateDisplay(form.dateOfDeath) : 'Date Unknown' }}
+                          <span v-if="form.deathDateApproximate" class="text-[10px] px-1.5 py-0.5 bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded ml-1 italic">Approx.</span>
+                        </p>
+                      </div>
+                      <div>
+                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Location</p>
+                        <p class="text-sm font-bold text-surface-800 dark:text-surface-200">
+                          {{ form.incident_city }}{{ form.incident_province ? `, ${form.incident_province}` : '' }}
+                        </p>
+                      </div>
+                      <div v-if="form.status === 'Killed'" class="sm:col-span-2">
+                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Cause of Death</p>
+                        <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.causeOfDeath || 'Pending Investigation' }}</p>
+                      </div>
+                      <template v-if="form.status === 'Missing'">
+                        <div>
+                          <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Circumstances</p>
+                          <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.disappearanceCircumstances || 'Unknown' }}</p>
+                        </div>
+                        <div>
+                          <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Suspected Actor</p>
+                          <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.suspectedActor || 'Unknown' }}</p>
+                        </div>
+                      </template>
+                    </div>
+                  </div>
+
+                  <!-- Narrative -->
+                  <div v-if="form.description">
+                    <div class="flex items-center gap-2 mb-4 border-b border-surface-100 dark:border-surface-800 pb-2">
+                      <i class="pi pi-align-left text-surface-400"></i>
+                      <h5 class="text-sm font-black uppercase tracking-widest text-surface-400">Additional Narrative</h5>
+                    </div>
+                    <p class="text-sm leading-relaxed text-surface-600 dark:text-surface-400 italic">
+                      "{{ form.description }}"
+                    </p>
+                  </div>
+
+                  <!-- Source -->
+                  <div class="pt-4 mt-6 border-t border-surface-100 dark:border-surface-800">
+                    <div class="flex items-center gap-3 p-4 rounded-2xl bg-surface-50 dark:bg-surface-800/50 border border-surface-100 dark:border-surface-700">
+                      <div class="w-10 h-10 rounded-full bg-primary-500/10 flex items-center justify-center">
+                        <i class="pi pi-shield-check text-primary-500"></i>
+                      </div>
+                      <div>
+                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400">Verified By</p>
+                        <p class="text-xs font-bold text-surface-700 dark:text-surface-300">
+                          {{ form.sourceType }} Source
+                          <span v-if="form.socialMediaLink" class="mx-2 opacity-30">|</span>
+                          <a v-if="form.socialMediaLink" :href="form.socialMediaLink" target="_blank" class="text-primary-500 hover:underline">Link Provided</a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div v-if="form.description" class="mt-3 pt-3 border-t border-surface-200 dark:border-surface-700">
-              <p class="text-surface-500 text-xs mb-1">{{ form.status === 'Missing' ? 'Additional Details:' : 'Description:' }}</p>
-              <p class="text-sm text-surface-700 dark:text-surface-300">{{ form.description }}</p>
+
+            <!-- Warning/Confirmation -->
+            <div class="p-6 bg-amber-50 dark:bg-amber-900/10 text-amber-700 dark:text-amber-400 text-xs font-medium flex items-start gap-4 mx-8 mb-8 rounded-2xl border border-amber-100 dark:border-amber-900/20">
+              <i class="pi pi-info-circle text-lg mt-0.5"></i>
+              <p class="leading-relaxed">
+                By submitting this report, you confirm that the information provided is accurate to the best of your knowledge. This data will be reviewed by researchers and permanently archived as part of the historical record.
+              </p>
             </div>
           </div>
 
           <!-- Turnstile -->
-          <div class="flex justify-center pt-4">
+          <div class="flex flex-col items-center gap-4 pt-8">
+            <p class="text-sm font-bold text-surface-500 uppercase tracking-widest">Security Verification</p>
             <div id="turnstile-victim" ref="turnstileContainer"></div>
           </div>
         </div>
@@ -528,6 +684,17 @@ const stepErrors = ref<Record<string, boolean>>({});
 
 // Load provinces
 const provinces = provincesData.map(p => ({ name: p }));
+const filteredProvinces = ref([...provinces]);
+
+function searchProvinces(event: { query: string }) {
+  if (!event.query.trim().length) {
+    filteredProvinces.value = [...provinces];
+  } else {
+    filteredProvinces.value = provinces.filter((province) => {
+      return province.name.toLowerCase().includes(event.query.toLowerCase());
+    });
+  }
+}
 
 // Dropdown options
 const genderOptions = ['Male', 'Female'];
@@ -638,9 +805,9 @@ function onFileInputChange(event: Event) {
   const input = event.target as HTMLInputElement;
   if (input.files && input.files[0]) {
     const file = input.files[0];
-    // Check file size (10MB max)
-    if (file.size > 10000000) {
-      alert('File size must be under 10MB');
+    // Check file size (2MB max)
+    if (file.size > 2000000) {
+      alert('File size must be under 2MB');
       return;
     }
     selectedFile.value = file;
