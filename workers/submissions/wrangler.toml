@@ -6,7 +6,7 @@ compatibility_date = "2024-01-01"
 enabled = true
 
 [vars]
-ALLOWED_ORIGINS = "https://iranarchive.net,http://localhost:3000"
+ALLOWED_ORIGINS = "https://iranarchive.net,http://localhost:3000,https://sepehrhn.github.io"
 GH_REPO_OWNER = "sepehrhn"
 GH_REPO_NAME = "IranArchive"
 
