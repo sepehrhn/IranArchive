@@ -58,9 +58,22 @@ date_of_death: "2026/01/20"
 # - Approximate: Estimated or uncertain date
 date_of_death_precision: "Exact"
 
-# Cause of Death (Optional)
+# Cause of Death (Optional, for status: Killed)
 # Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown' | 'Other'
 cause_of_death: ""
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: ""
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown' | 'Other'
+suspected_actor: ""
 
 # -----------------------------------------------------------------------------
 # Status

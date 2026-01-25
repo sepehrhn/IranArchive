@@ -10,7 +10,7 @@ import type { UploadedFileInfo } from '~/utils/submissionsClient';
 useHead({
     title: 'Victims - IranArchive',
     meta: [
-        { name: 'description', content: 'Documented victims of the protests in Iran. This list includes verified, disputed, and unverified reports.' }
+        { name: 'description', content: 'Documented victims of the protests in Iran. Honor their memory and support justice.' }
     ]
 });
 
@@ -21,17 +21,16 @@ const loading = ref(true);
 const allVictims = ref<Victim[]>([]);
 const filteredVictims = ref<Victim[]>([]);
 
-// Filter Options
-const cities = ref<string[]>([]);
-const provinces = ref<string[]>([]);
-const statuses = ref<string[]>([]);
+// Filter Options (populated from data)
+const allCities = ref<string[]>([]);
+const allProvinces = ref<string[]>([]);
+const provinceCityMap = ref<Record<string, string[]>>({});
 
 // Filter Models
 const searchQuery = ref('');
 const selectedCity = ref<string>();
 const selectedProvince = ref<string>();
 const selectedStatus = ref<string>();
-const dateRange = ref<Date[]>();
 const selectedSort = ref('recent');
 const showSubmitDialog = ref(false);
 const submitting = ref(false);
@@ -39,21 +38,57 @@ const submitSuccess = ref(false);
 const submitError = ref('');
 
 const sortOptions = [
-    { label: 'Recent', value: 'recent' },
+    { label: 'Most Recent', value: 'recent' },
     { label: 'Name (A-Z)', value: 'name_asc' },
     { label: 'Name (Z-A)', value: 'name_desc' }
 ];
+
+const statusOptions = [
+    { label: 'Killed', value: 'Killed' },
+    { label: 'Missing', value: 'Missing' }
+];
+
+// Computed: Cities filtered by selected province
+const availableCities = computed(() => {
+    if (selectedProvince.value && provinceCityMap.value[selectedProvince.value]) {
+        return provinceCityMap.value[selectedProvince.value];
+    }
+    return allCities.value;
+});
+
+// Check if any filters are active
+const hasActiveFilters = computed(() => {
+    return searchQuery.value || selectedCity.value || selectedProvince.value || selectedStatus.value;
+});
+
+// Active filter chips
+const activeFilters = computed(() => {
+    const filters: { key: string; label: string; value: string }[] = [];
+    if (searchQuery.value) {
+        filters.push({ key: 'search', label: 'Search', value: searchQuery.value });
+    }
+    if (selectedProvince.value) {
+        filters.push({ key: 'province', label: 'Province', value: selectedProvince.value });
+    }
+    if (selectedCity.value) {
+        filters.push({ key: 'city', label: 'City', value: selectedCity.value });
+    }
+    if (selectedStatus.value) {
+        filters.push({ key: 'status', label: 'Status', value: selectedStatus.value });
+    }
+    return filters;
+});
 
 // Methods
 const loadData = async () => {
     loading.value = true;
     allVictims.value = await listVictims();
     
-    // Build options
+    // Build options from data
     const options = buildFilterOptions(allVictims.value);
-    cities.value = options.cities.map(c => c); // PrimeVue simple dropdown compatibility
-    provinces.value = options.provinces.map(p => p);
-    statuses.value = options.statuses.map(s => s);
+    allCities.value = options.cities;
+    allProvinces.value = options.provinces;
+    provinceCityMap.value = options.provinceCityMap;
     
     applyFilters();
     loading.value = false;
@@ -65,8 +100,6 @@ const applyFilters = () => {
         city: selectedCity.value,
         province: selectedProvince.value,
         status: selectedStatus.value,
-        dateFrom: dateRange.value ? dateRange.value[0] : undefined,
-        dateTo: dateRange.value ? dateRange.value[1] : undefined,
         sort: selectedSort.value
     });
 };
@@ -76,9 +109,27 @@ const clearFilters = () => {
     selectedCity.value = undefined;
     selectedProvince.value = undefined;
     selectedStatus.value = undefined;
-    dateRange.value = undefined;
     selectedSort.value = 'recent';
     applyFilters();
+};
+
+const removeFilter = (key: string) => {
+    switch (key) {
+        case 'search':
+            searchQuery.value = '';
+            break;
+        case 'province':
+            selectedProvince.value = undefined;
+            // Also clear city if it was province-dependent
+            selectedCity.value = undefined;
+            break;
+        case 'city':
+            selectedCity.value = undefined;
+            break;
+        case 'status':
+            selectedStatus.value = undefined;
+            break;
+    }
 };
 
 const handleSubmission = async (payload: any) => {
@@ -89,13 +140,12 @@ const handleSubmission = async (payload: any) => {
     try {
         const { kind, data, files, turnstileToken } = payload;
 
-        // Step 1: Initialize upload
         const fileInfos = await Promise.all(
             files.map(async (file: File) => ({
                 name: file.name,
                 size: file.size,
                 mime: file.type,
-                sha256: '' // Will be calculated by initUpload
+                sha256: ''
             }))
         );
 
@@ -105,7 +155,6 @@ const handleSubmission = async (payload: any) => {
             kind
         });
 
-        // Step 2: Upload files to R2
         const uploadedFiles: UploadedFileInfo[] = [];
         for (let i = 0; i < files.length; i++) {
             await uploadToR2(files[i], initResponse.uploads[i].putUrl);
@@ -119,7 +168,6 @@ const handleSubmission = async (payload: any) => {
             });
         }
 
-        // Step 3: Complete submission
         await completeSubmission({
             submissionId: initResponse.submissionId,
             kind,
@@ -140,14 +188,23 @@ const handleSubmission = async (payload: any) => {
     }
 };
 
-const formatStatusLabel = (s: string) => {
-    if (s === 'not_verified') return 'Not Verified';
-    return s.charAt(0).toUpperCase() + s.slice(1);
-};
+// Stats
+const killedCount = computed(() => allVictims.value.filter(v => v.status?.toLowerCase() === 'killed').length);
+const missingCount = computed(() => allVictims.value.filter(v => v.status?.toLowerCase() === 'missing').length);
 
 // Watchers
-watch([searchQuery, selectedCity, selectedProvince, selectedStatus, dateRange, selectedSort], () => {
+watch([searchQuery, selectedCity, selectedProvince, selectedStatus, selectedSort], () => {
     applyFilters();
+});
+
+// When province changes, clear city if it's not in the new province
+watch(selectedProvince, (newProvince) => {
+    if (newProvince && selectedCity.value) {
+        const citiesInProvince = provinceCityMap.value[newProvince] || [];
+        if (!citiesInProvince.includes(selectedCity.value)) {
+            selectedCity.value = undefined;
+        }
+    }
 });
 
 // Initialization
@@ -158,64 +215,156 @@ onMounted(() => {
 
 <template>
     <div class="space-y-6">
-        <!-- Header Card -->
-        <div class="flex flex-col gap-6 bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-800 shadow-sm mb-6">
-            <!-- Title & Actions -->
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-                <div>
-                    <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">Victims</h1>
-                    <p class="text-surface-500 dark:text-surface-400 mt-1">
-                        {{ filteredVictims.length }} records found
+        <!-- Hero Section -->
+        <div class="relative bg-gradient-to-br from-surface-800 via-surface-700 to-surface-800 dark:from-surface-950 dark:via-surface-900 dark:to-surface-950 rounded-2xl overflow-hidden">
+            <div class="absolute inset-0 bg-[url('/images/pattern.svg')] opacity-5"></div>
+            <div class="relative px-8 py-12 md:py-16">
+                <div class="max-w-3xl">
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+                        Remembering the Victims
+                    </h1>
+                    <p class="text-lg text-surface-200 dark:text-surface-300 mb-6 leading-relaxed">
+                        This archive documents those who lost their lives or went missing during the protests in Iran. 
+                        Their stories must be told. Their sacrifice must not be forgotten.
                     </p>
+                    
+                    <!-- Stats -->
+                    <div class="flex flex-wrap gap-6 mb-8">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-red-500/20 flex items-center justify-center">
+                                <i class="pi pi-heart-fill text-red-400 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-white">{{ killedCount }}</p>
+                                <p class="text-sm text-surface-300 dark:text-surface-400">Killed</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center">
+                                <i class="pi pi-question-circle text-orange-400 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-white">{{ missingCount }}</p>
+                                <p class="text-sm text-surface-300 dark:text-surface-400">Missing</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-primary-500/20 flex items-center justify-center">
+                                <i class="pi pi-users text-primary-400 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-white">{{ allVictims.length }}</p>
+                                <p class="text-sm text-surface-300 dark:text-surface-400">Total Documented</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="flex flex-wrap gap-4">
+                        <Button
+                            label="Submit a Victim"
+                            icon="pi pi-plus"
+                            @click="showSubmitDialog = true"
+                            class="!bg-white !text-surface-900 hover:!bg-surface-100"
+                        />
+                        <NuxtLink to="/docs/victims-submission">
+                            <Button label="Submission Guide" icon="pi pi-book" outlined class="!border-white/30 !text-white hover:!bg-white/10" />
+                        </NuxtLink>
+                    </div>
                 </div>
-                <div class="flex items-center gap-3">
-                    <Button
-                        label="Submit Victim"
-                        icon="pi pi-plus"
-                        @click="showSubmitDialog = true"
-                        class="text-sm"
+            </div>
+        </div>
+
+        <!-- Filters Section -->
+        <div class="bg-surface-0 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-700 p-5 shadow-sm">
+            <!-- Filter Row -->
+            <div class="flex flex-col lg:flex-row gap-4 items-start lg:items-center">
+                <!-- Search -->
+                <div class="w-full lg:w-72">
+                    <IconField iconPosition="left" class="w-full">
+                        <InputIcon class="pi pi-search"></InputIcon>
+                        <InputText 
+                            v-model="searchQuery" 
+                            placeholder="Search name, location, occupation..." 
+                            class="w-full" 
+                        />
+                    </IconField>
+                </div>
+
+                <!-- Filter Dropdowns -->
+                <div class="flex flex-wrap gap-3 w-full lg:w-auto lg:flex-1 lg:justify-end">
+                    <Select 
+                        v-model="selectedProvince" 
+                        :options="allProvinces" 
+                        placeholder="Province" 
+                        showClear 
+                        class="w-full sm:w-40"
                     />
-                    <NuxtLink to="/docs/victims-submission">
-                        <Button label="Documentation" icon="pi pi-book" severity="secondary" outlined class="text-sm" />
-                    </NuxtLink>
+                    <Select 
+                        v-model="selectedCity" 
+                        :options="availableCities" 
+                        placeholder="City" 
+                        showClear 
+                        class="w-full sm:w-40"
+                        :disabled="availableCities.length === 0"
+                    />
+                    <Select 
+                        v-model="selectedStatus" 
+                        :options="statusOptions" 
+                        optionLabel="label"
+                        optionValue="value"
+                        placeholder="Status" 
+                        showClear 
+                        class="w-full sm:w-32"
+                    />
+                    <Select 
+                        v-model="selectedSort" 
+                        :options="sortOptions" 
+                        optionLabel="label" 
+                        optionValue="value" 
+                        class="w-full sm:w-36"
+                    />
                 </div>
             </div>
-        </div>
 
-        <!-- Controls Toolbar -->
-        <div class="flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center bg-surface-0 dark:bg-surface-900 p-4 rounded-xl border border-surface-200 dark:border-surface-800 shadow-sm mb-8">
-            <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
-                <IconField iconPosition="left" class="w-full sm:w-64">
-                     <InputIcon class="pi pi-search"></InputIcon>
-                     <InputText v-model="searchQuery" placeholder="Search victims..." class="w-full" />
-                 </IconField>
+            <!-- Active Filters Chips -->
+            <div v-if="activeFilters.length > 0" class="mt-4 pt-4 border-t border-surface-200 dark:border-surface-700">
+                <div class="flex flex-wrap items-center gap-2">
+                    <span class="text-sm text-surface-500">Active filters:</span>
+                    <Chip 
+                        v-for="filter in activeFilters" 
+                        :key="filter.key"
+                        :label="`${filter.label}: ${filter.value}`"
+                        removable
+                        @remove="removeFilter(filter.key)"
+                        class="!bg-primary-100 !text-primary-700 dark:!bg-primary-900/30 dark:!text-primary-300"
+                    />
+                    <Button 
+                        label="Clear All" 
+                        icon="pi pi-times" 
+                        text 
+                        size="small"
+                        severity="secondary"
+                        @click="clearFilters" 
+                    />
+                </div>
             </div>
 
-            <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-between lg:justify-end">
-                 <Dropdown v-model="selectedCity" :options="cities" placeholder="City" showClear class="w-full sm:w-40" />
-                 <Dropdown v-model="selectedProvince" :options="provinces" placeholder="Province" showClear class="w-full sm:w-40" />
-                 
-                 <Dropdown v-model="selectedStatus" :options="statuses" placeholder="Status" showClear class="w-full sm:w-40">
-                    <template #option="{ option }">
-                        {{ formatStatusLabel(option) }}
-                    </template>
-                     <template #value="{ value, placeholder }">
-                        <span v-if="value">{{ formatStatusLabel(value) }}</span>
-                        <span v-else>{{ placeholder }}</span>
-                    </template>
-                 </Dropdown>
-
-                 <Dropdown v-model="selectedSort" :options="sortOptions" optionLabel="label" optionValue="value" placeholder="Sort Order" class="w-full sm:w-40" />
+            <!-- Results Count -->
+            <div class="mt-4 pt-4 border-t border-surface-200 dark:border-surface-700 flex items-center justify-between">
+                <p class="text-surface-500 text-sm">
+                    Showing <span class="font-semibold text-surface-900 dark:text-surface-0">{{ filteredVictims.length }}</span> 
+                    of <span class="font-semibold text-surface-900 dark:text-surface-0">{{ allVictims.length }}</span> victims
+                </p>
             </div>
-            
         </div>
 
-        <!-- Results -->
-        <div v-if="loading" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-            <div v-for="i in 8" :key="i" class="h-64 bg-surface-100 dark:bg-surface-800 rounded-lg animate-pulse"></div>
+        <!-- Results Grid -->
+        <div v-if="loading" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+            <div v-for="i in 10" :key="i" class="aspect-[4/5] bg-surface-100 dark:bg-surface-800 rounded-xl animate-pulse"></div>
         </div>
 
-        <div v-else-if="filteredVictims.length > 0" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div v-else-if="filteredVictims.length > 0" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
             <VictimGalleryCard 
                 v-for="victim in filteredVictims" 
                 :key="victim.id" 
@@ -223,26 +372,43 @@ onMounted(() => {
             />
         </div>
 
-        <div v-else class="text-center py-12 bg-surface-50 dark:bg-surface-900 rounded-lg border border-dashed border-surface-300 dark:border-surface-700">
-            <i class="pi pi-search text-4xl text-surface-400 mb-4"></i>
-            <h3 class="text-xl font-medium text-surface-900 dark:text-surface-0">No victims found</h3>
-            <p class="text-surface-500 mb-4">Try adjusting your search or filters.</p>
-            <Button label="Clear Filters" text @click="clearFilters" />
+        <!-- Empty State -->
+        <div v-else class="text-center py-16 bg-surface-50 dark:bg-surface-900 rounded-2xl border-2 border-dashed border-surface-300 dark:border-surface-700">
+            <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-surface-200 dark:bg-surface-800 flex items-center justify-center">
+                <i class="pi pi-search text-3xl text-surface-400"></i>
+            </div>
+            <h3 class="text-xl font-semibold text-surface-900 dark:text-surface-0 mb-2">No victims found</h3>
+            <p class="text-surface-500 mb-6 max-w-md mx-auto">
+                We couldn't find any victims matching your search criteria. Try adjusting your filters.
+            </p>
+            <Button label="Clear All Filters" icon="pi pi-refresh" @click="clearFilters" />
         </div>
     </div>
 
     <!-- Submit Dialog -->
-    <Dialog v-model:visible="showSubmitDialog" modal header="Submit New Victim" :style="{ width: '50rem' }" :breakpoints="{ '960px': '75vw', '640px': '90vw' }">
-        <div v-if="submitSuccess" class="text-center py-6">
-            <i class="pi pi-check-circle text-6xl text-green-500 mb-4"></i>
-            <h3 class="text-xl font-semibold mb-2">Submission Successful!</h3>
-            <p class="text-surface-600 dark:text-surface-400">Thank you for your submission. It will be reviewed shortly.</p>
+    <Dialog 
+        v-model:visible="showSubmitDialog" 
+        modal 
+        header="Submit New Victim" 
+        :style="{ width: '50rem' }" 
+        :breakpoints="{ '960px': '75vw', '640px': '95vw' }"
+        :dismissableMask="true"
+        :draggable="false"
+    >
+        <div v-if="submitSuccess" class="text-center py-8">
+            <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center">
+                <i class="pi pi-check text-4xl text-green-500"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-2 text-surface-900 dark:text-surface-0">Submission Successful!</h3>
+            <p class="text-surface-600 dark:text-surface-400">Thank you for your contribution. Your submission will be reviewed by our team.</p>
         </div>
-        <div v-else-if="submitError" class="text-center py-6">
-            <i class="pi pi-times-circle text-6xl text-red-500 mb-4"></i>
-            <h3 class="text-xl font-semibold mb-2 text-red-600">Submission Failed</h3>
-            <p class="text-surface-600 dark:text-surface-400">{{ submitError }}</p>
-            <Button label="Try Again" @click="submitError = ''" class="mt-4" />
+        <div v-else-if="submitError" class="text-center py-8">
+            <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-red-100 dark:bg-red-900/30 flex items-center justify-center">
+                <i class="pi pi-times text-4xl text-red-500"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-2 text-red-600">Submission Failed</h3>
+            <p class="text-surface-600 dark:text-surface-400 mb-4">{{ submitError }}</p>
+            <Button label="Try Again" icon="pi pi-refresh" @click="submitError = ''" />
         </div>
         <VictimSubmissionForm v-else :submitting="submitting" @submit="handleSubmission" />
     </Dialog>

@@ -42,7 +42,7 @@ const photoSrc = computed(() => {
                 <div class="text-sm text-surface-600 dark:text-surface-400 flex flex-col gap-1">
                     <div class="flex items-center gap-1">
                          <i class="pi pi-map-marker text-xs"></i>
-                         <span>{{ victim.city }}<span v-if="victim.province">, {{ victim.province }}</span></span>
+                         <span>{{ victim.incident_city }}<span v-if="victim.incident_province">, {{ victim.incident_province }}</span></span>
                     </div>
                     <div class="flex items-center gap-1">
                         <i class="pi pi-calendar text-xs"></i>
