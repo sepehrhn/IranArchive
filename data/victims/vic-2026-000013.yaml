@@ -1,0 +1,112 @@
+# ==========================================
+# Victim Documentation Template
+# ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
+
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
+photo: "vic-2026-000013.jpeg"
+
+# Full Name in English
+name: "Raha (Zahra) Bohloulipour"
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: "2007/01/01"
+
+# Province of Birth (Optional)
+birth_province: ""
+
+# City of Birth (Optional)
+birth_city: ""
+
+# Gender (Optional: "Male" or "Female")
+gender: "Female"
+
+# Occupation (Optional)
+occupation: "Student (Italian Language, Faculty of Languages and Literature, University of Tehran)"
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Tehran"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: "2026/01/08"
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: "Exact"
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown' | 'Other'
+cause_of_death: "Gunshot"
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: ""
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown' | 'Other'
+suspected_actor: "Security Forces"
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: "Killed"
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Raha (Zahra) Bohloulipour, born in 2007, was a student of Italian Language at the Faculty of Languages and Literature, University of Tehran. She was described as someone who loved French cinema and Italian literature.
+
+  According to reports, on the evening of 2026/01/08 she was participating in protests at Fatemi Square in Tehran when she was shot in the head. The weapon was reported as a Kalashnikov rifle.
+
+  Her last message, sent roughly an hour before she was shot, was reported as: “Women, Life, Freedom — forever.”
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Type (Optional)
+# Options: 'Family or Close Friend' | 'Eyewitness' | 'Hospital/Forensic' | 'Local Report' | 'Social Media'
+source_type: ""
+
+# Social Media Link (Required if source_type is 'Social Media')
+source_social_media_link: ""
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.

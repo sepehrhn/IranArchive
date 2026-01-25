@@ -77,7 +77,14 @@ export function getMediaUrl(options: MediaUrlOptions): string {
     // URL-encode the path segments
     const encodedPath = fullPath.split('/').map(segment => encodeURIComponent(segment)).join('/');
 
-    // Build the final URL
+    // Handle development vs production
+    // In development (local), serve from the local media proxy
+    // In production (build/generate), serve from GitHub Raw URLs
+    if (process.dev) {
+        return `/media/${kind}/${normalizedPath}`;
+    }
+
+    // Build the final URL for production
     const url = `${baseUrl}/${owner}/${repo}/${ref}/${encodedPath}`;
 
     return url;
