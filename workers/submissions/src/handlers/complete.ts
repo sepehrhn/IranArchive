@@ -10,11 +10,8 @@ export async function handleComplete(c: Context<{ Bindings: Env }>): Promise<Res
         // Get client IP
         const ip = c.req.header('CF-Connecting-IP') || c.req.header('X-Forwarded-For') || 'unknown';
 
-        // Verify Turnstile again
-        const turnstileValid = await verifyTurnstile(turnstileToken, c.env.TURNSTILE_SECRET_KEY, ip);
-        if (!turnstileValid) {
-            return c.json({ error: 'Invalid captcha' }, 403);
-        }
+        // Note: Turnstile is verified at init step. We rely on submissionId existence in KV as proof.
+        // Re-verifying the same token would fail as they are one-time use.
 
         // Load submission record
         const recordKey = `submission:${submissionId}`;
