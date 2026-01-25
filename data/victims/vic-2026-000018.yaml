@@ -1,0 +1,40 @@
+# ==========================================
+# Victim Documentation - Mehran Salimi
+# ==========================================
+
+photo: "placeholder.png"
+
+name: "Mehran Salimi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 28
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Alborz"
+incident_city: "Hashtgerd"
+
+# Death Information
+date_of_death: "2026/02/07"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Mehran Salimi was killed by a gunshot in Hashtgerd on February 7, 2026. 
+  By the time he was brought to the hospital, he had already passed away. 
+  His family managed to take his body out of the hospital at night, but security agents seized it from them while they were en route.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://javidnaam.org/PersonDetail?id=6974c74ab01bb93a62c8a6f8"

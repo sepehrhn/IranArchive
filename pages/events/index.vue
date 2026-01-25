@@ -1,18 +1,37 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue';
+import { ref, computed, watch } from 'vue';
 import type { ParsedEvent } from '~/server/utils/events/schemas';
 import { useCountries } from '~/composables/useCountries';
 
+useHead({
+    title: 'Events - IranArchive',
+    meta: [
+        { name: 'description', content: 'Find protests, rallies, and demonstrations in support of Iran happening across the globe.' }
+    ]
+});
+
 // Get Data
-const { data: events } = await useFetch<ParsedEvent[]>('/api/events');
+const { data: events, pending } = await useFetch<ParsedEvent[]>('/api/events', { lazy: true });
+
+// Load countries
+const { loadCountries } = useCountries();
+loadCountries();
 
 // State
-const activeTab = ref(0); // 0: Upcoming+Ongoing, 1: Held, 2: Canceled/Postponed
-const filters = ref({
-    search: '',
-    format: null,
-    country: null,
-    type: null
+
+const selectedCountry = ref<string | null>(null);
+const selectedCity = ref<string | null>(null);
+const showPastEvents = ref(false);
+const showSubmitDialog = ref(false);
+const showMobileFilters = ref(false); // Mobile Drawer State
+const filterLoading = ref(false);
+
+// Stats
+const stats = computed(() => {
+    if (!events.value) return { upcoming: 0, past: 0, total: 0 };
+    const upcoming = events.value.filter(e => ['upcoming', 'ongoing'].includes(e.computed_state)).length;
+    const past = events.value.filter(e => ['past', 'held'].includes(e.computed_state)).length;
+    return { upcoming, past, total: events.value.length };
 });
 
 // Filtering Logic
@@ -21,184 +40,339 @@ const filteredEvents = computed(() => {
     
     let res = events.value;
 
-    // 1. Filter by Tab
-    if (activeTab.value === 0) {
-        res = res.filter(e => ['upcoming', 'ongoing'].includes(e.computed_state));
-    } else if (activeTab.value === 1) {
-        res = res.filter(e => e.computed_state === 'held');
+    // 1. Filter by Past Events Toggle
+    if (showPastEvents.value) {
+        // Show ONLY past events when toggle is ON
+        res = res.filter(e => ['past', 'held'].includes(e.computed_state));
     } else {
-        res = res.filter(e => ['canceled', 'postponed'].includes(e.computed_state));
+        // Show only upcoming/ongoing events when toggle is OFF
+        res = res.filter(e => ['upcoming', 'ongoing'].includes(e.computed_state));
     }
 
-    // 2. Filter by Criteria
-    if (filters.value.search) {
-        const q = filters.value.search.toLowerCase();
-        res = res.filter(e => 
-            e.title.toLowerCase().includes(q) || 
-            e.location?.city?.toLowerCase().includes(q) ||
-            e.organizer.name.toLowerCase().includes(q)
-        );
-    }
-    if (filters.value.format) {
-        res = res.filter(e => e.format === filters.value.format);
-    }
-    if (filters.value.type) {
-        res = res.filter(e => e.type === filters.value.type);
-    }
-    if (filters.value.country) {
-        res = res.filter(e => e.location?.country === filters.value.country?.toUpperCase());
+    // 2. Filter by Country
+    if (selectedCountry.value) {
+        res = res.filter(e => e.location?.country === selectedCountry.value);
     }
 
-    // 3. Sort: Featured First, then by Date (Ascending for upcoming, Descending for held)
-    // Note: The API/Loader returns raw list sorted by start_at depending on implementation.
-    // Generally for upcoming: Closest first. For held: Newest first.
-    // Let's rely on loader's sort but hoist featured items.
-    
-    // Create a copy to sort
+    // 3. Filter by City
+    if (selectedCity.value) {
+        res = res.filter(e => e.location?.city === selectedCity.value);
+    }
+
+
+
+    // 5. Sort: Featured First, then by Date
     res = [...res].sort((a, b) => {
-        // 1. Featured priority
+        // Featured priority
         if (a.featured !== b.featured) return a.featured ? -1 : 1;
         
-        // 2. Date Sort (Closest/Newest first)
-        // If sorting logic is complex (different per tab), keep it simple here or re-sort.
-        // Assuming loader gives correct date order, we just maintain stability or re-sort.
-        // For now, let's just prioritize featured.
-        return 0; // Stable sort
+        // Date sort (upcoming events: earliest first, past events: latest first)
+        const aTime = new Date(a.start_at).getTime();
+        const bTime = new Date(b.start_at).getTime();
+        
+        if (showPastEvents.value) {
+            // For past events, show newest first
+            return bTime - aTime;
+        } else {
+            // For upcoming events, show earliest first
+            return aTime - bTime;
+        }
     });
 
     return res;
 });
 
-const items = ref([
-    { label: 'Upcoming & Ongoing', icon: 'pi pi-calendar' },
-    { label: 'Archive', icon: 'pi pi-history' },
-    { label: 'Canceled / Postponed', icon: 'pi pi-times-circle' }
-]);
-
-const formatOptions = [
-    { label: 'All Formats', value: null },
-    { label: 'In Person', value: 'in_person' },
-    { label: 'Online', value: 'online' },
-    { label: 'Hybrid', value: 'hybrid' }
-];
-
-const typeOptions = [
-    { label: 'All Types', value: null },
-    { label: 'Rally', value: 'rally' },
-    { label: 'Webinar', value: 'webinar' },
-    { label: 'Workshop', value: 'workshop' },
-    { label: 'Conference', value: 'conference' },
-    { label: 'Fundraiser', value: 'fundraiser' },
-    { label: 'Other', value: 'other' } // Added 'Other' from schema if missing or simplified
-];
-
-// Country Logic
-const { getAllCountries, loadCountries } = useCountries();
-loadCountries();
-
-
-
-const selectedCountry = ref<{ label: string, value: string } | null>(null);
-const filteredCountries = ref<{ label: string, value: string }[]>([]);
-
-const allCountryOptions = computed(() => {
-    if (!events.value) return [];
-
-    // Get countries with planned (upcoming/ongoing) events
-    const plannedCountries = new Set(
-        events.value
-            .filter(e => ['upcoming', 'ongoing'].includes(e.computed_state) && e.location?.country)
-            .map(e => e.location!.country)
-    );
-
-    return getAllCountries.value
-        .filter(c => plannedCountries.has(c.iso2))
-        .map(c => ({
-            label: c.name,
-            value: c.iso2
-        }))
-        .sort((a, b) => a.label.localeCompare(b.label));
+const activeFilterCount = computed(() => {
+    let count = 0;
+    if (selectedCountry.value) count++;
+    if (selectedCity.value) count++;
+    return count;
 });
 
-const searchCountry = (event: { query: string }) => {
-    const query = event.query.toLowerCase();
-    
-    if (!query.trim()) {
-        filteredCountries.value = [...allCountryOptions.value];
-    } else {
-        filteredCountries.value = allCountryOptions.value.filter(c => 
-            c.label.toLowerCase().includes(query)
-        );
+const handleCountrySelect = (countryCode: string | null) => {
+    selectedCountry.value = countryCode;
+    selectedCity.value = null; // Reset city when country changes
+};
+
+const handleCitySelect = (city: string | null) => {
+    selectedCity.value = city;
+};
+
+const clearFilters = () => {
+    searchQuery.value = '';
+    selectedCountry.value = null;
+    selectedCity.value = null;
+    showPastEvents.value = false;
+};
+
+// Auto-select first country on page load or context change
+const autoSelectCountry = () => {
+    if (events.value && events.value.length > 0) {
+        const targetStates = showPastEvents.value ? ['past', 'held'] : ['upcoming', 'ongoing'];
+        const firstCountryWithEvents = events.value.find(e => 
+            e.location?.country && targetStates.includes(e.computed_state)
+        )?.location?.country;
+        
+        if (firstCountryWithEvents) {
+            selectedCountry.value = firstCountryWithEvents;
+            selectedCity.value = null;
+        } else {
+            selectedCountry.value = null;
+            selectedCity.value = null;
+        }
     }
 };
 
-// Sync selected object with filter value
-watch(selectedCountry, (newVal) => {
-    filters.value.country = newVal ? newVal.value : null;
+watch(() => events.value, (newEvents) => {
+    if (newEvents && newEvents.length > 0 && !selectedCountry.value) {
+        autoSelectCountry();
+    }
+}, { immediate: true });
+
+// When toggle changes, re-select a valid country for the new context
+watch(showPastEvents, () => {
+    autoSelectCountry();
 });
+
+// Simulate loading on filter change for better UX
+watch([() => selectedCountry.value, () => selectedCity.value, () => showPastEvents.value], () => {
+    filterLoading.value = true;
+    setTimeout(() => {
+        filterLoading.value = false;
+    }, 300);
+});
+
+const isLoading = computed(() => pending.value || filterLoading.value);
+
 </script>
 
 <template>
-    <div class="container mx-auto px-4 py-8">
-        <!-- Header Card -->
-        <!-- Header Card -->
-        <div class="flex flex-col gap-6 bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-6">
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-                <div>
-                    <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">
-                        Global Solidarity Events
-                    </h1>
-                    <p class="text-surface-500 dark:text-surface-400 mt-1 text-lg">
-                        Join rallies, webinars, and gatherings to support the people of Iran.
-                    </p>
-                </div>
-                <div class="flex gap-3">
-                     <NuxtLink to="/docs/events-submission" class="no-underline">
-                        <Button label="Submit an Event" icon="pi pi-plus" size="small" />
-                    </NuxtLink>
-                     <a href="/data/events/events.ics" download class="no-underline">
-                        <Button label="Subscribe (ICS)" icon="pi pi-calendar-plus" severity="secondary" outlined size="small" />
-                    </a>
-                </div>
-            </div>
-        </div>
+    <div class="space-y-6">
+        <div class="w-full">
+            <!-- Hero Section -->
+            <div class="relative bg-gradient-to-br from-surface-800 via-surface-700 to-surface-800 dark:from-surface-950 dark:via-surface-900 dark:to-surface-950 rounded-2xl overflow-hidden mb-8">
+                <div class="absolute inset-0 bg-[url('/images/pattern.svg')] opacity-5"></div>
+                <div class="relative px-8 py-10 md:py-12">
+                    <div class="max-w-3xl">
+                        <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+                            Global Solidarity Events
+                        </h1>
+                        <p class="text-lg text-surface-200 dark:text-surface-300 mb-6 leading-relaxed">
+                            Join the movement. Find protests, rallies, and demonstrations in support of Iran happening across the globe.
+                        </p>
+                        
+                        <!-- Stats -->
+                        <div class="flex flex-wrap gap-6 mb-8">
+                            <div class="flex items-center gap-3">
+                                <div class="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
+                                    <i class="pi pi-calendar text-blue-400 text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-3xl font-bold text-white">
+                                        <Skeleton v-if="pending" width="2rem" height="2.5rem" class="!bg-white/20" />
+                                        <span v-else>{{ stats.upcoming }}</span>
+                                    </p>
+                                    <p class="text-sm text-surface-300 dark:text-surface-400">Upcoming</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <div class="w-12 h-12 rounded-full bg-gray-500/20 flex items-center justify-center">
+                                    <i class="pi pi-history text-gray-400 text-xl"></i>
+                                </div>
+                                <div>
+                                    <p class="text-3xl font-bold text-white">
+                                        <Skeleton v-if="pending" width="2rem" height="2.5rem" class="!bg-white/20" />
+                                        <span v-else>{{ stats.past }}</span>
+                                    </p>
+                                    <p class="text-sm text-surface-300 dark:text-surface-400">Past Events</p>
+                                </div>
+                            </div>
 
-        <!-- Controls Toolbar -->
-        <div class="flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center bg-surface-0 dark:bg-surface-900 p-4 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-8">
-            <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
-                <IconField iconPosition="left" class="w-full sm:w-64">
-                    <InputIcon class="pi pi-search" />
-                    <InputText v-model="filters.search" placeholder="Search events..." class="w-full" />
-                </IconField>
-            </div>
-
-            <div class="flex flex-wrap items-center gap-3 w-full lg:w-auto justify-between lg:justify-end">
-                 <Select v-model="filters.format" :options="formatOptions" optionLabel="label" optionValue="value" placeholder="Format" class="w-full sm:w-40" />
-                 <Select v-model="filters.type" :options="typeOptions" optionLabel="label" optionValue="value" placeholder="Type" class="w-full sm:w-40" />
-                 <AutoComplete v-model="selectedCountry" :suggestions="filteredCountries" optionLabel="label" placeholder="Country" class="w-full sm:w-48" dropdown @complete="searchCountry" forceSelection completeOnFocus>
-                    <template #option="slotProps">
-                        <div class="flex items-center gap-2">
-                            <img :src="`https://flagcdn.com/24x18/${slotProps.option.value.toLowerCase()}.png`" :alt="slotProps.option.label" class="w-6 h-4 object-cover rounded-sm" />
-                            <div>{{ slotProps.option.label }}</div>
                         </div>
-                    </template>
-                 </AutoComplete>
+                    </div>
+
+                    <!-- Action Button in Top Right -->
+                    <div class="absolute top-8 right-8 md:top-12 md:right-8 flex flex-col items-end gap-3">
+                        <Button
+                            label="Submit an Event"
+                            icon="pi pi-plus"
+                            @click="showSubmitDialog = true"
+                            class="shadow-lg"
+                        />
+                        
+                        <!-- Past Events Toggle (Desktop) -->
+                        <div class="hidden md:flex items-center gap-3 bg-surface-900/30 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-white/10 shadow-sm">
+                            <span class="text-sm font-bold text-white">Show past events</span>
+                            <InputSwitch v-model="showPastEvents" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats/Context (Mobile Only) + Filter Trigger -->
+            <div class="md:hidden mb-6 flex items-center justify-between px-1">
+                 <div class="flex items-center gap-3">
+                    <span class="text-sm font-bold text-surface-600 dark:text-surface-300">Show past events</span>
+                    <InputSwitch v-model="showPastEvents" />
+                </div>
+                
+                <!-- Mobile Filter Button -->
+                <Button 
+                    icon="pi pi-filter" 
+                    rounded
+                    outlined
+                    severity="secondary"
+                    class="!w-10 !h-10 !border-surface-300 dark:!border-surface-600 !text-surface-700 dark:!text-surface-200" 
+                    @click="showMobileFilters = true"
+                >
+                    <Badge v-if="activeFilterCount > 0" :value="activeFilterCount" severity="danger" class="!absolute -top-1 -right-1" />
+                </Button>
+            </div>
+            
+            <!-- Mobile Submit Button (Floating) -->
+            <div class="fixed bottom-6 right-6 z-20 md:hidden">
+                <Button 
+                    icon="pi pi-plus" 
+                    rounded
+                    raised
+                    size="large"
+                    class="!w-14 !h-14 !shadow-2xl !bg-primary-600 shadow-primary-500/30"
+                    @click="showSubmitDialog = true"
+                />
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-[240px_240px_1fr] gap-8 items-start">
+                <!-- Country Sidebar (Desktop) -->
+                <aside class="hidden lg:block sticky top-32 max-h-[calc(100vh-10rem)] overflow-y-auto custom-scrollbar">
+                    <div class="bg-surface-0 dark:bg-surface-900 p-4 rounded-2xl border border-surface-200 dark:border-surface-700">
+                        <div v-if="pending" class="space-y-4">
+                            <Skeleton width="100%" height="2rem" />
+                            <div class="space-y-2">
+                                <Skeleton v-for="i in 5" :key="i" width="100%" height="2.5rem" />
+                            </div>
+                        </div>
+                        <EventsCountrySidebar 
+                            v-else-if="events"
+                            :events="events" 
+                            :selectedCountry="selectedCountry"
+                            :showPastEvents="showPastEvents"
+                            @selectCountry="handleCountrySelect"
+                        />
+                    </div>
+                </aside>
+
+                <!-- City Sidebar (Desktop) -->
+                <aside class="hidden lg:block sticky top-32 max-h-[calc(100vh-10rem)] overflow-y-auto custom-scrollbar">
+                    <div v-if="selectedCountry" class="bg-surface-0 dark:bg-surface-900 p-4 rounded-2xl border border-surface-200 dark:border-surface-700">
+                        <div v-if="pending" class="space-y-4">
+                             <Skeleton width="100%" height="2rem" />
+                            <div class="space-y-2">
+                                <Skeleton v-for="i in 5" :key="i" width="100%" height="2.5rem" />
+                            </div>
+                        </div>
+                        <EventsCitySidebar 
+                            v-else-if="events"
+                            :events="events" 
+                            :selectedCountry="selectedCountry"
+                            :selectedCity="selectedCity"
+                            :showPastEvents="showPastEvents"
+                            @selectCity="handleCitySelect"
+                        />
+                    </div>
+                     <div v-else-if="!pending" class="text-center p-8 opacity-50">
+                        <i class="pi pi-map text-4xl text-surface-300 mb-2"></i>
+                        <p class="text-sm text-surface-500">Select a country to filter</p>
+                    </div>
+                </aside>
+
+                <!-- Events Content -->
+                <main class="min-w-0">
+                    <div v-if="isLoading" class="flex flex-col gap-6">
+                        <EventsEventSkeleton v-for="i in 4" :key="i" />
+                    </div>
+
+                    <div v-else-if="filteredEvents.length > 0" class="flex flex-col gap-6">
+                        <TransitionGroup name="list">
+                            <EventsEventCard v-for="ev in filteredEvents" :key="ev.id" :event="ev" />
+                        </TransitionGroup>
+                    </div>
+                    
+                    <div v-else class="text-center py-32 bg-surface-50/50 dark:bg-surface-900/30 rounded-3xl border-2 border-dashed border-surface-200 dark:border-surface-800">
+                        <div class="w-16 h-16 bg-surface-100 dark:bg-surface-800 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                            <i class="pi pi-search text-3xl text-surface-300 dark:text-surface-600"></i>
+                        </div>
+                        <h2 class="text-2xl font-bold text-surface-700 dark:text-surface-200 mb-2">No events found</h2>
+                        <p class="text-surface-500 dark:text-surface-400 text-lg max-w-sm mx-auto">
+                            Try adjusting your filters or search query to find what you're looking for.
+                        </p>
+                    </div>
+                </main>
             </div>
         </div>
 
-        <!-- Main Content -->
-        <div>
-             <TabMenu v-model:activeIndex="activeTab" :model="items" class="mb-6" />
+        <!-- Submit Event Dialog -->
+        <Dialog 
+            v-model:visible="showSubmitDialog" 
+            modal 
+            header="Submit a Global Solidarity Event" 
+            :style="{ width: '90vw', maxWidth: '1000px' }"
+            :draggable="false"
+            class="submission-dialog"
+        >
+            <SubmissionsEventSubmissionForm />
+        </Dialog>
 
-             <div v-if="filteredEvents.length > 0" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                <EventsEventCard v-for="ev in filteredEvents" :key="ev.id" :event="ev" />
-             </div>
-             
-             <div v-else class="text-center py-20 bg-surface-50 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-800 border-dashed">
-                <i class="pi pi-search text-4xl text-surface-400 dark:text-surface-600 mb-4 block"></i>
-                <p class="text-xl text-surface-500 dark:text-surface-400">No events found matching your criteria.</p>
-                <Button label="Clear Filters" text class="mt-2" @click="() => { filters.search=''; filters.format=null; filters.type=null; activeTab=0; selectedCountry = null; }" />
-             </div>
-        </div>
+        <!-- Mobile Filters Drawer -->
+        <Sidebar 
+            v-model:visible="showMobileFilters" 
+            position="right" 
+            class="!w-full md:!w-[28rem] !p-0"
+            :showCloseIcon="false"
+        >
+            <EventsMobileFilterDrawer 
+                :events="events || []"
+                :selectedCountry="selectedCountry"
+                :selectedCity="selectedCity"
+                :showPastEvents="showPastEvents"
+                @selectCountry="handleCountrySelect"
+                @selectCity="handleCitySelect"
+                @close="showMobileFilters = false"
+            />
+        </Sidebar>
     </div>
 </template>
+
+<style scoped>
+:deep(.submission-dialog) .p-dialog-header {
+    @apply px-6 pt-6 md:px-8 md:pt-8;
+}
+:deep(.submission-dialog) .p-dialog-content {
+    @apply px-6 pb-6 md:px-8 md:pb-8;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    @apply bg-transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-surface-200 dark:bg-surface-700 rounded-full;
+}
+
+.list-move, /* apply transition to moving elements */
+.list-enter-active,
+.list-leave-active {
+  transition: all 0.5s ease;
+}
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+.list-leave-active {
+  position: absolute; /* ensure removed items are taken out of flow */
+  width: 100%; /* prevent collapse width */
+  z-index: 0;
+}
+</style>

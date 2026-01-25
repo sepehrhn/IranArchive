@@ -14,10 +14,8 @@ function parseEventDate(dateStr: string, timeStr?: string | null): Date {
     return d;
 }
 
-// Helper to compute state
+// Helper to compute state automatically based on event dates
 function computeEventState(event: EventData): string {
-    if (event.state) return event.state;
-
     const now = new Date();
     const start = parseEventDate(event.date.start, event.date.start_time);
     let end = (event.date.end)
@@ -31,7 +29,7 @@ function computeEventState(event: EventData): string {
 
     if (now < start) return 'upcoming';
     if (now >= start && now <= end) return 'ongoing';
-    return 'held';
+    return 'past'; // Changed from 'held' to 'past'
 }
 
 export async function loadEvents(): Promise<ParsedEvent[]> {

@@ -250,15 +250,7 @@ onMounted(() => {
                                 <p class="text-sm text-surface-300 dark:text-surface-400">Missing</p>
                             </div>
                         </div>
-                        <div class="flex items-center gap-3">
-                            <div class="w-12 h-12 rounded-full bg-primary-500/20 flex items-center justify-center">
-                                <i class="pi pi-users text-primary-400 text-xl"></i>
-                            </div>
-                            <div>
-                                <p class="text-3xl font-bold text-white">{{ allVictims.length }}</p>
-                                <p class="text-sm text-surface-300 dark:text-surface-400">Total Documented</p>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
 
@@ -268,7 +260,7 @@ onMounted(() => {
                         label="Submit a Victim"
                         icon="pi pi-plus"
                         @click="showSubmitDialog = true"
-                        class="!bg-white !text-surface-900 hover:!bg-surface-100 shadow-lg"
+                        class="shadow-lg"
                     />
                 </div>
             </div>

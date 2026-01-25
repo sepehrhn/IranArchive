@@ -30,13 +30,9 @@ const formattedDate = computed(() => {
 </script>
 
 <template>
-    <div class="flex flex-col gap-1 text-sm">
-        <div class="flex items-center gap-2 font-medium text-surface-900 dark:text-surface-0">
-            <i class="pi pi-calendar text-primary"></i>
-            <span>
-                {{ formattedDate }}
-            </span>
-        </div>
-        <!-- Removed timezone toggle as timezone feature is removed -->
+    <div class="flex flex-col gap-1">
+        <span class="font-semibold text-base text-surface-900 dark:text-surface-0 leading-relaxed">
+            {{ formattedDate }}
+        </span>
     </div>
 </template>

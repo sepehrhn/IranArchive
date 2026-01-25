@@ -13,8 +13,8 @@
 # The visible title of the event (e.g. "Berlin Rally for Freedom")
 title: "Global Rally for Freedom"
 
-# A short, single-sentence summary shown on the event card. Keep it under 150 chars.
-summary: "A massive gathering in solidarity with Iranian protesters."
+# Set to true to highlight this event in the list
+featured: false
 
 # A full description of the event. Supports Markdown (bold, links, lists).
 # Use the pipe (|) for multi-line text blocks.
@@ -29,33 +29,24 @@ description: |
   
   Bring flags and signs.
 
-# State of the event. usually computed automatically from start/end times.
-# Options: upcoming, ongoing, held, canceled, postponed
-state: "upcoming"
 
 # [REQUIRED] Categorization
-# The physical format of the event. 
+# The type of event (physical vs online format)
 # Options: in_person, online, hybrid
-format: "in_person" 
-
-# The type of activity. 
-# Options: rally, march, vigil, sit_in, webinar, seminar, panel, 
-# conference, workshop, fundraiser, film_screening, training, community_meetup, other
-type: "rally"       
+type: "in_person" 
 
 # [REQUIRED] Timing
 date:
-  # Start time in YYYY/MM/DD format
+  # Start date in YYYY/MM/DD format
   start: "2026/02/01"
+  # Start time in HH:mm format (optional)
   start_time: "14:00"
-  # End time (optional)
+  # End date (optional)
   end: "2026/02/01"
+  # End time (optional)
   end_time: "17:00"
-  # Date precision
-  # Options: 'Exact' | 'Approx' | 'Unknown'
-  precision: "Exact"
 
-# Location (Required for in_person/hybrid)
+# Location (Required for in_person/hybrid events)
 location:
   country: "DE"
   # City name
@@ -67,12 +58,11 @@ location:
   # Longitude (optional)
   lng: 13.3777
 
-# Online Specifics (Required for online/hybrid)
+# Online Specifics (Required for online/hybrid events)
 # online:
 #   platform: "Zoom"          # e.g., Zoom, YouTube, X Spaces
 #   join_url: "https://..."
 #   backup_url: "https://..."
-#   access: "public"          # Options: public, rsvp_required, invite_only
 #   registration_url: "https://..."
 #   recording_expected: true
 #   recording_url: "https://..." # Link to recording after event
@@ -88,24 +78,7 @@ organizer:
     instagram: "https://instagram.com/example"
     telegram: "https://t.me/example"
 
-# Speakers (Optional, good for panels/webinars)
-# speakers:
-#   - name: "Jane Doe"
-#     title: "Human Rights Lawyer"
-#     bio: "Short bio here."
-#     links: ["https://example.com"]
+# Poster image URL (optional)
+poster: "https://example.org/poster.jpg"
 
 # Features
-featured: false               # Set to true to highlight this event in the list
-
-# [REQUIRED] Verification & Status
-# Status of the event information.
-# Options: draft, not_verified, verified
-status: "verified"            
-
-# Source links verifying the event details
-sources:
-  - title: "Organizer Announcement"
-    url: "https://x.com/status/12345"
-
-

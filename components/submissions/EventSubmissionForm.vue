@@ -17,19 +17,6 @@
       </div>
 
       <div>
-        <label class="block text-sm font-medium mb-2">Summary <span class="text-red-500">*</span></label>
-        <Textarea
-          v-model="form.summary"
-          rows="2"
-          placeholder="Short one-sentence summary (under 150 chars)"
-          class="w-full"
-          :invalid="submitted && !form.summary"
-          maxlength="150"
-          required
-        />
-      </div>
-
-      <div>
         <label class="block text-sm font-medium mb-2">Description <span class="text-red-500">*</span></label>
         <Textarea
           v-model="form.description"
@@ -43,18 +30,7 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
-          <label class="block text-sm font-medium mb-2">Format *</label>
-          <Select
-            v-model="form.format"
-            :options="formatOptions"
-            optionLabel="label"
-            optionValue="value"
-            placeholder="Select format"
-            class="w-full"
-          />
-        </div>
-        <div>
-          <label class="block text-sm font-medium mb-2">Type *</label>
+          <label class="block text-sm font-medium mb-2">Event Type <span class="text-red-500">*</span></label>
           <Select
             v-model="form.type"
             :options="typeOptions"
@@ -64,11 +40,19 @@
             class="w-full"
           />
         </div>
+        <div>
+          <label class="block text-sm font-medium mb-2">Poster URL (optional)</label>
+          <InputText
+            v-model="form.poster"
+            placeholder="https://example.com/poster.jpg"
+            class="w-full"
+          />
+        </div>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
-          <label class="block text-sm font-medium mb-2">Start Date *</label>
+          <label class="block text-sm font-medium mb-2">Start Date <span class="text-red-500">*</span></label>
           <Calendar
             v-model="form.startDate"
             dateFormat="yy/mm/dd"
@@ -114,7 +98,7 @@
       </div>
 
       <div>
-        <label class="block text-sm font-medium mb-2">Organizer Name *</label>
+        <label class="block text-sm font-medium mb-2">Organizer Name <span class="text-red-500">*</span></label>
         <InputText
           v-model="form.organizerName"
           placeholder="Organization or person name"
@@ -125,10 +109,10 @@
       </div>
 
       <div>
-        <label class="block text-sm font-medium mb-2">Contact Info</label>
+        <label class="block text-sm font-medium mb-2">Organizer Website/Contact</label>
         <InputText
           v-model="form.organizerContact"
-          placeholder="Email or website"
+          placeholder="Website URL or contact email"
           class="w-full"
         />
       </div>
@@ -143,7 +127,7 @@
     <div class="flex gap-3">
       <Button
         type="submit"
-        label="Submit Event"
+        :label="initialData ? 'Update Event' : 'Submit Event'"
         icon="pi pi-send"
         :loading="submitting"
         :disabled="!turnstileToken"
@@ -165,6 +149,7 @@ import { ref, onMounted } from 'vue';
 
 const props = defineProps<{
   submitting: boolean;
+  initialData?: ParsedEvent | null;
 }>();
 
 const emit = defineEmits<{
@@ -176,35 +161,24 @@ const turnstileContainer = ref<HTMLElement>();
 const turnstileToken = ref('');
 const submitted = ref(false);
 
-const formatOptions = [
+const typeOptions = [
   { label: 'In Person', value: 'in_person' },
   { label: 'Online', value: 'online' },
   { label: 'Hybrid', value: 'hybrid' }
 ];
 
-const typeOptions = [
-  { label: 'Rally', value: 'rally' },
-  { label: 'March', value: 'march' },
-  { label: 'Vigil', value: 'vigil' },
-  { label: 'Webinar', value: 'webinar' },
-  { label: 'Panel', value: 'panel' },
-  { label: 'Workshop', value: 'workshop' },
-  { label: 'Other', value: 'other' }
-];
-
 const form = ref({
-  title: '',
-  summary: '',
-  description: '',
-  format: 'in_person',
-  type: 'rally',
-  startDate: null as Date | null,
-  startTime: '',
-  country: '',
-  city: '',
-  address: '',
-  organizerName: '',
-  organizerContact: ''
+  title: props.initialData?.title || '',
+  description: props.initialData?.description || '',
+  type: props.initialData?.type || 'in_person',
+  poster: props.initialData?.poster || '',
+  startDate: props.initialData?.date.start ? new Date(props.initialData.date.start.replace(/\//g, '-')) : null as Date | null,
+  startTime: props.initialData?.date.start_time || '',
+  country: props.initialData?.location?.country || '',
+  city: props.initialData?.location?.city || '',
+  address: props.initialData?.location?.address || '',
+  organizerName: props.initialData?.organizer.name || '',
+  organizerContact: props.initialData?.organizer.website || props.initialData?.organizer.contact_email || ''
 });
 
 onMounted(() => {
@@ -235,29 +209,32 @@ function renderTurnstile() {
 function handleSubmit() {
   submitted.value = true;
 
-  if (!form.value.title || !form.value.summary || !form.value.description || !form.value.organizerName) {
+  if (!form.value.title || !form.value.description || !form.value.organizerName) {
     return;
   }
 
   const data = {
     title: form.value.title,
-    summary: form.value.summary,
     description: form.value.description,
-    format: form.value.format,
     type: form.value.type,
+    poster: form.value.poster || undefined,
     date: {
       start: formatDate(form.value.startDate),
-      start_time: form.value.startTime,
-      precision: 'Exact'
+      start_time: form.value.startTime
     },
-    location: form.value.country ? {
+    location: (form.value.type === 'in_person' || form.value.type === 'hybrid') ? {
       country: form.value.country,
       city: form.value.city,
       address: form.value.address
     } : undefined,
+    online: (form.value.type === 'online' || form.value.type === 'hybrid') ? {
+      platform: 'Online',
+      join_url: form.value.organizerContact.startsWith('http') ? form.value.organizerContact : undefined
+    } : undefined,
     organizer: {
       name: form.value.organizerName,
-      contact: form.value.organizerContact
+      website: form.value.organizerContact.startsWith('http') ? form.value.organizerContact : undefined,
+      contact_email: form.value.organizerContact.includes('@') ? form.value.organizerContact : undefined
     }
   };
 
@@ -277,10 +254,9 @@ function formatDate(date: Date | null): string {
 function resetForm() {
   form.value = {
     title: '',
-    summary: '',
     description: '',
-    format: 'in_person',
-    type: 'rally',
+    type: 'in_person',
+    poster: '',
     startDate: null,
     startTime: '',
     country: '',
