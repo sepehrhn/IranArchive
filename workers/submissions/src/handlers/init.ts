@@ -1,5 +1,4 @@
 import type { Context } from 'hono';
-import { ulid } from 'ulid';
 import type { Env, InitRequest, InitResponse, SubmissionRecord } from '../types';
 import { verifyTurnstile, hashIP, checkRateLimit, validateFile, sanitizeFilename } from '../lib/utils';
 
@@ -40,7 +39,7 @@ export async function handleInit(c: Context<{ Bindings: Env }>): Promise<Respons
         }
 
         // Generate submission ID
-        const submissionId = ulid();
+        const submissionId = crypto.randomUUID();
 
         // Create upload keys and URLs
         const uploads = files.map(file => {
