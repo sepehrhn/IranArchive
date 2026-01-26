@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-165ACD6A
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally with Iran"
+
+featured: false
+
+description: |
+  Recurring Sunday rally to support the ongoing uprising in Iran, condemning the regime's crackdown and recent mass detentions.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "US"
+  city: "Austin"
+  address: "Texas State Capitol, 1100 Congress Ave, Austin, TX 78701, South Steps (facing Congress Ave)"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

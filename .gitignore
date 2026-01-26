@@ -25,3 +25,6 @@ logs
 
 # Credentials
 .env.submissions
+# Scraper
+scripts/scrape_external.cjs
+scrape_log.txt

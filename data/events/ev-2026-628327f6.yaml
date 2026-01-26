@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-628327F6
+# -----------------------------------------------------------------------------
+
+title: "Visibility Action: Break the Blackout"
+
+featured: false
+
+description: |
+  High-visibility protest aimed at tourists and media to highlight the internet blackout in Iran.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "US"
+  city: "New York City"
+  address: "Times Square, New York, NY 10036, Duffy Square (Red Steps)."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-540B9992
+# -----------------------------------------------------------------------------
+
+title: "Weekly Iran Solidarity Gathering (Recurring)"
+
+featured: false
+
+description: |
+  Likely spontaneous gathering to support the ongoing uprising in Iran. Locals often congregate here during crises to wave Lion & Sun flags and chant slogans like 'Woman, Life, Freedom'.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "11:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Irvine"
+  address: "Intersection of Culver Dr & Barranca Pkwy, Irvine, CA, Public sidewalks at the intersection; standard community gathering spot."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

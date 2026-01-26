@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-5A85BD8D
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with Iran Uprising (Unconfirmed)"
+
+featured: false
+
+description: |
+  Previous rallies (e.g., Jan 18) were held on Sundays at 1 PM at Town Hall. This specifically supports the 'Woman, Life, Freedom' movement and the current uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "13:00"
+  end: "2026/02/01"
+  end_time: "15:00"
+
+# Location
+location:
+  country: "AU"
+  city: "Sydney"
+  address: "Sydney Town Hall, Distinct from the Hyde Park North rally nearby."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-13A286E7
+# -----------------------------------------------------------------------------
+
+title: "International Solidarity Day: Women Defend the Revolution"
+
+featured: false
+
+description: |
+  A major solidarity rally coinciding with international actions. While the primary call focuses on 'Women defending the revolution' (linking the struggles in Iran and Rojava), it is explicitly linked to the current uprising in Iran ('Suivre le soulèvement en Iran'). Demonstrators will demand an end to the executions and repression in Iran and call for international sanctions against the IRGC.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "BE"
+  city: "Brussels"
+  address: "European Parliament (Place du Luxembourg), Meeting point in front of the Parliament complex (Altiero Spinelli entrance area), accessible via Brussels-Luxembourg station."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

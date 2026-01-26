@@ -244,6 +244,7 @@ const isLoading = computed(() => pending.value || filterLoading.value);
                     :selectedCountry="selectedCountry"
                     :selectedCity="selectedCity"
                     :showPastEvents="showPastEvents"
+                    :pending="pending"
                     @update:selectedCountry="handleCountrySelect"
                     @update:selectedCity="handleCitySelect"
                     @update:showPastEvents="showPastEvents = $event"
@@ -284,7 +285,7 @@ const isLoading = computed(() => pending.value || filterLoading.value);
 
                 <!-- City Sidebar (Desktop) -->
                 <aside class="hidden lg:block sticky top-32 max-h-[calc(100vh-10rem)] overflow-y-auto custom-scrollbar">
-                    <div v-if="selectedCountry" class="bg-surface-0 dark:bg-surface-900 p-4 rounded-2xl border border-surface-200 dark:border-surface-700">
+                    <div v-if="selectedCountry || pending" class="bg-surface-0 dark:bg-surface-900 p-4 rounded-2xl border border-surface-200 dark:border-surface-700">
                         <div v-if="pending" class="space-y-4">
                              <Skeleton width="100%" height="2rem" />
                             <div class="space-y-2">
@@ -292,7 +293,7 @@ const isLoading = computed(() => pending.value || filterLoading.value);
                             </div>
                         </div>
                         <EventsCitySidebar 
-                            v-else-if="events"
+                            v-else-if="events && selectedCountry"
                             :events="events" 
                             :selectedCountry="selectedCountry"
                             :selectedCity="selectedCity"

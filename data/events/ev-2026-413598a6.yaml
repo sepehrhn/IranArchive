@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-413598A6
+# -----------------------------------------------------------------------------
+
+title: "Malmö/Lund Joint Rally for Iran"
+
+featured: false
+
+description: |
+  Given the severity of the crackdown in January 2026, smaller local protests often merge into a larger regional demonstration in Malmö. This event focuses on demanding international action against the regime's repression.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "13:00"
+  end: "2026/01/31"
+  end_time: "15:00"
+
+# Location
+location:
+  country: "SE"
+  city: "Lund"
+  address: "Gustav Adolfs Torg, Malmö, Central square in Malmö (approx. 15 mins by train from Lund)."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

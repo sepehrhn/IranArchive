@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-261D2F05
+# -----------------------------------------------------------------------------
+
+title: "Saturday March (Tentative)"
+
+featured: false
+
+description: |
+  Potential staging area for marches moving towards City Hall or the Capitol. Common location for unpermitted community gatherings.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Austin"
+  address: "Republic Square, 422 Guadalupe St, Austin, TX 78701, Central park area"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

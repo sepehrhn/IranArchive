@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-1FA5D81C
+# -----------------------------------------------------------------------------
+
+title: "Human Rights Vigil (Unconfirmed)"
+
+featured: false
+
+description: |
+  Smaller gatherings or vigils have occasionally occurred on Saturdays. While the main rally is expected Sunday, smaller actions may take place here to raise awareness about mass detentions.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "14:00"
+  end: "2026/01/31"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Ottawa"
+  address: "Confederation Park or Human Rights Monument, Elgin St, Ottawa."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

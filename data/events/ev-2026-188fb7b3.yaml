@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-188FB7B3
+# -----------------------------------------------------------------------------
+
+title: "Woman Life Freedom Rally"
+
+featured: false
+
+description: |
+  Stationary gathering focusing on women's rights and mourning the recent mass killings. Often involves chanting and performance art.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "ES"
+  city: "Madrid"
+  address: "Plaza de Callao, Central square, outside Callao metro station."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

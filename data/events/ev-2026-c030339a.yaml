@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-C030339A
+# -----------------------------------------------------------------------------
+
+title: "Embassy Protest (Alternative Location)"
+
+featured: false
+
+description: |
+  Protest calling for the closure of the embassy and expulsion of diplomats in response to mass killings in Iran.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "14:00"
+  end: "2026/01/31"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "IE"
+  city: "Dublin"
+  address: "Embassy of the Islamic Republic of Iran, 72 Mount Merrion Ave, Blackrock, Alternative location used on Jan 17. Check 'Iran Solidarity Protest' social channels to confirm if venue has moved here."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

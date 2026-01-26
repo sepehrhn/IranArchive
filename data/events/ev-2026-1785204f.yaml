@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-1785204F
+# -----------------------------------------------------------------------------
+
+title: "Student & Youth Solidarity Gathering"
+
+featured: false
+
+description: |
+  Student-led actions often occur on Sundays at Queen's Park or near the U.S. Consulate. These are often smaller but highly organized, focusing on political prisoners and university crackdowns in Iran.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Toronto"
+  address: "Queen's Park (South Lawn), 111 Wellesley St W; near Museum or Queen's Park Subway Stations."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
