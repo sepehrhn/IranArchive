@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-F09479B9
+# -----------------------------------------------------------------------------
+
+title: "Photo Exhibition: Victims of the Crackdown"
+
+featured: false
+
+description: |
+  A continuous daily vigil and photo exhibition commemorating the victims of the recent massacres (Jan 2026) and executions. A quieter space for reflection and information sharing compared to the large marches.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "11:00"
+  end: "2026/01/31"
+  end_time: "18:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Berlin"
+  address: "Fehrbelliner Platz 5, 10707 Berlin, Public square"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

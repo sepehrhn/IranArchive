@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-5F19F5DA
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with the Iran Uprising"
+
+featured: false
+
+description: |
+  Demonstration in solidarity with the nationwide uprising in Iran, condemning the recent crackdown, mass executions, and internet blackouts. Participants typically demand an end to the Islamic Republic and support for a democratic, secular Iran.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "14:00"
+  end: "2026/01/31"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Hannover"
+  address: "Steintorplatz, Hannover, Central plaza near the Steintor U-Bahn station; a common gathering point for recent Iran protests."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

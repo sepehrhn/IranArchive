@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-F9D9FF05
+# -----------------------------------------------------------------------------
+
+title: "Manifestation de soutien au Rojava (likely Iran solidarity bloc present)"
+
+featured: false
+
+description: |
+  While primarily a march for Rojava (Syrian Kurdistan) against regional attacks, these events act as the central hub for the 'Jin, Jiyan, Azadî' (Woman, Life, Freedom) movement. Iranian feminist collectives and 'Femme Vie Liberté' groups frequently form a bloc within these marches to show the unity of the struggles against the regimes in Tehran and Damascus.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "14:00"
+  end: "2026/01/31"
+  end_time: "18:00"
+
+# Location
+location:
+  country: "FR"
+  city: "Paris"
+  address: "Place de la République, Central statue / Main square"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-31941E3C
+# -----------------------------------------------------------------------------
+
+title: "Candlelight Vigil for Heroic Iranian Martyrs"
+
+featured: false
+
+description: |
+  A solemn vigil honoring the thousands of victims of the recent regime crackdown. Free admission.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "21:00"
+  end: "2026/01/31"
+  end_time: "23:00"
+
+# Location
+location:
+  country: "US"
+  city: "Mission Viejo"
+  address: "Flame Palace, 20855 Ventura Blvd, Woodland Hills, CA 91364, Restaurant/Venue parking lot or front area."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

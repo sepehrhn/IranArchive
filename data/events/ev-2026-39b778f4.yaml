@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-39B778F4
+# -----------------------------------------------------------------------------
+
+title: "Brudd på menneskerettigheter (Human Rights Violations)"
+
+featured: false
+
+description: |
+  A demonstration highlighting human rights abuses and mass executions in Iran. 'Kvinner Opplyser' is a Norwegian-Iranian women's association active in the Woman, Life, Freedom movement. This event is expected to focus on the recent crackdown and demands for justice.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "13:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "NO"
+  city: "Oslo"
+  address: "Eidsvolls plass, Karl Johans gate 22, 0026 Oslo, In front of the Norwegian Parliament (Stortinget). Nearest station: Stortinget T-bane."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

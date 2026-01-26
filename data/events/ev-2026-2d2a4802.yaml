@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-2D2A4802
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally for Iran Uprising"
+
+featured: false
+
+description: |
+  A major solidarity demonstration supporting the nationwide uprising in Iran. Protesters are demanding the fall of the Islamic Republic, condemning the recent mass executions and internet blackouts, and chanting slogans like 'Woman, Life, Freedom'. Recent gatherings have drawn thousands of attendees.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "US"
+  city: "Houston"
+  address: "Gerald D. Hines Waterwall Park, 2800 Post Oak Blvd, Houston, TX 77056, Near the Waterwall; marchers often proceed to the intersection of Westheimer Rd and Post Oak Blvd."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

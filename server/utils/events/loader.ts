@@ -28,6 +28,15 @@ function computeEventState(event: EventData): string {
     }
 
     if (now < start) return 'upcoming';
+
+    // Check if the event ends today (same year, month, day)
+    const isToday = now.getFullYear() === end.getFullYear() &&
+        now.getMonth() === end.getMonth() &&
+        now.getDate() === end.getDate();
+
+    // If it's technically over but still today, keep it as 'ongoing' (or 'today') so it doesn't disappear from the main list
+    if (isToday) return 'ongoing';
+
     if (now >= start && now <= end) return 'ongoing';
     return 'past'; // Changed from 'held' to 'past'
 }

@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-2C58EA1D
+# -----------------------------------------------------------------------------
+
+title: "Solidarität mit dem Aufstand im Iran (Solidarity with the Uprising in Iran)"
+
+featured: false
+
+description: |
+  Weekly solidarity rally supporting the current uprising in Iran. Demands include the downfall of the Islamic Republic, the release of political prisoners, and an end to executions. Slogans include 'Jin Jiyan Azadi' (Woman, Life, Freedom) and 'Nieder mit der Islamischen Republik'.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "15:00"
+  end: "2026/01/31"
+  end_time: "17:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Frankfurt"
+  address: "Alte Oper, Opernplatz 1, 60313 Frankfurt am Main, Meeting point typically in front of the Old Opera house (Opernplatz)."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

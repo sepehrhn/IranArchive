@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-13C99F97
+# -----------------------------------------------------------------------------
+
+title: "Sunday Vigil for the Martyrs of 2026"
+
+featured: false
+
+description: |
+  Sundays often feature quieter vigils or artistic performances honoring the victims of the crackdown. Given the high death toll reported in January, memorial events are common on Sundays.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "13:00"
+  end: "2026/02/01"
+  end_time: "15:00"
+
+# Location
+location:
+  country: "US"
+  city: "Washington DC"
+  address: "National Mall / Lincoln Memorial, Steps of the Lincoln Memorial"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

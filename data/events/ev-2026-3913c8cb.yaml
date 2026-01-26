@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-3913C8CB
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally with Iran Uprising"
+
+featured: false
+
+description: |
+  Recurring Sunday rally to support the ongoing uprising in Iran, condemning the recent internet blackouts and mass killings (estimated 3,000+ dead). Participants often march from here to Union Square or the Federal Building.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "US"
+  city: "San Francisco"
+  address: "San Francisco Ferry Building, 1 Ferry Building, The Embarcadero (Harry Bridges Plaza). Gathering usually starts at the plaza in front."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

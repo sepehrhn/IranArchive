@@ -37,7 +37,7 @@ const citiesWithEvents = computed(() => {
     // Map to city details with counts
     const cities = Array.from(cityMap.entries())
         .map(([city, count]) => ({ city, count }))
-        .sort((a, b) => a.city.localeCompare(b.city));
+        .sort((a, b) => (b.count - a.count) || a.city.localeCompare(b.city));
 
     return cities;
 });

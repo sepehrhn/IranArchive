@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-901B0055
+# -----------------------------------------------------------------------------
+
+title: "Sunday Gathering at House of Iran"
+
+featured: false
+
+description: |
+  While primarily a cultural open house, the House of Iran area in Balboa Park often serves as a spontaneous gathering point for solidarity on Sundays during times of unrest. Expect community members to be present to share news and show support, though a formal march may not be scheduled.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "US"
+  city: "San Diego"
+  address: "House of Iran, Balboa Park, International Cottages area. 2125 Park Blvd, San Diego, CA 92101."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

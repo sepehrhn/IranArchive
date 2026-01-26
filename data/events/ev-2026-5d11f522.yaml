@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-5D11F522
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally with Iran Uprising"
+
+featured: false
+
+description: |
+  A standing weekly grassroots gathering to support the ongoing uprising in Iran, condemn the recent mass executions (estimated 3,000+), and support the Jan 23 UN Human Rights Council resolution. Expect chanting, speeches, and marching towards the State Department or National Mall.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "14:00"
+  end: "2026/01/31"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "US"
+  city: "Washington DC"
+  address: "Lafayette Square (North side of White House), H St NW & 16th St NW, Washington, DC. Look for 'Woman Life Freedom' signs and pre-1979 Iranian flags (Lion and Sun) without MEK/Rajavi branding."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

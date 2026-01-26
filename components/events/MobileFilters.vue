@@ -8,6 +8,7 @@ const props = defineProps<{
     selectedCountry: string | null;
     selectedCity: string | null;
     showPastEvents: boolean;
+    pending?: boolean;
 }>();
 
 const emit = defineEmits<{
@@ -74,7 +75,7 @@ const citiesWithEvents = computed(() => {
     // Map to city details with counts
     return Array.from(cityMap.entries())
         .map(([city, count]) => ({ city, count }))
-        .sort((a, b) => a.city.localeCompare(b.city));
+        .sort((a, b) => (b.count - a.count) || a.city.localeCompare(b.city));
 });
 
 const handleCountrySelect = (iso2: string) => {
@@ -95,7 +96,12 @@ const handleCitySelect = (city: string | null) => {
 <template>
     <div class="flex flex-col gap-4">
         <!-- Countries Row -->
-        <div v-if="countriesWithEvents.length > 0" class="overflow-x-auto -mx-4 px-4 pb-2 hide-scrollbar">
+        <div v-if="pending" class="overflow-x-auto -mx-4 px-4 pb-2 hide-scrollbar">
+            <div class="flex gap-2 min-w-min">
+                <Skeleton v-for="i in 5" :key="i" width="100px" height="32px" border-radius="20px" class="!bg-surface-800/50" />
+            </div>
+        </div>
+        <div v-else-if="countriesWithEvents.length > 0" class="overflow-x-auto -mx-4 px-4 pb-2 hide-scrollbar">
             <div class="flex gap-2 min-w-min">
                 <button
                     v-for="country in countriesWithEvents"
@@ -126,8 +132,13 @@ const handleCitySelect = (city: string | null) => {
             </div>
         </div>
 
-        <!-- Cities Row (Only if country selected) -->
-        <div v-if="selectedCountry && citiesWithEvents.length > 0" class="overflow-x-auto -mx-4 px-4 pb-2 hide-scrollbar">
+        <!-- Cities Row (Only if country selected or pending) -->
+        <div v-if="pending" class="overflow-x-auto -mx-4 px-4 pb-2 hide-scrollbar">
+             <div class="flex gap-2 min-w-min">
+                <Skeleton v-for="i in 3" :key="i" width="80px" height="32px" border-radius="20px" class="!bg-surface-800/50" />
+            </div>
+        </div>
+        <div v-else-if="selectedCountry && citiesWithEvents.length > 0" class="overflow-x-auto -mx-4 px-4 pb-2 hide-scrollbar">
             <div class="flex gap-2 min-w-min">
                 <!-- City List -->
                 <button
