@@ -799,6 +799,7 @@ const emit = defineEmits<{
 const config = useRuntimeConfig();
 const turnstileContainer = ref<HTMLElement>();
 const turnstileToken = ref('');
+const geocoding = ref(false);
 const submitting = ref(false);
 const showEndDate = ref(false);
 const { getAllCountries, getCountryFlagUrl } = useCountries();
