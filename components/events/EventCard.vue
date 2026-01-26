@@ -354,6 +354,7 @@ Link: ${ev.online?.join_url || window.location.href}
             :draggable="false"
         >
             <SubmissionsEventUpdateForm 
+                v-if="showUpdateDialog"
                 :initialData="event" 
                 :submitting="updateSubmitting"
                 @submit="handleUpdateSubmit"
