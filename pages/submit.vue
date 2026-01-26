@@ -49,11 +49,14 @@
           </TabPanel>
 
           <TabPanel header="Event">
-            <EventSubmissionForm
-              v-if="activeTab === 1"
-              @submit-entry="handleSubmit"
-              :submitting="submitting"
-            />
+            <div class="p-1">
+              <EventSubmissionForm
+                v-if="activeTab === 1"
+                @submit-entry="handleSubmit"
+                @submit="handleSubmit"
+                :submitting="submitting"
+              />
+            </div>
           </TabPanel>
 
           <!-- Campaign Tab -->
@@ -76,7 +79,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
 import IncidentSubmissionForm from '~/components/submissions/IncidentSubmissionForm.vue';
 import EventSubmissionForm from '~/components/submissions/EventSubmissionForm.vue';
 import CampaignSubmissionForm from '~/components/submissions/CampaignSubmissionForm.vue';
@@ -107,6 +110,10 @@ function resetForm() {
   submissionId.value = '';
   submitting.value = false;
 }
+
+onMounted(() => {
+  console.log('Page: submit.vue mounted');
+});
 
 async function handleSubmit(payload: { kind: SubmissionKind; data: any; files: File[]; turnstileToken: string }) {
   console.log('Page: handleSubmit called', { kind: payload.kind, files: payload.files.length, token: !!payload.turnstileToken });
