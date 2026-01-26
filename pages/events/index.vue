@@ -83,24 +83,62 @@ const filteredEvents = computed(() => {
 
 const handleCountrySelect = (countryCode: string | null) => {
     selectedCountry.value = countryCode;
-    selectedCity.value = null; // Reset city when country changes
+    // City selection handled by watcher
 };
 
 const handleCitySelect = (city: string | null) => {
     selectedCity.value = city;
 };
 
+// Helper: Select first available city for current country
+const autoSelectCity = () => {
+    if (selectedCountry.value && events.value) {
+        const targetStates = showPastEvents.value ? ['past', 'held'] : ['upcoming', 'ongoing'];
+        const countryEvents = events.value.filter(e => 
+            e.location?.country === selectedCountry.value && 
+            targetStates.includes(e.computed_state) &&
+            e.location?.city
+        );
+        
+        if (countryEvents.length > 0) {
+            const cities = Array.from(new Set(countryEvents.map(e => e.location.city!))).sort();
+            if (cities.length > 0) {
+                // Only change if current city is invalid or null
+                if (!selectedCity.value || !cities.includes(selectedCity.value)) {
+                    selectedCity.value = cities[0];
+                }
+                return;
+            }
+        }
+    }
+    selectedCity.value = null;
+};
+
 // Auto-select first country on page load or context change
 const autoSelectCountry = () => {
     if (events.value && events.value.length > 0) {
         const targetStates = showPastEvents.value ? ['past', 'held'] : ['upcoming', 'ongoing'];
+        
+        // Try to keep current country if it has events
+        if (selectedCountry.value) {
+            const hasEvents = events.value.some(e => 
+                e.location?.country === selectedCountry.value && 
+                targetStates.includes(e.computed_state)
+            );
+            if (hasEvents) {
+                // Country is valid, just re-check city
+                autoSelectCity();
+                return;
+            }
+        }
+
         const firstCountryWithEvents = events.value.find(e => 
             e.location?.country && targetStates.includes(e.computed_state)
         )?.location?.country;
         
         if (firstCountryWithEvents) {
             selectedCountry.value = firstCountryWithEvents;
-            selectedCity.value = null;
+            // Watcher will trigger autoSelectCity
         } else {
             selectedCountry.value = null;
             selectedCity.value = null;
@@ -108,13 +146,18 @@ const autoSelectCountry = () => {
     }
 };
 
+// Auto-select first city when country changes
+watch(selectedCountry, () => {
+    autoSelectCity();
+});
+
 watch(() => events.value, (newEvents) => {
-    if (newEvents && newEvents.length > 0 && !selectedCountry.value) {
+    if (newEvents && newEvents.length > 0) {
         autoSelectCountry();
     }
 }, { immediate: true });
 
-// When toggle changes, re-select a valid country for the new context
+// When toggle changes, re-evaluate country and city
 watch(showPastEvents, () => {
     autoSelectCountry();
 });
