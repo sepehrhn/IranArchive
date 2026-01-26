@@ -299,7 +299,7 @@ date:
   end_time: "${data.date?.end_time || ''}"
 
 # Location (Required for in_person/hybrid events)
-${(data.type === 'in_person' || data.type === 'hybrid') ? `location:
+location:
   country: "${data.location?.country || ''}"
   # City name
   city: "${data.location?.city || ''}"
@@ -309,14 +309,13 @@ ${(data.type === 'in_person' || data.type === 'hybrid') ? `location:
   lat: ${data.location?.lat || "null"}
   # Longitude (auto-calculated from address if not provided)
   lng: ${data.location?.lng || "null"}
-` : 'location: null'}
 
 # Online Specifics (Required for online/hybrid events)
-${(data.type === 'online' || data.type === 'hybrid') ? `online:
-  platform: "${data.online?.platform || ''}"          # e.g., Zoom, YouTube, X Spaces
+online:
+  # e.g., Zoom, YouTube, X Spaces
+  platform: "${data.online?.platform || ''}"
   join_url: "${data.online?.join_url || ''}"
   registration_url: "${data.online?.registration_url || ''}"
-` : 'online: null'}
 
 # Organizer
 organizer:
