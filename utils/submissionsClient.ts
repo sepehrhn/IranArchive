@@ -77,6 +77,12 @@ export async function initUpload(params: InitUploadParams): Promise<InitUploadRe
             turnstileToken: params.turnstileToken,
             kind: params.kind,
             files: filesWithHash
+        },
+        onRequest({ request, options }) {
+            console.log('Client: initUpload request', request);
+        },
+        onResponseError({ request, response, options }) {
+            console.error('Client: initUpload error', response);
         }
     });
 

@@ -110,6 +110,8 @@ function resetForm() {
 }
 
 async function handleSubmit(payload: { kind: SubmissionKind; data: any; files: File[]; turnstileToken: string }) {
+  console.log('Page: handleSubmit called', { kind: payload.kind, files: payload.files.length, token: !!payload.turnstileToken });
+  
   // Check honeypot
   if (honeypot.value) {
     console.warn('Honeypot filled - potential spam');
@@ -120,6 +122,7 @@ async function handleSubmit(payload: { kind: SubmissionKind; data: any; files: F
 
   try {
     // Step 1: Calculate file hashes and init upload
+    console.log('Page: Calculating hashes...');
     const fileInfos = [];
     for (const file of payload.files) {
       const sha256 = await calculateSHA256(file);
@@ -131,15 +134,22 @@ async function handleSubmit(payload: { kind: SubmissionKind; data: any; files: F
       });
     }
 
+    console.log('Page: calling initUpload...');
     const initResponse = await initUpload({
       turnstileToken: payload.turnstileToken,
       kind: payload.kind,
       files: fileInfos
     });
+    console.log('Page: initUpload success', initResponse);
 
     submissionId.value = initResponse.submissionId;
 
     // Step 2: Upload files to R2
+    if (payload.files.length > 0) {
+        console.log('Page: Uploading files to R2...');
+        // ... (existing upload logic)
+    } 
+    
     const uploadedFiles = [];
     for (let i = 0; i < payload.files.length; i++) {
       const file = payload.files[i];
@@ -157,6 +167,7 @@ async function handleSubmit(payload: { kind: SubmissionKind; data: any; files: F
     }
 
     // Step 3: Complete submission
+    console.log('Page: calling completeSubmission...');
     await completeSubmission({
       submissionId: submissionId.value,
       kind: payload.kind,
@@ -164,12 +175,13 @@ async function handleSubmit(payload: { kind: SubmissionKind; data: any; files: F
       uploadedFiles,
       turnstileToken: payload.turnstileToken
     });
+    console.log('Page: completeSubmission success');
 
     // Success!
     submitted.value = true;
 
   } catch (error: any) {
-    console.error('Submission error:', error);
+    console.error('Submission error (Page):', error);
     alert(`Submission failed: ${error.message || 'Unknown error'}`);
   } finally {
     submitting.value = false;
