@@ -92,7 +92,7 @@
             ]"
           >
             <div class="absolute -right-4 -bottom-4 opacity-10 group-hover:opacity-20 transition-opacity">
-              <i class="pi pi-map-marker text-8xl text-blue-500"></i>
+              <i class="pi pi-map-marker !text-8xl text-blue-500"></i>
             </div>
             
             <div 
@@ -101,7 +101,7 @@
                 form.type === 'in_person' ? 'bg-blue-500 shadow-lg shadow-blue-500/40 rotate-6' : 'bg-blue-100 dark:bg-blue-900/40 group-hover:rotate-3'
               ]"
             >
-              <i :class="['pi pi-map-marker text-4xl transition-colors duration-500', form.type === 'in_person' ? 'text-white' : 'text-blue-500']"></i>
+              <i :class="['pi pi-map-marker !text-4xl transition-colors duration-500', form.type === 'in_person' ? 'text-white' : 'text-blue-500']"></i>
             </div>
             
             <h3 class="text-xl font-black text-surface-900 dark:text-surface-0 mb-2">In Person</h3>
@@ -120,7 +120,7 @@
             ]"
           >
             <div class="absolute -right-4 -bottom-4 opacity-10 group-hover:opacity-20 transition-opacity">
-              <i class="pi pi-th-large text-8xl text-purple-500"></i>
+              <i class="pi pi-th-large !text-8xl text-purple-500"></i>
             </div>
             
             <div 
@@ -129,7 +129,7 @@
                 form.type === 'hybrid' ? 'bg-purple-500 shadow-lg shadow-purple-500/40 -rotate-6' : 'bg-purple-100 dark:bg-purple-900/40 group-hover:-rotate-3'
               ]"
             >
-              <i :class="['pi pi-th-large text-4xl transition-colors duration-500', form.type === 'hybrid' ? 'text-white' : 'text-purple-500']"></i>
+              <i :class="['pi pi-th-large !text-4xl transition-colors duration-500', form.type === 'hybrid' ? 'text-white' : 'text-purple-500']"></i>
             </div>
             
             <h3 class="text-xl font-black text-surface-900 dark:text-surface-0 mb-2">Hybrid</h3>
@@ -148,7 +148,7 @@
             ]"
           >
             <div class="absolute -right-4 -bottom-4 opacity-10 group-hover:opacity-20 transition-opacity">
-              <i class="pi pi-globe text-8xl text-green-500"></i>
+              <i class="pi pi-globe !text-8xl text-green-500"></i>
             </div>
             
             <div 
@@ -157,7 +157,7 @@
                 form.type === 'online' ? 'bg-green-500 shadow-lg shadow-green-500/40 rotate-6' : 'bg-green-100 dark:bg-green-900/40 group-hover:rotate-3'
               ]"
             >
-              <i :class="['pi pi-globe text-4xl transition-colors duration-500', form.type === 'online' ? 'text-white' : 'text-green-500']"></i>
+              <i :class="['pi pi-globe !text-4xl transition-colors duration-500', form.type === 'online' ? 'text-white' : 'text-green-500']"></i>
             </div>
             
             <h3 class="text-xl font-black text-surface-900 dark:text-surface-0 mb-2">Online</h3>
