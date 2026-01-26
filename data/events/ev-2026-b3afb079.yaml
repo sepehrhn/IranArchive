@@ -55,18 +55,22 @@ location:
 
 
 # Online Specifics (Required for online/hybrid events)
-# online: null
+online: []
+  # e.g., Zoom, YouTube, X Spaces
+  platform: ""
+  join_url: ""
+  registration_url: ""
 
 # [REQUIRED] Organizer
 organizer:
-  name: "Anonymous"
-  # website: ""
-  # contact_email: ""
+  name: ""
+  website: ""
+  contact_email: ""
   # Social media links for the organizer
   socials:
-    # x: ""
-    # instagram: ""
-    # telegram: ""
+    x: ""
+    instagram: ""
+    telegram: ""
 
 # Announcement link (Required) - e.g. Instgram post or tweet
 announcement: "-"

@@ -59,10 +59,11 @@ location:
   lng: 13.3777
 
 # Online Specifics (Required for online/hybrid events)
-# online:
-#   platform: "Zoom"          # e.g., Zoom, YouTube, X Spaces
-#   join_url: "https://..."
-#   registration_url: "https://..."
+online: []
+  # e.g., Zoom, YouTube, X Spaces
+  platform: ""
+  join_url: ""
+  registration_url: ""
 
 # Organizer
 organizer:
