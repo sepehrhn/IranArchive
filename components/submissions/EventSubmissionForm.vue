@@ -1015,47 +1015,57 @@ function handleSubmit() {
     return;
   }
 
-  const data = {
-    title: form.value.title,
-    description: form.value.description,
-    type: form.value.type,
-    announcement: form.value.announcement, // Renamed from poster
-    date: {
-      start: formatDate(form.value.startDate),
-      start_time: form.value.startTime,
-      end: showEndDate.value && form.value.endDate ? formatDate(form.value.endDate) : undefined,
-      end_time: showEndDate.value && form.value.endTime ? form.value.endTime : undefined
-    },
-    location: (form.value.type === 'in_person' || form.value.type === 'hybrid') ? {
-      country: form.value.country,
-      city: form.value.city,
-      address: form.value.address,
-      lat: form.value.lat,
-      lng: form.value.lng
-    } : undefined,
-    online: (form.value.type === 'online' || form.value.type === 'hybrid') ? {
-      platform: form.value.platform,
-      join_url: form.value.joinUrl,
-      registration_url: form.value.registrationUrl || undefined
-    } : undefined,
-    organizer: {
-      name: form.value.organizerName || undefined,
-      website: form.value.organizerWebsite || undefined,
-      contact_email: form.value.organizerEmail || undefined,
-      socials: {
-        x: form.value.organizerX || undefined,
-        instagram: form.value.organizerInstagram || undefined,
-        telegram: form.value.organizerTelegram || undefined
+  try {
+    console.log('EventSubmissionForm: Preparing data...');
+    const data = {
+      title: form.value.title,
+      description: form.value.description,
+      type: form.value.type,
+      announcement: form.value.announcement, // Renamed from poster
+      date: {
+        start: formatDate(form.value.startDate),
+        start_time: form.value.startTime,
+        end: showEndDate.value && form.value.endDate ? formatDate(form.value.endDate) : undefined,
+        end_time: showEndDate.value && form.value.endTime ? form.value.endTime : undefined
+      },
+      location: (form.value.type === 'in_person' || form.value.type === 'hybrid') ? {
+        country: form.value.country,
+        city: form.value.city,
+        address: form.value.address,
+        lat: form.value.lat,
+        lng: form.value.lng
+      } : undefined,
+      online: (form.value.type === 'online' || form.value.type === 'hybrid') ? {
+        platform: form.value.platform,
+        join_url: form.value.joinUrl,
+        registration_url: form.value.registrationUrl || undefined
+      } : undefined,
+      organizer: {
+        name: form.value.organizerName || undefined,
+        website: form.value.organizerWebsite || undefined,
+        contact_email: form.value.organizerEmail || undefined,
+        socials: {
+          x: form.value.organizerX || undefined,
+          instagram: form.value.organizerInstagram || undefined,
+          telegram: form.value.organizerTelegram || undefined
+        }
       }
-    }
-  };
+    };
+    
+    console.log('EventSubmissionForm: Data prepared, emitting submit...', data);
 
-  emit('submit', {
-    kind: 'event',
-    data,
-    files: [],
-    turnstileToken: turnstileToken.value
-  });
+    emit('submit', {
+      kind: 'event',
+      data,
+      files: [],
+      turnstileToken: turnstileToken.value
+    });
+    console.log('EventSubmissionForm: Emit called');
+
+  } catch (err) {
+    console.error('EventSubmissionForm: Error in handleSubmit', err);
+    alert('Error preparing submission. Please check console.');
+  }
 }
 
 function formatDate(date: Date | null): string {
