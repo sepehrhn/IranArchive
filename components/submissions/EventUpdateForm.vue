@@ -12,22 +12,6 @@
 
     <form @submit.prevent="handleSubmit" class="space-y-6">
       
-      <!-- Update Type -->
-      <div>
-        <IftaLabel>
-          <Dropdown
-            v-model="form.updateType"
-            inputId="update_type"
-            :options="updateTypes"
-            optionLabel="label"
-            optionValue="value"
-            class="w-full"
-            variant="filled"
-          />
-          <label for="update_type">What kind of update?</label>
-        </IftaLabel>
-      </div>
-
       <!-- Description -->
       <div>
         <IftaLabel>
@@ -116,16 +100,7 @@ const config = useRuntimeConfig();
 const turnstileContainer = ref<HTMLElement>();
 const turnstileToken = ref('');
 
-const updateTypes = [
-  { label: 'Correction (Typos, wrong info)', value: 'correction' },
-  { label: 'Change (Time/Location changed)', value: 'change' },
-  { label: 'Cancellation', value: 'cancellation' },
-  { label: 'New Information', value: 'info' },
-  { label: 'Other', value: 'other' }
-];
-
 const form = ref({
-  updateType: 'correction',
   description: '',
   sourceUrl: ''
 });
@@ -195,7 +170,7 @@ function handleSubmit() {
       is_update: true,
       original_event_id: props.initialData.id,
       original_event_title: props.initialData.title,
-      update_type: form.value.updateType,
+      update_type: 'general_update',
       update_description: form.value.description,
       source_url: form.value.sourceUrl,
       // Minimal required fields to satisfy schema if backend validates strictly?
