@@ -50,9 +50,10 @@ const handleUpdateSubmit = async (payload: any) => {
 };
 
 const excerpt = computed(() => {
-    return props.event.summary.length > 120 
-        ? props.event.summary.substring(0, 120) + '...' 
-        : props.event.summary;
+    const text = props.event.description || '';
+    return text.length > 120 
+        ? text.substring(0, 120) + '...' 
+        : text;
 });
 
 const renderMarkdown = (text: string) => {
