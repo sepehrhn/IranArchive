@@ -1,0 +1,78 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-b3afb079
+# -----------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# This file serves as a template and documentation for adding new events.
+# Use this structure to submit new events to the platform.
+#
+# FILENAME CONVENTION:
+#   ev-YYYY-XXXXX.yaml (e.g., ev-2026-00001.yaml)
+#   The filename (without extension) becomes the unique Event ID.
+# -----------------------------------------------------------------------------
+
+# [REQUIRED] Core Details
+# The visible title of the event (e.g. "Berlin Rally for Freedom")
+title: "Solidarity Protest in Milwaukee"
+
+# Set to true to highlight this event in the list
+featured: false
+
+# A full description of the event. Supports Markdown (bold, links, lists).
+# Use the pipe (|) for multi-line text blocks.
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+# The type of event (physical vs online format)
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+# [REQUIRED] Timing
+date:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/27"
+  # Start time in HH:mm format (optional)
+  start_time: "12:00"
+  # End date (optional)
+  end: "2026/01/27"
+  # End time (optional)
+  end_time: "14:00"
+
+# Location (Required for in_person/hybrid events)
+location:
+  country: "US"
+  # City name
+  city: "Milwaukee"
+  # Specific address or landmark (optional)
+  address: "UWM Union Concourse, 2200 E Kenwood Blvd, Milwaukee, WI"
+  # Latitude (auto-calculated from address if not provided)
+  # lat: 
+  # Longitude (auto-calculated from address if not provided)
+  # lng: 
+
+
+# Online Specifics (Required for online/hybrid events)
+# online: null
+
+# [REQUIRED] Organizer
+organizer:
+  name: "Anonymous"
+  # website: ""
+  # contact_email: ""
+  # Social media links for the organizer
+  socials:
+    # x: ""
+    # instagram: ""
+    # telegram: ""
+
+# Announcement link (Required) - e.g. Instgram post or tweet
+announcement: "-"
+
+# INTERNAL USE - Submission Metadata
+submission:
+  submitted_by: "Public Form"
+  received_at: "2026-01-26T00:46:15.592Z"
+  submission_id: "b3afb079-f94d-42e7-97b4-dbe7e18a0892"
