@@ -26,8 +26,11 @@ const { t } = useI18n()
             </div>
         </div>
         
-        <div class="text-xs text-surface-500 dark:text-surface-500 mt-4 text-center italic max-w-lg">
-            Source: <a href="https://nypost.com/2026/01/25/world-news/more-than-36500-killed-in-deadliest-two-days-in-iran-protest-crackdown-report/" target="_blank" class="underline hover:text-red-600 dark:hover:text-red-400 transition-colors">NY Post citing reports (Jan 2026)</a>
+        <div class="text-xs text-surface-500 dark:text-surface-500 mt-4 text-center italic max-w-xl">
+            Sources: 
+            <a href="https://nypost.com/2026/01/25/world-news/more-than-36500-killed-in-deadliest-two-days-in-iran-protest-crackdown-report/" target="_blank" class="underline hover:text-red-600 dark:hover:text-red-400 transition-colors">NY Post</a>
+            <span class="mx-1">•</span>
+            <a href="https://www.bloomberg.com/news/articles/2026-01-22/iran-protest-deaths-seen-rising-with-one-estimate-topping-20-000" target="_blank" class="underline hover:text-red-600 dark:hover:text-red-400 transition-colors">Bloomberg citing UN reports</a>
         </div>
     </div>
 </template>
