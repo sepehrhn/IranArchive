@@ -756,7 +756,6 @@
             label="Submit Event"
             icon="pi pi-send"
             :loading="submitting"
-            :disabled="!turnstileToken"
             @click="handleSubmit"
           />
         </div>
@@ -1009,6 +1008,13 @@ function handleNext() {
 }
 
 function handleSubmit() {
+  console.log('EventSubmissionForm: handleSubmit called');
+  
+  if (!turnstileToken.value) {
+    alert('Please wait for the security check (Cloudflare Turnstile) to complete. If it does not appear, please refresh the page.');
+    return;
+  }
+
   const data = {
     title: form.value.title,
     description: form.value.description,

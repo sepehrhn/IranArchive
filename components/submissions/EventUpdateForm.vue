@@ -92,7 +92,6 @@
           label="Submit Update"
           icon="pi pi-send"
           :loading="submitting"
-          :disabled="!turnstileToken"
         />
       </div>
     </form>
@@ -174,12 +173,19 @@ function renderTurnstile() {
 }
 
 function handleSubmit() {
+  console.log('EventUpdateForm: handleSubmit called');
+
   errors.value = {
     description: !form.value.description.trim(),
     sourceUrl: !form.value.sourceUrl.trim()
   };
 
   if (errors.value.description || errors.value.sourceUrl) {
+    return;
+  }
+
+  if (!turnstileToken.value) {
+    alert('Please wait for the security check to complete.');
     return;
   }
 
