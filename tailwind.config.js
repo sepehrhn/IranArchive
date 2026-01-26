@@ -10,6 +10,12 @@ export default {
         "./app.vue",
         "./error.vue",
     ],
+    safelist: [
+        // Safelist for EventSubmissionForm dynamic classes (colors are used conditionally)
+        { pattern: /(bg|text|border|shadow)-(blue|purple|green)-(50|100|200|300|400|500|600|900|950)(\/(5|10|20|40|50))?/ },
+        { pattern: /(rotate)-(3|6)/ },
+        { pattern: /(-rotate)-(3|6)/ },
+    ],
     theme: {
         extend: {
             colors: {
