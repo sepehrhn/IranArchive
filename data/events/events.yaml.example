@@ -61,9 +61,9 @@ location:
 # Online Specifics (Required for online/hybrid events)
 online: []
   # e.g., Zoom, YouTube, X Spaces
-  platform: ""
-  join_url: ""
-  registration_url: ""
+  # platform: ""
+  # join_url: ""
+  # registration_url: ""
 
 # Organizer
 organizer:

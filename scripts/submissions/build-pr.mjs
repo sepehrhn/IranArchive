@@ -299,7 +299,12 @@ date:
   end_time: "${data.date?.end_time || ''}"
 
 # Location (Required for in_person/hybrid events)
-${data.type === 'online' ? 'location: []' : 'location:'}
+${data.type === 'online' ? `location: []
+  # country: "${data.location?.country || ''}"
+  # city: "${data.location?.city || ''}"
+  # address: "${data.location?.address || ''}"
+  # lat: ${data.location?.lat || "null"}
+  # lng: ${data.location?.lng || "null"}` : `location:
   country: "${data.location?.country || ''}"
   # City name
   city: "${data.location?.city || ''}"
@@ -308,14 +313,18 @@ ${data.type === 'online' ? 'location: []' : 'location:'}
   # Latitude (auto-calculated from address if not provided)
   lat: ${data.location?.lat || "null"}
   # Longitude (auto-calculated from address if not provided)
-  lng: ${data.location?.lng || "null"}
+  lng: ${data.location?.lng || "null"}`}
 
 # Online Specifics (Required for online/hybrid events)
-${data.type === 'in_person' ? 'online: []' : 'online:'}
+${data.type === 'in_person' ? `online: []
+  # e.g., Zoom, YouTube, X Spaces
+  # platform: "${data.online?.platform || ''}"
+  # join_url: "${data.online?.join_url || ''}"
+  # registration_url: "${data.online?.registration_url || ''}"` : `online:
   # e.g., Zoom, YouTube, X Spaces
   platform: "${data.online?.platform || ''}"
   join_url: "${data.online?.join_url || ''}"
-  registration_url: "${data.online?.registration_url || ''}"
+  registration_url: "${data.online?.registration_url || ''}"`}
 
 # Organizer
 organizer:
