@@ -11,8 +11,10 @@ import {
   TIER_COLORS, TIER_LABELS, DIPLOMACY_COLORS, IRGC_COLORS, UN_COLORS, SECURITY_COLORS 
 } from '@/utils/countryColors';
 import { useCampaigns } from '~/composables/useCampaigns';
+import { useCountries } from '@/composables/useCountries';
 
 const { getCampaignsForCountry } = useCampaigns();
+const { getCountryFlagUrl } = useCountries();
 
 const props = defineProps<{
   visible: boolean;
@@ -93,7 +95,7 @@ const relevantCampaigns = computed(() => {
   <Drawer v-model:visible="isVisible" position="right" class="w-full md:w-[480px] p-0" :showCloseIcon="true">
     <template #header>
       <div class="flex items-center gap-3" v-if="country">
-        <!-- Optional URL-based flag or just name -->
+        <img :src="getCountryFlagUrl(country.iso2)" class="w-8 h-8 object-contain" :alt="country.name" />
         <h2 class="text-xl font-bold">{{ country.name }}</h2>
         <div class="px-2 py-1 rounded text-white text-xs font-bold" 
              :style="{ backgroundColor: TIER_COLORS[country.derived_tier || 'Unknown'] }">

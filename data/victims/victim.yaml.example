@@ -59,7 +59,7 @@ date_of_death: "2026/01/20"
 date_of_death_precision: "Exact"
 
 # Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown' | 'Other'
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: ""
 
 # -----------------------------------------------------------------------------
@@ -72,7 +72,7 @@ cause_of_death: ""
 disappearance_circumstances: ""
 
 # Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown' | 'Other'
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
 suspected_actor: ""
 
 # -----------------------------------------------------------------------------
