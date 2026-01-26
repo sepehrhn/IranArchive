@@ -775,6 +775,7 @@ const props = defineProps<{
 
 const emit = defineEmits<{
   'submit-entry': [payload: any];
+  'submit': [payload: any];
 }>();
 
 const config = useRuntimeConfig();
@@ -1055,6 +1056,14 @@ function handleSubmit() {
     console.log('EventSubmissionForm: Data prepared, emitting submit-entry...', data);
 
     emit('submit-entry', {
+      kind: 'event',
+      data,
+      files: [],
+      turnstileToken: turnstileToken.value
+    });
+
+    // Dual emit for fallback
+    emit('submit', {
       kind: 'event',
       data,
       files: [],
