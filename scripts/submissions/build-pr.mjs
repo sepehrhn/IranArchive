@@ -299,7 +299,7 @@ date:
   end_time: "${data.date?.end_time || ''}"
 
 # Location (Required for in_person/hybrid events)
-location:
+${data.type === 'online' ? 'location: []' : 'location:'}
   country: "${data.location?.country || ''}"
   # City name
   city: "${data.location?.city || ''}"
@@ -311,7 +311,7 @@ location:
   lng: ${data.location?.lng || "null"}
 
 # Online Specifics (Required for online/hybrid events)
-online:
+${data.type === 'in_person' ? 'online: []' : 'online:'}
   # e.g., Zoom, YouTube, X Spaces
   platform: "${data.online?.platform || ''}"
   join_url: "${data.online?.join_url || ''}"
@@ -329,7 +329,7 @@ organizer:
     telegram: "${data.organizer?.socials?.telegram || ''}"
 
 # Announcement link (Required) - e.g. Instgram post or tweet
-announcement: "${data.announcement || ''}"
+announcement: "${data.announcement || '-'}"
 
 # INTERNAL USE - Submission Metadata
 submission:

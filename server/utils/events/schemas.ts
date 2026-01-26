@@ -24,9 +24,9 @@ const LocationSchema = z.object({
 
 // Online Schema - removed access field (all events are public)
 const OnlineSchema = z.object({
-    platform: z.string().min(1),
-    join_url: z.string().url(),
-    registration_url: z.union([z.string().url(), z.literal('')]).optional().nullable(),
+    platform: z.union([z.string(), z.literal('')]).optional().nullable(),
+    join_url: z.union([z.string(), z.literal('')]).optional().nullable(),
+    registration_url: z.union([z.string(), z.literal('')]).optional().nullable(),
 });
 
 const OrganizerSchema = z.object({
@@ -56,28 +56,38 @@ export const EventSchema = z.object({
     date: DateInfoSchema,
 
     // Sections
-    location: LocationSchema.optional().nullable(),
-    online: OnlineSchema.optional().nullable(),
+    location: z.union([LocationSchema, z.array(z.any()).length(0)]).optional().nullable(),
+    online: z.union([OnlineSchema, z.array(z.any()).length(0)]).optional().nullable(),
     organizer: OrganizerSchema,
     // Removed speakers, verification (status), and sources sections
 
     // Media
-    announcement: z.union([z.string().url(), z.literal('')]).optional().nullable(), // Renamed from poster, required URL but optional for legacy
+    announcement: z.union([z.string().url(), z.literal(''), z.literal('-')]).optional().nullable(), // Allow '-' or empty
 
     // Options
     featured: z.boolean().default(false)
 }).refine(data => {
+    const isLocationMissing = !data.location || (Array.isArray(data.location) && data.location.length === 0);
+    const isOnlineMissing = !data.online || (Array.isArray(data.online) && data.online.length === 0);
+
     // Logic: if in_person or hybrid, location is required
-    if ((data.type === 'in_person' || data.type === 'hybrid') && !data.location) {
+    if ((data.type === 'in_person' || data.type === 'hybrid') && isLocationMissing) {
         return false;
     }
     // Logic: if online or hybrid, online section is required
-    if ((data.type === 'online' || data.type === 'hybrid') && !data.online) {
-        return false;
+    if ((data.type === 'online' || data.type === 'hybrid')) {
+        if (isOnlineMissing) return false;
+
+        // If it's an object, check internal fields
+        if (typeof data.online === 'object' && data.online !== null && !Array.isArray(data.online)) {
+            if (!data.online.platform?.trim() || !data.online.join_url?.trim()) {
+                return false;
+            }
+        }
     }
     return true;
 }, {
-    message: "Location/Online details required based on event type",
+    message: "Location/Online details required based on event type. Please provide platform and join_url for online events.",
     path: ["type"]
 });
 
