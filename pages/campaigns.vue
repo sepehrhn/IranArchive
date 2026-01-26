@@ -206,7 +206,7 @@ const formatCountries = (codes: string[]) => {
                      </div>
                 </div>
 
-                <div class="p-5 flex flex-col h-[calc(100%-aspect-video)]">
+                <div class="p-5 flex flex-col flex-1">
                     <h3 class="font-bold text-lg text-surface-900 dark:text-surface-0 mb-2 line-clamp-3 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                         {{ campaign.title }}
                     </h3>
