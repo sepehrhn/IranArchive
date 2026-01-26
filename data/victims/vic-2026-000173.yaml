@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Amir Ali Latifi
+# ==========================================
+
+photo: "vic-2026-000173.png"
+name: "Amir Ali Latifi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Gilan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by Islamic Republic regime
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/daikatuo/status/2012217391527117076"

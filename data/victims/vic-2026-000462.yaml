@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ziba Dastjardi
+# ==========================================
+
+photo: "vic-2026-000462.jpg"
+name: "Ziba Dastjardi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 33
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Neyshabour"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot dead by the Islamic regime in front of her 8-year-old daughter
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/noamagid/status/2012675123656991142"

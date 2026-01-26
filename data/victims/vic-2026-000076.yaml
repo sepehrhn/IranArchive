@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Benyamin Mohammadi
+# ==========================================
+
+photo: "vic-2026-000076.jpg"
+name: "Benyamin Mohammadi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 15
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Unknown (in front of his home)"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with a war bullet by government forces in front of his house door
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hashshaashin/status/2014356827689943118"

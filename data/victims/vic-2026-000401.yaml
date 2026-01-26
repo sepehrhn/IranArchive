@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Nazanin Seyedi
+# ==========================================
+
+photo: "vic-2026-000401.jpg"
+name: "Nazanin Seyedi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 45
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Karaj"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly by government suppression forces during protests, then executed with a final shot to the heart while lying on the ground
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/manotonews/status/2013242667044639073"

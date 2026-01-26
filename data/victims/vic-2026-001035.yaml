@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Amirhosein Sefri Goldesteh
+# ==========================================
+
+photo: "vic-2026-001035.jpg"
+name: "Amirhosein Sefri Goldesteh"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: ""
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Described as an Iranian child who was killed in the protests, but no specific details about age, location, or date of death are provided.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/missmarpel75/status/2014749595721429178"

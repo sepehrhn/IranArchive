@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Sajjad Bahadori Moghadam
+# ==========================================
+
+photo: "vic-2026-000827.png"
+name: "Sajjad Bahadori Moghadam"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 25
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Mashhad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with a war bullet near the Toos police station, Meraj Square, Mashhad.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hekasrehcrisis/status/2015192538718802390"

@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ali Mohammad Kord Kazemi
+# ==========================================
+
+photo: "vic-2026-000234.jpg"
+name: "Ali Mohammad Kord Kazemi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 22
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Saadat Abad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the heart by Islamic Republic forces during protests in Kaj Square.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/tavaana/status/2014273359845167258"

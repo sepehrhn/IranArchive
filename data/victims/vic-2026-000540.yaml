@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Amirmohammad Ostaddoost
+# ==========================================
+
+photo: ""
+
+name: "Amirmohammad Ostaddoost"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 26
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Ramsar"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with military bullet by security forces during Thursday protests
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/iranintl/status/2012801949318390052"

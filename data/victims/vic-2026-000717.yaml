@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammad Hussein Parnoon
+# ==========================================
+
+photo: "vic-2026-000717.jpg"
+name: "Mohammad Hussein Parnoon"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 16
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Khorramabad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  15-year-old boxer from Khorramabad, was killed by direct fire from suppressive forces in the Masur neighborhood of Khorramabad on Thursday, 18 Dey 1404.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/callyonyourbs/status/2015024907504292232"

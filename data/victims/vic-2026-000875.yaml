@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Zahra Mahmoudpour
+# ==========================================
+
+photo: "vic-2026-000875.jpg"
+name: "Zahra Mahmoudpour"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Isfahan"
+incident_city: "Najafabad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly by security forces during protests related to Prince Reza Pahlavi's call for action
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/allahbakhshii/status/2013909224410005752"

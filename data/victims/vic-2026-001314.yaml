@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Saeed Rahbarinezhad
+# ==========================================
+
+photo: "vic-2026-001314.jpg"
+name: "Saeed Rahbarinezhad"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Arak"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: سعید رهبرنژاد
+  
+  Killed by the suppressive forces of the Islamic Republic during protests. Father of Sepehr and Arsam.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/saeidvafa/status/2015440463139123305, https://x.com/behnam_chegini/status/2015437073709220310"

@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Majid Zangeneh
+# ==========================================
+
+photo: "vic-2026-000662.jpg"
+name: "Majid Zangeneh"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 25
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Mashhad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by government forces with military ammunition during protests.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/manotonews/status/2014941235132387643"

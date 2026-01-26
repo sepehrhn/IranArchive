@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Sina Kazemi
+# ==========================================
+
+photo: "vic-2026-000447.jpg"
+name: "Sina Kazemi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 22
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran (Haft Houz area)"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by government forces during national revolution protests in the evening
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/shahramsadidi/status/2014087721900212382"

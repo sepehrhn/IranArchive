@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Fardin Ghanbari
+# ==========================================
+
+photo: "vic-2026-000127.jpg"
+name: "Fardin Ghanbari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Sari"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Barista at the cafe who was injured the same night as Mohammad Ebrahimi and died after several days in hospital due to severity of injuries
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hengawo/status/2012283597374234675"

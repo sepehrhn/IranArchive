@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Milad Mianeh Khah Monfaredi
+# ==========================================
+
+photo: "vic-2026-000361.jpg"
+name: "Milad Mianeh Khah Monfaredi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 29
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Bandar-e Anzali"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with a military bullet by the suppression forces of the Islamic Republic during the Iranian Revolution.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/manotonews/status/2013597379912434000"

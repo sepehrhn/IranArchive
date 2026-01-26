@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Elina Hojjati
+# ==========================================
+
+photo: "vic-2026-000937.jpg"
+name: "Elina Hojjati"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 42
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with a military bullet during protests. Transferred to hospital, but critical blood transfusion was not performed on January 9, 2026 (19 Dey). Her body was found among thousands of corpses three days later.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/theoldwaryaw/status/2014084551883014590"

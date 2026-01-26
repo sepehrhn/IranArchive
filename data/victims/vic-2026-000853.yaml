@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Siavash Farrokhi
+# ==========================================
+
+photo: "vic-2026-000853.jpg"
+name: "Siavash Farrokhi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "افسریه تهران"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the hand while on a motorcycle at Bist Metri Sevom in Afsariyeh, Tehran. He dismounted and was then shot from behind.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/roozbehmon/status/2015154843158253711"

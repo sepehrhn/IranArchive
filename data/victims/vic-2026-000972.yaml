@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Daryoush Ansari Bakhtiaravand
+# ==========================================
+
+photo: "vic-2026-000972.png"
+name: "Daryoush Ansari Bakhtiaravand"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 28
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Fooladshahr, Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by live ammunition during protests, shot with a Kalashnikov and died before being transferred to medical facilities
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://en.wikipedia.org/wiki/2026_Iran_massacres"

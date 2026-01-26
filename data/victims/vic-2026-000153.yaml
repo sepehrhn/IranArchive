@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Alireza Rafiei Rad
+# ==========================================
+
+photo: "vic-2026-000153.jpg"
+name: "Alireza Rafiei Rad"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 20
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Nazi-Abad district, South Tehran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by regime forces, severely wounded in main blood artery in leg near Naziabad Tehran on Friday, died Saturday after surgery at Shariati Hospital
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/pouriazeraati/status/2012969280678007144"

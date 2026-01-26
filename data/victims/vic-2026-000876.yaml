@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Zahra Moradi
+# ==========================================
+
+photo: "vic-2026-000876.png"
+name: "Zahra Moradi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Iran (provinces of Ilam"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by a direct shot to the head and chest during protests in Tehran.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/daikatuo/status/2011478578936836544"

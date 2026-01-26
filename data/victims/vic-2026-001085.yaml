@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Golsa Sharifi
+# ==========================================
+
+photo: "vic-2026-001085.jpg"
+name: "Golsa Sharifi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 20
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Yazd"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  20-year-old Golsa Sharifi from Abadeh was beaten on the head with a baton in Yazd, suffered a concussion, and died. Her family was told to say that she had a brain tumor.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://t.me/poshtpardeha/248511"

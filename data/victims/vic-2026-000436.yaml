@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Samaneh Mirzaei
+# ==========================================
+
+photo: "vic-2026-000436.jpg"
+name: "Samaneh Mirzaei"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 30
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot dead by regime's security forces during anti-regime protests on Nababa Street
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/noamagid/status/2011898950736101699"

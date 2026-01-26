@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammad Fahim
+# ==========================================
+
+photo: "vic-2026-000711.jpg"
+name: "Mohammad Fahim"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 32
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Kianshahr"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed in the protests, described as 'child of Iran killed for the homeland.'
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/monfaredashkan/status/2014835442647237063"

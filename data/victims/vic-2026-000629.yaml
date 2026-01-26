@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Hossein Hosseini
+# ==========================================
+
+photo: "vic-2026-000629.jpg"
+name: "Hossein Hosseini"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Mashhad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by Sajad Yousefi, leader of the terrorist group Ashuraian Montazer
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/saeidvafa/status/2014727059533099512"

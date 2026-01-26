@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Navid Salehi
+# ==========================================
+
+photo: "vic-2026-000766.jpg"
+name: "Navid Salehi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 24
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Kermanshah"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  23-year-old Kurdish nurse from Paveh, shot dead by regime forces at his workplace in Kermanshah.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/iranprotestscom/status/2010777595944583419"

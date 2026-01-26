@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Eshagh Ghanbarniya
+# ==========================================
+
+photo: "vic-2026-000278.jpg"
+name: "Eshagh Ghanbarniya"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Gilan or Mazandaran provinces"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly in the chest area by Islamic Republic of Iran forces
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/banafshehviola/status/2012962116798390719"

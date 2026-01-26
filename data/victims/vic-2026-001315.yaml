@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Saeid Arian
+# ==========================================
+
+photo: "vic-2026-001315.jpg"
+name: "Saeid Arian"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Arak"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: سعید آریان
+  
+  Disappeared during protests on Shariati Street in Arak on January 8. His lifeless body was handed over to his family on January 14. Authorities provided no explanation regarding the circumstances of his death.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/saeidvafa/status/2015503706414801404"

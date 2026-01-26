@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ali Anbarestani
+# ==========================================
+
+photo: "vic-2026-000486.jpg"
+name: "Ali Anbarestani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 37
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Sabzevar"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Born in 1988. Resident of Tehran. Died for the freedom of his homeland after being shot in the head.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/daikatuo/status/2011834019403677736"

@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Parisa Lashkari
+# ==========================================
+
+photo: "vic-2026-000196.jpg"
+name: "Parisa Lashkari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 30
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Nourabad Mamasoli (نورآباد ممسنی)"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot during protests in Nourabad Mamasoli. She was wounded and later killed by further gunfire while being transported with other injured individuals.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/vahidmirzaeii/status/2014101283645300963"

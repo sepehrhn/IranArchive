@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Hamidreza Hemmati
+# ==========================================
+
+photo: "vic-2026-000619.jpg"
+name: "Hamidreza Hemmati"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 21
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Abducted by suppressive forces and his lifeless body was returned to his family. The cause of death was announced as a 'stroke,' but the family observed severe signs of torture on his body.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/dariush_zand/status/2014655939316441268"

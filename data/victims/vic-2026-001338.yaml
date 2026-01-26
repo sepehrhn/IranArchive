@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Farhad Farsi
+# ==========================================
+
+photo: "vic-2026-001338.jpg"
+name: "Farhad Farsi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 37
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: فرهاد فارسى
+  
+  37-year-old killed in Isfahan. He was arrested and his family was told he was alive and not to follow up. After a few days, they were called from Bagh-e Rezvan cemetery to identify several bodies. They found that he had been shot in the stomach and died, meaning he was killed while in detention.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/visfehan/status/2015441559454388548"

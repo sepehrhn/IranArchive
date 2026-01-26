@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammad Darvishvand
+# ==========================================
+
+photo: "vic-2026-000369.jpg"
+name: "Mohammad Darvishvand"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 24
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Alvand, Qazvin"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by Islamic Republic suppressive forces alongside his cousin Edris Darvishvand during the national revolution
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/indypersian/status/2013641179762504085"

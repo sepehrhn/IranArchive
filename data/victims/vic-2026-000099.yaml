@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mehdi Agha Hosseini
+# ==========================================
+
+photo: "vic-2026-000099.jpg"
+name: "Mehdi Agha Hosseini"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 26
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Ariashahr"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the back of the neck in front of Ibn Sina Hospital
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hehe_mikh/status/2013590588159840624"

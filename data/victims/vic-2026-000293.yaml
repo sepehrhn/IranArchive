@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Hamed Bamdadi
+# ==========================================
+
+photo: "vic-2026-000293.jpg"
+name: "Hamed Bamdadi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Gilan and Mazandaran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the leg artery on Saadi Street, died from severe bleeding despite being taken to Pars Hospital
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/pkhwshhal/status/2014344040527896661"

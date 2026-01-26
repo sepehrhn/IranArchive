@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Milad Kouchaki
+# ==========================================
+
+photo: "vic-2026-000188.jpg"
+name: "Milad Kouchaki"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 33
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Isfahan"
+incident_city: "Homayounshahr (Khomeini-shahr)"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with two bullets (one to the side, one to the head) by Islamic Republic suppression forces during protests in front of the governorate building
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/indypersian/status/2013404801992696197"

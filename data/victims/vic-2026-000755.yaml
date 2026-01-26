@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mostafa Azizi
+# ==========================================
+
+photo: "vic-2026-000755.jpg"
+name: "Mostafa Azizi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 42
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Wrestler who died during protests (described as one of thousands who 'left and never returned')
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/loabatk/status/2011929857500778771"

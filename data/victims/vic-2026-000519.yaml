@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Amin Toulabi
+# ==========================================
+
+photo: "vic-2026-000519.jpg"
+name: "Amin Toulabi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 27
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Khorramabad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot and killed during protest
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/monfaredashkan/status/2014808549164228637"

@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Behnam Barabadi
+# ==========================================
+
+photo: "vic-2026-000270.jpg"
+name: "Behnam Barabadi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Sabzevar"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by government forces in the evening, body left in street for hours, died from injuries after being taken to hospital
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/shahramsadidi/status/2013684689609867386"

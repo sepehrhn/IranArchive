@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Amir Ali Parvizi
+# ==========================================
+
+photo: "vic-2026-000091.jpg"
+name: "Amir Ali Parvizi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 17
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Unknown"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the legs by government forces on January 9, developed sepsis leading to brain death, died from complications
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/shahramsadidi/status/2014083908921335998"

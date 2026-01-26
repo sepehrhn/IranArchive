@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Rozita Rokh Zadeh
+# ==========================================
+
+photo: "vic-2026-001313.jpg"
+name: "Rozita Rokh Zadeh"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Marzdaran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: رزیتا رُخ زاده
+  
+  Shot in the side by Islamic Republic forces during protests in the Sadeghieh area of Tehran. She was taken to the hospital by her sister but died before arriving.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/i/status/2015204550639034795, https://x.com/tavaana/status/2015356528656552169"

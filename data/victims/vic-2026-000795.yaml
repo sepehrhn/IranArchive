@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Rasoul Ziaei Zardakhshouei
+# ==========================================
+
+photo: ""
+
+name: "Rasoul Ziaei Zardakhshouei"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 26
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Isfahan"
+incident_city: "Fooladshahr"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly in the heart during a protest.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/dadban4/status/2014852414294396970"

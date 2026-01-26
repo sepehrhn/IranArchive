@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Meysam Khazini
+# ==========================================
+
+photo: "vic-2026-000352.jpg"
+name: "Meysam Khazini"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 37
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Shahriyar"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Lost his life during protests (specific circumstances not detailed)
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hyrcanihrm/status/2012044410268336502"

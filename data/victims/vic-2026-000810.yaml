@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Roham Saadati
+# ==========================================
+
+photo: "vic-2026-000810.jpg"
+name: "Roham Saadati"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 19
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Karaj"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly in the lung by Islamic Republic suppression forces during the national revolution of Iranians. He was with his family at the protests in Chaharrah Mesbah in Karaj, disappeared after being separated from his family in the crowd, and his body was found hours later in a clinic.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/iranwire/status/2014626621404180521"

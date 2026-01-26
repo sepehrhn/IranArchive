@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Mahdi Emamipour
+# ==========================================
+
+photo: ""
+
+name: "Mahdi Emamipour"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Malekshahi County, Ilam"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly by IRGC forces during protests, died from severe injuries after being transferred to hospital
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://en.wikipedia.org/wiki/2026_Iran_massacres"

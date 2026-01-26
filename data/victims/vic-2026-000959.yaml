@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohsen Chit-saz
+# ==========================================
+
+photo: "vic-2026-000959.jpg"
+name: "Mohsen Chit-saz"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Implied victim of the Iranian government, mentioned in the context of 'crime of Akhund'
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/sashtyani/status/2014604496509276512"

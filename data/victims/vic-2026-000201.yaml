@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Saeed Zarei
+# ==========================================
+
+photo: ""
+
+name: "Saeed Zarei"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 27
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Nurabad Mamsani"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with military bullet in Education and Training Sector (Amoozesh va Parvarish) area. Resident of Abgoshneh village.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/ehsanzareei/status/2014445102333083721"

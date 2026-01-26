@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Aydin Dolatkhah
+# ==========================================
+
+photo: "vic-2026-000883.jpg"
+name: "Aydin Dolatkhah"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 22
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Rasht"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by IR armed forces who opened direct fire into the crowd during protests in Sargol Square area
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/daikatuo/status/2011452789310824589"

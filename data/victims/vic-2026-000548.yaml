@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Aria Honarmand
+# ==========================================
+
+photo: "vic-2026-000548.jpg"
+name: "Aria Honarmand"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 27
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Nazi-Abad district"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by suppressive forces with two war bullets to the neck and back area during popular protests
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/manotonews/status/2013265190171574763"

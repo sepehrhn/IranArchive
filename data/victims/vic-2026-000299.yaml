@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Hamidreza Soleimanian
+# ==========================================
+
+photo: "vic-2026-000299.jpg"
+name: "Hamidreza Soleimanian"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 27
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  27 years old, father of a three-month-old baby, working in the steel skeleton unit of Mobarakeh Steel Company of Isfahan, resident of Isfahan, was killed on 19 Dey 1404 during the people's protests by direct fire from the repressive forces of the government.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/manotonews/status/2015114876402761961"

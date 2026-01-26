@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Reza Mohammadi
+# ==========================================
+
+photo: "vic-2026-000803.jpg"
+name: "Reza Mohammadi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 25
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Bandar Abbas"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by government agents during peaceful protests in Bandar Abbas
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/manotonews/status/2012223329340653897"

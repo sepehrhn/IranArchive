@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Reza Ansari Ramandi
+# ==========================================
+
+photo: "vic-2026-001197.jpg"
+name: "Reza Ansari Ramandi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Dansfahan, Qazvin"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot from behind by Basij forces from a rooftop, bullet entered through his shoulder blade and hit his heart, died instantly
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/fseifikaran/status/2014298852874973278"

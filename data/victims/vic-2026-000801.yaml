@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Reza Karimi Far
+# ==========================================
+
+photo: "vic-2026-000801.jpg"
+name: "Reza Karimi Far"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 56
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Mazandaran"
+incident_city: "Chalus"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the leg and heart by government forces during protests while trying to help a female protester.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hengawo/status/2014761950320713730"

@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammadreza Entezami
+# ==========================================
+
+photo: "vic-2026-000738.png"
+name: "Mohammadreza Entezami"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 29
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Haft Howz Narmak"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Athlete, parkour coach and theater actor, shot with two bullets in the chest and abdomen.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://en.wikipedia.org/wiki/2026_Malekshahi_massacre"

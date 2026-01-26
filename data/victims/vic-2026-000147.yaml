@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Amir Hossein Sohrabi
+# ==========================================
+
+photo: "vic-2026-000147.jpg"
+name: "Amir Hossein Sohrabi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 21
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Qiamdasht, near Pakdasht"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed when security forces opened fire at Tehran Grand Bazaar. Originally from Zanjan, worked in clothing business at Tehran Bazaar. Body found in Kahrizak. Participated in Woman Life Freedom protests.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/soranmansournia/status/2012905481371582570"

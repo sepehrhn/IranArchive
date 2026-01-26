@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammad Jabbari
+# ==========================================
+
+photo: "vic-2026-000370.jpg"
+name: "Mohammad Jabbari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 27
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Isfahan"
+incident_city: "Dizicheh"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with war bullets by Islamic Republic forces from the rooftop of a Basij building in Dizicheh area
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hengawo/status/2012546870782914758"

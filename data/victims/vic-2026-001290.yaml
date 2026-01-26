@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Amirreza Rostami
+# ==========================================
+
+photo: "vic-2026-001290.jpg"
+name: "Amirreza Rostami"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 22
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Yaftabad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: امیررضا رستمی
+  
+  Shot in the heart and shoulder by government forces during protests. He was reportedly throwing back a tear gas canister when he was shot.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/tavaana/status/2015297512467464325"

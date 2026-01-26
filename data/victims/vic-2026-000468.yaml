@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Abdolrasoul Kharazi
+# ==========================================
+
+photo: "vic-2026-000468.jpg"
+name: "Abdolrasoul Kharazi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 51
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Vahidieh, Shahriar"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly in the head by government forces during popular protests in front of his wife and children
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/manotonews/status/2013559631541362848"

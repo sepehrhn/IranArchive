@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ali Janani
+# ==========================================
+
+photo: "vic-2026-000490.png"
+name: "Ali Janani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 20
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Islamshahr"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with live ammunition by security forces during protests in Qaemiyeh neighborhood
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/daikatuo/status/2011855746544136648"

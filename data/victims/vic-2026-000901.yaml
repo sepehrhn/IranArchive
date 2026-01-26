@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Latif Karimi
+# ==========================================
+
+photo: "vic-2026-000901.jpg"
+name: "Latif Karimi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Malekshahi County, Ilam"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot and killed by live ammunition fired by Islamic Revolutionary Guard Corps agents during protests. He was a retired IRGC brigadier general who was participating in the protests when he was specifically targeted by shooters.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://en.wikipedia.org/wiki/2026_Malekshahi_massacre"

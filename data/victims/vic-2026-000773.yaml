@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Omid Khorsand
+# ==========================================
+
+photo: "vic-2026-000773.jpg"
+name: "Omid Khorsand"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Shahin Shahr"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with live ammunition during protests. Family was asked for 1 billion in exchange for his body. They were not allowed to hold a ceremony.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/aryammehr_2/status/2014982882033553817"

@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ehsan Afshari
+# ==========================================
+
+photo: "vic-2026-000586.jpg"
+name: "Ehsan Afshari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 39
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Kahrizak"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot on the street and taken to hospital. Disappeared after being admitted. His body was found in Kahrizak 12 days later (January 20), severely swollen and unrecognizable, identified only by a tattoo.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/fattahifarzad/status/2013983796551450642"

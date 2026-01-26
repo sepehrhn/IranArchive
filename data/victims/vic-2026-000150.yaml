@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Saeed Golsorkhi
+# ==========================================
+
+photo: "vic-2026-000150.jpg"
+name: "Saeed Golsorkhi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 31
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Shahroud, Semnan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by the Islamic Republic regime on 22 Dey 1404 during protests
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/khoshrof/status/2012072561119805556"

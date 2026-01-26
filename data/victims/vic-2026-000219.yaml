@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Adel Matalebnejad
+# ==========================================
+
+photo: "vic-2026-000219.jpg"
+name: "Adel Matalebnejad"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Isfahan"
+incident_city: "Baharestan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot several times in the head
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/monfaredashkan/status/2015160436099105278"

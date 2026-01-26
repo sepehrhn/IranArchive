@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Zahra Behlolinezhad
+# ==========================================
+
+photo: "vic-2026-000088.jpg"
+name: "Zahra Behlolinezhad"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 22
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed during recent events/protests
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/nashianeam/status/2014428617212571690"

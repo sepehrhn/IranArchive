@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mehdi Khakpour
+# ==========================================
+
+photo: "vic-2026-000995.jpg"
+name: "Mehdi Khakpour"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Manjil"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by Basij forces during nationwide protests in Dey 1404
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hyrcanihrm/status/2014725070162190724"

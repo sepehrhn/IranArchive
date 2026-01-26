@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Abolfazl Babanezhad (Milad)
+# ==========================================
+
+photo: "vic-2026-001001.jpg"
+name: "Abolfazl Babanezhad (Milad)"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 20
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Babol, Mazandaran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed during protests in Babol
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/fseifikaran/status/2013394056949223644"

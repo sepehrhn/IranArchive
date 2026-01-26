@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Sina Ashkabousi
+# ==========================================
+
+photo: "vic-2026-000446.jpg"
+name: "Sina Ashkabousi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 17
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehranpars Park, Third Square"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  On January 7, the Islamic regime’s security forces opened fire on 25 children while they were chanting anti-regime slogans. Sina was one of them and died on the way to the hospital.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/longlosthills/status/2011391133566345603"

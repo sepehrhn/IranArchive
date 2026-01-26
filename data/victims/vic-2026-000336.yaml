@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mehdi Abdali
+# ==========================================
+
+photo: "vic-2026-000336.jpg"
+name: "Mehdi Abdali"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 35
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly by security forces on Azar Street. Witnesses report officers first struck his face with rifle butts, then shot him in the heart and neck
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/iranwire/status/2014366246158950622"

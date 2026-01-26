@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ashkan Torabzadeh
+# ==========================================
+
+photo: "vic-2026-000263.jpg"
+name: "Ashkan Torabzadeh"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 41
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Mashhad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot and killed by suppressive forces while in his car on Vakil Abad Boulevard - his vehicle was targeted with dozens of bullets in what appears to be a deliberate killing
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/tavaana/status/2012480238681477548"

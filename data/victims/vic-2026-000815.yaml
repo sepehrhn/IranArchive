@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Saeed Abdolmaleki
+# ==========================================
+
+photo: "vic-2026-000815.jpg"
+name: "Saeed Abdolmaleki"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Shahriar"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed during protests, body found in Kahrizak after five days
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/pouyajegarvnd/status/2014390510975070287"

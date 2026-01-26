@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Tania Abbasi
+# ==========================================
+
+photo: "vic-2026-001319.jpg"
+name: "Tania Abbasi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 21
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran, Nirou Daryaei neighborhood"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: تانیاعباسی
+  
+  21-year-old student. Shot directly on Thursday, 18 Dey 1404 in the Niru Daryayi neighborhood of Tehran. Hospitals did not accept her, and she died in her mother's arms.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/ewenniii/status/2015389584117391710"

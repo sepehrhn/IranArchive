@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Masoud Zatparvar
+# ==========================================
+
+photo: "vic-2026-000670.jpg"
+name: "Masoud Zatparvar"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 39
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot and killed at protest, bodybuilding champion and coach
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/iranprotestscom/status/2010313447796281475"

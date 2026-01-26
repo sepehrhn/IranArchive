@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Vahid Jahangiri
+# ==========================================
+
+photo: "vic-2026-000166.jpg"
+name: "Vahid Jahangiri"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 28
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Ramsar"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by security forces while driving after failing to stop at a checkpoint. Ramsar, Mazandaran.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hyrcanihrm/status/2015013327240339921"

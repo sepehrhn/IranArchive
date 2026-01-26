@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Meysam Nazari
+# ==========================================
+
+photo: "vic-2026-000353.jpg"
+name: "Meysam Nazari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 20
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Kermanshah"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed during protests, family had to pay $4000 'bullet fee' to release body
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/fseifikaran/status/2011734542428885036"

@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Diana Bahadoran
+# ==========================================
+
+photo: "vic-2026-001326.jpg"
+name: "Diana Bahadoran"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 19
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Gorgan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: دیانا بهادران
+  
+  Killed by Khamenei's thugs during protests.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/shaya9000/status/2015565086719651935, https://x.com/kar1ean/status/2015405289143419198"

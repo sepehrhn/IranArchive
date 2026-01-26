@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Arya Alidoust Ghareh-Abadi
+# ==========================================
+
+photo: "vic-2026-000560.jpg"
+name: "Arya Alidoust Ghareh-Abadi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Gilan"
+incident_city: "Lahijan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by direct shots from security forces during protests in Lahijan.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/mohammadabedi_z/status/2014632040990212551"

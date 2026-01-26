@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Negin Ghadimi
+# ==========================================
+
+photo: "vic-2026-000192.jpg"
+name: "Negin Ghadimi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 28
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Shahsavar (Tonekabon), Mazandaran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with live ammunition by Islamic Republic forces during protests in Shahsavar. She was participating in protests with her father and died in his arms.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/visegrad24/status/2011816555533729995"

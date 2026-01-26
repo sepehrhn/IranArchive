@@ -17,7 +17,7 @@ const { t } = useI18n()
                 <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold text-center">Confirmed Dead</span>
             </div>
             <div class="flex flex-col items-center">
-                <span class="text-3xl md:text-4xl font-mono font-bold text-red-800 dark:text-red-700">50,000+</span>
+                <span class="text-3xl md:text-4xl font-mono font-bold text-red-800 dark:text-red-700">36,000+</span>
                 <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold text-center">Unconfirmed Dead</span>
             </div>
             <div class="flex flex-col items-center">
@@ -27,7 +27,7 @@ const { t } = useI18n()
         </div>
         
         <div class="text-xs text-surface-500 dark:text-surface-500 mt-4 text-center italic max-w-lg">
-            Source: <a href="https://www.bloomberg.com/news/articles/2026-01-22/iran-protest-deaths-seen-rising-with-one-estimate-topping-20-000" target="_blank" class="underline hover:text-red-600 dark:hover:text-red-400 transition-colors">Bloomberg citing UN reports (Jan 2026)</a>
+            Source: <a href="https://nypost.com/2026/01/25/world-news/more-than-36500-killed-in-deadliest-two-days-in-iran-protest-crackdown-report/" target="_blank" class="underline hover:text-red-600 dark:hover:text-red-400 transition-colors">NY Post citing reports (Jan 2026)</a>
         </div>
     </div>
 </template>

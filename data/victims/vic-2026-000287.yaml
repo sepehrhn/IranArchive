@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ghazal Aghayee-lindi
+# ==========================================
+
+photo: "vic-2026-000287.jpg"
+name: "Ghazal Aghayee-lindi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 28
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Qaleh Hassan Khan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by Islamic Republic agents during protests, died in her father's arms
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/longlosthills/status/2012931356318154768"

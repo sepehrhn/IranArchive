@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Shahab Khorshid
+# ==========================================
+
+photo: "vic-2026-000442.jpg"
+name: "Shahab Khorshid"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 22
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Sa'adat Abad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with live ammunition during protests - two bullets hit him and he died at the scene. He was an unarmed protester.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/tavaana/status/2013880093526106219"

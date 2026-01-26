@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Meysam Saberi
+# ==========================================
+
+photo: "vic-2026-000120.jpg"
+name: "Meysam Saberi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 41
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Arak"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Wounded during protest, then killed when water cannon vehicle ran over him twice, including over his head
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/saeidvafa/status/2012957541420904934"

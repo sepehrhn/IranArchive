@@ -37,6 +37,10 @@ const submitting = ref(false);
 const submitSuccess = ref(false);
 const submitError = ref('');
 
+// Pagination
+const currentPage = ref(0); // PrimeVue Paginator uses 0-based index for first
+const pageSize = ref(15);
+
 const sortOptions = [
     { label: 'Most Recent', value: 'recent' },
     { label: 'Name (A-Z)', value: 'name_asc' },
@@ -79,6 +83,13 @@ const activeFilters = computed(() => {
     return filters;
 });
 
+// Computed: Paginated Victims
+const paginatedVictims = computed(() => {
+    const start = currentPage.value * pageSize.value;
+    const end = start + pageSize.value;
+    return filteredVictims.value.slice(start, end);
+});
+
 // Methods
 const loadData = async () => {
     loading.value = true;
@@ -102,6 +113,8 @@ const applyFilters = () => {
         status: selectedStatus.value,
         sort: selectedSort.value
     });
+    // Reset pagination
+    currentPage.value = 0; 
 };
 
 const clearFilters = () => {
@@ -130,6 +143,10 @@ const removeFilter = (key: string) => {
             selectedStatus.value = undefined;
             break;
     }
+};
+
+const handlePageChange = (event: any) => {
+    currentPage.value = event.page;
 };
 
 const handleSubmission = async (payload: any) => {
@@ -344,9 +361,20 @@ onMounted(() => {
             <!-- Results Count -->
             <div class="mt-4 pt-4 border-t border-surface-200 dark:border-surface-700 flex items-center justify-between">
                 <p class="text-surface-500 text-sm">
-                    Showing <span class="font-semibold text-surface-900 dark:text-surface-0">{{ filteredVictims.length }}</span> 
-                    of <span class="font-semibold text-surface-900 dark:text-surface-0">{{ allVictims.length }}</span> victims
+                    Showing <span class="font-semibold text-surface-900 dark:text-surface-0">{{ paginatedVictims.length }}</span> 
+                    of <span class="font-semibold text-surface-900 dark:text-surface-0">{{ filteredVictims.length }}</span> results 
+                    <span v-if="filteredVictims.length !== allVictims.length">(filtered from {{ allVictims.length }})</span>
                 </p>
+                <div v-if="filteredVictims.length > pageSize">
+                     <Paginator 
+                        :first="currentPage * pageSize" 
+                        :rows="pageSize" 
+                        :totalRecords="filteredVictims.length" 
+                        @page="handlePageChange"
+                        template="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink"
+                        class="!bg-transparent !p-0"
+                    />
+                </div>
             </div>
         </div>
 
@@ -355,12 +383,26 @@ onMounted(() => {
             <div v-for="i in 10" :key="i" class="aspect-[4/5] bg-surface-100 dark:bg-surface-800 rounded-xl animate-pulse"></div>
         </div>
 
-        <div v-else-if="filteredVictims.length > 0" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-            <VictimGalleryCard 
-                v-for="victim in filteredVictims" 
-                :key="victim.id" 
-                :victim="victim" 
-            />
+        <div v-else-if="paginatedVictims.length > 0" class="space-y-8">
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+                <VictimGalleryCard 
+                    v-for="victim in paginatedVictims" 
+                    :key="victim.id" 
+                    :victim="victim" 
+                />
+            </div>
+            
+             <!-- Bottom Pagination -->
+            <div v-if="filteredVictims.length > pageSize" class="flex justify-center">
+                <Paginator 
+                    :first="currentPage * pageSize" 
+                    :rows="pageSize" 
+                    :totalRecords="filteredVictims.length" 
+                    @page="handlePageChange"
+                    template="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink"
+                    class="!bg-transparent"
+                />
+            </div>
         </div>
 
         <!-- Empty State -->

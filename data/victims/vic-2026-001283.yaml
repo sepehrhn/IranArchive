@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Ali Ayazi
+# ==========================================
+
+photo: "vic-2026-001283.jpg"
+name: "Ali Ayazi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 21
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: علی ایازی
+  
+  Shot and killed by government forces during protests. He was a football player for Sepahan youth team.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/tavaana/status/2015232260229009759, https://x.com/hengawo/status/2015476576473800916"

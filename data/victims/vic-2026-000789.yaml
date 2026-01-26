@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Pouya Faragardi
+# ==========================================
+
+photo: "vic-2026-000789.jpg"
+name: "Pouya Faragardi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 45
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran, Shamsabad neighborhood"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Mentioned in a tweet, but no explicit information about death or circumstances provided.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/fotouhia/status/2014035002934354394"

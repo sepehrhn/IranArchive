@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Ali Karimi Bavolaki
+# ==========================================
+
+photo: ""
+
+name: "Ali Karimi Bavolaki"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Ilam"
+incident_city: "Malekshahi"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Initially injured during protest on Jan 3, died several hours later in hospital
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://en.wikipedia.org/wiki/2026_Iran_massacres"

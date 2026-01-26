@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Ali Pour-Emamali
+# ==========================================
+
+photo: "vic-2026-001285.jpg"
+name: "Ali Pour-Emamali"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Chalus"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: علی پورامام‌علی
+  
+  Shot in the head from behind during protests. Authorities did not allow any ceremonies to be held.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/themoon_7_/status/2015476161652941245"

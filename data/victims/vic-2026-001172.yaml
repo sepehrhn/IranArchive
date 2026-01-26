@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mostafa Rabeti
+# ==========================================
+
+photo: "vic-2026-001172.jpg"
+name: "Mostafa Rabeti"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Hamadan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed in his home in front of his wife and child after Khamenei's forces broke down the door, stabbed him with a machete, and shot him twice.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/marianmeyer0/status/2014779879401664819"

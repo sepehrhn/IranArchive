@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Armin Jashaninezhad
+# ==========================================
+
+photo: "vic-2026-000252.jpg"
+name: "Armin Jashaninezhad"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 23
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Mahshahr"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly with live ammunition by police forces at 22:30 near Mahshahr Cultural Center
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/dariush_zand/status/2014262684934361113"

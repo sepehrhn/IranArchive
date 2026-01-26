@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ali Abbasi
+# ==========================================
+
+photo: "vic-2026-000485.jpg"
+name: "Ali Abbasi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 18
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Iran (provinces of Ilam"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by IRGC forces with a war bullet in the upper right kidney area during protests at 11 PM, taken to hospital for surgery until 5 AM, body later found among hundreds of corpses in Kahrizak, Tehran
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/longlosthills/status/2011206482734264827"
