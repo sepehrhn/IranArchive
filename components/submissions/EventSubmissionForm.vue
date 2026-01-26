@@ -63,7 +63,7 @@
             </p>
             <div class="bg-white dark:bg-surface-800 p-3 rounded border border-green-200 dark:border-green-700">
                <p class="text-sm text-surface-600 dark:text-surface-400">
-                 Your submission has been received and will be reviewed. A pull request will be created for manual review.
+                 Your submission has been received and will be reviewed.
                </p>
             </div>
           </div>
