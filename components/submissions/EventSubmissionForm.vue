@@ -774,7 +774,7 @@ const props = defineProps<{
 }>();
 
 const emit = defineEmits<{
-  submit: [payload: any];
+  'submit-entry': [payload: any];
 }>();
 
 const config = useRuntimeConfig();
@@ -1052,9 +1052,9 @@ function handleSubmit() {
       }
     };
     
-    console.log('EventSubmissionForm: Data prepared, emitting submit...', data);
+    console.log('EventSubmissionForm: Data prepared, emitting submit-entry...', data);
 
-    emit('submit', {
+    emit('submit-entry', {
       kind: 'event',
       data,
       files: [],

@@ -48,11 +48,10 @@
             />
           </TabPanel>
 
-          <!-- Event Tab -->
           <TabPanel header="Event">
             <EventSubmissionForm
               v-if="activeTab === 1"
-              @submit="handleSubmit"
+              @submit-entry="handleSubmit"
               :submitting="submitting"
             />
           </TabPanel>
