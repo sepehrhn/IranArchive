@@ -1026,7 +1026,7 @@ function handleNext() {
   }
 }
 
-function handleSubmit() {
+async function handleSubmit() {
   console.log('EventSubmissionForm: handleSubmit called');
   
   if (!turnstileToken.value) {
