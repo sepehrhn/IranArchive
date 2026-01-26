@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Ali Haqshenas
+# ==========================================
+
+photo: "vic-2026-001357.jpg"
+name: "Ali Haqshenas"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Arak"
+
+# Death Information
+date_of_death: "2026-01-13"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: علی حق‌شناس
+  
+  Abducted by regime forces and killed.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/saeidvafa/status/2015647271908454514"

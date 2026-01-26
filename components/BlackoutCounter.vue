@@ -79,10 +79,9 @@ onUnmounted(() => {
 
         <div class="mt-4 text-xs text-surface-600 dark:text-surface-400 text-center max-w-lg leading-relaxed bg-surface-50 dark:bg-surface-800 p-4 rounded-lg border border-surface-200 dark:border-surface-700 space-y-3 shadow-inner">
             <div>
-                <span class="block mb-1 font-bold text-surface-700 dark:text-surface-300">Update (Jan 24, 09:59):</span>
-                <a href="https://x.com/netblocks/status/2015001590856335855" target="_blank" class="text-primary-600 dark:text-primary-400 hover:underline">NetBlocks reported</a>: Iran's internet blackout continues in its third week despite a brief momentary restoration of international connectivity around hour 375. Online platforms are occasionally whitelisted and some users have been able to tunnel out over the last couple of days.
+                <span class="block mb-1 font-bold text-surface-700 dark:text-surface-300">Update (Jan 26, 07:56):</span>
+                <a href="https://x.com/netblocks/status/2015695423000756250?s=20" target="_blank" class="text-primary-600 dark:text-primary-400 hover:underline">NetBlocks reported</a>: Iran's internet blackout continues through its 18th day, obscuring the extent of a deadly crackdown on civilians. Gaps in the filternet are being tightened to limit circumvention while whitelisted regime accounts promote the Islamic Republic's narrative.
             </div>
-
         </div>
     </div>
 </template>

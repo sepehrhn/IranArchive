@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Sadegh Azmi
+# ==========================================
+
+photo: "vic-2026-001432.jpg"
+name: "Sadegh Azmi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Mashhad"
+
+# Death Information
+date_of_death: ""
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: صادق عزمی
+  
+  Student at Shahrood University of Technology, shot in his hometown of Mashhad and died three days later.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/misdinoo/status/2015362803788321219"

@@ -1,0 +1,40 @@
+# ==========================================
+# Victim Documentation - Mani Sabouri
+# ==========================================
+
+photo: ""
+
+name: "Mani Sabouri"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 18
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Unknown"
+
+# Death Information
+date_of_death: ""
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: مانی صبوری
+  
+  A young life cut short.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/isamanyasin/status/2015505735719780730"

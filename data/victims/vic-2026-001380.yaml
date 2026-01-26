@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Ebrahim Pourahmadian
+# ==========================================
+
+photo: "vic-2026-001380.jpg"
+name: "Ebrahim Pourahmadian"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: ابراهیم پوراحمدیان
+  
+  From Saqqez, a caretaker in Tehran. Shot in the forehead by a sniper in front of his young child.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/isamanyasin/status/2014517072101826701"

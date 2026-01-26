@@ -1,0 +1,25 @@
+# Campaign Config
+# Do NOT fill the "id" field; it is derived from the filename.
+
+# Required
+# Must be a valid URL
+url: "https://www.change.org/p/deport-leila-khatami-end-islamic-regime-privilege/exp/cl_/cl_sharecopy_490983367_en-GB/9/741741874?utm_source=share_petition&utm_campaign=psf_combo_share_initial&utm_term=psf_promote_or_share&utm_medium=copylink&utm_content=cl_sharecopy_490983367_en-GB%3A9"
+title: "Deport Leila Khatami Family of Iranian Government Officials from U.S. Soil"
+
+# Optional
+
+# Filename only (e.g. "my-image.jpg"). Must exist in /data/campaigns/img/
+thumbnail: "camp-2026-011.png"
+
+# Options: "active", "closed", "victory", "unknown"
+status: "active"
+
+# List of ISO2 codes. Leave empty/commented for International/All.
+countries:
+  - US
+
+# true or false
+featured: false
+
+# Format: YYYY/MM/DD
+created_at: "2026/01/26"

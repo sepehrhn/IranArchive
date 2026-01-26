@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Sajjad Bayati
+# ==========================================
+
+photo: "vic-2026-001368.jpg"
+name: "Sajjad Bayati"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 30
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Gohardasht"
+
+# Death Information
+date_of_death: "2026-01-09"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: سجاد بیاتی
+  
+  Shot in the chest during protests.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/fseifikaran/status/2015567089591804030"

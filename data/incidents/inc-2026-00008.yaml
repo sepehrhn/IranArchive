@@ -1,0 +1,144 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "not_verified"
+
+ratings:
+  # Integer 1..10. Likelihood the core claim is true.
+  truth_confidence: 5
+  # Integer 1..10. Amount/quality of reviewable evidence available.
+  evidence_availability: 5
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/01"
+  start_time: "20:00"
+  # End date (optional)
+  end: ""
+  end_time: ""
+
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Tehran"
+  # City name
+  city: "Tehran"
+  # Specific address or landmark (optional)
+  address: ""
+  # Latitude (optional)
+  lat: 
+  # Longitude (optional)
+  lng: 
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Uprising"
+
+# Estimated severity statistics (optional)
+# each range has 'min' and 'max' properties
+severity:
+  deaths:
+    min: 0
+    max: 0
+  injured:
+    min: 0
+    max: 0
+  arrests:
+    min: 0
+    max: 0
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Title of the Incident"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "A brief summary of what happened."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  A detailed description of the incident...
+  
+  Can span multiple paragraphs. To create a new paragraph, leave an empty line between the text blocks.
+  
+  This ensures that the text is rendered correctly with spacing in the UI.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Claim 1"
+  - "Claim 2"
+
+# Open questions or missing information
+open_questions:
+  - "Who lay command?"
+  - "Exact number of injured?"
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "Verified footage is limited"
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+# Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
+# IDs are the filenames (e.g. ev-2026-00001-vid-001)
+evidence_ids:
+  - "ev-YYYY-0000X-vid-001"
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-001"
+    label: "News Report Title"
+    url: "https://news.com/report"
+    publisher: "News Agency"
+    published_at: "2026/01/02"
+    # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Corroborates time and place."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/01"
+    time: "14:30"
+    title: "Event Starts"
+    description: "Crowd begins to form."
+    # Evidence IDs linked to this specific moment
+    evidence_ids: ["ev-YYYY-0000X-vid-001"]
+    # Source IDs linked to this specific moment
+    source_ids: ["src-001"]
+
+# Internal review history
+review_history:
+  - at: "2026/01/03"
+    reviewer: "user_id"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "created"
+    to_status: "not_verified"
+    notes: "Initial draft."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims:
+  - id: "vic-001"
+    name: "Name of Victim"
+    slug: "victim-slug"
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents:
+  - id: "inc-YYYY-0000Y"
+    title: "Related Incident Title"
+    slug: "related-incident-slug"
+    status: "verified"

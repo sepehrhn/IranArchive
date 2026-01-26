@@ -1,0 +1,40 @@
+# ==========================================
+# Victim Documentation - Siavash Mahmoudi
+# ==========================================
+
+photo: ""
+
+name: "Siavash Mahmoudi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Behesht-e Zahra Cemetery"
+
+# Death Information
+date_of_death: "2025-12-22"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: سیاوش محمودی
+  
+  Killed during protests in Dey 1404 (late December 2025 to January 2026). Buried in Behesht-e Zahra cemetery, section 327.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/iranintl/status/2013431954973028543"
