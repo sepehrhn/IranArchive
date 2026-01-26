@@ -184,30 +184,37 @@ Link: ${ev.online?.join_url || window.location.href}
         <!-- Card Header (Always Visible) -->
         <div class="p-5 md:p-6 pb-2">
             <!-- Status + Title + Format -->
-            <div class="flex flex-wrap items-center gap-3 mb-6 pr-24"> <!-- pr-24 to avoid overlap with update button -->
+            <div class="flex flex-wrap items-start gap-3 mb-6 pr-24"> <!-- pr-24 to avoid overlap with update button -->
                 
                 <!-- Status Dot -->
-                <div class="relative flex-shrink-0 flex items-center justify-center">
+                <div class="relative flex-shrink-0 h-[28px] flex items-center justify-center">
                     <div 
                         :class="['w-2.5 h-2.5 rounded-full shadow-sm transition-colors duration-500', statusDotColor]"
                         :title="event.computed_state.toUpperCase()"
                     ></div>
                     <div v-if="['ongoing', 'upcoming'].includes(event.computed_state)" 
-                        :class="['absolute -inset-1 rounded-full animate-ping opacity-20', statusDotColor]">
+                        :class="['absolute rounded-full animate-ping opacity-20 w-4 h-4', statusDotColor]">
                     </div>
                 </div>
 
                 <!-- Title -->
-                <h3 class="font-extrabold text-lg leading-snug text-surface-900 dark:text-surface-50 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200">
-                    {{ event.title }}
-                </h3>
+                <div class="flex flex-col">
+                    <h3 class="font-extrabold text-lg leading-[28px] text-surface-900 dark:text-surface-50 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-200">
+                        {{ event.title }}
+                    </h3>
+                    <div class="text-[10px] uppercase tracking-wider text-surface-400 font-mono mt-0.5">
+                        {{ event.id }}
+                    </div>
+                </div>
 
                 <!-- Format Tag -->
-                <Badge 
-                    :value="event.type.replace('_', ' ').toUpperCase()" 
-                    severity="secondary" 
-                    class="!text-[10px] !font-bold !px-2 !py-0.5 !rounded-md !bg-surface-100 dark:!bg-surface-800 !text-surface-600 dark:!text-surface-300 ring-1 ring-surface-200 dark:ring-surface-800"
-                />
+                <div class="h-[28px] flex items-center">
+                    <Badge 
+                        :value="event.type.replace('_', ' ').toUpperCase()" 
+                        severity="secondary" 
+                        class="!text-[10px] !font-bold !px-2 !py-0.5 !rounded-md !bg-surface-100 dark:!bg-surface-800 !text-surface-600 dark:!text-surface-300 ring-1 ring-surface-200 dark:ring-surface-800"
+                    />
+                </div>
             </div>
 
             <!-- Date & Location Blocks -->

@@ -1,6 +1,7 @@
 import primeui from 'tailwindcss-primeui';
 
 export default {
+    important: true,
     darkMode: ['selector', '[data-theme="dark"]'],
     content: [
         "./components/**/*.{js,vue,ts}",
