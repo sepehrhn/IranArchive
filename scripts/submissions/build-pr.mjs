@@ -158,7 +158,7 @@ ${data.victims && data.victims.length > 0 ? `victims:\n${data.victims.map(id => 
 ${data.related_incidents && data.related_incidents.length > 0 ? `related_incidents:\n${data.related_incidents.map(id => `  - "${id}"`).join('\n')}` : ''}
 
 submission:
-  submitted_by: "${data.submitted_by || 'Anonymous'}"
+  submitted_by: "${data.submitted_by || ''}"
   received_at: "${submittedAt}"
   submission_id: "${submissionId}"
 `;
@@ -205,7 +205,7 @@ ${data.source_type ? `source_type: "${data.source_type}"` : 'source_type: ""'}
 ${data.source_social_media_link ? `source_social_media_link: "${data.source_social_media_link}"` : 'source_social_media_link: ""'}
 
 submission:
-  submitted_by: "${data.submitted_by || 'Anonymous'}"
+  submitted_by: "${data.submitted_by || ''}"
   received_at: "${submittedAt}"
   submission_id: "${submissionId}"
 `;
@@ -234,7 +234,7 @@ ${data.captured_at ? `captured_at: "${formatDate(data.captured_at)}"` : '# Captu
 ${data.claimed_location ? `claimed_location: "${data.claimed_location}"` : ''}
 
 provenance:
-  submitted_by: "${data.provenance?.submitted_by || 'Anonymous'}"
+  submitted_by: "${data.provenance?.submitted_by || ''}"
   ${data.provenance?.first_published_at ? `first_published_at: "${data.provenance.first_published_at}"` : ''}
   ${data.provenance?.first_published_url ? `first_published_url: "${data.provenance.first_published_url}"` : ''}
   ${data.provenance?.chain_of_custody_note ? `chain_of_custody_note: "${data.provenance.chain_of_custody_note}"` : ''}
@@ -342,7 +342,7 @@ announcement: "${data.announcement || '-'}"
 
 # INTERNAL USE - Submission Metadata
 submission:
-  submitted_by: "Public Form"
+  submitted_by: "${data.submitted_by || ''}"
   received_at: "${submittedAt}"
   submission_id: "${submissionId}"
 `;
@@ -376,7 +376,7 @@ featured: false
 created_at: "${formatDate(submittedAt)}"
 
 submission:
-  submitted_by: "Anonymous"
+  submitted_by: "${data.submitted_by || ''}"
   received_at: "${submittedAt}"
   submission_id: "${submissionId}"
 `;
