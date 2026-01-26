@@ -62,10 +62,10 @@
               Your event has been submitted for review.
             </p>
             <div class="bg-white dark:bg-surface-800 p-3 rounded border border-green-200 dark:border-green-700">
-              <p class="text-sm text-surface-600 dark:text-surface-400 mb-1">Tracking ID:</p>
-              <code class="text-sm font-mono bg-surface-100 dark:bg-surface-700 px-2 py-1 rounded">{{ submissionId }}</code>
+               <p class="text-sm text-surface-600 dark:text-surface-400">
+                 Your submission has been received and will be reviewed. A pull request will be created for manual review.
+               </p>
             </div>
-            <Button label="Submit Another" icon="pi pi-plus" class="mt-4" size="small" @click="resetForm" />
           </div>
         </div>
       </div>
@@ -1039,9 +1039,9 @@ async function handleSubmit() {
     console.log('EventSubmissionForm: Preparing data...');
     const data = {
       title: form.value.title,
+      featured: false,
       description: form.value.description,
       type: form.value.type,
-      announcement: form.value.announcement, // Renamed from poster
       date: {
         start: formatDate(form.value.startDate),
         start_time: form.value.startTime,
@@ -1061,7 +1061,7 @@ async function handleSubmit() {
         registration_url: form.value.registrationUrl || undefined
       } : undefined,
       organizer: {
-        name: form.value.organizerName || undefined,
+        name: form.value.organizerName,
         website: form.value.organizerWebsite || undefined,
         contact_email: form.value.organizerEmail || undefined,
         socials: {
@@ -1069,7 +1069,8 @@ async function handleSubmit() {
           instagram: form.value.organizerInstagram || undefined,
           telegram: form.value.organizerTelegram || undefined
         }
-      }
+      },
+      announcement: form.value.announcement
     };
     
     console.log('EventSubmissionForm: Data prepared, starting internal submission...', data);

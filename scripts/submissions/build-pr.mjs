@@ -255,45 +255,86 @@ submission:
  * Generate event YAML
  */
 function generateEventYAML(data, year, id) {
-    const yaml = `# Event ${id}
-# Submitted via public submission form
+    const yaml = `# -----------------------------------------------------------------------------
+# EVENT DATA - EV-${year}-${id}
+# -----------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# This file serves as a template and documentation for adding new events.
+# Use this structure to submit new events to the platform.
+#
+# FILENAME CONVENTION:
+#   ev-YYYY-XXXXX.yaml (e.g., ev-2026-00001.yaml)
+#   The filename (without extension) becomes the unique Event ID.
+# -----------------------------------------------------------------------------
+
+# [REQUIRED] Core Details
+# The visible title of the event (e.g. "Berlin Rally for Freedom")
 title: "${data.title || 'Untitled Event'}"
 
-summary: "${data.summary || ''}"
+# Set to true to highlight this event in the list
+featured: ${data.featured || false}
 
+# A full description of the event. Supports Markdown (bold, links, lists).
+# Use the pipe (|) for multi-line text blocks.
 description: |
-  ${data.description || ''}
+  ${(data.description || '').split('\n').join('\n  ')}
 
-state: "upcoming"
+# [REQUIRED] Categorization
+# The type of event (physical vs online format)
+# Options: in_person, online, hybrid
+type: "${data.type || 'in_person'}" 
 
-format: "${data.format || 'in_person'}"
-
-type: "${data.type || 'other'}"
-
+# [REQUIRED] Timing
 date:
+  # Start date in YYYY/MM/DD format
   start: "${data.date?.start || ''}"
-  start_time: "${data.date?.start_time || ''}"
-  precision: "${data.date?.precision || 'Exact'}"
+  # Start time in HH:mm format (optional)
+  ${data.date?.start_time ? `start_time: "${data.date.start_time}"` : '# start_time: ""'}
+  # End date (optional)
+  ${data.date?.end ? `end: "${data.date.end}"` : '# end: ""'}
+  # End time (optional)
+  ${data.date?.end_time ? `end_time: "${data.date.end_time}"` : '# end_time: ""'}
 
-${data.location ? `location:
-  country: "${data.location.country || ''}"
-  city: "${data.location.city || ''}"
-  ${data.location.address ? `address: "${data.location.address}"` : ''}
-` : ''}
+# Location (Required for in_person/hybrid events)
+${(data.type === 'in_person' || data.type === 'hybrid') ? `location:
+  country: "${data.location?.country || ''}"
+  # City name
+  city: "${data.location?.city || ''}"
+  # Specific address or landmark (optional)
+  ${data.location?.address ? `address: "${data.location.address}"` : '# address: ""'}
+  # Latitude (auto-calculated from address if not provided)
+  ${data.location?.lat ? `lat: ${data.location.lat}` : '# lat: '}
+  # Longitude (auto-calculated from address if not provided)
+  ${data.location?.lng ? `lng: ${data.location.lng}` : '# lng: '}
+` : '# location: null'}
 
+# Online Specifics (Required for online/hybrid events)
+${(data.type === 'online' || data.type === 'hybrid') ? `online:
+  platform: "${data.online?.platform || ''}"          # e.g., Zoom, YouTube, X Spaces
+  join_url: "${data.online?.join_url || ''}"
+  ${data.online?.registration_url ? `registration_url: "${data.online.registration_url}"` : '# registration_url: ""'}
+` : '# online: null'}
+
+# [REQUIRED] Organizer
 organizer:
   name: "${data.organizer?.name || 'Anonymous'}"
-  ${data.organizer?.contact ? `contact: "${data.organizer.contact}"` : ''}
+  ${data.organizer?.website ? `website: "${data.organizer.website}"` : '# website: ""'}
+  ${data.organizer?.contact_email ? `contact_email: "${data.organizer.contact_email}"` : '# contact_email: ""'}
+  # Social media links for the organizer
+  socials:
+    ${data.organizer?.socials?.x ? `x: "${data.organizer.socials.x}"` : '# x: ""'}
+    ${data.organizer?.socials?.instagram ? `instagram: "${data.organizer.socials.instagram}"` : '# instagram: ""'}
+    ${data.organizer?.socials?.telegram ? `telegram: "${data.organizer.socials.telegram}"` : '# telegram: ""'}
 
-featured: false
+# Announcement link (Required) - e.g. Instgram post or tweet
+announcement: "${data.announcement || ''}"
 
-status: "not_verified"
-
-sources: []
-
+# INTERNAL USE - Submission Metadata
 submission:
-  submitted_by: "Anonymous"
+  submitted_by: "Public Form"
   received_at: "${submittedAt}"
   submission_id: "${submissionId}"
 `;
