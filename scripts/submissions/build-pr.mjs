@@ -292,11 +292,11 @@ date:
   # Start date in YYYY/MM/DD format
   start: "${data.date?.start || ''}"
   # Start time in HH:mm format (optional)
-  ${data.date?.start_time ? `start_time: "${data.date.start_time}"` : '# start_time: ""'}
+  start_time: "${data.date?.start_time || ''}"
   # End date (optional)
-  ${data.date?.end ? `end: "${data.date.end}"` : '# end: ""'}
+  end: "${data.date?.end || ''}"
   # End time (optional)
-  ${data.date?.end_time ? `end_time: "${data.date.end_time}"` : '# end_time: ""'}
+  end_time: "${data.date?.end_time || ''}"
 
 # Location (Required for in_person/hybrid events)
 ${(data.type === 'in_person' || data.type === 'hybrid') ? `location:
@@ -304,30 +304,30 @@ ${(data.type === 'in_person' || data.type === 'hybrid') ? `location:
   # City name
   city: "${data.location?.city || ''}"
   # Specific address or landmark (optional)
-  ${data.location?.address ? `address: "${data.location.address}"` : '# address: ""'}
+  address: "${data.location?.address || ''}"
   # Latitude (auto-calculated from address if not provided)
-  ${data.location?.lat ? `lat: ${data.location.lat}` : '# lat: '}
+  lat: ${data.location?.lat || "null"}
   # Longitude (auto-calculated from address if not provided)
-  ${data.location?.lng ? `lng: ${data.location.lng}` : '# lng: '}
-` : '# location: null'}
+  lng: ${data.location?.lng || "null"}
+` : 'location: null'}
 
 # Online Specifics (Required for online/hybrid events)
 ${(data.type === 'online' || data.type === 'hybrid') ? `online:
   platform: "${data.online?.platform || ''}"          # e.g., Zoom, YouTube, X Spaces
   join_url: "${data.online?.join_url || ''}"
-  ${data.online?.registration_url ? `registration_url: "${data.online.registration_url}"` : '# registration_url: ""'}
-` : '# online: null'}
+  registration_url: "${data.online?.registration_url || ''}"
+` : 'online: null'}
 
-# [REQUIRED] Organizer
+# Organizer
 organizer:
-  name: "${data.organizer?.name || 'Anonymous'}"
-  ${data.organizer?.website ? `website: "${data.organizer.website}"` : '# website: ""'}
-  ${data.organizer?.contact_email ? `contact_email: "${data.organizer.contact_email}"` : '# contact_email: ""'}
+  name: "${data.organizer?.name || ''}"
+  website: "${data.organizer?.website || ''}"
+  contact_email: "${data.organizer?.contact_email || ''}"
   # Social media links for the organizer
   socials:
-    ${data.organizer?.socials?.x ? `x: "${data.organizer.socials.x}"` : '# x: ""'}
-    ${data.organizer?.socials?.instagram ? `instagram: "${data.organizer.socials.instagram}"` : '# instagram: ""'}
-    ${data.organizer?.socials?.telegram ? `telegram: "${data.organizer.socials.telegram}"` : '# telegram: ""'}
+    x: "${data.organizer?.socials?.x || ''}"
+    instagram: "${data.organizer?.socials?.instagram || ''}"
+    telegram: "${data.organizer?.socials?.telegram || ''}"
 
 # Announcement link (Required) - e.g. Instgram post or tweet
 announcement: "${data.announcement || ''}"
