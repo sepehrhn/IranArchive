@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Alireza Salmani
+# ==========================================
+
+photo: "vic-2026-000511.png"
+name: "Alireza Salmani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 27
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Andisheh Township Phase 1, Tehran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by security forces during protests - hit by four bullets while chanting with friends, taken home where he died after bleeding from nose and mouth
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/daikatuo/status/2011855746544136648"

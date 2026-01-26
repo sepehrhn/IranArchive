@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Davood Jalili
+# ==========================================
+
+photo: "vic-2026-000274.jpg"
+name: "Davood Jalili"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Shahinshahr"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with military bullet
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/iranintl/status/2012891171773673876"

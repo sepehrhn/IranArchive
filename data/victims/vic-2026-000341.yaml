@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mehdi Jafari
+# ==========================================
+
+photo: "vic-2026-000341.jpg"
+name: "Mehdi Jafari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 23
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran, Khan Abad (منطقه ۱۹ تهران، خانی‌آباد)"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the back with a war bullet in the lumbar region in front of the Shakar Bano confectionery shop. Authorities allegedly delayed his transfer to the hospital, contributing to his death.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/dib_is_dob/status/2014125921045803118"

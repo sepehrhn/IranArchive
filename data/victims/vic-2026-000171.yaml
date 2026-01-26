@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ali Ghorbani
+# ==========================================
+
+photo: "vic-2026-000171.jpg"
+name: "Ali Ghorbani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 30
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Parand"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the abdomen with a war bullet on January 8, 2026 in Parand. After two surgeries and initial recovery, the doctor gave permission for discharge, but his family was suspiciously informed on January 10 that he had died. His body was not handed over until Wednesday.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/zanzendegi2201/status/2015032672091799806"

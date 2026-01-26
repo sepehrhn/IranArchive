@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Armin Teymourirad
+# ==========================================
+
+photo: "vic-2026-000255.jpg"
+name: "Armin Teymourirad"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 19
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Fardis, Karaj"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed during popular protests (member of family of three killed)
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hengawo/status/2012881502661423382"

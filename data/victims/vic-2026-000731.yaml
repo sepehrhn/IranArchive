@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammad Reza Hassani
+# ==========================================
+
+photo: "vic-2026-000731.jpg"
+name: "Mohammad Reza Hassani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Qiamdasht, near Pakdasht"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by Basij members during protests on 18 Dey (January 8, 2026).
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/mobarez_nastooh/status/2014761811086594170"

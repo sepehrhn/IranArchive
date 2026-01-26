@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Saber Ramezani
+# ==========================================
+
+photo: "vic-2026-000812.jpg"
+name: "Saber Ramezani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 26
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Gilan"
+incident_city: "Lahijan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly by the forces of the Islamic Republic of Iran.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/pkhwshhal/status/2014944670426509608"

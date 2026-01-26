@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohsen Jabbarzadeh
+# ==========================================
+
+photo: "vic-2026-000191.jpg"
+name: "Mohsen Jabbarzadeh"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 41
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Salasabil"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly by regime forces, wounded on 18 Dey and died at Madaen Hospital. Death certificate clearly states cause of death as gunshot wound to left leg area
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/indypersian/status/2013286107383738760"

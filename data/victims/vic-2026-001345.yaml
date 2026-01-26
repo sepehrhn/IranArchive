@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Parsa Lorestani Biranvand
+# ==========================================
+
+photo: "vic-2026-001345.jpg"
+name: "Parsa Lorestani Biranvand"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Khorramabad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: پارسا لرستانی بیرانوند
+  
+  Killed by Sepahi and Basiji terrorists
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/salarvandn21943/status/2015163105135722896"

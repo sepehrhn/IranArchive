@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Amirmohammad Koohkan
+# ==========================================
+
+photo: "vic-2026-000899.jpg"
+name: "Amirmohammad Koohkan"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Neyriz"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed in Neyriz (mentioned as having died on 13 Dey, and was a close friend of Ebrahim Hashembeigi)
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://www.iran-emrooz.net/index.php/news2/125134/"

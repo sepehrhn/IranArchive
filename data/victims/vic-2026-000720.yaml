@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammad Mahdi Badri
+# ==========================================
+
+photo: "vic-2026-000720.jpg"
+name: "Mohammad Mahdi Badri"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Kermanshah"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Targeted by direct live ammunition fire from Iranian government forces on Taq-e Bostan Boulevard in Kermanshah.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/kurdpa_farsi/status/2013686015647515093"

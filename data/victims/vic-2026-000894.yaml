@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammad Reza Karami
+# ==========================================
+
+photo: "vic-2026-000894.jpg"
+name: "Mohammad Reza Karami"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 16
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Ilam"
+incident_city: "Malekshahi"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with live ammunition by IRGC forces during protests on January 2, 2026, died after 4 days in ICU at Khomeini Hospital in Ilam. He was a boxer.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed"

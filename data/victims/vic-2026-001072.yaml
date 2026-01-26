@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Esmaeil Ganjgoli
+# ==========================================
+
+photo: "vic-2026-001072.jpg"
+name: "Esmaeil Ganjgoli"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Markazi"
+incident_city: "Arak"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by police with 60 bullets to the heart at close range (10 cm) after stabbing a police officer in the neck with a knife
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/behnam_chegini/status/2012940976063468013"

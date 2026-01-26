@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Majid Siasi
+# ==========================================
+
+photo: "vic-2026-001252.jpg"
+name: "Majid Siasi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: مجید سیاسی
+  
+  Shot by suppressive forces on 19 Dey in Bozorgmehr street, Isfahan. Died in hospital on 21 Dey. Body was returned after four days from Bagh Rezvan.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hengawo/status/2015165986270314500"

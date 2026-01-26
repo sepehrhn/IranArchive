@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ayat Derakhshan
+# ==========================================
+
+photo: "vic-2026-000022.jpg"
+name: "Ayat Derakhshan"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Eslamshahr"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot during protests on January 8, 2026 and died a week later in the hospital due to infection from the gunshot wound. He was from Sarab and lived in Eslamshahr. He was the father of two children, ages 11 and 9.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/sinayousefilaw/status/2015151369817088457"

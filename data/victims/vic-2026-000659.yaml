@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mahyar Kakazadeh
+# ==========================================
+
+photo: "vic-2026-000659.jpg"
+name: "Mahyar Kakazadeh"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 17
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Parand"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by Islamic regime during peaceful protest
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/amirmiresmaeili/status/2012253531940495705"

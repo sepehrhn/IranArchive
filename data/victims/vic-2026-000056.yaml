@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammad Matin Bagheri
+# ==========================================
+
+photo: "vic-2026-000056.jpg"
+name: "Mohammad Matin Bagheri"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 16
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Kermanshah"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly with a bullet during the protests
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/avatoday_news/status/2014589393068027940"

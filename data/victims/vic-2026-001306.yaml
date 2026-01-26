@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Mohammad Hossein Asghari
+# ==========================================
+
+photo: "vic-2026-001306.jpg"
+name: "Mohammad Hossein Asghari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 23
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Saveh"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: محمد حسین اصغری
+  
+  Shot by the Islamic Republic regime
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/realneo101/status/2015408142775967819"

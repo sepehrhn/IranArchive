@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Milad Atmani
+# ==========================================
+
+photo: "vic-2026-000694.jpg"
+name: "Milad Atmani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran, Karaj"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Kurdish young man from Salmas who was wounded and arrested by security forces during protests on January 8, 2026. His body was returned to family after 12 days without explanation. Unclear if he died from gunshot wounds or under torture in custody.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/kurdpa_farsi/status/2014047809738031218"

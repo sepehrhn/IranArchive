@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Hamid Shafiei
+# ==========================================
+
+photo: "vic-2026-000030.jpg"
+name: "Hamid Shafiei"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Unknown"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Electrician killed after being shot by government officials during protests.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/iranintl/status/2015101607369646298"

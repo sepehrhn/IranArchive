@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Abi Heidari
+# ==========================================
+
+photo: "vic-2026-000998.jpg"
+name: "Abi Heidari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Khorramabad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed in the path of freedom
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/avatoday_news/status/2015139281551904842"

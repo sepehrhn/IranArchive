@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Farhad Eyvazi
+# ==========================================
+
+photo: "vic-2026-001321.jpg"
+name: "Farhad Eyvazi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 30
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Lordegan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: فرهاد عیوضی
+  
+  Killed during nationwide protests
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/_zizi_zizi/status/2015208544652468277"

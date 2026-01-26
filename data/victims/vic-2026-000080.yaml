@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Parima
+# ==========================================
+
+photo: "vic-2026-000080.jpg"
+name: "Parima"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 16
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Bandar Abbas"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Injured on Thursday night and reportedly died in an ambulance after being injected with a painkiller that caused cardiac arrest. According to reports, anyone transferred to the ambulance that night did not survive.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/maryammoqaddam/status/2014992425295434136"

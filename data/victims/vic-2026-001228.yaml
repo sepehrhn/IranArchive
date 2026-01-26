@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Soroush Hamidi
+# ==========================================
+
+photo: "vic-2026-001228.jpg"
+name: "Soroush Hamidi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: ""
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed during the early days of the protests
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/revolution_r_/status/2014445028458827788"

@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammad-Mehdi Bagheri
+# ==========================================
+
+photo: "vic-2026-000735.jpg"
+name: "Mohammad-Mehdi Bagheri"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 16
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Kermanshah"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by security forces during protests, arrested, and died from severe bleeding while being transported. His body was left on the side of the road.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/kurdpa_farsi/status/2014715867712372779"

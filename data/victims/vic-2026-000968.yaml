@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Shayan (Aboozar) Asadollahi
+# ==========================================
+
+photo: "vic-2026-000968.jpg"
+name: "Shayan (Aboozar) Asadollahi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 28
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Lorestan"
+incident_city: "Azna County"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  A 24-year-old youngester barber was killed by gunfire from security agents during the protests in Azna, Lorestan province, on the evening of Thursday, January 1st, 2026.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://en.wikipedia.org/wiki/2026_Iran_massacres"

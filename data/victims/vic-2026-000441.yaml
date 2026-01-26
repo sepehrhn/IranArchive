@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Shahab Fallahpour
+# ==========================================
+
+photo: "vic-2026-000441.jpg"
+name: "Shahab Fallahpour"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 19
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Andimeshk"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by sniper fire from rooftop during protests on Parto Street without warning
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/iranintl/status/2014014858765754863"

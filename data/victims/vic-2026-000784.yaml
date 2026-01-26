@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Peyman Darvishi
+# ==========================================
+
+photo: "vic-2026-000784.jpg"
+name: "Peyman Darvishi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 40
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Rasht"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by Iranian security forces during protests. Father of one child.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hyrcanihrm/status/2014965104278737021"

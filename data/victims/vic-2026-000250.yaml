@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Aria Heydari Dehkordi
+# ==========================================
+
+photo: "vic-2026-000250.jpg"
+name: "Aria Heydari Dehkordi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 22
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed during national uprising. He was a sixth-semester medical student at Islamic Azad University, Najafabad branch.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/autnews_org/status/2014781323194380540"

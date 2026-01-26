@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mehrdad Rezbarr
+# ==========================================
+
+photo: "vic-2026-000689.jpg"
+name: "Mehrdad Rezbarr"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 26
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Hormozgan"
+incident_city: "Bandar Abbas"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Martyred during protests in Bandar Abbas.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/thebalochworld/status/2014626960455176573"

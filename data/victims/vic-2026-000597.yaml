@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Faeezeh Mostaan
+# ==========================================
+
+photo: "vic-2026-000597.jpg"
+name: "Faeezeh Mostaan"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 20
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Gohardasht, Karaj"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by the Islamic regime of Iran during a peaceful protest.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/amymous021/status/2013719743929123304"

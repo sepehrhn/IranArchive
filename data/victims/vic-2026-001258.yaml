@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Armin Abbaspour
+# ==========================================
+
+photo: "vic-2026-001258.jpg"
+name: "Armin Abbaspour"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: آرمین عباس‌پور
+  
+  Shot directly by government suppressive forces during public protests.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hengawo/status/2015480363087204829"

@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Abolfazl Alipour
+# ==========================================
+
+photo: "vic-2026-000999.jpg"
+name: "Abolfazl Alipour"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Siyadarka village"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed during protests (specific circumstances not detailed)
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/fseifikaran/status/2013395127335588112"

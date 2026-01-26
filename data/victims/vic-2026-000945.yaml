@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Khodadad Shirvani
+# ==========================================
+
+photo: "vic-2026-000945.jpg"
+name: "Khodadad Shirvani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 33
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Marvdasht, Fars"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot at close range with a pellet gun during protests, died after being transferred to medical facilities
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://en.wikipedia.org/wiki/2026_Iran_massacres"

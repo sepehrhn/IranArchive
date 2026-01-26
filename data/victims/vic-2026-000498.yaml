@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ali Ramezani
+# ==========================================
+
+photo: "vic-2026-000498.png"
+name: "Ali Ramezani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Isfahan"
+incident_city: "Hasan Ghorbani street"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  No information about the circumstances of death is provided.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/visfehan/status/2014618779985023235"

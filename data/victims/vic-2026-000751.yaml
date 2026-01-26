@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mona Esmi
+# ==========================================
+
+photo: "vic-2026-000751.jpg"
+name: "Mona Esmi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 38
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Rasht"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly in the heart by Islamic Republic suppressive forces. She had a son. Shot from behind.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/allahbakhshii/status/2015140272481374387"

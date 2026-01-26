@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammad Nouri
+# ==========================================
+
+photo: "vic-2026-000920.jpg"
+name: "Mohammad Nouri"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 17
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Qom"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot from behind by security forces during protests in Towhid Square, died from gunshot wound to the lung
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://www.iran-emrooz.net/index.php/news2/125134/"

@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Abdolraouf Shahbazi Lor
+# ==========================================
+
+photo: "vic-2026-000210.jpg"
+name: "Abdolraouf Shahbazi Lor"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 37
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Khormajan (خرم‌آباد)"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with two war bullets by Islamic Republic's repressive forces during protests
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/indypersian/status/2013764920379318525"

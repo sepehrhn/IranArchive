@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Pedaram Saeidi
+# ==========================================
+
+photo: "vic-2026-000198.jpg"
+name: "Pedaram Saeidi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 28
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly by government forces while being chased by motorcycle units near his home in Khaneh neighborhood of Isfahan, in front of his mother and grandmother. Bullet hit his heart area, he was taken to hospital but died hours later from severe injuries.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hengawo/status/2012211877313462274"

@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Mahmoud Mousavi
+# ==========================================
+
+photo: "vic-2026-001300.jpg"
+name: "Mahmoud Mousavi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Qeshm"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: محمود موسوی
+  
+  Shot directly by the regime.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/realneo101/status/2015478029485547570"

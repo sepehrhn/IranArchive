@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Zeynab Fard
+# ==========================================
+
+photo: "vic-2026-000878.jpg"
+name: "Zeynab Fard"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 38
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Qarchak, Varamin"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot dead with a sniper round to the head by regime's police forces
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/babaktaghvaee1/status/2012518109307949187"

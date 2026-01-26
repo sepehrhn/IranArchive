@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ardeshir Zarei
+# ==========================================
+
+photo: "vic-2026-000545.jpg"
+name: "Ardeshir Zarei"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 40
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Iran (provinces of Ilam"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed during protests in Saveh city, was a worker and follower of Yarsanism from Dalahu in Kermanshah province
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/kurdistanhrn/status/2011441516489957603"

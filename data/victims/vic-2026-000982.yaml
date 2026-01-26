@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Abu Al-Qasem Babaei
+# ==========================================
+
+photo: "vic-2026-000982.jpg"
+name: "Abu Al-Qasem Babaei"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Vahidieh, Shahriar"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot at close range, reportedly took 70 bullets to protect others
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/pouriazeraati/status/2012971889958821982"

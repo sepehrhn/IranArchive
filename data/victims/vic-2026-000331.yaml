@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Majid Jalilian
+# ==========================================
+
+photo: "vic-2026-000331.jpg"
+name: "Majid Jalilian"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 40
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Marzdaran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  First beaten and injured, then killed with a shotgun
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/afsoonab/status/2013191783677616181"

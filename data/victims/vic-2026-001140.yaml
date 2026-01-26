@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Milad Fallahi
+# ==========================================
+
+photo: "vic-2026-001140.jpg"
+name: "Milad Fallahi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 36
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the leg during protests in Tehran, body found in a Tehran morgue one week later
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/indypersian/status/2013580701208100932"

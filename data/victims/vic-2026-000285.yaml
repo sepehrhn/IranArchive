@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Fatemeh Fatemi
+# ==========================================
+
+photo: "vic-2026-000285.jpg"
+name: "Fatemeh Fatemi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 42
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by Khamenei's suppressive forces near Tajrish. Security forces threatened her family in Bandar Abbas and forced them to tell relatives that the cause of death was 'cancer'.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/amirmiresmaeili/status/2015071818571293115"

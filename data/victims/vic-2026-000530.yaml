@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Amir Mohammad Arbabpouri
+# ==========================================
+
+photo: "vic-2026-000530.jpg"
+name: "Amir Mohammad Arbabpouri"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 15
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Kermanshah"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Murdered by Islamic regime's terrorists
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/_sabaa_z/status/2012990502832832644"

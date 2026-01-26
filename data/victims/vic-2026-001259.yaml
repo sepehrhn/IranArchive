@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Ayoub Sharifi
+# ==========================================
+
+photo: "vic-2026-001259.jpg"
+name: "Ayoub Sharifi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 25
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Fars"
+incident_city: "Kazerun"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: ایوب شریفی
+  
+  Shot by repressive agents of the Islamic Republic during the Iranian national revolution.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/indypersian/status/2015580046195638714"

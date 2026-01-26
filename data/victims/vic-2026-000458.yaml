@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Yasin Elahi
+# ==========================================
+
+photo: "vic-2026-000458.jpg"
+name: "Yasin Elahi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 18
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Kermanshah"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the chest with Kalashnikov bullet by Islamic Republic suppression forces during protests at Falakeh Dovom Dolatabad Tehran
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/kurdpa_farsi/status/2013256647624298681"

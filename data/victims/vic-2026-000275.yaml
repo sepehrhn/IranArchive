@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ebrahim Hashem Beigi
+# ==========================================
+
+photo: "vic-2026-000275.jpg"
+name: "Ebrahim Hashem Beigi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 42
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Neyriz, Fars"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly by suppressive forces while driving in the main square of Neyriz, Fars province. He was hit by shotgun fire at close range (about 20 cm) and died approximately 30 minutes later at Neyriz hospital
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/tavaana/status/2012459772478693640"

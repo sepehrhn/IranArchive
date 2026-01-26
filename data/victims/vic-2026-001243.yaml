@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Taha Naderi
+# ==========================================
+
+photo: "vic-2026-001243.jpg"
+name: "Taha Naderi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 18
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: طاها نادری
+  
+  Shot by security forces during protests on January 8, 2026. He underwent 11 surgeries and 8 resuscitations and had his leg amputated before dying in Al-Zahra Hospital in Isfahan.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/monfaredashkan/status/2015547125057413433, https://x.com/ashkvuo7000/status/2015517414457327825"

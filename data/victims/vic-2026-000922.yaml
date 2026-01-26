@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Taha Safari
+# ==========================================
+
+photo: "vic-2026-000922.jpg"
+name: "Taha Safari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 15
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Lorestan"
+incident_city: "Azna"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by security forces, body showed severe head injuries
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://www.iran-emrooz.net/index.php/news2/125134/"

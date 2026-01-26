@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mehdi Eghbali Amolashi
+# ==========================================
+
+photo: "vic-2026-000052.jpg"
+name: "Mehdi Eghbali Amolashi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 35
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Mashhad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed during protests (IranMassacre)
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/tiffany_jaan/status/2014848619703124362"

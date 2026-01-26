@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Amir Ali Heydari
+# ==========================================
+
+photo: "vic-2026-000144.jpg"
+name: "Amir Ali Heydari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 35
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Majidieh"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with live ammunition during protests (officially claimed as 'fall from height' under pressure from intelligence forces)
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/fseifikaran/status/2012986010200650052"

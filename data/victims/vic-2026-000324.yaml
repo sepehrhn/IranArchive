@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mahan Mardani
+# ==========================================
+
+photo: "vic-2026-000324.jpg"
+name: "Mahan Mardani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran (Qaleh Hassan Khan area)"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Student of Shahroud University of Technology, shot in the back by Basij and IRGC forces while returning home.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/kurdpa_farsi/status/2014446610957094931"

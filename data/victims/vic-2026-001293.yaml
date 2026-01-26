@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Arman Pourdeljou
+# ==========================================
+
+photo: "vic-2026-001293.jpg"
+name: "Arman Pourdeljou"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 22
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Karaj"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: آرمان پوردلجو
+  
+  Fatally wounded by a live bullet fired by government forces in Karaj Square on Thursday, January 8, 2026 (18 Dey 1404). He was arrested immediately after being shot. His body was returned to his family a few days later, bearing marks of two bullets.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/isamanyasin/status/2014407253802045538, https://x.com/tavaana/status/2015261924049461286"

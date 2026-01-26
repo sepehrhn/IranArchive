@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Saeed Joodaki Reshnow
+# ==========================================
+
+photo: "vic-2026-000819.jpg"
+name: "Saeed Joodaki Reshnow"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 35
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Khorramabad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed after a chase with security forces. Shot directly in the heart in the Masour neighborhood.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/khoshrof/status/2014313292378845487"

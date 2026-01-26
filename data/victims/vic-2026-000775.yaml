@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Omid Norouzi
+# ==========================================
+
+photo: "vic-2026-000775.jpg"
+name: "Omid Norouzi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 35
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Gilan or Mazandaran provinces"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot directly in the head by Islamic Republic suppression forces on Namjou Street
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/allahbakhshii/status/2012938244153892993"

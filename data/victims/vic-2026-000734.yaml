@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammad Soltanifar
+# ==========================================
+
+photo: "vic-2026-000734.jpg"
+name: "Mohammad Soltanifar"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 16
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Markazi"
+incident_city: "Mahallat"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by government mercenaries in front of the Intelligence building (Education Alley)
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/allahbakhshii/status/2014662395164037227"

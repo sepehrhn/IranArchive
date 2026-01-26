@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammad Hemmatian
+# ==========================================
+
+photo: "vic-2026-001150.jpg"
+name: "Mohammad Hemmatian"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Dorud, Lorestan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot and killed by the Islamic Republic's repressive forces during the recent national uprising.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/chaawtimes/status/2015198060280688902"

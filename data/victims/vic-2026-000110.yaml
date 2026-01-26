@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Hamid Kouchak Koutiani
+# ==========================================
+
+photo: "vic-2026-000110.jpg"
+name: "Hamid Kouchak Koutiani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 45
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Dezful"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  45-year-old Arab artist from Dezful, who was injured by being shot by security forces during the protests, died after several days of hospitalization in Dezful Grand Hospital due to brain death.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/fseifikaran/status/2012851468504563868"

@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Milad Raouf Fooshazdeh
+# ==========================================
+
+photo: "vic-2026-000698.jpg"
+name: "Milad Raouf Fooshazdeh"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Karaj"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the head by government forces during protests in Sarasiab, Karaj. Buried anonymously in Behesht Zahra cemetery.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hyrcanihrm/status/2014959362947580269"

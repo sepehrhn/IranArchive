@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Meysam Zarei Bejar Kenari
+# ==========================================
+
+photo: "vic-2026-000355.png"
+name: "Meysam Zarei Bejar Kenari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 39
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Rasht"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot dead by Iranian regime forces
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/daikatuo/status/2011838399754178592"

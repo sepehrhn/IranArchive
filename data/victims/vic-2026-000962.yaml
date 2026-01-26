@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Reza Moradi Abdolvand
+# ==========================================
+
+photo: "vic-2026-000962.jpg"
+name: "Reza Moradi Abdolvand"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 17
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Lorestan"
+incident_city: "Azna"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot during Islamic Republic's crackdown on protests
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://en.wikipedia.org/wiki/2026_Fardis_massacre"

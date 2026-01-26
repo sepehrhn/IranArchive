@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mohammad Goli
+# ==========================================
+
+photo: "vic-2026-000712.jpg"
+name: "Mohammad Goli"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Najafabad, Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with more than 11 bullets while using a fire truck to shield protesters from police gunfire at Police Station 12
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hengawo/status/2014781999668437226"

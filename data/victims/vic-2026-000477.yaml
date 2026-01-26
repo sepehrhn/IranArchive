@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ahmad Asghari
+# ==========================================
+
+photo: "vic-2026-000477.jpg"
+name: "Ahmad Asghari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 37
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Karaj"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the chest from behind by motorbike units of IR security forces during protests
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/soranmansournia/status/2013044425635545470"

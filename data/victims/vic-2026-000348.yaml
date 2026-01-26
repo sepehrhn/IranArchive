@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mehrdad Moshtaghi
+# ==========================================
+
+photo: "vic-2026-000348.jpg"
+name: "Mehrdad Moshtaghi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 27
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Arak"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Died from severe head injury sustained during protests after being in a coma for five days.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/allahbakhshii/status/2014686574282260563"

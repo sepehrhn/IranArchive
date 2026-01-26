@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Majid Osteyri
+# ==========================================
+
+photo: "vic-2026-000947.jpg"
+name: "Majid Osteyri"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 25
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the neck by government agents on Piroozi Street while trying to help another injured young man. He was a worker in a shop in the Sepahsalar Garden area of Tehran.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/indypersian/status/2013634895013097882"

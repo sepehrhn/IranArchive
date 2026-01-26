@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Morteza Rahnama
+# ==========================================
+
+photo: "vic-2026-000391.jpg"
+name: "Morteza Rahnama"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 37
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Mashhad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot and killed by Islamic Republic forces while coming home from work
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/__injaneb96/status/2014003550737625253"

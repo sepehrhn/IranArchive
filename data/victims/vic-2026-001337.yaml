@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Ehsan Toofan
+# ==========================================
+
+photo: "vic-2026-001337.jpg"
+name: "Ehsan Toofan"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 41
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Bandar Abbas"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: احسان طوفان
+  
+  Shot in the head and neck from behind, in front of the Bandar Abbas Radio and Television building. Father of a three-year-old daughter.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hichkasofficial/status/2015411691165565368"

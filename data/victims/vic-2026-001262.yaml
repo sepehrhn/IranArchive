@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Hasan Akbarpour
+# ==========================================
+
+photo: "vic-2026-001262.jpg"
+name: "Hasan Akbarpour"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 39
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Isfahan"
+incident_city: "Malekshahr"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: حسن اکبر پور
+  
+  Shot directly in the heart during protests. He was a truck driver for a fuel refinery in Isfahan.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/ka3rimi/status/2015456750489735202"

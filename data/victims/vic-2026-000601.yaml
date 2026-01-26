@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Farshid Hosseinzadeh
+# ==========================================
+
+photo: "vic-2026-000601.jpg"
+name: "Farshid Hosseinzadeh"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Mashhad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed during protests
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/sama19861365/status/2014988554607149193"

@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Bahram Akhlaghi
+# ==========================================
+
+photo: "vic-2026-000119.jpg"
+name: "Bahram Akhlaghi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Unknown"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  War veteran. Severely injured by a barrage of bullets from the regime's murderers on January 9, 2026 (19 Dey) and died on Friday, January 16, 2026 (26 Dey).
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/mousavi1355/status/2015142760500646180"

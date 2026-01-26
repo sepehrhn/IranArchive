@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Maziar Samimi
+# ==========================================
+
+photo: "vic-2026-000156.jpg"
+name: "Maziar Samimi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 28
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Rasht"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by Iranian government forces in the Razi roundabout area of Rasht while inside his car, bullet hit his forehead
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hyrcanihrm/status/2014440782711935030"

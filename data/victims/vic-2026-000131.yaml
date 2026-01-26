@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Masoud Sadeghi
+# ==========================================
+
+photo: "vic-2026-000131.jpg"
+name: "Masoud Sadeghi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 37
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran, Karaj"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Found dead after approximately one week of absence, family identified body at legal medicine facility
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/iranintl/status/2013993107969220828"

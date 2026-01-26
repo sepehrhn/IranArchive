@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mahdi Hassanī
+# ==========================================
+
+photo: "vic-2026-000326.jpg"
+name: "Mahdi Hassanī"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Gilan"
+incident_city: "Bandar Anzali"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by the forces of the Islamic Republic of Iran in a protest.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hyrcanihrm/status/2014642242879631845"

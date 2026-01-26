@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Sina Lavassani
+# ==========================================
+
+photo: "vic-2026-000448.jpg"
+name: "Sina Lavassani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 17
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Shahr-e Rey"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by live ammunition during protests on the night of the 19th in Zakaria Razi street.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/allahbakhshii/status/2014719609341948180"

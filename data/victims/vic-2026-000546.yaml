@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Arefeh Beigi
+# ==========================================
+
+photo: "vic-2026-000546.jpg"
+name: "Arefeh Beigi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 20
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Zarinshahr, Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  First shot on the side while alive; later executed with a bullet to the head by a Muslim terrorist during protests.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/prdsaas/status/2014218574550696187"

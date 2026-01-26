@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Omid Abu
+# ==========================================
+
+photo: "vic-2026-001179.jpg"
+name: "Omid Abu"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Near Kalantari 7 Havouz (Seven Pools)"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with military bullets by IRGC forces in Haft-e Hoz-e Narmak square among hundreds of others
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/caljon2025/status/2013651290513903646"

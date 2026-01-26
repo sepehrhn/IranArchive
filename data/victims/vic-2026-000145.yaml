@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Amir Hossein (Shayan) Shekari
+# ==========================================
+
+photo: "vic-2026-000145.jpg"
+name: "Amir Hossein (Shayan) Shekari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 21
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Iran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Former member of Iran youth national taekwondo team (2022). Killed by Islamic Republic security forces during protests.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/iranintl_en/status/2012858105558700344"

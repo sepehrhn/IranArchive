@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Nader Karimi
+# ==========================================
+
+photo: "vic-2026-000396.jpg"
+name: "Nader Karimi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 38
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Homayounshahr (Khomeinishahr)"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by forces while going to help an injured woman; he was a fruit seller near the governorate
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/indypersian/status/2013832866614947972"

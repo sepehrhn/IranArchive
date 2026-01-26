@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ahmad Hasanzadeh
+# ==========================================
+
+photo: "vic-2026-001006.jpg"
+name: "Ahmad Hasanzadeh"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 20
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Ashkehran village, Varzaneh"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed during protests, authorities threatened parents to withhold body and demanded payment for bullet, forced parents to claim he was a Basij member
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/visfehan/status/2014326018497012217"

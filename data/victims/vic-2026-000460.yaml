@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Yazdan Afrough
+# ==========================================
+
+photo: "vic-2026-000460.jpg"
+name: "Yazdan Afrough"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 18
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "Shad Abad"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by security forces in Haftdeh Shahrivar neighborhood of Shad Abad, Tehran. Initially wounded by gunfire and fell to the ground, then security forces approached and fired a final shot to his heart
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/sattarkhan121/status/2014446455956656594"

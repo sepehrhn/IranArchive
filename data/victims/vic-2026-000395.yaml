@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Mousa al-Reza Akbari
+# ==========================================
+
+photo: "vic-2026-000395.png"
+name: "Mousa al-Reza Akbari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Sabzevar"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Killed by the Islamic Republic regime during protests in Dey month 1404
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://hengaw.net/en/news/2026/01/article-120"

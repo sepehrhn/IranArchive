@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Shiva Rahimi
+# ==========================================
+
+photo: "vic-2026-001317.jpg"
+name: "Shiva Rahimi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 35
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: شیوا رحیمی
+  
+  Shot with 6 bullets in Sadeghieh square, Tehran while helping the injured. Buried anonymously in Sari.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/bita04371882/status/2015485681997373479"

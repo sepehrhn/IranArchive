@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ali Pouladestoon
+# ==========================================
+
+photo: "vic-2026-000497.jpg"
+name: "Ali Pouladestoon"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot by government security forces during protests in Isfahan. Killed at the entrance of Bagh-e-Razwan cemetery.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/iranwire/status/2013529390261350866"

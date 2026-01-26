@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Amir Ali Haydari
+# ==========================================
+
+photo: ""
+
+name: "Amir Ali Haydari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 18
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Kermanshah"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the heart at protest, then beaten in the head with gun butt
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://news.sky.com/story/how-the-iran-uprising-unfolded-and-what-happened-to-the-victims-of-the-crackdown-13495014"

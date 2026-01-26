@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Ali Karimi
+# ==========================================
+
+photo: "vic-2026-001014.jpg"
+name: "Ali Karimi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot with a war bullet during protest
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/visfehan/status/2014795134504763685"

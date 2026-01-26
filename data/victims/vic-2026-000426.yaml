@@ -1,0 +1,37 @@
+# ==========================================
+# Victim Documentation - Robina Aminian
+# ==========================================
+
+photo: "vic-2026-000426.jpg"
+name: "Robina Aminian"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 23
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Tehran"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Shot in the head from close range from behind after joining a protest after leaving college
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://www.theguardian.com/world/2026/jan/11/iranian-student-rubina-aminian-killed-during-protests-shot-in-head-from-close-range"
