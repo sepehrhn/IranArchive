@@ -73,6 +73,16 @@ const statusDotColor = computed(() => {
     return colors[props.event.computed_state] || 'bg-gray-400';
 });
 
+const hasDetails = computed(() => {
+    const ev = props.event;
+    return !!(
+        ev.description?.trim() || 
+        ev.organizer?.name?.trim() || 
+        (ev.location?.lat && ev.location?.lng) ||
+        ev.online?.join_url
+    );
+});
+
 // Calendar Popup
 const showCalendarPopup = ref(false);
 
@@ -238,6 +248,7 @@ Link: ${ev.online?.join_url || window.location.href}
 
             <!-- Expand/Collapse Button -->
             <button
+                v-if="hasDetails"
                 @click="isExpanded = !isExpanded"
                 class="w-full flex items-center justify-between px-4 py-2.5 rounded-xl bg-surface-50 dark:!bg-surface-900 hover:bg-surface-100 dark:hover:!bg-surface-800 text-surface-600 dark:text-surface-300 hover:text-surface-900 dark:hover:text-surface-100 transition-all duration-200 text-sm font-bold border border-transparent hover:border-surface-200 dark:hover:border-surface-700"
             >
@@ -275,7 +286,7 @@ Link: ${ev.online?.join_url || window.location.href}
                     </div>
 
                     <!-- Full Description -->
-                    <div v-if="event.description" class="space-y-3">
+                    <div v-if="event.description?.trim()" class="space-y-3">
                         <h4 class="text-xs font-bold text-surface-400 uppercase tracking-widest flex items-center gap-2">
                             <i class="pi pi-align-left text-primary-500 text-[10px]"></i>
                             Description
@@ -299,7 +310,7 @@ Link: ${ev.online?.join_url || window.location.href}
                     </div>
 
                     <!-- Organizer -->
-                    <div v-if="event.organizer" class="space-y-3">
+                    <div v-if="event.organizer?.name?.trim()" class="space-y-3">
                         <h4 class="text-xs font-bold text-surface-400 uppercase tracking-widest flex items-center gap-2">
                             <i class="pi pi-users text-primary-500 text-[10px]"></i>
                             Organizer
