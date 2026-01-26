@@ -52,9 +52,7 @@
             <div class="p-1">
               <EventSubmissionForm
                 v-if="activeTab === 1"
-                @submit-entry="handleSubmit"
-                @submit="handleSubmit"
-                :submitting="submitting"
+                @success="handleSuccess"
               />
             </div>
           </TabPanel>
@@ -109,6 +107,14 @@ function resetForm() {
   submitted.value = false;
   submissionId.value = '';
   submitting.value = false;
+}
+
+function handleSuccess(payload: any) {
+    console.log('Page: Event submission success', payload);
+    // Component shows success message internally now, but if we want to bubble up:
+    // submitted.value = true; 
+    // submissionId.value = payload.submissionId;
+    // But since the component is handling it UI-wise, we might not need to do anything here.
 }
 
 onMounted(() => {

@@ -52,7 +52,25 @@
     </div>
 
     <!-- Step Content -->
-    <form @submit.prevent="handleNext">
+      <!-- Success State Internal -->
+      <div v-if="submitted" class="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-xl p-6 mb-6">
+        <div class="flex items-start gap-3">
+          <i class="pi pi-check-circle text-2xl text-green-600 dark:text-green-400"></i>
+          <div class="flex-1">
+            <h3 class="font-bold text-green-900 dark:text-green-100 mb-2">Submission Received!</h3>
+            <p class="text-green-800 dark:text-green-200 mb-3">
+              Your event has been submitted for review.
+            </p>
+            <div class="bg-white dark:bg-surface-800 p-3 rounded border border-green-200 dark:border-green-700">
+              <p class="text-sm text-surface-600 dark:text-surface-400 mb-1">Tracking ID:</p>
+              <code class="text-sm font-mono bg-surface-100 dark:bg-surface-700 px-2 py-1 rounded">{{ submissionId }}</code>
+            </div>
+            <Button label="Submit Another" icon="pi pi-plus" class="mt-4" size="small" @click="resetForm" />
+          </div>
+        </div>
+      </div>
+
+      <form v-else @submit.prevent="handleNext">
       
       <!-- Step 1: Event Format -->
       <div v-if="currentStep === 0" class="space-y-6">
@@ -767,6 +785,7 @@
 <script setup lang="ts">
 import { ref, onMounted, nextTick, computed } from 'vue';
 import { useCountries } from '~/composables/useCountries';
+import { initUpload, completeSubmission } from '~/utils/submissionsClient';
 
 const props = defineProps<{
   submitting: boolean;
@@ -774,14 +793,13 @@ const props = defineProps<{
 }>();
 
 const emit = defineEmits<{
-  'submit-entry': [payload: any];
-  'submit': [payload: any];
+  'success': [payload: any];
 }>();
 
 const config = useRuntimeConfig();
 const turnstileContainer = ref<HTMLElement>();
 const turnstileToken = ref('');
-const geocoding = ref(false);
+const submitting = ref(false);
 const showEndDate = ref(false);
 const { getAllCountries, getCountryFlagUrl } = useCountries();
 
@@ -1053,28 +1071,59 @@ function handleSubmit() {
       }
     };
     
-    console.log('EventSubmissionForm: Data prepared, emitting submit-entry...', data);
+    console.log('EventSubmissionForm: Data prepared, starting internal submission...', data);
+    submitting.value = true;
 
-    emit('submit-entry', {
+    // Step 1: Calculate hashes
+    const fileInfos = [];
+    // Events don't usually have files in this form, but keeping logic just in case or for consistency
+    // The form.files seems to be empty array in the current code, but let's check.
+    // data.files is passed as [] in current emit. 
+    // Wait, the emit had files: []
+    // So we don't need file handling for Events right now?
+    // The current handleSubmit in submit.vue loops over payload.files.    
+
+    const initResponse = await initUpload({
+      turnstileToken: turnstileToken.value,
       kind: 'event',
-      data,
-      files: [],
+      files: []
+    });
+    console.log('EventSubmissionForm: Init success', initResponse);
+
+    // Step 2: R2 Upload (Skipped as no files for events currently)
+
+    // Step 3: Complete
+    await completeSubmission({
+      submissionId: initResponse.submissionId,
+      kind: 'event',
+      payload: data,
+      uploadedFiles: [],
       turnstileToken: turnstileToken.value
     });
+    console.log('EventSubmissionForm: Complete success');
 
-    // Dual emit for fallback
-    emit('submit', {
-      kind: 'event',
-      data,
-      files: [],
-      turnstileToken: turnstileToken.value
-    });
-    console.log('EventSubmissionForm: Emit called');
+    // Show success state
+    emit('success', { submissionId: initResponse.submissionId });
+    // Also set localized success state if parent doesn't handle it
+    submitted.value = true;
+    submissionId.value = initResponse.submissionId;
 
-  } catch (err) {
+  } catch (err: any) {
     console.error('EventSubmissionForm: Error in handleSubmit', err);
-    alert('Error preparing submission. Please check console.');
+    alert(`Submission failed: ${err.message || 'Unknown error'}`);
+  } finally {
+    submitting.value = false;
   }
+}
+
+const submitted = ref(false);
+const submissionId = ref('');
+
+function resetForm() {
+  submitted.value = false;
+  submissionId.value = '';
+  currentStep.value = 0;
+  // Reset form data...
 }
 
 function formatDate(date: Date | null): string {
