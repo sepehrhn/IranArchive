@@ -704,8 +704,7 @@ const causeOfDeathOptions = [
   'Beating',
   'Torture',
   'Execution',
-  'Unknown',
-  'Other'
+  'Unknown'
 ];
 
 const disappearanceCircumstancesOptions = [
@@ -719,8 +718,7 @@ const disappearanceCircumstancesOptions = [
 const suspectedActorOptions = [
   'Security Forces',
   'Plainclothes Agents',
-  'Unknown',
-  'Other'
+  'Unknown'
 ];
 
 const sourceTypeOptions = [

@@ -23,7 +23,7 @@ useHead({
 });
 
 // Data
-const { loadCountries, getAllCountries, getCountryByIso } = useCountries();
+const { loadCountries, getAllCountries, getCountryByIso, getCountryFlagUrl } = useCountries();
 const loading = ref(true);
 
 onMounted(async () => {
@@ -176,7 +176,7 @@ const handleListSelect = (iso: string) => {
                 @click="handleListSelect(country.iso2)"
               >
                 <div class="flex items-center gap-3">
-                  <!-- <img :src="`/flags/${country.iso2.toLowerCase()}.svg`" class="w-6 h-4 object-cover rounded shadow-sm opacity-80" /> -->
+                  <img :src="getCountryFlagUrl(country.iso2)" class="w-6 h-6 object-contain" :alt="country.name" />
                   <span class="font-medium">{{ country.name }}</span>
                 </div>
                 <div class="flex items-center gap-3">
