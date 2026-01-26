@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Mehrzad Behdarvand
+# ==========================================
+
+photo: "vic-2026-001386.jpg"
+name: "Mehrzad Behdarvand"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Isfahan"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: مهرزاد بهداروند
+  
+  Went to the street on 18 Dey and his body was returned to his family after seven days.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/aliyazdani7612/status/2015173881405788296"

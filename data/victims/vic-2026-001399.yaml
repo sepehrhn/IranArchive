@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Shahpour Parvinmehr
+# ==========================================
+
+photo: "vic-2026-001399.jpg"
+name: "Shahpour Parvinmehr"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Rasht"
+
+# Death Information
+date_of_death: "2025-12-22"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: شاهپور پروین‌مهر
+  
+  Shot by Islamic Republic forces during the nationwide protests in Dey 1404.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hyrcanihrm/status/2015424886336897262"

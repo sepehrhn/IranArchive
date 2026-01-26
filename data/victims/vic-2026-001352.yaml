@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Amir Ali Darabi
+# ==========================================
+
+photo: "vic-2026-001352.jpg"
+name: "Amir Ali Darabi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Chalus"
+
+# Death Information
+date_of_death: "2026-01-24"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: امیرعلی دارابی
+  
+  Shot in the thigh and abdomen while trying to help his friend during a protest. Died in the hospital at 6 AM.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/h_cuji/status/2015044731240145182"

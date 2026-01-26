@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Morteza Sheikhi
+# ==========================================
+
+photo: "vic-2026-001430.jpg"
+name: "Morteza Sheikhi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Unknown"
+
+# Death Information
+date_of_death: ""
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: مرتضی شیخی
+  
+  Killed in the way of the homeland
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/auslaendermann/status/2015360334777798896"

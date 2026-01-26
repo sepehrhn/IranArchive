@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Amirali Borji
+# ==========================================
+
+photo: "vic-2026-001407.jpg"
+name: "Amirali Borji"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Saveh"
+
+# Death Information
+date_of_death: ""
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: امیرعلی برجی
+  
+  Killed by Khamenei's mercenaries in Saveh.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/esmaeils1169/status/2014726644771025313"

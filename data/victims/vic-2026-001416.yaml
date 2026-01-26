@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Hojjat Teymouri
+# ==========================================
+
+photo: "vic-2026-001416.jpg"
+name: "Hojjat Teymouri"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Unknown"
+
+# Death Information
+date_of_death: ""
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: حجت تیموری
+  
+  Killed in the way of the homeland
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/sababaghban/status/2015142490412577204"

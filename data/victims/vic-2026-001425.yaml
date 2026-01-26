@@ -1,0 +1,40 @@
+# ==========================================
+# Victim Documentation - Mohammad Mozaffari
+# ==========================================
+
+photo: ""
+
+name: "Mohammad Mozaffari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Unknown"
+
+# Death Information
+date_of_death: ""
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: محمد مظفری
+  
+  Javid Nam (Immortal Name)
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/ras_e_isole/status/2014680813284008416"

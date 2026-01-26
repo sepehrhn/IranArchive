@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Ahmadreza Khairizad
+# ==========================================
+
+photo: "vic-2026-001394.jpg"
+name: "Ahmadreza Khairizad"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Kahrizak"
+
+# Death Information
+date_of_death: "2025-12-28"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: احمدرضا خیری‌زاد
+  
+  One of the victims identified in the videos.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/monfaredashkan/status/2012986994255913004"

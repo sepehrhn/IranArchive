@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Mohammad Hassan Bahadori
+# ==========================================
+
+photo: "vic-2026-001422.jpg"
+name: "Mohammad Hassan Bahadori"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Saveh"
+
+# Death Information
+date_of_death: ""
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: محمد حسن بهادری
+  
+  Killed by Islamic Republic agents
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/esmaeils1169/status/2014724026476761334"

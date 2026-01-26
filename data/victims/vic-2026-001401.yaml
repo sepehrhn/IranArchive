@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Abolfazl Roshan
+# ==========================================
+
+photo: "vic-2026-001401.jpg"
+name: "Abolfazl Roshan"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 22
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Sari"
+
+# Death Information
+date_of_death: ""
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: ابولفضل روشن
+  
+  No details provided, but the tweet commemorates him and expresses hope he is not forgotten.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/tasmehydrolic/status/2015387527213981789"

@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Mehdi Saleh Khan
+# ==========================================
+
+photo: "vic-2026-001359.jpg"
+name: "Mehdi Saleh Khan"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 30
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Golpayegan"
+
+# Death Information
+date_of_death: "2026-01-10"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: مهدی صالح خان
+  
+  Killed by the Islamic Republic government.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hafeziranr/status/2014458904827060562"

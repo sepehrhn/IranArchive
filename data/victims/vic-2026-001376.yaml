@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Amir Hossein Emam Jomeh
+# ==========================================
+
+photo: "vic-2026-001376.jpg"
+name: "Amir Hossein Emam Jomeh"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Narmak"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: امیرحسین امام جمعه
+  
+  Mentioned in a tweet with the hashtag 'Javid Nam' (eternal name), indicating he is deceased. The tweet references Thursday, 18 Dey.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/6ixmag6ix/status/2014699230212899206"

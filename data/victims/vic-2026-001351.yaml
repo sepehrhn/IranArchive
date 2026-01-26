@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Huzaifa Zargar
+# ==========================================
+
+photo: "vic-2026-001351.jpg"
+name: "Huzaifa Zargar"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 11
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "Balochistan"
+
+# Death Information
+date_of_death: "2026-01-25"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Persian Name: حذیفه زرگر
+  
+  Shot and killed by suppressive forces during protests.
+
+# Sources
+source_type: "Social Media"
+source_social_media_link: "https://x.com/hamalilalin/status/2015507333082743134, https://x.com/hamalilalin/status/2015490997136851118"
