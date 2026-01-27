@@ -46,7 +46,7 @@
     "ratings": {
       "type": "object",
       "properties": {
-        "truth_confidence": {
+        "veracity": {
           "type": "integer",
           "minimum": 1,
           "maximum": 10

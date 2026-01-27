@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { type Incident } from '~/types/incident';
-import { getStatusColor, formatDate, formatStatus } from '~/utils/formatters';
 
 const { t } = useI18n()
 
@@ -52,25 +51,12 @@ const filteredIncidents = computed(() => {
     });
 });
 
-const incidents = baseIncidents; // Keep reference for count if needed, or just use filteredIncidents
+const incidents = baseIncidents; 
 
 const clearFilters = () => {
     searchQuery.value = '';
     selectedStatus.value = null;
 }
-
-const onRowClick = (event: any) => {
-    navigateTo(`/incidents/${event.data.id}`);
-};
-
-// Use !important for hover background to ensure it overrides the striped row background
-const rowClass = () => 'cursor-pointer hover:bg-surface-50 dark:hover:bg-surface-800 transition-colors duration-200';
-
-const getRatingColor = (value: number) => {
-    if (value <= 4) return 'var(--danger)';
-    if (value <= 7) return 'var(--warning)';
-    return 'var(--success)';
-};
 </script>
 
 <template>
@@ -82,7 +68,7 @@ const getRatingColor = (value: number) => {
                 <div>
                     <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">{{ t('common.incidents') }}</h1>
                     <p class="text-surface-500 dark:text-surface-400 mt-1">
-                        {{ incidents.length }} records found
+                        {{ filteredIncidents.length }} records found
                     </p>
                 </div>
                 <div>
@@ -94,9 +80,9 @@ const getRatingColor = (value: number) => {
         </div>
 
         <!-- Controls Toolbar -->
-        <div class="flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center bg-surface-0 dark:bg-surface-900 p-4 rounded-xl border border-surface-200 dark:border-surface-800 shadow-sm mb-8">
-            <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
-                <IconField iconPosition="left" class="w-full sm:w-64">
+        <div class="flex flex-col lg:flex-row gap-4 justify-between items-center bg-surface-0 dark:bg-surface-900 p-4 rounded-xl border border-surface-200 dark:border-surface-800 shadow-sm mb-8 sticky top-4 z-10 backdrop-blur-md bg-opacity-90 dark:bg-opacity-90">
+            <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0 flex-grow">
+                <IconField iconPosition="left" class="w-full sm:w-96">
                     <InputIcon class="pi pi-search" />
                     <InputText v-model="searchQuery" placeholder="Search incidents..." class="w-full" />
                 </IconField>
@@ -106,68 +92,45 @@ const getRatingColor = (value: number) => {
             </div>
         </div>
 
-        <div class="card bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-800 rounded-xl overflow-hidden shadow-sm">
-            <DataTable :value="filteredIncidents" paginator :rows="10" @row-click="onRowClick" :rowClass="rowClass"
-                :pt="{
-                    header: { class: 'bg-surface-0 dark:bg-surface-900 border-b border-surface-200 dark:border-surface-800' },
-                    thead: { class: 'bg-surface-50 dark:bg-surface-800/50' }
-                }"
-            >
-                <template #empty>
-                    <div class="p-8 text-center">
-                        <i class="pi pi-search text-4xl text-surface-400 mb-4 block"></i>
-                        <p class="text-surface-500">No incidents found matching your criteria.</p>
-                        <Button label="Clear Filters" text @click="clearFilters" class="mt-2" v-if="searchQuery || selectedStatus" />
-                    </div>
-                </template>
+        <!-- Grid Layout -->
+        <div v-if="filteredIncidents.length > 0">
+            <TransitionGroup name="list" tag="div" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+                <div v-for="incident in filteredIncidents" :key="incident.id">
+                    <IncidentCard :incident="incident" />
+                </div>
+            </TransitionGroup>
+        </div>
 
-                <Column field="occurred_at.start" header="Date" sortable style="width: 12rem; min-width: 12rem">
-                    <template #body="slotProps">
-                        <span class="text-sm font-medium text-surface-700 dark:text-surface-200">{{ formatDate(slotProps.data.occurred_at.start) }}</span>
-                    </template>
-                </Column>
-                <Column header="Title" sortable field="title" style="width: 30%; min-width: 15rem">
-                    <template #body="slotProps">
-                        <span class="font-semibold text-primary-600 dark:text-primary-400 hover:underline">
-                            {{ slotProps.data.title }}
-                        </span>
-                    </template>
-                </Column>
-                <Column header="Summary">
-                    <template #body="slotProps">
-                        <p class="line-clamp-2 text-sm text-surface-600 dark:text-surface-400 leading-relaxed">
-                            {{ slotProps.data.summary }}
-                        </p>
-                    </template>
-                </Column>
-                <Column header="Status" style="width: 11rem; min-width: 11rem" sortable field="status">
-                    <template #body="slotProps">
-                        <Tag :value="formatStatus(slotProps.data.status)" :severity="getStatusColor(slotProps.data.status)" />
-                    </template>
-                </Column>
-                <Column style="width: 12rem; min-width: 12rem" headerClass="justify-center">
-                    <template #header>
-                        <div class="w-full text-center font-bold text-xs uppercase tracking-wider text-surface-500">Confidence</div>
-                    </template>
-                    <template #body="{ data }">
-                        <div class="flex items-center justify-center gap-4" v-if="data.ratings">
-                             <div class="flex flex-col items-center gap-1" v-if="data.ratings.truth_confidence" title="Truth Confidence">
-                                <div class="relative w-8 h-1 bg-surface-200 dark:bg-surface-700 rounded-full overflow-hidden">
-                                    <div class="h-full rounded-full" :style="{ width: data.ratings.truth_confidence * 10 + '%', backgroundColor: getRatingColor(data.ratings.truth_confidence) }"></div>
-                                </div>
-                                <span class="text-[10px] uppercase font-bold text-surface-500">Truth</span>
-                            </div>
-                             <div class="flex flex-col items-center gap-1" v-if="data.ratings.evidence_availability" title="Evidence Availability">
-                                <div class="relative w-8 h-1 bg-surface-200 dark:bg-surface-700 rounded-full overflow-hidden">
-                                     <div class="h-full rounded-full" :style="{ width: data.ratings.evidence_availability * 10 + '%', backgroundColor: getRatingColor(data.ratings.evidence_availability) }"></div>
-                                </div>
-                                <span class="text-[10px] uppercase font-bold text-surface-500">Evidence</span>
-                            </div>
-                        </div>
-                         <span v-else class="text-xs text-surface-400">-</span>
-                    </template>
-                </Column>
-            </DataTable>
+        <!-- Empty State -->
+        <div v-else class="flex flex-col items-center justify-center p-16 text-center bg-surface-0 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-800 border-dashed">
+            <div class="w-16 h-16 bg-surface-100 dark:bg-surface-800 rounded-full flex items-center justify-center mb-4">
+                <i class="pi pi-search text-2xl text-surface-400"></i>
+            </div>
+            <h3 class="text-lg font-semibold text-surface-900 dark:text-surface-0 mb-2">No incidents found</h3>
+            <p class="text-surface-500 dark:text-surface-400 max-w-sm mx-auto mb-6">
+                We couldn't find any incidents matching your search criteria. Try adjusting your filters.
+            </p>
+            <Button label="Clear Filters" outlined @click="clearFilters" />
         </div>
     </div>
 </template>
+
+<style scoped>
+.list-move, /* apply transition to moving elements */
+.list-enter-active,
+.list-leave-active {
+  transition: all 0.5s ease;
+}
+
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+/* ensure leaving items are taken out of layout flow so that moving
+   items can be calculated correctly. */
+.list-leave-active {
+  position: absolute;
+}
+</style>

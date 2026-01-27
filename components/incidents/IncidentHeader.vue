@@ -44,7 +44,7 @@
             <!-- Scores / Actions -->
             <div class="flex flex-row gap-3 shrink-0">
                 <!-- Truth Score (Semicircle) -->
-                <div class="flex flex-col items-center gap-1.5 p-3 rounded-2xl bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-800 shadow-sm" v-if="incident.ratings?.truth_confidence">
+                <div class="flex flex-col items-center gap-1.5 p-3 rounded-2xl bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-800 shadow-sm" v-if="incident.ratings?.veracity">
                     <div class="relative flex items-end justify-center w-20 h-10 overflow-hidden">
                          <!-- Background Arc -->
                         <svg class="w-full h-[200%] absolute top-0" viewBox="0 0 36 36">
@@ -52,9 +52,9 @@
                         </svg>
                         <!-- Progress Arc -->
                          <svg class="w-full h-[200%] absolute top-0" viewBox="0 0 36 36">
-                            <path :stroke="getRatingColor(incident.ratings.truth_confidence)" :stroke-dasharray="`${(incident.ratings.truth_confidence / 10) * 50}, 100`" d="M2.0845 18 a 15.9155 15.9155 0 0 1 31.831 0" fill="none" stroke-width="4" stroke-linecap="round" />
+                            <path :stroke="getRatingColor(incident.ratings.veracity)" :stroke-dasharray="`${(incident.ratings.veracity / 10) * 50}, 100`" d="M2.0845 18 a 15.9155 15.9155 0 0 1 31.831 0" fill="none" stroke-width="4" stroke-linecap="round" />
                         </svg>
-                        <span class="text-lg font-black text-surface-900 dark:text-surface-0 z-10 -mb-0.5">{{ incident.ratings.truth_confidence }}</span>
+                        <span class="text-lg font-black text-surface-900 dark:text-surface-0 z-10 -mb-0.5">{{ incident.ratings.veracity }}</span>
                     </div>
                     <span class="text-[10px] uppercase font-bold text-surface-500 tracking-wider">Veracity</span>
                 </div>

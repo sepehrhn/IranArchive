@@ -140,6 +140,6 @@ export interface Incident {
 }
 
 export interface IncidentRatings {
-    truth_confidence?: number; // 1-10
+    veracity?: number; // 1-10
     evidence_availability?: number; // 1-10
 }

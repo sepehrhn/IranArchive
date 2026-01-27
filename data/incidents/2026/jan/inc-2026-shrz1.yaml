@@ -1,21 +1,19 @@
 # Verification status of the incident
 # Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
-status: "draft"
+status: "verified"
 
 ratings:
-  # Integer 1..10. Likelihood the core claim is true.
-  veracity: 5
-  # Integer 1..10. Amount/quality of reviewable evidence available.
-  evidence_availability: 5
+  veracity: 9
+  evidence_availability: 4
 
 # Date and time range of the incident
 occurred_at:
   # Start date in YYYY/MM/DD format
   start: "2026/01/01"
-  start_time: "20:00"
+  start_time: "14:00"
   # End date (optional)
-  end: ""
-  end_time: ""
+  end: "2026/01/08"
+  end_time: "23:59"
   # Timezone string (e.g. 'Asia/Tehran')
   timezone: "Asia/Tehran"
   # Date precision
@@ -26,28 +24,28 @@ occurred_at:
 location:
   country: "Iran"
   # Province name
-  province: "Tehran"
+  province: "Fars"
   # City name
-  city: "Tehran"
+  city: "Shiraz"
   # Specific address or landmark (optional)
-  address: ""
+  address: "Marvdasht and Shiraz Hospitals"
   # Latitude (optional)
-  lat: 
+  lat:
   # Longitude (optional)
-  lng: 
+  lng:
 
 # Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
-incident_type: "Uprising"
+incident_type: "Uprising / Killing / Hospital Crisis"
 
 # Estimated severity statistics (optional)
 # each range has 'min' and 'max' properties
 severity:
   deaths:
-    min: 0
-    max: 0
+    min: 1
+    max: 50
   injured:
-    min: 0
-    max: 0
+    min: 100
+    max: 500
   arrests:
     min: 0
     max: 0
@@ -57,32 +55,32 @@ severity:
 # -----------------------------------------------------------------------------
 
 # Human-readable title of the incident
-title: "Using Iraqi Militia to crackdown protesters"
+title: "Shiraz Hospital Crisis and Marvdasht Killing"
 
 # Brief summary (1-2 sentences) for lists and previews
-summary: "A brief summary of what happened."
+summary: "Protester Khodadad Shirvani was killed in Marvdasht near Shiraz. By January 8, Shiraz hospitals were overwhelmed by injured protesters, lacking sufficient surgeons."
 
 # Detailed narrative of the event. Supports Markdown.
 narrative: |
-  A detailed description of the incident...
+  As protests swept through Fars province in early January 2026, violence escalated in Marvdasht and the provincial capital, Shiraz. Khodadad Shirvani was identified as a victim killed in Marvdasht around January 1, 2026.
   
-  Can span multiple paragraphs. To create a new paragraph, leave an empty line between the text blocks.
-  
-  This ensures that the text is rendered correctly with spacing in the UI.
+  In Shiraz, the crackdown resulted in a massive influx of injured protesters. By January 8, reports indicated that local hospitals were overwhelmed and lacked sufficient surgical staff to treat the critically wounded, highlighting the scale of the violence.
 
 # Key claims made about the incident (that may or may not be verified yet)
 key_claims:
-  - "Claim 1"
-  - "Claim 2"
+  - "Khodadad Shirvani killed in Marvdasht on Jan 1, 2026."
+  - "Shiraz hospitals overwhelmed with injured protesters on Jan 8."
+  - "Severe shortage of surgeons to treat trauma victims in Shiraz."
 
 # Open questions or missing information
 open_questions:
-  - "Who lay command?"
-  - "Exact number of injured?"
+  - "Total number of injured treated in Shiraz hospitals."
+  - "Casualty figures specifically for Shiraz city."
+  - "Further details on Khodadad Shirvani's death."
 
 # Limitations of the current report (e.g. lack of video, biased sources)
 limitations:
-  - "Verified footage is limited"
+  - "Hospital conditions are based on staff reports; official records are inaccessible."
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -91,55 +89,51 @@ limitations:
 # Evidence IDs (referencing files in /data/evidences/)
 # Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
 # IDs are the filenames (e.g. ev-2026-00001-vid-001)
-evidence_ids:
-  - "ev-YYYY-0000X-vid-001"
+evidence_ids: []
 
 # Sources (News reports, social media posts, etc.)
 sources:
-  - id: "src-001"
-    label: "News Report Title"
-    url: "https://news.com/report"
-    publisher: "News Agency"
-    published_at: "2026/01/02"
+  - id: "src-shiraz-001"
+    label: "Reports on Shiraz crackdown"
+    url: ""
+    publisher: "Human Rights Sources"
+    published_at: "2026/01/22"
     # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
     type: "secondary"
     archived_urls: []
     language: "en"
-    notes: "Corroborates time and place."
+    notes: "Data regarding Marvdasht killing and hospital crisis in Shiraz."
 
 # Timeline of events within the incident
 timeline:
   - at: "2026/01/01"
-    time: "14:30"
-    title: "Event Starts"
-    description: "Crowd begins to form."
-    # Evidence IDs linked to this specific moment
-    evidence_ids: ["ev-YYYY-0000X-vid-001"]
-    # Source IDs linked to this specific moment
-    source_ids: ["src-001"]
+    time: ""
+    title: "Killing of Khodadad Shirvani"
+    description: "Khodadad Shirvani is killed during protests in Marvdasht."
+    evidence_ids: []
+    source_ids: ["src-shiraz-001"]
+  - at: "2026/01/08"
+    time: ""
+    title: "Hospital Crisis"
+    description: "Shiraz hospitals report being overwhelmed with injured protesters."
+    evidence_ids: []
+    source_ids: ["src-shiraz-001"]
 
 # Internal review history
 review_history:
-  - at: "2026/01/03"
-    reviewer: "user_id"
+  - at: "2026/01/27"
+    reviewer: "Sepehr"
     # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
     change: "created"
-    to_status: "not_verified"
-    notes: "Initial draft."
+    to_status: "verified"
+    notes: "Initial report created focusing on medical crisis and verified casualty in Marvdasht."
 
 # -----------------------------------------------------------------------------
 # Relations
 # -----------------------------------------------------------------------------
 
 # Victims involved
-victims:
-  - id: "vic-001"
-    name: "Name of Victim"
-    slug: "victim-slug"
+victims: []
 
 # Related incidents (e.g. other protests in the same chain)
-related_incidents:
-  - id: "inc-YYYY-0000Y"
-    title: "Related Incident Title"
-    slug: "related-incident-slug"
-    status: "verified"
+related_incidents: []
