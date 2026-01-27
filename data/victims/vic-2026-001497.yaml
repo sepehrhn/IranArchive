@@ -1,0 +1,40 @@
+# ==========================================
+# Victim Documentation - Maedeh Moradi Kia
+# ==========================================
+
+photo: "vic-2026-001497.png"
+
+name: "Maedeh Moradi Kia"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Female"
+age: 22
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "ستارخان"
+
+# Death Information
+date_of_death: "2026-01-09"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  Maedeh Moradikia, 22, a hero of the homeland. She was killed on Friday, January 9, 2026, in Tehran by direct gunfire from regime mercenaries. Only a few months had passed since her wedding.
+  
+  قهرمان وطن و ۲۲ ساله، جمعه ۱۹ دی‌ماه ۱۴۰۴ در پی شلیک نیروهای سرکوبگر رژیم در تهران به شهادت رسید. تنها چند ماه از مراسم عقد او گذشته بود.
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

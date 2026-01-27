@@ -1,0 +1,44 @@
+# ==========================================
+# Victim Documentation - Soheil Almasi
+# ==========================================
+
+photo: "vic-2026-001494.png"
+
+name: "Soheil Almasi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 18
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Alborz"
+incident_city: "مرودشت"
+
+# Death Information
+date_of_death: "2026-01-09"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  When Soheil was leaving the house, he told his mother,
+  “I’m going to make you proud.”
+  Keep his name alive.
+  
+  
+  سهیل وقتی داشته از خونه میرفته بیرون، به مادرش میگه میخوام برم باعث افتخارت بشم.
+  اسمش رو زنده نگه دارید.
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

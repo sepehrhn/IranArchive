@@ -25,6 +25,18 @@ logs
 
 # Credentials
 .env.submissions
-# Scraper
+
+# Scraper & Temporary Files
 scripts/scrape_external.cjs
+scripts/scrape_javidnaam.ts
+scripts/fix_victim_yaml.ts
+debug_image_download.ts
+debug_image.png
 scrape_log.txt
+dry_run_log.txt
+scrape_changes.txt
+temp_victim.json
+temp_victim_utf.json
+temp_victim_utf8.json
+temp_fetch_one.js
+temp_fetch_one.cjs

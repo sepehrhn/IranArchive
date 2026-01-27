@@ -1,0 +1,40 @@
+# ==========================================
+# Victim Documentation - Ali Ashouri
+# ==========================================
+
+photo: "vic-2026-001488.png"
+
+name: "Ali Ashouri"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Fars"
+incident_city: "نی‌ریز"
+
+# Death Information
+date_of_death: "2026-01-03"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  خواهش میکنم از #علی_عاشوری بیشتر بگید ، اسمش وایرال نشده ، اونم جز کشته شده هاست چون آرایشگر بوده زورشون به خانوادش رسیده و نمیزارن پخش شه تحت فشار هستن
+  
+  Ali Ashouri, A young man killed on January 3, 2026, in Neyriz by government forces' gunfire.
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

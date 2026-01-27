@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Afshin Mirkiani
+# ==========================================
+
+photo: "vic-2026-001523.jpeg"
+
+name: "Afshin Mirkiani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 
+occupation: "قهرمان تکواندو و مربی"
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Mazandaran"
+incident_city: ""
+
+# Death Information
+date_of_death: ""
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

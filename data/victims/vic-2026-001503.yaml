@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Mehdi Rahimi Shamloo
+# ==========================================
+
+photo: "vic-2026-001503.png"
+
+name: "Mehdi Rahimi Shamloo"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 24
+occupation: "شاغل در موتورسازی"
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "میدان نازی‌آباد"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  مهدی رحیمی شاملو، ۲۴ ساله، شاغل در موتورسازی، ساکن تهران، ۱۸ دی ماه ۱۴۰۴ در جریان اعتراضات مردم در میدان نازی‌آباد هدف شلیک گلوله نیروهای سرکوبگر قرار گرفته و کشته شد.
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

@@ -1,0 +1,44 @@
+# ==========================================
+# Victim Documentation - Shahab PourFalah
+# ==========================================
+
+photo: "vic-2026-001513.jpeg"
+
+name: "Shahab PourFalah"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 19
+occupation: "کشتی گیر "
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Khuzestan"
+incident_city: "اندیشمک "
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  شهاب فلاح‌پور، ۱۹ ساله، کشتی‌گیر و از ساکنان محله کوی «شهدا» در شهرستان اندیمشک، روز جمعه ۱۹ دی‌ماه ۱۴۰۴ در جریان اعتراضات مردمی در خیابان پرتو با شلیک مستقیم نیروهای سرکوب کشته شد.
+  
+  به گفته مخاطبان، شهاب فلاح‌پور هدف شلیک تک‌تیراندازی از بالای پشت‌بام قرار گرفته است. این منابع می‌گویند تیراندازی به‌صورت مستقیم و بدون هشدار انجام شده و امکان امدادرسانی به او وجود نداشته است.
+  
+  بر اساس این گزارش‌ها، سه روز پس از کشته‌شدن شهاب فلاح‌پور، پیکر او ساعت ۴ بامداد و با حضور پدر و مادرش، بدون برگزاری مراسم تشییع و تحت نظارت نیروهای حکومتی به خاک سپرده شد. خانواده او همچنان تحت فشار و تهدید قرار دارند تا از اطلاع‌رسانی درباره کشته‌شدن فرزندشان به رسانه‌ها خودداری کنند.
+  
+  شهاب فلاح‌پور به‌عنوان ورزشکار محلی در اندیمشک شناخته می‌شد.
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

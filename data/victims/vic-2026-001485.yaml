@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Amin Salimi
+# ==========================================
+
+photo: ""
+
+name: "Amin Salimi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 
+occupation: "رسته جنگ الکترونیک ارتش"
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "تهران"
+
+# Death Information
+date_of_death: "2026-01-19"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  اولین جاویدنام ارتش، دوتا تخت اونور تر از خودم تو دانشگاه افسری میخوابید
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

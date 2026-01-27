@@ -1,0 +1,44 @@
+# ==========================================
+# Victim Documentation - Diar Pourchehrigh 
+# ==========================================
+
+photo: "vic-2026-001480.png"
+
+name: "Diar Pourchehrigh "
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 32
+occupation: "راننده اسنپ "
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "خیابان پونک"
+
+# Death Information
+date_of_death: "2026-01-09"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  دیار پورچهریق اصالتاً اهل روستای چهریق در شهرستان سلماس استان آذربایجان غربی و ساکن روستای پَتَویر بود، اما برای کار به تهران آمده و در این شهر زندگی می‌کرد. به گفته نزدیکانش، او از نظر مالی در وضعیت بسیار دشواری قرار داشت و برای تأمین معاش خانواده به‌عنوان راننده اسنپ کار می‌کرد و بخشی از درآمدش را برای خانواده می‌فرستاد.
+  بر اساس این روایت‌ها، دیار پورچهریق نان‌آور خانواده بود و در یک سال اخیر به‌دلیل افزایش اجاره‌بها، حتی امکان اجاره خانه نداشت و شب‌ها در خودرویش می‌خوابید. 
+  Diyar Pourcheghigh was originally from the village of Chehriq in Salmas, and lived in the village of Patvir.
+  He had come to Tehran for work and was living there.
+  
+  According to those close to him, he was in severe financial hardship. He worked as a Snapp driver to support his family and sent part of his income back to them.
+  Based on these accounts, Diyar was the sole breadwinner of his family. Over the past year, due to rising rent prices, he was unable to rent a home and often slept in his car at night.
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Jafar Parsa Broumand
+# ==========================================
+
+photo: "vic-2026-001505.png"
+
+name: "Jafar Parsa Broumand"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 33
+occupation: "فوق دیپلم صنایع پتروشیمی"
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Khuzestan"
+incident_city: "آبادان"
+
+# Death Information
+date_of_death: "2026-01-12"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  جعفرپارسا برومند، ۳۳ ساله، فوق دیپلم صنایع پتروشیمی، اهل آبادان، ۲۲ دی ماه ۱۴۰۴ در جریان اعتراضات مردم از ناحیه گردن و پا هدف شلیک گلوله نیروهای حکومت قرار گرفته و کشته شد.
+  
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

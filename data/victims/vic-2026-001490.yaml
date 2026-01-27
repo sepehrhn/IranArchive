@@ -1,0 +1,43 @@
+# ==========================================
+# Victim Documentation - Parnia Shad Bejarkenari
+# ==========================================
+
+photo: "vic-2026-001490.png"
+
+name: "Parnia Shad Bejarkenari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Female"
+age: 23
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Gilan"
+incident_city: "رشت"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  در جریان خیزش ملی، در این شهر با شلیک مستقیم نیروهای سرکوبگر جمهوری اسلامی جان باخت.
+  برادر جاویدنام پرنیا نیز هم‌زمان با این رویداد بر اثر اصابت گلوله به ناحیۀ سینه زخمی و برای درمان به بیمارستان منتقل شده است.
+  
+  During the national uprising in this city, he was killed by direct fire from Islamic Republic security forces.
+  
+  At the same time, the brother of the late Parnia was shot in the chest and taken to hospital for treatment.
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
