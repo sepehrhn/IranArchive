@@ -1,0 +1,25 @@
+# Campaign Config
+# Do NOT fill the "id" field; it is derived from the filename.
+
+# Required
+# Must be a valid URL
+url: "https://www.change.org/p/demand-rbc-royal-bank-of-canada-dismiss-sina-ardeshir?recruiter=1379195617&recruited_by_id=24a7b980-688b-11f0-8dfe-85dcded44c42"
+title: "Demand RBC-Royal Bank of Canada dismiss Sina Ardeshir"
+
+# Optional
+
+# Filename only (e.g. "my-image.jpg"). Must exist in /data/campaigns/img/
+thumbnail: ""
+
+# Options: "active", "closed", "victory", "unknown"
+status: "active"
+
+# List of ISO2 codes. Leave empty/commented for International/All.
+countries:
+  - CA
+
+# true or false
+featured: false
+
+# Format: YYYY/MM/DD
+created_at: "2026/01/28"
