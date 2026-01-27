@@ -9,6 +9,44 @@ const path = require('path');
 
 const victimsDir = 'd:\\FreeIran\\data\\victims';
 const csvPath = 'd:\\FreeIran\\victims.csv';
+const provincesPath = 'd:\\FreeIran\\data\\provinces.json';
+
+// Load provinces for normalization
+let provinceList = [];
+try {
+    if (fs.existsSync(provincesPath)) {
+        provinceList = JSON.parse(fs.readFileSync(provincesPath, 'utf8'));
+    } else {
+        console.warn(`Warning: Province file not found at ${provincesPath}`);
+    }
+} catch (e) {
+    console.error(`Error loading provinces: ${e.message}`);
+}
+
+function normalizeProvince(input) {
+    if (!input) return '';
+    const cleanInput = input.trim();
+
+    // 1. Exact match (case insensitive)
+    const exactMatch = provinceList.find(p => p.toLowerCase() === cleanInput.toLowerCase());
+    if (exactMatch) return exactMatch;
+
+    // 2. Remove "Province" suffix and try again
+    const withoutSuffix = cleanInput.replace(/\s+Province$/i, '').replace(/\s+province$/i, '').trim();
+    const matchWithoutSuffix = provinceList.find(p => p.toLowerCase() === withoutSuffix.toLowerCase());
+    if (matchWithoutSuffix) return matchWithoutSuffix;
+
+    // 3. Substring match (if the input is likely just the province name with some noise, but be careful)
+    // For now, let's stick to the suffix removal as that's the main issue ("Fars Province")
+
+    // Return the cleaned version without "Province" if found in the list, otherwise return original cleaned
+    // Actually, if we scraped "Fars Province" and it's not in the list (because list has "Fars"), 
+    // the step 2 above handles it.
+    // If step 2 didn't find a match, maybe it's a new province or spelling error. 
+    // We'll return the input with " Province" stripped to be cleaner anyway, or just the input.
+    // Let's return the suffix-stripped version to be safe as "Fars Province" -> "Fars" is better even if not in list.
+    return withoutSuffix;
+}
 
 if (!fs.existsSync(victimsDir)) fs.mkdirSync(victimsDir, { recursive: true });
 
@@ -110,6 +148,11 @@ victims.forEach(v => {
                 city = loc;
             }
         }
+    }
+
+    // Normalize province
+    if (province) {
+        province = normalizeProvince(province);
     }
 
     // Description: Combine Notes and Persian Name

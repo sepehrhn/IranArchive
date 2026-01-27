@@ -269,8 +269,7 @@ const showVictimDialog = computed({
                         Remembering the Victims
                     </h1>
                     <p class="text-lg text-surface-200 dark:text-surface-300 mb-6 leading-relaxed">
-                        This archive documents those who lost their lives or went missing during the protests in Iran. 
-                        Their stories must be told. Their sacrifice must not be forgotten.
+                        Documenting and honoring those who lost their lives or went missing during the Lion and Sun Revolution of Iran
                     </p>
                     
                     <!-- Stats -->
@@ -438,20 +437,26 @@ const showVictimDialog = computed({
         modal 
         :dismissableMask="true"
         :draggable="false"
-        class="victim-detail-dialog"
-        :style="{ width: '80rem', maxWidth: '95vw' }"
+        class="victim-detail-dialog bg-surface-0 dark:bg-surface-900"
+        :style="{ width: '50rem', maxWidth: '95vw', borderRadius: '1.5rem', overflow: 'hidden' }"
         :breakpoints="{ '960px': '90vw', '640px': '98vw' }"
-        :showHeader="true"
+        :showHeader="false"
+        :contentStyle="{ padding: '0', borderRadius: '1.5rem' }"
     >
-        <template #header>
-             <div class="flex items-center gap-2">
-                <span class="font-bold text-xl">Victim Details</span>
-            </div>
-        </template>
-        <VictimDetail 
-            v-if="selectedVictimId" 
-            :victim-id="selectedVictimId" 
-            :headless="true"
-        />
+        <div class="relative">
+            <Button 
+                icon="pi pi-times" 
+                text 
+                rounded 
+                severity="secondary" 
+                @click="showVictimDialog = false" 
+                class="absolute top-4 right-4 z-50 !bg-surface-900/10 dark:!bg-surface-0/10 hover:!bg-surface-900/20 dark:hover:!bg-surface-0/20 !text-surface-900 dark:!text-surface-0 backdrop-blur-sm w-10 h-10 !p-0 flex items-center justify-center transition-all duration-200"
+            />
+            <VictimDetail 
+                v-if="selectedVictimId" 
+                :victim-id="selectedVictimId" 
+                :headless="true"
+            />
+        </div>
     </Dialog>
 </template>
