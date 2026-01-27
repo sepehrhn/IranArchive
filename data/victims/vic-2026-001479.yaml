@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Poya ghashghae
+# ==========================================
+
+photo: "vic-2026-001479.jpg"
+
+name: "Poya ghashghae"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 30
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Isfahan"
+incident_city: "شهرضا"
+
+# Death Information
+date_of_death: "2026-01-07"
+date_of_death_precision: "Exact"
+cause_of_death: "Beating"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

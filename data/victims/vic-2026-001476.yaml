@@ -1,0 +1,39 @@
+# ==========================================
+# Victim Documentation - Mohammad Mehdi Ganj Danesh
+# ==========================================
+
+photo: ""
+
+name: "Mohammad Mehdi Ganj Danesh"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 16
+occupation: "دانش اموز"
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Zanjan"
+incident_city: "زنجان"
+
+# Death Information
+date_of_death: "2026-01-07"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  از طریق دوستی در همان شهر، شنیدم که خانواده به مدت سه روز از 5 شنبه تا یکشنبه بی خبر بوده.
+  دوشنبه با خانواده تماس میگیرند برای تحویل جنازه
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

@@ -1,0 +1,40 @@
+# ==========================================
+# Victim Documentation - Gelaleh Mahmoudi
+# ==========================================
+
+photo: "vic-2026-001511.jpeg"
+
+name: "Gelaleh Mahmoudi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Female"
+age: 31
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "West Azerbaijan"
+incident_city: "مهاباد "
+
+# Death Information
+date_of_death: "2026-01-07"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  الان باخبر شدم  دوستم  گلاله محمودی  متولد ۷۳  
+  ۱۸ دی  جاوید نام شدن اصالتن کرد مهابادی بودن 
+  روحش شاد 😭
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

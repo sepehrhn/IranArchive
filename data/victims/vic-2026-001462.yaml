@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Ahmad Golkhani
+# ==========================================
+
+photo: "vic-2026-001462.png"
+
+name: "Ahmad Golkhani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 39
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Isfahan"
+incident_city: "باغبهادران"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

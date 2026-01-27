@@ -1,0 +1,40 @@
+# ==========================================
+# Victim Documentation - Moslem Fatemi
+# ==========================================
+
+photo: "vic-2026-001434.png"
+
+name: "Moslem Fatemi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 55
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Gilan"
+incident_city: "رشت"
+
+# Death Information
+date_of_death: "2026-01-07"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  ‏اسمش مسلم فاطمی بود. 
+  ‏۵۵ ساله رفته بود رشت خونه خواهرش که با شروع فراخوان پنج‌شنبه شب می‌ره خیابون و بعد از زخمی شدن، مزدوران رژیم بهش تیر خلاص میزنن و در ازای دریافت یک میلیارد تومان پول پیکرش رو به خونواده تحویل میدن ولی حتا نمیذارن تشییع بشه با وجود مامور و در زمان طلوع آفتاب بدون آشناها و فامیل به خاک میسپارنش. 
+  ‏چون همشهری منه دینش به گردنمه که گمنام نمونه. متاهل بود و دارای دو فرزند و اهل و ساکن کلاردشت. 
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

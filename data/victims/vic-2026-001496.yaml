@@ -1,0 +1,42 @@
+# ==========================================
+# Victim Documentation - Amirmohammad khodabandeh
+# ==========================================
+
+photo: "vic-2026-001496.jpg"
+
+name: "Amirmohammad khodabandeh"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 
+occupation: "دانشجو کارشناسی مهندسی نفت"
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Tehran"
+incident_city: "تهران"
+
+# Death Information
+date_of_death: "2026-01-07"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  در گزارشی اختصاصی که به دست خبرنامه امیرکبیر رسیده است؛ امیرمحمد خدابنده، دانشجوی خوابگاهی ورودی ۱۴۰۳ رشته مهندسی نفت دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران) و اهل شهر کاشان، پنجشنبه ۱۸ دی‌ماه پس از فراخوان شاهزاده رضا پهلوی و با حضور در اعتراضات خیابان جمهوری تهران هدف تیراندازی ماموران حکومتی قرار گرفت و جان باخت.
+  
+  به گفته منابع مطلع، وی در شب ۱۸ دی‌ماه بر اثر اصابت دو گلوله جنگی مجروح شد و ساعاتی بعد جان خود را از دست داد. امیرمحمد مانند دیگر مردم حاضر در فراخوان هجدهم دی‌ماه، دارای گرایش پادشاهی‌خواهانه و از حامیان شاهزاده رضا پهلوی بوده است.
+  
+  برخی منابع نزدیک به این دانشجو اعلام کرده‌اند که تا زمان تنظیم این گزارش، پیکر امیرمحمد خدابنده به خانواده‌اش تحویل داده نشده است. منابع مطلع می‌گویند تأخیر در تحویل پیکر با تلاش برای معرفی او به‌عنوان «بسیجی کشته‌شده» مرتبط دانسته می‌شود.
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Saman Afsari
+# ==========================================
+
+photo: "vic-2026-001516.jpeg"
+
+name: "Saman Afsari"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 39
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Fars"
+incident_city: "شیراز"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  دوبار شلیک به سر با تفنگ ساچمه ایی
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

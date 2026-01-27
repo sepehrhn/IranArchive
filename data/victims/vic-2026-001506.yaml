@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Saeed Kiani
+# ==========================================
+
+photo: ""
+
+name: "Saeed Kiani"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 
+occupation: "دانشجوی مهندسی شیمی (احتمالاً)"
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Isfahan"
+incident_city: "اصفهان"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: "Unknown"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  سعید را بدون اطلاع به خانواده دفن کرده و سپس به خانواده‌اش اطلاع دادند. آیدی سعید احتمالاً @saeed.kianie در اینستاگرام است. سعید را «پر شور از زندگی و عاشق طبیعت»
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

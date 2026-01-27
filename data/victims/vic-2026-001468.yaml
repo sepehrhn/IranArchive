@@ -1,0 +1,40 @@
+# ==========================================
+# Victim Documentation - Khodadaad Shirvani Monfared
+# ==========================================
+
+photo: "vic-2026-001468.png"
+
+name: "Khodadaad Shirvani Monfared"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 33
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Fars"
+incident_city: "مرودشت"
+
+# Death Information
+date_of_death: "2026-01-01"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  خداداد شیروانی منفرد، ۳۳ ساله، پنج‌شنبه ۱۱دی۱۴۰۴ در اعتراضات «مرودشت» استان فارس، با شلیک مستقیم سرکوب‌گران جمهوری اسلامی جان داد. او پدر دو فرزند و از عشایر «باصری» بود که برای خرید گل عروسی مراسم برادر خود از خانه خارج شده بود. 
+  Khoddadad Shirvani Monfared, 33 years old, was killed on Thursday, December 31, 2025, during protests in Marvdasht, after being directly shot by Islamic Republic forces.
+  He was the father of two children and a member of the Baseri tribe. He had left home to buy flowers for his brother’s wedding when he was killed.
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

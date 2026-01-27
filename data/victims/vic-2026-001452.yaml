@@ -1,0 +1,42 @@
+# ==========================================
+# Victim Documentation - Sayna Nezam Doust
+# ==========================================
+
+photo: "vic-2026-001452.jpeg"
+
+name: "Sayna Nezam Doust"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Female"
+age: 25
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: "Alborz"
+incident_city: "کرج"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+cause_of_death: "Gunshot"
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  ویدیوی هولناکی از دختری جوان در کرج منتشر شده؛
+  مجروح بود و هنوز زنده.
+  اما نیروهای رژیم با شلیک تیر خلاص او را کشتند.
+  نامش ساینا نظام‌دوست بود، ۲۵ ساله.
+  ۱۹ دی، کرج.
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

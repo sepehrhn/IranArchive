@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Esmaeil Ghalanderzehi
+# ==========================================
+
+photo: "vic-2026-001436.jpeg"
+
+name: "Esmaeil Ghalanderzehi"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 21
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: ""
+
+# Death Information
+date_of_death: "2026-01-10"
+date_of_death_precision: "Exact"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty

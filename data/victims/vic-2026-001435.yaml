@@ -1,0 +1,38 @@
+# ==========================================
+# Victim Documentation - Abolfazl Baba Nejad
+# ==========================================
+
+photo: "vic-2026-001435.jpeg"
+
+name: "Abolfazl Baba Nejad"
+
+# Personal & Birth Information
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 23
+occupation: ""
+
+# Location & Timing
+country: "Iran"
+
+# Incident Location
+incident_province: ""
+incident_city: "ساری"
+
+# Death Information
+date_of_death: "2026-01-08"
+date_of_death_precision: "Approximate"
+cause_of_death: ""
+
+# Status
+status: "Killed"
+
+# Detailed incident description. Supports basic markdown.
+description: |
+  
+  
+# Sources
+source_type: "Local Report"
+source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
