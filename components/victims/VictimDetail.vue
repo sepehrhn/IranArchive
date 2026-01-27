@@ -6,12 +6,15 @@ import VictimStatusBadge from '@/components/victims/VictimStatusBadge.vue';
 import VictimSources from '@/components/victims/VictimSources.vue';
 import { formatDate } from '@/utils/formatters';
 import MarkdownIt from 'markdown-it';
-import { computed, watch } from 'vue';
+import { getMediaUrl } from '~/utils/mediaUrl';
+import { ref, computed } from 'vue';
 
 const props = defineProps<{
     victimId: string;
     headless?: boolean;
 }>();
+
+const copied = ref(false);
 
 const md = new MarkdownIt({
     html: false,
@@ -100,6 +103,18 @@ const xShareUrl = computed(() => {
     return url;
 });
 
+// Copy Link Logic
+const copyLink = () => {
+    if (typeof window !== 'undefined') {
+        const url = window.location.href;
+        navigator.clipboard.writeText(url);
+        copied.value = true;
+        setTimeout(() => {
+            copied.value = false;
+        }, 2000);
+    }
+};
+
 // Head Management (SEO)
 if (!props.headless) {
     useHead({
@@ -120,137 +135,167 @@ if (!props.headless) {
         </div>
 
         <!-- Content -->
-        <!-- Redesigned Grid Layout -->
-        <div v-else class="max-w-6xl mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-8 lg:gap-12 items-start">
-                
-                <!-- Left Column: Photo & primary actions (Sticky on Desktop) -->
-                <div class="lg:sticky lg:top-8 flex flex-col gap-6">
+        <div v-else class="flex flex-col">
+            
+            <!-- Hero / Photo Section -->
+            <div class="relative w-full bg-surface-100 dark:bg-surface-950 flex justify-center group">
+                <!-- blurred background -->
+                <div class="absolute inset-0 overflow-hidden opacity-30 dark:opacity-20 pointer-events-none">
+                     <img 
+                        :src="getMediaUrl({ kind: 'victim_photo', relativePath: victim.photo })" 
+                        class="w-full h-full object-cover blur-3xl scale-110" 
+                        alt="" 
+                    />
+                     <div class="absolute inset-0 bg-gradient-to-b from-transparent to-surface-0 dark:to-surface-900"></div>
+                </div>
+
+                <div class="relative py-8 md:py-10 px-6 w-full max-w-lg mx-auto z-10">
                     <VictimPhoto 
                         :src="victim.photo" 
                         :alt="victim.name" 
-                        aspect="portrait"
-                        size="lg"
-                        class="shadow-xl rounded-2xl w-full"
+                        aspect="square"
+                        size="xl"
+                        class="shadow-2xl rounded-2xl w-full aspect-[4/5] object-cover ring-1 ring-surface-900/5 dark:ring-surface-0/10"
                     />
+                </div>
+            </div>
+
+            <!-- Details Section -->
+            <div class="relative px-6 pb-10 md:px-10 -mt-6 z-20">
+                <div class="bg-surface-0 dark:bg-surface-900 rounded-3xl shadow-xl border border-surface-100 dark:border-surface-800 p-6 md:p-10 max-w-4xl mx-auto">
                     
-                    <div class="flex flex-col gap-3">
+                    <!-- Header -->
+                    <div class="text-center mb-10">
+                        <div class="flex justify-center mb-4">
+                            <VictimStatusBadge :status="victim.status" class="!px-4 !py-1.5 !text-sm !rounded-full" />
+                        </div>
+                        
+                        <h1 class="text-3xl md:text-5xl font-black text-surface-900 dark:text-surface-0 tracking-tight leading-tight mb-3">
+                            {{ victim.name }}
+                        </h1>
+                        
+                        <div class="flex flex-wrap items-center justify-center gap-2 text-surface-500 dark:text-surface-400 font-medium text-lg">
+                            <span v-if="victim.age">{{ victim.age }} years old</span>
+                            <span v-if="victim.age && victim.occupation" class="w-1.5 h-1.5 rounded-full bg-surface-300 dark:bg-surface-700"></span>
+                            <span v-if="victim.occupation">{{ victim.occupation }}</span>
+                            <span v-if="(victim.age || victim.occupation) && incidentLocation" class="w-1.5 h-1.5 rounded-full bg-surface-300 dark:bg-surface-700"></span>
+                            <span>{{ incidentLocation }}</span>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="flex justify-center gap-3 mb-10">
                          <a 
                             :href="xShareUrl" 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            class="flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-black dark:bg-white text-white dark:text-black hover:opacity-80 transition-all font-bold shadow-md"
+                            class="no-underline"
                         >
-                            <i class="pi pi-twitter text-lg"></i>
-                            <span>Share on 𝕏</span>
+                            <Button rounded class="!bg-black dark:!bg-white !text-white dark:!text-black !border-none !font-bold !px-6">
+                                <i class="pi pi-twitter text-lg mr-2"></i>
+                                Share Story
+                            </Button>
                         </a>
-                    </div>
-                </div>
-
-                <!-- Right Column: Details -->
-                <div class="flex flex-col gap-8 min-w-0">
-                    
-                    <!-- Header -->
-                    <div class="border-b border-surface-200 dark:border-surface-700 pb-6">
-                        <div class="flex items-center gap-3 mb-3">
-                            <VictimStatusBadge :status="victim.status" />
-                        </div>
-                        <h1 class="text-4xl md:text-5xl font-black text-surface-900 dark:text-surface-0 tracking-tight leading-tight mb-2">
-                            {{ victim.name }}
-                        </h1>
-                        <div class="text-lg md:text-xl text-surface-500 dark:text-surface-400 font-medium">
-                            <span v-if="victim.age">{{ victim.age }} years old</span>
-                            <span v-if="victim.age && victim.occupation"> • </span>
-                            <span v-if="victim.occupation">{{ victim.occupation }}</span>
-                        </div>
-                    </div>
-
-                    <!-- Key Timeline Info -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <div class="bg-surface-50 dark:bg-surface-800 rounded-xl p-5 border border-surface-100 dark:border-surface-700/50">
-                            <div class="flex items-center gap-2 mb-2">
-                                <i :class="victim.status === 'Missing' ? 'pi pi-calendar text-orange-500' : 'pi pi-calendar-times text-red-500'"></i>
-                                <span class="text-xs font-bold uppercase tracking-wider text-surface-500">
-                                    {{ victim.status === 'Missing' ? 'Date Missing' : 'Date of Death' }}
-                                </span>
-                            </div>
-                            <div class="text-xl font-bold text-surface-900 dark:text-surface-0">
-                                {{ formattedDeathDate }}
-                            </div>
-                        </div>
-
-                        <div class="bg-surface-50 dark:bg-surface-800 rounded-xl p-5 border border-surface-100 dark:border-surface-700/50">
-                            <div class="flex items-center gap-2 mb-2">
-                                <i class="pi pi-map-marker text-primary-500"></i>
-                                <span class="text-xs font-bold uppercase tracking-wider text-surface-500">Location</span>
-                            </div>
-                            <div class="text-xl font-bold text-surface-900 dark:text-surface-0">
-                                {{ incidentLocation }}
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Bio / Description -->
-                    <div v-if="victim.description" class="prose prose-lg dark:prose-invert max-w-none text-surface-700 dark:text-surface-200 leading-relaxed">
-                         <div v-html="renderMarkdown(victim.description)"></div>
-                    </div>
-
-                    <!-- Detailed Info Grid -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
-                        <!-- Cause -->
-                        <div v-if="victim.cause_of_death && victim.status === 'Killed'" class="bg-white dark:bg-surface-900 p-4 rounded-xl border border-surface-100 dark:border-surface-800">
-                             <h3 class="text-sm font-bold text-surface-900 dark:text-surface-0 mb-1">Cause of Death</h3>
-                             <p class="text-surface-600 dark:text-surface-300">{{ victim.cause_of_death }}</p>
-                        </div>
-                        
-                         <!-- Circumstances -->
-                        <div v-if="victim.disappearance_circumstances && victim.status === 'Missing'" class="bg-white dark:bg-surface-900 p-4 rounded-xl border border-surface-100 dark:border-surface-800">
-                             <h3 class="text-sm font-bold text-surface-900 dark:text-surface-0 mb-1">Disappearance Circumstances</h3>
-                             <p class="text-surface-600 dark:text-surface-300">{{ victim.disappearance_circumstances }}</p>
-                        </div>
-
-                        <!-- Suspected Actor -->
-                         <div v-if="victim.suspected_actor && victim.status === 'Missing'" class="bg-white dark:bg-surface-900 p-4 rounded-xl border border-surface-100 dark:border-surface-800">
-                             <h3 class="text-sm font-bold text-surface-900 dark:text-surface-0 mb-1">Suspected Actor</h3>
-                             <p class="text-surface-600 dark:text-surface-300">{{ victim.suspected_actor }}</p>
-                        </div>
-
-                        <!-- Personal Info Extras -->
-                        <div v-if="victim.gender" class="bg-white dark:bg-surface-900 p-4 rounded-xl border border-surface-100 dark:border-surface-800 flex justify-between items-center">
-                             <h3 class="text-sm font-bold text-surface-900 dark:text-surface-0">Gender</h3>
-                             <p class="text-surface-600 dark:text-surface-300">{{ victim.gender }}</p>
-                        </div>
-
-                         <div v-if="formattedBirthDate" class="bg-white dark:bg-surface-900 p-4 rounded-xl border border-surface-100 dark:border-surface-800 flex justify-between items-center">
-                             <h3 class="text-sm font-bold text-surface-900 dark:text-surface-0">Birth Date</h3>
-                             <p class="text-surface-600 dark:text-surface-300">{{ formattedBirthDate }}</p>
-                        </div>
-                    </div>
-
-                    <!-- Linked Incidents -->
-                    <div v-if="victim.incident_ids && victim.incident_ids.length > 0" class="pt-6 border-t border-surface-200 dark:border-surface-700">
-                         <h3 class="text-lg font-bold text-surface-900 dark:text-surface-0 mb-4 flex items-center gap-2">
-                            <i class="pi pi-link text-primary-500"></i>
-                            Linked Incidents
-                        </h3>
-                        <div class="flex flex-wrap gap-3">
-                            <NuxtLink 
-                                v-for="inc in victim.enrichedIncidents" 
-                                :key="inc.id"
-                                :to="`/incidents/${inc.id}`" 
-                                class="no-underline"
-                            >
-                                <Button :label="inc.title" icon="pi pi-arrow-right" size="small" outlined class="!rounded-lg" />
-                            </NuxtLink>
-                        </div>
-                    </div>
-
-                    <!-- Sources Footer -->
-                    <div class="pt-6 border-t border-surface-200 dark:border-surface-700 opacity-80">
-                        <VictimSources 
-                            :source-type="victim.source_type"
-                            :social-media-link="victim.source_social_media_link"
+                        <Button 
+                            :icon="copied ? 'pi pi-check' : 'pi pi-link'" 
+                            :label="copied ? 'Copied' : ''"
+                            rounded 
+                            outlined 
+                            :severity="copied ? 'success' : 'secondary'"
+                            class="!border-surface-200 dark:!border-surface-700 !text-surface-600 dark:!text-surface-300" 
+                            @click="copyLink"
                         />
+                    </div>
+
+
+                    <!-- Info Grid -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-10">
+                        <!-- Key Dates -->
+                        <div class="space-y-6">
+                            <h3 class="text-xs font-bold uppercase tracking-widest text-surface-400 dark:text-surface-500 mb-4 border-b border-surface-100 dark:border-surface-800 pb-2">Timeline</h3>
+                            
+                            <div class="flex gap-4">
+                                <div class="w-10 h-10 rounded-full bg-red-50 dark:bg-red-500/10 flex items-center justify-center flex-shrink-0">
+                                    <i class="pi pi-calendar-times text-red-500 dark:text-red-400 text-lg"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-surface-500 dark:text-surface-400">Date of Incident</p>
+                                    <p class="text-lg font-bold text-surface-900 dark:text-surface-0">{{ formattedDeathDate }}</p>
+                                </div>
+                            </div>
+
+                             <div v-if="formattedBirthDate" class="flex gap-4">
+                                <div class="w-10 h-10 rounded-full bg-blue-50 dark:bg-blue-500/10 flex items-center justify-center flex-shrink-0">
+                                    <i class="pi pi-calendar text-blue-500 dark:text-blue-400 text-lg"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-surface-500 dark:text-surface-400">Date of Birth</p>
+                                    <p class="text-lg font-bold text-surface-900 dark:text-surface-0">{{ formattedBirthDate }}</p>
+                                </div>
+                            </div>
+                        </div>
+
+                         <!-- Key Details -->
+                        <div class="space-y-6">
+                            <h3 class="text-xs font-bold uppercase tracking-widest text-surface-400 dark:text-surface-500 mb-4 border-b border-surface-100 dark:border-surface-800 pb-2">Details</h3>
+                            
+                            <div v-if="victim.cause_of_death && victim.status === 'Killed'" class="flex gap-4">
+                                <div class="w-10 h-10 rounded-full bg-surface-100 dark:bg-surface-800 flex items-center justify-center flex-shrink-0">
+                                    <i class="pi pi-heart-fill text-surface-600 dark:text-surface-400 text-lg"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-surface-500 dark:text-surface-400">Cause of Death</p>
+                                    <p class="text-lg font-bold text-surface-900 dark:text-surface-0 leading-tight">{{ victim.cause_of_death }}</p>
+                                </div>
+                            </div>
+
+                             <div v-if="victim.disappearance_circumstances && victim.status === 'Missing'" class="flex gap-4">
+                                <div class="w-10 h-10 rounded-full bg-orange-50 dark:bg-orange-500/10 flex items-center justify-center flex-shrink-0">
+                                    <i class="pi pi-question text-orange-500 dark:text-orange-400 text-lg"></i>
+                                </div>
+                                <div>
+                                    <p class="text-sm text-surface-500 dark:text-surface-400">Circumstances</p>
+                                    <p class="text-lg font-bold text-surface-900 dark:text-surface-0 leading-tight">{{ victim.disappearance_circumstances }}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bio -->
+                    <div v-if="victim.description" class="mb-10">
+                        <h3 class="text-xs font-bold uppercase tracking-widest text-surface-400 dark:text-surface-500 mb-4 border-b border-surface-100 dark:border-surface-800 pb-2">Story</h3>
+                        <div class="prose prose-lg dark:prose-invert max-w-none text-surface-700 dark:text-surface-300 leading-relaxed">
+                             <div v-html="renderMarkdown(victim.description)"></div>
+                        </div>
+                    </div>
+
+                    <!-- Footer Info -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-8 border-t border-surface-100 dark:border-surface-800">
+                         <!-- Linked Incidents -->
+                        <div v-if="victim.incident_ids && victim.incident_ids.length > 0">
+                             <h4 class="text-sm font-semibold text-surface-900 dark:text-surface-0 mb-3">Linked Incidents</h4>
+                             <div class="flex flex-wrap gap-2">
+                                <NuxtLink 
+                                    v-for="inc in victim.enrichedIncidents" 
+                                    :key="inc.id"
+                                    :to="`/incidents/${inc.id}`" 
+                                    class="no-underline"
+                                >
+                                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-100 dark:bg-surface-800 text-surface-700 dark:text-surface-300 text-sm hover:bg-surface-200 dark:hover:bg-surface-700 transition-colors">
+                                        <i class="pi pi-link text-xs"></i>
+                                        {{ inc.title }}
+                                    </span>
+                                </NuxtLink>
+                            </div>
+                        </div>
+
+                        <!-- Sources -->
+                        <div>
+                            <VictimSources 
+                                :source-type="victim.source_type"
+                                :social-media-link="victim.source_social_media_link"
+                            />
+                        </div>
                     </div>
 
                 </div>

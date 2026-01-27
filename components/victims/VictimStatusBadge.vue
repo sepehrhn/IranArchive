@@ -22,9 +22,9 @@ const displayText = computed(() => {
 const statusClasses = computed(() => {
     switch (props.status.toLowerCase()) {
         case 'killed':
-            return '!bg-red-600 !text-red-200 border-none shadow-sm font-semibold';
+            return '!bg-red-500 !text-white border-none shadow-md font-bold tracking-wide text-[10px] uppercase px-2 py-0.5 rounded-full';
         case 'missing':
-            return '!bg-orange-500 !text-orange-200 border-none shadow-sm font-semibold';
+            return '!bg-orange-500 !text-white border-none shadow-md font-bold tracking-wide text-[10px] uppercase px-2 py-0.5 rounded-full';
         default:
             return '';
     }
