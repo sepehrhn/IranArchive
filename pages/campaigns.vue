@@ -179,7 +179,7 @@ const formatCountries = (codes: string[]) => {
                     </h3>
 
                     <div class="mt-auto pt-4 border-t border-surface-100 dark:border-surface-800 flex items-center justify-between text-sm text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform duration-300">
-                        <span>View Campaign</span>
+                        <span>{{ isSigned(campaign.id) ? 'View Campaign' : 'Sign Campaign' }}</span>
                         <i class="pi pi-arrow-right text-xs"></i>
                     </div>
                 </div>
