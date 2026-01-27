@@ -2,36 +2,22 @@
 # Victim Documentation - Mehdi Lavasani
 # ==========================================
 
-photo: "vic-2026-000680.jpg"
-name: "Mehdi Lavasani"
-
-# Personal & Birth Information
+photo: vic-2026-000680.jpg
+name: Mehdi Lavasani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 29
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Pirouzi neighborhood"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Pirouzi neighborhood
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Football youth team coach in Tehran. Fatally shot in the back; bullet exited chest. Left behind a two-year-old child.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2011816129510121912"
+source_type: Social Media
+source_social_media_link: https://x.com/tavaana/status/2011816129510121912, https://hengaw.net/en/news/2026/01/article-123-1, https://x.com/Daikatuo/status/2012213041681555926

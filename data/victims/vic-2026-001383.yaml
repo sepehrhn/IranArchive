@@ -2,38 +2,24 @@
 # Victim Documentation - Iman Kazemi
 # ==========================================
 
-photo: "vic-2026-001383.png"
-name: "Iman Kazemi"
-
-# Personal & Birth Information
+photo: vic-2026-001383.png
+name: Iman Kazemi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Naziabad"
-
-# Death Information
+country: Iran
+incident_province: Shahr-e Rey
+incident_city: Nazabad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: ایمان کاظمی
-  
-  Shot with live ammunition during protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/qishti_marduk/status/2015382850955051430"
+  Shot with live ammunition during protests.
+source_type: Social Media
+source_social_media_link: https://x.com/qishti_marduk/status/2015382850955051430, https://t.me/RememberTheirNames/552

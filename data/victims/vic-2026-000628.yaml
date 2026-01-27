@@ -2,36 +2,22 @@
 # Victim Documentation - Hossein Heidari
 # ==========================================
 
-photo: "vic-2026-000628.jpg"
-name: "Hossein Heidari"
-
-# Personal & Birth Information
+photo: vic-2026-000628.jpg
+name: Hossein Heidari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 49
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by repressive forces at Haft-Hoz square
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/foreverybd/status/2012842084491747792"
+source_type: Social Media
+source_social_media_link: https://x.com/foreverybd/status/2012842084491747792, https://x.com/nicksotoudeh/status/2012949486167851058, https://x.com/ManotoNews/status/2015749057378136482

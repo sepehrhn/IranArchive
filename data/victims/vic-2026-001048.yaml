@@ -2,36 +2,22 @@
 # Victim Documentation - Ayoub Rasaneh
 # ==========================================
 
-photo: "vic-2026-001048.jpg"
-name: "Ayoub Rasaneh"
-
-# Personal & Birth Information
+photo: vic-2026-001048.jpg
+name: Ayoub Rasaneh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Hassan-Abad village, Rask county"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Rask county
+incident_city: Hassan-Abad village
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests in Hassan-Abad village
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/farzinkadkhodae/status/2014447944120844539"
+source_type: Social Media
+source_social_media_link: https://x.com/farzinkadkhodae/status/2014447944120844539, https://x.com/kalbalouchi/status/2014605814716301494, https://x.com/TheBalochWorld/status/2014464360333402434, https://x.com/hamalilalin/status/2015846726897176972, https://t.me/RememberTheirNames/579

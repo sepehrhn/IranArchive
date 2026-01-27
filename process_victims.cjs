@@ -1,11 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-// Basic CSV parser implementation below
-
-// If csv-parse is not installed, I'll use a simple parser since the file seems simple enough, 
-// or I can check package.json. User said "Node.js script (process_victims.cjs) was developed to parse the CSV".
-// I'll stick to a simple parser to be safe without dependencies if possible, or check package.json.
-// Checking package.json revealed js-yaml.
+const yaml = require('js-yaml');
 
 const victimsDir = 'd:\\FreeIran\\data\\victims';
 const csvPath = 'd:\\FreeIran\\victims.csv';
@@ -36,15 +31,6 @@ function normalizeProvince(input) {
     const matchWithoutSuffix = provinceList.find(p => p.toLowerCase() === withoutSuffix.toLowerCase());
     if (matchWithoutSuffix) return matchWithoutSuffix;
 
-    // 3. Substring match (if the input is likely just the province name with some noise, but be careful)
-    // For now, let's stick to the suffix removal as that's the main issue ("Fars Province")
-
-    // Return the cleaned version without "Province" if found in the list, otherwise return original cleaned
-    // Actually, if we scraped "Fars Province" and it's not in the list (because list has "Fars"), 
-    // the step 2 above handles it.
-    // If step 2 didn't find a match, maybe it's a new province or spelling error. 
-    // We'll return the input with " Province" stripped to be cleaner anyway, or just the input.
-    // Let's return the suffix-stripped version to be safe as "Fars Province" -> "Fars" is better even if not in list.
     return withoutSuffix;
 }
 
@@ -93,10 +79,14 @@ console.log(`Parsed ${victims.length} victims from CSV.`);
 const existingVictims = new Map();
 fs.readdirSync(victimsDir).forEach(f => {
     if (!f.endsWith('.yaml')) return;
-    const content = fs.readFileSync(path.join(victimsDir, f), 'utf8');
-    const match = content.match(/^name:\s*"?([^"\n]+)"?/m);
-    if (match) {
-        existingVictims.set(match[1].trim().toLowerCase(), f);
+    try {
+        const content = fs.readFileSync(path.join(victimsDir, f), 'utf8');
+        const doc = yaml.load(content);
+        if (doc && doc.name) {
+            existingVictims.set(doc.name.trim().toLowerCase(), { filename: f, doc: doc });
+        }
+    } catch (e) {
+        console.error(`Error parsing YAML ${f}: ${e.message}`);
     }
 });
 console.log(`Loaded ${existingVictims.size} existing victims.`);
@@ -120,9 +110,10 @@ victims.forEach(v => {
 
     // Clean up name
     const cleanName = name.trim();
+    if (!cleanName) return;
 
     const persianName = v['Persian Name'] || '';
-    const age = v['Age'] || '';
+    const age = v['Age'] ? parseInt(v['Age']) || null : null; // Ensure age is a number or null
     const date = v['Date of Death'] || v['Date'] || '';
     let loc = v['Location of Death'] || v['Location'] || '';
     const notes = v['Notes'] || v['Description'] || '';
@@ -155,67 +146,111 @@ victims.forEach(v => {
         province = normalizeProvince(province);
     }
 
-    // Description: Combine Notes and Persian Name
+    // Description logic
     let description = notes;
     if (persianName) {
         description = `Persian Name: ${persianName}\n\n${description}`;
     }
 
-    // Check if exists
-    if (existingVictims.has(name.toLowerCase())) {
-        // Update logic if needed, but primarily we want new ones
-        // The user verified this script before, I'll just skip detailed update for now to avoid overwriting verification
-        // Or I can add the updateIfEmpty logic if I had the exact code.
-        // For now, let's assume we focus on adding NEW victims.
+    // Prepare data object for comparison/creation
+    // We only construct the fields that come from CSV
+    const csvData = {
+        name: cleanName,
+        age: age, // Can be null
+        incident_province: province || '',
+        incident_city: city || '',
+        date_of_death: date,
+        status: status,
+        source_social_media_link: sources,
+        // Description is special, we merge it
+    };
+
+    if (existingVictims.has(cleanName.toLowerCase())) {
+        const existing = existingVictims.get(cleanName.toLowerCase());
+        const doc = existing.doc;
+        let changed = false;
+
+        // Compare fields
+        if (doc.age !== csvData.age) {
+            doc.age = csvData.age;
+            changed = true;
+        }
+        if (doc.incident_province !== csvData.incident_province) {
+            doc.incident_province = csvData.incident_province;
+            changed = true;
+        }
+        if (doc.incident_city !== csvData.incident_city) {
+            doc.incident_city = csvData.incident_city;
+            changed = true;
+        }
+        if (doc.date_of_death !== csvData.date_of_death) {
+            // Only update if csv date is more detailed or different
+            // For now simple inequality
+            doc.date_of_death = csvData.date_of_death;
+            changed = true;
+        }
+        if (doc.source_social_media_link !== csvData.source_social_media_link) {
+            doc.source_social_media_link = csvData.source_social_media_link;
+            changed = true;
+        }
+
+        // Update description ONLY if existing description is empty
+        if (!doc.description || doc.description.trim() === '') {
+            doc.description = description;
+            changed = true;
+        }
+
+        if (changed) {
+            const yamlStr = yaml.dump(doc, { lineWidth: -1, quotingType: '"' });
+            // Add header comment back if missing (optional but good for consistency)
+            const finalContent = `# ==========================================
+# Victim Documentation - ${cleanName}
+# ==========================================
+
+${yamlStr}`;
+            fs.writeFileSync(path.join(victimsDir, existing.filename), finalContent);
+            updatedCount++;
+            console.log(`Updated: ${cleanName}`);
+        }
         return;
     }
 
+    // NEW VICTIM
     newCount++;
     lastId++;
     const padId = String(lastId).padStart(6, '0');
     const filename = `vic-2026-${padId}.yaml`;
 
-    const yamlContent = `# ==========================================
-# Victim Documentation - ${name}
+    const newDoc = {
+        photo: "",
+        name: cleanName,
+        birth_date: "",
+        birth_province: "",
+        birth_city: "",
+        gender: "",
+        age: age,
+        occupation: "",
+        country: "Iran",
+        incident_province: csvData.incident_province,
+        incident_city: csvData.incident_city,
+        date_of_death: csvData.date_of_death,
+        date_of_death_precision: "Exact",
+        cause_of_death: "",
+        status: status,
+        description: description,
+        source_type: "Social Media",
+        source_social_media_link: csvData.source_social_media_link
+    };
+
+    const yamlStr = yaml.dump(newDoc, { lineWidth: -1, quotingType: '"' });
+    const finalContent = `# ==========================================
+# Victim Documentation - ${cleanName}
 # ==========================================
 
-photo: ""
+${yamlStr}`;
 
-name: "${name}"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: ${age}
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "${province || ''}"
-incident_city: "${city || ''}"
-
-# Death Information
-date_of_death: "${date}"
-date_of_death_precision: "Exact"
-cause_of_death: ""
-
-# Status
-status: "${status}"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  ${description.replace(/\n/g, '\n  ')}
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "${sources}"
-`;
-
-    fs.writeFileSync(path.join(victimsDir, filename), yamlContent);
+    fs.writeFileSync(path.join(victimsDir, filename), finalContent);
 });
 
 console.log(`Created ${newCount} new victims.`);
+console.log(`Updated ${updatedCount} existing victims.`);

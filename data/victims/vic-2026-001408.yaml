@@ -2,38 +2,24 @@
 # Victim Documentation - Amirali Ghanbarzadeh
 # ==========================================
 
-photo: "vic-2026-001408.jpg"
-name: "Amirali Ghanbarzadeh"
-
-# Personal & Birth Information
+photo: vic-2026-001408.jpg
+name: Amirali Ghanbarzadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
+incident_city: ""
 date_of_death: ""
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: امیرعلی قنبرزاده
-  
-  Shot and killed with a bullet
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hsti_htmi/status/2014678154133020832"
+  Shot and killed with a bullet
+source_type: Social Media
+source_social_media_link: https://x.com/Hsti_htmi/status/2014678154133020832

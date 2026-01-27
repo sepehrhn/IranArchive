@@ -2,36 +2,22 @@
 # Victim Documentation - Abolfazl Arvin Talab
 # ==========================================
 
-photo: "vic-2026-000981.png"
-name: "Abolfazl Arvin Talab"
-
-# Personal & Birth Information
+photo: vic-2026-000981.png
+name: Abolfazl Arvin Talab
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Khorasan region (from Sabzevar, residing in Karaj)"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: residing in Karaj)
+incident_city: Khorasan region (from Sabzevar
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by the Islamic Republic regime during protests in Dey month 1404
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2011865724189376853"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2011865724189376853, https://x.com/aylene_fallah/status/2011935837580132787, https://x.com/Daikatuo/status/2012207885086830728

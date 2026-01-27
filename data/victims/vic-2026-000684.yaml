@@ -2,36 +2,22 @@
 # Victim Documentation - Mehdi Ziaei
 # ==========================================
 
-photo: "vic-2026-000684.png"
-name: "Mehdi Ziaei"
-
-# Personal & Birth Information
+photo: vic-2026-000684.png
+name: Mehdi Ziaei
 birth_date: ""
 birth_province: ""
-birth_city: "dormitory in his car"
+birth_city: dormitory in his car
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Bandar Abbas"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Bandar Abbas
+date_of_death: "2025-12-28"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces while returning home from dormitory in his car.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2014810898167115939"
+source_type: Social Media
+source_social_media_link: https://x.com/daikatuo/status/2014810898167115939

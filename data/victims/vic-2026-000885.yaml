@@ -2,36 +2,22 @@
 # Victim Documentation - Mehdi Mousavi
 # ==========================================
 
-photo: "vic-2026-000885.jpg"
-name: "Mehdi Mousavi"
-
-# Personal & Birth Information
+photo: vic-2026-000885.jpg
+name: Mehdi Mousavi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 27
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Lordegan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Lordegan
+date_of_death: "2026-01-07"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by security forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hirman__/status/2014372539561136361"
+source_type: Social Media
+source_social_media_link: https://x.com/hirman__/status/2014372539561136361, https://x.com/_ziZi_Zizi/status/2015208544652468277

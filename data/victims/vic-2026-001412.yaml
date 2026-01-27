@@ -2,38 +2,24 @@
 # Victim Documentation - Ashkan Rostami
 # ==========================================
 
-photo: "vic-2026-001412.jpg"
-name: "Ashkan Rostami"
-
-# Personal & Birth Information
+photo: vic-2026-001412.jpg
+name: Ashkan Rostami
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 21
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Shahin Shahr"
-
-# Death Information
-date_of_death: ""
-date_of_death_precision: "Exact"
+country: Iran
+incident_province: Isfahan
+incident_city: Shahinn Shahr
+date_of_death: "2026-01-08"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: اشکان رستمی
-  
-  Killed in Shahin Shahr, Isfahan
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pertikan_king/status/2014685488636952655"
+  Killed in Shahin Shahr, Isfahan
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2015696482284810656, https://x.com/pertikan_king/status/2014685488636952655, https://t.me/RememberTheirNames/1215, https://t.me/RememberTheirNames/1006

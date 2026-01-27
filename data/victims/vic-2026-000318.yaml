@@ -2,36 +2,22 @@
 # Victim Documentation - Karim Ashoori
 # ==========================================
 
-photo: "vic-2026-000318.jpg"
-name: "Karim Ashoori"
-
-# Personal & Birth Information
+photo: vic-2026-000318.jpg
+name: Karim Ashoori
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Milajerd, Arak"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Arak
+incident_city: Milajerd
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by the suppressive forces of the Islamic Republic and mercenaries of the Supreme Leader.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/saeidvafa/status/2014789233244831989"
+source_type: Social Media
+source_social_media_link: https://x.com/saeidvafa/status/2014789233244831989, https://x.com/SaeidVafa/status/2014789233244831989, https://x.com/behnam_chegini/status/2014812383152128476, https://t.me/RememberTheirNames/717

@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Orouji
 # ==========================================
 
-photo: "vic-2026-000496.jpg"
-name: "Ali Orouji"
-
-# Personal & Birth Information
+photo: vic-2026-000496.jpg
+name: Ali Orouji
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 53
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran, Punak district"
-
-# Death Information
+country: Iran
+incident_province: Punak district
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Went to the streets to protest on Thursday 18 Dey, did not return home. Body was later identified at Kahrizak among many corpses
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranenazila/status/2013673027226022151"
+source_type: Social Media
+source_social_media_link: https://x.com/iranenazila/status/2013673027226022151, https://x.com/HengawO/status/2014294428643389752, https://x.com/monfaredashkan/status/2015178857314467999, https://x.com/MonfaredAshkan/status/2015178857314467999, https://x.com/MonfaredAshkan/status/2015181332733989118

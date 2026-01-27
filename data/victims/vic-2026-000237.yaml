@@ -2,36 +2,22 @@
 # Victim Documentation - Alireza Parsafar
 # ==========================================
 
-photo: "vic-2026-000237.jpg"
-name: "Alireza Parsafar"
-
-# Personal & Birth Information
+photo: vic-2026-000237.jpg
+name: Alireza Parsafar
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Abpuyeh, Borazjan County, Bushehr"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Borazjan County
+incident_city: Abpuyeh
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by the suppression forces of the Islamic Republic during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2013736962960531665"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2013736962960531665, https://www.instagram.com/p/DTv7er6DMJ_

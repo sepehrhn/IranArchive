@@ -2,36 +2,22 @@
 # Victim Documentation - Milad Hasan Zadeh
 # ==========================================
 
-photo: "vic-2026-000187.png"
-name: "Milad Hasan Zadeh"
-
-# Personal & Birth Information
+photo: vic-2026-000187.png
+name: Milad Hasan Zadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 18
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Nazi Abad"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Nazi Abad
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the leg and abdomen during protests on January 8, 2026, and died after four surgeries on January 10, 2026.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2014774354916020734"
+source_type: Social Media
+source_social_media_link: https://x.com/daikatuo/status/2014774354916020734, https://x.com/Verethragnan/status/2015217632010477943, https://x.com/manotonews/status/2015303624617070651, https://x.com/negingnnn/status/2014667621422002596, https://t.me/RememberTheirNames/593

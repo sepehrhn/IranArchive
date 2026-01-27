@@ -2,36 +2,22 @@
 # Victim Documentation - Bahareh Babaei
 # ==========================================
 
-photo: "vic-2026-000565.jpg"
-name: "Bahareh Babaei"
-
-# Personal & Birth Information
+photo: vic-2026-000565.jpg
+name: Bahareh Babaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Farrokh Shahr"
-
-# Death Information
+incident_city: Farrokh Shahr
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by suppression forces of the Islamic Republic during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2014524712190185977"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2014524712190185977, https://www.instagram.com/p/DT1htkQiHhV, https://t.me/RememberTheirNames/771

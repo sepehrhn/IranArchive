@@ -2,36 +2,22 @@
 # Victim Documentation - Javad Ganji
 # ==========================================
 
-photo: "vic-2026-000316.jpg"
-name: "Javad Ganji"
-
-# Personal & Birth Information
+photo: vic-2026-000316.jpg
+name: Javad Ganji
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 39
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehran
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with two bullets in Sadeghieh Square while participating in protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranprotestscom/status/2010452621916528719"
+source_type: Social Media
+source_social_media_link: https://x.com/iranintl/status/2013746572006248931, https://x.com/imaan8464/status/2014619728799506701, https://x.com/IranProtestsCom/status/2010452621916528719, https://x.com/ManotoNews/status/2014662420606689736, https://x.com/missmarpel75/status/2015070540067737702, https://x.com/HamboodIRAN/status/2010326613716795750

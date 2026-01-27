@@ -2,36 +2,22 @@
 # Victim Documentation - Mehdi Ghanbari
 # ==========================================
 
-photo: "vic-2026-000950.jpg"
-name: "Mehdi Ghanbari"
-
-# Personal & Birth Information
+photo: vic-2026-000950.jpg
+name: Mehdi Ghanbari
 birth_date: ""
 birth_province: ""
-birth_city: "tweet and source)"
+birth_city: tweet and source)
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Ilam"
-
-# Death Information
+incident_city: Ilam
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests (implied from tweet and source)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014688455331086748"
+source_type: Social Media
+source_social_media_link: https://x.com/HengawO/status/2014688455331086748, https://x.com/HengawO/status/2014678844024775051, https://t.me/RememberTheirNames/954

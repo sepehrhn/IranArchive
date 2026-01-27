@@ -2,36 +2,22 @@
 # Victim Documentation - Ahmad Shokrpour
 # ==========================================
 
-photo: "vic-2026-000151.jpg"
-name: "Ahmad Shokrpour"
-
-# Personal & Birth Information
+photo: vic-2026-000151.jpg
+name: Ahmad Shokrpour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 64
+age: 60
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Punak"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Punak
+date_of_death: "2026-01-11"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by the forces of the Islamic Republic regime during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2015041283434168517"
+source_type: Social Media
+source_social_media_link: https://x.com/longlosthills/status/2015041283434168517

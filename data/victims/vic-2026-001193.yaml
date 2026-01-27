@@ -2,36 +2,22 @@
 # Victim Documentation - Ramtin Paydar
 # ==========================================
 
-photo: "vic-2026-001193.jpg"
-name: "Ramtin Paydar"
-
-# Personal & Birth Information
+photo: vic-2026-001193.jpg
+name: Ramtin Paydar
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gorgan"
-
-# Death Information
+incident_city: Gorgan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head with a direct bullet near Kakheh Square in Gorgan. He was the breadwinner for his family and his mother has no one else because she previously lost another son to illness.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/persuasion_elli/status/2015165226702844223"
+source_type: Social Media
+source_social_media_link: https://x.com/persuasion_elli/status/2015165226702844223, https://x.com/persuasion_elli/status/2015186169496011047, https://t.me/RememberTheirNames/855

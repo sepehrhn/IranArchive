@@ -2,36 +2,22 @@
 # Victim Documentation - Hamidreza Yousefi
 # ==========================================
 
-photo: "vic-2026-000621.jpg"
-name: "Hamidreza Yousefi"
-
-# Personal & Birth Information
+photo: vic-2026-000621.jpg
+name: Hamidreza Yousefi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 47
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah (Elyeh neighborhood)"
-
-# Death Information
+incident_city: Kermanshah (Elyeh neighborhood)
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces during protests in the Alahiyeh township of Kermanshah.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kurdpa_farsi/status/2014716360333369767"
+source_type: Social Media
+source_social_media_link: https://x.com/kurdpa_farsi/status/2014716360333369767, https://x.com/hekasrehcrisis/status/2014824538719051889, https://x.com/HeKasrehCrisis/status/2014824538719051889, https://t.me/RememberTheirNames/817

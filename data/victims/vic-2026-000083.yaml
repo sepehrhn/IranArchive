@@ -2,36 +2,22 @@
 # Victim Documentation - Romina Momeni Boroujeni
 # ==========================================
 
-photo: "vic-2026-000083.jpg"
-name: "Romina Momeni Boroujeni"
-
-# Personal & Birth Information
+photo: vic-2026-000083.jpg
+name: Romina Momeni Boroujeni
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot during protest by Iran’s Islamic Republic forces, resulting in paralysis.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2014432565675884987"
+source_type: Social Media
+source_social_media_link: https://x.com/longlosthills/status/2014432565675884987

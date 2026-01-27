@@ -2,36 +2,22 @@
 # Victim Documentation - Mehrdad Yaghoubi Mehr
 # ==========================================
 
-photo: "vic-2026-000978.jpg"
-name: "Mehrdad Yaghoubi Mehr"
-
-# Personal & Birth Information
+photo: vic-2026-000978.jpg
+name: Mehrdad Yaghoubi Mehr
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 28
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Qods City - Tehran
+incident_city: Qal'eh Hassan Khan
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Republic forces during protests in the Tehran province. He was in the Ghaleh Hassan Khan/Shahr-e Qods area.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2012521048164434197"
+source_type: Social Media
+source_social_media_link: https://x.com/iranhrs99/status/2013633869203784164, https://x.com/autnews_org/status/2014766638151717098, https://x.com/HengawO/status/2012521048164434197, https://x.com/anjmotahed/status/2015003019662782682, https://x.com/RadioFarda_/status/2015762719547248806

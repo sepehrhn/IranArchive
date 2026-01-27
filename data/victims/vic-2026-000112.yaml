@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Behruzi
 # ==========================================
 
-photo: "vic-2026-000112.jpg"
-name: "Ali Behruzi"
-
-# Personal & Birth Information
+photo: vic-2026-000112.jpg
+name: Ali Behruzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 25
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Haft Howz"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Haft Howz
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Republic regime forces on Thursday, died Friday during brutal suppression of the uprising
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2011800543321342168"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2011800543321342168, https://x.com/mamlekate/status/2012486300977308142, https://x.com/dadban4/status/2012573780632015005, https://x.com/longlosthills/status/2012607431268766179

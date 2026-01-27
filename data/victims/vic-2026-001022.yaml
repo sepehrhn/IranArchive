@@ -2,37 +2,22 @@
 # Victim Documentation - Alireza Javaheri
 # ==========================================
 
-photo: ""
-
-name: "Alireza Javaheri"
-
-# Personal & Birth Information
+photo: "vic-2026-001022.jpg"
+name: Alireza Javaheri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 25
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Murdered for demanding freedom
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: ""
+source_type: Social Media
+source_social_media_link: https://x.com/IranProtestsCom/status/2010427755020570863

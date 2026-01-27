@@ -2,36 +2,22 @@
 # Victim Documentation - Vahid Rahimi
 # ==========================================
 
-photo: "vic-2026-000864.jpg"
-name: "Vahid Rahimi"
-
-# Personal & Birth Information
+photo: vic-2026-000864.jpg
+name: Vahid Rahimi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 45
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Fardis, Karaj"
-
-# Death Information
+country: Iran
+incident_province: Karaj
+incident_city: Fardis
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/loabatk/status/2011890318480982157"
+source_type: Social Media
+source_social_media_link: https://x.com/loabatk/status/2011890318480982157

@@ -2,36 +2,22 @@
 # Victim Documentation - Edris Darvishvand
 # ==========================================
 
-photo: "vic-2026-000276.jpg"
-name: "Edris Darvishvand"
-
-# Personal & Birth Information
+photo: vic-2026-000276.jpg
+name: Edris Darvishvand
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 34
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Alvand, Qazvin"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Qazvin
+incident_city: Alvand
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Republic forces during protests on the second day of Prince Reza Pahlavi's call for action
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/indypersian/status/2013641179762504085"
+source_type: Social Media
+source_social_media_link: https://x.com/indypersian/status/2013641179762504085

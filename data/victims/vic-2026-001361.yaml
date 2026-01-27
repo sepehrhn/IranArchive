@@ -2,38 +2,24 @@
 # Victim Documentation - Alireza Nouri
 # ==========================================
 
-photo: "vic-2026-001361.jpg"
-name: "Alireza Nouri"
-
-# Personal & Birth Information
+photo: vic-2026-001361.jpg
+name: Alireza Nouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 28
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Karaj"
-incident_city: "Mohammadshahr"
-
-# Death Information
+country: Iran
+incident_province: Karaj
+incident_city: Mohammadshahr
 date_of_death: "2026-01-09"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: علیرضا سوری
-  
-  Killed by the Islamic Republic
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/out_farsi/status/2014449854106247244, https://x.com/pouriazeraati/status/2015672824212381796"
+  Killed by the Islamic Republic
+source_type: Social Media
+source_social_media_link: https://x.com/out_farsi/status/2014449854106247244, https://x.com/pouriazeraati/status/2015672824212381796, https://t.me/RememberTheirNames/1303, https://t.me/RememberTheirNames/1283

@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Goodarzi
 # ==========================================
 
-photo: "vic-2026-000073.jpg"
-name: "Ali Goodarzi"
-
-# Personal & Birth Information
+photo: vic-2026-000073.jpg
+name: Ali Goodarzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Khorramabad"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Khorramabad
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Mentioned in a tweet as one of the victims, but no specific details provided about how they died.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/fseifikaran/status/2013678441258737739"
+source_type: Social Media
+source_social_media_link: https://x.com/fseifikaran/status/2013678441258737739, https://x.com/shabe_nazz/status/2014760191766548574, https://x.com/ChaawTimes/status/2014295933492646162, https://x.com/hichkasofficial/status/2014806397293134048, https://x.com/shabe_nazz/status/2015088047256141969, https://t.me/RememberTheirNames/979

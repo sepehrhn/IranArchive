@@ -1,38 +1,25 @@
 # ==========================================
-# Victim Documentation - Reza Zahmatkesh 
+# Victim Documentation - Reza Zahmatkesh
 # ==========================================
 
-photo: "vic-2026-001437.jpg"
-
+photo: vic-2026-001437.jpg
 name: "Reza Zahmatkesh "
-
-# Personal & Birth Information
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
-age: 32
+gender: Male
+age: null
 occupation: ""
+country: Iran
+incident_province: ""
+incident_city: Tehran
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: |-
+  Persian Name: رضا زحمتکش
 
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "تهران، اشرفی اصفهانی"
-
-# Death Information
-date_of_death: "2026-01-07"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+  Shot with a bullet in Ashrafi Esfahani, Tehran. The tweet mentions he is the cousin of the poster's friend and that his family might find some peace if his story is shared.
+source_type: Local Report
+source_social_media_link: https://x.com/realneo101/status/2015730942673879485, https://t.me/RememberTheirNames/1065

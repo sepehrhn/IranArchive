@@ -2,36 +2,22 @@
 # Victim Documentation - Negar Ajam
 # ==========================================
 
-photo: "vic-2026-000061.jpg"
-name: "Negar Ajam"
-
-# Personal & Birth Information
+photo: vic-2026-000061.jpg
+name: Negar Ajam
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 27
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Zibad village"
-
-# Death Information
+country: Iran
+incident_province: Razavi Khorasan
+incident_city: Gonabad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Not specified, listed as a victim in the context of protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/avatoday_news/status/2014771411001266382"
+source_type: Social Media
+source_social_media_link: https://x.com/avatoday_news/status/2014771411001266382, https://x.com/moazabam/status/2014789259891507544, https://t.me/poshtpardeha/248754, https://x.com/outofken/status/2015609501098090688, https://x.com/moazabam/status/2015001965936472077, https://x.com/moazabam/status/2014870639354773801

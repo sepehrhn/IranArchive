@@ -3,36 +3,21 @@
 # ==========================================
 
 photo: ""
-
-name: "Faramarz Golestani"
-
-# Personal & Birth Information
+name: Faramarz Golestani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehran
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests, buried in Firouzan city, Nahavand
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pouyajegarvnd/status/2014391261235421280"
+source_type: Social Media
+source_social_media_link: https://x.com/pouyajegarvnd/status/2014391261235421280

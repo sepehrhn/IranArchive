@@ -2,36 +2,22 @@
 # Victim Documentation - Sam Rezaee
 # ==========================================
 
-photo: "vic-2026-000831.jpg"
-name: "Sam Rezaee"
-
-# Personal & Birth Information
+photo: vic-2026-000831.jpg
+name: Sam Rezaee
 birth_date: ""
 birth_province: ""
-birth_city: "wounds"
+birth_city: wounds
 gender: ""
 age: 20
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shiraz"
-
-# Death Information
+incident_city: Shiraz
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in throat/chest with pellet gun by regime security forces near Saadi Cinema, taken to Pars Hospital where he died from wounds
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/walterakam/status/2014338419791393038"
+source_type: Social Media
+source_social_media_link: https://x.com/walterakam/status/2014338419791393038, https://x.com/longlosthills/status/2014319373150720002, https://x.com/esmaeils1169/status/2014421445074452706

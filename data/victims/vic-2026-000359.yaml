@@ -2,36 +2,22 @@
 # Victim Documentation - Milad Ghasemi
 # ==========================================
 
-photo: "vic-2026-000359.jpg"
-name: "Milad Ghasemi"
-
-# Personal & Birth Information
+photo: vic-2026-000359.jpg
+name: Milad Ghasemi
 birth_date: ""
 birth_province: ""
-birth_city: "further shooting"
+birth_city: further shooting
 gender: ""
 age: 37
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Died in a car while friends attempted to protect him from further shooting. He died one hour after being placed under the car.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2014782688859656507"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2014782688859656507, https://x.com/iranwire/status/2014938527155318871, https://x.com/FSeifikaran/status/2015044331770364118, https://t.me/RememberTheirNames/857

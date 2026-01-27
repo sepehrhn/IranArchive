@@ -2,41 +2,26 @@
 # Victim Documentation - Fares Aghamohammadi
 # ==========================================
 
-photo: "vic-2026-001443.png"
-
-name: "Fares Aghamohammadi"
-
-# Personal & Birth Information
+photo: vic-2026-001443.png
+name: Fares Aghamohammadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
-age: 
-occupation: "دلاور ورزشکار"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Ilam"
-incident_city: "ملکشاهی "
-
-# Death Information
-date_of_death: "2026-01-05"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+gender: Male
+age: null
+occupation: دلاور ورزشکار
+country: Iran
+incident_province: Ilam
+incident_city: Meleksahi
+date_of_death: "2026-01-04"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   anuary 5, 2026 — Farez (Mohsen) Agha-Mohammadi, one of those wounded during the Malekshahi massacre, died from the severity of his injuries after three days in intensive care at Imam Khomeini Hospital in Ilam.
   According to an informed source speaking to Kurdpa, he passed away on the evening of Monday, January 5, 2026, after being hospitalized in the ICU for three days.
-  
+
   ۱۵ دی ۱۴۰۴؛ «فارز(محسن) یکی دیگر از زخمی‌شدگان کشتار مردمی ملکشاهی، درنتیجه شدت جراحات پس از سه روز بستری شدن در بخش مراقبت‌های ویژه بیمارستان ایلام جان باخت. 
   به گفته یک منبع مطلع به کُردپا؛ شامگاه امروز دوشنبه ۱۵ دی ۱۴۰۴،  «فارز(محسن) آقامحمدی» بعد از سه روز بستری شدن در بخش مراقبت‌های ویژه بیمارستان« امام خمینی» درگذشت.
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link: https://x.com/KurdistanHRN/status/2008272550569132154, https://x.com/KurdistanHRN/status/2007538683428077889

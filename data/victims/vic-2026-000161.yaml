@@ -2,36 +2,22 @@
 # Victim Documentation - Parsa Rahmati
 # ==========================================
 
-photo: "vic-2026-000161.jpg"
-name: "Parsa Rahmati"
-
-# Personal & Birth Information
+photo: vic-2026-000161.jpg
+name: Parsa Rahmati
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 20
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Fallah"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Falah
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the neck by government forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mamlekate/status/2014112939272183846"
+source_type: Social Media
+source_social_media_link: https://x.com/mamlekate/status/2014112939272183846, https://x.com/iranintl/status/2014954810580045928, https://t.me/RememberTheirNames/1154

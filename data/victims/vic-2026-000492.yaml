@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Mohammadi
 # ==========================================
 
-photo: "vic-2026-000492.jpg"
-name: "Ali Mohammadi"
-
-# Personal & Birth Information
+photo: vic-2026-000492.jpg
+name: Ali Mohammadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Zaynabieh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in the path of homeland (implied to be during protests)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranwire/status/2013529390261350866"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2013529390261350866, https://x.com/aryammehr_2/status/2014775885489119283, https://x.com/missmarpel75/status/2014833351278870626, https://x.com/Kiansan70/status/2014748044596568264, https://x.com/avatoday_news/status/2015750846672236790, https://t.me/RememberTheirNames/878

@@ -2,36 +2,22 @@
 # Victim Documentation - Ahmad Reza Amani
 # ==========================================
 
-photo: "vic-2026-000926.jpg"
-name: "Ahmad Reza Amani"
-
-# Personal & Birth Information
+photo: vic-2026-000926.jpg
+name: Ahmad Reza Amani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 43
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Lorestan"
-incident_city: "Azna"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Lorestan
+incident_city: Azna
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by Islamic Republic regime security forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://en.wikipedia.org/wiki/2026_Iran_massacres"
+source_type: Social Media
+source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/iranwire/status/2012103599359431125, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/daikatuo/status/2007022044471586871, https://x.com/Daikatuo/status/2007455835497152832

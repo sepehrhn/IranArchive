@@ -3,36 +3,21 @@
 # ==========================================
 
 photo: ""
-
-name: "Meysam Rezaei"
-
-# Personal & Birth Information
+name: Meysam Rezaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 37
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Mazandaran"
-incident_city: "Zirab"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Mazandaran
+incident_city: Zirab
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Republic forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/indypersian/status/2014559776798015966"
+source_type: Social Media
+source_social_media_link: https://x.com/indypersian/status/2014559776798015966

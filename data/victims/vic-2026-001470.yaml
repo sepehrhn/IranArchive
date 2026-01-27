@@ -2,37 +2,24 @@
 # Victim Documentation - Ahmad Kazemi
 # ==========================================
 
-photo: "vic-2026-001470.png"
-
-name: "Ahmad Kazemi"
-
-# Personal & Birth Information
+photo: vic-2026-001470.png
+name: Ahmad Kazemi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Hormozgan"
-incident_city: "بندرعباس"
-
-# Death Information
+country: Iran
+incident_province: ""
+incident_city: Bandar Abbas
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: |-
+  Persian Name: احمد کاظمی
 
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+  Shot in the side and hand; denied medical treatment for two days, leading to bleeding-related death.
+source_type: Local Report
+source_social_media_link: https://x.com/maryammoqaddam/status/2014785691369050354

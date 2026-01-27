@@ -2,37 +2,22 @@
 # Victim Documentation - Masoud Bahmani
 # ==========================================
 
-photo: "vic-2026-000005.jpg"
-
-name: "Masoud Bahmani"
-
-# Personal & Birth Information
+photo: vic-2026-000005.jpg
+name: Masoud Bahmani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Bushehr"
-incident_city: "Bushehr"
-
-# Death Information
+country: Iran
+incident_province: ""
+incident_city: Shahriar
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   .
-
-# Sources
 source_type: ""
-source_social_media_link: ""
+source_social_media_link: https://x.com/jvs89958333/status/2015642555547787729, https://t.me/RememberTheirNames/1385

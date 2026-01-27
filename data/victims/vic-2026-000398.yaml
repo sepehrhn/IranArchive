@@ -2,36 +2,22 @@
 # Victim Documentation - Nasim Pour Aghaei
 # ==========================================
 
-photo: "vic-2026-000398.jpg"
-name: "Nasim Pour Aghaei"
-
-# Personal & Birth Information
+photo: vic-2026-000398.jpg
+name: Nasim Pour Aghaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran, Sadeghiyeh Street"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Sadeghiyeh Street
+incident_city: Tehran
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the neck by Iranian government forces during protests in Sadeghieh area, died instantly
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2011871207369703702"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2011871207369703702, https://x.com/tavaana/status/2011821741849645397, https://hengaw.net/en/news/2026/01/article-121, https://x.com/loabatk/status/2012026653091000767, https://x.com/iranhrs99/status/2013363419794010191, https://x.com/Daikatuo/status/2012211183286091831

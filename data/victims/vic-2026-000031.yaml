@@ -2,36 +2,22 @@
 # Victim Documentation - Hassan Samakoush
 # ==========================================
 
-photo: "vic-2026-000031.jpg"
-name: "Hassan Samakoush"
-
-# Personal & Birth Information
+photo: vic-2026-000031.jpg
+name: Hassan Samakoush
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 48
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Babol"
-
-# Death Information
+country: Iran
+incident_province: Babol
+incident_city: Babolsar
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Died from severe brain hemorrhage after being shot in the eye with a pellet gun.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranwire/status/2014954370509549724"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2014954370509549724, https://x.com/mashrotehorg/status/2015070468747771924, https://x.com/inthemaz/status/2014708202068201743

@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammadreza Mousavi
 # ==========================================
 
-photo: "vic-2026-000739.jpg"
-name: "Mohammadreza Mousavi"
-
-# Personal & Birth Information
+photo: vic-2026-000739.jpg
+name: Mohammadreza Mousavi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 28
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Islamshahr"
-
-# Death Information
+incident_city: Islamshahr
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/sad_skyblue/status/2013216113568436501"
+source_type: Social Media
+source_social_media_link: https://x.com/sad_skyblue/status/2013216113568436501, https://x.com/behnam_chegini/status/2015471109676712435

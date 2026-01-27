@@ -2,36 +2,22 @@
 # Victim Documentation - Delaram Kazemi
 # ==========================================
 
-photo: "vic-2026-000893.jpg"
-name: "Delaram Kazemi"
-
-# Personal & Birth Information
+photo: vic-2026-000893.jpg
+name: Delaram Kazemi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 37
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Kermanshah"
-incident_city: "Gilan-e Gharb"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Kermanshah
+incident_city: Gilan-e Gharb
+date_of_death: "2026-01-06"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Died in detention after being arrested during protests. She was reportedly subjected to severe violence during the arrest, resulting in broken hands and ribs.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/avatoday_news/status/2011813645504663718"
+source_type: Social Media
+source_social_media_link: https://x.com/avatoday_news/status/2011813645504663718, https://x.com/longlosthills/status/2012375264848748984, https://x.com/hiwa_life/status/2013754620590334164

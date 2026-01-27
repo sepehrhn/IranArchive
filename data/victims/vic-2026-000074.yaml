@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Rahbar
 # ==========================================
 
-photo: "vic-2026-000074.png"
-name: "Ali Rahbar"
-
-# Personal & Birth Information
+photo: vic-2026-000074.png
+name: Ali Rahbar
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 33
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Torture"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Mashhad
+date_of_death: "2026-01-21"
+date_of_death_precision: Exact
+cause_of_death: Torture
+status: Killed
 description: |
   Executed after being arrested during early days of protests, tortured before execution
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/prznsoccer/status/2014226265843044717"
+source_type: Social Media
+source_social_media_link: https://x.com/prznsoccer/status/2014226265843044717, https://x.com/maroofian_n/status/2014142129073754133, https://x.com/marianmeyer0/status/2014239172605673864, https://x.com/FSeifikaran/status/2014388202010804343, https://t.me/RememberTheirNames/692

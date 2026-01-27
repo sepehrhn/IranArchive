@@ -2,36 +2,22 @@
 # Victim Documentation - Reza Azimzadeh
 # ==========================================
 
-photo: "vic-2026-000909.jpg"
-name: "Reza Azimzadeh"
-
-# Personal & Birth Information
+photo: vic-2026-000909.jpg
+name: Reza Azimzadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 28
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Malekshahi County, Ilam"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Ilam
+incident_city: Malekshahi County
+date_of_death: "2026-01-03"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by IRGC forces during protests while passing by the Basij resistance building on Farmandarí Boulevard
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://en.wikipedia.org/wiki/2026_Iran_massacres"
+source_type: Social Media
+source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres, https://en.wikipedia.org/wiki/2026_Malekshahi_massacre, https://www.iran-emrooz.net/index.php/news2/125134/, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2, https://x.com/KurdistanHRN/status/2007538683428077889, https://x.com/hiitsmemooneh/status/2014590435650650616

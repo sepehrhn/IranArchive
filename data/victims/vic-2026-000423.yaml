@@ -2,36 +2,22 @@
 # Victim Documentation - Reza Fouladi
 # ==========================================
 
-photo: "vic-2026-000423.jpg"
-name: "Reza Fouladi"
-
-# Personal & Birth Information
+photo: vic-2026-000423.jpg
+name: Reza Fouladi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 53
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Zirab, Savadkuh"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Savadkuh
+incident_city: Zirab
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Revolutionary Guards forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/indypersian/status/2014764874279080399"
+source_type: Social Media
+source_social_media_link: https://x.com/indypersian/status/2014764874279080399, https://x.com/Shomali_Rikaa/status/2014551262281236863, https://t.me/RememberTheirNames/1085

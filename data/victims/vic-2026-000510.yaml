@@ -2,36 +2,22 @@
 # Victim Documentation - Alireza Safavi
 # ==========================================
 
-photo: "vic-2026-000510.jpg"
-name: "Alireza Safavi"
-
-# Personal & Birth Information
+photo: vic-2026-000510.jpg
+name: Alireza Safavi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the throat with pellet gun by regime forces at the second circle of Ariashahr, body found in Kahrizak
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pouriazeraati/status/2012994811268038865"
+source_type: Social Media
+source_social_media_link: https://x.com/pouriazeraati/status/2012994811268038865, https://x.com/nicksotoudeh/status/2013109578301407460

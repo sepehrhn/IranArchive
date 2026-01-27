@@ -2,36 +2,22 @@
 # Victim Documentation - Mostafa Jafari Fasharaki
 # ==========================================
 
-photo: "vic-2026-000758.jpg"
-name: "Mostafa Jafari Fasharaki"
-
-# Personal & Birth Information
+photo: vic-2026-000758.jpg
+name: Mostafa Jafari Fasharaki
 birth_date: ""
 birth_province: ""
-birth_city: "behind"
+birth_city: behind
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Narmak neighborhood"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Narmak neighborhood
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot from behind
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/amureza64/status/2014351666099744849"
+source_type: Social Media
+source_social_media_link: https://x.com/amureza64/status/2014351666099744849, https://x.com/amureza64/status/2014631253698281503, https://x.com/amureza64/status/2015791578150027455, https://t.me/RememberTheirNames/847

@@ -2,36 +2,22 @@
 # Victim Documentation - Amin Nadery
 # ==========================================
 
-photo: "vic-2026-000517.jpg"
-name: "Amin Nadery"
-
-# Personal & Birth Information
+photo: vic-2026-000517.jpg
+name: Amin Nadery
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Sabzdasht, Kermanshah"
-
-# Death Information
+country: Iran
+incident_province: Kermanshah
+incident_city: Sabzdasht
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Killed by security forces with a military bullet during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hiwa_life/status/2014789505639755848"
+source_type: Social Media
+source_social_media_link: https://x.com/hiwa_life/status/2014789505639755848

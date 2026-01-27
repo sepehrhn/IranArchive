@@ -2,37 +2,24 @@
 # Victim Documentation - Matin Ghorbani
 # ==========================================
 
-photo: "vic-2026-001446.jpg"
-
-name: "Matin Ghorbani"
-
-# Personal & Birth Information
+photo: vic-2026-001446.jpg
+name: Matin Ghorbani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: ""
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Approximate"
+country: Iran
+incident_province: Karaj
+incident_city: Fardis
+date_of_death: "2026-01-10"
+date_of_death_precision: Approximate
 cause_of_death: ""
+status: Killed
+description: |-
+  Persian Name: متین قربانی
 
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+  Died during the protests. Pictured in a final farewell with his wife.
+source_type: Local Report
+source_social_media_link: https://x.com/pardis__rabiee/status/2015363381415338281, https://t.me/RememberTheirNames/1182

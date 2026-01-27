@@ -2,38 +2,24 @@
 # Victim Documentation - Habib Moallemi
 # ==========================================
 
-photo: "vic-2026-001261.jpg"
-name: "Habib Moallemi"
-
-# Personal & Birth Information
+photo: vic-2026-001261.jpg
+name: Habib Moallemi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Fardis, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Fardis
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: حبیب معلمی
-  
-  Shot directly by security forces during protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2015352384499732568"
+  Shot directly by security forces during protests.
+source_type: Social Media
+source_social_media_link: https://x.com/Tavaana/status/2015352384499732568, https://x.com/iranintlbrk/status/2015361134535094715, https://t.me/RememberTheirNames/1044

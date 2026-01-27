@@ -2,37 +2,22 @@
 # Victim Documentation - Mohammad Tajik
 # ==========================================
 
-photo: ""
-
-name: "Mohammad Tajik"
-
-# Personal & Birth Information
+photo: "vic-2026-001165.jpg"
+name: Mohammad Tajik
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Varamin"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Varamin
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the neck with a war bullet and died.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mojtabapourbakh/status/2014748074829066430"
+source_type: Social Media
+source_social_media_link: https://x.com/mojtabapourbakh/status/2014748074829066430, https://t.me/RememberTheirNames/927

@@ -2,36 +2,22 @@
 # Victim Documentation - Nasrin Zaremanesh
 # ==========================================
 
-photo: "vic-2026-000115.jpg"
-name: "Nasrin Zaremanesh"
-
-# Personal & Birth Information
+photo: vic-2026-000115.jpg
+name: Nasrin Zaremanesh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 39
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Nazi Abad"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Nazi Abad
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with 1 bullet to her neck and 1 to her heart during protests, died on her son's lap on the way to the hospital, pronounced dead on arrival
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/the_zhalzzz/status/2012200965307273311"
+source_type: Social Media
+source_social_media_link: https://x.com/The_Zhalzzz/status/2012200965307273311

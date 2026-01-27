@@ -2,36 +2,22 @@
 # Victim Documentation - Amir Mohsen Elahyari
 # ==========================================
 
-photo: "vic-2026-001030.jpg"
-name: "Amir Mohsen Elahyari"
-
-# Personal & Birth Information
+photo: vic-2026-001030.jpg
+name: Amir Mohsen Elahyari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Karaj
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2013961319469158812"
+source_type: Social Media
+source_social_media_link: https://x.com/HengawO/status/2013961319469158812

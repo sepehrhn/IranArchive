@@ -2,36 +2,22 @@
 # Victim Documentation - Miragha Rezaei
 # ==========================================
 
-photo: "vic-2026-000362.jpg"
-name: "Miragha Rezaei"
-
-# Personal & Birth Information
+photo: vic-2026-000362.jpg
+name: Miragha Rezaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 54
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Falah
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   A 54-year-old father of two shot and killed during a peaceful protest in Tehran's Fallah neighborhood.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/loabatk/status/2012045923749412900"
+source_type: Social Media
+source_social_media_link: https://x.com/loabatk/status/2012045923749412900, https://x.com/IranIntl/status/2014009936879947996

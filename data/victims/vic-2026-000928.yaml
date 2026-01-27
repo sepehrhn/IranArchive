@@ -2,36 +2,22 @@
 # Victim Documentation - Alireza Kharboo
 # ==========================================
 
-photo: "vic-2026-000928.jpg"
-name: "Alireza Kharboo"
-
-# Personal & Birth Information
+photo: vic-2026-000928.jpg
+name: Alireza Kharboo
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Dizicheh"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Mobarakeh
+incident_city: Dizicheh
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/abhaddadii/status/2012993637005627689"
+source_type: Social Media
+source_social_media_link: https://x.com/abhaddadii/status/2012993637005627689, https://x.com/HengawO/status/2014772586857598984, https://t.me/RememberTheirNames/575

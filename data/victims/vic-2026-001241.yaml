@@ -2,38 +2,24 @@
 # Victim Documentation - Nader Siahani
 # ==========================================
 
-photo: "vic-2026-001241.jpg"
-name: "Nader Siahani"
-
-# Personal & Birth Information
+photo: vic-2026-001241.jpg
+name: Nader Siahani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 16
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Sistan and Baluchestan"
-incident_city: "Siahan border region"
-
-# Death Information
+country: Iran
+incident_province: ""
+incident_city: Siahan border region
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: نادر سیاهانی
-  
-  Shot in the head by border guards during heightened security measures following widespread protests. Initial reports claimed a motorcycle accident, but this was contradicted by local sources.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/haalvsh/status/2015501248771076221"
+  Shot in the head by border guards during heightened security measures following widespread protests. Initial reports claimed a motorcycle accident, but this was contradicted by local sources.
+source_type: Social Media
+source_social_media_link: https://x.com/haalvsh/status/2015501248771076221

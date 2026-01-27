@@ -2,36 +2,22 @@
 # Victim Documentation - Amir Shakouri
 # ==========================================
 
-photo: "vic-2026-000880.jpg"
-name: "Amir Shakouri"
-
-# Personal & Birth Information
+photo: vic-2026-000880.jpg
+name: Amir Shakouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Lahijan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Lahijan
+date_of_death: "2026-01-07"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by plainclothes armed officers during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011452789310824589"
+source_type: Social Media
+source_social_media_link: https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/Daikatuo/status/2011452789310824589, https://x.com/Soranmansournia/status/2013672222464909658, https://x.com/pkhwshhal/status/2015030074139885785

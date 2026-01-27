@@ -2,36 +2,22 @@
 # Victim Documentation - Saeed Sanjideh
 # ==========================================
 
-photo: "vic-2026-000823.jpg"
-name: "Saeed Sanjideh"
-
-# Personal & Birth Information
+photo: vic-2026-000823.jpg
+name: Saeed Sanjideh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 36
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Bushehr"
-
-# Death Information
+incident_city: Bushehr
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the throat with a Kalashnikov bullet.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hoorieh81/status/2014664263445483744"
+source_type: Social Media
+source_social_media_link: https://x.com/hoorieh81/status/2014664263445483744, https://x.com/hekasrehcrisis/status/2015184356461990326, https://x.com/HeKasrehCrisis/status/2015184356461990326, https://x.com/Hoorieh81/status/2014664263445483744, https://t.me/RememberTheirNames/820

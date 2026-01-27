@@ -2,36 +2,22 @@
 # Victim Documentation - Masih Shahvardi
 # ==========================================
 
-photo: "vic-2026-000669.jpg"
-name: "Masih Shahvardi"
-
-# Personal & Birth Information
+photo: vic-2026-000669.jpg
+name: Masih Shahvardi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 19
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
+incident_city: Isfahan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by government suppression forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014409427206496343"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2014409427206496343, https://x.com/dadban4/status/2014776292776776017, https://x.com/HengawO/status/2014772586857598984, https://x.com/dadban4/status/2015006758817730853

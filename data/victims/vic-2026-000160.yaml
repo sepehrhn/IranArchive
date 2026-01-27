@@ -2,36 +2,22 @@
 # Victim Documentation - Narges Alemi
 # ==========================================
 
-photo: "vic-2026-000160.jpg"
-name: "Narges Alemi"
-
-# Personal & Birth Information
+photo: vic-2026-000160.jpg
+name: Narges Alemi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 20
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehran
+date_of_death: "2026-01-11"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by government forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2013733276213739522"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2013733276213739522, https://x.com/ManotoNews/status/2013733276213739522, https://x.com/ElllWho/status/2015377915563716790, https://x.com/HichkasOfficial/status/2015413663721570541, https://x.com/elllwho/status/2015377915563716790

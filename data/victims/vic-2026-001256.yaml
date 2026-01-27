@@ -2,38 +2,24 @@
 # Victim Documentation - Ali Faraji
 # ==========================================
 
-photo: "vic-2026-001256.jpg"
-name: "Ali Faraji"
-
-# Personal & Birth Information
+photo: vic-2026-001256.jpg
+name: Ali Faraji
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Hesar, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Hesar
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: علی فرجی
-  
-  Reportedly shot by police forces from station 48 in Hesar with live ammunition.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/fseifikaran/status/2015453470657032264"
+  Reportedly shot by police forces from station 48 in Hesar with live ammunition.
+source_type: Social Media
+source_social_media_link: https://x.com/FSeifikaran/status/2015453470657032264, https://x.com/RadioFarda_/status/2015037805013983373, https://x.com/IranIntl/status/2014722292404662662, https://t.me/RememberTheirNames/1218

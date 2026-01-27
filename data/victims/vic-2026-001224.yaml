@@ -2,36 +2,22 @@
 # Victim Documentation - Shamshad Ekhlasi
 # ==========================================
 
-photo: "vic-2026-001224.jpg"
-name: "Shamshad Ekhlasi"
-
-# Personal & Birth Information
+photo: vic-2026-001224.jpg
+name: Shamshad Ekhlasi
 birth_date: ""
 birth_province: ""
-birth_city: "Qashqai tribe"
+birth_city: Qashqai tribe
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shiraz"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Shiraz
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests, from Qashqai tribe, authorities pressured for private burial without attendees
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/imanoracle/status/2014031708358639811"
+source_type: Social Media
+source_social_media_link: https://x.com/imanoracle/status/2014031708358639811, https://t.me/RememberTheirNames/534

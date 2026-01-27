@@ -2,36 +2,22 @@
 # Victim Documentation - Iliya Ojaghlou
 # ==========================================
 
-photo: "vic-2026-000310.jpg"
-name: "Iliya Ojaghlou"
-
-# Personal & Birth Information
+photo: vic-2026-000310.jpg
+name: Iliya Ojaghlou
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Zanjan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Zanjan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the heart with a bullet
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranintlbrk/status/2013945811969679858"
+source_type: Social Media
+source_social_media_link: https://x.com/iranintlbrk/status/2013945811969679858, https://x.com/Iran_Sweeden/status/2014112153846808881, https://t.me/RememberTheirNames/845

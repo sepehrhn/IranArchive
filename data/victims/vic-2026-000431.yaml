@@ -3,36 +3,21 @@
 # ==========================================
 
 photo: ""
-
-name: "Sajad Ordouni Kabir"
-
-# Personal & Birth Information
+name: Sajad Ordouni Kabir
 birth_date: ""
 birth_province: ""
-birth_city: "state forces during protests"
+birth_city: state forces during protests
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Sabzevar"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Sabzevar
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by direct fire from state forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://hengaw.net/en/news/2026/01/article-120"
+source_type: Social Media
+source_social_media_link: https://hengaw.net/en/news/2026/01/article-120

@@ -2,36 +2,22 @@
 # Victim Documentation - Danial Mostafavi
 # ==========================================
 
-photo: "vic-2026-000574.jpg"
-name: "Danial Mostafavi"
-
-# Personal & Birth Information
+photo: vic-2026-000574.jpg
+name: Danial Mostafavi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 18
+age: 19
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Kerman
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Student, shot by government forces while in personal car with family, vehicle was raked with bullets
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011858468727066737"
+source_type: Social Media
+source_social_media_link: https://x.com/NazaninNour/status/2012074095429701697, https://x.com/ManotoNews/status/2012963201911066841, https://x.com/IranIntl/status/2011737339719012787

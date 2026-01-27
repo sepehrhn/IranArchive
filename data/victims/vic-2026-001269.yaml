@@ -2,38 +2,24 @@
 # Victim Documentation - Meysam Rahmati
 # ==========================================
 
-photo: "vic-2026-001269.jpg"
-name: "Meysam Rahmati"
-
-# Personal & Birth Information
+photo: vic-2026-001269.jpg
+name: Meysam Rahmati
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Andisheh, Shahriar"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Shahriar
+incident_city: Andisheh
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: میثم رحمتی
-  
-  Shot and killed by security forces while trying to rescue his injured cousin during protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2015503879023292430"
+  Shot and killed by security forces while trying to rescue his injured cousin during protests.
+source_type: Social Media
+source_social_media_link: https://x.com/Tavaana/status/2015503879023292430, https://t.me/RememberTheirNames/1275

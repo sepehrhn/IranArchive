@@ -1,38 +1,23 @@
 # ==========================================
-# Victim Documentation - Alireza bagheri
+# Victim Documentation - Alireza Bagheri
 # ==========================================
 
-photo: "vic-2026-001477.jpeg"
-
-name: "Alireza bagheri"
-
-# Personal & Birth Information
+photo: vic-2026-001477.jpeg
+name: Alireza bagheri
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 25
-occupation: "لیسانس/سرباز"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Gilan"
-incident_city: "منجیل"
-
-# Death Information
-date_of_death: "2026-01-07"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: لیسانس/سرباز
+country: Iran
+incident_province: Gilan
+incident_city: Manjil
+date_of_death: "2025-12-27"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   ایشان توسط یکی از مزدوران ج ا که در شهر منجیل ساکن بودن و کُلت حمل میکردن با شلیک مستقیم گلوله کشته شدن و نکته ی دردناکتر اینجاست که تک فرزند بود و پدر و مادر به سختی همین یک فرزند را به دنیا آورده بودند
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link: https://x.com/hekasrehcrisis/status/2016005814767452442, https://t.me/RememberTheirNames/944

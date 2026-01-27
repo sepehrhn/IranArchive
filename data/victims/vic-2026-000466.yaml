@@ -2,36 +2,22 @@
 # Victim Documentation - Abbas Maleki
 # ==========================================
 
-photo: "vic-2026-000466.jpg"
-name: "Abbas Maleki"
-
-# Personal & Birth Information
+photo: vic-2026-000466.jpg
+name: Abbas Maleki
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 33
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Marlik, Karaj"
-
-# Death Information
+country: Iran
+incident_province: Karaj
+incident_city: Marlik
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the back on the night of the call to protest. Buried on 25 Dey.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/monfaredashkan/status/2014803155507413100"
+source_type: Social Media
+source_social_media_link: https://x.com/monfaredashkan/status/2014804236400550012, https://x.com/monfaredashkan/status/2014803155507413100, https://x.com/sashtyani/status/2015064331143066023, https://x.com/MonfaredAshkan/status/2014803155507413100, https://x.com/MonfaredAshkan/status/2014804236400550012

@@ -2,36 +2,22 @@
 # Victim Documentation - Hassan Ghasemi
 # ==========================================
 
-photo: "vic-2026-000302.jpg"
-name: "Hassan Ghasemi"
-
-# Personal & Birth Information
+photo: vic-2026-000302.jpg
+name: Hassan Ghasemi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
+country: Iran
+incident_province: Esfahan
 incident_city: ""
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with war bullet by suppression forces during national revolution in Zeinabiye neighborhood of Isfahan
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranintlsport/status/2013277272044642677"
+source_type: Social Media
+source_social_media_link: https://x.com/iranintlsport/status/2013277272044642677, https://www.instagram.com/p/DTqscRwildO

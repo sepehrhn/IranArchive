@@ -2,36 +2,22 @@
 # Victim Documentation - Farzad Kheirdar
 # ==========================================
 
-photo: "vic-2026-000603.jpg"
-name: "Farzad Kheirdar"
-
-# Personal & Birth Information
+photo: vic-2026-000603.jpg
+name: Farzad Kheirdar
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 37
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
+incident_city: Kermanshah
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Lost his life at the hands of state agents during the popular protests in Kermanshah.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kurdpa_farsi/status/2014092725327454657"
+source_type: Social Media
+source_social_media_link: https://x.com/kurdpa_farsi/status/2014092725327454657, https://x.com/hengawo/status/2014088323942256878, https://x.com/HengawO/status/2014088323942256878, https://x.com/KurdistanHRN/status/2014748123747279358, https://t.me/RememberTheirNames/571

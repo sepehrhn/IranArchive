@@ -2,36 +2,22 @@
 # Victim Documentation - Shokoufeh Abdollahi
 # ==========================================
 
-photo: "vic-2026-000117.jpg"
-name: "Shokoufeh Abdollahi"
-
-# Personal & Birth Information
+photo: vic-2026-000117.jpg
+name: Shokoufeh Abdollahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shazand"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Shazand
+date_of_death: "2025-12-27"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by government forces during protests while working in a photography studio.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/behnam_chegini/status/2014299136623874159"
+source_type: Social Media
+source_social_media_link: https://x.com/behnam_chegini/status/2014299136623874159, https://x.com/behnam_chegini/status/2014391911960682750, https://x.com/HengawO/status/2014487707934716007, https://www.instagram.com/p/DT1Q3UUjpG-, https://x.com/HengawO/status/2014670380019925226, https://x.com/HengawO/status/2014489246376042941, https://t.me/RememberTheirNames/689

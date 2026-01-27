@@ -2,36 +2,22 @@
 # Victim Documentation - Wife of Mojtaba Tarshiz
 # ==========================================
 
-photo: "vic-2026-001232.jpg"
-name: "Wife of Mojtaba Tarshiz"
-
-# Personal & Birth Information
+photo: vic-2026-001232.jpg
+name: Wife of Mojtaba Tarshiz
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
 incident_city: ""
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Shot and killed by Islamic Republic regime forces along with her husband
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/callyonyourbs/status/2013354616012836903"
+source_type: Social Media
+source_social_media_link: https://x.com/callyonyourbs/status/2013354616012836903

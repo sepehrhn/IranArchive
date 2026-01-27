@@ -3,36 +3,21 @@
 # ==========================================
 
 photo: ""
-
-name: "Ebrahim Yousefi"
-
-# Personal & Birth Information
+name: Ebrahim Yousefi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 42
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
+incident_city: Kermanshah
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Directly targeted by government forces during popular protests in Kermanshah's Dolatabad area.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://www.theguardian.com/global-development/2026/jan/15/iran-protesters-uprising-killed-world-diaspora-families-tehran-internet-blackout"
+source_type: Social Media
+source_social_media_link: https://www.theguardian.com/global-development/2026/jan/15/iran-protesters-uprising-killed-world-diaspora-families-tehran-internet-blackout, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/

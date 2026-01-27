@@ -2,36 +2,22 @@
 # Victim Documentation - Erfan Kari
 # ==========================================
 
-photo: "vic-2026-001069.jpg"
-name: "Erfan Kari"
-
-# Personal & Birth Information
+photo: vic-2026-001069.jpg
+name: Erfan Kari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 20
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: ""
-
-# Death Information
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with live bullets/war bullets during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hoorieh81/status/2014309748988948810"
+source_type: Social Media
+source_social_media_link: https://x.com/hoorieh81/status/2014309748988948810, https://x.com/longlosthills/status/2015486699623907432, https://t.me/RememberTheirNames/517

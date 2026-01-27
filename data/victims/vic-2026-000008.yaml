@@ -2,38 +2,23 @@
 # Victim Documentation - Amirhesam Khodayarifard
 # ==========================================
 
-photo: "vic-2026-000008.jpg"
-
-name: "Amirhesam Khodayarifard"
-
-# Personal & Birth Information
+photo: vic-2026-000008.jpg
+name: Amirhesam Khodayarifard
 birth_date: ""
 birth_province: ""
-birth_city: "Kuhdasht"
+birth_city: Kuhdasht
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Lorestan"
-incident_city: "Kuhdasht"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Lorestan
+incident_city: Kuhdasht
+date_of_death: "2025-12-30"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   An Iranian protester from Kuhdasht, Lorestan, killed after being shot in the head during the 2025–2026 uprising; 
   authorities later promoted claims he was a Basij member and pressured his family to repeat that narrative.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://www.instagram.com/p/DEU-MxJsqPJ/?igsh=MTgycnMwejhoam1u"
+source_type: Social Media
+source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres#30_December, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2

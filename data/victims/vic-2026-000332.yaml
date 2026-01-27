@@ -2,36 +2,22 @@
 # Victim Documentation - Majid Rashidi
 # ==========================================
 
-photo: "vic-2026-000332.jpg"
-name: "Majid Rashidi"
-
-# Personal & Birth Information
+photo: vic-2026-000332.jpg
+name: Majid Rashidi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 41
+age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Rasht"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Kermanshah
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head by Iranian security forces after being identified as a leader during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hyrcanihrm/status/2015010271081746433"
+source_type: Social Media
+source_social_media_link: https://x.com/hyrcanihrm/status/2015010271081746433, https://x.com/HengawO/status/2014814907925991911, https://t.me/RememberTheirNames/1071, https://t.me/RememberTheirNames/960

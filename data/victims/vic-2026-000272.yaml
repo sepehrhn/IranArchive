@@ -2,36 +2,22 @@
 # Victim Documentation - Behrouz Nikkhah
 # ==========================================
 
-photo: "vic-2026-000272.jpg"
-name: "Behrouz Nikkhah"
-
-# Personal & Birth Information
+photo: vic-2026-000272.jpg
+name: Behrouz Nikkhah
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 34
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Fardis, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Fardis
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the forehead by snipers while carrying a wounded person during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranwire/status/2014746687768523208"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2014746687768523208, https://t.me/RememberTheirNames/939

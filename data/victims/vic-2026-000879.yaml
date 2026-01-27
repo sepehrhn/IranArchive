@@ -2,36 +2,22 @@
 # Victim Documentation - Amir Ali Jalilian
 # ==========================================
 
-photo: "vic-2026-000879.jpg"
-name: "Amir Ali Jalilian"
-
-# Personal & Birth Information
+photo: vic-2026-000879.jpg
+name: Amir Ali Jalilian
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 65
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Iran (provinces of Ilam"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Iran (provinces of Ilam
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Severely injured by dozens of shotgun pellets to the head and body during protests; died in hospital after several days.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011858468727066737"
+source_type: Social Media
+source_social_media_link: https://x.com/Daikatuo/status/2011858468727066737, https://x.com/KurdistanHRN/status/2011783655752880275

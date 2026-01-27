@@ -2,36 +2,22 @@
 # Victim Documentation - Hamed Basiri
 # ==========================================
 
-photo: "vic-2026-000294.jpg"
-name: "Hamed Basiri"
-
-# Personal & Birth Information
+photo: vic-2026-000294.jpg
+name: Hamed Basiri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 35
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran or Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehran or Karaj
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in the path of homeland (presumably during protests)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2012093125506773102"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2012093125506773102, https://x.com/longlosthills/status/2012200126098366739, https://x.com/missmarpel75/status/2014405810747564433, https://x.com/HengawO/status/2012222547601834311

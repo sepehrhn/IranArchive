@@ -2,38 +2,24 @@
 # Victim Documentation - Armin Abbaspour
 # ==========================================
 
-photo: "vic-2026-001258.jpg"
-name: "Armin Abbaspour"
-
-# Personal & Birth Information
+photo: vic-2026-001258.jpg
+name: Armin Abbaspour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
+country: Iran
+incident_province: Karaj
+incident_city: Gohardasht
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: آرمین عباس‌پور
-  
-  Shot directly by government suppressive forces during public protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2015480363087204829"
+  Shot directly by government suppressive forces during public protests.
+source_type: Social Media
+source_social_media_link: https://x.com/monfaredashkan/status/2014835442647237063, https://x.com/monfaredashkan/status/2014837746100273656, https://x.com/pouriazeraati/status/2015034629275754688, https://x.com/iranintl/status/2015122429497024849, https://x.com/MonfaredAshkan/status/2014837746100273656, https://x.com/HengawO/status/2015480363087204829, https://x.com/MonfaredAshkan/status/2014835442647237063, https://t.me/RememberTheirNames/1261, https://t.me/RememberTheirNames/731

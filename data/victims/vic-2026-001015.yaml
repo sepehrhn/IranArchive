@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Mohammad Sadeghi
 # ==========================================
 
-photo: "vic-2026-001015.jpg"
-name: "Ali Mohammad Sadeghi"
-
-# Personal & Birth Information
+photo: vic-2026-001015.jpg
+name: Ali Mohammad Sadeghi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Dehagh"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Dehagh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Infant whose body the government has not yet returned out of fear.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/visfehan/status/2015136316661334172"
+source_type: Social Media
+source_social_media_link: https://x.com/visfehan/status/2015136316661334172, https://x.com/aban_khoonin/status/2015160421586452684, https://x.com/VIsfehan/status/2015136316661334172, https://x.com/Daikatuo/status/2015144400959963322, https://t.me/RememberTheirNames/1107

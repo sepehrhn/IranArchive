@@ -2,36 +2,22 @@
 # Victim Documentation - Payam Babu Kouhestani
 # ==========================================
 
-photo: "vic-2026-000782.png"
-name: "Payam Babu Kouhestani"
-
-# Personal & Birth Information
+photo: vic-2026-000782.png
+name: Payam Babu Kouhestani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 35
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Chalous"
-
-# Death Information
+incident_city: Chalous
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with military weapon at approximately 9:30 while participating in protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011840906878423452"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2011874102471246289, https://x.com/Daikatuo/status/2011840906878423452

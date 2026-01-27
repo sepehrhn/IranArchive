@@ -2,36 +2,22 @@
 # Victim Documentation - Maryam Salehi
 # ==========================================
 
-photo: "vic-2026-000994.jpg"
-name: "Maryam Salehi"
-
-# Personal & Birth Information
+photo: vic-2026-000994.jpg
+name: Maryam Salehi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehran
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the heart during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/damdami/status/2015005680210514047"
+source_type: Social Media
+source_social_media_link: https://x.com/damdami/status/2015005680210514047, https://t.me/RememberTheirNames/962

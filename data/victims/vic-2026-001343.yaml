@@ -2,38 +2,24 @@
 # Victim Documentation - Mehdi Zarei
 # ==========================================
 
-photo: "vic-2026-001343.jpg"
-name: "Mehdi Zarei"
-
-# Personal & Birth Information
+photo: vic-2026-001343.jpg
+name: Mehdi Zarei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 22
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Haft Hoz
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: مهدی زارعی
-  
-  Shot by Sepah (IRGC) forces in Haft Hoz neighborhood of Narmak, Tehran.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/shahramsadidi/status/2015425695787241852"
+  Shot by Sepah (IRGC) forces in Haft Hoz neighborhood of Narmak, Tehran.
+source_type: Social Media
+source_social_media_link: https://x.com/justchangingun/status/2015763824205344945, https://t.me/RememberTheirNames/1077

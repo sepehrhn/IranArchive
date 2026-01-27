@@ -2,36 +2,22 @@
 # Victim Documentation - Seyyed Milad Rahimi
 # ==========================================
 
-photo: "vic-2026-000134.png"
-name: "Seyyed Milad Rahimi"
-
-# Personal & Birth Information
+photo: vic-2026-000134.png
+name: Seyyed Milad Rahimi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Karaj
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by military forces during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011855746544136648"
+source_type: Social Media
+source_social_media_link: https://x.com/zagros_news/status/2011463206884212763, https://x.com/qadrichiya/status/2011456717721141417, https://x.com/Daikatuo/status/2011855746544136648

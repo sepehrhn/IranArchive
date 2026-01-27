@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Saleh Zarif Moghaddam
 # ==========================================
 
-photo: "vic-2026-000732.jpg"
-name: "Mohammad Saleh Zarif Moghaddam"
-
-# Personal & Birth Information
+photo: vic-2026-000732.jpg
+name: Mohammad Saleh Zarif Moghaddam
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 27
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with live ammunition during protests on Setareh Khan Street, then killed with finishing shot by Basij forces after falling to the ground
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2012162929924444446"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2012162929924444446, https://x.com/dw_persian/status/2012197770090721290

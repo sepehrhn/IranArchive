@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Mahdi Seif Allah Pour
 # ==========================================
 
-photo: "vic-2026-000055.jpg"
-name: "Mohammad Mahdi Seif Allah Pour"
-
-# Personal & Birth Information
+photo: vic-2026-000055.jpg
+name: Mohammad Mahdi Seif Allah Pour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Sattarkhan neighborhood"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Sattarkhan neighborhood
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during Tehran protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iwasanastasia/status/2014371645691973768"
+source_type: Social Media
+source_social_media_link: https://x.com/iwasanastasia/status/2014371645691973768, https://x.com/HengawO/status/2014781999668437226

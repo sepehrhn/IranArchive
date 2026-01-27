@@ -3,36 +3,21 @@
 # ==========================================
 
 photo: ""
-
-name: "Fatemeh Anvari"
-
-# Personal & Birth Information
+name: Fatemeh Anvari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Karaj
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot three times while helping an injured person near her home.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/melicatm/status/2014735709421101255"
+source_type: Social Media
+source_social_media_link: https://x.com/melicatm/status/2014735709421101255

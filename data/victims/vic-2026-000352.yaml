@@ -2,36 +2,22 @@
 # Victim Documentation - Meysam Khazini
 # ==========================================
 
-photo: "vic-2026-000352.jpg"
-name: "Meysam Khazini"
-
-# Personal & Birth Information
+photo: vic-2026-000352.jpg
+name: Meysam Khazini
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 37
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Shahriyar"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Shahid Shahr
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Lost his life during protests (specific circumstances not detailed)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hyrcanihrm/status/2012044410268336502"
+source_type: Social Media
+source_social_media_link: https://x.com/hyrcanihrm/status/2012044410268336502, https://x.com/pouriazeraati/status/2012972877914529971, https://x.com/hengawo/status/2013568510937468981, https://x.com/mamlekate/status/2014629678330290389, https://x.com/HyrcaniHRM/status/2012044410268336502, https://x.com/HengawO/status/2012283597374234675, https://x.com/Daikatuo/status/2012215640212332549, https://x.com/HengawO/status/2013568510937468981, https://x.com/iranintlsport/status/2015696779732230264

@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Hossein Khalaj
 # ==========================================
 
-photo: "vic-2026-000889.jpg"
-name: "Mohammad Hossein Khalaj"
-
-# Personal & Birth Information
+photo: vic-2026-000889.jpg
+name: Mohammad Hossein Khalaj
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 25
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Qazvin"
-incident_city: "Alvand"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Qazvin
+incident_city: Alvand
+date_of_death: "2026-01-07"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly with military bullets by security forces while working at Ali Moshti juice and ice cream shop on Sohrevardi Street in Alvand
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2013167394030833908"
+source_type: Social Media
+source_social_media_link: https://x.com/tavaana/status/2013167394030833908, https://x.com/Tavaana/status/2013167394030833908

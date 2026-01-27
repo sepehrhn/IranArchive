@@ -2,36 +2,22 @@
 # Victim Documentation - Ehsan Golmakani
 # ==========================================
 
-photo: "vic-2026-000029.jpg"
-name: "Ehsan Golmakani"
-
-# Personal & Birth Information
+photo: vic-2026-000029.jpg
+name: Ehsan Golmakani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Mashhad
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with two bullets in front of Mellat Park in Mashhad.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/sinietos/status/2015067661529432087"
+source_type: Social Media
+source_social_media_link: https://x.com/sinietos/status/2015067661529432087

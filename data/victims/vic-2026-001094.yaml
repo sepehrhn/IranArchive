@@ -2,37 +2,24 @@
 # Victim Documentation - Hassan Nouri
 # ==========================================
 
-photo: ""
-
-name: "Hassan Nouri"
-
-# Personal & Birth Information
+photo: "vic-2026-001094.jpg"
+name: Hassan Nouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: ""
-
-# Death Information
+country: Iran
+incident_province: Kermanshah
+incident_city: Vakilabad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
+description: |-
+  Persian Name: حسن نوری
 
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014723608359104900"
+  Mentioned in a list of names.
+source_type: Social Media
+source_social_media_link: https://t.me/RememberTheirNames/1211

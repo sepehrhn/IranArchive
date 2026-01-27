@@ -2,36 +2,22 @@
 # Victim Documentation - Mehran Rafiei
 # ==========================================
 
-photo: "vic-2026-000687.jpg"
-name: "Mehran Rafiei"
-
-# Personal & Birth Information
+photo: vic-2026-000687.jpg
+name: Mehran Rafiei
 birth_date: ""
 birth_province: ""
-birth_city: "Zamidan village"
+birth_city: Zamidan village
 gender: ""
-age: 
-occupation: "hairdresser from Zamidan village"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Northern Iran (Chalous, Sari"
-
-# Death Information
+age: null
+occupation: hairdresser from Zamidan village
+country: Iran
+incident_province: Sari
+incident_city: Northern Iran (Chalous
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests in Lahijan in the area of Revolution Square. He was a hairdresser from Zamidan village
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pkhwshhal/status/2012363412274135472"
+source_type: Social Media
+source_social_media_link: https://x.com/pkhwshhal/status/2012363412274135472, https://x.com/hemadnazari/status/2012454210877415626, https://x.com/longlosthills/status/2012911154201325642, https://x.com/HengawO/status/2012863021467550147

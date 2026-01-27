@@ -2,36 +2,22 @@
 # Victim Documentation - Aref Nazarpour
 # ==========================================
 
-photo: "vic-2026-000881.jpg"
-name: "Aref Nazarpour"
-
-# Personal & Birth Information
+photo: vic-2026-000881.jpg
+name: Aref Nazarpour
 birth_date: ""
 birth_province: ""
-birth_city: "on top of a mosque"
+birth_city: on top of a mosque
 gender: ""
 age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Dargahan, Qeshm"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Qeshm
+incident_city: Dargahan
+date_of_death: "2026-01-07"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by a cleric with the surname Taheri while trying to help his wounded friend. Witnesses said he was shot from on top of a mosque.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/roozbehmon/status/2014107590259777671"
+source_type: Social Media
+source_social_media_link: https://x.com/roozbehmon/status/2014107590259777671, https://x.com/allahbakhshii/status/2014294110018961513, https://x.com/outofken/status/2014486746512425233, https://www.instagram.com/p/DT3zoIPiIzo, https://t.me/RememberTheirNames/619

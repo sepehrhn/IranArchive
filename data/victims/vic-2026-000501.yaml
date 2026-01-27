@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Rouzbehani
 # ==========================================
 
-photo: "vic-2026-000501.jpg"
-name: "Ali Rouzbehani"
-
-# Personal & Birth Information
+photo: vic-2026-000501.jpg
+name: Ali Rouzbehani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 29
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Tehranpars"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehranpars
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by Islamic Republic forces while in his wife's arms
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2013671704934101436"
+source_type: Social Media
+source_social_media_link: https://x.com/Tavaana/status/2013671704934101436, https://x.com/khoshnevisnaser/status/2015107343327907988, https://t.me/RememberTheirNames/580

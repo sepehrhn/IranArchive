@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Ghasemi
 # ==========================================
 
-photo: "vic-2026-000488.jpg"
-name: "Ali Ghasemi"
-
-# Personal & Birth Information
+photo: vic-2026-000488.jpg
+name: Ali Ghasemi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 28
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Varamin"
-
-# Death Information
+incident_city: Andimeshk
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces in the leg and stomach during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2013961046029967665"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2013961046029967665, https://t.me/RememberTheirNames/1103, https://t.me/RememberTheirNames/495

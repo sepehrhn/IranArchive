@@ -2,36 +2,22 @@
 # Victim Documentation - Yalda Mohammadi
 # ==========================================
 
-photo: "vic-2026-001393.jpg"
-name: "Yalda Mohammadi"
-
-# Personal & Birth Information
+photo: vic-2026-001393.jpg
+name: Yalda Mohammadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 15
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
+incident_city: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Shot by a sniper during protests and died in her mother's arms.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/noamagid/status/2015336068027924637"
+source_type: Social Media
+source_social_media_link: https://x.com/NoaMagid/status/2015336068027924637

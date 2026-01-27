@@ -2,36 +2,22 @@
 # Victim Documentation - Saeed Tarvand
 # ==========================================
 
-photo: "vic-2026-000101.jpg"
-name: "Saeed Tarvand"
-
-# Personal & Birth Information
+photo: vic-2026-000101.jpg
+name: Saeed Tarvand
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 33
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
+incident_city: Kermanshah
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with war bullet, oil company contractor, married with young child, body delivered after 5 days of threats and written commitment
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kurdpa_farsi/status/2013685872168751590"
+source_type: Social Media
+source_social_media_link: https://x.com/kurdpa_farsi/status/2013685872168751590, https://x.com/kurdpa_farsi/status/2013685502206001323, https://x.com/HengawO/status/2013719279015747794, https://www.instagram.com/p/DTxszGGCEAS, https://x.com/KurdistanHRN/status/2013985376872878373

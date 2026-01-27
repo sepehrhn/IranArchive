@@ -2,36 +2,22 @@
 # Victim Documentation - Moslem Jafarzadeh
 # ==========================================
 
-photo: "vic-2026-000754.jpg"
-name: "Moslem Jafarzadeh"
-
-# Personal & Birth Information
+photo: vic-2026-000754.jpg
+name: Moslem Jafarzadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 50
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Sari"
-
-# Death Information
+incident_city: Sari
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by the Islamic Republic regime
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2013374075251417097"
+source_type: Social Media
+source_social_media_link: https://x.com/Daikatuo/status/2013374075251417097

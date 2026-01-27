@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Nouri
 # ==========================================
 
-photo: "vic-2026-000920.jpg"
-name: "Mohammad Nouri"
-
-# Personal & Birth Information
+photo: vic-2026-000920.jpg
+name: Mohammad Nouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Qom"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Qom
+date_of_death: "2026-01-02"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot from behind by security forces during protests in Towhid Square, died from gunshot wound to the lung
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://www.iran-emrooz.net/index.php/news2/125134/"
+source_type: Social Media
+source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://x.com/loabatk/status/2008050407361110147, https://en.wikipedia.org/wiki/Killing_of_Mohammad_Nouri, https://x.com/iranrights_org/status/2009387278918127758, https://x.com/Daikatuo/status/2007848960887755083, https://x.com/AblotiaLucas/status/2010965817245024582

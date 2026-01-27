@@ -2,38 +2,24 @@
 # Victim Documentation - Hossein Tehranchi
 # ==========================================
 
-photo: "vic-2026-001382.jpg"
-name: "Hossein Tehranchi"
-
-# Personal & Birth Information
+photo: vic-2026-001382.jpg
+name: Hossein Tehranchi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 31
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Piroozi neighborhood
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: حسن تهرانچی
-  
-  Shot in the face by a sniper from above a mosque.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kazemmoe/status/2015578294343684368, https://x.com/kazemmoe/status/2015527377468617016, https://x.com/kazemmoe/status/2015518243771801707"
+  Shot in the face by a sniper from above a mosque.
+source_type: Social Media
+source_social_media_link: https://x.com/kazemmoe/status/2015578294343684368, https://x.com/KazemMoe/status/2015578294343684368, https://x.com/i/status/2015578294343684368, https://x.com/abulfazlmoshiri/status/2015585444331671587

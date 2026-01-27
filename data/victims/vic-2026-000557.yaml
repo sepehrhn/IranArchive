@@ -2,36 +2,22 @@
 # Victim Documentation - Arshia Hozoori
 # ==========================================
 
-photo: "vic-2026-000557.jpg"
-name: "Arshia Hozoori"
-
-# Personal & Birth Information
+photo: vic-2026-000557.jpg
+name: Arshia Hozoori
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 25
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Ferdows Boulevard"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Ferdows Boulevard
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed on Ferdows Boulevard in Tehran by the brutality of the Islamic Republic.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/perdant/status/2014390781914546467"
+source_type: Social Media
+source_social_media_link: https://x.com/perdant/status/2014390781914546467

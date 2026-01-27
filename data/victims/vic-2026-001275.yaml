@@ -2,38 +2,24 @@
 # Victim Documentation - Nima
 # ==========================================
 
-photo: "vic-2026-001275.jpg"
-name: "Nima"
-
-# Personal & Birth Information
+photo: vic-2026-001275.jpg
+name: Nima
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: نیما
-  
-  Died at Asgariyeh Hospital after falling off a motorcycle in Hasht Behesht. He was transgender.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/amymous021/status/2015163032297455945"
+  Died at Asgariyeh Hospital after falling off a motorcycle in Hasht Behesht. He was transgender.
+source_type: Social Media
+source_social_media_link: https://x.com/Soranmansournia/status/2012249572823720305, https://x.com/Amymous021/status/2015163032297455945

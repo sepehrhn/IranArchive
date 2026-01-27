@@ -2,38 +2,24 @@
 # Victim Documentation - Mahin Marhamati
 # ==========================================
 
-photo: "vic-2026-001299.jpg"
-name: "Mahin Marhamati"
-
-# Personal & Birth Information
+photo: vic-2026-001299.jpg
+name: Mahin Marhamati
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+incident_city: Tehran / Khorasan Shomali
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: مهین مرحمتی
-  
-  Shot and killed by security forces during protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://www.instagram.com/p/dt6cu2ydp8v"
+  Shot and killed by security forces during protests.
+source_type: Social Media
+source_social_media_link: https://www.instagram.com/p/DT6cu2YDp8V, https://x.com/Bestynisha/status/2014792212387656033, https://t.me/RememberTheirNames/900

@@ -2,36 +2,22 @@
 # Victim Documentation - Rasoul Kadivarian
 # ==========================================
 
-photo: "vic-2026-000908.jpg"
-name: "Rasoul Kadivarian"
-
-# Personal & Birth Information
+photo: vic-2026-000908.jpg
+name: Rasoul Kadivarian
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Kermanshah"
-incident_city: "Jafarabad area"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Kermanshah
+incident_city: Jafarabad area
+date_of_death: "2026-01-03"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by Islamic Republic forces during protests in Jafar Abad neighborhood, died instantly
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/"
+source_type: Social Media
+source_social_media_link: https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/iranrights_org/status/2009387278918127758, https://x.com/KurdistanHRN/status/2008214640791064873, https://x.com/KurdistanHRN/status/2015538579116642517, https://x.com/kurdistanhrn/status/2015538579116642517, https://x.com/Iran1Asl/status/2015089576088318398, https://x.com/KurdistanHRN/status/2015538461290422714

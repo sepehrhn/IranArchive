@@ -2,39 +2,24 @@
 # Victim Documentation - Mehran Salimi
 # ==========================================
 
-photo: "placeholder.png"
-
-name: "Mehran Salimi"
-
-# Personal & Birth Information
+photo: placeholder.png
+name: Mehran Salimi
 birth_date: ""
 birth_province: ""
-birth_city: "them while they were en route"
-gender: "Male"
-age: 28
+birth_city: them while they were en route
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Alborz"
-incident_city: "Hashtgerd"
-
-# Death Information
+country: Iran
+incident_province: Hashtgerd
+incident_city: Vahdat Town
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Mehran Salimi was killed by a gunshot in Hashtgerd on February 7, 2026. 
   By the time he was brought to the hospital, he had already passed away. 
   His family managed to take his body out of the hospital at night, but security agents seized it from them while they were en route.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: ""
+source_type: Social Media
+source_social_media_link: https://x.com/khoshnevisnaser/status/2014470628141650432, https://x.com/longlosthills/status/2015361665995272603, https://t.me/RememberTheirNames/852

@@ -2,36 +2,22 @@
 # Victim Documentation - Sadreh Hosseini
 # ==========================================
 
-photo: "vic-2026-000814.jpg"
-name: "Sadreh Hosseini"
-
-# Personal & Birth Information
+photo: vic-2026-000814.jpg
+name: Sadreh Hosseini
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 38
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Azimiyeh, Karaj"
-
-# Death Information
+country: Iran
+incident_province: Karaj
+incident_city: Azimiyeh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/loabatk/status/2012279587615518781"
+source_type: Social Media
+source_social_media_link: https://x.com/loabatk/status/2012279587615518781

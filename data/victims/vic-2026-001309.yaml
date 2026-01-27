@@ -2,38 +2,24 @@
 # Victim Documentation - Mohsen Namazi
 # ==========================================
 
-photo: "vic-2026-001309.jpg"
-name: "Mohsen Namazi"
-
-# Personal & Birth Information
+photo: vic-2026-001309.jpg
+name: Mohsen Namazi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 19
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Falah
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: محسن نمازی
-  
-  Shot with three bullets in Baharan Square (Falah neighborhood) in Tehran.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2015508874837803269"
+  Shot with three bullets in Baharan Square (Falah neighborhood) in Tehran.
+source_type: Social Media
+source_social_media_link: https://x.com/Tavaana/status/2015508874837803269, https://t.me/RememberTheirNames/1248

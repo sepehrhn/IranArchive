@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Pirousar
 # ==========================================
 
-photo: "vic-2026-000727.jpg"
-name: "Mohammad Pirousar"
-
-# Personal & Birth Information
+photo: vic-2026-000727.jpg
+name: Mohammad Pirousar
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
+incident_city: Tabriz
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Climbing instructor, shot in the heart at Chahar Rah-e Shahnaz.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/dadban4/status/2015006758817730853"
+source_type: Social Media
+source_social_media_link: https://x.com/dadban4/status/2015006758817730853, https://x.com/jeanne2022rev/status/2015069754055168232, https://x.com/ashk_shadi/status/2015053197237166468, https://t.me/RememberTheirNames/1016

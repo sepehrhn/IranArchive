@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Reza Seyed Saleh
 # ==========================================
 
-photo: "vic-2026-000499.jpg"
-name: "Ali Reza Seyed Saleh"
-
-# Personal & Birth Information
+photo: vic-2026-000499.jpg
+name: Ali Reza Seyed Saleh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Isfahan, Fولادشهر (Steel City)"
-
-# Death Information
+country: Iran
+incident_province: Fولادشهر (Steel City)
+incident_city: Isfahan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by suppression forces during protests in his hometown.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2014261757322367396"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2014261757322367396, https://x.com/iranwire/status/2014662465754104097, https://x.com/hirman__/status/2014693540509491508, https://t.me/RememberTheirNames/524

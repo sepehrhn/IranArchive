@@ -2,36 +2,22 @@
 # Victim Documentation - Miaad Sadeh-Miri
 # ==========================================
 
-photo: "vic-2026-000356.jpg"
-name: "Miaad Sadeh-Miri"
-
-# Personal & Birth Information
+photo: vic-2026-000356.jpg
+name: Miaad Sadeh-Miri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Ilam"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Ilam
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with live ammunition by Islamic Republic suppression forces during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kurdpa_farsi/status/2014444101844844713"
+source_type: Social Media
+source_social_media_link: https://x.com/kurdpa_farsi/status/2014444101844844713, https://x.com/namahsos1979/status/2014488584590618680, https://www.instagram.com/p/DT09BxziraP, https://x.com/HengawO/status/2014678844024775051, https://t.me/RememberTheirNames/741

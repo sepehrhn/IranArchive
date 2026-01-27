@@ -2,37 +2,23 @@
 # Victim Documentation - Farhad Nazari Gurajui
 # ==========================================
 
-photo: ""
-
-name: "Farhad Nazari Gurajui"
-
-# Personal & Birth Information
+photo: "vic-2026-001078.jpg"
+name: Farhad Nazari Gurajui
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: ""
-
-# Death Information
+incident_city: Kermanshah
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
+description: |+
+  Persian Name: فرهاد نظری گوراجویی
 
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014723608359104900"
+source_type: Social Media
+source_social_media_link: https://t.me/RememberTheirNames/1397

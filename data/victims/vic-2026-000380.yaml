@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Sepiani
 # ==========================================
 
-photo: "vic-2026-000380.png"
-name: "Mohammad Sepiani"
-
-# Personal & Birth Information
+photo: vic-2026-000380.png
+name: Mohammad Sepiani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 27
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Yazdanshahr"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Isfahan
+incident_city: Yazdanshahr
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests in Yazdanshahr, Isfahan (described as Georgian speaker)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/visfehan/status/2014366150235230599"
+source_type: Social Media
+source_social_media_link: https://x.com/visfehan/status/2014366150235230599, https://x.com/VIsfehan/status/2015153518521246153, https://x.com/manotonews/status/2015877405206839635, https://x.com/i/status/2015877405206839635, https://t.me/RememberTheirNames/665

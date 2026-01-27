@@ -2,38 +2,24 @@
 # Victim Documentation - Atena Hosseinian
 # ==========================================
 
-photo: "vic-2026-001294.jpg"
-name: "Atena Hosseinian"
-
-# Personal & Birth Information
+photo: vic-2026-001294.jpg
+name: Atena Hosseinian
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gorgan"
-
-# Death Information
+incident_city: Gorgan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: آتنا حسینیان
-  
-  Shot in the head in front of the Gorgan governorate by mercenaries.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://www.instagram.com/p/dt6mv73duyn"
+  Shot in the head in front of the Gorgan governorate by mercenaries.
+source_type: Social Media
+source_social_media_link: https://www.instagram.com/p/DT6Mv73DUyN, https://x.com/iranintl/status/2015476400644309258

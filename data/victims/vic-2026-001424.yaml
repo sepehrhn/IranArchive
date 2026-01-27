@@ -2,39 +2,24 @@
 # Victim Documentation - Mohammad Mirzaei
 # ==========================================
 
-photo: ""
-
-name: "Mohammad Mirzaei"
-
-# Personal & Birth Information
+photo: "vic-2026-001424.jpg"
+name: Mohammad Mirzaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
-date_of_death: ""
-date_of_death_precision: "Exact"
+incident_city: Sari
+date_of_death: "2026-01-08"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: محمد میرزایی
-  
-  Killed by the Islamic Republic
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pumkin_rn/status/2014610356266508489"
+  Killed by the Islamic Republic
+source_type: Social Media
+source_social_media_link: https://x.com/Walterakam/status/2015457194972487721, https://x.com/pumkin_rn/status/2014610356266508489

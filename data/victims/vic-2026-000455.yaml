@@ -2,36 +2,22 @@
 # Victim Documentation - Tina Noorali
 # ==========================================
 
-photo: "vic-2026-000455.jpg"
-name: "Tina Noorali"
-
-# Personal & Birth Information
+photo: vic-2026-000455.jpg
+name: Tina Noorali
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Meydan-e Haft-e Howz
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot dead in Haft Hoz Square by Islamic regime mob
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/persiangangster/status/2015102883625386339"
+source_type: Social Media
+source_social_media_link: https://x.com/persiangangster/status/2015102883625386339, https://t.me/poshtpardeha/248939, https://x.com/HeKasrehCrisis/status/2015523167104548996, https://x.com/hekasrehcrisis/status/2015523167104548996

@@ -2,36 +2,22 @@
 # Victim Documentation - Saeed Panahi
 # ==========================================
 
-photo: "vic-2026-000822.jpg"
-name: "Saeed Panahi"
-
-# Personal & Birth Information
+photo: vic-2026-000822.jpg
+name: Saeed Panahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 29
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Gohardasht, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Gohardasht
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by agents of the Islamic Republic during protests. First bullet hit his side; second bullet struck his jugular artery, causing him to die on the spot in front of his wife.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/maroofian_n/status/2014771901541888115"
+source_type: Social Media
+source_social_media_link: https://x.com/maroofian_n/status/2014771901541888115, https://t.me/RememberTheirNames/903

@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Zanganeh
 # ==========================================
 
-photo: "vic-2026-000504.jpg"
-name: "Ali Zanganeh"
-
-# Personal & Birth Information
+photo: vic-2026-000504.jpg
+name: Ali Zanganeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 24
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran or Mashhad"
-
-# Death Information
+incident_city: Tehran or Mashhad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with war bullets from behind and side while in Emamiyeh Square - electrical engineering student
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranwire/status/2013696492058390755"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2013696492058390755, https://x.com/HengawO/status/2013727681393700938, https://x.com/Azargoy/status/2014105643494289912

@@ -2,36 +2,22 @@
 # Victim Documentation - Reza Khanzadeh
 # ==========================================
 
-photo: "vic-2026-000802.jpg"
-name: "Reza Khanzadeh"
-
-# Personal & Birth Information
+photo: vic-2026-000802.jpg
+name: Reza Khanzadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 19
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Esfarayen"
-
-# Death Information
+incident_city: Esfarayen
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the heart by government forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/shahramsadidi/status/2014461972054475120"
+source_type: Social Media
+source_social_media_link: https://x.com/shahramsadidi/status/2014461972054475120, https://x.com/ShahramSadidi/status/2014058801742143496, https://t.me/RememberTheirNames/553

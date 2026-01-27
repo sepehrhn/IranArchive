@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Rasoul Jafari
 # ==========================================
 
-photo: "vic-2026-000728.jpg"
-name: "Mohammad Rasoul Jafari"
-
-# Personal & Birth Information
+photo: vic-2026-000728.jpg
+name: Mohammad Rasoul Jafari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gorgan"
-
-# Death Information
+incident_city: Kermanshah
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by the forces of the Islamic Republic of Iran during protests in the city.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hyrcanihrm/status/2014971540467499400"
+source_type: Social Media
+source_social_media_link: https://x.com/soranmansournia/status/2014852392072700064, https://x.com/hyrcanihrm/status/2014971540467499400, https://www.instagram.com/p/DT4swQqjKP2, https://x.com/HyrcaniHRM/status/2014971540467499400, https://t.me/RememberTheirNames/1073

@@ -2,36 +2,22 @@
 # Victim Documentation - Komar Deroftadeh
 # ==========================================
 
-photo: "vic-2026-001111.jpg"
-name: "Komar Deroftadeh"
-
-# Personal & Birth Information
+photo: vic-2026-001111.jpg
+name: Komar Deroftadeh
 birth_date: ""
 birth_province: ""
-birth_city: "regime forces"
+birth_city: regime forces
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Iran's Kurdish regions"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Iran's Kurdish regions
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by direct fire from regime forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2009997023949533500"
+source_type: Social Media
+source_social_media_link: https://x.com/longlosthills/status/2009997023949533500

@@ -2,36 +2,22 @@
 # Victim Documentation - Amir Teymouri
 # ==========================================
 
-photo: "vic-2026-000534.jpg"
-name: "Amir Teymouri"
-
-# Personal & Birth Information
+photo: vic-2026-000534.jpg
+name: Amir Teymouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 19
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Fardis"
-
-# Death Information
+incident_city: Fardis
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with war weapons by Islamic Republic suppression forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2012855576514941086"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2012855576514941086, https://t.me/RememberTheirNames/724

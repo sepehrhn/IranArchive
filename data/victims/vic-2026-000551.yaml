@@ -2,36 +2,22 @@
 # Victim Documentation - Arman Gerjeyan
 # ==========================================
 
-photo: "vic-2026-000551.jpg"
-name: "Arman Gerjeyan"
-
-# Personal & Birth Information
+photo: vic-2026-000551.jpg
+name: Arman Gerjeyan
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 20
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Baba Meydan, Mamasani"
-
-# Death Information
+country: Iran
+incident_province: Mamasani
+incident_city: Baba Meydan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by security forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/ehsanzareei/status/2014445102333083721"
+source_type: Social Media
+source_social_media_link: https://x.com/hirman__/status/2014433128253677970, https://x.com/EhsanZareei/status/2014445102333083721, https://x.com/EhsanZareei/status/2014779353268142379, https://x.com/Tavaana/status/2015511474589065269, https://x.com/thefirstmim/status/2015309944573067432

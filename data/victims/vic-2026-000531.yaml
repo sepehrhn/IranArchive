@@ -2,36 +2,22 @@
 # Victim Documentation - Amir Naderi
 # ==========================================
 
-photo: "vic-2026-000531.jpg"
-name: "Amir Naderi"
-
-# Personal & Birth Information
+photo: vic-2026-000531.jpg
+name: Amir Naderi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 27
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Kermanshah"
-incident_city: "Islamabad-e Gharb"
-
-# Death Information
+country: Iran
+incident_province: Kermanshah
+incident_city: Islamabad-e Gharb
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with live ammunition by government forces during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2014420299731615946"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2014420299731615946, https://x.com/HengawO/status/2012925250128810138, https://x.com/KurdistanHRN/status/2014745842821824937

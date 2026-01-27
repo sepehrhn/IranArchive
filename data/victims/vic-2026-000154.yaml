@@ -2,36 +2,22 @@
 # Victim Documentation - Dastagir Gorgij
 # ==========================================
 
-photo: "vic-2026-000154.jpg"
-name: "Dastagir Gorgij"
-
-# Personal & Birth Information
+photo: vic-2026-000154.jpg
+name: Dastagir Gorgij
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 30
-occupation: "Baluch citizen without identification"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+occupation: Baluch citizen without identification
+country: Iran
 incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Mashhad
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot during protests in Mashhad. He was a Baluch citizen without identification. He was the son of Zaher, and lived in Hematabad neighborhood of Shirabad, on the outskirts of Zahedan.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/haalvsh/status/2014539725730963775"
+source_type: Social Media
+source_social_media_link: https://x.com/haalvsh/status/2014539725730963775, https://x.com/farzinkadkhodae/status/2014725161123996053, https://x.com/TheBalochWorld/status/2014626960455176573, https://x.com/hamalilalin/status/2015361907033612467, https://x.com/an_eastern_girl/status/2015241389047759042

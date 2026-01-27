@@ -2,36 +2,22 @@
 # Victim Documentation - Morteza Shane
 # ==========================================
 
-photo: "vic-2026-001171.jpg"
-name: "Morteza Shane"
-
-# Personal & Birth Information
+photo: vic-2026-001171.jpg
+name: Morteza Shane
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mashhad or Sabzevar"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Mashhad and Sabzevar
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2012846909497430064"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2012846909497430064, https://x.com/HengawO/status/2012846909497430064

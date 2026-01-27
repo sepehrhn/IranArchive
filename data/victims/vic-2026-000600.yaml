@@ -2,36 +2,22 @@
 # Victim Documentation - Farid Ramezani
 # ==========================================
 
-photo: "vic-2026-000600.jpg"
-name: "Farid Ramezani"
-
-# Personal & Birth Information
+photo: vic-2026-000600.jpg
+name: Farid Ramezani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Ariashahr neighborhood"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Ariashahr neighborhood
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces during protests in Ariashahr neighborhood. Eyewitness reported that after his death, security forces also shot at a royal crown tattoo on his right hand finger while collecting his belongings.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranwire/status/2013490540977737752"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2013490540977737752, https://x.com/gh0lch0magh/status/2013532933512937929, https://x.com/nicksotoudeh/status/2014085293377515972, https://x.com/amureza64/status/2014629027282067813, https://x.com/missmarpel75/status/2014631355280171293, https://x.com/NickSotoudeh/status/2014085293377515972, https://x.com/amureza64/status/2015791578150027455

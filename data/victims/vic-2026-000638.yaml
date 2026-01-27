@@ -2,36 +2,22 @@
 # Victim Documentation - Iraj Yousefi
 # ==========================================
 
-photo: "vic-2026-000638.jpg"
-name: "Iraj Yousefi"
-
-# Personal & Birth Information
+photo: vic-2026-000638.jpg
+name: Iraj Yousefi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 48
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Arak"
-
-# Death Information
+incident_city: Arak
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Republic mercenaries during protests on Makhabarat Street. Father of two children (Hiva and Aref).
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/behnam_chegini/status/2015132937037959345"
+source_type: Social Media
+source_social_media_link: https://x.com/behnam_chegini/status/2015132937037959345, https://x.com/SaeidVafa/status/2015166859172327565, https://t.me/RememberTheirNames/1100

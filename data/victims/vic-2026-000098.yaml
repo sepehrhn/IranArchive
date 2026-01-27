@@ -2,36 +2,22 @@
 # Victim Documentation - Hananeh Azizi
 # ==========================================
 
-photo: "vic-2026-000098.jpg"
-name: "Hananeh Azizi"
-
-# Personal & Birth Information
+photo: vic-2026-000098.jpg
+name: Hananeh Azizi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 18
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-07"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Injured by a war bullet and died in the hospital on Tuesday.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/visfehan/status/2014631661929975991"
+source_type: Social Media
+source_social_media_link: https://x.com/visfehan/status/2014631661929975991, https://x.com/VIsfehan/status/2014631661929975991, https://t.me/poshtpardeha/249415, https://x.com/missmarpel75/status/2015337600559554574, https://t.me/RememberTheirNames/801

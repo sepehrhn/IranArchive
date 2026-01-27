@@ -2,37 +2,22 @@
 # Victim Documentation - Mohsen Ramezani
 # ==========================================
 
-photo: ""
-
-name: "Mohsen Ramezani"
-
-# Personal & Birth Information
+photo: "vic-2026-000746.jpg"
+name: Mohsen Ramezani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Chamgardan"
-
-# Death Information
+country: Iran
+incident_province: Lenjan
+incident_city: Chamgardan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests on Thursday and Friday
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/visfehan/status/2014331046636990578"
+source_type: Social Media
+source_social_media_link: https://x.com/visfehan/status/2014331046636990578, https://x.com/VIsfehan/status/2015114384914161688, https://t.me/RememberTheirNames/1345

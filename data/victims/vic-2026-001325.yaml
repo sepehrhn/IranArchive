@@ -2,38 +2,24 @@
 # Victim Documentation - Amir Movahed
 # ==========================================
 
-photo: "vic-2026-001325.jpg"
-name: "Amir Movahed"
-
-# Personal & Birth Information
+photo: vic-2026-001325.jpg
+name: Amir Movahed
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gilan and Mazandaran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Gilan and Mazandaran
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: امیر موحد
-  
-  Killed during protests
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2015022203226513772"
+  Killed during protests
+source_type: Social Media
+source_social_media_link: https://x.com/HengawO/status/2015022203226513772

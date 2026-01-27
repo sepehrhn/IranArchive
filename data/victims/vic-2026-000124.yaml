@@ -3,36 +3,21 @@
 # ==========================================
 
 photo: ""
-
-name: "Zobeideh Rahimi"
-
-# Personal & Birth Information
+name: Zobeideh Rahimi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gorgan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Gorgan
+date_of_death: "2026-01-03"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Republic forces with five pellets in the throat, spent a week in ICU before passing away
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/banafshehviola/status/2013141432769663222"
+source_type: Social Media
+source_social_media_link: https://x.com/banafshehviola/status/2013141432769663222

@@ -2,36 +2,22 @@
 # Victim Documentation - Niloofar Masoudi
 # ==========================================
 
-photo: "vic-2026-000193.jpg"
-name: "Niloofar Masoudi"
-
-# Personal & Birth Information
+photo: vic-2026-000193.jpg
+name: Niloofar Masoudi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Isfahan
+incident_city: Baharestan
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed with a military weapon by the IRGC in a street.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2013992084802257150"
+source_type: Social Media
+source_social_media_link: https://x.com/HengawO/status/2013992084802257150, https://t.me/poshtpardeha/248473, https://x.com/morvari52612932/status/2015083297626325224, https://t.me/RememberTheirNames/671

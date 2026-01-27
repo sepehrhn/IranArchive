@@ -2,36 +2,22 @@
 # Victim Documentation - Moein Basiri
 # ==========================================
 
-photo: "vic-2026-001143.jpg"
-name: "Moein Basiri"
-
-# Personal & Birth Information
+photo: vic-2026-001143.jpg
+name: Moein Basiri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Andisheh"
-
-# Death Information
+incident_city: Andisheh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in the way of the homeland
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/itsicicicicicic/status/2014782409930076322"
+source_type: Social Media
+source_social_media_link: https://x.com/itsicicicicicic/status/2014782409930076322, https://t.me/RememberTheirNames/1227

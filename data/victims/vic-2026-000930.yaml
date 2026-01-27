@@ -2,36 +2,22 @@
 # Victim Documentation - Alireza Yazdani
 # ==========================================
 
-photo: "vic-2026-000930.jpg"
-name: "Alireza Yazdani"
-
-# Personal & Birth Information
+photo: vic-2026-000930.jpg
+name: Alireza Yazdani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 19
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Garmaseh, Falavarjan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Isfahan / Kandan
+incident_city: Falavarjan
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head by government forces during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014772586857598984"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2014764847137767921, https://x.com/visfehan/status/2014779310108795372, https://x.com/HengawO/status/2014772586857598984, https://x.com/HengawO/status/2014764847137767921, https://x.com/HengawO/status/2014710031246066053, https://x.com/VIsfehan/status/2014779310108795372, https://x.com/SabaMajlessi/status/2014623970515943835, https://t.me/RememberTheirNames/776

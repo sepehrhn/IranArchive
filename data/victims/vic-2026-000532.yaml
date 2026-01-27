@@ -2,36 +2,22 @@
 # Victim Documentation - Amir Parsa Eshkaboos
 # ==========================================
 
-photo: "vic-2026-000532.jpg"
-name: "Amir Parsa Eshkaboos"
-
-# Personal & Birth Information
+photo: vic-2026-000532.jpg
+name: Amir Parsa Eshkaboos
 birth_date: ""
 birth_province: ""
-birth_city: "behind"
+birth_city: behind
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Haft-Howz
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces during protests in the Haft-Hoz area of Tehran. He was shot in the neck from behind.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/loabatk/status/2012041989274104313"
+source_type: Social Media
+source_social_media_link: https://x.com/loabatk/status/2012041989274104313, https://x.com/iranwire/status/2014787193160548617, https://x.com/autnews_org/status/2014723143605096743, https://x.com/outofken/status/2014784520541839849, https://x.com/anjmotahed/status/2015009848274866182

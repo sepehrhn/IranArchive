@@ -2,36 +2,22 @@
 # Victim Documentation - Abolfazl Eskandari
 # ==========================================
 
-photo: "vic-2026-000215.jpg"
-name: "Abolfazl Eskandari"
-
-# Personal & Birth Information
+photo: vic-2026-000215.jpg
+name: Abolfazl Eskandari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Jamalabad village, Shazand"
-
-# Death Information
+country: Iran
+incident_province: Shazand
+incident_city: Jamalabad village
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by the Islamic Republic regime
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/saeidvafa/status/2014896406121632077"
+source_type: Social Media
+source_social_media_link: https://x.com/SaeidVafa/status/2014896406121632077, https://x.com/saeidvafa/status/2014896406121632077, https://x.com/behnam_chegini/status/2014964792016912845, https://x.com/SaeidVafa/status/2015902279329595430, https://t.me/RememberTheirNames/1158

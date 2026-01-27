@@ -2,38 +2,24 @@
 # Victim Documentation - Mohammad Faraji
 # ==========================================
 
-photo: "vic-2026-001354.png"
-name: "Mohammad Faraji"
-
-# Personal & Birth Information
+photo: vic-2026-001354.png
+name: Mohammad Faraji
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 34
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Parand"
-
-# Death Information
-date_of_death: "2026-01-23"
-date_of_death_precision: "Exact"
+incident_city: Parand
+date_of_death: "2025-12-27"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: محمد فرجی
-  
-  Shot by government forces during protests in Parand. Born 1 Mehr 1370.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hekasrehcrisis/status/2015310700734717975"
+  Shot by government forces during protests in Parand. Born 1 Mehr 1370.
+source_type: Social Media
+source_social_media_link: https://x.com/HeKasrehCrisis/status/2015310700734717975

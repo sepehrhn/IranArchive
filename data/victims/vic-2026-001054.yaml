@@ -2,36 +2,22 @@
 # Victim Documentation - Benyamin Balochi
 # ==========================================
 
-photo: "vic-2026-001054.jpg"
-name: "Benyamin Balochi"
-
-# Personal & Birth Information
+photo: vic-2026-001054.jpg
+name: Benyamin Balochi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 28
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Neyshabur, Khorasan Razavi"
-
-# Death Information
+country: Iran
+incident_province: Khorasan Razavi
+incident_city: Neyshabur
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests, family had to pay 300 million for body release after 3 days
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/thebalochworld/status/2013938636686053592"
+source_type: Social Media
+source_social_media_link: https://x.com/thebalochworld/status/2013938636686053592, https://x.com/TheBalochWorld/status/2013978436876788119

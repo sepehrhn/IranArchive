@@ -2,36 +2,22 @@
 # Victim Documentation - Hossein Mahmoudi Baram
 # ==========================================
 
-photo: "vic-2026-000095.jpg"
-name: "Hossein Mahmoudi Baram"
-
-# Personal & Birth Information
+photo: vic-2026-000095.jpg
+name: Hossein Mahmoudi Baram
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 35
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Falavarjan, Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Isfahan
+incident_city: Falavarjan
+date_of_death: "2026-01-21"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by suppressive forces affiliated with the Islamic terrorist republic
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2013892519814103233"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2013892519814103233, https://x.com/foreverybd/status/2013946515723612414, https://www.instagram.com/p/DTxh5vBCJIj, https://t.me/RememberTheirNames/481

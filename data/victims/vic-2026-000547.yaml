@@ -2,36 +2,22 @@
 # Victim Documentation - Aria Alidoust (Gharibabadi)
 # ==========================================
 
-photo: "vic-2026-000547.jpg"
-name: "Aria Alidoust (Gharibabadi)"
-
-# Personal & Birth Information
+photo: vic-2026-000547.jpg
+name: Aria Alidoust (Gharibabadi)
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Lahijan"
-
-# Death Information
+incident_city: Lahijan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by motorbike units of regime's suppressive forces using live ammunition during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/friendfeedi/status/2011957631326568905"
+source_type: Social Media
+source_social_media_link: https://x.com/friendfeedi/status/2011957631326568905, https://x.com/ihrights/status/2013335102064075103, https://x.com/HyrcaniHRM/status/2012247339709104604, https://x.com/HengawO/status/2012283597374234675

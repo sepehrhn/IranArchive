@@ -2,36 +2,22 @@
 # Victim Documentation - Manouchehr Baghani
 # ==========================================
 
-photo: "vic-2026-000666.png"
-name: "Manouchehr Baghani"
-
-# Personal & Birth Information
+photo: vic-2026-000666.png
+name: Manouchehr Baghani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Arrested on Thursday, January 8th in Afsariyeh neighborhood of Tehran. Family was informed two weeks later by the Martyr Foundation that he was killed by a shot to the heart. His face was reportedly destroyed.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hekasrehcrisis/status/2015163601146028147"
+source_type: Social Media
+source_social_media_link: https://x.com/hekasrehcrisis/status/2015163601146028147, https://x.com/HeKasrehCrisis/status/2015163601146028147, https://t.me/RememberTheirNames/1114

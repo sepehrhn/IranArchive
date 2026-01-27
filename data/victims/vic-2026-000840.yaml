@@ -2,36 +2,22 @@
 # Victim Documentation - Sepehr Shokri
 # ==========================================
 
-photo: "vic-2026-000840.jpg"
-name: "Sepehr Shokri"
-
-# Personal & Birth Information
+photo: vic-2026-000840.jpg
+name: Sepehr Shokri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 25
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/loabatk/status/2012276059639599170"
+source_type: Social Media
+source_social_media_link: https://x.com/loabatk/status/2012276059639599170, https://www.instagram.com/p/DT6UYqekewE

@@ -2,36 +2,22 @@
 # Victim Documentation - Mehran Mozaffari
 # ==========================================
 
-photo: "vic-2026-000686.jpg"
-name: "Mehran Mozaffari"
-
-# Personal & Birth Information
+photo: vic-2026-000686.jpg
+name: Mehran Mozaffari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 27
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Fars"
-incident_city: "Darab"
-
-# Death Information
+country: Iran
+incident_province: Fars
+incident_city: Darab
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/monfaredashkan/status/2015165120700371213"
+source_type: Social Media
+source_social_media_link: https://x.com/monfaredashkan/status/2015167621629620544, https://x.com/manotonews/status/2015530115942277321, https://x.com/hirman__/status/2015612851621081412, https://x.com/MonfaredAshkan/status/2015165120700371213, https://t.me/RememberTheirNames/1249

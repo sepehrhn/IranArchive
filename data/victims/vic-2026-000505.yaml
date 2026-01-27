@@ -2,36 +2,22 @@
 # Victim Documentation - Ali-Asghar Khodadadi
 # ==========================================
 
-photo: "vic-2026-000505.jpg"
-name: "Ali-Asghar Khodadadi"
-
-# Personal & Birth Information
+photo: vic-2026-000505.jpg
+name: Ali-Asghar Khodadadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 18
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Esfarayen"
-
-# Death Information
+incident_city: Esfarayen
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the chest with two bullets by government forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/shahramsadidi/status/2014084627158138977"
+source_type: Social Media
+source_social_media_link: https://x.com/shahramsadidi/status/2014084627158138977, https://x.com/ShahramSadidi/status/2014084627158138977, https://x.com/yaldarta/status/2014946096523481285, https://x.com/iranwire/status/2015293696732778589, https://t.me/RememberTheirNames/564

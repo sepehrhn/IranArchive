@@ -2,36 +2,22 @@
 # Victim Documentation - Leila Ashpazsand
 # ==========================================
 
-photo: "vic-2026-000051.png"
-name: "Leila Ashpazsand"
-
-# Personal & Birth Information
+photo: vic-2026-000051.png
+name: Leila Ashpazsand
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Bandar Abbas"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Bandar Abbas
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by the Islamic Republic regime during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2014680879512109379"
+source_type: Social Media
+source_social_media_link: https://x.com/daikatuo/status/2014680879512109379, https://x.com/Daikatuo/status/2014680879512109379, https://t.me/RememberTheirNames/749

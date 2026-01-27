@@ -2,36 +2,22 @@
 # Victim Documentation - Ghasem Vakili
 # ==========================================
 
-photo: "vic-2026-000612.jpg"
-name: "Ghasem Vakili"
-
-# Personal & Birth Information
+photo: vic-2026-000612.jpg
+name: Ghasem Vakili
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Qazvin province"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Qazvin province
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly in the head by Islamic Republic forces during crackdown on protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranprotestscom/status/2012103435953328438"
+source_type: Social Media
+source_social_media_link: https://x.com/iranprotestscom/status/2012103435953328438, https://x.com/longlosthills/status/2012604451161325654, https://x.com/jinzianazadi/status/2012470517274399074, https://x.com/banafshehviola/status/2012626117489020929, https://x.com/manotonews/status/2013302938471669782, https://x.com/manotonews/status/2013310492702372285

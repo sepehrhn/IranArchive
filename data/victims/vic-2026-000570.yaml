@@ -2,36 +2,22 @@
 # Victim Documentation - Bijan Mostafavi
 # ==========================================
 
-photo: "vic-2026-000570.jpg"
-name: "Bijan Mostafavi"
-
-# Personal & Birth Information
+photo: vic-2026-000570.jpg
+name: Bijan Mostafavi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 55
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Kerman
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by government forces while in personal vehicle during peaceful protests along with his son and wife
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011858468727066737"
+source_type: Social Media
+source_social_media_link: https://x.com/Daikatuo/status/2011858468727066737, https://x.com/NazaninNour/status/2012074095429701697, https://x.com/ManotoNews/status/2012963201911066841, https://x.com/ManotoNews/status/2012933004767949267, https://x.com/IranIntl/status/2011737339719012787

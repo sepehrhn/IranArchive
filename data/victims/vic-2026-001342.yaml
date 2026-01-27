@@ -2,38 +2,24 @@
 # Victim Documentation - Leila Shokri
 # ==========================================
 
-photo: "vic-2026-001342.jpg"
-name: "Leila Shokri"
-
-# Personal & Birth Information
+photo: vic-2026-001342.jpg
+name: Leila Shokri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 43
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Qarchak"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Garchak (near Tehran)
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: لیلا شکری
-  
-  Shot in the head with a war bullet. Has three daughters, one of whom is only 2 years old.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hekasrehcrisis/status/2015304481093624250"
+  Shot in the head with a war bullet. Has three daughters, one of whom is only 2 years old.
+source_type: Social Media
+source_social_media_link: https://x.com/hekasrehcrisis/status/2015304481093624250, https://x.com/HengawO/status/2015729399618769332, https://x.com/IranianPlateau/status/2015461845310591008, https://x.com/iranwire/status/2015861963738255455, https://x.com/HeKasrehCrisis/status/2015304481093624250, https://t.me/RememberTheirNames/1324

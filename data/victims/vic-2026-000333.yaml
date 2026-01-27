@@ -2,36 +2,22 @@
 # Victim Documentation - Majid Reshidi
 # ==========================================
 
-photo: "vic-2026-000333.jpg"
-name: "Majid Reshidi"
-
-# Personal & Birth Information
+photo: vic-2026-000333.jpg
+name: Majid Reshidi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 51
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah (Kerma-shan)"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Kermanshah (Kerma-shan)
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by government forces during protests in the Maskan neighborhood of the city.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014814907925991911"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2014814907925991911, https://x.com/HengawO/status/2014814907925991911

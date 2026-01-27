@@ -2,36 +2,22 @@
 # Victim Documentation - Saeid Keykhaii
 # ==========================================
 
-photo: "vic-2026-000429.jpg"
-name: "Saeid Keykhaii"
-
-# Personal & Birth Information
+photo: vic-2026-000429.jpg
+name: Saeid Keykhaii
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Foladshahr"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Isfahan
+incident_city: Fooladshahr
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by suppressive forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2014359902156636387"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2014359902156636387, https://x.com/ManotoNews/status/2014359902156636387, https://t.me/RememberTheirNames/543

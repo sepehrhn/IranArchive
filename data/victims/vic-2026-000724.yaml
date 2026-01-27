@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Moein Mohammadyousefi
 # ==========================================
 
-photo: "vic-2026-000724.jpg"
-name: "Mohammad Moein Mohammadyousefi"
-
-# Personal & Birth Information
+photo: vic-2026-000724.jpg
+name: Mohammad Moein Mohammadyousefi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 25
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Naziaabad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Republic forces in Nazi Abad, Behesht Square. He was shot in the neck and then shot again after falling to the ground. The cause of death was falsely reported as an accident in the medical report.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/indypersian/status/2015067524069720086"
+source_type: Social Media
+source_social_media_link: https://x.com/indypersian/status/2015067524069720086, https://x.com/elphy_mom/status/2015422553985290329, https://t.me/RememberTheirNames/893

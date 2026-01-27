@@ -2,36 +2,22 @@
 # Victim Documentation - Amir Ali Zarei
 # ==========================================
 
-photo: "vic-2026-000523.jpg"
-name: "Amir Ali Zarei"
-
-# Personal & Birth Information
+photo: vic-2026-000523.jpg
+name: Amir Ali Zarei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 56
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Majidiyeh"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Majidiyeh
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by regime forces during protest
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/fseifikaran/status/2012976039979295076"
+source_type: Social Media
+source_social_media_link: https://x.com/aryammehr_2/status/2013853014260412664, https://x.com/FSeifikaran/status/2012976039979295076, https://x.com/HengawO/status/2013727681393700938, https://x.com/allahbakhshii/status/2015762578534789205, https://x.com/Far_zandehIran/status/2015673774041915575

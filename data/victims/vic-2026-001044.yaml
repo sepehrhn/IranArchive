@@ -2,36 +2,22 @@
 # Victim Documentation - Armita Geravand
 # ==========================================
 
-photo: "vic-2026-001044.jpg"
-name: "Armita Geravand"
-
-# Personal & Birth Information
+photo: vic-2026-001044.jpg
+name: Armita Geravand
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 16
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Beating"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehran
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Beating
+status: Killed
 description: |
   Violently beaten by government forces at Haft-e-Tir metro station, fell into coma and died several days later in hospital
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2011432069621248275"
+source_type: Social Media
+source_social_media_link: https://x.com/longlosthills/status/2011432069621248275

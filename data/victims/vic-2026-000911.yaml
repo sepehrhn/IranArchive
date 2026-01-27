@@ -3,36 +3,21 @@
 # ==========================================
 
 photo: ""
-
-name: "Ali Azizi Jafarabadi"
-
-# Personal & Birth Information
+name: Ali Azizi Jafarabadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 42
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Kermanshah"
-incident_city: "Harsin County"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Kermanshah
+incident_city: Harsin County
+date_of_death: "2026-01-02"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Kurdish man with wife and two children, shot by government security forces (initially reported as Basij member killed, later corrected)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://en.wikipedia.org/wiki/2026_Iran_massacres"
+source_type: Social Media
+source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres, https://en.wikipedia.org/wiki/2026_Iran_massacres#30_December, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2

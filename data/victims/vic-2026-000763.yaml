@@ -2,36 +2,22 @@
 # Victim Documentation - Naser Movahhednia
 # ==========================================
 
-photo: "vic-2026-000763.jpg"
-name: "Naser Movahhednia"
-
-# Personal & Birth Information
+photo: vic-2026-000763.jpg
+name: Naser Movahhednia
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 71
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Fouladshahr"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Fouladshahr
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by security forces during protests, body found severely beaten with extensive head trauma after one week of enforced disappearance
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2013292458105532491"
+source_type: Social Media
+source_social_media_link: https://x.com/tavaana/status/2013292458105532491, https://x.com/hengawo/status/2013618561839677909, https://x.com/Tavaana/status/2013292458105532491, https://x.com/HengawO/status/2013618561839677909

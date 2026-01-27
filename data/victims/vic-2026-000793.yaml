@@ -2,36 +2,22 @@
 # Victim Documentation - Rasheed Saleh
 # ==========================================
 
-photo: "vic-2026-000793.jpg"
-name: "Rasheed Saleh"
-
-# Personal & Birth Information
+photo: vic-2026-000793.jpg
+name: Rasheed Saleh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 21
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
+incident_city: Isfahan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by government forces during protests on Roudaki Street in Isfahan
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2012997053215899934"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2012997053215899934, https://x.com/manotonews/status/2014775141432230269, https://x.com/HengawO/status/2012997053215899934, https://x.com/ManotoNews/status/2014775141432230269

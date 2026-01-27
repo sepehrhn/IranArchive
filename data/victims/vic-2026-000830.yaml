@@ -2,36 +2,22 @@
 # Victim Documentation - Sam Afshari
 # ==========================================
 
-photo: "vic-2026-000830.jpg"
-name: "Sam Afshari"
-
-# Personal & Birth Information
+photo: vic-2026-000830.jpg
+name: Sam Afshari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Azimiyeh, Karaj"
-
-# Death Information
+country: Iran
+incident_province: Karaj
+incident_city: Azimiyeh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by government suppression forces during Thursday evening protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/loabatk/status/2012277775860670677"
+source_type: Social Media
+source_social_media_link: https://x.com/loabatk/status/2012277775860670677, https://x.com/hengawo/status/2012502028228907473, https://x.com/sssccpp/status/2012573833308352625, https://x.com/HengawO/status/2012502028228907473, https://x.com/HengawO/status/2012641346142572662

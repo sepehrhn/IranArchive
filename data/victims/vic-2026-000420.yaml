@@ -2,36 +2,22 @@
 # Victim Documentation - Rahman Khorsandi
 # ==========================================
 
-photo: "vic-2026-000420.jpg"
-name: "Rahman Khorsandi"
-
-# Personal & Birth Information
+photo: vic-2026-000420.jpg
+name: Rahman Khorsandi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 60
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Fardis
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot and killed
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/fseifikaran/status/2014312951633559984"
+source_type: Social Media
+source_social_media_link: https://x.com/fseifikaran/status/2014312951633559984, https://t.me/RememberTheirNames/463

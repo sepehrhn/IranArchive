@@ -2,38 +2,24 @@
 # Victim Documentation - Alireza Jalilbeigi
 # ==========================================
 
-photo: "vic-2026-001374.png"
-name: "Alireza Jalilbeigi"
-
-# Personal & Birth Information
+photo: vic-2026-001374.png
+name: Alireza Jalilbeigi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kerman"
-
-# Death Information
+incident_city: Kerman
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: علیرضا جلیل بیگی
-  
-  Shot in the head during the national revolution in Hazaroyekshab street.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hekasrehcrisis/status/2015578519338614800"
+  Shot in the head during the national revolution in Hazaroyekshab street.
+source_type: Social Media
+source_social_media_link: https://x.com/hekasrehcrisis/status/2015578519338614800, https://x.com/i/status/2015578519338614800

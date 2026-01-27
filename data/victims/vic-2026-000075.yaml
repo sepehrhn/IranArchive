@@ -2,36 +2,22 @@
 # Victim Documentation - Bahar Hosseini
 # ==========================================
 
-photo: "vic-2026-000075.jpg"
-name: "Bahar Hosseini"
-
-# Personal & Birth Information
+photo: vic-2026-000075.jpg
+name: Bahar Hosseini
 birth_date: ""
 birth_province: ""
-birth_city: "context)"
+birth_city: context)
 gender: ""
 age: 3
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Neyshabur"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Neyshabur
+date_of_death: "2025-12-28"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Student killed during protests (implied from context)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/shahramsadidi/status/2013977286840607199"
+source_type: Social Media
+source_social_media_link: https://x.com/shahramsadidi/status/2013977286840607199, https://x.com/sattarkhan121/status/2014400881794433196, https://x.com/HaidryNasrin/status/2014341531302293872, https://x.com/isamanyasin/status/2015155917126254743, https://t.me/RememberTheirNames/488

@@ -2,38 +2,24 @@
 # Victim Documentation - Shadan Moradi Lindi
 # ==========================================
 
-photo: "vic-2026-001247.jpg"
-name: "Shadan Moradi Lindi"
-
-# Personal & Birth Information
+photo: vic-2026-001247.jpg
+name: Shadan Moradi Lindi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 42
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Golshahr, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Golshahr
+date_of_death: "2025-12-26"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: شادان مرادی لیندی
-  
-  Shot three times by regime forces
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mousavi1355/status/2015255487122489500"
+  Shot three times by regime forces
+source_type: Social Media
+source_social_media_link: https://x.com/Mousavi1355/status/2015255487122489500, https://x.com/mousavi1355/status/2015255487122489500, https://t.me/RememberTheirNames/770

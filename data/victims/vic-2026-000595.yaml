@@ -2,36 +2,22 @@
 # Victim Documentation - Erfan Moghayeseh
 # ==========================================
 
-photo: "vic-2026-000595.jpg"
-name: "Erfan Moghayeseh"
-
-# Personal & Birth Information
+photo: vic-2026-000595.jpg
+name: Erfan Moghayeseh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 20
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Moshiriyeh"
-
-# Death Information
+country: Iran
+incident_province: ""
+incident_city: Mishirieh (near Police Station 196)
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the neck by government forces in front of police station 196.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2014670071801774249"
+source_type: Social Media
+source_social_media_link: https://x.com/tavaana/status/2014670071801774249, https://x.com/Tavaana/status/2014670071801774249

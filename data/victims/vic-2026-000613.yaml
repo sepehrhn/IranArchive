@@ -2,36 +2,22 @@
 # Victim Documentation - Gholamreza Zare
 # ==========================================
 
-photo: "vic-2026-000613.jpg"
-name: "Gholamreza Zare"
-
-# Personal & Birth Information
+photo: vic-2026-000613.jpg
+name: Gholamreza Zare
 birth_date: ""
 birth_province: ""
-birth_city: "his flower shop door"
+birth_city: his flower shop door
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shiraz"
-
-# Death Information
+incident_city: Marvdasht
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the neck by security forces after giving shelter to protesters and looking out from his flower shop door
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranintl/status/2014039881253539856"
+source_type: Social Media
+source_social_media_link: https://x.com/iranintl/status/2014039881253539856, https://t.me/RememberTheirNames/1237, https://t.me/RememberTheirNames/682

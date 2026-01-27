@@ -2,36 +2,22 @@
 # Victim Documentation - Mehrab Golestani
 # ==========================================
 
-photo: "vic-2026-000345.jpg"
-name: "Mehrab Golestani"
-
-# Personal & Birth Information
+photo: vic-2026-000345.jpg
+name: Mehrab Golestani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by government forces during nationwide protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranwire/status/2012207564331663521"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2012207564331663521, https://x.com/manotonews/status/2013891818837155894, https://x.com/HengawO/status/2012641346142572662

@@ -2,36 +2,22 @@
 # Victim Documentation - Saeed Soleimani Pour
 # ==========================================
 
-photo: "vic-2026-001207.jpg"
-name: "Saeed Soleimani Pour"
-
-# Personal & Birth Information
+photo: vic-2026-001207.jpg
+name: Saeed Soleimani Pour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Arak"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Arak
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by the Islamic Republic's henchmen during protests in the streets.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/behnam_chegini/status/2014738690992468263"
+source_type: Social Media
+source_social_media_link: https://x.com/behnam_chegini/status/2014738690992468263, https://t.me/RememberTheirNames/865

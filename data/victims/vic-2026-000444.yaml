@@ -2,36 +2,22 @@
 # Victim Documentation - Siamak Rashid
 # ==========================================
 
-photo: "vic-2026-000444.jpg"
-name: "Siamak Rashid"
-
-# Personal & Birth Information
+photo: vic-2026-000444.jpg
+name: Siamak Rashid
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 51
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Parand"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Parand
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head and chest by security forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2014344805761864130"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2014344805761864130, https://x.com/ManotoNews/status/2014344805761864130

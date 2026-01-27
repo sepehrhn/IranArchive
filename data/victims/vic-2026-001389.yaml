@@ -2,36 +2,22 @@
 # Victim Documentation - MohammadHossein Parnoun
 # ==========================================
 
-photo: "vic-2026-001389.jpg"
-name: "MohammadHossein Parnoun"
-
-# Personal & Birth Information
+photo: vic-2026-001389.jpg
+name: MohammadHossein Parnoun
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 15
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Masour neighborhood"
-incident_city: "Khorramabad"
-
-# Death Information
+country: Iran
+incident_province: ""
+incident_city: Khorramabad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Shot dead by Islamic Republic security forces during the Iranian national revolution.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/sonofthebeach22/status/2015376872687665339"
+source_type: Social Media
+source_social_media_link: https://x.com/Sonofthebeach22/status/2015376872687665339

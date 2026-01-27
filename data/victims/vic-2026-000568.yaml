@@ -2,36 +2,22 @@
 # Victim Documentation - Behzad Abbasi Gorajoubi
 # ==========================================
 
-photo: "vic-2026-000568.jpg"
-name: "Behzad Abbasi Gorajoubi"
-
-# Personal & Birth Information
+photo: vic-2026-000568.jpg
+name: Behzad Abbasi Gorajoubi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran, Karaj"
-
-# Death Information
+country: Iran
+incident_province: Karaj
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces during protests in Tehran on the evening of 18 Dey 1404 (January 8, 2026)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kurdpa_farsi/status/2014662563766677658"
+source_type: Social Media
+source_social_media_link: https://x.com/kurdpa_farsi/status/2014662563766677658, https://x.com/HengawO/status/2014429661707542927, https://x.com/KurdistanHRN/status/2014460051079979504

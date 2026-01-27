@@ -2,36 +2,22 @@
 # Victim Documentation - Karim Heydari
 # ==========================================
 
-photo: "vic-2026-000646.jpg"
-name: "Karim Heydari"
-
-# Personal & Birth Information
+photo: vic-2026-000646.jpg
+name: Karim Heydari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Bushehr - Bandar Ganaveh"
-
-# Death Information
+incident_city: Bushehr - Bandar Ganaveh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces during protests in front of the governorate building in Bandar Ganaveh
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mamlekate/status/2013335582676517142"
+source_type: Social Media
+source_social_media_link: https://x.com/mamlekate/status/2013335582676517142, https://x.com/s_iran01/status/2013387023919223264, https://x.com/yomnaaaaa/status/2015069389159023036, https://x.com/iliaaaa66/status/2015197791484563621

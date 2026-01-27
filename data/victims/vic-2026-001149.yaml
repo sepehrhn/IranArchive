@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Hassan Jafari
 # ==========================================
 
-photo: "vic-2026-001149.jpg"
-name: "Mohammad Hassan Jafari"
-
-# Personal & Birth Information
+photo: vic-2026-001149.jpg
+name: Mohammad Hassan Jafari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Esfarayen"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Esfarayen
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/yaldarta/status/2014946096523481285"
+source_type: Social Media
+source_social_media_link: https://x.com/yaldarta/status/2014946096523481285

@@ -2,36 +2,22 @@
 # Victim Documentation - Taha Safari
 # ==========================================
 
-photo: "vic-2026-000922.jpg"
-name: "Taha Safari"
-
-# Personal & Birth Information
+photo: vic-2026-000922.jpg
+name: Taha Safari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 15
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Lorestan"
-incident_city: "Azna"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Lorestan
+incident_city: Azna
+date_of_death: "2026-01-02"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces, body showed severe head injuries
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://www.iran-emrooz.net/index.php/news2/125134/"
+source_type: Social Media
+source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://news.sky.com/story/how-the-iran-uprising-unfolded-and-what-happened-to-the-victims-of-the-crackdown-13495014, https://x.com/iranrights_org/status/2009387278918127758, https://x.com/Daikatuo/status/2007806138012844190

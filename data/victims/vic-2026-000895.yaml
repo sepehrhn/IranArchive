@@ -2,36 +2,22 @@
 # Victim Documentation - Reza Kadivarian
 # ==========================================
 
-photo: "vic-2026-000895.jpg"
-name: "Reza Kadivarian"
-
-# Personal & Birth Information
+photo: vic-2026-000895.jpg
+name: Reza Kadivarian
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 20
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Kermanshah"
-incident_city: "Jafarabad area"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Kermanshah
+incident_city: Jafarabad area
+date_of_death: "2026-01-05"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Republic forces during protests, died in hospital the day after being shot
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed"
+source_type: Social Media
+source_social_media_link: https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/iranwire/status/2012041685069414749, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/KurdistanHRN/status/2008214640791064873, https://x.com/KurdistanHRN/status/2015538579116642517, https://x.com/kurdistanhrn/status/2015538579116642517, https://x.com/Iran1Asl/status/2015089576088318398, https://x.com/KurdistanHRN/status/2015538461290422714

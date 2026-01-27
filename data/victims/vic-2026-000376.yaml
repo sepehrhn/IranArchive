@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Mostafaei
 # ==========================================
 
-photo: "vic-2026-000376.jpg"
-name: "Mohammad Mostafaei"
-
-# Personal & Birth Information
+photo: vic-2026-000376.jpg
+name: Mohammad Mostafaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 31
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Karaj
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the throat by security forces during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2013937719353786767"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2013937719353786767, https://t.me/RememberTheirNames/476

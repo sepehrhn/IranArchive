@@ -2,36 +2,22 @@
 # Victim Documentation - Bashir Karimi
 # ==========================================
 
-photo: "vic-2026-000269.jpg"
-name: "Bashir Karimi"
-
-# Personal & Birth Information
+photo: vic-2026-000269.jpg
+name: Bashir Karimi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Saveh, Markazi province (Arak)"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Saveh
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in the street by the Islamic Republic's repressive forces during protests on Friday, 19 Dey
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/behnam_chegini/status/2015044433234850265"
+source_type: Social Media
+source_social_media_link: https://x.com/behnam_chegini/status/2015044433234850265, https://x.com/esmaeils1169/status/2014723627170595315, https://t.me/RememberTheirNames/923

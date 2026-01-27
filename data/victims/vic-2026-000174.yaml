@@ -2,36 +2,22 @@
 # Victim Documentation - Amir Hossein Javadzadeh
 # ==========================================
 
-photo: "vic-2026-000174.jpg"
-name: "Amir Hossein Javadzadeh"
-
-# Personal & Birth Information
+photo: vic-2026-000174.jpg
+name: Amir Hossein Javadzadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 25
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Kiasahr
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head by security forces during protests on 19 Dey (January 9), taken to Loghman Hospital, died 24 hours later. Body delivered to family in Kahrizak
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2013945257239392302"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2013945257239392302, https://x.com/ManotoNews/status/2013945257239392302, https://x.com/HengawO/status/2014781999668437226, https://x.com/iranwire/status/2016058721713999987, https://t.me/RememberTheirNames/475

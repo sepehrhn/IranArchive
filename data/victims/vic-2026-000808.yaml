@@ -2,36 +2,22 @@
 # Victim Documentation - Reza Sheikhabarani
 # ==========================================
 
-photo: "vic-2026-000808.jpg"
-name: "Reza Sheikhabarani"
-
-# Personal & Birth Information
+photo: vic-2026-000808.jpg
+name: Reza Sheikhabarani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Fardis, Karaj"
-
-# Death Information
+country: Iran
+incident_province: Karaj
+incident_city: Fardis
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head with military weapon by repressive forces during protests, suffered severe head trauma
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2012490489459507474"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2012490489459507474, https://x.com/banafshehviola/status/2012625686926889361

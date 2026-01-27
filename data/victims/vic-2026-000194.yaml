@@ -2,36 +2,22 @@
 # Victim Documentation - Omid Azimi
 # ==========================================
 
-photo: "vic-2026-000194.jpg"
-name: "Omid Azimi"
-
-# Personal & Birth Information
+photo: vic-2026-000194.jpg
+name: Omid Azimi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehran
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests (specific circumstances not detailed)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2011822431699157380"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2011822431699157380, https://x.com/fseifikaran/status/2013911306282078307, https://x.com/Soranmansournia/status/2013932219111256249, https://x.com/HenMazzig/status/2014420341024535013, https://x.com/tinafay1978/status/2014831308355318024, https://x.com/soranmansournia/status/2014845352868798739

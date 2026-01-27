@@ -2,36 +2,22 @@
 # Victim Documentation - Emad Shoosh
 # ==========================================
 
-photo: "vic-2026-000589.jpg"
-name: "Emad Shoosh"
-
-# Personal & Birth Information
+photo: vic-2026-000589.jpg
+name: Emad Shoosh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gilan or Mazandaran provinces"
-
-# Death Information
+incident_city: Gilan or Mazandaran provinces
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with four bullets by direct fire from Islamic Republic of Iran government forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hyrcanihrm/status/2012934564381876425"
+source_type: Social Media
+source_social_media_link: https://x.com/hyrcanihrm/status/2012934564381876425, https://x.com/pkhwshhal/status/2012912179264053754, https://x.com/pkhwshhal/status/2013014589340856385, https://x.com/hengawo/status/2013224113272135817, https://x.com/HengawO/status/2013224113272135817, https://www.instagram.com/p/DTqv47NkZLO

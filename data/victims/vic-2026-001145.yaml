@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Ali (Sepehr) Foroughi Dehnavi
 # ==========================================
 
-photo: "vic-2026-001145.jpg"
-name: "Mohammad Ali (Sepehr) Foroughi Dehnavi"
-
-# Personal & Birth Information
+photo: vic-2026-001145.jpg
+name: Mohammad Ali (Sepehr) Foroughi Dehnavi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 43
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehran
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during the protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/ihrdc/status/2012979624930693342"
+source_type: Social Media
+source_social_media_link: https://x.com/IHRDC/status/2012979624930693342

@@ -2,36 +2,22 @@
 # Victim Documentation - Seyyed Milad Hosseini
 # ==========================================
 
-photo: "vic-2026-000845.jpg"
-name: "Seyyed Milad Hosseini"
-
-# Personal & Birth Information
+photo: vic-2026-000845.jpg
+name: Seyyed Milad Hosseini
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Iran (provinces of Ilam"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Iran (provinces of Ilam
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by Islamic Regime forces while protesting for freedom.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/avatoday_news/status/2011806957867286649"
+source_type: Social Media
+source_social_media_link: https://x.com/avatoday_news/status/2011806957867286649, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2015788338561667095

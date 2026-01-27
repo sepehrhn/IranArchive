@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Reza Ghorbani
 # ==========================================
 
-photo: "vic-2026-000730.jpg"
-name: "Mohammad Reza Ghorbani"
-
-# Personal & Birth Information
+photo: vic-2026-000730.jpg
+name: Mohammad Reza Ghorbani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 18
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shahin Shahr"
-
-# Death Information
+incident_city: شهرضا اصفهان
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by government security forces during protests in Shahin Shahr. Killed from behind with a military weapon near an Islamic Revolutionary Guard base.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2013911264154546507"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2013911264154546507, https://hengaw.net/fa/news/2026/01/article-170-1, https://x.com/HengawO/status/2013911264154546507, https://x.com/dadban4/status/2014931160728543693, https://t.me/RememberTheirNames/1053

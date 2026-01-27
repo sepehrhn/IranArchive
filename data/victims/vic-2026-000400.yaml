@@ -2,36 +2,22 @@
 # Victim Documentation - Navid Alemchehreh
 # ==========================================
 
-photo: "vic-2026-000400.jpg"
-name: "Navid Alemchehreh"
-
-# Personal & Birth Information
+photo: vic-2026-000400.jpg
+name: Navid Alemchehreh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by government forces during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2012880153089904832"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2012880153089904832, https://x.com/allahbakhshii/status/2013705384385540226

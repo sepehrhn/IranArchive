@@ -2,38 +2,24 @@
 # Victim Documentation - Ilia Abbasi
 # ==========================================
 
-photo: "vic-2026-001340.jpg"
-name: "Ilia Abbasi"
-
-# Personal & Birth Information
+photo: vic-2026-001340.jpg
+name: Ilia Abbasi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 22
-occupation: "Basiji"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+age: 20
+occupation: Basiji
+country: Iran
 incident_province: ""
-incident_city: "Amol"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Amol
+date_of_death: "2025-12-29"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: ایلیا عباسی
-  
-  Killed in Amol. His family was forced to announce that he was a Basiji.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hekasrehcrisis/status/2015525022958239826"
+  Killed in Amol. His family was forced to announce that he was a Basiji.
+source_type: Social Media
+source_social_media_link: https://x.com/hekasrehcrisis/status/2015525022958239826, https://x.com/arashzar111/status/2014662145837850653, https://t.me/RememberTheirNames/1253

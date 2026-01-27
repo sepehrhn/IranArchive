@@ -2,38 +2,24 @@
 # Victim Documentation - Hossein Salahi
 # ==========================================
 
-photo: "vic-2026-001363.jpg"
-name: "Hossein Salahi"
-
-# Personal & Birth Information
+photo: vic-2026-001363.jpg
+name: Hossein Salahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 49
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Ghaemshahr"
-
-# Death Information
-date_of_death: "2026-01-09"
-date_of_death_precision: "Exact"
+incident_city: Ghaemshahr
+date_of_death: "2025-12-30"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: حسین صلاحی
-  
-  Shot in the side with a live bullet. Two officers were present at Vali Asr Hospital in Ghaemshahr until he died from blood loss. The family was forced to claim he was a Basiji member going to the pharmacy for his mother's medicine in order to be allowed to bury him.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hekasrehcrisis/status/2015464789573541963"
+  Shot in the side with a live bullet. Two officers were present at Vali Asr Hospital in Ghaemshahr until he died from blood loss. The family was forced to claim he was a Basiji member going to the pharmacy for his mother's medicine in order to be allowed to bury him.
+source_type: Social Media
+source_social_media_link: https://x.com/hekasrehcrisis/status/2015464789573541963, https://x.com/i/status/2015464789573541963, https://x.com/HeKasrehCrisis/status/2015464789573541963, https://t.me/RememberTheirNames/1336

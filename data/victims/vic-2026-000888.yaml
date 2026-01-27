@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Erfan Faraji
 # ==========================================
 
-photo: "vic-2026-000888.jpg"
-name: "Mohammad Erfan Faraji"
-
-# Personal & Birth Information
+photo: vic-2026-000888.jpg
+name: Mohammad Erfan Faraji
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 18
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Nazi Abad"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Nazabad
+incident_city: Behesht Square
+date_of_death: "2026-01-07"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the back by military and security forces while filming protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/noamagid/status/2010753333603020937"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2013970919039852837, https://x.com/RadioFarda_/status/2014266162121478564

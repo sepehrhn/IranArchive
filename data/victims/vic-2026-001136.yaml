@@ -2,36 +2,22 @@
 # Victim Documentation - Mehrdad (Matin) Moshtaqi
 # ==========================================
 
-photo: "vic-2026-001136.jpg"
-name: "Mehrdad (Matin) Moshtaqi"
-
-# Personal & Birth Information
+photo: vic-2026-001136.jpg
+name: Mehrdad (Matin) Moshtaqi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Arak"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Arak
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by the regime
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/saeidvafa/status/2014331693843300748"
+source_type: Social Media
+source_social_media_link: https://x.com/saeidvafa/status/2014331693843300748

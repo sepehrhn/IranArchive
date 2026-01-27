@@ -2,36 +2,22 @@
 # Victim Documentation - Seyed Amin Ghoreishi Shahreki
 # ==========================================
 
-photo: "vic-2026-000440.jpg"
-name: "Seyed Amin Ghoreishi Shahreki"
-
-# Personal & Birth Information
+photo: vic-2026-000440.jpg
+name: Seyed Amin Ghoreishi Shahreki
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Republic mercenaries
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2014692146515751306"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2014692146515751306, https://x.com/visfehan/status/2014794331454874043, https://t.me/RememberTheirNames/806

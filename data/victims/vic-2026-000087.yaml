@@ -2,36 +2,22 @@
 # Victim Documentation - Yaghoub Dalir
 # ==========================================
 
-photo: "vic-2026-000087.jpg"
-name: "Yaghoub Dalir"
-
-# Personal & Birth Information
+photo: vic-2026-000087.jpg
+name: Yaghoub Dalir
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 47
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Gilan"
-incident_city: "Astaneh"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: ""
+incident_city: Astaneh-ye Ashrafieh
+date_of_death: "2026-01-21"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot during protests on January 8, 2026 and died two weeks later.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pkhwshhal/status/2014791940521202151"
+source_type: Social Media
+source_social_media_link: https://x.com/pkhwshhal/status/2014791940521202151, https://x.com/pkhwshhal/status/2015089069697458179, https://x.com/pkhwshhal/status/2015000234166726866, https://t.me/RememberTheirNames/917

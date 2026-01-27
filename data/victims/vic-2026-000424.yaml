@@ -2,36 +2,22 @@
 # Victim Documentation - Reza Habibi
 # ==========================================
 
-photo: "vic-2026-000424.jpg"
-name: "Reza Habibi"
-
-# Personal & Birth Information
+photo: vic-2026-000424.jpg
+name: Reza Habibi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 10
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shiraz"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Shiraz
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly in the face
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pppbbbtttlol/status/2013697931694489915"
+source_type: Social Media
+source_social_media_link: https://x.com/pppbbbtttlol/status/2013697931694489915

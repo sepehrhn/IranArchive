@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Tabrizi
 # ==========================================
 
-photo: "vic-2026-000912.jpg"
-name: "Ali Tabrizi"
-
-# Personal & Birth Information
+photo: vic-2026-000912.jpg
+name: Ali Tabrizi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Harsin, Kermanshah"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Kermanshah
+incident_city: Harsin
+date_of_death: "2026-01-02"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Mentioned as having similar media portrayals regarding protest-related death during the same period
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2007455835497152832"
+source_type: Social Media
+source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://en.wikipedia.org/wiki/Killing_of_Latif_Karimi, https://x.com/daikatuo/status/2007208041092174197, https://x.com/Daikatuo/status/2007455835497152832, https://x.com/FSeifikaran/status/2011734542428885036, https://x.com/KurdistanHRN/status/2007433103787106713

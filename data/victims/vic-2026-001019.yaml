@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Shoosh
 # ==========================================
 
-photo: "vic-2026-001019.jpg"
-name: "Ali Shoosh"
-
-# Personal & Birth Information
+photo: vic-2026-001019.jpg
+name: Ali Shoosh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 37
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: ""
-
-# Death Information
+incident_city: Lahijan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during 2022-2023 protests (described as poet)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pkhwshhal/status/2012912179264053754"
+source_type: Social Media
+source_social_media_link: https://x.com/pkhwshhal/status/2012912179264053754, https://x.com/pkhwshhal/status/2013014589340856385, https://x.com/longlosthills/status/2013042889215885821

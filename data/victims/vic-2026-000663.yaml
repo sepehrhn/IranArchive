@@ -2,36 +2,22 @@
 # Victim Documentation - Malek Niaz Kordalivand
 # ==========================================
 
-photo: "vic-2026-000663.jpg"
-name: "Malek Niaz Kordalivand"
-
-# Personal & Birth Information
+photo: vic-2026-000663.jpg
+name: Malek Niaz Kordalivand
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Khorramabad"
-
-# Death Information
+incident_city: Khorramabad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed on 18 Dey
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/revenantgt6u/status/2015092945846698048"
+source_type: Social Media
+source_social_media_link: https://x.com/revenantgt6u/status/2015092945846698048, https://x.com/Revenantgt6u/status/2014658827350646841, https://t.me/RememberTheirNames/1083

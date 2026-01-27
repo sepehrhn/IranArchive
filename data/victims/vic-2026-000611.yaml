@@ -2,36 +2,22 @@
 # Victim Documentation - Ghasem Shemsh
 # ==========================================
 
-photo: "vic-2026-000611.jpg"
-name: "Ghasem Shemsh"
-
-# Personal & Birth Information
+photo: vic-2026-000611.jpg
+name: Ghasem Shemsh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 34
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shahriar"
-
-# Death Information
+incident_city: Shahriar
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces. The bullet hit his face and caused fatal brain damage.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2014536385936400421"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2014536385936400421, https://www.instagram.com/p/DT1nELqiE_A, https://t.me/RememberTheirNames/799

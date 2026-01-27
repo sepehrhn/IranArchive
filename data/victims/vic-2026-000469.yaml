@@ -2,36 +2,22 @@
 # Victim Documentation - Abdullah Adibi
 # ==========================================
 
-photo: "vic-2026-000469.jpg"
-name: "Abdullah Adibi"
-
-# Personal & Birth Information
+photo: vic-2026-000469.jpg
+name: Abdullah Adibi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Sadeh Lenjan, Zarinshahr"
-
-# Death Information
+country: Iran
+incident_province: Zarinshahr
+incident_city: Sadeh Lenjan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Killed by a military bullet
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2013890682461581812"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2013890682461581812, https://x.com/VIsfehan/status/2014721060239790401, https://x.com/missmarpel75/status/2014763992607007176, https://t.me/RememberTheirNames/719

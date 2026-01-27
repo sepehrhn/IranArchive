@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Javad Heydari Lor
 # ==========================================
 
-photo: "vic-2026-000372.jpg"
-name: "Mohammad Javad Heydari Lor"
-
-# Personal & Birth Information
+photo: vic-2026-000372.jpg
+name: Mohammad Javad Heydari Lor
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Masjed Soleyman"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Masjed Soleyman
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by suppressive forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hirman__/status/2014573359284039831"
+source_type: Social Media
+source_social_media_link: https://x.com/hirman__/status/2014573359284039831, https://x.com/iranintlsport/status/2015504213363609636, https://t.me/RememberTheirNames/933

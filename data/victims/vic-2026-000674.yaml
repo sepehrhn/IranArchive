@@ -2,36 +2,22 @@
 # Victim Documentation - Maziyar Nowrouzi
 # ==========================================
 
-photo: "vic-2026-000674.jpg"
-name: "Maziyar Nowrouzi"
-
-# Personal & Birth Information
+photo: vic-2026-000674.jpg
+name: Maziyar Nowrouzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gorgan"
-
-# Death Information
+incident_city: Gorgan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Republic of Iran government forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hyrcanihrm/status/2013147846225138048"
+source_type: Social Media
+source_social_media_link: https://x.com/hyrcanihrm/status/2013147846225138048, https://x.com/HyrcaniHRM/status/2013147846225138048

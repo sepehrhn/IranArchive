@@ -2,36 +2,22 @@
 # Victim Documentation - Ashkan Alipour
 # ==========================================
 
-photo: "vic-2026-000561.jpg"
-name: "Ashkan Alipour"
-
-# Personal & Birth Information
+photo: vic-2026-000561.jpg
+name: Ashkan Alipour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Ferdows, Karaj"
-
-# Death Information
+country: Iran
+incident_province: Karaj
+incident_city: Ferdows
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the neck by Islamic Republic regime forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/negannegan55/status/2013657195359940809"
+source_type: Social Media
+source_social_media_link: https://x.com/negannegan55/status/2013657195359940809, https://x.com/longlosthills/status/2013731310095810836, https://x.com/soranmansournia/status/2014082511748337969, https://x.com/zahra_masgedyy/status/2014092914062750194, https://x.com/HengawO/status/2013961319469158812

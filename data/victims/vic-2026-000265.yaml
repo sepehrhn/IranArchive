@@ -2,36 +2,22 @@
 # Victim Documentation - Babak Jafari
 # ==========================================
 
-photo: "vic-2026-000265.jpg"
-name: "Babak Jafari"
-
-# Personal & Birth Information
+photo: vic-2026-000265.jpg
+name: Babak Jafari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 31
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by the Iranian regime during a peaceful protest. His body was handed over to his family after six days of obstruction.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/shimababaeii/status/2014734387447738708"
+source_type: Social Media
+source_social_media_link: https://x.com/shimababaeii/status/2014734387447738708, https://x.com/iranwire/status/2014775783051481595, https://x.com/ardalanmousavi/status/2014872516079083697, https://t.me/RememberTheirNames/895

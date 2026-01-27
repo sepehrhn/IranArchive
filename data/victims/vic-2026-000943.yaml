@@ -2,36 +2,22 @@
 # Victim Documentation - Jaber Abdi
 # ==========================================
 
-photo: "vic-2026-000943.jpg"
-name: "Jaber Abdi"
-
-# Personal & Birth Information
+photo: vic-2026-000943.jpg
+name: Jaber Abdi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 35
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Islamabad-e Gharb"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Elahieh neighborhood
+incident_city: Kermanshah
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014072784213754211"
+source_type: Social Media
+source_social_media_link: https://x.com/HengawO/status/2014072784213754211, https://x.com/nejatbahrami/status/2015451612404162809, https://x.com/de_last_Hope/status/2014719655026282747

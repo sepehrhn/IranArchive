@@ -2,36 +2,22 @@
 # Victim Documentation - Ahmad Hashemi
 # ==========================================
 
-photo: "vic-2026-000021.jpg"
-name: "Ahmad Hashemi"
-
-# Personal & Birth Information
+photo: vic-2026-000021.jpg
+name: Ahmad Hashemi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Markazi"
+country: Iran
+incident_province: Markazi
 incident_city: ""
-
-# Death Information
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with live ammunition by government mercenaries, injured liver and spleen, died after 3 days in hospital
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2014662867589407023"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2014662867589407023, https://x.com/HengawO/status/2014638058105151825, https://x.com/Y__leviii5/status/2014670741501825264, https://t.me/RememberTheirNames/808
