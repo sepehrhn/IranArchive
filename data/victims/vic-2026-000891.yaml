@@ -2,36 +2,22 @@
 # Victim Documentation - Saeed Tavakkolian Doshmanzeyari
 # ==========================================
 
-photo: "vic-2026-000891.jpg"
-name: "Saeed Tavakkolian Doshmanzeyari"
-
-# Personal & Birth Information
+photo: vic-2026-000891.jpg
+name: Saeed Tavakkolian Doshmanzeyari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shiraz"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Shiraz
+date_of_death: "2026-01-07"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the face with pellet bullets by security forces while sitting in his personal car, died after being transferred to hospital
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranrights_org/status/2012586379134247367"
+source_type: Social Media
+source_social_media_link: https://x.com/iranrights_org/status/2012586379134247367, https://x.com/iranrights_org/status/2012638890570530856, https://x.com/IranRights_org/status/2012586379134247367

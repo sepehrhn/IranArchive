@@ -2,36 +2,22 @@
 # Victim Documentation - Ghazal Damarchali
 # ==========================================
 
-photo: "vic-2026-000288.jpg"
-name: "Ghazal Damarchali"
-
-# Personal & Birth Information
+photo: vic-2026-000288.jpg
+name: Ghazal Damarchali
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Golshahr
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head and legs by government forces during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/burnoutthebruis/status/2014838447618330888"
+source_type: Social Media
+source_social_media_link: https://x.com/mtavoli/status/2014886279154917779, https://x.com/NoaMagid/status/2015049056242839798

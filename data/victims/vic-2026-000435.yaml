@@ -2,36 +2,22 @@
 # Victim Documentation - Saman Delaram
 # ==========================================
 
-photo: "vic-2026-000435.jpg"
-name: "Saman Delaram"
-
-# Personal & Birth Information
+photo: vic-2026-000435.jpg
+name: Saman Delaram
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 38
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehran
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with three bullets by Islamic Republic forces during the national revolution
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/indypersian/status/2013800112783266036"
+source_type: Social Media
+source_social_media_link: https://x.com/indypersian/status/2013800112783266036

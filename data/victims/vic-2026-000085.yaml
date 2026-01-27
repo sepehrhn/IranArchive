@@ -2,36 +2,22 @@
 # Victim Documentation - Seyed Alireza Safavi Fazeli
 # ==========================================
 
-photo: "vic-2026-000085.jpg"
-name: "Seyed Alireza Safavi Fazeli"
-
-# Personal & Birth Information
+photo: vic-2026-000085.jpg
+name: Seyed Alireza Safavi Fazeli
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran (Setareh Khan area, near Aria Shahr)"
-
-# Death Information
+country: Iran
+incident_province: near Aria Shahr)
+incident_city: Tehran (Setareh Khan area
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot from the roof of a mosque near Setareh Khan, approaching the second roundabout of Aria Shahr at 10 PM
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mamlekate/status/2014129768359248106"
+source_type: Social Media
+source_social_media_link: https://x.com/mamlekate/status/2014129768359248106

@@ -2,36 +2,22 @@
 # Victim Documentation - Massoud Faghihzadeh
 # ==========================================
 
-photo: "vic-2026-000671.jpg"
-name: "Massoud Faghihzadeh"
-
-# Personal & Birth Information
+photo: vic-2026-000671.jpg
+name: Massoud Faghihzadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 36
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
+country: Iran
+incident_province: Isfahan
 incident_city: ""
-
-# Death Information
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Shot and killed by Islamic Republic forces on Khaghani Street during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/maroofian_n/status/2012584754344845471"
+source_type: Social Media
+source_social_media_link: https://x.com/maroofian_n/status/2012584754344845471, https://x.com/iranwire/status/2013005499625578774, https://x.com/banafshehviola/status/2013108817098072233, https://x.com/hengawo/status/2013351223739531311, https://x.com/HengawO/status/2013351223739531311, https://x.com/HeKasrehCrisis/status/2015469228825153684

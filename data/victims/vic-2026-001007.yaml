@@ -2,36 +2,22 @@
 # Victim Documentation - Ahmad Targhiyan
 # ==========================================
 
-photo: "vic-2026-001007.jpg"
-name: "Ahmad Targhiyan"
-
-# Personal & Birth Information
+photo: vic-2026-001007.jpg
+name: Ahmad Targhiyan
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 35
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Fardis, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Fardis
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the heart with a war bullet by suppressive forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/soranmansournia/status/2013689104752361709"
+source_type: Social Media
+source_social_media_link: https://x.com/soranmansournia/status/2013689104752361709, https://x.com/Soranmansournia/status/2013689104752361709

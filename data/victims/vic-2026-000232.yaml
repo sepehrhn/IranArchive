@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Estakhr
 # ==========================================
 
-photo: "vic-2026-000232.jpg"
-name: "Ali Estakhr"
-
-# Personal & Birth Information
+photo: vic-2026-000232.jpg
+name: Ali Estakhr
 birth_date: ""
 birth_province: ""
-birth_city: "Marvdasht"
+birth_city: Marvdasht
 gender: ""
 age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Marvdasht (lived in Isfahan)"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Isfahan
+incident_city: Marvdasht
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   From Marvdasht, lived in Isfahan, worked in car audio systems and owned a shop. Joined protests on January 9, was arrested and taken to hospital where he was killed. Body had stitches on head and gunshot wound to forehead.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2013330588430655995"
+source_type: Social Media
+source_social_media_link: https://x.com/longlosthills/status/2013330588430655995, https://x.com/BabakTaghvaee1/status/2013370234556596568, https://x.com/HengawO/status/2014772586857598984

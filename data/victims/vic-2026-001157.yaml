@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Rabiei
 # ==========================================
 
-photo: "vic-2026-001157.jpg"
-name: "Mohammad Rabiei"
-
-# Personal & Birth Information
+photo: vic-2026-001157.jpg
+name: Mohammad Rabiei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Marlik, Malard"
-
-# Death Information
+country: Iran
+incident_province: Malard
+incident_city: Marlik
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot and killed with bullets; his body is being held hostage by security agencies
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/saraarabiei/status/2013611474367746420"
+source_type: Social Media
+source_social_media_link: https://x.com/saraarabiei/status/2013611474367746420, https://x.com/avatoday_news/status/2013985815651619243, https://t.me/RememberTheirNames/1341

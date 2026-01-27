@@ -2,36 +2,22 @@
 # Victim Documentation - Yahya-kia Daliri
 # ==========================================
 
-photo: "vic-2026-000990.jpg"
-name: "Yahya-kia Daliri"
-
-# Personal & Birth Information
+photo: vic-2026-000990.jpg
+name: Yahya-kia Daliri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gilan and Mazandaran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Gilan and Mazandaran
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the abdomen by Islamic Republic forces while going out to get medicine for his child
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hyrcanihrm/status/2014338023060611492"
+source_type: Social Media
+source_social_media_link: https://x.com/hyrcanihrm/status/2014338023060611492, https://x.com/HengawO/status/2014421367446253740, https://x.com/pegah76Fz/status/2014678072545489111

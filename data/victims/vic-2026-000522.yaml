@@ -2,36 +2,22 @@
 # Victim Documentation - Amir Ali Heydari Jafar Abadi
 # ==========================================
 
-photo: "vic-2026-000522.jpg"
-name: "Amir Ali Heydari Jafar Abadi"
-
-# Personal & Birth Information
+photo: vic-2026-000522.jpg
+name: Amir Ali Heydari Jafar Abadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
+incident_city: Kermanshah
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot and killed with live ammunition from an AK-47 fired directly by Islamic Republic security forces on Kashan Street in the Elahiyeh neighborhood. Died on the spot.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranprotestscom/status/2011145605687505150"
+source_type: Social Media
+source_social_media_link: https://x.com/mothrofdrgns/status/2011726596974264712, https://x.com/qadrichiya/status/2010753921984147533, https://x.com/IranProtestsCom/status/2011145605687505150

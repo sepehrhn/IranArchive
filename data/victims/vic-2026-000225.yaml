@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Alipour Lore
 # ==========================================
 
-photo: "vic-2026-000225.jpg"
-name: "Ali Alipour Lore"
-
-# Personal & Birth Information
+photo: vic-2026-000225.jpg
+name: Ali Alipour Lore
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Poldokhtar, Lorestan (died in detention)"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Lorestan (died in detention)
+incident_city: Poldokhtar
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in detention after being arrested by security forces.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hirman__/status/2014493579675148680"
+source_type: Social Media
+source_social_media_link: https://x.com/hirman__/status/2014493579675148680

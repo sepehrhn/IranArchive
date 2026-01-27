@@ -2,36 +2,22 @@
 # Victim Documentation - Sadegh Asgari
 # ==========================================
 
-photo: "vic-2026-000064.jpg"
-name: "Sadegh Asgari"
-
-# Personal & Birth Information
+photo: vic-2026-000064.jpg
+name: Sadegh Asgari
 birth_date: ""
 birth_province: ""
-birth_city: "a gunshot wound"
+birth_city: a gunshot wound
 gender: ""
-age: 
+age: 27
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Isfahan
+incident_city: Ranan
+date_of_death: "2025-12-28"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Died near a seminary due to severe bleeding from a gunshot wound.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/visfehan/status/2014622335689425089"
+source_type: Social Media
+source_social_media_link: https://x.com/visfehan/status/2014622335689425089, https://x.com/VIsfehan/status/2014622335689425089, https://x.com/i/status/2015365332626751587, https://t.me/RememberTheirNames/1311

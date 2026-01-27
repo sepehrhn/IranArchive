@@ -2,38 +2,24 @@
 # Victim Documentation - Mohammad Yaghoubi
 # ==========================================
 
-photo: "vic-2026-001426.jpg"
-name: "Mohammad Yaghoubi"
-
-# Personal & Birth Information
+photo: vic-2026-001426.jpg
+name: Mohammad Yaghoubi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
+incident_city: ""
 date_of_death: ""
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: محمد یعقوبی
-  
-  Died after brain death, body donated.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/alinasiri___/status/2015526951885169023"
+  Died after brain death, body donated.
+source_type: Social Media
+source_social_media_link: https://x.com/alinasiri___/status/2015526951885169023

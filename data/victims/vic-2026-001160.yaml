@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Reza Heydari
 # ==========================================
 
-photo: "vic-2026-001160.jpg"
-name: "Mohammad Reza Heydari"
-
-# Personal & Birth Information
+photo: vic-2026-001160.jpg
+name: Mohammad Reza Heydari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: ""
-
-# Death Information
+incident_city: Parand
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in the line of duty for the country, as described in a quoted tweet. No specific details provided.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/missmarpel75/status/2014830525232329153"
+source_type: Social Media
+source_social_media_link: https://x.com/missmarpel75/status/2014830525232329153, https://t.me/RememberTheirNames/968

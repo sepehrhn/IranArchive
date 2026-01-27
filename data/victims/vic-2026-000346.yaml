@@ -2,36 +2,22 @@
 # Victim Documentation - Mehran Zand
 # ==========================================
 
-photo: "vic-2026-000346.jpg"
-name: "Mehran Zand"
-
-# Personal & Birth Information
+photo: vic-2026-000346.jpg
+name: Mehran Zand
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shahriar"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Shahriar
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Shot and killed by regime mercenaries while injured during protests on 19 Dey.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pouriazeraati/status/2015002098753057188"
+source_type: Social Media
+source_social_media_link: https://x.com/pouriazeraati/status/2015002098753057188, https://t.me/RememberTheirNames/1022

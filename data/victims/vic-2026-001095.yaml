@@ -2,37 +2,22 @@
 # Victim Documentation - Hojjat Maleki
 # ==========================================
 
-photo: ""
-
-name: "Hojjat Maleki"
-
-# Personal & Birth Information
+photo: "vic-2026-001095.jpg"
+name: Hojjat Maleki
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Dizicheh"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Mobarakeh
+incident_city: Dizicheh
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/abhaddadii/status/2012993637005627689"
+source_type: Social Media
+source_social_media_link: https://x.com/abhaddadii/status/2012993637005627689, https://t.me/RememberTheirNames/576

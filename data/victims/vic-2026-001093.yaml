@@ -2,36 +2,22 @@
 # Victim Documentation - Hassan Iranpour
 # ==========================================
 
-photo: "vic-2026-001093.jpg"
-name: "Hassan Iranpour"
-
-# Personal & Birth Information
+photo: vic-2026-001093.jpg
+name: Hassan Iranpour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Mobarakeh"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Isfahan
+incident_city: Mobarakeh
+date_of_death: "2025-12-28"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/abhaddadii/status/2013901363810287827"
+source_type: Social Media
+source_social_media_link: https://x.com/abhaddadii/status/2013901363810287827

@@ -2,36 +2,22 @@
 # Victim Documentation - Amirreza Heydari
 # ==========================================
 
-photo: "vic-2026-001039.jpg"
-name: "Amirreza Heydari"
-
-# Personal & Birth Information
+photo: vic-2026-001039.jpg
+name: Amirreza Heydari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Pasdaran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Pasdaran
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Iranian regime forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/ablotialucas/status/2010965817245024582"
+source_type: Social Media
+source_social_media_link: https://x.com/the_parham_/status/2014472627633447403, https://x.com/AblotiaLucas/status/2010965817245024582, https://x.com/The_parham_/status/2014472627633447403, https://t.me/RememberTheirNames/1309

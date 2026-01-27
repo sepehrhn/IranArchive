@@ -2,36 +2,22 @@
 # Victim Documentation - Mehdi Saheli
 # ==========================================
 
-photo: "vic-2026-000185.jpg"
-name: "Mehdi Saheli"
-
-# Personal & Birth Information
+photo: vic-2026-000185.jpg
+name: Mehdi Saheli
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Ramsar, Mazandaran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Mazandaran
+incident_city: Ramsar
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by direct attack from government suppression forces during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011836007839101290"
+source_type: Social Media
+source_social_media_link: https://x.com/loabatk/status/2012081562792198200, https://x.com/manotonews/status/2013574728032886977, https://x.com/Daikatuo/status/2011836007839101290

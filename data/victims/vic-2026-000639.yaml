@@ -2,36 +2,22 @@
 # Victim Documentation - Jafar Javidi
 # ==========================================
 
-photo: "vic-2026-000639.jpg"
-name: "Jafar Javidi"
-
-# Personal & Birth Information
+photo: vic-2026-000639.jpg
+name: Jafar Javidi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
+incident_city: Mashhad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed on 18 Dey
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/sama19861365/status/2015057077119402226"
+source_type: Social Media
+source_social_media_link: https://x.com/sama19861365/status/2015057077119402226, https://t.me/RememberTheirNames/986

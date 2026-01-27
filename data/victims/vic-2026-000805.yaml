@@ -2,36 +2,22 @@
 # Victim Documentation - Reza Shahrivar
 # ==========================================
 
-photo: "vic-2026-000805.jpg"
-name: "Reza Shahrivar"
-
-# Personal & Birth Information
+photo: vic-2026-000805.jpg
+name: Reza Shahrivar
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Noorabad Mamasani (Zagros region)"
-
-# Death Information
+incident_city: Noorabad Mamasani (Zagros region)
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot from behind by someone inside a Basij base; the bullet entered his heart.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2014216456414822411"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2014216456414822411, https://x.com/isamanyasin/status/2014435905382064630, https://x.com/missmarpel75/status/2014631758013022327, https://x.com/ManotoNews/status/2014216456414822411, https://t.me/RememberTheirNames/487

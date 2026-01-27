@@ -2,36 +2,22 @@
 # Victim Documentation - Raouf Derakhshani Mehr
 # ==========================================
 
-photo: "vic-2026-001194.jpg"
-name: "Raouf Derakhshani Mehr"
-
-# Personal & Birth Information
+photo: vic-2026-001194.jpg
+name: Raouf Derakhshani Mehr
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 19
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Dezful
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Third-year law student who died for the country
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/1313noraa7/status/2015003957048041577"
+source_type: Social Media
+source_social_media_link: https://x.com/1313noraa7/status/2015003957048041577, https://x.com/anjmotahed/status/2015857815399825906

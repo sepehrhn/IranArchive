@@ -2,36 +2,22 @@
 # Victim Documentation - Milad Miyanehkhah
 # ==========================================
 
-photo: "vic-2026-000697.jpg"
-name: "Milad Miyanehkhah"
-
-# Personal & Birth Information
+photo: vic-2026-000697.jpg
+name: Milad Miyanehkhah
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 30
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gilan or Mazandaran provinces"
-
-# Death Information
+incident_city: Gilan or Mazandaran provinces
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the heart by government forces' war bullets
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hyrcanihrm/status/2012976334583066771"
+source_type: Social Media
+source_social_media_link: https://x.com/hyrcanihrm/status/2012976334583066771, https://x.com/hengawo/status/2013224113272135817, https://x.com/HengawO/status/2013224113272135817

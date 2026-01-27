@@ -2,36 +2,22 @@
 # Victim Documentation - Reza Rostamian
 # ==========================================
 
-photo: "vic-2026-000107.jpg"
-name: "Reza Rostamian"
-
-# Personal & Birth Information
+photo: vic-2026-000107.jpg
+name: Reza Rostamian
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 18
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran, Karaj"
-
-# Death Information
+country: Iran
+incident_province: Karaj
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with live ammunition by Islamic Republic suppression forces during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/imanoracle/status/2012977544266477704"
+source_type: Social Media
+source_social_media_link: https://x.com/imanoracle/status/2012977544266477704, https://x.com/s_iran01/status/2013103413416890842, https://x.com/kurdpa_farsi/status/2014443816112025712, https://x.com/ImanOracle/status/2012977544266477704, https://x.com/HengawO/status/2014429661707542927

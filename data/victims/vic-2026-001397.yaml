@@ -3,38 +3,23 @@
 # ==========================================
 
 photo: ""
-
-name: "Nastaran Soltani Sharifzadeh"
-
-# Personal & Birth Information
+name: Nastaran Soltani Sharifzadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shahriar"
-
-# Death Information
-date_of_death: "2025-12-28"
-date_of_death_precision: "Exact"
+incident_city: Shahriar
+date_of_death: ""
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: نسترن سلطانی شریف زاده
-  
-  Killed by live ammunition during protests in Shahriar.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mmahhsaa/status/2014729802427646417"
+  Killed by live ammunition during protests in Shahriar.
+source_type: Social Media
+source_social_media_link: https://x.com/mmahhsaa/status/2014729802427646417

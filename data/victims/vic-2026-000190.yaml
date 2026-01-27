@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Jafarpour
 # ==========================================
 
-photo: "vic-2026-000190.jpg"
-name: "Mohammad Jafarpour"
-
-# Personal & Birth Information
+photo: vic-2026-000190.jpg
+name: Mohammad Jafarpour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Khomeyni Shahr"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Isfahan
+incident_city: Khomeyni Shahr
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests in Isfahan Province
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2013351223739531311"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2013351223739531311, https://x.com/anjmotahed/status/2014672634412155282, https://x.com/autnews_org/status/2014694261971640649, https://x.com/HengawO/status/2013351223739531311, https://www.instagram.com/p/DT2vV4rjpVv

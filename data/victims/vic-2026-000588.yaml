@@ -2,36 +2,22 @@
 # Victim Documentation - Elham Zeynali
 # ==========================================
 
-photo: "vic-2026-000588.jpg"
-name: "Elham Zeynali"
-
-# Personal & Birth Information
+photo: vic-2026-000588.jpg
+name: Elham Zeynali
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Kermanshah"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Kermanshah
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Nurse at Imam Ali Hospital Kermanshah, shot with war bullet from behind by military-security forces during popular protests, died after surgery due to severity of injuries
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kavehkermashani/status/2013633770579018215"
+source_type: Social Media
+source_social_media_link: https://x.com/kavehkermashani/status/2013633770579018215, https://x.com/hengawo/status/2013693435627151563, https://x.com/outofken/status/2013763345048801413, https://x.com/kavehkermashani/status/2013977478612541606, https://x.com/mamlekate/status/2014066867145462259, https://x.com/kurdpa_farsi/status/2014519485450092996, https://x.com/KavehKermashani/status/2013633770579018215, https://x.com/HengawO/status/2013693435627151563, https://x.com/HengawO/status/2013992084802257150, https://x.com/KurdistanHRN/status/2013630712088281345

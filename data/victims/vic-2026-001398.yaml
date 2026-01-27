@@ -2,38 +2,24 @@
 # Victim Documentation - Shahriar Zarabadi
 # ==========================================
 
-photo: "vic-2026-001398.jpg"
-name: "Shahriar Zarabadi"
-
-# Personal & Birth Information
+photo: vic-2026-001398.jpg
+name: Shahriar Zarabadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 65
+age: 61
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Rasht"
-
-# Death Information
-date_of_death: "2025-12-26"
-date_of_death_precision: "Exact"
+incident_city: Rasht
+date_of_death: "2025-12-27"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: شهریار زرآبادی
-  
-  Killed in Rasht bazaar on Black Friday (Jomeh Siah). He was visiting his mother after traveling from Cologne, Germany.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/behzaddeklameh/status/2013884607330910666"
+  Killed in Rasht bazaar on Black Friday (Jomeh Siah). He was visiting his mother after traveling from Cologne, Germany.
+source_type: Social Media
+source_social_media_link: https://x.com/Behzaddeklameh/status/2013884607330910666

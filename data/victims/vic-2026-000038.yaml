@@ -3,36 +3,21 @@
 # ==========================================
 
 photo: ""
-
-name: "Ali Akbar Bordbar Javid"
-
-# Personal & Birth Information
+name: Ali Akbar Bordbar Javid
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 38
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mashhad (Sayad Street)"
-
-# Death Information
+incident_city: Mashhad (Sayyad Street)
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by government forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/raziehshin/status/2014647078475960480"
+source_type: Social Media
+source_social_media_link: https://x.com/raziehshin/status/2014647078475960480, https://x.com/RaziehShin/status/2014647078475960480

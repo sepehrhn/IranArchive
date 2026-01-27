@@ -2,36 +2,22 @@
 # Victim Documentation - Yasin Davoodnabi
 # ==========================================
 
-photo: "vic-2026-000867.png"
-name: "Yasin Davoodnabi"
-
-# Personal & Birth Information
+photo: vic-2026-000867.png
+name: Yasin Davoodnabi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehranpars"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehranpars
+date_of_death: "2026-01-07"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in Tehranpars during the protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hekasrehcrisis/status/2014831188691636301"
+source_type: Social Media
+source_social_media_link: https://x.com/hekasrehcrisis/status/2014831188691636301, https://x.com/sonofthebeach22/status/2014834901703438420, https://x.com/HeKasrehCrisis/status/2014831188691636301

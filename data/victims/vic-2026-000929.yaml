@@ -2,36 +2,22 @@
 # Victim Documentation - Alireza Mousavi
 # ==========================================
 
-photo: "vic-2026-000929.png"
-name: "Alireza Mousavi"
-
-# Personal & Birth Information
+photo: vic-2026-000929.png
+name: Alireza Mousavi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Baharestan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Isfahan
+incident_city: Baharestan
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests (reported as martyred)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/visfehan/status/2014332861415841824"
+source_type: Social Media
+source_social_media_link: https://x.com/visfehan/status/2014332861415841824, https://x.com/VIsfehan/status/2014332861415841824, https://x.com/HengawO/status/2014772586857598984

@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad (Milad) Gholami
 # ==========================================
 
-photo: "vic-2026-000704.jpg"
-name: "Mohammad (Milad) Gholami"
-
-# Personal & Birth Information
+photo: vic-2026-000704.jpg
+name: Mohammad (Milad) Gholami
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 25
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "East Tehran"
-
-# Death Information
+incident_city: East Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head with a war bullet by Islamic Republic suppressors
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranwire/status/2013698851073376393"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2013698851073376393, https://x.com/autnews_org/status/2014694261971640649, https://www.instagram.com/p/DT2vV4rjpVv, https://x.com/Tavaana/status/2015593335516475755, https://x.com/tavaana/status/2015593335516475755, https://t.me/RememberTheirNames/909

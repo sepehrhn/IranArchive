@@ -2,36 +2,22 @@
 # Victim Documentation - Davoud Abi
 # ==========================================
 
-photo: "vic-2026-000092.jpg"
-name: "Davoud Abi"
-
-# Personal & Birth Information
+photo: vic-2026-000092.jpg
+name: Davoud Abi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Shahinvilla
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the heart by Revolutionary Guards during protest
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/s_iran01/status/2014498664681541796"
+source_type: Social Media
+source_social_media_link: https://x.com/s_iran01/status/2014498664681541796, https://t.me/RememberTheirNames/755

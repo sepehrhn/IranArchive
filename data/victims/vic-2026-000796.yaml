@@ -2,36 +2,22 @@
 # Victim Documentation - Reebin Moradi
 # ==========================================
 
-photo: "vic-2026-000796.jpg"
-name: "Reebin Moradi"
-
-# Personal & Birth Information
+photo: vic-2026-000796.jpg
+name: Reebin Moradi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Iran (provinces of Ilam"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Iran (provinces of Ilam
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with war bullet by security forces during protests, shot from close range from behind according to his father
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kurdistanhrn/status/2011439583917965438"
+source_type: Social Media
+source_social_media_link: https://x.com/kurdistanhrn/status/2011439583917965438, https://x.com/missmarpel75/status/2014796556373729669, https://x.com/IranProtestsCom/status/2011445634255954257, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011439583917965438

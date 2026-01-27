@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Alizadeh
 # ==========================================
 
-photo: "vic-2026-000707.jpg"
-name: "Mohammad Alizadeh"
-
-# Personal & Birth Information
+photo: vic-2026-000707.jpg
+name: Mohammad Alizadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 25
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Rasht"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Haft Hoz
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Reportedly died in Rasht during protests, body identified at Rizvan Garden.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/indypersian/status/2013736529068192228"
+source_type: Social Media
+source_social_media_link: https://x.com/indypersian/status/2013736529068192228, https://x.com/tavaana/status/2014493321742450890, https://x.com/hyrcanihrm/status/2014611082493440400, https://www.instagram.com/p/DT2I4IWjJ7L, https://x.com/Tavaana/status/2014493321742450890, https://www.instagram.com/p/DT3tzR1DE0O, https://x.com/allahbakhshii/status/2014832293148270895, https://t.me/RememberTheirNames/818

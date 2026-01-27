@@ -3,36 +3,21 @@
 # ==========================================
 
 photo: ""
-
-name: "29 protesters"
-
-# Personal & Birth Information
+name: 29 protesters
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Iran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Iran
+date_of_death: "2025-12-28"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://www.iranintl.com/en/202601094892"
+source_type: Social Media
+source_social_media_link: https://www.iranintl.com/en/202601094892

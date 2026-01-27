@@ -2,36 +2,22 @@
 # Victim Documentation - Mostafa Nouri-Shirazi
 # ==========================================
 
-photo: "vic-2026-000394.jpg"
-name: "Mostafa Nouri-Shirazi"
-
-# Personal & Birth Information
+photo: vic-2026-000394.jpg
+name: Mostafa Nouri-Shirazi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Mazandaran"
-incident_city: "Noor"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: ""
+incident_city: Noor-Mazandaran
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot and killed during protests in the city of Noor. His father stole his body from the hospital to wash and shroud it in his grandfather's yard.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/monfaredashkan/status/2014802095816536133"
+source_type: Social Media
+source_social_media_link: https://x.com/monfaredashkan/status/2014802095816536133, https://x.com/monfaredashkan/status/2014799780657168583, https://x.com/MonfaredAshkan/status/2014799780657168583, https://x.com/realneo101/status/2015070590919385235, https://x.com/alitagh30207454/status/2015074385925746874, https://x.com/realneo101/status/2015177858579149251, https://x.com/MonfaredAshkan/status/2014802095816536133, https://x.com/ManotoNews/status/2015847208403575048, https://t.me/RememberTheirNames/1332

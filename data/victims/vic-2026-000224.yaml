@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Aghajani
 # ==========================================
 
-photo: "vic-2026-000224.jpg"
-name: "Ali Aghajani"
-
-# Personal & Birth Information
+photo: vic-2026-000224.jpg
+name: Ali Aghajani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 25
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Shahr-e Ziba"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Shahr-e Ziba
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the neck with live ammunition from the rooftop of Al-Rasool Mosque during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/soranmansournia/status/2014450970630017024"
+source_type: Social Media
+source_social_media_link: https://x.com/soranmansournia/status/2014450970630017024, https://x.com/HengawO/status/2014294428643389752, https://x.com/hiwa_life/status/2015482868844098038, https://t.me/RememberTheirNames/609

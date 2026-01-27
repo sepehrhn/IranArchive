@@ -2,36 +2,22 @@
 # Victim Documentation - Zahra Eidgahi
 # ==========================================
 
-photo: "vic-2026-000874.jpg"
-name: "Zahra Eidgahi"
-
-# Personal & Birth Information
+photo: vic-2026-000874.jpg
+name: Zahra Eidgahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 24
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
+incident_city: Mashhad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by live ammunition during protests in Haft-e Tir Square, Mashhad.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/elaabita2022/status/2014954443406713049"
+source_type: Social Media
+source_social_media_link: https://x.com/elaabita2022/status/2014954443406713049, https://x.com/ElaaBita2022/status/2014954443406713049

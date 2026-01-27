@@ -2,38 +2,24 @@
 # Victim Documentation - Navid Nezami Maleki
 # ==========================================
 
-photo: "vic-2026-001310.jpg"
-name: "Navid Nezami Maleki"
-
-# Personal & Birth Information
+photo: vic-2026-001310.jpg
+name: Navid Nezami Maleki
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 18
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
+incident_city: Unknown
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: نوید نظامی ملکی
-  
-  Shot and killed during protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/monfaredashkan/status/2015282791643312244"
+  Shot and killed during protests.
+source_type: Social Media
+source_social_media_link: https://x.com/MonfaredAshkan/status/2015282791643312244, https://x.com/MonfaredAshkan/status/2015472670394175918, https://t.me/RememberTheirNames/1230

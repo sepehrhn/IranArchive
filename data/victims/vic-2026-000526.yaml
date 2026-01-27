@@ -2,36 +2,22 @@
 # Victim Documentation - Amir Hossein Malekshahi
 # ==========================================
 
-photo: "vic-2026-000526.jpg"
-name: "Amir Hossein Malekshahi"
-
-# Personal & Birth Information
+photo: vic-2026-000526.jpg
+name: Amir Hossein Malekshahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2014659078996250845"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2014659078996250845, https://x.com/longlosthills/status/2014787190081941563, https://t.me/RememberTheirNames/797

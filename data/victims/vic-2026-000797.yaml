@@ -2,36 +2,22 @@
 # Victim Documentation - Reza
 # ==========================================
 
-photo: "vic-2026-000797.jpg"
-name: "Reza"
-
-# Personal & Birth Information
+photo: vic-2026-000797.jpg
+name: Reza
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tabriz
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Body was returned to his family on the condition of complete silence and prohibition of any ceremony.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/dadban4/status/2015006758817730853"
+source_type: Social Media
+source_social_media_link: https://x.com/dadban4/status/2015006758817730853, https://x.com/jeanne2022rev/status/2015069754055168232, https://x.com/jeditarin/status/2015132592064843840

@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad-Mehdi Salari
 # ==========================================
 
-photo: "vic-2026-000736.jpg"
-name: "Mohammad-Mehdi Salari"
-
-# Personal & Birth Information
+photo: vic-2026-000736.jpg
+name: Mohammad-Mehdi Salari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 20
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
+incident_city: Mashhad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by the suppressors of the Islamic Republic.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/anjmotahed/status/2014698554162368650"
+source_type: Social Media
+source_social_media_link: https://x.com/anjmotahed/status/2014698554162368650, https://x.com/fezisback/status/2014854216788148445, https://t.me/RememberTheirNames/849

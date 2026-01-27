@@ -2,36 +2,24 @@
 # Victim Documentation - Nahal Jafari
 # ==========================================
 
-photo: "vic-2026-001176.jpg"
-name: "Nahal Jafari"
-
-# Personal & Birth Information
+photo: vic-2026-001176.jpg
+name: Nahal Jafari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 13
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shiraz"
+incident_city: Shiraz
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
+description: |-
+  Persian Name: نهال جعفری
 
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/sashtyani/status/2014656543262736501"
+  Last photo of Nahal Jafari, 13 years old.
+source_type: Social Media
+source_social_media_link: https://x.com/Sashtyani/status/2014656543262736501

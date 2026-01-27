@@ -2,36 +2,22 @@
 # Victim Documentation - Sajjadeh Karimi
 # ==========================================
 
-photo: "vic-2026-001212.jpg"
-name: "Sajjadeh Karimi"
-
-# Personal & Birth Information
+photo: vic-2026-001212.jpg
+name: Sajjadeh Karimi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
-age: 
+gender: Female
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Astaneh-ye Ashrafiyyeh"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Astaneh-ye Ashrafiyyeh
+date_of_death: "2025-12-28"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with live ammunition by Islamic Republic forces while standing with her mother in front of a shrine, died in front of her mother's eyes
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2014488237549748279"
+source_type: Social Media
+source_social_media_link: https://x.com/tavaana/status/2014488237549748279, https://x.com/Tavaana/status/2014488237549748279, https://t.me/RememberTheirNames/764

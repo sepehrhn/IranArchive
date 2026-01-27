@@ -2,36 +2,22 @@
 # Victim Documentation - Majid Bagheri
 # ==========================================
 
-photo: "vic-2026-000330.jpg"
-name: "Majid Bagheri"
-
-# Personal & Birth Information
+photo: vic-2026-000330.jpg
+name: Majid Bagheri
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Mahdasht, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Mahdasht
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by Islamic Republic soldiers on Friday 19 Dey in Arak. His body was secretly transferred to his father's village, Bazneh, and buried without a human funeral. The family was forced to pay two billion rials as collateral for the funeral.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/behnam_chegini/status/2014810174876156340"
+source_type: Social Media
+source_social_media_link: https://x.com/behnam_chegini/status/2014810174876156340, https://x.com/amirmiresmaeili/status/2014685689950957985, https://x.com/aban_khoonin/status/2015147119972323545, https://t.me/RememberTheirNames/963, https://t.me/RememberTheirNames/541

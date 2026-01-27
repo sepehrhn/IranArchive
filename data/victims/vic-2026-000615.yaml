@@ -2,36 +2,22 @@
 # Victim Documentation - Hadi Forough
 # ==========================================
 
-photo: "vic-2026-000615.jpg"
-name: "Hadi Forough"
-
-# Personal & Birth Information
+photo: vic-2026-000615.jpg
+name: Hadi Forough
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 43
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Ariashahr"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Ariashahr
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the chest by Islamic Republic suppression forces during the Iranian national revolution. His family searched for his body in Kahrizak for two days. He was buried in Asadabad, Hamedan.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranintlsport/status/2015021281968587103"
+source_type: Social Media
+source_social_media_link: https://x.com/iranintlsport/status/2015021281968587103, https://x.com/sonofthebeach22/status/2015026105967575469, https://x.com/HeKasrehCrisis/status/2015538900425466045

@@ -2,38 +2,24 @@
 # Victim Documentation - Saeed Shahgoli
 # ==========================================
 
-photo: "vic-2026-001277.jpg"
-name: "Saeed Shahgoli"
-
-# Personal & Birth Information
+photo: vic-2026-001277.jpg
+name: Saeed Shahgoli
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 39
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Shahriar"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Shahriar
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: سعید شهگلی
-  
-  Shot and killed by government forces during protests. He was shot in the neck.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2015525387946848420"
+  Shot and killed by government forces during protests. He was shot in the neck.
+source_type: Social Media
+source_social_media_link: https://x.com/HengawO/status/2015525387946848420, https://x.com/hengawo/status/2015525387946848420, https://t.me/RememberTheirNames/1257

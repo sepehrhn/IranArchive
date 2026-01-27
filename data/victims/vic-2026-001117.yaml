@@ -2,36 +2,22 @@
 # Victim Documentation - Mani Safarpour
 # ==========================================
 
-photo: "vic-2026-001117.jpg"
-name: "Mani Safarpour"
-
-# Personal & Birth Information
+photo: vic-2026-001117.jpg
+name: Mani Safarpour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 16
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Salasebil"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Salsabil neighborhood
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by the Islamic regime of Iran during the protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/fseifikaran/status/2012876458243338714"
+source_type: Social Media
+source_social_media_link: https://x.com/fseifikaran/status/2012876458243338714, https://x.com/hengawo/status/2013369427656392749, https://x.com/outofken/status/2013215448419172677, https://x.com/HengawO/status/2013369427656392749, https://x.com/b0oseh/status/2015021136057192576, https://x.com/yomnaaaaa/status/2015160034918105118, https://x.com/sssccpp/status/2015478789770268778, https://x.com/Sssccpp/status/2015478789770268778, https://x.com/Behzadhamrahi/status/2015154066062479554

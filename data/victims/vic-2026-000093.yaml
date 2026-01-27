@@ -2,36 +2,22 @@
 # Victim Documentation - Farzin Balali
 # ==========================================
 
-photo: "vic-2026-000093.jpg"
-name: "Farzin Balali"
-
-# Personal & Birth Information
+photo: vic-2026-000093.jpg
+name: Farzin Balali
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Haft-Howz"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Haft-Howz
+date_of_death: "2025-12-28"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in Haft Howz area of Tehran during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/justchangingun/status/2014051012722540735"
+source_type: Social Media
+source_social_media_link: https://x.com/justchangingun/status/2014051012722540735, https://x.com/the_zhalzzz/status/2014252741129064643, https://x.com/karrotenn/status/2014117277734420722, https://t.me/RememberTheirNames/538

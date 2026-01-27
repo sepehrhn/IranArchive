@@ -2,36 +2,22 @@
 # Victim Documentation - Ershad Shahbazi
 # ==========================================
 
-photo: "vic-2026-000596.jpg"
-name: "Ershad Shahbazi"
-
-# Personal & Birth Information
+photo: vic-2026-000596.jpg
+name: Ershad Shahbazi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gilan and Mazandaran"
-
-# Death Information
+incident_city: Gilan and Mazandaran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Lost his life during protests in the city on either January 8 or 9, 2026 (18 or 19 Dey 1404). Family was forced under security pressure to bury him at night without public ceremony
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pkhwshhal/status/2013339774581383673"
+source_type: Social Media
+source_social_media_link: https://x.com/pkhwshhal/status/2013339774581383673, https://x.com/hyrcanihrm/status/2013367480006164856, https://x.com/s_iran01/status/2013387241045753902, https://x.com/Tavaana/status/2013596683129831492, https://x.com/HengawO/status/2014421367446253740

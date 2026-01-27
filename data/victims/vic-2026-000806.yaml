@@ -2,36 +2,22 @@
 # Victim Documentation - Reza Shasipour
 # ==========================================
 
-photo: "vic-2026-000806.jpg"
-name: "Reza Shasipour"
-
-# Personal & Birth Information
+photo: vic-2026-000806.jpg
+name: Reza Shasipour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Izeh"
-
-# Death Information
+incident_city: Izeh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Killed by security forces with three bullets in Hafez South Street, Izeh.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/marianmeyer0/status/2014713124541075915"
+source_type: Social Media
+source_social_media_link: https://x.com/marianmeyer0/status/2014713124541075915, https://www.instagram.com/p/DT2vyE0DIyo, https://x.com/hirman__/status/2014746994854564055, https://x.com/foad_choobin/status/2014700673179214179, https://t.me/RememberTheirNames/973

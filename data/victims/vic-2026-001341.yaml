@@ -2,38 +2,24 @@
 # Victim Documentation - Leila Azimi
 # ==========================================
 
-photo: "vic-2026-001341.jpg"
-name: "Leila Azimi"
-
-# Personal & Birth Information
+photo: vic-2026-001341.jpg
+name: Leila Azimi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
-age: 
+gender: Female
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Beating"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Iran
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Beating
+status: Killed
 description: |
   Persian Name: لیلا عظیمی
-  
-  Killed by multiple blows to the head. Her body was returned to her mother six days later.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/shaya9000/status/2015510046843756672"
+  Killed by multiple blows to the head. Her body was returned to her mother six days later.
+source_type: Social Media
+source_social_media_link: https://x.com/shaya9000/status/2015510046843756672

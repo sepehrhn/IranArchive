@@ -2,36 +2,22 @@
 # Victim Documentation - Mehdi Rajab Alizadeh
 # ==========================================
 
-photo: "vic-2026-000991.jpg"
-name: "Mehdi Rajab Alizadeh"
-
-# Personal & Birth Information
+photo: vic-2026-000991.jpg
+name: Mehdi Rajab Alizadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Lakan Prison, Rasht"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Execution"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Rasht
+incident_city: Lakan Prison
+date_of_death: "2025-12-24"
+date_of_death_precision: Exact
+cause_of_death: Execution
+status: Killed
 description: |
   Executed in Lakan Prison, Rasht. He was arrested three years ago on charges of murder in a mass brawl and sentenced to death after trial.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hyrcanihrm/status/2003847680649261281"
+source_type: Social Media
+source_social_media_link: https://x.com/HyrcaniHRM/status/2003847680649261281

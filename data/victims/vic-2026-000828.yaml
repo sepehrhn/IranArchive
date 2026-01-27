@@ -2,36 +2,22 @@
 # Victim Documentation - Sajjad Pourhassani Moghaddam
 # ==========================================
 
-photo: "vic-2026-000828.jpg"
-name: "Sajjad Pourhassani Moghaddam"
-
-# Personal & Birth Information
+photo: vic-2026-000828.jpg
+name: Sajjad Pourhassani Moghaddam
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 42
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Motahari Street"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Motahari Street
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by government forces during peaceful protests on Motahari Street while standing next to his wife
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2012208230047375754"
+source_type: Social Media
+source_social_media_link: https://x.com/ManotoNews/status/2012208230047375754

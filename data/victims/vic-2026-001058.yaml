@@ -2,36 +2,22 @@
 # Victim Documentation - Danial Karshennas
 # ==========================================
 
-photo: "vic-2026-001058.jpg"
-name: "Danial Karshennas"
-
-# Personal & Birth Information
+photo: vic-2026-001058.jpg
+name: Danial Karshennas
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: ""
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Yazd
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014308430572351944"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2014308430572351944, https://x.com/HengawO/status/2014308430572351944, https://t.me/RememberTheirNames/978

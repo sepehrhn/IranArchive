@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Amani
 # ==========================================
 
-photo: "vic-2026-000226.jpg"
-name: "Ali Amani"
-
-# Personal & Birth Information
+photo: vic-2026-000226.jpg
+name: Ali Amani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Abpakhsh, Dashtestan County, Bushehr"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Dashtestan County
+incident_city: Abpakhsh
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by bullets fired by Islamic Republic suppressors
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2013721255073939927"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2013721255073939927

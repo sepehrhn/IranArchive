@@ -2,38 +2,24 @@
 # Victim Documentation - Ali Asghar Estakhr
 # ==========================================
 
-photo: "vic-2026-001255.jpg"
-name: "Ali Asghar Estakhr"
-
-# Personal & Birth Information
+photo: vic-2026-001255.jpg
+name: Ali Asghar Estakhr
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: علی‌اصغر استخر
-  
-  Shot in the temple during protests on 19 Dey. Body found after eight days.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hoorieh81/status/2015024215477440758"
+  Shot in the temple during protests on 19 Dey. Body found after eight days.
+source_type: Social Media
+source_social_media_link: https://x.com/hoorieh81/status/2015024215477440758

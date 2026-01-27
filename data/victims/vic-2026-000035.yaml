@@ -2,36 +2,22 @@
 # Victim Documentation - Abdollah Hadizadeh
 # ==========================================
 
-photo: "vic-2026-000035.jpg"
-name: "Abdollah Hadizadeh"
-
-# Personal & Birth Information
+photo: vic-2026-000035.jpg
+name: Abdollah Hadizadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 47
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by special forces in front of a store where his sister worked.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2014669315425870293"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2014669315425870293, https://x.com/YasamanKhodajo/status/2015116687956136306, https://t.me/RememberTheirNames/785

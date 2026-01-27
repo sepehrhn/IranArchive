@@ -2,36 +2,22 @@
 # Victim Documentation - Yaser Ghandali
 # ==========================================
 
-photo: "vic-2026-000123.jpg"
-name: "Yaser Ghandali"
-
-# Personal & Birth Information
+photo: vic-2026-000123.jpg
+name: Yaser Ghandali
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 45
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Susangerd"
-
-# Death Information
+incident_city: Susangerd
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by suppressors in the arms of his wife.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/monfaredashkan/status/2014802095816536133"
+source_type: Social Media
+source_social_media_link: https://x.com/monfaredashkan/status/2014802095816536133, https://x.com/indypersian/status/2014969488358191244, https://x.com/monfaredashkan/status/2014803155507413100, https://x.com/MonfaredAshkan/status/2014802095816536133, https://x.com/MonfaredAshkan/status/2014803155507413100

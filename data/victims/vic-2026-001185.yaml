@@ -2,36 +2,22 @@
 # Victim Documentation - Peyman Babaii
 # ==========================================
 
-photo: "vic-2026-001185.jpg"
-name: "Peyman Babaii"
-
-# Personal & Birth Information
+photo: vic-2026-001185.jpg
+name: Peyman Babaii
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Pir Bakran, Falavarjan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Pir Bakran
+incident_city: Daragan village
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   No cause of death mentioned, but identified as 'Javidnam' (immortal name), implying death.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/visfehan/status/2014709165306888315"
+source_type: Social Media
+source_social_media_link: https://x.com/visfehan/status/2014709165306888315, https://x.com/maryammoqaddam/status/2014711935275536389, https://x.com/VIsfehan/status/2014709165306888315, https://x.com/MaryamMoqaddam/status/2014711935275536389

@@ -2,36 +2,22 @@
 # Victim Documentation - Saeed Mirzaei
 # ==========================================
 
-photo: "vic-2026-000821.png"
-name: "Saeed Mirzaei"
-
-# Personal & Birth Information
+photo: vic-2026-000821.png
+name: Saeed Mirzaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 31
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Rasht"
-
-# Death Information
+incident_city: Rasht
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by Islamic Republic regime
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011840906878423452"
+source_type: Social Media
+source_social_media_link: https://x.com/mohammadabedi_z/status/2012154475809779802, https://x.com/Daikatuo/status/2011840906878423452, https://t.me/poshtpardeha/248690

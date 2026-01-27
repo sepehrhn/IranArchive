@@ -2,36 +2,22 @@
 # Victim Documentation - Keyvan Rezaei
 # ==========================================
 
-photo: "vic-2026-000647.jpg"
-name: "Keyvan Rezaei"
-
-# Personal & Birth Information
+photo: vic-2026-000647.jpg
+name: Keyvan Rezaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Iran (provinces of Ilam"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Iran (provinces of Ilam
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot and killed by IRGC forces with war bullets during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kurdistanhrn/status/2011463230464414058"
+source_type: Social Media
+source_social_media_link: https://x.com/kurdistanhrn/status/2011463230464414058, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011463230464414058

@@ -2,38 +2,24 @@
 # Victim Documentation - Masoumeh Hafezi
 # ==========================================
 
-photo: "vic-2026-001254.jpg"
-name: "Masoumeh Hafezi"
-
-# Personal & Birth Information
+photo: vic-2026-001254.jpg
+name: Masoumeh Hafezi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 48
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Qazvin"
-incident_city: "Mohammadieh"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Qazvin
+incident_city: Mohammadiyeh
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: معصومه حافظی
-  
-  Shot in the liver with live ammunition by government forces.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2015156994311860597"
+  Shot in the liver with live ammunition by government forces.
+source_type: Social Media
+source_social_media_link: https://x.com/tavaana/status/2015156994311860597, https://x.com/Tavaana/status/2015156994311860597, https://x.com/Liam_Armani/status/2014849020238156151, https://x.com/XosrooH/status/2015232107212063158, https://t.me/RememberTheirNames/1093

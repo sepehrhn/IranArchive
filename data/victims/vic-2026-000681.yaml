@@ -2,36 +2,22 @@
 # Victim Documentation - Mehdi Mohammadi
 # ==========================================
 
-photo: "vic-2026-000681.jpg"
-name: "Mehdi Mohammadi"
-
-# Personal & Birth Information
+photo: vic-2026-000681.jpg
+name: Mehdi Mohammadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Rasht"
-
-# Death Information
+country: Iran
+incident_province: Rasht
+incident_city: Golsar
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the abdomen by government forces during protests in Golsar, Rasht. He died two days later due to severe injuries and bleeding.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/"
+source_type: Social Media
+source_social_media_link: https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/tavaana/status/2014656048293089779, https://x.com/HyrcaniHRM/status/2014656288496431553, https://x.com/Tavaana/status/2014656048293089779, https://x.com/gohareshghi/status/2015100314576101816, https://t.me/RememberTheirNames/832

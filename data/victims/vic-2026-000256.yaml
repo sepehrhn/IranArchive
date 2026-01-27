@@ -2,36 +2,22 @@
 # Victim Documentation - Arnika Dabbagh
 # ==========================================
 
-photo: "vic-2026-000256.jpg"
-name: "Arnika Dabbagh"
-
-# Personal & Birth Information
+photo: vic-2026-000256.jpg
+name: Arnika Dabbagh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 15
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Golestan"
-incident_city: "Gorgan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Golestan
+incident_city: Gorgan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by direct gunfire from Iranian government forces during protests, died from severity of injuries after being unable to reach medical facilities due to communication shutdown
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2011281883942768924"
+source_type: Social Media
+source_social_media_link: https://x.com/longlosthills/status/2011281883942768924, https://x.com/zananfirouzehie/status/2011444066802696251, https://hengaw.net/en/news/2026/01/article-121, https://x.com/noamagid/status/2012571484930113580, https://x.com/MothrOfDrgns/status/2011909782941098307, https://x.com/Daikatuo/status/2012211183286091831, https://x.com/IsraelPersian/status/2013970995220984293

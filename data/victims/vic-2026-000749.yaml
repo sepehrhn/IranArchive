@@ -2,36 +2,22 @@
 # Victim Documentation - Mojtaba Goodarzi
 # ==========================================
 
-photo: "vic-2026-000749.jpg"
-name: "Mojtaba Goodarzi"
-
-# Personal & Birth Information
+photo: vic-2026-000749.jpg
+name: Mojtaba Goodarzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shahrak Razaviyeh Karavan"
-
-# Death Information
+incident_city: Shahrak-e Razaviye Karavan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hamed_bayat1/status/2014413364722860384"
+source_type: Social Media
+source_social_media_link: https://x.com/hamed_bayat1/status/2014413364722860384, https://x.com/Hamed_Bayat1/status/2014413364722860384, https://x.com/dadban4/status/2015271572362117479, https://t.me/RememberTheirNames/843

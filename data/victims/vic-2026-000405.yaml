@@ -2,36 +2,22 @@
 # Victim Documentation - Omid Shojaiyan
 # ==========================================
 
-photo: "vic-2026-000405.jpg"
-name: "Omid Shojaiyan"
-
-# Personal & Birth Information
+photo: vic-2026-000405.jpg
+name: Omid Shojaiyan
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Kermanshah
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with live ammunition by Islamic Republic suppression forces in front of his shop in Maskan neighborhood during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kavehkermashani/status/2013997635758162174"
+source_type: Social Media
+source_social_media_link: https://x.com/kavehkermashani/status/2013997635758162174, https://x.com/kurdpa_farsi/status/2014449301208912076, https://x.com/HengawO/status/2014280444745830546, https://x.com/KurdistanHRN/status/2014721875658604605, https://x.com/KurdistanHRN/status/2013985376872878373, https://t.me/RememberTheirNames/528

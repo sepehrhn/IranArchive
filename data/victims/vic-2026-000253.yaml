@@ -2,36 +2,22 @@
 # Victim Documentation - Armin Motamed-Amini
 # ==========================================
 
-photo: "vic-2026-000253.png"
-name: "Armin Motamed-Amini"
-
-# Personal & Birth Information
+photo: vic-2026-000253.png
+name: Armin Motamed-Amini
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Andarzgoo Boulevard"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Andarzgoo Boulevard
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the heart by government forces during protests, body handed over to family in Kahrizak on January 11
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://hengaw.net/en/news/2026/01/article-123-1"
+source_type: Social Media
+source_social_media_link: https://hengaw.net/en/news/2026/01/article-123-1, https://x.com/dadban4/status/2012129775792345091, https://x.com/Daikatuo/status/2012213041681555926, https://x.com/elllwho/status/2014749595562078634

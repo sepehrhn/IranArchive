@@ -2,36 +2,22 @@
 # Victim Documentation - Majid Esmaeili
 # ==========================================
 
-photo: "vic-2026-000660.jpg"
-name: "Majid Esmaeili"
-
-# Personal & Birth Information
+photo: vic-2026-000660.jpg
+name: Majid Esmaeili
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 43
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
+incident_city: Isfahan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by government forces during peaceful protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2014619062702133586"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2014619062702133586, https://x.com/dadban4/status/2014653806374482409, https://t.me/RememberTheirNames/798

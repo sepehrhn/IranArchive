@@ -2,36 +2,22 @@
 # Victim Documentation - Amin Rezaei
 # ==========================================
 
-photo: "vic-2026-000518.jpg"
-name: "Amin Rezaei"
-
-# Personal & Birth Information
+photo: vic-2026-000518.jpg
+name: Amin Rezaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 31
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kerman"
-
-# Death Information
+incident_city: Kerman
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with three pellet bullets and one war bullet during national revolution protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/shahramsadidi/status/2014337655736025321"
+source_type: Social Media
+source_social_media_link: https://x.com/shahramsadidi/status/2014337655736025321, https://x.com/dadban4/status/2014620472781025420, https://x.com/iranwire/status/2015155340027793898, https://x.com/allahbakhshii/status/2014667679391420735, https://x.com/solmazbarghgir/status/2015450113057910965, https://t.me/RememberTheirNames/639

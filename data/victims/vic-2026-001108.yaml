@@ -2,36 +2,22 @@
 # Victim Documentation - Kamran Akbari
 # ==========================================
 
-photo: "vic-2026-001108.jpg"
-name: "Kamran Akbari"
-
-# Personal & Birth Information
+photo: vic-2026-001108.jpg
+name: Kamran Akbari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
-occupation: "teacher"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+age: null
+occupation: teacher
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Shahabad (Islamabad-e Gharb)
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests, was a teacher in the education system
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2012627643884069349"
+source_type: Social Media
+source_social_media_link: https://x.com/HengawO/status/2012627643884069349, https://x.com/nejatbahrami/status/2015451612404162809

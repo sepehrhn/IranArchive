@@ -2,36 +2,22 @@
 # Victim Documentation - Erfan
 # ==========================================
 
-photo: "vic-2026-001068.jpg"
-name: "Erfan"
-
-# Personal & Birth Information
+photo: vic-2026-001068.jpg
+name: Erfan
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 18
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Nazi Abad Square"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Nazi Abad Square
+date_of_death: "2025-12-29"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot from behind while filming protesters' courage at Nazi Abad Square
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranwire/status/2013651846267572717"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2013651846267572717

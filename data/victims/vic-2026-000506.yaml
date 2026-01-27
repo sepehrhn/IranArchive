@@ -2,36 +2,22 @@
 # Victim Documentation - Alireza Ahmadi
 # ==========================================
 
-photo: "vic-2026-000506.jpg"
-name: "Alireza Ahmadi"
-
-# Personal & Birth Information
+photo: vic-2026-000506.jpg
+name: Alireza Ahmadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Shahrekord"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Yazdanshar
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by suppressive forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2014670534424842659"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2014670534424842659, https://x.com/hirman__/status/2015277359943811241

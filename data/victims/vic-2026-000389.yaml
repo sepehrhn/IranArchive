@@ -2,36 +2,22 @@
 # Victim Documentation - Mojtaba Rezvani
 # ==========================================
 
-photo: "vic-2026-000389.jpg"
-name: "Mojtaba Rezvani"
-
-# Personal & Birth Information
+photo: vic-2026-000389.jpg
+name: Mojtaba Rezvani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 24
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Rasht"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Mazandaran
+incident_city: Rustamkola
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot and killed during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/monfaredashkan/status/2015134352053768572"
+source_type: Social Media
+source_social_media_link: https://x.com/monfaredashkan/status/2015160436099105278, https://x.com/MonfaredAshkan/status/2015160436099105278, https://x.com/MonfaredAshkan/status/2015134352053768572, https://t.me/RememberTheirNames/987

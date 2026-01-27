@@ -2,36 +2,22 @@
 # Victim Documentation - Saman Nazari
 # ==========================================
 
-photo: "vic-2026-000835.jpg"
-name: "Saman Nazari"
-
-# Personal & Birth Information
+photo: vic-2026-000835.jpg
+name: Saman Nazari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
+incident_city: Kermanshah
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Revolutionary Guards forces during protests in Dareh-Derizh neighborhood
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/"
+source_type: Social Media
+source_social_media_link: https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/KurdistanHRN/status/2014747456299270597

@@ -2,36 +2,22 @@
 # Victim Documentation - Ebrahim Ahmadpourian
 # ==========================================
 
-photo: "vic-2026-000583.jpg"
-name: "Ebrahim Ahmadpourian"
-
-# Personal & Birth Information
+photo: vic-2026-000583.jpg
+name: Ebrahim Ahmadpourian
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 39
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Nazi Abad"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Nazi Abad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot and killed by special unit motorcycle battalions with war bullets during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hiwa_life/status/2013588719136014641"
+source_type: Social Media
+source_social_media_link: https://x.com/hiwa_life/status/2013588719136014641, https://x.com/KurdistanHRN/status/2015913809299267612

@@ -2,36 +2,22 @@
 # Victim Documentation - Abolfazl Yaghmouri
 # ==========================================
 
-photo: "vic-2026-000218.jpg"
-name: "Abolfazl Yaghmouri"
-
-# Personal & Birth Information
+photo: vic-2026-000218.jpg
+name: Abolfazl Yaghmouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Fardis, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Fardis
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the heart by Islamic Republic forces during protests. Security forces prevented anyone from helping him for approximately 40 minutes while he was bleeding.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranprotestscom/status/2011853640642818479"
+source_type: Social Media
+source_social_media_link: https://x.com/loabatk/status/2012030090834821607, https://x.com/banafshehviola/status/2012581927342297534, https://x.com/manotonews/status/2012857504091263264, https://x.com/IranProtestsCom/status/2011853640642818479, https://x.com/Daikatuo/status/2011843247153246303

@@ -2,36 +2,22 @@
 # Victim Documentation - Amir-Abbas Amini
 # ==========================================
 
-photo: "vic-2026-000536.jpg"
-name: "Amir-Abbas Amini"
-
-# Personal & Birth Information
+photo: vic-2026-000536.jpg
+name: Amir-Abbas Amini
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 12
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Savojbolagh (ساوه)"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Savojbolagh (ساوه)
+date_of_death: "2025-12-28"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot and killed while on the back of a motorcycle with his father during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/farangissbayat/status/2014721127541551213"
+source_type: Social Media
+source_social_media_link: https://x.com/farangissbayat/status/2014721127541551213, https://x.com/esmaeils1169/status/2014718346575421539, https://x.com/noamagid/status/2015058415031132521, https://t.me/RememberTheirNames/919

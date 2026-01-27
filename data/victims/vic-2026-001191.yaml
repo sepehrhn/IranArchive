@@ -2,36 +2,22 @@
 # Victim Documentation - Raheleh Barghi
 # ==========================================
 
-photo: "vic-2026-001191.jpg"
-name: "Raheleh Barghi"
-
-# Personal & Birth Information
+photo: vic-2026-001191.jpg
+name: Raheleh Barghi
 birth_date: ""
 birth_province: ""
-birth_city: "Azerbaijan"
+birth_city: Azerbaijan
 gender: ""
 age: 44
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Karaj
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests (from Azerbaijan, killed in Karaj)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/loabatk/status/2012039450847822296"
+source_type: Social Media
+source_social_media_link: https://x.com/loabatk/status/2012039450847822296

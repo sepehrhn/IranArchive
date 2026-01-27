@@ -2,36 +2,22 @@
 # Victim Documentation - Pezhman Shahpiri
 # ==========================================
 
-photo: "vic-2026-000785.jpg"
-name: "Pezhman Shahpiri"
-
-# Personal & Birth Information
+photo: vic-2026-000785.jpg
+name: Pezhman Shahpiri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Izeh"
-
-# Death Information
+incident_city: Izeh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces near the Red Crescent building.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/foad_choobin/status/2014701219197935989"
+source_type: Social Media
+source_social_media_link: https://x.com/foad_choobin/status/2014701219197935989, https://x.com/roozbehmon/status/2015350458433560758, https://t.me/RememberTheirNames/974

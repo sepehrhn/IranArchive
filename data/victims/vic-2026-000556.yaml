@@ -2,36 +2,22 @@
 # Victim Documentation - Armin Dadfar
 # ==========================================
 
-photo: "vic-2026-000556.jpg"
-name: "Armin Dadfar"
-
-# Personal & Birth Information
+photo: vic-2026-000556.jpg
+name: Armin Dadfar
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 21
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
+incident_city: Kermanshah
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with war bullets by Islamic Republic suppression forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kurdpa_farsi/status/2014228415423942788"
+source_type: Social Media
+source_social_media_link: https://x.com/kurdpa_farsi/status/2014228415423942788, https://x.com/HengawO/status/2014280444745830546, https://t.me/RememberTheirNames/608

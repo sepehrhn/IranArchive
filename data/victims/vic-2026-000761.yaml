@@ -2,36 +2,22 @@
 # Victim Documentation - Mostafa Safian
 # ==========================================
 
-photo: "vic-2026-000761.jpg"
-name: "Mostafa Safian"
-
-# Personal & Birth Information
+photo: vic-2026-000761.jpg
+name: Mostafa Safian
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Isfahan province, Shahreza"
-
-# Death Information
+country: Iran
+incident_province: Shahreza
+incident_city: Isfahan province
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot during a protest
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2014669819996446832"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2014669819996446832, https://t.me/RememberTheirNames/686

@@ -2,36 +2,22 @@
 # Victim Documentation - Melina Asadi
 # ==========================================
 
-photo: "vic-2026-000690.jpg"
-name: "Melina Asadi"
-
-# Personal & Birth Information
+photo: vic-2026-000690.jpg
+name: Melina Asadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 3
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
+incident_city: Kermanshah
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces with pellet bullets on Taghbostan Boulevard
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kermanshahvoice/status/2012233294327296444"
+source_type: Social Media
+source_social_media_link: https://x.com/kermanshahvoice/status/2012233294327296444, https://x.com/loabatk/status/2012273338991751384, https://x.com/olilondontv/status/2012825674822660372, https://x.com/DrEliDavid/status/2012354669826195590, https://x.com/HengawO/status/2012641346142572662

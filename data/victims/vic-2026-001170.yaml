@@ -2,36 +2,22 @@
 # Victim Documentation - Morteza Mahmoudi
 # ==========================================
 
-photo: "vic-2026-001170.jpg"
-name: "Morteza Mahmoudi"
-
-# Personal & Birth Information
+photo: vic-2026-001170.jpg
+name: Morteza Mahmoudi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 29
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Mashhad
+date_of_death: "2025-12-28"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the leg during protest, died before reaching hospital, family believes bullet was toxic
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/sabamajlessi/status/2013908911565246927"
+source_type: Social Media
+source_social_media_link: https://x.com/sabamajlessi/status/2013908911565246927, https://t.me/RememberTheirNames/587

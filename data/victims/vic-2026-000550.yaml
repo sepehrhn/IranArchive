@@ -2,36 +2,22 @@
 # Victim Documentation - Ariana Arjomandi
 # ==========================================
 
-photo: "vic-2026-000550.jpg"
-name: "Ariana Arjomandi"
-
-# Personal & Birth Information
+photo: vic-2026-000550.jpg
+name: Ariana Arjomandi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Borujerd, Lorestan"
-
-# Death Information
+country: Iran
+incident_province: Lorestan
+incident_city: Borujerd
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces' gunfire during January protests, killed by plainclothes agent while fleeing pursuit
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2011621237852668400"
+source_type: Social Media
+source_social_media_link: https://x.com/longlosthills/status/2011621237852668400, https://x.com/olilondontv/status/2011961746269798732, https://x.com/loabatk/status/2011706607600877725, https://x.com/manotonews/status/2011785438047195170, https://x.com/iranwire/status/2012205220281921586, https://x.com/iranintl/status/2012884641946976707, https://x.com/iranwire/status/2013880313521336542, https://x.com/itsfornhi/status/2014436406509134094, https://x.com/autnews_org/status/2013355795795136933, https://x.com/Daikatuo/status/2011448689416364436

@@ -3,36 +3,20 @@
 # ==========================================
 
 photo: ""
-
-name: "He was buried on January 12. His family was forced to promise that the funeral would be held in complete silence."
-
-# Personal & Birth Information
+name: He was buried on January 12. His family was forced to promise that the funeral would be held in complete silence.
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
 incident_city: ""
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-
-# Sources
-source_type: "Social Media"
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
+description: ""
+source_type: Social Media
 source_social_media_link: ""

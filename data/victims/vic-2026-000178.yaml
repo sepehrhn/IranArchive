@@ -2,36 +2,22 @@
 # Victim Documentation - Behrooz Mansoori
 # ==========================================
 
-photo: "vic-2026-000178.jpg"
-name: "Behrooz Mansoori"
-
-# Personal & Birth Information
+photo: vic-2026-000178.jpg
+name: Behrooz Mansoori
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Bushehr, Ashouri Street"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Ashouri Street
+incident_city: Bushehr
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Shot and killed by regime forces from Quran Mosque on Ashouri Street in Bushehr. Husband of Mansooreh Heydari, who was also killed. Parents of two children.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/callyonyourbs/status/2012230301880295828"
+source_type: Social Media
+source_social_media_link: https://x.com/mobarez_nastooh/status/2014474450591170641, https://x.com/CallYOnYourBS/status/2012230301880295828, https://x.com/mtttiioon/status/2014666132263739656

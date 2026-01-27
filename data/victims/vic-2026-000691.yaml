@@ -2,36 +2,22 @@
 # Victim Documentation - Meysam Karani
 # ==========================================
 
-photo: "vic-2026-000691.jpg"
-name: "Meysam Karani"
-
-# Personal & Birth Information
+photo: vic-2026-000691.jpg
+name: Meysam Karani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
+incident_city: Kermanshah
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   killed by live ammunition fired by state agents during protests on Taq-e Bostan Boulevard
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014088323942256878"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2014088323942256878, https://x.com/dadban4/status/2014696913044418885, https://www.instagram.com/p/DTxrChwiPjN, https://x.com/HengawO/status/2014088323942256878

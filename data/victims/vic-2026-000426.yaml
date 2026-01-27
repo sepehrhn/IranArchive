@@ -2,36 +2,22 @@
 # Victim Documentation - Robina Aminian
 # ==========================================
 
-photo: "vic-2026-000426.jpg"
-name: "Robina Aminian"
-
-# Personal & Birth Information
+photo: vic-2026-000426.jpg
+name: Robina Aminian
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehran
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head from close range from behind after joining a protest after leaving college
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://www.theguardian.com/world/2026/jan/11/iranian-student-rubina-aminian-killed-during-protests-shot-in-head-from-close-range"
+source_type: Social Media
+source_social_media_link: https://www.theguardian.com/world/2026/jan/11/iranian-student-rubina-aminian-killed-during-protests-shot-in-head-from-close-range, https://www.theguardian.com/global-development/2026/jan/15/iran-protesters-uprising-killed-world-diaspora-families-tehran-internet-blackout, https://x.com/azatalsalim/status/2012127416928661744, https://x.com/henmazzig/status/2012508928609825121, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/missmarpel75/status/2014755290445459966

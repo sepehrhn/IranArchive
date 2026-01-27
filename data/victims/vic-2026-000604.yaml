@@ -2,36 +2,22 @@
 # Victim Documentation - Farzad Talebi
 # ==========================================
 
-photo: "vic-2026-000604.jpg"
-name: "Farzad Talebi"
-
-# Personal & Birth Information
+photo: vic-2026-000604.jpg
+name: Farzad Talebi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 28
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Mobarakeh, Isfahan"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Mobarakeh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests by Islamic Republic forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/banafshehviola/status/2014216230920687894"
+source_type: Social Media
+source_social_media_link: https://x.com/banafshehviola/status/2014216230920687894, https://x.com/abhaddadii/status/2015148288157085704

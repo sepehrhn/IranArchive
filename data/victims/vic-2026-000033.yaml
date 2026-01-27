@@ -2,36 +2,22 @@
 # Victim Documentation - Sajjad Raadi
 # ==========================================
 
-photo: "vic-2026-000033.jpg"
-name: "Sajjad Raadi"
-
-# Personal & Birth Information
+photo: vic-2026-000033.jpg
+name: Sajjad Raadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 19
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Valiasr Town
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the eyes in front of the Vali Asr Township police station.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/khanbabamt/status/2014964282283458584"
+source_type: Social Media
+source_social_media_link: https://x.com/khanbabamt/status/2014964282283458584, https://x.com/shahinmodarres/status/2015152194236961105, https://x.com/HeKasrehCrisis/status/2015180811931091108, https://t.me/RememberTheirNames/1159

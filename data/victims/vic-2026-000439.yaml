@@ -2,36 +2,22 @@
 # Victim Documentation - Setayesh Shafiei
 # ==========================================
 
-photo: "vic-2026-000439.jpg"
-name: "Setayesh Shafiei"
-
-# Personal & Birth Information
+photo: vic-2026-000439.jpg
+name: Setayesh Shafiei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 20
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   20-year-old orphan shot dead by suppression forces during nationwide protests. Ran a Telegram channel 'The Girl Who Was the Sun'.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2011415117703860644"
+source_type: Social Media
+source_social_media_link: https://x.com/longlosthills/status/2011415117703860644, https://x.com/loabatk/status/2011890447057404157, https://x.com/Daikatuo/status/2011479730583724347, https://x.com/HenMazzig/status/2014047369709449667, https://x.com/nasim48381036/status/2015595269136535710

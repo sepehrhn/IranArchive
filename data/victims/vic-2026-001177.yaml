@@ -2,36 +2,22 @@
 # Victim Documentation - Nasir Nasiri
 # ==========================================
 
-photo: "vic-2026-001177.jpg"
-name: "Nasir Nasiri"
-
-# Personal & Birth Information
+photo: vic-2026-001177.jpg
+name: Nasir Nasiri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Gilan
+incident_city: Rostamabad
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests in Tehran
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2012889204846465369"
+source_type: Social Media
+source_social_media_link: https://x.com/HengawO/status/2012889204846465369

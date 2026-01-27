@@ -2,38 +2,24 @@
 # Victim Documentation - Milad Mohebbi
 # ==========================================
 
-photo: "vic-2026-001421.jpg"
-name: "Milad Mohebbi"
-
-# Personal & Birth Information
+photo: vic-2026-001421.jpg
+name: Milad Mohebbi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
-date_of_death: ""
-date_of_death_precision: "Exact"
+incident_city: Kermanshah
+date_of_death: "2026-01-08"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: میلاد محبی
-  
-  A worker who was killed. His family was forced to either declare him a Basiji or pay 1 billion Toman for the bullets that killed him in order to receive his body.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/atenamoghaddam1/status/2015607380160188528"
+  A worker who was killed. His family was forced to either declare him a Basiji or pay 1 billion Toman for the bullets that killed him in order to receive his body.
+source_type: Social Media
+source_social_media_link: https://x.com/atenamoghaddam1/status/2015607380160188528, https://x.com/atenamoghaddam1/status/2015609532958089242, https://x.com/i/status/2015607380160188528, https://x.com/KurdistanHRN/status/2015788793022808067, https://t.me/RememberTheirNames/1207

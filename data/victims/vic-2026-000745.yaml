@@ -2,36 +2,22 @@
 # Victim Documentation - Mohsen Maghsoudlou Kamali
 # ==========================================
 
-photo: "vic-2026-000745.jpg"
-name: "Mohsen Maghsoudlou Kamali"
-
-# Personal & Birth Information
+photo: vic-2026-000745.jpg
+name: Mohsen Maghsoudlou Kamali
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 46
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gorgan"
-
-# Death Information
+incident_city: Gorgan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the throat with war ammunition by Islamic Republic forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/justchangingun/status/2014162523981791567"
+source_type: Social Media
+source_social_media_link: https://x.com/justchangingun/status/2014162523981791567, https://x.com/ManotoNews/status/2014610804956660023

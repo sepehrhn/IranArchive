@@ -2,36 +2,22 @@
 # Victim Documentation - Dr. Sajjad Kiani
 # ==========================================
 
-photo: "vic-2026-000582.jpg"
-name: "Dr. Sajjad Kiani"
-
-# Personal & Birth Information
+photo: vic-2026-000582.jpg
+name: Dr. Sajjad Kiani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Islamabad-e Gharb (Shabad), Kermanshah"
-
-# Death Information
+country: Iran
+incident_province: Kermanshah
+incident_city: Islamabad-e Gharb (Shabad)
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with war bullets by Islamic Republic suppression forces during evening protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kurdpa_farsi/status/2014034004693962930"
+source_type: Social Media
+source_social_media_link: https://x.com/kurdpa_farsi/status/2014034004693962930, https://x.com/samanthairani/status/2014235703685562641

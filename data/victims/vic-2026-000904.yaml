@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Bazooneh
 # ==========================================
 
-photo: "vic-2026-000904.jpg"
-name: "Mohammad Bazooneh"
-
-# Personal & Birth Information
+photo: vic-2026-000904.jpg
+name: Mohammad Bazooneh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Ilam"
-incident_city: "Malekshahi"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Ilam
+incident_city: Malekshahi
+date_of_death: "2026-01-03"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by IRGC forces during protests while passing by the Basij resistance building on Farmandarí Boulevard
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://en.wikipedia.org/wiki/2026_Iran_massacres"
+source_type: Social Media
+source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/KurdistanHRN/status/2007538683428077889

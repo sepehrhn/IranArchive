@@ -2,36 +2,22 @@
 # Victim Documentation - Jafar Rezaei
 # ==========================================
 
-photo: "vic-2026-000312.jpg"
-name: "Jafar Rezaei"
-
-# Personal & Birth Information
+photo: vic-2026-000312.jpg
+name: Jafar Rezaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Zirab, Savadkuh"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Savadkuh
+incident_city: Zirab
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during the national uprising of the people of Zirab Savadkuh
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/indypersian/status/2014764874279080399"
+source_type: Social Media
+source_social_media_link: https://x.com/indypersian/status/2014764874279080399

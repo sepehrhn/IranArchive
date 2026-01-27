@@ -2,36 +2,22 @@
 # Victim Documentation - Erfan Momeni
 # ==========================================
 
-photo: "vic-2026-000023.jpg"
-name: "Erfan Momeni"
-
-# Personal & Birth Information
+photo: vic-2026-000023.jpg
+name: Erfan Momeni
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Dehnow"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: ""
+incident_city: Isfahan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Injured in the thigh, initially seemed well, but his condition suddenly worsened, and he died the next morning. Suspicious death without clear explanation. Family had to pay 1.3 billion Tomans for his body.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/visfehan/status/2015142600974483763"
+source_type: Social Media
+source_social_media_link: https://x.com/visfehan/status/2015142600974483763, https://x.com/VIsfehan/status/2015363372800147472, https://x.com/VIsfehan/status/2015142600974483763, https://t.me/RememberTheirNames/1402

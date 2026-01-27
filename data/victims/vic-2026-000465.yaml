@@ -2,36 +2,22 @@
 # Victim Documentation - Abbas Khadem
 # ==========================================
 
-photo: "vic-2026-000465.png"
-name: "Abbas Khadem"
-
-# Personal & Birth Information
+photo: vic-2026-000465.png
+name: Abbas Khadem
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 39
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Rostamabad, Gilan"
-
-# Death Information
+country: Iran
+incident_province: Gilan
+incident_city: Rostamabad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the neck with a military bullet by Islamic Republic forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011838399754178592"
+source_type: Social Media
+source_social_media_link: https://x.com/mohammadabedi_z/status/2014450611853410709, https://x.com/Daikatuo/status/2011838399754178592, https://x.com/HyrcaniHRM/status/2012113239732347154, https://x.com/Mohammadabedi_z/status/2014450611853410709

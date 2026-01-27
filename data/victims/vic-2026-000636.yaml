@@ -2,36 +2,22 @@
 # Victim Documentation - Houman Sabbagh
 # ==========================================
 
-photo: "vic-2026-000636.jpg"
-name: "Houman Sabbagh"
-
-# Personal & Birth Information
+photo: vic-2026-000636.jpg
+name: Houman Sabbagh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 37
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Northern Iran (Chalous, Sari"
-
-# Death Information
+country: Iran
+incident_province: Sari
+incident_city: Northern Iran (Chalous
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Targeted and shot by government forces during protests on Shekargar Street in Lahijan
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pkhwshhal/status/2012477816462286888"
+source_type: Social Media
+source_social_media_link: https://x.com/pkhwshhal/status/2012477816462286888, https://x.com/manotonews/status/2014412755122442328, https://x.com/HyrcaniHRM/status/2012486406493405351, https://x.com/HengawO/status/2012863021467550147, https://x.com/ManotoNews/status/2014412755122442328, https://x.com/dadban4/status/2015160900731171186, https://x.com/pkhwshhal/status/2015804459918483954

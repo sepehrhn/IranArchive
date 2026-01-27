@@ -2,37 +2,22 @@
 # Victim Documentation - Mojtaba Rezvani Rostami
 # ==========================================
 
-photo: "vic-2026-001444.jpg"
-
-name: "Mojtaba Rezvani Rostami"
-
-# Personal & Birth Information
+photo: vic-2026-001444.jpg
+name: Mojtaba Rezvani Rostami
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 29
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Mazandaran"
-incident_city: "رستمکلای"
-
-# Death Information
+country: Iran
+incident_province: Mazandaran
+incident_city: Rustamkola
 date_of_death: "2026-01-09"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   با شلیک گلوله جنگی ماموران حکومتی به ناحیه سینه کشته شد.
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link: https://x.com/iranintl/status/2015658524492124226, https://x.com/i/status/2015465137688260937, https://x.com/Sssccpp/status/2015465137688260937

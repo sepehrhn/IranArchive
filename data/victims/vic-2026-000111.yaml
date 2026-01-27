@@ -2,36 +2,22 @@
 # Victim Documentation - Sama Esmaeili
 # ==========================================
 
-photo: "vic-2026-000111.jpg"
-name: "Sama Esmaeili"
-
-# Personal & Birth Information
+photo: vic-2026-000111.jpg
+name: Sama Esmaeili
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 20
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: ""
-
-# Death Information
+incident_city: Karaj
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Murdered by the Islamic Regime for demanding freedom.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/noamagid/status/2014053017268449610"
+source_type: Social Media
+source_social_media_link: https://x.com/noamagid/status/2014053017268449610, https://x.com/isamanyasin/status/2014846226865230033, https://t.me/RememberTheirNames/904

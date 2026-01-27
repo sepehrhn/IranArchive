@@ -2,36 +2,22 @@
 # Victim Documentation - Milad Tajik
 # ==========================================
 
-photo: "vic-2026-000699.jpg"
-name: "Milad Tajik"
-
-# Personal & Birth Information
+photo: vic-2026-000699.jpg
+name: Milad Tajik
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran (Ariashahr, western Tehran)"
-
-# Death Information
+country: Iran
+incident_province: western Tehran)
+incident_city: Tehran (Ariashahr
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot from behind by Islamic Republic forces while trying to help an injured protester
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/monfaredashkan/status/2013355849628987700"
+source_type: Social Media
+source_social_media_link: https://x.com/monfaredashkan/status/2013355849628987700, https://x.com/tavaana/status/2013751679792095398, https://x.com/Tavaana/status/2013751679792095398, https://x.com/MonfaredAshkan/status/2013736643707158666

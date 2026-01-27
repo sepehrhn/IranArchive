@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Hossein Alikhani
 # ==========================================
 
-photo: "vic-2026-000714.jpg"
-name: "Mohammad Hossein Alikhani"
-
-# Personal & Birth Information
+photo: vic-2026-000714.jpg
+name: Mohammad Hossein Alikhani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 25
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran, Falah neighborhood"
-
-# Death Information
+country: Iran
+incident_province: Falah neighborhood
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the throat and leg by security forces during a protest
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2014528428817461674"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2014528428817461674, https://x.com/allahbakhshii/status/2014615740150677586, https://x.com/HeKasrehCrisis/status/2015896029896302651, https://t.me/RememberTheirNames/777

@@ -2,36 +2,22 @@
 # Victim Documentation - Mansooreh Heydari
 # ==========================================
 
-photo: "vic-2026-000138.jpg"
-name: "Mansooreh Heydari"
-
-# Personal & Birth Information
+photo: vic-2026-000138.jpg
+name: Mansooreh Heydari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
-age: 
+gender: Female
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Ashouri Street"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Ashouri Street
+date_of_death: "2026-01-13"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Nurse and mother of two who joined protests against injustice.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/callyonyourbs/status/2012230301880295828"
+source_type: Social Media
+source_social_media_link: https://x.com/CallYOnYourBS/status/2012230301880295828, https://x.com/mtttiioon/status/2014666132263739656

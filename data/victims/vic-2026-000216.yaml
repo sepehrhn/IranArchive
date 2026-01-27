@@ -2,36 +2,22 @@
 # Victim Documentation - Abolfazl Heydari Mousalou
 # ==========================================
 
-photo: "vic-2026-000216.jpg"
-name: "Abolfazl Heydari Mousalou"
-
-# Personal & Birth Information
+photo: vic-2026-000216.jpg
+name: Abolfazl Heydari Mousalou
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 16
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Ghir, Fars"
-
-# Death Information
+country: Iran
+incident_province: Fars
+incident_city: Ghir
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by IRGC forces during widespread protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranintl/status/2012597199725645917"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2012841057118015884, https://x.com/iranwire/status/2012961494472745233, https://x.com/IranIntl/status/2012597199725645917, https://x.com/HengawO/status/2012641346142572662

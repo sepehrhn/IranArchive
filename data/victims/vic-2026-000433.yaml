@@ -2,36 +2,22 @@
 # Victim Documentation - Sajjad Sahra-gard
 # ==========================================
 
-photo: "vic-2026-000433.jpg"
-name: "Sajjad Sahra-gard"
-
-# Personal & Birth Information
+photo: vic-2026-000433.jpg
+name: Sajjad Sahra-gard
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 37
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Khorramabad, Naser Khosrow neighborhood"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Naser Khosrow neighborhood
+incident_city: Khorramabad
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by suppressive forces, suffering severe bleeding due to three bullets in the thigh and died due to severe trauma.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/chaawtimes/status/2014698225203056973"
+source_type: Social Media
+source_social_media_link: https://x.com/chaawtimes/status/2014698225203056973, https://x.com/allahbakhshii/status/2014728166732865601, https://x.com/ChaawTimes/status/2014698225203056973, https://x.com/hirman__/status/2014904031253065987, https://t.me/RememberTheirNames/871

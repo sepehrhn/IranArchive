@@ -2,36 +2,22 @@
 # Victim Documentation - Mojtaba Tarsheez
 # ==========================================
 
-photo: "vic-2026-000750.png"
-name: "Mojtaba Tarsheez"
-
-# Personal & Birth Information
+photo: vic-2026-000750.png
+name: Mojtaba Tarsheez
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
-age: 
+gender: Female
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Qaem Shahr"
-
-# Death Information
+incident_city: Qaem Shahr
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Former midfielder for Tractor Sazi Tabriz. Killed alongside his wife while protesting for a free Iran.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://en.wikipedia.org/wiki/2026_Fardis_massacre"
+source_type: Social Media
+source_social_media_link: https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/iranhrs99/status/2012920289823252883, https://x.com/callyonyourbs/status/2013354616012836903, https://x.com/Daikatuo/status/2011448689416364436

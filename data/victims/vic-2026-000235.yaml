@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Pahlavani
 # ==========================================
 
-photo: "vic-2026-000235.png"
-name: "Ali Pahlavani"
-
-# Personal & Birth Information
+photo: vic-2026-000235.png
+name: Ali Pahlavani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the heart with a military bullet on Abr Street
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/visfehan/status/2014361684064825524"
+source_type: Social Media
+source_social_media_link: https://x.com/visfehan/status/2014361684064825524, https://x.com/VIsfehan/status/2014361684064825524, https://t.me/RememberTheirNames/667

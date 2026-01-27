@@ -2,36 +2,22 @@
 # Victim Documentation - Danial Zamani
 # ==========================================
 
-photo: "vic-2026-001059.jpg"
-name: "Danial Zamani"
-
-# Personal & Birth Information
+photo: vic-2026-001059.jpg
+name: Danial Zamani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Died in Se-rah Simin, Isfahan
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/visfehan/status/2014647043113828641"
+source_type: Social Media
+source_social_media_link: https://x.com/visfehan/status/2014647043113828641, https://x.com/VIsfehan/status/2014647043113828641, https://t.me/RememberTheirNames/829

@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Reza Golmakani
 # ==========================================
 
-photo: "vic-2026-000379.jpg"
-name: "Mohammad Reza Golmakani"
-
-# Personal & Birth Information
+photo: vic-2026-000379.jpg
+name: Mohammad Reza Golmakani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 36
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Mashhad
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by direct live fire from repressive forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2011903540642349158"
+source_type: Social Media
+source_social_media_link: https://x.com/longlosthills/status/2011903540642349158, https://x.com/loabatk/status/2011986054845210806, https://x.com/loabatk/status/2011975833280184578, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/

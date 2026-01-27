@@ -2,36 +2,22 @@
 # Victim Documentation - Seyed Hamed Hamidian
 # ==========================================
 
-photo: "vic-2026-000843.jpg"
-name: "Seyed Hamed Hamidian"
-
-# Personal & Birth Information
+photo: vic-2026-000843.jpg
+name: Seyed Hamed Hamidian
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Ashrafi Esfahani"
-
-# Death Information
+country: Iran
+incident_province: ""
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the neck near the overpass in Ashrafi Esfahani, Tehran. Buried in Shiraz.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/e_aria_n/status/2015078329456722209"
+source_type: Social Media
+source_social_media_link: https://x.com/e_aria_n/status/2015078329456722209, https://x.com/E_Aria_N/status/2015078329456722209

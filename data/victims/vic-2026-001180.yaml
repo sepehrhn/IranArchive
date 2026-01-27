@@ -2,36 +2,22 @@
 # Victim Documentation - Omid Rostami
 # ==========================================
 
-photo: "vic-2026-001180.jpg"
-name: "Omid Rostami"
-
-# Personal & Birth Information
+photo: vic-2026-001180.jpg
+name: Omid Rostami
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Khazaneh neighborhood"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Khazaneh neighborhood
+date_of_death: "2025-12-28"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Killed by sniper fire
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mobarez_nastooh/status/2014476490289660173"
+source_type: Social Media
+source_social_media_link: https://x.com/mobarez_nastooh/status/2014476490289660173, https://t.me/RememberTheirNames/931

@@ -2,36 +2,22 @@
 # Victim Documentation - Khaled Mollaei
 # ==========================================
 
-photo: "vic-2026-000648.jpg"
-name: "Khaled Mollaei"
-
-# Personal & Birth Information
+photo: vic-2026-000648.jpg
+name: Khaled Mollaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 20
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Bandar Abbas"
-
-# Death Information
+incident_city: Bandar Abbas
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Shot and killed by direct gunfire from government forces while returning home with his brother
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2010383759132995652"
+source_type: Social Media
+source_social_media_link: https://x.com/longlosthills/status/2010383759132995652, https://x.com/manotonews/status/2014012615534825548, https://x.com/Meisam1994/status/2014638768624374000

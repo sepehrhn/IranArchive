@@ -2,36 +2,22 @@
 # Victim Documentation - Sajjad Valamanesh Zilaii
 # ==========================================
 
-photo: "vic-2026-000966.jpg"
-name: "Sajjad Valamanesh Zilaii"
-
-# Personal & Birth Information
+photo: vic-2026-000966.jpg
+name: Sajjad Valamanesh Zilaii
 birth_date: ""
 birth_province: ""
-birth_city: "security forces"
+birth_city: security forces
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Lordegan, Bakhtiari province"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Bakhtiari
+incident_city: Lordegan
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Died as a result of direct fire from security forces.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/"
+source_type: Social Media
+source_social_media_link: https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/hirman__/status/2014381816266805590

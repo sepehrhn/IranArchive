@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Khalili
 # ==========================================
 
-photo: "vic-2026-000373.jpg"
-name: "Mohammad Khalili"
-
-# Personal & Birth Information
+photo: vic-2026-000373.jpg
+name: Mohammad Khalili
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Haft Hoz"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Haft Howz
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot and killed during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/sssccpp/status/2015116079308124509"
+source_type: Social Media
+source_social_media_link: https://x.com/sssccpp/status/2015116079308124509

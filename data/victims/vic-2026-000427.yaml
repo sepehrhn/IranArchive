@@ -2,36 +2,22 @@
 # Victim Documentation - Saeed Zamani
 # ==========================================
 
-photo: "vic-2026-000427.jpg"
-name: "Saeed Zamani"
-
-# Personal & Birth Information
+photo: vic-2026-000427.jpg
+name: Saeed Zamani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 36
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Faridabad, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Faridabad
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Republic forces during protest
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kheradvarzaneh/status/2014825585881829817"
+source_type: Social Media
+source_social_media_link: https://x.com/kheradvarzaneh/status/2014825585881829817, https://t.me/RememberTheirNames/1002

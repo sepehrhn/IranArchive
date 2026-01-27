@@ -2,36 +2,22 @@
 # Victim Documentation - Pezhman Norouz Rajabi
 # ==========================================
 
-photo: "vic-2026-000411.jpg"
-name: "Pezhman Norouz Rajabi"
-
-# Personal & Birth Information
+photo: vic-2026-000411.jpg
+name: Pezhman Norouz Rajabi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 27
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shahsavar (Tonekabon)"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Shahsavar (Tonekabon)
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Republic security forces with Kalashnikov rifle, bullet hit right side of abdomen during nationwide protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/indypersian/status/2013528018317095006"
+source_type: Social Media
+source_social_media_link: https://x.com/indypersian/status/2013528018317095006, https://x.com/IHRights/status/2013716860806504612, https://x.com/hossein909/status/2014796275368050699

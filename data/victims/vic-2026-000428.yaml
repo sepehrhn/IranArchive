@@ -2,36 +2,22 @@
 # Victim Documentation - Saeid Keyani
 # ==========================================
 
-photo: "vic-2026-000428.jpg"
-name: "Saeid Keyani"
-
-# Personal & Birth Information
+photo: vic-2026-000428.jpg
+name: Saeid Keyani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 30
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests, buried without family notification initially
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iliaaaa6/status/2014365450939838782"
+source_type: Social Media
+source_social_media_link: https://x.com/iliaaaa6/status/2014365450939838782, https://x.com/parsia_kazmi/status/2014440076768403869, https://x.com/outofken/status/2015616223455977960, https://t.me/RememberTheirNames/670

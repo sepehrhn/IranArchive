@@ -2,36 +2,22 @@
 # Victim Documentation - Reza Shakouri
 # ==========================================
 
-photo: "vic-2026-001201.jpg"
-name: "Reza Shakouri"
-
-# Personal & Birth Information
+photo: vic-2026-001201.jpg
+name: Reza Shakouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Lahijan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Lahijan
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in Lahijan (previously confirmed)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pkhwshhal/status/2014111018847215695"
+source_type: Social Media
+source_social_media_link: https://x.com/pkhwshhal/status/2014111018847215695

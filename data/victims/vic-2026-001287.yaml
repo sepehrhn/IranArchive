@@ -2,38 +2,24 @@
 # Victim Documentation - Alireza Morovati
 # ==========================================
 
-photo: "vic-2026-001287.jpg"
-name: "Alireza Morovati"
-
-# Personal & Birth Information
+photo: vic-2026-001287.jpg
+name: Alireza Morovati
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 21
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Salehiyeh"
-
-# Death Information
+incident_city: Salehiyeh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: علیرضا مروتی
-  
-  Shot twice from behind in the neck by regime forces during protests. He was a fruit seller and the sole breadwinner of his family. Buried without ceremony under heavy security.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2015416867393859696, https://x.com/aban_khoonin/status/2015159292920291832"
+  Shot twice from behind in the neck by regime forces during protests. He was a fruit seller and the sole breadwinner of his family. Buried without ceremony under heavy security.
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2015416867393859696, https://x.com/aban_khoonin/status/2015159292920291832, https://t.me/RememberTheirNames/1143

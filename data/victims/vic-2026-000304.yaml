@@ -2,36 +2,22 @@
 # Victim Documentation - Hessam Ghanbari
 # ==========================================
 
-photo: "vic-2026-000304.jpg"
-name: "Hessam Ghanbari"
-
-# Personal & Birth Information
+photo: vic-2026-000304.jpg
+name: Hessam Ghanbari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Mashhad
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head with a war bullet in Hashemiyeh, Mashhad. His family was forced to pay one billion to receive his body and were not allowed to hold a ceremony for him. They were told to say he died in an accident.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mobarez_nastooh/status/2014812395181416637"
+source_type: Social Media
+source_social_media_link: https://x.com/mobarez_nastooh/status/2014812395181416637

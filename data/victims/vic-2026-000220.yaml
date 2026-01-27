@@ -2,36 +2,22 @@
 # Victim Documentation - Ahmad Balouri
 # ==========================================
 
-photo: "vic-2026-000220.jpg"
-name: "Ahmad Balouri"
-
-# Personal & Birth Information
+photo: vic-2026-000220.jpg
+name: Ahmad Balouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Haft Hoz"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Haft Hoz
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head by direct gunfire
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/negaraskaran/status/2011892911181615395"
+source_type: Social Media
+source_social_media_link: https://x.com/NegarAskaran/status/2011892911181615395, https://x.com/nedabahram/status/2015121783934906556, https://t.me/RememberTheirNames/681

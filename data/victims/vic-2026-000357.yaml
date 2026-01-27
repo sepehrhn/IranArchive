@@ -2,36 +2,22 @@
 # Victim Documentation - Mikayel Dadras
 # ==========================================
 
-photo: "vic-2026-000357.jpg"
-name: "Mikayel Dadras"
-
-# Personal & Birth Information
+photo: vic-2026-000357.jpg
+name: Mikayel Dadras
 birth_date: ""
 birth_province: ""
-birth_city: "behind"
+birth_city: behind
 gender: ""
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Rasht"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Rasht
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by security forces on Shamsi-Pour Street at 8 PM, bullet hit his heart after being targeted from behind
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2013562499728076946"
+source_type: Social Media
+source_social_media_link: https://x.com/tavaana/status/2013562499728076946, https://x.com/Tavaana/status/2013562499728076946, https://x.com/autnews_org/status/2015837382969377052

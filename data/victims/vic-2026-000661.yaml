@@ -2,36 +2,22 @@
 # Victim Documentation - Majid Shoghi (known as Mahyar Sans)
 # ==========================================
 
-photo: "vic-2026-000661.jpg"
-name: "Majid Shoghi (known as Mahyar Sans)"
-
-# Personal & Birth Information
+photo: vic-2026-000661.jpg
+name: Majid Shoghi (known as Mahyar Sans)
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Rasht"
-
-# Death Information
+incident_city: Rasht
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by Iran's regime forces according to hospital reports
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2012481512172642753"
+source_type: Social Media
+source_social_media_link: https://x.com/longlosthills/status/2012481512172642753, https://x.com/khoshrof/status/2012590324804161926, https://x.com/fereshteh531/status/2012853618672562359, https://x.com/BabakTaghvaee1/status/2012623932541567389

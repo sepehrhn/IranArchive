@@ -2,38 +2,24 @@
 # Victim Documentation - Abolfazl Azizi
 # ==========================================
 
-photo: "vic-2026-001322.jpg"
-name: "Abolfazl Azizi"
-
-# Personal & Birth Information
+photo: vic-2026-001322.jpg
+name: Abolfazl Azizi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gilan and Mazandaran"
-
-# Death Information
+incident_city: Gilan and Mazandaran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: ابوالفضل عزیزی
-  
-  Shot and killed by government forces during protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2015022203226513772, https://x.com/hengawo/status/2015461053618901327"
+  Shot and killed by government forces during protests.
+source_type: Social Media
+source_social_media_link: https://x.com/HengawO/status/2015022203226513772, https://x.com/HengawO/status/2015461053618901327, https://x.com/sssccpp/status/2015881962758504791, https://t.me/RememberTheirNames/1262

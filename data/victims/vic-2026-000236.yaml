@@ -2,36 +2,22 @@
 # Victim Documentation - Alireza Bagheri Manjili
 # ==========================================
 
-photo: "vic-2026-000236.jpg"
-name: "Alireza Bagheri Manjili"
-
-# Personal & Birth Information
+photo: vic-2026-000236.jpg
+name: Alireza Bagheri Manjili
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 24
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Gilan"
-incident_city: "Manjil"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: ""
+incident_city: Gilan and Mazandaran
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Revolutionary Guard forces during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hyrcanihrm/status/2014737687798825193"
+source_type: Social Media
+source_social_media_link: https://x.com/hyrcanihrm/status/2014737687798825193, https://x.com/HyrcaniHRM/status/2014737687798825193, https://x.com/HengawO/status/2015022203226513772

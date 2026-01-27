@@ -2,36 +2,22 @@
 # Victim Documentation - Hossein Shirkol
 # ==========================================
 
-photo: "vic-2026-000308.jpg"
-name: "Hossein Shirkol"
-
-# Personal & Birth Information
+photo: vic-2026-000308.jpg
+name: Hossein Shirkol
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Iran (provinces of Ilam"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Iran (provinces of Ilam
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces with war bullets during popular protests in Isfahan
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kurdistanhrn/status/2011420234687603026"
+source_type: Social Media
+source_social_media_link: https://x.com/kurdistanhrn/status/2011420234687603026, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011420234687603026, https://x.com/KurdistanHRN/status/2014746852537610266, https://x.com/eisabazyar1/status/2015017016432697808

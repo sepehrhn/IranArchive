@@ -3,36 +3,21 @@
 # ==========================================
 
 photo: ""
-
-name: "Saghar Etemadi"
-
-# Personal & Birth Information
+name: Saghar Etemadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
 incident_city: ""
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Listed among deaths in protests navigation section
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://en.wikipedia.org/wiki/2026_Fardis_massacre"
+source_type: Social Media
+source_social_media_link: https://en.wikipedia.org/wiki/2026_Fardis_massacre

@@ -2,36 +2,22 @@
 # Victim Documentation - Farshid Moradi
 # ==========================================
 
-photo: "vic-2026-000602.jpg"
-name: "Farshid Moradi"
-
-# Personal & Birth Information
+photo: vic-2026-000602.jpg
+name: Farshid Moradi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 28
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Fouladshahr"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Fooladshahr
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head by Islamic Republic snipers from a rooftop during protests in Fouladshahr
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2013562802116477232"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2013562802116477232, https://x.com/hengawo/status/2013618561839677909, https://x.com/s_iran01/status/2013758901494128678, https://x.com/HengawO/status/2013618561839677909, https://x.com/VIsfehan/status/2015434224082333839

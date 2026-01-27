@@ -2,36 +2,22 @@
 # Victim Documentation - Hamidreza Vatandoust
 # ==========================================
 
-photo: "vic-2026-000939.jpg"
-name: "Hamidreza Vatandoust"
-
-# Personal & Birth Information
+photo: vic-2026-000939.jpg
+name: Hamidreza Vatandoust
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 21
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests (student)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014772586857598984"
+source_type: Social Media
+source_social_media_link: https://x.com/HengawO/status/2014772586857598984, https://x.com/HengawO/status/2014710031246066053, https://x.com/anjmotahed/status/2015025500721127533, https://t.me/RememberTheirNames/955

@@ -2,36 +2,22 @@
 # Victim Documentation - Safa Farzanfar
 # ==========================================
 
-photo: "vic-2026-000987.jpg"
-name: "Safa Farzanfar"
-
-# Personal & Birth Information
+photo: vic-2026-000987.jpg
+name: Safa Farzanfar
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Hajilarghala village, Gonbad-e Kavus"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Gonbad-e Kavus
+incident_city: Hajilarghala village
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by Islamic Republic forces during protests in Dey 1404 (December 2025/January 2026)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kimba787/status/2012721614182388136"
+source_type: Social Media
+source_social_media_link: https://x.com/kimba787/status/2012721614182388136, https://x.com/longlosthills/status/2012867616465879489, https://x.com/hengawo/status/2014064237220433965, https://x.com/ManotoNews/status/2014639254354461082, https://x.com/HengawO/status/2014064237220433965

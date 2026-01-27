@@ -2,36 +2,22 @@
 # Victim Documentation - Sahar Fard
 # ==========================================
 
-photo: "vic-2026-001249.jpg"
-name: "Sahar Fard"
-
-# Personal & Birth Information
+photo: vic-2026-001249.jpg
+name: Sahar Fard
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 38
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Gharchak, Varamin"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Varamin
+incident_city: Gharchak
+date_of_death: "2026-01-18"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Killed by a war bullet from the forces of the Islamic Republic regime striking her forehead.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2015119666167869786"
+source_type: Social Media
+source_social_media_link: https://x.com/longlosthills/status/2015119666167869786

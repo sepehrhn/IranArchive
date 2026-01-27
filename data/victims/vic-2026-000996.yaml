@@ -2,36 +2,22 @@
 # Victim Documentation - Abbas Amini
 # ==========================================
 
-photo: "vic-2026-000996.jpg"
-name: "Abbas Amini"
-
-# Personal & Birth Information
+photo: vic-2026-000996.jpg
+name: Abbas Amini
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 12
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Unknown
+date_of_death: "2026-01-23"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Shot and killed by agents of the Islamic Republic of Iran while riding on a motorcycle with his father.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://www.instagram.com/p/dt2-huddpgp"
+source_type: Social Media
+source_social_media_link: https://www.instagram.com/p/DT2-huDDpgp

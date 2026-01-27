@@ -2,36 +2,22 @@
 # Victim Documentation - Moein Gholami
 # ==========================================
 
-photo: "vic-2026-000364.png"
-name: "Moein Gholami"
-
-# Personal & Birth Information
+photo: vic-2026-000364.png
+name: Moein Gholami
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Karaj
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by security forces during popular protests in Haft Tir area of Karaj
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011862443933266250"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2011865724189376853, https://x.com/allahbakhshii/status/2012839074608878059, https://x.com/manotonews/status/2012955649030889815, https://x.com/Daikatuo/status/2011862443933266250

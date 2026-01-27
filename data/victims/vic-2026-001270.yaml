@@ -2,38 +2,24 @@
 # Victim Documentation - Mohammad Hassan Khazaei
 # ==========================================
 
-photo: "vic-2026-001270.jpg"
-name: "Mohammad Hassan Khazaei"
-
-# Personal & Birth Information
+photo: vic-2026-001270.jpg
+name: Mohammad Hassan Khazaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 18
+age: 19
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehran
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: محمدحسن خزائی
-  
-  Shot directly by government forces during popular protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2015228128461832194"
+  Shot directly by government forces during popular protests.
+source_type: Social Media
+source_social_media_link: https://x.com/missmarpel75/status/2015117390070071453, https://x.com/manotonews/status/2015228128461832194, https://x.com/ManotoNews/status/2015228128461832194, https://t.me/RememberTheirNames/712

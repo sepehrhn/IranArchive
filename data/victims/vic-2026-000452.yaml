@@ -2,36 +2,22 @@
 # Victim Documentation - Soroush Moghaddam
 # ==========================================
 
-photo: "vic-2026-000452.jpg"
-name: "Soroush Moghaddam"
-
-# Personal & Birth Information
+photo: vic-2026-000452.jpg
+name: Soroush Moghaddam
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Isfahan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot and killed during protest; body discovered five days later.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/monfaredashkan/status/2014915272705241147"
+source_type: Social Media
+source_social_media_link: https://x.com/monfaredashkan/status/2014915272705241147, https://x.com/MonfaredAshkan/status/2014915272705241147, https://x.com/MonfaredAshkan/status/2014941515811062053

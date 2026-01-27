@@ -2,36 +2,22 @@
 # Victim Documentation - Milad Gholamzadeh
 # ==========================================
 
-photo: "vic-2026-000886.jpg"
-name: "Milad Gholamzadeh"
-
-# Personal & Birth Information
+photo: vic-2026-000886.jpg
+name: Milad Gholamzadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 31
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Nowsher village, Khoshkbijar district"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Khoshkbijar district
+incident_city: Nowsher village
+date_of_death: "2026-01-07"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the throat by Islamic Republic forces from Nowsher Basij base during local popular uprising
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranprotestscom/status/2011456458714395031"
+source_type: Social Media
+source_social_media_link: https://x.com/soranmansournia/status/2012687594555863302, https://x.com/IranProtestsCom/status/2011456458714395031

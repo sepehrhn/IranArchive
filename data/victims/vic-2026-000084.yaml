@@ -2,36 +2,22 @@
 # Victim Documentation - Saman Alaei
 # ==========================================
 
-photo: "vic-2026-000084.jpg"
-name: "Saman Alaei"
-
-# Personal & Birth Information
+photo: vic-2026-000084.jpg
+name: Saman Alaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Mazandaran"
-incident_city: "Noor"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Mazandaran
+incident_city: Nur
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by government suppressors during protests on Thursday and Friday
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/alitagh30207454/status/2015074385925746874"
+source_type: Social Media
+source_social_media_link: https://x.com/alitagh30207454/status/2015074385925746874, https://x.com/missmarpel75/status/2015088820862030070

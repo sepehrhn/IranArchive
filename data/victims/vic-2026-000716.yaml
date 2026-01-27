@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Hossein Vosoughi
 # ==========================================
 
-photo: "vic-2026-000716.jpg"
-name: "Mohammad Hossein Vosoughi"
-
-# Personal & Birth Information
+photo: vic-2026-000716.jpg
+name: Mohammad Hossein Vosoughi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 42
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Arak"
-
-# Death Information
+incident_city: Arak
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly in the heart during protests by plainclothes individuals using a Colt pistol.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/behnam_chegini/status/2014809245993029833"
+source_type: Social Media
+source_social_media_link: https://x.com/behnam_chegini/status/2014809245993029833, https://x.com/indypersian/status/2014951344042361228, https://t.me/RememberTheirNames/926

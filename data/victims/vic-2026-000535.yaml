@@ -2,36 +2,22 @@
 # Victim Documentation - Amir Yaghoubi
 # ==========================================
 
-photo: "vic-2026-000535.jpg"
-name: "Amir Yaghoubi"
-
-# Personal & Birth Information
+photo: vic-2026-000535.jpg
+name: Amir Yaghoubi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Qiamdasht, near Pakdasht"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Ghiyāmdasht
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Basij members during protests on 18 Dey (January 8, 2026).
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mobarez_nastooh/status/2014761811086594170"
+source_type: Social Media
+source_social_media_link: https://x.com/mobarez_nastooh/status/2014761811086594170

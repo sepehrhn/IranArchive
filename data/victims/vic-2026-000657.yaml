@@ -2,36 +2,22 @@
 # Victim Documentation - Mahdi Salahshoor
 # ==========================================
 
-photo: "vic-2026-000657.jpg"
-name: "Mahdi Salahshoor"
-
-# Personal & Birth Information
+photo: vic-2026-000657.jpg
+name: Mahdi Salahshoor
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 51
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
+incident_city: Mashhad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by regime's repressive forces with direct gunfire during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranprotestscom/status/2010327279327392094"
+source_type: Social Media
+source_social_media_link: https://x.com/longlosthills/status/2012215678275592616, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/IranProtestsCom/status/2010327279327392094, https://x.com/Memospiel/status/2014716990791795186

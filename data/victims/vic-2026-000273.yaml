@@ -2,36 +2,22 @@
 # Victim Documentation - Borna Dehghani
 # ==========================================
 
-photo: "vic-2026-000273.jpg"
-name: "Borna Dehghani"
-
-# Personal & Birth Information
+photo: vic-2026-000273.jpg
+name: Borna Dehghani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Karaj
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by regime suppression forces, died in father's arms while being transported to hospital
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/israelpersian/status/2012041815109828908"
+source_type: Social Media
+source_social_media_link: https://x.com/israelpersian/status/2012041815109828908, https://x.com/dadban4/status/2012792901403619810, https://x.com/IranProtestsCom/status/2012173911362859260, https://x.com/OliLondonTV/status/2012239383659700345, https://x.com/HengawO/status/2012453805141491959

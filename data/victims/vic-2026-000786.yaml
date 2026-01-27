@@ -2,36 +2,22 @@
 # Victim Documentation - Pouria Gholamali
 # ==========================================
 
-photo: "vic-2026-000786.jpg"
-name: "Pouria Gholamali"
-
-# Personal & Birth Information
+photo: vic-2026-000786.jpg
+name: Pouria Gholamali
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran, District 7"
-
-# Death Information
+country: Iran
+incident_province: District 7
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Shot and killed by Islamic regime forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2011830738174271901"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2011830738174271901, https://x.com/ghorbaniiniyak/status/2013961023833686354, https://x.com/GhorbaniiNiyak/status/2013961023833686354, https://x.com/missmarpel75/status/2015555230801211411, https://x.com/Biarosh/status/2014648367742062927

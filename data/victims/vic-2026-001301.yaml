@@ -2,38 +2,24 @@
 # Victim Documentation - Mani Shafiei
 # ==========================================
 
-photo: "vic-2026-001301.jpg"
-name: "Mani Shafiei"
-
-# Personal & Birth Information
+photo: vic-2026-001301.jpg
+name: Mani Shafiei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 13
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Chenar Sofla village, Asadabad"
-
-# Death Information
+country: Iran
+incident_province: Asadabad
+incident_city: Chenarsufli (Sheikh) village
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: مانی شفیعی
-  
-  Shot and killed by government forces in front of his family home during protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2015421332675301638"
+  Shot and killed by government forces in front of his family home during protests.
+source_type: Social Media
+source_social_media_link: https://x.com/HengawO/status/2015421332675301638, https://x.com/Daikatuo/status/2015869767081402489, https://t.me/RememberTheirNames/1117

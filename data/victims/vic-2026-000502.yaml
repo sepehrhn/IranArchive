@@ -2,36 +2,22 @@
 # Victim Documentation - Ali Sadeghi
 # ==========================================
 
-photo: "vic-2026-000502.jpg"
-name: "Ali Sadeghi"
-
-# Personal & Birth Information
+photo: vic-2026-000502.jpg
+name: Ali Sadeghi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 34
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+country: Iran
+incident_province: District 12
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by government forces during protests in District 12 of Tehran. Son of a martyr of the Iran-Iraq war. Killed while helping wounded protesters.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2012905225137361404"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2012905225137361404, https://x.com/iranintl/status/2013667749357068356, https://x.com/IranIntl/status/2013667749357068356, https://x.com/HengawO/status/2012966483861672205, https://x.com/HengawO/status/2012905225137361404, https://x.com/Tavaana/status/2013793072828817830, https://x.com/allahbakhshii/status/2015107717233279013, https://x.com/MonfaredAshkan/status/2015543513887526957

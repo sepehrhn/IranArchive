@@ -2,36 +2,22 @@
 # Victim Documentation - Sara Behboudi
 # ==========================================
 
-photo: "vic-2026-000437.jpg"
-name: "Sara Behboudi"
-
-# Personal & Birth Information
+photo: vic-2026-000437.jpg
+name: Sara Behboudi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 45
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Rasht"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Rasht
+date_of_death: "2025-12-28"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Killed by Islamic Republic suppression forces with war bullets
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/fseifikaran/status/2012294037613519106"
+source_type: Social Media
+source_social_media_link: https://x.com/fseifikaran/status/2012294037613519106, https://x.com/iranwire/status/2012272017555272165, https://x.com/manotonews/status/2013280288579670078, https://x.com/FSeifikaran/status/2012294037613519106, https://x.com/HengawO/status/2012660798242406499, https://x.com/HengawO/status/2012590781555478637

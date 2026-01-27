@@ -3,38 +3,23 @@
 # ==========================================
 
 photo: ""
-
-name: "Meysam Sattari Aghdam"
-
-# Personal & Birth Information
+name: Meysam Sattari Aghdam
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 36
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Islamshahr"
-
-# Death Information
+incident_city: Islamshahr
 date_of_death: ""
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: میثم ستاری اقدم
-  
-  Killed in the way of the homeland, shopkeeper in Islamshahr
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/bardiamousavi_/status/2014813176190099746"
+  Killed in the way of the homeland, shopkeeper in Islamshahr
+source_type: Social Media
+source_social_media_link: https://x.com/BardiaMousavi_/status/2014813176190099746

@@ -2,36 +2,22 @@
 # Victim Documentation - Akbar Pashapur
 # ==========================================
 
-photo: "vic-2026-000223.jpg"
-name: "Akbar Pashapur"
-
-# Personal & Birth Information
+photo: vic-2026-000223.jpg
+name: Akbar Pashapur
 birth_date: ""
 birth_province: ""
-birth_city: "work and joining protesters"
+birth_city: work and joining protesters
 gender: ""
 age: 37
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Mohammadshahr, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Karaj
+incident_city: Mohammadshahr
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed Thursday night after returning from work and joining protesters
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mamlekate/status/2014375456460435830"
+source_type: Social Media
+source_social_media_link: https://x.com/mamlekate/status/2014375456460435830

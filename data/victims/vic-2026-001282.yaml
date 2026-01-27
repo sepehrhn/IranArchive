@@ -2,38 +2,24 @@
 # Victim Documentation - Abolfazl Esmaeili
 # ==========================================
 
-photo: "vic-2026-001282.jpg"
-name: "Abolfazl Esmaeili"
-
-# Personal & Birth Information
+photo: vic-2026-001282.jpg
+name: Abolfazl Esmaeili
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehran
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: ابوالفضل اسماعیلی
-  
-  Shot with live ammunition by the Islamic Republic regime.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/saeidvafa/status/2015588127889400044"
+  Shot with live ammunition by the Islamic Republic regime.
+source_type: Social Media
+source_social_media_link: https://x.com/SaeidVafa/status/2015588127889400044, https://x.com/saeidvafa/status/2015588127889400044

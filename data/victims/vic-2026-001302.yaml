@@ -2,38 +2,24 @@
 # Victim Documentation - Mehdi Khosravi
 # ==========================================
 
-photo: "vic-2026-001302.jpg"
-name: "Mehdi Khosravi"
-
-# Personal & Birth Information
+photo: vic-2026-001302.jpg
+name: Mehdi Khosravi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kerman"
-
-# Death Information
+incident_city: Kerman
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: مهدى خسروى
-  
-  Shot by regime forces while bending down to pick up a stone.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/realneo101/status/2015353337550393776"
+  Shot by regime forces while bending down to pick up a stone.
+source_type: Social Media
+source_social_media_link: https://x.com/realneo101/status/2015353337550393776, https://x.com/i/status/2015353337550393776, https://x.com/Realneo101/status/2015353337550393776

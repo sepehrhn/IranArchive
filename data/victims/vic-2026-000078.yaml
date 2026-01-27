@@ -2,36 +2,22 @@
 # Victim Documentation - Farzaneh Tavakkoli
 # ==========================================
 
-photo: "vic-2026-000078.jpg"
-name: "Farzaneh Tavakkoli"
-
-# Personal & Birth Information
+photo: vic-2026-000078.jpg
+name: Farzaneh Tavakkoli
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Arak"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Khaniabad
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during suppression of protests by Islamic Republic forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/behnam_chegini/status/2012939580618547384"
+source_type: Social Media
+source_social_media_link: https://x.com/behnam_chegini/status/2012939580618547384, https://x.com/iranwire/status/2013195338249621605, https://x.com/saeidvafa/status/2014025906474397742, https://x.com/saeidvafa/status/2014463644117983336, https://x.com/SaeidVafa/status/2014463644117983336, https://x.com/FSeifikaran/status/2015476373977002028, https://x.com/ManotoNews/status/2015605611480875325

@@ -2,36 +2,22 @@
 # Victim Documentation - Yashar Soltaniraad
 # ==========================================
 
-photo: "vic-2026-000457.jpg"
-name: "Yashar Soltaniraad"
-
-# Personal & Birth Information
+photo: vic-2026-000457.jpg
+name: Yashar Soltaniraad
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "South Mehrabad"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: South Mehrabad
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by Islamic Republic suppression forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/s_iran01/status/2013338668665061703"
+source_type: Social Media
+source_social_media_link: https://x.com/s_iran01/status/2013338668665061703, https://x.com/allahbakhshii/status/2013318643614896610, https://x.com/hengawo/status/2013568510937468981, https://x.com/HengawO/status/2013568510937468981

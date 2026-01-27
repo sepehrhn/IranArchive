@@ -2,38 +2,24 @@
 # Victim Documentation - Shahriar Hassan Zarabadi
 # ==========================================
 
-photo: "vic-2026-001371.jpg"
-name: "Shahriar Hassan Zarabadi"
-
-# Personal & Birth Information
+photo: vic-2026-001371.jpg
+name: Shahriar Hassan Zarabadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 65
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Rasht"
-
-# Death Information
+incident_city: Rasht
 date_of_death: "2026-01-09"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: شهریار حسن زرآبادی
-  
-  Bloody body of Shahriar Hassan Zarabadi, son of Professor Naser Hassan Zarabadi
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/vahid/status/2015304737243926770"
+  Bloody body of Shahriar Hassan Zarabadi, son of Professor Naser Hassan Zarabadi
+source_type: Social Media
+source_social_media_link: https://x.com/Vahid/status/2015304737243926770

@@ -2,36 +2,22 @@
 # Victim Documentation - Babak Pourmazaheri
 # ==========================================
 
-photo: "vic-2026-000266.jpg"
-name: "Babak Pourmazaheri"
-
-# Personal & Birth Information
+photo: vic-2026-000266.jpg
+name: Babak Pourmazaheri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 37
+age: 39
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Baghestan, Alborz"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Alborz
+incident_city: Baghistan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly in the heart by the Islamic Republic's suppressive forces during the national uprising of Iranians. His family received his body three days later after paying 400 million Tomans.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranintl/status/2014906099321757742"
+source_type: Social Media
+source_social_media_link: https://x.com/iranintl/status/2014906099321757742, https://t.me/RememberTheirNames/1161

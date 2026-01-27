@@ -2,36 +2,22 @@
 # Victim Documentation - Pouria Bagheri
 # ==========================================
 
-photo: "vic-2026-000412.jpg"
-name: "Pouria Bagheri"
-
-# Personal & Birth Information
+photo: vic-2026-000412.jpg
+name: Pouria Bagheri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shahriar"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Shahriar
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the heart while trying to help a friend who had been shot.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mousavi1355/status/2014793598613532775"
+source_type: Social Media
+source_social_media_link: https://x.com/mousavi1355/status/2014793598613532775, https://x.com/ieatalexturner2/status/2015663682303275046, https://x.com/anjmotahed/status/2015738838140797158, https://t.me/RememberTheirNames/1242, https://t.me/RememberTheirNames/1212

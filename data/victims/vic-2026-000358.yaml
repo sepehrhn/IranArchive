@@ -2,36 +2,22 @@
 # Victim Documentation - Milad Bahrami
 # ==========================================
 
-photo: "vic-2026-000358.jpg"
-name: "Milad Bahrami"
-
-# Personal & Birth Information
+photo: vic-2026-000358.jpg
+name: Milad Bahrami
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 38
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Tehran
+incident_city: Gisha
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Republic agents during the Iranian national revolution in the Gisha neighborhood of Tehran.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/indypersian/status/2015121457731301582"
+source_type: Social Media
+source_social_media_link: https://x.com/indypersian/status/2015121457731301582, https://x.com/AmirMiresmaeili/status/2015098585713402163, https://t.me/RememberTheirNames/617

@@ -2,37 +2,21 @@
 # Victim Documentation - Shokoufeh Abdi
 # ==========================================
 
-photo: "vic-2026-001507.jpeg"
-
-name: "Shokoufeh Abdi"
-
-# Personal & Birth Information
+photo: vic-2026-001507.jpeg
+name: Shokoufeh Abdi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
-age: 
-occupation: "عکاس"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Markazi"
-incident_city: "اراک"
-
-# Death Information
-date_of_death: "2026-01-07"
-date_of_death_precision: "Approximate"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+gender: Female
+age: null
+occupation: عکاس
+country: Iran
+incident_province: ""
+incident_city: ""
+date_of_death: ""
+date_of_death_precision: Approximate
+cause_of_death: Gunshot
+status: Killed
+description: Shot dead by the Iranian regime
+source_type: Local Report
+source_social_media_link: https://x.com/olilondontv/status/2014842334773391780

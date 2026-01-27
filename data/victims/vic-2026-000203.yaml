@@ -2,36 +2,22 @@
 # Victim Documentation - Shahin Azaratashe
 # ==========================================
 
-photo: "vic-2026-000203.jpg"
-name: "Shahin Azaratashe"
-
-# Personal & Birth Information
+photo: vic-2026-000203.jpg
+name: Shahin Azaratashe
 birth_date: ""
 birth_province: ""
-birth_city: "his wounds"
+birth_city: his wounds
 gender: ""
-age: 
+age: 29
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Northern Iran (Chalous, Sari"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Sari
+incident_city: Northern Iran (Chalous
+date_of_death: "2026-01-03"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Shot directly by security forces' bullets during nationwide protests, severely wounded, taken home by family who feared he would be killed by officials in hospital, died at home from his wounds
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2012626310011711905"
+source_type: Social Media
+source_social_media_link: https://x.com/dadban4/status/2013329145174835536, https://x.com/Tavaana/status/2012626310011711905, https://x.com/HengawO/status/2012863021467550147, https://x.com/pkhwshhal/status/2015507140941672744, https://x.com/pkhwshhal/status/2015521052449808640

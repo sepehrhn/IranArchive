@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Javad Darsaneh
 # ==========================================
 
-photo: "vic-2026-000718.jpg"
-name: "Mohammad Javad Darsaneh"
-
-# Personal & Birth Information
+photo: vic-2026-000718.jpg
+name: Mohammad Javad Darsaneh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 27
-occupation: "photographer"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+occupation: photographer
+country: Iran
 incident_province: ""
-incident_city: "Sari"
-
-# Death Information
+incident_city: Sari
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with three bullets by the Islamic Republic. His family was under severe security pressure and could not mourn properly. He was a photographer.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/anteverp/status/2015199029324325183"
+source_type: Social Media
+source_social_media_link: https://x.com/anteverp/status/2015199029324325183, https://t.me/RememberTheirNames/1247

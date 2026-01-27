@@ -2,36 +2,22 @@
 # Victim Documentation - Reza Armand
 # ==========================================
 
-photo: "vic-2026-000199.jpg"
-name: "Reza Armand"
-
-# Personal & Birth Information
+photo: vic-2026-000199.jpg
+name: Reza Armand
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Tehran
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot and killed by plainclothes forces during protests in the Yaftabad neighborhood around 11 PM. He was shot in the back with live ammunition.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranwire/status/2015049589020147944"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2015049589020147944, https://t.me/RememberTheirNames/1035

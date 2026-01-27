@@ -3,38 +3,23 @@
 # ==========================================
 
 photo: ""
-
-name: "Mani Sabouri"
-
-# Personal & Birth Information
+name: Mani Sabouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 18
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
+incident_city: ""
 date_of_death: ""
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: مانی صبوری
-  
-  A young life cut short.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/isamanyasin/status/2015505735719780730"
+  A young life cut short.
+source_type: Social Media
+source_social_media_link: https://x.com/isamanyasin/status/2015505735719780730

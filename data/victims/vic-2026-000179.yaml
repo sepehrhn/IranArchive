@@ -2,36 +2,22 @@
 # Victim Documentation - Esmaeil Ghalandarzahi (Keshani)
 # ==========================================
 
-photo: "vic-2026-000179.jpg"
-name: "Esmaeil Ghalandarzahi (Keshani)"
-
-# Personal & Birth Information
+photo: vic-2026-000179.jpg
+name: Esmaeil Ghalandarzahi (Keshani)
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 21
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Bandar Abbas, Hormozgan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Hormozgan
+incident_city: Bandar Abbas
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head with live ammunition by military and security forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/farzinkadkhodae/status/2013703546063945921"
+source_type: Social Media
+source_social_media_link: https://x.com/farzinkadkhodae/status/2013703546063945921, https://x.com/haalvsh/status/2013696423431118891, https://x.com/thebalochworld/status/2013938636686053592, https://x.com/kalbalouchi/status/2014605814716301494, https://x.com/HengawO/status/2013973994119053442, https://x.com/farzinkadkhodae/status/2015524016925085757, https://x.com/balochestan1422/status/2015717438927560766, https://x.com/hamalilalin/status/2015846726897176972

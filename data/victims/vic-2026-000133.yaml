@@ -2,36 +2,22 @@
 # Victim Documentation - Sardar Mohammadi
 # ==========================================
 
-photo: "vic-2026-000133.jpg"
-name: "Sardar Mohammadi"
-
-# Personal & Birth Information
+photo: vic-2026-000133.jpg
+name: Sardar Mohammadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
-occupation: "Basij member and that he was martyred"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+age: null
+occupation: Basij member and that he was martyred
+country: Iran
 incident_province: ""
-incident_city: "Qaleh Hassan Khan (قلعه حسن خان)"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Qaleh Hassan Khan (قلعه حسن خان)
+date_of_death: "2025-12-24"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in prison on the evening of 24 Dey (January 14, 2026). His family was forced to say he was a Basij member and that he was martyred. Restrictions were placed on his funeral attendance.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/bar0ninthetrees/status/2014817462609424609"
+source_type: Social Media
+source_social_media_link: https://x.com/bar0ninthetrees/status/2014817462609424609

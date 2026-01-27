@@ -2,36 +2,22 @@
 # Victim Documentation - Mahdi (Mohammad Javad) Purkariem
 # ==========================================
 
-photo: "vic-2026-000656.jpg"
-name: "Mahdi (Mohammad Javad) Purkariem"
-
-# Personal & Birth Information
+photo: vic-2026-000656.jpg
+name: Mahdi (Mohammad Javad) Purkariem
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Astaneh-ye Ashrafiyeh"
-
-# Death Information
+incident_city: Astaneh-ye Ashrafieh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during an attack by the forces of the Islamic Republic of Iran on Panjshanbeh Bazaar in Astaneh-ye Ashrafiyeh.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pkhwshhal/status/2014514390943269219"
+source_type: Social Media
+source_social_media_link: https://x.com/pkhwshhal/status/2014514390943269219, https://x.com/hyrcanihrm/status/2015059289891602476, https://x.com/pkhwshhal/status/2015122603980042539

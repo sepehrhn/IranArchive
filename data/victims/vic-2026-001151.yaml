@@ -2,36 +2,22 @@
 # Victim Documentation - Mohammad Kiani
 # ==========================================
 
-photo: "vic-2026-001151.jpg"
-name: "Mohammad Kiani"
-
-# Personal & Birth Information
+photo: vic-2026-001151.jpg
+name: Mohammad Kiani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
+incident_city: Isfahan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2012997053215899934"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2012997053215899934, https://x.com/HengawO/status/2012997053215899934

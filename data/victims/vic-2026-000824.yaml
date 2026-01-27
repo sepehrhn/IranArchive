@@ -2,36 +2,22 @@
 # Victim Documentation - Saeed Shirali
 # ==========================================
 
-photo: "vic-2026-000824.png"
-name: "Saeed Shirali"
-
-# Personal & Birth Information
+photo: vic-2026-000824.png
+name: Saeed Shirali
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+incident_city: Tehran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by Islamic Republic suppressors during protests on Azadi Street, medical examiner reported cause of death as severe bleeding
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011853708418597021"
+source_type: Social Media
+source_social_media_link: https://x.com/iranrights_org/status/2010060922572673167, https://x.com/iranwire/status/2013295631742197998, https://x.com/Daikatuo/status/2011853708418597021

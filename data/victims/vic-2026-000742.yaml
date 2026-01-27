@@ -2,36 +2,22 @@
 # Victim Documentation - Mohsen Abbasi
 # ==========================================
 
-photo: "vic-2026-000742.jpg"
-name: "Mohsen Abbasi"
-
-# Personal & Birth Information
+photo: vic-2026-000742.jpg
+name: Mohsen Abbasi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 21
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Najafabad"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Najafabad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by law enforcement forces.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2014684503810220376"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2014684503810220376, https://x.com/walterakam/status/2015707407716933785, https://x.com/persuasion_elli/status/2015954325290324207, https://x.com/longlosthills/status/2015054731572310046, https://t.me/RememberTheirNames/625

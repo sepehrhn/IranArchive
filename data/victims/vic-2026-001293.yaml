@@ -2,38 +2,24 @@
 # Victim Documentation - Arman Pourdeljou
 # ==========================================
 
-photo: "vic-2026-001293.jpg"
-name: "Arman Pourdeljou"
-
-# Personal & Birth Information
+photo: vic-2026-001293.jpg
+name: Arman Pourdeljou
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
+incident_city: Karaj
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: آرمان پوردلجو
-  
-  Fatally wounded by a live bullet fired by government forces in Karaj Square on Thursday, January 8, 2026 (18 Dey 1404). He was arrested immediately after being shot. His body was returned to his family a few days later, bearing marks of two bullets.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/isamanyasin/status/2014407253802045538, https://x.com/tavaana/status/2015261924049461286"
+  Fatally wounded by a live bullet fired by government forces in Karaj Square on Thursday, January 8, 2026 (18 Dey 1404). He was arrested immediately after being shot. His body was returned to his family a few days later, bearing marks of two bullets.
+source_type: Social Media
+source_social_media_link: https://x.com/isamanyasin/status/2014407253802045538, https://x.com/Tavaana/status/2015261924049461286, https://x.com/missmarpel75/status/2015066521056289025, https://x.com/tavaana/status/2015261924049461286

@@ -2,36 +2,22 @@
 # Victim Documentation - Malika Dastiyab
 # ==========================================
 
-photo: "vic-2026-000664.jpg"
-name: "Malika Dastiyab"
-
-# Personal & Birth Information
+photo: vic-2026-000664.jpg
+name: Malika Dastiyab
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 21
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Dalahu, Kermanshah"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Kermanshah
+incident_city: Dalahu
+date_of_death: "2025-12-28"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by live ammunition fired by security forces during protests in the Shahrek Moallem neighborhood
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/ka3rimi/status/2014337290630254858"
+source_type: Social Media
+source_social_media_link: https://x.com/ka3rimi/status/2014337290630254858, https://x.com/longlosthills/status/2014844686217744423

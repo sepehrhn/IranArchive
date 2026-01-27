@@ -2,38 +2,24 @@
 # Victim Documentation - Ali Akbar Tayebi Javid
 # ==========================================
 
-photo: "vic-2026-001353.jpg"
-name: "Ali Akbar Tayebi Javid"
-
-# Personal & Birth Information
+photo: vic-2026-001353.jpg
+name: Ali Akbar Tayebi Javid
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 45
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Qazvin"
-
-# Death Information
-date_of_death: "2026-01-23"
-date_of_death_precision: "Exact"
+incident_city: ""
+date_of_death: ""
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: علی‌اکبر طیبی جاوید
-  
-  45 years old from Qazvin - father of an 8-year-old daughter. Killed by live bullets while holding his wife's hand.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/captnlee/status/2014841356984738084"
+  45 years old from Qazvin - father of an 8-year-old daughter. Killed by live bullets while holding his wife's hand.
+source_type: Social Media
+source_social_media_link: https://x.com/missmarpel75/status/2015064656675508688

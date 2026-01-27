@@ -2,36 +2,22 @@
 # Victim Documentation - Gol-Mohammad Shahozaei (Shahozahi)
 # ==========================================
 
-photo: "vic-2026-000094.jpg"
-name: "Gol-Mohammad Shahozaei (Shahozahi)"
-
-# Personal & Birth Information
+photo: vic-2026-000094.jpg
+name: Gol-Mohammad Shahozaei (Shahozahi)
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 68
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Zahedan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Balochistan
+incident_city: Zahedan
+date_of_death: ""
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by security and military forces, government claims during clash on outskirts of Zahedan, alleged by authorities to be member of Ansar al-Furqan group
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/haalvsh/status/2013966140796809438"
+source_type: Social Media
+source_social_media_link: https://x.com/haalvsh/status/2013966140796809438, https://x.com/daikatuo/status/2013995859315229049, https://x.com/TheBalochWorld/status/2014464360333402434

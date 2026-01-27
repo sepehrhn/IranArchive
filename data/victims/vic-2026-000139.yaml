@@ -2,36 +2,22 @@
 # Victim Documentation - Mobin Feili
 # ==========================================
 
-photo: "vic-2026-000139.jpg"
-name: "Mobin Feili"
-
-# Personal & Birth Information
+photo: vic-2026-000139.jpg
+name: Mobin Feili
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 21
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Zarneh, Ilam"
-
-# Death Information
+country: Iran
+incident_province: Ilam
+incident_city: Zarneh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Mobin Fili, 24 years old, was killed by gunfire during the protests on January 13, 2026.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kurdpa_farsi/status/2010731651966321021"
+source_type: Social Media
+source_social_media_link: https://x.com/kurdpa_farsi/status/2010731651966321021

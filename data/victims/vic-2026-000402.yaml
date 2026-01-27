@@ -2,36 +2,22 @@
 # Victim Documentation - Nima Jouzayi
 # ==========================================
 
-photo: "vic-2026-000402.jpg"
-name: "Nima Jouzayi"
-
-# Personal & Birth Information
+photo: vic-2026-000402.jpg
+name: Nima Jouzayi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 16
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Bushehr"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Bushehr
+date_of_death: "2025-12-28"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by Islamic Republic suppression forces on Ashouri Street near Quran Mosque
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/fseifikaran/status/2013380774523797809"
+source_type: Social Media
+source_social_media_link: https://x.com/fseifikaran/status/2013380774523797809, https://x.com/outofken/status/2013399236650455517, https://x.com/longlosthills/status/2013760527554519354, https://x.com/allahbakhshii/status/2013733761096040587, https://x.com/FSeifikaran/status/2013380774523797809

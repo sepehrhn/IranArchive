@@ -2,38 +2,24 @@
 # Victim Documentation - Ali Yazdani
 # ==========================================
 
-photo: "vic-2026-001372.jpg"
-name: "Ali Yazdani"
-
-# Personal & Birth Information
+photo: vic-2026-001372.jpg
+name: Ali Yazdani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 19
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Falavarjan"
-
-# Death Information
+incident_city: Najafabad / Falavarjan
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: علی یزدانی
-  
-  A 19-year-old computer student at Najafabad University, he was shot in the head with a war weapon during protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/anjmotahed/status/2015026226180534584"
+  A 19-year-old computer student at Najafabad University, he was shot in the head with a war weapon during protests.
+source_type: Social Media
+source_social_media_link: https://x.com/anjmotahed/status/2015026226180534584

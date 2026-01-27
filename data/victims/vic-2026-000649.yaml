@@ -2,36 +2,22 @@
 # Victim Documentation - Khosrow Asadi Kenari
 # ==========================================
 
-photo: "vic-2026-000649.jpg"
-name: "Khosrow Asadi Kenari"
-
-# Personal & Birth Information
+photo: vic-2026-000649.jpg
+name: Khosrow Asadi Kenari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 46
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Fereydunkenar, Mazandaran"
-
-# Death Information
+country: Iran
+incident_province: Mazandaran
+incident_city: Fereydunkenar
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the neck with direct bullet fire during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2013687978682376595"
+source_type: Social Media
+source_social_media_link: https://x.com/manotonews/status/2013687978682376595

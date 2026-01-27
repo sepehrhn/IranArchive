@@ -2,36 +2,22 @@
 # Victim Documentation - Sajjad Zilaei (Valamanesh)
 # ==========================================
 
-photo: "vic-2026-000967.png"
-name: "Sajjad Zilaei (Valamanesh)"
-
-# Personal & Birth Information
+photo: vic-2026-000967.png
+name: Sajjad Zilaei (Valamanesh)
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 20
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Lordegan, Chaharmahal and Bakhtiari province"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Chaharmahal and Bakhtiari
+incident_city: Lordegan
+date_of_death: "2026-01-01"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by security forces during protests, body showed metal pellet wounds
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://en.wikipedia.org/wiki/2026_Iran_massacres"
+source_type: Social Media
+source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.iran-emrooz.net/index.php/news2/125134/, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/daikatuo/status/2006782276793741375, https://x.com/daikatuo/status/2006827494167793934, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2

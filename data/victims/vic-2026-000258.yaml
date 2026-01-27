@@ -2,36 +2,22 @@
 # Victim Documentation - Arshia Ahmadpour
 # ==========================================
 
-photo: "vic-2026-000258.jpg"
-name: "Arshia Ahmadpour"
-
-# Personal & Birth Information
+photo: vic-2026-000258.jpg
+name: Arshia Ahmadpour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 18
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Baharestan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+country: Iran
+incident_province: Isfahan
+incident_city: Baharestan
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Shot and killed by security forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranintl_en/status/2012500446607184326"
+source_type: Social Media
+source_social_media_link: https://x.com/iranintlsport/status/2012528799896773049, https://x.com/banafshehviola/status/2012734272256594356, https://x.com/IranIntl_En/status/2012500446607184326, https://x.com/VIsfehan/status/2014667282467758141

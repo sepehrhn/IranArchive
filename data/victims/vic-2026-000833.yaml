@@ -2,36 +2,22 @@
 # Victim Documentation - Saman Fattahi
 # ==========================================
 
-photo: "vic-2026-000833.jpg"
-name: "Saman Fattahi"
-
-# Personal & Birth Information
+photo: vic-2026-000833.jpg
+name: Saman Fattahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
-age: 
+age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah or Islamabad-e Gharb"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+incident_city: Kermanshah or Islamabad-e Gharb
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Taekwondo athlete. Shot in the head with live ammunition by suppressive forces in Sabouni neighborhood during the Iranian national revolution. Follower of the Yarsan religion.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kurdpa_farsi/status/2012978300742770883"
+source_type: Social Media
+source_social_media_link: https://x.com/kurdpa_farsi/status/2012978300742770883, https://x.com/hiwa_life/status/2014063642598117699, https://x.com/HengawO/status/2012925250128810138, https://x.com/KurdistanHRN/status/2014747622813184357, https://x.com/iranintlsport/status/2014738413937656034
