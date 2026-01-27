@@ -298,13 +298,12 @@ const showVictimDialog = computed({
                     </div>
                 </div>
 
-                <!-- Action Button in Top Right -->
                 <div class="absolute top-8 right-8 md:top-12 md:right-8">
                     <Button
                         label="Submit a Victim"
                         icon="pi pi-plus"
                         @click="showSubmitDialog = true"
-                        class="shadow-lg"
+                        class="hidden md:flex shadow-lg"
                     />
                 </div>
             </div>
@@ -360,6 +359,18 @@ const showVictimDialog = computed({
 
 
 
+        </div>
+
+        <!-- Mobile Submit Button (Floating) -->
+        <div class="fixed bottom-6 right-6 z-20 md:hidden">
+            <Button 
+                icon="pi pi-plus" 
+                rounded
+                raised
+                size="large"
+                class="!w-14 !h-14 !shadow-2xl shadow-primary-500/30"
+                @click="showSubmitDialog = true"
+            />
         </div>
 
         <!-- Results Grid -->

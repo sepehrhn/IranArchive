@@ -37,7 +37,7 @@ const handleClick = (event: MouseEvent) => {
 
 <template>
     <NuxtLink :to="`/victims/${victim.id}`" @click="handleClick" class="group block h-full focus:outline-none focus:ring-2 focus:ring-primary-500 rounded-lg">
-        <div class="bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg overflow-hidden h-full shadow-sm hover:shadow-md transition-shadow">
+        <div class="bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg overflow-hidden h-full transition-all duration-300 hover:shadow-2xl hover:shadow-primary-500/10 hover:-translate-y-1 hover:border-primary-200 dark:hover:border-primary-900">
             <div class="relative overflow-hidden">
                 <!-- Grayscale by default, colorful on hover -->
                 <div class="victim-photo-wrapper">

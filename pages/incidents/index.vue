@@ -29,6 +29,7 @@ const baseIncidents = computed(() => {
 
 const searchQuery = ref('');
 const selectedStatus = ref();
+const showSubmitDialog = ref(false);
 
 const statusOptions = [
     { label: 'Not Verified', value: 'not_verified' },
@@ -72,9 +73,7 @@ const clearFilters = () => {
                     </p>
                 </div>
                 <div>
-                    <NuxtLink to="/docs/incidents-submission">
-                        <Button label="Submit Incident" icon="pi pi-plus" size="small" />
-                    </NuxtLink>
+                    <Button label="Submit Incident" icon="pi pi-plus" size="small" @click="showSubmitDialog = true" class="hidden md:flex" />
                 </div>
             </div>
         </div>
@@ -90,6 +89,18 @@ const clearFilters = () => {
             <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-between lg:justify-end">
                 <Dropdown v-model="selectedStatus" :options="statusOptions" optionLabel="label" optionValue="value" placeholder="Filter by Status" class="w-full sm:w-48" showClear />
             </div>
+        </div>
+
+        <!-- Mobile Submit Button (Floating) -->
+        <div class="fixed bottom-6 right-6 z-20 md:hidden">
+            <Button 
+                icon="pi pi-plus" 
+                rounded
+                raised
+                size="large"
+                class="!w-14 !h-14 !shadow-2xl shadow-primary-500/30"
+                @click="showSubmitDialog = true"
+            />
         </div>
 
         <!-- Grid Layout -->
@@ -112,10 +123,29 @@ const clearFilters = () => {
             </p>
             <Button label="Clear Filters" outlined @click="clearFilters" />
         </div>
+
+        <!-- Submit Incident Dialog -->
+        <Dialog 
+            v-model:visible="showSubmitDialog" 
+            modal 
+            header="Submit an Incident" 
+            :style="{ width: '90vw', maxWidth: '1000px' }"
+            :draggable="false"
+            class="submission-dialog"
+        >
+            <SubmissionsIncidentSubmissionForm @cancel="showSubmitDialog = false" />
+        </Dialog>
     </div>
 </template>
 
 <style scoped>
+:deep(.submission-dialog) .p-dialog-header {
+    @apply px-6 pt-6 md:px-8 md:pt-8;
+}
+:deep(.submission-dialog) .p-dialog-content {
+    @apply px-6 pb-6 md:px-8 md:pb-8;
+}
+
 .list-move, /* apply transition to moving elements */
 .list-enter-active,
 .list-leave-active {
