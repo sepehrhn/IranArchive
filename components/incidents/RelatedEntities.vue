@@ -8,16 +8,17 @@
         </h3>
         
         <div v-if="victims.length" class="flex flex-wrap gap-2">
-            <NuxtLink 
+            <a 
                 v-for="victim in victims" 
                 :key="victim.id"
-                :to="`/victims/${victim.id}`" 
-                class="no-underline group"
+                :href="`/victims/${victim.id}`"
+                @click.prevent="$emit('victim-click', victim.id)"
+                class="no-underline group cursor-pointer"
             >
                 <div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-100 hover:bg-primary-50 dark:bg-surface-800 dark:hover:bg-primary-900/30 transition-colors border border-surface-200 dark:border-surface-700 hover:border-primary-200 dark:hover:border-primary-800/50">
                      <span class="text-sm font-medium text-surface-700 dark:text-surface-200 group-hover:text-primary-700 dark:group-hover:text-primary-300">{{ victim.name }}</span>
                 </div>
-            </NuxtLink>
+            </a>
         </div>
         <div v-else class="flex flex-col items-center justify-center py-6 text-surface-400">
             <i class="pi pi-user-minus text-2xl mb-2 opacity-50"></i>
@@ -62,5 +63,9 @@ import { getStatusColor } from '~/utils/formatters';
 defineProps<{
   victims: Victim[];
   related: RelatedIncident[];
+}>();
+
+defineEmits<{
+  (e: 'victim-click', id: string): void
 }>();
 </script>

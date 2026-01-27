@@ -125,6 +125,7 @@
         modal 
         :dismissableMask="true"
         :closeOnEscape="true"
+        :draggable="false"
         class="media-modal-v2"
         :pt="{
             root: { class: 'bg-surface-0 dark:bg-surface-900 border-none rounded-3xl overflow-hidden shadow-2xl max-w-[1200px] w-[95vw]' },
