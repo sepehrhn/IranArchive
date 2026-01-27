@@ -169,7 +169,7 @@ Link: ${ev.online?.join_url || window.location.href}
 
 <template>
 
-    <div class="group relative border border-surface-200 dark:border-surface-800 rounded-2xl bg-surface-0 dark:bg-surface-900 overflow-hidden hover:shadow-xl hover:shadow-primary-500/5 transition-all duration-300 backdrop-blur-sm h-full flex flex-col">
+    <div class="group relative border border-surface-200 dark:border-surface-800 rounded-2xl bg-surface-0 dark:bg-surface-900 overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-primary-500/10 hover:-translate-y-1 hover:border-primary-200 dark:hover:border-primary-900 backdrop-blur-sm h-full flex flex-col">
         <!-- Update Button (Absolute Top Right) -->
         <div v-if="['upcoming', 'ongoing', 'postponed'].includes(event.computed_state)" class="absolute top-6 right-6 z-10">
              <button 

@@ -42,7 +42,7 @@ const getRatingColor = (value: number) => {
 
 <template>
     <NuxtLink :to="`/incidents/${incident.id}`" class="group block h-full">
-        <div class="h-full flex flex-col bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-800 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 hover:border-primary-500/50 dark:hover:border-primary-400/50 p-5">
+        <div class="h-full flex flex-col bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-800 rounded-xl overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-primary-500/10 hover:-translate-y-1 hover:border-primary-200 dark:hover:border-primary-900 p-5">
             
             <!-- Header: Date & Status -->
             <div class="flex justify-between items-start mb-3">

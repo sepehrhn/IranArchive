@@ -15,6 +15,8 @@ onMounted(() => {
   loadSigned();
 });
 
+const showSubmitDialog = ref(false);
+
 // SEO
 useHead({
   title: 'Campaigns - IranArchive',
@@ -105,15 +107,26 @@ const formatCountries = (codes: string[]) => {
 
                 <!-- Action Button in Top Right -->
                 <div class="absolute top-8 right-8 md:top-12 md:right-8">
-                    <NuxtLink to="/docs/campaigns-submission">
-                        <Button
-                            label="Submit Campaign"
-                            icon="pi pi-plus"
-                            class="shadow-lg"
-                        />
-                    </NuxtLink>
+                    <Button
+                        label="Submit Campaign"
+                        icon="pi pi-plus"
+                        @click="showSubmitDialog = true"
+                        class="hidden md:flex shadow-lg"
+                    />
                 </div>
             </div>
+        </div>
+
+        <!-- Mobile Submit Button (Floating) -->
+        <div class="fixed bottom-6 right-6 z-20 md:hidden">
+            <Button 
+                icon="pi pi-plus" 
+                rounded
+                raised
+                size="large"
+                class="!w-14 !h-14 !shadow-2xl shadow-primary-500/30"
+                @click="showSubmitDialog = true"
+            />
         </div>
 
         <!-- Grid -->
@@ -178,8 +191,29 @@ const formatCountries = (codes: string[]) => {
             <i class="pi pi-file-excel text-4xl text-surface-400 mb-4 display-block" />
             <p class="text-xl text-surface-500">No campaigns found.</p>
         </div>
+
+        <!-- Submit Campaign Dialog -->
+        <Dialog 
+            v-model:visible="showSubmitDialog" 
+            modal 
+            header="Submit a Campaign" 
+            :style="{ width: '90vw', maxWidth: '1000px' }"
+            :draggable="false"
+            class="submission-dialog"
+        >
+            <SubmissionsCampaignSubmissionForm @cancel="showSubmitDialog = false" />
+        </Dialog>
     </div>
   </div>
 </template>
+
+<style scoped>
+:deep(.submission-dialog) .p-dialog-header {
+    @apply px-6 pt-6 md:px-8 md:pt-8;
+}
+:deep(.submission-dialog) .p-dialog-content {
+    @apply px-6 pb-6 md:px-8 md:pb-8;
+}
+</style>
 
 
