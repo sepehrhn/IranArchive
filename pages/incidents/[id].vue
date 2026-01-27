@@ -1,36 +1,47 @@
 <template>
-  <div class="px-4 py-8 max-w-7xl mx-auto">
-    <div v-if="incident">
-      <!-- Header -->
+  <div class="min-h-screen bg-surface-50/50 dark:bg-surface-950">
+    <div class="px-4 py-8 max-w-7xl mx-auto" v-if="incident">
+      
+      <!-- Hero / Header -->
       <IncidentsIncidentHeader :incident="incident" />
 
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mt-8">
-        <!-- Main Content Column (Left/Center) -->
-        <div class="lg:col-span-8 space-y-12">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 mt-12 items-start">
+        
+        <!-- Main Content (Left) -->
+        <div class="lg:col-span-8 space-y-10">
             
-            <!-- Key Claims & Narrative -->
+            <!-- What We Know -->
             <section>
-                <div class="flex items-center justify-between mb-4">
-                  <h2 class="text-2xl font-bold">What We Know</h2>
+                <div class="flex items-center justify-between mb-8 border-b border-surface-200 dark:border-surface-800 pb-4">
+                  <h2 class="text-2xl font-black text-surface-900 dark:text-surface-0 tracking-tight">The Narrative</h2>
                 </div>
                 
-                <div class="prose dark:prose-invert max-w-none mb-6">
-                    <div class="lead text-lg" v-html="renderMarkdown(incident.narrative)"></div>
+                <div class="prose dark:prose-invert max-w-none mb-10 text-surface-700 dark:text-surface-300 leading-relaxed">
+                    <div class="mb-6 text-surface-900 dark:text-surface-100" v-html="renderMarkdown(incident.narrative)"></div>
                 </div>
 
-                <div class="bg-surface-50 dark:bg-surface-900 rounded-lg p-6 border-l-4 border-primary-500">
-                    <h3 class="font-bold text-lg mb-3">Key Claims</h3>
-                    <ul class="list-disc list-inside space-y-2 text-gray-800 dark:text-gray-200">
-                        <li v-for="(claim, idx) in incident.key_claims" :key="idx">{{ claim }}</li>
+                <!-- Key Claims Box -->
+                <div class="bg-surface-0 dark:bg-surface-900 rounded-2xl p-8 border border-surface-200 dark:border-surface-800 shadow-sm relative overflow-hidden">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-primary-500"></div>
+                    <h2 class="text-2xl font-black mb-8 flex items-center gap-2 text-surface-900 dark:text-surface-0 tracking-tight">
+                        <i class="pi pi-verified text-primary-500"></i> Key Claims
+                    </h2>
+                    <ul class="space-y-4">
+                        <li v-for="(claim, idx) in incident.key_claims" :key="idx" class="flex gap-4 items-start">
+                            <span class="font-bold text-primary-500 mt-0.5">•</span>
+                            <span class="text-surface-800 dark:text-surface-200 leading-relaxed">{{ claim }}</span>
+                        </li>
                     </ul>
                 </div>
 
-                <div v-if="incident.limitations.length" class="mt-6">
-                    <Accordion>
-                        <AccordionPanel value="limitations">
-                           <AccordionHeader>Limitations & Unknowns</AccordionHeader>
-                           <AccordionContent>
-                               <ul class="list-disc list-inside space-y-1 mb-4">
+                <div v-if="incident.limitations.length" class="mt-8">
+                    <Accordion :pt="{ root: { class: '!bg-transparent !border-none' } }">
+                        <AccordionPanel value="limitations" :pt="{ root: { class: '!border-none' } }">
+                            <AccordionHeader :pt="{ root: { class: '!bg-surface-100 dark:!bg-surface-800 !border-none rounded-lg !p-4' } }">
+                                <span class="font-bold text-xl text-surface-800 dark:text-surface-100">Limitations</span>
+                            </AccordionHeader>
+                           <AccordionContent :pt="{ content: { class: '!bg-transparent !dark:bg-transparent' } }">
+                               <ul class="list-disc list-inside space-y-2 text-surface-600 dark:text-surface-400 mt-2 ml-2">
                                    <li v-for="(lim, idx) in incident.limitations" :key="idx">{{ lim }}</li>
                                </ul>
                            </AccordionContent>
@@ -40,22 +51,18 @@
             </section>
 
              <!-- Evidence Gallery -->
-            <section id="evidence">
-                 <div class="flex items-center justify-between mb-4">
-                    <h2 class="text-2xl font-bold">Evidence Gallery</h2>
-                    <Badge :value="incident.evidence.length" severity="secondary" />
-                </div>
+            <section id="evidence" class="scroll-mt-20" v-if="incident.evidence?.length > 0">
                 <IncidentsEvidenceGallery :evidence="incident.evidence" />
             </section>
 
             <!-- Sources -->
-            <section id="sources">
-                <h2 class="text-2xl font-bold mb-6">Sources</h2>
+            <section id="sources" class="scroll-mt-20">
+                <h2 class="text-2xl font-black text-surface-900 dark:text-surface-0 tracking-tight mb-8 border-b border-surface-200 dark:border-surface-800 pb-4">Sources</h2>
                 <IncidentsSourcesBlock :sources="incident.sources" />
             </section>
 
              <!-- Related Entities -->
-            <section id="related">
+            <section id="related" v-if="incident.victims?.length || incident.related_incidents?.length">
                 <h2 class="text-xl font-bold mb-6">Related Context</h2>
                 <IncidentsRelatedEntities :victims="incident.victims" :related="incident.related_incidents" />
             </section>
@@ -63,39 +70,41 @@
         </div>
 
         <!-- Sidebar (Right) -->
-        <div class="lg:col-span-4 space-y-8">
-            
-            <!-- Submit CTA -->
-
-
+        <div class="lg:col-span-4 space-y-8 sticky top-8">
             <!-- Verification Status -->
              <section>
-                 <IncidentsVerificationBlock :incident="incident" />
+                 <IncidentsVerificationBlock :incident="incident" mode="status" />
              </section>
 
             <!-- Timeline -->
-            <section class="sticky top-4">
-                 <h2 class="text-xl font-bold mb-4">Timeline</h2>
+            <section>
+                 <div class="flex items-center gap-2 mb-6">
+                    <h2 class="text-xl font-bold text-surface-900 dark:text-surface-0">Timeline</h2>
+                 </div>
                  <IncidentsTimelineBlock :events="incident.timeline" :sources="incident.sources" @view-evidence="scrollToEvidence" @view-source="scrollToSource"/>
             </section>
 
+            <!-- Review History -->
+             <section>
+                 <IncidentsVerificationBlock :incident="incident" mode="history" />
+             </section>
         </div>
       </div>
     
-      <!-- Modals -->
-
-      
     </div>
     
     <!-- Loading / Error States -->
     <div v-else-if="pending" class="flex items-center justify-center min-h-[50vh]">
         <ProgressSpinner />
     </div>
-    <div v-else class="text-center py-20">
-        <h1 class="text-3xl font-bold mb-4">Incident Not Found</h1>
-        <p class="text-gray-500 mb-6">The incident record you are looking for does not exist or has been removed.</p>
+    <div v-else class="text-center py-40">
+        <div class="inline-flex items-center justify-center w-20 h-20 rounded-full bg-surface-100 dark:bg-surface-800 mb-6">
+            <i class="pi pi-search text-4xl text-surface-400"></i>
+        </div>
+        <h1 class="text-3xl font-bold mb-4 text-surface-900 dark:text-surface-0">Incident Not Found</h1>
+        <p class="text-surface-500 mb-8 max-w-md mx-auto">The incident record you are looking for does not exist or has been removed.</p>
         <NuxtLink to="/">
-            <Button label="Return Home" />
+            <Button label="Return Home" severity="secondary" />
         </NuxtLink>
     </div>
   </div>

@@ -1,0 +1,244 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "verified"
+
+ratings:
+  # Integer 1..10. Likelihood the core claim is true.
+  truth_confidence: 10
+  # Integer 1..10. Amount/quality of reviewable evidence available.
+  evidence_availability: 10
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/23"
+  start_time: ""
+  # End date (optional)
+  end: "2026/01/26"
+  end_time: ""
+
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Tehran"
+  # City name
+  city: "Kahrizak (Rey County)"
+  # Specific address or landmark (optional)
+  address: "Kahrizak Forensic Medicine Center / Legal Medicine Organization (as referenced/depicted in the viral footage and subsequent reporting)."
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Disinformation / Narrative Redirection (State Media)"
+
+# Estimated severity statistics (optional)
+# each range has 'min' and 'max' properties
+severity:
+  deaths:
+    min: 0
+    max: 0
+  injured:
+    min: 0
+    max: 0
+  arrests:
+    min: 0
+    max: 0
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "State media redirects 'Sepehr Baba' video"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "After VahidOnline published the viral “Sepehr Baba kojayi?” video from Kahrizak, IRIB-affiliated reporting amplified an interview with Sepehr Ebrahimi’s father to dispute/redirect attribution. VahidOnline then released a less-redacted version identifying the father in the viral clip as searching for Sepehr Shokri."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  On 2026/01/23, VahidOnline published a widely shared video commonly referred to as “Sepehr Baba kojayi?” showing families at/near Kahrizak Forensic Medicine Center searching among bodies; a father repeatedly calls for “Sepehr.”
+
+  Because more than one victim reportedly had the first name “Sepehr,” attribution became contested in public discourse. On 2026/01/25, IRIB-affiliated messaging (amplified by Fars News) presented an interview with the family of **Sepehr Ebrahimi** (a different victim named Sepehr) and framed the viral “Sepehr Baba” clip as being used or misrepresented by opposition media—effectively attempting to shift the narrative by leveraging the shared first name.
+
+  On the same date, VahidOnline stated he had published the clip first and explained that an earlier cut had removed identifying audio details. He then released a less-redacted/original version and identified the father in the viral “Sepehr Baba” footage as searching for **Sepehr Shokri**.
+
+  Multiple independent outlets subsequently reported the same distinction: the viral clip’s “Sepehr” is **Sepehr Shokri**, while the IRIB interview shown in response featured **Sepehr Ebrahimi’s** father—two different individuals—documenting a clear attempt at narrative redirection through name conflation.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "VahidOnline published the viral 'Sepehr Baba kojayi?' footage and later confirmed he was the first publisher."
+  - "IRIB-affiliated reporting amplified an interview with Sepehr Ebrahimi’s father in a context used to dispute/redirect the viral 'Sepehr Baba' narrative."
+  - "VahidOnline later released a less-redacted/original version identifying the father in the viral footage as searching for Sepehr Shokri."
+  - "Independent reporting corroborated that Sepehr Shokri and Sepehr Ebrahimi are different victims and that the state-media segment leveraged this ambiguity."
+
+# Open questions or missing information
+open_questions:
+  - "Exact capture date/time of the 'Sepehr Baba' footage (distinct from publication date)."
+  - "Original IRIB broadcast details (program name, airtime, and full uncut segment)."
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "Some primary materials are hosted on social platforms (X/Instagram/Telegram) that may throttle access, change URLs, or remove content."
+  - "This report documents narrative manipulation and attribution redirection; the underlying deaths should be documented in linked victim records and relevant incident(s)."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+# Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
+# IDs are the filenames (e.g. ev-2026-00001-vid-001)
+evidence_ids:
+  - "vid-2026-00005" # Viral 'Sepehr Baba kojayi?' footage as published by VahidOnline
+  - "vid-2026-00006" # IRIB/Fars/Tasnim-seeded interview clip with Sepehr Ebrahimi's parents
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-001"
+    label: "VahidOnline publishes the 'Sepehr Baba kojayi?' video"
+    url: "https://x.com/Vahid/status/2014549138189254811"
+    publisher: "VahidOnline (X)"
+    published_at: "2026/01/23"
+    # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
+    type: "primary"
+    archived_urls: []
+    language: "fa"
+    notes: "Primary publication of the viral footage by the account."
+
+  - id: "src-002"
+    label: "VahidOnline: states he published it first; explains prior redactions; critiques state media framing"
+    url: "https://x.com/Vahid/status/2015519358294855696"
+    publisher: "VahidOnline (X)"
+    published_at: "2026/01/25"
+    type: "primary"
+    archived_urls: []
+    language: "fa"
+    notes: "Publisher statement on provenance and why identifying audio was trimmed in an earlier cut."
+
+  - id: "src-003"
+    label: "VahidOnline: releases less-redacted/original version; identifies Sepehr Shokri"
+    url: "https://x.com/Vahid/status/2015559558437990439"
+    publisher: "VahidOnline (X)"
+    published_at: "2026/01/25"
+    type: "primary"
+    archived_urls: []
+    language: "fa"
+    notes: "Explicit identification of the father in the viral clip as searching for Sepehr Shokri."
+
+  - id: "src-004"
+    label: "FarsNews posts IRIB-aligned interview framing about Sepehr Ebrahimi"
+    url: "https://x.com/FarsNews_Agency/status/2015469847392428328"
+    publisher: "Fars News Agency (X)"
+    published_at: "2026/01/25"
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "State-affiliated amplification presenting Sepehr Ebrahimi’s father in the context of disputing the viral narrative."
+
+  - id: "src-005"
+    label: "IranWire: 'IRIB showed father of another Sepehr' and clarifies Shokri vs Ebrahimi"
+    url: "https://iranwire.com/fa/news-1/148142-%D8%B3%D9%BE%D9%87%D8%B1-%D8%A8%D8%A7%D8%A8%D8%A7-%DA%A9%D8%AC%D8%A7%DB%8C%DB%8C-%D8%B5%D8%AF%D8%A7%D9%88%D8%B3%DB%8C%D9%85%D8%A7-%D8%A8%D8%A7%D8%A8%D8%A7%DB%8C-%DB%8C%DA%A9-%D8%B3%D9%BE%D9%87%D8%B1-%D8%AF%DB%8C%DA%AF%D8%B1-%D8%B1%D8%A7-%D8%AC%D9%84%D9%88%DB%8C-%D8%AF%D9%88%D8%B1%D8%A8%DB%8C%D9%86-%D9%86%D8%B4%D8%A7%D9%86%D8%AF/"
+    publisher: "IranWire"
+    published_at: "2026/01/26"
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "Summarizes the identity confusion and reports that IRIB presented Sepehr Ebrahimi’s father to redirect the viral clip attribution."
+
+  - id: "src-006"
+    label: "Iran International: analysis of name-conflation and IRIB narrative redirection"
+    url: "https://www.iranintl.com/202601266018"
+    publisher: "Iran International"
+    published_at: "2026/01/26"
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "Reports and analyzes the attribution conflict and the attempt to leverage shared first name 'Sepehr.'"
+
+  - id: "src-007"
+    label: "Independent Persian: coverage referencing the Kahrizak footage published by VahidOnline"
+    url: "https://www.independentpersian.com/tv/%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/%D8%B3%D9%BE%D9%87%D8%B1-%D8%A8%D8%A7%D8%A8%D8%A7-%DA%A9%D8%AC%D8%A7%DB%8C%DB%8C%D8%9F-QKVrkSTl"
+    publisher: "Independent Persian"
+    published_at: "2026/01/26"
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "Describes the video content and references Kahrizak forensic setting."
+
+  - id: "src-008"
+    label: "Manoto Instagram: summary of ambiguity between Sepehr Ebrahimi and Sepehr Shokri and state-media response"
+    url: "https://www.instagram.com/p/DT80zOggQLi/?img_index=1"
+    publisher: "Manoto (Instagram)"
+    published_at: "2026/01/26"
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "Describes the ambiguity and characterizes IRIB coverage as narrative redirection (platform access may be rate-limited)."
+
+  - id: "src-009"
+    label: "VahidOnline Telegram post referenced in publisher’s statement"
+    url: "https://t.me/VahidOnline/70115"
+    publisher: "VahidOnline (Telegram)"
+    published_at: "2026/01/25"
+    type: "primary"
+    archived_urls: []
+    language: "fa"
+    notes: "Referenced by VahidOnline as the channel where the clip was first published/posted."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/23"
+    time: ""
+    title: "VahidOnline publishes the viral 'Sepehr Baba' footage"
+    description: "The clip is posted and begins circulating widely."
+    evidence_ids: ["vid-2026-00005"]
+    source_ids: ["src-001", "src-009"]
+
+  - at: "2026/01/25"
+    time: ""
+    title: "IRIB-aligned amplification features Sepehr Ebrahimi’s father"
+    description: "State-affiliated framing is used to dispute/redirect attribution of the viral clip."
+    evidence_ids: ["vid-2026-00006"]
+    source_ids: ["src-004"]
+
+  - at: "2026/01/25"
+    time: ""
+    title: "Publisher clarifies provenance and releases less-redacted/original version"
+    description: "VahidOnline explains prior redactions and identifies the father in the viral clip as searching for Sepehr Shokri."
+    evidence_ids: ["vid-2026-00005"]
+    source_ids: ["src-002", "src-003"]
+
+  - at: "2026/01/26"
+    time: ""
+    title: "Independent outlets corroborate Shokri vs Ebrahimi distinction and narrative redirection"
+    description: "Multiple outlets report that the viral clip is tied to Sepehr Shokri while IRIB featured Sepehr Ebrahimi’s father."
+    evidence_ids: []
+    source_ids: ["src-005", "src-006", "src-007", "src-008"]
+
+# Internal review history
+review_history:
+  - at: "2026/01/27"
+    reviewer: "Sepehr"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "created"
+    to_status: "verified"
+    notes: "Truth/evidence set to 10/10 based on direct primary-source publisher clarification plus multiple independent reports documenting the Shokri/Ebrahimi distinction and state-media narrative redirection."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims:
+  - vic-2026-000840 # Sepehr Shokri
+  - vic-2026-000066 # Sepehr Ebrahimi
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []

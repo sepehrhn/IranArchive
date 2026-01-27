@@ -6,7 +6,7 @@
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mt-8">
         <!-- Main Content Column (Left/Center) -->
-        <div class="lg:col-span-8 space-y-12">
+        <div class="lg:col-span-8 space-y-10">
             
             <!-- Key Claims & Narrative -->
             <section>
@@ -15,7 +15,7 @@
                 </div>
                 
                 <div class="prose dark:prose-invert max-w-none mb-6">
-                    <p class="lead text-lg">{{ incident.narrative }}</p>
+                    <p>{{ incident.narrative }}</p>
                 </div>
 
                 <div class="bg-surface-50 dark:bg-surface-900 rounded-lg p-6 border-l-4 border-primary-500">
@@ -25,11 +25,13 @@
                     </ul>
                 </div>
 
-                <div v-if="incident.limitations.length" class="mt-6">
-                    <Accordion>
-                        <AccordionPanel value="limitations">
-                           <AccordionHeader>Limitations & Unknowns</AccordionHeader>
-                           <AccordionContent>
+                <div v-if="incident.limitations.length" class="mt-8">
+                    <Accordion :pt="{ root: { class: '!bg-transparent !border-none' } }">
+                        <AccordionPanel value="limitations" :pt="{ root: { class: '!border-none' } }">
+                           <AccordionHeader :pt="{ root: { class: '!bg-surface-100 dark:!bg-surface-800 !border-none rounded-lg' } }">
+                                <span class="font-semibold text-surface-600 dark:text-surface-300">Limitations</span>
+                           </AccordionHeader>
+                           <AccordionContent :pt="{ content: { class: '!bg-transparent !dark:bg-transparent' } }">
                                <ul class="list-disc list-inside space-y-1 mb-4">
                                    <li v-for="(lim, idx) in incident.limitations" :key="idx">{{ lim }}</li>
                                </ul>
@@ -40,11 +42,7 @@
             </section>
 
              <!-- Evidence Gallery -->
-            <section id="evidence">
-                 <div class="flex items-center justify-between mb-4">
-                    <h2 class="text-2xl font-bold">Evidence Gallery</h2>
-                    <Badge :value="incident.evidence.length" severity="secondary" />
-                </div>
+            <section id="evidence" v-if="incident.evidence?.length > 0">
                 <IncidentsEvidenceGallery :evidence="incident.evidence" />
             </section>
 
@@ -77,9 +75,10 @@
                 </template>
             </Card>
 
+
             <!-- Verification Status -->
              <section>
-                 <IncidentsVerificationBlock :incident="incident" />
+                 <IncidentsVerificationBlock :incident="incident" mode="status" />
              </section>
 
             <!-- Timeline -->
@@ -87,6 +86,11 @@
                  <h2 class="text-xl font-bold mb-4">Timeline</h2>
                  <IncidentsTimelineBlock :events="incident.timeline" @view-evidence="scrollToEvidence" />
             </section>
+
+            <!-- Review History -->
+             <section>
+                 <IncidentsVerificationBlock :incident="incident" mode="history" />
+             </section>
 
         </div>
       </div>

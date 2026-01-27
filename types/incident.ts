@@ -1,7 +1,6 @@
 export type IncidentStatus = 'draft' | 'not_verified' | 'disputed' | 'verified';
 
 export type EvidenceType = 'video' | 'image' | 'document';
-export type ContentWarning = 'graphic' | 'violence' | 'none';
 export type SourceType = 'primary' | 'secondary';
 
 export interface Location {
@@ -65,8 +64,7 @@ export interface Evidence {
     provenance: Provenance;
     technical?: TechnicalDetails;
     corroboration: Corroboration;
-    flags: string[];
-    content_warning?: ContentWarning;
+    content_warning: boolean;
 }
 
 export interface Source {
