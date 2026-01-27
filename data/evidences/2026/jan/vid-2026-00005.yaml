@@ -1,0 +1,34 @@
+# Evidence ID: vid-2026-00005
+# Type: 'video' | 'image' | 'document'
+type: "video"
+
+# Human-readable title of the evidence
+title: "Viral 'Sepehr Baba kojayi?' footage (published by VahidOnline)"
+
+# Detailed description of what is shown/heard
+description: "A widely circulated video from Kahrizak Forensic Medicine Center showing distressed families searching among bodies; a father repeatedly calls out 'Sepehr, Baba kojayi?' The clip became viral and later attribution was clarified by the original publisher as related to Sepehr Shokri."
+
+# Relative path to file in /data/evidence (served via /evidence/)
+file_path: "2026/jan/vid-2026-00005.mp4"
+
+# When the footage was captured (YYYY/MM/DD)
+# Use ISO format if time is known: "YYYY-MM-DDTHH:MM:SS"
+captured_at: ""
+
+# Location claimed in the footage/metadata
+claimed_location: "Kahrizak, Tehran Province (Forensic Medicine Center / Legal Medicine Organization)"
+
+# Provenance / Chain of Custody
+provenance:
+  submitted_by: "VahidOnline"
+  first_published_at: "2026/01/23"
+  first_published_url: "https://x.com/Vahid/status/2014549138189254811"
+  chain_of_custody_note: "Archived download of the video from the original X post by VahidOnline (retain original URL, timestamps, and any platform metadata)."
+
+# Corroboration with other evidence
+corroboration:
+  related_evidence_ids: ["vid-2026-00006"]
+  notes: "Cross-referenced with IRIB/Fars interview clip circulated as a response attempting to redirect attribution via name conflation."
+
+# Content warning (true if sensitive)
+content_warning: true

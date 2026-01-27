@@ -45,9 +45,6 @@ technical:
   exif_summary: ""
   reencoded: false
 
-# Flags: e.g. 'verified_location', 'verified_time', 'graphic_content', 'sensitive'
-flags: []
 
-# Content warning
-# Options: 'graphic' | 'violence' | 'none'
-content_warning: "none"
+# Content warning (true if sensitive)
+content_warning: false

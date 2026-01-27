@@ -1,0 +1,35 @@
+# Evidence ID: vid-2026-00006
+# Type: 'video' | 'image' | 'document'
+type: "video"
+
+# Human-readable title of the evidence
+title: "IRIB interview clip with Sepehr Ebrahimi’s father"
+
+# Detailed description of what is shown/heard
+description: "A short video segment from Iranian state media (IRIB) circulated via Fars News, featuring Sepehr Ebrahimi’s father and framing the viral 'Sepehr Baba' narrative as misused/misrepresented by opposition media. The segment is used to dispute/redirect attribution by leveraging the shared first name 'Sepehr' between different victims (Sepehr Ebrahimi vs Sepehr Shokri)."
+
+# Relative path to file in /data/evidence (served via /evidence/)
+file_path: "2026/jan/vid-2026-00006.mp4"
+
+# When the footage was captured (YYYY/MM/DD)
+# Use ISO format if time is known: "YYYY-MM-DDTHH:MM:SS"
+captured_at: ""
+
+# Location claimed in the footage/metadata
+claimed_location: "Shahriar / Andisheh area, Tehran Province (as described by Fars/IRIB)"
+
+# Provenance / Chain of Custody
+provenance:
+  submitted_by: "FarsNews_Agency (IRIB clip)"
+  first_published_at: "2026/01/25"
+  first_published_url: "https://x.com/FarsNews_Agency/status/2015469847392428328"
+  chain_of_custody_note: "Archived download of the video from the Fars News X post that embeds/republishes IRIB content; preserve the post text, timestamp, and any embedded branding/watermarks."
+
+# Corroboration with other evidence
+corroboration:
+  related_evidence_ids: ["vid-2026-00005"]
+  notes: "Corroborates the narrative-redirection pattern by presenting a different 'Sepehr' (Ebrahimi) in response to the viral 'Sepehr Baba' clip later identified as Shokri."
+
+
+# Content warning (true if sensitive)
+content_warning: false
