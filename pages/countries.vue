@@ -107,7 +107,6 @@ const handleListSelect = (iso: string) => {
   <div class="min-h-screen pb-12">
     <!-- Header Card -->
     <div class="flex flex-col gap-6 bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-6">
-      
       <!-- Title & Main Actions -->
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
@@ -122,28 +121,28 @@ const handleListSelect = (iso: string) => {
           <Button label="Methodology" icon="pi pi-info-circle" severity="secondary" @click="methodologyVisible = true" class="w-full md:w-auto" />
         </div>
       </div>
+    </div>
 
-      <!-- Controls Toolbar -->
-      <div class="flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center pt-2">
-        <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
-          <IconField iconPosition="left" class="w-full sm:w-64">
-            <InputIcon class="pi pi-search" />
-            <InputText v-model="searchQuery" placeholder="Search Country" class="w-full" />
-          </IconField>
-          
-          <div class="w-full sm:w-auto overflow-x-auto pb-2 sm:pb-0 -mx-4 px-4 sm:mx-0 sm:px-0 no-scrollbar">
-            <SelectButton v-model="colorMode" :options="colorModes" optionLabel="label" optionValue="value" class="whitespace-nowrap min-w-max" />
-          </div>
+    <!-- Controls Toolbar (Sticky) -->
+    <div class="sticky-trigger sticky top-0 z-40 flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center bg-surface-0/95 dark:bg-surface-900/95 backdrop-blur-md p-4 rounded-xl border border-surface-200 dark:border-surface-700 shadow-md mb-8">
+      <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
+        <IconField iconPosition="left" class="w-full sm:w-64">
+          <InputIcon class="pi pi-search" />
+          <InputText v-model="searchQuery" placeholder="Search Country" class="w-full" />
+        </IconField>
+        
+        <div class="w-full sm:w-auto overflow-x-auto pb-2 sm:pb-0 -mx-4 px-4 sm:mx-0 sm:px-0 no-scrollbar">
+          <SelectButton v-model="colorMode" :options="colorModes" optionLabel="label" optionValue="value" class="whitespace-nowrap min-w-max" />
         </div>
+      </div>
 
-        <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-between lg:justify-end">
-           <div class="flex items-center gap-2">
-             <Checkbox v-model="onlyWithEvidence" :binary="true" inputId="evidence-check" />
-             <label for="evidence-check" class="text-sm cursor-pointer select-none">Has Evidence</label>
-           </div>
-           
-           <Dropdown v-model="sortMode" :options="['Name', 'Score', 'Reviewed']" placeholder="Sort By" class="w-32" />
-        </div>
+      <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-between lg:justify-end">
+         <div class="flex items-center gap-2">
+           <Checkbox v-model="onlyWithEvidence" :binary="true" inputId="evidence-check" />
+           <label for="evidence-check" class="text-sm cursor-pointer select-none">Has Evidence</label>
+         </div>
+         
+         <Dropdown v-model="sortMode" :options="['Name', 'Score', 'Reviewed']" placeholder="Sort By" class="w-32" />
       </div>
     </div>
 
