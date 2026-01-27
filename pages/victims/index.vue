@@ -310,7 +310,7 @@ const showVictimDialog = computed({
         </div>
 
         <!-- Filters Section -->
-        <div class="bg-surface-0 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-700 p-5 shadow-sm">
+        <div class="sticky-trigger sticky top-0 z-40 bg-surface-0/95 dark:bg-surface-900/95 backdrop-blur-md rounded-xl border border-surface-200 dark:border-surface-700 p-5 shadow-md">
             <!-- Filter Row -->
             <div class="flex flex-col lg:flex-row gap-4 items-start lg:items-center">
                 <!-- Search -->

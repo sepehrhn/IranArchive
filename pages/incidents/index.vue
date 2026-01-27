@@ -79,7 +79,7 @@ const clearFilters = () => {
         </div>
 
         <!-- Controls Toolbar -->
-        <div class="flex flex-col lg:flex-row gap-4 justify-between items-center bg-surface-0 dark:bg-surface-900 p-4 rounded-xl border border-surface-200 dark:border-surface-800 shadow-sm mb-8 sticky top-4 z-10 backdrop-blur-md bg-opacity-90 dark:bg-opacity-90">
+        <div class="sticky-trigger flex flex-col lg:flex-row gap-4 justify-between items-center bg-surface-0/95 dark:bg-surface-900/95 p-4 rounded-xl border border-surface-200 dark:border-surface-800 shadow-md mb-8 sticky top-0 z-40 backdrop-blur-md">
             <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0 flex-grow">
                 <IconField iconPosition="left" class="w-full sm:w-96">
                     <InputIcon class="pi pi-search" />

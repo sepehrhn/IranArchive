@@ -237,8 +237,8 @@ const isLoading = computed(() => pending.value || filterLoading.value);
                 </div>
             </div>
 
-            <!-- Mobile Filters (Inline) -->
-            <div class="md:hidden mb-6">
+            <!-- Mobile Filters (Sticky) -->
+            <div class="sticky-trigger md:hidden mb-6 sticky top-4 z-30 bg-surface-0/95 dark:bg-surface-900/95 backdrop-blur-md py-4 px-1 rounded-xl border border-surface-200 dark:border-surface-800 shadow-md">
                 <EventsMobileFilters 
                     :events="events || []"
                     :selectedCountry="selectedCountry"
@@ -265,7 +265,7 @@ const isLoading = computed(() => pending.value || filterLoading.value);
 
             <div class="grid grid-cols-1 lg:grid-cols-[240px_240px_1fr] gap-8 items-start">
                 <!-- Country Sidebar (Desktop) -->
-                <aside class="hidden lg:block sticky top-32 max-h-[calc(100vh-10rem)] overflow-y-auto custom-scrollbar">
+                <aside class="sticky-trigger hidden lg:block sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto custom-scrollbar">
                     <div class="bg-surface-0 dark:bg-surface-900 p-4 rounded-2xl border border-surface-200 dark:border-surface-700">
                         <div v-if="pending" class="space-y-4">
                             <Skeleton width="100%" height="2rem" />
@@ -284,7 +284,7 @@ const isLoading = computed(() => pending.value || filterLoading.value);
                 </aside>
 
                 <!-- City Sidebar (Desktop) -->
-                <aside class="hidden lg:block sticky top-32 max-h-[calc(100vh-10rem)] overflow-y-auto custom-scrollbar">
+                <aside class="sticky-trigger hidden lg:block sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto custom-scrollbar">
                     <div v-if="selectedCountry || pending" class="bg-surface-0 dark:bg-surface-900 p-4 rounded-2xl border border-surface-200 dark:border-surface-700">
                         <div v-if="pending" class="space-y-4">
                              <Skeleton width="100%" height="2rem" />
