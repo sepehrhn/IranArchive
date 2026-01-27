@@ -4,7 +4,7 @@ status: "not_verified"
 
 ratings:
   # Integer 1..10. Likelihood the core claim is true.
-  truth_confidence: 4
+  veracity: 4
   # Integer 1..10. Amount/quality of reviewable evidence available.
   evidence_availability: 2
 

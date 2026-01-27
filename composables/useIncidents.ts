@@ -3,6 +3,7 @@ import type { Incident } from '~/types/incident';
 
 // In-memory cache
 const incidentsData = ref<Incident[]>([]);
+// Trigger HMR update - debugging missing 00004
 
 export const useIncidents = () => {
 

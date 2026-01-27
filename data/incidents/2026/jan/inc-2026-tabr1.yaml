@@ -1,0 +1,140 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "verified"
+
+ratings:
+  veracity: 9
+  evidence_availability: 4
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/11"
+  start_time: "08:00"
+  # End date (optional)
+  end: "2026/01/15"
+  end_time: "23:59"
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "East Azerbaijan"
+  # City name
+  city: "Tabriz"
+  # Specific address or landmark (optional)
+  address: "Tabriz Central Prison / City Streets"
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Uprising / Execution / Martial Law"
+
+# Estimated severity statistics (optional)
+# each range has 'min' and 'max' properties
+severity:
+  deaths:
+    min: 1
+    max: 10
+  injured:
+    min: 0
+    max: 0
+  arrests:
+    min: 0
+    max: 0
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Tabriz Execution and Security Lockdown"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "Protester Alireza Bagheri was executed in Tabriz on January 11. By January 15, heavy security forces locked down the city, patrolling even remote neighborhoods."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  Tabriz faced intense repression during the January 2026 uprising. On Sunday, January 11, 2026, political prisoner Alireza Bagheri was executed in Tabriz, marking a grim escalation in the government's response.
+  
+  Following the execution and continued unrest, the city was placed under a de facto security lockdown. By January 15, residents reported a "heavy security presence" in all areas, including small neighborhoods far from the city center, as authorities sought to stifle any further protests.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Alireza Bagheri executed in Tabriz on Jan 11, 2026."
+  - "Heavy security deployment across all neighborhoods of Tabriz by Jan 15."
+  - "Effective martial law conditions in the city."
+
+# Open questions or missing information
+open_questions:
+  - "Charges against Alireza Bagheri."
+  - "Extent of arrests in Tabriz during the lockdown."
+  - "Specific units deployed to enforce the lockdown."
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "Execution details are based on human rights reports."
+  - "Lockdown severity is based on resident testimony without visual confirmation of all areas."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+# Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
+# IDs are the filenames (e.g. ev-2026-00001-vid-001)
+evidence_ids: []
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-tabriz-001"
+    label: "Reports on Tabriz execution and lockdown"
+    url: ""
+    publisher: "Human Rights Sources"
+    published_at: "2026/01/23"
+    # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Data regarding execution of Alireza Bagheri and security situation."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/11"
+    time: ""
+    title: "Execution of Alireza Bagheri"
+    description: "Protester Alireza Bagheri is executed in Tabriz Prison."
+    evidence_ids: []
+    source_ids: ["src-tabriz-001"]
+  - at: "2026/01/15"
+    time: ""
+    title: "Security Lockdown"
+    description: "Reports of heavy security presence in all neighborhoods of Tabriz."
+    evidence_ids: []
+    source_ids: ["src-tabriz-001"]
+
+# Internal review history
+review_history:
+  - at: "2026/01/27"
+    reviewer: "Sepehr"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "created"
+    to_status: "verified"
+    notes: "Initial report created focusing on the execution and subsequent security crackdown."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []

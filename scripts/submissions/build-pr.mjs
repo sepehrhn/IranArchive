@@ -144,7 +144,7 @@ ${data.severity ? `severity:
 ` : ''}
 
 ratings:
-  truth_confidence: 5
+  veracity: 5
   evidence_availability: ${evidenceFiles.length > 0 ? 8 : 5}
 ${evidenceYaml}
 

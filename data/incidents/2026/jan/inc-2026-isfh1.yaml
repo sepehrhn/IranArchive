@@ -1,0 +1,139 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "verified"
+
+ratings:
+  veracity: 9
+  evidence_availability: 4
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2025/12/31"
+  start_time: "18:00"
+  # End date (optional)
+  end: "2026/01/20"
+  end_time: "23:59"
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Isfahan"
+  # City name
+  city: "Fouladshahr"
+  # Specific address or landmark (optional)
+  address: "Public squares in Fouladshahr"
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Uprising / Killing / Death Sentence"
+
+# Estimated severity statistics (optional)
+# each range has 'min' and 'max' properties
+severity:
+  deaths:
+    min: 1
+    max: 10
+  injured:
+    min: 0
+    max: 0
+  arrests:
+    min: 0
+    max: 0
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Fouladshahr Killing and Conscript Sentence"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "Protests in Fouladshahr led to the killing of verified victim Dariush Ansari Bakhtiariwand. A conscript, Javid Khales, was reportedly sentenced to death for refusing to fire on protesters."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  The January 2026 uprising deeply affected Isfahan province, particularly the city of Fouladshahr. On December 31, 2025, security forces opened fire on protesters, resulting in the death of Dariush Ansari Bakhtiariwand.
+  
+  In a related development on January 20, 2026, reports emerged that an Iranian conscript, Javid Khales, was sentenced to death by a military court for disobeying orders to shoot at protesters. He is currently held in Isfahan Prison. This incident highlights internal dissent within the security apparatus.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Dariush Ansari Bakhtiariwand killed in Fouladshahr on Dec 31, 2025."
+  - "Conscript Javid Khales sentenced to death for refusing to shoot protesters."
+  - "Javid Khales is held in Isfahan Prison."
+
+# Open questions or missing information
+open_questions:
+  - "Confirm the exact date of Javid Khales' sentencing."
+  - "Additional details on the circumstances of Dariush Ansari's death."
+  - "Status of other protesters in Fouladshahr."
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "Military court proceedings are secretive; sentencing details for Javid Khales are hard to independently verify."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+# Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
+# IDs are the filenames (e.g. ev-2026-00001-vid-001)
+evidence_ids: []
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-isfahan-001"
+    label: "Reports on Isfahan protests"
+    url: ""
+    publisher: "Human Rights Sources"
+    published_at: "2026/01/21"
+    # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Data regarding Fouladshahr killing and conscript sentence."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2025/12/31"
+    time: ""
+    title: "Killing of Dariush Ansari"
+    description: "Security forces shoot and kill protester Dariush Ansari Bakhtiariwand in Fouladshahr."
+    evidence_ids: []
+    source_ids: ["src-isfahan-001"]
+  - at: "2026/01/20"
+    time: ""
+    title: "Conscript Sentenced"
+    description: "Javid Khales sentenced to death for refusing to fire on citizens."
+    evidence_ids: []
+    source_ids: ["src-isfahan-001"]
+
+# Internal review history
+review_history:
+  - at: "2026/01/27"
+    reviewer: "Sepehr"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "created"
+    to_status: "verified"
+    notes: "Initial report created covering the killing in Fouladshahr and the conscript case."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []

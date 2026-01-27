@@ -1,0 +1,143 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "verified"
+
+ratings:
+  veracity: 10
+  evidence_availability: 5
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/06"
+  start_time: "10:00"
+  # End date (optional)
+  end: "2026/01/08"
+  end_time: "23:59"
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Tehran"
+  # City name
+  city: "Tehran"
+  # Specific address or landmark (optional)
+  address: "Sina Hospital, Central Tehran"
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Uprising / Crackdown / Hospital Raid"
+
+# Estimated severity statistics (optional)
+# each range has 'min' and 'max' properties
+severity:
+  deaths:
+    min: 217
+    max: 15000
+  injured:
+    min: 0
+    max: 0
+  arrests:
+    min: 0
+    max: 0
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Tehran Uprising and Hospital Raids"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "Security forces cracked down on widespread protests in Tehran, reportedly killing at least 217 people on January 8 and storming Sina Hospital to arrest injured protesters."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  In early January 2026, widespread protests erupted across Tehran as part of a nationwide uprising. By January 8, the situation had escalated significantly, with reports indicating a brutal crackdown by security forces.
+  
+  On January 8, 2026, at least 217 deaths were recorded in Tehran hospitals, primarily resulting from live ammunition used against protesters. Sources suggest the actual death toll could be much higher, with some estimates reaching up to 15,000.
+  
+  In a particularly egregious event on January 6, 2026, security forces reportedly stormed Sina Hospital in Tehran. Witnesses described forces entering the medical facility to arrest injured protesters who were seeking treatment, violating medical neutrality and human rights standards.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Security forces stormed Sina Hospital on January 6 to arrest injured protesters."
+  - "At least 217 protesters were killed in Tehran on January 8 alone."
+  - "Total death toll in Tehran may be as high as 15,000 according to some activists."
+  - "Live ammunition was the primary cause of death."
+
+# Open questions or missing information
+open_questions:
+  - "Precise number of arrests made during the hospital raids."
+  - " identities of the 217 victims recorded on January 8."
+  - "Specific units involved in the hospital raids and shootings."
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "Casualty figures for January 8 vary widely (217 confirmed vs. 15,000 estimated)."
+  - "Lack of video evidence directly showing the hospital raid inside Sina Hospital."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+# Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
+# IDs are the filenames (e.g. ev-2026-00001-vid-001)
+evidence_ids: []
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-tehran-001"
+    label: "Reports of hospital raids and casualties"
+    url: ""
+    publisher: "Human Rights Sources / Wikipedia"
+    published_at: "2026/01/20"
+    # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Composite report based on compiled data regarding the Jan 2026 uprising."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/06"
+    time: ""
+    title: "Sina Hospital Raid"
+    description: "Security forces storm Sina Hospital to arrest injured protesters."
+    evidence_ids: []
+    source_ids: ["src-tehran-001"]
+  - at: "2026/01/08"
+    time: ""
+    title: "Bloody Thursday"
+    description: "Peak of violence in Tehran; 217 confirmed deaths in hospitals."
+    evidence_ids: []
+    source_ids: ["src-tehran-001"]
+
+# Internal review history
+review_history:
+  - at: "2026/01/27"
+    reviewer: "Sepehr"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "created"
+    to_status: "verified"
+    notes: "Initial report created based on research of Jan 2026 uprising."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []
