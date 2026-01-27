@@ -19,10 +19,24 @@ const formattedDate = computed(() => {
 const photoSrc = computed(() => {
     return props.victim.photo || '/placeholder-victim.png';
 });
+const emit = defineEmits<{
+    (e: 'click', id: string): void
+}>();
+
+const handleClick = (event: MouseEvent) => {
+    // Allow default behavior (open in new tab) for modifier keys
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+        return;
+    }
+    
+    // Prevent client-side navigation
+    event.preventDefault();
+    emit('click', props.victim.id);
+};
 </script>
 
 <template>
-    <NuxtLink :to="`/victims/${victim.id}`" class="group block h-full focus:outline-none focus:ring-2 focus:ring-primary-500 rounded-lg">
+    <NuxtLink :to="`/victims/${victim.id}`" @click="handleClick" class="group block h-full focus:outline-none focus:ring-2 focus:ring-primary-500 rounded-lg">
         <div class="bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg overflow-hidden h-full shadow-sm hover:shadow-md transition-shadow">
             <div class="relative overflow-hidden">
                 <!-- Grayscale by default, colorful on hover -->

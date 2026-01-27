@@ -17,7 +17,7 @@ const isVisible = computed({
 </script>
 
 <template>
-  <Dialog v-model:visible="isVisible" modal header="Methodology & Scoring" :style="{ width: '50rem' }" :breakpoints="{ '960px': '75vw', '641px': '90vw' }">
+  <Dialog v-model:visible="isVisible" modal header="Methodology & Scoring" :style="{ width: '50rem' }" :breakpoints="{ '960px': '75vw', '641px': '90vw' }" :draggable="false">
     <div class="space-y-4 text-surface-700 dark:text-surface-200">
       <p>
         The <strong>Global Pressure Tracker</strong> evaluates each country’s policy posture toward the Islamic Republic of Iran across four key objectives. 

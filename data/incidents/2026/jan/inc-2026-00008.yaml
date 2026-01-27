@@ -27,13 +27,13 @@ location:
   # Province name
   province: "Tehran"
   # City name
-  city: "Kahrizak (Rey County)"
+  city: "Kahrizak"
   # Specific address or landmark (optional)
   address: "Kahrizak Forensic Medicine Center / Legal Medicine Organization (as referenced/depicted in the viral footage and subsequent reporting)."
   # Latitude (optional)
-  lat:
+  lat: 35.51761668410382
   # Longitude (optional)
-  lng:
+  lng: 51.36896926682033
 
 # Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
 incident_type: "Disinformation / Narrative Redirection (State Media)"

@@ -64,7 +64,7 @@
              <!-- Related Entities -->
             <section id="related" v-if="incident.victims?.length || incident.related_incidents?.length">
                 <h2 class="text-xl font-bold mb-6">Related Context</h2>
-                <IncidentsRelatedEntities :victims="incident.victims" :related="incident.related_incidents" />
+                <IncidentsRelatedEntities :victims="incident.victims" :related="incident.related_incidents" @victim-click="openVictim" />
             </section>
 
         </div>
@@ -108,12 +108,36 @@
         </NuxtLink>
     </div>
   </div>
+
+    <!-- Victim Detail Dialog -->
+    <Dialog 
+        v-model:visible="showVictimDialog" 
+        modal 
+        :dismissableMask="true"
+        :draggable="false"
+        class="victim-detail-dialog"
+        :style="{ width: '80rem', maxWidth: '95vw' }"
+        :breakpoints="{ '960px': '90vw', '640px': '98vw' }"
+        :showHeader="true"
+    >
+        <template #header>
+             <div class="flex items-center gap-2">
+                <span class="font-bold text-xl">Victim Details</span>
+            </div>
+        </template>
+        <VictimDetail 
+            v-if="selectedVictimId" 
+            :victim-id="selectedVictimId" 
+            :headless="true"
+        />
+    </Dialog>
 </template>
 
 <script setup lang="ts">
 import { type Incident, type Evidence } from '~/types/incident';
 import MarkdownIt from 'markdown-it';
 import { useVictims } from '~/composables/useVictims';
+import VictimDetail from '@/components/victims/VictimDetail.vue';
 
 const { fetchEvidenceById } = useEvidence();
 
@@ -256,5 +280,18 @@ const scrollToSource = (id: string) => {
 
 onMounted(() => {
     // Optional: if markdown content has links, we can process them here
+});
+
+const selectedVictimId = ref<string | null>(null);
+
+const openVictim = (id: string) => {
+    selectedVictimId.value = id;
+};
+
+const showVictimDialog = computed({
+    get: () => !!selectedVictimId.value,
+    set: (val) => {
+        if (!val) selectedVictimId.value = null;
+    }
 });
 </script>

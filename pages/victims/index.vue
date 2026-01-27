@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue';
+import { ref, computed, onMounted, onUnmounted, watch, nextTick } from 'vue';
 import { useVictims } from '@/composables/useVictims';
 import type { Victim } from '@/types/victims';
 import VictimGalleryCard from '@/components/victims/VictimGalleryCard.vue';
+import VictimDetail from '@/components/victims/VictimDetail.vue';
+import VictimSkeleton from '@/components/victims/VictimSkeleton.vue';
 import VictimSubmissionForm from '~/components/submissions/VictimSubmissionForm.vue';
 import { initUpload, uploadToR2, completeSubmission } from '~/utils/submissionsClient';
 import type { UploadedFileInfo } from '~/utils/submissionsClient';
@@ -15,6 +17,8 @@ useHead({
 });
 
 const { listVictims, buildFilterOptions, applyVictimQuery } = useVictims();
+const route = useRoute();
+const router = useRouter();
 
 // State
 const loading = ref(true);
@@ -31,7 +35,6 @@ const searchQuery = ref('');
 const selectedCity = ref<string>();
 const selectedProvince = ref<string>();
 const selectedStatus = ref<string>();
-const selectedSort = ref('recent');
 const showSubmitDialog = ref(false);
 const submitting = ref(false);
 const submitSuccess = ref(false);
@@ -41,11 +44,7 @@ const submitError = ref('');
 const currentPage = ref(0); // PrimeVue Paginator uses 0-based index for first
 const pageSize = ref(15);
 
-const sortOptions = [
-    { label: 'Most Recent', value: 'recent' },
-    { label: 'Name (A-Z)', value: 'name_asc' },
-    { label: 'Name (Z-A)', value: 'name_desc' }
-];
+
 
 const statusOptions = [
     { label: 'Killed', value: 'Killed' },
@@ -60,35 +59,28 @@ const availableCities = computed(() => {
     return allCities.value;
 });
 
-// Check if any filters are active
-const hasActiveFilters = computed(() => {
-    return searchQuery.value || selectedCity.value || selectedProvince.value || selectedStatus.value;
+
+
+
+
+// Pagination -> Infinite Scroll
+const itemsPerPage = 20;
+const displayedCount = ref(itemsPerPage);
+
+const displayedVictims = computed(() => {
+    return filteredVictims.value.slice(0, displayedCount.value);
 });
 
-// Active filter chips
-const activeFilters = computed(() => {
-    const filters: { key: string; label: string; value: string }[] = [];
-    if (searchQuery.value) {
-        filters.push({ key: 'search', label: 'Search', value: searchQuery.value });
-    }
-    if (selectedProvince.value) {
-        filters.push({ key: 'province', label: 'Province', value: selectedProvince.value });
-    }
-    if (selectedCity.value) {
-        filters.push({ key: 'city', label: 'City', value: selectedCity.value });
-    }
-    if (selectedStatus.value) {
-        filters.push({ key: 'status', label: 'Status', value: selectedStatus.value });
-    }
-    return filters;
+const hasMore = computed(() => {
+    return displayedCount.value < filteredVictims.value.length;
 });
 
-// Computed: Paginated Victims
-const paginatedVictims = computed(() => {
-    const start = currentPage.value * pageSize.value;
-    const end = start + pageSize.value;
-    return filteredVictims.value.slice(start, end);
-});
+const loadMore = () => {
+    if (hasMore.value) {
+        displayedCount.value += itemsPerPage;
+    }
+};
+
 
 // Methods
 const loadData = async () => {
@@ -110,44 +102,19 @@ const applyFilters = () => {
         q: searchQuery.value,
         city: selectedCity.value,
         province: selectedProvince.value,
-        status: selectedStatus.value,
-        sort: selectedSort.value
+        status: selectedStatus.value
     });
-    // Reset pagination
-    currentPage.value = 0; 
+    // Reset scroll position/count
+    resetScroll();
 };
 
-const clearFilters = () => {
-    searchQuery.value = '';
-    selectedCity.value = undefined;
-    selectedProvince.value = undefined;
-    selectedStatus.value = undefined;
-    selectedSort.value = 'recent';
-    applyFilters();
+const resetScroll = () => {
+    displayedCount.value = itemsPerPage;
 };
 
-const removeFilter = (key: string) => {
-    switch (key) {
-        case 'search':
-            searchQuery.value = '';
-            break;
-        case 'province':
-            selectedProvince.value = undefined;
-            // Also clear city if it was province-dependent
-            selectedCity.value = undefined;
-            break;
-        case 'city':
-            selectedCity.value = undefined;
-            break;
-        case 'status':
-            selectedStatus.value = undefined;
-            break;
-    }
-};
 
-const handlePageChange = (event: any) => {
-    currentPage.value = event.page;
-};
+
+
 
 const handleSubmission = async (payload: any) => {
     submitting.value = true;
@@ -210,7 +177,7 @@ const killedCount = computed(() => allVictims.value.filter(v => v.status?.toLowe
 const missingCount = computed(() => allVictims.value.filter(v => v.status?.toLowerCase() === 'missing').length);
 
 // Watchers
-watch([searchQuery, selectedCity, selectedProvince, selectedStatus, selectedSort], () => {
+watch([searchQuery, selectedCity, selectedProvince, selectedStatus], () => {
     applyFilters();
 });
 
@@ -224,9 +191,70 @@ watch(selectedProvince, (newProvince) => {
     }
 });
 
-// Initialization
+// Infinite Scroll Observer
+const loadMoreSentinel = ref<HTMLElement | null>(null);
+let observer: IntersectionObserver | null = null;
+
 onMounted(() => {
     loadData();
+});
+
+// Intersection Observer Logic
+const connectObserver = () => {
+    if (observer) observer.disconnect();
+    
+    if (!loadMoreSentinel.value) return;
+
+    observer = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting && !loading.value) {
+            loadMore();
+        }
+    }, {
+        rootMargin: '200px',
+        threshold: 0.1
+    });
+    
+    observer.observe(loadMoreSentinel.value);
+};
+
+// Re-connect whenever the sentinel element renders/changes
+watch(loadMoreSentinel, (newEl) => {
+    if (newEl) {
+        connectObserver();
+    }
+});
+
+// Ensure we clean up
+onUnmounted(() => {
+    if (observer) {
+        observer.disconnect();
+    }
+});
+
+
+// Victim Detail Modal Logic
+const selectedVictimId = ref<string | null>(null);
+
+// Sync URL query to state
+watch(() => route.query.victim, (newId) => {
+    selectedVictimId.value = (newId as string) || null;
+}, { immediate: true });
+
+const openVictim = (id: string) => {
+    router.push({ query: { ...route.query, victim: id } });
+};
+
+const closeVictim = () => {
+    const query = { ...route.query };
+    delete query.victim;
+    router.push({ query });
+};
+
+const showVictimDialog = computed({
+    get: () => !!selectedVictimId.value,
+    set: (val) => {
+        if (!val) closeVictim();
+    }
 });
 </script>
 
@@ -325,85 +353,43 @@ onMounted(() => {
                         showClear 
                         class="w-full sm:w-32"
                     />
-                    <Select 
-                        v-model="selectedSort" 
-                        :options="sortOptions" 
-                        optionLabel="label" 
-                        optionValue="value" 
-                        class="w-full sm:w-36"
-                    />
+
                 </div>
             </div>
 
-            <!-- Active Filters Chips -->
-            <div v-if="activeFilters.length > 0" class="mt-4 pt-4 border-t border-surface-200 dark:border-surface-700">
-                <div class="flex flex-wrap items-center gap-2">
-                    <span class="text-sm text-surface-500">Active filters:</span>
-                    <Chip 
-                        v-for="filter in activeFilters" 
-                        :key="filter.key"
-                        :label="`${filter.label}: ${filter.value}`"
-                        removable
-                        @remove="removeFilter(filter.key)"
-                        class="!bg-primary-100 !text-primary-700 dark:!bg-primary-900/30 dark:!text-primary-300"
-                    />
-                    <Button 
-                        label="Clear All" 
-                        icon="pi pi-times" 
-                        text 
-                        size="small"
-                        severity="secondary"
-                        @click="clearFilters" 
-                    />
-                </div>
-            </div>
 
-            <!-- Results Count -->
-            <div class="mt-4 pt-4 border-t border-surface-200 dark:border-surface-700 flex items-center justify-between">
-                <p class="text-surface-500 text-sm">
-                    Showing <span class="font-semibold text-surface-900 dark:text-surface-0">{{ paginatedVictims.length }}</span> 
-                    of <span class="font-semibold text-surface-900 dark:text-surface-0">{{ filteredVictims.length }}</span> results 
-                    <span v-if="filteredVictims.length !== allVictims.length">(filtered from {{ allVictims.length }})</span>
-                </p>
-                <div v-if="filteredVictims.length > pageSize">
-                     <Paginator 
-                        :first="currentPage * pageSize" 
-                        :rows="pageSize" 
-                        :totalRecords="filteredVictims.length" 
-                        @page="handlePageChange"
-                        template="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink"
-                        class="!bg-transparent !p-0"
-                    />
-                </div>
-            </div>
+
+
+
         </div>
 
         <!-- Results Grid -->
         <div v-if="loading" class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-            <div v-for="i in 10" :key="i" class="aspect-[4/5] bg-surface-100 dark:bg-surface-800 rounded-xl animate-pulse"></div>
+            <VictimSkeleton v-for="i in 10" :key="i" />
         </div>
 
-        <div v-else-if="paginatedVictims.length > 0" class="space-y-8">
+        <div v-else-if="displayedVictims.length > 0" class="space-y-8">
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
                 <VictimGalleryCard 
-                    v-for="victim in paginatedVictims" 
+                    v-for="victim in displayedVictims" 
                     :key="victim.id" 
                     :victim="victim" 
+                    @click="openVictim"
                 />
             </div>
             
-             <!-- Bottom Pagination -->
-            <div v-if="filteredVictims.length > pageSize" class="flex justify-center">
-                <Paginator 
-                    :first="currentPage * pageSize" 
-                    :rows="pageSize" 
-                    :totalRecords="filteredVictims.length" 
-                    @page="handlePageChange"
-                    template="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink"
-                    class="!bg-transparent"
-                />
+            <!-- Scroll Sentinel -->
+            <div ref="loadMoreSentinel" class="h-20 flex items-center justify-center">
+                <div v-if="hasMore" class="flex items-center gap-2 text-surface-500">
+                    <i class="pi pi-spin pi-spinner text-xl"></i>
+                    <span>Loading more...</span>
+                </div>
+                <div v-else-if="filteredVictims.length > itemsPerPage" class="text-surface-400 text-sm italic">
+                    You've reached the end of the list
+                </div>
             </div>
         </div>
+
 
         <!-- Empty State -->
         <div v-else class="text-center py-16 bg-surface-50 dark:bg-surface-900 rounded-2xl border-2 border-dashed border-surface-300 dark:border-surface-700">
@@ -414,7 +400,7 @@ onMounted(() => {
             <p class="text-surface-500 mb-6 max-w-md mx-auto">
                 We couldn't find any victims matching your search criteria. Try adjusting your filters.
             </p>
-            <Button label="Clear All Filters" icon="pi pi-refresh" @click="clearFilters" />
+
         </div>
     </div>
 
@@ -444,5 +430,28 @@ onMounted(() => {
             <Button label="Try Again" icon="pi pi-refresh" @click="submitError = ''" />
         </div>
         <VictimSubmissionForm v-else :submitting="submitting" @submit="handleSubmission" />
+    </Dialog>
+
+    <!-- Victim Detail Dialog -->
+    <Dialog 
+        v-model:visible="showVictimDialog" 
+        modal 
+        :dismissableMask="true"
+        :draggable="false"
+        class="victim-detail-dialog"
+        :style="{ width: '80rem', maxWidth: '95vw' }"
+        :breakpoints="{ '960px': '90vw', '640px': '98vw' }"
+        :showHeader="true"
+    >
+        <template #header>
+             <div class="flex items-center gap-2">
+                <span class="font-bold text-xl">Victim Details</span>
+            </div>
+        </template>
+        <VictimDetail 
+            v-if="selectedVictimId" 
+            :victim-id="selectedVictimId" 
+            :headless="true"
+        />
     </Dialog>
 </template>

@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue';
+import { computed, onMounted } from 'vue';
 import { useCampaigns } from '~/composables/useCampaigns';
 import { useCampaignSigning } from '~/composables/useCampaignSigning';
 import { useCountries } from '~/composables/useCountries';
 import { getMediaUrl } from '~/utils/mediaUrl';
-import type { CampaignStatus } from '~/types/campaign';
 
 const { getAllCampaigns } = useCampaigns();
 const allCampaigns = getAllCampaigns();
@@ -30,65 +29,20 @@ const getCampaignImageUrl = (filename: string | undefined) => {
   return getMediaUrl({ kind: 'campaign_img', relativePath: filename });
 };
 
-// SEO
-useHead({
-  title: 'Campaigns - IranArchive',
-  meta: [
-    { name: 'description', content: 'Petitions and campaigns hosted on Change.org pressuring the Islamic Republic. Join the global call for justice.' }
-  ]
-});
-
-// State
-const searchQuery = ref('');
-const statusFilter = ref<CampaignStatus | 'all'>('all');
-const sortOption = ref<'featured' | 'newest' | 'title'>('featured');
-
-const statusOptions = [
-  { label: 'All Statuses', value: 'all' },
-  { label: 'Active', value: 'active' },
-  { label: 'Victory', value: 'victory' },
-  { label: 'Closed', value: 'closed' },
-  { label: 'Unknown', value: 'unknown' }
-];
-
-const sortOptions = [
-  { label: 'Featured / Recommended', value: 'featured' },
-  { label: 'Title (A-Z)', value: 'title' }
-];
-
-// Filtering & Sorting
+// Filtering & Sorting (Default sort: Signed first, then featured)
 const filteredCampaigns = computed(() => {
-  let result = allCampaigns;
+  let result = [...allCampaigns];
 
-  // Search
-  if (searchQuery.value) {
-    const q = searchQuery.value.toLowerCase();
-    result = result.filter(c => 
-      c.title.toLowerCase().includes(q)
-    );
-  }
-
-  // Status Filter
-  if (statusFilter.value !== 'all') {
-    result = result.filter(c => c.status === statusFilter.value);
-  }
-
-// Sorting
-  // Create a copy to sort
-  result = [...result].sort((a, b) => {
+  result.sort((a, b) => {
     // 1. Unsigned first (Visual priority)
     const aSigned = isSigned(a.id);
     const bSigned = isSigned(b.id);
     if (aSigned !== bSigned) return aSigned ? 1 : -1;
 
-    // 2. Selected Sort Option
-    if (sortOption.value === 'title') {
-      return a.title.localeCompare(b.title);
-    }
-    // Default: Featured
+    // 2. Featured
     if (a.featured !== b.featured) return a.featured ? -1 : 1;
     
-    // Fallback to Created Date if present, else A-Z by ID
+    // 3. Fallback to Created Date if present, else A-Z by ID
     const aDate = a.created_at || '';
     const bDate = b.created_at || '';
     if (aDate && bDate && aDate !== bDate) return bDate.localeCompare(aDate);
@@ -132,42 +86,33 @@ const formatCountries = (codes: string[]) => {
 
 <template>
   <div class="min-h-screen pb-12">
-    <div class="container mx-auto px-4 mt-6">
+    <div class="container mx-auto px-4 mt-6 space-y-8">
       
-        <!-- Header Card -->
-        <div class="flex flex-col gap-6 bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-6">
-            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-                <div>
-                    <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">
+        <!-- Hero Section -->
+        <div class="relative bg-gradient-to-br from-surface-800 via-surface-700 to-surface-800 dark:from-surface-950 dark:via-surface-900 dark:to-surface-950 rounded-2xl overflow-hidden">
+            <div class="absolute inset-0 bg-[url('/images/pattern.svg')] opacity-5"></div>
+            <div class="relative px-8 py-10 md:py-12">
+                <div class="max-w-3xl">
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
                         Campaigns
                     </h1>
-                    <p class="text-surface-500 dark:text-surface-400 mt-1 max-w-2xl text-sm md:text-base">
+                    <p class="text-lg text-surface-200 dark:text-surface-300 mb-6 leading-relaxed">
                         Petitions and collective actions pressuring the regime.
                     </p>
+                    
+
                 </div>
-                <div class="flex gap-2 w-full md:w-auto items-center">
-                    <div class="text-xs text-surface-500 italic max-w-xs text-right hidden md:block mr-2">
-                        Petitions are hosted on Change.org;<br>IranArchive is not affiliated.
-                    </div>
+
+                <!-- Action Button in Top Right -->
+                <div class="absolute top-8 right-8 md:top-12 md:right-8">
                     <NuxtLink to="/docs/campaigns-submission">
-                        <Button label="Submit Campaign" icon="pi pi-plus" size="small" />
+                        <Button
+                            label="Submit Campaign"
+                            icon="pi pi-plus"
+                            class="shadow-lg"
+                        />
                     </NuxtLink>
                 </div>
-            </div>
-        </div>
-
-        <!-- Controls Toolbar -->
-        <div class="flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center bg-surface-0 dark:bg-surface-900 p-4 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-8">
-            <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
-                <IconField iconPosition="left" class="w-full sm:w-64">
-                    <InputIcon class="pi pi-search" />
-                    <InputText v-model="searchQuery" placeholder="Search campaigns" class="w-full" />
-                </IconField>
-            </div>
-
-            <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-between lg:justify-end">
-                 <Select v-model="statusFilter" :options="statusOptions" optionLabel="label" optionValue="value" placeholder="Status" class="w-full sm:w-48" />
-                 <Select v-model="sortOption" :options="sortOptions" optionLabel="label" optionValue="value" placeholder="Sort By" class="w-full sm:w-64" />
             </div>
         </div>
 
@@ -183,40 +128,46 @@ const formatCountries = (codes: string[]) => {
                 class="group block bg-surface-0 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-xl overflow-hidden hover:shadow-lg hover:border-primary-500/50 transition-all duration-300 transform hover:-translate-y-1"
             >
                 <!-- Thumbnail -->
-                <div 
-                  class="aspect-video w-full bg-surface-100 dark:bg-surface-800 relative overflow-hidden campaign-img-wrap"
-                  :class="{ 'signed': isSigned(campaign.id) }"
-                >
+                <div class="h-48 relative overflow-hidden">
+                    <!-- Image -->
                     <img 
                         :src="getCampaignImageUrl(campaign.thumbnail)" 
                         :alt="campaign.title"
                         loading="lazy"
-                        class="w-full h-full object-cover transition-all duration-300 campaign-img"
+                        class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                        :class="{ 'opacity-50 grayscale contrast-125': isSigned(campaign.id) }"
                     />
-                     
-                     <!-- Signed Overlay/Stamp -->
-                     <div v-if="isSigned(campaign.id)" class="absolute inset-0 flex items-center justify-center pointer-events-none z-10">
-                        <div class="seal text-white px-4 py-2 text-xl tracking-widest uppercase rounded-sm backdrop-blur-sm">
-                           Signed
-                        </div>
-                     </div>
+                    
+                    <!-- Overlay Gradient -->
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-300"></div>
 
-                     <div class="absolute top-3 right-3 flex gap-2 z-20">
-                        <Badge :value="campaign.status.toUpperCase()" :severity="getStatusSeverity(campaign.status)" />
-                     </div>
+                    <!-- Status Badge -->
+                    <div class="absolute top-3 right-3 z-10">
+                        <Badge :value="campaign.status.toUpperCase()" :severity="getStatusSeverity(campaign.status)" class="!text-[10px] !font-bold shadow-sm" />
+                    </div>
+
+                    <!-- Signed Stamp -->
+                    <div v-if="isSigned(campaign.id)" class="absolute inset-0 flex items-center justify-center pointer-events-none z-20">
+                        <div class="seal text-white px-4 py-1 text-lg tracking-[0.2em] font-black uppercase border-4 border-white/90 bg-black/40 -rotate-12 backdrop-blur-sm shadow-2xl">
+                            Signed
+                        </div>
+                    </div>
                 </div>
 
-                <div class="p-5 flex flex-col flex-1">
-                    <h3 class="font-bold text-lg text-surface-900 dark:text-surface-0 mb-2 line-clamp-3 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                <div class="p-5 flex flex-col flex-1 relative">
+                    <!-- Countries -->
+                    <div class="mb-3 flex items-center gap-2 text-xs font-medium text-surface-500 dark:text-surface-400">
+                        <i class="pi pi-globe text-primary-500"></i>
+                        <span>{{ formatCountries(campaign.countries) }}</span>
+                    </div>
+
+                    <h3 class="font-bold text-lg text-surface-900 dark:text-surface-0 mb-4 line-clamp-2 leading-tight group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                         {{ campaign.title }}
                     </h3>
 
-                    <div class="space-y-3 mt-auto">
-                        <div class="flex justify-between items-center text-xs text-surface-500">
-                             <span>{{ formatCountries(campaign.countries) }}</span>
-                        </div>
-                        
-                        <Button label="Open Campaign" icon="pi pi-external-link" size="small" outlined class="w-full" />
+                    <div class="mt-auto pt-4 border-t border-surface-100 dark:border-surface-800 flex items-center justify-between text-sm text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform duration-300">
+                        <span>View Campaign</span>
+                        <i class="pi pi-arrow-right text-xs"></i>
                     </div>
                 </div>
             </a>
@@ -225,35 +176,10 @@ const formatCountries = (codes: string[]) => {
         <!-- Empty State -->
         <div v-else class="text-center py-20 bg-surface-50 dark:bg-surface-900/50 rounded-xl border border-surface-200 dark:border-surface-800 border-dashed">
             <i class="pi pi-file-excel text-4xl text-surface-400 mb-4 display-block" />
-            <p class="text-xl text-surface-500">No campaigns found matching your criteria.</p>
-            <Button label="Clear Filters" text class="mt-2" @click="() => { searchQuery=''; statusFilter='all'; }" />
+            <p class="text-xl text-surface-500">No campaigns found.</p>
         </div>
     </div>
   </div>
 </template>
 
-<style scoped>
-/* Signed State Styling */
-.campaign-img-wrap.signed::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.55);
-  pointer-events: none;
-  transition: background 0.3s ease;
-}
 
-.campaign-img-wrap.signed .campaign-img {
-  opacity: 0.45;
-  filter: grayscale(30%) contrast(95%);
-}
-
-.seal {
-  border: 3px solid rgba(255, 255, 255, 0.92);
-  background: rgba(0, 0, 0, 0.35);
-  letter-spacing: 0.14em;
-  font-weight: 800;
-  transform: rotate(-8deg);
-  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
-}
-</style>
