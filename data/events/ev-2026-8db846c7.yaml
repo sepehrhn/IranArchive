@@ -15,17 +15,15 @@ type: in_person
 # [REQUIRED] Timing
 date:
   start: "2026/02/01"
-  start_time: "14:00"
+  start_time: "12:00"
   end: "2026/02/01"
-  end_time: "16:00"
+  end_time: "14:00"
 
 # Location
 location:
   country: "CA"
   city: "Regina"
   address: "2405 Legislative Dr, Regina, SK S4S 0B3"
-
-
 
 # Organizer
 organizer:

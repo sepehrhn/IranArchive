@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-E471ADA4
+# -----------------------------------------------------------------------------
+
+title: "King Reza Pahlavi"
+
+featured: false
+
+description: |
+  A Sunday rally organized by 'Maximum Support For Iran' with the same theme as the Saturday evening event, supporting Reza Pahlavi and the uprising.
+  
+  **Tips:**
+  Dress strictly for winter weather.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "17:00"
+  end: "2026/02/01"
+  end_time: "18:00"
+
+# Location
+location:
+  country: "NO"
+  city: "Oslo"
+  address: "Eidsvolls Plass (outside Stortinget/Parliament), Karl Johans gate 22, 0026 Oslo."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

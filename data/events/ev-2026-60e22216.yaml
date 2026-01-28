@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-60E22216
+# -----------------------------------------------------------------------------
+
+title: "Large Solidarity Rally for Iran Uprising"
+
+featured: false
+
+description: |
+  A major demonstration in solidarity with the nationwide uprising in Iran, condemning the regime's recent massacres and internet blackouts. Organizers expect a very large turnout similar to the mid-January rallies.
+  
+  **Tips:**
+  Public transit is highly recommended as traffic will be disrupted. Dress for cold weather.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "13:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Toronto"
+  address: "Yonge-Dundas Square, 1 Dundas St E, Toronto, ON, Outside Dundas TTC Station; expect crowds to spill onto Yonge St."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

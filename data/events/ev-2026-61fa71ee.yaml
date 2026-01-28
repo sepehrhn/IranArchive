@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-61FA71EE
+# -----------------------------------------------------------------------------
+
+title: "Weekly Sunday Solidarity Rally for Iran Uprising"
+
+featured: false
+
+description: |
+  A major weekly gathering to support the ongoing uprising in Iran, condemn the execution of protesters, and demand regime change. Crowds typically wave the 'Lion and Sun' flag and chant anti-regime slogans.
+  
+  **Tips:**
+  This location draws the largest crowds (often 3,000+). Parking is difficult; use side streets south of Wilshire. Be aware of traffic closures on Wilshire Blvd.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "13:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "US"
+  city: "Los Angeles"
+  address: "Federal Building, 11000 Wilshire Blvd, Los Angeles, CA 90024, Corner of Wilshire Blvd and Veteran Ave. This is the primary recurring protest site."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

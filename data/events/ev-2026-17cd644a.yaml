@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-17CD644A
+# -----------------------------------------------------------------------------
+
+title: "Static Solidarity Gathering"
+
+featured: false
+
+description: |
+  Trocadéro is a frequent alternative location for static rallies if a march is not permitted. On Jan 11, a major rally was held here.
+  
+  **Tips:**
+  Check for 'Association des Étudiants Iraniens' or 'Queer Iranian' flags which indicate independent progressive groups.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "15:00"
+  end: "2026/02/01"
+  end_time: "17:00"
+
+# Location
+location:
+  country: "FR"
+  city: "Paris"
+  address: "Trocadéro (Parvis des Droits de l'Homme), Opposite the Eiffel Tower"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

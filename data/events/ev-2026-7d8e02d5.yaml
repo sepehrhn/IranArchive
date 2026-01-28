@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-7D8E02D5
+# -----------------------------------------------------------------------------
+
+title: "Capitol Hill Solidarity Gathering"
+
+featured: false
+
+description: |
+  Gathering to lobby lawmakers and show visibility for the uprising. Often merges with the White House group. Focus on human rights violations and the recent internet blackout.
+  
+  **Tips:**
+  If the White House location is empty, check here. These two locations are the primary hubs for DC diaspora protests.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "01:00"
+  end: "2026/01/31"
+  end_time: "03:00"
+
+# Location
+location:
+  country: "US"
+  city: "Washington DC"
+  address: "US Capitol Grounds, Often at the grassy area near the reflecting pool or East Front."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

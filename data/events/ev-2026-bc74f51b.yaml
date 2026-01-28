@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-BC74F51B
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with the Iranian Uprising"
+
+featured: false
+
+description: |
+  Demonstration supporting the nationwide uprising in Iran and condemning the regime's brutal crackdown and mass killings reported in Jan 2026.
+  
+  **Tips:**
+  Dress warmly for winter temperatures. Check local social media channels (e.g., Instagram tag #HannoverIran) for last-minute confirmed times, as decentralized groups often post updates shortly before the event.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "14:00"
+  end: "2026/01/31"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Hannover"
+  address: "Platz der Menschenrechte, Located in front of the Neues Rathaus (New Town Hall). Alternatively, check Kröpcke if the square is occupied."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

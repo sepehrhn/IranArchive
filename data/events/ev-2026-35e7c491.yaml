@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-35E7C491
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with the Iranian Uprising"
+
+featured: false
+
+description: |
+  Weekly gathering to demand the expulsion of Iranian diplomats and support the popular uprising in Iran. Demonstrators often chant in Farsi and English, hold placards, and play music to draw attention to the massacres and internet blackouts.
+  
+  **Tips:**
+  Dress warmly for standing outdoors. Bring placards with slogans like 'Woman, Life, Freedom' or 'Expel Iranian Diplomats'. Check 'Iran Solidarity Protest' social channels for last-minute time confirmations.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "14:00"
+  end: "2026/01/31"
+  end_time: "15:00"
+
+# Location
+location:
+  country: "IE"
+  city: "Dublin"
+  address: "The Spire, O'Connell Street, Dublin 1, Meeting point is typically at the base of The Spire."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

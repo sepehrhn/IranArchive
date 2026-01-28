@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-7B0A3778
+# -----------------------------------------------------------------------------
+
+title: "Potential Spontaneous Gathering"
+
+featured: false
+
+description: |
+  While no official flyer has been released for this date, the Embassy is a permanent site of resistance. Small groups often gather here on weekends during uprisings.
+  
+  **Tips:**
+  Check 'Comité Iran Vrij' or 'Woman Life Freedom Netherlands' social media on the day for last-minute calls.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "NL"
+  city: "The Hague"
+  address: "Iranian Embassy, Duinweg 20, 2585 JZ Den Haag, Common site for unannounced/spontaneous gatherings."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
