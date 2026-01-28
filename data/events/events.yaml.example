@@ -53,10 +53,6 @@ location:
   city: "Berlin"
   # Specific address or landmark (optional)
   address: "Pariser Platz, 10117 Berlin"
-  # Latitude (auto-calculated from address if not provided)
-  lat: 52.5163
-  # Longitude (auto-calculated from address if not provided)
-  lng: 13.3777
 
 # Online Specifics (Required for online/hybrid events)
 online: []
