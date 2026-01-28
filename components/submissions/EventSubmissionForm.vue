@@ -319,14 +319,6 @@
                   <label for="ev_address">Full Address *</label>
                 </IftaLabel>
                 <small v-if="stepErrors.address" class="text-red-500 mt-1 block px-1">Address is required</small>
-                <div v-if="geocoding" class="flex items-center gap-2 mt-2 text-sm text-surface-500">
-                  <i class="pi pi-spin pi-spinner"></i>
-                  <span>Looking up coordinates...</span>
-                </div>
-                <div v-if="form.lat && form.lng" class="flex items-center gap-2 mt-2 text-sm text-green-600 dark:text-green-400">
-                  <i class="pi pi-check-circle"></i>
-                  <span>Coordinates: {{ form.lat.toFixed(4) }}, {{ form.lng.toFixed(4) }}</span>
-                </div>
               </div>
             </div>
           </div>
@@ -635,12 +627,6 @@
                     <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">City</p>
                     <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.city || 'Not specified' }}</p>
                   </div>
-                  <div>
-                    <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Coordinates</p>
-                    <p class="text-sm font-bold text-surface-800 dark:text-surface-200">
-                      {{ form.lat && form.lng ? `${form.lat.toFixed(4)}, ${form.lng.toFixed(4)}` : 'Not calculated' }}
-                    </p>
-                  </div>
                   <div class="sm:col-span-3">
                     <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Address</p>
                     <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.address || 'Not specified' }}</p>
@@ -777,7 +763,6 @@ const emit = defineEmits<{
 const config = useRuntimeConfig();
 const turnstileContainer = ref<HTMLElement>();
 const turnstileToken = ref('');
-const geocoding = ref(false);
 const submitting = ref(false);
 const showEndDate = ref(false);
 const { getAllCountries, getCountryFlagUrl } = useCountries();
@@ -836,8 +821,6 @@ const form = ref({
   country: props.initialData?.location?.country || '',
   city: props.initialData?.location?.city || '',
   address: props.initialData?.location?.address || '',
-  lat: props.initialData?.location?.lat || null as number | null,
-  lng: props.initialData?.location?.lng || null as number | null,
   // Online
   platform: props.initialData?.online?.platform || '',
   joinUrl: props.initialData?.online?.join_url || '',
@@ -909,26 +892,6 @@ function validateTimeInput(event: KeyboardEvent) {
   }
 }
 
-async function geocodeAddress() {
-  if (!form.value.address || !form.value.city) return;
-  
-  geocoding.value = true;
-  
-  try {
-    const query = encodeURIComponent(`${form.value.address}, ${form.value.city}, ${form.value.country}`);
-    const response = await fetch(`https://nominatim.openstreetmap.org/search?format=json&q=${query}&limit=1`);
-    const data = await response.json();
-    
-    if (data && data.length > 0) {
-      form.value.lat = parseFloat(data[0].lat);
-      form.value.lng = parseFloat(data[0].lon);
-    }
-  } catch (error) {
-    console.error('Geocoding error:', error);
-  } finally {
-    geocoding.value = false;
-  }
-}
 
 function renderTurnstile() {
   if (currentStep.value !== 3) return;
@@ -1058,9 +1021,7 @@ async function handleSubmit() {
       location: (form.value.type === 'in_person' || form.value.type === 'hybrid') ? {
         country: form.value.country,
         city: form.value.city,
-        address: form.value.address,
-        lat: form.value.lat,
-        lng: form.value.lng
+        address: form.value.address
       } : undefined,
       online: (form.value.type === 'online' || form.value.type === 'hybrid') ? {
         platform: form.value.platform,
