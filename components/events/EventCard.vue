@@ -165,6 +165,26 @@ Link: ${ev.online?.join_url || window.location.href}
     document.body.removeChild(link);
     showCalendarPopup.value = false;
 };
+const showMapsPopup = ref(false);
+
+const getMapQuery = () => {
+    const ev = props.event;
+    return ev.location?.lat && ev.location?.lng 
+        ? `${ev.location.lat},${ev.location.lng}` 
+        : `${ev.location?.address || ''} ${ev.location?.city || ''} ${ev.location?.country || ''}`;
+};
+
+const openGoogleMaps = () => {
+    const query = encodeURIComponent(getMapQuery());
+    window.open(`https://www.google.com/maps/search/?api=1&query=${query}`, '_blank');
+    showMapsPopup.value = false;
+};
+
+const openAppleMaps = () => {
+    const query = encodeURIComponent(getMapQuery());
+    window.open(`https://maps.apple.com/?q=${query}`, '_blank');
+    showMapsPopup.value = false;
+};
 </script>
 
 <template>
@@ -235,11 +255,10 @@ Link: ${ev.online?.join_url || window.location.href}
                     </div>
                 </button>
                 
-                <a 
-                    :href="`https://www.google.com/maps/search/?api=1&query=${event.location?.lat && event.location?.lng ? `${event.location.lat},${event.location.lng}` : encodeURIComponent(`${event.location?.address || ''} ${event.location?.city || ''} ${event.location?.country || ''}`)}`"
-                    target="_blank"
-                    class="group/location flex items-center gap-3 p-3 rounded-xl bg-surface-50/80 dark:bg-surface-950/40 border border-surface-100 dark:border-surface-800 hover:bg-primary-50 dark:hover:bg-primary-900/10 hover:border-primary-200 dark:hover:border-primary-800/50 transition-all duration-200 text-left w-full relative overflow-hidden no-underline"
-                    title="Open in Google Maps"
+                <button 
+                    @click="showMapsPopup = true"
+                    class="group/location flex items-center gap-3 p-3 rounded-xl bg-surface-50/80 dark:bg-surface-950/40 border border-surface-100 dark:border-surface-800 hover:bg-primary-50 dark:hover:bg-primary-900/10 hover:border-primary-200 dark:hover:border-primary-800/50 transition-all duration-200 text-left w-full relative overflow-hidden"
+                    title="Open in Maps"
                 >
                     <div class="w-10 h-10 rounded-lg bg-white dark:bg-surface-800 flex items-center justify-center shadow-sm border border-surface-100 dark:border-surface-800 group-hover/location:border-primary-200 dark:group-hover/location:border-primary-700/50 transition-colors">
                         <i class="pi pi-map-marker text-primary-500 dark:text-primary-400 group-hover/location:scale-110 transition-transform duration-300"></i>
@@ -248,9 +267,9 @@ Link: ${ev.online?.join_url || window.location.href}
 
                      <!-- Hover hint -->
                     <div class="absolute right-3 top-1/2 -translate-y-1/2 opacity-0 group-hover/location:opacity-100 transition-opacity duration-200">
-                        <i class="pi pi-external-link text-primary-500 text-lg"></i>
+                        <i class="pi pi-angle-right text-primary-500 text-lg"></i>
                     </div>
-                </a>
+                </button>
             </div>
 
             <!-- Expand/Collapse Button -->
@@ -345,22 +364,82 @@ Link: ${ev.online?.join_url || window.location.href}
         </Transition>
 
         <!-- Calendar Popup Modal -->
-        <Dialog v-model:visible="showCalendarPopup" modal header="Add to Calendar" :style="{ width: '400px' }" :draggable="false">
-            <div class="space-y-3">
-                <Button 
-                    label="Google Calendar" 
-                    icon="pi pi-google" 
-                    @click="openGoogleCalendar"
-                    class="w-full !justify-start"
-                    outlined
-                />
-                <Button 
-                    label="Apple / Other (.ics)" 
-                    icon="pi pi-calendar" 
-                    @click="downloadICS"
-                    class="w-full !justify-start"
-                    outlined
-                />
+        <Dialog v-model:visible="showCalendarPopup" modal header="Add to Calendar" :style="{ width: '450px' }" :draggable="false" class="premium-dialog">
+            <template #header>
+                <div class="flex items-center justify-between w-full">
+                    <span class="text-lg font-bold text-surface-900 dark:text-surface-0">Add to Calendar</span>
+                </div>
+            </template>
+            
+            <div class="px-1">
+                <!-- Summary Block -->
+                <div class="bg-surface-50 dark:bg-surface-950/50 p-4 rounded-2xl mb-5 border border-surface-100 dark:border-surface-800/50">
+                    <div class="text-xs font-black uppercase tracking-widest text-primary-500 dark:text-primary-400 mb-2">Event Timing</div>
+                    <div class="font-bold text-surface-900 dark:text-surface-0 leading-tight mb-1">
+                        {{ event.title }}
+                    </div>
+                    <div class="text-xs text-surface-500 font-medium">
+                        <EventsEventTimeBlock :event="event" class="!text-surface-500" />
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 gap-2">
+                    <button @click="openGoogleCalendar" class="selection-row group/item">
+                        <div class="icon-wrap !bg-transparent !border-0 !p-0">
+                            <img src="/img/icons/google-logo.svg" alt="Google" class="w-full h-full object-contain" />
+                        </div>
+                        <span class="row-title">Google Calendar</span>
+                        <i class="pi pi-chevron-right row-arrow"></i>
+                    </button>
+
+                    <button @click="downloadICS" class="selection-row group/item">
+                        <div class="icon-wrap !bg-transparent !border-0 !p-0">
+                            <img src="/img/icons/apple-logo.svg" alt="Apple" class="w-full h-full object-contain dark:invert" />
+                        </div>
+                        <span class="row-title">Apple / Other (.ics)</span>
+                        <i class="pi pi-chevron-right row-arrow"></i>
+                    </button>
+                </div>
+            </div>
+        </Dialog>
+
+        <!-- Maps Selection Popup -->
+        <Dialog v-model:visible="showMapsPopup" modal header="View on Map" :style="{ width: '450px' }" :draggable="false" class="premium-dialog">
+            <template #header>
+                <div class="flex items-center justify-between w-full">
+                    <span class="text-lg font-bold text-surface-900 dark:text-surface-0">View on Map</span>
+                </div>
+            </template>
+
+            <div class="px-1">
+                <!-- Summary Block -->
+                <div class="bg-surface-50 dark:bg-surface-950/50 p-4 rounded-2xl mb-5 border border-surface-100 dark:border-surface-800/50">
+                    <div class="text-xs font-black uppercase tracking-widest text-primary-500 dark:text-primary-400 mb-2">Location</div>
+                    <div class="font-bold text-surface-900 dark:text-surface-0 leading-tight mb-1">
+                        {{ event.location?.address || 'TBD' }}
+                    </div>
+                    <div class="text-xs text-surface-500 font-medium">
+                        {{ event.location?.city ? `${event.location.city}, ` : '' }}{{ event.location?.country || '' }}
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 gap-2">
+                    <button @click="openGoogleMaps" class="selection-row group/item">
+                        <div class="icon-wrap !bg-transparent !border-0 !p-0">
+                            <img src="/img/icons/google-maps.svg" alt="Google Maps" class="w-full h-full object-contain" />
+                        </div>
+                        <span class="row-title">Google Maps</span>
+                        <i class="pi pi-chevron-right row-arrow"></i>
+                    </button>
+
+                    <button @click="openAppleMaps" class="selection-row group/item">
+                        <div class="icon-wrap !bg-transparent !border-0 !p-0">
+                            <img src="/img/icons/apple-maps-official.png" alt="Apple Maps" class="w-full h-full object-contain" />
+                        </div>
+                        <span class="row-title">Apple Maps</span>
+                        <i class="pi pi-chevron-right row-arrow"></i>
+                    </button>
+                </div>
             </div>
         </Dialog>
 
@@ -382,3 +461,45 @@ Link: ${ev.online?.join_url || window.location.href}
         </Dialog>
     </div>
 </template>
+
+<style scoped>
+.selection-row {
+    @apply flex items-center gap-4 p-3 rounded-xl w-full text-left transition-all duration-200;
+    @apply bg-surface-50 dark:bg-surface-900/40 border border-surface-100 dark:border-surface-800;
+    @apply hover:bg-white dark:hover:bg-surface-800 hover:border-primary-200 dark:hover:border-primary-800 hover:shadow-lg hover:shadow-primary-500/5;
+}
+
+.icon-wrap {
+    @apply w-10 h-10 rounded-lg overflow-hidden flex-shrink-0 bg-white dark:bg-surface-800 flex items-center justify-center p-1.5;
+    @apply border border-surface-100 dark:border-surface-700;
+}
+
+.row-title {
+    @apply flex-1 font-bold text-surface-900 dark:text-surface-0 text-sm tracking-tight;
+}
+
+.row-arrow {
+    @apply text-surface-300 text-xs transition-all duration-300 group-hover/item:translate-x-1 group-hover/item:text-primary-500 opacity-0 group-hover/item:opacity-100;
+}
+
+/* Premium Dialog Layout */
+:deep(.premium-dialog) {
+    @apply border-0 shadow-2xl;
+}
+
+:deep(.premium-dialog .p-dialog-content) {
+    @apply p-6 pt-2 bg-white dark:bg-surface-900 rounded-b-3xl;
+}
+
+:deep(.premium-dialog .p-dialog-header) {
+    @apply p-6 pb-2 bg-white dark:bg-surface-900 rounded-t-3xl border-b-0;
+}
+
+:deep(.premium-dialog .p-dialog-header-icons) {
+    @apply gap-2;
+}
+
+:deep(.premium-dialog .p-dialog-header-close) {
+    @apply w-8 h-8 rounded-full bg-surface-100 dark:bg-surface-800 hover:bg-primary-50 dark:hover:bg-primary-900/30 transition-colors;
+}
+</style>

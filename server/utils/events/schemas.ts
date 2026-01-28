@@ -18,8 +18,6 @@ const LocationSchema = z.object({
     country: z.string().min(2).transform(val => val.toUpperCase()),
     city: z.string().optional(),
     address: z.string().optional(),
-    lat: z.number().optional().nullable(),
-    lng: z.number().optional().nullable(),
 });
 
 // Online Schema - removed access field (all events are public)
