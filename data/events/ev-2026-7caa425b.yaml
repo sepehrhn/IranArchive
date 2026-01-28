@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-7CAA425B
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Rally at the Iranian Embassy"
+
+featured: false
+
+description: |
+  A 'near-permanent' protest presence has been established at the embassy, with larger gatherings occurring every Saturday. Demonstrators are calling for the end of the Islamic Republic, condemning the recent mass killings (estimated 3,000+), and demanding the expulsion of the Iranian ambassador. Expect chanting, pre-1979 flags (Lion and Sun), and speeches.
+  
+  **Tips:**
+  Police presence is high due to recent clashes and flag-replacement incidents. This location is distinct from the large central London march taking place the same day.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "14:00"
+  end: "2026/01/31"
+  end_time: "17:00"
+
+# Location
+location:
+  country: "GB"
+  city: "London"
+  address: "Iranian Embassy, 16 Prince's Gate, London SW7 1PT, Opposite Hyde Park; nearest tube: Knightsbridge or South Kensington."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

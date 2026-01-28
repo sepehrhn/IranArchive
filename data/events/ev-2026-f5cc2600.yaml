@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-F5CC2600
+# -----------------------------------------------------------------------------
+
+title: "Global Action Day: Women Defend Rojava (Solidarity with Rojhilat/Iran)"
+
+featured: false
+
+description: |
+  Worldwide day of action defending the women's revolution. While focused on Rojava, the call explicitly includes solidarity with 'Rojhilat' (Iranian Kurdistan) and the 'Women, Life, Freedom' uprising against the Iranian regime. Frankfurt groups often participate in these action days, though some activists may be traveling to the central demo in Freiburg.
+  
+  **Tips:**
+  Check the Instagram/Twitter channels of 'Women Defend Rojava Frankfurt' or 'RiseUp4Rojava Frankfurt' for last-minute local gathering times. If no specific Frankfurt event is posted, activists may have traveled to the central rally in Freiburg.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Frankfurt"
+  address: "Frankfurt am Main (Likely decentralized or check local updates), Common spots: Hauptbahnhof (Kaisersack) or Alte Oper"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

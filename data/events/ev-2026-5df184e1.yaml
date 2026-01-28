@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-5DF184E1
+# -----------------------------------------------------------------------------
+
+title: "Permanent Vigil (Mahnwache) for Iran"
+
+featured: false
+
+description: |
+  A continuous vigil (Mahnwache) has been established to honor the victims of the recent crackdown (3,000+ dead). Note: This vigil was the site of a recent altercation on Jan 19, so police presence may be increased.
+  
+  **Tips:**
+  A place for quiet reflection, lighting candles, and speaking with organizers.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Hamburg"
+  address: "Rathausmarkt, In front of the Hamburg City Hall"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

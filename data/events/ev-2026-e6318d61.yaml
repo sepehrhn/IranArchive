@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-E6318D61
+# -----------------------------------------------------------------------------
+
+title: "Weekly Rally for a Free Iran"
+
+featured: false
+
+description: |
+  Solidarity rally supporting the ongoing nationwide uprising in Iran. Expect chanting, speeches, and performance art highlighting the recent massacres and internet blackouts.
+  
+  **Tips:**
+  This has been the most consistent weekly event. Check 'Woman Life Freedom NYC' Instagram for last-minute time changes.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "US"
+  city: "New York City"
+  address: "Washington Square Park, Under the Arch; nearest subway W 4 St (A/B/C/D/E/F/M)"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

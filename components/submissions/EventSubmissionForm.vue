@@ -1,9 +1,9 @@
 <template>
   <div class="space-y-6">
     <!-- Stepper Header -->
-    <div class="relative mb-16 pt-4 px-6 md:px-12">
+    <div class="relative mb-12 sm:mb-16 pt-2 sm:pt-4 px-4 sm:px-6 md:px-12">
       <!-- Progress Bar Background -->
-      <div class="absolute top-[2.25rem] left-10 right-10 md:left-24 md:right-24 h-1 bg-surface-100 dark:bg-surface-800 rounded-full">
+      <div class="absolute top-[1.75rem] sm:top-[2.25rem] left-6 right-6 sm:left-10 sm:right-10 md:left-24 md:right-24 h-1 bg-surface-100 dark:bg-surface-800 rounded-full">
         <!-- Active Progress Line -->
         <div 
           class="h-full bg-primary-500 transition-all duration-500 rounded-full shadow-[0_0_10px_rgba(var(--primary-500-rgb),0.5)]"
@@ -21,7 +21,7 @@
           <!-- Step Indicator -->
           <div 
             :class="[
-              'w-10 h-10 rounded-xl flex items-center justify-center font-bold text-sm transition-all duration-300 relative',
+              'w-8 h-8 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center font-bold text-xs sm:text-sm transition-all duration-300 relative',
               currentStep === index 
                 ? 'bg-primary-500 text-white shadow-[0_0_20px_rgba(var(--primary-500-rgb),0.4)] scale-110 rotate-3' 
                 : currentStep > index 
@@ -30,6 +30,7 @@
             ]"
           >
             <i v-if="currentStep > index" class="pi pi-check text-xs"></i>
+            <i v-else-if="step.icon" :class="[step.icon, 'text-base sm:text-lg', currentStep === index ? 'text-white' : 'text-surface-400 dark:text-surface-600']"></i>
             <span v-else>{{ index + 1 }}</span>
             
             <!-- Active Pulse Effect -->
@@ -38,7 +39,7 @@
 
           <!-- Step Label -->
           <div 
-            class="mt-4 text-center transition-all duration-300 w-20 sm:w-32"
+            class="mt-2 sm:mt-4 text-center transition-all duration-300 w-16 sm:w-20 sm:w-32"
             :class="[
               currentStep === index 
                 ? 'text-primary-600 dark:text-primary-400 font-bold translate-y-0 opacity-100' 
@@ -53,7 +54,7 @@
 
     <!-- Step Content -->
       <!-- Success State Internal -->
-      <div v-if="submitted" class="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-xl p-6 mb-6">
+      <div v-if="submitted" class="bg-green-50 dark:bg-green-900/20 border border-green-200 dark:border-green-800 rounded-xl p-4 sm:p-6 mb-6">>
         <div class="flex items-start gap-3">
           <i class="pi pi-check-circle text-2xl text-green-600 dark:text-green-400"></i>
           <div class="flex-1">
@@ -74,10 +75,6 @@
       
       <!-- Step 1: Event Format -->
       <div v-if="currentStep === 0" class="space-y-6">
-        <div class="text-center mb-8">
-          <h2 class="text-2xl font-bold text-surface-900 dark:text-surface-0 mb-2">Event Format</h2>
-          <p class="text-surface-500">How will attendees participate in this event?</p>
-        </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           <!-- In Person -->
@@ -85,7 +82,7 @@
             type="button"
             @click="form.type = 'in_person'"
             :class="[
-              'group p-6 rounded-2xl border-2 transition-all duration-300 text-left relative overflow-hidden',
+              'group p-4 sm:p-6 rounded-2xl border-2 transition-all duration-300 text-left relative overflow-hidden',
               form.type === 'in_person'
                 ? 'border-blue-500 bg-blue-50/50 dark:bg-blue-900/10 shadow-xl scale-[1.02]'
                 : 'border-surface-200 dark:border-surface-800 hover:border-blue-300 hover:bg-blue-50/20 dark:hover:bg-blue-900/5'
@@ -113,7 +110,7 @@
             type="button"
             @click="form.type = 'hybrid'"
             :class="[
-              'group p-6 rounded-2xl border-2 transition-all duration-300 text-left relative overflow-hidden',
+              'group p-4 sm:p-6 rounded-2xl border-2 transition-all duration-300 text-left relative overflow-hidden',
               form.type === 'hybrid'
                 ? 'border-purple-500 bg-purple-50/50 dark:bg-purple-900/10 shadow-xl scale-[1.02]'
                 : 'border-surface-200 dark:border-surface-800 hover:border-purple-300 hover:bg-purple-50/20 dark:hover:bg-purple-900/5'
@@ -141,7 +138,7 @@
             type="button"
             @click="form.type = 'online'"
             :class="[
-              'group p-6 rounded-2xl border-2 transition-all duration-300 text-left relative overflow-hidden',
+              'group p-4 sm:p-6 rounded-2xl border-2 transition-all duration-300 text-left relative overflow-hidden',
               form.type === 'online'
                 ? 'border-green-500 bg-green-50/50 dark:bg-green-900/10 shadow-xl scale-[1.02]'
                 : 'border-surface-200 dark:border-surface-800 hover:border-green-300 hover:bg-green-50/20 dark:hover:bg-green-900/5'
@@ -171,14 +168,7 @@
       </div>
 
       <!-- Step 2: Time & Location -->
-      <div v-if="currentStep === 1" class="space-y-8">
-        <div class="text-center mb-10">
-          <div class="inline-block p-3 rounded-2xl bg-blue-50 dark:bg-blue-900/20 mb-4">
-            <i class="pi pi-clock text-3xl text-blue-500"></i>
-          </div>
-          <h2 class="text-3xl font-black text-surface-900 dark:text-surface-0 mb-2">Time & Location</h2>
-          <p class="text-surface-500 text-lg">When and where will this event take place?</p>
-        </div>
+      <div v-if="currentStep === 1" class="space-y-6 sm:space-y-8">
 
         <div class="max-w-2xl mx-auto space-y-8">
           <!-- Date & Time -->
@@ -390,14 +380,7 @@
       </div>
 
       <!-- Step 3: Event Details & Organizer -->
-      <div v-if="currentStep === 2" class="space-y-8">
-        <div class="text-center mb-10">
-          <div class="inline-block p-3 rounded-2xl bg-amber-50 dark:bg-amber-900/20 mb-4">
-            <i class="pi pi-file-edit text-3xl text-amber-500"></i>
-          </div>
-          <h2 class="text-3xl font-black text-surface-900 dark:text-surface-0 mb-2">Event Details</h2>
-          <p class="text-surface-500 text-lg">Tell us about your event and who's organizing it</p>
-        </div>
+      <div v-if="currentStep === 2" class="space-y-6 sm:space-y-8">
 
         <div class="max-w-2xl mx-auto space-y-8">
           <!-- Event Info -->
@@ -451,7 +434,7 @@
           </div>
 
           <!-- Organizer Information -->
-          <div class="p-6 rounded-2xl bg-primary-50/50 dark:bg-primary-900/5 border border-primary-100 dark:border-primary-900/20 space-y-6">
+          <div class="p-4 sm:p-6 rounded-2xl bg-primary-50/50 dark:bg-primary-900/5 border border-primary-100 dark:border-primary-900/20 space-y-6">
             <div class="flex items-center gap-3 mb-2">
               <i class="pi pi-users text-primary-500"></i>
               <h3 class="font-bold text-surface-900 dark:text-surface-0">Organizer Information</h3>
@@ -547,21 +530,14 @@
       </div>
 
       <!-- Step 4: Review -->
-      <div v-if="currentStep === 3" class="space-y-8">
-        <div class="text-center mb-10">
-          <div class="inline-block p-3 rounded-2xl bg-green-50 dark:bg-green-900/20 mb-4">
-            <i class="pi pi-clipboard text-3xl text-green-500"></i>
-          </div>
-          <h2 class="text-3xl font-black text-surface-900 dark:text-surface-0 mb-2">Review Submission</h2>
-          <p class="text-surface-500 text-lg">Verify your event details before submitting</p>
-        </div>
+      <div v-if="currentStep === 3" class="space-y-6 sm:space-y-8">
 
         <div class="max-w-4xl mx-auto">
           <div class="bg-surface-0 dark:bg-surface-900 rounded-3xl border border-surface-200 dark:border-surface-800 shadow-2xl overflow-hidden">
             <!-- Header/Type Banner -->
             <div 
               :class="[
-                'px-8 py-6 flex flex-col md:flex-row justify-between items-center gap-4 border-b',
+                'px-4 sm:px-8 py-4 sm:py-6 flex flex-col md:flex-row justify-between items-center gap-4 border-b',
                 form.type === 'in_person' ? 'bg-blue-50/50 dark:bg-blue-900/10 border-blue-100 dark:border-blue-900/20' : 
                 form.type === 'hybrid' ? 'bg-purple-50/50 dark:bg-purple-900/10 border-purple-100 dark:border-purple-900/20' :
                 'bg-green-50/50 dark:bg-green-900/10 border-green-100 dark:border-green-900/20'
@@ -591,7 +567,7 @@
               </div>
             </div>
 
-            <div class="p-8 md:p-10 space-y-8">
+            <div class="p-4 sm:p-8 md:p-10 space-y-6 sm:space-y-8">
               <!-- Time Info -->
               <div>
                 <div class="flex items-center gap-2 mb-4 border-b border-surface-100 dark:border-surface-800 pb-2">
@@ -767,6 +743,7 @@
             label="Next"
             icon="pi pi-arrow-right"
             iconPos="right"
+            :disabled="!canGoToNext"
           />
           <Button
             v-else
@@ -783,17 +760,18 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, nextTick, computed } from 'vue';
+import { ref, onMounted, nextTick, computed, watch } from 'vue';
 import { useCountries } from '~/composables/useCountries';
 import { initUpload, completeSubmission } from '~/utils/submissionsClient';
 
 const props = defineProps<{
-  submitting: boolean;
+  submitting?: boolean;
   initialData?: ParsedEvent | null;
 }>();
 
 const emit = defineEmits<{
   'success': [payload: any];
+  'update:stepTitle': [title: string];
 }>();
 
 const config = useRuntimeConfig();
@@ -806,13 +784,42 @@ const { getAllCountries, getCountryFlagUrl } = useCountries();
 
 // Steps
 const steps = [
-  { id: 'format', label: 'Format' },
-  { id: 'time_location', label: 'Time & Location' },
-  { id: 'details', label: 'Details' },
-  { id: 'review', label: 'Review' }
+  { id: 'format', label: 'Format', icon: 'pi pi-th-large', title: 'Event Format' },
+  { id: 'time_location', label: 'Time & Location', icon: 'pi pi-clock', title: 'Time & Location' },
+  { id: 'details', label: 'Details', icon: 'pi pi-file-edit', title: 'Event Details' },
+  { id: 'review', label: 'Review', icon: 'pi pi-clipboard', title: 'Review Submission' }
 ];
+
 const currentStep = ref(0);
+const currentStepTitle = computed(() => steps[currentStep.value].title);
+
+watch(currentStepTitle, (newTitle) => {
+  emit('update:stepTitle', newTitle);
+}, { immediate: true });
 const stepErrors = ref<Record<string, boolean>>({});
+
+const canGoToNext = computed(() => {
+  if (currentStep.value === 0) {
+    return !!form.value.type;
+  }
+  if (currentStep.value === 1) {
+    if (!form.value.startDate || !form.value.startTime) return false;
+    
+    if (form.value.type === 'in_person' || form.value.type === 'hybrid') {
+      if (!form.value.country || !form.value.city.trim() || !form.value.address.trim()) return false;
+    }
+    
+    if (form.value.type === 'online' || form.value.type === 'hybrid') {
+      if (!form.value.platform.trim() || !form.value.joinUrl.trim()) return false;
+    }
+    
+    return true;
+  }
+  if (currentStep.value === 2) {
+    return !!form.value.title.trim() && !!form.value.announcement.trim();
+  }
+  return true;
+});
 
 const countriesList = computed(() => getAllCountries.value);
 const filteredCountries = ref<any[]>([]);

@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-9C874D23
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Zürich"
+
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/28"
+  start_time: "18:45"
+  end: "2026/01/28"
+  end_time: "20:00"
+
+# Location
+location:
+  country: "CH"
+  city: "Zürich"
+  address: "FIFA-Strasse 20, 8044 Zürich"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

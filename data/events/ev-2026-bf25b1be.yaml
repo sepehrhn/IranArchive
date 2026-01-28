@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-BF25B1BE
+# -----------------------------------------------------------------------------
+
+title: "Downtown LA Solidarity March"
+
+featured: false
+
+description: |
+  Demonstration in solidarity with Iranian protesters, often focusing on human rights violations and the recent UN condemnation. Recent marches here have featured 'Make Iran Great Again' signage and calls for support of Reza Pahlavi.
+  
+  **Tips:**
+  Check for road closures in Downtown LA. This location is often used for marches that may move towards the Federal Building or persist locally.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "13:00"
+  end: "2026/02/01"
+  end_time: "15:00"
+
+# Location
+location:
+  country: "US"
+  city: "Los Angeles"
+  address: "Los Angeles City Hall, 200 N Spring St, Los Angeles, CA 90012, Grand Park / Spring Street Steps"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

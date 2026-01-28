@@ -1,9 +1,9 @@
 <template>
   <div class="space-y-6">
     <!-- Stepper Header Redesign -->
-    <div class="relative mb-16 pt-4 px-6 md:px-12">
+    <div class="relative mb-12 sm:mb-16 pt-2 sm:pt-4 px-4 sm:px-6 md:px-12">
       <!-- Progress Bar Background (Behind) -->
-      <div class="absolute top-[2.25rem] left-10 right-10 md:left-24 md:right-24 h-1 bg-surface-100 dark:bg-surface-800 rounded-full">
+      <div class="absolute top-[1.75rem] sm:top-[2.25rem] left-6 right-6 sm:left-10 sm:right-10 md:left-24 md:right-24 h-1 bg-surface-100 dark:bg-surface-800 rounded-full">
         <!-- Active Progress Line -->
         <div 
           class="h-full bg-primary-500 transition-all duration-500 rounded-full shadow-[0_0_10px_rgba(var(--primary-500-rgb),0.5)]"
@@ -21,7 +21,7 @@
           <!-- Step Indicator -->
           <div 
             :class="[
-              'w-10 h-10 rounded-xl flex items-center justify-center font-bold text-sm transition-all duration-300 relative',
+              'w-8 h-8 sm:w-10 sm:h-10 rounded-xl flex items-center justify-center font-bold text-xs sm:text-sm transition-all duration-300 relative',
               currentStep === index 
                 ? 'bg-primary-500 text-white shadow-[0_0_20px_rgba(var(--primary-500-rgb),0.4)] scale-110 rotate-3' 
                 : currentStep > index 
@@ -30,6 +30,7 @@
             ]"
           >
             <i v-if="currentStep > index" class="pi pi-check text-xs"></i>
+            <i v-else-if="step.icon" :class="[step.icon, 'text-base sm:text-lg', currentStep === index ? 'text-white' : 'text-surface-400 dark:text-surface-600']"></i>
             <span v-else>{{ index + 1 }}</span>
             
             <!-- Active Pulse Effect -->
@@ -38,7 +39,7 @@
 
           <!-- Step Label -->
           <div 
-            class="mt-4 text-center transition-all duration-300 w-20 sm:w-32"
+            class="mt-2 sm:mt-4 text-center transition-all duration-300 w-16 sm:w-20 sm:w-32"
             :class="[
               currentStep === index 
                 ? 'text-primary-600 dark:text-primary-400 font-bold translate-y-0 opacity-100' 
@@ -56,17 +57,13 @@
       
       <!-- Step 1: Type -->
       <div v-if="currentStep === 0" class="space-y-6">
-        <div class="text-center mb-8">
-          <h2 class="text-2xl font-bold text-surface-900 dark:text-surface-0 mb-2">What happened?</h2>
-          <p class="text-surface-500">Select the status of the victim you are reporting</p>
-        </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-8 max-w-2xl mx-auto">
           <button
             type="button"
             @click="form.status = 'Killed'"
             :class="[
-              'group p-8 rounded-2xl border-2 transition-all duration-300 text-left relative overflow-hidden',
+              'group p-5 sm:p-8 rounded-2xl border-2 transition-all duration-300 text-left relative overflow-hidden',
               form.status === 'Killed'
                 ? 'border-red-500 bg-red-50/50 dark:bg-red-900/10 shadow-xl scale-[1.02]'
                 : 'border-surface-200 dark:border-surface-800 hover:border-red-300 hover:bg-red-50/20 dark:hover:bg-red-900/5'
@@ -74,7 +71,7 @@
           >
             <div class="absolute -right-4 -bottom-4 opacity-10 group-hover:opacity-20 transition-opacity">
               <svg viewBox="0 0 24 24" fill="currentColor" class="w-48 h-48 text-red-500">
-                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09l.4-.5C13.1 3.3 14.8 3 16.5 3 19.6 3 22 5.4 22 8.5c0 3.8-3.4 6.9-8.5 11.5L12 21.35zm0-16.3c-1.5 0-2.8.8-3.6 2.1l3.6 4.4L10 14l2 4-1.5 2.5 1.5.8 2-3L12 14l2-2.5-3.5-4.4c.7-1.3 2.1-2.1 3.5-2.1c2.2 0 4 1.8 4 4c0 2.8-2.5 5.3-7.5 9.8l1 1c5-4.5 7.5-7.5 7.5-10.8 0-3.3-2.7-6-6-6z" />
+                <path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C8.17,3 8.82,3.12 9.44,3.33L13,9.35L9,14.35L12,21.35V21.35M16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35L11,14.35L15.5,9.35L12.85,4.27C13.87,3.47 15.17,3 16.5,3Z" />
               </svg>
             </div>
             
@@ -85,7 +82,7 @@
               ]"
             >
               <svg viewBox="0 0 24 24" fill="currentColor" :class="['w-14 h-14 transition-colors duration-500', form.status === 'Killed' ? 'text-white' : 'text-red-500']">
-                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09l.4-.5C13.1 3.3 14.8 3 16.5 3 19.6 3 22 5.4 22 8.5c0 3.8-3.4 6.9-8.5 11.5L12 21.35zm0-16.3c-1.5 0-2.8.8-3.6 2.1l3.6 4.4L10 14l2 4-1.5 2.5 1.5.8 2-3L12 14l2-2.5-3.5-4.4c.7-1.3 2.1-2.1 3.5-2.1c2.2 0 4 1.8 4 4c0 2.8-2.5 5.3-7.5 9.8l1 1c5-4.5 7.5-7.5 7.5-10.8 0-3.3-2.7-6-6-6z" />
+                <path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C8.17,3 8.82,3.12 9.44,3.33L13,9.35L9,14.35L12,21.35V21.35M16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35L11,14.35L15.5,9.35L12.85,4.27C13.87,3.47 15.17,3 16.5,3Z" />
               </svg>
             </div>
             
@@ -97,7 +94,7 @@
             type="button"
             @click="form.status = 'Missing'"
             :class="[
-              'group p-8 rounded-2xl border-2 transition-all duration-300 text-left relative overflow-hidden',
+              'group p-5 sm:p-8 rounded-2xl border-2 transition-all duration-300 text-left relative overflow-hidden',
               form.status === 'Missing'
                 ? 'border-orange-500 bg-orange-50/50 dark:bg-orange-900/10 shadow-xl scale-[1.02]'
                 : 'border-surface-200 dark:border-surface-800 hover:border-orange-300 hover:bg-orange-50/20 dark:hover:bg-orange-900/5'
@@ -127,14 +124,7 @@
       </div>
 
       <!-- Step 2: Personal Info -->
-      <div v-if="currentStep === 1" class="space-y-8">
-        <div class="text-center mb-10">
-          <div class="inline-block p-3 rounded-2xl bg-primary-50 dark:bg-primary-900/20 mb-4">
-            <i class="pi pi-user text-3xl text-primary-500"></i>
-          </div>
-          <h2 class="text-3xl font-black text-surface-900 dark:text-surface-0 mb-2">Personal Information</h2>
-          <p class="text-surface-500 text-lg">Tell us about the identity of the victim</p>
-        </div>
+      <div v-if="currentStep === 1" class="space-y-6 sm:space-y-8">
 
         <div class="max-w-2xl mx-auto space-y-6">
           <!-- Photo Upload Redesign -->
@@ -286,14 +276,7 @@
       </div>
 
       <!-- Step 3: Incident Details -->
-      <div v-if="currentStep === 2" class="space-y-8">
-        <div class="text-center mb-10">
-          <div class="inline-block p-3 rounded-2xl bg-red-50 dark:bg-red-900/20 mb-4">
-            <i class="pi pi-map-marker text-3xl text-red-500"></i>
-          </div>
-          <h2 class="text-3xl font-black text-surface-900 dark:text-surface-0 mb-2">Incident Details</h2>
-          <p class="text-surface-500 text-lg">Help us document what happened and where</p>
-        </div>
+      <div v-if="currentStep === 2" class="space-y-6 sm:space-y-8">
 
         <div class="max-w-2xl mx-auto space-y-8">
           <!-- Location Group -->
@@ -406,7 +389,7 @@
           </div>
 
           <!-- Source Information -->
-          <div class="p-6 rounded-2xl bg-primary-50/50 dark:bg-primary-900/5 border border-primary-100 dark:border-primary-900/20 space-y-6">
+          <div class="p-4 sm:p-6 rounded-2xl bg-primary-50/50 dark:bg-primary-900/5 border border-primary-100 dark:border-primary-900/20 space-y-6">
             <div class="flex items-center gap-3 mb-2">
               <i class="pi pi-verified text-primary-500"></i>
               <h3 class="font-bold text-surface-900 dark:text-surface-0">Source Verification</h3>
@@ -447,21 +430,14 @@
       </div>
 
       <!-- Step 4: Review -->
-      <div v-if="currentStep === 3" class="space-y-8">
-        <div class="text-center mb-10">
-          <div class="inline-block p-3 rounded-2xl bg-amber-50 dark:bg-amber-900/20 mb-4">
-            <i class="pi pi-clipboard text-3xl text-amber-500"></i>
-          </div>
-          <h2 class="text-3xl font-black text-surface-900 dark:text-surface-0 mb-2">Review Submission</h2>
-          <p class="text-surface-500 text-lg">Verify the record before official archival</p>
-        </div>
+      <div v-if="currentStep === 3" class="space-y-6 sm:space-y-8">
 
         <div class="max-w-4xl mx-auto">
           <div class="bg-surface-0 dark:bg-surface-900 rounded-3xl border border-surface-200 dark:border-surface-800 shadow-2xl overflow-hidden">
             <!-- Header/Status Banner -->
             <div 
               :class="[
-                'px-8 py-6 flex flex-col md:flex-row justify-between items-center gap-4 border-b',
+                'px-4 sm:px-8 py-4 sm:py-6 flex flex-col md:flex-row justify-between items-center gap-4 border-b',
                 form.status === 'Killed' ? 'bg-red-50/50 dark:bg-red-900/10 border-red-100 dark:border-red-900/20' : 'bg-orange-50/50 dark:bg-orange-900/10 border-orange-100 dark:border-orange-900/20'
               ]"
             >
@@ -472,7 +448,10 @@
                     form.status === 'Killed' ? 'bg-red-500 text-white' : 'bg-orange-500 text-white'
                   ]"
                 >
-                  <i :class="form.status === 'Killed' ? 'pi pi-heart-fill' : 'pi pi-search'"></i>
+                  <svg v-if="form.status === 'Killed'" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                    <path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C8.17,3 8.82,3.12 9.44,3.33L13,9.35L9,14.35L12,21.35V21.35M16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35L11,14.35L15.5,9.35L12.85,4.27C13.87,3.47 15.17,3 16.5,3Z" />
+                  </svg>
+                  <i v-else class="pi pi-search"></i>
                 </div>
                 <div>
                   <h3 class="text-xl font-black text-surface-900 dark:text-surface-0">ARCHIVAL RECORD</h3>
@@ -487,7 +466,7 @@
               </div>
             </div>
 
-            <div class="p-8 md:p-10">
+            <div class="p-4 sm:p-8 md:p-10">
               <div class="grid grid-cols-1 md:grid-cols-12 gap-10">
                 <!-- Left: Photo & Basic Identity -->
                 <div class="md:col-span-4 flex flex-col items-center md:items-start">
@@ -639,6 +618,7 @@
             label="Next"
             icon="pi pi-arrow-right"
             iconPos="right"
+            :disabled="!canGoToNext"
           />
           <Button
             v-else
@@ -656,7 +636,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, nextTick } from 'vue';
+import { ref, onMounted, nextTick, computed, watch } from 'vue';
 import provincesData from '~/data/provinces.json';
 
 const props = defineProps<{
@@ -665,6 +645,7 @@ const props = defineProps<{
 
 const emit = defineEmits<{
   submit: [payload: any];
+  'update:stepTitle': [title: string];
 }>();
 
 const config = useRuntimeConfig();
@@ -674,12 +655,37 @@ const selectedFile = ref<File | null>(null);
 
 // Steps
 const steps = [
-  { id: 'type', label: 'Type' },
-  { id: 'personal', label: 'Personal Info' },
-  { id: 'incident', label: 'Incident Details' },
-  { id: 'review', label: 'Review' }
+  { id: 'type', label: 'Type', icon: 'pi pi-question-circle', title: 'What happened?' },
+  { id: 'personal', label: 'Personal Info', icon: 'pi pi-user', title: 'Personal Information' },
+  { id: 'incident', label: 'Incident Details', icon: 'pi pi-map-marker', title: 'Incident Details' },
+  { id: 'review', label: 'Review', icon: 'pi pi-clipboard', title: 'Review Submission' }
 ];
+
 const currentStep = ref(0);
+const currentStepTitle = computed(() => steps[currentStep.value].title);
+
+watch(currentStepTitle, (newTitle) => {
+  emit('update:stepTitle', newTitle);
+}, { immediate: true });
+
+const canGoToNext = computed(() => {
+  if (currentStep.value === 0) {
+    return !!form.value.status;
+  }
+  if (currentStep.value === 1) {
+    return !!form.value.name.trim();
+  }
+  if (currentStep.value === 2) {
+    const hasSource = !!form.value.sourceType;
+    if (!hasSource) return false;
+    if (form.value.sourceType === 'Social Media') {
+      return !!form.value.socialMediaLink.trim();
+    }
+    return true;
+  }
+  return true;
+});
+
 const stepErrors = ref<Record<string, boolean>>({});
 
 // Load provinces

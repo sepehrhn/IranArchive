@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-773761B4
+# -----------------------------------------------------------------------------
+
+title: "Sunday Solidarity Gathering"
+
+featured: false
+
+description: |
+  Sundays have frequently seen marches or stationary rallies at Downing Street urging the UK government to proscribe the IRGC and increase sanctions. Recent Sundays (Jan 11, Jan 25) featured marches from BBC Broadcasting House to Downing Street, so a similar route is possible.
+  
+  **Tips:**
+  Check local diaspora social media (e.g., 'Voice of Iran' or community hashtags) on Saturday night for confirmed march routes. Sunday is often quieter in central London than Saturday, making it a common day for specific Iranian diaspora marches.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "13:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "GB"
+  city: "London"
+  address: "10 Downing Street / Whitehall, Opposite the gates of Downing Street; nearest tube: Westminster."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

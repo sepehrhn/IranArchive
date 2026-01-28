@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-87215E7C
+# -----------------------------------------------------------------------------
+
+title: "Coach to London National Demonstration"
+
+featured: false
+
+description: |
+  Travel to London for a major national protest. While primarily for Palestine, cross-movement solidarity is common. Explains potential lack of large local event.
+  
+  **Tips:**
+  Requires pre-booked ticket (~£20-£30).
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "06:30"
+  end: "2026/01/31"
+  end_time: "08:00"
+
+# Location
+location:
+  country: "GB"
+  city: "Manchester"
+  address: "Chorlton Street Coach Station, Manchester, Coach departure point"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

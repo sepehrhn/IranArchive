@@ -118,6 +118,7 @@ export interface EvidenceItem {
 export interface CountryData {
   iso2: string;
   name: string;
+  aliases?: string[];
   region: string;
   subregion: string;
   last_reviewed_at: string;

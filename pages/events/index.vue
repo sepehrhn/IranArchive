@@ -60,22 +60,29 @@ const filteredEvents = computed(() => {
 
 
 
-    // 5. Sort: Featured First, then by Date
+    // 5. Sort: Date order (closer dates top), then Featured
     res = [...res].sort((a, b) => {
-        // Featured priority
+        const getEventTime = (e: ParsedEvent) => {
+            const formattedDate = e.date.start.replace(/\//g, '-');
+            return new Date(`${formattedDate}T${e.date.start_time || '00:00'}:00`).getTime();
+        };
+
+        const aTime = getEventTime(a);
+        const bTime = getEventTime(b);
+        
+        // Primary sort: Date proximity
+        if (showPastEvents.value) {
+            // For past events, show newest first (closest to today)
+            if (aTime !== bTime) return bTime - aTime;
+        } else {
+            // For upcoming events, show earliest first (closest to today)
+            if (aTime !== bTime) return aTime - bTime;
+        }
+
+        // Secondary sort: Featured status
         if (a.featured !== b.featured) return a.featured ? -1 : 1;
         
-        // Date sort (upcoming events: earliest first, past events: latest first)
-        const aTime = new Date(a.start_at).getTime();
-        const bTime = new Date(b.start_at).getTime();
-        
-        if (showPastEvents.value) {
-            // For past events, show newest first
-            return bTime - aTime;
-        } else {
-            // For upcoming events, show earliest first
-            return aTime - bTime;
-        }
+        return 0;
     });
 
     return res;
@@ -171,6 +178,8 @@ watch([() => selectedCountry.value, () => selectedCity.value, () => showPastEven
 });
 
 const isLoading = computed(() => pending.value || filterLoading.value);
+
+const submissionStepTitle = ref('Submit a Global Solidarity Event');
 
 </script>
 
@@ -335,12 +344,12 @@ const isLoading = computed(() => pending.value || filterLoading.value);
             <Dialog 
                 v-model:visible="showSubmitDialog" 
                 modal 
-                header="Submit a Global Solidarity Event" 
+                :header="submissionStepTitle" 
                 :style="{ width: '90vw', maxWidth: '1000px' }"
                 :draggable="false"
                 class="submission-dialog"
             >
-                <SubmissionsEventSubmissionForm />
+                <SubmissionsEventSubmissionForm @update:step-title="submissionStepTitle = $event" />
             </Dialog>
     </div>
     </div>

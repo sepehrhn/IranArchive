@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-7274E2BD
+# -----------------------------------------------------------------------------
+
+title: "Weekly Rally in Solidarity with the Iranian Uprising"
+
+featured: false
+
+description: |
+  Solidarity rally supporting the nationwide uprising in Iran, condemning the regime's brutal crackdown and recent mass killings. Participants typically chant 'Woman, Life, Freedom' and demand the end of the Islamic Republic.
+  
+  **Tips:**
+  Recent Saturday rallies (Jan 17, Jan 24) took place here or moved between Cibeles and Sol. Wear warm clothes; Madrid evenings are cold.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "17:00"
+  end: "2026/01/31"
+  end_time: "19:00"
+
+# Location
+location:
+  country: "ES"
+  city: "Madrid"
+  address: "Puerta del Sol, Central square, look for 'Mujer, Vida, Libertad' banners and pre-1979 Iranian flags (Lion and Sun)."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
