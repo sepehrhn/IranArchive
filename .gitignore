@@ -27,7 +27,12 @@ logs
 .env.submissions
 
 # Scraper & Temporary Files
+# Scraper & Temporary Files
 scripts/
+!scripts/validate-data.js
+!scripts/generate-metadata.js
+!scripts/import_events.js
+!scripts/migrate_events.js
 *.txt
 *.log
 debug_image_download.ts
