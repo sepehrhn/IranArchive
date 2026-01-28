@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-5D2EC0CE
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Rally for Iran's Uprising"
+
+featured: false
+
+description: |
+  A major demonstration in solidarity with the nationwide uprising in Iran and condemning the regime's recent crackdown, mass executions, and internet blackouts. This date coincides with the lead-up to the anniversary of the 1979 revolution, traditionally a peak time for anti-regime protests.
+  
+  **Tips:**
+  Dress strictly for cold weather (-10°C to -20°C common in Jan/Feb). Bring 'Lion and Sun' flags or 'Woman Life Freedom' signs. Avoid engaging with pro-regime agitators if present.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "14:00"
+  end: "2026/01/31"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Calgary"
+  address: "Calgary City Hall Plaza (Municipal Plaza), 800 Macleod Trail SE; gathering typically starts at the plaza facing Macleod Trail."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

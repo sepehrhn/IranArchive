@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-329BD8C2
+# -----------------------------------------------------------------------------
+
+title: "Sunday Weekly Solidarity Gathering"
+
+featured: false
+
+description: |
+  Weekly gathering to support the revolution in Iran. While Austin and Houston have confirmed Sunday rallies, Dallas activists may gather here informally if no Saturday event occurs.
+  
+  **Tips:**
+  If the Saturday rally is quiet, this is the backup time/location. Bring water and signs.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "US"
+  city: "Dallas"
+  address: "Klyde Warren Park or Dallas City Hall, Central lawn area or City Hall Plaza"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

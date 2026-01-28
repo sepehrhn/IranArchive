@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-C3309022
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Cardiff"
+
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "GB"
+  city: "Cardiff"
+  address: "Queen Street, Opposite NatWest"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

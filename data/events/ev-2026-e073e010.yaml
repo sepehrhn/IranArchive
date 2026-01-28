@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-E073E010
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally for Iran Uprising"
+
+featured: false
+
+description: |
+  Weekly gathering to condemn the recent massacres and internet blackouts in Iran. Expect chanting, singing of 'Baraye', and calls for the designation of the IRGC as a terrorist entity.
+  
+  **Tips:**
+  Dress warmly for -10°C weather. Bring signs with slogans like 'Woman, Life, Freedom' or photos of victims. Avoid flags/banners associated with MEK (Mujahedin-e-Khalq).
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Toronto"
+  address: "Mel Lastman Square, 5100 Yonge St, North York, ON, North York Centre Subway Station; gathering usually starts near the main stage/rink area."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

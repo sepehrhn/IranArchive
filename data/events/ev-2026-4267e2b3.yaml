@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-4267E2B3
+# -----------------------------------------------------------------------------
+
+title: "Protest Against Massacres in Iran"
+
+featured: false
+
+description: |
+  Weekly rally to mourn victims of the January 2026 crackdown and demand an end to executions. Demonstrators typically chant slogans in support of the uprising and demand international pressure on the Islamic Republic.
+  
+  **Tips:**
+  Check 'Reza Akbari' or 'Green Left' social media for last-minute confirmation. Bring signs with slogans like 'Woman, Life, Freedom' or photos of recent victims.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "13:00"
+  end: "2026/02/01"
+  end_time: "15:00"
+
+# Location
+location:
+  country: "AU"
+  city: "Sydney"
+  address: "Sydney Town Hall, 483 George Street, Sydney NSW 2000, Main steps facing George Street; nearest train station is Town Hall."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

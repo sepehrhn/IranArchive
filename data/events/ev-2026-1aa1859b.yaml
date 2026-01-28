@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-1AA1859B
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally with Iran Uprising"
+
+featured: false
+
+description: |
+  A standing weekly rally in solidarity with the January 2026 uprising in Iran, condemning the recent mass executions and internet blackouts. Participants often carry pre-1979 Iranian flags (Lion and Sun) and 'Woman, Life, Freedom' signs.
+  
+  **Tips:**
+  This has been a recurring event on recent Sundays (Jan 11, Jan 18). Wear comfortable shoes and bring water. Check 'Woman Life Freedom Houston' or 'Iranians in Houston' social media pages on Saturday night for any last-minute time changes.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "US"
+  city: "Houston"
+  address: "Intersection of Westheimer Rd & Post Oak Blvd, Protesters typically gather at the corners of the intersection or near the Gerald D. Hines Waterwall Park (2800 Post Oak Blvd). Parking is available in nearby Galleria garages."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

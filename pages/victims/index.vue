@@ -116,6 +116,8 @@ const resetScroll = () => {
 
 
 
+const submissionStepTitle = ref('Submit New Victim');
+
 const handleSubmission = async (payload: any) => {
     submitting.value = true;
     submitError.value = '';
@@ -277,7 +279,7 @@ const showVictimDialog = computed({
                         <div class="flex items-center gap-3">
                             <div class="w-12 h-12 rounded-full bg-red-500/20 flex items-center justify-center">
                                 <svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-red-400">
-                                    <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09l.4-.5C13.1 3.3 14.8 3 16.5 3 19.6 3 22 5.4 22 8.5c0 3.8-3.4 6.9-8.5 11.5L12 21.35zm0-16.3c-1.5 0-2.8.8-3.6 2.1l3.6 4.4L10 14l2 4-1.5 2.5 1.5.8 2-3L12 14l2-2.5-3.5-4.4c.7-1.3 2.1-2.1 3.5-2.1c2.2 0 4 1.8 4 4c0 2.8-2.5 5.3-7.5 9.8l1 1c5-4.5 7.5-7.5 7.5-10.8 0-3.3-2.7-6-6-6z" />
+                                    <path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C8.17,3 8.82,3.12 9.44,3.33L13,9.35L9,14.35L12,21.35V21.35M16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35L11,14.35L15.5,9.35L12.85,4.27C13.87,3.47 15.17,3 16.5,3Z" />
                                 </svg>
                             </div>
                             <div>
@@ -418,7 +420,7 @@ const showVictimDialog = computed({
     <Dialog 
         v-model:visible="showSubmitDialog" 
         modal 
-        header="Submit New Victim" 
+        :header="submissionStepTitle" 
         :style="{ width: '50rem' }" 
         :breakpoints="{ '960px': '75vw', '640px': '95vw' }"
         :dismissableMask="true"
@@ -439,7 +441,7 @@ const showVictimDialog = computed({
             <p class="text-surface-600 dark:text-surface-400 mb-4">{{ submitError }}</p>
             <Button label="Try Again" icon="pi pi-refresh" @click="submitError = ''" />
         </div>
-        <VictimSubmissionForm v-else :submitting="submitting" @submit="handleSubmission" />
+        <VictimSubmissionForm v-else :submitting="submitting" @submit="handleSubmission" @update:step-title="submissionStepTitle = $event" />
     </Dialog>
 
     <!-- Victim Detail Dialog -->

@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-10BDB6D8
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally for Iran"
+
+featured: false
+
+description: |
+  Likely recurring weekly protest to condemn the January 2026 massacres and support the uprising. Expect chants of 'Woman, Life, Freedom'.
+  
+  **Tips:**
+  This location is the standard hub for Atlanta protests. Check Instagram tags #AtlantaProtest or #IranProtestAtlanta on Saturday morning for real-time confirmation.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Atlanta"
+  address: "CNN Center / Centennial Olympic Park, Atlanta, GA, Sidewalks near Centennial Olympic Park Dr NW & Marietta St NW"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

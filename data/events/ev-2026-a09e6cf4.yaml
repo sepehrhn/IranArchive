@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-A09E6CF4
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally for Iran Uprising"
+
+featured: false
+
+description: |
+  Recurring weekly demonstration supporting the January 2026 uprising and condemning regime violence. Participants demand the fall of the Islamic Republic.
+  
+  **Tips:**
+  Double-check 'Solidarity with Iranians' social media for last-minute time changes. Look for the 'Woman Life Freedom' banners.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "14:00"
+  end: "2026/01/31"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Vancouver"
+  address: "Vancouver Art Gallery, 750 Hornby St, Vancouver, BC, North Plaza (Georgia St side) or Robson Square side"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

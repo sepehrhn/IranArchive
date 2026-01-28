@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-CA24E789
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Belfast"
+
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "13:30"
+  end: "2026/02/01"
+  end_time: "15:00"
+
+# Location
+location:
+  country: "GB"
+  city: "Belfast"
+  address: "Belfast City Hall"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-215A6E74
+# -----------------------------------------------------------------------------
+
+title: "Rally for National Solidarity"
+
+featured: false
+
+description: |
+  Gathering of supporters of the former monarchy and constitutionalists advocating for a secular transition. Often involves large 'Lion and Sun' flags.
+  
+  **Tips:**
+  While anti-regime, this group is politically distinct from the leftist/republican groups at République. Ensure you are comfortable with this specific political alignment.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "FR"
+  city: "Paris"
+  address: "Place du Trocadéro, Parvis des Droits de l'Homme (overlooking Eiffel Tower)"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

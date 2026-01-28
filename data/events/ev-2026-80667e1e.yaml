@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-80667E1E
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Houston"
+
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "15:00"
+  end: "2026/02/01"
+  end_time: "17:00"
+
+# Location
+location:
+  country: "US"
+  city: "Houston"
+  address: "5555 Hermann Park Dr, Houston, TX 77030"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-6915B186
+# -----------------------------------------------------------------------------
+
+title: "Mission Viejo Solidarity Rally"
+
+featured: false
+
+description: |
+  Recurring community rally in solidarity with the January 2026 uprising, protesting the recent crackdown and executions. Participants typically gather at the four corners of the intersection.
+  
+  **Tips:**
+  Park at the Civic Center or Library. Bring flags (Lion and Sun) and signs. Peaceful, family-oriented atmosphere.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "10:00"
+  end: "2026/01/31"
+  end_time: "13:00"
+
+# Location
+location:
+  country: "US"
+  city: "Mission Viejo"
+  address: "La Paz Road and Marguerite Parkway, Mission Viejo, CA, Sidewalks in front of Mission Viejo City Hall"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

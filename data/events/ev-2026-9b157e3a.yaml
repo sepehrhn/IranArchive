@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-9B157E3A
+# -----------------------------------------------------------------------------
+
+title: "Protest to Expel Iranian Diplomats"
+
+featured: false
+
+description: |
+  Weekly gathering condemning the recent mass executions and demanding the expulsion of the Iranian Ambassador. Participants often chant 'Woman, Life, Freedom'.
+  
+  **Tips:**
+  Check 'Irish Iranian Community' social media for last-minute time changes. Dress warmly.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "13:00"
+  end: "2026/01/31"
+  end_time: "15:00"
+
+# Location
+location:
+  country: "IE"
+  city: "Dublin"
+  address: "Iranian Embassy, 109 Mount Merrion Ave, Blackrock, Outside the main gates; nearest DART: Blackrock"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

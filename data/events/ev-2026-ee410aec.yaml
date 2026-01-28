@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-EE410AEC
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally for Iran's Uprising"
+
+featured: false
+
+description: |
+  A recurring weekly demonstration in solidarity with the nationwide uprising in Iran (sparked Dec 2025). Participants are demanding the Canadian government designate the IRGC as a terrorist entity, expel Iranian regime diplomats, and support the Iranian people's call for regime change. Recent rallies have focused on condemning the 'brutal crackdown' and mass detentions reported by the UN.
+  
+  **Tips:**
+  Dress for extreme cold (-20°C reported in recent weeks). Downtown will be congested due to the start of Winterlude; consider taking the O-Train to Parliament Station.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "11:30"
+  end: "2026/02/01"
+  end_time: "13:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Ottawa"
+  address: "Parliament Hill, Wellington St, Ottawa, ON, Meeting point is typically the Centennial Flame. Note that Winterlude festivities are occurring nearby at Confederation Park and Sparks St."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

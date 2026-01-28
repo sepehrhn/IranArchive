@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-11D42311
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Houston"
+
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/28"
+  start_time: "11:00"
+  end: "2026/01/28"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Houston"
+  address: "Rice Student Center, Central Quad, Houston, TX"
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-1E58DD4F
+# -----------------------------------------------------------------------------
+
+title: "Motståndsforum 2026 (Resistance Forum)"
+
+featured: false
+
+description: |
+  A major day of discussion and organizing for future resistance movements. While broad in scope (covering climate, anti-racism, and welfare), it is a key gathering point for the Iranian solidarity movement's leftist and democratic wings. Activists have been mobilizing for this event at recent Iran rallies to discuss the strategy for supporting the uprising.
+  
+  **Tips:**
+  This is an indoor conference/forum rather than a street march. Expect panels, workshops, and political discussions. A social event/party follows until 23:00.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "11:00"
+  end: "2026/01/31"
+  end_time: "18:00"
+
+# Location
+location:
+  country: "SE"
+  city: "Stockholm"
+  address: "Folkets Husby, Edvard Griegsgången 16, Kista, Nearest metro: Husby (Blue line)."
+  lat: 0
+  lng: 0
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
