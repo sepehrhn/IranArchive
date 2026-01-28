@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-10A428CC
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally for Iran Uprising"
+
+featured: false
+
+description: |
+  Weekly Saturday demonstration in solidarity with the uprising that began Dec 2025. Expect Lion and Sun flags, chanting against the regime, and calls for international support.
+  
+  **Tips:**
+  Dress warmly. This event follows the pattern of confirmed protests on Jan 10, 17, and 24.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:30"
+  end: "2026/01/31"
+  end_time: "14:30"
+
+# Location
+location:
+  country: "GB"
+  city: "Manchester"
+  address: "St Peter's Square, Manchester, M2 5PD, Outside Central Library / Pankhurst Statue"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-2059A21C
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with Iran Uprising (Tentative)"
+
+featured: false
+
+description: |
+  Potential weekly gathering to support the ongoing uprising in Iran and condemn the regime's crackdown. Note: This event follows the pattern of the Jan 11 rally but is not yet explicitly confirmed in public listings.
+  
+  **Tips:**
+  Verify time on 'Ottawa Rise IRAN' social media before heading out. Dress for severe winter weather.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Ottawa"
+  address: "Parliament Hill, Wellington St, Ottawa, ON, Centennial Flame lawn area"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

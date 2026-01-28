@@ -1,0 +1,36 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-D2CEDF11
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Wien"
+
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "13:00"
+
+# Location
+location:
+  country: "AT"
+  city: "Wien"
+  address: "Heldenplatz, 1010 Wien"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

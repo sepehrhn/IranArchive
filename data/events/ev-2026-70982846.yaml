@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-70982846
+# -----------------------------------------------------------------------------
+
+title: "Possible Solidarity Rally for Iran"
+
+featured: false
+
+description: |
+  While no specific call for Jan 31 has been published online yet, local groups have been highly active with recent rallies (e.g., Jan 14). Recurring protests often take place on Saturday afternoons to support the uprising and condemn the execution of protesters.
+  
+  **Tips:**
+  Check the 'Femme Vie Liberté Nice' Facebook or Instagram pages for last-minute announcements. If a rally occurs, it usually starts between 14:00 and 15:00.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "FR"
+  city: "Nice"
+  address: "Place Masséna OR Hôtel de Ville (Mairie de Nice), Common gathering spots: Place Masséna (near Fontaine du Soleil) or 5 Rue de l'Hôtel de ville."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-4DEAA9C6
+# -----------------------------------------------------------------------------
+
+title: "Weekly Iran Solidarity Gathering"
+
+featured: false
+
+description: |
+  A recurring weekly street rally in solidarity with the January 2026 uprising. Participants actively wave flags (Lion and Sun), hold signs condemning the regime's crackdown, and chant slogans in support of Iranian protesters. This location has been a hub for 'Woman, Life, Freedom' protests since 2022.
+  
+  **Tips:**
+  Wear comfortable shoes and bring water. Sun protection is recommended as the corner is exposed. This is a high-traffic intersection; stay on the sidewalk and be mindful of cars.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "11:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Irvine"
+  address: "Intersection of Culver Dr & Barranca Pkwy, Irvine, CA 92606, Meeting point is typically on the sidewalks at the intersection. Parking is available at the adjacent shopping centers (Culver Plaza/Crossroads), but do not block business entrances."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

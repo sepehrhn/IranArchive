@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-EDDB1261
+# -----------------------------------------------------------------------------
+
+title: "Sunday Solidarity Gathering"
+
+featured: false
+
+description: |
+  Following the massive turnout at Jack Poole Plaza on Jan 25, a follow-up rally is expected this Sunday to maintain pressure on the Canadian government to sanction IRGC officials and support Iranian strikers. This event often focuses on justice for victims of the regime's violence.
+  
+  **Tips:**
+  This location is more exposed to the wind/water; dress very warmly. It is often a static rally rather than a march.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Vancouver"
+  address: "Jack Poole Plaza, 1055 Canada Pl (near the Olympic Cauldron)."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

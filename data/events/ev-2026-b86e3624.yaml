@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-B86E3624
+# -----------------------------------------------------------------------------
+
+title: "Irvine Weekly Solidarity Rally"
+
+featured: false
+
+description: |
+  Large gathering supporting the revolution in Iran; a common alternative for those unable to attend Sunday events.
+  
+  **Tips:**
+  High traffic area; ensure you stay on public sidewalks.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "11:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Mission Viejo"
+  address: "Culver Dr & Barranca Pkwy, Irvine, CA, Major intersection gathering"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

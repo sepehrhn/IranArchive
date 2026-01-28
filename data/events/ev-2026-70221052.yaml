@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-70221052
+# -----------------------------------------------------------------------------
+
+title: "Global Day of Action: Women Defend Rojava"
+
+featured: false
+
+description: |
+  International day of action defending the women's revolution. While Kurdish-focused, these events act in solidarity with the 'Woman, Life, Freedom' movement in Iran.
+  
+  **Tips:**
+  Check 'Women Defend Rojava' social media for specific London time/location.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "GB"
+  city: "London"
+  address: "Central London (TBC), Often start at BBC Portland Place or Trafalgar Square."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

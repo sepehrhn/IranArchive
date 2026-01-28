@@ -1,0 +1,39 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-03BE0547
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with Iran Uprising (Likely Weekly Protest)"
+
+featured: false
+
+description: |
+  Likely continuation of the solidarity demonstrations held on Jan 14 and Jan 24 against the Islamic Republic's crackdown. Protesters typically demand regime change, carry 'Woman, Life, Freedom' signs, and call for international action against the recent massacres.
+  
+  **Tips:**
+  Check local Instagram/social media pages (e.g., 'Woman Life Freedom Groningen' or student groups) for last-minute confirmation. Dress warmly as the Jan 24 event had low turnout due to ice.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "14:00"
+  end: "2026/01/31"
+  end_time: "16:00"
+
+# Location
+location:
+  country: "NL"
+  city: "Groningen"
+  address: "Vismarkt or Grote Markt, Groningen, Common gathering spot is near the Vismarkt steps or central Grote Markt. Previous event (Jan 24) was affected by icy weather but held here."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
