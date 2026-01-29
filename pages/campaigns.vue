@@ -30,7 +30,7 @@ useHead({
 
 // Campaign Image URL Generation
 const getCampaignImageUrl = (filename: string | undefined) => {
-  if (!filename) return '/campaign-placeholder.svg';
+  if (!filename) return getMediaUrl({ kind: 'campaign_img', relativePath: 'campaign-placeholder.jpg' });
   return getMediaUrl({ kind: 'campaign_img', relativePath: filename });
 };
 
