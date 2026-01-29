@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-F3D439B0
+# -----------------------------------------------------------------------------
+
+title: "Irvine Solidarity Gathering"
+
+featured: false
+confidence: likely
+external_id: "121e2310-1a00-4e02-b89d-9876af271ebe"
+
+description: |
+  A support rally for the Iranian people's uprising, catering to the large Iranian community in Orange County.
+  
+  **Tips:**
+  A family-friendly stationary rally at a major intersection. Bring flags and signs.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Los Angeles"
+  address: "Irvine, CA, Intersection of Culver Dr & Barranca Pkwy"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

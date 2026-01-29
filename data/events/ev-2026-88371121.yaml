@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-88371121
+# -----------------------------------------------------------------------------
+
+title: "Frau* Leben Freiheit! Kundgebung zur Solidarisierung mit den Freiheitskämpfenden im Iran"
+
+featured: false
+confidence: confirmed
+external_id: "e8db6bbd-c400-4ec2-8ad9-8e2ffc714351"
+
+description: |
+  Solidarity rally supporting the current uprising in Iran (started Dec 2025) and condemning the regime's brutal crackdown, mass arrests, and killings. Expect speeches in German and Farsi, chanting of 'Woman, Life, Freedom', and demands for the designation of the IRGC as a terrorist organization.
+  
+  **Tips:**
+  Dress warmly as it is an outdoor standing event. Bring placards with slogans like 'Woman Life Freedom' or 'Stop Executions in Iran'. The location is very central and accessible by all transit lines to 'Hauptbahnhof'.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Hannover"
+  address: "Ernst-August-Platz, Hannover, Meeting point typically in front of the Hauptbahnhof (Central Station), near the equestrian statue. The group may march to Kröpcke."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

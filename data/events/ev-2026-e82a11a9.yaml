@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-E82A11A9
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Copenhagen"
+
+featured: false
+confidence: confirmed
+external_id: "e8e3872c-51b2-4177-9104-552404ee9776"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DK"
+  city: "Copenhagen"
+  address: "Danmarks Radio - DR-Byen, Emil Holms Kanal 20, 2300 København S"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

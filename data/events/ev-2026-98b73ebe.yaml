@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-98B73EBE
+# -----------------------------------------------------------------------------
+
+title: "Weekly Saturday Protest"
+
+featured: false
+confidence: possible
+external_id: "7593e380-92ab-4218-9056-95d83f77b6b1"
+
+description: |
+  Montreal has seen consecutive Saturday protests (Jan 10, 17, 24). If the city maintains its local schedule separate from the national Sunday call, a gathering will occur here.
+  
+  **Tips:**
+  This is the 'standard' weekly time slot if the Sunday event does not replace it.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Montreal"
+  address: "Place des Festivals or Place du Canada, Standard gathering spots for Saturday protests."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

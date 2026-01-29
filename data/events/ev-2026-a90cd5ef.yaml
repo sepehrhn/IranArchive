@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-A90CD5EF
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Konstanz"
+
+featured: false
+confidence: confirmed
+external_id: "c4a6c6ce-2066-48af-89ac-7bbbc5b333be"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Konstanz"
+  address: "Marktstätte Konstanz"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-D49C1396
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with the Iranian Uprising (Likely Weekly Rally)"
+
+featured: false
+confidence: likely
+external_id: "810f31f6-c64f-4266-af27-4eddecaaaf1f"
+
+description: |
+  A community-led rally in solidarity with the nationwide uprising in Iran and condemning the recent brutal crackdown. Protesters typically chant slogans like 'Woman, Life, Freedom' (Zan, Zendegi, Azadi) and call for the end of the Islamic Republic. February 1st is also a symbolic date for anti-regime protests as it marks the anniversary of Khomeini's 1979 return.
+  
+  **Tips:**
+  Wear white or black; bring signs with 'Woman Life Freedom'. Check the 'Austin Iranian Professionals Association' social media or 'Woman Life Freedom Austin' pages for last-minute time confirmations. Parking is available at the Capitol Visitors Parking Garage.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Austin"
+  address: "Texas State Capitol, 1100 Congress Ave, Austin, TX 78701, South Steps or South Lawn (facing Congress Ave)"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-7C029F41
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally with Iran Uprising"
+
+featured: false
+confidence: likely
+external_id: "6a45c346-3385-4d8c-ac88-9627c92bc9b7"
+
+description: |
+  Recurring weekly mass rally to support the nationwide uprising and demand the EU finalize the terrorist designation of the IRGC. Expect high energy following the Jan 29 EU Foreign Ministers meeting.
+  
+  **Tips:**
+  The massive Jan 25 rally (15k+ participants) established Sunday afternoons at Schuman as the main weekly event. Avoid groups with 'Maryam Rajavi' posters if you wish to exclude MEK.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "BE"
+  city: "Brussels"
+  address: "Place Schuman, 1040 Brussels, Roundabout in front of the European Commission/Council buildings (Schuman Metro)."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-D8D2E0BC
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Stavanger"
+
+featured: false
+confidence: confirmed
+external_id: "fe8263a8-aca6-40cb-b8c7-528960d7c01f"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "NO"
+  city: "Stavanger"
+  address: "Byparken, Stavanger"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

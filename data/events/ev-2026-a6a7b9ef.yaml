@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-A6A7B9EF
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally with the Iranian Uprising"
+
+featured: false
+confidence: likely
+external_id: "fa49024f-e6b5-40f6-8f86-1e350aa6fdc2"
+
+description: |
+  A standing rally to condemn the brutal crackdown in Iran, the execution of protesters, and the internet blackouts. Expect chants of 'Woman, Life, Freedom' and calls for regime change. This location has hosted the main solidarity rallies on Saturdays throughout January.
+  
+  **Tips:**
+  Dress extremely warmly as standing in the open plaza can be very cold. Bring signs in English to communicate with local media/pedestrians.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Chicago"
+  address: "Federal Plaza, 230 S Dearborn St, Chicago, IL 60604, Outdoors at the plaza; near the Flamingo sculpture. Accessible via Red/Blue lines (Jackson/Monroe)."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

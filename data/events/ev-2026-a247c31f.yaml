@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-A247C31F
+# -----------------------------------------------------------------------------
+
+title: "Embassy Vigil"
+
+featured: false
+confidence: possible
+external_id: "a0c29453-6528-4103-96ab-2de78e2e1dc3"
+
+description: |
+  Static protest/vigil against recent executions and mass detentions.
+  
+  **Tips:**
+  Often smaller and more spontaneous than the city center rallies.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Berlin"
+  address: "Iranian Embassy, Podbielskiallee 67, 14195 Berlin, U3 Podbielskiallee"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

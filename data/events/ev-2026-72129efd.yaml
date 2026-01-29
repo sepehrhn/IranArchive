@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-72129EFD
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally for Iran"
+
+featured: false
+confidence: likely
+external_id: "fbc43ac7-6948-45a0-a3d1-a052eab193ac"
+
+description: |
+  A weekly standing rally to support the nationwide uprising in Iran and condemn the recent execution of protesters. Attendees are expected to celebrate the recent removal of the regime official's daughter from Emory University and continue demands for the expulsion of other regime affiliates ('Aghazadehs').
+  
+  **Tips:**
+  Wear white or black. Bring Iranian flags (Lion and Sun). Be aware that while this is a broad community rally, MEK supporters (often in yellow jackets with specific leadership portraits) may attempt to join; the wider community usually gathers under the 'Woman, Life, Freedom' or 'Lion and Sun' banners.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Atlanta"
+  address: "CNN Center / Centennial Olympic Park, Likely gathering near the Olympic Rings or Marietta St NW side."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

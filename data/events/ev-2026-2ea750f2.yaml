@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-2EA750F2
+# -----------------------------------------------------------------------------
+
+title: "Brudd på menneskerettigheter (Human Rights Violations)"
+
+featured: false
+confidence: possible
+external_id: "a34bdc85-c30f-4106-9bba-b8df4a46a2a6"
+
+description: |
+  A demonstration highlighting human rights violations, specifically focusing on women. While the title is general, it often aligns with the 'Woman, Life, Freedom' movement given the current context in Iran, though it may not be exclusively Iran-focused.
+  
+  **Tips:**
+  Check specifically if this aligns with your goals upon arrival, as it is earlier in the day than the main Iran rallies.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "NO"
+  city: "Oslo"
+  address: "Eidsvolls plass (Stortinget), In front of Parliament."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-BF91D829
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Perth"
+
+featured: false
+confidence: confirmed
+external_id: "d488560f-f892-40e8-a6bc-95357cecf095"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/28"
+  start_time: "12:00"
+  end: "2026/01/28"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "AU"
+  city: "Perth"
+  address: "Murray St, Perth"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

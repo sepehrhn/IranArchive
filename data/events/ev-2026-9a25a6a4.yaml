@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-9A25A6A4
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Great Neck"
+
+featured: false
+confidence: confirmed
+external_id: "a9127852-6e54-4e0e-b61d-819838d753c9"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Great Neck"
+  address: "Village Green Park, 5 Beach Rd, Great Neck, NY 11023"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

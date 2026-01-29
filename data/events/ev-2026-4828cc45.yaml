@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-4828CC45
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Frankfurt"
+
+featured: false
+confidence: confirmed
+external_id: "ed1dc911-21d2-40f6-b253-21d8c8b52a76"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/28"
+  start_time: "12:00"
+  end: "2026/01/28"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Frankfurt"
+  address: "Frankfurt Rathennauplatz (Goetheplatz)"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

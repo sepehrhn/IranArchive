@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-8A76F915
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Vancouver"
+
+featured: false
+confidence: confirmed
+external_id: "2616e11b-7d7d-4aef-be5d-73617c545ee2"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Vancouver"
+  address: "Vancouver Art Gallery"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

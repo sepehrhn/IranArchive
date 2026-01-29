@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-58F42E85
+# -----------------------------------------------------------------------------
+
+title: "Concentración en Solidaridad con el Pueblo Iraní"
+
+featured: false
+confidence: confirmed
+external_id: "d26ab072-35e6-428a-820f-a7d6177f2042"
+
+description: |
+  A concentration to denounce the brutal repression, mass killings (estimated over 5,000), and detentions by the Islamic Republic regime against the ongoing nationwide uprising. Demonstrators will demand an end to the violence and show support for the Iranian people's struggle for freedom, equality, and human rights.
+  
+  **Tips:**
+  This is a widely supported event by Spanish unions and NGOs. Expect a diverse crowd including Spanish locals and the Iranian diaspora. Bring 'Woman, Life, Freedom' signs or Iranian flags (non-regime).
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "ES"
+  city: "Madrid"
+  address: "Plaza del Callao, Madrid, Central square near Gran Vía. Metro: Callao (L3, L5)."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

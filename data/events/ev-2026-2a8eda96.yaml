@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-2A8EDA96
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with the Iranian Uprising"
+
+featured: false
+confidence: likely
+external_id: "81290c50-f79b-4d7c-a9da-44506a96c02f"
+
+description: |
+  Weekly central demonstration supporting the current nationwide uprising, condemning the Jan 2026 mass killings and demanding political action.
+  
+  **Tips:**
+  Standard meeting point for the secular democratic opposition. Avoid MEK banners if you wish to stick to the grassroots movement.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Frankfurt"
+  address: "Rathenauplatz, 60313 Frankfurt am Main, Central square near Hauptwache; if blocked, check Römerberg."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

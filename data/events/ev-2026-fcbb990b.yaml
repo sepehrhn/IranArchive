@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-FCBB990B
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with the Iran Uprising / Nein zur Islamischen Republik Iran"
+
+featured: false
+confidence: confirmed
+external_id: "beeef28f-0adc-4d12-8bc7-b58753b9f427"
+
+description: |
+  This is the continuation of the major weekly Saturday rallies in support of the nationwide uprising in Iran. Previous weeks saw thousands of attendees calling for regime change, chanting 'Woman, Life, Freedom' and 'Death to the Dictator'. Expect a mix of monarchist (Pahlavi) supporters, republicans, and general diaspora members.
+  
+  **Tips:**
+  This has been the largest weekly gathering. Look for the 'Lion and Sun' flags. Be aware that a separate 'Global Day of Solidarity' march (likely Palestine-focused) is scheduled for 14:00 at Hachmannplatz; ensure you are at Jungfernstieg for the Iran event.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Hamburg"
+  address: "Jungfernstieg (Reesendammbrücke), Meeting point likely at the Reesendammbrücke (Binnenalster side). The route typically moves through Bergstraße, Mönckebergstraße, and back to Jungfernstieg."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

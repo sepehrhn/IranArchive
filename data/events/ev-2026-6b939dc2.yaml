@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-6B939DC2
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Helsinki"
+
+featured: false
+confidence: confirmed
+external_id: "323e7cf5-9891-4215-9262-d6fe7b801583"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/28"
+  start_time: "12:00"
+  end: "2026/01/28"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "FI"
+  city: "Helsinki"
+  address: "Kulosaarentie 9, 00570 Helsinki"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

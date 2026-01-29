@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-622A9C51
+# -----------------------------------------------------------------------------
+
+title: "Embassy Solidarity Gathering"
+
+featured: false
+confidence: likely
+external_id: "3027ac1d-9f96-46fd-841f-d8323f847d55"
+
+description: |
+  Ongoing 'near-permanent' static demonstration condemning the January 2026 crackdown and mass killings in Iran. High attendance expected on Saturday.
+  
+  **Tips:**
+  Heavy police presence expected due to recent tensions. Avoid bringing prohibited items. Be aware of travel disruptions in wider London.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "GB"
+  city: "London"
+  address: "Iranian Embassy, 16 Prince's Gate, London SW7 1PT, Knightsbridge or South Kensington Tube; pavement opposite the building."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

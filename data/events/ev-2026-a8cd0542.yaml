@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-A8CD0542
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Gathering & Debate: Justice for Iran"
+
+featured: false
+confidence: confirmed
+external_id: "d5df2a1d-14b6-47aa-af4f-0d954117b6e1"
+
+description: |
+  As part of the 16th Amnesty Film Festival, a special session dedicated to the 'tortuous struggle for justice in Iran.' The event includes a screening of Jafar Panahi's 'Un simple accident' followed by a debate/discussion with critic Bamchade Pourvali and human rights advocates on the current crackdown and the January 2026 massacres.
+  
+  **Tips:**
+  While this is an indoor event, it serves as a key rallying point for activists this weekend. Arrive early as capacity is limited. Tickets are approx €9.50.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "FR"
+  city: "Paris"
+  address: "Cinéma Luminor Hôtel de Ville, 20 rue du Temple, 75004 Paris, Metro: Hôtel de Ville (Lines 1, 11)."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

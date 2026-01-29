@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-EF7C1483
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Rome"
+
+featured: false
+confidence: confirmed
+external_id: "bcdc508d-d7ae-4898-9ace-fecdf1b06079"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "IT"
+  city: "Rome"
+  address: "Piazzale Ugo La Malfa"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

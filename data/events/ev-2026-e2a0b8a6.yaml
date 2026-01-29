@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-E2A0B8A6
+# -----------------------------------------------------------------------------
+
+title: "City Centre Solidarity Rally"
+
+featured: false
+confidence: possible
+external_id: "50913602-0d33-49c9-888b-3d6a2e4ddcce"
+
+description: |
+  A rally to condemn the brutal crackdown and mass killings (estimated 5,000+ dead) by the Islamic Republic in Jan 2026. Part of a global day of action in solidarity with protesters in Tehran and Kurdistan.
+  
+  **Tips:**
+  This event is listed as 'Possible' by protest trackers. Wear comfortable shoes and bring water. Avoid groups displaying photos of Maryam Rajavi if you wish to remain with the non-aligned/grassroots crowd.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Dallas"
+  address: "Dallas City Hall, 1500 Marilla St, Dallas, TX 75201, Plaza area in front of City Hall; look for 'Woman Life Freedom' signs."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

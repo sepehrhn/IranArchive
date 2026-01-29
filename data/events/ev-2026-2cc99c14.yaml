@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-2CC99C14
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Geneva"
+
+featured: false
+confidence: confirmed
+external_id: "bc7eeea3-6427-463f-8d7d-d68c7e58670f"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/28"
+  start_time: "12:00"
+  end: "2026/01/28"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "CH"
+  city: "Geneva"
+  address: "Plainpalais"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

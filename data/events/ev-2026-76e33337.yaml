@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-76E33337
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Washington"
+
+featured: false
+confidence: confirmed
+external_id: "c2628e2c-de6b-4f82-8349-4f35c9679f74"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/07"
+  start_time: "12:00"
+  end: "2026/02/07"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Washington"
+  address: "Lincoln Memorial"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

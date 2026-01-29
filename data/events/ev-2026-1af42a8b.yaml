@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-1AF42A8B
+# -----------------------------------------------------------------------------
+
+title: "Sunday Solidarity Gathering"
+
+featured: false
+confidence: possible
+external_id: "e76f8bba-e52b-494f-a4dc-0ee174b3ca16"
+
+description: |
+  Sunday has historically been a common day for Dublin protests (e.g., the major Jan 11 turnout). If no event occurs on Saturday, Sunday is the alternative likely time for community gathering.
+  
+  **Tips:**
+  Check local Instagram tags like #IranProtestDublin or #WomanLifeFreedomDublin on Saturday night for confirmed Sunday times.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "IE"
+  city: "Dublin"
+  address: "The Spire / GPO, O'Connell Street, Dublin 1"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

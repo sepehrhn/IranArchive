@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-3644E306
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Mainz"
+
+featured: false
+confidence: confirmed
+external_id: "61263228-be31-4919-adfe-0698f8f5a2f9"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/27"
+  start_time: "12:00"
+  end: "2026/01/27"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Mainz"
+  address: "Johannes Gutenberg Universität Mainz (opposite central canteen and entrance canteen)"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

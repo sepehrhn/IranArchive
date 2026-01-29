@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-7319E917
+# -----------------------------------------------------------------------------
+
+title: "Sunday Solidarity Gathering"
+
+featured: false
+confidence: possible
+external_id: "58887a99-825f-46f4-9c8f-b3c7e129b8a2"
+
+description: |
+  Weekly gathering to support the Iranian people's uprising. Expected focus on the recent UN Emergency Session and demands to stop executions.
+  
+  **Tips:**
+  Sunday rallies in Dallas have recently been held by multiple groups. Verify the specific location (Park vs. City Hall) on 'Woman Life Freedom DFW' social media before heading out.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Dallas"
+  address: "Klyde Warren Park or Dallas City Hall, Location varies; Klyde Warren Park is a common alternative for Sunday gatherings."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
