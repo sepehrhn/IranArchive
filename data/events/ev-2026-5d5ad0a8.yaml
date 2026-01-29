@@ -1,12 +1,12 @@
 # -----------------------------------------------------------------------------
-# EVENT DATA - EV-2026-EC5852E2
+# EVENT DATA - EV-2026-5D5AD0A8
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Houston"
+title: "Solidarity Protest in Newark"
 
 featured: false
 confidence: confirmed
-external_id: "a8dd2cea-9dff-4b43-9648-d071537e1aa6"
+external_id: "4aa84cda-e36b-41d7-b6b1-37ffcc603112"
 
 description: |
   Community-organized solidarity event for the Iranian people's uprising.
@@ -16,16 +16,16 @@ type: in_person
 
 # [REQUIRED] Timing
 date:
-  start: "2026/02/01"
+  start: "2026/01/30"
   start_time: "12:00"
-  end: "2026/02/01"
+  end: "2026/01/30"
   end_time: "14:00"
 
 # Location
 location:
   country: "US"
-  city: "Houston"
-  address: "5555 Hermann Park Dr, Houston, TX 77030"
+  city: "Newark"
+  address: "NJIT Green, NJIT Campus, Newark, NJ"
 
 # Organizer
 organizer:

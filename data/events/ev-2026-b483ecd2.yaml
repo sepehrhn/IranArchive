@@ -1,12 +1,12 @@
 # -----------------------------------------------------------------------------
-# EVENT DATA - EV-2026-65F0C14D
+# EVENT DATA - EV-2026-B483ECD2
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Toronto"
+title: "Solidarity Protest in Christchurch"
 
 featured: false
 confidence: confirmed
-external_id: "9f213d5f-8484-4d46-9078-67470dcd9747"
+external_id: "d412ec13-d729-4849-9653-686ec49962f8"
 
 description: |
   Community-organized solidarity event for the Iranian people's uprising.
@@ -16,16 +16,16 @@ type: in_person
 
 # [REQUIRED] Timing
 date:
-  start: "2026/02/01"
+  start: "2026/01/31"
   start_time: "12:00"
-  end: "2026/02/01"
+  end: "2026/01/31"
   end_time: "14:00"
 
 # Location
 location:
-  country: "CA"
-  city: "Toronto"
-  address: "Sankofa (Dundas) Square, Toronto"
+  country: "NZ"
+  city: "Christchurch"
+  address: "Bridge of Remembrance Christchurch"
 
 # Organizer
 organizer:
