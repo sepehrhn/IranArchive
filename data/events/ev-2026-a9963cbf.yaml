@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-A9963CBF
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Bellevue"
+
+featured: false
+confidence: confirmed
+external_id: "462c9f27-0430-46fd-a1ae-a351db2a6b7f"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Bellevue"
+  address: "Bellevue Park next to Rare Coin"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-6E5DE078
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Charlottetown"
+
+featured: false
+confidence: confirmed
+external_id: "48b7eaf0-e2f2-45f3-a6d6-1faa419d592a"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Charlottetown"
+  address: "145 Grafton Street, Cenotaph of Veterans"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-BA495892
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Mainz"
+
+featured: false
+confidence: confirmed
+external_id: "b02e799f-35c2-4dee-933c-69382e8fca67"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Mainz"
+  address: "Vor dem Hauptbahnhof Mainz"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

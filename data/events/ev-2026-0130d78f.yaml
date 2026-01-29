@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-0130D78F
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Adelaide"
+
+featured: false
+confidence: confirmed
+external_id: "49dd46bd-4464-4bf2-8011-7aa94e08e4a1"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "AU"
+  city: "Adelaide"
+  address: "Nine News to SA Parliament"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

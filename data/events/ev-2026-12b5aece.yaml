@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-12B5AECE
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in St. John's"
+
+featured: false
+confidence: confirmed
+external_id: "dbff1c99-5511-41da-a992-791af56e0ce9"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "CA"
+  city: "St. John's"
+  address: "In front of City Hall"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

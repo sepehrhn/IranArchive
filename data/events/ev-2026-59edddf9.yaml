@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-59EDDDF9
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Karlsruhe"
+
+featured: false
+confidence: confirmed
+external_id: "134807a7-0924-443f-b153-4a5a181a24dd"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Karlsruhe"
+  address: "Kronenplatz to Marktplatz, end in front of the Rathaus at Marktplatz"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

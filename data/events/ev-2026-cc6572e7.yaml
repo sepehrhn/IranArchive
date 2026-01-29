@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-CC6572E7
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Cambridge"
+
+featured: false
+confidence: confirmed
+external_id: "e993af4f-9680-4549-a5be-a35268a76b80"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "GB"
+  city: "Cambridge"
+  address: "Market Square"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

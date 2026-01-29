@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-7F012228
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Palermo"
+
+featured: false
+confidence: confirmed
+external_id: "ea02dc38-efc2-4c63-ae9a-0cd79a4f57bb"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "IT"
+  city: "Palermo"
+  address: "Piazza Verdi (Teatro Massimo)"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
