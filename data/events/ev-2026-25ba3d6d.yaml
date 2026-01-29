@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-25BA3D6D
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Gathering: King Reza Pahlavi"
+
+featured: false
+confidence: confirmed
+external_id: "e3142339-639a-4bd9-aadf-b1a5c66abf80"
+
+description: |
+  A demonstration in support of the Iranian people's uprising and responding to the call for mobilization by exiled Crown Prince Reza Pahlavi. The event calls for the fall of the Islamic Republic and establishing a democratic government.
+  
+  **Tips:**
+  Dress warmly for sub-zero temperatures. Bring Iranian national flags (Lion and Sun) if you have them. This event immediately precedes another gathering at the same location.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "NO"
+  city: "Oslo"
+  address: "Eidsvolls plass (Stortinget), The square directly in front of the Norwegian Parliament building (Karl Johans gate 22)."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

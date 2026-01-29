@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-65F0C14D
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Toronto"
+
+featured: false
+confidence: confirmed
+external_id: "9f213d5f-8484-4d46-9078-67470dcd9747"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Toronto"
+  address: "Sankofa (Dundas) Square, Toronto"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

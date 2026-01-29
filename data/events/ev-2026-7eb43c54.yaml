@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-7EB43C54
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Barcelona"
+
+featured: false
+confidence: confirmed
+external_id: "51309357-da45-4f43-8902-2805f7d4ab5f"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "ES"
+  city: "Barcelona"
+  address: "Plaça de Catalunya"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

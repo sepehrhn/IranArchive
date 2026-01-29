@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-32985555
+# -----------------------------------------------------------------------------
+
+title: "Weekly Saturday Solidarity Rally for Iran's Uprising"
+
+featured: false
+confidence: likely
+external_id: "3e3cc55d-f424-4140-9bb5-10a40d1b5175"
+
+description: |
+  A major weekly demonstration supporting the ongoing late-2025/2026 uprising. Participants are demanding the fall of the Islamic Republic and condemning the recent massacres and internet blackouts. The crowd has grown significantly in recent weeks (approx. 2,000 attendees last Saturday) and typically features chanting, flag waving (Lion & Sun), and speeches by local activists.
+  
+  **Tips:**
+  Parking is generally available at the adjacent Clairemont Square Shopping Center. Bring Iranian flags (Lion and Sun preferred by most in this crowd) and signs. Wear comfortable shoes as there is standing and walking along the intersection.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "San Diego"
+  address: "Corner of Balboa Ave & Genesee Ave, San Diego, CA 92117, Intersection in Clairemont/Clairemont Mesa. Attendees usually gather on the sidewalks near the Clairemont Square Shopping Center."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

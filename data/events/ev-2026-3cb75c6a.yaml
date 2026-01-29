@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-3CB75C6A
+# -----------------------------------------------------------------------------
+
+title: "Woman Life Freedom Solidarity Fundraiser"
+
+featured: false
+confidence: confirmed
+external_id: "b4f088df-85cc-4927-ac87-336bde72cb15"
+
+description: |
+  Solidarity event and fundraiser featuring Iranian artists to support the uprising and women in Iran.
+  
+  **Tips:**
+  Ticketed event. A cultural/nightlife gathering rather than a street march, but explicitly political and charitable.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Berlin"
+  address: "RSO.BERLIN, Schnellerstraße 137, 12439 Berlin, S-Bahn Schöneweide; Club venue"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

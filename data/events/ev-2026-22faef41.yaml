@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-22FAEF41
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in San Francisco"
+
+featured: false
+confidence: confirmed
+external_id: "be23ebb7-4b1e-4ac2-8e4a-2694edb3f10b"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "San Francisco"
+  address: "Golden Gate Bridge Gift Center (Golden Gate Welcome Center), Golden Gate Bridge Plaza, San Francisco, CA"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

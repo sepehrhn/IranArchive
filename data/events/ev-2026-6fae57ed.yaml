@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-6FAE57ED
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Edmonton"
+
+featured: false
+confidence: confirmed
+external_id: "315d04b8-74d3-4714-8431-733d0931d54b"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Edmonton"
+  address: "Walterdale Bridge, Edmonton"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

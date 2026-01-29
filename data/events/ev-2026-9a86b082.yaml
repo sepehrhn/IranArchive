@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-9A86B082
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Zurich"
+
+featured: false
+confidence: confirmed
+external_id: "e4b83ead-9fd5-4461-8fe6-da33e60e247f"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/28"
+  start_time: "12:00"
+  end: "2026/01/28"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "CH"
+  city: "Zurich"
+  address: "In front of FIFA headquarters"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

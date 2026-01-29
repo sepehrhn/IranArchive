@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-D8607067
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Dublin"
+
+featured: false
+confidence: confirmed
+external_id: "e5ae4a54-4268-4695-a9c3-9a29ba6280e6"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "IE"
+  city: "Dublin"
+  address: "The Spire, O'Connell Street Upper"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

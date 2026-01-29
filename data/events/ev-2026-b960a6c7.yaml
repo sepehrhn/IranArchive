@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-B960A6C7
+# -----------------------------------------------------------------------------
+
+title: "Protest in Atlanta"
+
+featured: false
+confidence: possible
+external_id: "9b867a96-9e3e-46e7-81c4-e419c1c256f2"
+
+description: |
+  While no specific Sunday rally is listed for Atlanta this weekend (unlike Tampa and LA), smaller spontaneous gatherings sometimes occur at the CNN Center location if news from Iran escalates overnight.
+  
+  **Tips:**
+  Check 'Woman Life Freedom Atlanta' social media pages for last-minute Sunday announcements.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Atlanta"
+  address: "No specific scheduled protest found"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

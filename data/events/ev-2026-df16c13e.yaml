@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-DF16C13E
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Los Angeles"
+
+featured: false
+confidence: confirmed
+external_id: "95084c09-c634-40d1-a7ec-58ecd3f6f881"
+
+description: |
+  A gathering in the heart of 'Tehrangeles' to support the uprising in Iran, condemn the recent massacres and internet blackout, and call for the fall of the Islamic Republic. Expect chants of 'Woman, Life, Freedom' and 'Death to the Dictator'.
+  
+  **Tips:**
+  This area is very busy; parking can be difficult. Many attendees walk from nearby residential streets. This event often merges with or marches toward the Federal Building nearby.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Los Angeles"
+  address: "Persian Square (Westwood Blvd), Intersection of Westwood Blvd and Wilkins Ave (near the 'Persian Square' sign)"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

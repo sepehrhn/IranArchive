@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-0D54F2BD
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally"
+
+featured: false
+confidence: likely
+external_id: "a2004e82-9d20-410d-baa6-6bbce1c633ad"
+
+description: |
+  Recurring Sunday rally where the diaspora gathers to chant anti-regime slogans ('Death to the Dictator'), sing revolutionary songs, and demand international action against the Islamic Republic. This event has been happening for 'several Sundays' consecutive to the uprising.
+  
+  **Tips:**
+  This is a standing rally often featuring open mic speeches and chanting. It is a central meeting point for the community if you miss the specific Saturday event.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "San Francisco"
+  address: "Harry Bridges Plaza (Ferry Building), The plaza directly in front of the Ferry Building on The Embarcadero."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

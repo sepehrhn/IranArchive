@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-30527ABE
+# -----------------------------------------------------------------------------
+
+title: "Vigil for the Victims of the Uprising"
+
+featured: false
+confidence: possible
+external_id: "abfaa08d-4647-45fe-9b52-9cf2d3e3038b"
+
+description: |
+  While the major rally was on Jan 27, smaller vigils frequently occur here on Saturdays to lobby Dutch MPs for stricter sanctions against the IRGC.
+  
+  **Tips:**
+  Check 'Comité Iran Vrij' social media for last-minute time confirmations.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "NL"
+  city: "The Hague"
+  address: "Binnenhof / Hofplaats, Near the Parliament buildings."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-5DDAE227
+# -----------------------------------------------------------------------------
+
+title: "Rogers Park Community Gathering: Solidarity & Resistance"
+
+featured: false
+confidence: confirmed
+external_id: "0bd49306-de8c-4e6f-aff6-f6512300a1bb"
+
+description: |
+  A broader community gathering to 'reflect on the current moment' and discuss actions for 2026. While not exclusively for Iran, this event includes 'solidarity' themes and may serve as a meeting point for activists before heading to downtown protests. It focuses on local and international resistance.
+  
+  **Tips:**
+  Simultaneous translation provided. Good for connecting with local intersectional solidarity groups.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Chicago"
+  address: "New Field Elementary School, 1707 W. Morse Ave, Chicago, IL 60626, Rogers Park neighborhood."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

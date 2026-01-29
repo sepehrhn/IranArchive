@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-DB0F61C6
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Washington DC"
+
+featured: false
+confidence: confirmed
+external_id: "e2e79470-c1e6-40d9-8a9d-c78edd43787f"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Washington DC"
+  address: "U.S. Department of State (2201 C St NW, Washington, DC 20520)"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-E371C338
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Tokyo"
+
+featured: false
+confidence: confirmed
+external_id: "6cbfacf3-c609-43a4-8fa7-e1af98096985"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "JP"
+  city: "Tokyo"
+  address: "日比谷公園 (Tokyo To Chiyoda Ku Hibiya Park1-6 Nakasaiwaimon)"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

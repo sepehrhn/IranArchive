@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-4C0D19F7
+# -----------------------------------------------------------------------------
+
+title: "Mission Viejo Solidarity Rally"
+
+featured: false
+confidence: likely
+external_id: "02a8a854-8b80-4b08-a80e-88b402e4edfe"
+
+description: |
+  A rally in solidarity with the ongoing nationwide uprising in Iran, specifically calling to 'Stop the Massacre' following the brutal crackdown in late January. Participants will be protesting against the Islamic Republic's recent violence and internet blackouts.
+  
+  **Tips:**
+  Bring Iranian flags (Lion and Sun preferred by many in this specific crowd) and signs focusing on human rights. The event is listed as 'Likely', so checking local social media channels (e.g., Telegram or Instagram groups for OC Iranians) on the morning of the event is recommended.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Mission Viejo"
+  address: "Corner of Marguerite Parkway and La Paz Road, Mission Viejo, CA, A common rally point for local demonstrations; protestors typically gather on the sidewalks near the intersection."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

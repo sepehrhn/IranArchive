@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-A17E25D8
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with the Iranian People's Uprising"
+
+featured: false
+confidence: likely
+external_id: "095632ff-28fa-48ab-83fe-f97ea624395e"
+
+description: |
+  A weekly recurring rally to condemn the recent brutal crackdown, mass executions, and internet blackouts in Iran. Recent rallies (Jan 18 & Jan 25) focused on being the voice for innocent victims of the 'massacre' carried out by the Islamic Republic in Jan 2026.
+  
+  **Tips:**
+  Bring signs with slogans like 'Woman, Life, Freedom' or photos of recent victims. Check 'Green Left' or 'Action for Iran' social media pages on Saturday night for any last-minute time changes.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "AU"
+  city: "Sydney"
+  address: "Sydney Town Hall, 483 George St, Sydney NSW 2000, Steps of Town Hall, facing George Street. Taking the train to Town Hall Station is the easiest access."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

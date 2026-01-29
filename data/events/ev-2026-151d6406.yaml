@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-151D6406
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Stockholm"
+
+featured: false
+confidence: confirmed
+external_id: "6cf78a51-5175-4777-88ac-bfe4f1c31259"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/28"
+  start_time: "12:00"
+  end: "2026/01/28"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "SE"
+  city: "Stockholm"
+  address: "Amerikanska ambassaden, Dag Hammarskjölds väg 31, 115 89 Stockholm"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

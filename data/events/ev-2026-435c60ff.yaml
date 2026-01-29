@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-435C60FF
+# -----------------------------------------------------------------------------
+
+title: "Montreal Rally for Iran (Solidarity Weekend)"
+
+featured: false
+confidence: likely
+external_id: "bee51e42-edc4-4ca4-b108-489acfb68fcd"
+
+description: |
+  Demonstration in solidarity with the ongoing uprising in Iran, likely coordinated with the confirmed Toronto rally on the same day. Protesters typically demand the fall of the Islamic Republic, support for democratic transition, and harsher sanctions on the IRGC. The march often proceeds from Place du Canada to the US Consulate.
+  
+  **Tips:**
+  Dress warmly for -20°C weather. Bring flags (Lion and Sun) and placards. Check 'Woman Life Freedom Montreal' social media for last-minute time confirmation.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Montreal"
+  address: "Place du Canada, Corner of René-Lévesque Blvd and Peel St (Metro Bonaventure or Peel)."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

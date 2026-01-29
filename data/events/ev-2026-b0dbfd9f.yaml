@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-B0DBFD9F
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Nürnberg"
+
+featured: false
+confidence: confirmed
+external_id: "f0cf02ff-fc68-43f2-b26b-222479202cc7"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Nürnberg"
+  address: "Fürther Straße 104, 90429 Nürnberg"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

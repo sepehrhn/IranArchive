@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-D334F5CD
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Trieste"
+
+featured: false
+confidence: confirmed
+external_id: "5ad44b71-9b57-44ae-ba1c-ff4d049c6645"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "IT"
+  city: "Trieste"
+  address: "Piazza Ponterosso, Trieste"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

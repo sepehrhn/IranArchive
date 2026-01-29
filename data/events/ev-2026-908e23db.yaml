@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-908E23DB
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Tbilisi"
+
+featured: false
+confidence: confirmed
+external_id: "b7cbcb6b-4fed-4b15-954b-9703ff116bc0"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/28"
+  start_time: "12:00"
+  end: "2026/01/28"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "GE"
+  city: "Tbilisi"
+  address: "In front of the Embassy of Iran, Tbilisi"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

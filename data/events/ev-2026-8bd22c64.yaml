@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-8BD22C64
+# -----------------------------------------------------------------------------
+
+title: "Weekly Iran Solidarity Demonstration (Unconfirmed)"
+
+featured: false
+confidence: possible
+external_id: "5ccdc66d-315f-4ea3-90c6-ebd2940681c9"
+
+description: |
+  Likely continuation of weekly Saturday protests supporting the ongoing uprising in Iran. Previous weeks saw gatherings at Sergels Torg and Mynttorget.
+  
+  **Tips:**
+  Confirm location on day of. Avoid Norrmalmstorg due to a scheduled Palestine demonstration at the same time.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "SE"
+  city: "Stockholm"
+  address: "Sergels Torg or Mynttorget, Common gathering points for Iran protests. Check local listings as location may rotate."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

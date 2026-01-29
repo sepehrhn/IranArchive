@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-93BFA9B7
+# -----------------------------------------------------------------------------
+
+title: "Sunday Vigil for the Martyrs of 2026"
+
+featured: false
+confidence: likely
+external_id: "86102f16-1221-4893-8a02-6b78220ed001"
+
+description: |
+  A major vigil to honor the estimated 3,000+ protesters killed since late December. Participants are asked to wear black and bring photos of victims. The event will focus on reading the names of the dead and calling for UN action.
+  
+  **Tips:**
+  Expect cold weather. Bring LED candles or battery-operated lights for the closing ceremony. This is expected to be the primary gathering for the weekend.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Washington DC"
+  address: "Lincoln Memorial, Steps of the Memorial / Reflecting Pool area. Nearest Metro: Foggy Bottom or Smithsonian (20 min walk)."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-EAF92713
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in München"
+
+featured: false
+confidence: confirmed
+external_id: "9315427d-c3a5-4857-a65c-c3283ea3d31e"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "München"
+  address: "Parade from Gärtnerplatz to Stachus (Karlsplatz), München"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

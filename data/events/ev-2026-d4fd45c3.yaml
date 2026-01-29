@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-D4FD45C3
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Copenhagen"
+
+featured: false
+confidence: confirmed
+external_id: "69acb816-0ec7-4577-83e2-96be0095dfbe"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/27"
+  start_time: "12:00"
+  end: "2026/01/27"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DK"
+  city: "Copenhagen"
+  address: "French Embassy, Kongens Nytorv, Copenhagen"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-3120B0F9
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Budapest 🇭🇺"
+
+featured: false
+confidence: confirmed
+external_id: "39e7be33-7647-4694-aa2e-3dfbe53fa442"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/27"
+  start_time: "12:00"
+  end: "2026/01/27"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "HU"
+  city: "Budapest 🇭🇺"
+  address: "Madách Imre tér"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
