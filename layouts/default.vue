@@ -87,23 +87,26 @@ onUnmounted(() => {
                     </NuxtLink>
                     
                     <div class="relative group">
-                        <button class="px-4 py-2 rounded-full hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all duration-300 flex items-center gap-1 outline-none focus:ring-2 focus:ring-primary-500/50">
-                            Global Pressure
-                            <i class="pi pi-chevron-down text-[10px] opacity-70 transition-transform group-hover:rotate-180"></i>
+                        <button class="px-4 py-2 rounded-full hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all duration-300 flex items-center gap-1.5 outline-none focus:ring-2 focus:ring-primary-500/50 text-surface-700 dark:text-surface-300 group-hover:text-primary-600 dark:group-hover:text-primary-400">
+                            <span class="font-medium">Global Pressure</span>
+                            <i class="pi pi-chevron-down text-[10px] opacity-70 transition-transform duration-300 group-hover:rotate-180"></i>
                         </button>
-                        <div class="absolute top-full right-0 mt-2 w-56 bg-surface-0/95 dark:bg-surface-900/95 backdrop-blur-lg border border-surface-200/50 dark:border-surface-800/50 rounded-2xl shadow-2xl overflow-hidden invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 origin-top-right z-50">
-                            <div class="flex flex-col p-1.5">
-                                <NuxtLink to="/countries" class="px-4 py-3 hover:bg-surface-100 dark:hover:bg-surface-800 rounded-xl text-sm flex items-center gap-3 group/item transition-colors" active-class="bg-surface-100 dark:bg-surface-800 font-medium text-primary-600 dark:text-primary-400">
-                                    <div class="w-8 h-8 rounded-lg bg-primary-50 dark:bg-primary-900/30 flex items-center justify-center text-primary-600 dark:text-primary-400">
+                        
+                        <!-- Dropdown Menu -->
+                        <div class="absolute top-full right-0 mt-2 w-56 bg-white/95 dark:bg-surface-900/95 backdrop-blur-xl border border-surface-200/50 dark:border-surface-800/50 rounded-2xl shadow-[0_10px_30px_rgba(0,0,0,0.1)] dark:shadow-[0_10px_30px_rgba(0,0,0,0.3)] overflow-hidden invisible group-hover:visible opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0 origin-top-right z-50">
+                            <div class="flex flex-col p-1.5 space-y-0.5 relative bg-white dark:bg-surface-900">
+                                <NuxtLink to="/countries" class="flex items-center gap-3 p-2 rounded-xl hover:bg-primary-50 dark:hover:bg-primary-900/20 group/item transition-all duration-200" active-class="bg-primary-50 dark:bg-primary-900/20">
+                                    <div class="w-8 h-8 shrink-0 rounded-lg bg-primary-100/50 dark:bg-primary-900/40 flex items-center justify-center text-primary-600 dark:text-primary-400 group-hover/item:scale-110 transition-transform">
                                         <i class="pi pi-globe"></i>
                                     </div>
-                                    <span>Tracker</span>
+                                    <span class="text-sm font-bold text-surface-900 dark:text-surface-0 group-hover/item:text-primary-600 dark:group-hover/item:text-primary-400 transition-colors">Response Tracker</span>
                                 </NuxtLink>
-                                <NuxtLink to="/campaigns" class="px-4 py-3 hover:bg-surface-100 dark:hover:bg-surface-800 rounded-xl text-sm flex items-center gap-3 group/item transition-colors" active-class="bg-surface-100 dark:bg-surface-800 font-medium text-primary-600 dark:text-primary-400">
-                                    <div class="w-8 h-8 rounded-lg bg-primary-50 dark:bg-primary-900/30 flex items-center justify-center text-primary-600 dark:text-primary-400">
+
+                                <NuxtLink to="/campaigns" class="flex items-center gap-3 p-2 rounded-xl hover:bg-primary-50 dark:hover:bg-primary-900/20 group/item transition-all duration-200" active-class="bg-primary-50 dark:bg-primary-900/20">
+                                    <div class="w-8 h-8 shrink-0 rounded-lg bg-primary-100/50 dark:bg-primary-900/40 flex items-center justify-center text-primary-600 dark:text-primary-400 group-hover/item:scale-110 transition-transform">
                                         <i class="pi pi-megaphone"></i>
                                     </div>
-                                    <span>Campaigns</span>
+                                    <span class="text-sm font-bold text-surface-900 dark:text-surface-0 group-hover/item:text-primary-600 dark:group-hover/item:text-primary-400 transition-colors">Campaigns</span>
                                 </NuxtLink>
                             </div>
                         </div>

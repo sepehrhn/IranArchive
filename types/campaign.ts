@@ -1,4 +1,4 @@
-export type CampaignStatus = 'active' | 'closed' | 'victory' | 'unknown';
+export type CampaignStatus = 'active' | 'closed' | 'victory';
 
 export interface Campaign {
     id: string; // Derived from filename

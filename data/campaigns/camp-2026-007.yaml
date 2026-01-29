@@ -11,8 +11,8 @@ title: "Designate IRGC as Terrorist Organization (EU)"
 # Filename only (e.g. "my-image.jpg"). Must exist in /data/campaigns/img/
 thumbnail: "camp-2026-007.png"
 
-# Options: "active", "closed", "victory", "unknown"
-status: "active"
+# Options: "active", "closed", "victory"
+status: "victory"
 
 # List of ISO2 codes. Leave empty/commented for International/All.
 countries:
@@ -45,7 +45,7 @@ countries:
   - SE
 
 # true or false
-featured: true
+featured: false
 
 # Format: YYYY/MM/DD
 created_at: "2026/01/16"

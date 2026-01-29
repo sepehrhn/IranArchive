@@ -3,23 +3,23 @@
 
 # Required
 # Must be a valid URL
-url: "https://c.org/7Td7LXnWVB"
-title: "Deport Fatemeh Ardeshir-Larijani from U.S. Soil"
+url: "https://www.change.org/p/deport-the-eissa-hashemi-families-of-iranian-government-officials-from-u-s-soil"
+title: "Deport the Eissa Hashemi families of Iranian government officials from U.S soil"
 
 # Optional
 
 # Filename only (e.g. "my-image.jpg"). Must exist in /data/campaigns/img/
-thumbnail: "camp-2026-009.png"
+thumbnail: "camp-2026-016.jpg"
 
 # Options: "active", "closed", "victory"
 status: "active"
 
 # List of ISO2 codes. Leave empty/commented for International/All.
 countries:
-  - US
+  # - US
 
 # true or false
 featured: false
 
 # Format: YYYY/MM/DD
-created_at: "2026/01/22"
+created_at: "2026/01/29"

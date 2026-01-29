@@ -110,8 +110,7 @@ const selectedFile = ref<File | null>(null);
 const statusOptions = [
   { label: 'Active', value: 'active' },
   { label: 'Closed', value: 'closed' },
-  { label: 'Victory', value: 'victory' },
-  { label: 'Unknown', value: 'unknown' }
+  { label: 'Victory', value: 'victory' }
 ];
 
 const form = ref({

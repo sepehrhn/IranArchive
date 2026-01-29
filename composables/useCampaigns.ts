@@ -13,7 +13,9 @@ export const useCampaigns = () => {
     const loadCampaigns = () => {
         const loadedCampaigns: Campaign[] = [];
 
-        for (const path in campaignFiles) {
+        const sortedPaths = Object.keys(campaignFiles).sort();
+
+        for (const path of sortedPaths) {
             // Skip example file
             if (path.endsWith('campaigns.yaml.example')) continue;
 
@@ -43,8 +45,8 @@ export const useCampaigns = () => {
                     continue;
                 }
 
-                const validStatuses: CampaignStatus[] = ['active', 'closed', 'victory', 'unknown'];
-                const status: CampaignStatus = validStatuses.includes(data.status) ? data.status : 'unknown';
+                const validStatuses: CampaignStatus[] = ['active', 'closed', 'victory'];
+                const status: CampaignStatus = validStatuses.includes(data.status) ? data.status : 'active';
 
                 // Keep countries
                 let countries: string[] = [];
