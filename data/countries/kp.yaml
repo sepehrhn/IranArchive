@@ -3,12 +3,6 @@ name: "North Korea"
 region: "Asia"
 subregion: "Eastern Asia"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: -10
-  irgc: 0
-  un: -10
-  security: -15
-  force_tier: G
 diplomacy:
   status: enhanced_engagement
   expelled_diplomats: unknown

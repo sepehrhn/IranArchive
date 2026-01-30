@@ -3,12 +3,6 @@ name: "Comoros"
 region: "Africa"
 subregion: "Eastern Africa"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 20
-  irgc: 0
-  un: 10
-  security: 0
-  force_tier: B
 diplomacy:
   status: severed
   expelled_diplomats: all

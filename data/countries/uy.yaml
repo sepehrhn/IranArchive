@@ -3,12 +3,6 @@ name: "Uruguay"
 region: "Americas"
 subregion: "South America"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 10
-  irgc: 0
-  un: 15
-  security: 0
-  force_tier: D
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown

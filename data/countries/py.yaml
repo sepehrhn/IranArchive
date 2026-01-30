@@ -2,21 +2,15 @@ iso2: PY
 name: "Paraguay"
 region: "Americas"
 subregion: "South America"
-last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 15
-  irgc: 10
-  un: 15
-  security: 10
-  force_tier: C
+last_reviewed_at: '2026-01-29'
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
   summary: "Maintains relations but actively monitors Tri-Border Area threats."
 irgc_designation:
-  status: designated_partial
-  summary: "Designated Hezbollah and Hamas as terrorist orgs; vigilant on IRGC proxies."
+  status: designated_full
+  summary: "Designated the IRGC as a terrorist organization in August 2019, following Hamas and Hezbollah designations."
 un_posture:
   status: supports_accountability
   supports_un_investigations: true

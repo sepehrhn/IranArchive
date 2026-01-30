@@ -3,12 +3,6 @@ name: "Egypt"
 region: "Africa"
 subregion: "Northern Africa"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 15
-  irgc: 0
-  un: 10
-  security: 10
-  force_tier: C
 diplomacy:
   status: no_resident_mission
   expelled_diplomats: none

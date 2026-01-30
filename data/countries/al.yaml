@@ -3,12 +3,6 @@ name: "Albania"
 region: "Europe"
 subregion: "Southern Europe"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 20
-  irgc: 5
-  un: 10
-  security: 10
-  force_tier: B
 diplomacy:
   status: severed
   expelled_diplomats: all

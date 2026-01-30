@@ -3,12 +3,6 @@ name: "Russian Federation"
 region: "Europe"
 subregion: "Eastern Europe"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: -10
-  irgc: 0
-  un: -10
-  security: -20
-  force_tier: G
 diplomacy:
   status: enhanced_engagement
   expelled_diplomats: unknown

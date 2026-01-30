@@ -3,12 +3,6 @@ name: "South Korea"
 region: "Asia"
 subregion: "Eastern Asia"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 10
-  irgc: 0
-  un: 10
-  security: 5
-  force_tier: C
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown

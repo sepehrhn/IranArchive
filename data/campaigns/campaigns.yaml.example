@@ -7,7 +7,9 @@
 url: "https://www.change.org/example-petition"
 title: "Example Title of the Campaign"
 
-# Optional
+# Automatic Updates (Optional - populated by scraper)
+author: "" # e.g. "Iranian Patriot"
+signatures: 0
 
 # Filename only (e.g. "my-image.jpg"). Must exist in /data/campaigns/img/
 thumbnail: ""

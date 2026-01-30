@@ -9,4 +9,9 @@ export interface Campaign {
     countries: string[]; // ISO2 codes, empty = international
     featured: boolean;
     created_at?: string;
+
+    // Scraped/External Data
+    author?: string;
+    signatures?: number;
+    goal?: number;
 }

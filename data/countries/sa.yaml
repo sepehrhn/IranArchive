@@ -2,21 +2,15 @@ iso2: SA
 name: "Saudi Arabia"
 region: "Asia"
 subregion: "Western Asia"
-last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 10
-  irgc: 0
-  un: 5
-  security: 0
-  force_tier: D
+last_reviewed_at: '2026-01-29'
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
   summary: "Restored relations Mar 2023 (China brokered). Trade and Hajj cooperation resuming. Cautious detente."
 irgc_designation:
-  status: rejected_or_no
-  summary: "No designation."
+  status: designated_full
+  summary: "Designated the IRGC as a terrorist organization in October 2018. The designation remains in place despite the 2023 diplomatic detente."
 un_posture:
   status: neutral_inconsistent
   supports_un_investigations: false

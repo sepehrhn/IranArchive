@@ -2,21 +2,15 @@ iso2: LU
 name: "Luxembourg"
 region: "Europe"
 subregion: "Western Europe"
-last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 10
-  irgc: 0
-  un: 10
-  security: 0
-  force_tier: C
+last_reviewed_at: '2026-01-29'
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
-  summary: "Maintains relations. EU alignment."
+  summary: "Maintains relations. EU adopted new sanctions on Jan 29, 2026."
 irgc_designation:
-  status: rejected_or_no
-  summary: "No designation."
+  status: designated_full
+  summary: "Designated as a terrorist organization by the EU Council decision on Jan 29, 2026."
 un_posture:
   status: supports_accountability
   supports_un_investigations: false
