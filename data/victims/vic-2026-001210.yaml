@@ -2,36 +2,26 @@
 # Victim Documentation - Sahar Bayat
 # ==========================================
 
-photo: "vic-2026-001210.jpg"
-name: "Sahar Bayat"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Iran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001210.jpg
+name: Sahar Bayat
+persian_name: "سحر بیات"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests (described as 'killed for the homeland')
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mahestane_iran/status/2013670598992392345"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/mahestane_iran/status/2013670598992392345
+child: false

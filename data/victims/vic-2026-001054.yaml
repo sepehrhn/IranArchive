@@ -7,12 +7,13 @@ name: Benyamin Balochi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 28
 occupation: ""
 country: Iran
-incident_province: "Razavi Khorasan"
+incident_province: Razavi Khorasan
 incident_city: Neyshabur
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Killed during protests, family had to pay 300 million for body release after 3 days
 source_type: Social Media
-source_social_media_link: https://x.com/thebalochworld/status/2013938636686053592, https://x.com/TheBalochWorld/status/2013978436876788119
+source_social_media_link: https://x.com/thebalochworld/status/2013938636686053592, https://x.com/TheBalochWorld/status/2013978436876788119, https://t.me/RememberTheirNames/435
+child: false
+persian_name: بنیامین بلوچی

@@ -2,36 +2,26 @@
 # Victim Documentation - Ismael Orang
 # ==========================================
 
-photo: "vic-2026-000311.jpg"
-name: "Ismael Orang"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+photo: vic-2026-000311.jpg
+name: Ismael Orang
+persian_name: "اسماعیل اورنگ"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 31
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Merodشت (Merodšt)"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Marvdasht
+incident_address: Merodšt
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by government forces during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/manotonews/status/2014835540315554038"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/manotonews/status/2014835540315554038
+child: false

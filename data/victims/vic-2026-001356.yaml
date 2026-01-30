@@ -2,36 +2,25 @@
 # Victim Documentation - Brother of @maryam24170463
 # ==========================================
 
-photo: "vic-2026-001356.jpg"
-name: "Brother of @maryam24170463"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
-date_of_death: "2026-01-16"
-date_of_death_precision: "Exact"
-cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001356.jpg
+name: Brother of @maryam24170463
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-16'
+date_of_death_precision: Exact
+cause_of_death: ''
+status: Killed
 description: |
   Shot with a war bullet on a bloody Friday. The tweet was posted on January 22, 2026, so the Friday mentioned is likely January 16, 2026.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/maryam24170463/status/2014125878930710638"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/maryam24170463/status/2014125878930710638
+child: false

@@ -2,17 +2,18 @@
 # Victim Documentation - Parham Davoodi
 # ==========================================
 
-photo: "vic-2026-001781.jpg"
+photo: vic-2026-001781.jpg
 name: Parham Davoodi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 18
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Isfahan (Baharestan)
+incident_address: Baharestan
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed by live ammunition fired by security forces. His body was buried on January 10, 2026, in Ard al, Dinaran village.
 source_type: Social Media
 source_social_media_link: https://x.com/foad_choobin/status/2015129661383045220
+child: false
+persian_name: پرهام داوودی

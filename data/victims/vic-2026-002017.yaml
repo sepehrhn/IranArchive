@@ -2,17 +2,18 @@
 # Victim Documentation - Mohsen Bagheri
 # ==========================================
 
-photo: "vic-2026-002017.jpg"
+photo: vic-2026-002017.jpg
 name: Mohsen Bagheri
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 42
 occupation: ""
 country: Iran
 incident_province: Qazvin
 incident_city: Alvand
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -22,4 +23,6 @@ description: |-
 
   Shot directly by Islamic Republic forces during the suppression of public protests and died due to the severity of his injuries. He was 42 years old, born in 1363.
 source_type: Social Media
-source_social_media_link: https://x.com/tavaana/status/2015683904477241500
+source_social_media_link: https://x.com/tavaana/status/2015683904477241500, https://t.me/RememberTheirNames/1542
+child: false
+persian_name: محسن باقری

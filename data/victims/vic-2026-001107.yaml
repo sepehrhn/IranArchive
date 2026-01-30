@@ -2,36 +2,26 @@
 # Victim Documentation - Jalil Doostyar
 # ==========================================
 
-photo: "vic-2026-001107.jpg"
-name: "Jalil Doostyar"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: ""
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001107.jpg
+name: Jalil Doostyar
+persian_name: "جلیل دوستیار"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during the Iranian uprising
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kalbalouchi/status/2014605814716301494"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/kalbalouchi/status/2014605814716301494
+child: false

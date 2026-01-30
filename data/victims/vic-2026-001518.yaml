@@ -2,37 +2,25 @@
 # Victim Documentation - Matin mahmoudi
 # ==========================================
 
-photo: ""
-
-name: "Matin mahmoudi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: ''
+name: Matin mahmoudi
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 21
-occupation: "راننده"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Hormozgan"
-incident_city: "بندرعباس"
-
-# Death Information
-date_of_death: "2026-01-09"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: راننده
+country: Iran
+incident_province: Hormozgan
+incident_city: Bandar Abbas
+incident_address: ''
+date_of_death: '2026-01-09'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   تعقیب و شلیک مستقیم از پشت سر با گلوله‌ی جنگی
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

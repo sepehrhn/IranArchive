@@ -7,12 +7,13 @@ name: Mahmoud Haqiqat
 birth_date: ""
 birth_province: ""
 birth_city: People's Fighters Front
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Iranshahr
+incident_address: ""
 date_of_death: "2026-01-07"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,4 @@ description: |
   Police chief assassinated by Baloch nationalist militants from People's Fighters Front
 source_type: Social Media
 source_social_media_link: https://en.wikipedia.org/wiki/2025–2026_Iranian_protests
+child: false

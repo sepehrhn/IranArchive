@@ -4,20 +4,26 @@
 
 photo: vic-2026-000533.jpg
 name: Amir Pourahangarian
-birth_date: ""
-birth_province: ""
-birth_city: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
 gender: Male
 age: 30
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
-incident_city: Chalus
-date_of_death: "2026-01-08"
+incident_province: ''
+incident_city: Chalous
+incident_address: ''
+date_of_death: '2026-01-08'
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
 description: |
   Shot with 2 bullets to heart and neck on Golsorkhi Street while looking for his younger brother who was participating in protests
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2014475742038376810, https://x.com/FSeifikaran/status/2014475742038376810, https://t.me/RememberTheirNames/1363, https://t.me/RememberTheirNames/745
+source_social_media_link:
+  - https://x.com/fseifikaran/status/2014475742038376810
+  - https://x.com/FSeifikaran/status/2014475742038376810
+  - https://t.me/RememberTheirNames/1363
+  - https://t.me/RememberTheirNames/745
+child: false

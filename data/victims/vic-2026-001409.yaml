@@ -2,38 +2,27 @@
 # Victim Documentation - Arastoo Soleimanian
 # ==========================================
 
-photo: "vic-2026-001409.jpg"
-name: "Arastoo Soleimanian"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Chalus"
-
-# Death Information
-date_of_death: ""
-date_of_death_precision: "Exact"
-cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001409.jpg
+name: Arastoo Soleimanian
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Chalous
+incident_address: ''
+date_of_death: ''
+date_of_death_precision: Exact
+cause_of_death: ''
+status: Killed
 description: |
   Persian Name: ارسطو‌سلیمیان
-  
-  Mentioned as 'Javid Nam' (eternal name), implying death.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pegah76fz/status/2014677619849981956"
+  Mentioned as 'Javid Nam' (eternal name), implying death.
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/pegah76fz/status/2014677619849981956
+child: false

@@ -2,17 +2,18 @@
 # Victim Documentation - Ali Ashiri Lor
 # ==========================================
 
-photo: "vic-2026-001636.jpg"
+photo: vic-2026-001636.jpg
 name: Ali Ashiri Lor
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: null
+gender: Male
+age: 22
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Dezful
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: علی عشیری لر
 
   Shot by security forces in Dezful.
+
+  Shot and killed by Basij forces with direct gunfire using military ammunition during the night
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2015600875910078857
+source_social_media_link: https://x.com/hirman__/status/2015600875910078857, https://x.com/damdami/status/2016441794058195354
+child: false
+persian_name: علی عشیری لر

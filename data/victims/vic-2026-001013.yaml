@@ -2,36 +2,26 @@
 # Victim Documentation - Ali Behruzdoost
 # ==========================================
 
-photo: "vic-2026-001013.jpg"
-name: "Ali Behruzdoost"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001013.jpg
+name: Ali Behruzdoost
+persian_name: "علی بهروز‌دوست"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during Tehran protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2012521048164434197"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/hengawo/status/2012521048164434197
+child: false

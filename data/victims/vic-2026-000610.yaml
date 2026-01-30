@@ -2,36 +2,25 @@
 # Victim Documentation - Ghasem Katan
 # ==========================================
 
-photo: "vic-2026-000610.jpg"
-name: "Ghasem Katan"
-
-# Personal & Birth Information
+photo: vic-2026-000610.jpg
+name: Ghasem Katan
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 38
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Shushtar"
-
-# Death Information
+incident_city: Shushtar
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with over 100 pellets and then two bullets from a Kalashnikov rifle by government forces during protests. One bullet hit him from behind, and the second was shot directly into his heart.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2015116563519877446"
+source_type: Social Media
+source_social_media_link: https://x.com/tavaana/status/2015116563519877446, https://x.com/Tavaana/status/2015116563519877446, https://t.me/RememberTheirNames/1150, https://x.com/r_tamizkar/status/2015775509569753497
+child: false
+persian_name: قاسم کتان

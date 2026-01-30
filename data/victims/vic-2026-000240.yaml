@@ -7,12 +7,13 @@ name: Amir Arsalan Ghahremani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 23
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot and killed by Islamic Republic forces during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/banafshehviola/status/2012956339652477305, https://x.com/kurdpa_farsi/status/2012884350870692144
+source_social_media_link: https://x.com/banafshehviola/status/2012956339652477305, https://x.com/kurdpa_farsi/status/2012884350870692144, https://t.me/RememberTheirNames/186
+child: false
+persian_name: امیرارسلان قهرمانی

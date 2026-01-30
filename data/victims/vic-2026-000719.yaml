@@ -2,36 +2,25 @@
 # Victim Documentation - Mohammad Javad Heydari
 # ==========================================
 
-photo: "vic-2026-000719.jpg"
-name: "Mohammad Javad Heydari"
-
-# Personal & Birth Information
+photo: vic-2026-000719.jpg
+name: Mohammad Javad Heydari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Masjed-e Soleyman"
-
-# Death Information
+incident_city: Masjed-e Soleyman
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests in Masjed-e Soleyman on 18 Dey (January 8, 2026)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/yaldarta/status/2014816290448310736"
+source_type: Social Media
+source_social_media_link: https://x.com/yaldarta/status/2014816290448310736
+child: false
+persian_name: محمد جواد حیدری

@@ -2,17 +2,18 @@
 # Victim Documentation - Ehsan NasrAbadi
 # ==========================================
 
-photo: "vic-2026-002195.jpg"
+photo: vic-2026-002195.jpg
 name: Ehsan NasrAbadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Razavi Khorasan"
+incident_province: Mashhad
 incident_city: Ahmadabad
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Died during protests in Dey 1404 (late December 2025 - January 2026).
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/883
+child: false
+persian_name: احسان نصرآبادی

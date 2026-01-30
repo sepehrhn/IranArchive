@@ -125,6 +125,7 @@ export const useVictims = () => {
         city?: string,
         province?: string,
         status?: string,
+        category?: string, // 'Male', 'Female', 'Child'
         dateFrom?: Date,
         dateTo?: Date,
         sort?: string
@@ -158,6 +159,18 @@ export const useVictims = () => {
         }
         if (query.status) {
             result = result.filter(v => v.status?.toLowerCase() === query.status.toLowerCase());
+        }
+
+        // Category Filter
+        if (query.category) {
+            const cat = query.category.toLowerCase();
+            if (cat === 'child') {
+                result = result.filter(v => v.child === true);
+            } else if (cat === 'male') {
+                result = result.filter(v => v.gender?.toLowerCase() === 'male');
+            } else if (cat === 'female') {
+                result = result.filter(v => v.gender?.toLowerCase() === 'female');
+            }
         }
 
         // Date Range

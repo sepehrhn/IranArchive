@@ -2,17 +2,18 @@
 # Victim Documentation - Mahmoud Goudarzi
 # ==========================================
 
-photo: "vic-2026-001580.jpg"
+photo: vic-2026-001580.jpg
 name: Mahmoud Goudarzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: null
+gender: Male
+age: 51
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
+incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -22,4 +23,6 @@ description: |-
 
   Died during protests in Dey 1404 (late Dec 2025 - Jan 2026). Specific cause of death not mentioned.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/695
+source_social_media_link: https://t.me/RememberTheirNames/695, https://x.com/mousavi1355/status/2016341381938135056, https://x.com/kyokushinsoofi/status/2016295737017983304
+child: false
+persian_name: محمود گودرزی

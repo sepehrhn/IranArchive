@@ -2,38 +2,27 @@
 # Victim Documentation - Aria Arinkhou
 # ==========================================
 
-photo: "vic-2026-001378.jpg"
-name: "Aria Arinkhou"
-
-# Personal & Birth Information
+photo: vic-2026-001378.jpg
+name: Aria Arinkhou
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
-age: 
+gender: Male
+age: 36
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Yusefabad"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Yousef Abad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: آریا آرینخو
-  
-  Shot by the 'beasts of the Supreme Leader's regime'. Family pressured to say he died of a heart attack.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mamalism123/status/2015140770563625109"
+  Shot by the 'beasts of the Supreme Leader's regime'. Family pressured to say he died of a heart attack.
+source_type: Social Media
+source_social_media_link: https://x.com/mamalism123/status/2015140770563625109, https://x.com/missmarpel75/status/2015373098422251602, https://x.com/sssccpp/status/2015886348050223312, https://t.me/RememberTheirNames/1078, https://x.com/ashkvuo7000/status/2016046869361701368, https://x.com/isamanyasin/status/2015780973766386135, https://x.com/iranintlbrk/status/2015735329236398140, https://x.com/PayanNameZaa/status/2016033520221589933
+child: false
+persian_name: آریا ارینخو

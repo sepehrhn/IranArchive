@@ -2,17 +2,18 @@
 # Victim Documentation - Miyad Sademirinad
 # ==========================================
 
-photo: "vic-2026-001986.jpg"
+photo: vic-2026-001986.jpg
 name: Miyad Sademirinad
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Ilam
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed by live ammunition (Kalashnikov) during public protests. Cause of death listed as 'lung and heart rupture' due to bullet impact to the chest. His burial permit stated this cause of death.
 source_type: Social Media
 source_social_media_link: https://x.com/iranwire/status/2015802856847139304
+child: false
+persian_name: میعاد ساده میری‌نژاد

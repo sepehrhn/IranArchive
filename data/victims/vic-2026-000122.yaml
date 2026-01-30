@@ -2,36 +2,25 @@
 # Victim Documentation - Pedram Madani
 # ==========================================
 
-photo: "vic-2026-000122.jpg"
-name: "Pedram Madani"
-
-# Personal & Birth Information
+photo: vic-2026-000122.jpg
+name: Pedram Madani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Qezel Hesar Prison"
-
-# Death Information
+incident_city: Qezel Hesar Prison
+incident_address: Qezel Hesar Prison
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Execution"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Execution
+status: Killed
 description: |
   Executed in prison
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/jeanne2022rev/status/2012247859609960559"
+source_type: Social Media
+source_social_media_link: https://x.com/jeanne2022rev/status/2012247859609960559
+child: false
+persian_name: پدرام مدنی

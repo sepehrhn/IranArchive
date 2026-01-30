@@ -2,18 +2,19 @@
 # Victim Documentation - Seyed Davood Emami Meybodi
 # ==========================================
 
-photo: "vic-2026-001617.jpg"
+photo: vic-2026-001617.jpg
 name: Seyed Davood Emami Meybodi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: null
+gender: Male
+age: 35
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Yazd
 incident_city: Meybod
-date_of_death: "2026-01-10"
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
@@ -22,4 +23,6 @@ description: |-
 
   Died in Dey 1404 (January 2026). Specific circumstances of death not detailed.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/620
+source_social_media_link: https://x.com/indypersian/status/2014771604593770526, https://t.me/RememberTheirNames/620
+child: false
+persian_name: سید داوود امامی

@@ -3,36 +3,24 @@
 # ==========================================
 
 photo: ""
-
-name: "Mostafa Ghorbani"
-
-# Personal & Birth Information
+name: Mostafa Ghorbani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 38
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gorgan"
-
-# Death Information
+incident_city: Gorgan
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot while walking hand-in-hand with his wife on the street
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/fmhrnzi/status/2014326017486131637"
+source_type: Social Media
+source_social_media_link: https://x.com/fmhrnzi/status/2014326017486131637
+child: false
+persian_name: مصطفی قربانی

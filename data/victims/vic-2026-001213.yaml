@@ -7,12 +7,13 @@ name: Salman Nazari Haqiqi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Rasht
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot by hired agents of the Islamic Republic
 source_type: Social Media
 source_social_media_link: https://x.com/mohammadabedi_z/status/2014678788462801350
+child: false
+persian_name: سلمان نظر حقیقی

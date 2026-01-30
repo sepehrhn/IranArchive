@@ -2,39 +2,28 @@
 # Victim Documentation - Jalil Milan Louie
 # ==========================================
 
-photo: "vic-2026-001454.jpeg"
-
-name: "Jalil Milan Louie"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "North Khorasan"
-incident_city: "اسفراین"
-
-# Death Information
-date_of_death: "2026-01-07"
-date_of_death_precision: "Approximate"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001454.jpeg
+name: Jalil Milan Louie
+persian_name: "جلیل میلانلویی"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
+age: null
+occupation: ''
+country: Iran
+incident_province: North Khorasan
+incident_city: Esfarayen
+incident_address: ''
+date_of_death: '2026-01-07'
+date_of_death_precision: Approximate
+cause_of_death: Gunshot
+status: Killed
 description: |
   ‏جاویدنام جلیل میلانلویی، در اسفراین، با شلیک مستقیم گلوله کشته شد.
   ‏پس از سه روز، با گرفتن تعهد از اعضای خانواده، در فضایی کاملاً امنیتی به خاک سپرده شد. اعضای خانواده تحت فشارن
   ‏آخرین حرفش هم این بود: «نترسید و عکس من را منتشر کنید.» 
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

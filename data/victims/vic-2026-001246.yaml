@@ -2,38 +2,30 @@
 # Victim Documentation - Nasrin Abdollahi
 # ==========================================
 
-photo: "vic-2026-001246.jpg"
-name: "Nasrin Abdollahi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Execution"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001246.jpg
+name: Nasrin Abdollahi
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Tehran
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Execution
+status: Killed
 description: |
   Persian Name: آرتین عبداللهی
-  
-  Student at Amirkabir University, abducted from the hospital after being wounded during a protest and executed.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014781999668437226, https://x.com/hengawo/status/2014710031246066053, https://x.com/hengawo/status/2014429661707542927, https://x.com/noamagid/status/2015464646644252999"
+  Student at Amirkabir University, abducted from the hospital after being wounded during a protest and executed.
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/hengawo/status/2014781999668437226
+  - https://x.com/hengawo/status/2014710031246066053
+  - https://x.com/hengawo/status/2014429661707542927
+  - https://x.com/noamagid/status/2015464646644252999
+child: false

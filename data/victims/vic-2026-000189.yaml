@@ -7,12 +7,13 @@ name: Mohammad Golriz
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 29
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot by Islamic Republic suppression forces on Andarzgoo Boulevard in Tehran alongside his close friend Alireza Sadeghi
 source_type: Social Media
 source_social_media_link: https://x.com/indypersian/status/2012923968576217217, https://x.com/indypersian/status/2013042864733688021
+child: false
+persian_name: محمد گلریز

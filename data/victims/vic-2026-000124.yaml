@@ -7,12 +7,13 @@ name: Zobeideh Rahimi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gorgan
+incident_address: ""
 date_of_death: "2026-01-03"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot by Islamic Republic forces with five pellets in the throat, spent a week in ICU before passing away
 source_type: Social Media
 source_social_media_link: https://x.com/banafshehviola/status/2013141432769663222
+child: false
+persian_name: زبیده رحیمی

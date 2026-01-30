@@ -2,36 +2,25 @@
 # Victim Documentation - Hasan Khalaj
 # ==========================================
 
-photo: "vic-2026-000622.jpg"
-name: "Hasan Khalaj"
-
-# Personal & Birth Information
+photo: vic-2026-000622.jpg
+name: Hasan Khalaj
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 28
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Mazandaran"
-incident_city: "Ramsar"
-
-# Death Information
+country: Iran
+incident_province: Mazandaran
+incident_city: Ramsar
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by the forces of the Islamic Republic of Iran.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hyrcanihrm/status/2015024081163162042"
+source_type: Social Media
+source_social_media_link: https://x.com/hyrcanihrm/status/2015024081163162042
+child: false
+persian_name: حسن خلج

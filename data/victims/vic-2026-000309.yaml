@@ -7,12 +7,13 @@ name: Hussein Alboghbeish
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 22
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashour/Mahshahr
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot by security forces during anti-regime protests on Saeedi Street in old Mashour
 source_type: Social Media
 source_social_media_link: https://x.com/bensusaaa/status/2013692656631554475
+child: false
+persian_name: حسين آلبوغبيش

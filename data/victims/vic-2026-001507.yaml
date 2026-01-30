@@ -13,6 +13,7 @@ occupation: عکاس
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: Gunshot
@@ -20,3 +21,4 @@ status: Killed
 description: Shot dead by the Iranian regime
 source_type: Local Report
 source_social_media_link: https://x.com/olilondontv/status/2014842334773391780
+child: false

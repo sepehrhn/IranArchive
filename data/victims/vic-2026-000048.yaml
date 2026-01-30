@@ -2,36 +2,26 @@
 # Victim Documentation - Iman Bahdari
 # ==========================================
 
-photo: "vic-2026-000048.jpg"
-name: "Iman Bahdari"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Markazi"
-incident_city: ""
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-000048.jpg
+name: Iman Bahdari
+persian_name: "ایمان بهداری"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: Markazi
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the back with war bullets during suppression by Islamic Republic forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2014254381303054811"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/allahbakhshii/status/2014254381303054811
+child: false

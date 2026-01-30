@@ -7,17 +7,23 @@ name: Mahan Heydari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 21
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Narmak
+incident_address: Narmak
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: |
+description: |-
   Shot by Islamic Republic forces
+
+
+  Cousin of Amirreza Heydari. Status is 'killed' based on context of the channel 'RememberTheirNames' and the numbering indicating a list of victims.
 source_type: Social Media
 source_social_media_link: https://x.com/the_parham_/status/2014472627633447403, https://x.com/The_parham_/status/2014472627633447403, https://t.me/RememberTheirNames/1309
+child: false
+persian_name: ماهان حیدری

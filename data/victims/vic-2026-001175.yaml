@@ -7,17 +7,23 @@ name: Nadali Dehghan
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Killed during protests
+
+
+  Listed as among the killed in the protests.
 source_type: Social Media
 source_social_media_link: https://x.com/FSeifikaran/status/2011734542428885036
+child: false
+persian_name: نادعلی دهقان

@@ -3,36 +3,24 @@
 # ==========================================
 
 photo: ""
-
-name: "Alireza Arghavani"
-
-# Personal & Birth Information
+name: Alireza Arghavani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed on Saltanat-Abad street in Tehran (Pasdaraan area) at night
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/famildooriiiiii/status/2014373034417598862"
+source_type: Social Media
+source_social_media_link: https://x.com/famildooriiiiii/status/2014373034417598862
+child: false
+persian_name: علیرضا ارغوانی

@@ -7,12 +7,13 @@ name: Ali Bayat
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 38
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: Tehran
+incident_province: Tehran
+incident_city: Narmak
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot with live ammunition by security forces in Haft Howz neighborhood during protests
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2014086798746509403
+source_social_media_link: https://x.com/indypersian/status/2014086798746509403, https://t.me/RememberTheirNames/1446
+child: false
+persian_name: علی بیات

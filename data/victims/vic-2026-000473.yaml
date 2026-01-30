@@ -2,36 +2,28 @@
 # Victim Documentation - Afshin Esfandiari
 # ==========================================
 
-photo: "vic-2026-000473.jpg"
-name: "Afshin Esfandiari"
-
-# Personal & Birth Information
+photo: vic-2026-000473.jpg
+name: Afshin Esfandiari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
+incident_city: Karaj
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: |-
   Shot in the neck during protests
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/avatoday_news/status/2013305126593642751"
+
+  Shot in the neck by security forces during events on 18 Dey in Karaj. He was a final-year architecture student at Ferdows University of Karaj. He was the only child in his family and enjoyed mountaineering. His death was reported on 18 Dey, and his seventh-day ceremony was held jointly with Samaneh Mirzaei.
+source_type: Social Media
+source_social_media_link: https://x.com/avatoday_news/status/2013305126593642751, https://t.me/RememberTheirNames/336, https://x.com/persian_picture/status/2016141323586191490, https://x.com/persian_picture/status/2016141323586191490, https://x.com/Persian_picture/status/2016141323586191490, https://x.com/Persian_picture/status/2016141323586191490, https://x.com/autnews_org/status/2016221677634375867, https://x.com/autnews_org/status/2016221677634375867, https://x.com/anjmotahed/status/2016215925876203972, https://x.com/fuckeduprainman/status/2016217531174760807
+child: false
+persian_name: افشین اسفندیاری

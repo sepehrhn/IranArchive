@@ -7,12 +7,13 @@ name: Amir Bayat
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Karaj
 incident_city: Hamadan
+incident_address: Mehrshahr
 date_of_death: "2026-01-02"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Killed by Islamic Republic regime security forces
 source_type: Social Media
-source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/Daikatuo/status/2007456429049856090
+source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/Daikatuo/status/2007456429049856090, https://x.com/walterakam/status/2016571251636994153
+child: false
+persian_name: امیر بیات

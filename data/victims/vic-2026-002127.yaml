@@ -7,12 +7,13 @@ name: Jaavidanam Shayan Asdalalli
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 28
 occupation: ""
 country: Iran
 incident_province: Lorestan
 incident_city: Azna
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot during protest by the Islamic Republic forces
 source_type: Social Media
 source_social_media_link: https://x.com/noorpahlavi20/status/2014379912275144959
+child: false
+persian_name: جاویدنام شایان اسداللهی

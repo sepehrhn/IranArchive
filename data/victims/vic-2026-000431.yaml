@@ -2,22 +2,25 @@
 # Victim Documentation - Sajad Ordouni Kabir
 # ==========================================
 
-photo: ""
+photo: ''
 name: Sajad Ordouni Kabir
-birth_date: ""
-birth_province: ""
+birth_date: ''
+birth_province: ''
 birth_city: state forces during protests
-gender: ""
+gender: ''
 age: null
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
+incident_province: ''
 incident_city: Sabzevar
-date_of_death: "2026-01-09"
+incident_address: ''
+date_of_death: '2026-01-09'
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Killed by direct fire from state forces during protests
 source_type: Social Media
-source_social_media_link: https://hengaw.net/en/news/2026/01/article-120
+source_social_media_link:
+  - https://hengaw.net/en/news/2026/01/article-120
+child: false

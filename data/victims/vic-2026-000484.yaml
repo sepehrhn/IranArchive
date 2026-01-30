@@ -7,17 +7,23 @@ name: Ali
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Ariashahr
+incident_address: Ariashahr (Sadeghieh)
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Killed during protests
+
+
+  Killed by baton blows. His mother is Nezhat. He is one of two sons of Nezhat who were killed.
 source_type: Social Media
 source_social_media_link: https://x.com/navatarzan52275/status/2014199757309096374, https://x.com/pkhwshhal/status/2015461308989063678
+child: false
+persian_name: علی

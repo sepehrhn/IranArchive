@@ -35,6 +35,7 @@ const searchQuery = ref('');
 const selectedCity = ref<string>();
 const selectedProvince = ref<string>();
 const selectedStatus = ref<string>();
+const selectedCategory = ref<string>();
 const showSubmitDialog = ref(false);
 const submitting = ref(false);
 const submitSuccess = ref(false);
@@ -56,7 +57,7 @@ const availableCities = computed(() => {
     if (selectedProvince.value && provinceCityMap.value[selectedProvince.value]) {
         return provinceCityMap.value[selectedProvince.value];
     }
-    return allCities.value;
+    return []; // Return empty if no province selected
 });
 
 
@@ -102,7 +103,10 @@ const applyFilters = () => {
         q: searchQuery.value,
         city: selectedCity.value,
         province: selectedProvince.value,
-        status: selectedStatus.value
+        city: selectedCity.value,
+        province: selectedProvince.value,
+        status: selectedStatus.value,
+        category: selectedCategory.value
     });
     // Reset scroll position/count
     resetScroll();
@@ -178,8 +182,20 @@ const handleSubmission = async (payload: any) => {
 const killedCount = computed(() => allVictims.value.filter(v => v.status?.toLowerCase() === 'killed').length);
 const missingCount = computed(() => allVictims.value.filter(v => v.status?.toLowerCase() === 'missing').length);
 
+const categoryOptions = computed(() => {
+    const totalMale = allVictims.value.filter(v => v.gender?.toLowerCase() === 'male').length;
+    const totalFemale = allVictims.value.filter(v => v.gender?.toLowerCase() === 'female').length;
+    const totalChild = allVictims.value.filter(v => v.child === true).length;
+
+    return [
+        { label: `Male (${totalMale})`, value: 'Male' },
+        { label: `Female (${totalFemale})`, value: 'Female' },
+        { label: `Children (${totalChild})`, value: 'Child' }
+    ];
+});
+
 // Watchers
-watch([searchQuery, selectedCity, selectedProvince, selectedStatus], () => {
+watch([searchQuery, selectedCity, selectedProvince, selectedStatus, selectedCategory], () => {
     applyFilters();
 });
 
@@ -339,10 +355,10 @@ const showVictimDialog = computed({
                     <Select 
                         v-model="selectedCity" 
                         :options="availableCities" 
-                        placeholder="City" 
+                        :placeholder="selectedProvince ? 'City' : 'Select Province First'" 
                         showClear 
                         class="w-full sm:w-40"
-                        :disabled="availableCities.length === 0"
+                        :disabled="!selectedProvince"
                     />
                     <Select 
                         v-model="selectedStatus" 
@@ -352,6 +368,14 @@ const showVictimDialog = computed({
                         placeholder="Status" 
                         showClear 
                         class="w-full sm:w-32"
+                    />
+                    <SelectButton 
+                        v-model="selectedCategory" 
+                        :options="categoryOptions" 
+                        optionLabel="label"
+                        optionValue="value"
+                        :allowEmpty="true"
+                        class="w-full sm:w-auto text-sm"
                     />
 
                 </div>

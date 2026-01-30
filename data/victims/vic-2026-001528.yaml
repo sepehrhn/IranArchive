@@ -2,17 +2,18 @@
 # Victim Documentation - Amirhossein Kargaran
 # ==========================================
 
-photo: "vic-2026-001528.jpg"
+photo: vic-2026-001528.jpg
 name: Amirhossein Kargaran
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 17
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: "2026-01-23"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Victim of the Islamic Republic's crimes. Described as a 17-year-old teenager.
 source_type: Social Media
 source_social_media_link: https://www.instagram.com/p/DT4F__RAo5U
+child: true
+persian_name: امیرحسین کارگران

@@ -2,36 +2,25 @@
 # Victim Documentation - Yasin Javaidan
 # ==========================================
 
-photo: "vic-2026-000205.jpg"
-name: "Yasin Javaidan"
-
-# Personal & Birth Information
+photo: vic-2026-000205.jpg
+name: Yasin Javaidan
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 20
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Rasht"
-
-# Death Information
+country: Iran
+incident_province: Gilan
+incident_city: Rasht
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Killed by a direct gunshot to the chest, head and neck after occupying a Basij base.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/justchangingun/status/2014888511179259994"
+source_type: Social Media
+source_social_media_link: https://x.com/justchangingun/status/2014888511179259994, https://t.me/RememberTheirNames/648
+child: false
+persian_name: یاسین جاویدان

@@ -7,12 +7,13 @@ name: Farzad Kheirdar
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 37
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Kermanshah
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Lost his life at the hands of state agents during the popular protests in Kermanshah.
 source_type: Social Media
 source_social_media_link: https://x.com/kurdpa_farsi/status/2014092725327454657, https://x.com/hengawo/status/2014088323942256878, https://x.com/HengawO/status/2014088323942256878, https://x.com/KurdistanHRN/status/2014748123747279358, https://t.me/RememberTheirNames/571
+child: false
+persian_name: فرزاد خیردار

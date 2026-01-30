@@ -7,12 +7,13 @@ name: Armin Dehghan
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 27
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Fooladshahr
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot in the throat in front of his home. His body was with his mother until morning, then authorities demanded one billion [currency] for its return and insisted on a declaration that he was a Basiji.
 source_type: Social Media
 source_social_media_link: https://x.com/persianbanoo/status/2014855873315697121
+child: false
+persian_name: آرمین دهقان

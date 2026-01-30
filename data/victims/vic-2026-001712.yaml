@@ -2,17 +2,18 @@
 # Victim Documentation - Jafar Monfared
 # ==========================================
 
-photo: "vic-2026-001712.jpg"
+photo: vic-2026-001712.jpg
 name: Jafar Monfared
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Chalus
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -22,4 +23,6 @@ description: |-
 
   Victim identified in a list of names.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/915
+source_social_media_link: https://t.me/RememberTheirNames/915, https://t.me/persian_picture/4126
+child: false
+persian_name: جعفر منفرد

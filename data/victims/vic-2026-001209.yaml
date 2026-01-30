@@ -7,12 +7,13 @@ name: Saghar Etemadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,4 @@ description: |
   Listed among deaths in protests navigation section
 source_type: Social Media
 source_social_media_link: https://en.wikipedia.org/wiki/2026_Fardis_massacre
+child: false

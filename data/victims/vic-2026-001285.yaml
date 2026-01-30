@@ -2,38 +2,27 @@
 # Victim Documentation - Ali Pour-Emamali
 # ==========================================
 
-photo: "vic-2026-001285.jpg"
-name: "Ali Pour-Emamali"
-
-# Personal & Birth Information
+photo: vic-2026-001285.jpg
+name: Ali Pour-Emamali
 birth_date: ""
 birth_province: ""
-birth_city: "behind during protests"
-gender: ""
-age: 
+birth_city: behind during protests
+gender: Male
+age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Chalus"
-
-# Death Information
+incident_city: Chalous
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: علی پورامام‌علی
-  
-  Shot in the head from behind during protests. Authorities did not allow any ceremonies to be held.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/themoon_7_/status/2015476161652941245"
+  Shot in the head from behind during protests. Authorities did not allow any ceremonies to be held.
+source_type: Social Media
+source_social_media_link: https://x.com/themoon_7_/status/2015476161652941245, https://x.com/MonfaredAshkan/status/2015588372140671198, https://x.com/MonfaredAshkan/status/2015558848174833683, https://x.com/monfaredashkan/status/2015588372140671198, https://x.com/monfaredashkan/status/2015558848174833683, https://t.me/RememberTheirNames/1152, https://t.me/persian_picture/4126
+child: true
+persian_name: علی پورامام‌علی

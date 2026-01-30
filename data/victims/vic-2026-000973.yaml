@@ -7,12 +7,13 @@ name: Mahdi Samavati
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Fasa
+incident_address: ""
 date_of_death: "2025-12-31"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,4 @@ description: |
   Reported killed during protest outside governor's office, though governor denied the report
 source_type: Social Media
 source_social_media_link: https://en.wikipedia.org/wiki/2025–2026_Iranian_protests
+child: false

@@ -2,37 +2,25 @@
 # Victim Documentation - Parsa Madanchian
 # ==========================================
 
-photo: ""
-
-name: "Parsa Madanchian"
-
-# Personal & Birth Information
+photo: vic-2026-002037.jpg
+name: Parsa Madanchian
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Sadeghiyeh"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Sadeghiyeh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by government forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2012960010926440608"
+source_type: Social Media
+source_social_media_link: https://x.com/tavaana/status/2012960010926440608, https://x.com/hengawo/status/2015693244437266940, https://x.com/sssccpp/status/2015846259525861812, https://t.me/RememberTheirNames/237, https://x.com/HeKasrehCrisis/status/2015881985835647146
+child: true
+persian_name: پارسا معدنچیان

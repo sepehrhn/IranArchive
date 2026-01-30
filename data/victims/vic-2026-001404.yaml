@@ -2,38 +2,27 @@
 # Victim Documentation - Aida
 # ==========================================
 
-photo: "vic-2026-001404.jpg"
-name: "Aida"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Female"
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: ""
-date_of_death_precision: "Exact"
-cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001404.jpg
+name: Aida
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Female
+age: null
+occupation: ''
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: ''
+date_of_death: ''
+date_of_death_precision: Exact
+cause_of_death: ''
+status: Killed
 description: |
   Persian Name: ایدا
-  
-  Student of medicine at Tehran University of Medical Sciences, entry year 1401. The tweet implies she is dead.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/siahsefid0/status/2014291597249179818"
+  Student of medicine at Tehran University of Medical Sciences, entry year 1401. The tweet implies she is dead.
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/siahsefid0/status/2014291597249179818
+child: false

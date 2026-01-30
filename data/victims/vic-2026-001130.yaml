@@ -2,22 +2,28 @@
 # Victim Documentation - Mehdi Geranmayeh
 # ==========================================
 
-photo: "vic-2026-001130.jpg"
+photo: vic-2026-001130.jpg
 name: Mehdi GeranMayeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Meydan-e Har
+incident_address: Hor Square
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Murdered by the Islamic Republic terrorists while fighting to liberate Iran.
+
+
+  Died in Meydan-e Har, Tehran in Dey 1404 (late Dec 2025 - Jan 2026). The specific date is inferred from the post number 924 and the typical posting frequency of the channel, combined with the general timeframe of Dey 1404.
 source_type: Social Media
 source_social_media_link: https://x.com/hichkasofficial/status/2014823590269485061, https://t.me/RememberTheirNames/976
+child: false
+persian_name: مهدی گرانمایه

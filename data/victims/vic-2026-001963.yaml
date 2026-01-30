@@ -2,17 +2,18 @@
 # Victim Documentation - Mehdi Allahyari
 # ==========================================
 
-photo: "vic-2026-001963.jpg"
+photo: vic-2026-001963.jpg
 name: Mehdi Allahyari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Qazvin
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: مهدی اللهیاری
 
   Killed during protests.
+
+  Shot in the chest. Was a bodybuilding champion from Qazvin province.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1342
+source_social_media_link: https://t.me/RememberTheirNames/1342, https://x.com/Sssccpp/status/2016585779896537191
+child: false
+persian_name: مهدی اللهیاری

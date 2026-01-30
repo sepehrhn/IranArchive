@@ -2,17 +2,18 @@
 # Victim Documentation - Sohail Tarabli
 # ==========================================
 
-photo: "vic-2026-002267.jpg"
+photo: vic-2026-002267.jpg
 name: Sohail Tarabli
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 19
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Shahriar (Shāhedshahr)
+incident_address: Shāhedshahr
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot in the back with a sniper rifle and killed. The tweet mentions 'IranMassacre' which suggests a connection to the protests.
 source_type: Social Media
 source_social_media_link: https://x.com/pouyajegarvnd/status/2015358422414225835
+child: false
+persian_name: سهیل ترابلی

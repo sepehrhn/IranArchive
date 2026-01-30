@@ -7,12 +7,13 @@ name: Ahmad Hasanzadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 20
 occupation: Basij member
 country: Iran
-incident_province: "Isfahan"
+incident_province: Varzaneh
 incident_city: Ashkehran village
+incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Killed during protests, authorities threatened parents to withhold body and demanded payment for bullet, forced parents to claim he was a Basij member
 source_type: Social Media
 source_social_media_link: https://x.com/visfehan/status/2014326018497012217, https://t.me/RememberTheirNames/632
+child: false
+persian_name: احمد حسن زاده

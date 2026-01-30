@@ -7,12 +7,13 @@ name: Salar Behdari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Arak
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot directly in the heart and neck at 21:30, identified as goalkeeper of Aluminium Sazi Arak football club
 source_type: Social Media
 source_social_media_link: https://x.com/kheradvarzaneh/status/2014428557590561257
+child: false
+persian_name: سالار بهداری

@@ -2,17 +2,18 @@
 # Victim Documentation - Amirhossein Jafari
 # ==========================================
 
-photo: "vic-2026-001875.jpg"
+photo: vic-2026-001875.jpg
 name: Amirhossein Jafari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 22
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Sarcheshmeh Street
+incident_address: Sarcheshmeh Street
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot with live ammunition during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/pe_pe_roni69/status/2015392774741172564, https://t.me/RememberTheirNames/982
+child: false
+persian_name: امیرحسین جعفری

@@ -4,20 +4,23 @@
 
 photo: vic-2026-000954.jpg
 name: Milad Sadeh Miri
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: null
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
+incident_province: ''
 incident_city: Ilam
-date_of_death: "2026-01-08"
+incident_address: ''
+date_of_death: '2026-01-08'
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Killed during protests
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2014688455331086748
+source_social_media_link:
+  - https://x.com/HengawO/status/2014688455331086748
+child: false

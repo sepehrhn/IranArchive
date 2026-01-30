@@ -2,36 +2,26 @@
 # Victim Documentation - Mohammadreza Zamini
 # ==========================================
 
-photo: "vic-2026-000383.png"
-name: "Mohammadreza Zamini"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Female"
+photo: vic-2026-000383.png
+name: Mohammadreza Zamini
+persian_name: "محمدرضا زمینی"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Female
 age: 41
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Golshahr, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Karaj
+incident_address: Golshahr
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with pistol while defending his daughter who was being shot at with pellets
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011864053380010383"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/daikatuo/status/2011864053380010383
+child: false

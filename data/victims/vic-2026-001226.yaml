@@ -7,12 +7,13 @@ name: Sina Maleki
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Kermanshah
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/hekasrehcrisis/status/2015177675464171624
+child: false
+persian_name: سینا ملکی

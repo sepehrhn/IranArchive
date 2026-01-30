@@ -2,17 +2,18 @@
 # Victim Documentation - Darab Behzadi Lor
 # ==========================================
 
-photo: "vic-2026-001912.jpg"
+photo: vic-2026-001912.jpg
 name: Darab Behzadi Lor
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Baharestan
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: داراب بهزادی لر
 
   Shot directly by security forces in Baharestan, Isfahan.
+
+  Killed by live ammunition fired by security forces. His body was kept at home until morning to allow for burial. He was identified as Bakhtiari.
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2015594513016713311
+source_social_media_link: https://x.com/hirman__/status/2015594513016713311, https://x.com/realneo101/status/2016221062682362352
+child: false
+persian_name: داراب بهزادی

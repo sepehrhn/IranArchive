@@ -2,17 +2,18 @@
 # Victim Documentation - Shahab Nouri
 # ==========================================
 
-photo: "vic-2026-002070.png"
+photo: vic-2026-002070.png
 name: Shahab Nouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
-age: null
+gender: Male
+age: 11
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -22,4 +23,6 @@ description: |-
 
   The tweet expresses grief for the mother of Shahab Nouri, implying his death. The phrase 'جنازه بچتو نمیدیم ها' (We won't give you your child's body) suggests a possible refusal to return the body, a tactic sometimes used by authorities.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2015831372863095284, https://x.com/Mtm9920/status/2015879194568212493
+source_social_media_link: https://x.com/hekasrehcrisis/status/2015831372863095284, https://x.com/Mtm9920/status/2015879194568212493, https://x.com/HeKasrehCrisis/status/2015831372863095284, https://x.com/HeKasrehCrisis/status/2015831632566006010, https://t.me/RememberTheirNames/1465, https://x.com/RealMeAban/status/2016622577830002709
+child: true
+persian_name: شهاب نوری

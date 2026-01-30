@@ -2,17 +2,18 @@
 # Victim Documentation - Mohammad Nours
 # ==========================================
 
-photo: "vic-2026-002233.jpg"
+photo: vic-2026-002233.jpg
 name: Mohammad Nours
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/511
+child: false
+persian_name: محمد نورس

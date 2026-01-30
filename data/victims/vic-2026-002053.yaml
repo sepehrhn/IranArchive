@@ -2,17 +2,18 @@
 # Victim Documentation - Reza Najari
 # ==========================================
 
-photo: "vic-2026-002053.jpg"
+photo: vic-2026-002053.jpg
 name: Reza Najari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Afsarieh
+incident_address: Afsarieh
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Victim identified in the post.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/604
+child: false
+persian_name: رضا نجاری

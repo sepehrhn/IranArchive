@@ -2,36 +2,25 @@
 # Victim Documentation - Somayeh Rezaei
 # ==========================================
 
-photo: "vic-2026-000857.jpg"
-name: "Somayeh Rezaei"
-
-# Personal & Birth Information
+photo: vic-2026-000857.jpg
+name: Somayeh Rezaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 30
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Hamadan, Daneshgah Square"
-
-# Death Information
+country: Iran
+incident_province: Daneshgah Square
+incident_city: Hamadan
+incident_address: Daneshgah Square
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot 27 pellets into her head and face and struck multiple times with batons that shattered her skull from behind by armed regime forces during an attack on January 8th.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/marianmeyer0/status/2014655314318987462"
+source_type: Social Media
+source_social_media_link: https://x.com/marianmeyer0/status/2014655314318987462, https://x.com/longlosthills/status/2014719052061520275, https://x.com/damdami/status/2014971508527939875, https://t.me/RememberTheirNames/864, https://x.com/isamanyasin/status/2014735452515766722
+child: false
+persian_name: سمیه رضایی

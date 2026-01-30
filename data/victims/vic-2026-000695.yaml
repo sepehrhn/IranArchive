@@ -2,36 +2,25 @@
 # Victim Documentation - Milad Feizi
 # ==========================================
 
-photo: "vic-2026-000695.jpg"
-name: "Milad Feizi"
-
-# Personal & Birth Information
+photo: vic-2026-000695.jpg
+name: Milad Feizi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 28
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
+incident_city: Kermanshah
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with live ammunition in the Masken neighborhood of Kermanshah.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/indypersian/status/2014730424358944897"
+source_type: Social Media
+source_social_media_link: https://x.com/indypersian/status/2014730424358944897
+child: false
+persian_name: میلاد فیضی

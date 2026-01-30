@@ -2,17 +2,18 @@
 # Victim Documentation - Mohsen Moghadam
 # ==========================================
 
-photo: "vic-2026-001768.jpg"
+photo: vic-2026-001768.jpg
 name: Mohsen Moghadam
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 31
 occupation: ""
 country: Iran
 incident_province: Qazvin
 incident_city: Abgarm
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed by direct gunfire from IRGC forces. His body was returned to his family after three days under severe security pressure. He was married with a three-year-old daughter.
 source_type: Social Media
 source_social_media_link: https://x.com/Tavaana/status/2015475539566629345, https://t.me/RememberTheirNames/1087
+child: false
+persian_name: محسن مقیمی

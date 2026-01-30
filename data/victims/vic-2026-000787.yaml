@@ -2,36 +2,25 @@
 # Victim Documentation - Pouria Rahimi Bahmanyari Lor
 # ==========================================
 
-photo: "vic-2026-000787.jpg"
-name: "Pouria Rahimi Bahmanyari Lor"
-
-# Personal & Birth Information
+photo: vic-2026-000787.jpg
+name: Pouria Rahimi Bahmanyari Lor
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mamasani"
-
-# Death Information
+incident_city: Mamasani
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces in his personal car
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hirman__/status/2014476315320021178"
+source_type: Social Media
+source_social_media_link: https://x.com/hirman__/status/2014476315320021178
+child: false
+persian_name: پوریا رحیمی‌بهمنیاری لر

@@ -2,17 +2,18 @@
 # Victim Documentation - Mahmoud Sheykhiyan
 # ==========================================
 
-photo: "vic-2026-001722.jpg"
+photo: vic-2026-001722.jpg
 name: Mahmoud Sheykhiyan
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 49
 occupation: ""
 country: Iran
-incident_province: "Isfahan"
+incident_province: اصفهان (Isfahan)
 incident_city: شهرضا (Shahreza)
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -22,4 +23,6 @@ description: |-
 
   Shot with live ammunition during protests on the second night of the call for protests on 19 Dey, in the presence of his 15-year-old daughter. His family was not allowed to hold a funeral ceremony.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2016003757998289080, https://x.com/HeKasrehCrisis/status/2016003757998289080, https://x.com/persephone7597/status/2016070902425805239
+source_social_media_link: https://x.com/hekasrehcrisis/status/2016003757998289080, https://x.com/HeKasrehCrisis/status/2016003757998289080, https://x.com/persephone7597/status/2016070902425805239, https://t.me/RememberTheirNames/1460
+child: false
+persian_name: محمود شیخیان

@@ -2,37 +2,24 @@
 # Victim Documentation - Zahra Eyeinejad
 # ==========================================
 
-photo: "vic-2026-001472.jpeg"
-
-name: "Zahra Eyeinejad"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Female"
+photo: vic-2026-001472.jpeg
+name: Zahra Eyeinejad
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Female
 age: 28
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Razavi Khorasan"
-incident_city: "مشهد"
-
-# Death Information
-date_of_death: "2026-01-22"
-date_of_death_precision: "Exact"
-cause_of_death: "Execution"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+occupation: ''
+country: Iran
+incident_province: Razavi Khorasan
+incident_city: Mashhad
+incident_address: ''
+date_of_death: '2026-01-22'
+date_of_death_precision: Exact
+cause_of_death: Execution
+status: Killed
+description: ''
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

@@ -7,12 +7,13 @@ name: Ali Anbarestani
 birth_date: ""
 birth_province: ""
 birth_city: "1988"
-gender: "Male"
+gender: Male
 age: 37
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Sabzevar
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Born in 1988. Resident of Tehran. Died for the freedom of his homeland after being shot in the head.
 source_type: Social Media
-source_social_media_link: https://x.com/iranrights_org/status/2009327674204819557, https://x.com/manotonews/status/2012917904694468990, https://x.com/banafshehviola/status/2012950299359506943, https://x.com/Daikatuo/status/2011834019403677736
+source_social_media_link: https://x.com/iranrights_org/status/2009327674204819557, https://x.com/manotonews/status/2012917904694468990, https://x.com/banafshehviola/status/2012950299359506943, https://x.com/Daikatuo/status/2011834019403677736, https://t.me/RememberTheirNames/148
+child: false
+persian_name: علی عنبرستانی

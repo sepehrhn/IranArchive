@@ -2,38 +2,27 @@
 # Victim Documentation - Sajjad Hossein Pour
 # ==========================================
 
-photo: "vic-2026-001348.jpg"
-name: "Sajjad Hossein Pour"
-
-# Personal & Birth Information
+photo: vic-2026-001348.jpg
+name: Sajjad Hossein Pour
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: سجاد حسین پور
-  
-  Young Lor killed in Tehran.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/salarvandn21943/status/2015449203435004176"
+  Young Lor killed in Tehran.
+source_type: Social Media
+source_social_media_link: https://x.com/salarvandn21943/status/2015449203435004176, https://x.com/SalarvandN21943/status/2015449203435004176, https://t.me/RememberTheirNames/1560
+child: false
+persian_name: سجاد حسین پور

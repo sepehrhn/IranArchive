@@ -2,37 +2,25 @@
 # Victim Documentation - Armin Jashninejad
 # ==========================================
 
-photo: "vic-2026-001514.jpeg"
-
-name: "Armin Jashninejad"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001514.jpeg
+name: Armin Jashninejad
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 23
-occupation: "کارگر پتروشیمی ماهشهر"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Khuzestan"
-incident_city: "ماههشر"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: کارگر پتروشیمی ماهشهر
+country: Iran
+incident_province: Khuzestan
+incident_city: Mahshahr
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   ‏آرمین_جشنی_نژاد‬⁩، ۲۳ ساله و کارگر پتروشیمی ماهشهر، در ساعت ۲۲:۳۰ روز ۱۹ دی ۱۴۰۴ در محدوده فرهنگسرای ⁧‫ماهشهر‬⁩، با شلیک مستقیم گلوله جنگی ماموران نیروی انتظامی کشته شد.
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

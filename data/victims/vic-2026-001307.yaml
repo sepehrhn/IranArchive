@@ -2,38 +2,27 @@
 # Victim Documentation - Mohammad Matin Ranjkesh
 # ==========================================
 
-photo: "vic-2026-001307.jpg"
-name: "Mohammad Matin Ranjkesh"
-
-# Personal & Birth Information
+photo: vic-2026-001307.jpg
+name: Mohammad Matin Ranjkesh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Isfahan
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: محمد متین رنجکش
-  
-  Shot in the carotid artery with pellets during protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://www.instagram.com/p/dt69mz9ddo6"
+  Shot in the carotid artery with pellets during protests.
+source_type: Social Media
+source_social_media_link: https://www.instagram.com/p/dt69mz9ddo6, https://www.instagram.com/p/DT69mz9DDo6, https://x.com/anjmotahed/status/2015883038740107393, https://x.com/missmarpel75/status/2015357313180143678, https://x.com/persephone7597/status/2016069157033320514, https://t.me/RememberTheirNames/1338
+child: false
+persian_name: محمد متین رنجکش

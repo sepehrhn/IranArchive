@@ -2,17 +2,18 @@
 # Victim Documentation - Mr. Jafari
 # ==========================================
 
-photo: "vic-2026-001775.png"
+photo: vic-2026-001775.png
 name: Mr. Jafari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 68
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Malekshahr
+incident_address: Malekshahr
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Innocently killed in front of his grocery store. He had two children and was from Deligan neighborhood.
 source_type: Social Media
 source_social_media_link: https://x.com/iranintlbrk/status/2013201463900618779, https://x.com/visfehan/status/2015492119054450877
+child: false
+persian_name: جعفری

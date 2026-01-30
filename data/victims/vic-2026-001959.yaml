@@ -2,17 +2,18 @@
 # Victim Documentation - Masoud Rezaei No
 # ==========================================
 
-photo: "vic-2026-001959.jpg"
+photo: vic-2026-001959.jpg
 name: Masoud Rezaei No
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Karaj
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: مسعود رضایی‌ نو
 
   Victim identified in a list of names.
+
+  Killed during protests (limited details available)
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1401
+source_social_media_link: https://x.com/rahainbloom/status/2013920287339978962, https://t.me/RememberTheirNames/1401
+child: false
+persian_name: مسعود رضایی

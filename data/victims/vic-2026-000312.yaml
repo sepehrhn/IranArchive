@@ -7,12 +7,13 @@ name: Jafar Rezaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Mazandaran"
+incident_province: Savadkuh
 incident_city: Zirab
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed during the national uprising of the people of Zirab Savadkuh
 source_type: Social Media
 source_social_media_link: https://x.com/indypersian/status/2014764874279080399
+child: false
+persian_name: جعفر رضایی

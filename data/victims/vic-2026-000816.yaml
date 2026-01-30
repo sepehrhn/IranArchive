@@ -13,6 +13,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Karaj
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot directly with a bullet from behind by government agents in front of his wife and mother during popular protests
 source_type: Social Media
 source_social_media_link: https://x.com/manotonews/status/2013854073272049896, https://t.me/RememberTheirNames/477
+child: false
+persian_name: سعید اردشیر

@@ -2,17 +2,18 @@
 # Victim Documentation - Nader Mohammadi Abdvand
 # ==========================================
 
-photo: "vic-2026-002241.jpg"
+photo: vic-2026-002241.jpg
 name: Nader Mohammadi Abdvand
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 35
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Juyabad
+incident_address: Juyabad
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Died due to direct shooting by Khamenei's 'wild animals'. Father of three children (two daughters and one son). His body was buried in the Khomeini Shahr cemetery.
 source_type: Social Media
 source_social_media_link: https://x.com/SalarvandN21943/status/2015433254803751162
+child: false
+persian_name: نادر محمدی عبدوند

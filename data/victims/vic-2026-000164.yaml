@@ -2,36 +2,25 @@
 # Victim Documentation - Seyed Alireza Mousavi
 # ==========================================
 
-photo: "vic-2026-000164.jpg"
-name: "Seyed Alireza Mousavi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: "severe bleeding"
-gender: "Male"
+photo: vic-2026-000164.jpg
+name: Seyed Alireza Mousavi
+birth_date: ''
+birth_province: ''
+birth_city: severe bleeding
+gender: Male
 age: 23
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Isfahan, Steel City (فولادشهر)"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Isfahan
+incident_address: Fooladshahr
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with pellets by security forces on a motorcycle. More than 50 pellets hit his body, impacting his spinal cord and heart, leading to death from severe bleeding.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014088323942256878"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/hengawo/status/2014088323942256878
+child: false

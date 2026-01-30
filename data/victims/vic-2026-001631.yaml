@@ -2,17 +2,18 @@
 # Victim Documentation - Abolfazl Mousavi Lor
 # ==========================================
 
-photo: "vic-2026-001631.jpg"
+photo: vic-2026-001631.jpg
 name: Abolfazl Mousavi Lor
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Fooladshahr
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot and killed by security forces in his hometown.
 source_type: Social Media
 source_social_media_link: https://x.com/hirman__/status/2016015621213786495
+child: false
+persian_name: ابولفضل موسوی لر

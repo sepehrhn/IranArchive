@@ -2,17 +2,18 @@
 # Victim Documentation - Naeem Arzagi
 # ==========================================
 
-photo: "vic-2026-001776.jpg"
+photo: vic-2026-001776.jpg
 name: Naeem Arzagi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 39
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Shahr-e Jadid-e Andisheh Phase 3
+incident_address: Andisheh Phase 3
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed by direct gunfire from government forces during public protests.
 source_type: Social Media
 source_social_media_link: https://x.com/manotonews/status/2015531874106671360
+child: false
+persian_name: نعیم ارزقی

@@ -7,12 +7,13 @@ name: Navid Alemchehreh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 40
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Isfahan
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot directly by government forces during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2012880153089904832, https://x.com/allahbakhshii/status/2013705384385540226
+source_social_media_link: https://x.com/manotonews/status/2012880153089904832, https://x.com/allahbakhshii/status/2013705384385540226, https://t.me/RememberTheirNames/283
+child: false
+persian_name: نوید عالم‌چهره

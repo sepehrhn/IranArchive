@@ -7,17 +7,23 @@ name: Parnian
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 14
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Killed during protests (specific circumstances not detailed)
+
+
+  Killed by the Islamic Republic along with his 19-year-old brother, Amirhossein Eshghi.
 source_type: Social Media
-source_social_media_link: https://x.com/loabatk/status/2012032069300568238, https://x.com/abelbalb/status/2015609855709413790
+source_social_media_link: https://x.com/loabatk/status/2012032069300568238
+child: true
+persian_name: پرنیان

@@ -7,12 +7,13 @@ name: Aligholi Mokhtari Jooneghani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Jooneghan
+incident_address: ""
 date_of_death: "2026-01-13"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot multiple times by security forces and IRGC intelligence at a checkpoint while returning home from work. He was severely injured and later abducted from the hospital by security forces and clerics. His body was returned to his family after his death.
 source_type: Social Media
 source_social_media_link: https://x.com/Tavaana/status/2014696197261557857
+child: false
+persian_name: علیقلی مختاری جونقانی

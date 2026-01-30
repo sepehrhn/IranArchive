@@ -3,38 +3,29 @@
 # ==========================================
 
 photo: ""
-
-name: "Emad"
-
-# Personal & Birth Information
+name: Emad
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Lahijan"
-
-# Death Information
+incident_city: Lahijan
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
+status: Killed
+description: |-
   Persian Name: عماد
-  
+
   Shot on Thursday, 18 Dey 1404
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pkhwshhal/status/2015461308989063678"
+
+  Shot and killed. His mother is Nezhat. He is one of two sons of Nezhat who were killed.
+source_type: Social Media
+source_social_media_link: https://x.com/pkhwshhal/status/2015461308989063678
+child: false
+persian_name: عماد

@@ -2,38 +2,27 @@
 # Victim Documentation - Ebrahim Mostafapour
 # ==========================================
 
-photo: "vic-2026-001295.jpg"
-name: "Ebrahim Mostafapour"
-
-# Personal & Birth Information
+photo: vic-2026-001295.jpg
+name: Ebrahim Mostafapour
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Mazandaran"
-incident_city: "Babol"
-
-# Death Information
+country: Iran
+incident_province: Mazandaran
+incident_city: Babol
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: ابراهیم مصطفی‌پور
-  
-  Shot by Islamic Republic suppressors during protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/indypersian/status/2015201399416537326"
+  Shot by Islamic Republic suppressors during protests.
+source_type: Social Media
+source_social_media_link: https://x.com/indypersian/status/2015201399416537326
+child: false
+persian_name: ابراهیم مصطفی‌پور

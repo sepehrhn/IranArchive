@@ -2,38 +2,27 @@
 # Victim Documentation - Benjamin Aghdami
 # ==========================================
 
-photo: "vic-2026-001248.jpg"
-name: "Benjamin Aghdami"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001248.jpg
+name: Benjamin Aghdami
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 17
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Fardis, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Karaj
+incident_address: Fardis
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: بنیامین اقدامی
-  
-  Died in Kachoii prison after being injured during the suppression of protests. His body was held in Kahrizak for five days before being returned to his family under pressure and security conditions.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2015325025520529598"
+  Died in Kachoii prison after being injured during the suppression of protests. His body was held in Kahrizak for five days before being returned to his family under pressure and security conditions.
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/tavaana/status/2015325025520529598
+child: true

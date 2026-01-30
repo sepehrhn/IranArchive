@@ -2,38 +2,25 @@
 # Victim Documentation - Farzin Poost Eshkan
 # ==========================================
 
-photo: "vic-2026-001501.png"
-
-name: "Farzin Poost Eshkan"
-
-# Personal & Birth Information
+photo: vic-2026-001501.png
+name: Farzin Poost Eshkan
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 25
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: ""
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Isfahan
+incident_address: ""
 date_of_death: "2026-01-09"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   آرایشگر بود و در شامگاه ۱۹ دی ۱۴۰۴ در اعتراضات اصفهان با شلیک مستقیم گلوله کشته شد.
   He was a hairdresser and was killed by a direct gunshot during the Isfahan protests on the evening of January 9, 2026.
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link: https://x.com/i/status/2015349657031836157, https://t.me/poshtpardeha/248938, https://x.com/VIsfehan/status/2014694742840230141
+child: false

@@ -2,36 +2,25 @@
 # Victim Documentation - Amir Teimouri-Rad
 # ==========================================
 
-photo: "vic-2026-000244.jpg"
-name: "Amir Teimouri-Rad"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-000244.jpg
+name: Amir Teimouri-Rad
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 42
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Fardis, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Karaj
+incident_address: Fardis
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by suppressive forces during protests, killed along with his brother and nephew.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2014260965966295086"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/tavaana/status/2014260965966295086
+child: false

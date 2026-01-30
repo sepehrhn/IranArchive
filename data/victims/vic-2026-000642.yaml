@@ -7,12 +7,13 @@ name: Javid Eskandari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot directly by Islamic radicals outside a pharmacy while collecting medicine.
 source_type: Social Media
 source_social_media_link: https://x.com/shabgardan66/status/2014778200841224300
+child: false
+persian_name: جاوید اسکندری

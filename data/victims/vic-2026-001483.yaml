@@ -2,37 +2,25 @@
 # Victim Documentation - Bahador Rasouli
 # ==========================================
 
-photo: ""
-
-name: "Bahador Rasouli"
-
-# Personal & Birth Information
+photo: vic-2026-2139781.jpg
+name: Bahador Rasouli
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 40
-occupation: "دیپلم- شغل آزاد"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Gilan"
-incident_city: "رشت"
-
-# Death Information
+occupation: دیپلم- شغل آزاد
+country: Iran
+incident_province: Gilan
+incident_city: Rasht
+incident_address: ""
 date_of_death: "2026-01-09"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   در شهرداری رشت بهش توسط نیروهای حکومت شلیک شد و در بیمارستان درگذشت. جنازه رو با حضور مامورها و با شروط غیرانسانی به خانواده تحویل دادند و شبانه بدون مراسم دفن کردند.
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link: https://x.com/hyrcanihrm/status/2016460943966740570
+child: false
+persian_name: بهادر رسولی

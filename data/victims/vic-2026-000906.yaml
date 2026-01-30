@@ -2,36 +2,25 @@
 # Victim Documentation - Mohammadreza Khabiri
 # ==========================================
 
-photo: "vic-2026-000906.jpg"
-name: "Mohammadreza Khabiri"
-
-# Personal & Birth Information
+photo: vic-2026-000906.jpg
+name: Mohammadreza Khabiri
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 18
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protest on Friday
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/maryamtorabikia/status/2014786719392870448"
+source_type: Social Media
+source_social_media_link: https://x.com/maryamtorabikia/status/2014786719392870448, https://x.com/HeKasrehCrisis/status/2015868368553656345
+child: false
+persian_name: محمدرضا خبیری

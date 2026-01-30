@@ -7,12 +7,13 @@ name: Mostafa Azizi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 42
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Islamshahr
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Wrestler who died during protests (described as one of thousands who 'left and never returned')
 source_type: Social Media
-source_social_media_link: https://x.com/loabatk/status/2011929857500778771, https://x.com/avatoday_news/status/2012146523073823142, https://x.com/avatoday_news/status/2015851572278767878
+source_social_media_link: https://x.com/loabatk/status/2011929857500778771, https://x.com/avatoday_news/status/2012146523073823142, https://x.com/avatoday_news/status/2015851572278767878, https://t.me/RememberTheirNames/225
+child: false
+persian_name: مصطفی عزیزی

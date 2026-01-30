@@ -7,12 +7,13 @@ name: Hajar Eshaqi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,4 @@ description: |
   Shot dead by the Iranian regime
 source_type: Social Media
 source_social_media_link: https://x.com/olilondontv/status/2014842334773391780
+child: false

@@ -2,36 +2,25 @@
 # Victim Documentation - Mohammad Jabari
 # ==========================================
 
-photo: "vic-2026-000054.jpg"
-name: "Mohammad Jabari"
-
-# Personal & Birth Information
+photo: vic-2026-000054.jpg
+name: Mohammad Jabari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: 27
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Karaj, Mespah neighborhood"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Karaj
+incident_address: Mespah neighborhood
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot four times in the head and body during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/afioriiiiom/status/2014634354824106410"
+source_type: Social Media
+source_social_media_link: https://x.com/afioriiiiom/status/2014634354824106410, https://x.com/abhaddadii/status/2012993637005627689, https://x.com/hengawo/status/2012997053215899934, https://x.com/iranwire/status/2014235005241729082, https://x.com/iranwire/status/2014339406841151834, https://x.com/manotonews/status/2014709124034887998, https://x.com/dadban4/status/2014545944528765314, https://x.com/HengawO/status/2012546870782914758, https://x.com/HengawO/status/2012997053215899934, https://x.com/KurdistanHRN/status/2010377088927138216, https://x.com/kurdpa_farsi/status/2015041026809901526, https://x.com/HengawO/status/2015006944679862461, https://x.com/ManotoNews/status/2014709124034887998, https://t.me/RememberTheirNames/1007, https://t.me/RememberTheirNames/500, https://x.com/IranNewsAgency0/status/2016880036070994084
+child: false
+persian_name: محمد جعفری

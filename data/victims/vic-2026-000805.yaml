@@ -7,12 +7,13 @@ name: Reza Shahrivar
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 23
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Noorabad Mamasani (Zagros region)
+incident_address: Zagros region
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot from behind by someone inside a Basij base; the bullet entered his heart.
 source_type: Social Media
 source_social_media_link: https://x.com/manotonews/status/2014216456414822411, https://x.com/isamanyasin/status/2014435905382064630, https://x.com/missmarpel75/status/2014631758013022327, https://x.com/ManotoNews/status/2014216456414822411, https://t.me/RememberTheirNames/487
+child: false
+persian_name: رضا شهریور

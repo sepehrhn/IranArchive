@@ -2,40 +2,29 @@
 # Victim Documentation - Nasim Pouraghaei
 # ==========================================
 
-photo: "vic-2026-000001.jpeg"
-
-name: "Nasim Pouraghaei"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Female"
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-000001.jpeg
+name: Nasim Pouraghaei
+persian_name: "نسیم پورآقایی"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Female
+age: null
+occupation: ''
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Nasim Pouraghaei, mother of two, was shot dead on January 8, 2026 in Sadeghiyeh, Tehran.
   She was deliberately targeted with live ammunition to the neck by the regime's forces during the protests.
   According to her family's account, on that night, her husband was forced to carry her lifeless body in his arms for more than an hour, 
   because security forces routinely seize the bodies and refuse to return them to their families.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2011968614891422054?s=20"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/longlosthills/status/2011968614891422054?s=20
+child: false

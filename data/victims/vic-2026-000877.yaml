@@ -7,12 +7,13 @@ name: ZeinabFard
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 38
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Varamin
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,4 @@ description: |
   Shot in the head by a regime sniper during protests
 source_type: Social Media
 source_social_media_link: https://x.com/soranmansournia/status/2013395081558966690
+child: false

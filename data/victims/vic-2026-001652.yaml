@@ -2,17 +2,18 @@
 # Victim Documentation - Amir Zomorodi
 # ==========================================
 
-photo: "vic-2026-001652.jpg"
+photo: vic-2026-001652.jpg
 name: Amir Zomorodi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 27
 occupation: ""
 country: Iran
-incident_province: "Alborz"
+incident_province: Karaj
 incident_city: Fardis
+incident_address: Fardis
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Initially shot in the leg with live ammunition and injured. When his mother went to the hospital to see him, security forces shot him twice in the abdomen, leading to his death. He was his mother's only child.
 source_type: Social Media
 source_social_media_link: https://x.com/FSeifikaran/status/2015955691115000152, https://t.me/RememberTheirNames/1052
+child: false
+persian_name: امیر زمردی

@@ -2,23 +2,24 @@
 # Victim Documentation - Mohammad Mousavizadeh
 # ==========================================
 
-photo: "vic-2026-001998.jpg"
+photo: vic-2026-001998.jpg
 name: Mohammad Mousavizadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Arak
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
 description: |+
-  Persian Name: محمد موسوی‌زاده
-
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1064
+child: false
+persian_name: محمد موسوی‌زاده

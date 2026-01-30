@@ -7,12 +7,13 @@ name: Tina Hosseini
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 16
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gorgan
+incident_address: ""
 date_of_death: "2025-12-28"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed by government forces during protests
 source_type: Social Media
 source_social_media_link: https://x.com/alitagh30207454/status/2013629468783386768
+child: true
+persian_name: تینا حسینی

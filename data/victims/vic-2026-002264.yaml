@@ -2,17 +2,18 @@
 # Victim Documentation - Shayan Shekari
 # ==========================================
 
-photo: "vic-2026-002264.jpg"
+photo: vic-2026-002264.jpg
 name: Shayan Shekari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Mentioned as one of the deceased from the Taekwondo community, but specific details of his death are not provided in this text.
 source_type: Social Media
 source_social_media_link: https://x.com/iranintlsport/status/2015340504821506100
+child: false
+persian_name: شایان شکاری

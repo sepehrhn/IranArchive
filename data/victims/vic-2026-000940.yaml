@@ -2,36 +2,26 @@
 # Victim Documentation - Hassan-Ali Noorzi
 # ==========================================
 
-photo: "vic-2026-000940.jpg"
-name: "Hassan-Ali Noorzi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: "Kermanshah"
-gender: ""
-age: 
-occupation: "worker"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-000940.jpg
+name: Hassan-Ali Noorzi
+persian_name: "حسن‌علی نورزی"
+birth_date: ''
+birth_province: ''
+birth_city: Kermanshah
+gender: ''
+age: null
+occupation: worker
+country: Iran
+incident_province: ''
+incident_city: Tehran
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Died during nationwide protests, was a worker at a hotel in Mashhad from Kermanshah
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hershrahnaward/status/2014296179274579979"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/hershrahnaward/status/2014296179274579979
+child: false

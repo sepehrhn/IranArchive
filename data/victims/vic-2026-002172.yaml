@@ -2,17 +2,18 @@
 # Victim Documentation - Ali Akbar Tayebi
 # ==========================================
 
-photo: "vic-2026-002172.jpg"
+photo: vic-2026-002172.jpg
 name: Ali Akbar Tayebi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 45
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Qazvin
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed by live ammunition while holding hands with his wife. Father of an 8-year-old daughter.
 source_type: Social Media
 source_social_media_link: https://x.com/captnlee/status/2014841356984738084
+child: false
+persian_name: علی‌اکبر طیبی

@@ -7,12 +7,13 @@ name: Nima Parsa
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 27
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Near Vanak Square
+incident_address: Near Vanak Square
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Killed by live ammunition fired by government forces during protests, also known as Mohammadamin Parsa, former University of Bologna student and Italian-language instructor
 source_type: Social Media
 source_social_media_link: https://x.com/dadban4/status/2011466095417282746, https://hengaw.net/en/news/2026/01/article-123-1, https://x.com/longlosthills/status/2012173489013219629, https://x.com/loabatk/status/2011979088546693292, https://x.com/manotonews/status/2013538257846350243, https://x.com/Daikatuo/status/2011834019403677736, https://x.com/pardis__rabiee/status/2015903285924815161
+child: false
+persian_name: نیما پارسا

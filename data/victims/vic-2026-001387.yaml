@@ -2,38 +2,27 @@
 # Victim Documentation - Mohammad Talebi Targhi
 # ==========================================
 
-photo: "vic-2026-001387.jpg"
-name: "Mohammad Talebi Targhi"
-
-# Personal & Birth Information
+photo: vic-2026-001387.jpg
+name: Mohammad Talebi Targhi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Behesht-e Zahra"
-
-# Death Information
+incident_city: Tehran
+incident_address: Behesht-e Zahra
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: محمد طالبی طرقی
-  
-  Killed, buried in Behesht-e Zahra cemetery
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/biarosh/status/2014649055125688777"
+  Killed, buried in Behesht-e Zahra cemetery
+source_type: Social Media
+source_social_media_link: https://x.com/biarosh/status/2014649055125688777, https://x.com/Biarosh/status/2014649055125688777
+child: false
+persian_name: جاویدنام محمد طالبی طرقی

@@ -2,17 +2,18 @@
 # Victim Documentation - Mohammad Asadi
 # ==========================================
 
-photo: "vic-2026-001591.jpg"
+photo: vic-2026-001591.jpg
 name: Mohammad Asadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: null
+gender: Male
+age: 36
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Isfahan
+incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: محمد اسدی
 
   Killed during protests.
+
+  From Kahrizsang area of Isfahan. Commemorated with 'eternal name' phrase suggesting death during protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1009
+source_social_media_link: https://t.me/RememberTheirNames/1009, https://x.com/visfehan/status/2016463603541438802
+child: false
+persian_name: محمد اسدی

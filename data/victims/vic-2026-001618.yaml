@@ -2,17 +2,18 @@
 # Victim Documentation - Seyed Mohammad Yasin Davoodnabi
 # ==========================================
 
-photo: "vic-2026-001618.jpg"
+photo: vic-2026-001618.jpg
 name: Seyed Mohammad Yasin Davoodnabi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 17
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed during protests in Tehran in Dey 1404 (late Dec 2025 - Jan 2026). The specific date is inferred from the Telegram post number (1241) and the typical posting frequency, placing it around January 10th, 2026.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1308
+child: true
+persian_name: سید محمدیاسین داوودنبی

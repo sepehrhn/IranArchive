@@ -7,12 +7,13 @@ name: Majid Danesh [Daneshwah]
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Manager of Solo restaurant in Hashemiyeh, Mashhad. Identified as one of those killed during the uprising on 18 and 19 Dey.
 source_type: Social Media
 source_social_media_link: https://x.com/FarhadiIvar/status/2014485324546691419
+child: false
+persian_name: مجید دانش [دانشخواه]

@@ -2,17 +2,18 @@
 # Victim Documentation - Pouya Astadi
 # ==========================================
 
-photo: "vic-2026-002247.jpg"
+photo: vic-2026-002247.jpg
 name: Pouya Astadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Esfarayen
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Listed as killed in Esfarayen.
 source_type: Social Media
 source_social_media_link: https://x.com/yaldarta/status/2014946096523481285
+child: false
+persian_name: پویا استادی

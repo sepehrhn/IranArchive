@@ -2,36 +2,26 @@
 # Victim Documentation - Mohammad Reza Davashi Bakhtiari
 # ==========================================
 
-photo: "vic-2026-001159.jpg"
-name: "Mohammad Reza Davashi Bakhtiari"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Yazdan-Shahr, Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001159.jpg
+name: Mohammad Reza Davashi Bakhtiari
+persian_name: "محمدرضا دواشی بختیاری"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Yazdanshahr
+incident_address: Isfahan
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests in Isfahan. Exact date and circumstances not specified.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/foreverybd/status/2013209531367522740"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/foreverybd/status/2013209531367522740
+child: false

@@ -7,17 +7,22 @@ name: Ahmad Shokrpour
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 60
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Punak
+incident_address: Punak
 date_of_death: "2026-01-11"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: |
+description: |-
   Shot by the forces of the Islamic Republic regime during protests.
+
+
+  Shot by the forces of the Islamic Republic regime. His niece stated he was killed with a direct shot.
 source_type: Social Media
 source_social_media_link: https://x.com/longlosthills/status/2015041283434168517
+child: false

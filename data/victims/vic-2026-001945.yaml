@@ -2,17 +2,18 @@
 # Victim Documentation - Javid Rezaei
 # ==========================================
 
-photo: "vic-2026-001945.jpg"
+photo: vic-2026-001945.jpg
 name: Javid Rezaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 17
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Zanjan
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: جاوید رضایی
 
   Shot and killed by security forces. He was a student.
+
+  A 17-year-old student from Zanjan, killed by a gunshot from regime suppressors.
 source_type: Social Media
-source_social_media_link: https://x.com/editclipi/status/2015806216497238343, https://x.com/EditclipI/status/2015806216497238343, https://t.me/RememberTheirNames/1243
+source_social_media_link: https://x.com/editclipi/status/2015806216497238343, https://x.com/EditclipI/status/2015806216497238343, https://t.me/RememberTheirNames/1243, https://x.com/i/status/2015806216497238343
+child: true
+persian_name: جاوید رضایی

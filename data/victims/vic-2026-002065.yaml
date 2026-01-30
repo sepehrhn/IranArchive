@@ -2,17 +2,18 @@
 # Victim Documentation - Sajjad Ghanbari
 # ==========================================
 
-photo: "vic-2026-002065.jpg"
+photo: vic-2026-002065.jpg
 name: Sajjad Ghanbari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 49
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gorgan
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed by a sniper from the Islamic Republic's forces. The shooting was carried out from the top of the Sarmaye Tower. Security agencies pressured the family to claim he was a Basiji, making the handover of his body conditional on accepting this narrative. Family and friends insist he was a protester seeking his rights and had no affiliation with government institutions.
 source_type: Social Media
 source_social_media_link: https://x.com/hyrcanihrm/status/2015823014424621474, https://x.com/HyrcaniHRM/status/2015823014424621474
+child: false
+persian_name: سجاد قنبری

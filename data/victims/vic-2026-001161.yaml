@@ -7,12 +7,13 @@ name: Mohammad Reza Mar'ali
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Fardis
+incident_address: Fardis
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Killed by Islamic Republic forces who shot him in the chest with a military bullet.
 source_type: Social Media
 source_social_media_link: https://x.com/meylooouu/status/2014826069883552185
+child: false
+persian_name: محمد رضا مرادعلی

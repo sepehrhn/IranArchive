@@ -7,12 +7,13 @@ name: Mostafa
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 15
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Azna
+incident_address: ""
 date_of_death: "2025-12-31"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,4 @@ description: |
   Killed alongside Shayan Asadollahi and Vahab Musavi/Ghaedi during protests
 source_type: Social Media
 source_social_media_link: https://en.wikipedia.org/wiki/Killing_of_Shayan_Asadollahi
+child: true

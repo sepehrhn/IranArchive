@@ -2,17 +2,18 @@
 # Victim Documentation - Amirhossein Khodadadi
 # ==========================================
 
-photo: "vic-2026-001876.jpg"
+photo: vic-2026-001876.jpg
 name: Amirhossein Khodadadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 22
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Najafabad
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   One of the killed during protests. Heartbreaking images of the scene of his killing have reached IranWire.
 source_type: Social Media
 source_social_media_link: https://x.com/dadban4/status/2015531883837202477, https://x.com/i/status/2015786609430417908, https://x.com/iranwire/status/2015786609430417908, https://t.me/RememberTheirNames/1045
+child: false
+persian_name: امیرحسین خدادادئی

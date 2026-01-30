@@ -2,17 +2,18 @@
 # Victim Documentation - Parham Davoodi Kashani
 # ==========================================
 
-photo: "vic-2026-001782.jpg"
+photo: vic-2026-001782.jpg
 name: Parham Davoodi Kashani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 19
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Isfahan
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   An 18-year-old citizen residing in Baharestan, Isfahan, died on January 9, 2026, during the Iranian National Revolution, after being shot in the leg by Islamic Republic agents and suffering severe bleeding in Isfahan.
 source_type: Social Media
 source_social_media_link: https://x.com/indypersian/status/2015091252719435778, https://t.me/RememberTheirNames/888
+child: false
+persian_name: پرهام داودی کاشانی

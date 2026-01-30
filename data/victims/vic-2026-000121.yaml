@@ -7,12 +7,13 @@ name: Morteza Aslani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 24
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot in the face with a war bullet in Chahar Rah Tirandaz, Tehran.
 source_type: Social Media
 source_social_media_link: https://x.com/banafshehviola/status/2014725879323361459, https://t.me/RememberTheirNames/1026
+child: false
+persian_name: مرتضی اصلانی

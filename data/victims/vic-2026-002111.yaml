@@ -2,17 +2,18 @@
 # Victim Documentation - Amir Jalini
 # ==========================================
 
-photo: "vic-2026-002111.jpg"
+photo: vic-2026-002111.jpg
 name: Amir Jalini
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: Tehran
+incident_province: Tehran
+incident_city: Tehranpars
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: امیر جلینی
 
   Died in Tehran during Dey 1404.
+
+  Killed by live ammunition to the heart during protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/733
+source_social_media_link: https://t.me/RememberTheirNames/733, https://x.com/hekasrehcrisis/status/2016353559713915305
+child: false
+persian_name: امیر جلینی

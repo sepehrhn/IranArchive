@@ -2,36 +2,25 @@
 # Victim Documentation - Alireza Tavakoli
 # ==========================================
 
-photo: "vic-2026-000514.jpg"
-name: "Alireza Tavakoli"
-
-# Personal & Birth Information
+photo: vic-2026-000514.jpg
+name: Alireza Tavakoli
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 19
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Lahijan"
-
-# Death Information
+incident_city: Lahijan
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head in the Bagh Melli area of Lahijan. His body was held hostage and then returned for 500 million Tomans. He worked in a restaurant and lived with his mother.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/walterakam/status/2014273656751354164"
+source_type: Social Media
+source_social_media_link: https://x.com/walterakam/status/2014273656751354164, https://x.com/Walterakam/status/2014273656751354164, https://x.com/pkhwshhal/status/2015151553972150631, https://x.com/hyrcanihrm/status/2015472602517537130, https://t.me/RememberTheirNames/1193, https://t.me/RememberTheirNames/934
+child: false
+persian_name: علیرضا توکلی

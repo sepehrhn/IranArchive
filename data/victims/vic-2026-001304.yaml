@@ -2,38 +2,27 @@
 # Victim Documentation - Meysam Farahmand Yaghoubi Pour
 # ==========================================
 
-photo: "vic-2026-001304.jpg"
-name: "Meysam Farahmand Yaghoubi Pour"
-
-# Personal & Birth Information
+photo: vic-2026-001304.jpg
+name: Meysam Farahmand Yaghoubi Pour
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Lahijan"
-
-# Death Information
+incident_city: Lahijan
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: میثم فرحمند یعقوبی‌پور
-  
-  Killed in Lahijan. Buried in Hasan Alideh, Lahijan.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/pkhwshhal/status/2015438625207411094"
+  Killed in Lahijan. Buried in Hasan Alideh, Lahijan.
+source_type: Social Media
+source_social_media_link: https://x.com/pkhwshhal/status/2015438625207411094, https://t.me/RememberTheirNames/353
+child: false
+persian_name: میثم فرحمند یعقوبی‌پور

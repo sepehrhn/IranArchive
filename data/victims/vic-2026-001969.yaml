@@ -2,17 +2,18 @@
 # Victim Documentation - Mehdi Karimi Lor
 # ==========================================
 
-photo: "vic-2026-001969.jpg"
+photo: vic-2026-001969.jpg
 name: Mehdi Karimi Lor
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gotvand
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: مهدی کریمی لر
 
   Died after being shot by security forces.
+
+  Died in Dey 1404 (late December 2025 - January 2026)
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2016012177572803015
+source_social_media_link: https://x.com/hirman__/status/2016012177572803015, https://t.me/RememberTheirNames/1168, https://t.me/RememberTheirNames/854
+child: false
+persian_name: مهدی کریمی

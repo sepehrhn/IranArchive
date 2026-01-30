@@ -2,36 +2,25 @@
 # Victim Documentation - Hossein Monesi
 # ==========================================
 
-photo: "vic-2026-000632.jpg"
-name: "Hossein Monesi"
-
-# Personal & Birth Information
+photo: vic-2026-000632.jpg
+name: Hossein Monesi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 76
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Malekshahr"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Isfahan
+incident_address: Malekshahr
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with pellet gun while helping move her daughter's dowry; died minutes after being admitted to emergency room at Gharzi Hospital
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranintl/status/2012862039132192805"
+source_type: Social Media
+source_social_media_link: https://x.com/iranintl/status/2012862039132192805, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/hengawo/status/2013015289240125666, https://x.com/HengawO/status/2013015289240125666, https://x.com/_ziZi_Zizi/status/2015208544652468277, https://t.me/RememberTheirNames/221, https://t.me/RememberTheirNames/75
+child: false
+persian_name: مونا حسینی

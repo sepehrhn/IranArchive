@@ -4,20 +4,27 @@
 
 photo: vic-2026-000525.jpg
 name: Amir Heydar Doost
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: null
-occupation: ""
+occupation: ''
 country: Iran
 incident_province: Gilan
 incident_city: Manjil
-date_of_death: "2025-12-28"
+incident_address: ''
+date_of_death: '2025-12-28'
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
 description: |
   Shot directly by government suppressive forces during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2011755621172068400, https://x.com/jinzianazadi/status/2011859200058528228, https://x.com/longlosthills/status/2011969461822030216, https://x.com/iranintlbrk/status/2013520695137857709, https://x.com/Daikatuo/status/2011836007839101290
+source_social_media_link:
+  - https://x.com/hengawo/status/2011755621172068400
+  - https://x.com/jinzianazadi/status/2011859200058528228
+  - https://x.com/longlosthills/status/2011969461822030216
+  - https://x.com/iranintlbrk/status/2013520695137857709
+  - https://x.com/Daikatuo/status/2011836007839101290
+child: false

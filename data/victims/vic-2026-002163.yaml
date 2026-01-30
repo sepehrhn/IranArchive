@@ -2,17 +2,18 @@
 # Victim Documentation - Sowda Akrami Fard
 # ==========================================
 
-photo: "vic-2026-002163.jpg"
+photo: vic-2026-002163.jpg
 name: Sowda Akrami Fard
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 16
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Unknown
+incident_address: ""
 date_of_death: "2025-12-28"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -22,4 +23,6 @@ description: |-
 
   Killed in her neighborhood. Described as the niece of the tweet author's friend. The author states she was not found on Twitter and they are sharing her name. No high-quality photo available.
 source_type: Social Media
-source_social_media_link: https://x.com/isamanyasin/status/2015887016181850312, https://x.com/d3joudi/status/2015837478800801837, https://x.com/pardis__rabiee/status/2015893473509920983, https://x.com/i/status/2015887016181850312
+source_social_media_link: https://x.com/isamanyasin/status/2015887016181850312, https://x.com/d3joudi/status/2015837478800801837, https://x.com/pardis__rabiee/status/2015893473509920983, https://x.com/i/status/2015887016181850312, https://x.com/d3Joudi/status/2015837478800801837, https://t.me/RememberTheirNames/1533
+child: true
+persian_name: سودا اکرمی فرد

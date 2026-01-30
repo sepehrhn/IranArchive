@@ -7,12 +7,13 @@ name: Omid Fallahi Pour
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 41
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed by suppressive forces of the Islamic Republic
 source_type: Social Media
 source_social_media_link: https://x.com/allahbakhshii/status/2014332451334623584, https://x.com/HengawO/status/2014781999668437226, https://t.me/RememberTheirNames/630
+child: false
+persian_name: امید فلاحپور

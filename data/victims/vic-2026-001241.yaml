@@ -7,19 +7,25 @@ name: Nader Siahani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 16
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Siahan border region
+incident_address: Siahan Border Region
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: |
+description: |-
   Persian Name: نادر سیاهانی
 
   Shot in the head by border guards during heightened security measures following widespread protests. Initial reports claimed a motorcycle accident, but this was contradicted by local sources.
+
+
+  Shot in the head by border forces. The initial claim of a motorcycle accident was contradicted by local residents.
 source_type: Social Media
 source_social_media_link: https://x.com/haalvsh/status/2015501248771076221
+child: true
+persian_name: نادر سیاهانی

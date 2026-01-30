@@ -2,17 +2,18 @@
 # Victim Documentation - Hasan Maleki
 # ==========================================
 
-photo: "vic-2026-002205.png"
+photo: vic-2026-002205.png
 name: Hasan Maleki
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 45
 occupation: ""
 country: Iran
-incident_province: "Tehran"
+incident_province: Shahr-e Rey
 incident_city: Nazabad Behesht Square
+incident_address: Nazi Abad, Behesht Square
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot in the chest in Nazabad Behesht Square. Died after being taken to hospital for surgery following an infection from a leg wound sustained by a friend.
 source_type: Social Media
 source_social_media_link: https://x.com/HeKasrehCrisis/status/2015906437067899321
+child: false
+persian_name: حسن ملکی

@@ -2,17 +2,18 @@
 # Victim Documentation - Rouhollah Ahmadi
 # ==========================================
 
-photo: "vic-2026-002251.jpg"
+photo: vic-2026-002251.jpg
 name: Rouhollah Ahmadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 45
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Kerman
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot and killed by security forces in Iqbal Street, Kerman, in front of his family shop.
 source_type: Social Media
 source_social_media_link: https://x.com/indypersian/status/2015855695451799974, https://x.com/Sirusshahbazi/status/2015491125734220179
+child: false
+persian_name: روح‌الله احمدی

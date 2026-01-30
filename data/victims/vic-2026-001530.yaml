@@ -2,17 +2,18 @@
 # Victim Documentation - Mohadeseh (Sadaf) Maleki
 # ==========================================
 
-photo: "vic-2026-001530.jpg"
+photo: vic-2026-001530.jpg
 name: Mohadeseh (Sadaf) Maleki
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 26
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
+incident_address: ""
 date_of_death: "2026-01-23"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot in the hip during protests and died hours later. She had stated her intention to join the protest to support others.
 source_type: Social Media
 source_social_media_link: https://www.instagram.com/p/DT-jGaCEeaY
+child: false
+persian_name: محدثه (صدف) مالکی

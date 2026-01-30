@@ -2,17 +2,18 @@
 # Victim Documentation - Amirmohammad Rahmana
 # ==========================================
 
-photo: "vic-2026-001565.jpg"
+photo: vic-2026-001565.jpg
 name: Amirmohammad Rahmana
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Karaj
+incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Died in Dey 1404 (January 2026). Specific circumstances not detailed.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1223
+child: false
+persian_name: امیرمحمد رهنما

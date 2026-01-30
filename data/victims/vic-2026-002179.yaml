@@ -2,24 +2,28 @@
 # Victim Documentation - Anila Abutalibian
 # ==========================================
 
-photo: "vic-2026-002179.png"
+photo: vic-2026-002179.png
 name: Anila Abutalibian
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Female"
+persian_name: "آنیلا ابوطالبیان"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Female
 age: 8
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Isfahan
-date_of_death: ""
+incident_address: ''
+date_of_death: ''
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: ''
 status: Killed
 description: |-
   Persian Name: آنیلا ابوطالبیان
 
   Shot by security forces while in a car with her mother, who was trying to drive home. The forces blocked their path and then opened fire.
 source_type: Social Media
-source_social_media_link: https://x.com/mamlekate/status/2015445372710056057
+source_social_media_link:
+  - https://x.com/mamlekate/status/2015445372710056057
+child: true

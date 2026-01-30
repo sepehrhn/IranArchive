@@ -7,12 +7,13 @@ name: Amin Heydari Goodarzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
-incident_province: "Alborz"
+incident_province: Karaj
 incident_city: Azimieh
+incident_address: Azimieh
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot in the head in front of the Azimieh police station in Karaj.
 source_type: Social Media
 source_social_media_link: https://x.com/bar0ninthetrees/status/2014714707966374014
+child: false
+persian_name: امین حیدری گودرزی

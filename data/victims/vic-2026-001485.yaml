@@ -3,36 +3,26 @@
 # ==========================================
 
 photo: ""
-
-name: "Amin Salimi"
-
-# Personal & Birth Information
+name: Amin Salimi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
-age: 
-occupation: "رسته جنگ الکترونیک ارتش"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "تهران"
-
-# Death Information
-date_of_death: "2026-01-19"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
+gender: Male
+age: null
+occupation: رسته جنگ الکترونیک ارتش
+country: Iran
+incident_province: eastern Tehran
+incident_city: Khavaran neighbourhood
+incident_address: ""
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: |-
   اولین جاویدنام ارتش، دوتا تخت اونور تر از خودم تو دانشگاه افسری میخوابید
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+
+
+  Artesh First Lieutenant shot and killed 'while on mission' according to Iranian state media
+source_type: Local Report
+source_social_media_link: https://en.wikipedia.org/wiki/2025–2026_Iranian_protests
+child: false

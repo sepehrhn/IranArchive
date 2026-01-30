@@ -13,6 +13,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -20,3 +21,4 @@ status: Killed
 description: ""
 source_type: Social Media
 source_social_media_link: ""
+child: false

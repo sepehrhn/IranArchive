@@ -7,12 +7,13 @@ name: Ali Amani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Bushehr"
+incident_province: Dashtestan County
 incident_city: Abpakhsh
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot directly by bullets fired by Islamic Republic suppressors
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2013721255073939927
+source_social_media_link: https://x.com/allahbakhshii/status/2013721255073939927, https://t.me/RememberTheirNames/329
+child: false
+persian_name: علی امانی

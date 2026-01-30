@@ -11,13 +11,19 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Alborz"
+incident_province: Karaj
 incident_city: Fardis
+incident_address: Fardis
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: |
+description: |-
   Father of two young daughters, shot in the eye.
+
+
+  Father of two young daughters. Shot in the eye and killed.
 source_type: Social Media
 source_social_media_link: https://x.com/monfaredashkan/status/2015170885452472509, https://x.com/monfaredashkan/status/2015171890487411010
+child: false
+persian_name: داوود کولیوند

@@ -2,37 +2,25 @@
 # Victim Documentation - Sayad Faramarzi
 # ==========================================
 
-photo: ""
-
-name: "Sayad Faramarzi"
-
-# Personal & Birth Information
+photo: vic-2026-2140008.jpg
+name: Sayad Faramarzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: ""
-
-# Death Information
+country: Iran
+incident_province: Kermanshah
+incident_city: Darreh Darizh
+incident_address: Darreh Darizh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014723608359104900"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
+description: |-
+  Died on 18 Dey 1404 in Darreh Darizh, Kermanshah. No image of the individual was found.
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2014723608359104900, https://t.me/RememberTheirNames/85
+child: false
+persian_name: صیاد فرامرزی

@@ -2,17 +2,18 @@
 # Victim Documentation - Mehdi Eghbali Amlashi
 # ==========================================
 
-photo: "vic-2026-002223.jpg"
+photo: vic-2026-002223.jpg
 name: Mehdi Eghbali Amlashi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Mentioned as 'Javid Nam' (eternal name), a math teacher. No specific date or cause of death provided, but implied to be a victim of the IranMassacre.
 source_type: Social Media
 source_social_media_link: https://x.com/tiffany_jaan/status/2014848619703124362
+child: false
+persian_name: مهدی اقبالی املشی

@@ -7,17 +7,23 @@ name: Seyed Abolfazl Kia
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Killed during popular protests
+
+
+  Identified as one of the ten killed in the popular protests.
 source_type: Social Media
 source_social_media_link: https://x.com/HengawO/status/2012283597374234675
+child: false
+persian_name: سید ابوالفضل کیا

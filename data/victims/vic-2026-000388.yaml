@@ -7,12 +7,13 @@ name: Mojtaba Garmabi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 23
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Neyshabur
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot in the heart by Islamic Republic forces
 source_type: Social Media
 source_social_media_link: https://x.com/shahramsadidi/status/2014086586464457129, https://t.me/RememberTheirNames/570
+child: false
+persian_name: مجتبی گرمابی

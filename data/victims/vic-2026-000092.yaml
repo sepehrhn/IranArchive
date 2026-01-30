@@ -7,12 +7,13 @@ name: Davoud Abi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Alborz"
+incident_province: Karaj
 incident_city: Shahinvilla
+incident_address: Shahinvilla
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot in the heart by Revolutionary Guards during protest
 source_type: Social Media
 source_social_media_link: https://x.com/s_iran01/status/2014498664681541796, https://t.me/RememberTheirNames/755
+child: false
+persian_name: داود آبی

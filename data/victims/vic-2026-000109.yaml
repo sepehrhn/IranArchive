@@ -2,37 +2,25 @@
 # Victim Documentation - Aida Heidari
 # ==========================================
 
-photo: ""
-
-name: "Aida Heidari"
-
-# Personal & Birth Information
+photo: vic-2026-000480.jpg
+name: Aida Heidari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Sadeghieh Square
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by Islamic Regime forces while demanding freedom.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: ""
+source_type: Social Media
+source_social_media_link: https://x.com/sharifizarchi/status/2011486805745377353, https://x.com/zananfirouzehie/status/2011815899292975260, https://x.com/yasekhali/status/2012958918784246216, https://x.com/nashianeam/status/2014428617212571690, https://x.com/missmarpel75/status/2014614939428597811, https://x.com/SharifiZarchi/status/2011486708190286085, https://x.com/isamanyasin/status/2015495110700806616, https://x.com/mamlekate/status/2015751747356999894, https://x.com/BiEsmeTaHamishe/status/2013292440208204058, https://t.me/RememberTheirNames/104
+child: false
+persian_name: آیدا حیدری

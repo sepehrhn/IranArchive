@@ -2,38 +2,28 @@
 # Victim Documentation - Alireza Ramezani
 # ==========================================
 
-photo: "vic-2026-001323.jpg"
-name: "Alireza Ramezani"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Gilan and Mazandaran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001323.jpg
+name: Alireza Ramezani
+persian_name: "علیرضا رمضانی"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: علیرضا رمضانی
-  
-  Killed during protests
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2015022203226513772"
+  Killed during protests
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/hengawo/status/2015022203226513772
+child: false

@@ -2,24 +2,27 @@
 # Victim Documentation - Mohaddeseh Shahbazi
 # ==========================================
 
-photo: "vic-2026-001989.jpg"
+photo: vic-2026-001989.jpg
 name: Mohaddeseh Shahbazi
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 19
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
-incident_city: Tehransar
-date_of_death: "2026-01-08"
+incident_province: ''
+incident_city: Tehran
+incident_address: Tehransar
+date_of_death: '2026-01-08'
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: ''
 status: Killed
 description: |-
   Persian Name: محدثه شهبازی
 
   Shot with two direct bullets. Student of psychology.
 source_type: Social Media
-source_social_media_link: https://x.com/senooyekta/status/2015845565527920925
+source_social_media_link:
+  - https://x.com/senooyekta/status/2015845565527920925
+child: false

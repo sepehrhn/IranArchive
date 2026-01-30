@@ -2,36 +2,25 @@
 # Victim Documentation - Roham Saadati
 # ==========================================
 
-photo: "vic-2026-000810.jpg"
-name: "Roham Saadati"
-
-# Personal & Birth Information
+photo: vic-2026-000810.jpg
+name: Roham Saadati
 birth_date: ""
 birth_province: ""
-birth_city: "his family in the crowd"
-gender: "Male"
+birth_city: his family in the crowd
+gender: Male
 age: 19
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
+country: Iran
+incident_province: Alborz
+incident_city: Karaj
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly in the lung by Islamic Republic suppression forces during the national revolution of Iranians. He was with his family at the protests in Chaharrah Mesbah in Karaj, disappeared after being separated from his family in the crowd, and his body was found hours later in a clinic.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranwire/status/2014626621404180521"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2014626621404180521, https://x.com/santa_mariya__/status/2015164789681479744, https://x.com/iranintlsport/status/2015184169593143440, https://x.com/FSeifikaran/status/2015388238307881022, https://x.com/sonofthebeach22/status/2015442546390888923, https://x.com/HengawO/status/2015422578408435940, https://t.me/RememberTheirNames/1128, https://x.com/gm_mostaghel/status/2016395484852609520
+child: false
+persian_name: رهام سعادتی

@@ -2,37 +2,25 @@
 # Victim Documentation - Mansour Behrouzi
 # ==========================================
 
-photo: ""
-
-name: "Mansour Behrouzi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: ''
+name: Mansour Behrouzi
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Arrested by IRGC for anti-regime activities; brother is a political refugee in Turkey.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/savakzadeh/status/2011419152871719199"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/savakzadeh/status/2011419152871719199
+child: false

@@ -7,12 +7,13 @@ name: Morteza Shane
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: Mashhad and Sabzevar
+incident_city: Mashhad
+incident_address: and Sabzevar
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Killed during protests
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2012846909497430064, https://x.com/HengawO/status/2012846909497430064
+source_social_media_link: https://x.com/hengawo/status/2012846909497430064, https://x.com/HengawO/status/2012846909497430064, https://t.me/RememberTheirNames/377
+child: false
+persian_name: مرتضی شانه

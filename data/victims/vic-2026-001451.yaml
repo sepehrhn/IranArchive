@@ -2,37 +2,25 @@
 # Victim Documentation - Mohammad Entezami
 # ==========================================
 
-photo: "vic-2026-001451.png"
-
-name: "Mohammad Entezami"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001451.png
+name: Mohammad Entezami
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 26
-occupation: "ورزشکار و پارکور کار"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "شرق تهران ( نارمک ،هفت حوض)"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Approximate"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ورزشکار و پارکور کار
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: East Tehran (Narmak, Haft Howz)
+date_of_death: '2026-01-08'
+date_of_death_precision: Approximate
+cause_of_death: Gunshot
+status: Killed
 description: |
   شلیک مستقیم تیر به قلب 
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

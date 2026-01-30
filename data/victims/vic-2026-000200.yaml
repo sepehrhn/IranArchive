@@ -7,12 +7,13 @@ name: Saadat Shamsedini
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 62
 occupation: ""
 country: Iran
-incident_province: "Fars"
+incident_province: نورآباد ممسنی
 incident_city: Basij Boulevard
+incident_address: Basij Boulevard
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot with military bullet on Bonyad Boulevard
 source_type: Social Media
-source_social_media_link: https://x.com/EhsanZareei/status/2014445102333083721, https://x.com/EhsanZareei/status/2014779353268142379
+source_social_media_link: https://x.com/EhsanZareei/status/2014445102333083721
+child: false
+persian_name: سعادت شمس‌الدینی

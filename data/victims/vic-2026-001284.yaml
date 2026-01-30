@@ -2,38 +2,27 @@
 # Victim Documentation - Ali Ghezelghi
 # ==========================================
 
-photo: "vic-2026-001284.jpg"
-name: "Ali Ghezelghi"
-
-# Personal & Birth Information
+photo: vic-2026-001284.jpg
+name: Ali Ghezelghi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Gorgan"
-
-# Death Information
+incident_city: Gorgan
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: علی قزلقی
-  
-  Shot directly by the Islamic government
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/persuasion_elli/status/2015187053835649528"
+  Shot directly by the Islamic government
+source_type: Social Media
+source_social_media_link: https://x.com/persuasion_elli/status/2015187053835649528, https://x.com/Persuasion_elli/status/2015187053835649528, https://t.me/RememberTheirNames/1171
+child: false
+persian_name: علی قزلقی

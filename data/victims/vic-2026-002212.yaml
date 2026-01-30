@@ -2,17 +2,18 @@
 # Victim Documentation - Iman Najjar
 # ==========================================
 
-photo: "vic-2026-002212.jpg"
+photo: vic-2026-002212.jpg
 name: Iman Najjar
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 21
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Nain
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Died during protests. Age 21.
 source_type: Social Media
 source_social_media_link: https://x.com/KyokushinSoofi/status/2015718178601488760
+child: false
+persian_name: ايمان نجار

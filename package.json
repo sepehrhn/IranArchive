@@ -45,6 +45,7 @@
     "ajv-formats": "^3.0.1",
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.1",
-    "tailwindcss-primeui": "latest"
+    "tailwindcss-primeui": "latest",
+    "vite": "^7.3.1"
   }
 }

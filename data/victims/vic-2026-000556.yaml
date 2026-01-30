@@ -7,12 +7,13 @@ name: Armin Dadfar
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 21
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Kermanshah
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot with war bullets by Islamic Republic suppression forces during protests
 source_type: Social Media
 source_social_media_link: https://x.com/kurdpa_farsi/status/2014228415423942788, https://x.com/HengawO/status/2014280444745830546, https://t.me/RememberTheirNames/608
+child: false
+persian_name: آرمین دادفر

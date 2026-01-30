@@ -2,17 +2,18 @@
 # Victim Documentation - Firooz Ahmadi
 # ==========================================
 
-photo: "vic-2026-001687.jpg"
+photo: vic-2026-001687.jpg
 name: Firooz Ahmadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Choghan
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot directly by security forces and died.
 source_type: Social Media
 source_social_media_link: https://x.com/hirman__/status/2015277067546337384
+child: false
+persian_name: فیروز احمدی

@@ -7,12 +7,13 @@ name: Hamid Faghih
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Isfahan
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot by government security forces during protests in Isfahan. Owner of a bookstore called 'Amadegan'.
 source_type: Social Media
 source_social_media_link: https://x.com/hengawo/status/2013911264154546507, https://hengaw.net/fa/news/2026/01/article-170-1, https://x.com/HengawO/status/2013911264154546507, https://t.me/RememberTheirNames/679
+child: false
+persian_name: حمید فقیه

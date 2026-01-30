@@ -2,24 +2,27 @@
 # Victim Documentation - Amin Salami
 # ==========================================
 
-photo: "vic-2026-001856.jpg"
+photo: vic-2026-001856.jpg
 name: Amin Salami
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: null
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
+incident_province: ''
 incident_city: Kermanshah
-date_of_death: "2026-01-08"
+incident_address: ''
+date_of_death: '2026-01-08'
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: ''
 status: Killed
 description: |-
   Persian Name: امین سلامی
 
   Shot by state agents during popular protests.
 source_type: Social Media
-source_social_media_link: https://www.instagram.com/p/DTyXm8zCPjs
+source_social_media_link:
+  - https://www.instagram.com/p/DTyXm8zCPjs
+child: false

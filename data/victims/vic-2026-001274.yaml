@@ -2,38 +2,27 @@
 # Victim Documentation - Mohsen Moghimi
 # ==========================================
 
-photo: "vic-2026-001274.jpg"
-name: "Mohsen Moghimi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+photo: vic-2026-001274.jpg
+name: Mohsen Moghimi
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 31
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Qazvin"
-incident_city: "Abgarm"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: Qazvin
+incident_city: Abgarm
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: محسن مقیمی
-  
-  Shot directly by Sepah (IRGC) forces.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2015475539566629345"
+  Shot directly by Sepah (IRGC) forces.
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/tavaana/status/2015475539566629345
+child: false

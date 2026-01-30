@@ -2,17 +2,18 @@
 # Victim Documentation - Amir Mohsen Allahyari
 # ==========================================
 
-photo: "vic-2026-001649.jpg"
+photo: vic-2026-001649.jpg
 name: Amir Mohsen Allahyari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 51
 occupation: ""
 country: Iran
-incident_province: "Alborz"
+incident_province: Karaj
 incident_city: Fardis
+incident_address: Fardis
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: امیرمحسن الهیاری
 
   Shot with military bullets during protests
+
+  Shot while outside, described as being hit by a bullet
 source_type: Social Media
-source_social_media_link: https://x.com/s_iran01/status/2013321172146893084, https://x.com/iranwire/status/2013913468248674542, https://t.me/RememberTheirNames/490
+source_social_media_link: https://x.com/s_iran01/status/2013321172146893084, https://x.com/iranwire/status/2013913468248674542, https://t.me/RememberTheirNames/490, https://x.com/jashnimitra/status/2016218663053861191
+child: false
+persian_name: امیرمحسن الهیاری

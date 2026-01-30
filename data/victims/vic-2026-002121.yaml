@@ -2,17 +2,18 @@
 # Victim Documentation - Fardin Fouladi
 # ==========================================
 
-photo: "vic-2026-002121.jpg"
+photo: vic-2026-002121.jpg
 name: Fardin Fouladi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Kermanshah
 incident_city: Islamabad-e Gharb
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -22,4 +23,6 @@ description: |-
 
   Killed by live ammunition from the IRGC during public protests.
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2012506899518800104, https://x.com/KurdistanHRN/status/2015913644450541604
+source_social_media_link: https://x.com/HengawO/status/2012506899518800104, https://x.com/KurdistanHRN/status/2015913644450541604, https://t.me/RememberTheirNames/129
+child: false
+persian_name: فردین فولادی

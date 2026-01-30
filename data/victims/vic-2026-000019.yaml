@@ -2,37 +2,25 @@
 # Victim Documentation - Saeed Mahmoudi
 # ==========================================
 
-photo: "vic-2026-000019.png"
-
-name: "Saeed Mahmoudi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Lordegan, Chaharmahal and Bakhtiari"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-000019.png
+name: Saeed Mahmoudi
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Lordegan
+incident_address: Chaharmahal and Bakhtiari
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Saeed Mahmoudi was killed by a gunshot on January 22, 2026, in Lordegan, Chaharmahal and Bakhtiari province.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: ""
+source_type: Social Media
+source_social_media_link:
+  - ''
+child: false

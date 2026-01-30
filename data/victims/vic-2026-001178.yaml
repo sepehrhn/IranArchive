@@ -2,36 +2,25 @@
 # Victim Documentation - Nima Khodkhodaei
 # ==========================================
 
-photo: "vic-2026-001178.png"
-name: "Nima Khodkhodaei"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001178.png
+name: Nima Khodkhodaei
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 14
-occupation: "Basiji member"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: Basiji member
+country: Iran
+incident_province: Isfahan
+incident_city: Isfahan
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Body was held hostage until the family accepted that he was a Basiji member.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/visfehan/status/2015133858161713490"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/visfehan/status/2015133858161713490
+child: true

@@ -7,12 +7,13 @@ name: Hossein Mousavi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed by Islamic Republic forces
 source_type: Social Media
 source_social_media_link: https://x.com/tinafay1978/status/2014411462215868715
+child: false
+persian_name: حسین موسوی

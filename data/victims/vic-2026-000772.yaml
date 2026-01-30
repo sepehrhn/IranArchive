@@ -2,36 +2,25 @@
 # Victim Documentation - Omid Hassanpour
 # ==========================================
 
-photo: "vic-2026-000772.jpg"
-name: "Omid Hassanpour"
-
-# Personal & Birth Information
+photo: vic-2026-000772.jpg
+name: Omid Hassanpour
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 18
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Falavarjan"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Falavarjan
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot from the top of the telecommunications building.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/visfehan/status/2015000616435638525"
+source_type: Social Media
+source_social_media_link: https://x.com/visfehan/status/2015000616435638525, https://x.com/visfehan/status/2014993998666985845, https://x.com/VIsfehan/status/2015000616435638525, https://x.com/VIsfehan/status/2014993998666985845, https://t.me/RememberTheirNames/793
+child: false
+persian_name: امید حسن پور

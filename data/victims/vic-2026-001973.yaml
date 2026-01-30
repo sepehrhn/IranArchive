@@ -2,17 +2,18 @@
 # Victim Documentation - Mehdi Mokhtari Bayegi
 # ==========================================
 
-photo: "vic-2026-001973.jpg"
+photo: vic-2026-001973.jpg
 name: Mehdi Mokhtari Bayegi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 16
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1392
+child: true
+persian_name: مهدی مختاری بایگی

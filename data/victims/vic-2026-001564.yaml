@@ -2,17 +2,18 @@
 # Victim Documentation - Amirmehdi Razgardani
 # ==========================================
 
-photo: "vic-2026-001564.jpg"
+photo: vic-2026-001564.jpg
 name: Amirmehdi Razgardani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Razgardan near Arak
+incident_address: Razgardan
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot by security forces during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/saeidvafa/status/2015446328243785797
+child: false
+persian_name: امیرمهدی رازگردانی

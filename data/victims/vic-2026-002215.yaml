@@ -2,17 +2,18 @@
 # Victim Documentation - Jabar Panahi
 # ==========================================
 
-photo: "vic-2026-002215.jpg"
+photo: vic-2026-002215.jpg
 name: Jabar Panahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 16
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -20,3 +21,4 @@ status: Killed
 description: Mentioned as a victim in the context of sanctions against his killer. Age is stated as 16.
 source_type: Social Media
 source_social_media_link: https://x.com/Me_Hamed_Myself/status/2011868590274986324
+child: true

@@ -2,17 +2,18 @@
 # Victim Documentation - Sajjad Samadi
 # ==========================================
 
-photo: "vic-2026-000829.jpg"
+photo: vic-2026-000829.jpg
 name: Sajjad Samadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 17
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gonabad
+incident_address: ""
 date_of_death: "2026-01-11"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Not specified, listed as a victim in the context of protests.
 source_type: Social Media
 source_social_media_link: https://x.com/moazabam/status/2014789259891507544, https://x.com/moazabam/status/2015001965936472077, https://x.com/moazabam/status/2014870639354773801, https://t.me/RememberTheirNames/885
+child: true
+persian_name: سجاد صمدی

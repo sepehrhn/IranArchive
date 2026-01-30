@@ -7,12 +7,13 @@ name: Zahra Behlolinezhad
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 22
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2025-12-28"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed during recent events/protests
 source_type: Social Media
 source_social_media_link: https://x.com/nashianeam/status/2014428617212571690
+child: false
+persian_name: زهرا بهلولی‌نژاد

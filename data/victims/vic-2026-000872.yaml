@@ -2,36 +2,25 @@
 # Victim Documentation - Zahra Arjmandi
 # ==========================================
 
-photo: "vic-2026-000872.jpg"
-name: "Zahra Arjmandi"
-
-# Personal & Birth Information
+photo: vic-2026-000872.jpg
+name: Zahra Arjmandi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 48
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Qeshm Island"
-
-# Death Information
+incident_city: Qeshm
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in front of her son near the Boostan police station in Qeshm during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mobarez_nastooh/status/2015041477982695464"
+source_type: Social Media
+source_social_media_link: https://x.com/mobarez_nastooh/status/2015041477982695464
+child: false
+persian_name: زهرا ارجمندی

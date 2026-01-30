@@ -7,17 +7,23 @@ name: Farshid Mokhtari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: Yazdan-shahr
+incident_province: Isfahan
+incident_city: Yazdanshar
+incident_address: ""
 date_of_death: "2026-01-02"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Killed by Islamic Republic regime security forces
+
+
+  Killed by security forces of the Islamic Republic regime.
 source_type: Social Media
-source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/Daikatuo/status/2007456429049856090
+source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/Daikatuo/status/2007456429049856090, https://t.me/RememberTheirNames/24
+child: false
+persian_name: فرشید مختاری

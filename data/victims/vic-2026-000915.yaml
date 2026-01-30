@@ -7,12 +7,13 @@ name: Erfan Bozorgi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Fars
 incident_city: Marvdasht
+incident_address: ""
 date_of_death: "2026-01-02"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot in the head by Islamic Republic forces during the national uprising on January 1st, went into coma and died in hospital the following day
 source_type: Social Media
-source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/foundationilr/status/2010721794450415954, https://x.com/daikatuo/status/2007208952682164419, https://x.com/iranwire/status/2013593378575749436, https://x.com/Daikatuo/status/2007455835497152832
+source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/foundationilr/status/2010721794450415954, https://x.com/daikatuo/status/2007208952682164419, https://x.com/iranwire/status/2013593378575749436, https://x.com/Daikatuo/status/2007455835497152832, https://t.me/RememberTheirNames/20
+child: false
+persian_name: عرفان بزرگی

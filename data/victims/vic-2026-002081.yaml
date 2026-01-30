@@ -2,23 +2,24 @@
 # Victim Documentation - Vahid Khosravi
 # ==========================================
 
-photo: "vic-2026-002081.jpg"
+photo: vic-2026-002081.jpg
 name: Vahid Khosravi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Kerman
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
 description: |+
-  Persian Name: وحید خسروی
-
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1329
+child: false
+persian_name: وحید خسروی

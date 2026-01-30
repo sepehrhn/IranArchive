@@ -2,37 +2,25 @@
 # Victim Documentation - AmirAli Pahlvanzadeh
 # ==========================================
 
-photo: ""
-
-name: "AmirAli Pahlvanzadeh"
-
-# Personal & Birth Information
+photo: vic-2026-001857.jpg
+name: AmirAli Pahlvanzadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 9
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Qarchak"
-
-# Death Information
+incident_city: Qarchak
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests in Talaiyeh neighborhood along with four others
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranintlbrk/status/2013879195227615365"
+source_type: Social Media
+source_social_media_link: https://x.com/iranintlbrk/status/2013879195227615365, https://x.com/monfaredashkan/status/2015998440241824062
+child: true
+persian_name: امیرعلی پهلوان‌زاده

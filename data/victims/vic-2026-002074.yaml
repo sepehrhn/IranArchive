@@ -2,17 +2,18 @@
 # Victim Documentation - Shayan Asadi
 # ==========================================
 
-photo: "vic-2026-002074.jpg"
+photo: vic-2026-002074.jpg
 name: Shayan Asadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Pakdasht
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Victim identified in a list of those whose names should be remembered.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1191
+child: false
+persian_name: شایان اسدی

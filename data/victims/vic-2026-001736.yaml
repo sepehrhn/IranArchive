@@ -2,17 +2,18 @@
 # Victim Documentation - Mehdi Kashefi
 # ==========================================
 
-photo: "vic-2026-001736.jpg"
+photo: vic-2026-001736.jpg
 name: Mehdi Kashefi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Saadat Abad
+incident_address: Saadat Abad
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Died during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1000
+child: false
+persian_name: مهدی کاشفی

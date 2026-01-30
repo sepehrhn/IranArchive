@@ -7,19 +7,25 @@ name: Nima
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 40
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Isfahan
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Persian Name: نیما
 
   Died at Asgariyeh Hospital after falling off a motorcycle in Hasht Behesht. He was transgender.
+
+
+  Fell off the back of a motorcycle while being driven home, sustained a head injury, and died. His body was transferred to Baghe Rezvan (a cemetery) and then handed over to his family. The tweet mentions he was transgender and was on his way home. The circumstances of his death are presented as a result of the protests, with the phrase 'رفیق مارو با هزار ارزو امید کشتین' (You killed our friend with a thousand wishes and hopes).
 source_type: Social Media
 source_social_media_link: https://x.com/Soranmansournia/status/2012249572823720305, https://x.com/Amymous021/status/2015163032297455945
+child: false
+persian_name: نیما

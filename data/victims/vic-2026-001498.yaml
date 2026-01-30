@@ -2,37 +2,25 @@
 # Victim Documentation - gorji
 # ==========================================
 
-photo: ""
-
-name: "gorji"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: ''
+name: gorji
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 14
-occupation: "محصل"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "اصفهان"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: محصل
+country: Iran
+incident_province: Isfahan
+incident_city: Isfahan
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   در تاریخ 19بهمن چهارصد و چهار توسط نیروهای سرکوب شلیک ساچمه به شکم پس از یک روز جان باخت
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: true

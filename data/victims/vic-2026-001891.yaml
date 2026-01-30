@@ -2,23 +2,24 @@
 # Victim Documentation - Arash Malekshahi
 # ==========================================
 
-photo: "vic-2026-001891.jpg"
+photo: vic-2026-001891.jpg
 name: Arash Malekshahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gorgan
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
 description: |+
-  Persian Name: آرش ملکشاهی
-
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/789
+child: false
+persian_name: آرش ملکشاهی

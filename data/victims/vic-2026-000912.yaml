@@ -7,12 +7,13 @@ name: Ali Tabrizi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Kermanshah
 incident_city: Harsin
+incident_address: ""
 date_of_death: "2026-01-02"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Mentioned as having similar media portrayals regarding protest-related death during the same period
 source_type: Social Media
-source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://en.wikipedia.org/wiki/Killing_of_Latif_Karimi, https://x.com/daikatuo/status/2007208041092174197, https://x.com/Daikatuo/status/2007455835497152832, https://x.com/FSeifikaran/status/2011734542428885036, https://x.com/KurdistanHRN/status/2007433103787106713
+source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://en.wikipedia.org/wiki/Killing_of_Latif_Karimi, https://x.com/daikatuo/status/2007208041092174197, https://x.com/Daikatuo/status/2007455835497152832, https://x.com/FSeifikaran/status/2011734542428885036, https://x.com/KurdistanHRN/status/2007433103787106713, https://t.me/RememberTheirNames/16
+child: false
+persian_name: علی عزیزی

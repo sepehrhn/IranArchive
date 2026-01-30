@@ -7,12 +7,13 @@ name: Ali Ghasemi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 28
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Andimeshk
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot by security forces in the leg and stomach during popular protests
 source_type: Social Media
 source_social_media_link: https://x.com/manotonews/status/2013961046029967665, https://t.me/RememberTheirNames/1103, https://t.me/RememberTheirNames/495
+child: false
+persian_name: علی قاسمی

@@ -7,17 +7,23 @@ name: Mehdi Dalaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: |
+description: |-
   Shot with fatal bullet to the head during protests
+
+
+  Described as a child of Iran and killed on the path to the homeland.
 source_type: Social Media
-source_social_media_link: https://x.com/mamlekate/status/2014112939272183846, https://t.me/RememberTheirNames/600
+source_social_media_link: https://x.com/mamlekate/status/2014112939272183846, https://t.me/RememberTheirNames/600, https://x.com/pardis__rabiee/status/2016140242156130359
+child: false
+persian_name: مهدی دالائی

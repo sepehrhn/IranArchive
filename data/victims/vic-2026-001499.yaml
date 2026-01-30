@@ -2,38 +2,27 @@
 # Victim Documentation - Ermiya Fazli
 # ==========================================
 
-photo: "vic-2026-001499.png"
-
-name: "Ermiya Fazli"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001499.png
+name: Ermiya Fazli
+persian_name: "ارمیا فضلی"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 20
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Markazi"
-incident_city: "اراک"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: Markazi
+incident_city: Arak
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   پدر ارمیا مالک شیرینی‌فروشی معروف شیده در اراک است.
   Armiya’s father owns the well-known Shideh pastry shop in Arak.
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

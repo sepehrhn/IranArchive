@@ -2,38 +2,27 @@
 # Victim Documentation - Alireza Najjari
 # ==========================================
 
-photo: "vic-2026-001333.jpg"
-name: "Alireza Najjari"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Female"
+photo: vic-2026-001333.jpg
+name: Alireza Najjari
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Female
 age: 42
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran, Amiriyeh"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Tehran
+incident_address: Amiriyeh
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: علیرضا نجاری
-  
-  Shot with a live bullet during protests. He had a 10-year-old daughter and a mother.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hekasrehcrisis/status/2015471667200319767"
+  Shot with a live bullet during protests. He had a 10-year-old daughter and a mother.
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/hekasrehcrisis/status/2015471667200319767
+child: false

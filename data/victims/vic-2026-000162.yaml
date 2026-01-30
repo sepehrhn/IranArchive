@@ -7,12 +7,13 @@ name: Saeed Alimardani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2025-12-21"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot with fatal bullet to the head during protests
 source_type: Social Media
 source_social_media_link: https://x.com/mamlekate/status/2014112939272183846
+child: false
+persian_name: سعید علیمردانی

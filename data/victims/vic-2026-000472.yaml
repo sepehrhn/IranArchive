@@ -2,36 +2,25 @@
 # Victim Documentation - Abolfazl Mehri
 # ==========================================
 
-photo: "vic-2026-000472.jpg"
-name: "Abolfazl Mehri"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+photo: vic-2026-000472.jpg
+name: Abolfazl Mehri
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 19
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: Alborz
+incident_city: Karaj
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in Chahar Rah Mesbah, Karaj.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/monfaredashkan/status/2015167621629620544"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/monfaredashkan/status/2015167621629620544
+child: false

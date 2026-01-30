@@ -2,18 +2,19 @@
 # Victim Documentation - Omid Zare
 # ==========================================
 
-photo: "vic-2026-002245.jpg"
+photo: vic-2026-002245.jpg
 name: Omid Zare
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: ""
-date_of_death: ""
+incident_province: Gilan
+incident_city: Rostamabad
+incident_address: ""
+date_of_death: "2025-12-22"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
@@ -21,5 +22,9 @@ description: |-
   Persian Name: امید زارع
 
   Described as a child of Iran and killed on the path of the homeland.
+
+  Death occurred in Rostamabad, Gilan province during Dey 1404. No additional details provided about circumstances.
 source_type: Social Media
-source_social_media_link: https://x.com/missmarpel75/status/2015444633916936343
+source_social_media_link: https://x.com/missmarpel75/status/2015444633916936343, https://t.me/RememberTheirNames/1499
+child: false
+persian_name: امید زارع

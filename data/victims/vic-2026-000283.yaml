@@ -4,20 +4,23 @@
 
 photo: vic-2026-000283.jpg
 name: Farzin Poost-ashkan-doorki
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: null
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Isfahan
-date_of_death: "2026-01-09"
+incident_address: ''
+date_of_death: '2026-01-09'
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
 description: |
   Shot with bullets
 source_type: Social Media
-source_social_media_link: https://x.com/Sssccpp/status/2011885402165039547
+source_social_media_link:
+  - https://x.com/Sssccpp/status/2011885402165039547
+child: false

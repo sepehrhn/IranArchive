@@ -2,37 +2,24 @@
 # Victim Documentation - Amir Koohkan
 # ==========================================
 
-photo: "vic-2026-001487.png"
-
-name: "Amir Koohkan"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001487.png
+name: Amir Koohkan
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 26
-occupation: "مربی و داور فوتبال بود"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Fars"
-incident_city: "نی‌ریز "
-
-# Death Information
-date_of_death: "2026-01-03"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+occupation: مربی و داور فوتبال بود
+country: Iran
+incident_province: Fars
+incident_city: Neyriz
+incident_address: ''
+date_of_death: '2026-01-03'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: ''
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

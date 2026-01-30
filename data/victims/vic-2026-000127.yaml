@@ -7,12 +7,13 @@ name: Fardin Ghanbari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: null
+gender: Male
+age: 6
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gilan
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Barista at the cafe who was injured the same night as Mohammad Ebrahimi and died after several days in hospital due to severity of injuries
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2012258882148540748, https://x.com/HengawO/status/2012283597374234675, https://x.com/walterakam/status/2015354087114424337, https://x.com/Walterakam/status/2015354087114424337
+source_social_media_link: https://x.com/hyrcanihrm/status/2012258882148540748, https://x.com/HengawO/status/2012283597374234675, https://x.com/walterakam/status/2015354087114424337, https://x.com/Walterakam/status/2015354087114424337, https://t.me/RememberTheirNames/1471
+child: true
+persian_name: فردین قنبری

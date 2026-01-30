@@ -2,17 +2,18 @@
 # Victim Documentation - Amir Mohammad Majlouj Oubari
 # ==========================================
 
-photo: "vic-2026-002176.jpg"
+photo: vic-2026-002176.jpg
 name: Amir Mohammad Majlouj Oubari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 22
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Iran (unspecified)
+incident_address: unspecified
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Detained during recent protests, sentenced to death without access to a lawyer or fair trial. Reports indicate forced confession and false charge of murder.
 source_type: Social Media
 source_social_media_link: https://x.com/iranenazila/status/2014403163327963315
+child: false
+persian_name: امیر محمد مجلل جوبرى

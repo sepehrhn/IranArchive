@@ -2,17 +2,18 @@
 # Victim Documentation - Jafar Parsa Boroumand
 # ==========================================
 
-photo: "vic-2026-001546.jpg"
+photo: vic-2026-001546.jpg
 name: Jafar Parsa Boroumand
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Abadan
+incident_address: ""
 date_of_death: "2026-01-11"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Mentioned in a list of names with a date and location.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/656
+child: false
+persian_name: جعفر پارسا برومند

@@ -13,6 +13,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,4 @@ description: |
   Shot and killed by Islamic Republic regime forces along with her husband
 source_type: Social Media
 source_social_media_link: https://x.com/callyonyourbs/status/2013354616012836903
+child: false

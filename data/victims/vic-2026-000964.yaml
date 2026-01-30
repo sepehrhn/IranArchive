@@ -4,20 +4,23 @@
 
 photo: vic-2026-000964.jpg
 name: Rouhani
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: null
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: "Alborz"
+incident_province: Alborz
 incident_city: Tehran
-date_of_death: "2026-01-01"
+incident_address: ''
+date_of_death: '2026-01-01'
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Killed during protests
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2014429661707542927
+source_social_media_link:
+  - https://x.com/HengawO/status/2014429661707542927
+child: false

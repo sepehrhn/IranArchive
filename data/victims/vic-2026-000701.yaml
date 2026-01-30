@@ -7,12 +7,13 @@ name: Mithem Rezazadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Tehran"
+incident_province: Shahriar
 incident_city: Vayen
+incident_address: Vayen
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot in the throat while on his balcony during protests; forced to bury him in Towserkan, Hamadan province.
 source_type: Social Media
 source_social_media_link: https://x.com/pouyajegarvnd/status/2014740488805392803
+child: false
+persian_name: میثم رحمتی ترکاشوند

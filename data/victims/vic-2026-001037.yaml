@@ -4,15 +4,17 @@
 
 photo: ""
 name: Amirhossein Sheikh-Bu
+persian_name: "امیرحسین بو"
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 24
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +23,4 @@ description: |
   Shot in the head by the Islamic regime while protesting for freedom
 source_type: Social Media
 source_social_media_link: https://x.com/noamagid/status/2014031614410448988
+child: false

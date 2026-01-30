@@ -3,36 +3,27 @@
 # ==========================================
 
 photo: ""
-
-name: "Mostafa Ghasemi"
-
-# Personal & Birth Information
+name: Mostafa Ghasemi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 24
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
+incident_city: Mashhad
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: |-
   Shot during protest. He also went by the name Shahin.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/nimnia11/status/2015149428890390655"
+
+  Shot dead. Preferred to be called Shahin. Tattoo artist, loved music, always smiling.
+source_type: Social Media
+source_social_media_link: https://x.com/nimnia11/status/2015149428890390655
+child: false
+persian_name: مصطفی قاسمی

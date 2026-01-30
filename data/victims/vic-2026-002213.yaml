@@ -2,18 +2,19 @@
 # Victim Documentation - Iman Norouzi
 # ==========================================
 
-photo: "vic-2026-002213.jpg"
+photo: vic-2026-002213.jpg
 name: Iman Norouzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: null
+gender: Male
+age: 21
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
-date_of_death: ""
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
@@ -21,5 +22,9 @@ description: |-
   Persian Name: ایمان نوروزی
 
   Died in Tehran in Dey 1404 (December 2025 - January 2026). Specific cause of death not detailed.
+
+  Shot in the head during protests in Nazi Abad area of Tehran. His body was returned to family after five days from a warehouse in Behesht Zahra cemetery and buried there.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/635
+source_social_media_link: https://t.me/RememberTheirNames/635, https://x.com/iranintl/status/2016577581416394808
+child: false
+persian_name: ایمان نوروزی

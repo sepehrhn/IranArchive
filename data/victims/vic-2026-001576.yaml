@@ -2,24 +2,29 @@
 # Victim Documentation - Hudhayfah Awtakh
 # ==========================================
 
-photo: "vic-2026-001576.jpg"
+photo: vic-2026-001576.jpg
 name: Hudhayfah Awtakh
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 11
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
-incident_city: Balochistan
-date_of_death: "2026-01-10"
+incident_province: ''
+incident_city: ''
+incident_address: Balochistan
+date_of_death: '2026-01-10'
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: ''
 status: Killed
 description: |-
   Persian Name: حُذیفه اوستا
 
   Mentioned as a victim with the note 'Zargar' (goldsmith). Died in Dey 1404 (December 2025 - January 2026).
 source_type: Social Media
-source_social_media_link: https://x.com/hamalilalin/status/2015846726897176972, https://x.com/Rozhenabaloch/status/2015539333520839036, https://t.me/RememberTheirNames/1232
+source_social_media_link:
+  - https://x.com/hamalilalin/status/2015846726897176972
+  - https://x.com/Rozhenabaloch/status/2015539333520839036
+  - https://t.me/RememberTheirNames/1232
+child: true

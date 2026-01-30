@@ -7,12 +7,13 @@ name: Sadreh Hosseini
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 38
 occupation: ""
 country: Iran
-incident_province: "Alborz"
+incident_province: Karaj
 incident_city: Azimiyeh
+incident_address: Azimiyeh
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed during protests
 source_type: Social Media
 source_social_media_link: https://x.com/loabatk/status/2012279587615518781
+child: false
+persian_name: صدره حسینی

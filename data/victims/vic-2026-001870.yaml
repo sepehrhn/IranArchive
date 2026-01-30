@@ -2,24 +2,27 @@
 # Victim Documentation - Amirhossein Bou
 # ==========================================
 
-photo: "vic-2026-001870.jpg"
+photo: vic-2026-001870.jpg
 name: Amirhossein Bou
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 24
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
-date_of_death: "2026-01-08"
+incident_address: ''
+date_of_death: '2026-01-08'
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: ''
 status: Killed
 description: |-
   Persian Name: امیرحسین بو
 
   Killed by direct fire from repressive government forces during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2015862302831222978
+source_social_media_link:
+  - https://x.com/manotonews/status/2015862302831222978
+child: false

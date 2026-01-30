@@ -2,17 +2,18 @@
 # Victim Documentation - Mehdi Pourrasti
 # ==========================================
 
-photo: "vic-2026-001738.jpg"
+photo: vic-2026-001738.jpg
 name: Mehdi Pourrasti
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 26
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Dezful
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: مهدی پورراستی
 
   Shot in the head with live ammunition by security forces.
+
+  Listed among those killed in Dezful during the freedom movement protests
 source_type: Social Media
-source_social_media_link: https://x.com/MayaThefish/status/2015514901284819285
+source_social_media_link: https://x.com/MayaThefish/status/2015514901284819285, https://www.instagram.com/p/DT5_Jw8ikvU
+child: false
+persian_name: مهدی پورراستی

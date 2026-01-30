@@ -2,17 +2,18 @@
 # Victim Documentation - Kianpour Safar Delshad
 # ==========================================
 
-photo: "vic-2026-001718.jpg"
+photo: vic-2026-001718.jpg
 name: Kianpour Safar Delshad
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 27
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Anzali
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot on Friday, 19 Dey 1404 (January 9, 2026) and died last Wednesday. His burial was not permitted in Anzali, and he was buried in Ramsar.
 source_type: Social Media
 source_social_media_link: https://x.com/i/status/2015819690245845281, https://x.com/pkhwshhal/status/2015819690245845281
+child: false
+persian_name: کیان پورصفر دلشاد

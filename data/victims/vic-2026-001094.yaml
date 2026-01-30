@@ -2,17 +2,18 @@
 # Victim Documentation - Hassan Nouri
 # ==========================================
 
-photo: "vic-2026-001094.jpg"
+photo: vic-2026-001094.jpg
 name: Hassan Nouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Kermanshah
 incident_city: Vakilabad
+incident_address: Vakilabad
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -23,3 +24,5 @@ description: |-
   Mentioned in a list of names.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1211
+child: false
+persian_name: حسن نوری

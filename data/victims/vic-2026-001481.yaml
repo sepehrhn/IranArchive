@@ -2,40 +2,28 @@
 # Victim Documentation - Soroosh ( Hafez) Soleymani
 # ==========================================
 
-photo: "vic-2026-001481.png"
-
-name: "Soroosh ( Hafez) Soleymani"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Chahar Mahaal and Bakhtiari"
-incident_city: "هفشجان"
-
-# Death Information
-date_of_death: "2026-01-03"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001481.png
+name: Soroosh ( Hafez) Soleymani
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
+age: null
+occupation: ''
+country: Iran
+incident_province: Chahar Mahaal and Bakhtiari
+incident_city: Hafshejan
+incident_address: ''
+date_of_death: '2026-01-03'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
-  
+
   این جاویدنام خوانندۀ رپ بود و پیش از کشته‌شدن، در فضای مجازی مردم را به حضور در خیزش پادروی (علیه) جمهوری اسلامی، فرا خوانده بود.بر پایه روایت‌های محلی، شهروندان، عامل شلیک را شناسایی کرده و مغازه و خودروی او را به آتش کشیده‌اند
   This slain young man was a rap rapper, and before he was killed, he had called on people on social media to join the uprising against the Islamic Republic.
   According to local accounts, residents identified the shooter and set his shop and car on fire.
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

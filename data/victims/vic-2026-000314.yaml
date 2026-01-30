@@ -2,36 +2,25 @@
 # Victim Documentation - Jalil Dostiyar Brahooyi
 # ==========================================
 
-photo: "vic-2026-000314.png"
-name: "Jalil Dostiyar Brahooyi"
-
-# Personal & Birth Information
+photo: vic-2026-000314.png
+name: Jalil Dostiyar Brahooyi
+persian_name: "جلیل دوستیار‌‌براهویی"
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 22
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Meybod, Yazd"
-
-# Death Information
+country: Iran
+incident_province: Yazd
+incident_city: Meybod
+incident_address: Yazd
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the chest by government forces during popular protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011862443933266250"
+source_type: Social Media
+source_social_media_link: https://x.com/daikatuo/status/2011862443933266250
+child: false

@@ -2,17 +2,18 @@
 # Victim Documentation - Reza Rizvandi
 # ==========================================
 
-photo: "vic-2026-001793.jpg"
+photo: vic-2026-001793.jpg
 name: Reza Rizvandi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 27
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Pakdasht
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Detained during protests, his body was identified by his family days later at Kahrizak morgue. Reports indicate visible signs of torture on his body.
 source_type: Social Media
 source_social_media_link: https://x.com/justchangingun/status/2015779802825834856, https://x.com/FSeifikaran/status/2015795005957255384, https://x.com/KurdistanHRN/status/2015878294940389719, https://t.me/RememberTheirNames/938
+child: false
+persian_name: رضا ریزوندی

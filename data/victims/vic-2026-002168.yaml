@@ -2,17 +2,18 @@
 # Victim Documentation - Abbas Azizpour
 # ==========================================
 
-photo: "vic-2026-002168.jpg"
+photo: vic-2026-002168.jpg
 name: Abbas Azizpour
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Described as a 'child of Iran and killed on the path of the homeland'. No further details on age, location, or date of death provided.
 source_type: Social Media
 source_social_media_link: https://x.com/missmarpel75/status/2015158934202400897
+child: false
+persian_name: عباس عزیز پور

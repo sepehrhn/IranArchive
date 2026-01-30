@@ -7,12 +7,13 @@ name: Mehdi Saheli
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 26
 occupation: ""
 country: Iran
 incident_province: Mazandaran
 incident_city: Ramsar
+incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Killed by direct attack from government suppression forces during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/loabatk/status/2012081562792198200, https://x.com/manotonews/status/2013574728032886977, https://x.com/Daikatuo/status/2011836007839101290
+source_social_media_link: https://x.com/loabatk/status/2012081562792198200, https://x.com/manotonews/status/2013574728032886977, https://x.com/Daikatuo/status/2011836007839101290, https://t.me/RememberTheirNames/368
+child: false
+persian_name: مهدی ساحلی

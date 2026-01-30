@@ -2,37 +2,25 @@
 # Victim Documentation - Seyed Hosein Mosavi
 # ==========================================
 
-photo: "vic-2026-001449.jpeg"
-
-name: "Seyed Hosein Mosavi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001449.jpeg
+name: Seyed Hosein Mosavi
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 40
-occupation: "نقاش ساختمان"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Razavi Khorasan"
-incident_city: "مشهد"
-
-# Death Information
-date_of_death: "2026-01-22"
-date_of_death_precision: "Approximate"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: نقاش ساختمان
+country: Iran
+incident_province: Razavi Khorasan
+incident_city: Mashhad
+incident_address: ''
+date_of_death: '2026-01-22'
+date_of_death_precision: Approximate
+cause_of_death: Gunshot
+status: Killed
 description: |
   دو تا گلوله به پا و شکمش خورده بوده، شب خودش را میرسونه خونه ولی به دلیل قطعی تلفن ها نمی توانند با اورژانس تماس بگیرند. فردا صبح میربرندش بیمارستان و بعد از چند روز به شهادت می رسد
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

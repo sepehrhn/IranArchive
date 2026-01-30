@@ -2,37 +2,26 @@
 # Victim Documentation - Nima Jozaii
 # ==========================================
 
-photo: "vic-2026-000004.jpg"
-
-name: "Nima Jozaii"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Bushehr"
-incident_city: "Bushehr"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-000004.jpg
+name: Nima Jozaii
+persian_name: "نیما جوزایی"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: Bushehr
+incident_city: Bushehr
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   .
-
-# Sources
-source_type: ""
-source_social_media_link: ""
+source_type: ''
+source_social_media_link:
+  - ''
+child: false

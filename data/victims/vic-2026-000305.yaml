@@ -2,36 +2,25 @@
 # Victim Documentation - Hossein Jozaghian
 # ==========================================
 
-photo: "vic-2026-000305.jpg"
-name: "Hossein Jozaghian"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
-age: 
-occupation: "goldsmith"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Najafabad"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-000305.jpg
+name: Hossein Jozaghian
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
+age: null
+occupation: goldsmith
+country: Iran
+incident_province: Isfahan
+incident_city: Najafabad
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed on 19 Dey 1404. He was a goldsmith.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/visfehan/status/2015115586460692984"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/visfehan/status/2015115586460692984
+child: false

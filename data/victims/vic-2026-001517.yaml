@@ -2,37 +2,25 @@
 # Victim Documentation - Nima Abbasi Yazdi
 # ==========================================
 
-photo: ""
-
-name: "Nima Abbasi Yazdi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Qazvin"
-incident_city: ""
-
-# Death Information
-date_of_death: "2026-01-07"
-date_of_death_precision: "Approximate"
-cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+photo: ''
+name: Nima Abbasi Yazdi
+persian_name: "نیما عباس‌یزدی"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
+age: null
+occupation: ''
+country: Iran
+incident_province: Qazvin
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-07'
+date_of_death_precision: Approximate
+cause_of_death: ''
+status: Killed
+description: ''
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

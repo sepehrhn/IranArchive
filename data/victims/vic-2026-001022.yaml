@@ -2,22 +2,27 @@
 # Victim Documentation - Alireza Javaheri
 # ==========================================
 
-photo: "vic-2026-001022.jpg"
+photo: vic-2026-001022.jpg
 name: Alireza Javaheri
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 25
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Murdered for demanding freedom
+
+
+  Shot in the head from behind by government forces while passing through an alley. Married for six months.
 source_type: Social Media
 source_social_media_link: https://x.com/IranProtestsCom/status/2010427755020570863
+child: false

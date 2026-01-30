@@ -2,17 +2,18 @@
 # Victim Documentation - Kourosh Ziaei
 # ==========================================
 
-photo: "vic-2026-000653.jpg"
+photo: vic-2026-000653.jpg
 name: Kourosh Ziaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Chamgardan
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed during protests on Thursday and Friday
 source_type: Social Media
 source_social_media_link: https://x.com/visfehan/status/2014331046636990578, https://t.me/RememberTheirNames/1344
+child: false
+persian_name: کوروش ضیایی

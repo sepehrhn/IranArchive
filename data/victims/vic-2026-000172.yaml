@@ -7,12 +7,13 @@ name: Alireza Sadeghi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 28
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Malayer
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot by Islamic Republic suppression forces on Andarzgoo Boulevard in Tehran alongside his close friend Mohammad Golriz
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2013042864733688021, https://x.com/manotonews/status/2014299506796384369, https://x.com/Mousavi1355/status/2016002240213860355, https://t.me/RememberTheirNames/977
+source_social_media_link: https://x.com/indypersian/status/2013042864733688021, https://x.com/manotonews/status/2014299506796384369, https://x.com/Mousavi1355/status/2016002240213860355, https://t.me/RememberTheirNames/977, https://t.me/RememberTheirNames/339
+child: false
+persian_name: علیرضا صادقی

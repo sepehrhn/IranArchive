@@ -7,12 +7,13 @@ name: Ali Goodarzi Lor
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Died from direct shots to the head and neck by suppressive forces.
 source_type: Social Media
 source_social_media_link: https://x.com/hirman__/status/2014538179114652138
+child: false
+persian_name: علی گودرزی لر

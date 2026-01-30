@@ -2,17 +2,18 @@
 # Victim Documentation - Mehdi Saleh Khani
 # ==========================================
 
-photo: "vic-2026-001739.png"
+photo: vic-2026-001739.png
 name: Mehdi Saleh Khani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 30
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Khvansar
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed by the Islamic Republic regime. His body was found in Bagh-e Rezvan, Isfahan after extensive searching by his family.
 source_type: Social Media
 source_social_media_link: https://x.com/visfehan/status/2015402669528023514, https://x.com/VIsfehan/status/2015402669528023514, https://x.com/hafeziranr/status/2014458904827060562, https://t.me/RememberTheirNames/775
+child: false
+persian_name: مهدی صالح خانی

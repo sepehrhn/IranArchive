@@ -2,37 +2,25 @@
 # Victim Documentation - Mohammad Rajaii 
 # ==========================================
 
-photo: "vic-2026-001450.jpeg"
-
-name: "Mohammad Rajaii "
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001450.jpeg
+name: 'Mohammad Rajaii '
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 28
-occupation: "مهندس معماری"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "نجف آباد"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Approximate"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: مهندس معماری
+country: Iran
+incident_province: Isfahan
+incident_city: Najafabad
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Approximate
+cause_of_death: Unknown
+status: Killed
 description: |
   داشته به یک مجروح کمک میکرده و کشته شده بعدش،آثار هیچی روی بدنش نبود.
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

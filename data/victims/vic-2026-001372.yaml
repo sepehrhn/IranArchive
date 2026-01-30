@@ -7,19 +7,25 @@ name: Ali Yazdani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 19
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Najafabad / Falavarjan
+incident_address: Falavarjan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |
+description: |-
   Persian Name: علی یزدانی
 
   A 19-year-old computer student at Najafabad University, he was shot in the head with a war weapon during protests.
+
+
+  Shot in the head with a military weapon during protests in Falavarjan. He was a 19-year-old computer science student at Najafabad University.
 source_type: Social Media
 source_social_media_link: https://x.com/anjmotahed/status/2015026226180534584
+child: false
+persian_name: علی یزدانی

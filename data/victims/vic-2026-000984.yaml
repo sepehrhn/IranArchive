@@ -7,12 +7,13 @@ name: Amir Ali Bastani
 birth_date: ""
 birth_province: ""
 birth_city: the area
-gender: "Male"
+gender: Male
 age: 22
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot by government officials near 7 Tir Square while moving away from the area. He was shot in the neck, shoulder blade, and arm.
 source_type: Social Media
 source_social_media_link: https://x.com/animmigrantofqc/status/2014758116550729854, https://x.com/autnews_org/status/2014740899486409153, https://x.com/anjmotahed/status/2014775965876908364, https://x.com/Daikatuo/status/2012332321995739191, https://x.com/FSeifikaran/status/2015561055284465901, https://t.me/RememberTheirNames/766
+child: false
+persian_name: امیرعلی باستانی

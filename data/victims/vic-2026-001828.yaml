@@ -2,17 +2,18 @@
 # Victim Documentation - Ala Ghashghaei
 # ==========================================
 
-photo: "vic-2026-001828.jpg"
+photo: vic-2026-001828.jpg
 name: Ala Ghashghaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Qarchak Varamin
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Victim mentioned in a list of names to remember.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1081
+child: false
+persian_name: علا قشقایی

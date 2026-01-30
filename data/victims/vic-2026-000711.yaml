@@ -7,12 +7,13 @@ name: Mohammad Fahim
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 32
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Kianshahr
+incident_address: Kianshahr
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed in the protests, described as 'child of Iran killed for the homeland.'
 source_type: Social Media
 source_social_media_link: https://x.com/monfaredashkan/status/2014835442647237063, https://x.com/monfaredashkan/status/2014833491142443320, https://x.com/missmarpel75/status/2014843799185359276, https://x.com/MonfaredAshkan/status/2014835442647237063, https://x.com/MonfaredAshkan/status/2014833491142443320, https://t.me/RememberTheirNames/1222
+child: false
+persian_name: محمد فهیم

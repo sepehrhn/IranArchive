@@ -2,17 +2,18 @@
 # Victim Documentation - Amirreza Norouzi Daini
 # ==========================================
 
-photo: "vic-2026-001566.jpg"
+photo: vic-2026-001566.jpg
 name: Amirreza Norouzi Daini
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 17
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Arak
+incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Came from Mohajeran neighborhood to Arak to participate in protests and was killed by a gunshot from criminal forces.
 source_type: Social Media
 source_social_media_link: https://x.com/saeidvafa/status/2015858314777653321
+child: true
+persian_name: امیررضا نوروزی داینی

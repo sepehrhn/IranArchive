@@ -2,36 +2,25 @@
 # Victim Documentation - Mohammadreza Samiei
 # ==========================================
 
-photo: "vic-2026-001167.jpg"
-name: "Mohammadreza Samiei"
-
-# Personal & Birth Information
+photo: vic-2026-001167.jpg
+name: Mohammadreza Samiei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: 9
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Shiraz"
-
-# Death Information
+country: Iran
+incident_province: Fars
+incident_city: Shiraz
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in the way of the homeland
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iliaaaa66/status/2015081043343147189"
+source_type: Social Media
+source_social_media_link: https://x.com/iliaaaa66/status/2015081043343147189, https://t.me/RememberTheirNames/1467
+child: true
+persian_name: محمدرضا سمیعی

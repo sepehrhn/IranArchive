@@ -2,17 +2,18 @@
 # Victim Documentation - Hossein Jozegian
 # ==========================================
 
-photo: "vic-2026-001703.jpg"
+photo: vic-2026-001703.jpg
 name: Hossein Jozegian
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Najafabad
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Mentioned as a 'Javidnam' (martyr) from Najafabad, Isfahan.
 source_type: Social Media
 source_social_media_link: https://x.com/visfehan/status/2015115586460692984, https://x.com/visfehan/status/2015459826583695724, https://t.me/RememberTheirNames/1146
+child: false
+persian_name: حسین جوزقیان
