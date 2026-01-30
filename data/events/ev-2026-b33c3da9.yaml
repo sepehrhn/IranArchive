@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-B33C3DA9
+# -----------------------------------------------------------------------------
+
+title: "Frau* Leben Freiheit - Stoppt das Massaker (Woman* Life Freedom - Stop the Massacre)"
+
+featured: false
+confidence: confirmed
+external_id: "fc4766fe-79c3-4d66-b6e3-315f892c39a6"
+
+description: |
+  A rally and demonstration in solidarity with the nationwide uprising in Iran. Key demands include an immediate end to the regime's mass killings (estimated at over 5,000 dead), the release of all political prisoners, and the designation of the IRGC as a terrorist organization by the EU. Expect speeches in German and Persian.
+  
+  **Tips:**
+  Dress warmly for outdoor standing. Steintorplatz is very central; if the crowd moves, it typically heads down Georgstraße towards Kröpcke or Opernplatz.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Hannover"
+  address: "Steintorplatz, 30159 Hannover, Central square near the Steintor light rail station; often a starting point for marches towards Kröpcke."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

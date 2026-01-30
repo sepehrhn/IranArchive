@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-7D771BCB
+# -----------------------------------------------------------------------------
+
+title: "Weekly Sunday Solidarity Rally"
+
+featured: false
+confidence: likely
+external_id: "11d8f1f3-a930-4c1c-80d9-2c4a6c8b4089"
+
+description: |
+  Recurring weekly gathering to protest the Islamic Republic. Note: While often attended by general community members, Sunday rallies at this location can sometimes attract MEK/NCRI supporters. Look for 'Woman Life Freedom' signs to find grassroots groups.
+  
+  **Tips:**
+  This is a likely recurring event based on patterns from previous weeks, though the Saturday Bridge event is the primary focus this weekend.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "San Francisco"
+  address: "Harry Bridges Plaza (Ferry Building), The Embarcadero (in front of the Ferry Building)."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

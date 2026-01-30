@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-D56D76A0
+# -----------------------------------------------------------------------------
+
+title: "Global Day of Action (Possible Gathering)"
+
+featured: false
+confidence: possible
+external_id: "81d43348-af9d-4768-95b6-4de29de7a607"
+
+description: |
+  While the main weekly protest is on Sunday, calls by opposition figures (such as Reza Pahlavi) have urged demonstrations on both Saturday and Sunday this weekend. Smaller impromptu gatherings may occur on Saturday in solidarity with global events.
+  
+  **Tips:**
+  Less confirmed than the Sunday rally. Look for groups gathered near the 'Famous Five' statues at Olympic Plaza if City Hall is empty.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Calgary"
+  address: "Calgary City Hall Plaza or Olympic Plaza, Check local community pages."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

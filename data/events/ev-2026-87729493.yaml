@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-87729493
+# -----------------------------------------------------------------------------
+
+title: "Wake van Vrouwen in het Zwart (NOTE: PALESTINE SOLIDARITY)"
+
+featured: false
+confidence: confirmed
+external_id: "1904e7b1-c63d-4abe-94da-3719267eaae1"
+
+description: |
+  Weekly silent vigil. WARNING: This is primarily a Palestine solidarity event ('against the occupation'), NOT the Iran protest. Listed here so you do not confuse the two if you see a silent line of people in black.
+  
+  **Tips:**
+  If you are looking for the Iran protest, this is likely not it, though some intersectional solidarity may exist.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "NL"
+  city: "Groningen"
+  address: "Waagplein, Groningen, Near the Goudkantoor / Grote Markt"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

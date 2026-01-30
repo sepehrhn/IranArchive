@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-9651651B
+# -----------------------------------------------------------------------------
+
+title: "Possible Solidarity Gathering"
+
+featured: false
+confidence: possible
+external_id: "9ac8cc3b-5b4b-40a4-9578-d3fe32dde4dc"
+
+description: |
+  Potential spontaneous gathering in solidarity with the January 2026 uprising. No official announcement found, but this is the standard location for local protests.
+  
+  **Tips:**
+  If no crowd is present by 14:00, consider traveling to Malmö (Möllevångstorget or Gustav Adolfs Torg) where larger demonstrations are more frequent.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "SE"
+  city: "Lund"
+  address: "Stortorget, Lund, Main city square, near the City Hall"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

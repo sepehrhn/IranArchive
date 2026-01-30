@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-84ACC0BF
+# -----------------------------------------------------------------------------
+
+title: "Vigil for Iran's Martyrs"
+
+featured: false
+confidence: possible
+external_id: "74aab531-87f1-40c9-ba9a-38759f89cbb6"
+
+description: |
+  A silent or chanting vigil to honor the victims of the recent violent crackdown and 'January Massacres' in Iran. Listed as unconfirmed in some schedules.
+  
+  **Tips:**
+  Since this event is marked 'possible', check local 'Woman Life Freedom' Brussels Instagram pages for last-minute confirmation. Dress warmly for freezing temperatures.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "BE"
+  city: "Brussels"
+  address: "Place Schuman (Tentative), Metro Schuman. Alternatively, check near Iranian Embassy on Ave Franklin Roosevelt."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

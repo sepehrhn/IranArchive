@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-9BB87927
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Winnipeg"
+
+featured: false
+confidence: confirmed
+external_id: "0b629f4a-5fa4-4ca7-9e78-ea542f38861a"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Winnipeg"
+  address: "Human Rights Museum"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

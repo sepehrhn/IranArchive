@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-83BDDC3B
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Rally & Support for King Reza Pahlavi"
+
+featured: false
+confidence: confirmed
+external_id: "f481f039-66ed-45ad-9cf6-eb0120559951"
+
+description: |
+  Rally supporting the national uprising and advocating for Reza Pahlavi's leadership in the transition. Organizers are Constitutionalist/Monarchist groups (Non-MEK).
+  
+  **Tips:**
+  Expect flags and slogans supporting the exiled Crown Prince.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "NO"
+  city: "Oslo"
+  address: "Eidsvolls Plass, Karl Johans gate 22, Directly in front of the Stortinget (Parliament) building."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-525D023E
+# -----------------------------------------------------------------------------
+
+title: "Embassy Vigil (Unconfirmed)"
+
+featured: false
+confidence: possible
+external_id: "b9eb887d-7a89-4e76-9754-81a04b79b129"
+
+description: |
+  Frequent site of recent protests. Note: The Municipality of The Hague banned a planned Amnesty International march here on Jan 23 due to safety/access concerns, offering alternative locations which were refused. Police presence may be high.
+  
+  **Tips:**
+  Be aware of strict exclusion zones enforced by police around the embassy perimeter. Bring ID.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "NL"
+  city: "The Hague"
+  address: "Iranian Embassy, Duinweg 20, 2585 JX Den Haag, Scheveningen district. Tram 9 (stop Cremerweg)."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

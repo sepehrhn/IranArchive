@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-7FBE0807
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Rally: United for Freedom"
+
+featured: false
+confidence: likely
+external_id: "038c3f5a-4901-447c-a7b6-04f24d83c18f"
+
+description: |
+  A rally calling for international solidarity with the people of Kurdistan and Iran. While the primary focus is defending the revolution in Rojava against recent attacks, the event explicitly unites communities from Iran, Syria, and Turkey. Iranian groups are joining to condemn the regime's recent massacres and the execution of protesters, continuing the momentum from the Jan 25 'Stop the Massacres' rally.
+  
+  **Tips:**
+  Wear comfortable shoes and bring water. Green, white, and red flags (without the official Islamic Republic emblem) and 'Woman, Life, Freedom' banners are common. Expect a mix of Kurdish and Persian chanting.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "AU"
+  city: "Sydney"
+  address: "Sydney Town Hall, 483 George St, Sydney NSW 2000 (Gadigal Country). Look for banners near the steps or square."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

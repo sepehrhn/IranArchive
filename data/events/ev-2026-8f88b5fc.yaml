@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-8F88B5FC
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally"
+
+featured: false
+confidence: possible
+external_id: "69f5b335-516b-442f-b66d-a51f26eceede"
+
+description: |
+  If the group follows their previous weekly schedule (Sunday Jan 25 was at this location), they may rally here again on Sunday. Focus is on amplifying voices of protesters inside Iran.
+  
+  **Tips:**
+  This location was used last Sunday; verify on organizer social media before heading out.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Washington DC"
+  address: "World War I Memorial, Pershing Park, 1449 Pennsylvania Ave NW"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

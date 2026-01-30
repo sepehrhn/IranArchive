@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-1E515196
+# -----------------------------------------------------------------------------
+
+title: "Global Day of Action for Iran Uprising"
+
+featured: false
+confidence: likely
+external_id: "47084aa8-cafd-4d4c-bb09-5b62f620fed0"
+
+description: |
+  Likely participation in the global day of solidarity with the Iranian people. Protesters typically gather to condemn the January crackdown and demand regime change. Expect chants of 'Death to the Dictator' and support for the Pahlavi transition plan.
+  
+  **Tips:**
+  Check @DCProtests4Iran on X/Instagram for last-minute time confirmation. Bring warm clothes; security is usually tight near the White House.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Washington DC"
+  address: "Lafayette Square (White House), North side of the White House, Pennsylvania Ave NW"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

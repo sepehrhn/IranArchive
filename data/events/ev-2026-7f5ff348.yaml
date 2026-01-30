@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-7F5FF348
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with Iran Uprising"
+
+featured: false
+confidence: likely
+external_id: "68cf483d-a58b-4a33-97b8-b6f332861f96"
+
+description: |
+  Weekly static demonstration supporting the current uprising in Iran. Attendees typically hold 'Woman, Life, Freedom' signs, Iranian flags (Lion and Sun), and photos of victims of the recent crackdown. Expect chants against the regime and calls for international action.
+  
+  **Tips:**
+  Dress warmly and bring rain gear. This location is often shared with other advocacy groups (e.g., IPSC info stalls are confirmed for 12pm). Look for the Lion and Sun flags to find the specific Iranian group.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "IE"
+  city: "Dublin"
+  address: "The Spire / GPO, O'Connell Street, Central median of O'Connell Street, near the Spire. Nearest Luas stop: O'Connell - GPO."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

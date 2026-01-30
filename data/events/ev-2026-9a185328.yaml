@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-9A185328
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with the Iranian Uprising - Weekly Rally"
+
+featured: false
+confidence: likely
+external_id: "0de64a7f-cb61-4b16-908b-402ea32039bc"
+
+description: |
+  A continuation of the weekly Saturday protests (the 'Jan 24' rally organizers announced they would return 'next Saturday'). Demonstrators are demanding the fall of the Islamic Republic, supporting the nationwide strikes in Iran, and calling for international intervention/solidarity. Expect 'Lion and Sun' flags and chants against the regime.
+  
+  **Tips:**
+  Dress warmly for sub-zero temperatures. Bring signs in German/English to maximize visibility to locals. This group is distinct from the MEK.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Berlin"
+  address: "Joachimsthaler Platz, Berlin, Near Kurfürstendamm (Ku'damm). Meeting point is likely the central square."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
