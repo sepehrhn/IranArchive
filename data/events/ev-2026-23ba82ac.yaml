@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-23BA82AC
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Plymouth"
+
+featured: false
+confidence: confirmed
+external_id: "b86535f3-fcc5-4e6b-b58d-fbcf08f1b9dd"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "GB"
+  city: "Plymouth"
+  address: "In front of NatWest Bank, Drake Circus, Plymouth"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

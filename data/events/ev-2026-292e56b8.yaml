@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-292E56B8
+# -----------------------------------------------------------------------------
+
+title: "Concentración: Fin de la masacre en Irán"
+
+featured: false
+confidence: confirmed
+external_id: "9b44ef99-fbb1-4b0e-b5dc-e4901daef45d"
+
+description: |
+  Joint rally by human rights groups and unions to condemn the regime's crackdown and mass killings. Demands include an end to executions and the release of detainees.
+  
+  **Tips:**
+  Look for Amnesty International banners. This is a broad civil society event, distinct from MEK-affiliated gatherings.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "ES"
+  city: "Madrid"
+  address: "Plaza del Callao, 28013 Madrid, Central square off Gran Vía; Metro Callao (L3, L5)."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

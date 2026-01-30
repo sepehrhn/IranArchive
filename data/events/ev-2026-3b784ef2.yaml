@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-3B784EF2
+# -----------------------------------------------------------------------------
+
+title: "Standing Protest at Iranian Embassy"
+
+featured: false
+confidence: likely
+external_id: "110daec8-841c-40d4-a5af-59896ba11427"
+
+description: |
+  Spontaneous and ongoing gatherings have been reported here throughout January. Given the severity of the recent crackdown (30,000+ estimated dead), independent protesters often gather here on weekends to chant slogans and display images of victims.
+  
+  **Tips:**
+  Police presence is currently high due to recent incidents of protesters scaling the balcony. Bring warm clothes and prepared slogans/placards. Avoid MEK-affiliated groups if they attempt to co-opt the space.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "GB"
+  city: "London"
+  address: "Iranian Embassy, 16 Prince's Gate, London SW7 1PT (Nearest Tube: South Kensington or Knightsbridge)"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

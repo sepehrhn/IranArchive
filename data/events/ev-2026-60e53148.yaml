@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-60E53148
+# -----------------------------------------------------------------------------
+
+title: "Mission Viejo Solidarity Rally"
+
+featured: false
+confidence: likely
+external_id: "4da1a975-b386-493f-9ce3-0786ba2453c7"
+
+description: |
+  Solidarity with the Iranian people's uprising and a call to 'Stop the Massacre' following the recent crackdown. This is a recurring location for local Iranian-American diaspora gatherings.
+  
+  **Tips:**
+  This intersection is a well-known 'free speech corner' in Mission Viejo. Parking is generally available in nearby shopping center lots, but avoid parking in restricted private spots.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Mission Viejo"
+  address: "La Paz Road and Marguerite Parkway, Mission Viejo, CA, Intersection of La Paz Rd & Marguerite Pkwy; a common local spot for rallies."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

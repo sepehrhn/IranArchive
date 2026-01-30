@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-740EF399
+# -----------------------------------------------------------------------------
+
+title: "Student Solidarity Rally"
+
+featured: false
+confidence: possible
+external_id: "836c7e53-78d5-4fa3-b27e-12cecff3059b"
+
+description: |
+  Students often gather here on Sundays to amplify the voices of Iranian students facing violence on campuses in Tehran and Kurdistan.
+  
+  **Tips:**
+  Look for the Lion and Sun flags. Avoid if you see MEK yellow/purple colors (though rare in this specific student crowd).
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "New York City"
+  address: "Washington Square Park, Near the Arch"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

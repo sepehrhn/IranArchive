@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-7758B406
+# -----------------------------------------------------------------------------
+
+title: "Potential Follow-up Student Rally"
+
+featured: false
+confidence: possible
+external_id: "d9d9083c-f765-4fb6-b18d-73faa2f76a1a"
+
+description: |
+  While no specific flyer is confirmed for Sat Jan 31, this group held a major rally on Jan 21 demanding 'Regime Change' and 'Death to Khamenei'. They are the most active non-MEK group currently. Check their social media for impromptu weekend gatherings.
+  
+  **Tips:**
+  Verify on student group social media before heading out. Avoid City Hall unless an Iran-specific event is explicitly announced there, due to the concurrent anti-ICE protests.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Dallas"
+  address: "University of Texas at Dallas (UTD), Chess Plaza, 800 W Campbell Rd, Richardson, TX 75080 (Chess Plaza is a common assembly point)"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

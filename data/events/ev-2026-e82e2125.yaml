@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-E82E2125
+# -----------------------------------------------------------------------------
+
+title: "Weekly Rally for Iran Uprising / Action for Iran"
+
+featured: false
+confidence: likely
+external_id: "a1063b8b-c48e-40f7-8773-0edcc6bd0c7b"
+
+description: |
+  A weekly recurring rally in solidarity with the Iranian people's uprising against the Islamic Republic. Demonstrators wave flags (Lion and Sun), hold signs, and chant for regime change and human rights. This event has been growing week-over-week since the uprising intensified in late 2025.
+  
+  **Tips:**
+  Parking is available in the adjacent shopping center lots (e.g., Home Depot). Bring water, comfortable shoes, and Iranian flags (Lion and Sun preferred).
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "San Diego"
+  address: "Intersection of Balboa Ave & Genesee Ave, San Diego, CA, Protestors typically gather on the sidewalks near the Home Depot/Target shopping center corners."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

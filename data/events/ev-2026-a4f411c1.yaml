@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-A4F411C1
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Mechelen"
+
+featured: false
+confidence: confirmed
+external_id: "d521f61d-8714-4774-9699-b55090b45898"
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "BE"
+  city: "Mechelen"
+  address: "Grotemarkt, Mechelen"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

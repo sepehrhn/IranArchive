@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-E1A0348A
+# -----------------------------------------------------------------------------
+
+title: "Irvine Solidarity Gathering for Iran Uprising"
+
+featured: false
+confidence: likely
+external_id: "49ef6e1f-1d64-426e-bc93-eb84adc1db8e"
+
+description: |
+  A weekly recurring rally in solidarity with the nationwide uprising in Iran (Jan 2026) and against the regime's crackdown. Participants often hold flags (pre-1979), signs, and chant slogans supporting the Iranian people.
+  
+  **Tips:**
+  While a specific start time was not explicitly confirmed for this date, these weekly rallies at this location typically take place in the afternoon (often 2:00 PM – 4:00 PM). Check local social media (e.g., 'Iran Monitor') for last-minute time adjustments.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "US"
+  city: "Irvine"
+  address: "Intersection of Culver Dr & Barranca Pkwy, Irvine, CA, Protesters typically gather on the sidewalks at the corners of the intersection."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

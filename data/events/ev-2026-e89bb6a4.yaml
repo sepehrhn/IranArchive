@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-E89BB6A4
+# -----------------------------------------------------------------------------
+
+title: "Global Action Day / National Demonstration"
+
+featured: false
+confidence: likely
+external_id: "1f2b8c69-99a7-467d-90d7-23b2af934026"
+
+description: |
+  While primarily a National Demonstration for Palestine, this date is also a 'Global Action Day' for 'Women Defend Rojava'. Expect a 'Woman, Life, Freedom' bloc or contingent showing solidarity with the uprising in Iran, specifically connecting the struggles of women in the region against religious authoritarianism.
+  
+  **Tips:**
+  This will be a very large crowd. Look for the 'Jin, Jiyan, Azadî' banners or Kurdish/Iranian solidarity flags (Lion & Sun) within the main assembly to find the relevant contingent.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "GB"
+  city: "London"
+  address: "Russell Square, Meeting point for the National Demonstration."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

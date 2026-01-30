@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-35E7837C
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with Demonstrators in Iran"
+
+featured: false
+confidence: confirmed
+external_id: "541eb13b-9dc9-4f52-aec0-21faa39a2a3c"
+
+description: |
+  Human rights demonstration condemning mass killings and detentions.
+  
+  **Tips:**
+  Focus on human rights demands; likely smaller than the main Jungfernstieg rally.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/01/31"
+  start_time: "12:00"
+  end: "2026/01/31"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Hamburg"
+  address: "Landungsbrücken (Freifläche vor dem Alten Elbtunnel), Open area near the Old Elbe Tunnel entrance"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

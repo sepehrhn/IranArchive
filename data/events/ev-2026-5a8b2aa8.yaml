@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-5A8B2AA8
+# -----------------------------------------------------------------------------
+
+title: "Sunday Solidarity Gathering"
+
+featured: false
+confidence: possible
+external_id: "0ce7f28a-8790-45a9-a7be-1d614dccfac3"
+
+description: |
+  Sunday rallies at this landmark have been common throughout January 2026 (e.g., on Jan 11 and Jan 18). These tend to be broader coalition events focusing on human rights, the release of detainees from the recent crackdown, and honoring the victims of the 'Bloody Thursday' massacres.
+  
+  **Tips:**
+  Check local Telegram channels on Saturday night for last-minute time changes.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "DE"
+  city: "Berlin"
+  address: "Brandenburg Gate (Brandenburger Tor), Pariser Platz side"
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""

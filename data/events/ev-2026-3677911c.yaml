@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-3677911C
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally for Iran"
+
+featured: false
+confidence: likely
+external_id: "7a33a19c-35e8-4d94-b0d8-eb53f9029071"
+
+description: |
+  A recurring weekly demonstration to support the ongoing uprising in Iran. Protesters are demanding the fall of the Islamic Republic, the listing of the IRGC as a terrorist organization, and support for a transitional government (often referencing Reza Pahlavi). Expect chanting, speeches, and the 'Lion and Sun' flags.
+  
+  **Tips:**
+  This is part of a series of weekly Sunday rallies. Dress warmly as it is outdoors. Check the Instagram handle @iranianincalgary for last-minute time confirmations, though 2:00 PM is the standard start time for these Sunday events.
+
+# [REQUIRED] Categorization
+type: in_person
+
+# [REQUIRED] Timing
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "14:00"
+
+# Location
+location:
+  country: "CA"
+  city: "Calgary"
+  address: "Calgary City Hall Plaza (Municipal Plaza), 800 Macleod Trail SE, In front of City Hall; gathering usually extends to Macleod Trail."
+
+# Organizer
+organizer:
+  name: ""
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
