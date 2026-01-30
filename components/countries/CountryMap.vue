@@ -57,8 +57,8 @@ const features = computed(() => {
       
       return iso;
     };
-    
-    const iso2 = getIsoCode(feature.properties);
+
+    const iso2 = feature.properties.NAME === 'Somaliland' ? 'SOL' : getIsoCode(feature.properties);
     const countryData = props.countries.find(c => c.iso2 === iso2);
     
     return {

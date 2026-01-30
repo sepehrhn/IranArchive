@@ -2,21 +2,15 @@ iso2: BH
 name: "Bahrain"
 region: "Asia"
 subregion: "Western Asia"
-last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 5
-  irgc: 0
-  un: 10
-  security: 10
-  force_tier: C
+last_reviewed_at: '2026-01-29'
 diplomacy:
   status: severed
   expelled_diplomats: all
   iran_mission_status: none
   summary: "Severed relations in 2016. Talks to restore ties ongoing but slow due to legacy of 2011 uprising accusations."
 irgc_designation:
-  status: designated_terrorist
-  summary: "Designated IRGC-linked groups (Saraya al-Ashtar)."
+  status: designated_full
+  summary: "Designated the IRGC as a terrorist organization in October 2018. Asset freezes and transaction bans are in effect."
 un_posture:
   status: supports_accountability
   supports_un_investigations: false

@@ -38,7 +38,7 @@ export const IRGC_COLORS: Record<IRGCDesignationStatus, string> = {
     [IRGCDesignationStatus.DesignatedFull]: '#145A32', // Dark Green
     [IRGCDesignationStatus.DesignatedPartial]: '#1E8449', // Green
     [IRGCDesignationStatus.UnderConsideration]: '#7DCEA0', // Light Green
-    [IRGCDesignationStatus.RejectedOrNo]: '#95A5A6', // Gray/Neutral
+    [IRGCDesignationStatus.RejectedOrNo]: '#C0392B', // Red (was Gray)
     [IRGCDesignationStatus.Unknown]: '#D7DBDD'
 };
 

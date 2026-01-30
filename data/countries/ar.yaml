@@ -2,21 +2,15 @@ iso2: AR
 name: "Argentina"
 region: "Americas"
 subregion: "South America"
-last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 25
-  irgc: 20
-  un: 20
-  security: 15
-  force_tier: B
+last_reviewed_at: '2026-01-29'
 diplomacy:
   status: downgraded
   expelled_diplomats: limited
   iran_mission_status: embassy
-  summary: "Relations strained by AMIA (1994) and Israeli Embassy (1992) bombings legacy. Recent administration strongly aligns with Israel/US."
+  summary: "Relations strained by AMIA (1994) and Israeli Embassy (1992) bombings legacy. Milei govt designated Quds Force as terrorists."
 irgc_designation:
-  status: under_consideration
-  summary: "Has frozen assets of suspected operatives; strong political moves to designate."
+  status: designated_partial
+  summary: "President Milei signed a decree proscribing the IRGC Quds Force and 13 individuals as terrorists on Jan 29, 2026."
 un_posture:
   status: supports_accountability
   supports_un_investigations: true

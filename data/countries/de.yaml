@@ -2,21 +2,15 @@ iso2: DE
 name: "Germany"
 region: "Europe"
 subregion: "Western Europe"
-last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 20
-  irgc: 15
-  un: 20
-  security: 10
-  force_tier: B
+last_reviewed_at: '2026-01-29'
 diplomacy:
   status: downgraded
   expelled_diplomats: some
   iran_mission_status: consulates_closed
-  summary: "Relations severely downgraded. Closed all 3 Iranian consulates in Germany Nov 2024 following execution of Jamshid Sharmahd."
+  summary: "Relations severely downgraded. EU adopted new sanctions on Jan 29, 2026 targeting 15 individuals/6 entities for human rights violations and 4 individuals/6 entities for Russia support."
 irgc_designation:
-  status: security_threat
-  summary: "Pushing for EU-wide terrorist designation. Banned activity of IRGC-linked center (IZH)."
+  status: designated_full
+  summary: "Designated as a terrorist organization by the EU Council decision on Jan 29, 2026."
 un_posture:
   status: supports_accountability
   supports_un_investigations: true

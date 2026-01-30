@@ -3,12 +3,6 @@ name: "Armenia"
 region: "Asia"
 subregion: "Western Asia"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 10
-  irgc: 0
-  un: 5
-  security: 5
-  force_tier: E
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown

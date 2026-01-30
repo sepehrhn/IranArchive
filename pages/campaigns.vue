@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted } from 'vue';
-import { useCampaigns } from '~/composables/useCampaigns';
+import { useCampaigns, calculateGoal } from '~/composables/useCampaigns';
 import { useCampaignSigning } from '~/composables/useCampaignSigning';
 import { useCountries } from '~/composables/useCountries';
 import { getMediaUrl } from '~/utils/mediaUrl';
@@ -13,9 +13,36 @@ const { loadSigned, isSigned, markSigned } = useCampaignSigning();
 
 const isMounted = ref(false);
 
-onMounted(() => {
-  loadSigned();
-  isMounted.value = true;
+onMounted(async () => {
+    loadSigned();
+    isMounted.value = true;
+    
+    // Live Updates
+    // Fetch live stats for all active/victory campaigns
+    for (const campaign of allCampaigns) {
+        if (campaign.status === 'closed' || !campaign.url.includes('change.org')) continue;
+
+        try {
+            const data = await $fetch(`/api/campaign-stats`, {
+                query: { url: campaign.url }
+            }) as any;
+
+            if (data && data.signatures) {
+                // Update local state (reactive because it's in a ref store from composable)
+                // Note: useCampaigns returns a Ref, but the array contents are objects. 
+                // We are mutating the reactive objects directly.
+                campaign.signatures = data.signatures;
+                
+                // Author might be updated too
+                if (data.author) campaign.author = data.author;
+
+                // Recalculate Goal
+                campaign.goal = calculateGoal(campaign.signatures, campaign.status);
+            }
+        } catch (e) {
+            console.error('Failed to fetch live stats for', campaign.url);
+        }
+    }
 });
 
 const showSubmitDialog = ref(false);
@@ -100,6 +127,17 @@ const formatCountries = (codes: string[]) => {
         str += ` +${names.length - 3}`;
     }
     return str;
+};
+
+// Formatting & Helpers
+const formatNumber = (num?: number) => {
+    if (num === undefined) return '0';
+    return new Intl.NumberFormat('en-US').format(num);
+};
+
+const getProgress = (signatures?: number, goal?: number) => {
+    if (!signatures || !goal || goal === 0) return 0;
+    return Math.min(100, (signatures / goal) * 100);
 };
 import confetti from 'canvas-confetti';
 
@@ -237,9 +275,34 @@ const handleConfetti = (event: MouseEvent, status: string) => {
                         <span :class="{ 'text-amber-700 dark:text-amber-400': campaign.status === 'victory' }">{{ formatCountries(campaign.countries) }}</span>
                     </div>
 
-                    <h3 class="font-bold text-lg text-surface-900 dark:text-surface-0 mb-4 line-clamp-2 leading-tight group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                    <h3 class="font-bold text-lg text-surface-900 dark:text-surface-0 mb-1 line-clamp-2 leading-tight group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
                         {{ campaign.title }}
                     </h3>
+
+                    <!-- Author -->
+                    <div v-if="campaign.author" class="text-xs text-surface-500 dark:text-surface-400 mb-4 font-medium">
+                        by {{ campaign.author }}
+                    </div>
+
+                    <!-- Progress -->
+                    <div v-if="campaign.signatures" class="mb-5 ">
+                        <!-- Stats Text -->
+                        <div class="flex items-center gap-2 text-xs font-bold text-surface-700 dark:text-surface-200 mb-1.5">
+                            <i class="pi pi-users text-primary-500 text-[10px]" />
+                            <span>{{ formatNumber(campaign.signatures) }} signatures</span>
+                        </div>
+                        
+                        <!-- Bar -->
+                        <div v-if="campaign.goal" class="w-full bg-surface-200 dark:bg-surface-800 rounded-full h-1.5 overflow-hidden">
+                            <div 
+                                class="bg-primary-500 h-full rounded-full transition-all duration-1000"
+                                :style="{ width: `${getProgress(campaign.signatures, campaign.goal)}%` }"
+                            ></div>
+                        </div>
+                        <div v-if="campaign.goal" class="text-[10px] text-surface-500 mt-1 font-medium">
+                            <span class="font-bold text-surface-700 dark:text-surface-300">{{ Math.round(getProgress(campaign.signatures, campaign.goal)) }}%</span> to {{ formatNumber(campaign.goal) }}
+                        </div>
+                    </div>
 
                     <div class="mt-auto pt-4 border-t border-surface-100 dark:border-surface-800 flex items-center justify-between text-sm font-medium group-hover:translate-x-1 transition-transform duration-300"
                         :class="campaign.status === 'victory' ? 'text-amber-600 dark:text-amber-400 border-amber-200 dark:border-amber-800/30' : 'text-primary-600 dark:text-primary-400'"
@@ -262,7 +325,7 @@ const handleConfetti = (event: MouseEvent, status: string) => {
             v-model:visible="showSubmitDialog" 
             modal 
             header="Submit a Campaign" 
-            :style="{ width: '90vw', maxWidth: '1000px' }"
+            :style="{ width: '90vw', maxWidth: '700px' }"
             :draggable="false"
             class="submission-dialog"
         >

@@ -1,7 +1,7 @@
 import { ref, computed } from 'vue';
 import type { CountryData, CountryScores } from '@/types/countries';
 import { OverallTier } from '@/types/countries';
-import { calculateOverallScore, getTierFromScore } from '@/utils/countryScoring';
+import { calculateOverallScore, getTierFromScore, calculateScoresFromStatus } from '@/utils/countryScoring';
 // @ts-ignore
 // @ts-ignore
 // Removed js-yaml dependency in favor of build-time parsing
@@ -34,15 +34,26 @@ export const useCountries = () => {
                     }
 
                     // Compute derived fields
-                    const overallScore = calculateOverallScore(data.scores);
-                    const tier = getTierFromScore(overallScore, data.scores.force_tier);
+                    // Calculate scores from status instead of using manual scores
+                    const calculatedScores = calculateScoresFromStatus(data);
+
+                    // We removed force_tier from data, so we don't need to read it.
+                    // But to be extra safe for "natural" stats, we explicitly ignore it even if present.
+                    // const forceTier = data.scores?.force_tier; 
+
+                    const overallScore = calculatedScores.overall;
+                    const tier = getTierFromScore(overallScore, undefined); // Pass undefined to ignore force_tier
 
                     const processedCountry: CountryData = {
                         ...data,
+                        scores: {
+                            ...calculatedScores,
+                            force_tier: '' // Ensure empty
+                        },
                         derived_scores: {
-                            ...data.scores,
+                            ...calculatedScores,
                             overall: overallScore,
-                            force_tier: data.scores.force_tier || ''
+                            force_tier: ''
                         },
                         derived_tier: tier,
                         // Ensure array fields exist
@@ -77,7 +88,10 @@ export const useCountries = () => {
 
     const getCountryFlagUrl = (iso2: string) => {
         if (!iso2) return '';
-        const code = iso2.toUpperCase();
+        let code = iso2.toUpperCase();
+
+        // Custom mapping for non-standard codes
+        if (code === 'SOL') code = 'SO'; // Use Somalia flag for Somaliland as placeholder or better, ignore flag
 
         // Convert ISO2 to Unicode code points for Twemoji
         const codePoints = code

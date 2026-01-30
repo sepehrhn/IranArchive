@@ -2,21 +2,15 @@ iso2: DK
 name: "Denmark"
 region: "Europe"
 subregion: "Northern Europe"
-last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 15
-  irgc: 5
-  un: 15
-  security: 10
-  force_tier: C
+last_reviewed_at: '2026-01-29'
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
-  summary: "Relations cool. Recalled ambassador in 2018 over Iranian assassination plot on Danish soil."
+  summary: "Relations cool. EU adopted new sanctions on Jan 29, 2026 targeting human rights violations and Russia support."
 irgc_designation:
-  status: rejected_or_no
-  summary: "Supports EU-wide designation discussions."
+  status: designated_full
+  summary: "Designated as a terrorist organization by the EU Council decision on Jan 29, 2026."
 un_posture:
   status: supports_accountability
   supports_un_investigations: false

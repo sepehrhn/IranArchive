@@ -3,12 +3,6 @@ name: "Norway"
 region: "Europe"
 subregion: "Northern Europe"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 10
-  irgc: 0
-  un: 10
-  security: 0
-  force_tier: C
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown

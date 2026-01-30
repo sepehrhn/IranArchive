@@ -2,21 +2,15 @@ iso2: NL
 name: "Netherlands"
 region: "Europe"
 subregion: "Western Europe"
-last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 15
-  irgc: 15
-  un: 15
-  security: 10
-  force_tier: B
+last_reviewed_at: '2026-01-29'
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
-  summary: "Relations tense. Recalled ambassador in past. Strong critic of Iran's human rights record."
+  summary: "Relations tense. EU adopted new sanctions on Jan 29, 2026 targeting 15 individuals/6 entities for human rights violations and 4 individuals/6 entities for Russia support."
 irgc_designation:
-  status: security_threat
-  summary: "Parliament voted to designate IRGC as terrorist organization. Leading push within EU."
+  status: designated_full
+  summary: "Designated as a terrorist organization by the EU Council decision on Jan 29, 2026."
 un_posture:
   status: supports_accountability
   supports_un_investigations: false

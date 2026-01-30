@@ -3,12 +3,6 @@ name: "Yemen"
 region: "Asia"
 subregion: "Western Asia"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: -10
-  irgc: 0
-  un: 0
-  security: -20
-  force_tier: G
 diplomacy:
   status: enhanced_engagement
   expelled_diplomats: unknown

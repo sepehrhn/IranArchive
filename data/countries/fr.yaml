@@ -2,21 +2,15 @@ iso2: FR
 name: "France"
 region: "Europe"
 subregion: "Western Europe"
-last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 15
-  irgc: 10
-  un: 20
-  security: 10
-  force_tier: B
+last_reviewed_at: '2026-01-29'
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
-  summary: "Relations engaged but highly tense. French citizens held hostage (Cécile Kohler). E3 member pushing for nuclear compliance."
+  summary: "Relations engaged but highly tense. EU adopted new sanctions on Jan 29, 2026 targeting 15 individuals/6 entities for human rights violations and 4 individuals/6 entities for Russia support."
 irgc_designation:
-  status: security_threat
-  summary: "Condemned IRGC actions. Pushing for sanctions snapback."
+  status: designated_full
+  summary: "Designated as a terrorist organization by the EU Council decision on Jan 29, 2026."
 un_posture:
   status: supports_accountability
   supports_un_investigations: true

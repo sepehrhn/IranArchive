@@ -3,12 +3,6 @@ name: "Cabo Verde"
 region: "Africa"
 subregion: "Western Africa"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 10
-  irgc: 0
-  un: 5
-  security: 0
-  force_tier: D
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown

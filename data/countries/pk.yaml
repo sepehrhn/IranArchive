@@ -3,12 +3,6 @@ name: "Pakistan"
 region: "Asia"
 subregion: "Southern Asia"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 5
-  irgc: 0
-  un: 0
-  security: -5
-  force_tier: E
 diplomacy:
   status: enhanced_engagement
   expelled_diplomats: unknown

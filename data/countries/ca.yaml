@@ -3,12 +3,6 @@ name: "Canada"
 region: "Americas"
 subregion: "Northern America"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 25
-  irgc: 25
-  un: 25
-  security: 15
-  force_tier: B
 diplomacy:
   status: severed
   expelled_diplomats: all

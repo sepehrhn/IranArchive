@@ -35,7 +35,6 @@ onMounted(async () => {
 const searchQuery = ref('');
 const colorMode = ref<'Overall' | 'Diplomacy' | 'IRGC' | 'UN' | 'Security'>('Overall');
 const selectedTier = ref<OverallTier[]>([]);
-const onlyWithEvidence = ref(false);
 const sortMode = ref<'Name' | 'Score' | 'Reviewed'>('Name');
 
 const selectedIso = ref<string | null>(null);
@@ -68,11 +67,6 @@ const filteredCountries = computed(() => {
   // Tier Filter (Available in Overall mode mostly, but useful always)
   if (selectedTier.value.length > 0) {
     result = result.filter(c => selectedTier.value.includes(c.derived_tier || OverallTier.Unknown));
-  }
-
-  // Evidence Filter
-  if (onlyWithEvidence.value) {
-    result = result.filter(c => c.evidence && c.evidence.length > 0);
   }
 
   // Sorting
@@ -137,11 +131,6 @@ const handleListSelect = (iso: string) => {
       </div>
 
       <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-between lg:justify-end">
-         <div class="flex items-center gap-2">
-           <Checkbox v-model="onlyWithEvidence" :binary="true" inputId="evidence-check" />
-           <label for="evidence-check" class="text-sm cursor-pointer select-none">Has Evidence</label>
-         </div>
-         
          <Dropdown v-model="sortMode" :options="['Name', 'Score', 'Reviewed']" placeholder="Sort By" class="w-32" />
       </div>
     </div>

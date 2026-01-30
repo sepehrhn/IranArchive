@@ -1,0 +1,24 @@
+iso2: GL
+name: "Greenland"
+region: "Americas"
+subregion: "North America"
+last_reviewed_at: '2026-01-29'
+diplomacy:
+  status: full_relations
+  expelled_diplomats: unknown
+  iran_mission_status: unknown
+  summary: "Aligns with Denmark/EU. Covered by EU sanctions and designation."
+irgc_designation:
+  status: designated_full
+  summary: "Designated as a terrorist organization by the EU Council."
+un_posture:
+  status: supports_accountability
+  supports_un_investigations: false
+  supports_sanctions_or_condemnation: false
+  supports_evidence_preservation: false
+  supports_credential_limits: false
+  summary: "Follows Denmark's voting."
+security_posture:
+  status: explicit_support
+  summary: "NATO/US defense alignment."
+evidence: []

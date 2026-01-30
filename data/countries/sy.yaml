@@ -3,12 +3,6 @@ name: "Syria"
 region: "Asia"
 subregion: "Western Asia"
 last_reviewed_at: '2026-01-20'
-scores:
-  diplomacy: 0
-  irgc: 5
-  un: 0
-  security: 0
-  force_tier: D
 diplomacy:
   status: minimal_relations
   expelled_diplomats: unknown

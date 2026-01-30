@@ -2,21 +2,15 @@ iso2: EC
 name: "Ecuador"
 region: "Americas"
 subregion: "South America"
-last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 10
-  irgc: 0
-  un: 10
-  security: 0
-  force_tier: D
+last_reviewed_at: '2026-01-29'
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
   summary: "Maintains relations."
 irgc_designation:
-  status: rejected_or_no
-  summary: "No designation."
+  status: designated_full
+  summary: "Designated the IRGC as a terrorist organization on September 16, 2025, noting its threat to national security and sovereign integrity."
 un_posture:
   status: neutral_inconsistent
   supports_un_investigations: false

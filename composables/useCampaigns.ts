@@ -65,6 +65,9 @@ export const useCampaigns = () => {
                     countries,
                     featured: Boolean(data.featured),
                     created_at: data.created_at,
+                    author: data.author,
+                    signatures: data.signatures || 0,
+                    goal: calculateGoal(data.signatures || 0, status),
                 };
 
                 loadedCampaigns.push(campaign);
@@ -111,4 +114,25 @@ export const useCampaigns = () => {
         getAllCampaigns,
         getCampaignsForCountry
     };
+};
+
+// Helper: Calculate Goal dynamically
+export const calculateGoal = (signatures: number = 0, status: CampaignStatus): number => {
+    const milestones = [5000, 10000, 50000, 100000, 250000, 500000, 1000000, 5000000, 10000000];
+
+    if (status === 'victory') {
+        // Find largest milestone <= signatures
+        // e.g. 30k sigs -> 10k goal
+        for (let i = milestones.length - 1; i >= 0; i--) {
+            if (signatures >= milestones[i]) return milestones[i];
+        }
+        return milestones[0]; // Fallback to lowest
+    } else {
+        // Find smallest milestone > signatures
+        // e.g. 30k sigs -> 50k goal
+        for (const m of milestones) {
+            if (m > signatures) return m;
+        }
+        return milestones[milestones.length - 1]; // Maxed out
+    }
 };

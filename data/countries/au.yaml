@@ -3,28 +3,22 @@ name: "Australia"
 region: "Oceania"
 subregion: "Australia and New Zealand"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 15
-  irgc: 5
-  un: 20
-  security: 10
-  force_tier: C
 diplomacy:
-  status: full_relations
-  expelled_diplomats: unknown
-  iran_mission_status: unknown
-  summary: "Relations strained. Suspended bilateral human rights dialogue. Imposed Magnitsky-style sanctions on Iranian individuals."
+  status: downgraded
+  expelled_diplomats: limited
+  iran_mission_status: Interests section only
+  summary: "Relations severely strained. Australian government has suspended high-level dialogues and imposed significant sanctions on Iranian entities following human rights abuses."
 irgc_designation:
-  status: rejected_or_no
-  summary: "Senate recommended listing as terrorist organization. Government considering legal implications."
+  status: designated_full
+  summary: "Listed the IRGC as a terrorist organization in its entirety, following the EU Council decision in January 2026. Prior to this, targeted sanctions were already in place."
 un_posture:
-  status: supports_accountability
+  status: leads_accountability
   supports_un_investigations: true
-  supports_sanctions_or_condemnation: false
-  supports_evidence_preservation: false
-  supports_credential_limits: false
-  summary: "Consistently co-sponsors HR resolutions."
+  supports_sanctions_or_condemnation: true
+  supports_evidence_preservation: true
+  supports_credential_limits: true
+  summary: "Leading voice in the UN for human rights accountability. Consistently spearheads and co-sponsors resolutions against the Islamic Republic's crimes."
 security_posture:
   status: explicit_support
-  summary: "Participates in maritime security in the Middle East. Concens over dual-use technology proliferation."
+  summary: "Active participant in international maritime security operations (Operation Prosperity Guardian) and counter-proliferation efforts."
 evidence: []

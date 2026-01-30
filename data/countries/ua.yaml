@@ -3,12 +3,6 @@ name: "Ukraine"
 region: "Europe"
 subregion: "Eastern Europe"
 last_reviewed_at: '2026-01-19'
-scores:
-  diplomacy: 20
-  irgc: 20
-  un: 20
-  security: 10
-  force_tier: B
 diplomacy:
   status: severed
   expelled_diplomats: all

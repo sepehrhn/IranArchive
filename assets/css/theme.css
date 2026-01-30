@@ -135,3 +135,117 @@ html {
                                           but if we manually control, we might need this. 
                                           Actually, let's let PrimeVue handle it by using the correct selector. */
 }
+
+/* -------------------------------------------------------------------------- */
+/*                        Unified Glassmorphic Input Styles                   */
+/* -------------------------------------------------------------------------- */
+
+:root {
+    /* Input Variables - Glassmorphism */
+    --p-inputtext-border-radius: 12px;
+    --p-inputtext-padding-x: 1rem;
+    --p-inputtext-padding-y: 0.75rem;
+    --p-inputtext-transition-duration: 0.2s;
+
+    /* Light Mode Input Tokens */
+    --input-bg: rgba(255, 255, 255, 0.6);
+    --input-border: rgba(148, 163, 184, 0.4);
+    /* slate-400 with opacity */
+    --input-hover-border: var(--p-primary-500);
+    --input-focus-border: var(--p-primary-500);
+    --input-focus-ring: 0 0 0 4px rgba(var(--p-primary-500), 0.15);
+    --input-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+
+    /* Set PrimeVue mappings */
+    --p-inputtext-background: var(--input-bg);
+    --p-inputtext-border-color: var(--input-border);
+    --p-inputtext-hover-border-color: var(--input-hover-border);
+    --p-inputtext-focus-border-color: var(--input-focus-border);
+    --p-inputtext-focus-ring-shadow: var(--input-focus-ring);
+    --p-inputtext-shadow: var(--input-shadow);
+
+    --p-textarea-background: var(--input-bg);
+    --p-textarea-border-color: var(--input-border);
+
+    --p-select-background: var(--input-bg);
+    --p-select-border-color: var(--input-border);
+
+    /* Filled Variant Overrides (Make them glassmorphic too) */
+    --p-inputtext-filled-background: var(--input-bg);
+    --p-inputtext-filled-focus-background: rgba(255, 255, 255, 0.9);
+    --p-inputtext-filled-hover-background: rgba(255, 255, 255, 0.8);
+}
+
+[data-theme="dark"] {
+    /* Dark Mode Input Tokens */
+    --input-bg: rgba(15, 23, 42, 0.6);
+    /* slate-900 with opacity */
+    --input-border: rgba(51, 65, 85, 0.6);
+    /* slate-700 with opacity */
+    --input-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+
+    /* Dark Mode Filled Overrides */
+    --p-inputtext-filled-focus-background: rgba(15, 23, 42, 0.9);
+    --p-inputtext-filled-hover-background: rgba(30, 41, 59, 0.8);
+}
+
+/* Global Component Overrides for Glass Effect and Transitions */
+.p-inputtext,
+.p-textarea,
+.p-select,
+.p-multiselect,
+.p-autocomplete-input,
+.p-calendar-input,
+.p-inputnumber-input,
+.p-password-input {
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 500;
+}
+
+/* Hover Effects */
+.p-inputtext:enabled:hover,
+.p-textarea:enabled:hover,
+.p-select:not(.p-disabled):hover {
+    background: rgba(255, 255, 255, 0.8);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .p-inputtext:enabled:hover,
+[data-theme="dark"] .p-textarea:enabled:hover,
+[data-theme="dark"] .p-select:not(.p-disabled):hover {
+    background: rgba(30, 41, 59, 0.8);
+    /* slate-800 mostly opaque */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Focus Effects */
+.p-inputtext:enabled:focus,
+.p-textarea:enabled:focus,
+.p-select.p-focus {
+    transform: translateY(-1px);
+    background: rgba(255, 255, 255, 1);
+}
+
+[data-theme="dark"] .p-inputtext:enabled:focus,
+[data-theme="dark"] .p-textarea:enabled:focus,
+[data-theme="dark"] .p-select.p-focus {
+    background: rgba(15, 23, 42, 0.9);
+}
+
+/* Placeholder Styling */
+.p-inputtext::placeholder {
+    color: var(--p-slate-400);
+    font-weight: 400;
+}
+
+/* Invalid State */
+.p-inputtext.p-invalid,
+.p-textarea.p-invalid,
+.p-select.p-invalid {
+    border-color: var(--danger);
+    background: rgba(239, 68, 68, 0.05);
+    /* faint red tint */
+}
