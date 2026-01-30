@@ -7,12 +7,13 @@ name: Armita Geravand
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 16
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Beating
@@ -21,3 +22,4 @@ description: |
   Violently beaten by government forces at Haft-e-Tir metro station, fell into coma and died several days later in hospital
 source_type: Social Media
 source_social_media_link: https://x.com/longlosthills/status/2011432069621248275
+child: true

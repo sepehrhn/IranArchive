@@ -179,19 +179,32 @@
           </div>
 
           <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <!-- Name -->
-            <div class="md:col-span-2">
+            <!-- Name & Persian Name -->
+            <div class="md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div>
+                <IftaLabel>
+                  <InputText
+                    id="v_name"
+                    v-model="form.name"
+                    class="w-full"
+                    variant="filled"
+                    :invalid="stepErrors.name"
+                  />
+                  <label for="v_name">Full Name (English) *</label>
+                </IftaLabel>
+                <small v-if="stepErrors.name" class="text-red-500 mt-1 block px-1">Please enter the victim's name</small>
+              </div>
+
               <IftaLabel>
                 <InputText
-                  id="v_name"
-                  v-model="form.name"
-                  class="w-full"
+                  id="v_name_fa"
+                  v-model="form.persianName"
+                  class="w-full font-fa"
+                  dir="rtl"
                   variant="filled"
-                  :invalid="stepErrors.name"
                 />
-                <label for="v_name">Full Name *</label>
+                <label for="v_name_fa">Full Name (Persian) - Optional</label>
               </IftaLabel>
-              <small v-if="stepErrors.name" class="text-red-500 mt-1 block px-1">Please enter the victim's name</small>
             </div>
 
             <!-- Age & Gender -->
@@ -217,6 +230,13 @@
               />
               <label for="v_gender">Gender</label>
             </IftaLabel>
+
+            <div class="flex items-center gap-2 md:col-span-2">
+                <Checkbox v-model="form.child" binary inputId="v_child" />
+                <label for="v_child" class="text-sm font-medium text-surface-700 dark:text-surface-300">
+                    This victim is a child (under 18)
+                </label>
+            </div>
 
             <!-- Occupation -->
             <div class="md:col-span-2">
@@ -306,6 +326,18 @@
                   variant="filled"
                 />
                 <label for="inc_city">{{ form.status === 'Missing' ? 'Last Seen City' : 'Incident City' }}</label>
+              </IftaLabel>
+            </div>
+            
+            <div class="mt-4">
+              <IftaLabel>
+                <InputText
+                  id="inc_addr"
+                  v-model="form.incident_address"
+                  class="w-full"
+                  variant="filled"
+                />
+                <label for="inc_addr">{{ form.status === 'Missing' ? 'Last Seen Address' : 'Incident Address (Optional)' }}</label>
               </IftaLabel>
             </div>
           </div>
@@ -531,6 +563,7 @@
                         <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Location</p>
                         <p class="text-sm font-bold text-surface-800 dark:text-surface-200">
                           {{ form.incident_city }}{{ form.incident_province ? `, ${form.incident_province}` : '' }}
+                          <span v-if="form.incident_address" class="block text-xs font-normal text-surface-500 mt-1">{{ form.incident_address }}</span>
                         </p>
                       </div>
                       <div v-if="form.status === 'Killed'" class="sm:col-span-2">
@@ -738,12 +771,14 @@ const sourceTypeOptions = [
 const form = ref({
   status: '' as 'Killed' | 'Missing' | '',
   name: '',
+  persianName: '',
   // Personal info
   birthDate: null as Date | null,
   birthProvince: '',
   birthCity: '',
   gender: '',
   age: null as number | null,
+  child: false,
   occupation: '',
   // Death/Disappearance info
   dateOfDeath: null as Date | null,
@@ -755,6 +790,7 @@ const form = ref({
   // Incident location
   incident_province: '',
   incident_city: '',
+  incident_address: '',
   // Description
   description: '',
   // Source info

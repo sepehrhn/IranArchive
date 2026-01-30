@@ -2,37 +2,27 @@
 # Victim Documentation - Alireza Eftekhari
 # ==========================================
 
-photo: ""
-
-name: "Alireza Eftekhari"
-
-# Personal & Birth Information
+photo: vic-2026-001020.jpg
+name: Alireza Eftekhari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: ""
-
-# Death Information
+incident_city: Kermanshah
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
+description: |-
 
-# Status
-status: "Killed"
 
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2014723608359104900"
+  17-year-old shot with five bullets from behind on the night of 18 Dey. Khamenei's mercenaries abandoned his body in a secluded location after killing him, and his body was only found the night before this report. His mother suffered a heart attack following these crimes.
+source_type: Social Media
+source_social_media_link: https://x.com/sattarkhan121/status/2016254554367500711, https://x.com/i/status/2016254554367500711
+child: true
+persian_name: علیرضا افتخاری

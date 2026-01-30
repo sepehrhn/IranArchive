@@ -2,36 +2,25 @@
 # Victim Documentation - Ali Ataei
 # ==========================================
 
-photo: "vic-2026-000230.jpg"
-name: "Ali Ataei"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+photo: vic-2026-000230.jpg
+name: Ali Ataei
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 27
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Ghadir Yabrud"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: ''
+incident_address: Ghadir Yabrud
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in Ghadir Yabrud
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hekasrehcrisis/status/2014833063541248416"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/hekasrehcrisis/status/2014833063541248416
+child: false

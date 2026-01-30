@@ -2,24 +2,28 @@
 # Victim Documentation - Husband of Zahra Bani Amirian
 # ==========================================
 
-photo: "vic-2026-001708.jpg"
+photo: vic-2026-001708.jpg
 name: Husband of Zahra Bani Amirian
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: null
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-date_of_death: "2026-01-09"
+incident_address: ''
+date_of_death: '2026-01-09'
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: ''
 status: Killed
 description: |-
   Persian Name: همسر زهرا بنی‌عامریان
 
   Shot when security forces opened fire on family car during peaceful protest
 source_type: Social Media
-source_social_media_link: https://x.com/banafshehviola/status/2013349473104343202, https://x.com/manotonews/status/2012948104665059375
+source_social_media_link:
+  - https://x.com/banafshehviola/status/2013349473104343202
+  - https://x.com/manotonews/status/2012948104665059375
+child: false

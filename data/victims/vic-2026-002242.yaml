@@ -7,12 +7,13 @@ name: Nika Shakarami
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Mentioned by her mother in the context of giving her child to the nation. Nika Shakarami was a victim of earlier protests (2022-2023 Woman Life Freedom movement) and is not relevant to the 2025-2026 protests.
 source_type: Social Media
 source_social_media_link: https://x.com/Farhad5778/status/2015154127366414835
+child: false
+persian_name: نیکا شاکرمی

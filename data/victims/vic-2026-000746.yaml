@@ -2,22 +2,28 @@
 # Victim Documentation - Mohsen Ramezani
 # ==========================================
 
-photo: "vic-2026-000746.jpg"
+photo: vic-2026-000746.jpg
 name: Mohsen Ramezani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Isfahan"
+incident_province: Lenjan
 incident_city: Chamgardan
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Killed during protests on Thursday and Friday
+
+
+  Ceramic worker and mason. Killed by direct live ammunition to the head.
 source_type: Social Media
 source_social_media_link: https://x.com/visfehan/status/2014331046636990578, https://x.com/VIsfehan/status/2015114384914161688, https://t.me/RememberTheirNames/1345
+child: false
+persian_name: محسن رمضانی

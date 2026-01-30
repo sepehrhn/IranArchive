@@ -11,8 +11,9 @@ gender: Female
 age: 29
 occupation: ""
 country: Iran
-incident_province: "Alborz"
+incident_province: Karaj
 incident_city: Gohardasht
+incident_address: Gohardasht
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot by agents of the Islamic Republic during protests. First bullet hit his side; second bullet struck his jugular artery, causing him to die on the spot in front of his wife.
 source_type: Social Media
-source_social_media_link: https://x.com/maroofian_n/status/2014771901541888115, https://t.me/RememberTheirNames/903
+source_social_media_link: https://x.com/maroofian_n/status/2014771901541888115, https://t.me/RememberTheirNames/903, https://x.com/monfaredashkan/status/2016248172952322098
+child: false
+persian_name: سعید پناهی

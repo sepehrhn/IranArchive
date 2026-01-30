@@ -7,12 +7,13 @@ name: Ali Janani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 20
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Islamshahr
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot with live ammunition by security forces during protests in Qaemiyeh neighborhood
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2011812078084866557, https://x.com/Daikatuo/status/2011855746544136648
+source_social_media_link: https://x.com/iranwire/status/2011812078084866557, https://x.com/Daikatuo/status/2011855746544136648, https://t.me/RememberTheirNames/415
+child: false
+persian_name: علی جانانی

@@ -2,37 +2,25 @@
 # Victim Documentation - Zahra Raha Bohlouli-Pour
 # ==========================================
 
-photo: ""
-
-name: "Zahra Raha Bohlouli-Pour"
-
-# Personal & Birth Information
+photo: vic-2026-000871.jpg
+name: Zahra Raha Bohlouli-Pour
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 18
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Fatemi Square
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Murdered by the Islamic Regime
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: ""
+source_type: Social Media
+source_social_media_link: https://x.com/zananfirouzehie/status/2011816992550838658, https://x.com/banafshehviola/status/2011871135206715487, https://x.com/soranmansournia/status/2012555865815990709, https://x.com/manotonews/status/2012887829777699170, https://x.com/manotonews/status/2012872610150039725, https://x.com/soranmansournia/status/2012960128610205973
+child: false
+persian_name: زهرا بهلولی‌پور

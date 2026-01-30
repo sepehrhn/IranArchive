@@ -7,12 +7,13 @@ name: Monireh Heydari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Booshehr
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed by regime forces in Booshehr, shot on the street near a mosque.
 source_type: Social Media
 source_social_media_link: https://x.com/mobarez_nastooh/status/2014474450591170641
+child: false
+persian_name: منصوره حیدری بوشهری

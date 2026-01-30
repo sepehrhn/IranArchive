@@ -3,38 +3,26 @@
 # ==========================================
 
 photo: ""
-
-name: "Mojtaba Jouzi"
-
-# Personal & Birth Information
+name: Mojtaba Jouzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Isfahan
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: مجتبی جوزی
-  
-  Martyred on 18 Dey
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hannigan220/status/2014648644780085468"
+  Martyred on 18 Dey
+source_type: Social Media
+source_social_media_link: https://x.com/hannigan220/status/2014648644780085468
+child: false
+persian_name: مجتبی جوزی

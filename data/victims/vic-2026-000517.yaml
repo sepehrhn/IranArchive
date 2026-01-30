@@ -7,12 +7,13 @@ name: Amin Nadery
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: Kermanshah
 incident_city: Sabzdasht
+incident_address: Sabzdasht
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Killed by security forces with a military bullet during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/hiwa_life/status/2014789505639755848
+child: false
+persian_name: امین نادری

@@ -2,38 +2,27 @@
 # Victim Documentation - Hozifeh Ostakh
 # ==========================================
 
-photo: "vic-2026-001264.jpg"
-name: "Hozifeh Ostakh"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001264.jpg
+name: Hozifeh Ostakh
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 11
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: Razavi Khorasan
+incident_city: Mashhad
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: حذیفه اوستاخ
-  
-  Shot and killed by government forces during protests in Rajai town. He was shot in the chest.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2015534859893014591"
+  Shot and killed by government forces during protests in Rajai town. He was shot in the chest.
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/hengawo/status/2015534859893014591
+child: true

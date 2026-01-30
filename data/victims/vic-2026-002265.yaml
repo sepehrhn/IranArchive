@@ -2,17 +2,18 @@
 # Victim Documentation - Sohail Habibi
 # ==========================================
 
-photo: "vic-2026-002265.jpg"
+photo: vic-2026-002265.jpg
 name: Sohail Habibi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 24
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Nasim Shahr
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed by gunfire.
 source_type: Social Media
 source_social_media_link: https://x.com/mojahedin_plus/status/2015451177391911098
+child: false
+persian_name: سهیل حبیبی

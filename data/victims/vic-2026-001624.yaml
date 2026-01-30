@@ -2,17 +2,18 @@
 # Victim Documentation - Abbas Akbarpour
 # ==========================================
 
-photo: "vic-2026-001624.jpg"
+photo: vic-2026-001624.jpg
 name: Abbas Akbarpour
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 39
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ملک‌شهر اصفهان
+incident_address: Malekshahr
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed by terrorists of the Islamic occupation regime.
 source_type: Social Media
 source_social_media_link: https://x.com/ka3rimi/status/2015460091818856921, https://x.com/iranintlbrk/status/2015340875484635450, https://t.me/RememberTheirNames/1013
+child: false
+persian_name: عباس اکبرپور

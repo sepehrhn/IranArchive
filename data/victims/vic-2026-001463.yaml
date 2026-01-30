@@ -2,38 +2,27 @@
 # Victim Documentation - Abolfazl Heydari Mosloo
 # ==========================================
 
-photo: "vic-2026-001463.png"
-
-name: "Abolfazl Heydari Mosloo"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001463.png
+name: Abolfazl Heydari Mosloo
+persian_name: "ابوالفضل حیدری موصلو"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 17
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Fars"
-incident_city: "قیر و کارزین"
-
-# Death Information
-date_of_death: "2026-01-09"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: Fars
+incident_city: Qirokarzin
+incident_address: ''
+date_of_death: '2026-01-09'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   حیدری، نوجوانی ۱۷ساله و در صف اول اعتراضات شامگاه ۱۸‌دی‌ماه بود که با گلوله‌های سرکوبگران کشته شد.
   Heidari, a 17-year-old teenager, was on the front lines of the protests on the evening of January 8, when he was killed by the gunfire of repressive forces.
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: true

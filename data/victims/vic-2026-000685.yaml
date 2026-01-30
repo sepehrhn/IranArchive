@@ -2,37 +2,25 @@
 # Victim Documentation - Mehrab Tahaghi
 # ==========================================
 
-photo: ""
-
-name: "Mehrab Tahaghi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: ""
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: ''
+name: Mehrab Tahaghi
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot during protest
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/gr2493/status/2014837951394725972"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/gr2493/status/2014837951394725972
+child: false

@@ -7,12 +7,13 @@ name: Bahareh Babaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Farrokh Shahr
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed by suppression forces of the Islamic Republic during protests
 source_type: Social Media
 source_social_media_link: https://x.com/allahbakhshii/status/2014524712190185977, https://www.instagram.com/p/DT1htkQiHhV, https://t.me/RememberTheirNames/771
+child: false
+persian_name: بهاره بابایی

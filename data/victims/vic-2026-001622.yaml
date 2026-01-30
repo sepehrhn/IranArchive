@@ -2,17 +2,18 @@
 # Victim Documentation - Yaser Ezzati Nasrabadi
 # ==========================================
 
-photo: "vic-2026-001622.jpg"
+photo: vic-2026-001622.jpg
 name: Yaser Ezzati Nasrabadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Shahr-e Andisheh
+incident_address: Andisheh
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Died in Dey 1404 (January 2026). Specific circumstances not detailed.
 source_type: Social Media
 source_social_media_link: https://x.com/HengawO/status/2014781999668437226, https://t.me/RememberTheirNames/1334
+child: false
+persian_name: یاسر عزتی نصرتیان

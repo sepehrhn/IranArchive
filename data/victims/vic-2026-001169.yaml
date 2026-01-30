@@ -2,22 +2,26 @@
 # Victim Documentation - Morteza Jahanbakhsh
 # ==========================================
 
-photo: "vic-2026-001169.jpg"
+photo: vic-2026-001169.jpg
 name: Morteza Jahanbakhsh
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: null
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: "Razavi Khorasan"
+incident_province: Razavi Khorasan
 incident_city: Chenaran
-date_of_death: ""
+incident_address: ''
+date_of_death: ''
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Killed during nationwide protests
 source_type: Social Media
-source_social_media_link: https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/KurdistanHRN/status/2014707925177016659
+source_social_media_link:
+  - https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/
+  - https://x.com/KurdistanHRN/status/2014707925177016659
+child: false

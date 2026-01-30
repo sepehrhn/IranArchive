@@ -2,17 +2,18 @@
 # Victim Documentation - Babak Mozaffari
 # ==========================================
 
-photo: "vic-2026-002185.jpg"
+photo: vic-2026-002185.jpg
 name: Babak Mozaffari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Chalous
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -22,4 +23,6 @@ description: |-
 
   Killed during the 2025-2026 Iranian protests
 source_type: Social Media
-source_social_media_link: https://x.com/maryammoqaddam/status/2014711935275536389, https://x.com/MaryamMoqaddam/status/2014711935275536389
+source_social_media_link: https://x.com/maryammoqaddam/status/2014711935275536389, https://x.com/MaryamMoqaddam/status/2014711935275536389, https://t.me/persian_picture/4126
+child: false
+persian_name: بابک مظفرى

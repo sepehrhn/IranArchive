@@ -2,17 +2,18 @@
 # Victim Documentation - Diako GhaderMarzi
 # ==========================================
 
-photo: "vic-2026-002119.jpg"
+photo: vic-2026-002119.jpg
 name: Diako GhaderMarzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 19
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran and Karaj
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot directly by security forces during protests on the evening of Thursday, 18 Dey 1404. His body was buried at night under heavy security.
 source_type: Social Media
 source_social_media_link: https://x.com/hengawo/status/2014810777199272005, https://x.com/HengawO/status/2014810777199272005, https://x.com/kurdpa_farsi/status/2014761583835230707, https://t.me/RememberTheirNames/930
+child: false
+persian_name: دیاکو قادرمرزی

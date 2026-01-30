@@ -7,12 +7,13 @@ name: Mohammad Ghasem Roosta
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: null
+gender: Male
+age: 14
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Marvdasht
+incident_address: ""
 date_of_death: "2026-01-02"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Killed by security forces during the nationwide protests in Marvdasht.
 source_type: Social Media
-source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/Daikatuo/status/2007456429049856090
+source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/Daikatuo/status/2007456429049856090, https://t.me/RememberTheirNames/55, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/HengawO/status/2012641346142572662
+child: true
+persian_name: محمدقاسم روستا

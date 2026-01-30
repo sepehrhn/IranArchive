@@ -2,17 +2,18 @@
 # Victim Documentation - Reza Esmaeili
 # ==========================================
 
-photo: "vic-2026-001791.jpg"
+photo: vic-2026-001791.jpg
 name: Reza Esmaeili
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 24
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Zeynabieh
+incident_address: Zeynabieh
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot directly. He was the only son and recently married. His name has not been mentioned anywhere.
 source_type: Social Media
 source_social_media_link: https://x.com/VIsfehan/status/2015724681932722197
+child: false
+persian_name: رضا اسماعیلی

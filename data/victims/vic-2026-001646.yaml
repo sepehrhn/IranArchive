@@ -2,17 +2,18 @@
 # Victim Documentation - Amir Hossein Rezaei
 # ==========================================
 
-photo: "vic-2026-001646.jpg"
+photo: vic-2026-001646.jpg
 name: Amir Hossein Rezaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Homayounshahr (now Khomeini Shahr)
+incident_address: now Khomeini Shahr
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Died during protests. The tweet uses 'جاودانه شد' which means 'became immortal' or 'passed away'.
 source_type: Social Media
 source_social_media_link: https://x.com/VIsfehan/status/2015732273627144378, https://x.com/visfehan/status/2015732273627144378, https://x.com/i/status/2015732273627144378
+child: false
+persian_name: امیر حسین رضایی

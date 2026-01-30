@@ -3,38 +3,26 @@
 # ==========================================
 
 photo: ""
-
-name: "Amir Hossein Shahbazi"
-
-# Personal & Birth Information
+name: Amir Hossein Shahbazi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Ardebil"
-
-# Death Information
+incident_city: Ardebil
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: امیرحسین شهبازی
-  
-  Killed by the Islamic Republic with a punch to the back of the neck.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/liliammmmmm/status/2014688005588472166"
+  Killed by the Islamic Republic with a punch to the back of the neck.
+source_type: Social Media
+source_social_media_link: https://x.com/liliammmmmm/status/2014688005588472166, https://x.com/Liliammmmmm/status/2014688005588472166
+child: true
+persian_name: امیرحسین شهبازی

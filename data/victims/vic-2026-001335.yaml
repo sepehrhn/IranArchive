@@ -2,38 +2,27 @@
 # Victim Documentation - Ashkan Asanloo
 # ==========================================
 
-photo: "vic-2026-001335.jpg"
-name: "Ashkan Asanloo"
-
-# Personal & Birth Information
+photo: vic-2026-001335.jpg
+name: Ashkan Asanloo
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Piroozi
+incident_address: Piroozi
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: اشکان اصانلو
-  
-  Killed by Islamic Republic mercenaries for freedom of Iran
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hs_maryam/status/2015461815308652689"
+  Killed by Islamic Republic mercenaries for freedom of Iran
+source_type: Social Media
+source_social_media_link: https://x.com/hs_maryam/status/2015461815308652689, https://t.me/RememberTheirNames/1220
+child: false
+persian_name: اشکان اصانلو

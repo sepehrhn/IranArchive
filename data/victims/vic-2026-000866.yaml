@@ -2,36 +2,25 @@
 # Victim Documentation - Yaser Modir Roosta
 # ==========================================
 
-photo: "vic-2026-000866.jpg"
-name: "Yaser Modir Roosta"
-
-# Personal & Birth Information
+photo: vic-2026-000866.jpg
+name: Yaser Modir Roosta
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 42
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Gohardasht, Karaj"
-
-# Death Information
+country: Iran
+incident_province: Alborz
+incident_city: Karaj
+incident_address: Gohardasht
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head with a war bullet in Gohardasht, Karaj. His body was missing for 7 days and was found with torn clothes and a bloody body. He was identified through fingerprints.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2015015127503032481"
+source_type: Social Media
+source_social_media_link: https://x.com/tavaana/status/2015015127503032481, https://x.com/longlosthills/status/2015517372040540332, https://x.com/Tavaana/status/2015015127503032481, https://t.me/RememberTheirNames/1010
+child: false
+persian_name: یاسر مدیرروستا

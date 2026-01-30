@@ -7,19 +7,25 @@ name: Saeid Arian
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Arak
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Persian Name: سعید آریان
 
   Disappeared during protests on Shariati Street in Arak on January 8. His lifeless body was handed over to his family on January 14. Authorities provided no explanation regarding the circumstances of his death.
+
+
+  Disappeared during protests on Shariati Street, his lifeless body was later handed over to his family at the Arak morgue without clear explanation from authorities.
 source_type: Social Media
 source_social_media_link: https://x.com/SaeidVafa/status/2015503706414801404, https://x.com/behnam_chegini/status/2015553286149992868, https://t.me/RememberTheirNames/1267
+child: false
+persian_name: سعید آریان

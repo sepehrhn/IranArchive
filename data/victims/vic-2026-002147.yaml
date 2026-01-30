@@ -2,17 +2,18 @@
 # Victim Documentation - Sahar Bayati
 # ==========================================
 
-photo: "vic-2026-002147.jpg"
+photo: vic-2026-002147.jpg
 name: Sahar Bayati
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: سحر بیات
 
   Killed during protests (described as 'killed for the homeland')
+
+  Newlywed who went to the streets with her husband during protests. Authorities prevented her burial in Tehran, so she was buried in Tuysarkan (her mother's city) instead.
 source_type: Social Media
-source_social_media_link: https://x.com/mahestane_iran/status/2013670598992392345, https://t.me/RememberTheirNames/1076
+source_social_media_link: https://x.com/mahestane_iran/status/2013670598992392345, https://t.me/RememberTheirNames/1076, https://x.com/farhadiraniiii/status/2016488164974543089
+child: false
+persian_name: سحر بیات

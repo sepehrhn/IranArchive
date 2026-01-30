@@ -2,37 +2,27 @@
 # Victim Documentation - Hamidreza Salimiyan
 # ==========================================
 
-photo: "vic-2026-001474.png"
-
-name: "Hamidreza Salimiyan"
-
-# Personal & Birth Information
+photo: vic-2026-001474.png
+name: Hamidreza Salimiyan
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 27
-occupation: "شاغل در واحد اسکلت فلزی فولاد مبارکه"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "زرین‌شهر"
-
-# Death Information
+occupation: شاغل در واحد اسکلت فلزی فولاد مبارکه
+country: Iran
+incident_province: Isfahan
+incident_city: Zarrinshahr
+incident_address: ""
 date_of_death: "2026-01-09"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: |-
+  Persian Name: حمیدرضا سلیمیان
 
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+  27-year-old, father of a three-month-old baby, employed at the steel structure unit of Mobarakeh Steel Isfahan. Killed by direct fire from regime suppressive forces during public protests.
+source_type: Local Report
+source_social_media_link: https://x.com/manotonews/status/2015114876402761961, https://www.instagram.com/p/DT41ySzir8e, https://x.com/visfehan/status/2016158798688244099, https://x.com/jashnimitra/status/2016470582825554047
+child: false
+persian_name: حمیدرضا سلیمیان

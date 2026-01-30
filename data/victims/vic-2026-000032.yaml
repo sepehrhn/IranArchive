@@ -4,20 +4,24 @@
 
 photo: vic-2026-000032.jpg
 name: Masoud Bolourchi
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+persian_name: "مسعود بلورچی"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 37
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Tehran
-date_of_death: "2026-01-23"
+incident_address: ''
+date_of_death: '2026-01-23'
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Killed by direct fire from Khamenei's thugs (referring to security forces)
 source_type: Social Media
-source_social_media_link: https://x.com/longlosthills/status/2012686535536128005
+source_social_media_link:
+  - https://x.com/longlosthills/status/2012686535536128005
+child: false

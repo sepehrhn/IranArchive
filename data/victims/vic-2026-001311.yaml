@@ -2,39 +2,27 @@
 # Victim Documentation - Omid Ali Misai
 # ==========================================
 
-photo: ""
-
-name: "Omid Ali Misai"
-
-# Personal & Birth Information
+photo: vic-2026-002034.jpg
+name: Omid Ali Misai
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 21
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Quds"
-
-# Death Information
+incident_city: Qods City
+incident_address: Shahr-e Qods
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: امیدعلی میسائی
-  
-  Killed in front of the Basij base on Hasht-Metri Street in Qaleh Hasan Khan.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mimalefmim/status/2015434180536971274"
+  Killed in front of the Basij base on Hasht-Metri Street in Qaleh Hasan Khan.
+source_type: Social Media
+source_social_media_link: https://x.com/mimalefmim/status/2015434180536971274, https://t.me/RememberTheirNames/1252
+child: false
+persian_name: امیدعلی میسائی

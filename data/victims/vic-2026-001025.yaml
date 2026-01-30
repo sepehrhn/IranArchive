@@ -2,36 +2,25 @@
 # Victim Documentation - Amini's Father
 # ==========================================
 
-photo: "vic-2026-001025.jpg"
-name: "Amini's Father"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001025.jpg
+name: Amini's Father
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Shot and killed by agents of the Islamic Republic of Iran after stopping to check on his son, Abbas Amini, who had fallen off their motorcycle after being shot.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://www.instagram.com/p/dt2-huddpgp"
+source_type: Social Media
+source_social_media_link:
+  - https://www.instagram.com/p/dt2-huddpgp
+child: false

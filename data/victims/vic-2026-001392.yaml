@@ -7,19 +7,25 @@ name: Pouya Jafari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 14
 occupation: ""
 country: Iran
 incident_province: Fars
 incident_city: Zarghan
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |
+description: |-
   Persian Name: پویا جعفری
 
   Shot in the head and eye by suppressive forces of the Islamic Republic during nationwide protests on the evening of 18 Dey 1404. His body was taken to Khalili Hospital in Shiraz, but was later removed by government forces. Security forces buried his body and warned his family against holding mourning ceremonies.
+
+
+  Died from direct shooting by security forces in the head and eye during nationwide protests. His body was returned to his family after several days, and they were warned against holding mourning ceremonies.
 source_type: Social Media
 source_social_media_link: https://x.com/iranintl/status/2015633640860905625, https://x.com/EditclipI/status/2015349964348535155, https://t.me/RememberTheirNames/1145
+child: true
+persian_name: پویا جعفری

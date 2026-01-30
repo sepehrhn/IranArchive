@@ -7,12 +7,13 @@ name: Mohammad Matin Bagheri
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 16
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Kermanshah
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot directly with a bullet during the protests
 source_type: Social Media
 source_social_media_link: https://x.com/avatoday_news/status/2014589393068027940
+child: true
+persian_name: محمد متین باقری

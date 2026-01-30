@@ -2,37 +2,24 @@
 # Victim Documentation - Raha Bohlouli pour
 # ==========================================
 
-photo: "vic-2026-001522.jpeg"
-
-name: "Raha Bohlouli pour"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+photo: vic-2026-001522.jpeg
+name: Raha Bohlouli pour
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 23
-occupation: "دانشجوی ورودی 1403 زبان و ادبیات ایتالیایی دانشگاه تهران"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: ""
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Approximate"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+occupation: دانشجوی ورودی 1403 زبان و ادبیات ایتالیایی دانشگاه تهران
+country: Iran
+incident_province: Tehran
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Approximate
+cause_of_death: Gunshot
+status: Killed
+description: ''
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

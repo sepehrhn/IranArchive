@@ -7,17 +7,22 @@ name: Komar Deroftadeh
 birth_date: ""
 birth_province: ""
 birth_city: regime forces
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Iran's Kurdish regions
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Killed by direct fire from regime forces
+
+
+  A Kurdish child from Iran's Kurdish regions, killed by direct fire from regime forces during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/longlosthills/status/2009997023949533500
+child: false

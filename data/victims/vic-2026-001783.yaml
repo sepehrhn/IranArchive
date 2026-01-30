@@ -2,17 +2,18 @@
 # Victim Documentation - Parnia Khalaji
 # ==========================================
 
-photo: "vic-2026-001783.jpg"
+photo: vic-2026-001783.jpg
 name: Parnia Khalaji
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Mentioned in a list of names with a date and location, implying death during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/768
+child: false
+persian_name: پرنیا خلجی

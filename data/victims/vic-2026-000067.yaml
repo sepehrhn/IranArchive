@@ -7,17 +7,23 @@ name: Shiva Bordbar Javid
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 15
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Died after being arrested. Family called to identify her body two weeks after arrest.
+
+
+  Arrested and later her body was identified by the family after two weeks. The tweet implies she was killed in custody.
 source_type: Social Media
 source_social_media_link: https://x.com/raziehshin/status/2014647078475960480, https://x.com/RaziehShin/status/2014647078475960480
+child: true
+persian_name: شیوا بردبار جاوید

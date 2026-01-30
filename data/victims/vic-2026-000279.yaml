@@ -7,12 +7,13 @@ name: Esmaeil Aslani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Yazdanshahr
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed during protests in Yazdanshahr, Isfahan (described as Georgian speaker)
 source_type: Social Media
 source_social_media_link: https://x.com/visfehan/status/2014366150235230599, https://t.me/RememberTheirNames/666
+child: false
+persian_name: اسماعیل اصلانی

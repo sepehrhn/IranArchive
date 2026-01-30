@@ -2,17 +2,18 @@
 # Victim Documentation - Ali Hatami
 # ==========================================
 
-photo: "vic-2026-001839.jpg"
+photo: vic-2026-001839.jpg
 name: Ali Hatami
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Alborz"
+incident_province: Karaj
 incident_city: Golshahr
+incident_address: Golshahr
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/914, https://t.me/RememberTheirNames/526
+child: false
+persian_name: علی حاتمی

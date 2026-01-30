@@ -2,22 +2,25 @@
 # Victim Documentation - Saeed Tokolian
 # ==========================================
 
-photo: ""
+photo: ''
 name: Saeed Tokolian
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: null
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
-incident_city: ""
-date_of_death: ""
+incident_province: ''
+incident_city: ''
+incident_address: ''
+date_of_death: ''
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Killed during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/nimarfati51385/status/2009962015557820632
+source_social_media_link:
+  - https://x.com/nimarfati51385/status/2009962015557820632
+child: false

@@ -2,17 +2,18 @@
 # Victim Documentation - Fereshteh Rajabi Aghbash
 # ==========================================
 
-photo: "vic-2026-001686.jpg"
+photo: vic-2026-001686.jpg
 name: Fereshteh Rajabi Aghbash
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 39
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot directly in the chest by security forces. Her body was returned to her family after three days under security pressure, and her burial took place at night under heavy security measures.
 source_type: Social Media
 source_social_media_link: https://x.com/tavaana/status/2015980085967519895, https://t.me/RememberTheirNames/1245
+child: false
+persian_name: فرشته رجبی اقباش

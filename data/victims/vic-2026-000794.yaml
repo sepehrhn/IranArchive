@@ -7,12 +7,13 @@ name: Rasoul Yazdani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 42
 occupation: ""
 country: Iran
-incident_province: "Alborz"
+incident_province: Karaj
 incident_city: Andisheh
+incident_address: Andisheh
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot by Islamic Republic suppression forces
 source_type: Social Media
 source_social_media_link: https://x.com/indypersian/status/2013775334680711658, https://t.me/RememberTheirNames/482
+child: false
+persian_name: رسول یزدانی

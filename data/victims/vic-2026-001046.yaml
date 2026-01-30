@@ -2,36 +2,26 @@
 # Victim Documentation - Arvin Vafaie
 # ==========================================
 
-photo: "vic-2026-001046.jpg"
-name: "Arvin Vafaie"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001046.jpg
+name: Arvin Vafaie
+persian_name: "آروین وفایی"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Teenager killed in Tehran on Thursday night at the second street of Niru Havai.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/alborz_z/status/2015026606264164650"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/alborz_z/status/2015026606264164650
+child: false

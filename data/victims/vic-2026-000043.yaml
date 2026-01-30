@@ -4,20 +4,34 @@
 
 photo: vic-2026-000043.jpg
 name: Asal Shafiei
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 21
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Tehran
-date_of_death: ""
+incident_address: ''
+date_of_death: ''
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Murdered by the Islamic Republic terrorists while fighting to liberate Iran.
 source_type: Social Media
-source_social_media_link: https://x.com/samiraraahi/status/2013926115954344008, https://x.com/soranmansournia/status/2014005231831409037, https://x.com/i/status/2014005231831409037, https://x.com/nicksotoudeh/status/2014048853394100524, https://x.com/outofken/status/2014122477866152358, https://x.com/Soranmansournia/status/2014005231831409037, https://x.com/nicksotoudeh/status/2014806446228308122, https://x.com/realneo101/status/2014713805494735356, https://x.com/hichkasofficial/status/2014698418392711441, https://x.com/drneilstone/status/2015078149101322275, https://x.com/Realneo101/status/2014713805494735356, https://t.me/RememberTheirNames/548
+source_social_media_link:
+  - https://x.com/samiraraahi/status/2013926115954344008
+  - https://x.com/soranmansournia/status/2014005231831409037
+  - https://x.com/i/status/2014005231831409037
+  - https://x.com/nicksotoudeh/status/2014048853394100524
+  - https://x.com/outofken/status/2014122477866152358
+  - https://x.com/Soranmansournia/status/2014005231831409037
+  - https://x.com/nicksotoudeh/status/2014806446228308122
+  - https://x.com/realneo101/status/2014713805494735356
+  - https://x.com/hichkasofficial/status/2014698418392711441
+  - https://x.com/drneilstone/status/2015078149101322275
+  - https://x.com/Realneo101/status/2014713805494735356
+  - https://t.me/RememberTheirNames/548
+child: false

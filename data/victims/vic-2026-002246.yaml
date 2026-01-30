@@ -2,17 +2,18 @@
 # Victim Documentation - Parsa Lorastani Biranvand
 # ==========================================
 
-photo: "vic-2026-002246.jpg"
+photo: vic-2026-002246.jpg
 name: Parsa Lorastani Biranvand
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Khorramabad
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Described as one of the children killed by Sepahi and Basiji terrorists in Khorramabad.
 source_type: Social Media
 source_social_media_link: https://x.com/salarvandn21943/status/2015163105135722896, https://x.com/SalarvandN21943/status/2015163105135722896
+child: false
+persian_name: پارسا لرستانی بیرانوند

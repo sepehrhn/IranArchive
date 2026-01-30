@@ -2,38 +2,27 @@
 # Victim Documentation - Mehran Hosseini
 # ==========================================
 
-photo: "vic-2026-001419.jpg"
-name: "Mehran Hosseini"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Lorestan"
-incident_city: "Khorramabad"
-
-# Death Information
-date_of_death: ""
-date_of_death_precision: "Exact"
-cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001419.jpg
+name: Mehran Hosseini
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: Lorestan
+incident_city: Khorramabad
+incident_address: ''
+date_of_death: ''
+date_of_death_precision: Exact
+cause_of_death: ''
+status: Killed
 description: |
   Persian Name: مهران حسینی
-  
-  Martyred name
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/mischaelw29286/status/2014727671754654201"
+  Martyred name
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/mischaelw29286/status/2014727671754654201
+child: false

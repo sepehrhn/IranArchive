@@ -7,12 +7,13 @@ name: Amir Ali Heydari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 35
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Majidieh
+incident_address: Majidieh
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot with live ammunition during protests (officially claimed as 'fall from height' under pressure from intelligence forces)
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2012986010200650052, https://x.com/loabatk/status/2013144099012976888, https://x.com/banafshehviola/status/2013105376137503042, https://x.com/hiwa_life/status/2013658026436104301
+source_social_media_link: https://x.com/fseifikaran/status/2012986010200650052, https://x.com/loabatk/status/2013144099012976888, https://x.com/banafshehviola/status/2013105376137503042, https://news.sky.com/story/how-the-iran-uprising-unfolded-and-what-happened-to-the-victims-of-the-crackdown-13495014, https://x.com/hiwa_life/status/2013658026436104301, https://t.me/RememberTheirNames/107
+child: false
+persian_name: امیرعلی حیدری

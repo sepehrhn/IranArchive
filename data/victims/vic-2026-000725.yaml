@@ -2,37 +2,25 @@
 # Victim Documentation - Mohammad Mohammadi
 # ==========================================
 
-photo: ""
-
-name: "Mohammad Mohammadi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: "Ghaleh Sefid"
-gender: ""
+photo: ''
+name: Mohammad Mohammadi
+birth_date: ''
+birth_province: ''
+birth_city: Ghaleh Sefid
+gender: ''
 age: 21
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Nurabad Mamasani, Fars"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Nurabad Mamasani
+incident_address: Fars
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Popular blogger from Ghaleh Sefid, Najafabad, Isfahan. Buried in Behesht-e Mohammadi cemetery in the upper Ghaleh Sefid neighborhood. Memorial service held on the second of Bahman.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/vahidmirzaeii/status/2014406560366092401"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/vahidmirzaeii/status/2014406560366092401
+child: false

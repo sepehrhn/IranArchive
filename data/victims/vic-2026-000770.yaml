@@ -2,36 +2,28 @@
 # Victim Documentation - Nima Palizgari
 # ==========================================
 
-photo: "vic-2026-000770.jpg"
-name: "Nima Palizgari"
-
-# Personal & Birth Information
+photo: vic-2026-000770.jpg
+name: Nima Palizgari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 40
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
+incident_city: Karaj
+incident_address: ""
+date_of_death: "2025-12-22"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: |-
   Shot twice in the head with live ammunition by forces of the Islamic Republic during protests
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/soranmansournia/status/2012249572823720305"
+
+  Mentioned in a list of names with a date and location, implying victimhood.
+source_type: Social Media
+source_social_media_link: https://t.me/RememberTheirNames/389
+child: false
+persian_name: نیما پالیزگری

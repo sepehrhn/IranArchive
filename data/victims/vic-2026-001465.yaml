@@ -2,37 +2,24 @@
 # Victim Documentation - Farhad Rahimi Doodraee
 # ==========================================
 
-photo: "vic-2026-001465.png"
-
-name: "Farhad Rahimi Doodraee"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Chahar Mahaal and Bakhtiari"
-incident_city: " لردگان"
-
-# Death Information
-date_of_death: "2026-01-02"
-date_of_death_precision: "Approximate"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+photo: vic-2026-001465.png
+name: Farhad Rahimi Doodraee
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
+age: null
+occupation: ''
+country: Iran
+incident_province: Chahar Mahaal and Bakhtiari
+incident_city: Lordegan
+incident_address: ''
+date_of_death: '2026-01-02'
+date_of_death_precision: Approximate
+cause_of_death: Gunshot
+status: Killed
+description: ''
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

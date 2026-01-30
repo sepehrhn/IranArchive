@@ -7,12 +7,13 @@ name: Mustafa Fallahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 15
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-13"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Child killed by the Ayatollah regime for protesting.
 source_type: Social Media
 source_social_media_link: https://x.com/israelwarroom/status/2012273200831545501, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/
+child: true
+persian_name: مصطفی فلاف

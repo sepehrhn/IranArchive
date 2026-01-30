@@ -2,38 +2,30 @@
 # Victim Documentation - Mohammad Javad Amini
 # ==========================================
 
-photo: "vic-2026-001423.jpg"
-name: "Mohammad Javad Amini"
-
-# Personal & Birth Information
+photo: vic-2026-001423.jpg
+name: Mohammad Javad Amini
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Saveh"
-
-# Death Information
-date_of_death: ""
-date_of_death_precision: "Exact"
+incident_city: Saveh
+incident_address: ""
+date_of_death: "2025-12-22"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
+status: Killed
+description: |-
   Persian Name: محمد جواد امینی
-  
+
   Father of Amir Abbas, killed by Islamic Republic agents shooting
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/esmaeils1169/status/2014720978094301346"
+
+  Identified as a father. Died in Dey 1404 (December 2025 - January 2026) in Saveh.
+source_type: Social Media
+source_social_media_link: https://x.com/esmaeils1169/status/2014720978094301346, https://t.me/RememberTheirNames/918
+child: false
+persian_name: محمد جواد امینی

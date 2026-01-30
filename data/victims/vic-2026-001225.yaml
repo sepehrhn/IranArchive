@@ -7,17 +7,23 @@ name: Shirzad Balayi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Eslamabad-e Gharb
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: |
+description: |-
   Shot directly by government forces
+
+
+  Killed by direct fire from government forces.
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2012506899518800104
+source_social_media_link: https://x.com/HengawO/status/2012506899518800104, https://t.me/RememberTheirNames/128
+child: false
+persian_name: شیرزاد بالایی

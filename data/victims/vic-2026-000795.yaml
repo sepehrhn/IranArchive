@@ -3,36 +3,27 @@
 # ==========================================
 
 photo: ""
-
-name: "Rasoul Ziaei Zardakhshouei"
-
-# Personal & Birth Information
+name: Rasoul Ziaei Zardakhshouei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Fooladshahr"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Fooladshahr
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: |-
   Shot directly in the heart during a protest.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/dadban4/status/2014852414294396970"
+
+  Shot directly in the heart during the violent suppression carried out by state forces.
+source_type: Social Media
+source_social_media_link: https://x.com/dadban4/status/2014852414294396970
+child: false
+persian_name: رسول ضیایی زردخشویی

@@ -2,36 +2,24 @@
 # Victim Documentation - Arsalan Qahramani
 # ==========================================
 
-photo: "vic-2026-001045.jpg"
-name: "Arsalan Qahramani"
-
-# Personal & Birth Information
+photo: vic-2026-001045.jpg
+name: Arsalan Qahramani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Mehrabad"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Mehrabad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests in Tehran
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hengawo/status/2012889204846465369"
+source_type: Social Media
+source_social_media_link: https://x.com/hengawo/status/2012889204846465369
+child: false

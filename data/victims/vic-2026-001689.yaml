@@ -2,17 +2,18 @@
 # Victim Documentation - Habib Sokhtesaraei
 # ==========================================
 
-photo: "vic-2026-001689.jpg"
+photo: vic-2026-001689.jpg
 name: Habib Sokhtesaraei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gorgan
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -22,4 +23,6 @@ description: |-
 
   Citizen from Darkala village, Aliabad Katul county in Golestan, killed by direct fire from the Islamic Republic of Iran's forces during the nationwide protests in Dey 1404 in Gorgan city.
 source_type: Social Media
-source_social_media_link: https://x.com/HyrcaniHRM/status/2016060772007158072
+source_social_media_link: https://x.com/HyrcaniHRM/status/2016060772007158072, https://t.me/RememberTheirNames/1502
+child: false
+persian_name: حبیب سوخته‌سرایی

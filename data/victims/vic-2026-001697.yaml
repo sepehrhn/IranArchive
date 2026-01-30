@@ -2,24 +2,27 @@
 # Victim Documentation - Hassan Akbarpour
 # ==========================================
 
-photo: "vic-2026-001697.jpg"
+photo: vic-2026-001697.jpg
 name: Hassan Akbarpour
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 39
-occupation: ""
+occupation: ''
 country: Iran
 incident_province: Isfahan
-incident_city: Malekshahr
-date_of_death: "2026-01-09"
+incident_city: Isfahan
+incident_address: Malekshahr
+date_of_death: '2026-01-09'
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: ''
 status: Killed
 description: |-
   Persian Name: حسن اکبر پور
 
   Shot directly in the heart between 8:30 PM and 9:00 PM. Occupation was a tanker truck driver for Isfahan refinery. Authorities restricted funeral arrangements, prevented public announcements, and monitored the burial, threatening to confiscate the body if more than ten people gathered.
 source_type: Social Media
-source_social_media_link: https://x.com/ka3rimi/status/2015456750489735202
+source_social_media_link:
+  - https://x.com/ka3rimi/status/2015456750489735202
+child: false

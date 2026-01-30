@@ -7,12 +7,13 @@ name: Sedigheh Dabiri Abkenari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 17
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehransar
+incident_address: Tehransar
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed by suppression forces during protests
 source_type: Social Media
 source_social_media_link: https://x.com/alitagh30207454/status/2014343517418508290
+child: true
+persian_name: صدیقه دبیری آبکناری

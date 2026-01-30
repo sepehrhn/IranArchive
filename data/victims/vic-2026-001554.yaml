@@ -2,17 +2,18 @@
 # Victim Documentation - Ali Mirzaei
 # ==========================================
 
-photo: "vic-2026-001554.jpg"
+photo: vic-2026-001554.jpg
 name: Ali Mirzaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: علی میرزایی
 
   Died on 20 Dey in Sarzabal, Tehran.
+
+  Student at Arak University, killed in Tehran protests by gunfire from 'executioners of the Islamic Republic and the criminal Velayat-e Faqih'.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/858
+source_social_media_link: https://t.me/RememberTheirNames/858, https://x.com/behnam_chegini/status/2015849849946509772
+child: false
+persian_name: علی میرزایی

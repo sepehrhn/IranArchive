@@ -2,37 +2,24 @@
 # Victim Documentation - Nima Khamis
 # ==========================================
 
-photo: ""
-
-name: "Nima Khamis"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: ''
+name: Nima Khamis
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 19
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: ""
-
-# Death Information
-date_of_death: "2026-01-09"
-date_of_death_precision: "Approximate"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-09'
+date_of_death_precision: Approximate
+cause_of_death: Gunshot
+status: Killed
+description: ''
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

@@ -7,12 +7,13 @@ name: Farhad Sohrab
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 35
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot directly by government forces during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2013627582810571109
+source_social_media_link: https://x.com/manotonews/status/2013627582810571109, https://t.me/RememberTheirNames/420
+child: false
+persian_name: فرهاد سهراب

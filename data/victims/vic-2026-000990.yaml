@@ -7,12 +7,13 @@ name: Yahya-kia Daliri
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gilan and Mazandaran
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot in the abdomen by Islamic Republic forces while going out to get medicine for his child
 source_type: Social Media
 source_social_media_link: https://x.com/hyrcanihrm/status/2014338023060611492, https://x.com/HengawO/status/2014421367446253740, https://x.com/pegah76Fz/status/2014678072545489111
+child: false
+persian_name: یحیی‌کیا دلیری

@@ -7,12 +7,13 @@ name: Mehrab Golestani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 17
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Isfahan
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot directly by government forces during nationwide protests
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2012207564331663521, https://x.com/manotonews/status/2013891818837155894, https://x.com/HengawO/status/2012641346142572662
+source_social_media_link: https://x.com/iranwire/status/2012207564331663521, https://x.com/manotonews/status/2013891818837155894, https://x.com/HengawO/status/2012641346142572662, https://t.me/RememberTheirNames/275
+child: true
+persian_name: محراب گلستانی

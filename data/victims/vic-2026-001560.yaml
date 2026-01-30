@@ -2,17 +2,18 @@
 # Victim Documentation - Amir Vahabzadeh
 # ==========================================
 
-photo: "vic-2026-001560.jpg"
+photo: vic-2026-001560.jpg
 name: Amir Vahabzadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Karaj
+incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Died in Karaj during Dey 1404 protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1173
+child: false
+persian_name: امیر وهاب‌زاده

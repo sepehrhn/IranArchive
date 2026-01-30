@@ -7,12 +7,13 @@ name: Edris Darvishvand
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 34
 occupation: ""
 country: Iran
 incident_province: Qazvin
 incident_city: Alvand
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot by Islamic Republic forces during protests on the second day of Prince Reza Pahlavi's call for action
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2013641179762504085
+source_social_media_link: https://x.com/indypersian/status/2013641179762504085, https://t.me/RememberTheirNames/1618
+child: false
+persian_name: ادریس درویش‌وند

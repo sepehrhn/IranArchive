@@ -2,37 +2,24 @@
 # Victim Documentation - Akbar Teympuri
 # ==========================================
 
-photo: "vic-2026-001448.jpeg"
-
-name: "Akbar Teympuri"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Hamadan"
-incident_city: "کوهدشت"
-
-# Death Information
-date_of_death: "2026-01-07"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+photo: vic-2026-001448.jpeg
+name: Akbar Teympuri
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
+age: null
+occupation: ''
+country: Iran
+incident_province: Hamadan
+incident_city: Kuhdasht
+incident_address: ''
+date_of_death: '2026-01-07'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: ''
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

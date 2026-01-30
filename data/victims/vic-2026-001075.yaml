@@ -7,12 +7,13 @@ name: Farhad Balashzar
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Kermanshah
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Described as 'killed in the path of the homeland,' but no specific details about cause or date of death are provided.
 source_type: Social Media
 source_social_media_link: https://x.com/hengawo/status/2014088323942256878, https://x.com/missmarpel75/status/2014805661268185261, https://x.com/HengawO/status/2014088323942256878, https://t.me/RememberTheirNames/1067
+child: false
+persian_name: فرهاد بالشزر

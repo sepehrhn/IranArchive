@@ -2,37 +2,25 @@
 # Victim Documentation - Bayat Sobhani
 # ==========================================
 
-photo: ""
-
-name: "Bayat Sobhani"
-
-# Personal & Birth Information
+photo: vic-2026-000566.jpg
+name: Bayat Sobhani
 birth_date: ""
 birth_province: ""
-birth_city: "Shamshir village"
-gender: ""
-age: 40
+birth_city: Shamshir village
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
+incident_city: Kermanshah
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Kurdish Horami from Shamshir village, shot dead by IRGC during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2010915502999077031"
+source_type: Social Media
+source_social_media_link: https://t.me/RememberTheirNames/102
+child: false
+persian_name: بیات سبحانی

@@ -2,36 +2,26 @@
 # Victim Documentation - Parham Davoudi Kashani
 # ==========================================
 
-photo: "vic-2026-000408.jpg"
-name: "Parham Davoudi Kashani"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: "severe bleeding"
-gender: ""
+photo: vic-2026-000408.jpg
+name: Parham Davoudi Kashani
+persian_name: "پرهام داودی کاشانی"
+birth_date: ''
+birth_province: ''
+birth_city: severe bleeding
+gender: ''
 age: 18
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: Isfahan
+incident_city: Isfahan
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the leg by Islamic Republic officers during the Iranian national revolution and died from severe bleeding.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/indypersian/status/2015091252719435778"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/indypersian/status/2015091252719435778
+child: false

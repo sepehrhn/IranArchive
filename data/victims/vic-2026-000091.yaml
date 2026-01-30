@@ -7,12 +7,13 @@ name: Amir Ali Parvizi
 birth_date: ""
 birth_province: ""
 birth_city: complications
-gender: ""
+gender: Male
 age: 17
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Unknown
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot in the legs by government forces on January 9, developed sepsis leading to brain death, died from complications
 source_type: Social Media
 source_social_media_link: https://x.com/shahramsadidi/status/2014083908921335998, https://x.com/avatoday_news/status/2014430123085201469, https://x.com/HengawO/status/2014781999668437226, https://t.me/RememberTheirNames/563
+child: true
+persian_name: امیرعلی پرویزی

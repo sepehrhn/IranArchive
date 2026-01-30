@@ -7,12 +7,13 @@ name: Ali Agha Karami
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 53
 occupation: ""
 country: Iran
-incident_province: "Fars"
+incident_province: Mamasani
 incident_city: Nurabad
+incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot during protest (exact circumstances not specified)
 source_type: Social Media
-source_social_media_link: https://x.com/EhsanZareei/status/2014445102333083721, https://x.com/EhsanZareei/status/2014779353268142379
+source_social_media_link: https://x.com/EhsanZareei/status/2014445102333083721
+child: false
+persian_name: علی آقا کرمی

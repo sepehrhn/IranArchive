@@ -7,12 +7,13 @@ name: Hamed Bamdadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gilan and Mazandaran
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot in the leg artery on Saadi Street, died from severe bleeding despite being taken to Pars Hospital
 source_type: Social Media
 source_social_media_link: https://x.com/pkhwshhal/status/2014344040527896661, https://x.com/HengawO/status/2014421367446253740, https://t.me/RememberTheirNames/643
+child: false
+persian_name: حامد بامدادی

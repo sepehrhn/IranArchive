@@ -2,38 +2,29 @@
 # Victim Documentation - Abdolali Salimi
 # ==========================================
 
-photo: "placeholder.png"
-
-name: "Abdolali Salimi"
-
-# Personal & Birth Information
+photo: placeholder.png
+name: Abdolali Salimi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 47
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Alborz"
-incident_city: "Hashtgerd"
-
-# Death Information
+country: Iran
+incident_province: ""
+incident_city: Hashtgerd
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: |-
   Abdolali Salimi was targeted by direct fire from security forces in the early hours of February 7, 2026 (18 Dey 1404) in Hashtgerd. 
   He was the guardian of two young children and his elderly mother.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: ""
+
+  Worker at a company, head of two children and an elderly mother. Died on the 18th, early hours of the call. His two children will wait for their father forever.
+source_type: Social Media
+source_social_media_link: https://x.com/persephone7597/status/2016146989306581040
+child: false
+persian_name: عبدالعلی سلیمی

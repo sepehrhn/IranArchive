@@ -2,36 +2,26 @@
 # Victim Documentation - Abolfazl MirAeyiz
 # ==========================================
 
-photo: "vic-2026-000025.jpg"
-name: "Abolfazl MirAeyiz"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-000025.jpg
+name: Abolfazl MirAeyiz
+persian_name: "ابوالفضل میرآییز"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the leg and then shot in the head.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/persuasion_elli/status/2015191019487191180"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/persuasion_elli/status/2015191019487191180
+child: false

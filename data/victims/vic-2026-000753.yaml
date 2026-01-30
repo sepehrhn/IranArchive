@@ -7,12 +7,13 @@ name: Morteza Zoompoosh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Tehran"
+incident_province: Daneshgah Square
 incident_city: Hamadan
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Beaten with batons and shot 34 pellets directly at his face by armed regime forces during an attack on January 8th.
 source_type: Social Media
-source_social_media_link: https://x.com/marianmeyer0/status/2014655314318987462, https://x.com/longlosthills/status/2014719052061520275, https://x.com/damdami/status/2014971508527939875, https://t.me/RememberTheirNames/864
+source_social_media_link: https://x.com/marianmeyer0/status/2014655314318987462, https://x.com/longlosthills/status/2014719052061520275, https://x.com/damdami/status/2014971508527939875, https://t.me/RememberTheirNames/864, https://x.com/isamanyasin/status/2014735452515766722
+child: false
+persian_name: مرتضی ذوم‌پوش

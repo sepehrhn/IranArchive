@@ -2,17 +2,18 @@
 # Victim Documentation - Fazaiel Balagh
 # ==========================================
 
-photo: "vic-2026-001924.jpg"
+photo: vic-2026-001924.jpg
 name: Fazaiel Balagh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Gilan"
+incident_province: Talesh
 incident_city: Anbaran
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: فضائیل بالغ
 
   Killed by direct gunfire to the head by Islamic Republic of Iran forces in the Qaleh Hassan Khan region. His body was buried in Anbaran.
+
+  Citizen of Talesh from Anbaran (Anban), killed on January 8, 2026 in the Ghaleh Hasan Khan area by direct gunfire to the head by regime forces. Buried in Anbaran.
 source_type: Social Media
 source_social_media_link: https://x.com/HyrcaniHRM/status/2015861271816532367
+child: false
+persian_name: فضائیل بالغ

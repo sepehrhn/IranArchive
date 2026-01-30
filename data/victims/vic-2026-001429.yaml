@@ -2,24 +2,30 @@
 # Victim Documentation - Morteza Panahi
 # ==========================================
 
-photo: "vic-2026-001429.jpg"
+photo: vic-2026-001429.jpg
 name: Morteza Panahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Malekshahr
+incident_address: Malekshahr
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |
+description: |-
   Persian Name: مرتضی پناهی
 
   Javid Nam (Immortal Name)
+
+
+  Died during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1377
+child: false
+persian_name: مرتضی پناهی

@@ -4,20 +4,23 @@
 
 photo: vic-2026-000044.jpg
 name: Farzin Postashkan
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: null
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Isfahan
-date_of_death: ""
+incident_address: ''
+date_of_death: ''
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Killed by the Islamic Republic in Isfahan.
 source_type: Social Media
-source_social_media_link: https://x.com/persephone7597/status/2014623432067924209
+source_social_media_link:
+  - https://x.com/persephone7597/status/2014623432067924209
+child: false

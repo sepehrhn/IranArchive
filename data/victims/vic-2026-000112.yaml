@@ -7,12 +7,13 @@ name: Ali Behruzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 25
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Haft Howz
+incident_address: Haft Howz
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot by Islamic Republic regime forces on Thursday, died Friday during brutal suppression of the uprising
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2011800543321342168, https://x.com/mamlekate/status/2012486300977308142, https://x.com/dadban4/status/2012573780632015005, https://x.com/longlosthills/status/2012607431268766179
+source_social_media_link: https://x.com/manotonews/status/2011800543321342168, https://x.com/mamlekate/status/2012486300977308142, https://x.com/dadban4/status/2012573780632015005, https://x.com/longlosthills/status/2012607431268766179, https://t.me/RememberTheirNames/181
+child: false
+persian_name: علی بهروزی

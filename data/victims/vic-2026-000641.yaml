@@ -2,36 +2,25 @@
 # Victim Documentation - Javad Zabet Laghaei
 # ==========================================
 
-photo: "vic-2026-000641.jpg"
-name: "Javad Zabet Laghaei"
-
-# Personal & Birth Information
+photo: vic-2026-000641.jpg
+name: Javad Zabet Laghaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 35
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Qasemabad, Mashhad"
-
-# Death Information
+incident_city: Mashhad
+incident_address: Qasemabad
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests in Emamiyeh Boulevard.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranwire/status/2014958772767068567"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2014958772767068567
+child: false
+persian_name: جواد ضابط لقائی

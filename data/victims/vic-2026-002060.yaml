@@ -2,17 +2,18 @@
 # Victim Documentation - Saeed Kalavandi
 # ==========================================
 
-photo: "vic-2026-002060.jpg"
+photo: vic-2026-002060.jpg
 name: Saeed Kalavandi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: null
+gender: Male
+age: 32
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Saveh
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: سعید کلوندی
 
   No details provided about the circumstances of death.
+
+  Married, father of 2 children, originally from Asadabad, Hamadan, resident of Saveh, killed in Saveh
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/862
+source_social_media_link: https://t.me/RememberTheirNames/862, https://x.com/hekasrehcrisis/status/2016396036609049071
+child: false
+persian_name: سعید کلوندی

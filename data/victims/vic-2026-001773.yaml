@@ -2,17 +2,18 @@
 # Victim Documentation - Morteza Saralak
 # ==========================================
 
-photo: "vic-2026-001773.jpg"
+photo: vic-2026-001773.jpg
 name: Morteza Saralak
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: null
+gender: Male
+age: 41
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Parand
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: مرتضی سرلک
 
   Killed during protests.
+
+  Shot in the back of the head by the regime's killers. He was a father of three young children.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1033
+source_social_media_link: https://t.me/RememberTheirNames/1033, https://x.com/mousavi1355/status/2016322908755268058, https://x.com/i/status/2016407122334920982
+child: false
+persian_name: مرتضی سرلک

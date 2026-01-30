@@ -2,38 +2,27 @@
 # Victim Documentation - Hossein Hoveida
 # ==========================================
 
-photo: "vic-2026-001296.jpg"
-name: "Hossein Hoveida"
-
-# Personal & Birth Information
+photo: vic-2026-001296.jpg
+name: Hossein Hoveida
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 26
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Afsariyeh"
-
-# Death Information
+incident_city: Tehran
+incident_address: Afsariyeh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: حسین هویدا
-  
-  Shot by government forces in Tehran. Severely injured by a war bullet in the Afsariyeh neighborhood of Tehran on the evening of 18 Dey, in the area below his left eye.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2015227950455771513, https://x.com/monfaredashkan/status/2015181332733989118"
+  Shot by government forces in Tehran. Severely injured by a war bullet in the Afsariyeh neighborhood of Tehran on the evening of 18 Dey, in the area below his left eye.
+source_type: Social Media
+source_social_media_link: https://x.com/tavaana/status/2015227950455771513, https://x.com/monfaredashkan/status/2015181332733989118, https://x.com/Tavaana/status/2015227950455771513, https://x.com/MonfaredAshkan/status/2015181332733989118, https://t.me/RememberTheirNames/457
+child: false
+persian_name: حسین هویدا

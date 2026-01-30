@@ -2,36 +2,25 @@
 # Victim Documentation - Mohammad Hossein Aman (Alboghbish)
 # ==========================================
 
-photo: "vic-2026-000715.jpg"
-name: "Mohammad Hossein Aman (Alboghbish)"
-
-# Personal & Birth Information
+photo: vic-2026-000715.jpg
+name: Mohammad Hossein Aman (Alboghbish)
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 25
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mahshahr"
-
-# Death Information
+incident_city: Mahshahr
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the heart by security forces during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranwire/status/2013704601552240973"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2013704601552240973, https://x.com/mojahwaz/status/2013692897523020165, https://x.com/hiwa_life/status/2015532561011823087, https://x.com/MOJAHWAZ/status/2013692897523020165, https://x.com/fseifikaran/status/2015759001204519288
+child: false
+persian_name: محمدحسین امان (آلبوغبیش)

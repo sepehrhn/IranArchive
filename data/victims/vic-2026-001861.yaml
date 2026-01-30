@@ -2,17 +2,18 @@
 # Victim Documentation - Amir Mohammad Bolourian
 # ==========================================
 
-photo: "vic-2026-001861.png"
+photo: vic-2026-001861.png
 name: Amir Mohammad Bolourian
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: امیرمحمد بلوریان
 
   Directly shot during protests. Identified as a shopkeeper from Aladin Passage.
+
+  Directly targeted by live ammunition during protests. Identified as a shopkeeper from Aladin Passage.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2015831372863095284
+source_social_media_link: https://x.com/hekasrehcrisis/status/2015831372863095284, https://x.com/HeKasrehCrisis/status/2015831372863095284
+child: false
+persian_name: امیرمحمد بلوریان

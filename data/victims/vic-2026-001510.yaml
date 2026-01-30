@@ -2,37 +2,25 @@
 # Victim Documentation - Shayan Asadollahi
 # ==========================================
 
-photo: "vic-2026-001510.png"
-
-name: "Shayan Asadollahi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001510.png
+name: Shayan Asadollahi
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 28
-occupation: "آرایش‌گر و شیفته مدلینگ"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Lorestan"
-incident_city: "ازنا"
-
-# Death Information
-date_of_death: "2026-01-01"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: آرایش‌گر و شیفته مدلینگ
+country: Iran
+incident_province: Lorestan
+incident_city: Azna
+incident_address: ''
+date_of_death: '2026-01-01'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   شایان اسدالهی، جوان ۲۸ ساله یک‌شنبه ۱۱دی۱۴۰۴ در اعتراضات شهرستان «ازنا» استان لرستان هدف شلیک نیروهای سرکوب‌گر جمهوری اسلامی قرار گرفت و کشته شد. او آرایش‌گر و شیفته مدلینگ بود. ویدیوهای آرایش‌گری در مغازه کوچک‌اش در اینستاگرام طرفداران زیادی داشت.
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

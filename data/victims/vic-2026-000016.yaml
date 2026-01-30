@@ -2,39 +2,30 @@
 # Victim Documentation - Masih Bigdeli
 # ==========================================
 
-photo: "vic-2026-000016.jpeg"
-
-name: "Masih Bigdeli"
-
-# Personal & Birth Information
+photo: vic-2026-000016.jpeg
+name: Masih Bigdeli
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
+country: Iran
+incident_province: ""
+incident_city: Isfahan
+incident_address: ""
+date_of_death: "2025-12-22"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: |-
   Masih Bigdeli was killed by a direct shotgun blast to the face while in his father's arms during a night out in Isfahan. 
   The incident occurred on March 9, 2026 (18 Esfand 1404). 
   His family faced significant pressure from security forces following the incident and initially did not want the incident to be publicized.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: ""
+
+  Died in Isfahan in Dey 1404 (Persian calendar).
+source_type: Social Media
+source_social_media_link: https://t.me/RememberTheirNames/1581
+child: false
+persian_name: مسیح بیگدلی

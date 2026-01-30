@@ -2,23 +2,24 @@
 # Victim Documentation - Hamid Nik
 # ==========================================
 
-photo: "vic-2026-001933.jpg"
+photo: vic-2026-001933.jpg
 name: Hamid Nik
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Qarchak Varamin
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
 description: |+
-  Persian Name: حمید نیک
-
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1079
+child: false
+persian_name: حمید نیک

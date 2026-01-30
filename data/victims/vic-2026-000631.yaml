@@ -2,36 +2,25 @@
 # Victim Documentation - Hossein Mahmoudi Boram Lor
 # ==========================================
 
-photo: "vic-2026-000631.jpg"
-name: "Hossein Mahmoudi Boram Lor"
-
-# Personal & Birth Information
+photo: vic-2026-000631.jpg
+name: Hossein Mahmoudi Boram Lor
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Falavarjan"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Falavarjan
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by suppressive forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hirman__/status/2014577633862762528"
+source_type: Social Media
+source_social_media_link: https://x.com/hirman__/status/2014577633862762528
+child: false
+persian_name: حسین محمودی برام لر

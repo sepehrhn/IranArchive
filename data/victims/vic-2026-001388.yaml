@@ -2,39 +2,28 @@
 # Victim Documentation - Mohammad-Mehdi Seifollahpour
 # ==========================================
 
-photo: ""
-
-name: "Mohammad-Mehdi Seifollahpour"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: ''
+name: Mohammad-Mehdi Seifollahpour
+persian_name: "محمد مهدی سیف اله پور"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: ''
+status: Killed
 description: |
   Persian Name: محمدمهدی سیف‌الله‌پور
-  
-  Killed in Sadeghiyeh, Tehran. Died on Thursday, 18 Dey.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hekasrehcrisis/status/2015168381301752269"
+  Killed in Sadeghiyeh, Tehran. Died on Thursday, 18 Dey.
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/hekasrehcrisis/status/2015168381301752269
+child: false

@@ -2,38 +2,27 @@
 # Victim Documentation - Alireza (Yasin) Ansarifar
 # ==========================================
 
-photo: "vic-2026-001250.jpg"
-name: "Alireza (Yasin) Ansarifar"
-
-# Personal & Birth Information
+photo: vic-2026-001250.jpg
+name: Alireza (Yasin) Ansarifar
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 37
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Marlik"
-
-# Death Information
+incident_city: Malard
+incident_address: Marlik
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: علیرضا (یاسین) انصاری‌فر
-  
-  Shot in the head with a live bullet on Thursday, January 8, 2026, and died a week later in the hospital.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/tavaana/status/2014987469394239772"
+  Shot in the head with a live bullet on Thursday, January 8, 2026, and died a week later in the hospital.
+source_type: Social Media
+source_social_media_link: https://x.com/tavaana/status/2014987469394239772, https://x.com/Tavaana/status/2014987469394239772
+child: false
+persian_name: علیرضا (یاسین) انصاری‌فر

@@ -7,12 +7,13 @@ name: Meysam Yaghoobi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 42
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Lahijan
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Helping people during the public protests when he was shot by government forces in the heart.
 source_type: Social Media
 source_social_media_link: https://x.com/Daikatuo/status/2011862443933266250, https://x.com/HengawO/status/2012283597374234675
+child: false
+persian_name: میثم یعقوبی

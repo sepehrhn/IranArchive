@@ -2,36 +2,26 @@
 # Victim Documentation - Narges Elmi
 # ==========================================
 
-photo: "vic-2026-001344.jpg"
-name: "Narges Elmi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Iran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001344.jpg
+name: Narges Elmi
+persian_name: "نرگس علمی"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Murdered by the Islamic Republic terrorists while fighting to liberate Iran.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hichkasofficial/status/2015413663721570541"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/hichkasofficial/status/2015413663721570541
+child: false

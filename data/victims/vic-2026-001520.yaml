@@ -2,37 +2,25 @@
 # Victim Documentation - Amirsalar Bahmaninejad
 # ==========================================
 
-photo: "vic-2026-001520.jpeg"
-
-name: "Amirsalar Bahmaninejad"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001520.jpeg
+name: Amirsalar Bahmaninejad
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 16
-occupation: "دانش آموز"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "اصفهان"
-
-# Death Information
-date_of_death: "2026-01-09"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: دانش آموز
+country: Iran
+incident_province: Isfahan
+incident_city: Isfahan
+incident_address: ''
+date_of_death: '2026-01-09'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   كلوله جنكَى در محوطه بيرونى ايستكَاه مترو خيابان «جابر انصارى» به بالاى قلب او اصابت كرد و در بيمارستان جان خود را از دست داد. نيروهاى امنيتى بعد از يك هفته پيكر اميرسالار را به خانوادهاش تحويل دادند.
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: true

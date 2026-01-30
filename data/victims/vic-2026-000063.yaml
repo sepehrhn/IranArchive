@@ -7,12 +7,13 @@ name: Parnia Shad
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 23
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Rasht
+incident_address: ""
 date_of_death: "2025-12-28"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot during protest
 source_type: Social Media
 source_social_media_link: https://x.com/isamanyasin/status/2014714614320181499
+child: false
+persian_name: پرنیا شاد

@@ -2,41 +2,29 @@
 # Victim Documentation - Reza Barani
 # ==========================================
 
-photo: "vic-2026-001482.png"
-
-name: "Reza Barani"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001482.png
+name: Reza Barani
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 32
-occupation: " کارگر"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Alborz"
-incident_city: ""
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ' کارگر'
+country: Iran
+incident_province: Alborz
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   نام یکی از آن‌ها «رضا بارانی» است و دیگری «دانیال سبزیکار»، دو معترض اهل «رامهرمز» استان خوزستان که برای درآمد بیشتر و زندگی بهتر، به کرج و قزوین رفته بودند تا با کارگری، زندگی دیگری را برای خود رقم بزنند.
   هر دوی آن‌ها، پنج‌شنبه ۱۸دی۱۴۰۴ هدف شلیک سرکوبگران قرار گرفتند و به قتل رسیدند
   Their names were Reza Barani and Danial Sabzikar—two protesters from Ramhormoz.
   They had gone to Karaj and Qazvin to earn more money and build a better life through manual labor.
   Both were shot and killed by repressive forces on Thursday, January 8, 2026.
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

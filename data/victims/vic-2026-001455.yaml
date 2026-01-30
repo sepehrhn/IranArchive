@@ -2,39 +2,27 @@
 # Victim Documentation - Omid Bagheri
 # ==========================================
 
-photo: "vic-2026-001455.jpeg"
-
-name: "Omid Bagheri"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Markazi"
-incident_city: "اراک"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001455.jpeg
+name: Omid Bagheri
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
+age: null
+occupation: ''
+country: Iran
+incident_province: Markazi
+incident_city: Arak
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   ‏⁧‫#امید_باقری‬⁩، جمعه ۱۹ دی، در اراک توسط رژیم جنایتکار جمهوری اسلامی به قتل رسید. پس از قتل، پیکر او را شبانه و مخفیانه به روستای پدری‌اش، بازنه، منتقل و بدون اجازه‌ی برگزاری مراسم انسانی دفن کردند. خانواده‌ی امید تحت فشار شدید قرار گرفتند و مجبور شدند ۲ میلیارد تومان وثیقه بگذارند تا صدای اعتراض‌شان خاموش بماند. این یک جنایت علیه بشریت است.
-  
+
   ‏⁦‪#Omid_Bagheri‬⁩ was killed by the criminal Islamic Republic regime on Friday, January 8, in Arak. After his killing, his body was secretly transferred at night to his ancestral village, Bazneh, and buried without allowing a proper or humane funeral. His family was subjected to severe pressure and forced to post 2 billion tomans in bail to remain silent and not protest. This is a crime against humanity.
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

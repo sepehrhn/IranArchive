@@ -1,38 +1,28 @@
-# Victim 229fd4be
-# Submitted via public submission form
+# ==========================================
+# Victim Documentation - Davoud Khoshtalab
+# ==========================================
 
-photo: "vic-2026-229fd4be.jpg"
-
-name: "Davoud Khoshtalab"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: "[object Object]"
-birth_city: "Rasht"
-gender: "Male"
+photo: vic-2026-229fd4be.jpg
+name: Davoud Khoshtalab
+birth_date: ''
+birth_province: Gilan
+birth_city: Rasht
+gender: Male
 age: 35
-occupation: ""
-
-country: "Iran"
-
-# Incident Location
-incident_province: "[object Object]"
-incident_city: "Rasht"
-
-# Death Information
-date_of_death: "2026/01/09"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-status: "Killed"
-
-
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://t.me/RememberTheirNames/1573"
-
+occupation: ''
+country: Iran
+incident_province: Gilan
+incident_city: Rasht
+incident_address: ''
+date_of_death: 2026/01/09
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+source_type: Social Media
+source_social_media_link:
+  - https://t.me/RememberTheirNames/1573
 submission:
-  submitted_by: ""
-  received_at: "2026-01-28T09:09:02.820Z"
-  submission_id: "229fd4be-89b0-46f0-bd18-f370afd3a793"
+  submitted_by: ''
+  received_at: '2026-01-28T09:09:02.820Z'
+  submission_id: 229fd4be-89b0-46f0-bd18-f370afd3a793
+child: false

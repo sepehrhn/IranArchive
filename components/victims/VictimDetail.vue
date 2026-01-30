@@ -79,6 +79,7 @@ const formattedBirthDate = computed(() => {
 // Location string
 const incidentLocation = computed(() => {
     const parts = [];
+    if (victim.value?.incident_address) parts.push(victim.value.incident_address);
     if (victim.value?.incident_city) parts.push(victim.value.incident_city);
     if (victim.value?.incident_province) parts.push(victim.value.incident_province);
     if (victim.value?.country) parts.push(victim.value.country);
@@ -170,9 +171,12 @@ if (!props.headless) {
                             <VictimStatusBadge :status="victim.status" class="!px-4 !py-1.5 !text-sm !rounded-full" />
                         </div>
                         
-                        <h1 class="text-3xl md:text-5xl font-black text-surface-900 dark:text-surface-0 tracking-tight leading-tight mb-3">
+                        <h1 class="text-3xl md:text-5xl font-black text-surface-900 dark:text-surface-0 tracking-tight leading-tight mb-2">
                             {{ victim.name }}
                         </h1>
+                        <h2 v-if="victim.persian_name" class="text-xl md:text-2xl font-bold text-surface-500 dark:text-surface-400 font-fa mb-4" dir="rtl">
+                            {{ victim.persian_name }}
+                        </h2>
                         
                         <div class="flex flex-wrap items-center justify-center gap-2 text-surface-500 dark:text-surface-400 font-medium text-lg">
                             <span v-if="victim.age">{{ victim.age }} years old</span>

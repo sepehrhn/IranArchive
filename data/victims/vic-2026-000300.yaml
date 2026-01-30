@@ -7,12 +7,13 @@ name: Hasan Sisehkhti
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 45
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Marvdasht
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot by government forces during protests
 source_type: Social Media
 source_social_media_link: https://x.com/manotonews/status/2014805470217969764, https://t.me/RememberTheirNames/859
+child: false
+persian_name: حسن سی‌سختی

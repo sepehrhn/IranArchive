@@ -4,20 +4,25 @@
 
 photo: vic-2026-000069.jpg
 name: Yashar Soltani
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 27
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Tehran
-date_of_death: ""
+incident_address: ''
+date_of_death: ''
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Killed in the darkness of the street by assassins of Iran.
 source_type: Social Media
-source_social_media_link: https://x.com/naryawash/status/2014514296122732955, https://x.com/_sabaa_z/status/2014543386292720074, https://t.me/poshtpardeha/248385?single
+source_social_media_link:
+  - https://x.com/naryawash/status/2014514296122732955
+  - https://x.com/_sabaa_z/status/2014543386292720074
+  - https://t.me/poshtpardeha/248385?single
+child: false

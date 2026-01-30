@@ -7,12 +7,13 @@ name: Mohammad Nouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 17
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Qom
+incident_address: ""
 date_of_death: "2026-01-02"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot from behind by security forces during protests in Towhid Square, died from gunshot wound to the lung
 source_type: Social Media
-source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://x.com/loabatk/status/2008050407361110147, https://en.wikipedia.org/wiki/Killing_of_Mohammad_Nouri, https://x.com/iranrights_org/status/2009387278918127758, https://x.com/Daikatuo/status/2007848960887755083, https://x.com/AblotiaLucas/status/2010965817245024582
+source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://x.com/loabatk/status/2008050407361110147, https://en.wikipedia.org/wiki/Killing_of_Mohammad_Nouri, https://x.com/iranrights_org/status/2009387278918127758, https://x.com/Daikatuo/status/2007848960887755083, https://x.com/AblotiaLucas/status/2010965817245024582, https://t.me/RememberTheirNames/29
+child: true
+persian_name: محمد نوری

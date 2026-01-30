@@ -7,12 +7,13 @@ name: Ali Karimi Bavolaki
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Ilam
 incident_city: Malekshahi
+incident_address: ""
 date_of_death: "2026-01-04"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,4 @@ description: |
   Initially injured during protest on Jan 3, died several hours later in hospital
 source_type: Social Media
 source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres, https://en.wikipedia.org/wiki/2026_Malekshahi_massacre
+child: false

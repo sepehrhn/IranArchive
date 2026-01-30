@@ -11,8 +11,9 @@ gender: Male
 age: 30
 occupation: ""
 country: Iran
-incident_province: "Razavi Khorasan"
+incident_province: Razavi Khorasan
 incident_city: Mashhad
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Killed in Mashhad during protests. Was a stateless Baloch citizen and father of two children (aged 2 years and 2 months).
 source_type: Social Media
-source_social_media_link: https://x.com/thebalochworld/status/2014626960455176573
+source_social_media_link: https://x.com/thebalochworld/status/2014626960455176573, https://x.com/farzinkadkhodae/status/2014725161123996053
+child: false
+persian_name: شهید دستگیر گرگیج

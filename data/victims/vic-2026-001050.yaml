@@ -2,36 +2,25 @@
 # Victim Documentation - Babak Moteferi
 # ==========================================
 
-photo: "vic-2026-001050.jpg"
-name: "Babak Moteferi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Chalous"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001050.jpg
+name: Babak Moteferi
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Chalous
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during the 2025-2026 Iranian protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/maryammoqaddam/status/2014711935275536389"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/maryammoqaddam/status/2014711935275536389
+child: false

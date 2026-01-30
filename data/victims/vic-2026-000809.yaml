@@ -7,12 +7,13 @@ name: Reza Zarei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 40
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Karaj
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot from the rooftop of a police station during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/allahbakhshii/status/2014777854957900203
+child: false
+persian_name: رضا زارعی

@@ -7,12 +7,13 @@ name: Javid Namah Ghanemaiyeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran (Baghershah Square)
+incident_address: Baghershah Square
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed by direct fire from armed agents in Baghershah Square, Tehran.
 source_type: Social Media
 source_social_media_link: https://x.com/esmaeils1169/status/2014816176866554104
+child: false
+persian_name: جَوید نامَه غنِمایِه

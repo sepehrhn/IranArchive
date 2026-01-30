@@ -2,17 +2,18 @@
 # Victim Documentation - Amirhossein Fathi
 # ==========================================
 
-photo: "vic-2026-001872.jpg"
+photo: vic-2026-001872.jpg
 name: Amirhossein Fathi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 20
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Karaj
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   A 20-year-old student of Mechanical Engineering from Kermanshah province, residing in Karaj, died from live ammunition fired by security forces during protests in Karaj.
 source_type: Social Media
 source_social_media_link: https://x.com/anjmotahed/status/2015423774087082204, https://t.me/RememberTheirNames/1204
+child: false
+persian_name: امیرحسین فتحی

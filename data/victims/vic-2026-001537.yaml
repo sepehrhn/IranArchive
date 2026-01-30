@@ -2,17 +2,18 @@
 # Victim Documentation - Seyed Aref Mir Mousavi Dehshali
 # ==========================================
 
-photo: "vic-2026-001537.jpg"
+photo: vic-2026-001537.jpg
 name: Seyed Aref Mir Mousavi Dehshali
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-14"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Injured on 18 Dey (Jan 8, 2026) on Ayatollah Kashani Street, Tehran, and died on 24 Dey (Jan 14, 2026).
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/877
+child: false
+persian_name: سیدعارف میرموسوی دهشالی

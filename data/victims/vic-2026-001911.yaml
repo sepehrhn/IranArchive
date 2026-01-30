@@ -2,24 +2,32 @@
 # Victim Documentation - Child of Bijan Mostafavi
 # ==========================================
 
-photo: "vic-2026-001911.jpg"
+photo: vic-2026-001911.jpg
 name: Child of Bijan Mostafavi
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 18
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-date_of_death: "2026-01-08"
+incident_address: ''
+date_of_death: '2026-01-08'
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: ''
 status: Killed
 description: |-
   Persian Name: دانیال مصطفوی
 
   Shot and killed along with their parents, Bijan Mostafavi and his wife, while inside their personal vehicle during peaceful protests. Their bodies were transferred to Sanqor and buried under heavy security.
 source_type: Social Media
-source_social_media_link: https://x.com/masoudkazemi81/status/2011736143847379427, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/manotonews/status/2012963201911066841, https://x.com/manotonews/status/2012933004767949267, https://x.com/Daikatuo/status/2011858468727066737, https://x.com/ManotoNews/status/2012933004767949267
+source_social_media_link:
+  - https://x.com/masoudkazemi81/status/2011736143847379427
+  - https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/
+  - https://x.com/manotonews/status/2012963201911066841
+  - https://x.com/manotonews/status/2012933004767949267
+  - https://x.com/Daikatuo/status/2011858468727066737
+  - https://x.com/ManotoNews/status/2012933004767949267
+child: false

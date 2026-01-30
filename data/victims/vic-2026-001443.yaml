@@ -4,16 +4,17 @@
 
 photo: vic-2026-001443.png
 name: Fares Aghamohammadi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
 gender: Male
 age: null
 occupation: دلاور ورزشکار
 country: Iran
 incident_province: Ilam
-incident_city: Meleksahi
-date_of_death: "2026-01-04"
+incident_city: Malekshahi
+incident_address: ''
+date_of_death: '2026-01-04'
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -24,4 +25,7 @@ description: |
   ۱۵ دی ۱۴۰۴؛ «فارز(محسن) یکی دیگر از زخمی‌شدگان کشتار مردمی ملکشاهی، درنتیجه شدت جراحات پس از سه روز بستری شدن در بخش مراقبت‌های ویژه بیمارستان ایلام جان باخت. 
   به گفته یک منبع مطلع به کُردپا؛ شامگاه امروز دوشنبه ۱۵ دی ۱۴۰۴،  «فارز(محسن) آقامحمدی» بعد از سه روز بستری شدن در بخش مراقبت‌های ویژه بیمارستان« امام خمینی» درگذشت.
 source_type: Local Report
-source_social_media_link: https://x.com/KurdistanHRN/status/2008272550569132154, https://x.com/KurdistanHRN/status/2007538683428077889
+source_social_media_link:
+  - https://x.com/KurdistanHRN/status/2008272550569132154
+  - https://x.com/KurdistanHRN/status/2007538683428077889
+child: false

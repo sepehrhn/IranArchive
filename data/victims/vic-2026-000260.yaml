@@ -7,12 +7,13 @@ name: Asal Mansouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 30
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot from behind by suppressive forces during protests
 source_type: Social Media
 source_social_media_link: https://x.com/manotonews/status/2014322155694219551, https://x.com/ManotoNews/status/2014322155694219551, https://x.com/RadioFarda_/status/2015466080152518776, https://x.com/yaldarta/status/2015306449128202623, https://t.me/RememberTheirNames/533
+child: false
+persian_name: عسل منصوری

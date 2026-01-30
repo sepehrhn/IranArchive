@@ -2,36 +2,25 @@
 # Victim Documentation - Alireza Suri
 # ==========================================
 
-photo: "vic-2026-001024.jpg"
-name: "Alireza Suri"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Mohammadshahr, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001024.jpg
+name: Alireza Suri
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Karaj
+incident_address: Mohammadshahr
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by the Islamic Republic
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/out_farsi/status/2014449854106247244"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/out_farsi/status/2014449854106247244
+child: false

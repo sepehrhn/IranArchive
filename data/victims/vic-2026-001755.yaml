@@ -2,17 +2,18 @@
 # Victim Documentation - Mohammad Khanmohammadi
 # ==========================================
 
-photo: "vic-2026-001755.jpg"
+photo: vic-2026-001755.jpg
 name: Mohammad Khanmohammadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 67
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Meydan-e Kaj
+incident_address: Kaj Square
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   A 67-year-old retired Air Force Colonel and veteran of the eight-year war, he was killed by two gunshots in the Kaj Square area of Saadat Abad, Tehran, on Friday evening, January 9, 2026, during protests. His body was found in front of a clinic with medical equipment attached.
 source_type: Social Media
 source_social_media_link: https://x.com/hra_news/status/2015490758548058478, https://t.me/RememberTheirNames/1137
+child: false
+persian_name: محمد خان‌محمدی

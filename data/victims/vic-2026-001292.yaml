@@ -2,38 +2,27 @@
 # Victim Documentation - Araz Salimian
 # ==========================================
 
-photo: "vic-2026-001292.jpg"
-name: "Araz Salimian"
-
-# Personal & Birth Information
+photo: vic-2026-001292.jpg
+name: Araz Salimian
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 27
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Mazandaran"
-incident_city: "Chalus"
-
-# Death Information
+country: Iran
+incident_province: Mazandaran
+incident_city: Chalous
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: آراز سلیمیان
-  
-  Shot in the throat by Islamic Republic forces during protests in Chalus.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hyrcanihrm/status/2015365756469309843"
+  Shot in the throat by Islamic Republic forces during protests in Chalus.
+source_type: Social Media
+source_social_media_link: https://x.com/hyrcanihrm/status/2015365756469309843, https://t.me/persian_picture/4126
+child: false
+persian_name: آراز سلیمیان

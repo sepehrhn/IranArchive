@@ -2,17 +2,18 @@
 # Victim Documentation - Amirmehdi Bidkhori
 # ==========================================
 
-photo: "vic-2026-001884.jpg"
+photo: vic-2026-001884.jpg
 name: Amirmehdi Bidkhori
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Sabzevar
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Mentioned in a list of names without further details.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/947
+child: false
+persian_name: امیرمهدی بیدخوری

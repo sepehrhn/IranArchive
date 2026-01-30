@@ -2,36 +2,25 @@
 # Victim Documentation - Mitra Abbasian
 # ==========================================
 
-photo: "vic-2026-001142.jpg"
-name: "Mitra Abbasian"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Isfahan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001142.jpg
+name: Mitra Abbasian
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: Isfahan
+incident_city: Isfahan
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly in the head
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hana1994124/status/2014982501484142812"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/hana1994124/status/2014982501484142812
+child: false

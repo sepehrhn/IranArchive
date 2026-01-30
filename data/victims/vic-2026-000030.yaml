@@ -7,17 +7,23 @@ name: Hamid Shafiei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: Chalus
+incident_address: ""
 date_of_death: "2026-01-24"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: |
+description: |-
   Electrician killed after being shot by government officials during protests.
+
+
+  Shot by government agents during nationwide protests. He was a building electrical repair worker and the family's breadwinner.
 source_type: Social Media
 source_social_media_link: https://x.com/iranintl/status/2015101607369646298
+child: false
+persian_name: حمید شفیعی

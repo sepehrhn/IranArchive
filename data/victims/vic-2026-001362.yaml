@@ -3,38 +3,26 @@
 # ==========================================
 
 photo: ""
-
-name: "Haniyeh Natarsia"
-
-# Personal & Birth Information
+name: Haniyeh Natarsia
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 21
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
+incident_city: ""
+incident_address: ""
 date_of_death: "2026-01-09"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: هانیه نترسیا
-  
-  Killed on Friday, 19 Dey.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hamed/status/2014837150743720278"
+  Killed on Friday, 19 Dey.
+source_type: Social Media
+source_social_media_link: https://x.com/hamed/status/2014837150743720278, https://x.com/Hamed/status/2014837150743720278
+child: false
+persian_name: هانیه نترسیا

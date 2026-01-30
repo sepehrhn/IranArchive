@@ -7,17 +7,23 @@ name: Mehran Zand
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 32
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Shahriar
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Shot and killed by regime mercenaries while injured during protests on 19 Dey.
+
+
+  Shot and killed by regime agents after being injured during protests on 19 Dey.
 source_type: Social Media
 source_social_media_link: https://x.com/pouriazeraati/status/2015002098753057188, https://t.me/RememberTheirNames/1022
+child: false
+persian_name: مهران زند

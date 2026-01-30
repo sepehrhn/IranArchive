@@ -2,17 +2,18 @@
 # Victim Documentation - Bahram Abbasgholizadeh
 # ==========================================
 
-photo: "vic-2026-001670.jpg"
+photo: vic-2026-001670.jpg
 name: Bahram Abbasgholizadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 39
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Babol
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot in the leg during protests. Security forces reportedly prevented his admission to the hospital, leading to his death from severe bleeding. He had a 9-year-old daughter.
 source_type: Social Media
 source_social_media_link: https://x.com/FSeifikaran/status/2016024097470205988, https://t.me/RememberTheirNames/1256
+child: false
+persian_name: بهرام عباسقلی‌زاده

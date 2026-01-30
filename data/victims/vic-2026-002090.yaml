@@ -2,17 +2,18 @@
 # Victim Documentation - Abdollah Fathi
 # ==========================================
 
-photo: "vic-2026-002090.jpg"
+photo: vic-2026-002090.jpg
 name: Abdollah Fathi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Shushtar
+incident_address: ""
 date_of_death: "2026-01-07"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed by Islamic Republic security forces. He was an employee of Khuzestan Steel Industries.
 source_type: Social Media
 source_social_media_link: https://x.com/i/status/2015404619288150235, https://t.me/RememberTheirNames/1404
+child: false
+persian_name: عبدالله فتحی

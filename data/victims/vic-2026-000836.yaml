@@ -7,12 +7,13 @@ name: Samira Khani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 12
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gilan and Mazandaran
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot directly by the forces of the Islamic Republic of Iran in front of the Awareness Building.
 source_type: Social Media
 source_social_media_link: https://x.com/hyrcanihrm/status/2014763820808294800, https://x.com/HengawO/status/2015022203226513772
+child: true
+persian_name: سمیرا خانی

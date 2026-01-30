@@ -7,12 +7,13 @@ name: Seyyed Milad Rahimi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Karaj
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot directly by military forces during popular protests
 source_type: Social Media
 source_social_media_link: https://x.com/zagros_news/status/2011463206884212763, https://x.com/qadrichiya/status/2011456717721141417, https://x.com/Daikatuo/status/2011855746544136648
+child: false
+persian_name: سیدمیلاد رحیمی

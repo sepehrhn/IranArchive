@@ -2,37 +2,25 @@
 # Victim Documentation - Amir Mohamed Arbab pouri
 # ==========================================
 
-photo: "vic-2026-001457.jpg"
-
-name: "Amir Mohamed Arbab pouri"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001457.jpg
+name: Amir Mohamed Arbab pouri
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 15
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Kermanshah"
-incident_city: "کرمانشاه"
-
-# Death Information
-date_of_death: "2026-01-07"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: Kermanshah
+incident_city: Kermanshah
+incident_address: ''
+date_of_death: '2026-01-07'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   امیرمحمد ارباب‌پوری، ۱۵ ساله، اهل هرسین، ۱۸ دی‌ماه ۱۴۰۴، در محله معلم، با شلیک مستقیم نیروهای حکومت کشته شد
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: true

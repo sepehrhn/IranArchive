@@ -2,23 +2,24 @@
 # Victim Documentation - Alireza Rezaei
 # ==========================================
 
-photo: "vic-2026-001849.jpg"
+photo: vic-2026-001849.jpg
 name: Alireza Rezaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Shahriar
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
 description: |+
-  Persian Name: علیرضا رضایی
-
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1209
+child: false
+persian_name: علیرضا رضایی

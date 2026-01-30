@@ -7,12 +7,13 @@ name: Farshad Saki
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot in the back of the head with a pistol by forces of the Islamic Republic during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/aminshtain/status/2014482968568381597, https://x.com/banafshehviola/status/2014554461545312372, https://t.me/RememberTheirNames/1278
+child: false
+persian_name: فرشاد ساکی

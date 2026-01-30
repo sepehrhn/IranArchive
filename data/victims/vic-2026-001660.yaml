@@ -2,17 +2,18 @@
 # Victim Documentation - Arian Ghassemi-far
 # ==========================================
 
-photo: "vic-2026-001660.jpg"
+photo: vic-2026-001660.jpg
 name: Arian Ghassemi-far
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 17
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Kangavar
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/952
+child: true
+persian_name: آرین قاسمی‌فر

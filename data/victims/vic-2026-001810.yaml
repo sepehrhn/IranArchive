@@ -2,17 +2,18 @@
 # Victim Documentation - Yousef Sheikha
 # ==========================================
 
-photo: "vic-2026-001810.jpg"
+photo: vic-2026-001810.jpg
 name: Yousef Sheikha
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Qazvin
 incident_city: Narjeh
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1306
+child: false
+persian_name: یوسف شیخها

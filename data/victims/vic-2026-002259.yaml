@@ -2,17 +2,18 @@
 # Victim Documentation - Sayna Nezamdoust
 # ==========================================
 
-photo: "vic-2026-002259.jpg"
+photo: vic-2026-002259.jpg
 name: Sayna Nezamdoust
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Described as a child of Iran and killed on the path of the homeland.
 source_type: Social Media
 source_social_media_link: https://x.com/missmarpel75/status/2015096242469040564
+child: false
+persian_name: ساینا نظام دوست

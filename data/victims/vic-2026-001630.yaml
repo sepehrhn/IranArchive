@@ -2,17 +2,18 @@
 # Victim Documentation - Abolfazl Jahedi
 # ==========================================
 
-photo: "vic-2026-001630.jpg"
+photo: vic-2026-001630.jpg
 name: Abolfazl Jahedi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 41
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Robat Karim
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1413
+child: false
+persian_name: ابوالفضل جاهدی

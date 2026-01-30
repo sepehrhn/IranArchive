@@ -7,12 +7,13 @@ name: Mahmoud Farajnia
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gilan and Mazandaran
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed during protests
 source_type: Social Media
 source_social_media_link: https://x.com/HengawO/status/2014421367446253740
+child: false
+persian_name: محمود فرج نیا

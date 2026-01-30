@@ -2,36 +2,26 @@
 # Victim Documentation - Mehdi Bazarganipour
 # ==========================================
 
-photo: "vic-2026-000338.png"
-name: "Mehdi Bazarganipour"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Fardis, Karaj"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-000338.png
+name: Mehdi Bazarganipour
+persian_name: "مهدی بازرگانی‌پور"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Karaj
+incident_address: Fardis
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hekasrehcrisis/status/2015160369417712019"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/hekasrehcrisis/status/2015160369417712019
+child: false

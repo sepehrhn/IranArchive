@@ -7,12 +7,13 @@ name: Nastaran Abdollahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 21
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Andisheh
+incident_address: Andisheh
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Severely injured during protests on Friday night, January 9, 2026. She was transferred to Noor Andisheh Hospital with head injuries and bleeding. She disappeared from the hospital and her death was later reported to her family. The coroner's report in Kahrizak stated the time of death as approximately 2 AM, six hours after initial transfer to the hospital, and the cause of death as bleeding.
 source_type: Social Media
 source_social_media_link: https://x.com/kayhanlondon/status/2014744253730324564, https://x.com/autnews_org/status/2014705804171993416, https://x.com/noamagid/status/2015464646644252999, https://t.me/RememberTheirNames/1088
+child: false
+persian_name: نسترن عبدالهی

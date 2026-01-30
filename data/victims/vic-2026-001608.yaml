@@ -2,17 +2,18 @@
 # Victim Documentation - Ramin Raeisi
 # ==========================================
 
-photo: "vic-2026-001608.jpg"
+photo: vic-2026-001608.jpg
 name: Ramin Raeisi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Baharestan
+incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Died in Baharestan, Isfahan during Dey 1404 (late December 2025 - January 2026). The specific date is inferred from the post number 1260 and the context of the channel which lists victims chronologically. Dey 1404 starts on December 22, 2025. The post number 1260 suggests it's likely in the latter half of Dey.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1327
+child: false
+persian_name: رامین رئیسی

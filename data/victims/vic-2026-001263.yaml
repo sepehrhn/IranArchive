@@ -2,38 +2,28 @@
 # Victim Documentation - Hossein Mohebpoor (Mahmoudi)
 # ==========================================
 
-photo: "vic-2026-001263.jpg"
-name: "Hossein Mohebpoor (Mahmoudi)"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+photo: vic-2026-001263.jpg
+name: Hossein Mohebpoor (Mahmoudi)
+persian_name: "حسین محب‌پور (محمودی)"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 26
-occupation: "laborer"
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Kish Island"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: laborer
+country: Iran
+incident_province: ''
+incident_city: Kish
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: حسین محب‌پور (محمودی)
-  
-  Shot in the chest by security forces during protests. He was working as a laborer at the Marjan pier.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/haalvsh/status/2015445208817914159"
+  Shot in the chest by security forces during protests. He was working as a laborer at the Marjan pier.
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/haalvsh/status/2015445208817914159
+child: false

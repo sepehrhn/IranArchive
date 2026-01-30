@@ -2,17 +2,18 @@
 # Victim Documentation - Mehdi Allahverdi
 # ==========================================
 
-photo: "vic-2026-000676.jpg"
+photo: vic-2026-000676.jpg
 name: Mehdi Allahverdi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Alborz"
+incident_province: Karaj
 incident_city: Fardis
+incident_address: Fardis
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed by security forces during protests
 source_type: Social Media
 source_social_media_link: https://x.com/manotonews/status/2014719016015659384, https://t.me/RememberTheirNames/1025
+child: false
+persian_name: مهدی الله‌ وردی

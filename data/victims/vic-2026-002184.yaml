@@ -2,17 +2,18 @@
 # Victim Documentation - Ata
 # ==========================================
 
-photo: "vic-2026-002184.jpg"
+photo: vic-2026-002184.jpg
 name: Ata
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 24
 occupation: ""
 country: Iran
-incident_province: "Tehran"
+incident_province: Varamin (Vaziriyeh)
 incident_city: Kareh
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Mocked by people after the death of 20,000 individuals during protests
 source_type: Social Media
 source_social_media_link: https://x.com/shahan021kid/status/2014154412873146374
+child: false
+persian_name: آتنا

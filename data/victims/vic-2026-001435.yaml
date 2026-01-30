@@ -2,37 +2,26 @@
 # Victim Documentation - Abolfazl Baba Nejad
 # ==========================================
 
-photo: "vic-2026-001435.jpeg"
-
-name: "Abolfazl Baba Nejad"
-
-# Personal & Birth Information
+photo: vic-2026-001435.jpeg
+name: Abolfazl Baba Nejad
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: ""
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "ساری"
-
-# Death Information
+incident_city: Sari
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Approximate"
+date_of_death_precision: Approximate
 cause_of_death: ""
+status: Killed
+description: |-
+  Persian Name: ابوالفضل بابانژاد
 
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+  Killed during protests in Babol, Mazandaran province. Also known as Milad.
+source_type: Local Report
+source_social_media_link: https://x.com/FSeifikaran/status/2013394056949223644, https://x.com/sssccpp/status/2015850906986721450
+child: false

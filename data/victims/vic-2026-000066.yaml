@@ -2,36 +2,25 @@
 # Victim Documentation - Sepehr Ebrahimi
 # ==========================================
 
-photo: "vic-2026-000066.jpg"
-name: "Sepehr Ebrahimi"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: "a club"
-gender: ""
+photo: vic-2026-000066.jpg
+name: Sepehr Ebrahimi
+birth_date: ''
+birth_province: ''
+birth_city: a club
+gender: ''
 age: 19
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Andisheh township"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Andisheh Township
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by security forces during the protests after joining the protesters from a club
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranintlsport/status/2014624620725293559"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/iranintlsport/status/2014624620725293559
+child: false

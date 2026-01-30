@@ -7,12 +7,13 @@ name: Meysam Chandani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Execution
@@ -21,3 +22,5 @@ description: |
   Executed after 12 years in prison as a Baloch political prisoner
 source_type: Social Media
 source_social_media_link: https://x.com/jeanne2022rev/status/2012247930783056278
+child: false
+persian_name: میثم چندانی

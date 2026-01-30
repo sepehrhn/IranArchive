@@ -7,17 +7,23 @@ name: Mohammad Matin Mosleh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Khorasan
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Killed by government forces during protests
+
+
+  Killed by government forces during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/HengawO/status/2014294428643389752, https://t.me/RememberTheirNames/610
+child: false
+persian_name: محمد متین مصلح

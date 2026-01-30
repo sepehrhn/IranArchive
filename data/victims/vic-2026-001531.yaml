@@ -2,17 +2,18 @@
 # Victim Documentation - Hossein Akrami
 # ==========================================
 
-photo: "vic-2026-001531.jpg"
+photo: vic-2026-001531.jpg
 name: Hossein Akrami
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 39
 occupation: ""
 country: Iran
 incident_province: Mazandaran
 incident_city: Sorkh
+incident_address: ""
 date_of_death: "2026-01-21"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Initially injured in the leg by direct gunfire from government forces during protests in Shohada Square, Sari. Died two weeks later due to delayed transfer to hospital and severe infection.
 source_type: Social Media
 source_social_media_link: https://x.com/HengawO/status/2015797300107296964, https://t.me/RememberTheirNames/1406
+child: false
+persian_name: حسین اکرامی

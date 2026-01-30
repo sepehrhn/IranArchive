@@ -2,17 +2,18 @@
 # Victim Documentation - Ilia Ghodsi
 # ==========================================
 
-photo: "vic-2026-002211.jpg"
+photo: vic-2026-002211.jpg
 name: Ilia Ghodsi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Ghaleh Hassan Khan
+incident_address: Ghaleh Hassan Khan
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed by government forces' gunfire.
 source_type: Social Media
 source_social_media_link: https://x.com/iranwire/status/2015916292235006023
+child: false
+persian_name: ایلیا قدسی

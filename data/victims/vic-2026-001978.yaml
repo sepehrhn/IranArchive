@@ -2,17 +2,18 @@
 # Victim Documentation - Mehrdad Fallah
 # ==========================================
 
-photo: "vic-2026-001978.jpg"
+photo: vic-2026-001978.jpg
 name: Mehrdad Fallah
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 39
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Rasht
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot twice with live ammunition by security forces in Sabzeh Meydan. He was a father of two children aged 8 and 14.
 source_type: Social Media
 source_social_media_link: https://x.com/Tavaana/status/2015909395256025205, https://x.com/HyrcaniHRM/status/2016065872557707530, https://t.me/RememberTheirNames/1393
+child: false
+persian_name: مهراد فلاح

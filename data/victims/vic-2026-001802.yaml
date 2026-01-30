@@ -2,17 +2,18 @@
 # Victim Documentation - Sina Faraji
 # ==========================================
 
-photo: "vic-2026-001802.jpg"
+photo: vic-2026-001802.jpg
 name: Sina Faraji
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Mazandaran
-incident_city: Rustamkola
+incident_province: Behshahr County
+incident_city: Rostamkola
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: سینا فرجی
 
   Killed during protests.
+
+  The user provided a list of names and locations, stating that the number of victims is higher but they do not have names and photos for the others. The context implies these individuals are victims of the protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/990
+source_social_media_link: https://t.me/RememberTheirNames/990, https://x.com/realneo101/status/2015732127338229913, https://x.com/hekasrehcrisis/status/2016352169033675096
+child: false
+persian_name: سینا فرجی

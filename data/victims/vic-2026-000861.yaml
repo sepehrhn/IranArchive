@@ -2,37 +2,25 @@
 # Victim Documentation - Tayebeh Rezaei
 # ==========================================
 
-photo: ""
-
-name: "Tayebeh Rezaei"
-
-# Personal & Birth Information
+photo: vic-2026-001230.jpg
+name: Tayebeh Rezaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Female
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Kermanshah"
-
-# Death Information
+incident_city: Islamabad-e Gharb
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot during protests in Kermanshah's Mowlam neighborhood by the Islamic Republic forces.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/kurdpa_farsi/status/2014648533811372240"
+source_type: Social Media
+source_social_media_link: https://x.com/kurdpa_farsi/status/2014648533811372240, https://x.com/HengawO/status/2013992084802257150, https://www.instagram.com/p/DT2QRsbCL1L, https://t.me/RememberTheirNames/642
+child: false
+persian_name: طیبه رضایی

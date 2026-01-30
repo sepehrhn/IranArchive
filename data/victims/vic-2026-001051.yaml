@@ -7,12 +7,13 @@ name: Babak Shahbazi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Execution
@@ -21,3 +22,5 @@ description: |
   Executed
 source_type: Social Media
 source_social_media_link: https://x.com/jeanne2022rev/status/2012248015600284068, https://x.com/Jeanne2022Rev/status/2012248015600284068
+child: false
+persian_name: بابک شهبازی

@@ -2,36 +2,25 @@
 # Victim Documentation - Shahrokh Zare Lore
 # ==========================================
 
-photo: "vic-2026-000849.jpg"
-name: "Shahrokh Zare Lore"
-
-# Personal & Birth Information
+photo: vic-2026-000849.jpg
+name: Shahrokh Zare Lore
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Mamasani"
-
-# Death Information
+incident_city: Mamasani
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by suppressive forces
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hirman__/status/2014607025490010334"
+source_type: Social Media
+source_social_media_link: https://x.com/hirman__/status/2014607025490010334
+child: false
+persian_name: شاهرخ زارع لر

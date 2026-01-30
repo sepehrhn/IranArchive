@@ -7,12 +7,13 @@ name: Taher Malekshahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 12
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Qarah County
+incident_address: Qarah County
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -20,3 +21,4 @@ status: Killed
 description: Shot in the face and neck with pellet bullets by security forces at close range.
 source_type: Social Media
 source_social_media_link: https://x.com/Ario1401/status/2014657004480966785
+child: true

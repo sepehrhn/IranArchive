@@ -2,36 +2,25 @@
 # Victim Documentation - Milad Iranpour
 # ==========================================
 
-photo: "vic-2026-000360.jpg"
-name: "Milad Iranpour"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Mobarakeh"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-000360.jpg
+name: Milad Iranpour
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: Isfahan
+incident_city: Mobarakeh
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by an unidentified individual during protests on 19 Dey
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/abhaddadii/status/2013901363810287827"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/abhaddadii/status/2013901363810287827
+child: false

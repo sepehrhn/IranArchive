@@ -7,12 +7,13 @@ name: Erfan
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 18
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Nazi Abad Square
+incident_address: Nazi Abad Square
 date_of_death: "2025-12-29"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot from behind while filming protesters' courage at Nazi Abad Square
 source_type: Social Media
 source_social_media_link: https://x.com/iranwire/status/2013651846267572717
+child: false
+persian_name: عرفان

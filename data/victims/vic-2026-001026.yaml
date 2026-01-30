@@ -7,12 +7,13 @@ name: Amir Hossein Ahmadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed in the way of the homeland
 source_type: Social Media
 source_social_media_link: https://x.com/missmarpel75/status/2014757339845337566
+child: false
+persian_name: امیر حسین احمدی

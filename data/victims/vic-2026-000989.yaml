@@ -7,12 +7,13 @@ name: Sajjad Bakhshali
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Parand
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed during protests (described as former political prisoner and citizen of Parand)
 source_type: Social Media
 source_social_media_link: https://x.com/pouriazeraati/status/2012970790262550939, https://x.com/pouyajegarvnd/status/2014345422870118510
+child: false
+persian_name: سجاد بخشعلی

@@ -7,12 +7,13 @@ name: Dr. Mahsa Dezfulian Kermanshahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Killed by direct shooting from the Islamic Republic's mercenaries during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/esmaeils1169/status/2014610556930445577
+child: false
+persian_name: دکتر مهسا دزفولیان کرمانشاهی

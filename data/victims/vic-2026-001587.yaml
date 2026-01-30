@@ -2,17 +2,18 @@
 # Victim Documentation - Mehran Sheikh-ol-eslami
 # ==========================================
 
-photo: "vic-2026-001587.jpg"
+photo: vic-2026-001587.jpg
 name: Mehran Sheikh-ol-eslami
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Kianshar
+incident_address: Kianshahr
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Died in Dey 1404 (January 2026). Specific circumstances of death not detailed.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1224
+child: false
+persian_name: مهران شیخ‌الاسلامی

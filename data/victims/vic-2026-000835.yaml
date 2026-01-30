@@ -7,12 +7,13 @@ name: Saman Nazari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 23
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: Kermanshah
+incident_province: Kermanshah
+incident_city: Darreh Darizh
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot by Revolutionary Guards forces during protests in Dareh-Derizh neighborhood
 source_type: Social Media
-source_social_media_link: https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/KurdistanHRN/status/2014747456299270597
+source_social_media_link: https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/KurdistanHRN/status/2014747456299270597, https://t.me/RememberTheirNames/81
+child: false
+persian_name: سامان نظری

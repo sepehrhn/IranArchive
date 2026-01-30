@@ -2,17 +2,18 @@
 # Victim Documentation - Pouya Derakhshan
 # ==========================================
 
-photo: "vic-2026-002046.jpg"
+photo: vic-2026-002046.jpg
 name: Pouya Derakhshan
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: null
+gender: Male
+age: 18
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: Tehran
+incident_province: Tehran
+incident_city: Tehranpars
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: پویا درخشان
 
   Died during protests.
+
+  Killed by direct gunfire on the night of 18 Dey.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1378
+source_social_media_link: https://t.me/RememberTheirNames/1378, https://x.com/hekasrehcrisis/status/2015852998744826324
+child: false
+persian_name: پویا درخشان

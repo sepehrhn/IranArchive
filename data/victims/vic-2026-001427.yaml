@@ -2,38 +2,27 @@
 # Victim Documentation - Mohammadreza Mohammadlou
 # ==========================================
 
-photo: "vic-2026-001427.jpg"
-name: "Mohammadreza Mohammadlou"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
-date_of_death: ""
-date_of_death_precision: "Exact"
-cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001427.jpg
+name: Mohammadreza Mohammadlou
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: ''
+incident_address: ''
+date_of_death: ''
+date_of_death_precision: Exact
+cause_of_death: ''
+status: Killed
 description: |
   Persian Name: محمدرضا محمدلو
-  
-  Described as 'child of Iran and one who sacrifices their life for the homeland'
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/youtab_ario36/status/2014683513467936888"
+  Described as 'child of Iran and one who sacrifices their life for the homeland'
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/youtab_ario36/status/2014683513467936888
+child: false

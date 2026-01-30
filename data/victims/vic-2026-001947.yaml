@@ -2,23 +2,24 @@
 # Victim Documentation - Khodadad Alafati
 # ==========================================
 
-photo: "vic-2026-001947.jpg"
+photo: vic-2026-001947.jpg
 name: Khodadad Alafati
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Alborz"
+incident_province: Karaj
 incident_city: Fardis
+incident_address: Fardis
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
 description: |+
-  Persian Name: خداداد الفتی
-
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1410
+child: false
+persian_name: خداداد الفتی

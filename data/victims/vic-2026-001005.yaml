@@ -7,12 +7,13 @@ name: Ahmad Hallaj Sani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Rasht
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Chemistry professor at University of Tehran, circumstances of death not explicitly stated but implied to be protest-related based on context and hashtags
 source_type: Social Media
 source_social_media_link: https://x.com/bossofjoyfulls/status/2013402020036653528
+child: false
+persian_name: احمد حلاج ثانی

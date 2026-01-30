@@ -7,12 +7,13 @@ name: Saeed Joodaki Masoor
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Khorramabad
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot directly by security forces, bullet hit his heart in Masoor neighborhood
 source_type: Social Media
 source_social_media_link: https://x.com/hirman__/status/2014442919495635322
+child: false
+persian_name: سعید جودکی ماسور

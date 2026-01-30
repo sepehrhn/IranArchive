@@ -2,36 +2,25 @@
 # Victim Documentation - Hesam Nateghi
 # ==========================================
 
-photo: "vic-2026-000625.jpg"
-name: "Hesam Nateghi"
-
-# Personal & Birth Information
+photo: vic-2026-000625.jpg
+name: Hesam Nateghi
 birth_date: ""
 birth_province: ""
-birth_city: "being shot six times"
-gender: ""
+birth_city: being shot six times
+gender: Male
 age: 25
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
+country: Iran
+incident_province: Razavi Khorasan
+incident_city: Mashhad
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Died from being shot six times
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/allahbakhshii/status/2014675056291356674"
+source_type: Social Media
+source_social_media_link: https://x.com/allahbakhshii/status/2014675056291356674, https://t.me/RememberTheirNames/751
+child: false
+persian_name: حسام ناطقی

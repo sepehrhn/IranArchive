@@ -2,36 +2,28 @@
 # Victim Documentation - Davood Kalivand Lor
 # ==========================================
 
-photo: "vic-2026-000579.jpg"
-name: "Davood Kalivand Lor"
-
-# Personal & Birth Information
+photo: vic-2026-000579.jpg
+name: Davood Kalivand Lor
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Fardis"
-
-# Death Information
+incident_city: Fardis
+incident_address: Fardis
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: |-
   Shot directly by suppressive forces and died.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hirman__/status/2014940552853090422"
+
+  Shot directly by security forces and died.
+source_type: Social Media
+source_social_media_link: https://x.com/hirman__/status/2014940552853090422
+child: false
+persian_name: داود کلیوند لر

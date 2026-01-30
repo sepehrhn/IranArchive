@@ -7,12 +7,13 @@ name: Hajar Eshaghi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 42
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Isfahan
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot in the heart with a war bullet by Islamic Republic suppressors during protests in Shahrak Keshvari neighborhood
 source_type: Social Media
 source_social_media_link: https://x.com/iranwire/status/2014442239833882871, https://x.com/HengawO/status/2014670380019925226, https://t.me/RememberTheirNames/708
+child: false
+persian_name: هاجر اسحاقی

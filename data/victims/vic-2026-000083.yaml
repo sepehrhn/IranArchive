@@ -7,12 +7,13 @@ name: Romina Momeni Boroujeni
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Isfahan
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,4 @@ description: |
   Shot during protest by Iran’s Islamic Republic forces, resulting in paralysis.
 source_type: Social Media
 source_social_media_link: https://x.com/longlosthills/status/2014432565675884987
+child: false

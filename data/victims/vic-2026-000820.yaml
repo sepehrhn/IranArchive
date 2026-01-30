@@ -2,36 +2,25 @@
 # Victim Documentation - Saeed Khourche Farahani
 # ==========================================
 
-photo: "vic-2026-000820.jpg"
-name: "Saeed Khourche Farahani"
-
-# Personal & Birth Information
+photo: vic-2026-000820.jpg
+name: Saeed Khourche Farahani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Afsariyeh Neighborhood
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the head in the early hours of the protests in Afsariyeh neighborhood.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/realneo101/status/2015150096644460745"
+source_type: Social Media
+source_social_media_link: https://x.com/realneo101/status/2015150096644460745, https://x.com/HengawO/status/2016083913576235034, https://x.com/allahbakhshii/status/2016196731273368039, https://t.me/RememberTheirNames/1484
+child: false
+persian_name: سعید خورچه فراهانی

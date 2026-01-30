@@ -2,37 +2,24 @@
 # Victim Documentation - Sanan Pourbabaie
 # ==========================================
 
-photo: "vic-2026-001519.jpeg"
-
-name: "Sanan Pourbabaie"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Female"
-age: 
-occupation: "موسیقیدان، نوازنده ویولون "
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Gilan"
-incident_city: "لاهیجان"
-
-# Death Information
-date_of_death: "2026-01-07"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
-  
-  
-# Sources
-source_type: "Local Report"
-source_social_media_link: "" # JavidNaam does not easily expose the raw source link in list view, keeping empty
+photo: vic-2026-001519.jpeg
+name: Sanan Pourbabaie
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Female
+age: null
+occupation: 'موسیقیدان، نوازنده ویولون '
+country: Iran
+incident_province: Gilan
+incident_city: Lahijan
+incident_address: ''
+date_of_death: '2026-01-07'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: ''
+source_type: Local Report
+source_social_media_link:
+  - ''
+child: false

@@ -2,17 +2,18 @@
 # Victim Documentation - Fatemeh (Mahboubeh) Fatemi
 # ==========================================
 
-photo: "vic-2026-001684.jpg"
+photo: vic-2026-001684.jpg
 name: Fatemeh (Mahboubeh) Fatemi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: 42
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Died after being shot by security forces near Tajrish. Her family was pressured by security forces to report the cause of death as 'cancer' to relatives in Bandar Abbas.
 source_type: Social Media
 source_social_media_link: https://x.com/amirmiresmaeili/status/2015071818571293115, https://x.com/AmirMiresmaeili/status/2015071818571293115
+child: false
+persian_name: فاطمه (محبوبه) فاطمی

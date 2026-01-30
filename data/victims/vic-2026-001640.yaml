@@ -2,17 +2,18 @@
 # Victim Documentation - Ali Varkabari
 # ==========================================
 
-photo: "vic-2026-001640.jpg"
+photo: vic-2026-001640.jpg
 name: Ali Varkabari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 22
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Qazvin
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot with live ammunition by IRGC and Basij forces while fleeing. Died from severe bleeding before reaching medical care. He was an electrical engineer.
 source_type: Social Media
 source_social_media_link: https://x.com/missmarpel75/status/2015023581055394004, https://x.com/tavaana/status/2015635133265789244, https://x.com/Tavaana/status/2015635133265789244, https://t.me/RememberTheirNames/1163
+child: false
+persian_name: علی ورکباری

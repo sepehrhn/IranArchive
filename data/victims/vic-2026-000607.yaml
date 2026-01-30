@@ -7,12 +7,13 @@ name: Fatemeh Anvari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Karaj
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot three times while helping an injured person near her home.
 source_type: Social Media
 source_social_media_link: https://x.com/melicatm/status/2014735709421101255
+child: false
+persian_name: فاطمه انوری

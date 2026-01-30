@@ -13,6 +13,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Falah
+incident_address: Falah
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   A 54-year-old father of two shot and killed during a peaceful protest in Tehran's Fallah neighborhood.
 source_type: Social Media
-source_social_media_link: https://x.com/loabatk/status/2012045923749412900, https://x.com/IranIntl/status/2014009936879947996
+source_social_media_link: https://x.com/loabatk/status/2012045923749412900, https://x.com/IranIntl/status/2014009936879947996, https://t.me/RememberTheirNames/400
+child: false
+persian_name: میرآقا رضایی

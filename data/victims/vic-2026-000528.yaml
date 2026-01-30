@@ -7,12 +7,13 @@ name: Amir Javadifard Langarudi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 39
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Killed in Kahrizak detention center, Tehran
 source_type: Social Media
 source_social_media_link: https://x.com/vahid/status/2012979286253162975
+child: false
+persian_name: امیر جوادی‌فر لنگرودی

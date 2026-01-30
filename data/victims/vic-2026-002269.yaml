@@ -7,12 +7,13 @@ name: Yasna Eskandari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Lawyer killed in Tehran.
 source_type: Social Media
 source_social_media_link: https://x.com/jacob15759299/status/2015531137028796513
+child: false
+persian_name: یسنا اسکندریه

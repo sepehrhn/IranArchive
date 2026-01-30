@@ -2,17 +2,18 @@
 # Victim Documentation - Yasin (Soheil) Almasi
 # ==========================================
 
-photo: "vic-2026-001808.jpg"
+photo: vic-2026-001808.jpg
 name: Yasin (Soheil) Almasi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 17
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Marvdasht
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/790
+child: true
+persian_name: یاسین (سهیل) الماسی

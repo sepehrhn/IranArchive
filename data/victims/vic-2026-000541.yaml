@@ -2,36 +2,25 @@
 # Victim Documentation - Amirmohammad Yazdani
 # ==========================================
 
-photo: "vic-2026-000541.png"
-name: "Amirmohammad Yazdani"
-
-# Personal & Birth Information
+photo: vic-2026-000541.png
+name: Amirmohammad Yazdani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Narmak"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Narmak
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by Islamic Republic regime during protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/daikatuo/status/2011846379635716511"
+source_type: Social Media
+source_social_media_link: https://x.com/daikatuo/status/2011846379635716511, https://x.com/avatoday_news/status/2011806828858913270, https://x.com/iranintlsport/status/2012941724587335908, https://x.com/Daikatuo/status/2011846379635716511
+child: false
+persian_name: امیرمحمد یزدانی

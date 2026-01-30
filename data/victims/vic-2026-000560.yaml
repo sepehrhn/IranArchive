@@ -7,12 +7,13 @@ name: Arya Alidoust Ghareh-Abadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Gilan
 incident_city: Lahijan
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Killed by direct shots from security forces during protests in Lahijan.
 source_type: Social Media
 source_social_media_link: https://x.com/mohammadabedi_z/status/2014632040990212551, https://x.com/Mohammadabedi_z/status/2014632040990212551
+child: false
+persian_name: آریا علیدوست غریب‌آبادی

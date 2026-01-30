@@ -7,12 +7,13 @@ name: Hasan Nasiri
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Implied death during protests, based on context of tweet expressing grief and the date range provided (دی ۱۴۰۴)
 source_type: Social Media
 source_social_media_link: https://x.com/mansourinanloo/status/2014568432746877058
+child: false
+persian_name: حسن نصیری

@@ -2,36 +2,25 @@
 # Victim Documentation - Mohammadreza Naiji
 # ==========================================
 
-photo: "vic-2026-000740.jpg"
-name: "Mohammadreza Naiji"
-
-# Personal & Birth Information
+photo: vic-2026-000740.jpg
+name: Mohammadreza Naiji
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Mazandaran"
-incident_city: "Noor"
-
-# Death Information
+country: Iran
+incident_province: Mazandaran
+incident_city: Nur
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed by government suppressors during protests on Thursday and Friday
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/monfaredashkan/status/2014837746100273656"
+source_type: Social Media
+source_social_media_link: https://x.com/monfaredashkan/status/2014837746100273656, https://x.com/monfaredashkan/status/2014864195481960634, https://x.com/alitagh30207454/status/2015074385925746874, https://x.com/MonfaredAshkan/status/2014837746100273656, https://x.com/MonfaredAshkan/status/2014864195481960634, https://x.com/YasamanKhodajo/status/2015482358678327444, https://t.me/RememberTheirNames/1328, https://t.me/RememberTheirNames/1101, https://x.com/i/status/2015369492537233794
+child: false
+persian_name: احمدرضا نائیجی

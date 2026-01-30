@@ -2,17 +2,18 @@
 # Victim Documentation - Ilia Dehghani
 # ==========================================
 
-photo: "vic-2026-001709.jpg"
+photo: vic-2026-001709.jpg
 name: Ilia Dehghani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehranpars
+incident_address: Tehranpars
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: ایلیا دهقانی
 
   Victim identified in a list of names.
+
+  Described as a heroic son (پسر قهرمان), appears to have died based on the mourning language and promise of revenge
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1135
+source_social_media_link: https://t.me/RememberTheirNames/1135, https://x.com/ariatis223243/status/2016575712229233071
+child: false
+persian_name: ایلیا دهقانی

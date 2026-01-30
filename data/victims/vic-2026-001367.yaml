@@ -2,38 +2,27 @@
 # Victim Documentation - Mojtaba Ziadi
 # ==========================================
 
-photo: "vic-2026-001367.jpg"
-name: "Mojtaba Ziadi"
-
-# Personal & Birth Information
+photo: vic-2026-001367.jpg
+name: Mojtaba Ziadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Malayer"
-
-# Death Information
+incident_city: Malayer
+incident_address: ""
 date_of_death: "2026-01-09"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: مجتبی زیادی
-  
-  Father of two children, killed by the Islamic regime.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/walterakam/status/2015493357426835803"
+  Father of two children, killed by the Islamic regime.
+source_type: Social Media
+source_social_media_link: https://x.com/walterakam/status/2015493357426835803, https://x.com/missmarpel75/status/2015560926804505029, https://x.com/Walterakam/status/2015493357426835803, https://t.me/RememberTheirNames/1304
+child: false
+persian_name: مجتبی زیادی

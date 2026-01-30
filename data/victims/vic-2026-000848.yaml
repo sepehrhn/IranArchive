@@ -2,36 +2,25 @@
 # Victim Documentation - Shahram Sarlak
 # ==========================================
 
-photo: "vic-2026-000848.jpg"
-name: "Shahram Sarlak"
-
-# Personal & Birth Information
+photo: vic-2026-000848.jpg
+name: Shahram Sarlak
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Fooladshahr"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Fooladshahr
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed in B4 clinic in Fooladshahr, Isfahan. The body was not returned for a week.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/ghorbaniiniyak/status/2013956695160987831"
+source_type: Social Media
+source_social_media_link: https://x.com/ghorbaniiniyak/status/2013956695160987831, https://x.com/VIsfehan/status/2014628506194346319, https://t.me/RememberTheirNames/483
+child: false
+persian_name: شهرام سرلک

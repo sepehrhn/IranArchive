@@ -2,17 +2,18 @@
 # Victim Documentation - Sarallah Farrokhi
 # ==========================================
 
-photo: "vic-2026-002258.jpg"
+photo: vic-2026-002258.jpg
 name: Sarallah Farrokhi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 37
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Yasuj
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed by direct fire from live ammunition by security forces. His organs were reportedly harvested.
 source_type: Social Media
 source_social_media_link: https://t.me/poshtpardeha/248644, https://x.com/1youngcrazy/status/2015415757077709178
+child: false
+persian_name: ثارالله فرخی

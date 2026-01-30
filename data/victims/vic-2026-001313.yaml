@@ -2,38 +2,27 @@
 # Victim Documentation - Rozita Rokh Zadeh
 # ==========================================
 
-photo: "vic-2026-001313.jpg"
-name: "Rozita Rokh Zadeh"
-
-# Personal & Birth Information
+photo: vic-2026-001313.jpg
+name: Rozita Rokh Zadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Female"
-age: 
+gender: Female
+age: 32
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Marzdaran"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Marzdaran
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: رزیتا رُخ زاده
-  
-  Shot in the side by Islamic Republic forces during protests in the Sadeghieh area of Tehran. She was taken to the hospital by her sister but died before arriving.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/i/status/2015204550639034795, https://x.com/tavaana/status/2015356528656552169"
+  Shot in the side by Islamic Republic forces during protests in the Sadeghieh area of Tehran. She was taken to the hospital by her sister but died before arriving.
+source_type: Social Media
+source_social_media_link: https://x.com/i/status/2015204550639034795, https://x.com/tavaana/status/2015356528656552169, https://x.com/Tavaana/status/2015356528656552169, https://x.com/Cookiye0011/status/2015204550639034795, https://t.me/RememberTheirNames/269, https://x.com/soranmansournia/status/2016130430961860748
+child: false
+persian_name: رزیتا رُخ زاده

@@ -2,17 +2,18 @@
 # Victim Documentation - Amirali Goudarzi
 # ==========================================
 
-photo: "vic-2026-002092.jpg"
+photo: vic-2026-002092.jpg
 name: Amirali Goudarzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 13
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Nahavand
+incident_address: ""
 date_of_death: "2026-01-07"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/995
+child: true
+persian_name: امیرعلی گودرزی

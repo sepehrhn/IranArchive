@@ -7,17 +7,23 @@ name: Vahab Ghaedi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Azna
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Killed by Islamic Republic regime security forces
+
+
+  Killed by security forces of the Islamic Republic regime.
 source_type: Social Media
 source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/Daikatuo/status/2007455396248633743
+child: false
+persian_name: وهاب قاعدی

@@ -2,38 +2,30 @@
 # Victim Documentation - Amir Ali Kashi
 # ==========================================
 
-photo: "vic-2026-001406.jpg"
-name: "Amir Ali Kashi"
-
-# Personal & Birth Information
+photo: vic-2026-001406.jpg
+name: Amir Ali Kashi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Saveh"
-
-# Death Information
+incident_city: Saveh
+incident_address: ""
 date_of_death: ""
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
+status: Killed
+description: |-
   Persian Name: امیر علی کاشی
-  
+
   Shot and killed.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/esmaeils1169/status/2014721329300148557"
+
+  Killed by gunshot.
+source_type: Social Media
+source_social_media_link: https://x.com/esmaeils1169/status/2014721329300148557
+child: false
+persian_name: امیر علی کاشی

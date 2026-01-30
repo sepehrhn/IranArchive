@@ -7,12 +7,13 @@ name: Jaber Salehi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Markazi
 incident_city: ""
+incident_address: ""
 date_of_death: "2025-12-27"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot in the abdomen by Islamic Republic forces during protest
 source_type: Social Media
 source_social_media_link: https://x.com/behnam_chegini/status/2014299136623874159, https://x.com/behnam_chegini/status/2014469719391154303, https://x.com/banafshehviola/status/2014509922822848629, https://x.com/HengawO/status/2014638058105151825, https://t.me/RememberTheirNames/738
+child: false
+persian_name: جابر صالحی

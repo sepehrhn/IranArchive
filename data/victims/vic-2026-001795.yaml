@@ -2,17 +2,18 @@
 # Victim Documentation - Ruhollah Shirazi
 # ==========================================
 
-photo: "vic-2026-001795.jpg"
+photo: vic-2026-001795.jpg
 name: Ruhollah Shirazi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Alborz"
+incident_province: Karaj
 incident_city: Hesaraki
+incident_address: Hesar
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1285
+child: false
+persian_name: روح‌الله شیرازی

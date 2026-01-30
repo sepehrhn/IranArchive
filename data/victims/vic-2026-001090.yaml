@@ -7,17 +7,23 @@ name: Hamid Shahin
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: ""
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Killed during protests in Isfahan Province
+
+
+  Identified as one of the killed during protests in Isfahan Province.
 source_type: Social Media
 source_social_media_link: https://x.com/hengawo/status/2013351223739531311, https://x.com/HengawO/status/2013351223739531311
+child: false
+persian_name: حمید شاهین

@@ -7,12 +7,13 @@ name: Pouya Norouzi Lor
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mamasani
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot directly by security forces
 source_type: Social Media
 source_social_media_link: https://x.com/hirman__/status/2014428246050287918
+child: false
+persian_name: پویا نوروزی لر

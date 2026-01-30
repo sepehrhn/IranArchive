@@ -2,17 +2,18 @@
 # Victim Documentation - Amir Teymouri Rad's Nephew
 # ==========================================
 
-photo: "vic-2026-001651.jpg"
+photo: vic-2026-001651.jpg
 name: Amir Teymouri Rad's Nephew
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Karaj
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -20,3 +21,4 @@ status: Killed
 description: Killed alongside his uncle Amir Teymouri Rad and his father (Amir's brother) during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/ManotoNews/status/2014390352900186505
+child: false

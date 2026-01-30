@@ -2,17 +2,18 @@
 # Victim Documentation - Maziar Rahro
 # ==========================================
 
-photo: "vic-2026-001583.jpg"
+photo: vic-2026-001583.jpg
 name: Maziar Rahro
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Bandar-e Anzali
+incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Died in December 2025 or January 2026
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1034
+child: false
+persian_name: مازیار رهرو

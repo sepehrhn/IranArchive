@@ -7,17 +7,23 @@ name: Mobin Yaghoubzadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 17
 occupation: ""
 country: Iran
 incident_province: Gilan
 incident_city: Khoshkbijar County
+incident_address: ""
 date_of_death: "2026-01-07"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: |
+description: |-
   Shot directly by Islamic Republic forces with an AK-47 during the national uprising
+
+
+  Shot directly by Islamic Republic forces with an AK-47 during the national uprising.
 source_type: Social Media
-source_social_media_link: https://x.com/IranProtestsCom/status/2011457118902137106
+source_social_media_link: https://x.com/IranProtestsCom/status/2011457118902137106, https://t.me/RememberTheirNames/62
+child: true
+persian_name: مبین یعقوب‌زاده

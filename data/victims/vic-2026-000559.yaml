@@ -7,12 +7,13 @@ name: Arya Alidoust
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 28
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Lahijan
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,4 @@ description: |
   Shot by motorbike units of regime's suppressive forces using live ammunition during protests
 source_type: Social Media
 source_social_media_link: https://x.com/Soranmansournia/status/2012324624042799377
+child: false

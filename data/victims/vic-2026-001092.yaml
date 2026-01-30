@@ -2,36 +2,25 @@
 # Victim Documentation - Hassan Baho
 # ==========================================
 
-photo: "vic-2026-001092.jpg"
-name: "Hassan Baho"
-
-# Personal & Birth Information
+photo: vic-2026-001092.jpg
+name: Hassan Baho
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: ""
-
-# Death Information
+incident_city: Qarchak Varamin
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed for raising the historical and national flag of Iranians
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/samanthairani/status/2014235703685562641"
+source_type: Social Media
+source_social_media_link: https://x.com/samanthairani/status/2014235703685562641, https://t.me/RememberTheirNames/1080
+child: false
+persian_name: حسن باهو

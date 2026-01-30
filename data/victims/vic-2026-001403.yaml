@@ -3,38 +3,26 @@
 # ==========================================
 
 photo: ""
-
-name: "Aghil Abbasi"
-
-# Personal & Birth Information
+name: Aghil Abbasi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Mashhad"
-
-# Death Information
+country: Iran
+incident_province: Razavi Khorasan
+incident_city: Mashhad
+incident_address: ""
 date_of_death: ""
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: عقیل عباسی
-  
-  Killed in Khajeh Rabi
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/_021queen/status/2014645034616815861"
+  Killed in Khajeh Rabi
+source_type: Social Media
+source_social_media_link: https://x.com/_021queen/status/2014645034616815861, https://x.com/_021Queen/status/2014645034616815861
+child: false
+persian_name: عقیل عباسی

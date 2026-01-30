@@ -2,36 +2,25 @@
 # Victim Documentation - Ali Babolghani
 # ==========================================
 
-photo: "vic-2026-000487.jpg"
-name: "Ali Babolghani"
-
-# Personal & Birth Information
+photo: vic-2026-000487.jpg
+name: Ali Babolghani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
-age: 
+gender: Male
+age: null
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Tehranpars"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Tehranpars
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Went out at 8 PM on 18 Dey in Tehranpars and never returned. His body was found five days later in Kahrizak forensic center. He was stabbed in the jugular vein and near his testicles.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/sashtyani/status/2015143862973636848"
+source_type: Social Media
+source_social_media_link: https://x.com/sashtyani/status/2015143862973636848, https://t.me/RememberTheirNames/603
+child: false
+persian_name: علی بابلقانی

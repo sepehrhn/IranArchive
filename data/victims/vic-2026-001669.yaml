@@ -2,17 +2,18 @@
 # Victim Documentation - Azar Mehdizadeh
 # ==========================================
 
-photo: "vic-2026-001669.jpg"
+photo: vic-2026-001669.jpg
 name: Azar Mehdizadeh
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 45
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Andimeshk
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Married with three children, one of whom is a wrestler. Died in Andimeshk.
 source_type: Social Media
 source_social_media_link: https://x.com/jvs89958333/status/2015888105002176657
+child: false
+persian_name: عذار مهدی زاده

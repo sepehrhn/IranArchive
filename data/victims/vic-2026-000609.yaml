@@ -2,37 +2,25 @@
 # Victim Documentation - Foad Safaei
 # ==========================================
 
-photo: ""
-
-name: "Foad Safaei"
-
-# Personal & Birth Information
+photo: vic-2026-001925.jpg
+name: Foad Safaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 23
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Tehran"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by security forces. He was hit by three bullets in the leg, back, and head.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hastigh4/status/2015008699249815574"
+source_type: Social Media
+source_social_media_link: https://x.com/hastigh4/status/2015008699249815574, https://x.com/monfaredashkan/status/2014784794912338085, https://x.com/MonfaredAshkan/status/2014738207032934891, https://x.com/MonfaredAshkan/status/2014784794912338085, https://x.com/iampayaam/status/2015077168867315958, https://x.com/longlosthills/status/2015459334767980637, https://x.com/MayaThefish/status/2015515470779097522, https://t.me/RememberTheirNames/1244, https://t.me/RememberTheirNames/972
+child: false
+persian_name: فواد صفایی

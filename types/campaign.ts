@@ -10,7 +10,7 @@ export interface Campaign {
     featured: boolean;
     created_at?: string;
 
-    // Scraped/External Data
+    // Campaign Statistics
     author?: string;
     signatures?: number;
     goal?: number;

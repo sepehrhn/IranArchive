@@ -2,17 +2,18 @@
 # Victim Documentation - Mojtaba Karabi
 # ==========================================
 
-photo: "vic-2026-002022.jpg"
+photo: vic-2026-002022.jpg
 name: Mojtaba Karabi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Naziaabad
+incident_address: Nazi Abad
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Injured on 18 Dey 1404 (January 8, 2026) in Gorgan and died a few days later.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1274, https://t.me/RememberTheirNames/722
+child: false
+persian_name: مجتبی کری

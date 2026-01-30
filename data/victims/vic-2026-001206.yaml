@@ -7,12 +7,13 @@ name: Saeed Salari Momeni
 birth_date: ""
 birth_province: ""
 birth_city: morgue
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Bodies being removed from morgue, likely protest-related death
 source_type: Social Media
 source_social_media_link: https://x.com/barbad_golshiri/status/2013300308495958440
+child: false
+persian_name: سعید سالاری مؤمنی

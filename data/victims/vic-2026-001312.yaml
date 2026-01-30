@@ -2,38 +2,27 @@
 # Victim Documentation - Reyhaneh Qodsi
 # ==========================================
 
-photo: "vic-2026-001312.jpg"
-name: "Reyhaneh Qodsi"
-
-# Personal & Birth Information
+photo: vic-2026-001312.jpg
+name: Reyhaneh Qodsi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 20
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
+country: Iran
 incident_province: ""
-incident_city: "Unknown"
-
-# Death Information
+incident_city: Qazvin
+incident_address: ""
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Persian Name: ریحانه قدسی
-  
-  Shot in the carotid artery during protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/i/status/2014481973532627317"
+  Shot in the carotid artery during protests.
+source_type: Social Media
+source_social_media_link: https://x.com/i/status/2014481973532627317, https://x.com/allahbakhshii/status/2016502328682000614, https://t.me/RememberTheirNames/1609
+child: false
+persian_name: ریحانه قدسی

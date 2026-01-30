@@ -2,38 +2,27 @@
 # Victim Documentation - Amir Hossein Kiani
 # ==========================================
 
-photo: "vic-2026-001289.jpg"
-name: "Amir Hossein Kiani"
-
-# Personal & Birth Information
+photo: vic-2026-001289.jpg
+name: Amir Hossein Kiani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 21
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Saadat Abad, Kaj Square"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Saadat Abad, Kaj Square
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Persian Name: امیرحسین کیانی
-  
-  Killed during protests.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/leill_i/status/2015412358751867217"
+  Killed during protests.
+source_type: Social Media
+source_social_media_link: https://x.com/leill_i/status/2015412358751867217, https://x.com/Leill_i/status/2015412358751867217, https://t.me/RememberTheirNames/1124
+child: false
+persian_name: امیرحسین کیانی

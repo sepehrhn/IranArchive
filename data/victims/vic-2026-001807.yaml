@@ -2,21 +2,24 @@
 # Victim Documentation - Wife of Bijan Mostafavi
 # ==========================================
 
-photo: "vic-2026-001807.jpg"
+photo: vic-2026-001807.jpg
 name: Wife of Bijan Mostafavi
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: null
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-date_of_death: "2026-01-09"
+incident_address: ''
+date_of_death: '2026-01-09'
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: ''
 status: Killed
 description: Shot by government forces while in personal vehicle during peaceful protests
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2012933004767949267
+source_social_media_link:
+  - https://x.com/manotonews/status/2012933004767949267
+child: false

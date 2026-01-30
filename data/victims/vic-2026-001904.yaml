@@ -2,17 +2,18 @@
 # Victim Documentation - Ayoub Shaker
 # ==========================================
 
-photo: "vic-2026-001904.jpg"
+photo: vic-2026-001904.jpg
 name: Ayoub Shaker
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: North Khorasan
 incident_city: Shirvan
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1043
+child: false
+persian_name: ایوب شاکر

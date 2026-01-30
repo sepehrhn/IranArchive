@@ -17,6 +17,9 @@ photo: ""
 # Full Name in English
 name: "Firstname Lastname"
 
+# Full Name in Persian (Optional)
+persian_name: ""
+
 # -----------------------------------------------------------------------------
 # Personal & Birth Information
 # -----------------------------------------------------------------------------
@@ -35,6 +38,7 @@ gender: ""
 
 # Age at time of death (Optional, remove if unknown)
 age: 25
+child: false
 
 # Occupation (Optional)
 occupation: ""
@@ -49,6 +53,7 @@ country: "Iran"
 # Incident Location
 incident_province: ""
 incident_city: ""
+incident_address: ""
 
 # Date of Death (Format: YYYY/MM/DD)
 date_of_death: "2026/01/20"
@@ -102,7 +107,9 @@ description: |
 source_type: ""
 
 # Social Media Link (Required if source_type is 'Social Media')
-source_social_media_link: ""
+# Can be a single link or a list of links
+source_social_media_link:
+  - ""
 
 
 # -----------------------------------------------------------------------------

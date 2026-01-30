@@ -7,12 +7,13 @@ name: Mohammad Rabiei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: "Tehran"
+incident_province: Malard
 incident_city: Marlik
+incident_address: Marlik
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot and killed with bullets; his body is being held hostage by security agencies
 source_type: Social Media
 source_social_media_link: https://x.com/saraarabiei/status/2013611474367746420, https://x.com/avatoday_news/status/2013985815651619243, https://t.me/RememberTheirNames/1341
+child: false
+persian_name: محمد ربیعی

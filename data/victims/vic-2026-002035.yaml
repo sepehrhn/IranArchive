@@ -2,17 +2,18 @@
 # Victim Documentation - Parisa Esmaeilnezhad
 # ==========================================
 
-photo: "vic-2026-002035.png"
+photo: vic-2026-002035.png
 name: Parisa Esmaeilnezhad
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 41
 occupation: ""
 country: Iran
 incident_province: Qazvin
 incident_city: Abik
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot directly in the heart. Teacher with two children. The tweet mentions that 16 people were killed in Abik, Qazvin, but only Parisa Esmaeilnezhad is named.
 source_type: Social Media
 source_social_media_link: https://x.com/hekasrehcrisis/status/2015795161310056932, https://x.com/HeKasrehCrisis/status/2015795161310056932
+child: false
+persian_name: پریسا اسمعیل نژاد

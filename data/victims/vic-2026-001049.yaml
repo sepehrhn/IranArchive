@@ -7,17 +7,23 @@ name: Babak Biyatian
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Isfahan
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |
+description: |-
   Killed (implied) - 'javid nam' suggests martyrdom/death in protest. Family threatened.
+
+
+  Described as 'Javid Nam' (eternal name), implying he was killed. His family was threatened.
 source_type: Social Media
 source_social_media_link: https://x.com/revolution_r_/status/2014958271954563284
+child: false
+persian_name: بابک بیاتیان

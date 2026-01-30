@@ -7,17 +7,23 @@ name: Salar Mehri
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Nasim Shahr
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: |
+description: |-
   Shot by military and security forces during protests in Nasimshahr, Tehran.
+
+
+  Killed by shooting by the Islamic Republic's military-security forces during popular protests.
 source_type: Social Media
 source_social_media_link: https://x.com/kurdistanhrn/status/2014695305782952382, https://x.com/KurdistanHRN/status/2014695305782952382, https://t.me/RememberTheirNames/863
+child: false
+persian_name: سالار مهری

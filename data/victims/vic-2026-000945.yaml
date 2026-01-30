@@ -7,12 +7,13 @@ name: Khodadad Shirvani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 33
 occupation: ""
 country: Iran
-incident_province: Fars
+incident_province: ""
 incident_city: Marvdasht
+incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -21,3 +22,5 @@ description: |
   Shot at close range with a pellet gun during protests, died after being transferred to medical facilities
 source_type: Social Media
 source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.iran-emrooz.net/index.php/news2/125134/, https://en.wikipedia.org/wiki/2026_Iran_massacres#30_December, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2, https://x.com/Daikatuo/status/2007455396248633743
+child: false
+persian_name: خداداد شیروانی

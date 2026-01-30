@@ -7,12 +7,13 @@ name: Pasha Soltani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 27
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -21,3 +22,5 @@ description: |
   Murdered in the street
 source_type: Social Media
 source_social_media_link: https://x.com/isamanyasin/status/2014790910899585275
+child: false
+persian_name: پاشا سلطانی

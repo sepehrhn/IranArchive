@@ -2,36 +2,25 @@
 # Victim Documentation - Mohammad Reza Ahangar
 # ==========================================
 
-photo: "vic-2026-000729.jpg"
-name: "Mohammad Reza Ahangar"
-
-# Personal & Birth Information
+photo: vic-2026-000729.jpg
+name: Mohammad Reza Ahangar
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Sadeghiyeh"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Sadeghiyeh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by government forces during protests on Kashani Street, Sadeghieh second circle. Eyewitnesses report he was shot in the head by a bullet fired from above the Goldis complex opposite Ibn Sina Hospital
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranwire/status/2013244932648018136"
+source_type: Social Media
+source_social_media_link: https://x.com/iranwire/status/2013244932648018136, https://x.com/iranwire/status/2013250792048763270, https://x.com/sssccpp/status/2013299534743429277, https://x.com/fseifikaran/status/2013706011186454528, https://x.com/FSeifikaran/status/2013549886277357659, https://x.com/Sssccpp/status/2013299534743429277, https://x.com/Sashtyani/status/2015552388304601276, https://x.com/MahshadBayat/status/2013205264514666710, https://t.me/RememberTheirNames/218, https://x.com/pouriazeraati/status/2016049239428563002
+child: false
+persian_name: محمدرضا آهنگر

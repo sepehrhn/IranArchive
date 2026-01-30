@@ -2,36 +2,25 @@
 # Victim Documentation - Mehran Basir Tavana
 # ==========================================
 
-photo: "vic-2026-001135.jpg"
-name: "Mehran Basir Tavana"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
-age: 
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Gilan"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Unknown"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-001135.jpg
+name: Mehran Basir Tavana
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
+age: null
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: ''
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Unknown
+status: Killed
 description: |
   Killed during 2022 protests in Gilan (referred to as brother of detained person)
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/hyrcanihrm/status/2009146764540911692"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/hyrcanihrm/status/2009146764540911692
+child: false

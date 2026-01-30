@@ -2,37 +2,25 @@
 # Victim Documentation - Jafari
 # ==========================================
 
-photo: ""
-
-name: "Jafari"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+photo: ''
+name: Jafari
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 68
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Malekshahr"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: Isfahan
+incident_city: Isfahan
+incident_address: Malekshahr
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot with military gunfire
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/iranintlbrk/status/2013201463900618779"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/iranintlbrk/status/2013201463900618779
+child: false

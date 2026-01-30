@@ -4,16 +4,17 @@
 
 photo: vic-2026-001301.jpg
 name: Mani Shafiei
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
 age: 13
-occupation: ""
+occupation: ''
 country: Iran
-incident_province: "Hamadan"
-incident_city: Chenarsufli (Sheikh) village
-date_of_death: "2026-01-08"
+incident_province: Hamadan
+incident_city: Chenar Sofla
+incident_address: Sheikh
+date_of_death: '2026-01-08'
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,4 +23,8 @@ description: |
 
   Shot and killed by government forces in front of his family home during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2015421332675301638, https://x.com/Daikatuo/status/2015869767081402489, https://t.me/RememberTheirNames/1117
+source_social_media_link:
+  - https://x.com/HengawO/status/2015421332675301638
+  - https://x.com/Daikatuo/status/2015869767081402489
+  - https://t.me/RememberTheirNames/1117
+child: true

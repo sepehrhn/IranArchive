@@ -2,36 +2,28 @@
 # Victim Documentation - Yalda Mohammad Khani
 # ==========================================
 
-photo: "vic-2026-000456.jpg"
-name: "Yalda Mohammad Khani"
-
-# Personal & Birth Information
+photo: vic-2026-000456.jpg
+name: Yalda Mohammad Khani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 17
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "فرديس كرج"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
-description: |
+country: Iran
+incident_province: Karaj
+incident_city: Fardis
+incident_address: Fardis
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
+description: |-
   Shot directly
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/aryammehr_2/status/2014939038151802977"
+
+  Shot with war bullets in heart, kidney and leg during protests. Killed in the arms of her parents. Her father lifted her and she said 'Dad, my whole body is burning' before dying in her mother's arms.
+source_type: Social Media
+source_social_media_link: https://x.com/aryammehr_2/status/2014939038151802977, https://x.com/Aryammehr_2/status/2014939038151802977, https://x.com/IranNewsAgency0/status/2016019152813883572, https://x.com/m_saeedy44360/status/2016082581582733703, https://x.com/Persian_picture/status/2016539927035494498
+child: true
+persian_name: يلدا محمد خانى

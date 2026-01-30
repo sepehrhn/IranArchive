@@ -2,38 +2,27 @@
 # Victim Documentation - Mehdi Akbari Jamalouei
 # ==========================================
 
-photo: "vic-2026-001364.jpg"
-name: "Mehdi Akbari Jamalouei"
-
-# Personal & Birth Information
+photo: vic-2026-001364.jpg
+name: Mehdi Akbari Jamalouei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 21
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Isfahan"
-incident_city: "Yazdanshahr"
-
-# Death Information
+country: Iran
+incident_province: Isfahan
+incident_city: Yazdanshahr
+incident_address: ""
 date_of_death: "2026-01-09"
-date_of_death_precision: "Exact"
+date_of_death_precision: Exact
 cause_of_death: ""
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+status: Killed
 description: |
   Persian Name: مهدی اکبری جمالویی
-  
-  Shot in the chest during protests. His body was handed over on the condition that no public ceremony be held and no banners be installed. Buried in Firoozabad cemetery.
 
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/shimababaeii/status/2015515852427141278"
+  Shot in the chest during protests. His body was handed over on the condition that no public ceremony be held and no banners be installed. Buried in Firoozabad cemetery.
+source_type: Social Media
+source_social_media_link: https://x.com/shimababaeii/status/2015515852427141278, https://x.com/hirman__/status/2014901342939021500, https://t.me/RememberTheirNames/327
+child: false
+persian_name: مهدی اکبری جمالویی

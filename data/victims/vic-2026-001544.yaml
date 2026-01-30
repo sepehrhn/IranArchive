@@ -2,17 +2,18 @@
 # Victim Documentation - Hossein Najafi
 # ==========================================
 
-photo: "vic-2026-001544.jpg"
+photo: vic-2026-001544.jpg
 name: Hossein Najafi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gonabad
+incident_address: ""
 date_of_death: "2026-01-11"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -22,4 +23,6 @@ description: |-
 
   Teacher and teacher training student. Described as 'brain death'. Age not specified.
 source_type: Social Media
-source_social_media_link: https://x.com/moazabam/status/2015001965936472077, https://x.com/moazabam/status/2014870639354773801
+source_social_media_link: https://x.com/moazabam/status/2014789259891507544
+child: false
+persian_name: حسین نجفی

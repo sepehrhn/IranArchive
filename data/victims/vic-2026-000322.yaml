@@ -2,36 +2,25 @@
 # Victim Documentation - Mahan Ghadami
 # ==========================================
 
-photo: "vic-2026-000322.jpg"
-name: "Mahan Ghadami"
-
-# Personal & Birth Information
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+photo: vic-2026-000322.jpg
+name: Mahan Ghadami
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: 22
-occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Eslamshahr, Tehran"
-
-# Death Information
-date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+occupation: ''
+country: Iran
+incident_province: ''
+incident_city: Islamshahr
+incident_address: Tehran
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot directly by government suppression forces during people's protests
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/longlosthills/status/2011861460683518398"
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/longlosthills/status/2011861460683518398
+child: false

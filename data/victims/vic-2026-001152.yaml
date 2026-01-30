@@ -4,20 +4,25 @@
 
 photo: vic-2026-001152.png
 name: Mohammad Masoumi
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: ''
 age: null
-occupation: ""
+occupation: ''
 country: Iran
 incident_province: Isfahan
-incident_city: Zeinabiyeh
-date_of_death: "2026-01-10"
+incident_city: Isfahan
+incident_address: Zeynabieh
+date_of_death: '2026-01-10'
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Killed during protests (reported as martyred)
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014332861415841824, https://x.com/VIsfehan/status/2014332861415841824, https://t.me/RememberTheirNames/669
+source_social_media_link:
+  - https://x.com/visfehan/status/2014332861415841824
+  - https://x.com/VIsfehan/status/2014332861415841824
+  - https://t.me/RememberTheirNames/669
+child: false

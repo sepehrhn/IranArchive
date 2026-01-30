@@ -1,111 +1,31 @@
 # ==========================================
-# Victim Documentation Template
+# Victim Documentation - Peyvand Naeimi
 # ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
 
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
-photo: "vic-2026-000011.jpeg"
-
-# Full Name in English
-name: "Peyvand Naeimi"
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ""
-
-# Province of Birth (Optional)
-birth_province: ""
-
-# City of Birth (Optional)
-birth_city: ""
-
-# Gender (Optional: "Male" or "Female")
-gender: "Male"
-
-# Occupation (Optional)
-occupation: "Dog trainer"
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
-country: "Iran"
-
-# Incident Location
-incident_province: "Kerman"
-incident_city: "Kerman"
-
-# Date of Death (Format: YYYY/MM/DD)
-# NOTE (Missing-person convention): this field is used as the LAST SEEN / disappearance date.
-date_of_death: "2026-01-08"
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: "Exact"
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown' | 'Other'
-cause_of_death: ""
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' |
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: "Arrested and transferred to unknown location"
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown' | 'Other'
-suspected_actor: "Other"
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
-status: "Missing"
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
+photo: vic-2026-000011.jpeg
+name: Peyvand Naeimi
+birth_date: ''
+birth_province: ''
+birth_city: ''
+gender: Male
+occupation: Dog trainer
+country: Iran
+incident_province: Kerman
+incident_city: Kerman
+incident_address: ''
+date_of_death: '2026-01-08'
+date_of_death_precision: Exact
+cause_of_death: ''
+disappearance_circumstances: Arrested and transferred to unknown location
+suspected_actor: Other
+status: Missing
 description: |
   Peyvand Naeimi, a Bahá’í citizen and dog trainer living in Kerman, was reported arrested on 2026/01/07 at around 14:00 at his workplace by agents of Iran’s Ministry of Intelligence and transferred to an undisclosed location.
 
   As of 14 days after the arrest, no information had been made available regarding his location of detention, physical condition, or any charges against him.
 
   # -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Type (Optional)
-# Options: 'Family or Close Friend' | 'Eyewitness' | 'Hospital/Forensic' | 'Local Report' | 'Social Media'
-source_type: "Social Media"
-
-# Social Media Link (Required if source_type is 'Social Media')
-source_social_media_link: "https://x.com/azizamtara/status/2014374387617612126?s=20"
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+source_type: Social Media
+source_social_media_link:
+  - https://x.com/azizamtara/status/2014374387617612126?s=20
+child: false

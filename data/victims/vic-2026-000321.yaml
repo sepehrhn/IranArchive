@@ -2,36 +2,24 @@
 # Victim Documentation - Lia Lotfaliyan
 # ==========================================
 
-photo: "vic-2026-000321.jpg"
-name: "Lia Lotfaliyan"
-
-# Personal & Birth Information
+photo: vic-2026-000321.jpg
+name: Lia Lotfaliyan
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 67
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Tehranpars"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Tehranpars
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot by government forces during protests.
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/nafise86/status/2014242422566609263"
+source_type: Social Media
+source_social_media_link: https://x.com/nafise86/status/2014242422566609263
+child: false

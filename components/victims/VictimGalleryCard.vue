@@ -49,9 +49,12 @@ const handleClick = (event: MouseEvent) => {
             </div>
             
             <div class="p-4 flex flex-col gap-2">
-                <h3 class="font-bold text-lg text-surface-900 dark:text-surface-0 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
+                <h3 class="font-bold text-lg text-surface-900 dark:text-surface-0 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors leading-tight">
                     {{ victim.name }}
                 </h3>
+                <p v-if="victim.persian_name" class="text-sm font-medium text-surface-500 dark:text-surface-400 font-fa" dir="rtl">
+                    {{ victim.persian_name }}
+                </p>
                 
                 <div class="text-sm text-surface-600 dark:text-surface-400 flex flex-col gap-1">
                     <div class="flex items-center gap-1">

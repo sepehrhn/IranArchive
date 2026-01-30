@@ -2,17 +2,18 @@
 # Victim Documentation - Ashkan Shushtari
 # ==========================================
 
-photo: "vic-2026-001903.jpg"
+photo: vic-2026-001903.jpg
 name: Ashkan Shushtari
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Andisheh
+incident_address: Andisheh
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1177
+child: false
+persian_name: اشکان شوشتری

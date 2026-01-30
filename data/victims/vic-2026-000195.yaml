@@ -7,12 +7,13 @@ name: Omid Fadakar
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
+incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -20,4 +21,6 @@ status: Killed
 description: |
   Shot directly with war bullets by regime suppressive forces
 source_type: Social Media
-source_social_media_link: https://x.com/avatoday_news/status/2013299365125702026, https://x.com/hengawo/status/2013369427656392749, https://x.com/HengawO/status/2013369427656392749
+source_social_media_link: https://x.com/avatoday_news/status/2013299365125702026, https://x.com/hengawo/status/2013369427656392749, https://x.com/HengawO/status/2013369427656392749, https://t.me/RememberTheirNames/350
+child: false
+persian_name: امید فداکار

@@ -2,36 +2,25 @@
 # Victim Documentation - Sajad Soleimani
 # ==========================================
 
-photo: "vic-2026-000826.jpg"
-name: "Sajad Soleimani"
-
-# Personal & Birth Information
+photo: vic-2026-000826.jpg
+name: Sajad Soleimani
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: 
+gender: Male
+age: 40
 occupation: ""
-
-# Location & Timing
-country: "Iran"
-
-# Incident Location
-incident_province: ""
-incident_city: "Sadeghieh"
-
-# Death Information
+country: Iran
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Sadeghieh
 date_of_death: "2026-01-08"
-date_of_death_precision: "Exact"
-cause_of_death: "Gunshot"
-
-# Status
-status: "Killed"
-
-# Detailed incident description. Supports basic markdown.
+date_of_death_precision: Exact
+cause_of_death: Gunshot
+status: Killed
 description: |
   Shot in the leg and back
-
-# Sources
-source_type: "Social Media"
-source_social_media_link: "https://x.com/isamanyasin/status/2014509544769028131"
+source_type: Social Media
+source_social_media_link: https://x.com/isamanyasin/status/2014509544769028131, https://x.com/MonfaredAshkan/status/2015593617835073785, https://x.com/MonfaredAshkan/status/2015592585935593482, https://t.me/RememberTheirNames/765
+child: false
+persian_name: سجاد سلیمانی

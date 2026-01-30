@@ -2,17 +2,18 @@
 # Victim Documentation - Behrouz Babaei
 # ==========================================
 
-photo: "vic-2026-001672.jpg"
+photo: vic-2026-001672.jpg
 name: Behrouz Babaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: null
+gender: Male
+age: 37
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -21,5 +22,9 @@ description: |-
   Persian Name: بهروز بابایی
 
   No image found for this dear one.
+
+  Shot by a sniper from the top of the police station near Emamieh Square. Died in 1404 (Persian calendar).
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/480
+source_social_media_link: https://t.me/RememberTheirNames/480, https://x.com/samouraigiobo/status/2016195775693258812
+child: false
+persian_name: بهروز بابایی

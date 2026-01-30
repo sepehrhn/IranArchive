@@ -2,17 +2,18 @@
 # Victim Documentation - Mohammad Gharavi
 # ==========================================
 
-photo: "vic-2026-001990.jpg"
+photo: vic-2026-001990.jpg
 name: Mohammad Gharavi
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: "Male"
+gender: Male
 age: 25
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gonbad Kavous
+incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Injured by Islamic Republic of Iran forces, arrested, and transferred to a Sepah Pasdaran detention center where he died in custody. His death is attributed to the actions of Sepah forces during his detention. He was alive when transferred to the detention center.
 source_type: Social Media
 source_social_media_link: https://x.com/HyrcaniHRM/status/2015812293188087885
+child: false
+persian_name: محمد غراوی

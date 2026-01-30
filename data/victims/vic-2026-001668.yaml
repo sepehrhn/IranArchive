@@ -2,17 +2,18 @@
 # Victim Documentation - Atallah Pourrahmati
 # ==========================================
 
-photo: "vic-2026-001668.jpg"
+photo: vic-2026-001668.jpg
 name: Atallah Pourrahmati
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Torbat-e Jam
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Mentioned in a list of names with a date and location, implying death during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1098
+child: false
+persian_name: عطاالله پوررحمتی

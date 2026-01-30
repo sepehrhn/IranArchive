@@ -2,17 +2,18 @@
 # Victim Documentation - Morteza Rahnamatoopkanlou
 # ==========================================
 
-photo: "vic-2026-001772.jpg"
+photo: vic-2026-001772.jpg
 name: Morteza Rahnamatoopkanlou
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 39
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
+incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +24,5 @@ description: |-
   Shot directly in the head by government forces during public protests. Father of two children.
 source_type: Social Media
 source_social_media_link: https://x.com/ManotoNews/status/2015155214504903089
+child: false
+persian_name: مرتضی رهنما توپکانلو
