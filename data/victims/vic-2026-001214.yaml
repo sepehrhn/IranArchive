@@ -2,7 +2,10 @@
 # Victim Documentation - Samad Ahmadi
 # ==========================================
 
-photo: vic-2026-001214.jpg
+photo:
+  - "vic-2026-001214.jpg"
+  - "vic-2026-54b87d7fd0c9.jpg"
+  - "vic-2026-002141.jpg"
 name: Samad Ahmadi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Father of two, resident of Rasht, killed by live ammunition fired by Islamic Republic of Iran forces in front of the Governorate building in Rasht.
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2014667295474225303, https://x.com/HyrcaniHRM/status/2014667295474225303, https://t.me/RememberTheirNames/831
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2014667295474225303, https://x.com/HyrcaniHRM/status/2014667295474225303, https://t.me/RememberTheirNames/831"
+  - "https://x.com/hyrcanihrm/status/2014667295474225303"
+  - "https://t.me/RememberTheirNames/884"
 persian_name: صمد احمدی

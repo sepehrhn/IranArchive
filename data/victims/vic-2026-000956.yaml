@@ -2,13 +2,16 @@
 # Victim Documentation - Mohammad Haji Pour
 # ==========================================
 
-photo: vic-2026-000956.jpg
+photo:
+  - "vic-2026-000956.jpg"
+  - "vic-2026-d5f2ec5a2bc5.jpg"
+  - "vic-2026-eeb2062069ab.jpg"
 name: Mohammad Haji Pour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 50
 occupation: ""
 country: Iran
 incident_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Killed during protests in Rasht, former goalkeeper of Iran's beach football national team
 source_type: Social Media
-source_social_media_link: https://x.com/mojtabapourbakh/status/2013946175699693634, https://x.com/HengawO/status/2014421367446253740, https://t.me/RememberTheirNames/518
-child: false
+source_social_media_link:
+  - "https://x.com/mojtabapourbakh/status/2013946175699693634, https://x.com/HengawO/status/2014421367446253740, https://t.me/RememberTheirNames/518"
+  - "https://x.com/HengawO/status/2014421367446253740"
 persian_name: محمد حاجی پور

@@ -2,7 +2,9 @@
 # Victim Documentation - Abolfazl Norouzi
 # ==========================================
 
-photo: vic-2026-2139842.jpg
+photo:
+  - "vic-2026-2139842.jpg"
+  - "vic-2026-031b2e5f5a10.jpg"
 name: Abolfazl Norouzi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot with two war bullets. He was a mechanic student and breadwinner for his family, from Seyedi neighborhood in Mashhad
+description: Shot with two war bullets. He was a mechanic student and breadwinner for his family, from Seyedi neighborhood in Mashhad
 source_type: Social Media
 source_social_media_link: https://x.com/i/status/2016377671270416736
-child: true
 persian_name: ابولفضل نوروزی

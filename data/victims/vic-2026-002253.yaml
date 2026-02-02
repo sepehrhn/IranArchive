@@ -2,7 +2,9 @@
 # Victim Documentation - Sadegh Ghodsi
 # ==========================================
 
-photo: vic-2026-002253.jpg
+photo:
+  - "vic-2026-002253.jpg"
+  - "vic-2026-30c5d1a24e90.jpg"
 name: Sadegh Ghodsi
 birth_date: ""
 birth_province: ""
@@ -24,5 +26,4 @@ description: |-
   Killed by government forces' gunfire.
 source_type: Social Media
 source_social_media_link: https://x.com/iranwire/status/2015916292235006023
-child: false
 persian_name: صادق قدسی

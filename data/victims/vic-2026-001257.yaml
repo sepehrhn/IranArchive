@@ -2,20 +2,22 @@
 # Victim Documentation - Amirreza Mirzaei
 # ==========================================
 
-photo: vic-2026-001257.jpg
+photo:
+  - "vic-2026-001257.jpg"
+  - "vic-2026-001650.jpg"
 name: Amirreza Mirzaei
-persian_name: "امیررضا میرزایی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
+persian_name: امیررضا میرزایی
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
 age: 27
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Islamshahr
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -25,5 +27,6 @@ description: |
   Shot in the head by security forces in front of his mother and sister.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/masoudkazemi81/status/2015476914018791879
-child: false
+  - "https://x.com/masoudkazemi81/status/2015476914018791879"
+  - "https://x.com/RadioFarda_/status/2015732820447023501"
+  - "https://x.com/masoudkazemi81/status/2015476914018791879, https://x.com/5ogand/status/2015509540784001091, https://x.com/RadioFarda_/status/2015732820447023501, https://t.me/RememberTheirNames/1183"

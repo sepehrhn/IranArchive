@@ -3,10 +3,10 @@ import { computed } from 'vue';
 import { getMediaUrl } from '~/utils/mediaUrl';
 
 const props = withDefaults(defineProps<{
-    src?: string;
+    src?: string | string[];
     alt: string;
     aspect?: 'square' | 'portrait';
-    size?: 'sm' | 'md' | 'lg';
+    size?: 'sm' | 'md' | 'lg' | 'xl';
 }>(), {
     aspect: 'portrait',
     size: 'md'
@@ -17,10 +17,16 @@ const placeholderSrc = '/placeholder-victim.png';
 // Generate photo URL from GitHub or use placeholder
 const photoUrl = computed(() => {
     if (!props.src) return placeholderSrc;
+    
+    // Normalize to single string
+    const rawSrc = Array.isArray(props.src) ? props.src[0] : props.src;
+    
+    if (!rawSrc || typeof rawSrc !== 'string') return placeholderSrc;
+
     // If src is already a full URL, use it
-    if (props.src.startsWith('http')) return props.src;
+    if (rawSrc.startsWith('http')) return rawSrc;
     // Otherwise, generate GitHub raw URL
-    return getMediaUrl({ kind: 'victim_photo', relativePath: props.src });
+    return getMediaUrl({ kind: 'victim_photo', relativePath: rawSrc });
 });
 
 const aspectRatioClass = computed(() => {

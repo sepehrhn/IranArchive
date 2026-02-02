@@ -1,16 +1,17 @@
 :root {
     /* Primitive Colors (Internal use) */
-    --p-slate-50: #f8fafc;
-    --p-slate-100: #f1f5f9;
-    --p-slate-200: #e2e8f0;
-    --p-slate-300: #cbd5e1;
-    --p-slate-400: #94a3b8;
-    --p-slate-500: #64748b;
-    --p-slate-600: #475569;
-    --p-slate-700: #334155;
-    --p-slate-800: #1e293b;
-    --p-slate-900: #0f172a;
-    --p-slate-950: #020617;
+    /* Zinc Palette for True Black/Neutral Dark Mode */
+    --p-zinc-50: #fafafa;
+    --p-zinc-100: #f4f4f5;
+    --p-zinc-200: #e4e4e7;
+    --p-zinc-300: #d4d4d8;
+    --p-zinc-400: #a1a1aa;
+    --p-zinc-500: #71717a;
+    --p-zinc-600: #52525b;
+    --p-zinc-700: #3f3f46;
+    --p-zinc-800: #27272a;
+    --p-zinc-900: #18181b;
+    --p-zinc-950: #09090b;
 
     /* Primary Brand Color (Gold/Amber) */
     --p-primary-50: #fffbeb !important;
@@ -28,14 +29,14 @@
 
 [data-theme="light"] {
     /* Semantic Tokens */
-    --bg: var(--p-slate-50);
+    --bg: var(--p-zinc-50);
     --surface-1: #ffffff;
     /* Cards, Panels */
-    --surface-2: var(--p-slate-50);
+    --surface-2: var(--p-zinc-50);
     /* Backgrounds */
-    --text: var(--p-slate-900);
-    --muted: var(--p-slate-500);
-    --border: var(--p-slate-200);
+    --text: var(--p-zinc-900);
+    --muted: var(--p-zinc-500);
+    --border: var(--p-zinc-200);
 
     --primary: var(--p-primary-600);
     --primary-contrast: #ffffff;
@@ -45,19 +46,19 @@
     --success: #10b981;
     --info: #3b82f6;
 
-    --focus-ring: 0 0 0 2px var(--p-slate-50), 0 0 0 4px var(--p-primary-500);
+    --focus-ring: 0 0 0 2px var(--p-zinc-50), 0 0 0 4px var(--p-primary-500);
     --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
     --overlay: rgba(0, 0, 0, 0.4);
 }
 
 [data-theme="dark"] {
     /* Semantic Tokens */
-    --bg: var(--p-slate-950);
-    --surface-1: var(--p-slate-900);
-    --surface-2: var(--p-slate-950);
-    --text: var(--p-slate-50);
-    --muted: var(--p-slate-400);
-    --border: var(--p-slate-800);
+    --bg: var(--p-zinc-950);
+    --surface-1: var(--p-zinc-900);
+    --surface-2: var(--p-zinc-950);
+    --text: var(--p-zinc-50);
+    --muted: var(--p-zinc-400);
+    --border: var(--p-zinc-800);
 
     --primary: var(--p-primary-400);
     /* Lighter in dark mode */
@@ -68,7 +69,7 @@
     --success: #34d399;
     --info: #60a5fa;
 
-    --focus-ring: 0 0 0 2px var(--p-slate-900), 0 0 0 4px var(--p-primary-400);
+    --focus-ring: 0 0 0 2px var(--p-zinc-900), 0 0 0 4px var(--p-primary-400);
     --shadow: 0 4px 6px -1px rgb(0 0 0 / 0.5), 0 2px 4px -2px rgb(0 0 0 / 0.5);
     --overlay: rgba(0, 0, 0, 0.7);
 }
@@ -107,17 +108,17 @@ html {
 
     /* Map PrimeVue Surfaces to our Palette (Slate) */
     --p-surface-0: #ffffff;
-    --p-surface-50: var(--p-slate-50);
-    --p-surface-100: var(--p-slate-100);
-    --p-surface-200: var(--p-slate-200);
-    --p-surface-300: var(--p-slate-300);
-    --p-surface-400: var(--p-slate-400);
-    --p-surface-500: var(--p-slate-500);
-    --p-surface-600: var(--p-slate-600);
-    --p-surface-700: var(--p-slate-700);
-    --p-surface-800: var(--p-slate-800);
-    --p-surface-900: var(--p-slate-900);
-    --p-surface-950: var(--p-slate-950);
+    --p-surface-50: var(--p-zinc-50);
+    --p-surface-100: var(--p-zinc-100);
+    --p-surface-200: var(--p-zinc-200);
+    --p-surface-300: var(--p-zinc-300);
+    --p-surface-400: var(--p-zinc-400);
+    --p-surface-500: var(--p-zinc-500);
+    --p-surface-600: var(--p-zinc-600);
+    --p-surface-700: var(--p-zinc-700);
+    --p-surface-800: var(--p-zinc-800);
+    --p-surface-900: var(--p-zinc-900);
+    --p-surface-950: var(--p-zinc-950);
 }
 
 /* Dark mode specific PrimeVue overrides if needed, 
@@ -130,7 +131,7 @@ html {
    CSS variables update or PrimeVue knows it's dark.
 */
 [data-theme="dark"] {
-    --p-surface-0: var(--p-slate-950);
+    --p-surface-0: var(--p-zinc-950);
     /* Invert for dark mode logic generally handled by PrimeVue themes, 
                                           but if we manually control, we might need this. 
                                           Actually, let's let PrimeVue handle it by using the correct selector. */
@@ -149,8 +150,8 @@ html {
 
     /* Light Mode Input Tokens */
     --input-bg: rgba(255, 255, 255, 0.6);
-    --input-border: rgba(148, 163, 184, 0.4);
-    /* slate-400 with opacity */
+    --input-border: rgba(161, 161, 170, 0.4);
+    /* zinc-400 with opacity */
     --input-hover-border: var(--p-primary-500);
     --input-focus-border: var(--p-primary-500);
     --input-focus-ring: 0 0 0 4px rgba(var(--p-primary-500), 0.15);
@@ -178,15 +179,15 @@ html {
 
 [data-theme="dark"] {
     /* Dark Mode Input Tokens */
-    --input-bg: rgba(15, 23, 42, 0.6);
-    /* slate-900 with opacity */
-    --input-border: rgba(51, 65, 85, 0.6);
-    /* slate-700 with opacity */
+    --input-bg: rgba(9, 9, 11, 0.6);
+    /* zinc-950 with opacity */
+    --input-border: rgba(63, 63, 70, 0.6);
+    /* zinc-700 with opacity */
     --input-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 
     /* Dark Mode Filled Overrides */
-    --p-inputtext-filled-focus-background: rgba(15, 23, 42, 0.9);
-    --p-inputtext-filled-hover-background: rgba(30, 41, 59, 0.8);
+    --p-inputtext-filled-focus-background: rgba(9, 9, 11, 0.9);
+    --p-inputtext-filled-hover-background: rgba(24, 24, 27, 0.8);
 }
 
 /* Global Component Overrides for Glass Effect and Transitions */
@@ -216,8 +217,8 @@ html {
 [data-theme="dark"] .p-inputtext:enabled:hover,
 [data-theme="dark"] .p-textarea:enabled:hover,
 [data-theme="dark"] .p-select:not(.p-disabled):hover {
-    background: rgba(30, 41, 59, 0.8);
-    /* slate-800 mostly opaque */
+    background: rgba(24, 24, 27, 0.8);
+    /* zinc-900 mostly opaque */
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
@@ -232,12 +233,12 @@ html {
 [data-theme="dark"] .p-inputtext:enabled:focus,
 [data-theme="dark"] .p-textarea:enabled:focus,
 [data-theme="dark"] .p-select.p-focus {
-    background: rgba(15, 23, 42, 0.9);
+    background: rgba(9, 9, 11, 0.9);
 }
 
 /* Placeholder Styling */
 .p-inputtext::placeholder {
-    color: var(--p-slate-400);
+    color: var(--p-zinc-400);
     font-weight: 400;
 }
 

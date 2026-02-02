@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Aftabi
 # ==========================================
 
-photo: vic-2026-2139954.jpg
+photo:
+  - "vic-2026-2139954.jpg"
+  - "vic-2026-e31593319e03.jpg"
+  - "vic-2026-a8102d7e948a.jpg"
 name: Mohammad Aftabi
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,10 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Gilak citizen from Gourab Zarmikh, living in Tehran, killed during nationwide protests. Security agencies attempted to falsely label him as a 'Basiji' after his death, but close relatives protested stating he was a protester and freedom-seeker killed by government forces. Family was pressured and not allowed to publicly or through media report on how he was killed. His body was buried in his birthplace, Gourab Zarmikh.
+description: Gilak citizen from Gourab Zarmikh, living in Tehran, killed during nationwide protests. Security agencies attempted to falsely label him as a 'Basiji' after his death, but close relatives protested stating he was a protester and freedom-seeker killed by government forces. Family was pressured and not allowed to publicly or through media report on how he was killed. His body was buried in his birthplace, Gourab Zarmikh.
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2016551906538115248, https://t.me/RememberTheirNames/1644
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2016551906538115248, https://t.me/RememberTheirNames/1644"
+  - "https://x.com/hyrcanihrm/status/2016551906538115248"
+  - "https://t.me/RememberTheirNames/1644"
 persian_name: محمد آفتابی

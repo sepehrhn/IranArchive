@@ -2,7 +2,8 @@
 # Victim Documentation - Yaser Hoshyar
 # ==========================================
 
-photo: vic-2026-2139837.jpg
+photo:
+  - vic-2026-2139837.jpg
 name: Yaser Hoshyar
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed in Saadat Shahr. Family is under pressure and no photos or name have been published.
+description: Killed in Saadat Shahr. Family is under pressure and no photos or name have been published.
 source_type: Social Media
 source_social_media_link: https://x.com/hekasrehcrisis/status/2016726909170708755
-child: false
 persian_name: یاسر هوشیار

@@ -2,16 +2,19 @@
 # Victim Documentation - Mohsen Armak
 # ==========================================
 
-photo: vic-2026-000907.jpg
+photo:
+  - "vic-2026-000907.jpg"
+  - "vic-2026-b6f6fd0850e2.jpg"
+  - "vic-2026-1235fd085b7d.jpg"
 name: Mohsen Armak
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 35
 occupation: ""
 country: Iran
-incident_province: Chaharmahal and Bakhtiari
+incident_province: ""
 incident_city: Hafshejan
 incident_address: ""
 date_of_death: "2026-01-03"
@@ -21,6 +24,8 @@ status: Killed
 description: |
   Died after being wounded with metal pellet, taken to livestock farm instead of hospital
 source_type: Social Media
-source_social_media_link: https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/allahbakhshii/status/2014530301750349889, https://x.com/HengawO/status/2012589697831161899, https://t.me/RememberTheirNames/591
-child: false
+source_social_media_link:
+  - "https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/allahbakhshii/status/2014530301750349889, https://x.com/HengawO/status/2012589697831161899, https://t.me/RememberTheirNames/591"
+  - "https://x.com/HengawO/status/2012589697831161899"
+  - "https://x.com/allahbakhshii/status/2014530301750349889"
 persian_name: محسن آرمک

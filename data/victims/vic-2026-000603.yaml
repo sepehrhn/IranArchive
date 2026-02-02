@@ -2,7 +2,11 @@
 # Victim Documentation - Farzad Kheirdar
 # ==========================================
 
-photo: vic-2026-000603.jpg
+photo:
+  - "vic-2026-000603.jpg"
+  - "vic-2026-7fb16253a6ea.jpg"
+  - "vic-2026-69b9c4c60049.jpg"
+  - "vic-2026-5e3d44362cab.jpg"
 name: Farzad Kheirdar
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,9 @@ status: Killed
 description: |
   Lost his life at the hands of state agents during the popular protests in Kermanshah.
 source_type: Social Media
-source_social_media_link: https://x.com/kurdpa_farsi/status/2014092725327454657, https://x.com/hengawo/status/2014088323942256878, https://x.com/HengawO/status/2014088323942256878, https://x.com/KurdistanHRN/status/2014748123747279358, https://t.me/RememberTheirNames/571
-child: false
+source_social_media_link:
+  - "https://x.com/kurdpa_farsi/status/2014092725327454657, https://x.com/hengawo/status/2014088323942256878, https://x.com/HengawO/status/2014088323942256878, https://x.com/KurdistanHRN/status/2014748123747279358, https://t.me/RememberTheirNames/571"
+  - "https://x.com/kurdpa_farsi/status/2014092725327454657"
+  - "https://x.com/hengawo/status/2014088323942256878"
+  - "https://x.com/HengawO/status/2014088323942256878"
 persian_name: فرزاد خیردار

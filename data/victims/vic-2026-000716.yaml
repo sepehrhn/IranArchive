@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Hossein Vosoughi
 # ==========================================
 
-photo: vic-2026-000716.jpg
+photo:
+  - "vic-2026-000716.jpg"
+  - "vic-2026-12bb831b445b.jpg"
 name: Mohammad Hossein Vosoughi
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Fitness coach, killed by direct bullet to the heart fired by plainclothes agents with a Colt pistol during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/behnam_chegini/status/2014809245993029833, https://x.com/indypersian/status/2014951344042361228, https://t.me/RememberTheirNames/926
-child: false
+source_social_media_link:
+  - "https://x.com/behnam_chegini/status/2014809245993029833, https://x.com/indypersian/status/2014951344042361228, https://t.me/RememberTheirNames/926"
+  - "https://x.com/indypersian/status/2014951344042361228"
 persian_name: محمد حسین وثوقی

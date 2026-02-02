@@ -2,7 +2,8 @@
 # Victim Documentation - Amir Mohammad Ayaqat
 # ==========================================
 
-photo: vic-2026-001648.jpg
+photo:
+  - vic-2026-001648.jpg
 name: Amir Mohammad Ayaqat
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Mentioned in a list of names with a date and location.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1063
-child: false
 persian_name: امیرمحمد ایاقت

@@ -2,19 +2,21 @@
 # Victim Documentation - Seyed Hosein Mosavi
 # ==========================================
 
-photo: vic-2026-001449.jpeg
+photo:
+  - "vic-2026-001449.jpeg"
+  - "vic-2026-dc4a4a61a45e.jpg"
 name: Seyed Hosein Mosavi
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 40
 occupation: نقاش ساختمان
 country: Iran
 incident_province: Razavi Khorasan
 incident_city: Mashhad
-incident_address: ''
-date_of_death: '2026-01-22'
+incident_address: ""
+date_of_death: "2026-01-22"
 date_of_death_precision: Approximate
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +24,5 @@ description: |
   دو تا گلوله به پا و شکمش خورده بوده، شب خودش را میرسونه خونه ولی به دلیل قطعی تلفن ها نمی توانند با اورژانس تماس بگیرند. فردا صبح میربرندش بیمارستان و بعد از چند روز به شهادت می رسد
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""
+  - "https://t.me/javanmardi77/154307"

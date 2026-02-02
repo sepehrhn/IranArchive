@@ -44,7 +44,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
         <div>
           <label class="block text-sm font-medium mb-2">Captured Date (optional)</label>
-          <Calendar
+          <FormDateInput
             v-model="form.capturedAt"
             dateFormat="yy/mm/dd"
             showIcon

@@ -2,21 +2,25 @@
 # Victim Documentation - Rokh Bakhsh
 # ==========================================
 
-photo: vic-2026-002055.jpg
+photo:
+  - "vic-2026-002055.jpg"
+  - "vic-2026-da8225547ff7.jpg"
+  - "vic-2026-e5ce4d2f3986.jpg"
+  - "vic-2026-04db4041fe7f.jpg"
 name: Rokh Bakhsh
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 31
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Fars
 incident_city: Shiraz
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |-
   Persian Name: رخ بخش
@@ -25,4 +29,3 @@ description: |-
 source_type: Social Media
 source_social_media_link:
   - https://x.com/MayaThefish/status/2015532220610412551
-child: false

@@ -2,20 +2,24 @@
 # Victim Documentation - Maziyar Rahro Sangachini
 # ==========================================
 
-photo: vic-2026-000675.jpg
+photo:
+  - "vic-2026-000675.jpg"
+  - "vic-2026-8ab1d83c6b5d.jpg"
+  - "vic-2026-f3f634784fa1.jpg"
+  - "vic-2026-001584.jpg"
 name: Maziyar Rahro Sangachini
-persian_name: "مازیار رهرو سنگاچینی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: مازیار رهرو سنگاچینی
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Bandar Anzali
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,5 +27,7 @@ description: |
   Shot directly by the forces of the Islamic Republic of Iran in Bandar Anzali on either January 8 or 9, 2026 (18 or 19 Dey 1404)
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/pkhwshhal/status/2014957723679342987
-child: false
+  - "https://x.com/pkhwshhal/status/2014957723679342987"
+  - "https://x.com/hyrcanihrm/status/2015037197347344753"
+  - "https://x.com/IranianPlateau/status/2015148472605737021"
+  - "https://x.com/pkhwshhal/status/2014957723679342987, https://x.com/hyrcanihrm/status/2015037197347344753, https://x.com/IranianPlateau/status/2015148472605737021"

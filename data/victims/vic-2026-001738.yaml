@@ -2,7 +2,10 @@
 # Victim Documentation - Mehdi Pourrasti
 # ==========================================
 
-photo: vic-2026-001738.jpg
+photo:
+  - "vic-2026-001738.jpg"
+  - "vic-2026-8509b9152aff.jpg"
+  - "vic-2026-87bcac085c9d.jpg"
 name: Mehdi Pourrasti
 birth_date: ""
 birth_province: ""
@@ -25,6 +28,8 @@ description: |-
 
   Listed among those killed in Dezful during the freedom movement protests
 source_type: Social Media
-source_social_media_link: https://x.com/MayaThefish/status/2015514901284819285, https://www.instagram.com/p/DT5_Jw8ikvU
-child: false
+source_social_media_link:
+  - "https://x.com/MayaThefish/status/2015514901284819285, https://www.instagram.com/p/DT5_Jw8ikvU"
+  - "https://x.com/MayaThefish/status/2015514901284819285"
+  - "https://www.instagram.com/p/DT5_Jw8ikvU"
 persian_name: مهدی پورراستی

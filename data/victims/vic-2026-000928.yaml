@@ -2,16 +2,17 @@
 # Victim Documentation - Alireza Kharboo
 # ==========================================
 
-photo: vic-2026-000928.jpg
+photo:
+  - vic-2026-000928.jpg
 name: Alireza Kharboo
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 20
 occupation: ""
 country: Iran
-incident_province: Mobarakeh
+incident_province: ""
 incident_city: Dizicheh
 incident_address: ""
 date_of_death: "2026-01-01"
@@ -24,6 +25,7 @@ description: |-
 
   Identified as one of twelve citizens killed during public protests in Isfahan.
 source_type: Social Media
-source_social_media_link: https://x.com/abhaddadii/status/2012993637005627689, https://x.com/HengawO/status/2014772586857598984, https://t.me/RememberTheirNames/575
-child: false
+source_social_media_link:
+  - "https://x.com/abhaddadii/status/2012993637005627689, https://x.com/HengawO/status/2014772586857598984, https://t.me/RememberTheirNames/575"
+  - "https://x.com/abhaddadii/status/2012993637005627689"
 persian_name: علیرضا خاربو

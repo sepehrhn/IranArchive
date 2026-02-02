@@ -2,7 +2,10 @@
 # Victim Documentation - Abbas Maleki
 # ==========================================
 
-photo: vic-2026-000466.jpg
+photo:
+  - "vic-2026-000466.jpg"
+  - "vic-2026-1fdd7b3a1d58.jpg"
+  - "vic-2026-bdf5434e309f.jpg"
 name: Abbas Maleki
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: 33
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Marlik
 incident_address: Marlik
 date_of_death: "2026-01-08"
@@ -24,6 +27,8 @@ description: |-
 
   Shot in the back on the night of the call for protests, buried on January 15, 2026. He had established a small falafel shop with great effort.
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2014804236400550012, https://x.com/monfaredashkan/status/2014803155507413100, https://x.com/sashtyani/status/2015064331143066023, https://x.com/MonfaredAshkan/status/2014803155507413100, https://x.com/MonfaredAshkan/status/2014804236400550012, https://t.me/RememberTheirNames/234
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2014804236400550012, https://x.com/monfaredashkan/status/2014803155507413100, https://x.com/sashtyani/status/2015064331143066023, https://x.com/MonfaredAshkan/status/2014803155507413100, https://x.com/MonfaredAshkan/status/2014804236400550012, https://t.me/RememberTheirNames/234"
+  - "https://x.com/monfaredashkan/status/2014803155507413100"
+  - "https://x.com/MonfaredAshkan/status/2014803155507413100"
 persian_name: عباس ملکی

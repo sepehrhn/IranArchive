@@ -2,7 +2,9 @@
 # Victim Documentation - Milad Malek Mohammadi
 # ==========================================
 
-photo: vic-2026-2140138.jpg
+photo:
+  - "vic-2026-2140138.jpg"
+  - "vic-2026-eeca95318f5a.jpg"
 name: Milad Malek Mohammadi
 birth_date: ""
 birth_province: ""
@@ -14,13 +16,14 @@ country: Iran
 incident_province: ""
 incident_city: Amlash
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-22"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed in Amlash. The author notes that accounts about Milad's killing have been investigated for several days but no definitive conclusion has been reached yet.
+description: Killed in Amlash. The author notes that accounts about Milad's killing have been investigated for several days but no definitive conclusion has been reached yet.
 source_type: Social Media
-source_social_media_link: https://x.com/i/status/2016312578788515926
-child: false
+source_social_media_link:
+  - "https://x.com/i/status/2016312578788515926"
+  - "https://x.com/pkhwshhal/status/2016539639352283505"
+  - "https://x.com/pkhwshhal/status/2016312578788515926"
 persian_name: میلاد ملک‌ محمدی

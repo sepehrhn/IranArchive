@@ -2,7 +2,8 @@
 # Victim Documentation - Nima Abbasyzadi
 # ==========================================
 
-photo: vic-2026-2140035.jpg
+photo:
+  - vic-2026-2140035.jpg
 name: Nima Abbasyzadi
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-05"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Khayam area of Qazvin during Dey 1404
+description: Died in Khayam area of Qazvin during Dey 1404
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1423
-child: false
 persian_name: نیما عباس‌یزدی

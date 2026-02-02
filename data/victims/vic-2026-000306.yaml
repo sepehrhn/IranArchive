@@ -2,20 +2,24 @@
 # Victim Documentation - Hossein Pushneh
 # ==========================================
 
-photo: vic-2026-000306.jpg
+photo:
+  - "vic-2026-000306.jpg"
+  - "vic-2026-001705.jpg"
+  - "vic-2026-41e2efc19666.jpg"
+  - "vic-2026-d25697e06cdd.jpg"
 name: Hossein Pushneh
-persian_name: "حسین پوشنه"
-birth_date: ''
-birth_province: ''
+persian_name: حسین پوشنه
+birth_date: ""
+birth_province: ""
 birth_city: Baghmalek
 gender: Male
 age: 19
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Ahvaz
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,5 +27,7 @@ description: |
   Shot and killed by security forces during protests in Naderi Street. He was from Baghmalek.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/allahbakhshii/status/2015087926514679980
-child: false
+  - "https://x.com/allahbakhshii/status/2015087926514679980"
+  - "https://x.com/allahbakhshii/status/2015087926514679980, https://x.com/sssccpp/status/2015148137141149769, https://www.instagram.com/p/DT5iGDEDOD9, https://x.com/IranIntl/status/2015628320801443871, https://t.me/RememberTheirNames/1050"
+  - "https://www.instagram.com/p/DT5iGDEDOD9"
+  - "https://x.com/IranIntl/status/2015628320801443871"

@@ -2,20 +2,24 @@
 # Victim Documentation - Masoud Sotoudeh Mehr
 # ==========================================
 
-photo: vic-2026-001123.jpg
+photo:
+  - "vic-2026-001123.jpg"
+  - "vic-2026-001728.jpg"
+  - "vic-2026-2be3340416c3.jpg"
+  - "vic-2026-87bcac085c9d.jpg"
 name: Masoud Sotoudeh Mehr
-persian_name: "مسعود ستوده‌مهر"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+persian_name: مسعود ستوده‌مهر
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 32
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Dezful
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,5 +27,7 @@ description: |
   Shot and killed during protests.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/kn_wlm/status/2015171976264835485
-child: false
+  - "https://x.com/kn_wlm/status/2015171976264835485"
+  - "https://x.com/kn_wlm/status/2015171976264835485, https://x.com/yaldarta/status/2015393280318484983, https://t.me/RememberTheirNames/969, https://www.instagram.com/p/DT5_Jw8ikvU"
+  - "https://x.com/yaldarta/status/2015393280318484983"
+  - "https://www.instagram.com/p/DT5_Jw8ikvU"

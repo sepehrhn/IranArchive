@@ -2,7 +2,12 @@
 # Victim Documentation - Sajjad Sahra-gard
 # ==========================================
 
-photo: vic-2026-000433.jpg
+photo:
+  - "vic-2026-000433.jpg"
+  - "vic-2026-566f8a809fbd.jpg"
+  - "vic-2026-d44606e1d9ff.jpg"
+  - "vic-2026-978c1a3a22b0.jpg"
+  - "vic-2026-4435c9ea44b3.jpg"
 name: Sajjad Sahra-gard
 birth_date: ""
 birth_province: ""
@@ -11,7 +16,7 @@ gender: Male
 age: 37
 occupation: ""
 country: Iran
-incident_province: Naser Khosrow neighborhood
+incident_province: ""
 incident_city: Khorramabad
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -21,6 +26,10 @@ status: Killed
 description: |
   Shot by suppressive forces, suffering severe bleeding due to three bullets in the thigh and died due to severe trauma.
 source_type: Social Media
-source_social_media_link: https://x.com/chaawtimes/status/2014698225203056973, https://x.com/allahbakhshii/status/2014728166732865601, https://x.com/ChaawTimes/status/2014698225203056973, https://x.com/hirman__/status/2014904031253065987, https://t.me/RememberTheirNames/871, https://x.com/me_azadi/status/2016422548657906176
-child: false
+source_social_media_link:
+  - "https://x.com/chaawtimes/status/2014698225203056973, https://x.com/allahbakhshii/status/2014728166732865601, https://x.com/ChaawTimes/status/2014698225203056973, https://x.com/hirman__/status/2014904031253065987, https://t.me/RememberTheirNames/871, https://x.com/me_azadi/status/2016422548657906176"
+  - "https://x.com/ChaawTimes/status/2014698225203056973"
+  - "https://x.com/allahbakhshii/status/2014728166732865601"
+  - "https://x.com/chaawtimes/status/2014698225203056973"
+  - "https://x.com/me_azadi/status/2016422548657906176"
 persian_name: سجاد صحراگرد

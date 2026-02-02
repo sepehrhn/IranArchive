@@ -2,7 +2,12 @@
 # Victim Documentation - Reza Rostamian
 # ==========================================
 
-photo: vic-2026-000107.jpg
+photo:
+  - "vic-2026-000107.jpg"
+  - "vic-2026-86aea4ef4081.jpg"
+  - "vic-2026-69797c43fcc9.jpg"
+  - "vic-2026-3c30762e8b37.jpg"
+  - "vic-2026-36c93d7de362.jpg"
 name: Reza Rostamian
 birth_date: ""
 birth_province: ""
@@ -11,7 +16,7 @@ gender: Male
 age: 18
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -24,6 +29,10 @@ description: |-
 
   Shot in the alley. The tweet was posted on May 15, 2024, but the protest context implies a date after December 28, 2025. The exact date of death is not specified.
 source_type: Social Media
-source_social_media_link: https://x.com/imanoracle/status/2012977544266477704, https://x.com/s_iran01/status/2013103413416890842, https://x.com/kurdpa_farsi/status/2014443816112025712, https://x.com/ImanOracle/status/2012977544266477704, https://x.com/HengawO/status/2014429661707542927, https://t.me/RememberTheirNames/409
-child: false
+source_social_media_link:
+  - "https://x.com/imanoracle/status/2012977544266477704, https://x.com/s_iran01/status/2013103413416890842, https://x.com/kurdpa_farsi/status/2014443816112025712, https://x.com/ImanOracle/status/2012977544266477704, https://x.com/HengawO/status/2014429661707542927, https://t.me/RememberTheirNames/409"
+  - "https://x.com/ImanOracle/status/2012977544266477704"
+  - "https://x.com/imanoracle/status/2012977544266477704"
+  - "https://x.com/s_iran01/status/2013103413416890842"
+  - "https://x.com/HengawO/status/2014429661707542927"
 persian_name: رضا رستمیان

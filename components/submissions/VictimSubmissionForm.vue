@@ -46,7 +46,7 @@
                 : 'text-surface-500 dark:text-surface-400 font-medium translate-y-1 opacity-70 group-hover:opacity-100'
             ]"
           >
-            <p class="text-[10px] sm:text-xs uppercase tracking-wider leading-tight">{{ step.label }}</p>
+            <p class="text-[10px] sm:text-xs uppercase tracking-wider leading-tight">{{ t(step.label) }}</p>
           </div>
         </div>
       </div>
@@ -86,8 +86,8 @@
               </svg>
             </div>
             
-            <h3 class="text-2xl font-black text-surface-900 dark:text-surface-0 mb-2">Killed</h3>
-            <p class="text-surface-500 dark:text-surface-400 text-sm leading-relaxed">Report a martyr who was killed by the regime forces.</p>
+            <h3 class="text-2xl font-black text-surface-900 dark:text-surface-0 mb-2">{{ t('submissionForm.victim.status.killed.label') }}</h3>
+            <p class="text-surface-500 dark:text-surface-400 text-sm leading-relaxed">{{ t('submissionForm.victim.status.killed.description') }}</p>
           </button>
 
           <button
@@ -113,13 +113,13 @@
               <i :class="['pi pi-search text-5xl transition-colors duration-500', form.status === 'Missing' ? 'text-white' : 'text-orange-500']"></i>
             </div>
             
-            <h3 class="text-2xl font-black text-surface-900 dark:text-surface-0 mb-2">Missing</h3>
-            <p class="text-surface-500 dark:text-surface-400 text-sm leading-relaxed">Report someone who has been abducted or is missing.</p>
+            <h3 class="text-2xl font-black text-surface-900 dark:text-surface-0 mb-2">{{ t('submissionForm.victim.status.missing.label') }}</h3>
+            <p class="text-surface-500 dark:text-surface-400 text-sm leading-relaxed">{{ t('submissionForm.victim.status.missing.description') }}</p>
           </button>
         </div>
 
         <p v-if="stepErrors.status" class="text-red-500 text-center text-sm mt-4">
-          Please select a status to continue
+          {{ t('submissionForm.victim.status.error') }}
         </p>
       </div>
 
@@ -129,11 +129,11 @@
         <div class="max-w-2xl mx-auto space-y-6">
           <!-- Photo Upload Redesign -->
           <div class="relative group">
-            <label class="block text-sm font-bold mb-3 text-surface-700 dark:text-surface-300 ml-1">Victim Photo</label>
+            <label class="block text-sm font-bold mb-3 text-surface-700 dark:text-surface-300 ml-1">{{ t('submissionForm.victim.photo.label') }}</label>
             <div 
               class="relative flex flex-col items-center justify-center w-full h-48 border-2 border-dashed rounded-2xl cursor-pointer transition-all duration-300 overflow-hidden"
               :class="[
-                selectedFile 
+                selectedFiles.length > 0 
                   ? 'border-primary-500 bg-primary-50/30 dark:bg-primary-900/10' 
                   : 'border-surface-300 dark:border-surface-700 hover:border-primary-400 dark:hover:border-primary-500 bg-surface-100 dark:bg-surface-900 hover:bg-surface-200 dark:hover:bg-surface-800'
               ]"
@@ -142,29 +142,37 @@
                 type="file" 
                 class="absolute inset-0 opacity-0 cursor-pointer z-20" 
                 accept=".jpg,.jpeg,.jfif,.pjpeg,.pjp,.png,image/jpeg,image/png"
+                multiple
                 @change="onFileInputChange"
               />
               
               <!-- Preview if file selected -->
-              <div v-if="selectedFile && previewUrl" class="absolute inset-0 flex items-center gap-6 px-6 z-10 bg-surface-0/90 dark:bg-surface-900/90 backdrop-blur-sm">
-                <div class="relative group/img">
-                  <img :src="previewUrl" alt="Preview" class="w-24 h-24 rounded-2xl object-cover shadow-2xl ring-4 ring-surface-100 dark:ring-surface-800 dark:brightness-[0.85]" />
-                  <div class="absolute inset-0 bg-black/20 rounded-2xl opacity-0 group-hover/img:opacity-100 transition-opacity flex items-center justify-center pointer-events-none">
-                    <i class="pi pi-eye text-white text-xl"></i>
+              <div v-if="selectedFiles.length > 0" class="absolute inset-0 z-10 bg-surface-0/90 dark:bg-surface-900/90 backdrop-blur-sm overflow-y-auto p-4 flex flex-col gap-4">
+                <div v-for="(file, index) in selectedFiles" :key="file.name + index" class="flex items-center gap-4 bg-surface-100 dark:bg-surface-800 p-3 rounded-xl border border-surface-200 dark:border-surface-700 relative group/item">
+                  <div class="relative w-16 h-16 flex-shrink-0">
+                    <img :src="previewUrls[index]" alt="Preview" class="w-full h-full rounded-lg object-cover" />
                   </div>
-                </div>
-                <div class="flex-1 min-w-0">
-                  <p class="text-base font-bold text-surface-900 dark:text-surface-0 truncate">{{ selectedFile.name }}</p>
-                  <p class="text-sm text-surface-500 font-medium">{{ formatFileSize(selectedFile.size) }}</p>
-                  <button 
+                  <div class="flex-1 min-w-0">
+                    <p class="text-sm font-bold text-surface-900 dark:text-surface-0 truncate">{{ file.name }}</p>
+                    <p class="text-xs text-surface-500 font-medium" dir="ltr">{{ formatFileSize(file.size) }}</p>
+                  </div>
+                   <button 
                     type="button"
-                    @click.stop.prevent="clearFile"
-                    class="mt-3 px-4 py-1.5 rounded-lg bg-red-50 dark:bg-red-900/20 text-red-500 hover:bg-red-100 dark:hover:bg-red-900/30 text-xs font-bold transition-colors flex items-center gap-2"
+                    @click.stop.prevent="removeFile(index)"
+                    class="p-2 rounded-lg text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
                   >
                     <i class="pi pi-trash"></i>
-                    Remove Photo
                   </button>
                 </div>
+
+                 <button 
+                    type="button"
+                    @click.stop.prevent="clearFiles"
+                    class="mt-auto self-center px-4 py-1.5 rounded-lg bg-red-50 dark:bg-red-900/20 text-red-500 hover:bg-red-100 dark:hover:bg-red-900/30 text-xs font-bold transition-colors flex items-center gap-2"
+                  >
+                    <i class="pi pi-trash"></i>
+                    {{ t('submissionForm.victim.photo.remove') }} ({{ t('common.all') }})
+                  </button>
               </div>
 
               <!-- Default upload prompt -->
@@ -172,8 +180,11 @@
                 <div class="w-16 h-16 rounded-3xl bg-surface-200 dark:bg-surface-700 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-500">
                   <i class="pi pi-cloud-upload text-3xl text-surface-500 group-hover:text-primary-500 transition-colors"></i>
                 </div>
-                <p class="text-lg font-bold text-surface-700 dark:text-surface-200">Drop photo here or click</p>
-                <p class="text-sm text-surface-500 mt-2">Maximum file size: <span class="font-bold">2MB</span></p>
+                <p class="text-lg font-bold text-surface-700 dark:text-surface-200">{{ t('submissionForm.victim.photo.dropzone') }}</p>
+                <p class="text-sm text-surface-500 mt-2 flex items-center justify-center gap-1.5">
+                  <span>{{ t('submissionForm.victim.photo.maxSize') }}</span>
+                  <span class="font-bold" dir="ltr">2MB</span>
+                </p>
               </div>
             </div>
           </div>
@@ -190,9 +201,9 @@
                     variant="filled"
                     :invalid="stepErrors.name"
                   />
-                  <label for="v_name">Full Name (English) *</label>
+                  <label for="v_name">{{ t('submissionForm.victim.personalInfo.nameEn') }}</label>
                 </IftaLabel>
-                <small v-if="stepErrors.name" class="text-red-500 mt-1 block px-1">Please enter the victim's name</small>
+                <small v-if="stepErrors.name" class="text-red-500 mt-1 block px-1">{{ t('submissionForm.victim.personalInfo.nameError') }}</small>
               </div>
 
               <IftaLabel>
@@ -203,7 +214,7 @@
                   dir="rtl"
                   variant="filled"
                 />
-                <label for="v_name_fa">Full Name (Persian) - Optional</label>
+                <label for="v_name_fa">{{ t('submissionForm.victim.personalInfo.nameFa') }}</label>
               </IftaLabel>
             </div>
 
@@ -217,7 +228,7 @@
                 :min="0"
                 :max="150"
               />
-              <label for="v_age">Age</label>
+              <label for="v_age">{{ t('submissionForm.victim.personalInfo.age') }}</label>
             </IftaLabel>
 
             <IftaLabel>
@@ -225,18 +236,15 @@
                 id="v_gender"
                 v-model="form.gender"
                 :options="genderOptions"
+                optionLabel="label"
+                optionValue="value"
                 class="w-full"
                 variant="filled"
               />
-              <label for="v_gender">Gender</label>
+              <label for="v_gender">{{ t('submissionForm.victim.personalInfo.gender') }}</label>
             </IftaLabel>
 
-            <div class="flex items-center gap-2 md:col-span-2">
-                <Checkbox v-model="form.child" binary inputId="v_child" />
-                <label for="v_child" class="text-sm font-medium text-surface-700 dark:text-surface-300">
-                    This victim is a child (under 18)
-                </label>
-            </div>
+
 
             <!-- Occupation -->
             <div class="md:col-span-2">
@@ -247,23 +255,20 @@
                   class="w-full"
                   variant="filled"
                 />
-                <label for="v_occ">Occupation (e.g., Student, Teacher)</label>
+                <label for="v_occ">{{ t('submissionForm.victim.personalInfo.occupation') }}</label>
               </IftaLabel>
             </div>
 
             <!-- Birth Information -->
             <div class="md:col-span-2">
               <IftaLabel>
-                <Calendar
+                <FormDateInput
                   id="v_birth_date"
                   v-model="form.birthDate"
-                  dateFormat="yy/mm/dd"
-                  showIcon
                   class="w-full"
-                  variant="filled"
-                  placeholder=" "
+                  :error="stepErrors.birthDate"
                 />
-                <label for="v_birth_date">Birth Date (YYYY/MM/DD)</label>
+                <label for="v_birth_date">{{ t('submissionForm.victim.personalInfo.birthDate') }}</label>
               </IftaLabel>
             </div>
             
@@ -273,13 +278,13 @@
                 v-model="form.birthProvince"
                 :suggestions="filteredProvinces"
                 @complete="searchProvinces"
-                optionLabel="name"
-                optionValue="name"
+                optionLabel="label"
+                optionValue="value"
                 class="w-full"
                 variant="filled"
                 dropdown
               />
-              <label for="v_birth_prov">Birth Province</label>
+              <label for="v_birth_prov">{{ t('submissionForm.victim.personalInfo.birthProvince') }}</label>
             </IftaLabel>
 
             <IftaLabel>
@@ -289,7 +294,7 @@
                 class="w-full"
                 variant="filled"
               />
-              <label for="v_birth_city">Birth City</label>
+              <label for="v_birth_city">{{ t('submissionForm.victim.personalInfo.birthCity') }}</label>
             </IftaLabel>
           </div>
         </div>
@@ -301,7 +306,7 @@
         <div class="max-w-2xl mx-auto space-y-8">
           <!-- Location Group -->
           <div class="space-y-4">
-            <h3 class="text-xs font-black uppercase tracking-widest text-surface-400 mb-2">Location</h3>
+            <h3 class="text-xs font-black uppercase tracking-widest text-surface-400 mb-2">{{ t('submissionForm.victim.incidentDetails.location') }}</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
               <IftaLabel>
                 <AutoComplete
@@ -309,13 +314,13 @@
                   v-model="form.incident_province"
                   :suggestions="filteredProvinces"
                   @complete="searchProvinces"
-                  optionLabel="name"
-                  optionValue="name"
+                  optionLabel="label"
+                  optionValue="value"
                   class="w-full"
                   variant="filled"
                   dropdown
                 />
-                <label for="inc_prov">{{ form.status === 'Missing' ? 'Last Seen Province' : 'Incident Province' }}</label>
+                <label for="inc_prov">{{ form.status === 'Missing' ? t('submissionForm.victim.incidentDetails.provinceMissing') : t('submissionForm.victim.incidentDetails.province') }}</label>
               </IftaLabel>
 
               <IftaLabel>
@@ -325,7 +330,7 @@
                   class="w-full"
                   variant="filled"
                 />
-                <label for="inc_city">{{ form.status === 'Missing' ? 'Last Seen City' : 'Incident City' }}</label>
+                <label for="inc_city">{{ form.status === 'Missing' ? t('submissionForm.victim.incidentDetails.cityMissing') : t('submissionForm.victim.incidentDetails.city') }}</label>
               </IftaLabel>
             </div>
             
@@ -337,48 +342,47 @@
                   class="w-full"
                   variant="filled"
                 />
-                <label for="inc_addr">{{ form.status === 'Missing' ? 'Last Seen Address' : 'Incident Address (Optional)' }}</label>
+                <label for="inc_addr">{{ form.status === 'Missing' ? t('submissionForm.victim.incidentDetails.addressMissing') : t('submissionForm.victim.incidentDetails.address') }}</label>
               </IftaLabel>
             </div>
           </div>
 
           <!-- Date Group -->
           <div class="space-y-4">
-            <h3 class="text-xs font-black uppercase tracking-widest text-surface-400 mb-2">Timeline</h3>
+            <h3 class="text-xs font-black uppercase tracking-widest text-surface-400 mb-2">{{ t('submissionForm.victim.incidentDetails.timeline') }}</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
               <IftaLabel>
-                <Calendar
+                <FormDateInput
                   id="inc_date"
                   v-model="form.dateOfDeath"
-                  dateFormat="yy/mm/dd"
-                  showIcon
                   class="w-full"
-                  variant="filled"
-                  placeholder=" "
+                  :error="stepErrors.dateOfDeath"
                 />
-                <label for="inc_date">{{ form.status === 'Missing' ? 'Last Seen Date' : 'Date of Death' }}</label>
+                <label for="inc_date">{{ form.status === 'Missing' ? t('submissionForm.victim.incidentDetails.dateMissing') : t('submissionForm.victim.incidentDetails.date') }}</label>
               </IftaLabel>
 
               <div class="flex items-center gap-3 bg-surface-100 dark:bg-surface-900 p-3 rounded-xl border border-surface-200 dark:border-surface-700 w-full">
                 <Checkbox v-model="form.deathDateApproximate" inputId="approximate" binary />
-                <label for="approximate" class="text-sm font-bold text-surface-700 dark:text-surface-300">Approximate Date</label>
+                <label for="approximate" class="text-sm font-bold text-surface-700 dark:text-surface-300">{{ t('submissionForm.victim.incidentDetails.approximate') }}</label>
               </div>
             </div>
           </div>
 
           <!-- Specific Fields based on status -->
           <div class="space-y-6">
-            <h3 class="text-xs font-black uppercase tracking-widest text-surface-400 mb-2">Circumstances</h3>
+            <h3 class="text-xs font-black uppercase tracking-widest text-surface-400 mb-2">{{ t('submissionForm.victim.incidentDetails.circumstances') }}</h3>
             
             <IftaLabel v-if="form.status === 'Killed'">
               <Select
                 id="inc_cause"
                 v-model="form.causeOfDeath"
                 :options="causeOfDeathOptions"
+                optionLabel="label"
+                optionValue="value"
                 class="w-full"
                 variant="filled"
               />
-              <label for="inc_cause">Cause of Death</label>
+              <label for="inc_cause">{{ t('submissionForm.victim.incidentDetails.cause') }}</label>
             </IftaLabel>
 
             <template v-if="form.status === 'Missing'">
@@ -388,10 +392,12 @@
                     id="inc_circum"
                     v-model="form.disappearanceCircumstances"
                     :options="disappearanceCircumstancesOptions"
+                    optionLabel="label"
+                    optionValue="value"
                     class="w-full"
                     variant="filled"
                   />
-                  <label for="inc_circum">Disappearance Circumstances</label>
+                  <label for="inc_circum">{{ t('submissionForm.victim.incidentDetails.disappearanceCircumstances') }}</label>
                 </IftaLabel>
 
                 <IftaLabel>
@@ -399,10 +405,12 @@
                     id="inc_actor"
                     v-model="form.suspectedActor"
                     :options="suspectedActorOptions"
+                    optionLabel="label"
+                    optionValue="value"
                     class="w-full"
                     variant="filled"
                   />
-                  <label for="inc_actor">Suspected Actor</label>
+                  <label for="inc_actor">{{ t('submissionForm.victim.incidentDetails.suspectedActor') }}</label>
                 </IftaLabel>
               </div>
             </template>
@@ -416,7 +424,7 @@
                 variant="filled"
                 autoResize
               />
-              <label for="inc_desc">{{ form.status === 'Missing' ? 'Additional Details' : 'Incident Description' }}</label>
+              <label for="inc_desc">{{ form.status === 'Missing' ? t('submissionForm.victim.incidentDetails.additionalDetails') : t('submissionForm.victim.incidentDetails.description') }}</label>
             </IftaLabel>
           </div>
 
@@ -424,7 +432,7 @@
           <div class="p-4 sm:p-6 rounded-2xl bg-primary-50/50 dark:bg-primary-900/5 border border-primary-100 dark:border-primary-900/20 space-y-6">
             <div class="flex items-center gap-3 mb-2">
               <i class="pi pi-verified text-primary-500"></i>
-              <h3 class="font-bold text-surface-900 dark:text-surface-0">Source Verification</h3>
+              <h3 class="font-bold text-surface-900 dark:text-surface-0">{{ t('submissionForm.victim.source.verification') }}</h3>
             </div>
             
             <div class="grid grid-cols-1 gap-6">
@@ -434,13 +442,15 @@
                     id="src_type"
                     v-model="form.sourceType"
                     :options="sourceTypeOptions"
+                    optionLabel="label"
+                    optionValue="value"
                     class="w-full"
                     variant="filled"
                     :invalid="stepErrors.sourceType"
                   />
-                  <label for="src_type">Source Type *</label>
+                  <label for="src_type">{{ t('submissionForm.victim.source.type') }}</label>
                 </IftaLabel>
-                <small v-if="stepErrors.sourceType" class="text-red-500 mt-1 block px-1">Please select a source type</small>
+                <small v-if="stepErrors.sourceType" class="text-red-500 mt-1 block px-1">{{ t('submissionForm.victim.source.typeError') }}</small>
               </div>
 
               <div v-if="form.sourceType === 'Social Media'">
@@ -452,9 +462,9 @@
                     variant="filled"
                     :invalid="stepErrors.socialMediaLink"
                   />
-                  <label for="src_link">Social Media Link *</label>
+                  <label for="src_link">{{ t('submissionForm.victim.source.link') }}</label>
                 </IftaLabel>
-                <small v-if="stepErrors.socialMediaLink" class="text-red-500 mt-1 block px-1">Link is required for social media sources</small>
+                <small v-if="stepErrors.socialMediaLink" class="text-red-500 mt-1 block px-1">{{ t('submissionForm.victim.source.linkError') }}</small>
               </div>
             </div>
           </div>
@@ -486,15 +496,15 @@
                   <i v-else class="pi pi-search"></i>
                 </div>
                 <div>
-                  <h3 class="text-xl font-black text-surface-900 dark:text-surface-0">ARCHIVAL RECORD</h3>
+                  <h3 class="text-xl font-black text-surface-900 dark:text-surface-0">{{ t('submissionForm.victim.incidentDetails.archivalRecord') }}</h3>
                   <p :class="['text-sm font-bold uppercase tracking-widest', form.status === 'Killed' ? 'text-red-600 dark:text-red-400' : 'text-orange-600 dark:text-orange-400']">
-                    {{ form.status }} Status
+                    {{ form.status === 'Killed' ? t('submissionForm.victim.status.killed.label') : t('submissionForm.victim.status.missing.label') }}
                   </p>
                 </div>
               </div>
               <div class="flex items-center gap-2 px-4 py-2 bg-white dark:bg-surface-800 rounded-xl shadow-sm border border-surface-200 dark:border-surface-700">
                 <i class="pi pi-calendar text-primary-500"></i>
-                <span class="text-sm font-bold text-surface-600 dark:text-surface-300">{{ new Date().toLocaleDateString() }}</span>
+                <span class="text-sm font-bold text-surface-600 dark:text-surface-300">{{ formatDateDisplay(new Date()) }}</span>
               </div>
             </div>
 
@@ -503,21 +513,21 @@
                 <!-- Left: Photo & Basic Identity -->
                 <div class="md:col-span-4 flex flex-col items-center md:items-start">
                   <div class="relative w-full aspect-square md:w-full max-w-[240px] rounded-3xl overflow-hidden shadow-2xl ring-8 ring-surface-100 dark:ring-surface-900/50 mb-6 bg-surface-100 dark:bg-surface-950 flex items-center justify-center">
-                    <img v-if="previewUrl" :src="previewUrl" alt="Victim Photo" class="w-full h-full object-cover dark:brightness-[0.85]" />
+                    <img v-if="reviewPreviewUrl" :src="reviewPreviewUrl" alt="Victim Photo" class="w-full h-full object-cover dark:brightness-[0.85]" />
                     <div v-else class="flex flex-col items-center text-surface-300 dark:text-surface-600 p-8 text-center">
                       <i class="pi pi-user text-6xl mb-4"></i>
-                      <p class="text-sm font-bold">No Photo Provided</p>
+                      <p class="text-sm font-bold">{{ t('submissionForm.victim.photo.empty') }}</p>
                     </div>
                   </div>
                   <div class="text-center md:text-left w-full">
                     <h4 class="text-2xl font-black text-surface-900 dark:text-surface-0 mb-1">{{ form.name }}</h4>
-                    <p class="text-primary-500 font-bold mb-4">{{ form.occupation || 'Occupation Not Listed' }}</p>
+                    <p class="text-primary-500 font-bold mb-4">{{ form.occupation || t('submissionForm.victim.personalInfo.occupationEmpty') }}</p>
                     <div class="flex flex-wrap justify-center md:justify-start gap-2">
                       <span v-if="form.age" class="px-3 py-1 bg-surface-100 dark:bg-surface-800 rounded-full text-xs font-bold text-surface-600 dark:text-surface-400">
-                        {{ form.age }} Years Old
+                        {{ pn(form.age) }} {{ t('submissionForm.victim.personalInfo.yearsOld') }}
                       </span>
                       <span v-if="form.gender" class="px-3 py-1 bg-surface-100 dark:bg-surface-800 rounded-full text-xs font-bold text-surface-600 dark:text-surface-400">
-                        {{ form.gender }}
+                        {{ findLabel(genderOptions, form.gender) }}
                       </span>
                     </div>
                   </div>
@@ -529,17 +539,17 @@
                   <div>
                     <div class="flex items-center gap-2 mb-4 border-b border-surface-100 dark:border-surface-800 pb-2">
                       <i class="pi pi-user-plus text-primary-500"></i>
-                      <h5 class="text-sm font-black uppercase tracking-widest text-surface-400">Personal History</h5>
+                      <h5 class="text-sm font-black uppercase tracking-widest text-surface-400">{{ t('submissionForm.victim.personalInfo.personalHistory') }}</h5>
                     </div>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8">
                       <div>
-                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Birth Date</p>
-                        <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.birthDate ? formatDateDisplay(form.birthDate) : 'Not Disclosed' }}</p>
+                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">{{ t('submissionForm.victim.personalInfo.birthDate') }}</p>
+                        <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.birthDate ? formatDateDisplay(form.birthDate) : t('submissionForm.victim.personalInfo.notDisclosed') }}</p>
                       </div>
                       <div>
-                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Origin</p>
+                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">{{ t('submissionForm.victim.personalInfo.origin') }}</p>
                         <p class="text-sm font-bold text-surface-800 dark:text-surface-200">
-                          {{ form.birthCity }}{{ form.birthProvince ? `, ${form.birthProvince}` : '' }}{{ !form.birthCity && !form.birthProvince ? 'Not Disclosed' : '' }}
+                          {{ form.birthCity }}{{ form.birthProvince ? `, ${findLabel(provinces, form.birthProvince)}` : '' }}{{ !form.birthCity && !form.birthProvince ? t('submissionForm.victim.personalInfo.notDisclosed') : '' }}
                         </p>
                       </div>
                     </div>
@@ -549,35 +559,35 @@
                   <div>
                     <div class="flex items-center gap-2 mb-4 border-b border-surface-100 dark:border-surface-800 pb-2">
                       <i class="pi pi-exclamation-triangle text-red-500"></i>
-                      <h5 class="text-sm font-black uppercase tracking-widest text-surface-400">Incident Details</h5>
+                      <h5 class="text-sm font-black uppercase tracking-widest text-surface-400">{{ t('submissionForm.victim.incidentDetails.location') }}</h5>
                     </div>
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-4 gap-x-8">
                       <div>
-                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Date of Incident</p>
+                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">{{ t('submissionForm.victim.incidentDetails.dateOfIncident') }}</p>
                         <p class="text-sm font-bold text-surface-800 dark:text-surface-200">
-                          {{ form.dateOfDeath ? formatDateDisplay(form.dateOfDeath) : 'Date Unknown' }}
-                          <span v-if="form.deathDateApproximate" class="text-[10px] px-1.5 py-0.5 bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded ml-1 italic">Approx.</span>
+                          {{ form.dateOfDeath ? formatDateDisplay(form.dateOfDeath) : t('submissionForm.victim.incidentDetails.dateUnknown') }}
+                          <span v-if="form.deathDateApproximate" class="text-[10px] px-1.5 py-0.5 bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400 rounded ml-1 italic">{{ t('submissionForm.victim.incidentDetails.approx') }}</span>
                         </p>
                       </div>
                       <div>
-                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Location</p>
+                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">{{ t('submissionForm.victim.incidentDetails.location') }}</p>
                         <p class="text-sm font-bold text-surface-800 dark:text-surface-200">
-                          {{ form.incident_city }}{{ form.incident_province ? `, ${form.incident_province}` : '' }}
+                          {{ form.incident_city }}{{ form.incident_province ? `, ${findLabel(provinces, form.incident_province)}` : '' }}
                           <span v-if="form.incident_address" class="block text-xs font-normal text-surface-500 mt-1">{{ form.incident_address }}</span>
                         </p>
                       </div>
                       <div v-if="form.status === 'Killed'" class="sm:col-span-2">
-                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Cause of Death</p>
-                        <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.causeOfDeath || 'Pending Investigation' }}</p>
+                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">{{ t('submissionForm.victim.incidentDetails.cause') }}</p>
+                        <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.causeOfDeath ? findLabel(causeOfDeathOptions, form.causeOfDeath) : t('submissionForm.victim.incidentDetails.pendingInvestigation') }}</p>
                       </div>
                       <template v-if="form.status === 'Missing'">
                         <div>
-                          <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Circumstances</p>
-                          <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.disappearanceCircumstances || 'Unknown' }}</p>
+                          <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">{{ t('submissionForm.victim.incidentDetails.disappearanceCircumstances') }}</p>
+                          <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.disappearanceCircumstances ? findLabel(disappearanceCircumstancesOptions, form.disappearanceCircumstances) : t('submissionForm.victim.incidentDetails.unknown') }}</p>
                         </div>
                         <div>
-                          <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">Suspected Actor</p>
-                          <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.suspectedActor || 'Unknown' }}</p>
+                          <p class="text-[10px] font-black uppercase tracking-widest text-surface-400 mb-1">{{ t('submissionForm.victim.incidentDetails.suspectedActor') }}</p>
+                          <p class="text-sm font-bold text-surface-800 dark:text-surface-200">{{ form.suspectedActor ? findLabel(suspectedActorOptions, form.suspectedActor) : t('submissionForm.victim.incidentDetails.unknown') }}</p>
                         </div>
                       </template>
                     </div>
@@ -587,7 +597,7 @@
                   <div v-if="form.description">
                     <div class="flex items-center gap-2 mb-4 border-b border-surface-100 dark:border-surface-800 pb-2">
                       <i class="pi pi-align-left text-surface-400"></i>
-                      <h5 class="text-sm font-black uppercase tracking-widest text-surface-400">Additional Narrative</h5>
+                      <h5 class="text-sm font-black uppercase tracking-widest text-surface-400">{{ t('submissionForm.victim.incidentDetails.additionalNarrative') }}</h5>
                     </div>
                     <p class="text-sm leading-relaxed text-surface-600 dark:text-surface-400 italic">
                       "{{ form.description }}"
@@ -601,11 +611,11 @@
                         <i class="pi pi-shield-check text-primary-500"></i>
                       </div>
                       <div>
-                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400">Verified By</p>
+                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400">{{ t('submissionForm.victim.source.verifiedBy') }}</p>
                         <p class="text-xs font-bold text-surface-700 dark:text-surface-300">
-                          {{ form.sourceType }} Source
+                          {{ form.sourceType ? findLabel(sourceTypeOptions, form.sourceType) : '' }} {{ t('submissionForm.victim.source.source') }}
                           <span v-if="form.socialMediaLink" class="mx-2 opacity-30">|</span>
-                          <a v-if="form.socialMediaLink" :href="form.socialMediaLink" target="_blank" class="text-primary-500 hover:underline">Link Provided</a>
+                          <a v-if="form.socialMediaLink" :href="form.socialMediaLink" target="_blank" class="text-primary-500 hover:underline">{{ t('submissionForm.victim.source.linkProvided') }}</a>
                         </p>
                       </div>
                     </div>
@@ -618,14 +628,14 @@
             <div class="p-6 bg-amber-50 dark:bg-amber-900/10 text-amber-700 dark:text-amber-400 text-xs font-medium flex items-start gap-4 mx-8 mb-8 rounded-2xl border border-amber-100 dark:border-amber-900/20">
               <i class="pi pi-info-circle text-lg mt-0.5"></i>
               <p class="leading-relaxed">
-                By submitting this report, you confirm that the information provided is accurate to the best of your knowledge. This data will be reviewed by researchers and permanently archived as part of the historical record.
+                {{ t('submissionForm.victim.footer.warning') }}
               </p>
             </div>
           </div>
 
           <!-- Turnstile -->
           <div class="flex flex-col items-center gap-4 pt-8">
-            <p class="text-sm font-bold text-surface-500 uppercase tracking-widest">Security Verification</p>
+            <p class="text-sm font-bold text-surface-500 uppercase tracking-widest">{{ t('submissionForm.common.securityVerification') }}</p>
             <div id="turnstile-victim" ref="turnstileContainer"></div>
           </div>
         </div>
@@ -636,7 +646,7 @@
         <Button
           v-if="currentStep > 0"
           type="button"
-          label="Back"
+          :label="t('submissionForm.common.back')"
           icon="pi pi-arrow-left"
           severity="secondary"
           outlined
@@ -648,7 +658,7 @@
           <Button
             v-if="currentStep < steps.length - 1"
             type="submit"
-            label="Next"
+            :label="t('submissionForm.common.next')"
             icon="pi pi-arrow-right"
             iconPos="right"
             :disabled="!canGoToNext"
@@ -656,7 +666,7 @@
           <Button
             v-else
             type="button"
-            label="Submit Report"
+            :label="t('submissionForm.common.submitReport')"
             icon="pi pi-send"
             :loading="submitting"
             :disabled="!turnstileToken"
@@ -670,7 +680,11 @@
 
 <script setup lang="ts">
 import { ref, onMounted, nextTick, computed, watch } from 'vue';
+import { useI18n } from 'vue-i18n';
 import provincesData from '~/data/provinces.json';
+
+const { t, locale } = useI18n();
+const { pn } = usePersianNumbers();
 
 const props = defineProps<{
   submitting: boolean;
@@ -684,18 +698,66 @@ const emit = defineEmits<{
 const config = useRuntimeConfig();
 const turnstileContainer = ref<HTMLElement>();
 const turnstileToken = ref('');
-const selectedFile = ref<File | null>(null);
+// ... (previous imports)
+const selectedFiles = ref<File[]>([]);
+const previewUrls = ref<string[]>([]);
+
+const reviewPreviewUrl = computed(() => {
+  return previewUrls.value.length > 0 ? previewUrls.value[0] : null;
+});
+
+// ... (existing code)
+
+function onFileInputChange(event: Event) {
+  const input = event.target as HTMLInputElement;
+  if (input.files) {
+    // Append new files instead of replacing
+    const newFiles = Array.from(input.files);
+    
+    // Size check
+    const invalidFiles = newFiles.filter(f => f.size > 2 * 1024 * 1024);
+    if (invalidFiles.length > 0) {
+      alert(t('submissionForm.victim.photo.sizeError'));
+      return;
+    }
+
+    selectedFiles.value = [...selectedFiles.value, ...newFiles];
+    
+    // Generate previews
+    newFiles.forEach(file => {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        if (e.target?.result) {
+          previewUrls.value.push(e.target.result as string);
+        }
+      };
+      reader.readAsDataURL(file);
+    });
+  }
+}
+
+function removeFile(index: number) {
+  selectedFiles.value.splice(index, 1);
+  previewUrls.value.splice(index, 1);
+}
+
+function clearFiles() {
+  selectedFiles.value = [];
+  previewUrls.value = [];
+}
+// ...
+
 
 // Steps
 const steps = [
-  { id: 'type', label: 'Type', icon: 'pi pi-question-circle', title: 'What happened?' },
-  { id: 'personal', label: 'Personal Info', icon: 'pi pi-user', title: 'Personal Information' },
-  { id: 'incident', label: 'Incident Details', icon: 'pi pi-map-marker', title: 'Incident Details' },
-  { id: 'review', label: 'Review', icon: 'pi pi-clipboard', title: 'Review Submission' }
+  { id: 'type', label: 'submissionForm.victim.steps.type.label', icon: 'pi pi-question-circle', title: 'submissionForm.victim.steps.type.title' },
+  { id: 'personal', label: 'submissionForm.victim.steps.personal.label', icon: 'pi pi-user', title: 'submissionForm.victim.steps.personal.title' },
+  { id: 'incident', label: 'submissionForm.victim.steps.incident.label', icon: 'pi pi-map-marker', title: 'submissionForm.victim.steps.incident.title' },
+  { id: 'review', label: 'submissionForm.victim.steps.review.label', icon: 'pi pi-clipboard', title: 'submissionForm.victim.steps.review.title' }
 ];
 
 const currentStep = ref(0);
-const currentStepTitle = computed(() => steps[currentStep.value].title);
+const currentStepTitle = computed(() => t(steps[currentStep.value].title));
 
 watch(currentStepTitle, (newTitle) => {
   emit('update:stepTitle', newTitle);
@@ -722,51 +784,63 @@ const canGoToNext = computed(() => {
 const stepErrors = ref<Record<string, boolean>>({});
 
 // Load provinces
-const provinces = provincesData.map(p => ({ name: p }));
-const filteredProvinces = ref([...provinces]);
+const provinces = computed(() => provincesData.map(p => ({ 
+  label: t(`provinces.${p}`), 
+  value: p 
+})));
+const filteredProvinces = ref<{ label: string, value: string }[]>([]);
 
 function searchProvinces(event: { query: string }) {
   if (!event.query.trim().length) {
-    filteredProvinces.value = [...provinces];
+    filteredProvinces.value = [...provinces.value];
   } else {
-    filteredProvinces.value = provinces.filter((province) => {
-      return province.name.toLowerCase().includes(event.query.toLowerCase());
+    filteredProvinces.value = provinces.value.filter((province) => {
+      // Search in both English key and translated label
+      return province.label.toLowerCase().includes(event.query.toLowerCase()) || 
+             province.value.toLowerCase().includes(event.query.toLowerCase());
     });
   }
 }
 
 // Dropdown options
-const genderOptions = ['Male', 'Female'];
+const genderOptions = computed(() => [
+  { label: t('submissionForm.victim.options.gender.male'), value: 'Male' },
+  { label: t('submissionForm.victim.options.gender.female'), value: 'Female' }
+]);
 
-const causeOfDeathOptions = [
-  'Gunshot',
-  'Beating',
-  'Torture',
-  'Execution',
-  'Unknown'
-];
+const causeOfDeathOptions = computed(() => [
+  { label: t('submissionForm.victim.options.causeOfDeath.gunshot'), value: 'Gunshot' },
+  { label: t('submissionForm.victim.options.causeOfDeath.beating'), value: 'Beating' },
+  { label: t('submissionForm.victim.options.causeOfDeath.torture'), value: 'Torture' },
+  { label: t('submissionForm.victim.options.causeOfDeath.execution'), value: 'Execution' },
+  { label: t('submissionForm.victim.options.causeOfDeath.unknown'), value: 'Unknown' }
+]);
 
-const disappearanceCircumstancesOptions = [
-  'Disappeared during protests',
-  'Arrested and transferred to unknown location',
-  'Abducted from home',
-  'Disappeared after detention',
-  'Unknown'
-];
+const disappearanceCircumstancesOptions = computed(() => [
+  { label: t('submissionForm.victim.options.disappearance.protests'), value: 'Disappeared during protests' },
+  { label: t('submissionForm.victim.options.disappearance.arrested'), value: 'Arrested and transferred to unknown location' },
+  { label: t('submissionForm.victim.options.disappearance.abducted'), value: 'Abducted from home' },
+  { label: t('submissionForm.victim.options.disappearance.detention'), value: 'Disappeared after detention' },
+  { label: t('submissionForm.victim.options.disappearance.unknown'), value: 'Unknown' }
+]);
 
-const suspectedActorOptions = [
-  'Security Forces',
-  'Plainclothes Agents',
-  'Unknown'
-];
+const suspectedActorOptions = computed(() => [
+  { label: t('submissionForm.victim.options.actor.security'), value: 'Security Forces' },
+  { label: t('submissionForm.victim.options.actor.plainclothes'), value: 'Plainclothes Agents' },
+  { label: t('submissionForm.victim.options.actor.unknown'), value: 'Unknown' }
+]);
 
-const sourceTypeOptions = [
-  'Family or Close Friend',
-  'Eyewitness',
-  'Hospital/Forensic',
-  'Local Report',
-  'Social Media'
-];
+const sourceTypeOptions = computed(() => [
+  { label: t('submissionForm.victim.options.sourceType.family'), value: 'Family or Close Friend' },
+  { label: t('submissionForm.victim.options.sourceType.eyewitness'), value: 'Eyewitness' },
+  { label: t('submissionForm.victim.options.sourceType.hospital'), value: 'Hospital/Forensic' },
+  { label: t('submissionForm.victim.options.sourceType.local'), value: 'Local Report' },
+  { label: t('submissionForm.victim.options.sourceType.social'), value: 'Social Media' }
+]);
+
+function findLabel(options: { label: string, value: string }[], value: string) {
+  return options.find(o => o.value === value)?.label || value;
+}
 
 const form = ref({
   status: '' as 'Killed' | 'Missing' | '',
@@ -778,7 +852,7 @@ const form = ref({
   birthCity: '',
   gender: '',
   age: null as number | null,
-  child: false,
+
   occupation: '',
   // Death/Disappearance info
   dateOfDeath: null as Date | null,
@@ -838,31 +912,7 @@ function renderTurnstile() {
   });
 }
 
-// File handling
-const previewUrl = ref<string | null>(null);
 
-function onFileInputChange(event: Event) {
-  const input = event.target as HTMLInputElement;
-  if (input.files && input.files[0]) {
-    const file = input.files[0];
-    // Check file size (2MB max)
-    if (file.size > 2000000) {
-      alert('File size must be under 2MB');
-      return;
-    }
-    selectedFile.value = file;
-    // Create preview URL
-    previewUrl.value = URL.createObjectURL(file);
-  }
-}
-
-function clearFile() {
-  if (previewUrl.value) {
-    URL.revokeObjectURL(previewUrl.value);
-  }
-  selectedFile.value = null;
-  previewUrl.value = null;
-}
 
 function formatFileSize(bytes: number): string {
   if (bytes < 1024) return bytes + ' B';
@@ -870,9 +920,7 @@ function formatFileSize(bytes: number): string {
   return (bytes / (1024 * 1024)).toFixed(1) + ' MB';
 }
 
-function onFileSelect(event: any) {
-  selectedFile.value = event.files[0];
-}
+
 
 function validateStep(): boolean {
   stepErrors.value = {};
@@ -918,6 +966,7 @@ function handleNext() {
 function handleSubmit() {
   const data = {
     name: form.value.name,
+    persian_name: form.value.persianName,
     // Personal info
     birth_date: formatDate(form.value.birthDate),
     birth_province: form.value.birthProvince,
@@ -929,6 +978,7 @@ function handleSubmit() {
     country: 'Iran',
     incident_province: form.value.incident_province,
     incident_city: form.value.incident_city,
+    incident_address: form.value.incident_address,
     // Death/Disappearance info
     date_of_death: formatDate(form.value.dateOfDeath),
     date_of_death_precision: form.value.dateOfDeath ? (form.value.deathDateApproximate ? 'Approximate' : 'Exact') : '',
@@ -945,12 +995,10 @@ function handleSubmit() {
     status: form.value.status
   };
 
-  const files = selectedFile.value ? [selectedFile.value] : [];
-
   emit('submit', {
     kind: 'victim',
     data,
-    files,
+    files: selectedFiles.value,
     turnstileToken: turnstileToken.value
   });
 }
@@ -961,6 +1009,6 @@ function formatDate(date: Date | null): string {
 }
 
 function formatDateDisplay(date: Date): string {
-  return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+  return date.toLocaleDateString(locale.value === 'fa' ? 'fa-IR' : 'en-US', { year: 'numeric', month: 'short', day: 'numeric' });
 }
 </script>

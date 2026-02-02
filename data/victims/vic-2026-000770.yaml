@@ -2,13 +2,18 @@
 # Victim Documentation - Nima Palizgari
 # ==========================================
 
-photo: vic-2026-000770.jpg
+photo:
+  - "vic-2026-000770.jpg"
+  - "vic-2026-810a233051d6.jpg"
+  - "vic-2026-0804cd20fef4.png"
+  - "vic-2026-1388d62d524d.png"
+  - "vic-2026-52f8042f0eb2.jpg"
 name: Nima Palizgari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 40
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,6 +29,9 @@ description: |-
 
   Mentioned in a list of names with a date and location, implying victimhood.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/389
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/389"
+  - "https://x.com/mousavi1355/status/2017074839505289377"
+  - "https://x.com/i/status/2017096303696589192"
+  - "https://x.com/hemadnazari/status/2017540773277831285"
 persian_name: نیما پالیزگری

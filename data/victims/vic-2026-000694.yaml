@@ -2,16 +2,22 @@
 # Victim Documentation - Milad Atmani
 # ==========================================
 
-photo: vic-2026-000694.jpg
+photo:
+  - "vic-2026-000694.jpg"
+  - "vic-2026-001984.jpg"
+  - "vic-2026-9804becbdab5.jpg"
+  - "vic-2026-f74b7f31a3b1.jpg"
+  - "vic-2026-36c93d7de362.jpg"
+  - "vic-2026-4adbb575fd39.jpg"
 name: Milad Atmani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 31
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -21,6 +27,9 @@ status: Killed
 description: |
   Kurdish young man from Salmas who was wounded and arrested by security forces during protests on January 8, 2026. His body was returned to family after 12 days without explanation. Unclear if he died from gunshot wounds or under torture in custody.
 source_type: Social Media
-source_social_media_link: https://x.com/kurdpa_farsi/status/2014047809738031218, https://x.com/HengawO/status/2014429661707542927, https://x.com/KurdistanHRN/status/2013985376872878373, https://t.me/RememberTheirNames/536
-child: false
+source_social_media_link:
+  - "https://x.com/kurdpa_farsi/status/2014047809738031218, https://x.com/HengawO/status/2014429661707542927, https://x.com/KurdistanHRN/status/2013985376872878373, https://t.me/RememberTheirNames/536"
+  - "https://x.com/kurdpa_farsi/status/2014047809738031218"
+  - "https://x.com/HengawO/status/2014429661707542927"
+  - "https://x.com/KurdistanHRN/status/2013985376872878373"
 persian_name: میلاد اطمانی

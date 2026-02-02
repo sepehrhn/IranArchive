@@ -2,7 +2,8 @@
 # Victim Documentation - Mustafa Fallahi
 # ==========================================
 
-photo: vic-2026-000141.jpg
+photo:
+  - vic-2026-000141.jpg
 name: Mustafa Fallahi
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Child killed by the Ayatollah regime for protesting.
 source_type: Social Media
 source_social_media_link: https://x.com/israelwarroom/status/2012273200831545501, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/
-child: true
 persian_name: مصطفی فلاف

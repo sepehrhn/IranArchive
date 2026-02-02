@@ -2,7 +2,12 @@
 # Victim Documentation - Reza Moradi Abdolvand
 # ==========================================
 
-photo: vic-2026-000962.jpg
+photo:
+  - "vic-2026-000962.jpg"
+  - "vic-2026-95d28df9b2e3.jpg"
+  - "vic-2026-505478a8aca9.jpg"
+  - "vic-2026-4b72ad0eaaa5.jpg"
+  - "vic-2026-d3d22ed3d1b6.jpg"
 name: Reza Moradi Abdolvand
 birth_date: ""
 birth_province: ""
@@ -24,6 +29,9 @@ description: |-
 
   Killed during protests. Date of death is 15 Dey 1404, which converts to January 5, 2026.
 source_type: Social Media
-source_social_media_link: https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/longlosthills/status/2010008640460357875, https://x.com/israelwarroom/status/2012652786027036832, https://x.com/iranrights_org/status/2009387278918127758, https://x.com/IsraelWarRoom/status/2012652786027036832, https://t.me/RememberTheirNames/60
-child: true
+source_social_media_link:
+  - "https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/longlosthills/status/2010008640460357875, https://x.com/israelwarroom/status/2012652786027036832, https://x.com/iranrights_org/status/2009387278918127758, https://x.com/IsraelWarRoom/status/2012652786027036832, https://t.me/RememberTheirNames/60"
+  - "https://x.com/IsraelWarRoom/status/2012652786027036832"
+  - "https://x.com/israelwarroom/status/2012652786027036832"
+  - "https://x.com/longlosthills/status/2010008640460357875"
 persian_name: رضا مرادی عبدالوند

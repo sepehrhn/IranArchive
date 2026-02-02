@@ -2,24 +2,24 @@
 # Victim Documentation - Farhad Rahimi Doodraee
 # ==========================================
 
-photo: vic-2026-001465.png
+photo:
+  - vic-2026-001465.png
 name: Farhad Rahimi Doodraee
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Chahar Mahaal and Bakhtiari
 incident_city: Lordegan
-incident_address: ''
-date_of_death: '2026-01-02'
+incident_address: ""
+date_of_death: "2026-01-02"
 date_of_death_precision: Approximate
 cause_of_death: Gunshot
 status: Killed
-description: ''
+description: ""
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

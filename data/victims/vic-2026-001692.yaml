@@ -2,7 +2,10 @@
 # Victim Documentation - Hamid Mirlohi
 # ==========================================
 
-photo: vic-2026-001692.jpg
+photo:
+  - "vic-2026-001692.jpg"
+  - "vic-2026-4a968c43567d.jpg"
+  - "vic-2026-eb8147b82454.jpg"
 name: Hamid Mirlohi
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,8 @@ description: |-
 
   Shot during protests, referred to as a 'martyr of the path to freedom'. The tweet mentions 'bloody Dey' (دی‌ماه خونین), indicating the death occurred in January 2026.
 source_type: Social Media
-source_social_media_link: https://x.com/i/status/2015793013360845053, https://x.com/allahbakhshii/status/2015793013360845053, https://x.com/avatoday_news/status/2015853160842117369, https://t.me/RememberTheirNames/1318
-child: false
+source_social_media_link:
+  - "https://x.com/i/status/2015793013360845053, https://x.com/allahbakhshii/status/2015793013360845053, https://x.com/avatoday_news/status/2015853160842117369, https://t.me/RememberTheirNames/1318"
+  - "https://x.com/i/status/2015793013360845053"
+  - "https://x.com/avatoday_news/status/2015853160842117369"
 persian_name: حمید میرلوحی

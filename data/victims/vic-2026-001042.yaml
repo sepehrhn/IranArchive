@@ -2,13 +2,16 @@
 # Victim Documentation - Aref Mousavi
 # ==========================================
 
-photo: vic-2026-001042.jpg
+photo:
+  - "vic-2026-001042.jpg"
+  - "vic-2026-de9aafad8929.jpg"
+  - "vic-2026-eb746b345f88.jpg"
 name: Aref Mousavi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 33
 occupation: ""
 country: Iran
 incident_province: ""
@@ -21,6 +24,9 @@ status: Killed
 description: |
   Killed in Tehran
 source_type: Social Media
-source_social_media_link: https://x.com/pkhwshhal/status/2014708074800443792
-child: false
+source_social_media_link:
+  - "https://x.com/pkhwshhal/status/2014708074800443792"
+  - "https://x.com/realmeaban/status/2016218573153186283"
+  - "https://x.com/banafshehviola/status/2017688718115803526"
+  - "https://x.com/Samiraraahi/status/2017344454894518665"
 persian_name: عارف موسوی

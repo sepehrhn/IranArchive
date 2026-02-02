@@ -2,7 +2,11 @@
 # Victim Documentation - Ali Estakhr
 # ==========================================
 
-photo: vic-2026-000232.jpg
+photo:
+  - "vic-2026-000232.jpg"
+  - "vic-2026-20aa4db926d1.jpg"
+  - "vic-2026-056aacf08b92.jpg"
+  - "vic-2026-d619714e2394.jpg"
 name: Ali Estakhr
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,10 @@ description: |-
 
   Shot dead by the regime's security forces while protesting. He was a shop owner and worked on car audio systems.
 source_type: Social Media
-source_social_media_link: https://x.com/longlosthills/status/2013330588430655995, https://x.com/BabakTaghvaee1/status/2013370234556596568, https://x.com/HengawO/status/2014772586857598984
-child: false
+source_social_media_link:
+  - "https://x.com/longlosthills/status/2013330588430655995, https://x.com/BabakTaghvaee1/status/2013370234556596568, https://x.com/HengawO/status/2014772586857598984"
+  - "https://x.com/BabakTaghvaee1/status/2013370234556596568"
+  - "https://x.com/itsettare/status/2017219955150716929"
+  - "https://x.com/i/status/2017219955150716929"
+  - "https://x.com/allahbakhshii/status/2017347665197936712"
 persian_name: علی استخر

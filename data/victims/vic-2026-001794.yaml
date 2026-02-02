@@ -2,7 +2,13 @@
 # Victim Documentation - Reza Taheri
 # ==========================================
 
-photo: vic-2026-001794.jpg
+photo:
+  - "vic-2026-001794.jpg"
+  - "vic-2026-002052.jpg"
+  - "vic-2026-002053.jpg"
+  - "vic-2026-f6b3b953fb73.jpg"
+  - "vic-2026-2139997.jpg"
+  - "vic-2026-af6535c96358.jpg"
 name: Reza Taheri
 birth_date: ""
 birth_province: ""
@@ -23,6 +29,7 @@ description: |-
 
   No image available of this martyr.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/718
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/718"
+  - "https://x.com/sashtyani/status/2017675053609934971"
 persian_name: رضا طاهری

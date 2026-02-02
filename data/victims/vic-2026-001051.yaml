@@ -2,7 +2,10 @@
 # Victim Documentation - Babak Shahbazi
 # ==========================================
 
-photo: ""
+photo:
+  - ""
+  - "vic-2026-4330a72931b4.jpg"
+  - "vic-2026-e46cc5bd3890.jpg"
 name: Babak Shahbazi
 birth_date: ""
 birth_province: ""
@@ -12,7 +15,7 @@ age: null
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: "Qezelhesar Prison"
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
@@ -21,6 +24,8 @@ status: Killed
 description: |
   Executed
 source_type: Social Media
-source_social_media_link: https://x.com/jeanne2022rev/status/2012248015600284068, https://x.com/Jeanne2022Rev/status/2012248015600284068
-child: false
+source_social_media_link:
+  - "https://x.com/jeanne2022rev/status/2012248015600284068, https://x.com/Jeanne2022Rev/status/2012248015600284068"
+  - "https://x.com/Jeanne2022Rev/status/1968262844379713779"
+  - "https://x.com/Jeanne2022Rev/status/1952415544088330492"
 persian_name: بابک شهبازی

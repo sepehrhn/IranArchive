@@ -2,7 +2,10 @@
 # Victim Documentation - Hananeh Azizi
 # ==========================================
 
-photo: vic-2026-000098.jpg
+photo:
+  - "vic-2026-000098.jpg"
+  - "vic-2026-7d86cb1542b3.jpg"
+  - "vic-2026-0be0f3686f73.jpg"
 name: Hananeh Azizi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,9 @@ description: |-
 
   Wounded by live ammunition from special forces, doctors believed she would recover, but she was not allowed to receive treatment and was killed with a shot to the head. She was 18 years old.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014631661929975991, https://x.com/VIsfehan/status/2014631661929975991, https://t.me/poshtpardeha/249415, https://x.com/missmarpel75/status/2015337600559554574, https://t.me/RememberTheirNames/801
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2014631661929975991, https://x.com/VIsfehan/status/2014631661929975991, https://t.me/poshtpardeha/249415, https://x.com/missmarpel75/status/2015337600559554574, https://t.me/RememberTheirNames/801"
+  - "https://x.com/VIsfehan/status/2014631661929975991"
+  - "https://x.com/visfehan/status/2014631661929975991"
+  - "https://t.me/poshtpardeha/249415"
 persian_name: حنانه عزیزی

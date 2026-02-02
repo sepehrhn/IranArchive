@@ -12,7 +12,8 @@
 # 1. Place the image in `\data\victims\img\`
 # 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
 # The system will automatically find and optimize it.
-photo: ""
+photo: 
+  - ""
 
 # Full Name in English
 name: "Firstname Lastname"
@@ -38,7 +39,6 @@ gender: ""
 
 # Age at time of death (Optional, remove if unknown)
 age: 25
-child: false
 
 # Occupation (Optional)
 occupation: ""

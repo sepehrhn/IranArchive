@@ -2,7 +2,8 @@
 # Victim Documentation - Zeynab Moayyedi
 # ==========================================
 
-photo: vic-2026-2140023.jpg
+photo:
+  - vic-2026-2140023.jpg
 name: Zeynab Moayyedi
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Mentioned as one of the martyrs (جاویدنامان) from smaller cities whose families and relatives are afraid to post photos or names on social media
+description: Mentioned as one of the martyrs (جاویدنامان) from smaller cities whose families and relatives are afraid to post photos or names on social media
 source_type: Social Media
 source_social_media_link: https://x.com/amureza64/status/2016542837064564738, https://x.com/HyrcaniHRM/status/2016819795094560961
-child: false
 persian_name: زینب موئدی

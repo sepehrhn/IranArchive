@@ -2,7 +2,14 @@
 # Victim Documentation - Zahra Mahmoudpour
 # ==========================================
 
-photo: vic-2026-000875.jpg
+photo:
+  - "vic-2026-000875.jpg"
+  - "vic-2026-cddb5bb0896c.jpg"
+  - "vic-2026-7909d4f48bad.jpg"
+  - "vic-2026-7b4d72580900.jpg"
+  - "vic-2026-c199841b8172.jpg"
+  - "vic-2026-fd94caee7d22.jpg"
+  - "vic-2026-47c81a267fba.jpg"
 name: Zahra Mahmoudpour
 birth_date: ""
 birth_province: ""
@@ -24,6 +31,10 @@ description: |-
 
   Reported as one of nine additional students killed, bringing the total to 25 students killed. Specific details of death and date not provided in tweet.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2013909224410005752, https://x.com/autnews_org/status/2014014059440464237, https://x.com/longlosthills/status/2014047755841229064, https://x.com/HengawO/status/2013992084802257150, https://x.com/HengawO/status/2014710031246066053, https://t.me/RememberTheirNames/473, https://x.com/kyokushinsoofi/status/2016230726903984546
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2013909224410005752, https://x.com/autnews_org/status/2014014059440464237, https://x.com/longlosthills/status/2014047755841229064, https://x.com/HengawO/status/2013992084802257150, https://x.com/HengawO/status/2014710031246066053, https://t.me/RememberTheirNames/473, https://x.com/kyokushinsoofi/status/2016230726903984546"
+  - "https://x.com/HengawO/status/2013992084802257150"
+  - "https://x.com/longlosthills/status/2014047755841229064"
+  - "https://x.com/kyokushinsoofi/status/2016230726903984546"
+  - "https://x.com/i/status/2016524951377879396"
 persian_name: زهرا محمودپور

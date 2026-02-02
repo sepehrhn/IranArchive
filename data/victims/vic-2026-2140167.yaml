@@ -2,7 +2,10 @@
 # Victim Documentation - Sepideh Parizi
 # ==========================================
 
-photo: vic-2026-2140167.jpg
+photo:
+  - "vic-2026-2140167.jpg"
+  - "vic-2026-b3dd6762af2a.jpg"
+  - "vic-2026-e00d2908d4d1.jpg"
 name: Sepideh Parizi
 birth_date: ""
 birth_province: ""
@@ -12,15 +15,18 @@ age: null
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: "Sirjan"
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Described as a child of Iran killed in service to the homeland
+description: Described as a child of Iran killed in service to the homeland
 source_type: Social Media
-source_social_media_link: https://x.com/elllwho/status/2016137208722235650
-child: false
+source_social_media_link:
+  - "https://x.com/elllwho/status/2016137208722235650"
+  - "https://x.com/i/status/2016137208722235650"
+  - "https://x.com/hashshaashin/status/2016973002299031896"
+  - "https://x.com/Hashshaashin/status/2016973002299031896"
+  - "https://x.com/i/status/2016973002299031896"
 persian_name: سپیده پاریزی

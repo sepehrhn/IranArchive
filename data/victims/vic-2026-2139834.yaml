@@ -2,7 +2,10 @@
 # Victim Documentation - Setareh Rafiei
 # ==========================================
 
-photo: vic-2026-2139834.jpg
+photo:
+  - "vic-2026-2139834.jpg"
+  - "vic-2026-a7e520447f1a.jpg"
+  - "vic-2026-105b0e6cf1b0.jpg"
 name: Setareh Rafiei
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,11 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed by direct gunshot to the head in Narmak. Family wrote on her obituary that she was 'gifted to the homeland'
+description: Killed by direct gunshot to the head in Narmak. Family wrote on her obituary that she was 'gifted to the homeland'
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1591, https://x.com/hashshaashin/status/2016813305537380363
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1591, https://x.com/hashshaashin/status/2016813305537380363"
+  - "https://x.com/hashshaashin/status/2016813305537380363"
+  - "https://x.com/Hashshaashin/status/2016813305537380363"
+  - "https://x.com/i/status/2016813305537380363"
 persian_name: ستاره رفیعی

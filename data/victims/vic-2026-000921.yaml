@@ -2,19 +2,21 @@
 # Victim Documentation - Mohammad Qasem Rusta
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-d52c3d2cff91.jpg"
 name: Mohammad Qasem Rusta
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 14
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Marvdasht
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +24,6 @@ description: |
   Killed by security forces during the nationwide protests in Marvdasht.
 source_type: Social Media
 source_social_media_link:
-  - https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/
-child: true
+  - "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/"
+  - "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/HengawO/status/2012641346142572662"
+  - "https://x.com/HengawO/status/2012641346142572662"

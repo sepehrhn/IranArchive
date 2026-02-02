@@ -2,7 +2,9 @@
 # Victim Documentation - Mostafa Khursandian
 # ==========================================
 
-photo: vic-2026-002027.jpg
+photo:
+  - "vic-2026-002027.jpg"
+  - "vic-2026-6692fa2b76e8.jpg"
 name: Mostafa Khursandian
 birth_date: ""
 birth_province: ""
@@ -25,6 +27,7 @@ description: |-
 
   Mentioned as a 'Javidnam' (eternal resident/martyr) in Rudbar, Gilan. No specific cause or date of death provided.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1321, https://x.com/HeKasrehCrisis/status/2016154307071013253
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1321, https://x.com/HeKasrehCrisis/status/2016154307071013253"
+  - "https://x.com/MartinNiko56009/status/2015043155196776880"
 persian_name: مصطفی خرسندیان

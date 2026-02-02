@@ -2,7 +2,11 @@
 # Victim Documentation - Reza Azimzadeh
 # ==========================================
 
-photo: vic-2026-000909.jpg
+photo:
+  - "vic-2026-000909.jpg"
+  - "vic-2026-560b5860e410.jpg"
+  - "vic-2026-381d102f75d6.jpg"
+  - "vic-2026-c64c1e944595.jpg"
 name: Reza Azimzadeh
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,8 @@ status: Killed
 description: |
   Shot by IRGC forces during protests while passing by the Basij resistance building on Farmandarí Boulevard
 source_type: Social Media
-source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres, https://en.wikipedia.org/wiki/2026_Malekshahi_massacre, https://www.iran-emrooz.net/index.php/news2/125134/, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2, https://x.com/KurdistanHRN/status/2007538683428077889, https://x.com/hiitsmemooneh/status/2014590435650650616, https://t.me/RememberTheirNames/58
-child: false
+source_social_media_link:
+  - "https://en.wikipedia.org/wiki/2026_Iran_massacres, https://en.wikipedia.org/wiki/2026_Malekshahi_massacre, https://www.iran-emrooz.net/index.php/news2/125134/, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2, https://x.com/KurdistanHRN/status/2007538683428077889, https://x.com/hiitsmemooneh/status/2014590435650650616, https://t.me/RememberTheirNames/58"
+  - "https://x.com/KurdistanHRN/status/2007538683428077889"
+  - "https://x.com/hiitsmemooneh/status/2014590435650650616"
 persian_name: رضا عظیم زاده

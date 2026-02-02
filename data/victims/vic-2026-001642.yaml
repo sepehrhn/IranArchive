@@ -2,7 +2,9 @@
 # Victim Documentation - Alireza Safavi Fazeli
 # ==========================================
 
-photo: vic-2026-001642.jpg
+photo:
+  - "vic-2026-001642.jpg"
+  - "vic-2026-092d30169015.jpg"
 name: Alireza Safavi Fazeli
 birth_date: ""
 birth_province: ""
@@ -25,6 +27,7 @@ description: |-
 
   Shot in the throat with pellet gun by regime forces at the second circle of Ariashahr, body found in Kahrizak
 source_type: Social Media
-source_social_media_link: https://x.com/pouriazeraati/status/2012994811268038865, https://x.com/nicksotoudeh/status/2013109578301407460, https://t.me/RememberTheirNames/598
-child: false
+source_social_media_link:
+  - "https://x.com/pouriazeraati/status/2012994811268038865, https://x.com/nicksotoudeh/status/2013109578301407460, https://t.me/RememberTheirNames/598"
+  - "https://x.com/Tavaana/status/2017592490677965050"
 persian_name: علیرضا صفوی

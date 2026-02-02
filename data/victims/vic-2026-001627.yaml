@@ -2,7 +2,8 @@
 # Victim Documentation - Abbas Goudarzi Gashghaei
 # ==========================================
 
-photo: vic-2026-001627.jpg
+photo:
+  - vic-2026-001627.jpg
 name: Abbas Goudarzi Gashghaei
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/550
-child: false
 persian_name: عباس گودرزی قشقایی

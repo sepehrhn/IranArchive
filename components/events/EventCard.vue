@@ -13,6 +13,9 @@ const props = defineProps<{
     event: ParsedEvent
 }>();
 
+import { useI18n } from 'vue-i18n';
+const { t } = useI18n();
+
 import { initUpload, completeSubmission } from '~/utils/submissionsClient';
 
 const isExpanded = ref(false);
@@ -79,7 +82,8 @@ const hasDetails = computed(() => {
         ev.description?.trim() || 
         ev.organizer?.name?.trim() || 
         (ev.location?.lat && ev.location?.lng) ||
-        ev.online?.join_url
+        ev.online?.join_url ||
+        (ev.source && ev.source.length > 0)
     );
 });
 
@@ -223,14 +227,14 @@ const openAppleMaps = () => {
                         {{ event.title }}
                     </h3>
                     <div class="text-[10px] uppercase tracking-wider text-surface-400 font-mono mt-0.5">
-                        {{ event.id }}
+                        {{ $nFa(event.id) }}
                     </div>
                 </div>
 
                 <!-- Format Tag -->
                 <div class="h-[28px] flex items-center">
                     <Badge 
-                        :value="event.type.replace('_', ' ').toUpperCase()" 
+                        :value="$nFa(event.type.replace('_', ' ').toUpperCase())" 
                         severity="secondary" 
                         class="!text-[10px] !font-bold !px-2 !py-0.5 !rounded-md !bg-surface-100 dark:!bg-surface-800 !text-surface-600 dark:!text-surface-300 ring-1 ring-surface-200 dark:ring-surface-800"
                     />
@@ -359,6 +363,9 @@ const openAppleMaps = () => {
                             </div>
                         </div>
                     </div>
+
+                    <!-- Sources -->
+                    <EventsEventSources :sources="event.source || []" />
                 </div>
             </div>
         </Transition>
@@ -419,7 +426,7 @@ const openAppleMaps = () => {
                         {{ event.location?.address || 'TBD' }}
                     </div>
                     <div class="text-xs text-surface-500 font-medium">
-                        {{ event.location?.city ? `${event.location.city}, ` : '' }}{{ event.location?.country || '' }}
+                        {{ event.location?.city ? `${event.location.city}, ` : '' }}{{ t(`countries.${event.location?.country}`, event.location?.country || '') }}
                     </div>
                 </div>
 

@@ -2,7 +2,9 @@
 # Victim Documentation - Matin Mazhar Zohour
 # ==========================================
 
-photo: vic-2026-001124.jpg
+photo:
+  - "vic-2026-001124.jpg"
+  - "vic-2026-536944257239.jpg"
 name: Matin Mazhar Zohour
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Sari
+incident_province: ""
 incident_city: Northern Iran (Chalous
 incident_address: ""
 date_of_death: ""
@@ -25,5 +27,4 @@ description: |-
   Identified as one of the killed during public protests.
 source_type: Social Media
 source_social_media_link: https://x.com/HengawO/status/2012863021467550147
-child: false
 persian_name: متین مظهرظهور

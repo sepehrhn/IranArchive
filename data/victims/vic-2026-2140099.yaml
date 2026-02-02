@@ -2,7 +2,11 @@
 # Victim Documentation - Amir Hossein Safari
 # ==========================================
 
-photo: vic-2026-2140099.jpg
+photo:
+  - "vic-2026-2140099.jpg"
+  - "vic-2026-3ce685468715.jpg"
+  - "vic-2026-f4224b75c372.jpg"
+  - "vic-2026-f2f3a67d5f3d.jpg"
 name: Amir Hossein Safari
 birth_date: ""
 birth_province: ""
@@ -11,16 +15,17 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Shahrak Khomeini neighborhood
+incident_province: ""
 incident_city: Yaftabad
 incident_address: Yaftabad
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Yaftabad, Shahrak Khomeini neighborhood. Local children requested that his memory not be forgotten.
+description: Died in Yaftabad, Shahrak Khomeini neighborhood. Local children requested that his memory not be forgotten.
 source_type: Social Media
-source_social_media_link: https://x.com/sashtyani/status/2016819707467141613
-child: false
+source_social_media_link:
+  - "https://x.com/sashtyani/status/2016819707467141613"
+  - "https://x.com/Sashtyani/status/2016819707467141613"
+  - "https://x.com/i/status/2016819707467141613"
 persian_name: امیر حسین صفری

@@ -2,22 +2,27 @@
 # Victim Documentation - Abulfazl Khan Ghitaghi
 # ==========================================
 
-photo: vic-2026-001402.jpg
+photo:
+  - "vic-2026-001402.jpg"
+  - "vic-2026-001453.jpeg"
+  - "vic-2026-001820.jpg"
+  - "vic-2026-18719690827b.jpg"
+  - "vic-2026-59d6b36abc0d.jpg"
 name: Abulfazl Khan Ghitaghi
-persian_name: "ابولفضل خان قیطاقی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: ابولفضل خان قیطاقی
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 45
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Razavi Khorasan
 incident_city: Mashhad
-incident_address: ''
-date_of_death: ''
+incident_address: ""
+date_of_death: "2026-01-07"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |
   Persian Name: ابولفضل خان قیطاقی
@@ -25,6 +30,6 @@ description: |
   Shot three times in the abdomen under Haft Tir bridge.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/realfarid7/status/2015354166181613701
-  - https://x.com/realfarid7/status/2015405675913093469
-child: false
+  - "https://x.com/realfarid7/status/2015354166181613701"
+  - "https://x.com/realfarid7/status/2015405675913093469"
+  - "https://x.com/realfarid7/status/2015354166181613701, https://x.com/realfarid7/status/2015405675913093469"

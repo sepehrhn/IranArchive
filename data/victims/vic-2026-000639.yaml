@@ -2,7 +2,10 @@
 # Victim Documentation - Jafar Javidi
 # ==========================================
 
-photo: vic-2026-000639.jpg
+photo:
+  - "vic-2026-000639.jpg"
+  - "vic-2026-001711.jpg"
+  - "vic-2026-002128.jpg"
 name: Jafar Javidi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,7 @@ description: |-
 
   Killed on January 8, 2026.
 source_type: Social Media
-source_social_media_link: https://x.com/sama19861365/status/2015057077119402226, https://t.me/RememberTheirNames/986
-child: false
+source_social_media_link:
+  - "https://x.com/sama19861365/status/2015057077119402226, https://t.me/RememberTheirNames/986"
+  - "https://t.me/RememberTheirNames/711"
 persian_name: جعفر جاویدی

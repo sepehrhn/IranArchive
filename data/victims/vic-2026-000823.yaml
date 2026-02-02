@@ -2,7 +2,12 @@
 # Victim Documentation - Saeed Sanjideh
 # ==========================================
 
-photo: vic-2026-000823.jpg
+photo:
+  - "vic-2026-000823.jpg"
+  - "vic-2026-cc5f11d3f1fe.jpg"
+  - "vic-2026-121563a804e9.jpg"
+  - "vic-2026-5f3b669200be.jpg"
+  - "vic-2026-251b770074b4.jpg"
 name: Saeed Sanjideh
 birth_date: ""
 birth_province: ""
@@ -24,6 +29,10 @@ description: |-
 
   Shot in the throat during a call for protest in Bushehr. His body was found in the hospital two days later and buried four days later under heavy security presence with only his parents present. Born in 1369, from Khormuj.
 source_type: Social Media
-source_social_media_link: https://x.com/hoorieh81/status/2014664263445483744, https://x.com/hekasrehcrisis/status/2015184356461990326, https://x.com/HeKasrehCrisis/status/2015184356461990326, https://x.com/Hoorieh81/status/2014664263445483744, https://t.me/RememberTheirNames/820, https://x.com/zzgulu_asipasi/status/2016274181403369806
-child: false
+source_social_media_link:
+  - "https://x.com/hoorieh81/status/2014664263445483744, https://x.com/hekasrehcrisis/status/2015184356461990326, https://x.com/HeKasrehCrisis/status/2015184356461990326, https://x.com/Hoorieh81/status/2014664263445483744, https://t.me/RememberTheirNames/820, https://x.com/zzgulu_asipasi/status/2016274181403369806"
+  - "https://x.com/hoorieh81/status/2014664263445483744"
+  - "https://x.com/hekasrehcrisis/status/2015184356461990326"
+  - "https://x.com/HeKasrehCrisis/status/2015184356461990326"
+  - "https://x.com/zzgulu_asipasi/status/2016274181403369806"
 persian_name: سعید سنجیده

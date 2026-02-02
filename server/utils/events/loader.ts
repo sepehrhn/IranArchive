@@ -8,15 +8,26 @@ import { EventSchema, type EventData, type ParsedEvent, EventStateSchema } from 
 const EVENTS_DIR = path.resolve(process.cwd(), 'data/events');
 const ONGOING_WINDOW_HOURS = 6; // Default duration if end_at is missing
 
-// Helper to parse date string "YYYY/MM/DD" and time "HH:mm"
+// Helper to parse date string "YYYY/MM/DD" and time "HH:mm" in UTC
 function parseEventDate(dateStr: string, timeStr?: string | null): Date {
-    const d = new Date(dateStr + (timeStr ? ' ' + timeStr : ''));
-    return d;
+    // Parse as YYYY/MM/DD and optional HH:mm
+    const [year, month, day] = dateStr.split('/').map(Number);
+    let hours = 0;
+    let minutes = 0;
+
+    if (timeStr && timeStr.trim()) {
+        const timeParts = timeStr.split(':').map(Number);
+        hours = timeParts[0] || 0;
+        minutes = timeParts[1] || 0;
+    }
+
+    // Create date in UTC
+    return new Date(Date.UTC(year, month - 1, day, hours, minutes));
 }
 
 // Helper to compute state automatically based on event dates
 function computeEventState(event: EventData): string {
-    const now = new Date();
+    const now = new Date(); // Current time in UTC
     const start = parseEventDate(event.date.start, event.date.start_time);
     let end = (event.date.end)
         ? parseEventDate(event.date.end, event.date.end_time)
@@ -29,10 +40,13 @@ function computeEventState(event: EventData): string {
 
     if (now < start) return 'upcoming';
 
-    // Check if the event ends today (same year, month, day)
-    const isToday = now.getFullYear() === end.getFullYear() &&
-        now.getMonth() === end.getMonth() &&
-        now.getDate() === end.getDate();
+    // Check if the event ends today (same year, month, day) in UTC
+    const nowUTC = new Date(now.getTime());
+    const endUTC = new Date(end.getTime());
+
+    const isToday = nowUTC.getUTCFullYear() === endUTC.getUTCFullYear() &&
+        nowUTC.getUTCMonth() === endUTC.getUTCMonth() &&
+        nowUTC.getUTCDate() === endUTC.getUTCDate();
 
     // If it's technically over but still today, keep it as 'ongoing' (or 'today') so it doesn't disappear from the main list
     if (isToday) return 'ongoing';

@@ -2,13 +2,22 @@
 # Victim Documentation - Mojtaba Tarsheez
 # ==========================================
 
-photo: vic-2026-000750.png
+photo:
+  - "vic-2026-000750.png"
+  - "vic-2026-3ff666ae4ee3.png"
+  - "vic-2026-c8279ee66466.png"
+  - "vic-2026-cbe595c20fcf.jpg"
+  - "vic-2026-5edaa0ae9039.jpg"
+  - "vic-2026-f07654b39ad8.jpg"
+  - "vic-2026-5d4a82efd426.jpg"
+  - "vic-2026-f206233d96d0.jpg"
+  - "vic-2026-7fc6526ac287.jpg"
 name: Mojtaba Tarsheez
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 47
 occupation: ""
 country: Iran
 incident_province: ""
@@ -21,6 +30,9 @@ status: Killed
 description: |
   Former midfielder for Tractor Sazi Tabriz. Killed alongside his wife while protesting for a free Iran.
 source_type: Social Media
-source_social_media_link: https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/iranhrs99/status/2012920289823252883, https://x.com/callyonyourbs/status/2013354616012836903, https://x.com/Daikatuo/status/2011448689416364436, https://t.me/RememberTheirNames/135
-child: false
+source_social_media_link:
+  - "https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/iranhrs99/status/2012920289823252883, https://x.com/callyonyourbs/status/2013354616012836903, https://x.com/Daikatuo/status/2011448689416364436, https://t.me/RememberTheirNames/135"
+  - "https://x.com/Daikatuo/status/2011448689416364436"
+  - "https://x.com/iranhrs99/status/2012920289823252883"
+  - "https://x.com/callyonyourbs/status/2013354616012836903"
 persian_name: مجتبی ترشیز

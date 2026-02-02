@@ -2,7 +2,8 @@
 # Victim Documentation - Soghra Hatami
 # ==========================================
 
-photo: vic-2026-001804.jpg
+photo:
+  - vic-2026-001804.jpg
 name: Soghra Hatami
 birth_date: ""
 birth_province: ""
@@ -18,8 +19,7 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |+
+description: ""
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1307
-child: false
 persian_name: صغری حاتمی

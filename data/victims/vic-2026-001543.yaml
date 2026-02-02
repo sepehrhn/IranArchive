@@ -2,7 +2,9 @@
 # Victim Documentation - Asghar Naseri Karimvand
 # ==========================================
 
-photo: vic-2026-001543.jpg
+photo:
+  - "vic-2026-001543.jpg"
+  - "vic-2026-fa4c86ff5377.jpg"
 name: Asghar Naseri Karimvand
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,8 @@ description: |-
 
   Shot directly in the side by government forces during protests. Initially injured, he died four days later due to the severity of his wounds. His body was buried on January 16, 2026.
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2015728631599796337, https://x.com/HengawO/status/2015728631599796337, https://t.me/RememberTheirNames/1323
-child: false
+source_social_media_link:
+  - "https://x.com/hengawo/status/2015728631599796337, https://x.com/HengawO/status/2015728631599796337, https://t.me/RememberTheirNames/1323"
+  - "https://x.com/hengawo/status/2015728631599796337"
+  - "https://x.com/HengawO/status/2015728631599796337"
 persian_name: اصغر ناصری کریموند

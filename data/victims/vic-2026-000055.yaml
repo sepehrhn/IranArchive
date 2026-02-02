@@ -2,7 +2,8 @@
 # Victim Documentation - Mohammad Mahdi Seif Allah Pour
 # ==========================================
 
-photo: vic-2026-000055.jpg
+photo:
+  - vic-2026-000055.jpg
 name: Mohammad Mahdi Seif Allah Pour
 birth_date: ""
 birth_province: ""
@@ -24,6 +25,7 @@ description: |-
 
   Identified as one of the killed in Tehran protests.
 source_type: Social Media
-source_social_media_link: https://x.com/iwasanastasia/status/2014371645691973768, https://x.com/HengawO/status/2014781999668437226
-child: false
+source_social_media_link:
+  - "https://x.com/iwasanastasia/status/2014371645691973768, https://x.com/HengawO/status/2014781999668437226"
+  - "https://x.com/HeKasrehCrisis/status/2015168381301752269"
 persian_name: محمد مهدی سیف اله پور

@@ -2,7 +2,9 @@
 # Victim Documentation - AmirAli Pahlvanzadeh
 # ==========================================
 
-photo: vic-2026-001857.jpg
+photo:
+  - "vic-2026-001857.jpg"
+  - "vic-2026-d25da4279f1c.jpg"
 name: AmirAli Pahlvanzadeh
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,9 @@ status: Killed
 description: |
   Killed during protests in Talaiyeh neighborhood along with four others
 source_type: Social Media
-source_social_media_link: https://x.com/iranintlbrk/status/2013879195227615365, https://x.com/monfaredashkan/status/2015998440241824062
-child: true
+source_social_media_link:
+  - "https://x.com/iranintlbrk/status/2013879195227615365, https://x.com/monfaredashkan/status/2015998440241824062"
+  - "https://x.com/iranintlbrk/status/2013879195227615365"
+  - "https://x.com/monfaredashkan/status/2015998440241824062"
+  - "https://x.com/MonfaredAshkan/status/2015998440241824062"
 persian_name: امیرعلی پهلوان‌زاده

@@ -2,7 +2,11 @@
 # Victim Documentation - Moein Basiri
 # ==========================================
 
-photo: vic-2026-001143.jpg
+photo:
+  - "vic-2026-001143.jpg"
+  - "vic-2026-086cb765b3a2.jpg"
+  - "vic-2026-27ec07a3d7f0.jpg"
+  - "vic-2026-1fe46e0c616f.jpg"
 name: Moein Basiri
 birth_date: ""
 birth_province: ""
@@ -11,7 +15,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Andisheh Town
+incident_province: ""
 incident_city: Shahriar
 incident_address: Andisheh
 date_of_death: "2026-01-08"
@@ -24,6 +28,8 @@ description: |-
 
   Victim identified in a list of names.
 source_type: Social Media
-source_social_media_link: https://x.com/itsicicicicicic/status/2014782409930076322, https://t.me/RememberTheirNames/1227, https://x.com/iranintlbrk/status/2015810544075194651
-child: false
+source_social_media_link:
+  - "https://x.com/itsicicicicicic/status/2014782409930076322, https://t.me/RememberTheirNames/1227, https://x.com/iranintlbrk/status/2015810544075194651"
+  - "https://x.com/itsicicicicicic/status/2014782409930076322"
+  - "https://x.com/iranintlbrk/status/2015810544075194651"
 persian_name: معین بصیری

@@ -2,6 +2,8 @@
 import { type Incident } from '~/types/incident';
 import { getStatusColor, formatDate, formatStatus } from '~/utils/formatters';
 
+const { locale } = useI18n();
+
 const props = defineProps<{
     incident: Incident;
 }>();
@@ -12,13 +14,13 @@ const severityText = computed(() => {
     
     const parts = [];
     if (s.deaths && (s.deaths.min || s.deaths.max)) {
-        parts.push(`${s.deaths.min || '0'}${s.deaths.max ? '-' + s.deaths.max : '+'} Deaths`);
+        parts.push(`${useNuxtApp().$nFa(s.deaths.min || '0')}${s.deaths.max ? '-' + useNuxtApp().$nFa(s.deaths.max) : '+'} Deaths`);
     }
     if (s.injured && (s.injured.min || s.injured.max)) {
-        parts.push(`${s.injured.min || '0'}${s.injured.max ? '-' + s.injured.max : '+'} Injured`);
+        parts.push(`${useNuxtApp().$nFa(s.injured.min || '0')}${s.injured.max ? '-' + useNuxtApp().$nFa(s.injured.max) : '+'} Injured`);
     }
     if (s.arrests && (s.arrests.min || s.arrests.max)) {
-        parts.push(`${s.arrests.min || '0'}${s.arrests.max ? '-' + s.arrests.max : '+'} Arrests`);
+        parts.push(`${useNuxtApp().$nFa(s.arrests.min || '0')}${s.arrests.max ? '-' + useNuxtApp().$nFa(s.arrests.max) : '+'} Arrests`);
     }
     
     return parts.join(' • ');
@@ -48,7 +50,7 @@ const getRatingColor = (value: number) => {
             <div class="flex justify-between items-start mb-3">
                 <div class="flex flex-col">
                     <span class="text-xs font-semibold text-surface-500 dark:text-surface-400 uppercase tracking-wider">
-                        {{ formatDate(incident.occurred_at.start) }}
+                        {{ formatDate(incident.occurred_at.start, locale) }}
                     </span>
                     <div class="flex items-center gap-1.5 mt-1 text-xs text-surface-600 dark:text-surface-300">
                         <i class="pi pi-map-marker text-primary-500"></i>
@@ -74,7 +76,7 @@ const getRatingColor = (value: number) => {
                 <div v-if="incident.ratings.veracity" class="flex flex-col gap-1.5">
                     <div class="flex justify-between items-end">
                         <span class="text-[10px] uppercase font-bold text-surface-500 tracking-wider">Veracity</span>
-                        <span class="text-xs font-mono font-bold text-surface-700 dark:text-surface-200">{{ incident.ratings.veracity }}/10</span>
+                        <span class="text-xs font-bold text-surface-700 dark:text-surface-200">{{ $nFa(incident.ratings.veracity) }}/{{ $nFa(10) }}</span>
                     </div>
                     <div class="h-1.5 w-full bg-surface-100 dark:bg-surface-800 rounded-full overflow-hidden">
                         <div class="h-full rounded-full transition-all duration-500" 
@@ -88,7 +90,7 @@ const getRatingColor = (value: number) => {
                 <div v-if="incident.ratings.evidence_availability" class="flex flex-col gap-1.5">
                     <div class="flex justify-between items-end">
                         <span class="text-[10px] uppercase font-bold text-surface-500 tracking-wider">Evidence</span>
-                        <span class="text-xs font-mono font-bold text-surface-700 dark:text-surface-200">{{ incident.ratings.evidence_availability }}/10</span>
+                        <span class="text-xs font-bold text-surface-700 dark:text-surface-200">{{ $nFa(incident.ratings.evidence_availability) }}/{{ $nFa(10) }}</span>
                     </div>
                     <div class="h-1.5 w-full bg-surface-100 dark:bg-surface-800 rounded-full overflow-hidden">
                         <div class="h-full rounded-full transition-all duration-500"

@@ -2,7 +2,9 @@
 # Victim Documentation - Kourosh Ziaei
 # ==========================================
 
-photo: vic-2026-000653.jpg
+photo:
+  - "vic-2026-000653.jpg"
+  - "vic-2026-aa0b3f8f0264.jpg"
 name: Kourosh Ziaei
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Killed during protests on Thursday and Friday
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014331046636990578, https://t.me/RememberTheirNames/1344
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2014331046636990578, https://t.me/RememberTheirNames/1344"
+  - "https://x.com/visfehan/status/2014331046636990578"
 persian_name: کوروش ضیایی

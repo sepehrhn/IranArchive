@@ -2,7 +2,12 @@
 # Victim Documentation - Milad Nouri
 # ==========================================
 
-photo: ""
+photo:
+  - ""
+  - "vic-2026-6326ce7c7942.jpg"
+  - "vic-2026-7c2dd0069387.jpg"
+  - "vic-2026-51352ff6529b.jpg"
+  - "vic-2026-76455ba4876b.jpg"
 name: Milad Nouri
 birth_date: ""
 birth_province: ""
@@ -21,6 +26,8 @@ status: Killed
 description: |
   Killed during protests
 source_type: Social Media
-source_social_media_link: https://x.com/abhaddadii/status/2012993637005627689
-child: false
+source_social_media_link:
+  - "https://x.com/abhaddadii/status/2012993637005627689"
+  - "https://x.com/SabaMajlessi/status/2014967575638126808"
+  - "https://x.com/saarmot/status/2017077476002841071"
 persian_name: میلاد نوری

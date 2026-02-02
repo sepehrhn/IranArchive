@@ -2,20 +2,22 @@
 # Victim Documentation - Mehdi Eghbali Amolashi
 # ==========================================
 
-photo: vic-2026-000052.jpg
+photo:
+  - "vic-2026-000052.jpg"
+  - "vic-2026-002223.jpg"
 name: Mehdi Eghbali Amolashi
-persian_name: "مهدی اقبالی املشی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: مهدی اقبالی املشی
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 35
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Razavi Khorasan
 incident_city: Mashhad
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -24,4 +26,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/tiffany_jaan/status/2014848619703124362
-child: false

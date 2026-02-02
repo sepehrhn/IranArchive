@@ -2,7 +2,11 @@
 # Victim Documentation - Mehdi Mohammadi
 # ==========================================
 
-photo: vic-2026-000681.jpg
+photo:
+  - "vic-2026-000681.jpg"
+  - "vic-2026-4af5fe27ce1a.jpg"
+  - "vic-2026-0db02120f066.jpg"
+  - "vic-2026-4184caff4eeb.jpg"
 name: Mehdi Mohammadi
 birth_date: ""
 birth_province: ""
@@ -11,7 +15,7 @@ gender: Male
 age: 23
 occupation: ""
 country: Iran
-incident_province: Rasht
+incident_province: ""
 incident_city: Golsar
 incident_address: Golsar
 date_of_death: "2026-01-08"
@@ -24,6 +28,9 @@ description: |-
 
   A 23-year-old Gilak citizen from Rasht, Mehdi Mohammadi, was shot and killed by the Islamic Republic of Iran during protests in the Golsar district of Rasht on Thursday, 18 Dey 1404.
 source_type: Social Media
-source_social_media_link: https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/tavaana/status/2014656048293089779, https://x.com/HyrcaniHRM/status/2014656288496431553, https://x.com/Tavaana/status/2014656048293089779, https://x.com/gohareshghi/status/2015100314576101816, https://t.me/RememberTheirNames/832, https://t.me/RememberTheirNames/379
-child: false
+source_social_media_link:
+  - "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/tavaana/status/2014656048293089779, https://x.com/HyrcaniHRM/status/2014656288496431553, https://x.com/Tavaana/status/2014656048293089779, https://x.com/gohareshghi/status/2015100314576101816, https://t.me/RememberTheirNames/832, https://t.me/RememberTheirNames/379"
+  - "https://x.com/tavaana/status/2014656048293089779"
+  - "https://x.com/Tavaana/status/2014656048293089779"
+  - "https://x.com/gohareshghi/status/2015100314576101816"
 persian_name: مهدی موحدی

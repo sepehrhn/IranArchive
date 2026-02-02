@@ -2,7 +2,9 @@
 # Victim Documentation - Behzad Kivandarian
 # ==========================================
 
-photo: vic-2026-2139730.jpg
+photo:
+  - "vic-2026-2139730.jpg"
+  - "vic-2026-de1926c59c85.jpg"
 name: Behzad Kivandarian
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-16"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Injured on January 9, 2026 in Isfahan and died on January 16, 2026
+description: Injured on January 9, 2026 in Isfahan and died on January 16, 2026
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1498
-child: false
 persian_name: بهزاد کیوانداریان

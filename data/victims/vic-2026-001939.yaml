@@ -2,7 +2,9 @@
 # Victim Documentation - Hassan Nouri Kermanshahi
 # ==========================================
 
-photo: vic-2026-001939.jpg
+photo:
+  - "vic-2026-001939.jpg"
+  - "vic-2026-a931005c525f.jpg"
 name: Hassan Nouri Kermanshahi
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,8 @@ description: |-
 
   Killed by shooting from the Islamic Revolutionary Guard Corps forces during public protests. His body was returned to his family after a payment of 600 million tomans.
 source_type: Social Media
-source_social_media_link: https://x.com/kurdistanhrn/status/2015878554454479044, https://x.com/KurdistanHRN/status/2015878554454479044
-child: false
+source_social_media_link:
+  - "https://x.com/kurdistanhrn/status/2015878554454479044, https://x.com/KurdistanHRN/status/2015878554454479044"
+  - "https://x.com/kurdistanhrn/status/2015878554454479044"
+  - "https://x.com/KurdistanHRN/status/2015878554454479044"
 persian_name: حسن نوری کرمانشاهی

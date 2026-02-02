@@ -2,7 +2,10 @@
 # Victim Documentation - Amir Mohammad Khayyat
 # ==========================================
 
-photo: vic-2026-2139868.jpg
+photo:
+  - "vic-2026-2139868.jpg"
+  - "vic-2026-4fff8926bd57.jpg"
+  - "vic-2026-0de879db91c3.jpg"
 name: Amir Mohammad Khayyat
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot with two direct live bullets in the vicinity of Khiaban Square, Neyshabur. His last post on his business Instagram page was related to the strikes.
+description: Shot with two direct live bullets in the vicinity of Khiaban Square, Neyshabur. His last post on his business Instagram page was related to the strikes.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/437, https://x.com/HeKasrehCrisis/status/2015476812189434101
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/437, https://x.com/HeKasrehCrisis/status/2015476812189434101"
+  - "https://x.com/HeKasrehCrisis/status/2015476812189434101"
 persian_name: امیرمحمد خیاط

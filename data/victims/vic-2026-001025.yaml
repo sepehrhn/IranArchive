@@ -2,19 +2,20 @@
 # Victim Documentation - Amini's Father
 # ==========================================
 
-photo: vic-2026-001025.jpg
+photo:
+  - vic-2026-001025.jpg
 name: Amini's Father
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_province: ""
+incident_city: ""
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,4 +24,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://www.instagram.com/p/dt2-huddpgp
-child: false

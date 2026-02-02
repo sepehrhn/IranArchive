@@ -2,19 +2,25 @@
 # Victim Documentation - Amir Abbaspour
 # ==========================================
 
-photo: vic-2026-000103.jpg
+photo:
+  - "vic-2026-000103.jpg"
+  - "vic-2026-ed45fb257756.jpg"
+  - "vic-2026-9b0df6555350.jpg"
+  - "vic-2026-9d155badce8c.jpg"
+  - "vic-2026-001258.jpg"
+  - "vic-2026-7987a772b645.jpg"
 name: Amir Abbaspour
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 26
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Karaj
 incident_address: Gohardasht
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +28,9 @@ description: |
   Killed in recent days; further details not yet available
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/monfaredashkan/status/2014835442647237063
-child: false
+  - "https://x.com/monfaredashkan/status/2014835442647237063"
+  - "https://x.com/pouriazeraati/status/2015034629275754688"
+  - "https://x.com/iranintl/status/2015122429497024849"
+  - "https://x.com/MonfaredAshkan/status/2014835442647237063"
+  - "https://x.com/monfaredashkan/status/2014835442647237063, https://x.com/monfaredashkan/status/2014837746100273656, https://x.com/pouriazeraati/status/2015034629275754688, https://x.com/iranintl/status/2015122429497024849, https://x.com/MonfaredAshkan/status/2014837746100273656, https://x.com/HengawO/status/2015480363087204829, https://x.com/MonfaredAshkan/status/2014835442647237063, https://t.me/RememberTheirNames/1261, https://t.me/RememberTheirNames/731"
+  - "https://x.com/HengawO/status/2015480363087204829"

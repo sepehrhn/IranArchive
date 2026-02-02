@@ -2,7 +2,9 @@
 # Victim Documentation - Alireza Salehi Nejad
 # ==========================================
 
-photo: vic-2026-000090.jpg
+photo:
+  - "vic-2026-000090.jpg"
+  - "vic-2026-ce014d7a9618.jpg"
 name: Alireza Salehi Nejad
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Arrested in Abik and died suddenly less than 3 days after release. Forensic medicine stated all his internal organs mysteriously disappeared.
 source_type: Social Media
-source_social_media_link: https://x.com/realneo101/status/2015179150076604834, https://x.com/Realneo101/status/2015179150076604834
-child: false
+source_social_media_link:
+  - "https://x.com/realneo101/status/2015179150076604834, https://x.com/Realneo101/status/2015179150076604834"
+  - "https://x.com/Realneo101/status/2015179150076604834"
 persian_name: علیرضا صالحی نژاد

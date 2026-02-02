@@ -2,7 +2,10 @@
 # Victim Documentation - Siamak Rashid
 # ==========================================
 
-photo: vic-2026-000444.jpg
+photo:
+  - "vic-2026-000444.jpg"
+  - "vic-2026-7fd811568886.jpg"
+  - "vic-2026-150314efc2ac.jpg"
 name: Siamak Rashid
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Married and father of three children, originally from Ardabil. Shot in the head and chest by security forces during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2014344805761864130, https://x.com/ManotoNews/status/2014344805761864130, https://t.me/RememberTheirNames/361
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2014344805761864130, https://x.com/ManotoNews/status/2014344805761864130, https://t.me/RememberTheirNames/361"
+  - "https://x.com/manotonews/status/2014344805761864130"
+  - "https://x.com/ManotoNews/status/2014344805761864130"
 persian_name: سیامک راشید

@@ -2,19 +2,20 @@
 # Victim Documentation - Mohammad Mehdi Ganj Danesh
 # ==========================================
 
-photo: ''
+photo:
+  - ""
 name: Mohammad Mehdi Ganj Danesh
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 16
 occupation: دانش اموز
 country: Iran
 incident_province: Zanjan
 incident_city: Zanjan
-incident_address: ''
-date_of_death: '2026-01-07'
+incident_address: ""
+date_of_death: "2026-01-07"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,5 +24,4 @@ description: |
   دوشنبه با خانواده تماس میگیرند برای تحویل جنازه
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: true
+  - ""

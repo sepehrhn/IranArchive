@@ -2,7 +2,9 @@
 # Victim Documentation - Ali Sohrabi Rad
 # ==========================================
 
-photo: vic-2026-2140094.jpg
+photo:
+  - "vic-2026-2140094.jpg"
+  - "vic-2026-45bd94a32962.png"
 name: Ali Sohrabi Rad
 birth_date: ""
 birth_province: ""
@@ -11,16 +13,14 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Varamin
+incident_province: ""
 incident_city: Qarchak
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed in Qarchak, Varamin during the protests
+description: Killed in Qarchak, Varamin during the protests
 source_type: Social Media
 source_social_media_link: https://x.com/hekasrehcrisis/status/2016543195010580890
-child: false
 persian_name: علی سهرابی راد

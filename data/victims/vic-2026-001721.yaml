@@ -2,7 +2,8 @@
 # Victim Documentation - Mahmoud Seraji
 # ==========================================
 
-photo: vic-2026-001721.jpg
+photo:
+  - vic-2026-001721.jpg
 name: Mahmoud Seraji
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1090
-child: false
 persian_name: محمود سراجی

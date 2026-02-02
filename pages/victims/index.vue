@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted, watch, nextTick } from 'vue';
+const { t } = useI18n();
 import { useVictims } from '@/composables/useVictims';
+import { usePersianNumbers } from '@/composables/usePersianNumbers';
+const { pn } = usePersianNumbers();
 import type { Victim } from '@/types/victims';
 import VictimGalleryCard from '@/components/victims/VictimGalleryCard.vue';
 import VictimDetail from '@/components/victims/VictimDetail.vue';
@@ -10,9 +13,9 @@ import { initUpload, uploadToR2, completeSubmission } from '~/utils/submissionsC
 import type { UploadedFileInfo } from '~/utils/submissionsClient';
 
 useHead({
-    title: 'Victims - IranArchive',
+    title: t('victimsPage.title'),
     meta: [
-        { name: 'description', content: 'Documented victims of the protests in Iran. Honor their memory and support justice.' }
+        { name: 'description', content: t('victimsPage.description') }
     ]
 });
 
@@ -34,7 +37,7 @@ const provinceCityMap = ref<Record<string, string[]>>({});
 const searchQuery = ref('');
 const selectedCity = ref<string>();
 const selectedProvince = ref<string>();
-const selectedStatus = ref<string>();
+const selectedStatus = ref<string>('Killed');
 const selectedCategory = ref<string>();
 const showSubmitDialog = ref(false);
 const submitting = ref(false);
@@ -47,10 +50,17 @@ const pageSize = ref(15);
 
 
 
-const statusOptions = [
-    { label: 'Killed', value: 'Killed' },
-    { label: 'Missing', value: 'Missing' }
-];
+const statusOptions = computed(() => [
+    { label: t('victimsPage.killed'), value: 'Killed' },
+    { label: t('victimsPage.missing'), value: 'Missing' }
+]);
+
+const provinceOptions = computed(() => {
+    return allProvinces.value.map(p => ({
+        label: t(`provinces.${p}`, p),
+        value: p
+    }));
+});
 
 // Computed: Cities filtered by selected province
 const availableCities = computed(() => {
@@ -103,8 +113,7 @@ const applyFilters = () => {
         q: searchQuery.value,
         city: selectedCity.value,
         province: selectedProvince.value,
-        city: selectedCity.value,
-        province: selectedProvince.value,
+
         status: selectedStatus.value,
         category: selectedCategory.value
     });
@@ -120,7 +129,7 @@ const resetScroll = () => {
 
 
 
-const submissionStepTitle = ref('Submit New Victim');
+const submissionStepTitle = ref(t('victimsPage.submitDialogTitle'));
 
 const handleSubmission = async (payload: any) => {
     submitting.value = true;
@@ -188,9 +197,9 @@ const categoryOptions = computed(() => {
     const totalChild = allVictims.value.filter(v => v.child === true).length;
 
     return [
-        { label: `Male (${totalMale})`, value: 'Male' },
-        { label: `Female (${totalFemale})`, value: 'Female' },
-        { label: `Children (${totalChild})`, value: 'Child' }
+        { label: `${t('victimsPage.male')} (${pn(totalMale)})`, value: 'Male' },
+        { label: `${t('victimsPage.female')} (${pn(totalFemale)})`, value: 'Female' },
+        { label: `${t('victimsPage.children')} (${pn(totalChild)})`, value: 'Child' }
     ];
 });
 
@@ -268,6 +277,16 @@ const closeVictim = () => {
     router.push({ query });
 };
 
+const showMobileFilters = ref(false);
+
+const activeFilterCount = computed(() => {
+    let count = 0;
+    if (selectedProvince.value) count++;
+    if (selectedCity.value) count++;
+    if (selectedCategory.value) count++;
+    return count;
+});
+
 const showVictimDialog = computed({
     get: () => !!selectedVictimId.value,
     set: (val) => {
@@ -284,10 +303,10 @@ const showVictimDialog = computed({
             <div class="relative px-8 py-10 md:py-12">
                 <div class="max-w-3xl">
                     <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
-                        Remembering the Victims
+                        {{ t('victimsPage.heroTitle') }}
                     </h1>
                     <p class="text-lg text-surface-200 dark:text-surface-300 mb-6 leading-relaxed">
-                        Documenting and honoring those who lost their lives or went missing during the Lion and Sun Revolution of Iran
+                        {{ t('victimsPage.heroSubtitle') }}
                     </p>
                     
                     <!-- Stats -->
@@ -299,8 +318,11 @@ const showVictimDialog = computed({
                                 </svg>
                             </div>
                             <div>
-                                <p class="text-3xl font-bold text-white">{{ killedCount }}</p>
-                                <p class="text-sm text-surface-300 dark:text-surface-400">Killed</p>
+                                <p class="text-3xl font-bold text-white">
+                                    <Skeleton v-if="loading" width="2rem" height="2.5rem" class="!bg-white/20" />
+                                    <span v-else>{{ pn(killedCount) }}</span>
+                                </p>
+                                <p class="text-sm text-surface-300 dark:text-surface-400">{{ t('victimsPage.killed') }}</p>
                             </div>
                         </div>
                         <div class="flex items-center gap-3">
@@ -308,8 +330,11 @@ const showVictimDialog = computed({
                                 <i class="pi pi-search text-orange-400 text-xl"></i>
                             </div>
                             <div>
-                                <p class="text-3xl font-bold text-white">{{ missingCount }}</p>
-                                <p class="text-sm text-surface-300 dark:text-surface-400">Missing</p>
+                                <p class="text-3xl font-bold text-white">
+                                    <Skeleton v-if="loading" width="2rem" height="2.5rem" class="!bg-white/20" />
+                                    <span v-else>{{ pn(missingCount) }}</span>
+                                </p>
+                                <p class="text-sm text-surface-300 dark:text-surface-400">{{ t('victimsPage.missing') }}</p>
                             </div>
                         </div>
 
@@ -318,7 +343,7 @@ const showVictimDialog = computed({
 
                 <div class="absolute top-8 right-8 md:top-12 md:right-8">
                     <Button
-                        label="Submit a Victim"
+                        :label="t('victimsPage.submit')"
                         icon="pi pi-plus"
                         @click="showSubmitDialog = true"
                         class="hidden md:flex shadow-lg"
@@ -328,46 +353,121 @@ const showVictimDialog = computed({
         </div>
 
         <!-- Filters Section -->
-        <div class="sticky-trigger sticky top-0 z-40 bg-surface-0/95 dark:bg-surface-900/95 backdrop-blur-md rounded-xl border border-surface-200 dark:border-surface-700 p-5 shadow-md">
-            <!-- Filter Row -->
-            <div class="flex flex-col lg:flex-row gap-4 items-start lg:items-center">
-                <!-- Search -->
-                <div class="w-full lg:w-72">
-                    <IconField iconPosition="left" class="w-full">
-                        <InputIcon class="pi pi-search"></InputIcon>
-                        <InputText 
+        <div class="sticky-trigger sticky top-4 z-40 px-4 md:px-0 transition-all duration-300">
+            <div class="w-full mx-auto bg-surface-0/80 dark:bg-surface-900/80 backdrop-blur-xl rounded-2xl border border-surface-200/50 dark:border-surface-700/50 shadow-xl shadow-surface-900/5 overflow-hidden transition-all duration-300">
+                
+                <!-- Desktop Unified Bar -->
+                <div class="flex flex-col md:flex-row">
+                    <!-- Killed/Missing Tabs (Segmented Control style) -->
+                    <div class="p-2 md:pr-0 flex-shrink-0">
+                        <div class="bg-surface-100 dark:bg-surface-800 p-1 rounded-xl inline-flex w-full md:w-auto h-full items-center">
+                            <button 
+                                v-for="status in statusOptions" 
+                                :key="status.value"
+                                @click="selectedStatus = status.value"
+                                class="flex-1 md:flex-none px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ease-out"
+                                :class="[
+                                    selectedStatus === status.value 
+                                        ? 'bg-white dark:bg-surface-700 text-primary-600 dark:text-primary-400 shadow-sm ring-1 ring-black/5 dark:ring-white/5' 
+                                        : 'text-surface-500 dark:text-surface-400 hover:text-surface-900 dark:hover:text-surface-200 hover:bg-surface-200/50 dark:hover:bg-surface-700/50'
+                                ]"
+                            >
+                                {{ status.label }}
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Divider -->
+                    <div class="hidden md:block w-px bg-surface-200 dark:bg-surface-700 my-3 mx-2"></div>
+
+                    <!-- Search Input -->
+                    <div class="flex-1 relative group border-t md:border-t-0 border-surface-200 dark:border-surface-700">
+                        <i class="pi pi-search absolute left-4 top-1/2 -translate-y-1/2 text-surface-400 dark:text-surface-500 group-hover:text-primary-500 transition-colors"></i>
+                        <input 
                             v-model="searchQuery" 
-                            placeholder="Search name, location, occupation..." 
-                            class="w-full" 
+                            type="text" 
+                            :placeholder="t('victimsPage.searchPlaceholder')"
+                            class="w-full h-full bg-transparent border-none outline-none pl-11 pr-4 py-4 text-surface-900 dark:text-surface-0 placeholder:text-surface-400 focus:ring-0 text-base"
                         />
-                    </IconField>
+                    </div>
+
+                    <!-- Mobile Filter Toggle -->
+                    <div class="md:hidden flex border-t border-surface-200 dark:border-surface-700">
+                        <button 
+                            @click="showMobileFilters = !showMobileFilters" 
+                            class="flex-1 flex items-center justify-center gap-2 py-3 text-sm font-medium text-surface-600 dark:text-surface-300 hover:bg-surface-50 dark:hover:bg-surface-800/50 transition-colors"
+                        >
+                            <i class="pi" :class="showMobileFilters ? 'pi-chevron-up' : 'pi-filter'"></i>
+                            {{ showMobileFilters ? t('victimsPage.hideFilters') : t('victimsPage.showFilters') }}
+                            <Badge v-if="activeFilterCount > 0" :value="pn(activeFilterCount)" size="small" severity="primary" />
+                        </button>
+                    </div>
+
+                    <!-- Desktop Filters (Integrated) -->
+                    <div class="hidden md:flex items-center gap-2 pr-2">
+                        <div class="w-px bg-surface-200 dark:bg-surface-700 h-8 self-center mx-1"></div>
+                        
+                        <Select 
+                            v-model="selectedProvince" 
+                            :options="provinceOptions" 
+                            optionLabel="label"
+                            optionValue="value"
+                            :placeholder="t('victimsPage.filterProvince')" 
+                            showClear 
+                            class="w-36 !border-0 !bg-transparent !shadow-none"
+                            :pt="{
+                                root: { class: 'hover:bg-surface-100 dark:hover:bg-surface-800 rounded-lg transition-colors' },
+                                input: { class: '!py-2 !px-3 font-medium text-sm' }
+                            }"
+                        />
+                        
+                        <Select 
+                            v-model="selectedCity" 
+                            :options="availableCities" 
+                            :placeholder="t('victimsPage.filterCity')" 
+                            showClear 
+                            class="w-36 !border-0 !bg-transparent !shadow-none"
+                            :disabled="!selectedProvince"
+                            :pt="{
+                                root: { class: (!selectedProvince ? 'opacity-40 cursor-not-allowed' : 'hover:bg-surface-100 dark:hover:bg-surface-800') + ' rounded-lg transition-colors' },
+                                input: { class: '!py-2 !px-3 font-medium text-sm' }
+                            }"
+                        />
+
+                        <!-- Category Tags -->
+                        <div class="flex bg-surface-100 dark:bg-surface-800 rounded-lg p-1 ml-2">
+                            <button 
+                                v-for="cat in categoryOptions"
+                                :key="cat.value"
+                                @click="selectedCategory === cat.value ? selectedCategory = undefined : selectedCategory = cat.value"
+                                class="px-3 py-1.5 text-xs font-medium rounded-md transition-all text-surface-500 dark:text-surface-400 hover:text-surface-900 dark:hover:text-surface-200 hover:bg-white dark:hover:bg-surface-700 whitespace-nowrap"
+                                :class="{ '!bg-white dark:!bg-surface-600 !text-primary-600 dark:!text-primary-300 shadow-sm': selectedCategory === cat.value }"
+                            >
+                                {{ cat.label }}
+                            </button>
+                        </div>
+                    </div>
                 </div>
 
-                <!-- Filter Dropdowns -->
-                <div class="flex flex-wrap gap-3 w-full lg:w-auto lg:flex-1 lg:justify-end">
+                <!-- Mobile Expanded Filters -->
+                <div v-show="showMobileFilters" class="md:hidden border-t border-surface-200 dark:border-surface-700 p-4 bg-surface-50/50 dark:bg-surface-900/50 space-y-4 animate-fade-in-down">
                     <Select 
                         v-model="selectedProvince" 
-                        :options="allProvinces" 
-                        placeholder="Province" 
+                        :options="provinceOptions" 
+                        optionLabel="label"
+                        optionValue="value"
+                        :placeholder="t('victimsPage.filterProvince')" 
                         showClear 
-                        class="w-full sm:w-40"
+                        class="w-full"
                     />
                     <Select 
                         v-model="selectedCity" 
                         :options="availableCities" 
-                        :placeholder="selectedProvince ? 'City' : 'Select Province First'" 
+                        :placeholder="t('victimsPage.filterCity')" 
                         showClear 
-                        class="w-full sm:w-40"
+                        class="w-full"
+                        :class="{ 'opacity-50 cursor-not-allowed': !selectedProvince }"
                         :disabled="!selectedProvince"
-                    />
-                    <Select 
-                        v-model="selectedStatus" 
-                        :options="statusOptions" 
-                        optionLabel="label"
-                        optionValue="value"
-                        placeholder="Status" 
-                        showClear 
-                        class="w-full sm:w-32"
                     />
                     <SelectButton 
                         v-model="selectedCategory" 
@@ -375,16 +475,10 @@ const showVictimDialog = computed({
                         optionLabel="label"
                         optionValue="value"
                         :allowEmpty="true"
-                        class="w-full sm:w-auto text-sm"
+                        class="w-full"
                     />
-
                 </div>
             </div>
-
-
-
-
-
         </div>
 
         <!-- Mobile Submit Button (Floating) -->
@@ -418,10 +512,10 @@ const showVictimDialog = computed({
             <div ref="loadMoreSentinel" class="h-20 flex items-center justify-center">
                 <div v-if="hasMore" class="flex items-center gap-2 text-surface-500">
                     <i class="pi pi-spin pi-spinner text-xl"></i>
-                    <span>Loading more...</span>
+                    <span>{{ t('victimsPage.loadingMore') }}</span>
                 </div>
                 <div v-else-if="filteredVictims.length > itemsPerPage" class="text-surface-400 text-sm italic">
-                    You've reached the end of the list
+                    {{ t('victimsPage.endOfList') }}
                 </div>
             </div>
         </div>
@@ -432,9 +526,9 @@ const showVictimDialog = computed({
             <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-surface-200 dark:bg-surface-800 flex items-center justify-center">
                 <i class="pi pi-search text-3xl text-surface-400"></i>
             </div>
-            <h3 class="text-xl font-semibold text-surface-900 dark:text-surface-0 mb-2">No victims found</h3>
+            <h3 class="text-xl font-semibold text-surface-900 dark:text-surface-0 mb-2">{{ t('victimsPage.emptyTitle') }}</h3>
             <p class="text-surface-500 mb-6 max-w-md mx-auto">
-                We couldn't find any victims matching your search criteria. Try adjusting your filters.
+                {{ t('victimsPage.emptyDescription') }}
             </p>
 
         </div>
@@ -454,16 +548,16 @@ const showVictimDialog = computed({
             <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center">
                 <i class="pi pi-check text-4xl text-green-500"></i>
             </div>
-            <h3 class="text-2xl font-bold mb-2 text-surface-900 dark:text-surface-0">Submission Successful!</h3>
-            <p class="text-surface-600 dark:text-surface-400">Thank you for your contribution. Your submission will be reviewed by our team.</p>
+            <h3 class="text-2xl font-bold mb-2 text-surface-900 dark:text-surface-0">{{ t('victimsPage.successTitle') }}</h3>
+            <p class="text-surface-600 dark:text-surface-400">{{ t('victimsPage.successMessage') }}</p>
         </div>
         <div v-else-if="submitError" class="text-center py-8">
             <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-red-100 dark:bg-red-900/30 flex items-center justify-center">
                 <i class="pi pi-times text-4xl text-red-500"></i>
             </div>
-            <h3 class="text-2xl font-bold mb-2 text-red-600">Submission Failed</h3>
+            <h3 class="text-2xl font-bold mb-2 text-red-600">{{ t('victimsPage.failedTitle') }}</h3>
             <p class="text-surface-600 dark:text-surface-400 mb-4">{{ submitError }}</p>
-            <Button label="Try Again" icon="pi pi-refresh" @click="submitError = ''" />
+            <Button :label="t('victimsPage.tryAgain')" icon="pi pi-refresh" @click="submitError = ''" />
         </div>
         <VictimSubmissionForm v-else :submitting="submitting" @submit="handleSubmission" @update:step-title="submissionStepTitle = $event" />
     </Dialog>

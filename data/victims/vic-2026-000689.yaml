@@ -2,7 +2,8 @@
 # Victim Documentation - Mehrdad Rezbarr
 # ==========================================
 
-photo: vic-2026-000689.jpg
+photo:
+  - vic-2026-000689.jpg
 name: Mehrdad Rezbarr
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Martyred during protests in Bandar Abbas.
 source_type: Social Media
 source_social_media_link: https://x.com/thebalochworld/status/2014626960455176573
-child: false
 persian_name: مehrshad رگبار

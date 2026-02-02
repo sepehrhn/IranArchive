@@ -2,7 +2,9 @@
 # Victim Documentation - Bahman Fatehi
 # ==========================================
 
-photo: vic-2026-2140036.jpg
+photo:
+  - "vic-2026-2140036.jpg"
+  - "vic-2026-e9f8fb2f044c.jpg"
 name: Bahman Fatehi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-04"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed during protests.
+description: Killed during protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/72
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/72"
+  - "https://x.com/hengawo/status/2013547854837493921"
 persian_name: بهمن فتاحی

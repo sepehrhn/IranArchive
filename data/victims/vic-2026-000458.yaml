@@ -2,7 +2,12 @@
 # Victim Documentation - Yasin Elahi
 # ==========================================
 
-photo: vic-2026-000458.jpg
+photo:
+  - "vic-2026-000458.jpg"
+  - "vic-2026-56434ce38c12.jpg"
+  - "vic-2026-af959769e236.jpg"
+  - "vic-2026-5396c0999250.jpg"
+  - "vic-2026-1267eecb1ebb.jpg"
 name: Yasin Elahi
 birth_date: ""
 birth_province: ""
@@ -21,6 +26,10 @@ status: Killed
 description: |
   Shot in the chest with Kalashnikov bullet by Islamic Republic suppression forces during protests at Falakeh Dovom Dolatabad Tehran
 source_type: Social Media
-source_social_media_link: https://x.com/kurdpa_farsi/status/2013256647624298681, https://x.com/hengawo/status/2013334156923548092, https://x.com/hiwa_life/status/2014676134684758132, https://x.com/HengawO/status/2013340887531634939, https://x.com/KurdistanHRN/status/2013630712088281345, https://x.com/RadioFarda_/status/2015067984314749252, https://t.me/RememberTheirNames/260
-child: false
+source_social_media_link:
+  - "https://x.com/kurdpa_farsi/status/2013256647624298681, https://x.com/hengawo/status/2013334156923548092, https://x.com/hiwa_life/status/2014676134684758132, https://x.com/HengawO/status/2013340887531634939, https://x.com/KurdistanHRN/status/2013630712088281345, https://x.com/RadioFarda_/status/2015067984314749252, https://t.me/RememberTheirNames/260"
+  - "https://x.com/HengawO/status/2013340887531634939"
+  - "https://x.com/hengawo/status/2013334156923548092"
+  - "https://x.com/KurdistanHRN/status/2013630712088281345"
+  - "https://x.com/RadioFarda_/status/2015067984314749252"
 persian_name: یاسین الهی

@@ -2,7 +2,9 @@
 # Victim Documentation - Shahin Ramtin Keshavarz
 # ==========================================
 
-photo: vic-2026-2140011.jpg
+photo:
+  - "vic-2026-2140011.jpg"
+  - "vic-2026-6e7490893fc5.webp"
 name: Shahin Ramtin Keshavarz
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot and killed by plainclothes officers in a white Samand car on the night of 18th Dey. Family retrieved his body with great difficulty and buried him at 3-4 AM without anyone present, maintaining complete media silence. Intelligence officers threatened the family that if anyone holds ceremonies or posts any announcements, they would arrest his brother and father. He had completed all his marriage and engagement preparations and was planning to finalize everything in the next few days when he was killed by the Islamic Republic.
+description: Shot and killed by plainclothes officers in a white Samand car on the night of 18th Dey. Family retrieved his body with great difficulty and buried him at 3-4 AM without anyone present, maintaining complete media silence. Intelligence officers threatened the family that if anyone holds ceremonies or posts any announcements, they would arrest his brother and father. He had completed all his marriage and engagement preparations and was planning to finalize everything in the next few days when he was killed by the Islamic Republic.
 source_type: Social Media
-source_social_media_link: https://x.com/HyrcaniHRM/status/2015725416229536212, https://x.com/hyrcanihrm/status/2015725416229536212, https://www.instagram.com/p/DUA40gCgn9I, https://x.com/ariakeoxer/status/2016444935202030078
-child: false
+source_social_media_link:
+  - "https://x.com/HyrcaniHRM/status/2015725416229536212, https://x.com/hyrcanihrm/status/2015725416229536212, https://www.instagram.com/p/DUA40gCgn9I, https://x.com/ariakeoxer/status/2016444935202030078"
+  - "https://www.instagram.com/p/DUA40gCgn9I"
 persian_name: رامتین کشاورز

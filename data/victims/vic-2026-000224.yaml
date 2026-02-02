@@ -2,7 +2,10 @@
 # Victim Documentation - Ali Aghajani
 # ==========================================
 
-photo: vic-2026-000224.jpg
+photo:
+  - "vic-2026-000224.jpg"
+  - "vic-2026-126e0ea807fc.jpg"
+  - "vic-2026-7c671c817d88.jpg"
 name: Ali Aghajani
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,7 @@ description: |-
 
   Shot in the neck by security forces from the roof of Al-Rasul Mosque and died at the scene. He was to turn 26 the day after his death. Buried in a village in Takestan county.
 source_type: Social Media
-source_social_media_link: https://x.com/soranmansournia/status/2014450970630017024, https://x.com/HengawO/status/2014294428643389752, https://x.com/hiwa_life/status/2015482868844098038, https://t.me/RememberTheirNames/609
-child: false
+source_social_media_link:
+  - "https://x.com/soranmansournia/status/2014450970630017024, https://x.com/HengawO/status/2014294428643389752, https://x.com/hiwa_life/status/2015482868844098038, https://t.me/RememberTheirNames/609"
+  - "https://x.com/HengawO/status/2014294428643389752"
 persian_name: علی آقاجانی

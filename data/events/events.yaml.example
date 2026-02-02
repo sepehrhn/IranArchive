@@ -73,6 +73,8 @@ organizer:
     telegram: "https://t.me/example"
 
 # Announcement link (Required) - e.g. Instgram post or tweet
-announcement: "https://example.org/poster.jpg"
+# Sources (Required) - e.g. Instagram post or tweet links
+source:
+  - "https://example.org/poster.jpg"
 
 # Features

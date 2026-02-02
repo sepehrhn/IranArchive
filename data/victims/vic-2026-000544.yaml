@@ -2,7 +2,13 @@
 # Victim Documentation - Arash Yazdani
 # ==========================================
 
-photo: vic-2026-000544.png
+photo:
+  - "vic-2026-000544.png"
+  - "vic-2026-d78b64219bd4.png"
+  - "vic-2026-3c12d578b159.png"
+  - "vic-2026-be0b62964dc3.png"
+  - "vic-2026-dfded6f51c8b.png"
+  - "vic-2026-0a0ac533d151.jpg"
 name: Arash Yazdani
 birth_date: ""
 birth_province: ""
@@ -21,6 +27,8 @@ status: Killed
 description: |
   Shot directly by Islamic Republic of Iran government forces during protests
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2012921563700400340, https://x.com/hengawo/status/2013224113272135817, https://x.com/Daikatuo/status/2011846379635716511, https://t.me/RememberTheirNames/1541
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2012921563700400340, https://x.com/hengawo/status/2013224113272135817, https://x.com/Daikatuo/status/2011846379635716511, https://t.me/RememberTheirNames/1541"
+  - "https://x.com/Daikatuo/status/2011846379635716511"
+  - "https://t.me/RememberTheirNames/1541"
 persian_name: آرش یزدانی

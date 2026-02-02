@@ -2,24 +2,24 @@
 # Victim Documentation - Ahmad Jalil Piraan
 # ==========================================
 
-photo: vic-2026-001473.png
+photo:
+  - vic-2026-001473.png
 name: Ahmad Jalil Piraan
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 17
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Chahar Mahaal and Bakhtiari
 incident_city: Lordegan
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: Gunshot
 status: Killed
-description: ''
+description: ""
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: true
+  - ""

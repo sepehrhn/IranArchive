@@ -62,7 +62,7 @@
              <div v-for="(item, idx) in incident.review_history" :key="idx" class="relative pl-6">
                   <div class="absolute -left-[5.5px] top-1.5 w-2.5 h-2.5 rounded-full bg-surface-0 dark:bg-surface-800 border-2 border-surface-300 dark:border-surface-600"></div>
                   
-                  <div class="text-xs text-surface-400 mb-0.5 font-mono">{{ formatDate(item.at) }}</div>
+                  <div class="text-xs text-surface-400 mb-0.5">{{ $nFa(formatDate(item.at)) }}</div>
                   <div class="flex flex-wrap gap-2 items-center mb-1">
                        <span class="font-bold text-sm text-surface-800 dark:text-surface-200">{{ item.reviewer }}</span>
                        <Badge :value="item.change" severity="secondary" class="text-[10px] h-5" />

@@ -2,7 +2,9 @@
 # Victim Documentation - Peyman Azimi
 # ==========================================
 
-photo: vic-2026-001184.jpg
+photo:
+  - "vic-2026-001184.jpg"
+  - "vic-2026-7715d8afaabb.jpg"
 name: Peyman Azimi
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,9 @@ description: |-
 
   Shot in the head and killed. Originally from Moghan.
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2015168465980751944, https://x.com/monfaredashkan/status/2015170885452472509, https://x.com/zaratusht/status/2015426851968012611
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2015168465980751944, https://x.com/monfaredashkan/status/2015170885452472509, https://x.com/zaratusht/status/2015426851968012611"
+  - "https://x.com/monfaredashkan/status/2015168465980751944"
+  - "https://x.com/zaratusht/status/2015426851968012611"
+  - "https://x.com/MonfaredAshkan/status/2015168465980751944"
 persian_name: پیمان عظیمی

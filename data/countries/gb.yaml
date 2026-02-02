@@ -2,23 +2,29 @@ iso2: GB
 name: "United Kingdom"
 region: "Europe"
 subregion: "Northern Europe"
-last_reviewed_at: '2026-01-19'
+last_reviewed_at: '2026-02-01'
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
   summary: "Relations tense. UK leading new sanctions regime. Iran International (media) threats on UK soil caused strain."
 irgc_designation:
-  status: security_threat
-  summary: "Sanctioned many leaders. Designation as terrorist organization debated in Parliament."
+  status: under_consideration
+  summary: "Sanctioned many leaders. Designation as a terrorist organization is officially under consideration by the UK Parliament as of early 2026, following similar moves by the EU."
 un_posture:
   status: supports_accountability
   supports_un_investigations: true
-  supports_sanctions_or_condemnation: false
+  supports_sanctions_or_condemnation: true
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "E3 member. Leads resolutions on human rights."
+  summary: "E3 member. Leads resolutions on human rights and human rights investigations."
 security_posture:
   status: explicit_support
   summary: "Participates in Red Sea maritime security operations."
-evidence: []
+evidence:
+  - title: "EU, UK face pressure to name Iran’s Guards as terrorists"
+    publisher: "The Times"
+    date: "2026-02-01"
+    url: "https://www.thetimes.com/world/middle-east/article/eu-irgc-terrorist-iran-news-cfngbn3fc"
+    summary: "Report indicating that the UK Parliament is under increasing pressure and is actively considering the designation of the IRGC as a terrorist group."
+    tags: ["irgc"]

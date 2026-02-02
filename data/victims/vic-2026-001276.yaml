@@ -2,19 +2,22 @@
 # Victim Documentation - Reza Ahmadi Lor
 # ==========================================
 
-photo: vic-2026-001276.jpg
+photo:
+  - "vic-2026-001276.jpg"
+  - "vic-2026-ad5aadb5faa6.jpg"
+  - "vic-2026-77ee579097fc.jpg"
 name: Reza Ahmadi Lor
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Yazdanshahr
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -24,5 +27,5 @@ description: |
   Shot directly by suppressive forces and died.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hirman__/status/2015277359943811241
-child: false
+  - "https://x.com/hirman__/status/2015277359943811241"
+  - "https://x.com/hirman__/status/2015601915485130779"

@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Amin Gholami Dinvar
 # ==========================================
 
-photo: vic-2026-2139811.jpg
+photo:
+  - "vic-2026-2139811.jpg"
+  - "vic-2026-cfd47d9692f6.jpg"
 name: Mohammad Amin Gholami Dinvar
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died during the 2025-2026 Iranian protests
+description: Died during the 2025-2026 Iranian protests
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1640
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1640"
+  - "https://x.com/iranintl/status/2017223652001956343"
 persian_name: محمدامین غلامی دینور

@@ -2,7 +2,10 @@
 # Victim Documentation - Milad Mianeh Khah Monfaredi
 # ==========================================
 
-photo: vic-2026-000361.jpg
+photo:
+  - "vic-2026-000361.jpg"
+  - "vic-2026-0f9e52764a44.jpg"
+  - "vic-2026-ead0126f7a98.jpg"
 name: Milad Mianeh Khah Monfaredi
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,8 @@ status: Killed
 description: |
   Shot with a military bullet by the suppression forces of the Islamic Republic during the Iranian Revolution.
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2013597379912434000, https://x.com/iranintlsport/status/2014640467065880734, https://www.instagram.com/p/DT3fVA7Dmj4, https://t.me/RememberTheirNames/233
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2013597379912434000, https://x.com/iranintlsport/status/2014640467065880734, https://www.instagram.com/p/DT3fVA7Dmj4, https://t.me/RememberTheirNames/233"
+  - "https://x.com/manotonews/status/2013597379912434000"
+  - "https://www.instagram.com/p/DT3fVA7Dmj4"
 persian_name: میلاد میانه خواه منفرد

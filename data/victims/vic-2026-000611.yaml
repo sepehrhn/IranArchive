@@ -2,7 +2,11 @@
 # Victim Documentation - Ghasem Shemsh
 # ==========================================
 
-photo: vic-2026-000611.jpg
+photo:
+  - "vic-2026-000611.jpg"
+  - "vic-2026-884df9699508.jpg"
+  - "vic-2026-59438f9cfba4.jpg"
+  - "vic-2026-8efc11dfa495.jpg"
 name: Ghasem Shemsh
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,7 @@ description: |-
 
   Shot directly by security forces of the Islamic Republic, the bullet hit his face and caused fatal damage to his brain.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2014536385936400421, https://www.instagram.com/p/DT1nELqiE_A, https://t.me/RememberTheirNames/799
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2014536385936400421, https://www.instagram.com/p/DT1nELqiE_A, https://t.me/RememberTheirNames/799"
+  - "https://www.instagram.com/p/DT1nELqiE_A"
 persian_name: قاسم شمش

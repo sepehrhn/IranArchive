@@ -179,7 +179,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <IftaLabel>
-                  <Calendar
+                  <FormDateInput
                     id="ev_start_date"
                     v-model="form.startDate"
                     dateFormat="yy/mm/dd"
@@ -222,15 +222,15 @@
             <!-- End Date Fields (conditional) -->
             <div v-if="showEndDate" class="grid grid-cols-1 md:grid-cols-2 gap-6 pt-2">
               <IftaLabel>
-                <Calendar
-                  id="ev_end_date"
-                  v-model="form.endDate"
-                  dateFormat="yy/mm/dd"
-                  showIcon
-                  class="w-full"
-                  variant="filled"
-                  placeholder=" "
-                />
+                  <FormDateInput
+                    id="ev_end_date"
+                    v-model="form.endDate"
+                    dateFormat="yy/mm/dd"
+                    showIcon
+                    class="w-full"
+                    variant="filled"
+                    placeholder=" "
+                  />
                 <label for="ev_end_date">End Date</label>
               </IftaLabel>
 

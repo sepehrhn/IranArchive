@@ -2,7 +2,8 @@
 # Victim Documentation - Babak Biyatian
 # ==========================================
 
-photo: vic-2026-001049.jpg
+photo:
+  - vic-2026-001049.jpg
 name: Babak Biyatian
 birth_date: ""
 birth_province: ""
@@ -25,5 +26,4 @@ description: |-
   Described as 'Javid Nam' (eternal name), implying he was killed. His family was threatened.
 source_type: Social Media
 source_social_media_link: https://x.com/revolution_r_/status/2014958271954563284
-child: false
 persian_name: بابک بیاتیان

@@ -2,7 +2,8 @@
 # Victim Documentation - Bayat Sobhani
 # ==========================================
 
-photo: vic-2026-000566.jpg
+photo:
+  - vic-2026-000566.jpg
 name: Bayat Sobhani
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Kurdish Horami from Shamshir village, shot dead by IRGC during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/102
-child: false
 persian_name: بیات سبحانی

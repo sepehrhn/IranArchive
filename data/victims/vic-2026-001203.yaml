@@ -2,7 +2,8 @@
 # Victim Documentation - Saeed Joodaki Masoor
 # ==========================================
 
-photo: vic-2026-001203.jpg
+photo:
+  - vic-2026-001203.jpg
 name: Saeed Joodaki Masoor
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Shot directly by security forces, bullet hit his heart in Masoor neighborhood
 source_type: Social Media
 source_social_media_link: https://x.com/hirman__/status/2014442919495635322
-child: false
 persian_name: سعید جودکی ماسور

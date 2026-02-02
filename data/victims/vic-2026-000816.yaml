@@ -2,7 +2,10 @@
 # Victim Documentation - Saeed Ardeshir
 # ==========================================
 
-photo: vic-2026-000816.jpg
+photo:
+  - "vic-2026-000816.jpg"
+  - "vic-2026-ad64348c925f.jpg"
+  - "vic-2026-2ff130a2d120.jpg"
 name: Saeed Ardeshir
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Shot directly with a bullet from behind by government agents in front of his wife and mother during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2013854073272049896, https://t.me/RememberTheirNames/477
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2013854073272049896, https://t.me/RememberTheirNames/477"
+  - "https://x.com/manotonews/status/2013854073272049896"
 persian_name: سعید اردشیر

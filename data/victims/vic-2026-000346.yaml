@@ -2,7 +2,9 @@
 # Victim Documentation - Mehran Zand
 # ==========================================
 
-photo: vic-2026-000346.jpg
+photo:
+  - "vic-2026-000346.jpg"
+  - "vic-2026-7d4e462d549d.jpg"
 name: Mehran Zand
 birth_date: ""
 birth_province: ""
@@ -25,5 +27,4 @@ description: |-
   Shot and killed by regime agents after being injured during protests on 19 Dey.
 source_type: Social Media
 source_social_media_link: https://x.com/pouriazeraati/status/2015002098753057188, https://t.me/RememberTheirNames/1022
-child: false
 persian_name: مهران زند

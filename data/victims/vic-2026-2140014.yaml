@@ -2,7 +2,11 @@
 # Victim Documentation - Somayeh Ghavadi
 # ==========================================
 
-photo: vic-2026-2140014.jpg
+photo:
+  - "vic-2026-2140014.jpg"
+  - "vic-2026-e8d272909808.jpg"
+  - "vic-2026-891343291587.jpg"
+  - "vic-2026-56fff597c9aa.jpg"
 name: Somayeh Ghavadi
 birth_date: ""
 birth_province: ""
@@ -18,9 +22,12 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot directly in the heart while returning home after finishing her daily tailoring work in the Naziaabad neighborhood of Tehran.
+description: Shot directly in the heart while returning home after finishing her daily tailoring work in the Naziaabad neighborhood of Tehran.
 source_type: Social Media
-source_social_media_link: https://x.com/iranintlbrk/status/2016121915794944128, https://t.me/RememberTheirNames/1646
-child: false
+source_social_media_link:
+  - "https://x.com/iranintlbrk/status/2016121915794944128, https://t.me/RememberTheirNames/1646"
+  - "https://x.com/iranintlbrk/status/2016121915794944128"
+  - "https://x.com/allahbakhshii/status/2017011878753349936"
+  - "https://x.com/i/status/2017011878753349936"
+  - "https://x.com/allahbakhshii/status/2018002288506208309"
 persian_name: سمیه قبادی

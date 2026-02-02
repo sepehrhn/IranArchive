@@ -2,7 +2,11 @@
 # Victim Documentation - Mehdi Karimpour
 # ==========================================
 
-photo: vic-2026-001132.jpg
+photo:
+  - "vic-2026-001132.jpg"
+  - "vic-2026-5adbfc46bffc.jpg"
+  - "vic-2026-36ed592bd5a5.jpg"
+  - "vic-2026-910c557ea4db.jpg"
 name: Mehdi Karimpour
 birth_date: ""
 birth_province: ""
@@ -11,7 +15,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Meshkindasht
 incident_address: Meshkindasht
 date_of_death: "2026-01-10"
@@ -24,6 +28,8 @@ description: |-
 
   Killed in recent days. Further details will be updated as they become available.
 source_type: Social Media
-source_social_media_link: https://x.com/MonfaredAshkan/status/2014869886464622793, https://x.com/monfaredashkan/status/2014869886464622793, https://x.com/monfaredashkan/status/2014893846325543185, https://x.com/MonfaredAshkan/status/2014893846325543185, https://t.me/RememberTheirNames/1094
-child: false
+source_social_media_link:
+  - "https://x.com/MonfaredAshkan/status/2014869886464622793, https://x.com/monfaredashkan/status/2014869886464622793, https://x.com/monfaredashkan/status/2014893846325543185, https://x.com/MonfaredAshkan/status/2014893846325543185, https://t.me/RememberTheirNames/1094"
+  - "https://x.com/monfaredashkan/status/2014869886464622793"
+  - "https://x.com/MonfaredAshkan/status/2014869886464622793"
 persian_name: مهدی کریم‌پور

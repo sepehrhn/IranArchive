@@ -2,13 +2,17 @@
 # Victim Documentation - Arshia Hozoori
 # ==========================================
 
-photo: vic-2026-000557.jpg
+photo:
+  - "vic-2026-000557.jpg"
+  - "vic-2026-f7a449220c6f.jpg"
+  - "vic-2026-ce2fbc6e8a15.jpg"
+  - "vic-2026-c69e1034e430.png"
 name: Arshia Hozoori
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 25
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,6 +28,8 @@ description: |-
 
   No details provided beyond name, date, and location.
 source_type: Social Media
-source_social_media_link: https://x.com/perdant/status/2014390781914546467, https://t.me/RememberTheirNames/115
-child: false
+source_social_media_link:
+  - "https://x.com/perdant/status/2014390781914546467, https://t.me/RememberTheirNames/115"
+  - "https://x.com/i/status/2016991141414027419"
+  - "https://x.com/kayhanlondon/status/2017538471481446482"
 persian_name: عرشیا حضوری

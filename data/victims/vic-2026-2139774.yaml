@@ -2,7 +2,10 @@
 # Victim Documentation - Aref Gol Mohammadi
 # ==========================================
 
-photo: vic-2026-2139774.jpg
+photo:
+  - "vic-2026-2139774.jpg"
+  - "vic-2026-705416f89986.jpg"
+  - "vic-2026-5afe3cb4caa0.jpg"
 name: Aref Gol Mohammadi
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,9 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot directly by government suppression forces during protests
+description: Shot directly by government suppression forces during protests
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2016466282288161116, https://t.me/RememberTheirNames/1635
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2016466282288161116, https://t.me/RememberTheirNames/1635"
+  - "https://t.me/RememberTheirNames/1635"
 persian_name: عارف گل محمدی

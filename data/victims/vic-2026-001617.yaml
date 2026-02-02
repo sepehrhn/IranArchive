@@ -2,7 +2,8 @@
 # Victim Documentation - Seyed Davood Emami Meybodi
 # ==========================================
 
-photo: vic-2026-001617.jpg
+photo:
+  - vic-2026-001617.jpg
 name: Seyed Davood Emami Meybodi
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Died in Dey 1404 (January 2026). Specific circumstances of death not detailed.
 source_type: Social Media
 source_social_media_link: https://x.com/indypersian/status/2014771604593770526, https://t.me/RememberTheirNames/620
-child: false
 persian_name: سید داوود امامی

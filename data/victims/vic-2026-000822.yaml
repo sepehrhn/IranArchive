@@ -2,7 +2,15 @@
 # Victim Documentation - Saeed Panahi
 # ==========================================
 
-photo: vic-2026-000822.jpg
+photo:
+  - "vic-2026-000822.jpg"
+  - "vic-2026-bf79b91c6bdb.jpg"
+  - "vic-2026-9adad9f37181.jpg"
+  - "vic-2026-f33a39021f5e.jpg"
+  - "vic-2026-001251.jpg"
+  - "vic-2026-e220aada9baf.jpg"
+  - "vic-2026-a97c3e792594.jpg"
+  - "vic-2026-30ad64f84413.jpg"
 name: Saeed Panahi
 birth_date: ""
 birth_province: ""
@@ -11,7 +19,7 @@ gender: Female
 age: 29
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Gohardasht
 incident_address: Gohardasht
 date_of_death: "2026-01-01"
@@ -21,6 +29,12 @@ status: Killed
 description: |
   Shot by agents of the Islamic Republic during protests. First bullet hit his side; second bullet struck his jugular artery, causing him to die on the spot in front of his wife.
 source_type: Social Media
-source_social_media_link: https://x.com/maroofian_n/status/2014771901541888115, https://t.me/RememberTheirNames/903, https://x.com/monfaredashkan/status/2016248172952322098
-child: false
+source_social_media_link:
+  - "https://x.com/maroofian_n/status/2014771901541888115, https://t.me/RememberTheirNames/903, https://x.com/monfaredashkan/status/2016248172952322098"
+  - "https://x.com/maroofian_n/status/2014771901541888115"
+  - "https://x.com/MonfaredAshkan/status/2016222005549531225"
+  - "https://x.com/HengawO/status/2015368960540070106, https://x.com/iranwire/status/2016027307027157198, https://t.me/RememberTheirNames/940"
+  - "https://x.com/HengawO/status/2015368960540070106"
+  - "https://x.com/iranwire/status/2016027307027157198"
+  - "https://x.com/kyokushinsoofi/status/2017196598770511996"
 persian_name: سعید پناهی

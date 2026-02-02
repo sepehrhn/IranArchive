@@ -2,19 +2,21 @@
 # Victim Documentation - Mehdi
 # ==========================================
 
-photo: vic-2026-001127.jpg
+photo:
+  - "vic-2026-001127.jpg"
+  - "vic-2026-93d0be5e5734.jpg"
 name: Mehdi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_province: ""
+incident_city: ""
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,4 +25,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/pkhwshhal/status/2015122603980042539
-child: false

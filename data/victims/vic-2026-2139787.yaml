@@ -2,13 +2,17 @@
 # Victim Documentation - Erfan Sahebi
 # ==========================================
 
-photo: vic-2026-2139787.jpg
+photo:
+  - "vic-2026-2139787.jpg"
+  - "vic-2026-15a7e12bfd50.jpg"
+  - "vic-2026-671550a9c874.jpg"
+  - "vic-2026-3dd3b96ce284.jpg"
 name: Erfan Sahebi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 49
 occupation: ""
 country: Iran
 incident_province: ""
@@ -18,9 +22,9 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Torbat-e Jam during the protests
+description: Died in Torbat-e Jam during the protests
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1532
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1532"
+  - "https://x.com/pkhwshhal/status/2017353371389136954"
 persian_name: عرفان صاحبی

@@ -2,7 +2,9 @@
 # Victim Documentation - Rasoul Tahmasbi Lor
 # ==========================================
 
-photo: vic-2026-001196.jpg
+photo:
+  - "vic-2026-001196.jpg"
+  - "vic-2026-f5ba05c07595.jpg"
 name: Rasoul Tahmasbi Lor
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Died from direct gunfire by security forces.
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2014749822247485555, https://x.com/SalarvandN21943/status/2014751363146592422
-child: false
+source_social_media_link:
+  - "https://x.com/hirman__/status/2014749822247485555, https://x.com/SalarvandN21943/status/2014751363146592422"
+  - "https://x.com/hirman__/status/2014749822247485555"
 persian_name: رسول طهماسبی لر

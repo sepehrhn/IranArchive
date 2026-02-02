@@ -2,7 +2,10 @@
 # Victim Documentation - Nima
 # ==========================================
 
-photo: vic-2026-001275.jpg
+photo:
+  - "vic-2026-001275.jpg"
+  - "vic-2026-2f3c0538466d.jpg"
+  - "vic-2026-c12a69d397b5.jpg"
 name: Nima
 birth_date: ""
 birth_province: ""
@@ -26,6 +29,7 @@ description: |-
 
   Fell off the back of a motorcycle while being driven home, sustained a head injury, and died. His body was transferred to Baghe Rezvan (a cemetery) and then handed over to his family. The tweet mentions he was transgender and was on his way home. The circumstances of his death are presented as a result of the protests, with the phrase 'رفیق مارو با هزار ارزو امید کشتین' (You killed our friend with a thousand wishes and hopes).
 source_type: Social Media
-source_social_media_link: https://x.com/Soranmansournia/status/2012249572823720305, https://x.com/Amymous021/status/2015163032297455945
-child: false
+source_social_media_link:
+  - "https://x.com/Soranmansournia/status/2012249572823720305, https://x.com/Amymous021/status/2015163032297455945"
+  - "https://x.com/Amymous021/status/2015163032297455945"
 persian_name: نیما

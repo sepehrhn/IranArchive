@@ -2,7 +2,10 @@
 # Victim Documentation - Hojjat Jokar
 # ==========================================
 
-photo: vic-2026-001701.jpg
+photo:
+  - "vic-2026-001701.jpg"
+  - "vic-2026-96ef6ca68b47.jpg"
+  - "vic-2026-170e4c8e4864.jpg"
 name: Hojjat Jokar
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,8 @@ description: |-
 
   Was helping an injured protester when he was shot directly in the back of the head by security forces. He died in his son's arms. His body was withheld by security forces for three days and his family was pressured to claim he was a Basij member to receive his body. He was buried in his hometown behind Rasht Airport without a ceremony.
 source_type: Social Media
-source_social_media_link: https://x.com/HyrcaniHRM/status/2016054863868698715, https://t.me/RememberTheirNames/1503
-child: false
+source_social_media_link:
+  - "https://x.com/HyrcaniHRM/status/2016054863868698715, https://t.me/RememberTheirNames/1503"
+  - "https://x.com/HyrcaniHRM/status/2016054863868698715"
+  - "https://t.me/RememberTheirNames/1503"
 persian_name: حجت جوکار

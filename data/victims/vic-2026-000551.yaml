@@ -2,7 +2,10 @@
 # Victim Documentation - Arman Gerjeyan
 # ==========================================
 
-photo: vic-2026-000551.jpg
+photo:
+  - "vic-2026-000551.jpg"
+  - "vic-2026-0e74523b4c24.jpg"
+  - "vic-2026-7b336eb295ee.jpg"
 name: Arman Gerjeyan
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: 20
 occupation: ""
 country: Iran
-incident_province: Mamasani
+incident_province: ""
 incident_city: Baba Meydan
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -24,6 +27,8 @@ description: |-
 
   Died from direct gunfire by Basij and IRGC forces, with the bullet hitting his heart. His gravestone bears the inscription 'For what sin were you killed?'
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2014433128253677970, https://x.com/EhsanZareei/status/2014445102333083721, https://x.com/Tavaana/status/2015511474589065269, https://x.com/thefirstmim/status/2015309944573067432
-child: false
+source_social_media_link:
+  - "https://x.com/hirman__/status/2014433128253677970, https://x.com/EhsanZareei/status/2014445102333083721, https://x.com/Tavaana/status/2015511474589065269, https://x.com/thefirstmim/status/2015309944573067432"
+  - "https://x.com/EhsanZareei/status/2014445102333083721"
+  - "https://x.com/thefirstmim/status/2015309944573067432"
 persian_name: آرمان گرجیان

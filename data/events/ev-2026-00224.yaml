@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Embassy Sit-in / Protest"
+
+featured: false
+
+description: |
+  Potential recurring protest condemning the regime's crackdown and execution of protesters.
+  
+  **Tips:** Police often cordon off the street; bring ID.
+  
+  **Location Details:** Metro Pío XII
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: ""
+
+
+location:
+  country: "ES"
+  city: "Madrid"
+  address: "Embassy of Iran, Calle Jerez 5"
+
+online: []
+
+organizer:
+  name: "Independent activists"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqawBnCfEd3Rddu6n6DmNnr3lQsrLmYjFO9pt27p4Yz1JYSrKHpx2mFV1wey2FXPQ_ubaWHWw9x7-pXBwvfXE_ZK7aqVggGd3-EI_PZxHcUq_Kq-FJnlx3eXPEy3pKgkLLAj4="

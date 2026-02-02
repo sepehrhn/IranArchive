@@ -2,13 +2,16 @@
 # Victim Documentation - Mohsen Hosseinian Moghadam
 # ==========================================
 
-photo: vic-2026-002019.jpg
+photo:
+  - "vic-2026-002019.jpg"
+  - "vic-2026-b296d17a1126.jpg"
+  - "vic-2026-19b6896f21a3.jpg"
 name: Mohsen Hosseinian Moghadam
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 39
 occupation: ""
 country: Iran
 incident_province: Lorestan
@@ -25,6 +28,7 @@ description: |-
 
   Killed by agents. Native of Khorramabad, Lorestan.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/981, https://x.com/me_azadi/status/2016226308166983761
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/981, https://x.com/me_azadi/status/2016226308166983761"
+  - "https://x.com/me_azadi/status/2016226308166983761"
 persian_name: محسن حسینیان مقدم

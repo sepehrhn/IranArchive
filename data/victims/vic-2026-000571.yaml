@@ -2,7 +2,9 @@
 # Victim Documentation - Danial Cheraghian
 # ==========================================
 
-photo: vic-2026-000571.jpg
+photo:
+  - "vic-2026-000571.jpg"
+  - "vic-2026-4386208633e1.jpg"
 name: Danial Cheraghian
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: 29
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-08"
@@ -24,6 +26,7 @@ description: |-
 
   Killed by a sniper shot to the head. The death certificate states cause of death as 'impact of high-velocity projectile objects to the body'.
 source_type: Social Media
-source_social_media_link: https://x.com/bbcparham/status/2015131423733108984, https://x.com/BBCParham/status/2015131423733108984
-child: false
+source_social_media_link:
+  - "https://x.com/bbcparham/status/2015131423733108984, https://x.com/BBCParham/status/2015131423733108984"
+  - "https://x.com/BBCParham/status/2015131423733108984"
 persian_name: دانیال چراغیان

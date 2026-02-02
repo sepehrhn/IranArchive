@@ -2,7 +2,8 @@
 # Victim Documentation - Muslim Tushkan
 # ==========================================
 
-photo: vic-2026-002030.jpg
+photo:
+  - vic-2026-002030.jpg
 name: Muslim Tushkan
 birth_date: ""
 birth_province: ""
@@ -23,6 +24,7 @@ description: |-
 
   Killed by DShK machine gun fire during protests on 18th and 19th Dey.
 source_type: Social Media
-source_social_media_link: https://x.com/nejatbahrami/status/2015451612404162809, https://t.me/RememberTheirNames/813
-child: false
+source_social_media_link:
+  - "https://x.com/nejatbahrami/status/2015451612404162809, https://t.me/RememberTheirNames/813"
+  - "https://x.com/nejatbahrami/status/2015451612404162809"
 persian_name: مسلم توشکان

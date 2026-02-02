@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Khosravi
 # ==========================================
 
-photo: vic-2026-001273.jpg
+photo:
+  - "vic-2026-001273.jpg"
+  - "vic-2026-31b24f24c236.jpg"
 name: Mohammad Khosravi
 birth_date: ""
 birth_province: ""
@@ -26,6 +28,7 @@ description: |-
 
   Killed by direct gunfire from security forces during protests. His body was returned to his family after they paid 450 million Toman, and they were pressured to falsely claim protesters caused his death.
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2015394731253956664, https://t.me/RememberTheirNames/1264
-child: false
+source_social_media_link:
+  - "https://x.com/HengawO/status/2015394731253956664, https://t.me/RememberTheirNames/1264"
+  - "https://x.com/HengawO/status/2015394731253956664"
 persian_name: محمد خسروی

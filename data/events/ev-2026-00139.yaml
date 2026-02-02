@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Spontaneous Vigils / Mahnwache"
+
+featured: false
+
+description: |
+  While no large central rally is officially confirmed for Sunday, Kröpcke is the traditional location for daily or weekend vigils (Mahnwache) by the Iranian community during intensified crackdowns. Small groups may gather here to distribute information.
+  
+  **Tips:** Check local Telegram or Instagram channels for last-minute announcements. If no event is visible, the community may have traveled to regional central rallies.
+  
+  **Location Details:** Central meeting point for spontaneous vigils.
+
+type: "in_person"
+
+date:
+  start: "2026/02/01"
+  start_time: ""
+
+
+location:
+  country: "DE"
+  city: "Hannover"
+  address: "Kröpcke"
+
+online: []
+
+organizer:
+  name: "Local activists (Grassroots)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

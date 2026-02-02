@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammadreza Alizadeh
 # ==========================================
 
-photo: vic-2026-2139976.jpg
+photo:
+  - "vic-2026-2139976.jpg"
+  - "vic-2026-7ef7297604ce.jpg"
+  - "vic-2026-d42f510d1499.jpg"
 name: Mohammadreza Alizadeh
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  A 16-year-old worker, Mohammadreza Alizadeh, was transferred to the hospital after being shot in Ghaleh-ye Mir and died on 19 Dey.
+description: A 16-year-old worker, Mohammadreza Alizadeh, was transferred to the hospital after being shot in Ghaleh-ye Mir and died on 19 Dey.
 source_type: Social Media
-source_social_media_link: https://x.com/iranintlbrk/status/2016131773181161690
-child: true
+source_social_media_link:
+  - "https://x.com/iranintlbrk/status/2016131773181161690"
+  - "https://x.com/sabzzeh/status/2016624994671788133"
 persian_name: محمدرضا علیزاده

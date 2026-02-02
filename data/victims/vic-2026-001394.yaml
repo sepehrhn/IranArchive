@@ -2,7 +2,9 @@
 # Victim Documentation - Ahmadreza Khairizad
 # ==========================================
 
-photo: vic-2026-001394.jpg
+photo:
+  - "vic-2026-001394.jpg"
+  - "vic-2026-7adcde5303de.jpg"
 name: Ahmadreza Khairizad
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,8 @@ description: |
 
   One of the victims identified in the videos.
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2012986994255913004, https://x.com/MonfaredAshkan/status/2014763196830384458, https://x.com/MonfaredAshkan/status/2012986994255913004
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2012986994255913004, https://x.com/MonfaredAshkan/status/2014763196830384458, https://x.com/MonfaredAshkan/status/2012986994255913004"
+  - "https://x.com/MonfaredAshkan/status/2014763196830384458, https://x.com/MonfaredAshkan/status/2012986994255913004"
+  - "https://x.com/MonfaredAshkan/status/2012986994255913004"
 persian_name: احمدرضا خیری‌زاد

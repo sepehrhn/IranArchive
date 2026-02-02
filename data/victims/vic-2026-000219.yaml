@@ -2,7 +2,11 @@
 # Victim Documentation - Adel Matalebnejad
 # ==========================================
 
-photo: vic-2026-000219.jpg
+photo:
+  - "vic-2026-000219.jpg"
+  - "vic-2026-8c6afdb6b685.jpg"
+  - "vic-2026-6af2db75da8e.jpg"
+  - "vic-2026-eda74fb10b9f.jpg"
 name: Adel Matalebnejad
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,8 @@ description: |-
 
   Father of a one-year-old daughter, killed after being shot several times in the head.
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2015161390051602774, https://x.com/monfaredashkan/status/2015160436099105278, https://x.com/MonfaredAshkan/status/2015161390051602774, https://x.com/MonfaredAshkan/status/2015160436099105278
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2015161390051602774, https://x.com/monfaredashkan/status/2015160436099105278, https://x.com/MonfaredAshkan/status/2015161390051602774, https://x.com/MonfaredAshkan/status/2015160436099105278"
+  - "https://x.com/monfaredashkan/status/2015160436099105278"
+  - "https://x.com/MonfaredAshkan/status/2015160436099105278"
 persian_name: عادل مطلب‌نژاد

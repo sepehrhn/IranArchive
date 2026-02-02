@@ -2,7 +2,12 @@
 # Victim Documentation - Khodadad Shirvani
 # ==========================================
 
-photo: vic-2026-000945.jpg
+photo:
+  - "vic-2026-000945.jpg"
+  - "vic-2026-99b4a5dee29d.jpg"
+  - "vic-2026-07e27c2d5b0f.png"
+  - "vic-2026-a7964da0b851.jpg"
+  - "vic-2026-a32d36fcfc59.jpg"
 name: Khodadad Shirvani
 birth_date: ""
 birth_province: ""
@@ -21,6 +26,7 @@ status: Killed
 description: |
   Shot at close range with a pellet gun during protests, died after being transferred to medical facilities
 source_type: Social Media
-source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.iran-emrooz.net/index.php/news2/125134/, https://en.wikipedia.org/wiki/2026_Iran_massacres#30_December, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2, https://x.com/Daikatuo/status/2007455396248633743
-child: false
+source_social_media_link:
+  - "https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.iran-emrooz.net/index.php/news2/125134/, https://en.wikipedia.org/wiki/2026_Iran_massacres#30_December, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2, https://x.com/Daikatuo/status/2007455396248633743"
+  - "https://x.com/Daikatuo/status/2007455396248633743"
 persian_name: خداداد شیروانی

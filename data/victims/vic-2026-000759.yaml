@@ -2,16 +2,19 @@
 # Victim Documentation - Mostafa Kouhi Tabrizi
 # ==========================================
 
-photo: vic-2026-000759.jpg
+photo:
+  - "vic-2026-000759.jpg"
+  - "vic-2026-002240.jpg"
+  - "vic-2026-3a235ee2437d.png"
 name: Mostafa Kouhi Tabrizi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 45
 occupation: shopkeeper on Farhang Street
 country: Iran
-incident_province: Sari
+incident_province: ""
 incident_city: Northern Iran (Chalous
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -24,6 +27,8 @@ description: |-
 
   Shopkeeper in Farhang Street, Sari, of Gilak ethnicity from Sari. Died during protests in the city. The exact date of the event is unclear, whether it occurred on 18 Dey or 19 Dey 1404.
 source_type: Social Media
-source_social_media_link: https://x.com/alitagh30207454/status/2014343517418508290, https://x.com/HyrcaniHRM/status/2012464128875442331, https://x.com/HengawO/status/2012863021467550147, https://t.me/RememberTheirNames/375
-child: false
+source_social_media_link:
+  - "https://x.com/alitagh30207454/status/2014343517418508290, https://x.com/HyrcaniHRM/status/2012464128875442331, https://x.com/HengawO/status/2012863021467550147, https://t.me/RememberTheirNames/375"
+  - "https://x.com/alitagh30207454/status/2014343517418508290"
+  - "https://x.com/atenamoghaddam1/status/2015470107695390792"
 persian_name: مصطفی تبریزی

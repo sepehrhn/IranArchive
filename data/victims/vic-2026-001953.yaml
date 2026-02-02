@@ -2,7 +2,8 @@
 # Victim Documentation - Majid Farrokhzad
 # ==========================================
 
-photo: vic-2026-001953.jpg
+photo:
+  - vic-2026-001953.jpg
 name: Majid Farrokhzad
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Mentioned in a list of names to remember.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1119
-child: false
 persian_name: مجید فرخزاد (ممشلی)

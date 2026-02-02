@@ -2,25 +2,34 @@
 # Victim Documentation - Hasan Nasiri
 # ==========================================
 
-photo: vic-2026-000992.jpg
+photo:
+  - "vic-2026-000992.jpg"
+  - "vic-2026-001177.jpg"
+  - "vic-2026-47912ec2c0e7.jpg"
+  - "vic-2026-101cea0d8991.jpg"
+  - "vic-2026-7028b5f1a64a.jpg"
+  - "vic-2026-7d8bf74f82fc.png"
+  - "vic-2026-576552f478c5.jpg"
+  - "vic-2026-4f277f46498c.jpg"
 name: Hasan Nasiri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 52
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: "Rostamabad"
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Implied death during protests, based on context of tweet expressing grief and the date range provided (دی ۱۴۰۴)
 source_type: Social Media
-source_social_media_link: https://x.com/mansourinanloo/status/2014568432746877058
-child: false
+source_social_media_link:
+  - "https://x.com/mansourinanloo/status/2014568432746877058"
+  - "https://x.com/HyrcaniHRM/status/2017880349330616549"
 persian_name: حسن نصیری

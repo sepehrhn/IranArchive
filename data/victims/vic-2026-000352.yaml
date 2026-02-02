@@ -2,7 +2,12 @@
 # Victim Documentation - Meysam Khazini
 # ==========================================
 
-photo: vic-2026-000352.jpg
+photo:
+  - "vic-2026-000352.jpg"
+  - "vic-2026-000691.jpg"
+  - "vic-2026-69b9c4c60049.jpg"
+  - "vic-2026-80f9f3542d4e.jpg"
+  - "vic-2026-ebaa4d2c9955.jpg"
 name: Meysam Khazini
 birth_date: ""
 birth_province: ""
@@ -11,7 +16,7 @@ gender: Male
 age: 37
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Shahid Shahr
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -24,6 +29,7 @@ description: |-
 
   Identified as one of the killed during the popular protests in Tehran.
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2012044410268336502, https://x.com/pouriazeraati/status/2012972877914529971, https://x.com/hengawo/status/2013568510937468981, https://x.com/mamlekate/status/2014629678330290389, https://x.com/HyrcaniHRM/status/2012044410268336502, https://x.com/HengawO/status/2012283597374234675, https://x.com/Daikatuo/status/2012215640212332549, https://x.com/HengawO/status/2013568510937468981, https://x.com/iranintlsport/status/2015696779732230264, https://t.me/RememberTheirNames/372, https://t.me/RememberTheirNames/341
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2012044410268336502, https://x.com/pouriazeraati/status/2012972877914529971, https://x.com/hengawo/status/2013568510937468981, https://x.com/mamlekate/status/2014629678330290389, https://x.com/HyrcaniHRM/status/2012044410268336502, https://x.com/HengawO/status/2012283597374234675, https://x.com/Daikatuo/status/2012215640212332549, https://x.com/HengawO/status/2013568510937468981, https://x.com/iranintlsport/status/2015696779732230264, https://t.me/RememberTheirNames/372, https://t.me/RememberTheirNames/341"
+  - "https://t.me/RememberTheirNames/525"
 persian_name: میثم خزینی

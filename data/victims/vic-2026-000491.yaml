@@ -2,7 +2,10 @@
 # Victim Documentation - Ali Javanbakht
 # ==========================================
 
-photo: vic-2026-000491.jpg
+photo:
+  - "vic-2026-000491.jpg"
+  - "vic-2026-c4ce6ec3ac99.jpg"
+  - "vic-2026-f48c57df1220.jpg"
 name: Ali Javanbakht
 birth_date: ""
 birth_province: ""
@@ -17,10 +20,11 @@ incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
-status: Killed
+status: "Missing"
 description: |
   Killed by Islamic Republic's suppressive forces
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2014323711487184978, https://x.com/damdami/status/2014436697056948722, https://t.me/RememberTheirNames/628
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2014323711487184978, https://x.com/damdami/status/2014436697056948722, https://t.me/RememberTheirNames/628"
+  - "https://x.com/damdami/status/2014436697056948722"
 persian_name: علی جوانبخت

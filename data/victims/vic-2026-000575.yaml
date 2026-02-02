@@ -2,20 +2,25 @@
 # Victim Documentation - Daniel Moradizadeh
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-002150.jpg"
+  - "vic-2026-9b8ab8df6ed0.jpg"
+  - "vic-2026-2f59ae85cf95.jpg"
+  - "vic-2026-95bc6ca05676.jpg"
 name: Daniel Moradizadeh
-persian_name: "دانیال مرادی زاده"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: دانیال مرادی زاده
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 21
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Tehran
 incident_address: Bazaar
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,5 +28,7 @@ description: |
   Killed by four gunshots during protest
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/wearethechange/status/2014825356985847813
-child: false
+  - "https://x.com/wearethechange/status/2014825356985847813"
+  - "https://x.com/wearethechange/status/2014825356985847813, https://t.me/RememberTheirNames/980, https://x.com/_moments_by_m_/status/2015894600099967342, https://x.com/purrfectsnark/status/2016314760459923756"
+  - "https://x.com/_moments_by_m_/status/2015894600099967342"
+  - "https://x.com/purrfectsnark/status/2016314760459923756"

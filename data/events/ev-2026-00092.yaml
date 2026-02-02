@@ -1,0 +1,37 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in New York City"
+
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+type: "in_person"
+
+date:
+  start: "2026/01/31"
+  start_time: "13:00"
+
+
+location:
+  country: "US"
+  city: "New York City"
+  address: "1033 5th Avenue (between 84th and 85th St), NYC"
+
+online: []
+
+organizer:
+  name: "Local Organizer"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

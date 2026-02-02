@@ -2,7 +2,12 @@
 # Victim Documentation - Omid Kolabi
 # ==========================================
 
-photo: vic-2026-2140151.jpg
+photo:
+  - "vic-2026-2140151.jpg"
+  - "vic-2026-1a90a8788492.jpg"
+  - "vic-2026-7c5c1977c0c5.jpg"
+  - "vic-2026-2c2900120642.jpg"
+  - "vic-2026-57515215bb46.jpg"
 name: Omid Kolabi
 birth_date: ""
 birth_province: ""
@@ -14,13 +19,13 @@ country: Iran
 incident_province: Gilan
 incident_city: Preshahr
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-26"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed during protests in Preshahr Gilan on Thursday when people came from surrounding villages for the call to action
+description: Killed during protests in Preshahr Gilan on Thursday when people came from surrounding villages for the call to action
 source_type: Social Media
-source_social_media_link: https://x.com/i/status/2016158731382247886
-child: false
+source_social_media_link:
+  - "https://x.com/i/status/2016158731382247886"
+  - "https://x.com/HeKasrehCrisis/status/2016742995190559132"
 persian_name: امید کلابی

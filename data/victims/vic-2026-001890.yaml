@@ -2,7 +2,9 @@
 # Victim Documentation - Arash Beheshti
 # ==========================================
 
-photo: vic-2026-001890.jpg
+photo:
+  - "vic-2026-001890.jpg"
+  - "vic-2026-3e3589eaf975.jpg"
 name: Arash Beheshti
 birth_date: ""
 birth_province: ""
@@ -24,5 +26,4 @@ description: |-
   Killed near Resalat Square
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1172
-child: false
 persian_name: آرش بهشتی

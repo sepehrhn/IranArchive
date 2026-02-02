@@ -2,7 +2,10 @@
 # Victim Documentation - Mohsen Ahmadpour
 # ==========================================
 
-photo: vic-2026-000384.jpg
+photo:
+  - "vic-2026-000384.jpg"
+  - "vic-2026-525846109768.jpg"
+  - "vic-2026-3bf96d641ba6.jpg"
 name: Mohsen Ahmadpour
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Killed by a plainclothes agent with an unmarked Samand car using live ammunition.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014337059939291303, https://x.com/VIsfehan/status/2014337059939291303, https://t.me/RememberTheirNames/607
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2014337059939291303, https://x.com/VIsfehan/status/2014337059939291303, https://t.me/RememberTheirNames/607"
+  - "https://x.com/visfehan/status/2014337059939291303"
+  - "https://x.com/VIsfehan/status/2014337059939291303"
 persian_name: محسن احمد پور

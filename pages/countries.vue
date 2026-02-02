@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue';
+const { t } = useI18n();
 import { useCountries } from '@/composables/useCountries';
 import { useHead } from '#imports';
 import { 
@@ -16,9 +17,9 @@ import MethodologyModal from '@/components/countries/MethodologyModal.vue';
 
 // SEO
 useHead({
-  title: 'Global Pressure Tracker - IranArchive',
+  title: t('countriesPage.title'),
   meta: [
-    { name: 'description', content: 'Tracking global policy posture towards the Islamic Republic of Iran across Diplomacy, IRGC Designation, UN Accountability, and Security Support.' }
+    { name: 'description', content: t('countriesPage.description') }
   ]
 });
 
@@ -41,25 +42,28 @@ const selectedIso = ref<string | null>(null);
 const drawerVisible = ref(false);
 const methodologyVisible = ref(false);
 
-const colorModes = [
-  { label: 'Overall Pressure', value: 'Overall' },
-  { label: 'Diplomacy', value: 'Diplomacy' },
-  { label: 'IRGC Designation', value: 'IRGC' },
-  { label: 'UN Posture', value: 'UN' },
-  { label: 'Security Support', value: 'Security' }
-];
+const colorModes = computed(() => [
+  { label: t('countriesPage.overall'), value: 'Overall' },
+  { label: t('countriesPage.diplomacy'), value: 'Diplomacy' },
+  { label: t('countriesPage.irgc'), value: 'IRGC' },
+  { label: t('countriesPage.unPosture'), value: 'UN' },
+  { label: t('countriesPage.security'), value: 'Security' }
+]);
 
 const tiers = Object.values(OverallTier).filter(t => t !== OverallTier.Unknown);
 
 // Filtering
 const filteredCountries = computed(() => {
-  let result = getAllCountries.value;
+  let result = getAllCountries.value.map(c => ({
+    ...c,
+    localizedName: t(`countries.${c.iso2}`, c.name || c.iso2)
+  }));
 
   // Search
   if (searchQuery.value) {
     const q = searchQuery.value.toLowerCase();
     result = result.filter(c => 
-      c.name.toLowerCase().includes(q) || 
+      c.localizedName.toLowerCase().includes(q) || 
       c.iso2.toLowerCase().includes(q)
     );
   }
@@ -77,7 +81,7 @@ const filteredCountries = computed(() => {
     if (sortMode.value === 'Reviewed') {
       return (b.last_reviewed_at || '').localeCompare(a.last_reviewed_at || '');
     }
-    return a.name.localeCompare(b.name);
+    return a.localizedName.localeCompare(b.localizedName);
   });
 });
 
@@ -105,14 +109,14 @@ const handleListSelect = (iso: string) => {
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
         <div>
           <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">
-            Global Pressure Tracker
+            {{ t('countriesPage.heroTitle') }}
           </h1>
           <p class="text-surface-500 dark:text-surface-400 mt-1 max-w-2xl text-sm md:text-base">
-            Visualizing the international community's policy posture towards the Islamic Republic.
+            {{ t('countriesPage.heroSubtitle') }}
           </p>
         </div>
         <div class="flex gap-2 w-full md:w-auto">
-          <Button label="Methodology" icon="pi pi-info-circle" severity="secondary" @click="methodologyVisible = true" class="w-full md:w-auto" />
+          <Button :label="t('countriesPage.methodology')" icon="pi pi-info-circle" severity="secondary" @click="methodologyVisible = true" class="w-full md:w-auto" />
         </div>
       </div>
     </div>
@@ -122,7 +126,7 @@ const handleListSelect = (iso: string) => {
       <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
         <IconField iconPosition="left" class="w-full sm:w-64">
           <InputIcon class="pi pi-search" />
-          <InputText v-model="searchQuery" placeholder="Search Country" class="w-full" />
+          <InputText v-model="searchQuery" :placeholder="t('countriesPage.searchPlaceholder')" class="w-full" />
         </IconField>
         
         <div class="w-full sm:w-auto overflow-x-auto pb-2 sm:pb-0 -mx-4 px-4 sm:mx-0 sm:px-0 no-scrollbar">
@@ -131,7 +135,7 @@ const handleListSelect = (iso: string) => {
       </div>
 
       <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-between lg:justify-end">
-         <Dropdown v-model="sortMode" :options="['Name', 'Score', 'Reviewed']" placeholder="Sort By" class="w-32" />
+         <Dropdown v-model="sortMode" :options="['Name', 'Score', 'Reviewed']" :placeholder="t('countriesPage.sortBy')" class="w-32" />
       </div>
     </div>
 
@@ -153,7 +157,7 @@ const handleListSelect = (iso: string) => {
         <div class="lg:col-span-4 flex flex-col gap-4">
           <div class="bg-surface-0 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm flex flex-col max-h-[600px]">
             <div class="p-4 border-b border-surface-200 dark:border-surface-700 font-semibold flex justify-between items-center">
-              <span>Countries ({{ filteredCountries.length }})</span>
+              <span>{{ t('countriesPage.countriesListTitle') }} ({{ filteredCountries.length }})</span>
             </div>
             <div class="overflow-y-auto flex-1 p-2 space-y-1">
               <div 
@@ -164,8 +168,8 @@ const handleListSelect = (iso: string) => {
                 @click="handleListSelect(country.iso2)"
               >
                 <div class="flex items-center gap-3">
-                  <img :src="getCountryFlagUrl(country.iso2)" class="w-6 h-6 object-contain" :alt="country.name" />
-                  <span class="font-medium">{{ country.name }}</span>
+                  <img :src="getCountryFlagUrl(country.iso2)" class="w-6 h-6 object-contain" :alt="country.localizedName" />
+                  <span class="font-medium">{{ country.localizedName }}</span>
                 </div>
                 <div class="flex items-center gap-3">
                    <span class="text-sm font-bold text-surface-500">{{ country.derived_tier }}</span>
@@ -173,7 +177,7 @@ const handleListSelect = (iso: string) => {
                 </div>
               </div>
               <div v-if="filteredCountries.length === 0" class="p-8 text-center text-surface-500">
-                No countries found matching your criteria.
+                {{ t('countriesPage.noCountriesFound') }}
               </div>
             </div>
           </div>

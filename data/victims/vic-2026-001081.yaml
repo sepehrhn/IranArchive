@@ -2,25 +2,40 @@
 # Victim Documentation - Farshad Saki
 # ==========================================
 
-photo: vic-2026-001081.jpg
+photo:
+  - "vic-2026-001081.jpg"
+  - "vic-2026-997a99897a28.jpg"
+  - "vic-2026-8f6f72235108.jpg"
+  - "vic-2026-001682.jpg"
+  - "vic-2026-c5bdb59ad168.jpg"
+  - "vic-2026-2907c210fd03.jpg"
+  - "vic-2026-b70cd0490dac.jpg"
 name: Farshad Saki
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 39
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
 description: |
   Shot in the back of the head with a pistol by forces of the Islamic Republic during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/aminshtain/status/2014482968568381597, https://x.com/banafshehviola/status/2014554461545312372, https://t.me/RememberTheirNames/1278
-child: false
+source_social_media_link:
+  - "https://x.com/aminshtain/status/2014482968568381597, https://x.com/banafshehviola/status/2014554461545312372, https://t.me/RememberTheirNames/1278"
+  - "https://x.com/banafshehviola/status/2014554461545312372"
+  - "https://x.com/aminshtain/status/2014482968568381597"
+  - "https://x.com/iranianpapppi3/status/2017276395475333205"
+  - "https://x.com/missmarpel75/status/2015442046480257505, https://t.me/RememberTheirNames/1017, https://x.com/tonyfreeman2015/status/2015649188369834163, https://x.com/i/status/2015649188369834163, https://x.com/Walterakam/status/2015877884447994162"
+  - "https://x.com/tonyfreeman2015/status/2015649188369834163"
+  - "https://x.com/missmarpel75/status/2015442046480257505"
+  - "https://x.com/i/status/2015649188369834163"
+  - "https://x.com/Walterakam/status/2015877884447994162"
 persian_name: فرشاد ساکی

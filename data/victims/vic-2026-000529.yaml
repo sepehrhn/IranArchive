@@ -2,7 +2,9 @@
 # Victim Documentation - Amir Khodaparast
 # ==========================================
 
-photo: vic-2026-000529.jpg
+photo:
+  - "vic-2026-000529.jpg"
+  - "vic-2026-947a6e7f440f.jpg"
 name: Amir Khodaparast
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Killed by direct gunfire from Islamic Republic of Iran forces.
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2014967769557536968, https://t.me/RememberTheirNames/1074
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2014967769557536968, https://t.me/RememberTheirNames/1074"
+  - "https://x.com/hyrcanihrm/status/2014967769557536968"
 persian_name: امیر خداپرست

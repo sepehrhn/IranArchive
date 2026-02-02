@@ -2,7 +2,12 @@
 # Victim Documentation - Amin Salimi
 # ==========================================
 
-photo: ""
+photo:
+  - ""
+  - "vic-2026-001856.jpg"
+  - "vic-2026-69a8fb866c2d.jpg"
+  - "vic-2026-002111.jpg"
+  - "vic-2026-23165cb3e4cc.jpg"
 name: Amin Salimi
 birth_date: ""
 birth_province: ""
@@ -11,7 +16,7 @@ gender: Male
 age: null
 occupation: رسته جنگ الکترونیک ارتش
 country: Iran
-incident_province: eastern Tehran
+incident_province: Tehran
 incident_city: Khavaran neighbourhood
 incident_address: ""
 date_of_death: "2026-01-10"
@@ -24,5 +29,7 @@ description: |-
 
   Artesh First Lieutenant shot and killed 'while on mission' according to Iranian state media
 source_type: Local Report
-source_social_media_link: https://en.wikipedia.org/wiki/2025–2026_Iranian_protests
-child: false
+source_social_media_link:
+  - "https://en.wikipedia.org/wiki/2025–2026_Iranian_protests"
+  - "https://t.me/RememberTheirNames/733, https://x.com/hekasrehcrisis/status/2016353559713915305"
+  - "https://x.com/hekasrehcrisis/status/2016353559713915305"

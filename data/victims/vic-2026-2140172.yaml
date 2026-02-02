@@ -2,7 +2,10 @@
 # Victim Documentation - Sina Saranosh Nejad
 # ==========================================
 
-photo: vic-2026-2140172.jpg
+photo:
+  - "vic-2026-2140172.jpg"
+  - "vic-2026-550c52622ddb.jpg"
+  - "vic-2026-af3b1e95d472.jpg"
 name: Sina Saranosh Nejad
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed in Isfahan, family was without news since Friday, body found at Bagh-e Rezvan cemetery on Wednesday, family under pressure and unable to hold funeral ceremonies
+description: Killed in Isfahan, family was without news since Friday, body found at Bagh-e Rezvan cemetery on Wednesday, family under pressure and unable to hold funeral ceremonies
 source_type: Social Media
 source_social_media_link: https://x.com/azi_mazi_/status/2016604594499993645
-child: false
 persian_name: سینا سرانوش نژاد

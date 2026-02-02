@@ -2,7 +2,9 @@
 # Victim Documentation - Fereshteh Dolatkhah
 # ==========================================
 
-photo: vic-2026-2140116.jpg
+photo:
+  - "vic-2026-2140116.jpg"
+  - "vic-2026-b5b701a2502e.jpg"
 name: Fereshteh Dolatkhah
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Daughter of Feyzel La Dolatkhah from Cheshmeh Sefid village in Dasht-e Karand West, Kermanshah. Killed during Kermanshah protests. Family could not afford to retrieve her body and were forced to agree to claim she died from gas poisoning in Kermanshah University dormitory.
+description: Daughter of Feyzel La Dolatkhah from Cheshmeh Sefid village in Dasht-e Karand West, Kermanshah. Killed during Kermanshah protests. Family could not afford to retrieve her body and were forced to agree to claim she died from gas poisoning in Kermanshah University dormitory.
 source_type: Social Media
 source_social_media_link: https://x.com/ka3rimi/status/2016187981980119177
-child: false
 persian_name: فرشته دولت خواه

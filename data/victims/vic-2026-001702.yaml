@@ -2,7 +2,9 @@
 # Victim Documentation - Hossein Diba
 # ==========================================
 
-photo: vic-2026-001702.jpg
+photo:
+  - "vic-2026-001702.jpg"
+  - "vic-2026-c1795059ff3e.jpg"
 name: Hossein Diba
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Died after being shot in the throat with live ammunition on the third night of the call for protests.
 source_type: Social Media
-source_social_media_link: https://x.com/tinaaziziii/status/2015152444230234228, https://t.me/RememberTheirNames/778
-child: false
+source_social_media_link:
+  - "https://x.com/tinaaziziii/status/2015152444230234228, https://t.me/RememberTheirNames/778"
+  - "https://x.com/tinaaziziii/status/2015152444230234228"
 persian_name: حسین دیبا

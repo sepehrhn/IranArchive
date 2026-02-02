@@ -2,7 +2,13 @@
 # Victim Documentation - Parnia Khalaji
 # ==========================================
 
-photo: vic-2026-001783.jpg
+photo:
+  - "vic-2026-001783.jpg"
+  - "vic-2026-d972b30a7e33.jpg"
+  - "vic-2026-3004728a32ce.jpg"
+  - "vic-2026-c9e8f37c60c5.jpg"
+  - "vic-2026-08bdfa4dbc7c.jpg"
+  - "vic-2026-f8d812caee9b.jpg"
 name: Parnia Khalaji
 birth_date: ""
 birth_province: ""
@@ -23,6 +29,8 @@ description: |-
 
   Mentioned in a list of names with a date and location, implying death during protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/768
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/768"
+  - "https://x.com/elhamyazdiha/status/2017295023943938271"
+  - "https://x.com/noamagid/status/2017372227465838861"
 persian_name: پرنیا خلجی

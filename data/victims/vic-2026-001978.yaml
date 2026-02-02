@@ -2,7 +2,12 @@
 # Victim Documentation - Mehrdad Fallah
 # ==========================================
 
-photo: vic-2026-001978.jpg
+photo:
+  - "vic-2026-001978.jpg"
+  - "vic-2026-cbf61e04d066.jpg"
+  - "vic-2026-a7c8a61c64e6.jpg"
+  - "vic-2026-d03bd2c6b264.jpg"
+  - "vic-2026-24521127618d.jpg"
 name: Mehrdad Fallah
 birth_date: ""
 birth_province: ""
@@ -23,6 +28,9 @@ description: |-
 
   Shot twice with live ammunition by security forces in Sabzeh Meydan. He was a father of two children aged 8 and 14.
 source_type: Social Media
-source_social_media_link: https://x.com/Tavaana/status/2015909395256025205, https://x.com/HyrcaniHRM/status/2016065872557707530, https://t.me/RememberTheirNames/1393
-child: false
+source_social_media_link:
+  - "https://x.com/Tavaana/status/2015909395256025205, https://x.com/HyrcaniHRM/status/2016065872557707530, https://t.me/RememberTheirNames/1393"
+  - "https://x.com/Tavaana/status/2015909395256025205"
+  - "https://x.com/HyrcaniHRM/status/2016065872557707530"
+  - "https://x.com/DearSoodi/status/2017989284624511368"
 persian_name: مهراد فلاح

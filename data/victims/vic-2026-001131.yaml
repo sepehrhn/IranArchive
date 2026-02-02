@@ -2,20 +2,26 @@
 # Victim Documentation - Mehdi Ghorbandoost
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-002224.jpg"
+  - "vic-2026-2313f02b2a27.jpg"
+  - "vic-2026-c5ae60d1b770.jpg"
+  - "vic-2026-4e8beda9490d.jpg"
+  - "vic-2026-50e9d8f8b1e7.jpg"
 name: Mehdi Ghorbandoost
-persian_name: "مهدی‌قربان‌دوست"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: مهدی‌قربان‌دوست
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_province: ""
+incident_city: "Chenaran"
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,5 +29,6 @@ description: |
   Killed during nationwide protests
 source_type: Social Media
 source_social_media_link:
-  - https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/
-child: false
+  - "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/"
+  - "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/KurdistanHRN/status/2014707925177016659"
+  - "https://x.com/KurdistanHRN/status/2014707925177016659"

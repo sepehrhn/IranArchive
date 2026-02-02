@@ -2,7 +2,10 @@
 # Victim Documentation - Behnam Khajavi Nia
 # ==========================================
 
-photo: vic-2026-001671.jpg
+photo:
+  - "vic-2026-001671.jpg"
+  - "vic-2026-37a78f8d8592.jpg"
+  - "vic-2026-a2396f1f45c4.jpg"
 name: Behnam Khajavi Nia
 birth_date: ""
 birth_province: ""
@@ -25,6 +28,8 @@ description: |-
 
   Died during Dey 1404 in Dehaq, Isfahan. Listed as victim #1411 in memorial documentation.
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2016013768254259446, https://t.me/RememberTheirNames/1488
-child: false
+source_social_media_link:
+  - "https://x.com/hirman__/status/2016013768254259446, https://t.me/RememberTheirNames/1488"
+  - "https://x.com/hirman__/status/2016013768254259446"
+  - "https://t.me/RememberTheirNames/1488"
 persian_name: بهنام خواجوی‌نیا

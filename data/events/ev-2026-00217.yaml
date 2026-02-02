@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally with the Iranian Uprising"
+
+featured: true
+
+description: |
+  A gathering to support the ongoing uprising in Iran, condemn the recent execution of protesters, and demand an end to the Islamic Republic. Recent Saturdays have seen hundreds to thousands gather in Hannover's city center.
+  
+  **Tips:** Check 'Avaye Iran' or local 'Iranische Gemeinde' social media channels for last-minute changes. Be aware that attendance might be lower than usual if a contingent has travelled to Berlin.
+  
+  **Location Details:** Central pedestrian area / Kröpcke square (common gathering point for Iranian diaspora)
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: "14:00"
+  end: "2026/02/07"
+  end_time: "16:00"
+
+location:
+  country: "DE"
+  city: "Hannover"
+  address: "Kröpcke"
+
+online: []
+
+organizer:
+  name: "Independent Iranian Community / Avaye Iran (Likely)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

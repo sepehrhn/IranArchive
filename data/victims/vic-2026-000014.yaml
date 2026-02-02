@@ -2,11 +2,15 @@
 # Victim Documentation - Raheleh Moini
 # ==========================================
 
-photo: vic-2026-000014.jpeg
+photo:
+  - "vic-2026-000014.jpeg"
+  - "vic-2026-2140159.jpg"
+  - "vic-2026-f9b8d5899c81.jpg"
+  - "vic-2026-9470c07ebdde.jpg"
 name: Raheleh Moini
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
 age: 23
 occupation: University student; fashion model
@@ -14,9 +18,9 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: Saadat Abad
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 disappearance_circumstances: Disappeared during protests
 suspected_actor: Unknown
 status: Missing
@@ -28,7 +32,8 @@ description: |
   Since that moment, her family has received no news of her. Despite repeated inquiries, authorities have reportedly provided no information regarding her location, condition, or fate.
 
   # -----------------------------------------------------------------------------
-source_type: ''
+source_type: ""
 source_social_media_link:
-  - ''
-child: false
+  - ""
+  - "https://x.com/fseifikaran/status/2016306624923578762"
+  - "https://x.com/ashoobmotlagh/status/2017145321382445121"

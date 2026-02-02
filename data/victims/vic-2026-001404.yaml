@@ -2,21 +2,22 @@
 # Victim Documentation - Aida
 # ==========================================
 
-photo: vic-2026-001404.jpg
+photo:
+  - vic-2026-001404.jpg
 name: Aida
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: ''
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |
   Persian Name: ایدا
@@ -25,4 +26,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/siahsefid0/status/2014291597249179818
-child: false

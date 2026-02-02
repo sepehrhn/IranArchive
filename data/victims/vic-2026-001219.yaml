@@ -2,19 +2,20 @@
 # Victim Documentation - Setareh Pourselim
 # ==========================================
 
-photo: ''
+photo:
+  - ""
 name: Setareh Pourselim
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +23,5 @@ description: |
   Killed during protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/fseifikaran/status/2011734542428885036
-child: false
+  - "https://x.com/fseifikaran/status/2011734542428885036"
+  - "https://x.com/FSeifikaran/status/2011734542428885036"

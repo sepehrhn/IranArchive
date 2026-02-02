@@ -2,7 +2,12 @@
 # Victim Documentation - Ali-Asghar Khodadadi
 # ==========================================
 
-photo: vic-2026-000505.jpg
+photo:
+  - "vic-2026-000505.jpg"
+  - "vic-2026-55cf202318ac.jpg"
+  - "vic-2026-f51434ccfe2d.jpg"
+  - "vic-2026-713712628346.jpg"
+  - "vic-2026-439faba6fc3c.png"
 name: Ali-Asghar Khodadadi
 birth_date: ""
 birth_province: ""
@@ -24,6 +29,9 @@ description: |-
 
   Shot in the heart with live ammunition by security forces of the Islamic Republic. The Islamic Republic attempted to portray him as a Basij member, but his last Instagram post indicated he was a protester.
 source_type: Social Media
-source_social_media_link: https://x.com/shahramsadidi/status/2014084627158138977, https://x.com/ShahramSadidi/status/2014084627158138977, https://x.com/yaldarta/status/2014946096523481285, https://x.com/iranwire/status/2015293696732778589, https://t.me/RememberTheirNames/564, https://x.com/manotonews/status/2015954296764788918
-child: false
+source_social_media_link:
+  - "https://x.com/shahramsadidi/status/2014084627158138977, https://x.com/ShahramSadidi/status/2014084627158138977, https://x.com/yaldarta/status/2014946096523481285, https://x.com/iranwire/status/2015293696732778589, https://t.me/RememberTheirNames/564, https://x.com/manotonews/status/2015954296764788918"
+  - "https://x.com/iranwire/status/2015293696732778589"
+  - "https://x.com/manotonews/status/2015954296764788918"
+  - "https://x.com/shahramsadidi/status/2014084627158138977"
 persian_name: علی‌اصغر خدادادی

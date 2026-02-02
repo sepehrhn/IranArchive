@@ -2,7 +2,9 @@
 # Victim Documentation - Reza Mohammad Kiani Herchegani
 # ==========================================
 
-photo: vic-2026-2139825.jpg
+photo:
+  - "vic-2026-2139825.jpg"
+  - "vic-2026-cb89ef8beb85.png"
 name: Reza Mohammad Kiani Herchegani
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  32-year-old protein products distributor shot by security forces on Keshavarzi Street. He had a 10-month-old child.
+description: 32-year-old protein products distributor shot by security forces on Keshavarzi Street. He had a 10-month-old child.
 source_type: Social Media
 source_social_media_link: https://x.com/visfehan/status/2016474197694750721
-child: false
 persian_name: رضا محمد کیانی هرچگانی

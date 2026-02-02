@@ -2,7 +2,10 @@
 # Victim Documentation - Yasin Javaidan
 # ==========================================
 
-photo: vic-2026-000205.jpg
+photo:
+  - "vic-2026-000205.jpg"
+  - "vic-2026-634af8ea4ff1.png"
+  - "vic-2026-b798749a270b.jpg"
 name: Yasin Javaidan
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Killed by a direct gunshot to the chest, head and neck after occupying a Basij base.
 source_type: Social Media
-source_social_media_link: https://x.com/justchangingun/status/2014888511179259994, https://t.me/RememberTheirNames/648
-child: false
+source_social_media_link:
+  - "https://x.com/justchangingun/status/2014888511179259994, https://t.me/RememberTheirNames/648"
+  - "https://x.com/hekasrehcrisis/status/2018060527608435002"
 persian_name: یاسین جاویدان

@@ -2,20 +2,22 @@
 # Victim Documentation - Mohammad 'Black'
 # ==========================================
 
-photo: vic-2026-000703.jpg
+photo:
+  - "vic-2026-000703.jpg"
+  - "vic-2026-002098.jpg"
 name: Mohammad 'Black'
-persian_name: "محمد رضا"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+persian_name: محمد رضا
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 18
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Tehran
 incident_address: Qiamdasht
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,5 +25,5 @@ description: |
   Shot by Basij members during protests on 18 Dey (January 8, 2026).
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/mobarez_nastooh/status/2014761811086594170
-child: false
+  - "https://x.com/mobarez_nastooh/status/2014761811086594170"
+  - "https://x.com/maryamtorabikia/status/2014786719392870448, https://x.com/mobarez_nastooh/status/2014761811086594170"

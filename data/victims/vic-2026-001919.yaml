@@ -2,7 +2,10 @@
 # Victim Documentation - Elham Taghiyani
 # ==========================================
 
-photo: vic-2026-001919.jpg
+photo:
+  - "vic-2026-001919.jpg"
+  - "vic-2026-37a9eb87b0fd.jpg"
+  - "vic-2026-03fcace9500f.jpg"
 name: Elham Taghiyani
 birth_date: ""
 birth_province: ""
@@ -25,6 +28,8 @@ description: |-
 
   Mentioned as 'Javidnam' (eternal), implying death during protests. No specific date or cause of death provided.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1375, https://x.com/visfehan/status/2016158964858126657, https://x.com/manotonews/status/2016783373667062070
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1375, https://x.com/visfehan/status/2016158964858126657, https://x.com/manotonews/status/2016783373667062070"
+  - "https://x.com/visfehan/status/2016158964858126657"
+  - "https://x.com/manotonews/status/2016783373667062070"
 persian_name: الهام طغیانی

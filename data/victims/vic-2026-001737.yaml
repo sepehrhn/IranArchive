@@ -2,7 +2,9 @@
 # Victim Documentation - Mehdi Kavousi
 # ==========================================
 
-photo: vic-2026-001737.jpg
+photo:
+  - "vic-2026-001737.jpg"
+  - "vic-2026-11c39860fa0f.jpg"
 name: Mehdi Kavousi
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Kohsar
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -25,6 +27,7 @@ description: |-
 
   Initially injured by birdshot on the first day of protests, he returned the following day and was shot in the heart. He was from Gonbad-e Kavus.
 source_type: Social Media
-source_social_media_link: https://x.com/sssccpp/status/2015874506988941750, https://t.me/RememberTheirNames/1395, https://x.com/Sssccpp/status/2015874506988941750
-child: false
+source_social_media_link:
+  - "https://x.com/sssccpp/status/2015874506988941750, https://t.me/RememberTheirNames/1395, https://x.com/Sssccpp/status/2015874506988941750"
+  - "https://x.com/Sssccpp/status/2015874506988941750"
 persian_name: مهدی کاوسی

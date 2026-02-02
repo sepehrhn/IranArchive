@@ -2,7 +2,9 @@
 # Victim Documentation - Ali Haqshenas
 # ==========================================
 
-photo: vic-2026-001357.jpg
+photo:
+  - "vic-2026-001357.jpg"
+  - "vic-2026-02b8b31ceae9.jpg"
 name: Ali Haqshenas
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,8 @@ description: |
 
   Abducted by regime forces and killed.
 source_type: Social Media
-source_social_media_link: https://x.com/saeidvafa/status/2015647271908454514, https://x.com/SaeidVafa/status/2015647070531596724, https://x.com/SaeidVafa/status/2015811477920178684
-child: false
+source_social_media_link:
+  - "https://x.com/saeidvafa/status/2015647271908454514, https://x.com/SaeidVafa/status/2015647070531596724, https://x.com/SaeidVafa/status/2015811477920178684"
+  - "https://x.com/saeidvafa/status/2015647271908454514"
+  - "https://x.com/SaeidVafa/status/2015647070531596724"
 persian_name: علی حق‌شناس

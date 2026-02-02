@@ -2,7 +2,11 @@
 # Victim Documentation - Mohammad Soltanifar
 # ==========================================
 
-photo: vic-2026-000734.jpg
+photo:
+  - "vic-2026-000734.jpg"
+  - "vic-2026-a4770038a65e.jpg"
+  - "vic-2026-5eae5bdeec60.jpg"
+  - "vic-2026-e74d5d8b0d73.jpg"
 name: Mohammad Soltanifar
 birth_date: ""
 birth_province: ""
@@ -11,7 +15,7 @@ gender: Male
 age: 16
 occupation: ""
 country: Iran
-incident_province: Markazi Province (Arak)
+incident_province: Markazi
 incident_city: Mahalat
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -21,6 +25,8 @@ status: Killed
 description: |
   Shot by government mercenaries in front of the Intelligence building (Education Alley)
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2014662395164037227, https://x.com/HengawO/status/2014638058105151825, https://x.com/behnam_chegini/status/2014969877287551425, https://x.com/loabatk/status/2014978860811506066, https://t.me/RememberTheirNames/809
-child: true
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2014662395164037227, https://x.com/HengawO/status/2014638058105151825, https://x.com/behnam_chegini/status/2014969877287551425, https://x.com/loabatk/status/2014978860811506066, https://t.me/RememberTheirNames/809"
+  - "https://x.com/HengawO/status/2014638058105151825"
+  - "https://x.com/loabatk/status/2014978860811506066"
 persian_name: محمد سلطانی‌فر

@@ -2,7 +2,8 @@
 # Victim Documentation - Faezeh Izadi
 # ==========================================
 
-photo: vic-2026-001921.jpg
+photo:
+  - vic-2026-001921.jpg
 name: Faezeh Izadi
 birth_date: ""
 birth_province: ""
@@ -18,8 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |+
+description: ""
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1018
-child: false
 persian_name: فائزه ایزی

@@ -2,7 +2,9 @@
 # Victim Documentation - Malakeh Razavian
 # ==========================================
 
-photo: vic-2026-001724.jpg
+photo:
+  - "vic-2026-001724.jpg"
+  - "vic-2026-bf0f2d629ee2.jpg"
 name: Malakeh Razavian
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Died from multiple baton blows by security forces during public protests in Nazar Sharghi Street. Her body was buried on January 11, 2026, under security measures without any ceremony.
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2015884821487128917, https://t.me/RememberTheirNames/1398
-child: false
+source_social_media_link:
+  - "https://x.com/HengawO/status/2015884821487128917, https://t.me/RememberTheirNames/1398"
+  - "https://x.com/HengawO/status/2015884821487128917"
 persian_name: ملکه رضویان

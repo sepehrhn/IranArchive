@@ -2,7 +2,11 @@
 # Victim Documentation - Arvin Salami-rad
 # ==========================================
 
-photo: vic-2026-2139727.jpg
+photo:
+  - "vic-2026-2139727.jpg"
+  - "vic-2026-f9b8d5899c81.jpg"
+  - "vic-2026-93699353e551.jpg"
+  - "vic-2026-964eff0dd2cb.jpg"
 name: Arvin Salami-rad
 birth_date: ""
 birth_province: ""
@@ -18,9 +22,12 @@ date_of_death: "2026-01-22"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Injured on January 8, 2026 in Bushehr during protests, died on January 22, 2026 from his injuries
+description: Injured on January 8, 2026 in Bushehr during protests, died on January 22, 2026 from his injuries
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2016306624923578762, https://t.me/RememberTheirNames/1442
-child: true
+source_social_media_link:
+  - "https://x.com/fseifikaran/status/2016306624923578762, https://t.me/RememberTheirNames/1442"
+  - "https://x.com/fseifikaran/status/2016306624923578762"
+  - "https://t.me/RememberTheirNames/1442"
+  - "https://x.com/Bli43694277/status/2016385149160575460"
+  - "https://javidnaman.iranintl.com/memorial/MM61u0X6XFjkXemkHdM4hZ"
 persian_name: آروین سالمی‌راد

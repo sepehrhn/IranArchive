@@ -2,20 +2,24 @@
 # Victim Documentation - Parima
 # ==========================================
 
-photo: vic-2026-000080.jpg
+photo:
+  - "vic-2026-000080.jpg"
+  - "vic-2026-002166.jpg"
+  - "vic-2026-df65889c3309.jpg"
+  - "vic-2026-f01f32dc3a79.jpg"
 name: Parima
-persian_name: "پریما"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: پریما
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Female"
 age: 16
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Bandar Abbas
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -24,4 +28,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/maryammoqaddam/status/2014992425295434136
-child: true

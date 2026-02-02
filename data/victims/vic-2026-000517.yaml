@@ -2,13 +2,15 @@
 # Victim Documentation - Amin Nadery
 # ==========================================
 
-photo: vic-2026-000517.jpg
+photo:
+  - "vic-2026-000517.jpg"
+  - "vic-2026-000774.jpg"
 name: Amin Nadery
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 27
 occupation: ""
 country: Iran
 incident_province: Kermanshah
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Killed by security forces with a military bullet during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/hiwa_life/status/2014789505639755848
-child: false
+source_social_media_link:
+  - "https://x.com/hiwa_life/status/2014789505639755848"
+  - "https://x.com/kurdpa_farsi/status/2012909724119765264"
 persian_name: امین نادری

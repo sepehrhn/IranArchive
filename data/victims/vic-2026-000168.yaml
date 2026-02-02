@@ -2,20 +2,26 @@
 # Victim Documentation - Ajmin Masihi
 # ==========================================
 
-photo: vic-2026-000168.jpg
+photo:
+  - "vic-2026-000168.jpg"
+  - "vic-2026-001551.jpg"
+  - "vic-2026-9a9e3d040b20.jpg"
+  - "vic-2026-eacc49caf164.jpg"
+  - "vic-2026-78ca08f6e0cf.jpg"
+  - "vic-2026-c23b6da114e4.jpg"
 name: Ajmin Masihi
-persian_name: "اجمین مسیحی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+persian_name: اجمین مسیحی
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 27
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,5 +29,9 @@ description: |
   Killed during protests (described as 'killed in the path of homeland')
 source_type: Social Media
 source_social_media_link:
-  - https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/
-child: false
+  - "https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/"
+  - "https://x.com/hamidrezavessa1/status/2011972759207768324, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/iranhrs99/status/2012916925966225495, https://x.com/mahestane_iran/status/2013671362380857723, https://x.com/Mahestane_iran/status/2013671362380857723, https://x.com/HeKasrehCrisis/status/2015804922189549926, https://t.me/RememberTheirNames/347, https://x.com/i/status/2015804922189549926"
+  - "https://x.com/iranhrs99/status/2012916925966225495"
+  - "https://x.com/mahestane_iran/status/2013671362380857723"
+  - "https://x.com/Mahestane_iran/status/2013671362380857723"
+  - "https://x.com/i/status/2015804922189549926"

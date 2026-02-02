@@ -2,19 +2,26 @@
 # Victim Documentation - Mohammad Rostami
 # ==========================================
 
-photo: vic-2026-001162.jpg
+photo:
+  - "vic-2026-001162.jpg"
+  - "vic-2026-316a4ee35dff.jpg"
+  - "vic-2026-002137.jpg"
+  - "vic-2026-0f0472e32413.jpg"
+  - "vic-2026-27ee9db28239.png"
+  - "vic-2026-0b02cba43f71.png"
+  - "vic-2026-6a7486dbfa70.jpg"
 name: Mohammad Rostami
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 25
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Ghaleh Hassan Khan
 incident_address: Ghaleh Hassan Khan
-date_of_death: ""
+date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -24,6 +31,12 @@ description: |-
 
   Killed in front of the Qaleh Hassan Khan governorate. Described as an Iranian Patriot fighting to liberate Iran from the IR.
 source_type: Social Media
-source_social_media_link: https://x.com/caljon2025/status/2014886852939890945, https://x.com/hichkasofficial/status/2014917179607486586
-child: false
+source_social_media_link:
+  - "https://x.com/caljon2025/status/2014886852939890945, https://x.com/hichkasofficial/status/2014917179607486586"
+  - "https://x.com/hichkasofficial/status/2014917179607486586"
+  - "https://x.com/caljon2025/status/2014886852939890945"
+  - "https://t.me/RememberTheirNames/505"
+  - "https://x.com/HeKasrehCrisis/status/2017124943381549428"
+  - "https://x.com/i/status/2017124943381549428"
+  - "https://x.com/HengawO/status/2015382975945277625"
 persian_name: محمد رستمی

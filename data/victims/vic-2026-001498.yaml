@@ -2,19 +2,20 @@
 # Victim Documentation - gorji
 # ==========================================
 
-photo: ''
+photo:
+  - ""
 name: gorji
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 14
 occupation: محصل
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +23,4 @@ description: |
   در تاریخ 19بهمن چهارصد و چهار توسط نیروهای سرکوب شلیک ساچمه به شکم پس از یک روز جان باخت
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: true
+  - ""

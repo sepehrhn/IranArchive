@@ -1,0 +1,43 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Weekly Action for Iran Rally"
+
+featured: true
+
+description: |
+  A recurring weekly demonstration in solidarity with the nationwide uprising in Iran. Participants demand regime change and an end to the brutal crackdown. Expect chanting, waving of the Lion and Sun flag, and signs calling for international support.
+  
+  **Tips:** Parking is available at the nearby Home Depot or surrounding shopping centers, but expect them to be busy. Bring water, comfortable shoes, and Iranian flags (Lion and Sun).
+  
+  **Location Details:** Clairemont Mesa area. Protesters gather on all four corners; main group often near the Home Depot side.
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: "14:00"
+  end: "2026/02/07"
+  end_time: "16:00"
+
+location:
+  country: "US"
+  city: "San Diego"
+  address: "Intersection of Balboa Ave & Genesee Ave"
+
+online: []
+
+organizer:
+  name: "Iranians of San Diego (Grassroots)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOj3b5M4qV_vnoPfyK68Hc3VO950xh4jLoiYCQWYF7IPcDHWguqfvlG9V3-AfwhxW4FBhITbJI8dVDGtwuz--nVsiuPSaF2_ADKD8YxD5ejZ8AEtbvQQ=="

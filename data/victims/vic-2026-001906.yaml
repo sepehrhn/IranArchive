@@ -2,7 +2,9 @@
 # Victim Documentation - Azizollah Monfared
 # ==========================================
 
-photo: vic-2026-001906.jpg
+photo:
+  - "vic-2026-001906.jpg"
+  - "vic-2026-6cb90c067b04.jpg"
 name: Azizollah Monfared
 birth_date: ""
 birth_province: ""
@@ -18,8 +20,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |+
+description: ""
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/493
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/493"
+  - "https://x.com/ShahramSadidi/status/2016991417780863148"
 persian_name: عزیزالله منفرد

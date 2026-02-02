@@ -2,19 +2,21 @@
 # Victim Documentation - Saeed Tokolian
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-2140033.jpg"
 name: Saeed Tokolian
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: ''
+incident_province: ""
+incident_city: "Shiraz"
+incident_address: ""
+date_of_death: "2026-01-06"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +24,5 @@ description: |
   Killed during popular protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/nimarfati51385/status/2009962015557820632
-child: false
+  - "https://x.com/nimarfati51385/status/2009962015557820632"
+  - "https://x.com/nimarfati51385/status/2009962015557820632, https://t.me/RememberTheirNames/302"

@@ -2,7 +2,9 @@
 # Victim Documentation - Sahar Golchin
 # ==========================================
 
-photo: vic-2026-2140163.jpg
+photo:
+  - "vic-2026-2140163.jpg"
+  - "vic-2026-e110c4b8d61b.jpg"
 name: Sahar Golchin
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed by the Islamic Republic during the National Revolution of the Lion and Sun. Her image was removed, her ceremony was suppressed, and the truth was distorted, but the crime cannot be hidden.
+description: Killed by the Islamic Republic during the National Revolution of the Lion and Sun. Her image was removed, her ceremony was suppressed, and the truth was distorted, but the crime cannot be hidden.
 source_type: Social Media
 source_social_media_link: https://x.com/chaawtimes/status/2016190950926639126
-child: false
 persian_name: سحر گلچین

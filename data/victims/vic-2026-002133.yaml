@@ -2,16 +2,19 @@
 # Victim Documentation - Mehdi Nouri
 # ==========================================
 
-photo: vic-2026-002133.jpg
+photo:
+  - "vic-2026-002133.jpg"
+  - "vic-2026-d80872b6d814.jpg"
+  - "vic-2026-5fd74b65a837.jpg"
 name: Mehdi Nouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 40
 occupation: ""
 country: Iran
-incident_province: Mobarakeh
+incident_province: ""
 incident_city: Dizicheh
 incident_address: ""
 date_of_death: "2026-01-01"
@@ -23,6 +26,7 @@ description: |-
 
   Died during protests in Dey 1404 (late December 2025 - January 2026).
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/577
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/577"
+  - "https://x.com/hekasrehcrisis/status/2016557783479415029"
 persian_name: مهدی نوری

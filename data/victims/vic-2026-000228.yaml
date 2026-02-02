@@ -2,7 +2,9 @@
 # Victim Documentation - Ali Asghar Ostakhar
 # ==========================================
 
-photo: vic-2026-000228.jpg
+photo:
+  - "vic-2026-000228.jpg"
+  - "vic-2026-6cda0899074f.jpg"
 name: Ali Asghar Ostakhar
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Shot in the temple by security forces during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2013922017033191792, https://x.com/hoorieh81/status/2015024215477440758, https://t.me/RememberTheirNames/446
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2013922017033191792"
+  - "https://x.com/hoorieh81/status/2015024215477440758, https://t.me/RememberTheirNames/446"
 persian_name: علی اصغر استخر

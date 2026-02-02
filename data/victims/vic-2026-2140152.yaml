@@ -2,7 +2,12 @@
 # Victim Documentation - Parham Aghamohammadi
 # ==========================================
 
-photo: vic-2026-2140152.jpg
+photo:
+  - "vic-2026-2140152.jpg"
+  - "vic-2026-b14c7abbaeb6.jpg"
+  - "vic-2026-db0318d17eea.png"
+  - "vic-2026-db7f37fff2a0.png"
+  - "vic-2026-a1a478b2d074.png"
 name: Parham Aghamohammadi
 birth_date: ""
 birth_province: ""
@@ -18,9 +23,10 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed during protests. Described as 'brother' by the poster, indicating close relationship or solidarity term.
+description: Killed during protests. Described as 'brother' by the poster, indicating close relationship or solidarity term.
 source_type: Social Media
-source_social_media_link: https://x.com/i/status/2016113356734611843, https://x.com/hekasrehcrisis/status/2016375447827710377
-child: false
+source_social_media_link:
+  - "https://x.com/i/status/2016113356734611843, https://x.com/hekasrehcrisis/status/2016375447827710377"
+  - "https://x.com/i/status/2016113356734611843"
+  - "https://x.com/hekasrehcrisis/status/2016375447827710377"
 persian_name: پرهام آقامحمدی

@@ -2,7 +2,9 @@
 # Victim Documentation - Amirhossein Donloo
 # ==========================================
 
-photo: vic-2026-2139872.jpg
+photo:
+  - "vic-2026-2139872.jpg"
+  - "vic-2026-a3fb7def8d12.jpg"
 name: Amirhossein Donloo
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Azadshahr, Golestan province
+description: Died in Azadshahr, Golestan province
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1441
-child: true
 persian_name: امیرحسین دونلو

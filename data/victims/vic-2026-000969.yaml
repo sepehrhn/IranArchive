@@ -2,7 +2,12 @@
 # Victim Documentation - Vahab Ghaedi
 # ==========================================
 
-photo: vic-2026-000969.jpg
+photo:
+  - "vic-2026-000969.jpg"
+  - "vic-2026-99b4a5dee29d.jpg"
+  - "vic-2026-07e27c2d5b0f.png"
+  - "vic-2026-a7964da0b851.jpg"
+  - "vic-2026-a32d36fcfc59.jpg"
 name: Vahab Ghaedi
 birth_date: ""
 birth_province: ""
@@ -24,6 +29,7 @@ description: |-
 
   Killed by security forces of the Islamic Republic regime.
 source_type: Social Media
-source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/Daikatuo/status/2007455396248633743
-child: false
+source_social_media_link:
+  - "https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/Daikatuo/status/2007455396248633743"
+  - "https://x.com/Daikatuo/status/2007455396248633743"
 persian_name: وهاب قاعدی

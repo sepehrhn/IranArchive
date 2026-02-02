@@ -2,7 +2,10 @@
 # Victim Documentation - Fereshteh Rajabi Aghbash
 # ==========================================
 
-photo: vic-2026-001686.jpg
+photo:
+  - "vic-2026-001686.jpg"
+  - "vic-2026-c15e2268cb75.jpg"
+  - "vic-2026-cc2086e4ed67.jpg"
 name: Fereshteh Rajabi Aghbash
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,7 @@ description: |-
 
   Shot directly in the chest by security forces. Her body was returned to her family after three days under security pressure, and her burial took place at night under heavy security measures.
 source_type: Social Media
-source_social_media_link: https://x.com/tavaana/status/2015980085967519895, https://t.me/RememberTheirNames/1245
-child: false
+source_social_media_link:
+  - "https://x.com/tavaana/status/2015980085967519895, https://t.me/RememberTheirNames/1245"
+  - "https://x.com/tavaana/status/2015980085967519895"
 persian_name: فرشته رجبی اقباش

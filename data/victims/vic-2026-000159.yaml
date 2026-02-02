@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Rasoul Mardoukhi
 # ==========================================
 
-photo: vic-2026-000159.jpg
+photo:
+  - "vic-2026-000159.jpg"
+  - "vic-2026-09cb553e5b94.jpg"
 name: Mohammad Rasoul Mardoukhi
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Wrote a critical open letter to Khamenei just days before his death. His tortured body was found dumped on a roadside in Marivan, Kurdistan province. Had broken limbs and visible signs of severe beating and torture all over his body.
 source_type: Social Media
-source_social_media_link: https://x.com/longlosthills/status/2011203872954392627, https://t.me/RememberTheirNames/498
-child: false
+source_social_media_link:
+  - "https://x.com/longlosthills/status/2011203872954392627, https://t.me/RememberTheirNames/498"
+  - "https://x.com/longlosthills/status/2011203872954392627"
 persian_name: محمد رسول مردوخی

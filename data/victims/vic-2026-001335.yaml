@@ -2,7 +2,9 @@
 # Victim Documentation - Ashkan Asanloo
 # ==========================================
 
-photo: vic-2026-001335.jpg
+photo:
+  - "vic-2026-001335.jpg"
+  - "vic-2026-2a205224be64.jpg"
 name: Ashkan Asanloo
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |
 
   Killed by Islamic Republic mercenaries for freedom of Iran
 source_type: Social Media
-source_social_media_link: https://x.com/hs_maryam/status/2015461815308652689, https://t.me/RememberTheirNames/1220
-child: false
+source_social_media_link:
+  - "https://x.com/hs_maryam/status/2015461815308652689, https://t.me/RememberTheirNames/1220"
+  - "https://x.com/hs_maryam/status/2015461815308652689"
 persian_name: اشکان اصانلو

@@ -2,7 +2,9 @@
 # Victim Documentation - Seyed Mehdi Haghdoust
 # ==========================================
 
-photo: vic-2026-002148.jpg
+photo:
+  - "vic-2026-002148.jpg"
+  - "vic-2026-02013a148ad9.png"
 name: Seyed Mehdi Haghdoust
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Died during protests in Dey 1404 (late Dec 2025 - Jan 2026).
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/913
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/913"
+  - "https://x.com/VIsfehan/status/2016456001935847496"
 persian_name: سید مهدی حق‌دوست

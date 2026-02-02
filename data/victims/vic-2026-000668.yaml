@@ -2,7 +2,9 @@
 # Victim Documentation - Maryam Kalateh
 # ==========================================
 
-photo: vic-2026-000668.jpg
+photo:
+  - "vic-2026-000668.jpg"
+  - "vic-2026-d0d9f82a32ec.jpg"
 name: Maryam Kalateh
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Memorialized in tweet with phrase 'جاوید نام' (eternal name), suggesting death during protests
 source_type: Social Media
-source_social_media_link: https://x.com/shahramsadidi/status/2014739636547899886, https://t.me/RememberTheirNames/887, https://x.com/hoorieh81/status/2016119031334420890, https://x.com/ZizicGoogoolian/status/2014773088416891044
-child: false
+source_social_media_link:
+  - "https://x.com/shahramsadidi/status/2014739636547899886, https://t.me/RememberTheirNames/887, https://x.com/hoorieh81/status/2016119031334420890, https://x.com/ZizicGoogoolian/status/2014773088416891044"
+  - "https://x.com/hoorieh81/status/2016119031334420890"
 persian_name: مریم کلاته

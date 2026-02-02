@@ -2,7 +2,8 @@
 # Victim Documentation - Mohammad Paybast (Sarani)
 # ==========================================
 
-photo: vic-2026-2139963.jpg
+photo:
+  - vic-2026-2139963.jpg
 name: Mohammad Paybast (Sarani)
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Baloch citizen killed in the Pakdasht, Tehran protests. He was from the village of Deh-Doost Mohammad in Hirmand and resided in Kaloukan village in Khanbeen, Golestan Province. He worked as a factory guard in Varamin.
+description: Baloch citizen killed in the Pakdasht, Tehran protests. He was from the village of Deh-Doost Mohammad in Hirmand and resided in Kaloukan village in Khanbeen, Golestan Province. He worked as a factory guard in Varamin.
 source_type: Social Media
 source_social_media_link: https://x.com/farzinkadkhodae/status/2016202773012807840, https://t.me/RememberTheirNames/1530
-child: false
 persian_name: محمد پایبست(سارانی)

@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Kiani Hargalgani
 # ==========================================
 
-photo: vic-2026-001756.jpg
+photo:
+  - "vic-2026-001756.jpg"
+  - "vic-2026-4c1d71fca92c.jpg"
 name: Mohammad Kiani Hargalgani
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Shot directly by Islamic Republic security forces in Keshavarzi Street, the bullet hit his heart, causing immediate death. His younger brother was arrested by agents.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2015944599785623712, https://t.me/RememberTheirNames/1417
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2015944599785623712, https://t.me/RememberTheirNames/1417"
+  - "https://x.com/allahbakhshii/status/2015944599785623712"
 persian_name: محمد کیانی هرچگانی

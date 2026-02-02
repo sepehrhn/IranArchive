@@ -2,7 +2,11 @@
 # Victim Documentation - Ahmad Targhiyan
 # ==========================================
 
-photo: vic-2026-001007.jpg
+photo:
+  - "vic-2026-001007.jpg"
+  - "vic-2026-001633.jpg"
+  - "vic-2026-db0c9d3cb3cf.jpg"
+  - "vic-2026-38fe3c426212.jpg"
 name: Ahmad Targhiyan
 birth_date: ""
 birth_province: ""
@@ -11,7 +15,7 @@ gender: Male
 age: 35
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2025-12-22"
@@ -24,6 +28,7 @@ description: |-
 
   Shot in the heart with live ammunition during protests. Father of a four-year-old child. Details about the date of death and burial are unknown.
 source_type: Social Media
-source_social_media_link: https://x.com/soranmansournia/status/2013689104752361709, https://x.com/Soranmansournia/status/2013689104752361709, https://t.me/RememberTheirNames/428
-child: false
+source_social_media_link:
+  - "https://x.com/soranmansournia/status/2013689104752361709, https://x.com/Soranmansournia/status/2013689104752361709, https://t.me/RememberTheirNames/428"
+  - "https://x.com/Soranmansournia/status/2013689104752361709"
 persian_name: احمد ترقیان

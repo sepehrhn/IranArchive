@@ -2,7 +2,10 @@
 # Victim Documentation - Abolfazl Sheikh-Veisi
 # ==========================================
 
-photo: vic-2026-000217.jpg
+photo:
+  - "vic-2026-000217.jpg"
+  - "vic-2026-9b1fc0dee154.jpg"
+  - "vic-2026-48de1987c72b.jpg"
 name: Abolfazl Sheikh-Veisi
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: 18
 occupation: ""
 country: Iran
-incident_province: Khorasan Razavi
+incident_province: ""
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -21,6 +24,8 @@ status: Killed
 description: |
   Shot in the thigh by security forces during a crackdown on protests. He was among at least 21 people targeted with direct gunfire. Security forces transported the injured to remote locations without medical care, and he later died from blood loss.
 source_type: Social Media
-source_social_media_link: https://x.com/shiraninaroui/status/2014709359075352968, https://x.com/haalvsh/status/2014694498232893847, https://x.com/balochestan1422/status/2015913529979568624, https://t.me/RememberTheirNames/1407, https://x.com/vanheda97/status/2016246103524385185
-child: false
+source_social_media_link:
+  - "https://x.com/shiraninaroui/status/2014709359075352968, https://x.com/haalvsh/status/2014694498232893847, https://x.com/balochestan1422/status/2015913529979568624, https://t.me/RememberTheirNames/1407, https://x.com/vanheda97/status/2016246103524385185"
+  - "https://x.com/shiraninaroui/status/2014709359075352968"
+  - "https://x.com/TheBalochWorld/status/2014700095502196912"
 persian_name: ابوالفضل شیخ‌ویسی

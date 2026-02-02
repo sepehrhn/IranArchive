@@ -2,7 +2,9 @@
 # Victim Documentation - Masoumeh Hafezi
 # ==========================================
 
-photo: vic-2026-001254.jpg
+photo:
+  - "vic-2026-001254.jpg"
+  - "vic-2026-9fa14c342912.jpg"
 name: Masoumeh Hafezi
 birth_date: ""
 birth_province: ""
@@ -26,6 +28,7 @@ description: |-
 
   His father refused to pay a 200 million Toman ransom for his body and permission to bury him in the martyrs' section, stating his son died for his country and was not a mercenary killer. The body was eventually returned after six days of searching.
 source_type: Social Media
-source_social_media_link: https://x.com/tavaana/status/2015156994311860597, https://x.com/Tavaana/status/2015156994311860597, https://x.com/Liam_Armani/status/2014849020238156151, https://x.com/XosrooH/status/2015232107212063158, https://t.me/RememberTheirNames/1093
-child: false
+source_social_media_link:
+  - "https://x.com/tavaana/status/2015156994311860597, https://x.com/Tavaana/status/2015156994311860597, https://x.com/Liam_Armani/status/2014849020238156151, https://x.com/XosrooH/status/2015232107212063158, https://t.me/RememberTheirNames/1093"
+  - "https://x.com/Liam_Armani/status/2014849020238156151"
 persian_name: معصومه حافظی

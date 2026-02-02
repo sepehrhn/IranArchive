@@ -2,13 +2,16 @@
 # Victim Documentation - Farzaneh Jahanbakhsh
 # ==========================================
 
-photo: vic-2026-002123.jpg
+photo:
+  - "vic-2026-002123.jpg"
+  - "vic-2026-58c0e5420df2.jpg"
+  - "vic-2026-059c5ce8a449.jpg"
 name: Farzaneh Jahanbakhsh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 45
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,6 +26,7 @@ description: |-
 
   Died in Dey 1404 (late December 2025 - January 2026)
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1221
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1221"
+  - "https://x.com/amureza64/status/2016627800501846420"
 persian_name: فرزانه جهانبخشی

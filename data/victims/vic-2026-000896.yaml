@@ -2,7 +2,10 @@
 # Victim Documentation - Ali Karimi Bavolaki
 # ==========================================
 
-photo: ""
+photo:
+  - ""
+  - "vic-2026-88c2066ebf76.png"
+  - "vic-2026-2140040.jpg"
 name: Ali Karimi Bavolaki
 birth_date: ""
 birth_province: ""
@@ -21,5 +24,6 @@ status: Killed
 description: |
   Initially injured during protest on Jan 3, died several hours later in hospital
 source_type: Social Media
-source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres, https://en.wikipedia.org/wiki/2026_Malekshahi_massacre
-child: false
+source_social_media_link:
+  - "https://en.wikipedia.org/wiki/2026_Iran_massacres, https://en.wikipedia.org/wiki/2026_Malekshahi_massacre"
+  - "https://t.me/RememberTheirNames/42"

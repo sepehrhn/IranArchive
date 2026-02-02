@@ -2,7 +2,8 @@
 # Victim Documentation - Sophia Abbasi
 # ==========================================
 
-photo: vic-2026-2140015.jpg
+photo:
+  - vic-2026-2140015.jpg
 name: Sophia Abbasi
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot directly by security forces in Tehran. Originally from Kuhdasht, Lorestan.
+description: Shot directly by security forces in Tehran. Originally from Kuhdasht, Lorestan.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1408, https://x.com/khoshrof/status/2015889956904829070, https://x.com/me_azadi/status/2016422816439013495
-child: false
 persian_name: سوفیا عباسی

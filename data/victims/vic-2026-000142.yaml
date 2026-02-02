@@ -2,7 +2,8 @@
 # Victim Documentation - Salam Mirani
 # ==========================================
 
-photo: vic-2026-000142.jpg
+photo:
+  - vic-2026-000142.jpg
 name: Salam Mirani
 birth_date: ""
 birth_province: ""
@@ -25,5 +26,4 @@ description: |-
   Victim of the Iranian regime, as stated by Israel War Room.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/98
-child: false
 persian_name: سلام میرانی

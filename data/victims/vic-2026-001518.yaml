@@ -2,19 +2,21 @@
 # Victim Documentation - Matin mahmoudi
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-c3801cca5377.png"
 name: Matin mahmoudi
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 21
 occupation: راننده
 country: Iran
 incident_province: Hormozgan
 incident_city: Bandar Abbas
-incident_address: ''
-date_of_death: '2026-01-09'
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +24,4 @@ description: |
   تعقیب و شلیک مستقیم از پشت سر با گلوله‌ی جنگی
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

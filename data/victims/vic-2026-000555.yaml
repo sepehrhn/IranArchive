@@ -2,7 +2,12 @@
 # Victim Documentation - Armin Asgar
 # ==========================================
 
-photo: vic-2026-000555.jpg
+photo:
+  - "vic-2026-000555.jpg"
+  - "vic-2026-000556.jpg"
+  - "vic-2026-b01a6e0f6717.jpg"
+  - "vic-2026-62e31903656e.jpg"
+  - "vic-2026-979fc2f5d2c2.jpg"
 name: Armin Asgar
 birth_date: ""
 birth_province: ""
@@ -21,6 +26,7 @@ status: Killed
 description: |
   Shot by security forces during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2014073563083350452, https://t.me/RememberTheirNames/478
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2014073563083350452, https://t.me/RememberTheirNames/478"
+  - "https://x.com/manotonews/status/2014073563083350452"
 persian_name: آرمین عسگر

@@ -2,7 +2,9 @@
 # Victim Documentation - Alireza (Yasin) Ansarifar
 # ==========================================
 
-photo: vic-2026-001250.jpg
+photo:
+  - "vic-2026-001250.jpg"
+  - "vic-2026-237e98f874af.jpg"
 name: Alireza (Yasin) Ansarifar
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |
 
   Shot in the head with a live bullet on Thursday, January 8, 2026, and died a week later in the hospital.
 source_type: Social Media
-source_social_media_link: https://x.com/tavaana/status/2014987469394239772, https://x.com/Tavaana/status/2014987469394239772
-child: false
+source_social_media_link:
+  - "https://x.com/tavaana/status/2014987469394239772, https://x.com/Tavaana/status/2014987469394239772"
+  - "https://x.com/Tavaana/status/2014987469394239772"
 persian_name: علیرضا (یاسین) انصاری‌فر

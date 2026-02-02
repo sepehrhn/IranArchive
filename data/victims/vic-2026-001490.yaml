@@ -2,19 +2,26 @@
 # Victim Documentation - Parnia Shad Bejarkenari
 # ==========================================
 
-photo: vic-2026-001490.png
+photo:
+  - "vic-2026-001490.png"
+  - "vic-2026-72f6997dd44b.png"
+  - "vic-2026-a042c5132278.png"
+  - "vic-2026-45906426bcdb.png"
+  - "vic-2026-f48db72b3b7f.png"
+  - "vic-2026-a59d75b9e22d.jpg"
+  - "vic-2026-e09909296dac.jpg"
 name: Parnia Shad Bejarkenari
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
 age: 23
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Gilan
 incident_city: Rasht
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -27,5 +34,6 @@ description: |
   At the same time, the brother of the late Parnia was shot in the chest and taken to hospital for treatment.
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""
+  - "https://x.com/Daikatuo/status/2011838399754178592"
+  - "https://x.com/avatoday_news/status/2011803003372646643"

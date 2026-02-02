@@ -2,7 +2,9 @@
 # Victim Documentation - Rahim Zalipour
 # ==========================================
 
-photo: vic-2026-2139993.jpg
+photo:
+  - "vic-2026-2139993.jpg"
+  - "vic-2026-41c82ceb15c1.jpg"
 name: Rahim Zalipour
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died on 18 Dey 1404 in Meymand, Fars province during the protests
+description: Died on 18 Dey 1404 in Meymand, Fars province during the protests
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1668
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1668"
+  - "https://t.me/javanmardi77/154131"
 persian_name: رحیم زالی‌پور

@@ -2,7 +2,10 @@
 # Victim Documentation - Javad Jalilvand
 # ==========================================
 
-photo: vic-2026-2139919.jpg
+photo:
+  - "vic-2026-2139919.jpg"
+  - "vic-2026-28f21a9fbcc2.jpg"
+  - "vic-2026-168f9c60a64f.jpg"
 name: Javad Jalilvand
 birth_date: ""
 birth_province: ""
@@ -11,16 +14,16 @@ gender: Male
 age: 45
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot in the head with a war bullet around 21:00 on Friday night in Mehrshahr, Karaj. Father of 6-year-old son named Pandar and 6-month-old daughter named Panah. Body recovered after 2 days but authorities refused burial permission in Tehran and Karaj unless family declared him a martyr, which they refused. Finally buried in Tuyserkan.
+description: Shot in the head with a war bullet around 21:00 on Friday night in Mehrshahr, Karaj. Father of 6-year-old son named Pandar and 6-month-old daughter named Panah. Body recovered after 2 days but authorities refused burial permission in Tehran and Karaj unless family declared him a martyr, which they refused. Finally buried in Tuyserkan.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1599, https://x.com/justchangingun/status/2016842527903567985
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1599, https://x.com/justchangingun/status/2016842527903567985"
+  - "https://t.me/RememberTheirNames/1599"
 persian_name: جواد جلیلوند

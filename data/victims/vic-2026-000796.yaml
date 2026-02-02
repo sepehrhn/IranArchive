@@ -2,7 +2,9 @@
 # Victim Documentation - Reebin Moradi
 # ==========================================
 
-photo: vic-2026-000796.jpg
+photo:
+  - "vic-2026-000796.jpg"
+  - "vic-2026-7ecc09671301.jpg"
 name: Reebin Moradi
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   17-year-old from Salas Babajani and player for Saipa youth football team, killed during popular protests in Tehran when hit by military bullet fired by Islamic Republic military-security forces. His father Adel Moradi stated that Ribin was shot from close range and from behind.
 source_type: Social Media
-source_social_media_link: https://x.com/kurdistanhrn/status/2011439583917965438, https://x.com/missmarpel75/status/2014796556373729669, https://x.com/IranProtestsCom/status/2011445634255954257, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011439583917965438, https://t.me/RememberTheirNames/111, https://x.com/KurdistanHRN/status/2016561002456756727
-child: true
+source_social_media_link:
+  - "https://x.com/kurdistanhrn/status/2011439583917965438, https://x.com/missmarpel75/status/2014796556373729669, https://x.com/IranProtestsCom/status/2011445634255954257, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011439583917965438, https://t.me/RememberTheirNames/111, https://x.com/KurdistanHRN/status/2016561002456756727"
+  - "https://x.com/IranProtestsCom/status/2011445634255954257"
 persian_name: ریبین مرادی

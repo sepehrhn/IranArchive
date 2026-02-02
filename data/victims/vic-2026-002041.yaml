@@ -2,7 +2,8 @@
 # Victim Documentation - Peiman Miyanesaz
 # ==========================================
 
-photo: vic-2026-002041.jpg
+photo:
+  - vic-2026-002041.jpg
 name: Peiman Miyanesaz
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Died on 18 Dey 1404 in Towhid, Qazvin.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1003
-child: false
 persian_name: پیمان میانه‌ساز

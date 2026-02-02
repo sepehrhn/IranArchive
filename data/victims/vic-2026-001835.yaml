@@ -2,7 +2,9 @@
 # Victim Documentation - Ali Baghban
 # ==========================================
 
-photo: vic-2026-001835.jpg
+photo:
+  - "vic-2026-001835.jpg"
+  - "vic-2026-001836.jpg"
 name: Ali Baghban
 birth_date: ""
 birth_province: ""
@@ -11,15 +13,16 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |+
+description: ""
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1190
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1190"
+  - "https://t.me/RememberTheirNames/1343"
 persian_name: علی باغبان

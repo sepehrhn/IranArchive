@@ -2,7 +2,10 @@
 # Victim Documentation - Saeed Tavakkolian Doshmanzeyari
 # ==========================================
 
-photo: vic-2026-000891.jpg
+photo:
+  - "vic-2026-000891.jpg"
+  - "vic-2026-858c6209d752.jpg"
+  - "vic-2026-bdb3a16bb6a8.jpg"
 name: Saeed Tavakkolian Doshmanzeyari
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,7 @@ description: |-
 
   Shot in the face with birdshot by security forces while sitting in his personal car. He died after being transferred to the hospital.
 source_type: Social Media
-source_social_media_link: https://x.com/iranrights_org/status/2012586379134247367, https://x.com/iranrights_org/status/2012638890570530856, https://x.com/IranRights_org/status/2012586379134247367
-child: false
+source_social_media_link:
+  - "https://x.com/iranrights_org/status/2012586379134247367, https://x.com/iranrights_org/status/2012638890570530856, https://x.com/IranRights_org/status/2012586379134247367"
+  - "https://x.com/iranrights_org/status/2012638890570530856"
 persian_name: سعید توکلیان دشمن‌زیاری

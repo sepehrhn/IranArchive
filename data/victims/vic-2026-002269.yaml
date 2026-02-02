@@ -2,7 +2,9 @@
 # Victim Documentation - Yasna Eskandari
 # ==========================================
 
-photo: ""
+photo:
+  - ""
+  - "vic-2026-64a082f38b25.jpg"
 name: Yasna Eskandari
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Lawyer killed in Tehran.
 source_type: Social Media
-source_social_media_link: https://x.com/jacob15759299/status/2015531137028796513
-child: false
+source_social_media_link:
+  - "https://x.com/jacob15759299/status/2015531137028796513"
+  - "https://t.me/javanmardi77/154065"
 persian_name: یسنا اسکندریه

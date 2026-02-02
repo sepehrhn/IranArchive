@@ -2,19 +2,26 @@
 # Victim Documentation - Mehrshad Ragbar
 # ==========================================
 
-photo: vic-2026-000149.jpg
+photo:
+  - "vic-2026-000149.jpg"
+  - "vic-2026-001547.jpg"
+  - "vic-2026-c516e27eb279.jpg"
+  - "vic-2026-6b5ea6a25f1f.jpg"
+  - "vic-2026-1ab92541f15e.jpg"
+  - "vic-2026-8bd603a4f621.jpg"
+  - "vic-2026-c9253e544a8e.jpg"
 name: Mehrshad Ragbar
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 26
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Bandar Abbas
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +29,12 @@ description: |
   Shot directly by security forces while riding a motorcycle with his friend Mohammad Amin Khatem
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/daikatuo/status/2013742568496935299
-child: false
+  - "https://x.com/daikatuo/status/2013742568496935299"
+  - "https://x.com/daikatuo/status/2013742568496935299, https://x.com/Daikatuo/status/2013742568496935299, https://x.com/HengawO/status/2013750016439960017, https://x.com/HengawO/status/2013973994119053442, https://x.com/Tavaana/status/2013923437178143075, https://x.com/hiwa_life/status/2015704106879308037, https://x.com/TheBalochWorld/status/2014626960455176573, https://t.me/RememberTheirNames/455"
+  - "https://x.com/Daikatuo/status/2013742568496935299"
+  - "https://x.com/HengawO/status/2013750016439960017"
+  - "https://x.com/HengawO/status/2013973994119053442"
+  - "https://x.com/Tavaana/status/2013923437178143075"
+  - "https://x.com/thebalochworld/status/2014626960455176573"
+  - "https://x.com/hiwa_life/status/2015704106879308037"
+  - "https://x.com/TheBalochWorld/status/2014626960455176573"

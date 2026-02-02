@@ -2,13 +2,19 @@
 # Victim Documentation - Emad Modatipur
 # ==========================================
 
-photo: vic-2026-001678.jpg
+photo:
+  - "vic-2026-001678.jpg"
+  - "vic-2026-3af1f72aa328.jpg"
+  - "vic-2026-e9c52370d521.jpg"
+  - "vic-2026-376d7027969a.jpg"
+  - "vic-2026-d8db47305c62.jpg"
+  - "vic-2026-d612be61873c.jpg"
 name: Emad Modatipur
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 28
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,6 +29,9 @@ description: |-
 
   Mentioned in a list of names with a date and location.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1337
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1337"
+  - "https://x.com/Askharfeldman/status/2016927159864938801"
+  - "https://x.com/i/status/2016993121272549822"
+  - "https://x.com/iampayaam/status/2017322177633096161"
 persian_name: عماد مودتی‌پور

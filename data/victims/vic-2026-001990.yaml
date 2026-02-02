@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Gharavi
 # ==========================================
 
-photo: vic-2026-001990.jpg
+photo:
+  - "vic-2026-001990.jpg"
+  - "vic-2026-58077115f3ea.jpg"
+  - "vic-2026-2140074.jpg"
 name: Mohammad Gharavi
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,7 @@ description: |-
 
   Injured by Islamic Republic of Iran forces, arrested, and transferred to a Sepah Pasdaran detention center where he died in custody. His death is attributed to the actions of Sepah forces during his detention. He was alive when transferred to the detention center.
 source_type: Social Media
-source_social_media_link: https://x.com/HyrcaniHRM/status/2015812293188087885
-child: false
+source_social_media_link:
+  - "https://x.com/HyrcaniHRM/status/2015812293188087885"
+  - "https://t.me/RememberTheirNames/416"
 persian_name: محمد غراوی

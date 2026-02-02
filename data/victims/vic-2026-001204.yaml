@@ -2,20 +2,26 @@
 # Victim Documentation - Saeed Kahrari
 # ==========================================
 
-photo: vic-2026-001204.jpg
+photo:
+  - "vic-2026-001204.jpg"
+  - "vic-2026-002146.jpg"
+  - "vic-2026-9661f6f82d50.jpg"
+  - "vic-2026-c819839e9a90.jpg"
+  - "vic-2026-e2f8b23fe7b8.jpg"
+  - "vic-2026-69b9c4c60049.jpg"
 name: Saeed Kahrari
-persian_name: "سعید کهراری"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+persian_name: سعید کهراری
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 46
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Kermanshah
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,5 +29,7 @@ description: |
   Killed during Kermanshah protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hengawo/status/2014088323942256878
-child: false
+  - "https://x.com/hengawo/status/2014088323942256878"
+  - "https://x.com/hengawo/status/2014088323942256878, https://x.com/HengawO/status/2014088323942256878, https://t.me/RememberTheirNames/1672"
+  - "https://x.com/hamiparvane/status/2016646179388285056"
+  - "https://x.com/HengawO/status/2014088323942256878"

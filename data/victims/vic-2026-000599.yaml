@@ -2,7 +2,11 @@
 # Victim Documentation - Farhad Cheraghi Zadeh
 # ==========================================
 
-photo: vic-2026-000599.jpg
+photo:
+  - "vic-2026-000599.jpg"
+  - "vic-2026-a95857719fd7.jpg"
+  - "vic-2026-83f247704b08.jpg"
+  - "vic-2026-d416fb80fd50.jpg"
 name: Farhad Cheraghi Zadeh
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,8 @@ description: |-
 
   Killed by live ammunition by Islamic Republic security forces on Bolvar Taghbostan.
 source_type: Social Media
-source_social_media_link: https://x.com/dahliakurtz/status/2013798167687360920, https://x.com/javadsimin/status/2014646306275209591, https://x.com/MayaThefish/status/2014798438286676055, https://t.me/RememberTheirNames/812
-child: false
+source_social_media_link:
+  - "https://x.com/dahliakurtz/status/2013798167687360920, https://x.com/javadsimin/status/2014646306275209591, https://x.com/MayaThefish/status/2014798438286676055, https://t.me/RememberTheirNames/812"
+  - "https://x.com/dahliakurtz/status/2013798167687360920"
+  - "https://x.com/MayaThefish/status/2014798438286676055"
 persian_name: فرهاد چراغی زاده

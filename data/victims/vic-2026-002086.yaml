@@ -2,7 +2,9 @@
 # Victim Documentation - Yousef Jalambadani
 # ==========================================
 
-photo: vic-2026-002086.jpg
+photo:
+  - "vic-2026-002086.jpg"
+  - "vic-2026-dbb2ff9e4ad1.jpg"
 name: Yousef Jalambadani
 birth_date: ""
 birth_province: ""
@@ -18,8 +20,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |+
+description: ""
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/889
-child: false
 persian_name: یوسف جلمبادانی

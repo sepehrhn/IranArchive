@@ -2,19 +2,24 @@
 # Victim Documentation - Diako Qadermarzi
 # ==========================================
 
-photo: vic-2026-000936.jpg
+photo:
+  - "vic-2026-000936.jpg"
+  - "vic-2026-002119.jpg"
+  - "vic-2026-fb7c003889d5.jpg"
+  - "vic-2026-c5576d48105a.jpg"
+  - "vic-2026-548b054a9496.jpg"
 name: Diako Qadermarzi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 19
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +27,7 @@ description: |
   Killed during protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hengawo/status/2014810777199272005
-child: false
+  - "https://x.com/hengawo/status/2014810777199272005"
+  - "https://x.com/hengawo/status/2014810777199272005, https://x.com/HengawO/status/2014810777199272005, https://x.com/kurdpa_farsi/status/2014761583835230707, https://t.me/RememberTheirNames/930"
+  - "https://x.com/HengawO/status/2014810777199272005"
+  - "https://x.com/kurdpa_farsi/status/2014761583835230707"

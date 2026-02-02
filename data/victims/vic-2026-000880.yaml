@@ -2,7 +2,15 @@
 # Victim Documentation - Amir Shakouri
 # ==========================================
 
-photo: vic-2026-000880.jpg
+photo:
+  - "vic-2026-000880.jpg"
+  - "vic-2026-74e6260446da.jpg"
+  - "vic-2026-21efa50dedca.jpg"
+  - "vic-2026-adf3640a80f3.jpg"
+  - "vic-2026-f94bb41507ea.jpg"
+  - "vic-2026-42ce1d394dd5.jpg"
+  - "vic-2026-228e4862d2fd.jpg"
+  - "vic-2026-53a15de75161.jpg"
 name: Amir Shakouri
 birth_date: ""
 birth_province: ""
@@ -24,6 +32,10 @@ description: |-
 
   Killed by plainclothes armed officers during protests.
 source_type: Social Media
-source_social_media_link: https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/Daikatuo/status/2011452789310824589, https://x.com/Soranmansournia/status/2013672222464909658, https://x.com/pkhwshhal/status/2015030074139885785, https://t.me/RememberTheirNames/139
-child: false
+source_social_media_link:
+  - "https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/Daikatuo/status/2011452789310824589, https://x.com/Soranmansournia/status/2013672222464909658, https://x.com/pkhwshhal/status/2015030074139885785, https://t.me/RememberTheirNames/139"
+  - "https://x.com/Daikatuo/status/2011452789310824589"
+  - "https://x.com/Soranmansournia/status/2013672222464909658"
+  - "https://x.com/pkhwshhal/status/2015030074139885785"
+  - "https://x.com/pkhwshhal/status/2011153948041007344"
 persian_name: امیر شکوری

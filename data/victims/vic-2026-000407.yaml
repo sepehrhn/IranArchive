@@ -2,20 +2,21 @@
 # Victim Documentation - Parham Davoudi
 # ==========================================
 
-photo: vic-2026-000407.jpg
+photo:
+  - vic-2026-000407.jpg
 name: Parham Davoudi
-persian_name: "پرهام داوودی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: پرهام داوودی
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: 18
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Baharestan
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -24,4 +25,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/foad_choobin/status/2015129661383045220
-child: false

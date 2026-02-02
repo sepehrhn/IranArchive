@@ -2,19 +2,20 @@
 # Victim Documentation - Amir Ali Doganaei
 # ==========================================
 
-photo: vic-2026-001288.jpg
+photo:
+  - vic-2026-001288.jpg
 name: Amir Ali Doganaei
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Kermanshah
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -25,4 +26,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/khoshnevisnaser/status/2015161164582273407
-child: false

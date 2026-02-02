@@ -2,7 +2,10 @@
 # Victim Documentation - Mehdi Soleimani
 # ==========================================
 
-photo: vic-2026-001741.jpg
+photo:
+  - "vic-2026-001741.jpg"
+  - "vic-2026-2d05961934fe.jpg"
+  - "vic-2026-bfa8f3275096.jpg"
 name: Mehdi Soleimani
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,8 @@ description: |-
 
   Shot in the neck with live ammunition by Khamenei's mercenaries. Married with two young children aged 7 and 4.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2015362298538307659, https://x.com/VIsfehan/status/2015407128404435304, https://t.me/RememberTheirNames/1294
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2015362298538307659, https://x.com/VIsfehan/status/2015407128404435304, https://t.me/RememberTheirNames/1294"
+  - "https://x.com/visfehan/status/2015362298538307659"
+  - "https://x.com/VIsfehan/status/2015407128404435304"
 persian_name: مهدی سلیمانی

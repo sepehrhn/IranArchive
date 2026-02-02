@@ -2,7 +2,8 @@
 # Victim Documentation - Hamidreza Firouzmekan
 # ==========================================
 
-photo: vic-2026-2139900.jpg
+photo:
+  - vic-2026-2139900.jpg
 name: Hamidreza Firouzmekan
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed during protests.
+description: Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/335
-child: false
 persian_name: حمیدرضا فیروزمکان

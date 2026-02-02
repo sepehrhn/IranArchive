@@ -2,7 +2,8 @@
 # Victim Documentation - Ali Sarlook
 # ==========================================
 
-photo: vic-2026-001556.jpg
+photo:
+  - vic-2026-001556.jpg
 name: Ali Sarlook
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Died in Haft Hoz, Tehran in Dey 1404 (late Dec 2025 - Jan 2026). Specific cause of death not mentioned, but implied to be related to protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1113
-child: false
 persian_name: علی سرلک

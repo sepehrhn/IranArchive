@@ -2,7 +2,12 @@
 # Victim Documentation - Artin Abdollahi
 # ==========================================
 
-photo: vic-2026-000042.jpg
+photo:
+  - "vic-2026-000042.jpg"
+  - "vic-2026-001246.jpg"
+  - "vic-2026-36c93d7de362.jpg"
+  - "vic-2026-b456a8e25297.jpg"
+  - "vic-2026-7425e5c16f8b.png"
 name: Artin Abdollahi
 birth_date: ""
 birth_province: ""
@@ -11,7 +16,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-01"
@@ -24,6 +29,11 @@ description: |-
 
   Reported as one of nine additional students killed, bringing the total to 25 students killed. Specific details of death and date not provided in tweet.
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2014781999668437226, https://x.com/HengawO/status/2014710031246066053, https://x.com/HengawO/status/2014429661707542927, https://t.me/RememberTheirNames/956
-child: false
+source_social_media_link:
+  - "https://x.com/HengawO/status/2014781999668437226, https://x.com/HengawO/status/2014710031246066053, https://x.com/HengawO/status/2014429661707542927, https://t.me/RememberTheirNames/956"
+  - "https://x.com/hengawo/status/2014781999668437226"
+  - "https://x.com/hengawo/status/2014710031246066053"
+  - "https://x.com/hengawo/status/2014429661707542927"
+  - "https://x.com/noamagid/status/2015464646644252999"
+  - "https://x.com/HengawO/status/2014429661707542927"
 persian_name: آرتین عبداللهی

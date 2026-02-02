@@ -2,7 +2,14 @@
 # Victim Documentation - Ahmad Abadi Kamand
 # ==========================================
 
-photo: vic-2026-000476.jpg
+photo:
+  - "vic-2026-000476.jpg"
+  - "vic-2026-d91bd4a6a242.jpg"
+  - "vic-2026-216697fbf9c1.jpg"
+  - "vic-2026-5d423ebb478f.png"
+  - "vic-2026-abb7dcfb4f11.png"
+  - "vic-2026-b5d03e46db9f.jpg"
+  - "vic-2026-e8528be823bd.png"
 name: Ahmad Abadi Kamand
 birth_date: ""
 birth_province: ""
@@ -21,6 +28,8 @@ status: Killed
 description: |
   Shot directly by government suppression forces during popular protests in Mashiriyeh area
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2012902800414613726, https://x.com/Daikatuo/status/2011834019403677736, https://t.me/RememberTheirNames/228
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2012902800414613726, https://x.com/Daikatuo/status/2011834019403677736, https://t.me/RememberTheirNames/228"
+  - "https://x.com/Daikatuo/status/2011834019403677736"
+  - "https://x.com/manotonews/status/2012902800414613726"
 persian_name: احمد عبادی کمند

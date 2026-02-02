@@ -2,7 +2,13 @@
 # Victim Documentation - Hossein Shirkol
 # ==========================================
 
-photo: vic-2026-000308.jpg
+photo:
+  - "vic-2026-000308.jpg"
+  - "vic-2026-d8b39a8885e5.jpg"
+  - "vic-2026-218d1bd6c927.jpg"
+  - "vic-2026-57e1036273a6.jpg"
+  - "vic-2026-a335d611ac72.jpg"
+  - "vic-2026-d3fe652aeeef.jpg"
 name: Hossein Shirkol
 birth_date: ""
 birth_province: ""
@@ -21,6 +27,11 @@ status: Killed
 description: |
   Shot by security forces with war bullets during popular protests in Isfahan
 source_type: Social Media
-source_social_media_link: https://x.com/kurdistanhrn/status/2011420234687603026, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011420234687603026, https://x.com/KurdistanHRN/status/2014746852537610266, https://x.com/eisabazyar1/status/2015017016432697808, https://t.me/RememberTheirNames/244, https://x.com/KyokushinSoofi/status/2015769365036052635, https://x.com/kurdpa_farsi/status/2016248555246330315
-child: false
+source_social_media_link:
+  - "https://x.com/kurdistanhrn/status/2011420234687603026, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011420234687603026, https://x.com/KurdistanHRN/status/2014746852537610266, https://x.com/eisabazyar1/status/2015017016432697808, https://t.me/RememberTheirNames/244, https://x.com/KyokushinSoofi/status/2015769365036052635, https://x.com/kurdpa_farsi/status/2016248555246330315"
+  - "https://x.com/kurdistanhrn/status/2011420234687603026"
+  - "https://x.com/KurdistanHRN/status/2011783655752880275"
+  - "https://x.com/KurdistanHRN/status/2011420234687603026"
+  - "https://x.com/eisabazyar1/status/2015017016432697808"
+  - "https://x.com/KyokushinSoofi/status/2015769365036052635"
 persian_name: حسین شیرکول

@@ -2,7 +2,11 @@
 # Victim Documentation - Amir Hossein Razgardani
 # ==========================================
 
-photo: vic-2026-000028.jpg
+photo:
+  - "vic-2026-000028.jpg"
+  - "vic-2026-000242.jpg"
+  - "vic-2026-912d6582775f.jpg"
+  - "vic-2026-a98c1cea6ff3.jpg"
 name: Amir Hossein Razgardani
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,7 @@ description: |-
 
   Killed by bullets from the suppressive forces of the Islamic Republic during protests. He was from Razgard village in Markazi province and Arak.
 source_type: Social Media
-source_social_media_link: https://x.com/behnam_chegini/status/2015054173755040105, https://x.com/saeidvafa/status/2015157239326138732, https://t.me/RememberTheirNames/459
-child: false
+source_social_media_link:
+  - "https://x.com/behnam_chegini/status/2015054173755040105, https://x.com/saeidvafa/status/2015157239326138732, https://t.me/RememberTheirNames/459"
+  - "https://x.com/saeidvafa/status/2015157239326138732"
 persian_name: امیر حسین رازگردانی

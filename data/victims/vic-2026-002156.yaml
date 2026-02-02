@@ -2,21 +2,24 @@
 # Victim Documentation - Pedram Zolghari
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-2140049.jpg"
+  - "vic-2026-487befd0a19d.jpg"
 name: Pedram Zolghari
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 31
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Alborz
 incident_city: Karaj
 incident_address: Fardis
-date_of_death: '2025-12-29'
+date_of_death: "2025-12-29"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |-
   Persian Name: پدرام ذوالفقاری
@@ -24,5 +27,6 @@ description: |-
   Shot seven times in the chest. His family has not yet received his body due to an inability to pay 700 million (currency unspecified) for the bullets.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/iranintlbrk/status/2015735004295295372
-child: false
+  - "https://x.com/iranintlbrk/status/2015735004295295372"
+  - "https://x.com/iranintlbrk/status/2015735004295295372, https://x.com/IranIntlbrk/status/2015735004295295372"
+  - "https://x.com/IranIntlbrk/status/2015735004295295372"

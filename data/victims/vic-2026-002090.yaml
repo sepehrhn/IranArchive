@@ -2,7 +2,9 @@
 # Victim Documentation - Abdollah Fathi
 # ==========================================
 
-photo: vic-2026-002090.jpg
+photo:
+  - "vic-2026-002090.jpg"
+  - "vic-2026-1bb3397a21cf.jpg"
 name: Abdollah Fathi
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Killed by Islamic Republic security forces. He was an employee of Khuzestan Steel Industries.
 source_type: Social Media
-source_social_media_link: https://x.com/i/status/2015404619288150235, https://t.me/RememberTheirNames/1404
-child: false
+source_social_media_link:
+  - "https://x.com/i/status/2015404619288150235, https://t.me/RememberTheirNames/1404"
+  - "https://x.com/i/status/2015404619288150235"
 persian_name: عبدالله فتحی

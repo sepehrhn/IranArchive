@@ -2,19 +2,20 @@
 # Victim Documentation - Son of Neda Bahram
 # ==========================================
 
-photo: vic-2026-001318.jpg
+photo:
+  - vic-2026-001318.jpg
 name: Son of Neda Bahram
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: 26
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_province: ""
+incident_city: ""
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,4 +24,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/nedabahram/status/2015121778444493237
-child: false

@@ -2,24 +2,24 @@
 # Victim Documentation - Milad Rahmat Nezhad
 # ==========================================
 
-photo: vic-2026-001461.png
+photo:
+  - vic-2026-001461.png
 name: Milad Rahmat Nezhad
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Alborz
 incident_city: Karaj
 incident_address: Zourabad
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: Gunshot
 status: Killed
-description: ''
+description: ""
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

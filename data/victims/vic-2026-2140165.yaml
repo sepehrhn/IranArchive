@@ -2,7 +2,8 @@
 # Victim Documentation - Sakineh Abbaszadeh
 # ==========================================
 
-photo: vic-2026-2140165.jpg
+photo:
+  - vic-2026-2140165.jpg
 name: Sakineh Abbaszadeh
 birth_date: ""
 birth_province: ""
@@ -11,16 +12,14 @@ gender: Male
 age: 45
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Khormashti
 incident_address: Khormashti
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Mother of approximately 45 years old who was killed with a war bullet after going to help her 16-year-old son who had been shot in the leg with pellets during protests. Authorities demanded a large sum of money to release her body and did not allow her to be buried in her city of residence, forcing relatives to take her to another town. Her husband had died several years earlier. Her injured son remained in hiding with his brother due to fear of arrest and did not go to hospital.
+description: Mother of approximately 45 years old who was killed with a war bullet after going to help her 16-year-old son who had been shot in the leg with pellets during protests. Authorities demanded a large sum of money to release her body and did not allow her to be buried in her city of residence, forcing relatives to take her to another town. Her husband had died several years earlier. Her injured son remained in hiding with his brother due to fear of arrest and did not go to hospital.
 source_type: Social Media
 source_social_media_link: https://x.com/hekasrehcrisis/status/2016525984036458617
-child: false
 persian_name: سکینه عباس‌زاده

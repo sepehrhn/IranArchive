@@ -8,10 +8,10 @@ const { t } = useI18n()
         <!-- Background Glow -->
         <div class="absolute -top-20 left-1/2 -translate-x-1/2 w-64 h-64 bg-primary-500/20 blur-[100px] rounded-full pointer-events-none"></div>
 
-        <h1 class="relative text-6xl md:text-7xl font-extrabold tracking-tight text-surface-900 dark:text-surface-0">
-            They can't post. <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-red-600 dark:from-primary-400 dark:to-red-400">You can.</span>
+        <h1 class="relative text-6xl md:text-7xl font-extrabold tracking-tight text-surface-900 dark:text-surface-0" dir="auto">
+            {{ t('home.heroTitleStart') }} <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-600 to-red-600 dark:from-primary-400 dark:to-red-400">{{ t('home.heroTitleEnd') }}</span>
         </h1>
-        <p class="text-2xl text-surface-600 dark:text-surface-300 font-mono tracking-wide relative z-10">
+        <p class="text-2xl text-surface-600 dark:text-surface-300 font-mono tracking-wide relative z-10 text-center" dir="ltr">
             #R2PforIran #IranMassacre #IRGCTerrorists
         </p>
     </div>
@@ -33,13 +33,14 @@ const { t } = useI18n()
                     <h2 class="text-xl font-bold text-surface-900 dark:text-surface-0 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">{{ t('common.incidents') }}</h2>
                 </div>
                 
+                
                 <p class="mb-6 text-surface-600 dark:text-surface-400 leading-relaxed">
-                    Explore the verified timeline of events, reports, and evidence documented across the country.
+                    {{ t('home.incidentsDescription') }}
                 </p>
                 
-                <div class="flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
-                    <span>View Archive</span>
-                    <i class="pi pi-arrow-right ml-2 text-sm"></i>
+                <div class="flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform">
+                    <span>{{ t('home.viewArchive') }}</span>
+                    <i class="pi pi-arrow-right ml-2 text-sm rtl:rotate-180"></i>
                 </div>
             </div>
         </NuxtLink>
@@ -52,16 +53,16 @@ const { t } = useI18n()
                      <div class="p-3 bg-surface-100 dark:bg-surface-800 rounded-xl group-hover:bg-primary-50 dark:group-hover:bg-primary-900/20 transition-colors">
                         <i class="pi pi-users text-blue-500 text-2xl" />
                     </div>
-                    <h2 class="text-xl font-bold text-surface-900 dark:text-surface-0 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">Victims</h2>
+                    <h2 class="text-xl font-bold text-surface-900 dark:text-surface-0 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">{{ t('common.victims') }}</h2>
                 </div>
                 
                 <p class="mb-6 text-surface-600 dark:text-surface-400 leading-relaxed">
-                    A dedicated memorial database honoring those who lost their lives to the regime's brutality.
+                    {{ t('home.victimsDescription') }}
                 </p>
                 
-                <div class="flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 transition-transform">
-                    <span>View Database</span>
-                    <i class="pi pi-arrow-right ml-2 text-sm"></i>
+                <div class="flex items-center text-primary-600 dark:text-primary-400 font-medium group-hover:translate-x-1 rtl:group-hover:-translate-x-1 transition-transform">
+                    <span>{{ t('home.viewDatabase') }}</span>
+                    <i class="pi pi-arrow-right ml-2 text-sm rtl:rotate-180"></i>
                 </div>
             </div>
         </NuxtLink>

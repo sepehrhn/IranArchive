@@ -2,7 +2,10 @@
 # Victim Documentation - Milad Farrokhi
 # ==========================================
 
-photo: vic-2026-000953.jpg
+photo:
+  - "vic-2026-000953.jpg"
+  - "vic-2026-c8652b938b65.jpg"
+  - "vic-2026-9ece597bc8c7.jpg"
 name: Milad Farrokhi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,7 @@ description: |-
 
   Mentioned in a list of names with a date and location.
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2014072784213754211, https://t.me/RememberTheirNames/555
-child: false
+source_social_media_link:
+  - "https://x.com/HengawO/status/2014072784213754211, https://t.me/RememberTheirNames/555"
+  - "https://x.com/HengawO/status/2014072784213754211"
 persian_name: میلاد فرخی

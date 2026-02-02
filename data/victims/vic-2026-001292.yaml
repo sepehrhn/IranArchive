@@ -2,7 +2,9 @@
 # Victim Documentation - Araz Salimian
 # ==========================================
 
-photo: vic-2026-001292.jpg
+photo:
+  - "vic-2026-001292.jpg"
+  - "vic-2026-1a5579efec1d.jpg"
 name: Araz Salimian
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |
 
   Shot in the throat by Islamic Republic forces during protests in Chalus.
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2015365756469309843, https://t.me/persian_picture/4126
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2015365756469309843, https://t.me/persian_picture/4126"
+  - "https://x.com/hyrcanihrm/status/2015365756469309843"
 persian_name: آراز سلیمیان

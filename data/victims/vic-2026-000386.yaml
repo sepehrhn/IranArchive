@@ -2,7 +2,11 @@
 # Victim Documentation - Mohsen Ebrahimzadeh
 # ==========================================
 
-photo: vic-2026-000386.jpg
+photo:
+  - "vic-2026-000386.jpg"
+  - "vic-2026-2ef5943763b8.jpg"
+  - "vic-2026-eae7678582ff.jpg"
+  - "vic-2026-3dfcb9493174.jpg"
 name: Mohsen Ebrahimzadeh
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,9 @@ description: |-
 
   Shot by security forces during protests. His name is whispered in the midnight breeze of the intoxicated wind.
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2014269305261633630, https://x.com/ManotoNews/status/2015016114707685383, https://x.com/behnam_chegini/status/2015042425996107924, https://t.me/RememberTheirNames/523, https://x.com/HeKasrehCrisis/status/2015854630400393237
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2014269305261633630, https://x.com/ManotoNews/status/2015016114707685383, https://x.com/behnam_chegini/status/2015042425996107924, https://t.me/RememberTheirNames/523, https://x.com/HeKasrehCrisis/status/2015854630400393237"
+  - "https://x.com/manotonews/status/2014269305261633630"
+  - "https://x.com/ManotoNews/status/2015016114707685383"
+  - "https://x.com/HeKasrehCrisis/status/2015854630400393237"
 persian_name: محسن ابراهیم زاده

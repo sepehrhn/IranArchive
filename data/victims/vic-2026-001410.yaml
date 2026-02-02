@@ -2,22 +2,26 @@
 # Victim Documentation - Arman Gorjian Bahmyari
 # ==========================================
 
-photo: vic-2026-001410.jpg
+photo:
+  - "vic-2026-001410.jpg"
+  - "vic-2026-001898.jpg"
+  - "vic-2026-c9fcee54a3d8.jpg"
+  - "vic-2026-2a802653bbbc.jpg"
 name: Arman Gorjian Bahmyari
-persian_name: "آرمان گرجیان بهمیاری"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: آرمان گرجیان بهمیاری
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 19
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Fars
 incident_city: Nurabad Mamasani
-incident_address: ''
-date_of_death: ''
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |
   Persian Name: آرمان گرجیان بهمیاری
@@ -25,5 +29,5 @@ description: |
   Killed in the path of the homeland
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/pardis__rabiee/status/2015407000708895212
-child: false
+  - "https://x.com/pardis__rabiee/status/2015407000708895212"
+  - "https://x.com/pardis__rabiee/status/2015407000708895212, https://t.me/RememberTheirNames/772"

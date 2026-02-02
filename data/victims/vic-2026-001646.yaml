@@ -2,13 +2,16 @@
 # Victim Documentation - Amir Hossein Rezaei
 # ==========================================
 
-photo: vic-2026-001646.jpg
+photo:
+  - "vic-2026-001646.jpg"
+  - "vic-2026-e850b85dab6a.jpg"
+  - "vic-2026-1e9fa5c11fc9.jpg"
 name: Amir Hossein Rezaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 27
 occupation: ""
 country: Iran
 incident_province: Isfahan
@@ -23,6 +26,10 @@ description: |-
 
   Died during protests. The tweet uses 'جاودانه شد' which means 'became immortal' or 'passed away'.
 source_type: Social Media
-source_social_media_link: https://x.com/VIsfehan/status/2015732273627144378, https://x.com/visfehan/status/2015732273627144378, https://x.com/i/status/2015732273627144378
-child: false
+source_social_media_link:
+  - "https://x.com/VIsfehan/status/2015732273627144378, https://x.com/visfehan/status/2015732273627144378, https://x.com/i/status/2015732273627144378"
+  - "https://x.com/VIsfehan/status/2015732273627144378"
+  - "https://x.com/visfehan/status/2015732273627144378"
+  - "https://x.com/i/status/2015732273627144378"
+  - "https://x.com/isamanyasin/status/2017538285250163153"
 persian_name: امیر حسین رضایی

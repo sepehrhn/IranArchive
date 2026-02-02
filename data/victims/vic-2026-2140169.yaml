@@ -2,7 +2,8 @@
 # Victim Documentation - Shahram Baghban
 # ==========================================
 
-photo: vic-2026-2140169.jpg
+photo:
+  - vic-2026-2140169.jpg
 name: Shahram Baghban
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Protester killed by live ammunition shot to the head. His body was not handed over to his family; officials buried the body themselves.
+description: Protester killed by live ammunition shot to the head. His body was not handed over to his family; officials buried the body themselves.
 source_type: Social Media
 source_social_media_link: https://x.com/iranintlbrk/status/2015734712015143050
-child: false
 persian_name: شهرام باغبان

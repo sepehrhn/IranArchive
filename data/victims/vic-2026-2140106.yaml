@@ -2,7 +2,9 @@
 # Victim Documentation - Ashkan Shahbazi
 # ==========================================
 
-photo: vic-2026-2140106.jpg
+photo:
+  - "vic-2026-2140106.jpg"
+  - "vic-2026-002da86caa05.jpg"
 name: Ashkan Shahbazi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  20-year-old from Ardabil who was shot by Islamic Republic military forces during recent protests. Buried in Behesht-e Zahra cemetery in Ardabil.
+description: 20-year-old from Ardabil who was shot by Islamic Republic military forces during recent protests. Buried in Behesht-e Zahra cemetery in Ardabil.
 source_type: Social Media
 source_social_media_link: https://x.com/ashk_shadi/status/2016621505778467175
-child: false
 persian_name: اشکان شهبازی

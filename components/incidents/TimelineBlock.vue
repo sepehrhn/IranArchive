@@ -14,8 +14,8 @@
           <div class="flex flex-col gap-0.5">
              <!-- Date -->
              <div class="flex items-center gap-2 text-xs font-bold tracking-wider uppercase text-primary-500 mb-1">
-                 <span>{{ formatDateShort(event.at) }}</span>
-                 <span v-if="event.time" class="text-surface-400 dark:text-surface-600 font-mono text-[10px]">{{ event.time }}</span>
+                 <span>{{ $nFa(formatDateShort(event.at)) }}</span>
+                 <span v-if="event.time" class="text-surface-400 dark:text-surface-600 text-[10px]">{{ $nFa(event.time) }}</span>
              </div>
 
              <!-- Title -->
@@ -39,7 +39,7 @@
                     class="group/ev inline-flex items-center gap-1.5 px-2.5 py-1 text-[10px] uppercase font-bold bg-surface-50 hover:bg-surface-100 dark:bg-surface-900 dark:hover:bg-surface-800 rounded-md border border-surface-200 dark:border-surface-800 transition-colors"
                 >
                     <i class="pi pi-camera text-primary-500"></i>
-                    <span class="text-surface-600 dark:text-surface-400 group-hover/ev:text-primary-600 dark:group-hover/ev:text-primary-400">#{{ shortenId(id) }}</span>
+                    <span class="text-surface-600 dark:text-surface-400 group-hover/ev:text-primary-600 dark:group-hover/ev:text-primary-400">#{{ $nFa(shortenId(id)) }}</span>
                 </button>
             </div>
 

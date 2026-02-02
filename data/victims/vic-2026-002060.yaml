@@ -2,7 +2,9 @@
 # Victim Documentation - Saeed Kalavandi
 # ==========================================
 
-photo: vic-2026-002060.jpg
+photo:
+  - "vic-2026-002060.jpg"
+  - "vic-2026-66ce67eb08e2.jpg"
 name: Saeed Kalavandi
 birth_date: ""
 birth_province: ""
@@ -25,6 +27,7 @@ description: |-
 
   Married, father of 2 children, originally from Asadabad, Hamadan, resident of Saveh, killed in Saveh
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/862, https://x.com/hekasrehcrisis/status/2016396036609049071
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/862, https://x.com/hekasrehcrisis/status/2016396036609049071"
+  - "https://x.com/KurdistanHRN/status/2017584054627938716"
 persian_name: سعید کلوندی

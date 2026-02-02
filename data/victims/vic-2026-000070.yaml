@@ -2,20 +2,24 @@
 # Victim Documentation - Yasin Davoudnabi
 # ==========================================
 
-photo: vic-2026-000070.jpg
+photo:
+  - "vic-2026-000070.jpg"
+  - "vic-2026-b21dad342d34.jpg"
+  - "vic-2026-000867.png"
+  - "vic-2026-153d8afc7823.png"
 name: Yasin Davoudnabi
-persian_name: "یاسین داوودنبی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
+persian_name: یاسین داوودنبی
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 17
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Tehran
 incident_address: Tehranpars
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,5 +27,7 @@ description: |
   Killed; family reportedly paid to receive his body.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/sonofthebeach22/status/2014834901703438420
-child: true
+  - "https://x.com/sonofthebeach22/status/2014834901703438420"
+  - "https://x.com/hekasrehcrisis/status/2014831188691636301, https://x.com/sonofthebeach22/status/2014834901703438420, https://x.com/HeKasrehCrisis/status/2014831188691636301"
+  - "https://x.com/hekasrehcrisis/status/2014831188691636301"
+  - "https://x.com/HeKasrehCrisis/status/2014831188691636301"

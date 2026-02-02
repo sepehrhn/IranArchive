@@ -2,13 +2,16 @@
 # Victim Documentation - Farhad Balashzar
 # ==========================================
 
-photo: vic-2026-001075.jpg
+photo:
+  - "vic-2026-001075.jpg"
+  - "vic-2026-69b9c4c60049.jpg"
+  - "vic-2026-7c3e73aa6529.jpg"
 name: Farhad Balashzar
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 55
 occupation: ""
 country: Iran
 incident_province: ""
@@ -21,6 +24,8 @@ status: Killed
 description: |
   Described as 'killed in the path of the homeland,' but no specific details about cause or date of death are provided.
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2014088323942256878, https://x.com/missmarpel75/status/2014805661268185261, https://x.com/HengawO/status/2014088323942256878, https://t.me/RememberTheirNames/1067
-child: false
+source_social_media_link:
+  - "https://x.com/hengawo/status/2014088323942256878, https://x.com/missmarpel75/status/2014805661268185261, https://x.com/HengawO/status/2014088323942256878, https://t.me/RememberTheirNames/1067"
+  - "https://x.com/hengawo/status/2014088323942256878"
+  - "https://x.com/HengawO/status/2014088323942256878"
 persian_name: فرهاد بالشزر

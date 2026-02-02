@@ -2,7 +2,10 @@
 # Victim Documentation - Mojtaba Garmabi
 # ==========================================
 
-photo: vic-2026-000388.jpg
+photo:
+  - "vic-2026-000388.jpg"
+  - "vic-2026-1c7fec703329.jpg"
+  - "vic-2026-1b95a0e71574.jpg"
 name: Mojtaba Garmabi
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Shot in the heart by Islamic Republic forces
 source_type: Social Media
-source_social_media_link: https://x.com/shahramsadidi/status/2014086586464457129, https://t.me/RememberTheirNames/570
-child: false
+source_social_media_link:
+  - "https://x.com/shahramsadidi/status/2014086586464457129, https://t.me/RememberTheirNames/570"
+  - "https://x.com/shahramsadidi/status/2014086586464457129"
 persian_name: مجتبی گرمابی

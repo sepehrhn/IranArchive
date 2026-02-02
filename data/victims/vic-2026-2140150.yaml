@@ -2,7 +2,8 @@
 # Victim Documentation - Nooralddin Abdolipour Ghobadi
 # ==========================================
 
-photo: vic-2026-2140150.jpg
+photo:
+  - vic-2026-2140150.jpg
 name: Nooralddin Abdolipour Ghobadi
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Originally from Noorabad, Lorestan, killed in Tehran during protests. His name was not being reported anywhere according to the source.
+description: Originally from Noorabad, Lorestan, killed in Tehran during protests. His name was not being reported anywhere according to the source.
 source_type: Social Media
 source_social_media_link: https://x.com/ka3rimi/status/2016555452109058391
-child: false
 persian_name: نورالدین عبدلی پور قبادی

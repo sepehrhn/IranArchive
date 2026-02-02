@@ -2,7 +2,14 @@
 # Victim Documentation - Ghazal Damarchali
 # ==========================================
 
-photo: vic-2026-000288.jpg
+photo:
+  - "vic-2026-000288.jpg"
+  - "vic-2026-6366192d3b56.jpg"
+  - "vic-2026-3c947cbac309.jpg"
+  - "vic-2026-3efe5bdc6a90.jpg"
+  - "vic-2026-917b9948559b.jpg"
+  - "vic-2026-d46e130ce86f.jpg"
+  - "vic-2026-1a658cdf8df8.jpg"
 name: Ghazal Damarchali
 birth_date: ""
 birth_province: ""
@@ -11,7 +18,7 @@ gender: Female
 age: 17
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Golshahr
 incident_address: Golshahr
 date_of_death: "2026-01-09"
@@ -24,6 +31,14 @@ description: |-
 
   Shot three times - in the head and leg - before her mother’s eyes. A graphic design student.
 source_type: Social Media
-source_social_media_link: https://x.com/mtavoli/status/2014886279154917779, https://x.com/NoaMagid/status/2015049056242839798, https://x.com/burnoutthebruis/status/2014838447618330888, https://x.com/manotonews/status/2014880839822159907, https://t.me/poshtpardeha/248687?single, https://x.com/i/status/2015263215865725375, https://x.com/missmarpel75/status/2015378124637098378, https://t.me/RememberTheirNames/780
-child: true
+source_social_media_link:
+  - "https://x.com/mtavoli/status/2014886279154917779, https://x.com/NoaMagid/status/2015049056242839798"
+  - "https://x.com/mtavoli/status/2014886279154917779"
+  - "https://x.com/manotonews/status/2014880839822159907"
+  - "https://t.me/poshtpardeha/248687?single"
+  - "https://x.com/i/status/2015263215865725375"
+  - "https://x.com/NoaMagid/status/2015049056242839798"
+  - "https://x.com/hiwa_life/status/2017617987843330295"
+  - "https://x.com/i/status/2017617987843330295"
+  - "https://x.com/burnoutthebruis/status/2014838447618330888, https://x.com/manotonews/status/2014880839822159907, https://t.me/poshtpardeha/248687?single, https://x.com/i/status/2015263215865725375, https://x.com/missmarpel75/status/2015378124637098378, https://t.me/RememberTheirNames/780"
 persian_name: غزل دمرچلی

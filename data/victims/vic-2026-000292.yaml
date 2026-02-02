@@ -2,7 +2,12 @@
 # Victim Documentation - Hajar Eshaghi
 # ==========================================
 
-photo: vic-2026-000292.jpg
+photo:
+  - "vic-2026-000292.jpg"
+  - "vic-2026-001087.jpg"
+  - "vic-2026-ab7d2c675c28.jpg"
+  - "vic-2026-30638746b094.jpg"
+  - "vic-2026-9efa20e1752a.jpg"
 name: Hajar Eshaghi
 birth_date: ""
 birth_province: ""
@@ -21,6 +26,7 @@ status: Killed
 description: |
   Shot in the heart with a war bullet by Islamic Republic suppressors during protests in Shahrak Keshvari neighborhood
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2014442239833882871, https://x.com/HengawO/status/2014670380019925226, https://t.me/RememberTheirNames/708
-child: false
+source_social_media_link:
+  - "https://x.com/iranwire/status/2014442239833882871, https://x.com/HengawO/status/2014670380019925226, https://t.me/RememberTheirNames/708"
+  - "https://x.com/HengawO/status/2014670380019925226"
 persian_name: هاجر اسحاقی

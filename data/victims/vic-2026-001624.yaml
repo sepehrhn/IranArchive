@@ -2,7 +2,9 @@
 # Victim Documentation - Abbas Akbarpour
 # ==========================================
 
-photo: vic-2026-001624.jpg
+photo:
+  - "vic-2026-001624.jpg"
+  - "vic-2026-68345f112b3c.jpg"
 name: Abbas Akbarpour
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,8 @@ description: |-
 
   Killed by terrorists of the Islamic occupation regime.
 source_type: Social Media
-source_social_media_link: https://x.com/ka3rimi/status/2015460091818856921, https://x.com/iranintlbrk/status/2015340875484635450, https://t.me/RememberTheirNames/1013
-child: false
+source_social_media_link:
+  - "https://x.com/ka3rimi/status/2015460091818856921, https://x.com/iranintlbrk/status/2015340875484635450, https://t.me/RememberTheirNames/1013"
+  - "https://x.com/ka3rimi/status/2015460091818856921"
+  - "https://x.com/iranintlbrk/status/2015340875484635450"
 persian_name: عباس اکبرپور

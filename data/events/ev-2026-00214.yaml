@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Berlin Central Demonstration (Warning: MEK Affiliated)"
+
+featured: false
+
+description: |
+  A major demonstration is taking place in Berlin this Saturday. **NOTE:** The primary organizers are affiliated with the NCRI/MEK (the group you excluded). However, independent diaspora members sometimes travel to these cities to form separate 'Woman Life Freedom' blocs nearby or hold counter-rallies. Be aware that this is the main reason for the lack of large Frankfurt events.
+  
+  **Tips:** If you see flyers for a 'Grand Rally' this weekend, they likely refer to this Berlin event.
+  
+  **Location Details:** Central Mobilization Location
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: "13:00"
+
+
+location:
+  country: "DE"
+  city: "Frankfurt"
+  address: "Berlin - Brandenburg Gate (NOTE: Berlin Event)"
+
+online: []
+
+organizer:
+  name: "Various (Main call by NCRI/MEK, but others may attend separately)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

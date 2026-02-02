@@ -2,7 +2,9 @@
 # Victim Documentation - Mehrzad Nazari
 # ==========================================
 
-photo: vic-2026-000350.jpg
+photo:
+  - "vic-2026-000350.jpg"
+  - "vic-2026-f3d1084275f7.jpg"
 name: Mehrzad Nazari
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: 20
 occupation: ""
 country: Iran
-incident_province: نورآباد ممسنی
+incident_province: ""
 incident_city: Meydan-e Moallem
 incident_address: Moallem Square
 date_of_death: "2026-01-09"
@@ -21,6 +23,8 @@ status: Killed
 description: |
   Shot in Meidan-e Maalem with military bullet
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2014392239863054661, https://x.com/EhsanZareei/status/2014445102333083721, https://t.me/RememberTheirNames/759
-child: false
+source_social_media_link:
+  - "https://x.com/hirman__/status/2014392239863054661, https://x.com/EhsanZareei/status/2014445102333083721, https://t.me/RememberTheirNames/759"
+  - "https://x.com/hirman__/status/2014392239863054661"
+  - "https://x.com/EhsanZareei/status/2014445102333083721"
 persian_name: مهرزاد نظری

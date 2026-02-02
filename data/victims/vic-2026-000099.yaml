@@ -2,7 +2,11 @@
 # Victim Documentation - Mehdi Agha Hosseini
 # ==========================================
 
-photo: vic-2026-000099.jpg
+photo:
+  - "vic-2026-000099.jpg"
+  - "vic-2026-a81c90770147.jpg"
+  - "vic-2026-3e9fde41e412.jpg"
+  - "vic-2026-ab2ea52e538d.jpg"
 name: Mehdi Agha Hosseini
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,8 @@ description: |-
 
   Died during protests in Dey 1404 (late Dec 2025 - Jan 2026). Specific cause of death not mentioned.
 source_type: Social Media
-source_social_media_link: https://x.com/hehe_mikh/status/2013590588159840624, https://x.com/allahbakhshii/status/2014297226806243587, https://x.com/HengawO/status/2014781999668437226, https://t.me/RememberTheirNames/618
-child: false
+source_social_media_link:
+  - "https://x.com/hehe_mikh/status/2013590588159840624, https://x.com/allahbakhshii/status/2014297226806243587, https://x.com/HengawO/status/2014781999668437226, https://t.me/RememberTheirNames/618"
+  - "https://x.com/hehe_mikh/status/2013590588159840624"
+  - "https://x.com/allahbakhshii/status/2014297226806243587"
 persian_name: مهدی آقاحسینی

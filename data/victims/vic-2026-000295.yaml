@@ -2,7 +2,11 @@
 # Victim Documentation - Hamid Faghih
 # ==========================================
 
-photo: vic-2026-000295.jpg
+photo:
+  - "vic-2026-000295.jpg"
+  - "vic-2026-82967058543a.jpg"
+  - "vic-2026-eb06c96fdeb8.png"
+  - "vic-2026-ade6cfd04dec.jpg"
 name: Hamid Faghih
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,8 @@ status: Killed
 description: |
   Shot by government security forces during protests in Isfahan. Owner of a bookstore called 'Amadegan'.
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2013911264154546507, https://hengaw.net/fa/news/2026/01/article-170-1, https://x.com/HengawO/status/2013911264154546507, https://t.me/RememberTheirNames/679
-child: false
+source_social_media_link:
+  - "https://x.com/hengawo/status/2013911264154546507, https://hengaw.net/fa/news/2026/01/article-170-1, https://x.com/HengawO/status/2013911264154546507, https://t.me/RememberTheirNames/679"
+  - "https://x.com/hengawo/status/2013911264154546507"
+  - "https://x.com/HengawO/status/2013911264154546507"
 persian_name: حمید فقیه

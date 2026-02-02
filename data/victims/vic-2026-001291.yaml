@@ -2,7 +2,9 @@
 # Victim Documentation - Amirreza Shabani Shandiz
 # ==========================================
 
-photo: vic-2026-001291.jpg
+photo:
+  - "vic-2026-001291.jpg"
+  - "vic-2026-01d510643504.jpg"
 name: Amirreza Shabani Shandiz
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: 17
 occupation: ""
 country: Iran
-incident_province: Khorasan Razavi
+incident_province: ""
 incident_city: Shandiz
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -26,6 +28,7 @@ description: |-
 
   Killed by direct fire from government forces' G3 rifle during public protests. His face was recognized while identifying his body.
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2015424744968048656, https://t.me/RememberTheirNames/503
-child: true
+source_social_media_link:
+  - "https://x.com/HengawO/status/2015424744968048656, https://t.me/RememberTheirNames/503"
+  - "https://x.com/HengawO/status/2015424744968048656"
 persian_name: امیررضا شبانی شاندیز

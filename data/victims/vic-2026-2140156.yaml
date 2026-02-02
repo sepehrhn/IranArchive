@@ -2,7 +2,9 @@
 # Victim Documentation - Peyman Haroun Rashidi
 # ==========================================
 
-photo: vic-2026-2140156.jpg
+photo:
+  - "vic-2026-2140156.jpg"
+  - "vic-2026-412f7b8f79bd.jpg"
 name: Peyman Haroun Rashidi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  From Jui Abad neighborhood, mentioned as having become a martyr
+description: From Jui Abad neighborhood, mentioned as having become a martyr
 source_type: Social Media
 source_social_media_link: https://x.com/hekasrehcrisis/status/2016356004917641664
-child: false
 persian_name: پیمان هارون رشیدی

@@ -2,20 +2,23 @@
 # Victim Documentation - Abolfazl Bakhtiyarpour Douraki
 # ==========================================
 
-photo: vic-2026-000167.jpg
+photo:
+  - "vic-2026-000167.jpg"
+  - "vic-2026-001548.jpg"
+  - "vic-2026-c75f7a659ed6.jpg"
 name: Abolfazl Bakhtiyarpour Douraki
-persian_name: "ابولفضل بختیار پور دورکی"
-birth_date: ''
-birth_province: ''
+persian_name: ابولفضل بختیار پور دورکی
+birth_date: ""
+birth_province: ""
 birth_city: context)
-gender: ''
+gender: "Male"
 age: 18
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,5 +26,6 @@ description: |
   Student killed during protests (implied from context)
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/visfehan/status/2014285254056395157
-child: false
+  - "https://x.com/visfehan/status/2014285254056395157"
+  - "https://x.com/VIsfehan/status/2014285254056395157"
+  - "https://x.com/azambahrami/status/2014751904341848573"

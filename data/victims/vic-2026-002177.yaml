@@ -2,7 +2,8 @@
 # Victim Documentation - Amirali Ahmadi
 # ==========================================
 
-photo: vic-2026-002177.jpg
+photo:
+  - vic-2026-002177.jpg
 name: Amirali Ahmadi
 birth_date: ""
 birth_province: ""
@@ -23,6 +24,7 @@ description: |-
 
   Shot and killed by security forces in front of his family shop in Iqbal Street, Kerman.
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2015855695451799974, https://x.com/Sirusshahbazi/status/2015491125734220179
-child: false
+source_social_media_link:
+  - "https://x.com/indypersian/status/2015855695451799974, https://x.com/Sirusshahbazi/status/2015491125734220179"
+  - "https://x.com/Sirusshahbazi/status/2015491125734220179"
 persian_name: امیرعلی احمدی

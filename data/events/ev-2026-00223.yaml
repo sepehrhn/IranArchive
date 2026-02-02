@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Spontaneous Solidarity Stand"
+
+featured: false
+
+description: |
+  Small-scale, spontaneous gatherings often occur here during major uprising peaks. Look for student groups or Kurdish solidarity organizations.
+  
+  **Tips:** If no crowd is present, head to Malmö.
+  
+  **Location Details:** Main square in front of City Hall.
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: "12:00"
+  end: "2026/02/07"
+  end_time: "14:00"
+
+location:
+  country: "SE"
+  city: "Lund"
+  address: "Stortorget, Lund"
+
+online: []
+
+organizer:
+  name: "Spontaneous / Local Students"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

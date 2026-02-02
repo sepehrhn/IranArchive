@@ -2,7 +2,10 @@
 # Victim Documentation - Bahador Rasouli
 # ==========================================
 
-photo: vic-2026-2139781.jpg
+photo:
+  - "vic-2026-2139781.jpg"
+  - "vic-2026-068f392b8a1d.jpg"
+  - "vic-2026-18eb967e2791.jpg"
 name: Bahador Rasouli
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   در شهرداری رشت بهش توسط نیروهای حکومت شلیک شد و در بیمارستان درگذشت. جنازه رو با حضور مامورها و با شروط غیرانسانی به خانواده تحویل دادند و شبانه بدون مراسم دفن کردند.
 source_type: Local Report
-source_social_media_link: https://x.com/hyrcanihrm/status/2016460943966740570
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2016460943966740570"
+  - "https://x.com/kyokushinsoofi/status/2017240430522364356"
 persian_name: بهادر رسولی

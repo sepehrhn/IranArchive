@@ -2,21 +2,22 @@
 # Victim Documentation - Child of Bijan Mostafavi
 # ==========================================
 
-photo: vic-2026-001911.jpg
+photo:
+  - vic-2026-001911.jpg
 name: Child of Bijan Mostafavi
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 18
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Alborz
 incident_city: Karaj
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |-
   Persian Name: دانیال مصطفوی
@@ -30,4 +31,3 @@ source_social_media_link:
   - https://x.com/manotonews/status/2012933004767949267
   - https://x.com/Daikatuo/status/2011858468727066737
   - https://x.com/ManotoNews/status/2012933004767949267
-child: false

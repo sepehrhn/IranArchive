@@ -2,7 +2,9 @@
 # Victim Documentation - Jafarpparsa Boromand
 # ==========================================
 
-photo: vic-2026-000148.jpg
+photo:
+  - "vic-2026-000148.jpg"
+  - "vic-2026-001546.jpg"
 name: Jafarpparsa Boromand
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Shot by government forces in the neck and leg during protests
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2014276862252376471
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2014276862252376471"
+  - "https://t.me/RememberTheirNames/656"
 persian_name: جعفرپارسا برومند

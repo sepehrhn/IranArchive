@@ -2,7 +2,9 @@
 # Victim Documentation - Ali Akbar Ramezanzadeh
 # ==========================================
 
-photo: vic-2026-2139849.jpg
+photo:
+  - "vic-2026-2139849.jpg"
+  - "vic-2026-bf0a48553ec0.jpg"
 name: Ali Akbar Ramezanzadeh
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,10 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  38-year-old father of one child whose wife was seven months pregnant at the time of his death. Killed in Shahriar.
+description: 38-year-old father of one child whose wife was seven months pregnant at the time of his death. Killed in Shahriar.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2016407545309438226, https://t.me/RememberTheirNames/1601
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2016407545309438226, https://t.me/RememberTheirNames/1601"
+  - "https://x.com/hekasrehcrisis/status/2016407545309438226"
+  - "https://t.me/RememberTheirNames/1601"
 persian_name: علی اکبر رمضان زاده

@@ -2,7 +2,10 @@
 # Victim Documentation - Hossein Vosough
 # ==========================================
 
-photo: vic-2026-000047.jpg
+photo:
+  - "vic-2026-000047.jpg"
+  - "vic-2026-bdd17b1b0e4c.jpg"
+  - "vic-2026-1ec5c823ff0d.jpg"
 name: Hossein Vosough
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Killed by the Islamic Republic regime.
 source_type: Social Media
-source_social_media_link: https://x.com/saeidvafa/status/2014803058023157993, https://x.com/saeidvafa/status/2014817043334250678, https://x.com/SaeidVafa/status/2014803058023157993
-child: false
+source_social_media_link:
+  - "https://x.com/saeidvafa/status/2014803058023157993, https://x.com/saeidvafa/status/2014817043334250678, https://x.com/SaeidVafa/status/2014803058023157993"
+  - "https://x.com/saeidvafa/status/2014817043334250678"
+  - "https://x.com/SaeidVafa/status/2014803058023157993"
 persian_name: حسین وثوق

@@ -2,7 +2,10 @@
 # Victim Documentation - Abolfazl Amirabadi
 # ==========================================
 
-photo: vic-2026-001000.jpg
+photo:
+  - "vic-2026-001000.jpg"
+  - "vic-2026-d4b0246fb4fd.jpg"
+  - "vic-2026-9ea14e92b2a5.jpg"
 name: Abolfazl Amirabadi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Killed in recent days. Described as a teenager.
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2014946212408119648, https://x.com/MonfaredAshkan/status/2014951790958297599, https://x.com/MonfaredAshkan/status/2014946212408119648, https://x.com/monfaredashkan/status/2014951790958297599
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2014946212408119648, https://x.com/MonfaredAshkan/status/2014951790958297599, https://x.com/MonfaredAshkan/status/2014946212408119648, https://x.com/monfaredashkan/status/2014951790958297599"
+  - "https://x.com/monfaredashkan/status/2014946212408119648"
+  - "https://x.com/MonfaredAshkan/status/2014946212408119648"
 persian_name: ابوالفضل امیرآبادی

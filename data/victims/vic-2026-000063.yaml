@@ -2,7 +2,8 @@
 # Victim Documentation - Parnia Shad
 # ==========================================
 
-photo: vic-2026-000063.jpg
+photo:
+  - vic-2026-000063.jpg
 name: Parnia Shad
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Shot during protest
 source_type: Social Media
 source_social_media_link: https://x.com/isamanyasin/status/2014714614320181499
-child: false
 persian_name: پرنیا شاد

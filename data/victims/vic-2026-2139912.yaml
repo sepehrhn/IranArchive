@@ -2,7 +2,12 @@
 # Victim Documentation - Hossein Badrokhani
 # ==========================================
 
-photo: vic-2026-2139912.jpg
+photo:
+  - "vic-2026-2139912.jpg"
+  - "vic-2026-fb27bf502965.jpg"
+  - "vic-2026-dad6402b3f61.jpg"
+  - "vic-2026-f7657329c919.jpg"
+  - "vic-2026-815764cca2fc.jpg"
 name: Hossein Badrokhani
 birth_date: ""
 birth_province: ""
@@ -18,9 +23,10 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Saveh on January 8, 2026. No additional details provided about circumstances.
+description: Died in Saveh on January 8, 2026. No additional details provided about circumstances.
 source_type: Social Media
-source_social_media_link: https://x.com/becrebb/status/2016533096179646831, https://t.me/RememberTheirNames/1608
-child: false
+source_social_media_link:
+  - "https://x.com/becrebb/status/2016533096179646831, https://t.me/RememberTheirNames/1608"
+  - "https://x.com/becrebb/status/2016533096179646831"
+  - "https://t.me/RememberTheirNames/1608"
 persian_name: حسین بدرخانی

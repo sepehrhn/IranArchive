@@ -2,7 +2,10 @@
 # Victim Documentation - Milad Tajik
 # ==========================================
 
-photo: vic-2026-000699.jpg
+photo:
+  - "vic-2026-000699.jpg"
+  - "vic-2026-b44e3f86cecf.jpg"
+  - "vic-2026-41a2ee822119.jpg"
 name: Milad Tajik
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: 32
 occupation: ""
 country: Iran
-incident_province: western Tehran)
+incident_province: Tehran
 incident_city: Tehran (Ariashahr
 incident_address: Ariashahr
 date_of_death: "2026-01-08"
@@ -24,6 +27,11 @@ description: |-
 
   Shot in the back with live ammunition by Islamic Republic forces while attempting to help an injured person. His body was identified in Kahrizak. Batons marks were observed on his head, but his body was not otherwise wounded.
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2013355849628987700, https://x.com/tavaana/status/2013751679792095398, https://x.com/Tavaana/status/2013751679792095398, https://x.com/MonfaredAshkan/status/2013736643707158666, https://t.me/RememberTheirNames/453
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2013355849628987700, https://x.com/tavaana/status/2013751679792095398, https://x.com/Tavaana/status/2013751679792095398, https://x.com/MonfaredAshkan/status/2013736643707158666, https://t.me/RememberTheirNames/453"
+  - "https://x.com/monfaredashkan/status/2013355849628987700"
+  - "https://x.com/Tavaana/status/2013751679792095398"
+  - "https://x.com/tavaana/status/2013751679792095398"
+  - "https://x.com/MonfaredAshkan/status/2013736643707158666"
+  - "https://x.com/MonfaredAshkan/status/2013355849628987700"
 persian_name: میلاد تاجیک

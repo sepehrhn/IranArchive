@@ -2,7 +2,8 @@
 # Victim Documentation - Javid Eskandari
 # ==========================================
 
-photo: vic-2026-000642.jpg
+photo:
+  - vic-2026-000642.jpg
 name: Javid Eskandari
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Shot directly by Islamic radicals outside a pharmacy while collecting medicine.
 source_type: Social Media
 source_social_media_link: https://x.com/shabgardan66/status/2014778200841224300
-child: false
 persian_name: جاوید اسکندری

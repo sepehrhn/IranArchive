@@ -2,7 +2,12 @@
 # Victim Documentation - Farshid Mokhtari
 # ==========================================
 
-photo: vic-2026-000916.jpg
+photo:
+  - "vic-2026-000916.jpg"
+  - "vic-2026-40d4bc79b62f.jpg"
+  - "vic-2026-8e02d88f82c1.png"
+  - "vic-2026-dba37ba66745.jpg"
+  - "vic-2026-888efa08eb2d.jpg"
 name: Farshid Mokhtari
 birth_date: ""
 birth_province: ""
@@ -24,6 +29,7 @@ description: |-
 
   Killed by security forces of the Islamic Republic regime.
 source_type: Social Media
-source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/Daikatuo/status/2007456429049856090, https://t.me/RememberTheirNames/24
-child: false
+source_social_media_link:
+  - "https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/Daikatuo/status/2007456429049856090, https://t.me/RememberTheirNames/24"
+  - "https://x.com/Daikatuo/status/2007456429049856090"
 persian_name: فرشید مختاری

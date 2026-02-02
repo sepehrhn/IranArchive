@@ -2,7 +2,10 @@
 # Victim Documentation - Vahid Jahangiri
 # ==========================================
 
-photo: vic-2026-000166.jpg
+photo:
+  - "vic-2026-000166.jpg"
+  - "vic-2026-5d59b1654074.jpg"
+  - "vic-2026-f5a4c89f173f.png"
 name: Vahid Jahangiri
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,7 @@ description: |-
 
   Shot and killed by security forces while driving after failing to stop at a checkpoint. The city was under heavy security control at the time.
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2015013327240339921, https://x.com/MonfaredAshkan/status/2015506848393449486, https://x.com/MonfaredAshkan/status/2015539075353362667, https://t.me/RememberTheirNames/1070
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2015013327240339921, https://x.com/MonfaredAshkan/status/2015506848393449486, https://x.com/MonfaredAshkan/status/2015539075353362667, https://t.me/RememberTheirNames/1070"
+  - "https://x.com/MonfaredAshkan/status/2015506848393449486"
 persian_name: وحید جهانگیری

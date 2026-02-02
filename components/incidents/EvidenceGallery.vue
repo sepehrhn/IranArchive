@@ -5,7 +5,7 @@
         <div class="flex items-center gap-2">
            <div class="h-8 w-1 bg-primary-500 rounded-full"></div>
            <h3 class="text-xl font-bold text-surface-900 dark:text-surface-0 tracking-tight">Evidence Gallery</h3>
-           <Badge :value="filteredEvidence.length" severity="secondary" class="ml-1" />
+           <Badge :value="$nFa(filteredEvidence.length)" severity="secondary" class="ml-1" />
         </div>
         
         <div v-if="availableTypes.length > 2" class="flex p-1 bg-surface-100 dark:bg-surface-950 rounded-xl backdrop-blur-md border border-surface-200 dark:border-surface-800">
@@ -80,9 +80,9 @@
 
                 <!-- Date Badge (Bottom Left) -->
                 <div v-if="item.captured_at" class="absolute bottom-3 left-3 z-30 opacity-90">
-                    <div class="text-white text-xs font-mono drop-shadow-md flex items-center gap-1.5">
+                    <div class="text-white text-xs drop-shadow-md flex items-center gap-1.5">
                          <i :class="hasTime(item.captured_at) ? 'pi pi-clock' : 'pi pi-calendar'" class="text-[10px] opacity-80"></i>
-                         {{ formatDate(item.captured_at) }}
+                         {{ $nFa(formatDate(item.captured_at)) }}
                     </div>
                 </div>
             </div>
@@ -163,8 +163,8 @@
                         <span class="px-2 py-0.5 rounded text-[10px] uppercase font-black bg-primary-500/10 text-primary-500 border border-primary-500/20">
                             {{ selectedEvidence.type }}
                         </span>
-                        <span v-if="selectedEvidence.captured_at" class="text-xs font-mono text-surface-400">
-                            {{ formatDate(selectedEvidence.captured_at) }}
+                        <span v-if="selectedEvidence.captured_at" class="text-xs text-surface-400">
+                            {{ $nFa(formatDate(selectedEvidence.captured_at)) }}
                         </span>
                     </div>
                     <button @click="displayModal = false" class="w-8 h-8 rounded-full hover:bg-surface-100 dark:hover:bg-surface-800 flex items-center justify-center transition-colors text-surface-400">
@@ -218,14 +218,14 @@
                     <!-- Technical (Optional) -->
                     <div v-if="selectedEvidence.technical">
                         <h4 class="text-[10px] uppercase font-black tracking-widest text-surface-400 mb-3 ml-1">Technical Detail</h4>
-                        <div class="grid grid-cols-2 gap-2 text-[11px] font-mono">
+                        <div class="grid grid-cols-2 gap-2 text-[11px]">
                            <div v-if="selectedEvidence.technical.format" class="p-2 rounded-lg bg-surface-50 dark:bg-surface-950 text-surface-500 flex justify-between">
                               <span>Format</span>
                               <span class="text-surface-800 dark:text-surface-200">{{ selectedEvidence.technical.format }}</span>
                            </div>
                            <div v-if="selectedEvidence.technical.file_size_bytes" class="p-2 rounded-lg bg-surface-50 dark:bg-surface-950 text-surface-500 flex justify-between">
                               <span>Size</span>
-                              <span class="text-surface-800 dark:text-surface-200">{{ (selectedEvidence.technical.file_size_bytes / 1024 / 1024).toFixed(2) }} MB</span>
+                              <span class="text-surface-800 dark:text-surface-200" dir="ltr">{{ $nFa((selectedEvidence.technical.file_size_bytes / 1024 / 1024).toFixed(2)) }} MB</span>
                            </div>
                         </div>
                     </div>

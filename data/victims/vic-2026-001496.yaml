@@ -2,19 +2,20 @@
 # Victim Documentation - Amirmohammad khodabandeh
 # ==========================================
 
-photo: vic-2026-001496.jpg
+photo:
+  - vic-2026-001496.jpg
 name: Amirmohammad khodabandeh
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: null
 occupation: دانشجو کارشناسی مهندسی نفت
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-07'
+incident_address: ""
+date_of_death: "2026-01-07"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -26,5 +27,4 @@ description: |
   برخی منابع نزدیک به این دانشجو اعلام کرده‌اند که تا زمان تنظیم این گزارش، پیکر امیرمحمد خدابنده به خانواده‌اش تحویل داده نشده است. منابع مطلع می‌گویند تأخیر در تحویل پیکر با تلاش برای معرفی او به‌عنوان «بسیجی کشته‌شده» مرتبط دانسته می‌شود.
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

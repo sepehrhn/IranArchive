@@ -2,7 +2,10 @@
 # Victim Documentation - Amin Toulabi
 # ==========================================
 
-photo: vic-2026-000519.jpg
+photo:
+  - "vic-2026-000519.jpg"
+  - "vic-2026-2e4930f45ded.jpg"
+  - "vic-2026-6ddf7b16a169.jpg"
 name: Amin Toulabi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,9 @@ description: |-
 
   39-year-old civil engineer and newlywed (married only 10 months), originally from Khorramabad but living in Parand city, killed during suppression of popular protests on Friday night
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2014808549164228637, https://x.com/monfaredashkan/status/2014804236400550012, https://x.com/MonfaredAshkan/status/2014804236400550012, https://x.com/MonfaredAshkan/status/2014808549164228637, https://t.me/RememberTheirNames/1068, https://x.com/tavaana/status/2016097856520921418
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2014808549164228637, https://x.com/monfaredashkan/status/2014804236400550012, https://x.com/MonfaredAshkan/status/2014804236400550012, https://x.com/MonfaredAshkan/status/2014808549164228637, https://t.me/RememberTheirNames/1068, https://x.com/tavaana/status/2016097856520921418"
+  - "https://x.com/monfaredashkan/status/2014804236400550012"
+  - "https://x.com/MonfaredAshkan/status/2014804236400550012"
+  - "https://x.com/tavaana/status/2016097856520921418"
 persian_name: امین طولابی

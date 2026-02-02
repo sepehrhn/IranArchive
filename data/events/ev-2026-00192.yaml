@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Interests Section Protest"
+
+featured: false
+
+description: |
+  A common site for smaller, angrier protests directly targeting regime representatives. Often involves chanting and street presence.
+  
+  **Tips:** Police presence is usually higher here due to diplomatic security.
+  
+  **Location Details:** 1250 23rd St NW #200, Washington, DC (or specifically the Wisconsin Ave location if referenced locally)
+
+type: "in_person"
+
+date:
+  start: "2026/02/01"
+  start_time: "12:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+location:
+  country: "US"
+  city: "Washington DC"
+  address: "Islamic Republic of Iran Interests Section"
+
+online: []
+
+organizer:
+  name: "Grassroots"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

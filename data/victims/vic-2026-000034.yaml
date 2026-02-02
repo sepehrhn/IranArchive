@@ -2,7 +2,11 @@
 # Victim Documentation - Taha Sadeghi Gazani
 # ==========================================
 
-photo: vic-2026-000034.jpg
+photo:
+  - "vic-2026-000034.jpg"
+  - "vic-2026-30795b93da41.jpg"
+  - "vic-2026-abbf91de2b75.jpg"
+  - "vic-2026-f96377723505.jpg"
 name: Taha Sadeghi Gazani
 birth_date: ""
 birth_province: ""
@@ -11,7 +15,7 @@ gender: Male
 age: 17
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Andisheh
 incident_address: Andisheh
 date_of_death: ""
@@ -24,6 +28,8 @@ description: |-
 
   Described as a child of Iran and killed on the path of the homeland.
 source_type: Social Media
-source_social_media_link: https://x.com/MonfaredAshkan/status/2014869886464622793, https://x.com/monfaredashkan/status/2014869886464622793, https://x.com/monfaredashkan/status/2014864195481960634, https://x.com/missmarpel75/status/2014925791377649996, https://x.com/MonfaredAshkan/status/2014864195481960634
-child: true
+source_social_media_link:
+  - "https://x.com/MonfaredAshkan/status/2014869886464622793, https://x.com/monfaredashkan/status/2014869886464622793, https://x.com/monfaredashkan/status/2014864195481960634, https://x.com/missmarpel75/status/2014925791377649996, https://x.com/MonfaredAshkan/status/2014864195481960634"
+  - "https://x.com/monfaredashkan/status/2014864195481960634"
+  - "https://x.com/MonfaredAshkan/status/2014864195481960634"
 persian_name: طاها صادقی گزنی

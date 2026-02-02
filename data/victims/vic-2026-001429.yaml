@@ -2,7 +2,8 @@
 # Victim Documentation - Morteza Panahi
 # ==========================================
 
-photo: vic-2026-001429.jpg
+photo:
+  - vic-2026-001429.jpg
 name: Morteza Panahi
 birth_date: ""
 birth_province: ""
@@ -17,7 +18,7 @@ incident_address: Malekshahr
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
-status: Killed
+status: "Missing"
 description: |-
   Persian Name: مرتضی پناهی
 
@@ -26,6 +27,7 @@ description: |-
 
   Died during protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1377
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1377"
+  - "https://x.com/ras_e_isole/status/2014680813284008416"
 persian_name: مرتضی پناهی

@@ -2,7 +2,13 @@
 # Victim Documentation - Negar Ajam
 # ==========================================
 
-photo: vic-2026-000061.jpg
+photo:
+  - "vic-2026-000061.jpg"
+  - "vic-2026-848d0d7120c9.jpg"
+  - "vic-2026-26d1934cac30.jpg"
+  - "vic-2026-db898f07837b.jpg"
+  - "vic-2026-01374eef9e59.jpg"
+  - "vic-2026-4265c72c9e12.jpg"
 name: Negar Ajam
 birth_date: ""
 birth_province: ""
@@ -24,6 +30,11 @@ description: |-
 
   From Zibed village, 27 years old. Associated with IranMassacre hashtag suggesting killed during protests
 source_type: Social Media
-source_social_media_link: https://x.com/avatoday_news/status/2014771411001266382, https://x.com/moazabam/status/2014789259891507544, https://t.me/poshtpardeha/248754, https://x.com/outofken/status/2015609501098090688, https://x.com/moazabam/status/2015001965936472077, https://x.com/moazabam/status/2014870639354773801, https://x.com/moazabam/status/2014874613143241136, https://t.me/RememberTheirNames/1676
-child: false
+source_social_media_link:
+  - "https://x.com/avatoday_news/status/2014771411001266382, https://x.com/moazabam/status/2014789259891507544, https://t.me/poshtpardeha/248754, https://x.com/outofken/status/2015609501098090688, https://x.com/moazabam/status/2015001965936472077, https://x.com/moazabam/status/2014870639354773801, https://x.com/moazabam/status/2014874613143241136, https://t.me/RememberTheirNames/1676"
+  - "https://t.me/poshtpardeha/248754"
+  - "https://x.com/outofken/status/2015609501098090688"
+  - "https://t.me/RememberTheirNames/1676"
+  - "https://x.com/LoabatK/status/2015242896929100106"
+  - "https://x.com/moazabam/status/2014789259891507544"
 persian_name: نگار عجم

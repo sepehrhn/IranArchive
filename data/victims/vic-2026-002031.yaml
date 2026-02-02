@@ -2,13 +2,16 @@
 # Victim Documentation - Nima Najafi
 # ==========================================
 
-photo: vic-2026-002031.jpg
+photo:
+  - "vic-2026-002031.jpg"
+  - "vic-2026-7db7561e2020.jpg"
+  - "vic-2026-cbb3e9bfb4c6.jpg"
 name: Nima Najafi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 23
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -23,6 +26,7 @@ description: |-
 
   Killed during protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1240
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1240"
+  - "https://x.com/realmeaban/status/2017258887464820758"
 persian_name: نیما نجفی

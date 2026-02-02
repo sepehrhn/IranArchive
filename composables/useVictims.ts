@@ -30,11 +30,22 @@ export const useVictims = () => {
                 const id = fileName.replace('.yaml', '');
 
                 if (data && data.name) {
-                    // Keep photo as filename only - URL generated at render time
+                    // Normalize photos from various possible field names and formats
+                    let rawPhotos: string[] = [];
+                    const photosVal = data.photos || data.photo;
+
+                    if (Array.isArray(photosVal)) {
+                        rawPhotos = photosVal.filter(p => typeof p === 'string');
+                    } else if (typeof photosVal === 'string') {
+                        rawPhotos = [photosVal];
+                    }
+
                     loadedVictims.push({
                         ...data,
                         id: id,
-                        photo: data.photo, // Filename only
+                        photos: rawPhotos,
+                        photo: rawPhotos[0] || '/placeholder-victim.png', // Main photo for backward compatibility
+                        child: (typeof data.age === 'number' && data.age <= 17),
                         incident_ids: []
                     } as Victim);
                 } else {

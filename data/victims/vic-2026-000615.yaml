@@ -2,7 +2,10 @@
 # Victim Documentation - Hadi Forough
 # ==========================================
 
-photo: vic-2026-000615.jpg
+photo:
+  - "vic-2026-000615.jpg"
+  - "vic-2026-caa4745e6e76.jpg"
+  - "vic-2026-d7b4285aea95.jpg"
 name: Hadi Forough
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,7 @@ description: |-
 
   Shot in the heart during protests. He was a basketball coach, a university basketball champion, a master's student in sports physiology, a business owner, and had a three-year-old son named Avesh. His body was held in Kahrizak for two days before being returned to his hometown of Asadabad for burial. He died 12 days after his 43rd birthday.
 source_type: Social Media
-source_social_media_link: https://x.com/iranintlsport/status/2015021281968587103, https://x.com/sonofthebeach22/status/2015026105967575469, https://x.com/HeKasrehCrisis/status/2015538900425466045, https://t.me/RememberTheirNames/201
-child: false
+source_social_media_link:
+  - "https://x.com/iranintlsport/status/2015021281968587103, https://x.com/sonofthebeach22/status/2015026105967575469, https://x.com/HeKasrehCrisis/status/2015538900425466045, https://t.me/RememberTheirNames/201"
+  - "https://x.com/sonofthebeach22/status/2015026105967575469"
 persian_name: هادی فروغ

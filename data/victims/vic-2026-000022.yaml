@@ -2,20 +2,22 @@
 # Victim Documentation - Ayat Derakhshan
 # ==========================================
 
-photo: vic-2026-000022.jpg
+photo:
+  - "vic-2026-000022.jpg"
+  - "vic-2026-001532.jpg"
 name: Ayat Derakhshan
-persian_name: "آیت درخشان"
-birth_date: ''
-birth_province: ''
+persian_name: آیت درخشان
+birth_date: ""
+birth_province: ""
 birth_city: the gunshot wound
 gender: Male
 age: null
 occupation: father of two children
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Islamshahr
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -24,4 +26,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/sinayousefilaw/status/2015151369817088457
-child: false

@@ -2,7 +2,9 @@
 # Victim Documentation - Reza Kavousi Heidari
 # ==========================================
 
-photo: vic-2026-001792.jpg
+photo:
+  - "vic-2026-001792.jpg"
+  - "vic-2026-2ae4b8f2555c.jpg"
 name: Reza Kavousi Heidari
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Killed by direct gunfire to the heart by security forces during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/ManotoNews/status/2015778499261591596, https://t.me/RememberTheirNames/1234
-child: false
+source_social_media_link:
+  - "https://x.com/ManotoNews/status/2015778499261591596, https://t.me/RememberTheirNames/1234"
+  - "https://x.com/ManotoNews/status/2015778499261591596"
 persian_name: رضا کاووسی حیدری

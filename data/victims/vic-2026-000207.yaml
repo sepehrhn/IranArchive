@@ -2,19 +2,21 @@
 # Victim Documentation - Abbas Goodarzi Doreshuri
 # ==========================================
 
-photo: vic-2026-000207.jpg
+photo:
+  - "vic-2026-000207.jpg"
+  - "vic-2026-5d9bc2d77e45.jpg"
 name: Abbas Goodarzi Doreshuri
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: 37
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Shahreza
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +24,5 @@ description: |
   Shot directly by government forces during protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/manotonews/status/2014518447858696234
-child: false
+  - "https://x.com/manotonews/status/2014518447858696234"
+  - "https://x.com/ManotoNews/status/2014518447858696234"

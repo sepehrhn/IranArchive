@@ -2,19 +2,30 @@
 # Victim Documentation - Ali Rezaei
 # ==========================================
 
-photo: vic-2026-000500.png
+photo:
+  - "vic-2026-000500.png"
+  - "vic-2026-8eb1b8b44545.png"
+  - "vic-2026-4afdbae7d573.png"
+  - "vic-2026-dd5ea3654843.png"
+  - "vic-2026-515d43935353.jpg"
+  - "vic-2026-000518.jpg"
+  - "vic-2026-2b48cebf66c7.jpg"
+  - "vic-2026-6dd36b1e97f7.jpg"
+  - "vic-2026-d7b544f6d989.jpg"
+  - "vic-2026-559cfb7dbb9d.jpg"
+  - "vic-2026-e78d7806d063.jpg"
 name: Ali Rezaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 31
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -24,6 +35,11 @@ description: |-
 
   Killed by the Islamic Republic regime in Dey month 1404
 source_type: Social Media
-source_social_media_link: https://x.com/Daikatuo/status/2011853708418597021
-child: false
+source_social_media_link:
+  - "https://x.com/Daikatuo/status/2011853708418597021"
+  - "https://x.com/shahramsadidi/status/2014337655736025321, https://x.com/dadban4/status/2014620472781025420, https://x.com/iranwire/status/2015155340027793898, https://x.com/allahbakhshii/status/2014667679391420735, https://x.com/solmazbarghgir/status/2015450113057910965, https://t.me/RememberTheirNames/639, https://x.com/avaavishan/status/2015612276028453027"
+  - "https://x.com/shahramsadidi/status/2014337655736025321"
+  - "https://x.com/iranwire/status/2015155340027793898"
+  - "https://x.com/allahbakhshii/status/2014667679391420735"
+  - "https://x.com/avaavishan/status/2015612276028453027"
 persian_name: علی رضایی

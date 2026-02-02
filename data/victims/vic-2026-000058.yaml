@@ -2,19 +2,24 @@
 # Victim Documentation - Mohammadreza Madani
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-000079.jpg"
+  - "vic-2026-001589.jpg"
+  - "vic-2026-001763.jpg"
+  - "vic-2026-b424e7dd56be.jpg"
 name: Mohammadreza Madani
-birth_date: ''
-birth_province: ''
+birth_date: ""
+birth_province: ""
 birth_city: context)
-gender: ''
-age: null
-occupation: ''
+gender: "Male"
+age: 26
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_province: ""
+incident_city: "Tehran"
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +27,8 @@ description: |
   Student killed during protests (implied from context)
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/azambahrami/status/2014751904341848573
-child: false
+  - "https://x.com/azambahrami/status/2014751904341848573"
+  - "https://x.com/mtorabi80/status/2014340144275345914"
+  - "https://t.me/RememberTheirNames/605"
+  - "https://x.com/hengawo/status/2011865724189376853, https://x.com/loabatk/status/2012044308720074845, https://x.com/masoudkazemi81/status/2012178683230929209, https://x.com/amoody408/status/2011507449669603647, https://x.com/Daikatuo/status/2011864053380010383, https://x.com/KurdistanHRN/status/2015914128045375970, https://t.me/RememberTheirNames/1096, https://t.me/RememberTheirNames/316, https://t.me/RememberTheirNames/92"
+  - "https://x.com/loabatk/status/2011975833280184578"

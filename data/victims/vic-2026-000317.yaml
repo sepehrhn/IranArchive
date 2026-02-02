@@ -2,7 +2,9 @@
 # Victim Documentation - Javad Yousefi
 # ==========================================
 
-photo: vic-2026-000317.jpg
+photo:
+  - "vic-2026-000317.jpg"
+  - "vic-2026-db617880c1bb.jpg"
 name: Javad Yousefi
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Shot with a bullet during protests. Described as a very good child who did everything he could for his friends and others. His family never had any complaints about him.
 source_type: Social Media
-source_social_media_link: https://x.com/pkhwshhal/status/2015182840413970544, https://t.me/RememberTheirNames/1140
-child: false
+source_social_media_link:
+  - "https://x.com/pkhwshhal/status/2015182840413970544, https://t.me/RememberTheirNames/1140"
+  - "https://x.com/HengawO/status/2013953680140120164"
 persian_name: جواد یوسفی

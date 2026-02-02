@@ -2,13 +2,15 @@
 # Victim Documentation - Matin Habibii
 # ==========================================
 
-photo: vic-2026-2139936.jpg
+photo:
+  - "vic-2026-2139936.jpg"
+  - "vic-2026-7974fd244f75.jpg"
 name: Matin Habibii
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 20
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -18,9 +20,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed on 18 Dey 1404 in Salsabil, Tehran.
+description: Killed on 18 Dey 1404 in Salsabil, Tehran.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1568
-child: false
 persian_name: متین حبیبی

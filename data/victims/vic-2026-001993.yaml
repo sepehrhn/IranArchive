@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Hossein Paydar Hosseini
 # ==========================================
 
-photo: vic-2026-001993.jpg
+photo:
+  - "vic-2026-001993.jpg"
+  - "vic-2026-0d7a8582e092.jpg"
 name: Mohammad Hossein Paydar Hosseini
 birth_date: ""
 birth_province: ""
@@ -25,6 +27,7 @@ description: |-
 
   Killed on 18 Dey (January 8th) in East Tehran. The tweet states he is 'another dear one killed' and that his name and news have not been published anywhere to date.
 source_type: Social Media
-source_social_media_link: https://x.com/ewenniii/status/2015777382641054092, https://x.com/Ewenniii/status/2015777382641054092
-child: false
+source_social_media_link:
+  - "https://x.com/ewenniii/status/2015777382641054092, https://x.com/Ewenniii/status/2015777382641054092"
+  - "https://x.com/ewenniii/status/2015777382641054092"
 persian_name: محمدحسین پایدارحسینی

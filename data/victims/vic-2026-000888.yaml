@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Erfan Faraji
 # ==========================================
 
-photo: vic-2026-000888.jpg
+photo:
+  - "vic-2026-000888.jpg"
+  - "vic-2026-5c961827f41e.jpg"
 name: Mohammad Erfan Faraji
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: 18
 occupation: ""
 country: Iran
-incident_province: Nazabad
+incident_province: ""
 incident_city: Behesht Square
 incident_address: Behesht Square
 date_of_death: "2026-01-07"
@@ -24,6 +26,7 @@ description: |-
 
   Was filming protests with his mobile phone when he was shot from behind by military and security forces. The bullet entered his back and exited his heart. He died two days after his birthday. He was a final-year high school student.
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2013970919039852837, https://x.com/NoaMagid/status/2010753333603020937, https://x.com/RadioFarda_/status/2014266162121478564, https://t.me/RememberTheirNames/112
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2013970919039852837, https://x.com/NoaMagid/status/2010753333603020937, https://x.com/RadioFarda_/status/2014266162121478564, https://t.me/RememberTheirNames/112"
+  - "https://x.com/RadioFarda_/status/2014266162121478564"
 persian_name: عرفان فرجی

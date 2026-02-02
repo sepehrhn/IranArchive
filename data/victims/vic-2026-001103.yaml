@@ -2,7 +2,9 @@
 # Victim Documentation - Hossein Niksersht
 # ==========================================
 
-photo: vic-2026-001103.jpg
+photo:
+  - "vic-2026-001103.jpg"
+  - "vic-2026-cb0513058b2c.jpg"
 name: Hossein Niksersht
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Died in Mashhad during the protests
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2013882320428597386, https://t.me/RememberTheirNames/1536
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2013882320428597386, https://t.me/RememberTheirNames/1536"
+  - "https://t.me/RememberTheirNames/1536"
 persian_name: حسین نیک‌سرشت

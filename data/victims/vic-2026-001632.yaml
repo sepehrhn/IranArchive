@@ -2,13 +2,17 @@
 # Victim Documentation - Abolfazl Tavousi Nikabadi
 # ==========================================
 
-photo: vic-2026-001632.jpg
+photo:
+  - "vic-2026-001632.jpg"
+  - "vic-2026-9d6f91a7720d.png"
+  - "vic-2026-738edb75c5d4.png"
+  - "vic-2026-b37eb7ffed18.jpg"
 name: Abolfazl Tavousi Nikabadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 20
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,6 +27,7 @@ description: |-
 
   Killed during protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1293
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1293"
+  - "https://x.com/VIsfehan/status/2015409027803402269"
 persian_name: ابوالفضل طاووسی نیک‌آبادی

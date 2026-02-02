@@ -2,7 +2,10 @@
 # Victim Documentation - Kian Abolhadi
 # ==========================================
 
-photo: vic-2026-2140126.jpg
+photo:
+  - "vic-2026-2140126.jpg"
+  - "vic-2026-102be2f8f9b9.jpg"
+  - "vic-2026-01ec96bf5e62.jpg"
 name: Kian Abolhadi
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,9 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot by Islamic Republic forces. His body was not handed over to his family for several days, during which the family was pressured not to speak about Kian being a fighter for the revolution and was asked to introduce him as a 'Basiji' to receive his body. This pressure and delay in handing over the body is described as another example of security forces' treatment of the families of the deceased, attempting to distort the identity and life path of the victims.
+description: Shot by Islamic Republic forces. His body was not handed over to his family for several days, during which the family was pressured not to speak about Kian being a fighter for the revolution and was asked to introduce him as a 'Basiji' to receive his body. This pressure and delay in handing over the body is described as another example of security forces' treatment of the families of the deceased, attempting to distort the identity and life path of the victims.
 source_type: Social Media
-source_social_media_link: https://x.com/tavaana/status/2016309497191428523
-child: false
+source_social_media_link:
+  - "https://x.com/tavaana/status/2016309497191428523"
+  - "https://t.me/javanmardi77/154248"
 persian_name: کیان ابوالهادی

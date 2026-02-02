@@ -2,7 +2,11 @@
 # Victim Documentation - Milad Miyanehkhah
 # ==========================================
 
-photo: vic-2026-000697.jpg
+photo:
+  - "vic-2026-000697.jpg"
+  - "vic-2026-e78916dbc3f1.jpg"
+  - "vic-2026-144eaf066394.jpg"
+  - "vic-2026-a088865aadaa.jpg"
 name: Milad Miyanehkhah
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,9 @@ description: |-
 
   Identified as one of eight citizens killed in public protests.
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2012976334583066771, https://x.com/hengawo/status/2013224113272135817, https://x.com/HengawO/status/2013224113272135817
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2012976334583066771, https://x.com/hengawo/status/2013224113272135817, https://x.com/HengawO/status/2013224113272135817"
+  - "https://x.com/hyrcanihrm/status/2012976334583066771"
+  - "https://x.com/hengawo/status/2013224113272135817"
+  - "https://x.com/HengawO/status/2013224113272135817"
 persian_name: میلاد میانه‌خواه

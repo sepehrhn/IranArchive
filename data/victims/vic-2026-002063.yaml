@@ -2,7 +2,8 @@
 # Victim Documentation - Sajad Mohammad Ranjbar
 # ==========================================
 
-photo: vic-2026-002063.jpg
+photo:
+  - vic-2026-002063.jpg
 name: Sajad Mohammad Ranjbar
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: 33
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-08"
@@ -24,5 +25,4 @@ description: |-
   Shot directly in the forehead with live ammunition during protests. He was a wrestler.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/542
-child: false
 persian_name: سجاد محمد رنجبر

@@ -2,20 +2,24 @@
 # Victim Documentation - Amir Hossein Kiadarbandasari
 # ==========================================
 
-photo: vic-2026-000146.jpg
+photo:
+  - "vic-2026-000146.jpg"
+  - "vic-2026-001655.jpg"
+  - "vic-2026-f0449788b77d.jpg"
+  - "vic-2026-8247699ebf6d.jpg"
 name: Amir Hossein Kiadarbandasari
-persian_name: "امیرحسین کیادربندسری"
-birth_date: ''
-birth_province: ''
-birth_city: ''
+persian_name: امیرحسین کیادربندسری
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 32
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,5 +27,6 @@ description: |
   Murdered along with his three-year-old son, bodies not returned to family
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/longlosthills/status/2013437818383573032
-child: false
+  - "https://x.com/longlosthills/status/2013437818383573032"
+  - "https://x.com/longlosthills/status/2013437818383573032, https://x.com/ManotoNews/status/2015140785046348030, https://t.me/RememberTheirNames/694"
+  - "https://x.com/ManotoNews/status/2015140785046348030"

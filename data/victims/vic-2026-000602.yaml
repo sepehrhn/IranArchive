@@ -2,7 +2,11 @@
 # Victim Documentation - Farshid Moradi
 # ==========================================
 
-photo: vic-2026-000602.jpg
+photo:
+  - "vic-2026-000602.jpg"
+  - "vic-2026-f619caca3af7.jpg"
+  - "vic-2026-1fbaebcf603c.jpg"
+  - "vic-2026-6bbfb1dd22e8.jpg"
 name: Farshid Moradi
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,9 @@ description: |-
 
   The tweet states he became immortalized in Fooladshahr, Isfahan, implying he was killed during the protests. The term 'جاویدنام' (Javidnam) is used for those who have died a martyr's death.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2013562802116477232, https://x.com/hengawo/status/2013618561839677909, https://x.com/s_iran01/status/2013758901494128678, https://x.com/HengawO/status/2013618561839677909, https://x.com/VIsfehan/status/2015434224082333839, https://t.me/RememberTheirNames/365
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2013562802116477232, https://x.com/hengawo/status/2013618561839677909, https://x.com/s_iran01/status/2013758901494128678, https://x.com/HengawO/status/2013618561839677909, https://x.com/VIsfehan/status/2015434224082333839, https://t.me/RememberTheirNames/365"
+  - "https://x.com/hengawo/status/2013618561839677909"
+  - "https://x.com/HengawO/status/2013618561839677909"
+  - "https://x.com/VIsfehan/status/2015434224082333839"
 persian_name: فرشید مرادی

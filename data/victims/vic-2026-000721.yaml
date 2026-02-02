@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Mahdi Mehrtashfar (Ranji)
 # ==========================================
 
-photo: vic-2026-000721.jpg
+photo:
+  - "vic-2026-000721.jpg"
+  - "vic-2026-999a460ea17c.jpg"
 name: Mohammad Mahdi Mehrtashfar (Ranji)
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Azimiyeh
 incident_address: Azimiyeh
 date_of_death: ""
@@ -22,5 +24,4 @@ description: |
   Killed during protests
 source_type: Social Media
 source_social_media_link: https://x.com/loabatk/status/2012324085846474994
-child: false
 persian_name: محمدمهدی مهرتاش‌فر (رنجی)

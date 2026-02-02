@@ -2,7 +2,9 @@
 # Victim Documentation - Sohail Tarabli
 # ==========================================
 
-photo: vic-2026-002267.jpg
+photo:
+  - "vic-2026-002267.jpg"
+  - "vic-2026-0662040848f5.jpg"
 name: Sohail Tarabli
 birth_date: ""
 birth_province: ""
@@ -24,5 +26,4 @@ description: |-
   Shot in the back with a sniper rifle and killed. The tweet mentions 'IranMassacre' which suggests a connection to the protests.
 source_type: Social Media
 source_social_media_link: https://x.com/pouyajegarvnd/status/2015358422414225835
-child: false
 persian_name: سهیل ترابلی

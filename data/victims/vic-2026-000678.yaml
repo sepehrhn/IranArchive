@@ -2,7 +2,8 @@
 # Victim Documentation - Mehdi Heydar Arabi
 # ==========================================
 
-photo: vic-2026-000678.jpg
+photo:
+  - vic-2026-000678.jpg
 name: Mehdi Heydar Arabi
 birth_date: ""
 birth_province: ""
@@ -25,5 +26,4 @@ description: |-
   Mentioned in a list of names with a date and location, likely a victim.
 source_type: Social Media
 source_social_media_link: https://x.com/allahbakhshii/status/2014671443284390042, https://x.com/missmarpel75/status/2014762997185466477, https://t.me/RememberTheirNames/807
-child: false
 persian_name: مهدی حیدر عربی

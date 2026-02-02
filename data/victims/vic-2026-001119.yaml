@@ -2,7 +2,8 @@
 # Victim Documentation - Mariah Mavaddat
 # ==========================================
 
-photo: vic-2026-001119.jpg
+photo:
+  - vic-2026-001119.jpg
 name: Mariah Mavaddat
 birth_date: ""
 birth_province: ""
@@ -24,6 +25,7 @@ description: |-
 
   Killed during recent protests. Described as a childhood, teenage, and youth friend and playmate.
 source_type: Social Media
-source_social_media_link: https://x.com/banafshehviola/status/2012756226661355750, https://x.com/movaghat68/status/2012657348133962090
-child: false
+source_social_media_link:
+  - "https://x.com/banafshehviola/status/2012756226661355750, https://x.com/movaghat68/status/2012657348133962090"
+  - "https://x.com/banafshehviola/status/2012756226661355750"
 persian_name: مازیار مودت

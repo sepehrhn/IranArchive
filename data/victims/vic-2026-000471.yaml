@@ -2,7 +2,12 @@
 # Victim Documentation - Abolfazl Heydari
 # ==========================================
 
-photo: vic-2026-000471.png
+photo:
+  - "vic-2026-000471.png"
+  - "vic-2026-90242fed5e27.jpg"
+  - "vic-2026-573af2de4d3a.jpg"
+  - "vic-2026-acd8ff7b5d03.jpg"
+  - "vic-2026-002170.jpg"
 name: Abolfazl Heydari
 birth_date: ""
 birth_province: ""
@@ -11,7 +16,7 @@ gender: Male
 age: 17
 occupation: ""
 country: Iran
-incident_province: Khorasan
+incident_province: ""
 incident_city: Sabzevar
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -21,6 +26,10 @@ status: Killed
 description: |
   Killed by the Islamic Republic regime during protests in Dey month 1404
 source_type: Social Media
-source_social_media_link: https://hengaw.net/en/news/2026/01/article-120, https://x.com/khoshrof/status/2012274388284936394, https://x.com/indypersian/status/2012820143454212483, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/nimarfati51385/status/2009962015557820632, https://x.com/Daikatuo/status/2012207885086830728, https://t.me/RememberTheirNames/382, https://x.com/javidshah109/status/2016441036487250004
-child: true
+source_social_media_link:
+  - "https://hengaw.net/en/news/2026/01/article-120, https://x.com/khoshrof/status/2012274388284936394, https://x.com/indypersian/status/2012820143454212483, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/nimarfati51385/status/2009962015557820632, https://x.com/Daikatuo/status/2012207885086830728, https://t.me/RememberTheirNames/382, https://x.com/javidshah109/status/2016441036487250004"
+  - "https://x.com/indypersian/status/2012820143454212483"
+  - "https://x.com/javidshah109/status/2016441036487250004"
+  - "https://x.com/javidshah109/status/2017151657906156002"
+  - "https://t.me/RememberTheirNames/1110"
 persian_name: ابوالفضل پایدار

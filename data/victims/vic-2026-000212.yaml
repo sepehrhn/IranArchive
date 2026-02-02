@@ -2,7 +2,15 @@
 # Victim Documentation - Abolfazl Bajoul
 # ==========================================
 
-photo: vic-2026-000212.jpg
+photo:
+  - "vic-2026-000212.jpg"
+  - "vic-2026-48b0a73c015e.jpg"
+  - "vic-2026-588a0e89477c.jpg"
+  - "vic-2026-28123f1f5b76.jpg"
+  - "vic-2026-fe408ef95ca3.jpg"
+  - "vic-2026-680c18d43632.jpg"
+  - "vic-2026-1316889663e6.jpg"
+  - "vic-2026-f008dd68038e.jpg"
 name: Abolfazl Bajoul
 birth_date: ""
 birth_province: ""
@@ -11,7 +19,7 @@ gender: Male
 age: 16
 occupation: ""
 country: Iran
-incident_province: Vilashahr
+incident_province: ""
 incident_city: Najafabad
 incident_address: Vilashahr
 date_of_death: "2026-01-09"
@@ -21,6 +29,12 @@ status: Killed
 description: |
   Killed by a direct shot from government forces during protests in Vilashahr.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2013658788885045305, https://x.com/foreverybd/status/2013678496011198739, https://x.com/manotonews/status/2014329292759445939, https://x.com/hirman__/status/2014532866881847716, https://x.com/iliaaaa66/status/2014786162418712989, https://t.me/RememberTheirNames/418
-child: true
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2013658788885045305, https://x.com/foreverybd/status/2013678496011198739, https://x.com/manotonews/status/2014329292759445939, https://x.com/hirman__/status/2014532866881847716, https://x.com/iliaaaa66/status/2014786162418712989, https://t.me/RememberTheirNames/418"
+  - "https://x.com/foreverybd/status/2013678496011198739"
+  - "https://x.com/manotonews/status/2014329292759445939"
+  - "https://x.com/hirman__/status/2014532866881847716"
+  - "https://x.com/iliaaaa66/status/2014786162418712989"
+  - "https://x.com/allahbakhshii/status/2013658788885045305"
+  - "https://x.com/azambahrami/status/2014751904341848573"
 persian_name: ابوالفضل باجول

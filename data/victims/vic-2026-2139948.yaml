@@ -2,13 +2,15 @@
 # Victim Documentation - Mikaeil Norouzi
 # ==========================================
 
-photo: vic-2026-2139948.jpg
+photo:
+  - "vic-2026-2139948.jpg"
+  - "vic-2026-c027a8d9.jpg"
 name: Mikaeil Norouzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 24
 occupation: ""
 country: Iran
 incident_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed during protests.
+description: Killed during protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1571
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1571"
+  - "https://www.instagram.com/p/DUByNtaDNN6/"
 persian_name: میکاییل نوروزی

@@ -2,7 +2,11 @@
 # Victim Documentation - Bahareh Babaei
 # ==========================================
 
-photo: vic-2026-000565.jpg
+photo:
+  - "vic-2026-000565.jpg"
+  - "vic-2026-dcf170605c98.jpg"
+  - "vic-2026-c2c004ef334b.png"
+  - "vic-2026-29e8f16196e6.jpg"
 name: Bahareh Babaei
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,7 @@ status: Killed
 description: |
   Killed by suppression forces of the Islamic Republic during protests
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2014524712190185977, https://www.instagram.com/p/DT1htkQiHhV, https://t.me/RememberTheirNames/771
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2014524712190185977, https://www.instagram.com/p/DT1htkQiHhV, https://t.me/RememberTheirNames/771"
+  - "https://www.instagram.com/p/DT1htkQiHhV"
 persian_name: بهاره بابایی

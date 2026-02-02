@@ -2,7 +2,11 @@
 # Victim Documentation - Zahra Behlolinezhad
 # ==========================================
 
-photo: vic-2026-000088.jpg
+photo:
+  - "vic-2026-000088.jpg"
+  - "vic-2026-8f8f1a326dab.jpg"
+  - "vic-2026-bb3b9dceb809.jpg"
+  - "vic-2026-363bcb96f09d.jpg"
 name: Zahra Behlolinezhad
 birth_date: ""
 birth_province: ""
@@ -22,5 +26,4 @@ description: |
   Killed during recent events/protests
 source_type: Social Media
 source_social_media_link: https://x.com/nashianeam/status/2014428617212571690
-child: false
 persian_name: زهرا بهلولی‌نژاد

@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Parsa Amini
 # ==========================================
 
-photo: vic-2026-000377.jpg
+photo:
+  - "vic-2026-000377.jpg"
+  - "vic-2026-70085ee839c8.jpg"
+  - "vic-2026-6c59f7af2661.jpg"
 name: Mohammad Parsa Amini
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Shot directly with bullets by government forces during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2013589829238599854, https://t.me/RememberTheirNames/371
-child: true
+source_social_media_link:
+  - "https://x.com/manotonews/status/2013589829238599854, https://t.me/RememberTheirNames/371"
+  - "https://x.com/manotonews/status/2013589829238599854"
 persian_name: محمدپارسا امینی

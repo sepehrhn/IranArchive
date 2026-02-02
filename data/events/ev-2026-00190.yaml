@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Solidarity with Iran Gathering"
+
+featured: false
+
+description: |
+  The Vancouver Art Gallery is the traditional gathering spot for protests. If the main rally is not at Jack Poole Plaza, it will likely be here. In previous weeks, smaller groups have gathered here before merging or marching to other locations.
+  
+  **Tips:** Check 'Solidarity with Iranians' or local community Instagram pages for the final confirmed location on the morning of the event.
+  
+  **Location Details:** 750 Hornby St, Vancouver, BC.
+
+type: "in_person"
+
+date:
+  start: "2026/02/01"
+  start_time: "13:00"
+  end: "2026/02/01"
+  end_time: "15:00"
+
+location:
+  country: "CA"
+  city: "Vancouver"
+  address: "Vancouver Art Gallery (North Plaza)"
+
+online: []
+
+organizer:
+  name: "Solidarity with Iranians / Various Community Groups"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

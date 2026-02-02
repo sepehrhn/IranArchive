@@ -2,7 +2,11 @@
 # Victim Documentation - Ahmadreza Daryaei
 # ==========================================
 
-photo: vic-2026-2140091.jpg
+photo:
+  - "vic-2026-2140091.jpg"
+  - "vic-2026-1a90a8788492.jpg"
+  - "vic-2026-7c5c1977c0c5.jpg"
+  - "vic-2026-2c2900120642.jpg"
 name: Ahmadreza Daryaei
 birth_date: ""
 birth_province: ""
@@ -18,9 +22,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed during protests in Preshahr Gilan on Thursday when people came from surrounding villages for the call to action
+description: Killed during protests in Preshahr Gilan on Thursday when people came from surrounding villages for the call to action
 source_type: Social Media
 source_social_media_link: https://x.com/i/status/2016158731382247886
-child: false
 persian_name: احمدرضا دریایی

@@ -2,7 +2,9 @@
 # Victim Documentation - Ghazal Ghalandari
 # ==========================================
 
-photo: vic-2026-001083.jpg
+photo:
+  - "vic-2026-001083.jpg"
+  - "vic-2026-0f70b42ba6bb.jpg"
 name: Ghazal Ghalandari
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,8 @@ description: |-
 
   Killed by the Islamic Republic regime during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/banafshehviola/status/2013330935115067558, https://x.com/NickSotoudeh/status/2013280199652045004
-child: true
+source_social_media_link:
+  - "https://x.com/banafshehviola/status/2013330935115067558, https://x.com/NickSotoudeh/status/2013280199652045004"
+  - "https://x.com/NickSotoudeh/status/2013280199652045004"
+  - "https://x.com/banafshehviola/status/2013330935115067558"
 persian_name: غزل قلندری

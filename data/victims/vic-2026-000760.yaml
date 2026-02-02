@@ -2,7 +2,9 @@
 # Victim Documentation - Mostafa Movahedi
 # ==========================================
 
-photo: vic-2026-000760.jpg
+photo:
+  - "vic-2026-000760.jpg"
+  - "vic-2026-54ae1b2cd9bc.jpg"
 name: Mostafa Movahedi
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Killed by forces of the Islamic Republic and the Velayat-e Faqih regime. Originally from the village of Bazneh, a district of Arak.
 source_type: Social Media
-source_social_media_link: https://x.com/saeidvafa/status/2014814828330639536, https://x.com/SaeidVafa/status/2014814828330639536, https://x.com/behnam_chegini/status/2014970985254985945, https://t.me/RememberTheirNames/1566
-child: false
+source_social_media_link:
+  - "https://x.com/saeidvafa/status/2014814828330639536, https://x.com/SaeidVafa/status/2014814828330639536, https://x.com/behnam_chegini/status/2014970985254985945, https://t.me/RememberTheirNames/1566"
+  - "https://x.com/SaeidVafa/status/2014814828330639536"
 persian_name: مصطفی موحدی

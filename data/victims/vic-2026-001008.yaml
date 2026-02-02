@@ -2,20 +2,24 @@
 # Victim Documentation - Ahmadreza Golkhani
 # ==========================================
 
-photo: vic-2026-001008.jpg
+photo:
+  - "vic-2026-001008.jpg"
+  - "vic-2026-f619caca3af7.jpg"
+  - "vic-2026-33090f4a2abc.jpg"
+  - "vic-2026-002106.jpg"
 name: Ahmadreza Golkhani
-persian_name: "احمدرضا گلخنی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: احمدرضا گلخنی
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,5 +27,6 @@ description: |
   Killed during popular protests in Isfahan
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hengawo/status/2013618561839677909
-child: false
+  - "https://x.com/hengawo/status/2013618561839677909"
+  - "https://x.com/HengawO/status/2013618561839677909"
+  - "https://x.com/hengawo/status/2013618561839677909, https://x.com/HengawO/status/2013618561839677909, https://t.me/RememberTheirNames/419"

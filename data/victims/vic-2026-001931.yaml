@@ -2,7 +2,8 @@
 # Victim Documentation - Hamed Jahedikia
 # ==========================================
 
-photo: vic-2026-001931.jpg
+photo:
+  - vic-2026-001931.jpg
 name: Hamed Jahedikia
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Mentioned in a list of names with a date and location, implying death during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1020
-child: false
 persian_name: حامد جاهدی‌کیا

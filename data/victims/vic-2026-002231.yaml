@@ -2,21 +2,26 @@
 # Victim Documentation - Moein Mohammadyousefi
 # ==========================================
 
-photo: vic-2026-002231.jpg
+photo:
+  - "vic-2026-002231.jpg"
+  - "vic-2026-5b9f0474711b.jpg"
+  - "vic-2026-c69e54d9d993.jpg"
+  - "vic-2026-bde4689c5453.jpg"
+  - "vic-2026-656681304bf1.jpg"
 name: Moein Mohammadyousefi
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 25
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: ''
+incident_province: ""
+incident_city: ""
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |-
   Persian Name: معین محمدیوسفی
@@ -24,5 +29,5 @@ description: |-
   His body was found seven days after his death and he was buried. Described as a martyr for the homeland.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/neegaarin/status/2015400258981744751
-child: false
+  - "https://x.com/neegaarin/status/2015400258981744751"
+  - "https://x.com/neegaarin/status/2017285248204124384"

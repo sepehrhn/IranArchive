@@ -2,19 +2,25 @@
 # Victim Documentation - Mani Shafiei
 # ==========================================
 
-photo: vic-2026-001301.jpg
+photo:
+  - "vic-2026-001301.jpg"
+  - "vic-2026-c1c37cc4e57a.jpg"
+  - "vic-2026-d0ebec736edc.png"
+  - "vic-2026-3a95aaa06e02.jpg"
+  - "vic-2026-c88a284f6f11.jpg"
+  - "vic-2026-001303.jpg"
 name: Mani Shafiei
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 13
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Hamadan
 incident_city: Chenar Sofla
 incident_address: Sheikh
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -24,7 +30,10 @@ description: |
   Shot and killed by government forces in front of his family home during protests.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/HengawO/status/2015421332675301638
-  - https://x.com/Daikatuo/status/2015869767081402489
-  - https://t.me/RememberTheirNames/1117
-child: true
+  - "https://x.com/HengawO/status/2015421332675301638"
+  - "https://x.com/Daikatuo/status/2015869767081402489"
+  - "https://t.me/RememberTheirNames/1117"
+  - "https://www.instagram.com/p/DT_Z7IUDAMX"
+  - "https://x.com/AzadehKhorasan/status/2016505588612821221"
+  - "https://x.com/HengawO/status/2015421332675301638, https://x.com/Daikatuo/status/2015869767081402489, https://t.me/RememberTheirNames/1117, https://www.instagram.com/p/DT_Z7IUDAMX"
+  - "https://x.com/HengawO/status/2015421332675301638, https://x.com/Daikatuo/status/2015869767081402489, https://t.me/RememberTheirNames/1117, https://www.instagram.com/p/DT_Z7IUDAMX, https://x.com/AzadehKhorasan/status/2016505588612821221"

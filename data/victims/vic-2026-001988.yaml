@@ -2,7 +2,12 @@
 # Victim Documentation - Moein Taghipour
 # ==========================================
 
-photo: vic-2026-001988.jpg
+photo:
+  - "vic-2026-001988.jpg"
+  - "vic-2026-db0e4ec96923.jpg"
+  - "vic-2026-0ef687df05e4.jpg"
+  - "vic-2026-e7bb1a332b22.jpg"
+  - "vic-2026-e5d6e547fd7c.jpg"
 name: Moein Taghipour
 birth_date: ""
 birth_province: ""
@@ -11,7 +16,7 @@ gender: Male
 age: 18
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-08"
@@ -23,6 +28,8 @@ description: |-
 
   Shot and killed in Fardis. Described as a 'martyr on the path to freedom'.
 source_type: Social Media
-source_social_media_link: https://x.com/ashkvuo7000/status/2015710026233528722, https://t.me/RememberTheirNames/1032
-child: false
+source_social_media_link:
+  - "https://x.com/ashkvuo7000/status/2015710026233528722, https://t.me/RememberTheirNames/1032"
+  - "https://x.com/ashkvuo7000/status/2015710026233528722"
+  - "https://x.com/allahbakhshii/status/2017227150487621774"
 persian_name: معین تقی پور

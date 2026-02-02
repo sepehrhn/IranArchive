@@ -2,7 +2,10 @@
 # Victim Documentation - Naji Savari
 # ==========================================
 
-photo: vic-2026-2139819.jpg
+photo:
+  - "vic-2026-2139819.jpg"
+  - "vic-2026-5ad73435684f.jpg"
+  - "vic-2026-f04350b4fa9e.jpg"
 name: Naji Savari
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,10 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Arab citizen, also known as Abu Meysaq, son of Qasem, resident of Kooy-e Alavi (Hay al-Thawra, Ahmadi Street) in Ahvaz, owner of a fruit shop in Kooy-e Golestan Ahvaz. Shot in the neck by security forces during protests on the night of January 9, 2026 in Kooy-e Golestan Ahvaz when security forces responded with raids and gunfire against protesters. Was transferred to Karami Hospital in Ahvaz and died the next day due to severity of injuries from indiscriminate shooting by security forces.
+description: Arab citizen, also known as Abu Meysaq, son of Qasem, resident of Kooy-e Alavi (Hay al-Thawra, Ahmadi Street) in Ahvaz, owner of a fruit shop in Kooy-e Golestan Ahvaz. Shot in the neck by security forces during protests on the night of January 9, 2026 in Kooy-e Golestan Ahvaz when security forces responded with raids and gunfire against protesters. Was transferred to Karami Hospital in Ahvaz and died the next day due to severity of injuries from indiscriminate shooting by security forces.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/241, https://x.com/MOJAHWAZ/status/2016228228877139986, https://t.me/iranhrs98/67319
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/241, https://x.com/MOJAHWAZ/status/2016228228877139986, https://t.me/iranhrs98/67319"
+  - "https://x.com/MOJAHWAZ/status/2016228228877139986"
+  - "https://t.me/iranhrs98/67319"
 persian_name: ناجی سواری

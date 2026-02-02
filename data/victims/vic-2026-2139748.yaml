@@ -2,7 +2,9 @@
 # Victim Documentation - Mostafa Alikhani Chamgardani
 # ==========================================
 
-photo: vic-2026-2139748.jpg
+photo:
+  - "vic-2026-2139748.jpg"
+  - "vic-2026-567d02ecec81.jpg"
 name: Mostafa Alikhani Chamgardani
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,10 @@ date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot in the abdomen and killed. He was the father of two children and an employee of the Mobarakeh Steel Company.
+description: Shot in the abdomen and killed. He was the father of two children and an employee of the Mobarakeh Steel Company.
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2016330756713218485, https://x.com/FSeifikaran/status/2016330756713218485, https://t.me/RememberTheirNames/1662
-child: false
+source_social_media_link:
+  - "https://x.com/fseifikaran/status/2016330756713218485, https://x.com/FSeifikaran/status/2016330756713218485, https://t.me/RememberTheirNames/1662"
+  - "https://x.com/fseifikaran/status/2016330756713218485"
+  - "https://x.com/FSeifikaran/status/2016330756713218485"
 persian_name: مصطفی علیخانی چمگردانی

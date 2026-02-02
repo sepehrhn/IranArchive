@@ -2,7 +2,8 @@
 # Victim Documentation - Hossein Mahmoudi Boram Lor
 # ==========================================
 
-photo: vic-2026-000631.jpg
+photo:
+  - vic-2026-000631.jpg
 name: Hossein Mahmoudi Boram Lor
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Shot directly by suppressive forces
 source_type: Social Media
 source_social_media_link: https://x.com/hirman__/status/2014577633862762528
-child: false
 persian_name: حسین محمودی برام لر

@@ -2,27 +2,39 @@
 # Victim Documentation - Mehran Hosseini
 # ==========================================
 
-photo: vic-2026-001419.jpg
+photo:
+  - "vic-2026-001419.jpg"
+  - "vic-2026-119c7cdb92ed.jpg"
+  - "vic-2026-91feeb22dda3.jpg"
+  - "vic-2026-93a95f2800c8.jpg"
+  - "vic-2026-e63af4e0.jpg"
+  - "vic-2026-3154e66bf064.jpg"
 name: Mehran Hosseini
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 27
+occupation: ""
 country: Iran
 incident_province: Lorestan
 incident_city: Khorramabad
-incident_address: ''
-date_of_death: ''
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ''
-status: Killed
+cause_of_death: ""
+status: "Missing"
 description: |
   Persian Name: مهران حسینی
 
   Martyred name
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/mischaelw29286/status/2014727671754654201
-child: false
+  - "https://x.com/mischaelw29286/status/2014727671754654201"
+  - "https://x.com/MischaelW29286/status/2014727671754654201"
+  - "https://x.com/khoshrof/status/2015384816183640479"
+  - "https://x.com/SaeidVafa/status/2014727059533099512"
+  - "https://x.com/hyrcanihrm/status/2016305751103570335, https://x.com/HyrcaniHRM/status/2016305751103570335, https://t.me/RememberTheirNames/1569, https://x.com/i/status/2016305751103570335"
+  - "https://x.com/hyrcanihrm/status/2016305751103570335"
+  - "https://x.com/HyrcaniHRM/status/2016305751103570335"
+  - "https://x.com/i/status/2016305751103570335"

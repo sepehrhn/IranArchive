@@ -2,20 +2,25 @@
 # Victim Documentation - Milad Afroukhteh
 # ==========================================
 
-photo: vic-2026-001327.jpg
+photo:
+  - "vic-2026-001327.jpg"
+  - "vic-2026-002154.jpg"
+  - "vic-2026-3135981065ae.jpg"
+  - "vic-2026-07868aa0d8c7.jpg"
+  - "vic-2026-0c40fe5604a3.jpg"
 name: Milad Afroukhteh
-persian_name: "میلاد افروخته"
-birth_date: ''
-birth_province: ''
-birth_city: ''
+persian_name: میلاد افروخته
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 35
 occupation: sportsman
 country: Iran
 incident_province: Gilan
 incident_city: Rasht
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -25,5 +30,8 @@ description: |
   Shot by Iranian government forces during protests on Motahari Street. He was a sportsman, footballer, and active in goalkeeping classes.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hyrcanihrm/status/2015512044502401302
-child: false
+  - "https://x.com/hyrcanihrm/status/2015512044502401302"
+  - "https://x.com/HyrcaniHRM/status/2015512044502401302, https://t.me/RememberTheirNames/1273, https://x.com/pkhwshhal/status/2016257546961441150"
+  - "https://x.com/HyrcaniHRM/status/2015512044502401302"
+  - "https://x.com/pkhwshhal/status/2016257546961441150"
+  - "https://x.com/szamanzadeh/status/2016964770671325406"

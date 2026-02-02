@@ -2,19 +2,27 @@
 # Victim Documentation - Amir Heydar Doost
 # ==========================================
 
-photo: vic-2026-000525.jpg
+photo:
+  - "vic-2026-000525.jpg"
+  - "vic-2026-16e12cfb5b68.jpg"
+  - "vic-2026-13054965fd81.png"
+  - "vic-2026-80acdb104fbd.png"
+  - "vic-2026-97cee1ec51fb.png"
+  - "vic-2026-44a3790de815.jpg"
+  - "vic-2026-bf3e344b01c9.jpg"
+  - "vic-2026-396ecadb95e9.png"
 name: Amir Heydar Doost
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Gilan
 incident_city: Manjil
-incident_address: ''
-date_of_death: '2025-12-28'
+incident_address: ""
+date_of_death: "2025-12-28"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -27,4 +35,3 @@ source_social_media_link:
   - https://x.com/longlosthills/status/2011969461822030216
   - https://x.com/iranintlbrk/status/2013520695137857709
   - https://x.com/Daikatuo/status/2011836007839101290
-child: false

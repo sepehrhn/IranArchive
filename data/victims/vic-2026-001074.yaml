@@ -2,20 +2,24 @@
 # Victim Documentation - Fardin Foladi
 # ==========================================
 
-photo: vic-2026-001074.jpg
+photo:
+  - "vic-2026-001074.jpg"
+  - "vic-2026-002121.jpg"
+  - "vic-2026-862ed00924ca.jpg"
+  - "vic-2026-479f66d7c3a3.jpg"
 name: Fardin Foladi
-persian_name: "فردین فولادی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: فردین فولادی
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Islamabad-e Gharb
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,5 +27,7 @@ description: |
   Shot directly by government forces
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hengawo/status/2012506899518800104
-child: false
+  - "https://x.com/hengawo/status/2012506899518800104"
+  - "https://x.com/HengawO/status/2012506899518800104, https://x.com/KurdistanHRN/status/2015913644450541604, https://t.me/RememberTheirNames/129"
+  - "https://x.com/KurdistanHRN/status/2015913644450541604"
+  - "https://t.me/javanmardi77/154246"

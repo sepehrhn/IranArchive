@@ -2,7 +2,11 @@
 # Victim Documentation - Mohammad Saleh Zarif Moghaddam
 # ==========================================
 
-photo: vic-2026-000732.jpg
+photo:
+  - "vic-2026-000732.jpg"
+  - "vic-2026-c57a1dd155e7.jpg"
+  - "vic-2026-1c3dae34ddc0.png"
+  - "vic-2026-fe00e1517d8e.png"
 name: Mohammad Saleh Zarif Moghaddam
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,9 @@ status: Killed
 description: |
   Shot with live ammunition during protests on Setareh Khan Street, then killed with finishing shot by Basij forces after falling to the ground
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2012162929924444446, https://x.com/dw_persian/status/2012197770090721290, https://x.com/hekasrehcrisis/status/2016009476986323077, https://t.me/RememberTheirNames/210
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2012162929924444446, https://x.com/dw_persian/status/2012197770090721290, https://x.com/hekasrehcrisis/status/2016009476986323077"
+  - "https://x.com/manotonews/status/2012162929924444446"
+  - "https://x.com/dw_persian/status/2012197770090721290"
+  - "https://x.com/hekasrehcrisis/status/2016009476986323077"
 persian_name: محمد صالح ظریف مقدم

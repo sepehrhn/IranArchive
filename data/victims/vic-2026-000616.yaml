@@ -2,7 +2,8 @@
 # Victim Documentation - Hamed Talebi
 # ==========================================
 
-photo: vic-2026-000616.jpg
+photo:
+  - vic-2026-000616.jpg
 name: Hamed Talebi
 birth_date: ""
 birth_province: ""
@@ -21,6 +22,7 @@ status: Killed
 description: |
   Killed during protests on Thursday and Friday
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014331046636990578, https://t.me/RememberTheirNames/1347
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2014331046636990578, https://t.me/RememberTheirNames/1347"
+  - "https://x.com/visfehan/status/2014331046636990578"
 persian_name: حامد طالبی

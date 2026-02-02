@@ -2,7 +2,11 @@
 # Victim Documentation - Omid Hassanpour
 # ==========================================
 
-photo: vic-2026-000772.jpg
+photo:
+  - "vic-2026-000772.jpg"
+  - "vic-2026-34597ad2c4ba.jpg"
+  - "vic-2026-48e4206f35a3.jpg"
+  - "vic-2026-d2820229ab10.png"
 name: Omid Hassanpour
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,11 @@ status: Killed
 description: |
   Shot from the top of the telecommunications building.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2015000616435638525, https://x.com/visfehan/status/2014993998666985845, https://x.com/VIsfehan/status/2015000616435638525, https://x.com/VIsfehan/status/2014993998666985845, https://t.me/RememberTheirNames/793
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2015000616435638525, https://x.com/visfehan/status/2014993998666985845, https://x.com/VIsfehan/status/2015000616435638525, https://x.com/VIsfehan/status/2014993998666985845, https://t.me/RememberTheirNames/793"
+  - "https://x.com/visfehan/status/2015000616435638525"
+  - "https://x.com/allahbakhshii/status/2015725545430876458"
+  - "https://x.com/VIsfehan/status/2015000616435638525"
+  - "https://x.com/VIsfehan/status/2014993998666985845"
+  - "https://x.com/visfehan/status/2016456178369229311"
 persian_name: امید حسن پور

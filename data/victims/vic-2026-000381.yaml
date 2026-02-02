@@ -2,7 +2,11 @@
 # Victim Documentation - Mohammad Taha Sepahvand
 # ==========================================
 
-photo: vic-2026-000381.jpg
+photo:
+  - "vic-2026-000381.jpg"
+  - "vic-2026-a2c70ccebcac.jpg"
+  - "vic-2026-57f5b9e22391.jpg"
+  - "vic-2026-e56001c245da.jpg"
 name: Mohammad Taha Sepahvand
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,8 @@ description: |-
 
   Killed by Islamic Republic forces. The tweet states he was a child who should have lived.
 source_type: Social Media
-source_social_media_link: https://x.com/chaawtimes/status/2014420454258135353, https://x.com/ChaawTimes/status/2014420454258135353, https://x.com/hichkasofficial/status/2016464810297147511
-child: true
+source_social_media_link:
+  - "https://x.com/chaawtimes/status/2014420454258135353, https://x.com/ChaawTimes/status/2014420454258135353, https://x.com/hichkasofficial/status/2016464810297147511"
+  - "https://x.com/i/status/2017031465616261545"
+  - "https://x.com/chaawtimes/status/2014420454258135353"
 persian_name: محمد طاها سپهوند

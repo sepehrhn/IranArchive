@@ -2,7 +2,10 @@
 # Victim Documentation - Maryam Salehi
 # ==========================================
 
-photo: vic-2026-000994.jpg
+photo:
+  - "vic-2026-000994.jpg"
+  - "vic-2026-83f59cd37cb1.jpg"
+  - "vic-2026-8c9f4b24ee3e.jpg"
 name: Maryam Salehi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Mentioned as a victim in the context of protests in Tehran during Dey 1404 (late Dec 2025 - Jan 2026). Specific circumstances of death not detailed.
 source_type: Social Media
-source_social_media_link: https://x.com/damdami/status/2015005680210514047, https://t.me/RememberTheirNames/962
-child: false
+source_social_media_link:
+  - "https://x.com/damdami/status/2015005680210514047, https://t.me/RememberTheirNames/962"
+  - "https://x.com/loabatk/status/2017319985765363736"
+  - "https://x.com/hadeeselahi/status/2017527718489866667"
 persian_name: مریم صالحی

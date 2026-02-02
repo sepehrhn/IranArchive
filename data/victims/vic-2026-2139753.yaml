@@ -2,7 +2,10 @@
 # Victim Documentation - Sajad Pourhassani
 # ==========================================
 
-photo: vic-2026-2139753.jpg
+photo:
+  - "vic-2026-2139753.jpg"
+  - "vic-2026-3a968899fda8.jpg"
+  - "vic-2026-08845c32d1d1.jpg"
 name: Sajad Pourhassani
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,10 @@ date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Gilaki citizen and worker at a supermarket, father of a 16-year-old daughter. Shot by government forces during popular protests in Rasht. Government agents fired from atop a bank building, opposite the 'Chahar Baradan' mosque on Motahari Street in Rasht, towards protesters. A bullet hit his leg. He died at the hospital due to severe injuries and bleeding before receiving effective medical treatment. His family was pressured to provide commitments and sign documents to receive his body, and a public ceremony was prevented. His body was buried on Tuesday, 23 Dey 1404.
+description: Gilaki citizen and worker at a supermarket, father of a 16-year-old daughter. Shot by government forces during popular protests in Rasht. Government agents fired from atop a bank building, opposite the 'Chahar Baradan' mosque on Motahari Street in Rasht, towards protesters. A bullet hit his leg. He died at the hospital due to severe injuries and bleeding before receiving effective medical treatment. His family was pressured to provide commitments and sign documents to receive his body, and a public ceremony was prevented. His body was buried on Tuesday, 23 Dey 1404.
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2015022203226513772, https://x.com/HyrcaniHRM/status/2016294050366640368
-child: false
+source_social_media_link:
+  - "https://x.com/HengawO/status/2015022203226513772, https://x.com/HyrcaniHRM/status/2016294050366640368"
+  - "https://x.com/HengawO/status/2015022203226513772"
+  - "https://x.com/HyrcaniHRM/status/2016294050366640368"
 persian_name: سجاد پورحسنی

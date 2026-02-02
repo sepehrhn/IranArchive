@@ -2,13 +2,16 @@
 # Victim Documentation - Omid Rostami
 # ==========================================
 
-photo: vic-2026-001180.jpg
+photo:
+  - "vic-2026-001180.jpg"
+  - "vic-2026-b5ef70afea29.jpg"
+  - "vic-2026-4148476d65a6.jpg"
 name: Omid Rostami
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 42
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,6 +27,9 @@ description: |-
 
   Died in Tehran Treasury during protests in Dey 1404 (late Dec 2025 - Jan 2026).
 source_type: Social Media
-source_social_media_link: https://x.com/mobarez_nastooh/status/2014476490289660173, https://t.me/RememberTheirNames/931
-child: false
+source_social_media_link:
+  - "https://x.com/mobarez_nastooh/status/2014476490289660173, https://t.me/RememberTheirNames/931"
+  - "https://x.com/iranwire/status/2017984978710122948"
+  - "https://x.com/banafshehviola/status/2012600338701045873"
+  - "https://x.com/isamanyasin/status/2015495110700806616"
 persian_name: امید رستمی

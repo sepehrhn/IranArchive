@@ -2,7 +2,11 @@
 # Victim Documentation - Zohair Amirkhani
 # ==========================================
 
-photo: vic-2026-001813.jpg
+photo:
+  - "vic-2026-001813.jpg"
+  - "vic-2026-3a5aef84722f.jpg"
+  - "vic-2026-ab9b409d706d.jpg"
+  - "vic-2026-40953c486160.jpg"
 name: Zohair Amirkhani
 birth_date: ""
 birth_province: ""
@@ -23,6 +27,9 @@ description: |-
 
   Was filming protests and was targeted by direct gunfire from security forces.
 source_type: Social Media
-source_social_media_link: https://x.com/kurdpa_farsi/status/2015898837898981682, https://t.me/RememberTheirNames/840
-child: false
+source_social_media_link:
+  - "https://x.com/kurdpa_farsi/status/2015898837898981682, https://t.me/RememberTheirNames/840"
+  - "https://x.com/kurdpa_farsi/status/2015898837898981682"
+  - "https://x.com/hekasrehcrisis/status/2017458802212118949"
+  - "https://x.com/Persian_picture/status/2017916073358610738"
 persian_name: زهیر امیرخانی

@@ -2,25 +2,25 @@
 # Victim Documentation - Boy
 # ==========================================
 
-photo: vic-2026-001395.jpg
+photo:
+  - vic-2026-001395.jpg
 name: Boy
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: 14
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Kahrizak
-incident_address: ''
-date_of_death: '2025-12-28'
+incident_address: ""
+date_of_death: "2025-12-28"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |
   A 12-15 year old boy was shot in the head from behind, resulting in a shattered skull.
 source_type: Social Media
 source_social_media_link:
   - https://x.com/monfaredashkan/status/2012986994255913004
-child: true

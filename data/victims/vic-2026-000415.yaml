@@ -2,7 +2,9 @@
 # Victim Documentation - Pouya Jafari Lapouei
 # ==========================================
 
-photo: vic-2026-000415.jpg
+photo:
+  - "vic-2026-000415.jpg"
+  - "vic-2026-57e80bd7f05d.jpg"
 name: Pouya Jafari Lapouei
 birth_date: ""
 birth_province: ""
@@ -25,4 +27,3 @@ description: |-
   Shot in the head with live ammunition by mercenaries of the Islamic Republic. He was a minor.
 source_type: Social Media
 source_social_media_link: https://x.com/pouriazeraati/status/2015008664902320465
-child: true

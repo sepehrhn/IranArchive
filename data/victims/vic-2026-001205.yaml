@@ -2,7 +2,9 @@
 # Victim Documentation - Saeed Saeedparvar
 # ==========================================
 
-photo: vic-2026-001205.jpg
+photo:
+  - "vic-2026-001205.jpg"
+  - "vic-2026-82b5652c1336.jpg"
 name: Saeed Saeedparvar
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Killed by Islamic Republic of Iran's repressive forces during protests
 source_type: Social Media
-source_social_media_link: https://x.com/sinayousefilaw/status/2012894719966142966, https://x.com/antonstruve/status/2012938626485694576, https://x.com/iranwire/status/2012935914322858272
-child: false
+source_social_media_link:
+  - "https://x.com/sinayousefilaw/status/2012894719966142966, https://x.com/antonstruve/status/2012938626485694576, https://x.com/iranwire/status/2012935914322858272"
+  - "https://x.com/antonstruve/status/2012938626485694576"
 persian_name: سعید سعیدپرور

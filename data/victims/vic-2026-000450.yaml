@@ -2,7 +2,9 @@
 # Victim Documentation - Soheil (Yasin) Almasi
 # ==========================================
 
-photo: vic-2026-000450.jpg
+photo:
+  - "vic-2026-000450.jpg"
+  - "vic-2026-e3b50fbd1def.jpg"
 name: Soheil (Yasin) Almasi
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,8 @@ description: |-
 
   Killed by government forces' bullet during popular protests.
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2014707191811604616, https://x.com/ManotoNews/status/2014707191811604616
-child: true
+source_social_media_link:
+  - "https://x.com/manotonews/status/2014707191811604616, https://x.com/ManotoNews/status/2014707191811604616"
+  - "https://x.com/manotonews/status/2014707191811604616"
+  - "https://x.com/ManotoNews/status/2014707191811604616"
 persian_name: سهیل(یاسین) الماسی

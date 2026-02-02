@@ -2,19 +2,22 @@
 # Victim Documentation - Amir Ahmadi
 # ==========================================
 
-photo: vic-2026-000931.jpg
+photo:
+  - "vic-2026-000931.jpg"
+  - "vic-2026-126e0ea807fc.jpg"
+  - "vic-2026-c761c407a7a3.jpg"
 name: Amir Ahmadi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: 41
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Tehran
 incident_address: Tehranpars
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +25,6 @@ description: |
   Killed by Islamic Republic security forces during suppression of popular protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/allahbakhshii/status/2013945639512478113
-child: false
+  - "https://x.com/allahbakhshii/status/2013945639512478113"
+  - "https://x.com/HengawO/status/2014294428643389752"
+  - "https://x.com/foreverybd/status/2013947133762609577"

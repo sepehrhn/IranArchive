@@ -2,7 +2,8 @@
 # Victim Documentation - Abbas Goudarzi Darreshouri
 # ==========================================
 
-photo: vic-2026-001626.jpg
+photo:
+  - vic-2026-001626.jpg
 name: Abbas Goudarzi Darreshouri
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Shot directly by government forces during public protests.
 source_type: Social Media
 source_social_media_link: https://x.com/manotonews/status/2014518447858696234, https://x.com/ManotoNews/status/2014518447858696234
-child: false
 persian_name: عباس گودرزی دره شوری

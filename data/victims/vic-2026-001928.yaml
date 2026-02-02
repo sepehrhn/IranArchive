@@ -2,13 +2,19 @@
 # Victim Documentation - Hadi Faghani
 # ==========================================
 
-photo: vic-2026-001928.jpg
+photo:
+  - "vic-2026-001928.jpg"
+  - "vic-2026-6076ce6bfde3.jpg"
+  - "vic-2026-fd7219a2ab62.jpg"
+  - "vic-2026-2139895.jpg"
+  - "vic-2026-82967058543a.jpg"
+  - "vic-2026-ba1fd68d02d0.png"
 name: Hadi Faghani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 40
 occupation: ""
 country: Iran
 incident_province: ""
@@ -25,6 +31,11 @@ description: |-
 
   Shot directly by a sniper from the Islamic Republic of Iran's forces. The incident occurred on the first night of protest calls, near the first station of Ghal'eh Hassan. He was reportedly going to a shop to buy something and was targeted because he was wearing a mask. He was hit by a bullet and died at the scene. He was a worker and had a young child.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1271, https://x.com/hyrcanihrm/status/2016309332854427843, https://x.com/HyrcaniHRM/status/2016309332854427843
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1271, https://x.com/hyrcanihrm/status/2016309332854427843, https://x.com/HyrcaniHRM/status/2016309332854427843"
+  - "https://x.com/hyrcanihrm/status/2016309332854427843"
+  - "https://x.com/HyrcaniHRM/status/2016309332854427843"
+  - "https://x.com/iranintlbrk/status/2015812585472340478"
+  - "https://x.com/hengawo/status/2013911264154546507"
+  - "https://x.com/HengawO/status/2013911264154546507"
 persian_name: هادی فغانی

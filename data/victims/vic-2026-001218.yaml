@@ -2,7 +2,8 @@
 # Victim Documentation - Sedigheh Dabiri Abkenari
 # ==========================================
 
-photo: ""
+photo:
+  - ""
 name: Sedigheh Dabiri Abkenari
 birth_date: ""
 birth_province: ""
@@ -21,6 +22,7 @@ status: Killed
 description: |
   Killed by suppression forces during protests
 source_type: Social Media
-source_social_media_link: https://x.com/alitagh30207454/status/2014343517418508290
-child: true
+source_social_media_link:
+  - "https://x.com/alitagh30207454/status/2014343517418508290"
+  - "https://x.com/AliTagh30207454/status/2014342626288325013"
 persian_name: صدیقه دبیری آبکناری

@@ -2,7 +2,8 @@
 # Victim Documentation - Hassan Mazloumi
 # ==========================================
 
-photo: vic-2026-001698.jpg
+photo:
+  - vic-2026-001698.jpg
 name: Hassan Mazloumi
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1370
-child: false
 persian_name: حسن مظلومی

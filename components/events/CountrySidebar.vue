@@ -15,6 +15,8 @@ const emit = defineEmits<{
 
 const { getAllCountries, getCountryFlagUrl } = useCountries();
 
+const { t } = useI18n();
+
 const countriesWithEvents = computed(() => {
     if (!props.events) return [];
 
@@ -35,10 +37,12 @@ const countriesWithEvents = computed(() => {
     // Map to country details with counts
     const countries = Array.from(countryMap.entries())
         .map(([iso2, count]) => {
-            const country = getAllCountries.value.find(c => c.iso2 === iso2);
+            const countryEntry = getAllCountries.value.find(c => c.iso2 === iso2);
+            // Use i18n name if available, fallback to data name or ISO
+            const name = t(`countries.${iso2}`, countryEntry?.name || iso2);
             return {
                 iso2,
-                name: country?.name || iso2,
+                name,
                 count
             };
         })
@@ -77,7 +81,7 @@ const countriesWithEvents = computed(() => {
                     </span>
                 </div>
                 <Badge 
-                    :value="country.count" 
+                    :value="$nFa(country.count)" 
                     :severity="selectedCountry === country.iso2 ? 'primary' : 'secondary'"
                     class="!text-[10px] !font-bold !px-1.5 !py-0.5 !min-w-[1.5rem] !rounded-md"
                 />

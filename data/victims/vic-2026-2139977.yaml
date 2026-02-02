@@ -2,7 +2,9 @@
 # Victim Documentation - Mohsen Darbandi
 # ==========================================
 
-photo: vic-2026-2139977.jpg
+photo:
+  - "vic-2026-2139977.jpg"
+  - "vic-2026-8fcac2ff568b.jpg"
 name: Mohsen Darbandi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot and killed by 'mercenaries of the Islamic Republic' on 18 Dey. His family was forced to sign a statement claiming he was a Basiji. The tweet asks people to be his voice.
+description: Shot and killed by 'mercenaries of the Islamic Republic' on 18 Dey. His family was forced to sign a statement claiming he was a Basiji. The tweet asks people to be his voice.
 source_type: Social Media
 source_social_media_link: https://x.com/Sashtyani/status/2016204492476174371
-child: false
 persian_name: محسن دربندی

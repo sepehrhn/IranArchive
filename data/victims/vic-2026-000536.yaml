@@ -2,7 +2,9 @@
 # Victim Documentation - Amir-Abbas Amini
 # ==========================================
 
-photo: vic-2026-000536.jpg
+photo:
+  - "vic-2026-000536.jpg"
+  - "vic-2026-f6447cc655d0.jpg"
 name: Amir-Abbas Amini
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,8 @@ description: |-
 
   Identified as a son, died in Saveh in Dey 1404 (late Dec 2025 - Jan 2026). The specific date is inferred from the post number 867 and the typical posting frequency of the channel, suggesting a date around January 10th, 2026.
 source_type: Social Media
-source_social_media_link: https://x.com/farangissbayat/status/2014721127541551213, https://x.com/esmaeils1169/status/2014718346575421539, https://x.com/noamagid/status/2015058415031132521
-child: true
+source_social_media_link:
+  - "https://x.com/farangissbayat/status/2014721127541551213, https://x.com/esmaeils1169/status/2014718346575421539, https://x.com/noamagid/status/2015058415031132521"
+  - "https://x.com/farangissbayat/status/2014721127541551213"
+  - "https://x.com/esmaeils1169/status/2014718346575421539"
 persian_name: امیر عباس امینی

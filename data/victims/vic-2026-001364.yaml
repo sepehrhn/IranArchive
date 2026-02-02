@@ -2,7 +2,8 @@
 # Victim Documentation - Mehdi Akbari Jamalouei
 # ==========================================
 
-photo: vic-2026-001364.jpg
+photo:
+  - vic-2026-001364.jpg
 name: Mehdi Akbari Jamalouei
 birth_date: ""
 birth_province: ""
@@ -23,6 +24,7 @@ description: |
 
   Shot in the chest during protests. His body was handed over on the condition that no public ceremony be held and no banners be installed. Buried in Firoozabad cemetery.
 source_type: Social Media
-source_social_media_link: https://x.com/shimababaeii/status/2015515852427141278, https://x.com/hirman__/status/2014901342939021500, https://t.me/RememberTheirNames/327
-child: false
+source_social_media_link:
+  - "https://x.com/shimababaeii/status/2015515852427141278, https://x.com/hirman__/status/2014901342939021500, https://t.me/RememberTheirNames/327"
+  - "https://x.com/hirman__/status/2014901342939021500, https://x.com/shimababaeii/status/2015515852427141278, https://t.me/RememberTheirNames/327"
 persian_name: مهدی اکبری جمالویی

@@ -2,7 +2,9 @@
 # Victim Documentation - Mojtaba Rokhbakhsh
 # ==========================================
 
-photo: vic-2026-000390.jpg
+photo:
+  - "vic-2026-000390.jpg"
+  - "vic-2026-3fa803334cfe.jpg"
 name: Mojtaba Rokhbakhsh
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,8 @@ description: |-
 
   Killed. In his last Instagram story, he wrote: 'If my body is returned, sing 'kel' for me.'
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2014899050118848669, https://x.com/monfaredashkan/status/2014915272705241147, https://x.com/MonfaredAshkan/status/2014899050118848669, https://x.com/MonfaredAshkan/status/2014915272705241147
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2014899050118848669, https://x.com/monfaredashkan/status/2014915272705241147, https://x.com/MonfaredAshkan/status/2014899050118848669, https://x.com/MonfaredAshkan/status/2014915272705241147"
+  - "https://x.com/monfaredashkan/status/2014899050118848669"
+  - "https://x.com/MonfaredAshkan/status/2014899050118848669"
 persian_name: مجتبی‌ رخ‌بخش

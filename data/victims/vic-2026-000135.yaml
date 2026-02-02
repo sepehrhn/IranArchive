@@ -2,7 +2,8 @@
 # Victim Documentation - Dr. Mahsa Dezfulian Kermanshahi
 # ==========================================
 
-photo: vic-2026-000135.jpg
+photo:
+  - vic-2026-000135.jpg
 name: Dr. Mahsa Dezfulian Kermanshahi
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Killed by direct shooting from the Islamic Republic's mercenaries during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/esmaeils1169/status/2014610556930445577
-child: false
 persian_name: دکتر مهسا دزفولیان کرمانشاهی

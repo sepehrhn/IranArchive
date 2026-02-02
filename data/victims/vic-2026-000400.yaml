@@ -2,7 +2,11 @@
 # Victim Documentation - Navid Alemchehreh
 # ==========================================
 
-photo: vic-2026-000400.jpg
+photo:
+  - "vic-2026-000400.jpg"
+  - "vic-2026-915f01844888.jpg"
+  - "vic-2026-70d83288581a.jpg"
+  - "vic-2026-6873b3fa5477.jpg"
 name: Navid Alemchehreh
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,8 @@ status: Killed
 description: |
   Shot directly by government forces during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2012880153089904832, https://x.com/allahbakhshii/status/2013705384385540226, https://t.me/RememberTheirNames/283
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2012880153089904832, https://x.com/allahbakhshii/status/2013705384385540226, https://t.me/RememberTheirNames/283"
+  - "https://x.com/manotonews/status/2012880153089904832"
+  - "https://x.com/allahbakhshii/status/2013705384385540226"
 persian_name: نوید عالم‌چهره

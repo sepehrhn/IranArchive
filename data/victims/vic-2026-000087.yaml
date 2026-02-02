@@ -2,7 +2,10 @@
 # Victim Documentation - Yaghoub Dalir
 # ==========================================
 
-photo: vic-2026-000087.jpg
+photo:
+  - "vic-2026-000087.jpg"
+  - "vic-2026-5d977be71c89.png"
+  - "vic-2026-776bfec72721.jpg"
 name: Yaghoub Dalir
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,9 @@ description: |-
 
   Shot at least twice during protests on January 8, 2026, and died two weeks later on January 23, 2026. He was the father of a daughter named Yalda.
 source_type: Social Media
-source_social_media_link: https://x.com/pkhwshhal/status/2014791940521202151, https://x.com/pkhwshhal/status/2015089069697458179, https://x.com/pkhwshhal/status/2015000234166726866, https://t.me/RememberTheirNames/917
-child: false
+source_social_media_link:
+  - "https://x.com/pkhwshhal/status/2014791940521202151, https://x.com/pkhwshhal/status/2015089069697458179, https://x.com/pkhwshhal/status/2015000234166726866, https://t.me/RememberTheirNames/917"
+  - "https://x.com/pkhwshhal/status/2015000234166726866"
+  - "https://x.com/pkhwshhal/status/2014791940521202151"
+  - "https://x.com/pkhwshhal/status/2015089069697458179"
 persian_name: یعقوب دلیر

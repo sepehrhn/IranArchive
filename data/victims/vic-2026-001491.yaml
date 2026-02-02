@@ -2,24 +2,25 @@
 # Victim Documentation - Siavash Mansouri Nejad
 # ==========================================
 
-photo: vic-2026-001491.jpeg
+photo:
+  - "vic-2026-001491.jpeg"
+  - "vic-2026-761a7eb1c85d.jpg"
 name: Siavash Mansouri Nejad
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-age: null
+age: 30
 occupation: پیک‌موتوری
 country: Iran
 incident_province: Alborz
 incident_city: Karaj
-incident_address: ''
-date_of_death: '2026-01-10'
+incident_address: ""
+date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: ''
+description: ""
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

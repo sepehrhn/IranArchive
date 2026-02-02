@@ -2,13 +2,17 @@
 # Victim Documentation - Sepehr Esmaili
 # ==========================================
 
-photo: vic-2026-2140009.jpg
+photo:
+  - "vic-2026-2140009.jpg"
+  - "vic-2026-25deb09da738.jpg"
+  - "vic-2026-37367814dde5.png"
+  - "vic-2026-619fed176711.jpg"
 name: Sepehr Esmaili
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 24
 occupation: ""
 country: Iran
 incident_province: ""
@@ -18,9 +22,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Death in Kish during protests
+description: Death in Kish during protests
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1598
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1598"
+  - "https://x.com/artahermes/status/2017130307736998216"
 persian_name: سپهر اسماعیلی

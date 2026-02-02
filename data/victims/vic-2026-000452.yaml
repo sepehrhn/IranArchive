@@ -2,7 +2,10 @@
 # Victim Documentation - Soroush Moghaddam
 # ==========================================
 
-photo: vic-2026-000452.jpg
+photo:
+  - "vic-2026-000452.jpg"
+  - "vic-2026-471f1e8f2885.jpg"
+  - "vic-2026-f7f9e65b9fa9.jpg"
 name: Soroush Moghaddam
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Shot and killed. His body was discovered by his family five days later.
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2014915272705241147, https://x.com/MonfaredAshkan/status/2014915272705241147, https://x.com/MonfaredAshkan/status/2014941515811062053
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2014915272705241147, https://x.com/MonfaredAshkan/status/2014915272705241147, https://x.com/MonfaredAshkan/status/2014941515811062053"
+  - "https://x.com/monfaredashkan/status/2014915272705241147"
+  - "https://x.com/MonfaredAshkan/status/2014915272705241147"
 persian_name: سروش مقدم

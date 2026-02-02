@@ -2,7 +2,8 @@
 # Victim Documentation - Behzad Azizi
 # ==========================================
 
-photo: vic-2026-001569.jpg
+photo:
+  - vic-2026-001569.jpg
 name: Behzad Azizi
 birth_date: ""
 birth_province: ""
@@ -23,6 +24,7 @@ description: |-
 
   Mentioned in a list of names with a date and location, likely a victim.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1330
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1330"
+  - "https://x.com/i/status/2017008072363786279"
 persian_name: بهزاد عزیزی

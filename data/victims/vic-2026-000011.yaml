@@ -2,23 +2,26 @@
 # Victim Documentation - Peyvand Naeimi
 # ==========================================
 
-photo: vic-2026-000011.jpeg
+photo:
+  - "vic-2026-000011.jpeg"
+  - "vic-2026-11402e13007a.jpg"
+  - "vic-2026-b2a17c43618b.jpg"
 name: Peyvand Naeimi
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 occupation: Dog trainer
 country: Iran
 incident_province: Kerman
 incident_city: Kerman
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 disappearance_circumstances: Arrested and transferred to unknown location
 suspected_actor: Other
-status: Missing
+status: "Missing"
 description: |
   Peyvand Naeimi, a Bahá’í citizen and dog trainer living in Kerman, was reported arrested on 2026/01/07 at around 14:00 at his workplace by agents of Iran’s Ministry of Intelligence and transferred to an undisclosed location.
 
@@ -27,5 +30,6 @@ description: |
   # -----------------------------------------------------------------------------
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/azizamtara/status/2014374387617612126?s=20
-child: false
+  - "https://x.com/azizamtara/status/2014374387617612126?s=20"
+  - "https://x.com/kian_sabeti/status/2014504180258599094"
+  - "https://x.com/HengawO/status/2014361086309347376"

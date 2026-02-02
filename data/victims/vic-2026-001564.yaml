@@ -2,7 +2,9 @@
 # Victim Documentation - Amirmehdi Razgardani
 # ==========================================
 
-photo: vic-2026-001564.jpg
+photo:
+  - "vic-2026-001564.jpg"
+  - "vic-2026-a26b3d3c26cb.jpg"
 name: Amirmehdi Razgardani
 birth_date: ""
 birth_province: ""
@@ -24,5 +26,4 @@ description: |-
   Shot by security forces during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/saeidvafa/status/2015446328243785797
-child: false
 persian_name: امیرمهدی رازگردانی

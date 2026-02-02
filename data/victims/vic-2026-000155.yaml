@@ -2,7 +2,11 @@
 # Victim Documentation - Hossein Dadashzadeh
 # ==========================================
 
-photo: vic-2026-000155.jpg
+photo:
+  - "vic-2026-000155.jpg"
+  - "vic-2026-730284e363c7.jpg"
+  - "vic-2026-b973dc5bec48.jpg"
+  - "vic-2026-465b60c1c972.jpg"
 name: Hossein Dadashzadeh
 birth_date: ""
 birth_province: ""
@@ -22,5 +26,4 @@ description: |
   Killed during protests
 source_type: Social Media
 source_social_media_link: https://x.com/mamlekate/status/2014112939272183846
-child: false
 persian_name: حسین داداش زاده

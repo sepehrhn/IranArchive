@@ -2,7 +2,10 @@
 # Victim Documentation - Mahin Marhamati
 # ==========================================
 
-photo: vic-2026-001299.jpg
+photo:
+  - "vic-2026-001299.jpg"
+  - "vic-2026-47c52193b888.webp"
+  - "vic-2026-948fe2d60f78.jpg"
 name: Mahin Marhamati
 birth_date: ""
 birth_province: ""
@@ -26,6 +29,8 @@ description: |-
 
   Student killed by live ammunition fired by security forces during recent protests in Tehran. Her body was transported approximately 800 km to her family's hometown in Khurtut village, North Khorasan province, for burial under unusual circumstances with restrictions.
 source_type: Social Media
-source_social_media_link: https://www.instagram.com/p/DT6cu2YDp8V, https://x.com/Bestynisha/status/2014792212387656033, https://t.me/RememberTheirNames/900
-child: false
+source_social_media_link:
+  - "https://www.instagram.com/p/DT6cu2YDp8V, https://x.com/Bestynisha/status/2014792212387656033, https://t.me/RememberTheirNames/900"
+  - "https://www.instagram.com/p/DT6cu2YDp8V"
+  - "https://x.com/Bestynisha/status/2014792212387656033"
 persian_name: مهین مرحمتی

@@ -2,7 +2,12 @@
 # Victim Documentation - Hamidreza Mohammadtaheri
 # ==========================================
 
-photo: vic-2026-2140119.jpg
+photo:
+  - "vic-2026-2140119.jpg"
+  - "vic-2026-65a1ec565fae.jpg"
+  - "vic-2026-733dd319967e.jpg"
+  - "vic-2026-33b71032f211.jpg"
+  - "vic-2026-2e56edb12cfb.png"
 name: Hamidreza Mohammadtaheri
 birth_date: ""
 birth_province: ""
@@ -18,9 +23,10 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot and killed after five days, described as someone who overcame his fears and was full of life, with people waiting for his freedom until the last moment
+description: Shot and killed after five days, described as someone who overcame his fears and was full of life, with people waiting for his freedom until the last moment
 source_type: Social Media
-source_social_media_link: https://x.com/felinaflan/status/2016268721258459429, https://x.com/Felinaflan/status/2016268721258459429
-child: false
+source_social_media_link:
+  - "https://x.com/felinaflan/status/2016268721258459429, https://x.com/Felinaflan/status/2016268721258459429"
+  - "https://x.com/felinaflan/status/2016268721258459429"
+  - "https://x.com/Felinaflan/status/2016268721258459429"
 persian_name: حمیدرضا محمدطاهری

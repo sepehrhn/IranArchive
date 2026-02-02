@@ -2,7 +2,12 @@
 # Victim Documentation - Misagh Alidoost
 # ==========================================
 
-photo: vic-2026-000700.jpg
+photo:
+  - "vic-2026-000700.jpg"
+  - "vic-2026-02fe45b2f1cf.jpg"
+  - "vic-2026-3f96a78ba065.jpg"
+  - "vic-2026-486549a7fd0d.jpg"
+  - "vic-2026-16a37ded321c.jpg"
 name: Misagh Alidoost
 birth_date: ""
 birth_province: ""
@@ -24,6 +29,9 @@ description: |-
 
   Shot by Basij forces affiliated with the Islamic Republic of Iran regime.
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2014099074341822774, https://x.com/iranwire/status/2014647305660486124, https://www.instagram.com/p/DTygBymDItr, https://x.com/ManotoNews/status/2015071087877640273, https://x.com/pkhwshhal/status/2015034103247040698, https://t.me/RememberTheirNames/574
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2014099074341822774, https://x.com/iranwire/status/2014647305660486124, https://www.instagram.com/p/DTygBymDItr, https://x.com/ManotoNews/status/2015071087877640273, https://x.com/pkhwshhal/status/2015034103247040698, https://t.me/RememberTheirNames/574"
+  - "https://x.com/iranwire/status/2014647305660486124"
+  - "https://www.instagram.com/p/DTygBymDItr"
+  - "https://x.com/ManotoNews/status/2015071087877640273"
 persian_name: میثاق علیدوست

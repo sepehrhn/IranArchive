@@ -2,7 +2,8 @@
 # Victim Documentation - Behzad Abbasi
 # ==========================================
 
-photo: vic-2026-001910.jpg
+photo:
+  - vic-2026-001910.jpg
 name: Behzad Abbasi
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/613
-child: false
 persian_name: بهزاد عباسی

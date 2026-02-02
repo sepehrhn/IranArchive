@@ -2,7 +2,9 @@
 # Victim Documentation - Naser Ziyaei Pour
 # ==========================================
 
-photo: vic-2026-2139820.jpg
+photo:
+  - "vic-2026-2139820.jpg"
+  - "vic-2026-6bc779417692.jpg"
 name: Naser Ziyaei Pour
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot in the head during Friday night clashes on Ahmad Abad street in Mashhad. His body was found by his family at Behesht Reza morgue several days later.
+description: Shot in the head during Friday night clashes on Ahmad Abad street in Mashhad. His body was found by his family at Behesht Reza morgue several days later.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2016717146655461659
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2016717146655461659"
+  - "https://x.com/HeKasrehCrisis/status/2016717146655461659"
 persian_name: ناصر ضیایی‌پور

@@ -2,7 +2,9 @@
 # Victim Documentation - Majid Siasi
 # ==========================================
 
-photo: vic-2026-001252.jpg
+photo:
+  - "vic-2026-001252.jpg"
+  - "vic-2026-4206d8ceb5fa.jpg"
 name: Majid Siasi
 birth_date: ""
 birth_province: ""
@@ -26,6 +28,7 @@ description: |-
 
   Shot directly by security forces in Bozorgmehr Street, injured, and died after being transferred to the hospital. His body was handed over and buried after four days among a large number of bodies from Bagh-e-Rizwan.
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2015165986270314500, https://x.com/HengawO/status/2015165986270314500
-child: false
+source_social_media_link:
+  - "https://x.com/hengawo/status/2015165986270314500, https://x.com/HengawO/status/2015165986270314500"
+  - "https://x.com/HengawO/status/2015165986270314500"
 persian_name: مجید سیاسی

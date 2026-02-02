@@ -2,7 +2,9 @@
 # Victim Documentation - Akbar Cheraghi
 # ==========================================
 
-photo: vic-2026-2139848.jpg
+photo:
+  - "vic-2026-2139848.jpg"
+  - "vic-2026-f906d7d5cc7b.jpg"
 name: Akbar Cheraghi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Was deaf and on the autism spectrum
+description: Was deaf and on the autism spectrum
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1545
-child: false
 persian_name: اکبر چراغی

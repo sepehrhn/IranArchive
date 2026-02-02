@@ -2,7 +2,10 @@
 # Victim Documentation - Nazanin
 # ==========================================
 
-photo: vic-2026-2140149.jpg
+photo:
+  - "vic-2026-2140149.jpg"
+  - "vic-2026-5bf439ae9266.jpg"
+  - "vic-2026-0532e28f1e62.jpg"
 name: Nazanin
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Described as 'our future', killed by the Islamic Republic.
+description: Described as 'our future', killed by the Islamic Republic.
 source_type: Social Media
 source_social_media_link: https://x.com/mojtabapacino/status/2016080496027906431
-child: true
 persian_name: نازنین

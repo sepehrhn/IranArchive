@@ -2,7 +2,12 @@
 # Victim Documentation - Mina Amirzadeh
 # ==========================================
 
-photo: vic-2026-2139744.jpg
+photo:
+  - "vic-2026-2139744.jpg"
+  - "vic-2026-70f2aaf1ce3e.jpg"
+  - "vic-2026-8569fef0c770.jpg"
+  - "vic-2026-664d5e9c5120.jpg"
+  - "vic-2026-ce4bcd36421d.jpg"
 name: Mina Amirzadeh
 birth_date: ""
 birth_province: ""
@@ -18,9 +23,10 @@ date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot with a war bullet in the neck while riding on the back of her father's motorcycle on Friday, 19 Dey. After being shot, she fell off the motorcycle and tried to call out to her father but could not speak due to her throat wound. She died in her father's arms. Her body was later found in Kahrizak.
+description: Shot with a war bullet in the neck while riding on the back of her father's motorcycle on Friday, 19 Dey. After being shot, she fell off the motorcycle and tried to call out to her father but could not speak due to her throat wound. She died in her father's arms. Her body was later found in Kahrizak.
 source_type: Social Media
-source_social_media_link: https://x.com/5ogand/status/2016632640691196110
-child: false
+source_social_media_link:
+  - "https://x.com/5ogand/status/2016632640691196110"
+  - "https://x.com/autnews_org/status/2017595718840582285"
+  - "https://x.com/noamagid/status/2016940795454947553"
 persian_name: مینا امیرزاده

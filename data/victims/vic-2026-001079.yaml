@@ -2,7 +2,11 @@
 # Victim Documentation - Farhad Pourkaveh
 # ==========================================
 
-photo: vic-2026-001079.jpg
+photo:
+  - "vic-2026-001079.jpg"
+  - "vic-2026-eefbff158c86.jpg"
+  - "vic-2026-924e5c7dc69b.jpg"
+  - "vic-2026-2920dbeb3a69.jpg"
 name: Farhad Pourkaveh
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,8 @@ description: |-
 
   Father of two children, got into physical confrontation with mercenaries on Elfat Street in Baharestan, Isfahan. Shot at close range, hands and legs broken. Transferred to hospital where he was killed with a final shot.
 source_type: Social Media
-source_social_media_link: https://x.com/mahistan/status/2012700156978713054, https://x.com/Sashtyani/status/2015771642798932435
-child: false
+source_social_media_link:
+  - "https://x.com/mahistan/status/2012700156978713054, https://x.com/Sashtyani/status/2015771642798932435"
+  - "https://x.com/mahistan/status/2012700156978713054"
+  - "https://x.com/Sashtyani/status/2015771642798932435"
 persian_name: فرهاد پورکاوه

@@ -30,12 +30,20 @@ const baseIncidents = computed(() => {
 const searchQuery = ref('');
 const selectedStatus = ref();
 const showSubmitDialog = ref(false);
+const loading = ref(true);
 
-const statusOptions = [
-    { label: 'Not Verified', value: 'not_verified' },
-    { label: 'Disputed', value: 'disputed' },
-    { label: 'Verified', value: 'verified' }
-];
+onMounted(() => {
+    // Glob imports are immediate, but we simulate a short delay for consistent UX
+    setTimeout(() => {
+        loading.value = false;
+    }, 400);
+});
+
+const statusOptions = computed(() => [
+    { label: t('status.not_verified'), value: 'not_verified' },
+    { label: t('status.disputed'), value: 'disputed' },
+    { label: t('status.verified'), value: 'verified' }
+]);
 
 const filteredIncidents = computed(() => {
     return baseIncidents.value.filter(incident => {
@@ -68,26 +76,28 @@ const clearFilters = () => {
             <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
                 <div>
                     <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">{{ t('common.incidents') }}</h1>
-                    <p class="text-surface-500 dark:text-surface-400 mt-1">
-                        {{ filteredIncidents.length }} records found
+                    <p class="text-surface-500 dark:text-surface-400 mt-1 flex items-center gap-2">
+                        <Skeleton v-if="loading" width="8rem" height="1.25rem" />
+                        <span v-else>{{ t('incidentsPage.recordsFound', { count: $nFa(filteredIncidents.length) }) }}</span>
                     </p>
                 </div>
+
                 <div>
-                    <Button label="Submit Incident" icon="pi pi-plus" size="small" @click="showSubmitDialog = true" class="hidden md:flex" />
+                    <Button :label="t('incidentsPage.submit')" icon="pi pi-plus" size="small" @click="showSubmitDialog = true" class="hidden md:flex" />
                 </div>
             </div>
         </div>
 
         <!-- Controls Toolbar -->
-        <div class="sticky-trigger flex flex-col lg:flex-row gap-4 justify-between items-center bg-surface-0/95 dark:bg-surface-900/95 p-4 rounded-xl border border-surface-200 dark:border-surface-800 shadow-md mb-8 sticky top-0 z-40 backdrop-blur-md">
+        <div class="sticky-trigger flex flex-col lg:flex-row gap-4 justify-between items-center bg-surface-0/95 dark:bg-surface-900/95 p-4 rounded-xl border border-surface-200 dark:border-surface-800 shadow-md mb-8 sticky top-16 z-40 backdrop-blur-md">
             <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0 flex-grow">
                 <IconField iconPosition="left" class="w-full sm:w-96">
                     <InputIcon class="pi pi-search" />
-                    <InputText v-model="searchQuery" placeholder="Search incidents..." class="w-full" />
+                    <InputText v-model="searchQuery" :placeholder="t('incidentsPage.searchPlaceholder')" class="w-full" />
                 </IconField>
             </div>
             <div class="flex flex-wrap items-center gap-4 w-full lg:w-auto justify-between lg:justify-end">
-                <Dropdown v-model="selectedStatus" :options="statusOptions" optionLabel="label" optionValue="value" placeholder="Filter by Status" class="w-full sm:w-48" showClear />
+                <Dropdown v-model="selectedStatus" :options="statusOptions" optionLabel="label" optionValue="value" :placeholder="t('incidentsPage.filterStatus')" class="w-full sm:w-48" showClear />
             </div>
         </div>
 
@@ -117,18 +127,18 @@ const clearFilters = () => {
             <div class="w-16 h-16 bg-surface-100 dark:bg-surface-800 rounded-full flex items-center justify-center mb-4">
                 <i class="pi pi-search text-2xl text-surface-400"></i>
             </div>
-            <h3 class="text-lg font-semibold text-surface-900 dark:text-surface-0 mb-2">No incidents found</h3>
+            <h3 class="text-lg font-semibold text-surface-900 dark:text-surface-0 mb-2">{{ t('incidentsPage.emptyTitle') }}</h3>
             <p class="text-surface-500 dark:text-surface-400 max-w-sm mx-auto mb-6">
-                We couldn't find any incidents matching your search criteria. Try adjusting your filters.
+                {{ t('incidentsPage.emptyDescription') }}
             </p>
-            <Button label="Clear Filters" outlined @click="clearFilters" />
+            <Button :label="t('incidentsPage.clearFilters')" outlined @click="clearFilters" />
         </div>
 
         <!-- Submit Incident Dialog -->
         <Dialog 
             v-model:visible="showSubmitDialog" 
             modal 
-            header="Submit an Incident" 
+            :header="t('incidentsPage.dialogTitle')" 
             :style="{ width: '90vw', maxWidth: '1000px' }"
             :draggable="false"
             class="submission-dialog"

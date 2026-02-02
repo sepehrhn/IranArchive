@@ -2,7 +2,16 @@
 # Victim Documentation - Mojtaba Rezvani
 # ==========================================
 
-photo: vic-2026-000389.jpg
+photo:
+  - "vic-2026-000389.jpg"
+  - "vic-2026-223ea437b9fd.jpg"
+  - "vic-2026-f337c2870e4f.jpg"
+  - "vic-2026-e5bf49951dbf.jpg"
+  - "vic-2026-986dc70a3330.png"
+  - "vic-2026-baa29917c42a.png"
+  - "vic-2026-c2e27065306c.png"
+  - "vic-2026-c6637f905de9.png"
+  - "vic-2026-e1fdec4ba346.jpg"
 name: Mojtaba Rezvani
 birth_date: ""
 birth_province: ""
@@ -11,7 +20,7 @@ gender: Male
 age: 24
 occupation: ""
 country: Iran
-incident_province: Behshahr County
+incident_province: ""
 incident_city: Rostamkola
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -24,6 +33,11 @@ description: |-
 
   The user provided a list of names and locations, stating that the number of victims is higher but they do not have names and photos for the others. The context implies these individuals are victims of the protests.
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2015160436099105278, https://x.com/MonfaredAshkan/status/2015160436099105278, https://x.com/MonfaredAshkan/status/2015134352053768572, https://t.me/RememberTheirNames/987, https://x.com/Walterakam/status/2015861105151672344, https://x.com/realneo101/status/2015732127338229913, https://x.com/hekasrehcrisis/status/2016352169033675096
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2015160436099105278, https://x.com/MonfaredAshkan/status/2015160436099105278, https://x.com/MonfaredAshkan/status/2015134352053768572, https://t.me/RememberTheirNames/987, https://x.com/Walterakam/status/2015861105151672344, https://x.com/realneo101/status/2015732127338229913, https://x.com/hekasrehcrisis/status/2016352169033675096"
+  - "https://x.com/realneo101/status/2015732127338229913"
+  - "https://x.com/i/status/2015732127338229913"
+  - "https://x.com/MonfaredAshkan/status/2015134352053768572"
+  - "https://x.com/Walterakam/status/2015861105151672344"
+  - "https://x.com/hekasrehcrisis/status/2016352169033675096"
 persian_name: مجتبی رضوانی

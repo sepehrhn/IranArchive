@@ -2,7 +2,9 @@
 # Victim Documentation - Pouya Norouzi Lor
 # ==========================================
 
-photo: vic-2026-000417.jpg
+photo:
+  - "vic-2026-000417.jpg"
+  - "vic-2026-90e6cbbfd651.jpg"
 name: Pouya Norouzi Lor
 birth_date: ""
 birth_province: ""
@@ -22,5 +24,4 @@ description: |
   Shot directly by security forces
 source_type: Social Media
 source_social_media_link: https://x.com/hirman__/status/2014428246050287918
-child: false
 persian_name: پویا نوروزی لر

@@ -2,7 +2,11 @@
 # Victim Documentation - Saman Delaram
 # ==========================================
 
-photo: vic-2026-000435.jpg
+photo:
+  - "vic-2026-000435.jpg"
+  - "vic-2026-95dadfe465ae.jpg"
+  - "vic-2026-3256c98debc8.jpg"
+  - "vic-2026-6a4aaaacf688.jpg"
 name: Saman Delaram
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,7 @@ status: Killed
 description: |
   Shot with three bullets by Islamic Republic forces during the national revolution
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2013800112783266036, https://x.com/iranintlbrk/status/2015718625890521195, https://x.com/manotonews/status/2016420988968194246, https://t.me/RememberTheirNames/1493
-child: false
+source_social_media_link:
+  - "https://x.com/indypersian/status/2013800112783266036, https://x.com/iranintlbrk/status/2015718625890521195, https://x.com/manotonews/status/2016420988968194246, https://t.me/RememberTheirNames/1493"
+  - "https://x.com/iranintlbrk/status/2015718625890521195"
 persian_name: سامان دل‌آرام

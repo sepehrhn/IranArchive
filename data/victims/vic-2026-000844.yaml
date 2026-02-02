@@ -2,7 +2,10 @@
 # Victim Documentation - Seyyed Ahmad Kazemi
 # ==========================================
 
-photo: vic-2026-000844.jpg
+photo:
+  - "vic-2026-000844.jpg"
+  - "vic-2026-6b5ea6a25f1f.jpg"
+  - "vic-2026-e50ea171194c.jpg"
 name: Seyyed Ahmad Kazemi
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Shot in the side and hand; denied medical treatment for two days, leading to bleeding-related death.
 source_type: Social Media
-source_social_media_link: https://x.com/daikatuo/status/2013910725492609056, https://x.com/maryammoqaddam/status/2014785691369050354, https://x.com/HengawO/status/2013973994119053442, https://t.me/RememberTheirNames/471
-child: false
+source_social_media_link:
+  - "https://x.com/daikatuo/status/2013910725492609056, https://x.com/maryammoqaddam/status/2014785691369050354, https://x.com/HengawO/status/2013973994119053442, https://t.me/RememberTheirNames/471"
+  - "https://x.com/HengawO/status/2013973994119053442"
 persian_name: احمد کاظمی

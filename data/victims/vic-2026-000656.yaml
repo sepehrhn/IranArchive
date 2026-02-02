@@ -2,7 +2,9 @@
 # Victim Documentation - Mahdi (Mohammad Javad) Purkariem
 # ==========================================
 
-photo: vic-2026-000656.jpg
+photo:
+  - "vic-2026-000656.jpg"
+  - "vic-2026-be0ac07168e8.jpg"
 name: Mahdi (Mohammad Javad) Purkariem
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Killed during an attack by Islamic Republic forces on the Panjshanbeh Bazaar in Astaneh-ye Ashrafieh. His body was transferred to Lahijan and buried there.
 source_type: Social Media
-source_social_media_link: https://x.com/pkhwshhal/status/2014514390943269219, https://x.com/hyrcanihrm/status/2015059289891602476, https://x.com/pkhwshhal/status/2015122603980042539
-child: false
+source_social_media_link:
+  - "https://x.com/pkhwshhal/status/2014514390943269219, https://x.com/hyrcanihrm/status/2015059289891602476, https://x.com/pkhwshhal/status/2015122603980042539"
+  - "https://x.com/hyrcanihrm/status/2015059289891602476"
 persian_name: مهدی(محمدجواد) پورکریم

@@ -2,7 +2,10 @@
 # Victim Documentation - Farshid Soltani
 # ==========================================
 
-photo: vic-2026-001082.jpg
+photo:
+  - "vic-2026-001082.jpg"
+  - "vic-2026-ae3c606a735e.jpg"
+  - "vic-2026-38c3db94077c.jpg"
 name: Farshid Soltani
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,7 @@ description: |-
 
   Shot 3 times in the heart. His family is under severe pressure not to speak out.
 source_type: Social Media
-source_social_media_link: https://x.com/pouyajegarvnd/status/2014789636959150348, https://x.com/letmechangee/status/2015839638917648425, https://t.me/RememberTheirNames/1123, https://x.com/realneo101/status/2016176475137769867
-child: false
+source_social_media_link:
+  - "https://x.com/pouyajegarvnd/status/2014789636959150348, https://x.com/letmechangee/status/2015839638917648425, https://t.me/RememberTheirNames/1123, https://x.com/realneo101/status/2016176475137769867"
+  - "https://x.com/realneo101/status/2016176475137769867"
 persian_name: فرشید سلطانی

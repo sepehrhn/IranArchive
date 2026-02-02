@@ -2,7 +2,8 @@
 # Victim Documentation - Armin Teymourirad
 # ==========================================
 
-photo: vic-2026-000255.jpg
+photo:
+  - vic-2026-000255.jpg
 name: Armin Teymourirad
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: 19
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-01"
@@ -22,5 +23,4 @@ description: |
   Killed during popular protests (member of family of three killed)
 source_type: Social Media
 source_social_media_link: https://x.com/tavaana/status/2014260965966295086, https://x.com/hoorieh81/status/2015508771741569138
-child: false
 persian_name: آرمین تیموری‌راد

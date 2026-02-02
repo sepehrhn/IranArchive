@@ -2,7 +2,10 @@
 # Victim Documentation - Ali Nouri
 # ==========================================
 
-photo: vic-2026-000495.jpg
+photo:
+  - "vic-2026-000495.jpg"
+  - "vic-2026-d1e95ce32f70.jpg"
+  - "vic-2026-b6529a4266d0.jpg"
 name: Ali Nouri
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,10 @@ status: Killed
 description: |
   Shot directly by government suppression forces during popular protests in Arak
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2013692889444876463, https://x.com/saeidvafa/status/2013710958162493537, https://x.com/saeidvafa/status/2014025906474397742, https://x.com/burnoutthebruis/status/2014311058026930632, https://x.com/persephone7597/status/2014660338201817471, https://x.com/HengawO/status/2013692889444876463, https://x.com/SaeidVafa/status/2015530360461795558, https://t.me/RememberTheirNames/413
-child: true
+source_social_media_link:
+  - "https://x.com/hengawo/status/2013692889444876463, https://x.com/saeidvafa/status/2013710958162493537, https://x.com/saeidvafa/status/2014025906474397742, https://x.com/burnoutthebruis/status/2014311058026930632, https://x.com/persephone7597/status/2014660338201817471, https://x.com/HengawO/status/2013692889444876463, https://x.com/SaeidVafa/status/2015530360461795558, https://t.me/RememberTheirNames/413"
+  - "https://x.com/hengawo/status/2013692889444876463"
+  - "https://x.com/HengawO/status/2013692889444876463"
+  - "https://x.com/SaeidVafa/status/2015530360461795558"
+  - "https://x.com/M0r1iartyam/status/2015825447741690047"
 persian_name: علی نوری

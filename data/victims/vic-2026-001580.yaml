@@ -2,7 +2,9 @@
 # Victim Documentation - Mahmoud Goudarzi
 # ==========================================
 
-photo: vic-2026-001580.jpg
+photo:
+  - "vic-2026-001580.jpg"
+  - "vic-2026-78ea83425bad.png"
 name: Mahmoud Goudarzi
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Died during protests in Dey 1404 (late Dec 2025 - Jan 2026). Specific cause of death not mentioned.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/695, https://x.com/mousavi1355/status/2016341381938135056, https://x.com/kyokushinsoofi/status/2016295737017983304
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/695, https://x.com/mousavi1355/status/2016341381938135056, https://x.com/kyokushinsoofi/status/2016295737017983304"
+  - "https://x.com/hekasrehcrisis/status/2017822518778695867"
 persian_name: محمود گودرزی

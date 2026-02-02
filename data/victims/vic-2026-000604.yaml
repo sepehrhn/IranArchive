@@ -2,7 +2,11 @@
 # Victim Documentation - Farzad Talebi
 # ==========================================
 
-photo: vic-2026-000604.jpg
+photo:
+  - "vic-2026-000604.jpg"
+  - "vic-2026-ad4a86fef8b7.jpg"
+  - "vic-2026-a9a3739ba3d8.jpg"
+  - "vic-2026-fb0832d2e855.jpg"
 name: Farzad Talebi
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,9 @@ description: |-
 
   Killed during protests. The tweet expresses a desire for revenge.
 source_type: Social Media
-source_social_media_link: https://x.com/banafshehviola/status/2014216230920687894, https://x.com/abhaddadii/status/2015148288157085704, https://t.me/RememberTheirNames/1622
-child: false
+source_social_media_link:
+  - "https://x.com/banafshehviola/status/2014216230920687894, https://x.com/abhaddadii/status/2015148288157085704, https://t.me/RememberTheirNames/1622"
+  - "https://x.com/banafshehviola/status/2014216230920687894"
+  - "https://t.me/RememberTheirNames/1622"
+  - "https://x.com/aliZapata97/status/2014024573075771584"
 persian_name: فرزاد طالبی

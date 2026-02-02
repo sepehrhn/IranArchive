@@ -2,21 +2,22 @@
 # Victim Documentation - Amirhossein Shahverdi
 # ==========================================
 
-photo: vic-2026-001562.jpg
+photo:
+  - vic-2026-001562.jpg
 name: Amirhossein Shahverdi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: Yaftabad
-date_of_death: '2026-01-10'
+date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |-
   Persian Name: امیرحسین شاهوردی
@@ -25,4 +26,3 @@ description: |-
 source_type: Social Media
 source_social_media_link:
   - https://t.me/RememberTheirNames/1351
-child: false

@@ -2,7 +2,12 @@
 # Victim Documentation - Abolfazl Alipour
 # ==========================================
 
-photo: vic-2026-000999.jpg
+photo:
+  - "vic-2026-000999.jpg"
+  - "vic-2026-5d4598c7a65f.jpg"
+  - "vic-2026-3ec39ff1f99d.jpg"
+  - "vic-2026-adea665ffc96.jpg"
+  - "vic-2026-096321bc75fb.jpg"
 name: Abolfazl Alipour
 birth_date: ""
 birth_province: ""
@@ -17,13 +22,15 @@ incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
-status: Killed
+status: "Missing"
 description: |-
   Killed during protests (specific circumstances not detailed)
 
 
   Psychology student at Azad University of Babol, killed by live ammunition from security forces during recent protests. His identity was confirmed through tattoos on his hand as his face was covered with cellophane when he was taken to the coroner's office.
 source_type: Social Media
-source_social_media_link: https://x.com/FSeifikaran/status/2013395127335588112, https://x.com/anjmotahed/status/2015371411473256537, https://x.com/inthemaz/status/2014708202068201743, https://t.me/RememberTheirNames/394
-child: false
+source_social_media_link:
+  - "https://x.com/FSeifikaran/status/2013395127335588112, https://x.com/anjmotahed/status/2015371411473256537, https://x.com/inthemaz/status/2014708202068201743, https://t.me/RememberTheirNames/394"
+  - "https://x.com/FSeifikaran/status/2013395127335588112"
+  - "https://x.com/inthemaz/status/2014708202068201743"
 persian_name: ابوالفضل علی‌پور

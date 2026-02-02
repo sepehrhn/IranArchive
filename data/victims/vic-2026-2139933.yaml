@@ -2,7 +2,10 @@
 # Victim Documentation - Maryam Ebrahimzadeh
 # ==========================================
 
-photo: vic-2026-2139933.jpg
+photo:
+  - "vic-2026-2139933.jpg"
+  - "vic-2026-96f4116f560a.jpg"
+  - "vic-2026-60d506577970.jpg"
 name: Maryam Ebrahimzadeh
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,10 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Ceramic artist, mother of a 14-year-old son. Killed by birdshot to the heart and lungs during the nationwide protests on 19 Dey 1404 in Punek, Tehran.
+description: Ceramic artist, mother of a 14-year-old son. Killed by birdshot to the heart and lungs during the nationwide protests on 19 Dey 1404 in Punek, Tehran.
 source_type: Social Media
-source_social_media_link: https://x.com/hamboodiran/status/2016140718981435419, https://t.me/RememberTheirNames/1626
-child: false
+source_social_media_link:
+  - "https://x.com/hamboodiran/status/2016140718981435419, https://t.me/RememberTheirNames/1626"
+  - "https://x.com/hamboodiran/status/2016140718981435419"
+  - "https://t.me/RememberTheirNames/1626"
 persian_name: مریم ابراهیم‌زاده

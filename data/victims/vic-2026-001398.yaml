@@ -2,7 +2,9 @@
 # Victim Documentation - Shahriar Zarabadi
 # ==========================================
 
-photo: vic-2026-001398.jpg
+photo:
+  - "vic-2026-001398.jpg"
+  - "vic-2026-ad6fba71a1b7.jpg"
 name: Shahriar Zarabadi
 birth_date: ""
 birth_province: ""
@@ -27,5 +29,4 @@ description: |-
   Killed during the Black Friday market incident in Rasht. He was visiting his mother in Iran and had traveled from Tehran to Rasht.
 source_type: Social Media
 source_social_media_link: https://x.com/Behzaddeklameh/status/2013884607330910666
-child: false
 persian_name: شهریار زرآبادی

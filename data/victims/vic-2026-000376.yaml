@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Mostafaei
 # ==========================================
 
-photo: vic-2026-000376.jpg
+photo:
+  - "vic-2026-000376.jpg"
+  - "vic-2026-1cba00bc159b.jpg"
 name: Mohammad Mostafaei
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Mentioned in a list of names with a date and location, implying death during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2013937719353786767, https://t.me/RememberTheirNames/476
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2013937719353786767, https://t.me/RememberTheirNames/476"
+  - "https://x.com/manotonews/status/2013937719353786767"
 persian_name: محمد مصطفایی

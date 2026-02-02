@@ -22,7 +22,7 @@
             <div class="flex-1 space-y-4">
                 <div class="flex flex-wrap items-center gap-3">
                      <Tag :value="formatStatus(incident.status).toUpperCase()" :severity="getStatusColor(incident.status)" class="font-bold tracking-widest px-2.5 py-1 text-[10px] shadow-sm" rounded />
-                     <span class="text-xs font-mono text-surface-500 dark:text-surface-400">ID: {{ incident.id }}</span>
+                     <span class="text-xs font-mono text-surface-500 dark:text-surface-400">ID: {{ $nFa(incident.id) }}</span>
                 </div>
 
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-black text-surface-900 dark:text-surface-0 tracking-tight leading-[1.1] drop-shadow-sm">
@@ -32,7 +32,7 @@
                 <div class="flex flex-wrap gap-4 items-center text-sm text-surface-600 dark:text-surface-300 pt-2">
                     <div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-100 dark:bg-surface-800 border border-surface-200 dark:border-surface-700">
                         <i class="pi pi-calendar text-primary-500"></i>
-                        <span class="font-medium text-surface-700 dark:text-surface-200">{{ formatRange(incident.occurred_at) }}</span>
+                        <span class="font-medium text-surface-700 dark:text-surface-200">{{ $nFa(formatRange(incident.occurred_at)) }}</span>
                     </div>
                     <div class="flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-100 dark:bg-surface-800 border border-surface-200 dark:border-surface-700">
                         <i class="pi pi-map-marker text-primary-500"></i>
@@ -54,7 +54,7 @@
                          <svg class="w-full h-[200%] absolute top-0" viewBox="0 0 36 36">
                             <path :stroke="getRatingColor(incident.ratings.veracity)" :stroke-dasharray="`${(incident.ratings.veracity / 10) * 50}, 100`" d="M2.0845 18 a 15.9155 15.9155 0 0 1 31.831 0" fill="none" stroke-width="4" stroke-linecap="round" />
                         </svg>
-                        <span class="text-lg font-black text-surface-900 dark:text-surface-0 z-10 -mb-0.5">{{ incident.ratings.veracity }}</span>
+                        <span class="text-lg font-black text-surface-900 dark:text-surface-0 z-10 -mb-0.5">{{ $nFa(incident.ratings.veracity) }}</span>
                     </div>
                     <span class="text-[10px] uppercase font-bold text-surface-500 tracking-wider">Veracity</span>
                 </div>
@@ -70,7 +70,7 @@
                          <svg class="w-full h-[200%] absolute top-0" viewBox="0 0 36 36">
                             <path :stroke="getRatingColor(incident.ratings.evidence_availability)" :stroke-dasharray="`${(incident.ratings.evidence_availability / 10) * 50}, 100`" d="M2.0845 18 a 15.9155 15.9155 0 0 1 31.831 0" fill="none" stroke-width="4" stroke-linecap="round" />
                         </svg>
-                        <span class="text-lg font-black text-surface-900 dark:text-surface-0 z-10 -mb-0.5">{{ incident.ratings.evidence_availability }}</span>
+                        <span class="text-lg font-black text-surface-900 dark:text-surface-0 z-10 -mb-0.5">{{ $nFa(incident.ratings.evidence_availability) }}</span>
                     </div>
                     <span class="text-[10px] uppercase font-bold text-surface-500 tracking-wider">Evidence</span>
                 </div>
@@ -163,11 +163,11 @@ const getRatingColor = (score: number) => {
 // Handle both number and {min, max} range
 const formatSeverityProp = (val: any) => {
     if (val === undefined || val === null) return '-';
-    if (typeof val === 'number') return val.toString();
+    if (typeof val === 'number') return useNuxtApp().$nFa(val.toString());
     if (typeof val === 'object') {
-        if (val.min && val.max && val.min !== val.max) return `${val.min}-${val.max}`;
-        if (val.min) return val.min.toString();
-        if (val.max) return val.max.toString();
+        if (val.min && val.max && val.min !== val.max) return `${useNuxtApp().$nFa(val.min)}-${useNuxtApp().$nFa(val.max)}`;
+        if (val.min) return useNuxtApp().$nFa(val.min.toString());
+        if (val.max) return useNuxtApp().$nFa(val.max.toString());
     }
     return '-';
 };

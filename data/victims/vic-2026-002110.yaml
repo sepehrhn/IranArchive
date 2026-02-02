@@ -2,7 +2,9 @@
 # Victim Documentation - Amin Jame
 # ==========================================
 
-photo: vic-2026-002110.jpg
+photo:
+  - "vic-2026-002110.jpg"
+  - "vic-2026-c7832a15b92d.jpg"
 name: Amin Jame
 birth_date: ""
 birth_province: ""
@@ -24,5 +26,4 @@ description: |-
   Died during protests in Jahrom in Dey 1404 (late Dec 2025 - Jan 2026). Specific date and cause of death not provided.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1176
-child: false
 persian_name: امین جامع

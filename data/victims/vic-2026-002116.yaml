@@ -2,7 +2,9 @@
 # Victim Documentation - Amirhossein Shaikhanlou
 # ==========================================
 
-photo: vic-2026-002116.jpg
+photo:
+  - "vic-2026-002116.jpg"
+  - "vic-2026-2d4d6271c493.jpg"
 name: Amirhossein Shaikhanlou
 birth_date: ""
 birth_province: ""
@@ -24,5 +26,4 @@ description: |-
   Shot from the roof of the Qasemabad police station. Died for freedom.
 source_type: Social Media
 source_social_media_link: https://x.com/avatoday_news/status/2015853849039278444
-child: false
 persian_name: امیرحسین شیخوانلو

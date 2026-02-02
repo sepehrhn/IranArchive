@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Rally for a Democratic Iran"
+
+featured: true
+
+description: |
+  A recurring weekly demonstration in solidarity with the popular uprising in Iran. The group advocates for the fall of the Islamic Republic and supports a secular, democratic transition, often expressing support for Prince Reza Pahlavi. Participants typically carry the Lion and Sun flag and chant slogans against the regime.
+  
+  **Tips:** Dress warmly for sub-zero temperatures. This event is distinct from MEK-organized rallies. It often follows other community gatherings at the same square.
+  
+  **Location Details:** Karl Johans gate 22, 0026 Oslo (Nearest T-bane: Stortinget)
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: "16:00"
+  end: "2026/02/07"
+  end_time: "18:00"
+
+location:
+  country: "NO"
+  city: "Oslo"
+  address: "Eidsvolls Plass (outside Stortinget)"
+
+online: []
+
+organizer:
+  name: "Maximum Support For Iran"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

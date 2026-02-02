@@ -2,11 +2,17 @@
 # Victim Documentation - Mohammad Entezami
 # ==========================================
 
-photo: vic-2026-001451.png
+photo:
+  - "vic-2026-001451.png"
+  - "vic-2026-85f43f18a52d.png"
+  - "vic-2026-d78b64219bd4.png"
+  - "vic-2026-3c12d578b159.png"
+  - "vic-2026-be0b62964dc3.png"
+  - "vic-2026-dfded6f51c8b.png"
 name: Mohammad Entezami
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 26
 occupation: ورزشکار و پارکور کار
@@ -14,7 +20,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: East Tehran (Narmak, Haft Howz)
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +28,5 @@ description: |
   شلیک مستقیم تیر به قلب 
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""
+  - "https://x.com/Daikatuo/status/2011846379635716511"

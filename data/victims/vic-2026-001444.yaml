@@ -2,7 +2,10 @@
 # Victim Documentation - Mojtaba Rezvani Rostami
 # ==========================================
 
-photo: vic-2026-001444.jpg
+photo:
+  - "vic-2026-001444.jpg"
+  - "vic-2026-b2e9da43a5d0.jpg"
+  - "vic-2026-b28c56e6ae14.jpg"
 name: Mojtaba Rezvani Rostami
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,9 @@ description: |-
 
   Killed by live ammunition fired by government agents into his chest. Security forces prevented his family from holding public funeral or mourning ceremonies.
 source_type: Local Report
-source_social_media_link: https://x.com/iranintl/status/2015658524492124226, https://x.com/i/status/2015465137688260937, https://x.com/Sssccpp/status/2015465137688260937
-child: false
+source_social_media_link:
+  - "https://x.com/iranintl/status/2015658524492124226, https://x.com/i/status/2015465137688260937, https://x.com/Sssccpp/status/2015465137688260937"
+  - "https://x.com/iranintl/status/2015658524492124226"
+  - "https://x.com/i/status/2015465137688260937"
+  - "https://x.com/Sssccpp/status/2015465137688260937"
 persian_name: مجتبی رضوانی رستمی

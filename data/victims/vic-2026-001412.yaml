@@ -2,7 +2,11 @@
 # Victim Documentation - Ashkan Rostami
 # ==========================================
 
-photo: vic-2026-001412.jpg
+photo:
+  - "vic-2026-001412.jpg"
+  - "vic-2026-259ef6aa103d.jpg"
+  - "vic-2026-7a8ef69f6b60.jpg"
+  - "vic-2026-c56f9bab1854.jpg"
 name: Ashkan Rostami
 birth_date: ""
 birth_province: ""
@@ -26,6 +30,8 @@ description: |-
 
   Shot and killed by direct fire from government forces in the heart during public protests in the Dowlatabad neighborhood of Kermanshah. He was a 21-year-old Kurdish citizen, follower of the Yaresan faith, and from Dalāho, Kermanshah province.
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2015696482284810656, https://x.com/pertikan_king/status/2014685488636952655, https://t.me/RememberTheirNames/1215, https://t.me/RememberTheirNames/1006
-child: false
+source_social_media_link:
+  - "https://x.com/hengawo/status/2015696482284810656, https://x.com/pertikan_king/status/2014685488636952655, https://t.me/RememberTheirNames/1215, https://t.me/RememberTheirNames/1006"
+  - "https://x.com/pertikan_king/status/2014685488636952655"
+  - "https://x.com/hengawo/status/2015696482284810656"
 persian_name: ماهان رستمی

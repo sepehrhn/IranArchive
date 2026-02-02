@@ -2,7 +2,13 @@
 # Victim Documentation - Ava Rahmaniraad
 # ==========================================
 
-photo: vic-2026-2139780.jpg
+photo:
+  - "vic-2026-2139780.jpg"
+  - "vic-2026-1ac506fca168.jpg"
+  - "vic-2026-9d4e47a8d3f5.jpg"
+  - "vic-2026-66a989f94852.jpg"
+  - "vic-2026-573af2de4d3a.jpg"
+  - "vic-2026-acd8ff7b5d03.jpg"
 name: Ava Rahmaniraad
 birth_date: ""
 birth_province: ""
@@ -18,9 +24,12 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot with a war bullet by Islamic Republic forces in the evening in the Haft-Howz area of Tehranpars. After the bullet hit Ava's neck, suppressive forces cordoned off the area and prevented people from approaching Ava.
+description: Shot with a war bullet by Islamic Republic forces in the evening in the Haft-Howz area of Tehranpars. After the bullet hit Ava's neck, suppressive forces cordoned off the area and prevented people from approaching Ava.
 source_type: Social Media
-source_social_media_link: https://x.com/mothrofdrgns/status/2016786292869099877, https://x.com/ashkvuo7000/status/2016843158974251458
-child: false
+source_social_media_link:
+  - "https://x.com/mothrofdrgns/status/2016786292869099877, https://x.com/ashkvuo7000/status/2016843158974251458"
+  - "https://x.com/mothrofdrgns/status/2016786292869099877"
+  - "https://x.com/ashkvuo7000/status/2016843158974251458"
+  - "https://x.com/isamanyasin/status/2016973996202590517"
+  - "https://x.com/javidshah109/status/2017151657906156002"
 persian_name: آوا رحمانی‌راد

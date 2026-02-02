@@ -2,7 +2,8 @@
 # Victim Documentation - Davood Ghareghani
 # ==========================================
 
-photo: vic-2026-002191.jpg
+photo:
+  - vic-2026-002191.jpg
 name: Davood Ghareghani
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Died during protests in Dey 1404 (late Dec 2025 - Jan 2026).
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1060
-child: false
 persian_name: داوود قرقانی

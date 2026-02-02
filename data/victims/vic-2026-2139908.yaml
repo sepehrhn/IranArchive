@@ -2,7 +2,8 @@
 # Victim Documentation - Hassan Sohrabi
 # ==========================================
 
-photo: vic-2026-2139908.jpg
+photo:
+  - vic-2026-2139908.jpg
 name: Hassan Sohrabi
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot in Enghelab Square, Tehran, and died after a few minutes of bleeding. Known as 'Yasin' by friends and colleagues.
+description: Shot in Enghelab Square, Tehran, and died after a few minutes of bleeding. Known as 'Yasin' by friends and colleagues.
 source_type: Social Media
 source_social_media_link: https://x.com/azvirayesh/status/2015820508344787091
-child: false
 persian_name: حسن سهرابی

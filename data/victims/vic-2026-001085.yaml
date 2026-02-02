@@ -2,7 +2,11 @@
 # Victim Documentation - Golsa Sharifi
 # ==========================================
 
-photo: vic-2026-001085.jpg
+photo:
+  - "vic-2026-001085.jpg"
+  - "vic-2026-af953b661b26.jpg"
+  - "vic-2026-e9ad4117ed62.png"
+  - "vic-2026-3c61efef2500.jpg"
 name: Golsa Sharifi
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,9 @@ description: |-
 
   Killed in Abadeh, where she was a student. Her mother claimed she had a brain tumor during the funeral, indicating family pressure. Described as an intelligent girl who attended Farzanegan High School in Abadeh.
 source_type: Social Media
-source_social_media_link: https://t.me/poshtpardeha/248511, https://x.com/hekasrehcrisis/status/2015189470874603872, https://x.com/i/status/2015189470874603872, https://t.me/RememberTheirNames/1136
-child: false
+source_social_media_link:
+  - "https://t.me/poshtpardeha/248511, https://x.com/hekasrehcrisis/status/2015189470874603872, https://x.com/i/status/2015189470874603872, https://t.me/RememberTheirNames/1136"
+  - "https://t.me/poshtpardeha/248511"
+  - "https://x.com/hekasrehcrisis/status/2015189470874603872"
+  - "https://x.com/i/status/2015189470874603872"
 persian_name: گلسا شریفی

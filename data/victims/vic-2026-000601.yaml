@@ -2,7 +2,10 @@
 # Victim Documentation - Farshid Hosseinzadeh
 # ==========================================
 
-photo: vic-2026-000601.jpg
+photo:
+  - "vic-2026-000601.jpg"
+  - "vic-2026-4ceac7c9cb26.jpg"
+  - "vic-2026-4cfe881324a5.jpg"
 name: Farshid Hosseinzadeh
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,7 @@ description: |-
 
   Killed during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/sama19861365/status/2014988554607149193, https://t.me/RememberTheirNames/856
-child: false
+source_social_media_link:
+  - "https://x.com/sama19861365/status/2014988554607149193, https://t.me/RememberTheirNames/856"
+  - "https://x.com/sama19861365/status/2014988554607149193"
 persian_name: فرشید حسینزاده

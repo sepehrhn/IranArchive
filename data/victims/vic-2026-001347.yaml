@@ -2,7 +2,8 @@
 # Victim Documentation - Sahand Naseri
 # ==========================================
 
-photo: vic-2026-001347.jpg
+photo:
+  - vic-2026-001347.jpg
 name: Sahand Naseri
 birth_date: ""
 birth_province: ""
@@ -27,5 +28,4 @@ description: |-
   Described as a 'child of Iran and killed on the path of the homeland'.
 source_type: Social Media
 source_social_media_link: https://x.com/yomnaaaaa/status/2015414311712358639
-child: false
 persian_name: سهند ناصری

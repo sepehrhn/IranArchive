@@ -2,21 +2,22 @@
 # Victim Documentation - Majid Danesh
 # ==========================================
 
-photo: ''
+photo:
+  - ""
 name: Majid Danesh
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Razavi Khorasan
 incident_city: Mashhad
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |
   Persian Name: مجید دانش
@@ -24,5 +25,5 @@ description: |
   Killed during the protests on 18 and 19 Dey in Mashhad. Manager of Solo Restaurant in Hashemiyeh, Mashhad.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/farhadiivar/status/2014485324546691419
-child: false
+  - "https://x.com/farhadiivar/status/2014485324546691419"
+  - "https://x.com/FarhadiIvar/status/2014485324546691419"

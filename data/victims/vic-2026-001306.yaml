@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Hossein Asghari
 # ==========================================
 
-photo: vic-2026-001306.jpg
+photo:
+  - "vic-2026-001306.jpg"
+  - "vic-2026-9f37912a7a17.jpg"
+  - "vic-2026-0d9e6edc2ef5.jpg"
 name: Mohammad Hossein Asghari
 birth_date: ""
 birth_province: ""
@@ -26,6 +29,9 @@ description: |-
 
   Killed by direct fire from the bloodthirsty Islamic Republic regime. He was only 23 years old.
 source_type: Social Media
-source_social_media_link: https://x.com/realneo101/status/2015553782910693610, https://x.com/realneo101/status/2015408142775967819, https://x.com/tarashg6ro/status/2015881784450548213
-child: false
+source_social_media_link:
+  - "https://x.com/realneo101/status/2015553782910693610, https://x.com/realneo101/status/2015408142775967819, https://x.com/tarashg6ro/status/2015881784450548213"
+  - "https://x.com/realneo101/status/2015408142775967819"
+  - "https://x.com/tarashg6ro/status/2015881784450548213"
+  - "https://x.com/Realneo101/status/2015408142775967819"
 persian_name: محمد حسین اصغری

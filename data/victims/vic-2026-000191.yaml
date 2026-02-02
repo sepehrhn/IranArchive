@@ -2,7 +2,14 @@
 # Victim Documentation - Mohsen Jabbarzadeh
 # ==========================================
 
-photo: vic-2026-000191.jpg
+photo:
+  - "vic-2026-000191.jpg"
+  - "vic-2026-d6adf96ddd1b.jpg"
+  - "vic-2026-5456811d6437.jpg"
+  - "vic-2026-785f76858b5e.jpg"
+  - "vic-2026-a3eb6542e274.jpg"
+  - "vic-2026-a8cbf686391e.jpg"
+  - "vic-2026-14f5f0c768b0.jpg"
 name: Mohsen Jabbarzadeh
 birth_date: ""
 birth_province: ""
@@ -24,6 +31,15 @@ description: |-
 
   The tweet is a lament from a parent to a deceased child, Mohsen Jabbarzadeh. The context of the protest is implied by the parent's grief and the engagement metrics, but the specific circumstances and date of death are not provided. The tweet begins with phrases like 'Brother, get up and play with my child again' and 'Get up and give him a toy again', indicating the child is no longer alive.
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2013286107383738760, https://x.com/afsoonab/status/2013280169218183298, https://x.com/s_iran01/status/2013387087790182712, https://x.com/manotonews/status/2013582288119046177, https://x.com/banafshehviola/status/2013852877404676261, https://x.com/jeanne2022rev/status/2015068900291912188, https://x.com/dadban4/status/2015044973486391627, https://x.com/HasanJabar40673/status/2014933240407089450, https://x.com/AmirMiresmaeili/status/2013272831270822200, https://t.me/RememberTheirNames/308, https://t.me/RememberTheirNames/252, https://x.com/hasanjabar40673/status/2015759795836379504
-child: false
+source_social_media_link:
+  - "https://x.com/indypersian/status/2013286107383738760, https://x.com/afsoonab/status/2013280169218183298, https://x.com/s_iran01/status/2013387087790182712, https://x.com/manotonews/status/2013582288119046177, https://x.com/banafshehviola/status/2013852877404676261, https://x.com/jeanne2022rev/status/2015068900291912188, https://x.com/dadban4/status/2015044973486391627, https://x.com/HasanJabar40673/status/2014933240407089450, https://x.com/AmirMiresmaeili/status/2013272831270822200, https://t.me/RememberTheirNames/308, https://t.me/RememberTheirNames/252, https://x.com/hasanjabar40673/status/2015759795836379504"
+  - "https://x.com/indypersian/status/2013286107383738760"
+  - "https://x.com/s_iran01/status/2013387087790182712"
+  - "https://x.com/manotonews/status/2013582288119046177"
+  - "https://x.com/banafshehviola/status/2013852877404676261"
+  - "https://x.com/jeanne2022rev/status/2015068900291912188"
+  - "https://x.com/dadban4/status/2015044973486391627"
+  - "https://x.com/hasanjabar40673/status/2015759795836379504"
+  - "https://x.com/AmirMiresmaeili/status/2013272831270822200"
+  - "https://x.com/S_iran01/status/2013387087790182712"
 persian_name: محسن جبارزاده

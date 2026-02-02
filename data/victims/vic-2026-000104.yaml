@@ -2,20 +2,24 @@
 # Victim Documentation - Amir-Mohsen Elhiyari
 # ==========================================
 
-photo: vic-2026-000104.jpg
+photo:
+  - "vic-2026-000104.jpg"
+  - "vic-2026-001030.jpg"
+  - "vic-2026-89c78a398a0c.jpg"
+  - "vic-2026-96140fa4ad37.jpg"
 name: Amir-Mohsen Elhiyari
-persian_name: "امیر محسن الهیاری"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: امیر محسن الهیاری
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 51
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Karaj
 incident_address: Fardis
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,5 +27,7 @@ description: |
   Shot with military bullets during protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/s_iran01/status/2013321172146893084
-child: false
+  - "https://x.com/s_iran01/status/2013321172146893084"
+  - "https://x.com/HengawO/status/2013961319469158812"
+  - "https://x.com/iranwire/status/2013913468248674542"
+  - "https://x.com/jashnimitra/status/2016218663053861191"

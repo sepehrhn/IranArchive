@@ -2,7 +2,9 @@
 # Victim Documentation - Hamdollah Soleiman Lor
 # ==========================================
 
-photo: vic-2026-001690.jpg
+photo:
+  - "vic-2026-001690.jpg"
+  - "vic-2026-96f1a12a19be.jpg"
 name: Hamdollah Soleiman Lor
 birth_date: ""
 birth_province: ""
@@ -24,5 +26,4 @@ description: |-
   Targeted and killed by security forces. Identified as being from Bakhtiari province.
 source_type: Social Media
 source_social_media_link: https://x.com/hirman__/status/2016013100391018670
-child: false
 persian_name: حمدالله سلیمان لر

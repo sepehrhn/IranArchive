@@ -2,16 +2,23 @@
 # Victim Documentation - Erfan Kharazi
 # ==========================================
 
-photo: vic-2026-001070.jpg
+photo:
+  - "vic-2026-001070.jpg"
+  - "vic-2026-002197.jpg"
+  - "vic-2026-af1cdbeb2bf7.jpg"
+  - "vic-2026-59a2f7816681.jpg"
+  - "vic-2026-74762b4699b7.jpg"
+  - "vic-2026-dcd4ce660138.png"
+  - "vic-2026-bc5e5bd43811.png"
 name: Erfan Kharazi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 18
 occupation: ""
 country: Iran
-incident_province: Shahriar
+incident_province: ""
 incident_city: Vahidieh
 incident_address: ""
 date_of_death: ""
@@ -21,6 +28,9 @@ status: Killed
 description: |
   Killed in 1401 protests and buried near the grave of Abdolrasoul Kharazi
 source_type: Social Media
-source_social_media_link: https://x.com/pouyajegarvnd/status/2014400069974307303
-child: false
+source_social_media_link:
+  - "https://x.com/pouyajegarvnd/status/2014400069974307303"
+  - "https://x.com/iliaaaa66/status/2016879095112499623"
+  - "https://x.com/hekasrehcrisis/status/2017469549130502644"
+  - "https://x.com/gigii_coo/status/2016862256676430034"
 persian_name: عرفان خزایی

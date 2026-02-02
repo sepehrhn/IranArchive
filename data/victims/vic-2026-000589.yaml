@@ -2,7 +2,14 @@
 # Victim Documentation - Emad Shoosh
 # ==========================================
 
-photo: vic-2026-000589.jpg
+photo:
+  - "vic-2026-000589.jpg"
+  - "vic-2026-6c4462c8bb70.jpg"
+  - "vic-2026-2bf527af6c5e.jpg"
+  - "vic-2026-11391faa1b56.jpg"
+  - "vic-2026-144eaf066394.jpg"
+  - "vic-2026-9f4fbcc4f2d8.jpg"
+  - "vic-2026-acce15f2e2bb.jpg"
 name: Emad Shoosh
 birth_date: ""
 birth_province: ""
@@ -24,6 +31,12 @@ description: |-
 
   Killed during protests in Lahijan after being shot four times. Previously arrested in 1401 (2022-2023).
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2012934564381876425, https://x.com/pkhwshhal/status/2012912179264053754, https://x.com/pkhwshhal/status/2013014589340856385, https://x.com/hengawo/status/2013224113272135817, https://x.com/HengawO/status/2013224113272135817, https://www.instagram.com/p/DTqv47NkZLO, https://t.me/RememberTheirNames/123
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2012934564381876425, https://x.com/pkhwshhal/status/2012912179264053754, https://x.com/pkhwshhal/status/2013014589340856385, https://x.com/hengawo/status/2013224113272135817, https://x.com/HengawO/status/2013224113272135817, https://www.instagram.com/p/DTqv47NkZLO, https://t.me/RememberTheirNames/123"
+  - "https://x.com/hyrcanihrm/status/2012934564381876425"
+  - "https://x.com/pkhwshhal/status/2012912179264053754"
+  - "https://x.com/pkhwshhal/status/2013014589340856385"
+  - "https://x.com/hengawo/status/2013224113272135817"
+  - "https://x.com/HengawO/status/2013224113272135817"
+  - "https://www.instagram.com/p/DTqv47NkZLO"
 persian_name: عماد شوش

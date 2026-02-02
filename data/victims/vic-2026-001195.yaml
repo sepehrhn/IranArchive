@@ -2,19 +2,20 @@
 # Victim Documentation - Rasoul Faleh Gari
 # ==========================================
 
-photo: vic-2026-001195.jpg
+photo:
+  - vic-2026-001195.jpg
 name: Rasoul Faleh Gari
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,4 +24,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/realneo101/status/2015134805399126443
-child: false

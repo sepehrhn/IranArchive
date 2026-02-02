@@ -2,13 +2,15 @@
 # Victim Documentation - Reza Ezati
 # ==========================================
 
-photo: vic-2026-001200.jpg
+photo:
+  - "vic-2026-001200.jpg"
+  - "vic-2026-cf92811ec396.jpg"
 name: Reza Ezati
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 34
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Listed as killed in Esfarayen.
 source_type: Social Media
-source_social_media_link: https://x.com/yaldarta/status/2014946096523481285
-child: false
+source_social_media_link:
+  - "https://x.com/yaldarta/status/2014946096523481285"
+  - "https://x.com/tavaana/status/2017463867324956967"
 persian_name: رضا عزتی

@@ -2,7 +2,8 @@
 # Victim Documentation - Hassan Samakoush
 # ==========================================
 
-photo: vic-2026-000031.jpg
+photo:
+  - vic-2026-000031.jpg
 name: Hassan Samakoush
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: 48
 occupation: ""
 country: Iran
-incident_province: Babol
+incident_province: ""
 incident_city: Babolsar
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -24,6 +25,8 @@ description: |-
 
   Shot directly by security forces in the eye at close range during protests on January 8, 2026 (18 Dey 1404). Died three days later after falling into a coma due to severe brain hemorrhage. He was a father.
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2014954370509549724, https://x.com/mashrotehorg/status/2015070468747771924, https://x.com/inthemaz/status/2014708202068201743, https://t.me/RememberTheirNames/425
-child: false
+source_social_media_link:
+  - "https://x.com/iranwire/status/2014954370509549724, https://x.com/mashrotehorg/status/2015070468747771924, https://x.com/inthemaz/status/2014708202068201743, https://t.me/RememberTheirNames/425"
+  - "https://x.com/mashrotehorg/status/2015070468747771924"
+  - "https://x.com/inthemaz/status/2014708202068201743"
 persian_name: حسن سماکوش

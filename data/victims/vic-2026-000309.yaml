@@ -2,7 +2,9 @@
 # Victim Documentation - Hussein Alboghbeish
 # ==========================================
 
-photo: vic-2026-000309.jpg
+photo:
+  - "vic-2026-000309.jpg"
+  - "vic-2026-02b030ececc7.jpg"
 name: Hussein Alboghbeish
 birth_date: ""
 birth_province: ""
@@ -22,5 +24,4 @@ description: |
   Shot by security forces during anti-regime protests on Saeedi Street in old Mashour
 source_type: Social Media
 source_social_media_link: https://x.com/bensusaaa/status/2013692656631554475
-child: false
 persian_name: حسين آلبوغبيش

@@ -7,9 +7,9 @@ export const EventTypeSchema = z.enum(["in_person", "online", "hybrid"]); // Ren
 // Date Schema - removed precision field
 const DateInfoSchema = z.object({
     start: z.string().regex(/^\d{4}\/\d{2}\/\d{2}$/, "Must be YYYY/MM/DD"),
-    start_time: z.string().regex(/^\d{2}:\d{2}$/, "Must be HH:mm"),
+    start_time: z.string().optional(),
     end: z.string().regex(/^\d{4}\/\d{2}\/\d{2}$/, "Must be YYYY/MM/DD").optional().or(z.literal('')),
-    end_time: z.string().regex(/^\d{2}:\d{2}$/, "Must be HH:mm").optional().or(z.literal('')),
+    end_time: z.string().optional(),
 });
 
 
@@ -60,7 +60,7 @@ export const EventSchema = z.object({
     // Removed speakers, verification (status), and sources sections
 
     // Media
-    announcement: z.union([z.string().url(), z.literal(''), z.literal('-')]).optional().nullable(), // Allow '-' or empty
+    source: z.array(z.string()).optional().default([]),
 
     // Options
     featured: z.boolean().default(false)

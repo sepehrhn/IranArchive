@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Hassan Bahadori
 # ==========================================
 
-photo: vic-2026-001422.jpg
+photo:
+  - "vic-2026-001422.jpg"
+  - "vic-2026-90cef3ba9842.jpg"
 name: Mohammad Hassan Bahadori
 birth_date: ""
 birth_province: ""
@@ -26,6 +28,7 @@ description: |-
 
   Died during protests in Dey 1404 (late Dec 2025 - Jan 2026). Specific date and cause of death not provided.
 source_type: Social Media
-source_social_media_link: https://x.com/esmaeils1169/status/2014724026476761334, https://t.me/RememberTheirNames/924
-child: false
+source_social_media_link:
+  - "https://x.com/esmaeils1169/status/2014724026476761334, https://t.me/RememberTheirNames/924"
+  - "https://x.com/esmaeils1169/status/2014724026476761334"
 persian_name: محمد حسن بهادری

@@ -2,7 +2,10 @@
 # Victim Documentation - Amirreza Rajaei
 # ==========================================
 
-photo: vic-2026-000542.jpg
+photo:
+  - "vic-2026-000542.jpg"
+  - "vic-2026-cf72756917ae.jpg"
+  - "vic-2026-b99d5e3a9a8c.jpg"
 name: Amirreza Rajaei
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Shot directly in the heart by Islamic Republic forces, taken to Hakim Hospital alive but denied medical treatment and died
 source_type: Social Media
-source_social_media_link: https://x.com/shahramsadidi/status/2014065497914872215, https://t.me/RememberTheirNames/560
-child: false
+source_social_media_link:
+  - "https://x.com/shahramsadidi/status/2014065497914872215, https://t.me/RememberTheirNames/560"
+  - "https://x.com/shahramsadidi/status/2014065497914872215"
 persian_name: امیررضا رجایی

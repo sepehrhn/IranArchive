@@ -2,7 +2,8 @@
 # Victim Documentation - Anonymous Woman (20)
 # ==========================================
 
-photo: vic-2026-2140103.jpg
+photo:
+  - vic-2026-2140103.jpg
 name: Anonymous Woman (20)
 birth_date: ""
 birth_province: ""
@@ -20,5 +21,6 @@ cause_of_death: ""
 status: Killed
 description: A 20-year-old woman killed during protests. Her identity remains unknown. Posted as I Am Her voice to memorialize anonymous female victims.
 source_type: Social Media
-source_social_media_link: https://x.com/nicksotoudeh/status/2013107634682171626, https://x.com/nicksotoudeh/status/2013048445351997815
-child: false
+source_social_media_link:
+  - "https://x.com/nicksotoudeh/status/2013107634682171626"
+  - "https://x.com/nicksotoudeh/status/2013048445351997815"

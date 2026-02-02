@@ -1,0 +1,41 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Pop-up Solidarity Protests (Unconfirmed)"
+
+featured: false
+
+description: |
+  While no large-scale centralized rally is explicitly confirmed for this Saturday (following the major Golden Gate Bridge event last weekend), smaller independent groups often gather at Union Square or Civic Center on Saturdays. Monitor social media for 'flash' protest announcements.
+  
+  **Tips:** If no specific flyer is found, head to the Sunday rally at the Ferry Building which is the primary recurring event.
+  
+  **Location Details:** Powell St BART (Union Square) or Civic Center BART
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: ""
+
+
+location:
+  country: "US"
+  city: "San Francisco"
+  address: "Union Square or Civic Center"
+
+online: []
+
+organizer:
+  name: "Independent Activists"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

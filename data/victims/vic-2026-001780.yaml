@@ -2,7 +2,8 @@
 # Victim Documentation - Omid Ghasemi Nafachi
 # ==========================================
 
-photo: vic-2026-001780.jpg
+photo:
+  - vic-2026-001780.jpg
 name: Omid Ghasemi Nafachi
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Died during protests
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/501
-child: false
 persian_name: امید قاسمی نافچی

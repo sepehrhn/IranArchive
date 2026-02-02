@@ -2,7 +2,12 @@
 # Victim Documentation - Amirmohammad Yazdani
 # ==========================================
 
-photo: vic-2026-000541.png
+photo:
+  - "vic-2026-000541.png"
+  - "vic-2026-d78b64219bd4.png"
+  - "vic-2026-3c12d578b159.png"
+  - "vic-2026-be0b62964dc3.png"
+  - "vic-2026-dfded6f51c8b.png"
 name: Amirmohammad Yazdani
 birth_date: ""
 birth_province: ""
@@ -21,6 +26,8 @@ status: Killed
 description: |
   Killed by Islamic Republic regime during protests
 source_type: Social Media
-source_social_media_link: https://x.com/daikatuo/status/2011846379635716511, https://x.com/avatoday_news/status/2011806828858913270, https://x.com/iranintlsport/status/2012941724587335908, https://x.com/Daikatuo/status/2011846379635716511
-child: false
+source_social_media_link:
+  - "https://x.com/daikatuo/status/2011846379635716511, https://x.com/avatoday_news/status/2011806828858913270, https://x.com/iranintlsport/status/2012941724587335908, https://x.com/Daikatuo/status/2011846379635716511"
+  - "https://x.com/Daikatuo/status/2011846379635716511"
+  - "https://x.com/avatoday_news/status/2011806828858913270, https://x.com/iranintlsport/status/2012941724587335908, https://x.com/Daikatuo/status/2011846379635716511"
 persian_name: امیرمحمد یزدانی

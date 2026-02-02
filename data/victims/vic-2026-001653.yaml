@@ -2,13 +2,16 @@
 # Victim Documentation - Amirali Kiyani
 # ==========================================
 
-photo: vic-2026-001653.jpg
+photo:
+  - "vic-2026-001653.jpg"
+  - "vic-2026-2139871.jpg"
+  - "vic-2026-9a1e27f4cf4d.jpg"
 name: Amirali Kiyani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 17
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -23,6 +26,7 @@ description: |-
 
   Killed by the Islamic Republic regime. No image found.
 source_type: Social Media
-source_social_media_link: https://x.com/Daikatuo/status/2011843247153246303, https://t.me/RememberTheirNames/688
-child: false
+source_social_media_link:
+  - "https://x.com/Daikatuo/status/2011843247153246303, https://t.me/RememberTheirNames/688"
+  - "https://t.me/iranhrs98/67335"
 persian_name: امیرعلی کیانی

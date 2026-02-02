@@ -2,7 +2,13 @@
 # Victim Documentation - Sajjad Bayati
 # ==========================================
 
-photo: vic-2026-001368.jpg
+photo:
+  - "vic-2026-001368.jpg"
+  - "vic-2026-fd334c9417da.jpg"
+  - "vic-2026-3c51af11abee.jpg"
+  - "vic-2026-fdf239eb80f4.jpg"
+  - "vic-2026-001908.jpg"
+  - "vic-2026-002147.jpg"
 name: Sajjad Bayati
 birth_date: ""
 birth_province: ""
@@ -11,7 +17,7 @@ gender: Male
 age: 30
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Gohardasht
 incident_address: Gohardasht
 date_of_death: "2026-01-09"
@@ -26,6 +32,10 @@ description: |-
 
   Shot in the head on Saturday, 19 Dey, at the sixth intersection of Gohardasht's main street. His family was pressured to claim he was a Basij member, but they refused. The body was returned to the family after payment.
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2015567089591804030, https://t.me/RememberTheirNames/898
-child: false
+source_social_media_link:
+  - "https://x.com/fseifikaran/status/2015567089591804030, https://t.me/RememberTheirNames/898"
+  - "https://x.com/fseifikaran/status/2015567089591804030"
+  - "https://x.com/batmaniei7vrc/status/2016988951228170489"
+  - "https://t.me/RememberTheirNames/1185"
+  - "https://x.com/mahestane_iran/status/2013670598992392345, https://t.me/RememberTheirNames/1076, https://x.com/farhadiraniiii/status/2016488164974543089"
 persian_name: سجاد بیاتی

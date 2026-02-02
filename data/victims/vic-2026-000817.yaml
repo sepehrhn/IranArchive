@@ -2,7 +2,13 @@
 # Victim Documentation - Saeed Bayat
 # ==========================================
 
-photo: vic-2026-000817.jpg
+photo:
+  - "vic-2026-000817.jpg"
+  - "vic-2026-4ef07cf3bce4.jpg"
+  - "vic-2026-001210.jpg"
+  - "vic-2026-0b8aa73bb0ae.jpg"
+  - "vic-2026-17dd11c6ef4e.jpg"
+  - "vic-2026-b993dac1d01d.jpg"
 name: Saeed Bayat
 birth_date: ""
 birth_province: ""
@@ -11,7 +17,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Azimiyeh
 incident_address: Azimiyeh
 date_of_death: "2026-01-08"
@@ -21,6 +27,8 @@ status: Killed
 description: |
   Killed during protests
 source_type: Social Media
-source_social_media_link: https://x.com/loabatk/status/2012279969402048649
-child: false
+source_social_media_link:
+  - "https://x.com/loabatk/status/2012279969402048649"
+  - "https://x.com/mahestane_iran/status/2013670598992392345"
+  - "https://x.com/farhadiraniiii/status/2016488164974543089"
 persian_name: سعید بیات

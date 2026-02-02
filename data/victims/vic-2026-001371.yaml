@@ -2,7 +2,8 @@
 # Victim Documentation - Shahriar Hassan Zarabadi
 # ==========================================
 
-photo: vic-2026-001371.jpg
+photo:
+  - vic-2026-001371.jpg
 name: Shahriar Hassan Zarabadi
 birth_date: ""
 birth_province: ""
@@ -27,5 +28,4 @@ description: |-
   Killed during protests in Rasht. His father is Naser Hassan Zarabadi, a former violin professor.
 source_type: Social Media
 source_social_media_link: https://x.com/Vahid/status/2015304737243926770
-child: false
 persian_name: شهریار حسن زرآبادی

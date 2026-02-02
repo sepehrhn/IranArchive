@@ -2,13 +2,15 @@
 # Victim Documentation - Mehdi Hajivand
 # ==========================================
 
-photo: vic-2026-2140134.jpg
+photo:
+  - "vic-2026-2140134.jpg"
+  - "vic-2026-87bcac085c9d.jpg"
 name: Mehdi Hajivand
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 39
 occupation: ""
 country: Iran
 incident_province: ""
@@ -18,9 +20,9 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Listed among those killed in Dezful during the freedom movement protests
+description: Listed among those killed in Dezful during the freedom movement protests
 source_type: Social Media
-source_social_media_link: https://www.instagram.com/p/DT5_Jw8ikvU
-child: false
+source_social_media_link:
+  - "https://www.instagram.com/p/DT5_Jw8ikvU"
+  - "https://x.com/hs_maryam/status/2014962366287642818"
 persian_name: مهدی حاجیوند

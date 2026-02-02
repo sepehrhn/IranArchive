@@ -2,20 +2,24 @@
 # Victim Documentation - Mohammad (Milad) Biranvand
 # ==========================================
 
-photo: vic-2026-000366.jpg
+photo:
+  - "vic-2026-000366.jpg"
+  - "vic-2026-4df8892e3c8c.jpg"
+  - "vic-2026-001747.jpg"
+  - "vic-2026-c4203a1a2fd7.jpg"
 name: Mohammad (Milad) Biranvand
-persian_name: "محمد(میلاد) بیرانوند"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: محمد(میلاد) بیرانوند
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Khorramabad
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,5 +27,5 @@ description: |
   Killed by Islamic Republic mercenaries
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/chaawtimes/status/2014410020520096253
-child: false
+  - "https://x.com/chaawtimes/status/2014410020520096253"
+  - "https://x.com/chaawtimes/status/2014410020520096253, https://x.com/ChaawTimes/status/2014410020520096253, https://t.me/RememberTheirNames/703"

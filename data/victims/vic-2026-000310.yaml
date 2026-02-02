@@ -2,7 +2,10 @@
 # Victim Documentation - Iliya Ojaghlou
 # ==========================================
 
-photo: vic-2026-000310.jpg
+photo:
+  - "vic-2026-000310.jpg"
+  - "vic-2026-61de9d10f51c.jpg"
+  - "vic-2026-85c2246230f4.jpg"
 name: Iliya Ojaghlou
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Killed during protests in Dey 1404 (late Dec 2025 - Jan 2026).
 source_type: Social Media
-source_social_media_link: https://x.com/iranintlbrk/status/2013945811969679858, https://x.com/Iran_Sweeden/status/2014112153846808881, https://t.me/RememberTheirNames/845
-child: true
+source_social_media_link:
+  - "https://x.com/iranintlbrk/status/2013945811969679858, https://x.com/Iran_Sweeden/status/2014112153846808881, https://t.me/RememberTheirNames/845"
+  - "https://x.com/iranintlbrk/status/2013945811969679858"
+  - "https://x.com/Iran_Sweeden/status/2014112153846808881"
 persian_name: ایلیا اجاقلو

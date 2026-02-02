@@ -2,20 +2,24 @@
 # Victim Documentation - Meysam Saberi Kahrodi
 # ==========================================
 
-photo: vic-2026-000952.jpg
+photo:
+  - "vic-2026-000952.jpg"
+  - "vic-2026-002135.jpg"
+  - "vic-2026-b45ae44bb9ad.jpg"
+  - "vic-2026-fad3a8fa09f7.jpg"
 name: Meysam Saberi Kahrodi
-persian_name: "میثم صابری کرهرودی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+persian_name: میثم صابری کرهرودی
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 41
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Arak
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,5 +27,6 @@ description: |
   Killed during protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hengawo/status/2014349937677377761
-child: false
+  - "https://x.com/hengawo/status/2014349937677377761"
+  - "https://x.com/HengawO/status/2014349937677377761, https://t.me/RememberTheirNames/293"
+  - "https://x.com/HengawO/status/2014349937677377761"

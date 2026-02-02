@@ -2,7 +2,15 @@
 # Victim Documentation - Ashkan Alipour
 # ==========================================
 
-photo: vic-2026-000561.jpg
+photo:
+  - "vic-2026-000561.jpg"
+  - "vic-2026-ac93480243ab.jpg"
+  - "vic-2026-7512c3f9919c.jpg"
+  - "vic-2026-a980a5a16d17.jpg"
+  - "vic-2026-a629e0347496.jpg"
+  - "vic-2026-bc79e0138bda.jpg"
+  - "vic-2026-51f71a966282.png"
+  - "vic-2026-c0a4f6f86932.jpg"
 name: Ashkan Alipour
 birth_date: ""
 birth_province: ""
@@ -11,7 +19,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Ferdows
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -21,6 +29,11 @@ status: Killed
 description: |
   Shot in the neck by Islamic Republic regime forces during protests
 source_type: Social Media
-source_social_media_link: https://x.com/negannegan55/status/2013657195359940809, https://x.com/longlosthills/status/2013731310095810836, https://x.com/soranmansournia/status/2014082511748337969, https://x.com/zahra_masgedyy/status/2014092914062750194, https://x.com/HengawO/status/2013961319469158812, https://t.me/RememberTheirNames/445
-child: false
+source_social_media_link:
+  - "https://x.com/negannegan55/status/2013657195359940809, https://x.com/longlosthills/status/2013731310095810836, https://x.com/soranmansournia/status/2014082511748337969, https://x.com/zahra_masgedyy/status/2014092914062750194, https://x.com/HengawO/status/2013961319469158812, https://t.me/RememberTheirNames/445"
+  - "https://x.com/negannegan55/status/2013657195359940809"
+  - "https://x.com/longlosthills/status/2013731310095810836"
+  - "https://x.com/HengawO/status/2013961319469158812"
+  - "https://x.com/soranmansournia/status/2014082511748337969"
+  - "https://x.com/zahra_masgedyy/status/2014092914062750194"
 persian_name: اشکان علیپور

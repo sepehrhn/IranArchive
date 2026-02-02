@@ -2,7 +2,9 @@
 # Victim Documentation - Borhan Seydi
 # ==========================================
 
-photo: vic-2026-001056.jpg
+photo:
+  - "vic-2026-001056.jpg"
+  - "vic-2026-c18d6fca15b9.jpg"
 name: Borhan Seydi
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Killed during the severe suppression of public protests in Tehran. He was from the village of 'Ingicheh', Salmas county.
 source_type: Social Media
-source_social_media_link: https://x.com/KurdistanHRN/status/2010388444673909066, https://t.me/RememberTheirNames/97
-child: false
+source_social_media_link:
+  - "https://x.com/KurdistanHRN/status/2010388444673909066, https://t.me/RememberTheirNames/97"
+  - "https://x.com/KurdistanHRN/status/2010388444673909066"
 persian_name: برهان سیدی

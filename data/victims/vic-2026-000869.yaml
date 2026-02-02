@@ -2,7 +2,10 @@
 # Victim Documentation - Yasin Mirzaei Qaleh Zanjiri
 # ==========================================
 
-photo: vic-2026-000869.jpg
+photo:
+  - "vic-2026-000869.jpg"
+  - "vic-2026-e683ddbd2c56.jpg"
+  - "vic-2026-5ae95892471a.jpg"
 name: Yasin Mirzaei Qaleh Zanjiri
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   A Yarsani citizen and student residing in Italy, killed by gunfire in Kermanshah shortly after returning to Iran to visit his family during the January 2026 protests.
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2013233874742993283, https://t.me/RememberTheirNames/82
-child: false
+source_social_media_link:
+  - "https://x.com/iranwire/status/2013233874742993283, https://t.me/RememberTheirNames/82"
+  - "https://x.com/iranwire/status/2013233874742993283"
 persian_name: یاسین میرزایی قلعه‌زنجیری

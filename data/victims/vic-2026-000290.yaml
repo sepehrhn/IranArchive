@@ -2,7 +2,9 @@
 # Victim Documentation - Hadi (Mohsen) Ahmadpour
 # ==========================================
 
-photo: vic-2026-000290.jpg
+photo:
+  - "vic-2026-000290.jpg"
+  - "vic-2026-480f627cbcfc.png"
 name: Hadi (Mohsen) Ahmadpour
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Killed during protests (commemorated as martyr)
 source_type: Social Media
-source_social_media_link: https://x.com/abhaddadii/status/2013901363810287827, https://x.com/visfehan/status/2014367646137864260
-child: false
+source_social_media_link:
+  - "https://x.com/abhaddadii/status/2013901363810287827, https://x.com/visfehan/status/2014367646137864260"
+  - "https://x.com/visfehan/status/2014367646137864260"
 persian_name: هادی (محسن) احمدپور

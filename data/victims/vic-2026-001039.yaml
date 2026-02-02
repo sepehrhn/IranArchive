@@ -2,7 +2,10 @@
 # Victim Documentation - Amirreza Heydari
 # ==========================================
 
-photo: vic-2026-001039.jpg
+photo:
+  - "vic-2026-001039.jpg"
+  - "vic-2026-8913c896ac86.jpg"
+  - "vic-2026-7e19f5f30ed8.jpg"
 name: Amirreza Heydari
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Cousin of Mahan Heydari. Status is 'killed' based on context of the channel 'RememberTheirNames' and the numbering indicating a list of victims.
 source_type: Social Media
-source_social_media_link: https://x.com/the_parham_/status/2014472627633447403, https://x.com/AblotiaLucas/status/2010965817245024582, https://x.com/The_parham_/status/2014472627633447403, https://t.me/RememberTheirNames/1309
-child: true
+source_social_media_link:
+  - "https://x.com/the_parham_/status/2014472627633447403, https://x.com/AblotiaLucas/status/2010965817245024582, https://x.com/The_parham_/status/2014472627633447403, https://t.me/RememberTheirNames/1309"
+  - "https://x.com/the_parham_/status/2014472627633447403"
+  - "https://x.com/i/status/2016870694340976942"
 persian_name: امیررضا حیدری

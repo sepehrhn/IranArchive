@@ -2,7 +2,10 @@
 # Victim Documentation - Shamshad Ekhlasi
 # ==========================================
 
-photo: vic-2026-001224.jpg
+photo:
+  - "vic-2026-001224.jpg"
+  - "vic-2026-9565743207e7.jpg"
+  - "vic-2026-1a4549bef5c6.jpg"
 name: Shamshad Ekhlasi
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Killed during protests, from Qashqai tribe, authorities pressured for private burial without attendees
 source_type: Social Media
-source_social_media_link: https://x.com/imanoracle/status/2014031708358639811, https://t.me/RememberTheirNames/534
-child: false
+source_social_media_link:
+  - "https://x.com/imanoracle/status/2014031708358639811, https://t.me/RememberTheirNames/534"
+  - "https://x.com/imanoracle/status/2014031708358639811"
 persian_name: شمشاد اخلاصی

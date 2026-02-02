@@ -2,7 +2,9 @@
 # Victim Documentation - Ali Asghar Mohammadi Chamestan
 # ==========================================
 
-photo: vic-2026-000227.jpg
+photo:
+  - "vic-2026-000227.jpg"
+  - "vic-2026-bf48a8e5d296.jpg"
 name: Ali Asghar Mohammadi Chamestan
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: 24
 occupation: ""
 country: Iran
-incident_province: Noor
+incident_province: ""
 incident_city: Chamestan
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -22,5 +24,4 @@ description: |
   Shot by suppressive forces during people's protests
 source_type: Social Media
 source_social_media_link: https://x.com/manotonews/status/2014231559621038268, https://t.me/RememberTheirNames/521
-child: false
 persian_name: علی اصغر محمدی چمستان

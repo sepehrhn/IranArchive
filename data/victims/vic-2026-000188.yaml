@@ -2,7 +2,11 @@
 # Victim Documentation - Milad Kouchaki
 # ==========================================
 
-photo: vic-2026-000188.jpg
+photo:
+  - "vic-2026-000188.jpg"
+  - "vic-2026-f619caca3af7.jpg"
+  - "vic-2026-dd1d19aab360.jpg"
+  - "vic-2026-c7f898374f8b.jpg"
 name: Milad Kouchaki
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,9 @@ status: Killed
 description: |
   Shot with two bullets (one to the side, one to the head) by Islamic Republic suppression forces during protests in front of the governorate building
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2013404801992696197, https://x.com/hengawo/status/2013618561839677909, https://x.com/HengawO/status/2013618561839677909, https://t.me/RememberTheirNames/330
-child: false
+source_social_media_link:
+  - "https://x.com/indypersian/status/2013404801992696197, https://x.com/hengawo/status/2013618561839677909, https://x.com/HengawO/status/2013618561839677909, https://t.me/RememberTheirNames/330"
+  - "https://x.com/hengawo/status/2013618561839677909"
+  - "https://x.com/HengawO/status/2013618561839677909"
+  - "https://x.com/fseifikaran/status/2015950766616322457"
 persian_name: میلاد کوچکی

@@ -2,13 +2,18 @@
 # Victim Documentation - Mostafa Jafari Fasharaki
 # ==========================================
 
-photo: vic-2026-000758.jpg
+photo:
+  - "vic-2026-000758.jpg"
+  - "vic-2026-8da51436a84e.jpg"
+  - "vic-2026-556711ecac41.jpg"
+  - "vic-2026-297f2d4641de.jpg"
+  - "vic-2026-c17da952b029.jpg"
 name: Mostafa Jafari Fasharaki
 birth_date: ""
 birth_province: ""
 birth_city: behind
 gender: Male
-age: null
+age: 38
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -17,13 +22,16 @@ incident_address: Narmak
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
-status: Killed
+status: "Missing"
 description: |-
   Shot from behind
 
 
   Mentioned as a fallen flower gifted to the homeland, alongside Farid. No specific details on death.
 source_type: Social Media
-source_social_media_link: https://x.com/amureza64/status/2014351666099744849, https://x.com/amureza64/status/2014631253698281503, https://x.com/amureza64/status/2015791578150027455, https://t.me/RememberTheirNames/847
-child: false
+source_social_media_link:
+  - "https://x.com/amureza64/status/2014351666099744849, https://x.com/amureza64/status/2014631253698281503, https://x.com/amureza64/status/2015791578150027455, https://t.me/RememberTheirNames/847"
+  - "https://x.com/amureza64/status/2014631253698281503"
+  - "https://x.com/amureza64/status/2017310507330331034"
+  - "https://x.com/i/status/2016090997826920609"
 persian_name: مصطفی جعفری فشارکی

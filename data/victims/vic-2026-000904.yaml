@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Bazooneh
 # ==========================================
 
-photo: vic-2026-000904.jpg
+photo:
+  - "vic-2026-000904.jpg"
+  - "vic-2026-560b5860e410.jpg"
+  - "vic-2026-6880f29b0342.png"
 name: Mohammad Bazooneh
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Shot by IRGC forces during protests while passing by the Basij resistance building on Farmandarí Boulevard
 source_type: Social Media
-source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/KurdistanHRN/status/2007538683428077889
-child: false
+source_social_media_link:
+  - "https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/KurdistanHRN/status/2007538683428077889"
+  - "https://x.com/KurdistanHRN/status/2007538683428077889"
 persian_name: محمد بزونه

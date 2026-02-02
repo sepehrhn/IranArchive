@@ -2,7 +2,8 @@
 # Victim Documentation - Sobhan Marzban
 # ==========================================
 
-photo: vic-2026-001803.jpg
+photo:
+  - vic-2026-001803.jpg
 name: Sobhan Marzban
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/998
-child: false
 persian_name: سبحان مرزبان

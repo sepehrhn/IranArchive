@@ -2,7 +2,8 @@
 # Victim Documentation - Abdol-Sadat Shamsedini Lor Mamsani
 # ==========================================
 
-photo: vic-2026-000209.jpg
+photo:
+  - vic-2026-000209.jpg
 name: Abdol-Sadat Shamsedini Lor Mamsani
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Shot directly by security forces
 source_type: Social Media
 source_social_media_link: https://x.com/hirman__/status/2014431236127699137
-child: false
 persian_name: عبدالسادات شمس‌الدینی لر ممسنی

@@ -2,7 +2,11 @@
 # Victim Documentation - Davood Soltani Helisadi
 # ==========================================
 
-photo: vic-2026-001915.jpg
+photo:
+  - "vic-2026-001915.jpg"
+  - "vic-2026-26436b3edd69.jpg"
+  - "vic-2026-b283eaff86f5.jpg"
+  - "vic-2026-dd7268640568.jpg"
 name: Davood Soltani Helisadi
 birth_date: ""
 birth_province: ""
@@ -23,6 +27,8 @@ description: |-
 
   A 38-year-old teacher and father of three sets of triplets, he died in Isfahan from a direct gunshot wound to the side. His body was held for six days before being returned to his family under duress, with demands to report the cause of death as 'being a Basiji' and 'killed by terrorists'.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2015850686462783742, https://x.com/i/status/2015850686462783742, https://t.me/RememberTheirNames/1461
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2015850686462783742, https://x.com/i/status/2015850686462783742, https://t.me/RememberTheirNames/1461"
+  - "https://x.com/i/status/2015850686462783742"
+  - "https://t.me/RememberTheirNames/1461"
 persian_name: داوود سلطانی هلیسادی

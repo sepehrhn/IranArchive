@@ -2,7 +2,9 @@
 # Victim Documentation - Majid Behzadi Lor
 # ==========================================
 
-photo: vic-2026-001723.jpg
+photo:
+  - "vic-2026-001723.jpg"
+  - "vic-2026-0cb3b5fd532e.jpg"
 name: Majid Behzadi Lor
 birth_date: ""
 birth_province: ""
@@ -25,6 +27,7 @@ description: |-
 
   Killed by live ammunition fired by security forces. The family was asked to pay a large sum for the body's return, which they could not afford. He was declared a Basiji. He was identified as Bakhtiari.
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2015592376488583205, https://x.com/i/status/2015592376488583205, https://x.com/realneo101/status/2016221062682362352
-child: false
+source_social_media_link:
+  - "https://x.com/hirman__/status/2015592376488583205, https://x.com/i/status/2015592376488583205, https://x.com/realneo101/status/2016221062682362352"
+  - "https://x.com/i/status/2015592376488583205"
 persian_name: مجید بهزادی لر

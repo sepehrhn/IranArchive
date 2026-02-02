@@ -2,7 +2,10 @@
 # Victim Documentation - Mahdi Emami Pour
 # ==========================================
 
-photo: vic-2026-000902.jpg
+photo:
+  - "vic-2026-000902.jpg"
+  - "vic-2026-560b5860e410.jpg"
+  - "vic-2026-15955bfeb106.png"
 name: Mahdi Emami Pour
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,8 @@ status: Killed
 description: |
   Shot by IRGC forces during protests while passing by the Basij resistance building on Farmandarí Boulevard
 source_type: Social Media
-source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/KurdistanHRN/status/2007538683428077889, https://t.me/RememberTheirNames/56, https://en.wikipedia.org/wiki/2026_Iran_massacres, https://en.wikipedia.org/wiki/2026_Malekshahi_massacre, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2
-child: false
+source_social_media_link:
+  - "https://www.iran-emrooz.net/index.php/news2/125134/, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/KurdistanHRN/status/2007538683428077889, https://t.me/RememberTheirNames/56"
+  - "https://en.wikipedia.org/wiki/2026_Iran_massacres, https://en.wikipedia.org/wiki/2026_Malekshahi_massacre, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2"
+  - "https://x.com/KurdistanHRN/status/2007538683428077889"
 persian_name: مهدی امامی پور

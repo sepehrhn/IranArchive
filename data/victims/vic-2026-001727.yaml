@@ -2,7 +2,10 @@
 # Victim Documentation - Masoud Seifouri
 # ==========================================
 
-photo: vic-2026-001727.jpg
+photo:
+  - "vic-2026-001727.jpg"
+  - "vic-2026-4f586787ea14.jpg"
+  - "vic-2026-241147c92d61.jpg"
 name: Masoud Seifouri
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-09"
@@ -23,6 +26,8 @@ description: |-
 
   Killed during protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1048
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1048"
+  - "https://x.com/FSeifikaran/status/2017012327652958382"
+  - "https://x.com/Faryadmahsaazad/status/2017329677904351446"
 persian_name: مسعود صیفوری

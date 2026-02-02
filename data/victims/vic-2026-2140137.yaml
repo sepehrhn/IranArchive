@@ -2,7 +2,9 @@
 # Victim Documentation - Meysam Mousavi
 # ==========================================
 
-photo: vic-2026-2140137.jpg
+photo:
+  - "vic-2026-2140137.jpg"
+  - "vic-2026-3ff56d509640.jpg"
 name: Meysam Mousavi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,10 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Resident of Parand, originally from Khuzestan province, killed by the Islamic Republic. His father was a war veteran. The family had been under security pressure and his name had not been heard until now. The family asked for his name to be shared so he would not remain anonymous.
+description: Resident of Parand, originally from Khuzestan province, killed by the Islamic Republic. His father was a war veteran. The family had been under security pressure and his name had not been heard until now. The family asked for his name to be shared so he would not remain anonymous.
 source_type: Social Media
-source_social_media_link: https://x.com/persian_picture/status/2016444919779340477, https://x.com/Persian_picture/status/2016444919779340477
-child: false
+source_social_media_link:
+  - "https://x.com/persian_picture/status/2016444919779340477, https://x.com/Persian_picture/status/2016444919779340477"
+  - "https://x.com/Persian_picture/status/2016444919779340477"
+  - "https://x.com/i/status/2016444919779340477"
 persian_name: میثم موسوی

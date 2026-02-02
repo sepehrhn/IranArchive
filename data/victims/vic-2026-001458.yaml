@@ -2,24 +2,24 @@
 # Victim Documentation - Alireza Abolghasemi sehat
 # ==========================================
 
-photo: vic-2026-001458.jpeg
+photo:
+  - vic-2026-001458.jpeg
 name: Alireza Abolghasemi sehat
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-04'
+incident_city: ""
+incident_address: ""
+date_of_death: "2026-01-04"
 date_of_death_precision: Approximate
 cause_of_death: Gunshot
 status: Killed
-description: ''
+description: ""
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

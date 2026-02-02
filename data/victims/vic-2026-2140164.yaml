@@ -2,7 +2,9 @@
 # Victim Documentation - Sajjad Houshmand
 # ==========================================
 
-photo: vic-2026-2140164.jpg
+photo:
+  - "vic-2026-2140164.jpg"
+  - "vic-2026-b44018334c9f.jpg"
 name: Sajjad Houshmand
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,10 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  A 32-year-old man died in Ardebil as a result of being shot by government forces.
+description: A 32-year-old man died in Ardebil as a result of being shot by government forces.
 source_type: Social Media
-source_social_media_link: https://x.com/ashk_shadi/status/2016217073278497242, https://x.com/i/status/2016217073278497242
-child: false
+source_social_media_link:
+  - "https://x.com/ashk_shadi/status/2016217073278497242, https://x.com/i/status/2016217073278497242"
+  - "https://x.com/ashk_shadi/status/2016217073278497242"
+  - "https://x.com/i/status/2016217073278497242"
 persian_name: سجاد هوشمند

@@ -2,7 +2,10 @@
 # Victim Documentation - Yavar Saadi
 # ==========================================
 
-photo: vic-2026-001237.jpg
+photo:
+  - "vic-2026-001237.jpg"
+  - "vic-2026-4cfebd478fd4.jpg"
+  - "vic-2026-baca2b2bc72a.png"
 name: Yavar Saadi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Died on the path to freedom/homeland. Mentioned alongside Khamenei as a criminal, implying he was a victim of the regime.
 source_type: Social Media
-source_social_media_link: https://x.com/avatoday_news/status/2015169202294776156, https://t.me/RememberTheirNames/1105, https://x.com/HeKasrehCrisis/status/2015804323066720641
-child: false
+source_social_media_link:
+  - "https://x.com/avatoday_news/status/2015169202294776156, https://t.me/RememberTheirNames/1105, https://x.com/HeKasrehCrisis/status/2015804323066720641"
+  - "https://x.com/avatoday_news/status/2015169202294776156"
+  - "https://x.com/HeKasrehCrisis/status/2015804323066720641"
 persian_name: یاور سعدی

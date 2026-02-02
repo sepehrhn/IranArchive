@@ -2,21 +2,24 @@
 # Victim Documentation - Arian Rovai
 # ==========================================
 
-photo: vic-2026-001662.jpg
+photo:
+  - "vic-2026-001662.jpg"
+  - "vic-2026-2139777.jpg"
+  - "vic-2026-8aeba036f6b9.jpg"
 name: Arian Rovai
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 19
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Gilan
 incident_city: Rasht
-incident_address: ''
-date_of_death: '2026-01-09'
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |-
   Persian Name: آرین روایی
@@ -24,5 +27,5 @@ description: |-
   Shot directly three times with live ammunition to the head, heart, and chest. His lifeless body was subsequently stabbed. Sources say his family was pressured to claim he was a Basiji killed by the people, which is denied by his relatives.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hyrcanihrm/status/2015884470868701532
-child: false
+  - "https://x.com/hyrcanihrm/status/2015884470868701532"
+  - "https://x.com/hyrcanihrm/status/2015884470868701532, https://t.me/RememberTheirNames/1505"

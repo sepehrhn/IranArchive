@@ -2,19 +2,20 @@
 # Victim Documentation - Fatemeh Fatemi
 # ==========================================
 
-photo: vic-2026-000285.jpg
+photo:
+  - vic-2026-000285.jpg
 name: Fatemeh Fatemi
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
 age: 42
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,4 +24,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/amirmiresmaeili/status/2015071818571293115
-child: false

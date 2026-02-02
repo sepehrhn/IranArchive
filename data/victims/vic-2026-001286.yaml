@@ -2,16 +2,19 @@
 # Victim Documentation - Alireza Ahmadi Turkmani
 # ==========================================
 
-photo: vic-2026-001286.jpg
+photo:
+  - "vic-2026-001286.jpg"
+  - "vic-2026-66ee90708b4b.jpg"
+  - "vic-2026-74f476100fb6.jpg"
 name: Alireza Ahmadi Turkmani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 47
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-08"
@@ -26,6 +29,8 @@ description: |-
 
   Shot in the chest with birdshot by security forces. He was a father of two and a well-known shopkeeper in Fardis, also supporting his elderly parents. His body was reportedly transferred to Kahrizak after his death. He was also seen at the grave of Pouya Bakhtiari, a victim of the November 2019 protests.
 source_type: Social Media
-source_social_media_link: https://x.com/tavaana/status/2015243785492451347, https://x.com/Tavaana/status/2015243785492451347, https://x.com/roozbehmon/status/2015223544507248975, https://t.me/RememberTheirNames/1277
-child: false
+source_social_media_link:
+  - "https://x.com/tavaana/status/2015243785492451347, https://x.com/Tavaana/status/2015243785492451347, https://x.com/roozbehmon/status/2015223544507248975, https://t.me/RememberTheirNames/1277"
+  - "https://x.com/tavaana/status/2015243785492451347"
+  - "https://x.com/Tavaana/status/2015243785492451347"
 persian_name: علیرضا احمدی ترکمانی

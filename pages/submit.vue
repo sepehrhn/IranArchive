@@ -5,16 +5,16 @@
       <!-- Header -->
       <div class="bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-6">
         <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">
-          Submit Information
+          {{ t('submitPage.headerTitle') }}
         </h1>
         <p class="text-surface-500 dark:text-surface-400 mt-2">
-          Submit incidents, events, or campaigns anonymously. All submissions are reviewed before publishing.
+          {{ t('submitPage.headerSubtitle') }}
         </p>
       </div>
 
       <!-- Privacy Warning -->
       <Message severity="warn" :closable="false" class="mb-6">
-        <strong>Privacy Warning:</strong> Do not include personally identifying information unless you accept it may be published. All submissions are public after approval.
+        <strong>{{ t('submitPage.privacyTitle') }}</strong> {{ t('submitPage.privacyMessage') }}
       </Message>
 
       <!-- Success State -->
@@ -22,15 +22,15 @@
         <div class="flex items-start gap-3">
           <i class="pi pi-check-circle text-2xl text-green-600 dark:text-green-400"></i>
           <div class="flex-1">
-            <h3 class="font-bold text-green-900 dark:text-green-100 mb-2">Submission Received!</h3>
+            <h3 class="font-bold text-green-900 dark:text-green-100 mb-2">{{ t('submitPage.successTitle') }}</h3>
             <p class="text-green-800 dark:text-green-200 mb-3">
-              Your submission has been received and will be reviewed. A pull request will be created for manual review.
+              {{ t('submitPage.successMessage') }}
             </p>
             <div class="bg-white dark:bg-surface-800 p-3 rounded border border-green-200 dark:border-green-700">
-              <p class="text-sm text-surface-600 dark:text-surface-400 mb-1">Tracking ID:</p>
+              <p class="text-sm text-surface-600 dark:text-surface-400 mb-1">{{ t('submitPage.trackingId') }}</p>
               <code class="text-sm font-mono bg-surface-100 dark:bg-surface-700 px-2 py-1 rounded">{{ submissionId }}</code>
             </div>
-            <Button label="Submit Another" icon="pi pi-plus" class="mt-4" size="small" @click="resetForm" />
+            <Button :label="t('submitPage.submitAnother')" icon="pi pi-plus" class="mt-4" size="small" @click="resetForm" />
           </div>
         </div>
       </div>
@@ -40,7 +40,7 @@
         <TabView v-model:activeIndex="activeTab" class="w-full">
           
           <!-- Incident Tab -->
-          <TabPanel header="Incident">
+          <TabPanel :header="t('submitPage.tabs.incident')">
             <IncidentSubmissionForm
               v-if="activeTab === 0"
               @submit="handleSubmit"
@@ -48,7 +48,7 @@
             />
           </TabPanel>
 
-          <TabPanel header="Event">
+          <TabPanel :header="t('submitPage.tabs.event')">
             <div class="p-1">
               <EventSubmissionForm
                 v-if="activeTab === 1"
@@ -58,7 +58,7 @@
           </TabPanel>
 
           <!-- Campaign Tab -->
-          <TabPanel header="Campaign">
+          <TabPanel :header="t('submitPage.tabs.campaign')">
             <CampaignSubmissionForm
               v-if="activeTab === 2"
               @submit="handleSubmit"
@@ -78,6 +78,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue';
+const { t } = useI18n();
 import IncidentSubmissionForm from '~/components/submissions/IncidentSubmissionForm.vue';
 import EventSubmissionForm from '~/components/submissions/EventSubmissionForm.vue';
 import CampaignSubmissionForm from '~/components/submissions/CampaignSubmissionForm.vue';
@@ -91,9 +92,9 @@ import {
 
 // SEO
 useHead({
-  title: 'Submit Information - IranArchive',
+  title: t('submitPage.title'),
   meta: [
-    { name: 'description', content: 'Submit incidents, events, or campaigns to IranArchive anonymously.' }
+    { name: 'description', content: t('submitPage.description') }
   ]
 });
 

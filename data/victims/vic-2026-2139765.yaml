@@ -2,7 +2,9 @@
 # Victim Documentation - Alireza Sahebdel
 # ==========================================
 
-photo: vic-2026-2139765.jpg
+photo:
+  - "vic-2026-2139765.jpg"
+  - "vic-2026-085e846c7de9.png"
 name: Alireza Sahebdel
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,10 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot and killed by plainclothes security forces on Aban Street in Lab-ab area of Rasht between 22:00-22:30. Hit by two bullets - one to the heart from the front that exited through the back, and another near the neck that also exited through the other side. The bullets were likely fired from a Kalashnikov at very close range. After being killed, one of the plainclothes agents repeatedly kicked his body while saying 'Sayed Ali down with, yes?? Sayed Ali down with??' His body showed no reaction to the kicks. The body was then placed in the trunk of a car and taken away. His body was found one week later in Bagh-e Rezvan cemetery in Rasht.
+description: Shot and killed by plainclothes security forces on Aban Street in Lab-ab area of Rasht between 22:00-22:30. Hit by two bullets - one to the heart from the front that exited through the back, and another near the neck that also exited through the other side. The bullets were likely fired from a Kalashnikov at very close range. After being killed, one of the plainclothes agents repeatedly kicked his body while saying 'Sayed Ali down with, yes?? Sayed Ali down with??' His body showed no reaction to the kicks. The body was then placed in the trunk of a car and taken away. His body was found one week later in Bagh-e Rezvan cemetery in Rasht.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2016765813793894667
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2016765813793894667"
+  - "https://x.com/HeKasrehCrisis/status/2016765813793894667"
+  - "https://x.com/i/status/2016765813793894667"
 persian_name: علیرضا صاحبدل

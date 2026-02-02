@@ -2,7 +2,12 @@
 # Victim Documentation - Mehrdad Kermanjani
 # ==========================================
 
-photo: vic-2026-000347.jpg
+photo:
+  - "vic-2026-000347.jpg"
+  - "vic-2026-36c93d7de362.jpg"
+  - "vic-2026-cf7f7cfeb17f.jpg"
+  - "vic-2026-becfafef750e.jpg"
+  - "vic-2026-455b8eb77292.jpg"
 name: Mehrdad Kermanjani
 birth_date: ""
 birth_province: ""
@@ -11,7 +16,7 @@ gender: Male
 age: 30
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -24,6 +29,9 @@ description: |-
 
   A 31-year-old citizen from Kangavar, Kermanshah province, was killed in the protests of 19 Dey 1404 in Karaj. Mehrdad had joined the street protests in Gohardasht, Karaj, when he was suddenly targeted from behind with live ammunition.
 source_type: Social Media
-source_social_media_link: https://x.com/kurdpa_farsi/status/2014447021227208799, https://x.com/HengawO/status/2014429661707542927, https://t.me/RememberTheirNames/627, https://x.com/iranwire/status/2016247397655957589, https://x.com/KurdistanHRN/status/2016177480659353720
-child: false
+source_social_media_link:
+  - "https://x.com/kurdpa_farsi/status/2014447021227208799, https://x.com/HengawO/status/2014429661707542927, https://t.me/RememberTheirNames/627, https://x.com/iranwire/status/2016247397655957589, https://x.com/KurdistanHRN/status/2016177480659353720"
+  - "https://x.com/HengawO/status/2014429661707542927"
+  - "https://x.com/iranwire/status/2016247397655957589"
+  - "https://x.com/KurdistanHRN/status/2016177480659353720"
 persian_name: مهرداد کرماجانی

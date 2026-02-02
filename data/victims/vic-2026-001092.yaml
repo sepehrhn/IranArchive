@@ -2,7 +2,9 @@
 # Victim Documentation - Hassan Baho
 # ==========================================
 
-photo: vic-2026-001092.jpg
+photo:
+  - "vic-2026-001092.jpg"
+  - "vic-2026-681da33a028f.jpg"
 name: Hassan Baho
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Killed for raising the historical and national flag of Iranians
 source_type: Social Media
-source_social_media_link: https://x.com/samanthairani/status/2014235703685562641, https://t.me/RememberTheirNames/1080
-child: false
+source_social_media_link:
+  - "https://x.com/samanthairani/status/2014235703685562641, https://t.me/RememberTheirNames/1080"
+  - "https://x.com/SamanthaIrani/status/2013700278181089632"
 persian_name: حسن باهو

@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammadamin Aghiliazadeh
 # ==========================================
 
-photo: vic-2026-002013.jpg
+photo:
+  - "vic-2026-002013.jpg"
+  - "vic-2026-275ed0c6e6d5.jpg"
+  - "vic-2026-37a2ff01b809.jpg"
 name: Mohammadamin Aghiliazadeh
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,7 @@ description: |-
 
   A 17-year-old student who worked in a car wash to cover living expenses. Died from direct fire by government forces during public protests. His body was buried on January 19, 2026.
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2015288524795154686, https://t.me/RememberTheirNames/826
-child: true
+source_social_media_link:
+  - "https://x.com/manotonews/status/2015288524795154686, https://t.me/RememberTheirNames/826"
+  - "https://x.com/manotonews/status/2015288524795154686"
 persian_name: محمدامین عقیلی‌زاده

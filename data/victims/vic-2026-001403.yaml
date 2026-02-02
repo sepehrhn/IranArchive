@@ -2,13 +2,15 @@
 # Victim Documentation - Aghil Abbasi
 # ==========================================
 
-photo: ""
+photo:
+  - ""
+  - "vic-2026-b0a63b6d22b4.jpg"
 name: Aghil Abbasi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 22
 occupation: ""
 country: Iran
 incident_province: Razavi Khorasan
@@ -23,6 +25,7 @@ description: |
 
   Killed in Khajeh Rabi
 source_type: Social Media
-source_social_media_link: https://x.com/_021queen/status/2014645034616815861, https://x.com/_021Queen/status/2014645034616815861
-child: false
+source_social_media_link:
+  - "https://x.com/_021queen/status/2014645034616815861, https://x.com/_021Queen/status/2014645034616815861"
+  - "https://x.com/_021Queen/status/2014645034616815861"
 persian_name: عقیل عباسی

@@ -2,7 +2,15 @@
 # Victim Documentation - Abolfazl Baba Nejad
 # ==========================================
 
-photo: vic-2026-001435.jpeg
+photo:
+  - "vic-2026-001435.jpeg"
+  - "vic-2026-182e7a2163f0.jpg"
+  - "vic-2026-0f369e9812ff.jpg"
+  - "vic-2026-2d215a8a9f56.jpg"
+  - "vic-2026-62dc2e402d8f.jpg"
+  - "vic-2026-205e52a35fda.jpg"
+  - "vic-2026-6fdd7d66fe31.jpg"
+  - "vic-2026-41b33cf2bd35.jpg"
 name: Abolfazl Baba Nejad
 birth_date: ""
 birth_province: ""
@@ -23,5 +31,8 @@ description: |-
 
   Killed during protests in Babol, Mazandaran province. Also known as Milad.
 source_type: Local Report
-source_social_media_link: https://x.com/FSeifikaran/status/2013394056949223644, https://x.com/sssccpp/status/2015850906986721450
-child: false
+source_social_media_link:
+  - "https://x.com/FSeifikaran/status/2013394056949223644, https://x.com/sssccpp/status/2015850906986721450"
+  - "https://x.com/sssccpp/status/2015850906986721450"
+  - "https://x.com/HeKasrehCrisis/status/2015832412266151987"
+  - "https://x.com/HeKasrehCrisis/status/2016746215451357343"

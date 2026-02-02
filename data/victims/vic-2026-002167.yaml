@@ -2,7 +2,8 @@
 # Victim Documentation - Erfan Azizi
 # ==========================================
 
-photo: vic-2026-002167.jpg
+photo:
+  - vic-2026-002167.jpg
 name: Erfan Azizi
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/842
-child: true
 persian_name: عرفان عزتی

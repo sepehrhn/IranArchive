@@ -2,7 +2,10 @@
 # Victim Documentation - Mehdi Khosravi
 # ==========================================
 
-photo: vic-2026-001302.jpg
+photo:
+  - "vic-2026-001302.jpg"
+  - "vic-2026-8d0b5b8739d5.jpg"
+  - "vic-2026-bbad6f6d208b.jpg"
 name: Mehdi Khosravi
 birth_date: ""
 birth_province: ""
@@ -26,6 +29,8 @@ description: |-
 
   Hit by a bullet while bending down to pick up a stone. He was the youngest child of his family.
 source_type: Social Media
-source_social_media_link: https://x.com/realneo101/status/2015353337550393776, https://x.com/i/status/2015353337550393776, https://x.com/Realneo101/status/2015353337550393776
-child: false
+source_social_media_link:
+  - "https://x.com/realneo101/status/2015353337550393776, https://x.com/i/status/2015353337550393776, https://x.com/Realneo101/status/2015353337550393776"
+  - "https://x.com/Realneo101/status/2015353337550393776"
+  - "https://x.com/i/status/2015353337550393776"
 persian_name: مهدى خسروى

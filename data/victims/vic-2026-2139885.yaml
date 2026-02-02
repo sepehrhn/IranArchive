@@ -2,7 +2,10 @@
 # Victim Documentation - Behnam Imani Fooladi
 # ==========================================
 
-photo: vic-2026-2139885.jpg
+photo:
+  - "vic-2026-2139885.jpg"
+  - "vic-2026-08ad1a333f97.jpg"
+  - "vic-2026-b89332acfe7d.jpg"
 name: Behnam Imani Fooladi
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot in the head with live ammunition in Golsar, Rasht, sacrificing his life for the homeland.
+description: Shot in the head with live ammunition in Golsar, Rasht, sacrificing his life for the homeland.
 source_type: Social Media
 source_social_media_link: https://x.com/i/status/2015371581359313180
-child: false
 persian_name: بهنام ایمانی فولادی

@@ -2,7 +2,8 @@
 # Victim Documentation - Mojgan Erfani-far
 # ==========================================
 
-photo: vic-2026-002020.jpg
+photo:
+  - vic-2026-002020.jpg
 name: Mojgan Erfani-far
 birth_date: ""
 birth_province: ""
@@ -18,8 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |+
+description: ""
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/948
-child: false
 persian_name: مژگان عرفانی‌فر

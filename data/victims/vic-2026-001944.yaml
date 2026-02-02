@@ -2,7 +2,9 @@
 # Victim Documentation - Javad Heydarnejad
 # ==========================================
 
-photo: vic-2026-001944.jpg
+photo:
+  - "vic-2026-001944.jpg"
+  - "vic-2026-6ced7c189d3f.jpg"
 name: Javad Heydarnejad
 birth_date: ""
 birth_province: ""
@@ -17,9 +19,8 @@ incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
-status: Killed
-description: |+
+status: "Missing"
+description: ""
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/891
-child: false
 persian_name: جواد حیدرنژاد

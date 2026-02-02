@@ -2,21 +2,27 @@
 # Victim Documentation - Shahoo Shirazi
 # ==========================================
 
-photo: vic-2026-001370.jpg
+photo:
+  - "vic-2026-001370.jpg"
+  - "vic-2026-0f6683756bc4.jpg"
+  - "vic-2026-7d3651bd24c4.jpg"
+  - "vic-2026-dc987cdbc7e1.jpg"
+  - "vic-2026-ab5a2370a74c.jpg"
+  - "vic-2026-ee0a117dd245.jpg"
 name: Shahoo Shirazi
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Shahriar
-incident_address: ''
-date_of_death: '2026-01-09'
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |
   Persian Name: شاهو شیرازی
@@ -24,5 +30,7 @@ description: |
   Killed by the repressive forces of the Islamic Republic with two bullets to his heart.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/longlosthills/status/2015403214577750385
-child: false
+  - "https://x.com/longlosthills/status/2015403214577750385"
+  - "https://x.com/shaya9000/status/2015694715057012884"
+  - "https://x.com/i/status/2016940277353546145"
+  - "https://x.com/i/status/2015400719520841780"

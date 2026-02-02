@@ -2,7 +2,9 @@
 # Victim Documentation - Hassan Iranpour
 # ==========================================
 
-photo: vic-2026-001093.jpg
+photo:
+  - "vic-2026-001093.jpg"
+  - "vic-2026-5403c6fda822.jpg"
 name: Hassan Iranpour
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   From Mobarakeh, Isfahan. Memorial tribute posted suggesting death during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/abhaddadii/status/2013901363810287827, https://x.com/VIsfehan/status/2016229897178374569
-child: false
+source_social_media_link:
+  - "https://x.com/abhaddadii/status/2013901363810287827, https://x.com/VIsfehan/status/2016229897178374569"
+  - "https://x.com/VIsfehan/status/2016229897178374569"
 persian_name: حسن ایرانپور

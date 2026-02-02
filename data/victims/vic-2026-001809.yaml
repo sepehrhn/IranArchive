@@ -2,7 +2,11 @@
 # Victim Documentation - Yazdan Tamana
 # ==========================================
 
-photo: vic-2026-001809.jpg
+photo:
+  - "vic-2026-001809.jpg"
+  - "vic-2026-540ef2194550.jpg"
+  - "vic-2026-9a226a4ba459.jpg"
+  - "vic-2026-c3032497b3ef.jpg"
 name: Yazdan Tamana
 birth_date: ""
 birth_province: ""
@@ -23,6 +27,9 @@ description: |-
 
   Mentioned as 'Javidnam' (eternal/immortal) in a post about the protests.
 source_type: Social Media
-source_social_media_link: https://www.instagram.com/p/DT6RishkbNo, https://x.com/missmarpel75/status/2015753775017783552, https://t.me/RememberTheirNames/1320
-child: false
+source_social_media_link:
+  - "https://www.instagram.com/p/DT6RishkbNo, https://x.com/missmarpel75/status/2015753775017783552, https://t.me/RememberTheirNames/1320"
+  - "https://www.instagram.com/p/DT6RishkbNo"
+  - "https://x.com/i/status/2016825891649704259"
+  - "https://x.com/i/status/2017019394941985008"
 persian_name: یزدان تمنا

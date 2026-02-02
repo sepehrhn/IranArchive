@@ -2,7 +2,9 @@
 # Victim Documentation - Saeid Arian
 # ==========================================
 
-photo: vic-2026-001315.jpg
+photo:
+  - "vic-2026-001315.jpg"
+  - "vic-2026-6a090a07b21f.jpg"
 name: Saeid Arian
 birth_date: ""
 birth_province: ""
@@ -26,6 +28,7 @@ description: |-
 
   Disappeared during protests on Shariati Street, his lifeless body was later handed over to his family at the Arak morgue without clear explanation from authorities.
 source_type: Social Media
-source_social_media_link: https://x.com/SaeidVafa/status/2015503706414801404, https://x.com/behnam_chegini/status/2015553286149992868, https://t.me/RememberTheirNames/1267
-child: false
+source_social_media_link:
+  - "https://x.com/SaeidVafa/status/2015503706414801404, https://x.com/behnam_chegini/status/2015553286149992868, https://t.me/RememberTheirNames/1267"
+  - "https://x.com/behnam_chegini/status/2015553286149992868"
 persian_name: سعید آریان

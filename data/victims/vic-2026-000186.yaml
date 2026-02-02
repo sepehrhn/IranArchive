@@ -2,7 +2,8 @@
 # Victim Documentation - Mehrab Mansouri
 # ==========================================
 
-photo: vic-2026-000186.jpg
+photo:
+  - vic-2026-000186.jpg
 name: Mehrab Mansouri
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: 47
 occupation: ""
 country: Iran
-incident_province: نورآباد ممسنی
+incident_province: ""
 incident_city: Falak-e Amuzesh va Parvaresh
 incident_address: Falak-e Amuzesh va Parvaresh
 date_of_death: "2026-01-10"
@@ -21,6 +22,7 @@ status: Killed
 description: |
   Shot with military bullet in Education and Training Sector (Amoozesh va Parvarish) area
 source_type: Social Media
-source_social_media_link: https://x.com/EhsanZareei/status/2014445102333083721, https://t.me/RememberTheirNames/757
-child: false
+source_social_media_link:
+  - "https://x.com/EhsanZareei/status/2014445102333083721, https://t.me/RememberTheirNames/757"
+  - "https://x.com/EhsanZareei/status/2014445102333083721"
 persian_name: محراب منصوری

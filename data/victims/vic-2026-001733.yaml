@@ -2,13 +2,20 @@
 # Victim Documentation - Mehdi Gholami
 # ==========================================
 
-photo: vic-2026-001733.jpg
+photo:
+  - "vic-2026-001733.jpg"
+  - "vic-2026-2139807.jpg"
+  - "vic-2026-223ea437b9fd.jpg"
+  - "vic-2026-986dc70a3330.png"
+  - "vic-2026-baa29917c42a.png"
+  - "vic-2026-c2e27065306c.png"
+  - "vic-2026-c6637f905de9.png"
 name: Mehdi Gholami
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 28
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,6 +30,10 @@ description: |-
 
   Died during protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1350
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1350"
+  - "https://x.com/realneo101/status/2015732127338229913, https://x.com/hekasrehcrisis/status/2016352169033675096"
+  - "https://x.com/realneo101/status/2015732127338229913"
+  - "https://x.com/i/status/2015732127338229913"
+  - "https://x.com/hekasrehcrisis/status/2016352169033675096"
 persian_name: مهدی غلامی

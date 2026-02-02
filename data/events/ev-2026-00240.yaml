@@ -1,0 +1,43 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Weekly Solidarity Rally with Iran Uprising"
+
+featured: true
+
+description: |
+  A regular Saturday gathering for independent supporters of the ongoing uprising. Participants typically chant slogans like 'Woman, Life, Freedom' (Kvinna, Liv, Frihet) and 'Death to the Dictator'. This event is generally distinct from MEK rallies.
+  
+  **Tips:** Look for the Lion and Sun flags (monarchist/nationalist) or 'Woman Life Freedom' banners. Avoid groups wearing matching yellow vests if you wish to exclude MEK/NCRI.
+  
+  **Location Details:** Near the central fountain/steps (Plattan).
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: "14:00"
+  end: "2026/02/07"
+  end_time: "16:00"
+
+location:
+  country: "SE"
+  city: "Stockholm"
+  address: "Sergels Torg, Stockholm"
+
+online: []
+
+organizer:
+  name: "Independent 'Woman, Life, Freedom' activists / Diverse diaspora groups"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYHLGnkQ8YByTVANkUXCWrrcd1yT2hnbD1qXUDv0xwqpW2uKTtA77kRpM3bHiy_c_TuMHUnxmOK-X9pfZU66istMWE3ebP4M4t"

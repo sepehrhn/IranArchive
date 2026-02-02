@@ -2,7 +2,10 @@
 # Victim Documentation - Payam Rokhbakhsh
 # ==========================================
 
-photo: vic-2026-2139989.jpg
+photo:
+  - "vic-2026-2139989.jpg"
+  - "vic-2026-1fd0f1adf667.jpg"
+  - "vic-2026-48a6ec4f5405.jpg"
 name: Payam Rokhbakhsh
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,10 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Fell while fleeing and was shot at close range with birdshot. Died in Namazi Hospital in Shiraz due to severe blood loss. Authorities imposed conditions for the handover of his body.
+description: Fell while fleeing and was shot at close range with birdshot. Died in Namazi Hospital in Shiraz due to severe blood loss. Authorities imposed conditions for the handover of his body.
 source_type: Social Media
-source_social_media_link: https://x.com/MayaThefish/status/2015532220610412551, https://t.me/RememberTheirNames/398
-child: false
+source_social_media_link:
+  - "https://x.com/MayaThefish/status/2015532220610412551, https://t.me/RememberTheirNames/398"
+  - "https://x.com/sssccpp/status/2017685687005286573"
+  - "https://x.com/Sssccpp/status/2017685687005286573"
 persian_name: پیام رخ‌بخش

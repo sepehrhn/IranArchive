@@ -2,7 +2,8 @@
 # Victim Documentation - Mohammad Javad Pourkarim
 # ==========================================
 
-photo: vic-2026-001994.jpg
+photo:
+  - vic-2026-001994.jpg
 name: Mohammad Javad Pourkarim
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/892
-child: false
 persian_name: محمدجواد (مهدی) پورکریم

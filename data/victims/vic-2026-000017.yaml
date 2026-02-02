@@ -2,7 +2,9 @@
 # Victim Documentation - Abdolali Salimi
 # ==========================================
 
-photo: placeholder.png
+photo:
+  - "placeholder.png"
+  - "vic-2026-f175c4f52910.jpg"
 name: Abdolali Salimi
 birth_date: ""
 birth_province: ""
@@ -26,5 +28,4 @@ description: |-
   Worker at a company, head of two children and an elderly mother. Died on the 18th, early hours of the call. His two children will wait for their father forever.
 source_type: Social Media
 source_social_media_link: https://x.com/persephone7597/status/2016146989306581040
-child: false
 persian_name: عبدالعلی سلیمی

@@ -2,7 +2,10 @@
 # Victim Documentation - Salar Mehri
 # ==========================================
 
-photo: vic-2026-000065.jpg
+photo:
+  - "vic-2026-000065.jpg"
+  - "vic-2026-8b409eba41f6.jpg"
+  - "vic-2026-000434.jpg"
 name: Salar Mehri
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,9 @@ description: |-
 
   Killed by shooting by the Islamic Republic's military-security forces during popular protests.
 source_type: Social Media
-source_social_media_link: https://x.com/kurdistanhrn/status/2014695305782952382, https://x.com/KurdistanHRN/status/2014695305782952382, https://t.me/RememberTheirNames/863
-child: false
+source_social_media_link:
+  - "https://x.com/kurdistanhrn/status/2014695305782952382, https://x.com/KurdistanHRN/status/2014695305782952382, https://t.me/RememberTheirNames/863"
+  - "https://x.com/KurdistanHRN/status/2014695305782952382"
+  - "https://x.com/kurdistanhrn/status/2014695305782952382"
+  - "https://x.com/kheradvarzaneh/status/2014428557590561257"
 persian_name: سالار مهری

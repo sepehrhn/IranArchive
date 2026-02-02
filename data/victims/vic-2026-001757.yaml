@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Masoumi Lor
 # ==========================================
 
-photo: vic-2026-001757.jpg
+photo:
+  - "vic-2026-001757.jpg"
+  - "vic-2026-2c9995ca96d0.jpg"
 name: Mohammad Masoumi Lor
 birth_date: ""
 birth_province: ""
@@ -25,6 +27,7 @@ description: |-
 
   Shot in the heart on a Friday night. He was an army soldier and had recently given a ring to his neighbor's daughter to marry her after his service. His grave is in Dizlu village, Ardastan. Authorities declared him a martyr and claimed people killed him, but his family rejected this.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014332861415841824, https://x.com/VIsfehan/status/2014332861415841824, https://x.com/hirman__/status/2015603747229933884, https://t.me/RememberTheirNames/669, https://x.com/VIsfehan/status/2015812192671560182
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2014332861415841824, https://x.com/VIsfehan/status/2014332861415841824, https://x.com/hirman__/status/2015603747229933884, https://t.me/RememberTheirNames/669, https://x.com/VIsfehan/status/2015812192671560182"
+  - "https://x.com/hirman__/status/2015603747229933884"
 persian_name: محمد معصومی

@@ -2,24 +2,24 @@
 # Victim Documentation - Akbar Teympuri
 # ==========================================
 
-photo: vic-2026-001448.jpeg
+photo:
+  - vic-2026-001448.jpeg
 name: Akbar Teympuri
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Hamadan
 incident_city: Kuhdasht
-incident_address: ''
-date_of_death: '2026-01-07'
+incident_address: ""
+date_of_death: "2026-01-07"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: ''
+description: ""
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

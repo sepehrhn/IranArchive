@@ -2,7 +2,13 @@
 # Victim Documentation - Mohammad Reza Ahangar
 # ==========================================
 
-photo: vic-2026-000729.jpg
+photo:
+  - "vic-2026-000729.jpg"
+  - "vic-2026-fae6e913f457.jpg"
+  - "vic-2026-a489ce628a41.jpg"
+  - "vic-2026-ad3d41e834d7.jpg"
+  - "vic-2026-27a271c37ead.jpg"
+  - "vic-2026-fd388f5a5205.jpg"
 name: Mohammad Reza Ahangar
 birth_date: ""
 birth_province: ""
@@ -21,6 +27,12 @@ status: Killed
 description: |
   Shot directly by government forces during protests on Kashani Street, Sadeghieh second circle. Eyewitnesses report he was shot in the head by a bullet fired from above the Goldis complex opposite Ibn Sina Hospital
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2013244932648018136, https://x.com/iranwire/status/2013250792048763270, https://x.com/sssccpp/status/2013299534743429277, https://x.com/fseifikaran/status/2013706011186454528, https://x.com/FSeifikaran/status/2013549886277357659, https://x.com/Sssccpp/status/2013299534743429277, https://x.com/Sashtyani/status/2015552388304601276, https://x.com/MahshadBayat/status/2013205264514666710, https://t.me/RememberTheirNames/218, https://x.com/pouriazeraati/status/2016049239428563002
-child: false
+source_social_media_link:
+  - "https://x.com/iranwire/status/2013244932648018136, https://x.com/iranwire/status/2013250792048763270, https://x.com/sssccpp/status/2013299534743429277, https://x.com/fseifikaran/status/2013706011186454528, https://x.com/FSeifikaran/status/2013549886277357659, https://x.com/Sssccpp/status/2013299534743429277, https://x.com/Sashtyani/status/2015552388304601276, https://x.com/MahshadBayat/status/2013205264514666710, https://t.me/RememberTheirNames/218, https://x.com/pouriazeraati/status/2016049239428563002"
+  - "https://x.com/sssccpp/status/2013299534743429277"
+  - "https://x.com/fseifikaran/status/2013706011186454528"
+  - "https://x.com/FSeifikaran/status/2013549886277357659"
+  - "https://x.com/Sssccpp/status/2013299534743429277"
+  - "https://x.com/MahshadBayat/status/2013205264514666710"
+  - "https://x.com/Sashtyani/status/2015552388304601276"
 persian_name: محمدرضا آهنگر

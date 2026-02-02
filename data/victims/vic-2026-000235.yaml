@@ -2,7 +2,9 @@
 # Victim Documentation - Ali Pahlavani
 # ==========================================
 
-photo: vic-2026-000235.png
+photo:
+  - "vic-2026-000235.png"
+  - "vic-2026-da613b90f940.png"
 name: Ali Pahlavani
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,8 @@ description: |-
 
   Shot in the heart with live ammunition at the end of Jey Street, near Abr Street.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014361684064825524, https://x.com/VIsfehan/status/2014361684064825524, https://t.me/RememberTheirNames/667
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2014361684064825524, https://x.com/VIsfehan/status/2014361684064825524, https://t.me/RememberTheirNames/667"
+  - "https://x.com/visfehan/status/2014361684064825524"
+  - "https://x.com/VIsfehan/status/2014361684064825524"
 persian_name: علی پهلوانی

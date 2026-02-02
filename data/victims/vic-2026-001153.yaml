@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Mostafazadeh
 # ==========================================
 
-photo: vic-2026-001153.jpg
+photo:
+  - "vic-2026-001153.jpg"
+  - "vic-2026-7152899b3675.jpg"
+  - "vic-2026-712439718d27.jpg"
 name: Mohammad Mostafazadeh
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,7 @@ description: |-
 
   Mentioned as a victim in a list of names.
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2013396146186563772, https://t.me/RememberTheirNames/1126
-child: false
+source_social_media_link:
+  - "https://x.com/fseifikaran/status/2013396146186563772, https://t.me/RememberTheirNames/1126"
+  - "https://x.com/fseifikaran/status/2013396146186563772"
 persian_name: محمد مصطفی‌زاده

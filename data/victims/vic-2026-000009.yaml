@@ -2,21 +2,28 @@
 # Victim Documentation - Saeed Daroudi
 # ==========================================
 
-photo: vic-2026-000009.jpeg
+photo:
+  - "vic-2026-000009.jpeg"
+  - "vic-2026-000019.png"
+  - "vic-2026-d16235967c43.jpg"
+  - "vic-2026-814533a28517.jpg"
+  - "vic-2026-26b968f96b2a.jpg"
+  - "vic-2026-5ee338195ea2.jpg"
+  - "vic-2026-9c55444e5053.jpg"
 name: Saeed Daroudi
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: null
 occupation: Student
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 disappearance_circumstances: Arrested and transferred to unknown location
 suspected_actor: Security Forces
 status: Missing
@@ -28,5 +35,9 @@ description: |
   # -----------------------------------------------------------------------------
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/gholips/status/2014876033489445237?s=20
-child: false
+  - "https://x.com/gholips/status/2014876033489445237?s=20"
+  - "https://t.me/javanmardi77/154032"
+  - "https://x.com/alitagh30207454/status/2014668009818771563"
+  - "https://x.com/gholips/status/2014876033489445237"
+  - "https://x.com/justchangingun/status/2015485765392748932"
+  - "https://x.com/blablabelo/status/2014681144831230352"

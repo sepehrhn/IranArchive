@@ -2,13 +2,22 @@
 # Victim Documentation - Armin Motamed-Amini
 # ==========================================
 
-photo: vic-2026-000253.png
+photo:
+  - "vic-2026-000253.png"
+  - "vic-2026-415b26191d99.png"
+  - "vic-2026-4eed35adf461.jpg"
+  - "vic-2026-40547d8627ad.png"
+  - "vic-2026-fca4d06ddf7d.jpg"
+  - "vic-2026-dfeda4b1ecf0.jpg"
+  - "vic-2026-db595206b4c3.jpg"
+  - "vic-2026-ee44c2cf883e.jpg"
+  - "vic-2026-4d6190c3cb0f.jpg"
 name: Armin Motamed-Amini
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 12
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -21,6 +30,10 @@ status: Killed
 description: |
   Shot in the heart by government forces during protests, body handed over to family in Kahrizak on January 11
 source_type: Social Media
-source_social_media_link: https://hengaw.net/en/news/2026/01/article-123-1, https://x.com/dadban4/status/2012129775792345091, https://x.com/Daikatuo/status/2012213041681555926, https://x.com/elllwho/status/2014749595562078634, https://t.me/RememberTheirNames/412
-child: false
+source_social_media_link:
+  - "https://hengaw.net/en/news/2026/01/article-123-1, https://x.com/dadban4/status/2012129775792345091, https://x.com/Daikatuo/status/2012213041681555926, https://x.com/elllwho/status/2014749595562078634, https://t.me/RememberTheirNames/412"
+  - "https://x.com/Daikatuo/status/2012213041681555926"
+  - "https://x.com/dadban4/status/2012129775792345091"
+  - "https://x.com/elllwho/status/2014749595562078634"
+  - "https://x.com/noamagid/status/2015058415031132521"
 persian_name: آرمین معتمدامینی

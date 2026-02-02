@@ -2,7 +2,10 @@
 # Victim Documentation - Dr. Sajjad Kiani
 # ==========================================
 
-photo: vic-2026-000582.jpg
+photo:
+  - "vic-2026-000582.jpg"
+  - "vic-2026-78e0a9293150.jpg"
+  - "vic-2026-d8dbc361f637.jpg"
 name: Dr. Sajjad Kiani
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,8 @@ status: Killed
 description: |
   Shot with war bullets by Islamic Republic suppression forces during evening protests
 source_type: Social Media
-source_social_media_link: https://x.com/kurdpa_farsi/status/2014034004693962930, https://x.com/samanthairani/status/2014235703685562641
-child: false
+source_social_media_link:
+  - "https://x.com/kurdpa_farsi/status/2014034004693962930, https://x.com/samanthairani/status/2014235703685562641"
+  - "https://x.com/kurdpa_farsi/status/2014034004693962930"
+  - "https://x.com/samanthairani/status/2014235703685562641"
 persian_name: دکتر سجاد کیانی

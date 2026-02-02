@@ -2,7 +2,9 @@
 # Victim Documentation - Alireza Fereydooni
 # ==========================================
 
-photo: vic-2026-001021.jpg
+photo:
+  - "vic-2026-001021.jpg"
+  - "vic-2026-f028201fe039.jpg"
 name: Alireza Fereydooni
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,8 @@ description: |-
 
   Died from a direct shot to the head. Martyred in Bandar Abbas, Hormozgan province, Iran.
 source_type: Social Media
-source_social_media_link: https://x.com/thebalochworld/status/2014973538705474036, https://t.me/RememberTheirNames/206
-child: false
+source_social_media_link:
+  - "https://x.com/thebalochworld/status/2014973538705474036, https://t.me/RememberTheirNames/206"
+  - "https://x.com/thebalochworld/status/2014973538705474036"
+  - "https://x.com/TheBalochWorld/status/2014973538705474036"
 persian_name: علیرضا فریدونی

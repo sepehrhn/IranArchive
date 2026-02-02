@@ -2,7 +2,10 @@
 # Victim Documentation - Zahra Eidgahi
 # ==========================================
 
-photo: vic-2026-000874.jpg
+photo:
+  - "vic-2026-000874.jpg"
+  - "vic-2026-80e66a6d4fb8.jpg"
+  - "vic-2026-7b4ff2f8c1c7.jpg"
 name: Zahra Eidgahi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,9 @@ description: |-
 
   Shot with live ammunition during public protests at Haft-e Tir Square.
 source_type: Social Media
-source_social_media_link: https://x.com/elaabita2022/status/2014954443406713049, https://x.com/ElaaBita2022/status/2014954443406713049
-child: false
+source_social_media_link:
+  - "https://x.com/elaabita2022/status/2014954443406713049, https://x.com/ElaaBita2022/status/2014954443406713049"
+  - "https://x.com/elaabita2022/status/2014954443406713049"
+  - "https://x.com/ElaaBita2022/status/2014954443406713049"
+  - "https://x.com/iliaaaa6/status/2017334794711863318"
 persian_name: زهرا عیدگاهی

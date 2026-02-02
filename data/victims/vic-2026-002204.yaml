@@ -2,16 +2,19 @@
 # Victim Documentation - Hamidreza Hadadi
 # ==========================================
 
-photo: vic-2026-002204.jpg
+photo:
+  - "vic-2026-002204.jpg"
+  - "vic-2026-5c98afdc8cef.jpg"
+  - "vic-2026-48667b767cef.jpg"
 name: Hamidreza Hadadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 26
 occupation: ""
 country: Iran
-incident_province: Mashhad
+incident_province: ""
 incident_city: Shandiz
 incident_address: ""
 date_of_death: ""
@@ -25,6 +28,8 @@ description: |-
 
   Son of Iran and killed on the path of the homeland.
 source_type: Social Media
-source_social_media_link: https://x.com/saraapoor/status/2015532304953745412, https://x.com/mahmocean/status/2015772827140452727
-child: false
+source_social_media_link:
+  - "https://x.com/saraapoor/status/2015532304953745412, https://x.com/mahmocean/status/2015772827140452727"
+  - "https://x.com/saraapoor/status/2015532304953745412"
+  - "https://x.com/mahmocean/status/2015772827140452727"
 persian_name: حمیدرضا حدادی

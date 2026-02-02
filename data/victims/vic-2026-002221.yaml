@@ -2,7 +2,9 @@
 # Victim Documentation - Maziar Nourozi Esfahani
 # ==========================================
 
-photo: vic-2026-002221.jpg
+photo:
+  - "vic-2026-002221.jpg"
+  - "vic-2026-99352309338d.jpg"
 name: Maziar Nourozi Esfahani
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,8 @@ description: |-
 
   Shot in the head with live ammunition. His family was denied permission to hold a funeral or mourning ceremony.
 source_type: Social Media
-source_social_media_link: https://x.com/sashtyani/status/2015741980731457976, https://x.com/Sashtyani/status/2015741980731457976
-child: false
+source_social_media_link:
+  - "https://x.com/sashtyani/status/2015741980731457976, https://x.com/Sashtyani/status/2015741980731457976"
+  - "https://x.com/sashtyani/status/2015741980731457976"
+  - "https://x.com/Sashtyani/status/2015741980731457976"
 persian_name: مازیار نوروزی اصفهانی

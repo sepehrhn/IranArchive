@@ -109,7 +109,7 @@ export interface RelatedIncident {
 }
 
 export interface Incident {
-    // id: string; // Injected at runtime from filename
+    id: string; // Injected at runtime from filename
     status: IncidentStatus;
     occurred_at: DateRange;
     location: Location;

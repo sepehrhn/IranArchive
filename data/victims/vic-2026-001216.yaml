@@ -2,19 +2,22 @@
 # Victim Documentation - Sarallah Farokhi
 # ==========================================
 
-photo: vic-2026-001216.jpg
+photo:
+  - "vic-2026-001216.jpg"
+  - "vic-2026-002258.jpg"
+  - "vic-2026-762737d27da7.jpg"
 name: Sarallah Farokhi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 37
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Yasuj
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +25,7 @@ description: |
   Killed by direct fire from a war weapon by repressive forces.
 source_type: Social Media
 source_social_media_link:
-  - https://t.me/poshtpardeha/248644
-child: false
+  - "https://t.me/poshtpardeha/248644"
+  - "https://t.me/poshtpardeha/248644, https://x.com/1youngcrazy/status/2015415757077709178"
+  - "https://x.com/1youngcrazy/status/2015415757077709178"
+  - "https://x.com/1youngcrazy/status/2015434980084646137"

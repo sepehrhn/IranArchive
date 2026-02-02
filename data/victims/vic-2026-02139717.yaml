@@ -2,7 +2,11 @@
 # Victim Documentation - Reza Amiri
 # ==========================================
 
-photo: vic-2026-02139717.jpg
+photo:
+  - "vic-2026-02139717.jpg"
+  - "vic-2026-11e94b20618d.jpg"
+  - "vic-2026-eaf0556b88dc.jpg"
+  - "vic-2026-e9100f41066f.jpg"
 name: Reza Amiri
 birth_date: ""
 birth_province: Gilan
@@ -24,10 +28,16 @@ description: |-
 
   18-year-old Gilak citizen from Chaboksar, shot directly in the head by Islamic Republic of Iran government forces during protests on the night of 18 Dey 1404
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1572, https://x.com/hyrcanihrm/status/2016242074048168357, https://x.com/HyrcaniHRM/status/2016242074048168357, https://x.com/i/status/2016242074048168357
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1572, https://x.com/hyrcanihrm/status/2016242074048168357, https://x.com/HyrcaniHRM/status/2016242074048168357, https://x.com/i/status/2016242074048168357"
+  - "https://x.com/hirman__/status/2017512843843682525"
+  - "https://x.com/hyrcanihrm/status/2016242074048168357"
+  - "https://x.com/HyrcaniHRM/status/2016242074048168357"
+  - "https://x.com/i/status/2016242074048168357"
+  - "https://x.com/Tavaana/status/2017154824379179318"
+  - "https://x.com/tavaana/status/2017154824379179318"
 submission:
   submitted_by: ""
   received_at: "2026-01-28T09:13:26.579Z"
   submission_id: 02139717-715e-4a21-acdf-e3b1d54c83b1
-child: false
 persian_name: رضا امیری

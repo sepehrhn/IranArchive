@@ -2,7 +2,9 @@
 # Victim Documentation - Abolfazl Bamdadi
 # ==========================================
 
-photo: vic-2026-001549.jpg
+photo:
+  - "vic-2026-001549.jpg"
+  - "vic-2026-d2bfaf648e0d.png"
 name: Abolfazl Bamdadi
 birth_date: ""
 birth_province: ""
@@ -25,6 +27,7 @@ description: |-
 
   Shot in the head with a bullet during protests. Was associated with a welfare center (مرکز بهزیستی). Had no father or mother. Buried without ceremony due to authorities' threats against holding memorial services. Authorities threatened to arrest anyone who mentions his name.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/621, https://x.com/hekasrehcrisis/status/2016619462187786634, https://x.com/HeKasrehCrisis/status/2016619462187786634
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/621, https://x.com/hekasrehcrisis/status/2016619462187786634, https://x.com/HeKasrehCrisis/status/2016619462187786634"
+  - "https://x.com/HeKasrehCrisis/status/2016619462187786634"
 persian_name: ابوالفضل بامدادی
