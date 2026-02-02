@@ -2,7 +2,9 @@
 # Victim Documentation - Mehrdad Danehpash
 # ==========================================
 
-photo: vic-2026-000688.jpg
+photo:
+  - "vic-2026-000688.jpg"
+  - "vic-2026-b5ab7f16a269.jpg"
 name: Mehrdad Danehpash
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,8 @@ description: |-
 
   Shot in the chest by security forces during protests in Sadeghieh Square. His body was returned to his family in Kahrizak and buried in Behesht-e Zahra.
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2014338008061747700, https://x.com/ManotoNews/status/2014338008061747700, https://t.me/RememberTheirNames/532
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2014338008061747700, https://x.com/ManotoNews/status/2014338008061747700, https://t.me/RememberTheirNames/532"
+  - "https://x.com/manotonews/status/2014338008061747700"
+  - "https://x.com/ManotoNews/status/2014338008061747700"
 persian_name: مهرداد دانه‌پاش

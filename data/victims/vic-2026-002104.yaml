@@ -2,7 +2,9 @@
 # Victim Documentation - Afsaneh Mehdinejad
 # ==========================================
 
-photo: vic-2026-002104.jpg
+photo:
+  - "vic-2026-002104.jpg"
+  - "vic-2026-2b862a530f2d.jpg"
 name: Afsaneh Mehdinejad
 birth_date: ""
 birth_province: ""
@@ -24,5 +26,4 @@ description: |-
   Died in December 2025 or January 2026.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/687
-child: false
 persian_name: افسانه مهدی‌نژاد

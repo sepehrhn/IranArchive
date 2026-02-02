@@ -2,7 +2,9 @@
 # Victim Documentation - Ali Asghar Ahmadpanah
 # ==========================================
 
-photo: vic-2026-001833.jpg
+photo:
+  - "vic-2026-001833.jpg"
+  - "vic-2026-c8bae25aedfc.jpg"
 name: Ali Asghar Ahmadpanah
 birth_date: ""
 birth_province: ""
@@ -17,9 +19,10 @@ incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
-status: Killed
-description: |+
+status: "Missing"
+description: ""
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1042
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1042"
+  - "https://x.com/HengawO/status/2015016045241934262"
 persian_name: علی‌اصغر احمدپناه

@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { computed } from 'vue';
+import { useI18n } from 'vue-i18n';
 import type { CountryData } from '@/types/countries';
+
+const { t } = useI18n();
 import { 
   getDiplomacyLabel, getMissionStatusLabel, getExpelledDiplomatsLabel,
   getIRGCLabel, 
@@ -96,7 +99,7 @@ const relevantCampaigns = computed(() => {
     <template #header>
       <div class="flex items-center gap-3" v-if="country">
         <img :src="getCountryFlagUrl(country.iso2)" class="w-8 h-8 object-contain" :alt="country.name" />
-        <h2 class="text-xl font-bold">{{ country.name }}</h2>
+        <h2 class="text-xl font-bold">{{ t(`countries.${country.iso2}`, country.name) }}</h2>
         <div class="px-2 py-1 rounded text-white text-xs font-bold" 
              :style="{ backgroundColor: TIER_COLORS[country.derived_tier || 'Unknown'] }">
           {{ country.derived_tier || '?' }}

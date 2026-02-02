@@ -2,20 +2,24 @@
 # Victim Documentation - Sayna Nezam Doust
 # ==========================================
 
-photo: vic-2026-001452.jpeg
+photo:
+  - "vic-2026-001452.jpeg"
+  - "vic-2026-002259.jpg"
+  - "vic-2026-689751d6cbb5.jpg"
+  - "vic-2026-cb3d8274a3ff.png"
 name: Sayna Nezam Doust
-persian_name: "ساینا نظام دوست"
-birth_date: ''
-birth_province: ''
-birth_city: ''
+persian_name: ساینا نظام دوست
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
 age: 25
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Alborz
 incident_city: Karaj
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -27,5 +31,7 @@ description: |
   ۱۹ دی، کرج.
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""
+  - "https://x.com/missmarpel75/status/2015096242469040564"
+  - "https://x.com/realneo101/status/2017694374608462195"
+  - "https://x.com/i/status/2017694374608462195"

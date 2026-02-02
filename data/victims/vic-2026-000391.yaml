@@ -2,7 +2,16 @@
 # Victim Documentation - Morteza Rahnama
 # ==========================================
 
-photo: vic-2026-000391.jpg
+photo:
+  - "vic-2026-000391.jpg"
+  - "vic-2026-142e3fd1bacb.jpg"
+  - "vic-2026-b6e7addd32f4.jpg"
+  - "vic-2026-64ecb1b8c261.jpg"
+  - "vic-2026-8b09df4f2252.jpg"
+  - "vic-2026-8aef1c4f2f3d.jpg"
+  - "vic-2026-a3a2a9953fd6.jpg"
+  - "vic-2026-2409741a2fd4.jpg"
+  - "vic-2026-b7ee9f541e86.jpg"
 name: Morteza Rahnama
 birth_date: ""
 birth_province: ""
@@ -24,6 +33,12 @@ description: |-
 
   The tweet is a lament from a sister, Marzieh Rahnama, asking for retribution for her brother's blood. The brother's name is given as Morteza Rahnama. The context implies he was killed during the protests, but no specific details about his death are provided.
 source_type: Social Media
-source_social_media_link: https://x.com/__injaneb96/status/2014003550737625253, https://x.com/Mahestane_iran/status/2014439724602065115, https://x.com/marzieh_rahnama/status/2015064023163662777, https://x.com/persian_picture/status/2016053523838800350, https://x.com/justchangingun/status/2015190805732798850, https://t.me/RememberTheirNames/535, https://x.com/Persian_picture/status/2016053523838800350, https://x.com/i/status/2016131638409793981
-child: false
+source_social_media_link:
+  - "https://x.com/__injaneb96/status/2014003550737625253, https://x.com/Mahestane_iran/status/2014439724602065115, https://x.com/marzieh_rahnama/status/2015064023163662777, https://x.com/persian_picture/status/2016053523838800350, https://x.com/justchangingun/status/2015190805732798850, https://t.me/RememberTheirNames/535, https://x.com/Persian_picture/status/2016053523838800350, https://x.com/i/status/2016131638409793981"
+  - "https://x.com/__injaneb96/status/2014003550737625253"
+  - "https://x.com/Mahestane_iran/status/2014439724602065115"
+  - "https://x.com/marzieh_rahnama/status/2015064023163662777"
+  - "https://x.com/persian_picture/status/2016053523838800350"
+  - "https://x.com/justchangingun/status/2015190805732798850"
+  - "https://x.com/i/status/2016131638409793981"
 persian_name: مرتضی رهنما

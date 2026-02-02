@@ -2,7 +2,11 @@
 # Victim Documentation - Morteza Mahmoudi
 # ==========================================
 
-photo: vic-2026-001170.jpg
+photo:
+  - "vic-2026-001170.jpg"
+  - "vic-2026-b3b24ac61a7a.jpg"
+  - "vic-2026-6d2bb150e5cc.jpg"
+  - "vic-2026-6ca6a8f843ad.jpg"
 name: Morteza Mahmoudi
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,8 @@ status: Killed
 description: |
   Shot in the leg during protest, died before reaching hospital, family believes bullet was toxic
 source_type: Social Media
-source_social_media_link: https://x.com/sabamajlessi/status/2013908911565246927, https://t.me/RememberTheirNames/587
-child: false
+source_social_media_link:
+  - "https://x.com/sabamajlessi/status/2013908911565246927, https://t.me/RememberTheirNames/587"
+  - "https://x.com/sabamajlessi/status/2013908911565246927"
+  - "https://x.com/masoudkazemi81/status/2017160857789383101"
 persian_name: مرتضی محمودی

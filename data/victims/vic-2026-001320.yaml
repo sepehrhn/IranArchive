@@ -2,7 +2,12 @@
 # Victim Documentation - Yaser Majidi
 # ==========================================
 
-photo: vic-2026-001320.jpg
+photo:
+  - "vic-2026-001320.jpg"
+  - "vic-2026-7798a6fb8171.jpg"
+  - "vic-2026-c8f27696a69d.jpg"
+  - "vic-2026-4dd39347a27f.jpg"
+  - "vic-2026-0a6bb0f04331.jpg"
 name: Yaser Majidi
 birth_date: ""
 birth_province: ""
@@ -26,6 +31,10 @@ description: |-
 
   Chemistry student shot and killed by regime forces while attempting to rescue a girl who had been shot. His burial was only permitted in the village of Gazaran, a suburb of Arak. His father was also arrested.
 source_type: Social Media
-source_social_media_link: https://x.com/anjmotahed/status/2015453782306435144, https://x.com/autnews_org/status/2015468074636341749, https://x.com/IranIntlbrk/status/2015411807783878779, https://x.com/behnam_chegini/status/2016442886879883641, https://x.com/saeidvafa/status/2016555556111098130, https://t.me/RememberTheirNames/1664
-child: false
+source_social_media_link:
+  - "https://x.com/anjmotahed/status/2015453782306435144, https://x.com/autnews_org/status/2015468074636341749, https://x.com/IranIntlbrk/status/2015411807783878779, https://x.com/behnam_chegini/status/2016442886879883641, https://x.com/saeidvafa/status/2016555556111098130, https://t.me/RememberTheirNames/1664"
+  - "https://x.com/anjmotahed/status/2015453782306435144"
+  - "https://x.com/autnews_org/status/2015468074636341749"
+  - "https://x.com/IranIntlbrk/status/2015411807783878779"
+  - "https://x.com/saeidvafa/status/2016555556111098130"
 persian_name: یاسر مجیدی

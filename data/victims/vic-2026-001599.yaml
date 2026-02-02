@@ -2,7 +2,10 @@
 # Victim Documentation - Mohsen Sharif Kazemi
 # ==========================================
 
-photo: vic-2026-001599.jpg
+photo:
+  - "vic-2026-001599.jpg"
+  - "vic-2026-e1527b621152.jpg"
+  - "vic-2026-92310ca73cbd.jpg"
 name: Mohsen Sharif Kazemi
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-10"
@@ -25,6 +28,8 @@ description: |-
 
   Killed in Fardis, Karaj. He was a school principal known for his good ethics.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/997, https://x.com/HeKasrehCrisis/status/2015853566896783853
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/997, https://x.com/HeKasrehCrisis/status/2015853566896783853"
+  - "https://x.com/HeKasrehCrisis/status/2015853566896783853"
+  - "https://x.com/Sashtyani/status/2016943642946973980"
 persian_name: محسن شریف کاظمی

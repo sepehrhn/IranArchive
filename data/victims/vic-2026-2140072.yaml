@@ -2,7 +2,8 @@
 # Victim Documentation - Milad Niknam
 # ==========================================
 
-photo: vic-2026-2140072.jpg
+photo:
+  - vic-2026-2140072.jpg
 name: Milad Niknam
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2025-12-22"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed during protests in Tehran
+description: Killed during protests in Tehran
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1547
-child: false
 persian_name: میلاد نیکنام

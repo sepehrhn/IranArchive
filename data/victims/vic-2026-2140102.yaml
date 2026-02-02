@@ -2,7 +2,10 @@
 # Victim Documentation - Andisheh Gharibi
 # ==========================================
 
-photo: vic-2026-2140102.jpg
+photo:
+  - "vic-2026-2140102.jpg"
+  - "vic-2026-febd5b509156.jpg"
+  - "vic-2026-865f64629b6c.jpg"
 name: Andisheh Gharibi
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed on Vakil Abad Street in Mashhad. Suppressive forces stole her body and informed her family days later that their daughter was buried in Block 30 of Behesht Reza cemetery.
+description: Killed on Vakil Abad Street in Mashhad. Suppressive forces stole her body and informed her family days later that their daughter was buried in Block 30 of Behesht Reza cemetery.
 source_type: Social Media
 source_social_media_link: https://x.com/ashkvuo7000/status/2016612878229418311
-child: false
 persian_name: اندیشه غریبی

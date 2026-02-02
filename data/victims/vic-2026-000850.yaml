@@ -2,7 +2,9 @@
 # Victim Documentation - Shahrokh Zarei
 # ==========================================
 
-photo: vic-2026-000850.jpg
+photo:
+  - "vic-2026-000850.jpg"
+  - "vic-2026-002073.jpg"
 name: Shahrokh Zarei
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Killed during protests, described as 'son of Iran' and 'immortal'. His funeral was held in Noorabad Mamsani.
 source_type: Social Media
-source_social_media_link: https://x.com/EhsanZareei/status/2014545435277320353, https://x.com/EhsanZareei/status/2014445102333083721, https://x.com/manotonews/status/2015696209504272459, https://x.com/EhsanZareei/status/2015437783750303901, https://x.com/EhsanZareei/status/2015418145989615726, https://t.me/RememberTheirNames/758
-child: false
+source_social_media_link:
+  - "https://x.com/EhsanZareei/status/2014545435277320353, https://x.com/EhsanZareei/status/2014445102333083721, https://x.com/manotonews/status/2015696209504272459, https://x.com/EhsanZareei/status/2015437783750303901, https://x.com/EhsanZareei/status/2015418145989615726, https://t.me/RememberTheirNames/758"
+  - "https://x.com/hekasrehcrisis/status/2015793434469019876, https://x.com/i/status/2015793434469019876, https://x.com/HeKasrehCrisis/status/2015793434469019876"
 persian_name: شاهرخ زارع

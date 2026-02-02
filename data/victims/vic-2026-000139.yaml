@@ -2,7 +2,11 @@
 # Victim Documentation - Mobin Feili
 # ==========================================
 
-photo: vic-2026-000139.jpg
+photo:
+  - "vic-2026-000139.jpg"
+  - "vic-2026-32acf7fb786e.jpg"
+  - "vic-2026-e9b489204ca8.jpg"
+  - "vic-2026-2c3613fddee8.jpg"
 name: Mobin Feili
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,8 @@ status: Killed
 description: |
   Mobin Fili, 24 years old, was killed by gunfire during the protests on January 13, 2026.
 source_type: Social Media
-source_social_media_link: https://x.com/kurdpa_farsi/status/2010731651966321021, https://t.me/RememberTheirNames/108
-child: false
+source_social_media_link:
+  - "https://x.com/kurdpa_farsi/status/2010731651966321021, https://t.me/RememberTheirNames/108"
+  - "https://x.com/kurdpa_farsi/status/2010731651966321021"
+  - "https://x.com/saeidki3112176/status/2014719607014109424"
 persian_name: مبین فیلی

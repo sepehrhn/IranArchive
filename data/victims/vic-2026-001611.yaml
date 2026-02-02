@@ -2,7 +2,8 @@
 # Victim Documentation - Sajjad Akramkhan
 # ==========================================
 
-photo: vic-2026-001611.jpg
+photo:
+  - vic-2026-001611.jpg
 name: Sajjad Akramkhan
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1134
-child: false
 persian_name: سجاد اکرم‌خان

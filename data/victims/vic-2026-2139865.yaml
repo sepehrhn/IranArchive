@@ -2,7 +2,8 @@
 # Victim Documentation - Amir Hossein Amiri Vafa
 # ==========================================
 
-photo: vic-2026-2139865.jpg
+photo:
+  - vic-2026-2139865.jpg
 name: Amir Hossein Amiri Vafa
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed by government forces on Haft-e Tir Boulevard. His body was buried behind Ferdowsi's tomb in Tus.
+description: Killed by government forces on Haft-e Tir Boulevard. His body was buried behind Ferdowsi's tomb in Tus.
 source_type: Social Media
 source_social_media_link: https://x.com/iranintlbrk/status/2016137179072798836
-child: false
 persian_name: امیرحسین امیری‌وفا

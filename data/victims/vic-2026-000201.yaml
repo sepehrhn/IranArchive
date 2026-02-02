@@ -2,7 +2,8 @@
 # Victim Documentation - Saeed Zarei
 # ==========================================
 
-photo: ""
+photo:
+  - ""
 name: Saeed Zarei
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: 27
 occupation: ""
 country: Iran
-incident_province: Abgashneh village
+incident_province: ""
 incident_city: Falak-e Amuzesh va Parvaresh
 incident_address: Falak-e Amuzesh va Parvaresh
 date_of_death: "2026-01-10"
@@ -22,5 +23,4 @@ description: |
   Shot with military bullet in Education and Training Sector (Amoozesh va Parvarish) area. Resident of Abgoshneh village.
 source_type: Social Media
 source_social_media_link: https://x.com/EhsanZareei/status/2014445102333083721
-child: false
 persian_name: سعید زارع

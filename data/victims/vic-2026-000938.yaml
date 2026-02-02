@@ -2,19 +2,23 @@
 # Victim Documentation - Farshid Shokr Sokhan
 # ==========================================
 
-photo: vic-2026-000938.jpg
+photo:
+  - "vic-2026-000938.jpg"
+  - "vic-2026-002122.jpg"
+  - "vic-2026-c8652b938b65.jpg"
+  - "vic-2026-3171faa7ff7c.jpg"
 name: Farshid Shokr Sokhan
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Islamabad-e Gharb
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +26,6 @@ description: |
   Killed during protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hengawo/status/2014072784213754211
-child: false
+  - "https://x.com/hengawo/status/2014072784213754211"
+  - "https://x.com/HengawO/status/2014072784213754211, https://t.me/RememberTheirNames/556"
+  - "https://x.com/HengawO/status/2014072784213754211"

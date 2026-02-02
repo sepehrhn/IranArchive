@@ -2,25 +2,27 @@
 # Victim Documentation - Fariba Babajani
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-6e06a113da1d.jpg"
 name: Fariba Babajani
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: 62
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Gorgan
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
-status: Killed
+status: "Missing"
 description: |
   Killed during protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/fseifikaran/status/2013397194410180918
-child: false
+  - "https://x.com/fseifikaran/status/2013397194410180918"
+  - "https://x.com/FSeifikaran/status/2013397194410180918"

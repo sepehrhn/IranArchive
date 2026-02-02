@@ -2,7 +2,9 @@
 # Victim Documentation - Khosrow Asadi Kenari
 # ==========================================
 
-photo: vic-2026-000649.jpg
+photo:
+  - "vic-2026-000649.jpg"
+  - "vic-2026-4b59100958bc.jpg"
 name: Khosrow Asadi Kenari
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Shot in the neck with direct bullet fire during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2013687978682376595, https://t.me/RememberTheirNames/427
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2013687978682376595, https://t.me/RememberTheirNames/427"
+  - "https://x.com/manotonews/status/2013687978682376595"
 persian_name: خسرو اسدی کناری

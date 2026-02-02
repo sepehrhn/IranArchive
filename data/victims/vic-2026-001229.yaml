@@ -2,19 +2,23 @@
 # Victim Documentation - Sourena Robat Jazi
 # ==========================================
 
-photo: vic-2026-001229.jpg
+photo:
+  - "vic-2026-001229.jpg"
+  - "vic-2026-001806.jpg"
+  - "vic-2026-559d37aad282.jpg"
+  - "vic-2026-6d5448309732.jpg"
 name: Sourena Robat Jazi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 22
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Esfarayen
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +26,7 @@ description: |
   Killed during protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/yaldarta/status/2014946096523481285
-child: false
+  - "https://x.com/yaldarta/status/2014946096523481285"
+  - "https://x.com/yaldarta/status/2014946096523481285, https://x.com/anjmotahed/status/2015377156004614599, https://x.com/MonfaredAshkan/status/2015654966090940698, https://x.com/MonfaredAshkan/status/2015593617835073785, https://t.me/RememberTheirNames/328"
+  - "https://x.com/anjmotahed/status/2015377156004614599"
+  - "https://x.com/MonfaredAshkan/status/2015593617835073785"

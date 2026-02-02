@@ -2,7 +2,11 @@
 # Victim Documentation - Majid Chatraei
 # ==========================================
 
-photo: vic-2026-001581.jpg
+photo:
+  - "vic-2026-001581.jpg"
+  - "vic-2026-4e1fcccb0ec5.jpg"
+  - "vic-2026-5fc6a610ab2f.jpg"
+  - "vic-2026-cd5cd8a51ed5.jpg"
 name: Majid Chatraei
 birth_date: ""
 birth_province: ""
@@ -23,6 +27,7 @@ description: |-
 
   Mentioned as a 'Javidnam' (martyr) from Najafabad, Isfahan.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2015459826583695724, https://t.me/RememberTheirNames/1289
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2015459826583695724, https://t.me/RememberTheirNames/1289"
+  - "https://x.com/visfehan/status/2015459826583695724"
 persian_name: مجید چترایی

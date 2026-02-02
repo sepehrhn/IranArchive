@@ -2,7 +2,8 @@
 # Victim Documentation - Ali Tabrizi
 # ==========================================
 
-photo: vic-2026-000912.jpg
+photo:
+  - vic-2026-000912.jpg
 name: Ali Tabrizi
 birth_date: ""
 birth_province: ""
@@ -21,6 +22,7 @@ status: Killed
 description: |
   Mentioned as having similar media portrayals regarding protest-related death during the same period
 source_type: Social Media
-source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://en.wikipedia.org/wiki/Killing_of_Latif_Karimi, https://x.com/daikatuo/status/2007208041092174197, https://x.com/Daikatuo/status/2007455835497152832, https://x.com/FSeifikaran/status/2011734542428885036, https://x.com/KurdistanHRN/status/2007433103787106713, https://t.me/RememberTheirNames/16
-child: false
+source_social_media_link:
+  - "https://www.iran-emrooz.net/index.php/news2/125134/, https://en.wikipedia.org/wiki/Killing_of_Latif_Karimi, https://x.com/daikatuo/status/2007208041092174197, https://x.com/Daikatuo/status/2007455835497152832, https://x.com/FSeifikaran/status/2011734542428885036, https://x.com/KurdistanHRN/status/2007433103787106713, https://t.me/RememberTheirNames/16"
+  - "https://x.com/FSeifikaran/status/2011734542428885036"
 persian_name: علی عزیزی

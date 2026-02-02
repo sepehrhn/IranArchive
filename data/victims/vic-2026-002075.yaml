@@ -2,7 +2,9 @@
 # Victim Documentation - Sohail Khazaei
 # ==========================================
 
-photo: vic-2026-002075.jpg
+photo:
+  - "vic-2026-002075.jpg"
+  - "vic-2026-002266.jpg"
 name: Sohail Khazaei
 birth_date: ""
 birth_province: ""
@@ -18,8 +20,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |+
+description: ""
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1380
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1380"
+  - "https://x.com/hekasrehcrisis/status/2015855081137070160"
 persian_name: سهیل خزایی

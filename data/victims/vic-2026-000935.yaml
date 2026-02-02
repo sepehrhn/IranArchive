@@ -2,7 +2,13 @@
 # Victim Documentation - Behnam Kashani
 # ==========================================
 
-photo: vic-2026-000935.jpg
+photo:
+  - "vic-2026-000935.jpg"
+  - "vic-2026-a4770038a65e.jpg"
+  - "vic-2026-01dc5044cf0c.jpg"
+  - "vic-2026-632d2cdc3f7c.png"
+  - "vic-2026-3a06aa7d47df.jpg"
+  - "vic-2026-396b4dfbb4d4.jpg"
 name: Behnam Kashani
 birth_date: ""
 birth_province: ""
@@ -11,7 +17,7 @@ gender: Male
 age: 33
 occupation: ""
 country: Iran
-incident_province: Markazi Province (Arak)
+incident_province: Markazi
 incident_city: Mahallat
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -21,6 +27,9 @@ status: Killed
 description: |
   Shot in the head by hired agents inside the Intelligence Building (Education and Training Alley) on his way to freedom.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2014661989595799866, https://x.com/HengawO/status/2014638058105151825, https://x.com/saeidvafa/status/2014877684979880404, https://x.com/behnam_chegini/status/2014968971544428582, https://t.me/RememberTheirNames/796, https://x.com/hekasrehcrisis/status/2016605155878142132
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2014661989595799866, https://x.com/HengawO/status/2014638058105151825, https://x.com/saeidvafa/status/2014877684979880404, https://x.com/behnam_chegini/status/2014968971544428582, https://t.me/RememberTheirNames/796, https://x.com/hekasrehcrisis/status/2016605155878142132"
+  - "https://x.com/HengawO/status/2014638058105151825"
+  - "https://x.com/behnam_chegini/status/2014968971544428582"
+  - "https://x.com/hekasrehcrisis/status/2016605155878142132"
 persian_name: بهنام کاشانی

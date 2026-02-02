@@ -2,7 +2,10 @@
 # Victim Documentation - Mehdi Hosseini Monjezi
 # ==========================================
 
-photo: vic-2026-001735.jpg
+photo:
+  - "vic-2026-001735.jpg"
+  - "vic-2026-8aa277ce5e63.jpg"
+  - "vic-2026-9b0cb847bff1.jpg"
 name: Mehdi Hosseini Monjezi
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,7 @@ description: |-
 
   Shot by security forces.
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2016014766645322198, https://t.me/RememberTheirNames/1239
-child: false
+source_social_media_link:
+  - "https://x.com/hirman__/status/2016014766645322198, https://t.me/RememberTheirNames/1239"
+  - "https://x.com/hirman__/status/2016014766645322198"
 persian_name: مهدی حسینی منجزی

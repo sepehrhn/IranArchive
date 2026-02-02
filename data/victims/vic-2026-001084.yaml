@@ -2,24 +2,25 @@
 # Victim Documentation - Gholamhossein Ahadi
 # ==========================================
 
-photo: ''
+photo:
+  - ""
 name: Gholamhossein Ahadi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_province: ""
+incident_city: "Kermanshah"
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: ''
+description: ""
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hengawo/status/2014723608359104900
-child: false
+  - "https://x.com/hengawo/status/2014723608359104900"
+  - "https://x.com/HengawO/status/2014723608359104900"

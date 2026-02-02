@@ -2,7 +2,9 @@
 # Victim Documentation - Amir Radmanmehr
 # ==========================================
 
-photo: vic-2026-000125.jpg
+photo:
+  - "vic-2026-000125.jpg"
+  - "vic-2026-59edf1983b84.jpg"
 name: Amir Radmanmehr
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Shot by Islamic Republic suppressors in Se-rah-e Simin. Shot on January 9 and died on January 15.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2014721556505649508, https://t.me/RememberTheirNames/872
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2014721556505649508, https://t.me/RememberTheirNames/872"
+  - "https://x.com/ANITABAKT/status/2016948145117171981"
 persian_name: امیر رادمان‌مهر

@@ -2,7 +2,11 @@
 # Victim Documentation - Majid Pourrostami
 # ==========================================
 
-photo: vic-2026-2139930.jpg
+photo:
+  - "vic-2026-2139930.jpg"
+  - "vic-2026-5f5d4774cb20.jpg"
+  - "vic-2026-660d7a88ca59.jpg"
+  - "vic-2026-7a49707cd2bf.jpg"
 name: Majid Pourrostami
 birth_date: ""
 birth_province: ""
@@ -18,9 +22,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed by direct gunfire to the chest by security forces of the regime during public protests in Kalantari Square, Gharcheh. He was 45 years old, single, and a resident of Varamin.
+description: Killed by direct gunfire to the chest by security forces of the regime during public protests in Kalantari Square, Gharcheh. He was 45 years old, single, and a resident of Varamin.
 source_type: Social Media
-source_social_media_link: https://www.instagram.com/p/DUAiGMMDYFq
-child: false
+source_social_media_link:
+  - "https://www.instagram.com/p/DUAiGMMDYFq"
+  - "https://x.com/allahbakhshii/status/2017503567037317517"
 persian_name: مجید پوررستمی

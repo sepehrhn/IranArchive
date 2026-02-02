@@ -2,7 +2,9 @@
 # Victim Documentation - Masoud Zatparvar
 # ==========================================
 
-photo: vic-2026-000670.jpg
+photo:
+  - "vic-2026-000670.jpg"
+  - "vic-2026-1bcfc6920ec7.jpg"
 name: Masoud Zatparvar
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Shot directly by government forces. Renowned bodybuilding champion and son of veteran coach Majid Zatparvar. Won Asian Youth Championship in Japan in 2011, became world champion in 2012 and 2013, achieved 2012 Overall Champion title and 2013 national team selection championship. Body was taken to Kahrizak after death and was to be moved to Behesht-e Zahra for burial.
 source_type: Social Media
-source_social_media_link: https://www.theguardian.com/global-development/2026/jan/15/iran-protesters-uprising-killed-world-diaspora-families-tehran-internet-blackout, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/IranProtestsCom/status/2010313447796281475, https://t.me/RememberTheirNames/86
-child: false
+source_social_media_link:
+  - "https://www.theguardian.com/global-development/2026/jan/15/iran-protesters-uprising-killed-world-diaspora-families-tehran-internet-blackout, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/IranProtestsCom/status/2010313447796281475, https://t.me/RememberTheirNames/86"
+  - "https://x.com/IranProtestsCom/status/2010313447796281475"
 persian_name: مسعود ذات‌پرور

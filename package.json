@@ -25,6 +25,7 @@
     "d3-geo": "^3.1.1",
     "d3-selection": "^3.0.0",
     "d3-zoom": "^3.0.0",
+    "jalaali-js": "^1.2.8",
     "markdown-it": "^14.1.0",
     "nuxt": "^3.11.2",
     "primeicons": "latest",
@@ -32,6 +33,7 @@
     "tailwindcss": "latest",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0",
+    "vue3-persian-datetime-picker": "^1.2.2",
     "zod": "^4.3.6"
   },
   "devDependencies": {
@@ -45,6 +47,7 @@
     "ajv-formats": "^3.0.1",
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.1",
+    "puppeteer": "^24.36.1",
     "tailwindcss-primeui": "latest",
     "vite": "^7.3.1"
   }

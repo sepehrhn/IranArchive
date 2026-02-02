@@ -2,7 +2,9 @@
 # Victim Documentation - Farid Norouzpour
 # ==========================================
 
-photo: vic-2026-2139891.jpg
+photo:
+  - "vic-2026-2139891.jpg"
+  - "vic-2026-4ff5705b74ff.jpg"
 name: Farid Norouzpour
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died from multiple baton blows to the head in the Aynak neighborhood, declared brain dead and killed by the Khamenei regime.
+description: Died from multiple baton blows to the head in the Aynak neighborhood, declared brain dead and killed by the Khamenei regime.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2016217907475144914, https://x.com/i/status/2016217907475144914
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2016217907475144914, https://x.com/i/status/2016217907475144914"
+  - "https://x.com/i/status/2016217907475144914"
 persian_name: فرید نوروزپور

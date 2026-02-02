@@ -2,7 +2,9 @@
 # Victim Documentation - Ali Taherkhani
 # ==========================================
 
-photo: vic-2026-002174.jpg
+photo:
+  - "vic-2026-002174.jpg"
+  - "vic-2026-20680b8c89ee.jpg"
 name: Ali Taherkhani
 birth_date: ""
 birth_province: ""
@@ -25,6 +27,7 @@ description: |-
 
   Killed on Thursday, 18 Dey 1404, while with his friends next to his parked motorcycle in the Grand Bazaar. He was a citizen of Turkish ethnicity, a follower of the Yaresan faith, and from Takestan. He was sent a text message complaining about him as a rioter.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1089, https://x.com/HengawO/status/2016085522679038061
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1089, https://x.com/HengawO/status/2016085522679038061"
+  - "https://x.com/HengawO/status/2016085522679038061"
 persian_name: علی طاهرخانی

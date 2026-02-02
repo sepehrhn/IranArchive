@@ -1,5 +1,8 @@
 <script setup lang="ts">
 import { computed } from 'vue';
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
 
 const props = defineProps<{
     status: string;
@@ -17,8 +20,12 @@ const severity = computed(() => {
 });
 
 const displayText = computed(() => {
+    const s = props.status.toLowerCase();
+    if (s === 'killed') return t('victimsPage.killed');
+    if (s === 'missing') return t('victimsPage.missing');
     return props.status.charAt(0).toUpperCase() + props.status.slice(1);
 });
+
 const statusClasses = computed(() => {
     switch (props.status.toLowerCase()) {
         case 'killed':

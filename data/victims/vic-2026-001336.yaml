@@ -2,19 +2,20 @@
 # Victim Documentation - Cousin of friend
 # ==========================================
 
-photo: ''
+photo:
+  - ""
 name: Cousin of friend
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Hamadan
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,4 +24,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/aghbozorgoo/status/2012007574590165381
-child: false

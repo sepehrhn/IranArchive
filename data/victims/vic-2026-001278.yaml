@@ -2,19 +2,24 @@
 # Victim Documentation - Sanaz Ghareh Daghi
 # ==========================================
 
-photo: vic-2026-001278.jpg
+photo:
+  - "vic-2026-001278.jpg"
+  - "vic-2026-a8f1f699f37a.jpg"
+  - "vic-2026-04d1983d907e.jpg"
+  - "vic-2026-3c7f9b92c5a9.jpg"
+  - "vic-2026-002256.jpg"
 name: Sanaz Ghareh Daghi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Female"
 age: 31
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Karaj
 incident_address: Mianjadeh
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -24,5 +29,7 @@ description: |
   Shot in the neck
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hichkasofficial/status/2015105012590879152
-child: false
+  - "https://x.com/hichkasofficial/status/2015105012590879152"
+  - "https://x.com/HichkasOfficial/status/2015105012590879152"
+  - "https://x.com/noamagid/status/2016556500131439065"
+  - "https://x.com/hichkasofficial/status/2015105012590879152, https://x.com/HichkasOfficial/status/2015105012590879152"

@@ -2,7 +2,8 @@
 # Victim Documentation - Mohammad Bakht Goroosi
 # ==========================================
 
-photo: vic-2026-2140139.jpg
+photo:
+  - vic-2026-2140139.jpg
 name: Mohammad Bakht Goroosi
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Described as a child of Iran and killed on the path of the homeland.
+description: Described as a child of Iran and killed on the path of the homeland.
 source_type: Social Media
 source_social_media_link: https://x.com/missmarpel75/status/2016048171584000027
-child: false
 persian_name: محمد بخت گروسی

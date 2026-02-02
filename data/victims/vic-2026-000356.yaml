@@ -2,7 +2,13 @@
 # Victim Documentation - Miaad Sadeh-Miri
 # ==========================================
 
-photo: vic-2026-000356.jpg
+photo:
+  - "vic-2026-000356.jpg"
+  - "vic-2026-000954.jpg"
+  - "vic-2026-2b7427d51596.jpg"
+  - "vic-2026-bd395f57bf8e.jpg"
+  - "vic-2026-7933f048f3f4.jpg"
+  - "vic-2026-061c1d422996.jpg"
 name: Miaad Sadeh-Miri
 birth_date: ""
 birth_province: ""
@@ -21,6 +27,10 @@ status: Killed
 description: |
   Shot with live ammunition by Islamic Republic suppression forces during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/kurdpa_farsi/status/2014444101844844713, https://x.com/namahsos1979/status/2014488584590618680, https://www.instagram.com/p/DT09BxziraP, https://x.com/HengawO/status/2014688455331086748, https://x.com/HengawO/status/2014678844024775051, https://t.me/RememberTheirNames/741
-child: false
+source_social_media_link:
+  - "https://x.com/kurdpa_farsi/status/2014444101844844713, https://x.com/namahsos1979/status/2014488584590618680, https://www.instagram.com/p/DT09BxziraP, https://x.com/HengawO/status/2014688455331086748, https://x.com/HengawO/status/2014678844024775051, https://t.me/RememberTheirNames/741"
+  - "https://x.com/HengawO/status/2014688455331086748"
+  - "https://x.com/namahsos1979/status/2014488584590618680"
+  - "https://www.instagram.com/p/DT09BxziraP"
+  - "https://x.com/HengawO/status/2014678844024775051"
 persian_name: میعاد ساده‌میری

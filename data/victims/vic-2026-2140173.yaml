@@ -2,7 +2,12 @@
 # Victim Documentation - Tahereh Arabnejad
 # ==========================================
 
-photo: vic-2026-2140173.jpg
+photo:
+  - "vic-2026-2140173.jpg"
+  - "vic-2026-5c9819274a65.jpg"
+  - "vic-2026-29423e5fd143.jpg"
+  - "vic-2026-de0881e2c258.jpg"
+  - "vic-2026-00bd00d9bbb0.jpg"
 name: Tahereh Arabnejad
 birth_date: ""
 birth_province: ""
@@ -18,9 +23,11 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot by Khamenei's mercenaries in the vicinity of her home near Imam Hadi area. Also known by the name Noshin.
+description: Shot by Khamenei's mercenaries in the vicinity of her home near Imam Hadi area. Also known by the name Noshin.
 source_type: Social Media
-source_social_media_link: https://x.com/mashadi1988/status/2016539014606536986, https://x.com/mashadi1988/status/2016588139423314228
-child: false
+source_social_media_link:
+  - "https://x.com/mashadi1988/status/2016539014606536986, https://x.com/mashadi1988/status/2016588139423314228"
+  - "https://x.com/mashadi1988/status/2016539014606536986"
+  - "https://x.com/mashadi1988/status/2016588139423314228"
+  - "https://x.com/callmenanaalk/status/2016933166905254012"
 persian_name: طاهره عرب نژاد

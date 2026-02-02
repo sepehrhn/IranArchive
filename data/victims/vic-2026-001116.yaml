@@ -2,19 +2,22 @@
 # Victim Documentation - Maliheh Anjekani
 # ==========================================
 
-photo: vic-2026-001116.jpg
+photo:
+  - "vic-2026-001116.jpg"
+  - "vic-2026-002129.jpg"
+  - "vic-2026-002219.jpg"
 name: Maliheh Anjekani
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Female"
 age: 21
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_province: ""
+incident_city: "Mashhad"
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +25,5 @@ description: |
   Died for the nation
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/nicksotoudeh/status/2014807513984860205
-child: false
+  - "https://x.com/nicksotoudeh/status/2014807513984860205"
+  - "https://t.me/RememberTheirNames/868"

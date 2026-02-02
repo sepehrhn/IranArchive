@@ -2,7 +2,9 @@
 # Victim Documentation - Amirmohammad Khalil Arjmandi
 # ==========================================
 
-photo: vic-2026-2139728.jpg
+photo:
+  - "vic-2026-2139728.jpg"
+  - "vic-2026-5d5d7beefb40.jpg"
 name: Amirmohammad Khalil Arjmandi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-20"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died during the protests in Tehran in Dey 1404
+description: Died during the protests in Tehran in Dey 1404
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1546
-child: false
 persian_name: امیرمحمد خلیل ارجمندی

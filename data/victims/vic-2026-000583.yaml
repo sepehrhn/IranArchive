@@ -2,7 +2,10 @@
 # Victim Documentation - Ebrahim Ahmadpourian
 # ==========================================
 
-photo: vic-2026-000583.jpg
+photo:
+  - "vic-2026-000583.jpg"
+  - "vic-2026-892fc49f3420.jpg"
+  - "vic-2026-4b25c3baabcb.jpg"
 name: Ebrahim Ahmadpourian
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   A Kurdish citizen from Saqqez, a worker and father of two, was injured by the shooting of the Islamic Republic's military-security forces during public protests in Tehran on January 8, 2026. He died the next day in the hospital due to the severity of his injuries.
 source_type: Social Media
-source_social_media_link: https://x.com/hiwa_life/status/2013588719136014641, https://x.com/KurdistanHRN/status/2015913809299267612, https://t.me/RememberTheirNames/236
-child: false
+source_social_media_link:
+  - "https://x.com/hiwa_life/status/2013588719136014641, https://x.com/KurdistanHRN/status/2015913809299267612, https://t.me/RememberTheirNames/236"
+  - "https://x.com/hiwa_life/status/2013588719136014641"
+  - "https://x.com/KurdistanHRN/status/2015913809299267612"
 persian_name: ابراهیم احمدپوریان

@@ -2,7 +2,8 @@
 # Victim Documentation - Shahin Ghasemi
 # ==========================================
 
-photo: vic-2026-000847.png
+photo:
+  - vic-2026-000847.png
 name: Shahin Ghasemi
 birth_date: ""
 birth_province: ""
@@ -25,5 +26,4 @@ description: |-
   Killed by Islamic Republic forces with live ammunition to the head.
 source_type: Social Media
 source_social_media_link: https://x.com/HeKasrehCrisis/status/2016016460028522991
-child: false
 persian_name: شاهین قاسمی

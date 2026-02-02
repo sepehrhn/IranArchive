@@ -2,7 +2,11 @@
 # Victim Documentation - Mohammad Amin Hajian
 # ==========================================
 
-photo: vic-2026-000367.jpg
+photo:
+  - "vic-2026-000367.jpg"
+  - "vic-2026-7152899b3675.jpg"
+  - "vic-2026-712439718d27.jpg"
+  - "vic-2026-94e34cf2d72f.jpg"
 name: Mohammad Amin Hajian
 birth_date: ""
 birth_province: ""
@@ -21,5 +25,8 @@ status: Killed
 description: |
   Shot while getting out of car to buy cigarettes when returning from a wedding ceremony
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2013396146186563772, https://x.com/alitagh30207454/status/2013220851089314151, https://x.com/AliTagh30207454/status/2013220851089314151
-child: false
+source_social_media_link:
+  - "https://x.com/fseifikaran/status/2013396146186563772, https://x.com/alitagh30207454/status/2013220851089314151, https://x.com/AliTagh30207454/status/2013220851089314151"
+  - "https://x.com/fseifikaran/status/2013396146186563772"
+  - "https://x.com/alitagh30207454/status/2013220851089314151"
+  - "https://x.com/AliTagh30207454/status/2013220851089314151"

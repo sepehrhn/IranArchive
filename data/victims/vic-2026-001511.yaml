@@ -2,24 +2,24 @@
 # Victim Documentation - Gelaleh Mahmoudi
 # ==========================================
 
-photo: vic-2026-001511.jpeg
+photo:
+  - vic-2026-001511.jpeg
 name: Gelaleh Mahmoudi
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
 age: 31
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: West Azerbaijan
 incident_city: Mahabad
-incident_address: ''
-date_of_death: '2026-01-07'
+incident_address: ""
+date_of_death: "2026-01-07"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
 description: "الان باخبر شدم\_ دوستم\_ گلاله محمودی\_ متولد ۷۳\_ \n۱۸ دی\_ جاوید نام شدن اصالتن کرد مهابادی بودن \nروحش شاد 😭\n"
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

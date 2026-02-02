@@ -2,7 +2,8 @@
 # Victim Documentation - Hasanali Amorzaii
 # ==========================================
 
-photo: vic-2026-002125.jpg
+photo:
+  - vic-2026-002125.jpg
 name: Hasanali Amorzaii
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-01"
@@ -24,5 +25,4 @@ description: |-
   Died during protests in Dey 1404 (late December 2025 - January 2026).
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/841
-child: false
 persian_name: حسنعلی عمورضایی

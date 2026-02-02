@@ -2,7 +2,10 @@
 # Victim Documentation - Morteza Hamedani
 # ==========================================
 
-photo: vic-2026-001240.jpg
+photo:
+  - "vic-2026-001240.jpg"
+  - "vic-2026-9bf42f0c633e.jpg"
+  - "vic-2026-684cfaeb49f0.jpg"
 name: Morteza Hamedani
 birth_date: ""
 birth_province: ""
@@ -26,6 +29,7 @@ description: |-
 
   Shot in the back and killed. Father of two.
 source_type: Social Media
-source_social_media_link: https://x.com/MonfaredAshkan/status/2015472670394175918, https://x.com/MonfaredAshkan/status/2015497891683737860
-child: false
+source_social_media_link:
+  - "https://x.com/MonfaredAshkan/status/2015472670394175918, https://x.com/MonfaredAshkan/status/2015497891683737860"
+  - "https://x.com/MonfaredAshkan/status/2015472670394175918"
 persian_name: مرتضی همدانی

@@ -2,7 +2,8 @@
 # Victim Documentation - Amir Mohammad Soleimani
 # ==========================================
 
-photo: vic-2026-001559.jpg
+photo:
+  - vic-2026-001559.jpg
 name: Amir Mohammad Soleimani
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Ferdowsi
+incident_province: ""
 incident_city: Shahriar
 incident_address: ""
 date_of_death: "2026-01-10"
@@ -24,5 +25,4 @@ description: |-
   Died in Ferdowsi, Shahriar during Dey 1404.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/658
-child: false
 persian_name: امیرمحمد سلیمانی

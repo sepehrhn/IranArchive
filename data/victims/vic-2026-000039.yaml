@@ -2,7 +2,15 @@
 # Victim Documentation - Ali Pourakrami
 # ==========================================
 
-photo: vic-2026-000039.jpg
+photo:
+  - "vic-2026-000039.jpg"
+  - "vic-2026-a75fa9a7e94b.jpg"
+  - "vic-2026-cc7e82bc04a6.jpg"
+  - "vic-2026-03b3f64ef9a9.jpg"
+  - "vic-2026-06c42821ab7b.jpg"
+  - "vic-2026-e1c290c0715e.jpg"
+  - "vic-2026-530990375db6.jpg"
+  - "vic-2026-26bba09dba30.jpg"
 name: Ali Pourakrami
 birth_date: ""
 birth_province: ""
@@ -24,6 +32,11 @@ description: |-
 
   Died after arrest by security forces. His body was found near Imam Ali highway in Tehran. The family was told he would be released in the morning, but his body was found later. The tweet suggests he was killed outside of judicial proceedings.
 source_type: Social Media
-source_social_media_link: https://x.com/hs_maryam/status/2013863913016742196, https://x.com/outofken/status/2014499632496443528, https://x.com/Tavaana/status/2015492585616531901, https://x.com/dadban4/status/2015731412758859843, https://x.com/tavaana/status/2015492585616531901, https://t.me/RememberTheirNames/1276, https://x.com/hekasrehcrisis/status/2016387450524897461
-child: false
+source_social_media_link:
+  - "https://x.com/hs_maryam/status/2013863913016742196, https://x.com/outofken/status/2014499632496443528, https://x.com/Tavaana/status/2015492585616531901, https://x.com/dadban4/status/2015731412758859843, https://x.com/tavaana/status/2015492585616531901, https://t.me/RememberTheirNames/1276, https://x.com/hekasrehcrisis/status/2016387450524897461"
+  - "https://x.com/hs_maryam/status/2013863913016742196"
+  - "https://x.com/outofken/status/2014499632496443528"
+  - "https://x.com/dadban4/status/2015731412758859843"
+  - "https://x.com/tavaana/status/2015492585616531901"
+  - "https://x.com/hekasrehcrisis/status/2016387450524897461"
 persian_name: علی پوراکرمی

@@ -2,7 +2,13 @@
 # Victim Documentation - Amir Ebrahimnejad
 # ==========================================
 
-photo: vic-2026-001644.jpg
+photo:
+  - "vic-2026-001644.jpg"
+  - "vic-2026-223ea437b9fd.jpg"
+  - "vic-2026-986dc70a3330.png"
+  - "vic-2026-baa29917c42a.png"
+  - "vic-2026-c2e27065306c.png"
+  - "vic-2026-c6637f905de9.png"
 name: Amir Ebrahimnejad
 birth_date: ""
 birth_province: ""
@@ -11,7 +17,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Behshahr County
+incident_province: ""
 incident_city: Rostamkola
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -25,6 +31,9 @@ description: |-
 
   Orphaned child who had no parents and was raised by his grandmother with her labor earnings. Shot directly by security forces in the area of Rostamkola police station. Bodies were handed over to families after several days with severe restrictions.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/989, https://x.com/realneo101/status/2015732127338229913, https://x.com/hekasrehcrisis/status/2016352169033675096
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/989, https://x.com/realneo101/status/2015732127338229913, https://x.com/hekasrehcrisis/status/2016352169033675096"
+  - "https://x.com/realneo101/status/2015732127338229913"
+  - "https://x.com/i/status/2015732127338229913"
+  - "https://x.com/hekasrehcrisis/status/2016352169033675096"
 persian_name: امیر ابراهیم‌نژاد

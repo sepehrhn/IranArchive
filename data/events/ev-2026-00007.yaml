@@ -1,0 +1,38 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Milwaukee"
+
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+type: "in_person"
+
+date:
+  start: "2026/01/27"
+  start_time: "12:00"
+  end: "2026/01/27"
+  end_time: "14:00"
+
+location:
+  country: "US"
+  city: "Milwaukee"
+  address: "UWM Union Concourse, 2200 E Kenwood Blvd, Milwaukee, WI"
+
+online: []
+
+organizer:
+  name: "Local Organizer"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

@@ -2,7 +2,8 @@
 # Victim Documentation - Javid Mohammad Hamatiyan
 # ==========================================
 
-photo: vic-2026-002216.jpg
+photo:
+  - vic-2026-002216.jpg
 name: Javid Mohammad Hamatiyan
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Shot and killed by security forces during the recent national uprising.
 source_type: Social Media
 source_social_media_link: https://x.com/chaawtimes/status/2015198060280688902
-child: false
 persian_name: جاوید محمد همتیان

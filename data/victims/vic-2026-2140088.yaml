@@ -2,7 +2,8 @@
 # Victim Documentation - Abolfazl Karamat
 # ==========================================
 
-photo: vic-2026-2140088.jpg
+photo:
+  - vic-2026-2140088.jpg
 name: Abolfazl Karamat
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  16-year-old killed in detention
+description: 16-year-old killed in detention
 source_type: Social Media
 source_social_media_link: https://x.com/hekasrehcrisis/status/2016533722594410624
-child: true
 persian_name: ابوالفضل کرامت

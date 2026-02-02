@@ -2,7 +2,11 @@
 # Victim Documentation - Leila Gardani
 # ==========================================
 
-photo: vic-2026-2140129.jpg
+photo:
+  - "vic-2026-2140129.jpg"
+  - "vic-2026-a7710bd690e3.jpg"
+  - "vic-2026-bb709af8914d.jpg"
+  - "vic-2026-03274366c744.jpg"
 name: Leila Gardani
 birth_date: ""
 birth_province: ""
@@ -18,9 +22,11 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Described as 'جانفدای میهن' (one who sacrificed her life for the homeland), 42 years old from Marvdasht city. Commemorated for her courage and sacrifice.
+description: Described as 'جانفدای میهن' (one who sacrificed her life for the homeland), 42 years old from Marvdasht city. Commemorated for her courage and sacrifice.
 source_type: Social Media
-source_social_media_link: https://x.com/dgharibeh/status/2016120149250555979, https://x.com/outofken/status/2016657577594208576
-child: false
+source_social_media_link:
+  - "https://x.com/dgharibeh/status/2016120149250555979, https://x.com/outofken/status/2016657577594208576"
+  - "https://x.com/dgharibeh/status/2016120149250555979"
+  - "https://x.com/NickSotoudeh/status/2015469145610170619"
+  - "https://x.com/outofken/status/2016657577594208576"
 persian_name: لیلا گردانی

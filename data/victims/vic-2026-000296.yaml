@@ -2,7 +2,8 @@
 # Victim Documentation - Hamid Ganjavi
 # ==========================================
 
-photo: vic-2026-000296.jpg
+photo:
+  - vic-2026-000296.jpg
 name: Hamid Ganjavi
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Shot by government security forces during protests in Isfahan.
 source_type: Social Media
 source_social_media_link: https://x.com/hengawo/status/2013911264154546507, https://hengaw.net/fa/news/2026/01/article-170-1, https://x.com/HengawO/status/2013911264154546507
-child: false
 persian_name: حمید گنجی

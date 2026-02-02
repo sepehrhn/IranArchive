@@ -2,7 +2,9 @@
 # Victim Documentation - Sajjad Ghaderi
 # ==========================================
 
-photo: vic-2026-2139724.jpg
+photo:
+  - "vic-2026-2139724.jpg"
+  - "vic-2026-8d344cd57bed.webp"
 name: Sajjad Ghaderi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-25"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  27-year-old from Mashhad whose body was returned to his family on Monday after two weeks of uncertainty about his fate. His family had been kept completely uninformed during this period.
+description: 27-year-old from Mashhad whose body was returned to his family on Monday after two weeks of uncertainty about his fate. His family had been kept completely uninformed during this period.
 source_type: Social Media
-source_social_media_link: https://www.instagram.com/p/DUA4WJFFBpy, https://x.com/allahbakhshii/status/2016603854389789137
-child: false
+source_social_media_link:
+  - "https://www.instagram.com/p/DUA4WJFFBpy, https://x.com/allahbakhshii/status/2016603854389789137"
+  - "https://www.instagram.com/p/DUA4WJFFBpy"
 persian_name: سجاد قادری

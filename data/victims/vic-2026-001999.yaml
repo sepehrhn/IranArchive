@@ -2,7 +2,11 @@
 # Victim Documentation - Mohammad Paymard
 # ==========================================
 
-photo: vic-2026-001999.jpg
+photo:
+  - "vic-2026-001999.jpg"
+  - "vic-2026-6ab69a1dde5f.jpg"
+  - "vic-2026-e0231ccab0a3.jpg"
+  - "vic-2026-a5913a3e019b.jpg"
 name: Mohammad Paymard
 birth_date: ""
 birth_province: ""
@@ -23,6 +27,7 @@ description: |-
 
   Shot directly by security forces in Isfahan.
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2015589885860581673, https://t.me/RememberTheirNames/1525
-child: false
+source_social_media_link:
+  - "https://x.com/hirman__/status/2015589885860581673, https://t.me/RememberTheirNames/1525"
+  - "https://t.me/RememberTheirNames/1530"
 persian_name: محمد پایمرد

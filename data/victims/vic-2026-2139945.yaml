@@ -2,7 +2,9 @@
 # Victim Documentation - Mehrdad Monjezi
 # ==========================================
 
-photo: vic-2026-2139945.jpg
+photo:
+  - "vic-2026-2139945.jpg"
+  - "vic-2026-febe793d7703.jpg"
 name: Mehrdad Monjezi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot with war bullets on Saheb road in Shushtar while protesting. He stepped into the streets for freedom and human dignity and only raised his voice in protest against his country's conditions, but received war bullets in response. Killed by order of Khamenei at the peak of his youth.
+description: Shot with war bullets on Saheb road in Shushtar while protesting. He stepped into the streets for freedom and human dignity and only raised his voice in protest against his country's conditions, but received war bullets in response. Killed by order of Khamenei at the peak of his youth.
 source_type: Social Media
-source_social_media_link: https://x.com/roozbehmon/status/2016318119699218701, https://x.com/i/status/2016318119699218701
-child: false
+source_social_media_link:
+  - "https://x.com/roozbehmon/status/2016318119699218701, https://x.com/i/status/2016318119699218701"
+  - "https://x.com/i/status/2016318119699218701"
 persian_name: مهرداد منجزی

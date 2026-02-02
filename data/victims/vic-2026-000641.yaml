@@ -2,7 +2,10 @@
 # Victim Documentation - Javad Zabet Laghaei
 # ==========================================
 
-photo: vic-2026-000641.jpg
+photo:
+  - "vic-2026-000641.jpg"
+  - "vic-2026-28365c46aaae.jpg"
+  - "vic-2026-23790ed74a9d.png"
 name: Javad Zabet Laghaei
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Killed during protests in Emamiyeh Boulevard.
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2014958772767068567
-child: false
+source_social_media_link:
+  - "https://x.com/iranwire/status/2014958772767068567"
+  - "https://x.com/HeKasrehCrisis/status/2016717549409366339"
 persian_name: جواد ضابط لقائی

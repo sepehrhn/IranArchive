@@ -2,7 +2,10 @@
 # Victim Documentation - Yaser Ghandali
 # ==========================================
 
-photo: vic-2026-000123.jpg
+photo:
+  - "vic-2026-000123.jpg"
+  - "vic-2026-d51d8f0f5a9a.jpg"
+  - "vic-2026-2302d9d28c4e.jpg"
 name: Yaser Ghandali
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   A 45-year-old protester and father of a 7-year-old daughter, he died in Tehran on January 8, 2026, from direct gunfire by suppressors, in his wife's arms.
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2014802095816536133, https://x.com/indypersian/status/2014969488358191244, https://x.com/monfaredashkan/status/2014803155507413100, https://x.com/MonfaredAshkan/status/2014802095816536133, https://x.com/MonfaredAshkan/status/2014803155507413100, https://t.me/RememberTheirNames/439
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2014802095816536133, https://x.com/indypersian/status/2014969488358191244, https://x.com/monfaredashkan/status/2014803155507413100, https://x.com/MonfaredAshkan/status/2014802095816536133, https://x.com/MonfaredAshkan/status/2014803155507413100, https://t.me/RememberTheirNames/439"
+  - "https://x.com/monfaredashkan/status/2014802095816536133"
+  - "https://x.com/MonfaredAshkan/status/2014802095816536133"
 persian_name: یاسر قندالی

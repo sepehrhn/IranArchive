@@ -1,0 +1,43 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Embassy Picket"
+
+featured: true
+
+description: |
+  Ongoing frequent protests demanding the closure of the embassy and expulsion of diplomats. Often involves chanting and chanting slogans directly at the embassy building.
+  
+  **Tips:** Take the bus to Lidingö; dress warmly as this location is exposed to wind.
+  
+  **Location Details:** Outside the Embassy of the Islamic Republic of Iran.
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: "12:00"
+  end: "2026/02/07"
+  end_time: "15:00"
+
+location:
+  country: "SE"
+  city: "Stockholm"
+  address: "Elfsviksvägen, Lidingö"
+
+online: []
+
+organizer:
+  name: "Independent protesters / 'Make a Change for Iran'"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYHLGnkQ8YByTVANkUXCWrrcd1yT2hnbD1qXUDv0xwqpW2uKTtA77kRpM3bHiy_c_TuMHUnxmOK-X9pfZU66istMWE3ebP4M4t"

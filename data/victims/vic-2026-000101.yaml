@@ -2,7 +2,12 @@
 # Victim Documentation - Saeed Tarvand
 # ==========================================
 
-photo: vic-2026-000101.jpg
+photo:
+  - "vic-2026-000101.jpg"
+  - "vic-2026-87fce683ab06.jpg"
+  - "vic-2026-e5dd4f420975.jpg"
+  - "vic-2026-beab33324085.jpg"
+  - "vic-2026-4adbb575fd39.jpg"
 name: Saeed Tarvand
 birth_date: ""
 birth_province: ""
@@ -24,6 +29,10 @@ description: |-
 
   Targeted by state security forces with direct fire from a pellet gun at close range on Amiri Street. His body was released after five days of security pressure.
 source_type: Social Media
-source_social_media_link: https://x.com/kurdpa_farsi/status/2013685872168751590, https://x.com/kurdpa_farsi/status/2013685502206001323, https://x.com/HengawO/status/2013719279015747794, https://www.instagram.com/p/DTxszGGCEAS, https://x.com/KurdistanHRN/status/2013985376872878373, https://x.com/ANITABAKT/status/2015758986532790395, https://t.me/RememberTheirNames/423, https://x.com/kyokushinsoofi/status/2015833388016414758, https://x.com/anitabakt/status/2015758986532790395
-child: false
+source_social_media_link:
+  - "https://x.com/kurdpa_farsi/status/2013685872168751590, https://x.com/kurdpa_farsi/status/2013685502206001323, https://x.com/HengawO/status/2013719279015747794, https://www.instagram.com/p/DTxszGGCEAS, https://x.com/KurdistanHRN/status/2013985376872878373, https://x.com/ANITABAKT/status/2015758986532790395, https://t.me/RememberTheirNames/423, https://x.com/kyokushinsoofi/status/2015833388016414758, https://x.com/anitabakt/status/2015758986532790395"
+  - "https://x.com/kurdpa_farsi/status/2013685872168751590"
+  - "https://x.com/HengawO/status/2013719279015747794"
+  - "https://www.instagram.com/p/DTxszGGCEAS"
+  - "https://x.com/KurdistanHRN/status/2013985376872878373"
 persian_name: سعید تروند

@@ -2,25 +2,28 @@
 # Victim Documentation - Pedram Khalouei
 # ==========================================
 
-photo: vic-2026-2140154.jpg
+photo:
+  - "vic-2026-2140154.jpg"
+  - "vic-2026-fed3c301422c.jpg"
+  - "vic-2026-506ed0b0a896.jpg"
 name: Pedram Khalouei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 15
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: "Isfahan"
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Mentioned as 'Javidnam' (eternal/immortal, a term often used for martyrs). No further details provided about his death or the circumstances.
+description: Mentioned as 'Javidnam' (eternal/immortal, a term often used for martyrs). No further details provided about his death or the circumstances.
 source_type: Social Media
-source_social_media_link: https://x.com/zizicgoogoolian/status/2016206598713364824, https://x.com/i/status/2016206598713364824
-child: false
+source_social_media_link:
+  - "https://x.com/zizicgoogoolian/status/2016206598713364824, https://x.com/i/status/2016206598713364824"
+  - "https://x.com/i/status/2016206598713364824"
 persian_name: پدرام‌خالوئی

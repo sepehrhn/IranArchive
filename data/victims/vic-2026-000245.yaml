@@ -2,9 +2,13 @@
 # Victim Documentation - Amirhossein Ahmadisharif
 # ==========================================
 
-photo: ""
+photo:
+  - ""
+  - "vic-2026-001654.jpg"
+  - "vic-2026-93d562fc56af.jpg"
+  - "vic-2026-4c94841dacbf.jpg"
 name: Amirhossein Ahmadisharif
-persian_name: "امیرحسین احمدی شریف"
+persian_name: امیرحسین احمدی شریف
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -13,14 +17,15 @@ age: 23
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: "Karaj"
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Shot and killed by IRGC forces
 source_type: Social Media
-source_social_media_link: https://x.com/longlosthills/status/2011451898016989522
-child: false
+source_social_media_link:
+  - "https://x.com/longlosthills/status/2011451898016989522"
+  - "https://t.me/RememberTheirNames/1038"

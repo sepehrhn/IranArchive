@@ -2,7 +2,10 @@
 # Victim Documentation - Malek Niaz Kordalivand
 # ==========================================
 
-photo: vic-2026-000663.jpg
+photo:
+  - "vic-2026-000663.jpg"
+  - "vic-2026-5d6507701046.jpg"
+  - "vic-2026-abb93e778a43.jpg"
 name: Malek Niaz Kordalivand
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   First victim in Khorramabad on January 8, 2026. Father of two children. From a prominent tribal family.
 source_type: Social Media
-source_social_media_link: https://x.com/revenantgt6u/status/2015092945846698048, https://x.com/Revenantgt6u/status/2014658827350646841, https://t.me/RememberTheirNames/1083, https://x.com/me_azadi/status/2016787703149265138
-child: false
+source_social_media_link:
+  - "https://x.com/revenantgt6u/status/2015092945846698048, https://x.com/Revenantgt6u/status/2014658827350646841, https://t.me/RememberTheirNames/1083, https://x.com/me_azadi/status/2016787703149265138"
+  - "https://x.com/revenantgt6u/status/2015092945846698048"
+  - "https://x.com/Me_azadi/status/2016787703149265138"
 persian_name: ملک‌نیاز کردعلیوند

@@ -2,7 +2,10 @@
 # Victim Documentation - Aynaz Rahimi
 # ==========================================
 
-photo: vic-2026-001047.jpg
+photo:
+  - "vic-2026-001047.jpg"
+  - "vic-2026-b1dbbfc18f18.jpg"
+  - "vic-2026-12919c567973.jpg"
 name: Aynaz Rahimi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,7 @@ description: |-
 
   Died in Dey 1404 in Najafabad, Isfahan.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014403097204797561, https://t.me/RememberTheirNames/700
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2014403097204797561, https://t.me/RememberTheirNames/700"
+  - "https://x.com/visfehan/status/2014403097204797561"
 persian_name: آیناز رحیمی

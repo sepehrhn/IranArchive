@@ -2,7 +2,9 @@
 # Victim Documentation - Alireza Jalilbeigi
 # ==========================================
 
-photo: vic-2026-001374.png
+photo:
+  - "vic-2026-001374.png"
+  - "vic-2026-cc8279a49a6d.png"
 name: Alireza Jalilbeigi
 birth_date: ""
 birth_province: ""
@@ -26,6 +28,8 @@ description: |-
 
   Shot in the head during the national revolution. His daughter was to be married the following week. His family is under pressure.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2015578519338614800, https://x.com/i/status/2015578519338614800
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2015578519338614800, https://x.com/i/status/2015578519338614800"
+  - "https://x.com/hekasrehcrisis/status/2015578519338614800"
+  - "https://x.com/i/status/2015578519338614800"
 persian_name: علیرضا جلیل بیگی

@@ -2,7 +2,8 @@
 # Victim Documentation - Hojjat Teymouri
 # ==========================================
 
-photo: vic-2026-001416.jpg
+photo:
+  - vic-2026-001416.jpg
 name: Hojjat Teymouri
 birth_date: ""
 birth_province: ""
@@ -27,5 +28,4 @@ description: |-
   Described as 'son of the homeland and killed on the path of the homeland'. No further details on age, location, or date of death provided.
 source_type: Social Media
 source_social_media_link: https://x.com/sababaghban/status/2015142490412577204
-child: false
 persian_name: حجت تیموری

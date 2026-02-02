@@ -2,7 +2,9 @@
 # Victim Documentation - Mehran
 # ==========================================
 
-photo: vic-2026-001134.jpg
+photo:
+  - "vic-2026-001134.jpg"
+  - "vic-2026-15ddc63555ed.jpg"
 name: Mehran
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Shot in the side while trying to help an injured woman; bullet exited through his stomach
 source_type: Social Media
-source_social_media_link: https://x.com/pkhwshhal/status/2013013474666852813
-child: false
+source_social_media_link:
+  - "https://x.com/pkhwshhal/status/2013013474666852813"
+  - "https://x.com/pkhwshhal/status/2012858924010016901"
 persian_name: مهران

@@ -2,7 +2,8 @@
 # Victim Documentation - Amin Toulabi Lor
 # ==========================================
 
-photo: vic-2026-000520.jpg
+photo:
+  - vic-2026-000520.jpg
 name: Amin Toulabi Lor
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Shot directly by suppressive forces
 source_type: Social Media
 source_social_media_link: https://x.com/hirman__/status/2014748296762298480
-child: false
 persian_name: امین طولابی لر

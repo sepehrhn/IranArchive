@@ -2,7 +2,10 @@
 # Victim Documentation - Parham Davoodi
 # ==========================================
 
-photo: vic-2026-001781.jpg
+photo:
+  - "vic-2026-001781.jpg"
+  - "vic-2026-8d9f2934d804.jpg"
+  - "vic-2026-96f34e40328a.jpg"
 name: Parham Davoodi
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,7 @@ description: |-
 
   Killed by live ammunition fired by security forces. His body was buried on January 10, 2026, in Ard al, Dinaran village.
 source_type: Social Media
-source_social_media_link: https://x.com/foad_choobin/status/2015129661383045220
-child: false
+source_social_media_link:
+  - "https://x.com/foad_choobin/status/2015129661383045220"
+  - "https://x.com/shahinlooo/status/2017230502890021202"
 persian_name: پرهام داوودی

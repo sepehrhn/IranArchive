@@ -2,7 +2,11 @@
 # Victim Documentation - Parsa Abbaspour
 # ==========================================
 
-photo: vic-2026-002036.jpg
+photo:
+  - "vic-2026-002036.jpg"
+  - "vic-2026-1ee0026c1b0f.jpg"
+  - "vic-2026-2002c4affa3e.jpg"
+  - "vic-2026-a3090b7a67c7.jpg"
 name: Parsa Abbaspour
 birth_date: ""
 birth_province: ""
@@ -23,6 +27,8 @@ description: |-
 
   Killed by direct fire from state security forces during public protests.
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2015590512787599612, https://t.me/RememberTheirNames/1192
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2015590512787599612, https://t.me/RememberTheirNames/1192"
+  - "https://x.com/manotonews/status/2015590512787599612"
+  - "https://x.com/mehdish88/status/2016197354718642682"
 persian_name: پارسا عباسپور

@@ -2,7 +2,12 @@
 # Victim Documentation - Reyhaneh Qodsi
 # ==========================================
 
-photo: vic-2026-001312.jpg
+photo:
+  - "vic-2026-001312.jpg"
+  - "vic-2026-8b6fa75d8456.jpg"
+  - "vic-2026-8cda660174d2.jpg"
+  - "vic-2026-a47b6147bd26.jpg"
+  - "vic-2026-c7309208572e.jpg"
 name: Reyhaneh Qodsi
 birth_date: ""
 birth_province: ""
@@ -23,6 +28,9 @@ description: |
 
   Shot in the carotid artery during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/i/status/2014481973532627317, https://x.com/allahbakhshii/status/2016502328682000614, https://t.me/RememberTheirNames/1609
-child: false
+source_social_media_link:
+  - "https://x.com/i/status/2014481973532627317, https://x.com/allahbakhshii/status/2016502328682000614, https://t.me/RememberTheirNames/1609"
+  - "https://x.com/i/status/2014481973532627317"
+  - "https://x.com/allahbakhshii/status/2016502328682000614"
+  - "https://t.me/RememberTheirNames/1609"
 persian_name: ریحانه قدسی

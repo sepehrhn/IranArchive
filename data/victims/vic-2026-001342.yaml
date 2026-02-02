@@ -2,7 +2,12 @@
 # Victim Documentation - Leila Shokri
 # ==========================================
 
-photo: vic-2026-001342.jpg
+photo:
+  - "vic-2026-001342.jpg"
+  - "vic-2026-b00a4da774c7.jpg"
+  - "vic-2026-54e487b35e3c.jpg"
+  - "vic-2026-874efd3e5b62.jpg"
+  - "vic-2026-7463173bcbf5.jpg"
 name: Leila Shokri
 birth_date: ""
 birth_province: ""
@@ -26,6 +31,11 @@ description: |-
 
   Shot directly by security forces while standing near a tree during protests. Died after two hours in hospital. Her body was returned to her family on January 13, 2026, and buried in a security-heavy environment in Behesht Fatemi, Garchak. She was married with three children aged 16, 11, and 2.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2015304481093624250, https://x.com/HengawO/status/2015729399618769332, https://x.com/IranianPlateau/status/2015461845310591008, https://x.com/iranwire/status/2015861963738255455, https://x.com/HeKasrehCrisis/status/2015304481093624250, https://t.me/RememberTheirNames/1324
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2015304481093624250, https://x.com/HengawO/status/2015729399618769332, https://x.com/IranianPlateau/status/2015461845310591008, https://x.com/iranwire/status/2015861963738255455, https://x.com/HeKasrehCrisis/status/2015304481093624250, https://t.me/RememberTheirNames/1324"
+  - "https://x.com/hekasrehcrisis/status/2015304481093624250"
+  - "https://x.com/HengawO/status/2015729399618769332"
+  - "https://x.com/IranianPlateau/status/2015461845310591008"
+  - "https://x.com/iranwire/status/2015861963738255455"
+  - "https://x.com/HeKasrehCrisis/status/2015304481093624250"
 persian_name: لیلا شکری

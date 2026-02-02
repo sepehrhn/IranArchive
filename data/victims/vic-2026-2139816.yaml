@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Yazdani
 # ==========================================
 
-photo: vic-2026-2139816.jpg
+photo:
+  - "vic-2026-2139816.jpg"
+  - "vic-2026-65a1ef850ce9.jpg"
 name: Mohammad Yazdani
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot and killed by security forces alongside his friend Amirhossein Sartipi at Baharan Square in Shahrqods. Both were killed by gunfire.
+description: Shot and killed by security forces alongside his friend Amirhossein Sartipi at Baharan Square in Shahrqods. Both were killed by gunfire.
 source_type: Social Media
-source_social_media_link: https://x.com/becrebb/status/2016666868501942298
-child: false
+source_social_media_link:
+  - "https://x.com/becrebb/status/2016666868501942298"
+  - "https://t.me/javanmardi77/154079"
 persian_name: محمد یزدانی

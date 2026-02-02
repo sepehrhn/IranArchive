@@ -2,7 +2,9 @@
 # Victim Documentation - Mehran Jahanbakhshi
 # ==========================================
 
-photo: vic-2026-001976.jpg
+photo:
+  - "vic-2026-001976.jpg"
+  - "vic-2026-0624dd8005fb.jpg"
 name: Mehran Jahanbakhshi
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Shot by security forces in Isfahan and died.
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2015603463334306006, https://x.com/i/status/2015603463334306006, https://t.me/RememberTheirNames/1036
-child: false
+source_social_media_link:
+  - "https://x.com/hirman__/status/2015603463334306006, https://x.com/i/status/2015603463334306006, https://t.me/RememberTheirNames/1036"
+  - "https://x.com/i/status/2015603463334306006"
 persian_name: مهران جهانبخشی

@@ -2,7 +2,10 @@
 # Victim Documentation - Ali Mashhadi
 # ==========================================
 
-photo: vic-2026-2139854.jpg
+photo:
+  - "vic-2026-2139854.jpg"
+  - "vic-2026-536a324d2c99.jpg"
+  - "vic-2026-c2a3028dd0ac.jpg"
 name: Ali Mashhadi
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,10 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed near Falah, Baharan Square, during clashes around Abu Zar Mosque which was set on fire. Identified as a child of the neighborhood by the sender.
+description: Killed near Falah, Baharan Square, during clashes around Abu Zar Mosque which was set on fire. Identified as a child of the neighborhood by the sender.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2015835812449898632, https://x.com/HeKasrehCrisis/status/2015835812449898632, https://t.me/RememberTheirNames/1424
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2015835812449898632, https://x.com/HeKasrehCrisis/status/2015835812449898632, https://t.me/RememberTheirNames/1424"
+  - "https://x.com/HeKasrehCrisis/status/2015835812449898632"
+  - "https://t.me/RememberTheirNames/1424"
 persian_name: علی مشهدی

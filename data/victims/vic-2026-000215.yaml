@@ -2,7 +2,10 @@
 # Victim Documentation - Abolfazl Eskandari
 # ==========================================
 
-photo: vic-2026-000215.jpg
+photo:
+  - "vic-2026-000215.jpg"
+  - "vic-2026-450a407c6c4e.jpg"
+  - "vic-2026-f1fda68db869.jpg"
 name: Abolfazl Eskandari
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: 23
 occupation: ""
 country: Iran
-incident_province: Shazand
+incident_province: ""
 incident_city: Jamalabad village
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -24,6 +27,7 @@ description: |-
 
   Killed by the regime. Was from Jamalabad village in Shazand and completing mandatory military service in Arak.
 source_type: Social Media
-source_social_media_link: https://x.com/SaeidVafa/status/2014896406121632077, https://x.com/saeidvafa/status/2014896406121632077, https://x.com/behnam_chegini/status/2014964792016912845, https://x.com/SaeidVafa/status/2015902279329595430, https://t.me/RememberTheirNames/1158
-child: false
+source_social_media_link:
+  - "https://x.com/SaeidVafa/status/2014896406121632077, https://x.com/saeidvafa/status/2014896406121632077, https://x.com/behnam_chegini/status/2014964792016912845, https://x.com/SaeidVafa/status/2015902279329595430, https://t.me/RememberTheirNames/1158"
+  - "https://x.com/SaeidVafa/status/2015902279329595430"
 persian_name: ابوالفضل اسکندری

@@ -2,7 +2,10 @@
 # Victim Documentation - Hadi Ghalghani
 # ==========================================
 
-photo: vic-2026-2140051.jpg
+photo:
+  - "vic-2026-2140051.jpg"
+  - "vic-2026-0d2052b9f2d3.jpg"
+  - "vic-2026-6e82d27b9139.jpg"
 name: Hadi Ghalghani
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,10 @@ date_of_death: "2025-12-28"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Was trying to help someone who had been hit by birdshot in front of the Qods governorship building when he was shot in the head. He was buried two days later in his hometown of Tuyserkan. Hadi owned a barbershop on Imamzadeh Street.
+description: Was trying to help someone who had been hit by birdshot in front of the Qods governorship building when he was shot in the head. He was buried two days later in his hometown of Tuyserkan. Hadi owned a barbershop on Imamzadeh Street.
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2016133335769063567, https://t.me/RememberTheirNames/1486
-child: false
+source_social_media_link:
+  - "https://x.com/fseifikaran/status/2016133335769063567, https://t.me/RememberTheirNames/1486"
+  - "https://x.com/fseifikaran/status/2016133335769063567"
+  - "https://t.me/RememberTheirNames/1486"
 persian_name: هادی قلخانی

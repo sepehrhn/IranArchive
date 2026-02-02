@@ -2,7 +2,9 @@
 # Victim Documentation - Vahid Mohammadlou
 # ==========================================
 
-photo: vic-2026-2139836.jpg
+photo:
+  - "vic-2026-2139836.jpg"
+  - "vic-2026-ae6f361f1558.webp"
 name: Vahid Mohammadlou
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot directly in the eye by security forces during protests, sacrificing his life for the homeland. He was a soldier who resigned from the Air Force in 2022 during the Mahsa Amini uprising. He had two daughters, aged 4 and 9.
+description: Shot directly in the eye by security forces during protests, sacrificing his life for the homeland. He was a soldier who resigned from the Air Force in 2022 during the Mahsa Amini uprising. He had two daughters, aged 4 and 9.
 source_type: Social Media
 source_social_media_link: https://www.instagram.com/p/DUBU00tkQCV
-child: false
 persian_name: وحید محمدلو

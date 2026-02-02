@@ -2,7 +2,8 @@
 # Victim Documentation - Akbar Boroujerdi
 # ==========================================
 
-photo: vic-2026-2139847.jpg
+photo:
+  - vic-2026-2139847.jpg
 name: Akbar Boroujerdi
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed on 18th and 19th Dey in Karaj. Identified as a 'martyr on the path of freedom of the homeland'.
+description: Killed on 18th and 19th Dey in Karaj. Identified as a 'martyr on the path of freedom of the homeland'.
 source_type: Social Media
 source_social_media_link: https://x.com/vimana1991/status/2016179704273809510
-child: false
 persian_name: اکبر بروجردی

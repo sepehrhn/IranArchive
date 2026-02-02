@@ -2,19 +2,21 @@
 # Victim Documentation - Kamyar Nassari
 # ==========================================
 
-photo: vic-2026-001265.jpg
+photo:
+  - "vic-2026-001265.jpg"
+  - "vic-2026-001715.jpg"
 name: Kamyar Nassari
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Karaj
 incident_address: Hesar
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -24,5 +26,5 @@ description: |
   Reportedly shot by police forces from station 48 in Hesar with live ammunition.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/fseifikaran/status/2015453470657032264
-child: false
+  - "https://x.com/fseifikaran/status/2015453470657032264"
+  - "https://x.com/FSeifikaran/status/2015453470657032264, https://t.me/RememberTheirNames/1216"

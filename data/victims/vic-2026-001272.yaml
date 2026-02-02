@@ -2,20 +2,25 @@
 # Victim Documentation - Mohammad Khan Mohammadi
 # ==========================================
 
-photo: vic-2026-001272.jpg
+photo:
+  - "vic-2026-001272.jpg"
+  - "vic-2026-168dc8ae445e.jpg"
+  - "vic-2026-dbbd1c098563.jpg"
+  - "vic-2026-001594.jpg"
+  - "vic-2026-001755.jpg"
 name: Mohammad Khan Mohammadi
-persian_name: "محمد خان‌محمدی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
+persian_name: محمد خان‌محمدی
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 67
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -25,5 +30,6 @@ description: |
   Retired colonel and veteran of the eight-year war, shot with two bullets during protests in Kaj Square, Saadat Abad neighborhood. His body was found in front of a clinic with medical equipment attached.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hra_news/status/2015490758548058478
-child: false
+  - "https://x.com/hra_news/status/2015490758548058478"
+  - "https://t.me/RememberTheirNames/787"
+  - "https://x.com/hra_news/status/2015490758548058478, https://t.me/RememberTheirNames/1137"

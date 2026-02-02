@@ -2,7 +2,11 @@
 # Victim Documentation - Ali Jafari
 # ==========================================
 
-photo: vic-2026-000489.jpg
+photo:
+  - "vic-2026-000489.jpg"
+  - "vic-2026-c4a0943710fb.jpg"
+  - "vic-2026-2139736.jpg"
+  - "vic-2026-a9088c51fc84.jpg"
 name: Ali Jafari
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,10 @@ description: |-
 
   A 44-year-old employee and father of two teenagers, Ali Jafari was killed by direct fire from government forces during public protests. His body was returned to his family under the condition that no ceremony would be held.
 source_type: Social Media
-source_social_media_link: https://x.com/ManotoNews/status/2014503850431152378, https://t.me/RememberTheirNames/626
-child: false
+source_social_media_link:
+  - "https://x.com/ManotoNews/status/2014503850431152378, https://t.me/RememberTheirNames/626"
+  - "https://x.com/MonfaredAshkan/status/2015544599809528015"
+  - "https://x.com/jesibikhoda/status/2016875478854848704"
+  - "https://x.com/VIsfehan/status/2016919692871442689"
+  - "https://x.com/visfehan/status/2016919692871442689"
 persian_name: علی جعفری

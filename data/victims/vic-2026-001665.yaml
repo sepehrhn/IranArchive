@@ -2,7 +2,8 @@
 # Victim Documentation - Arsalan
 # ==========================================
 
-photo: vic-2026-001665.jpg
+photo:
+  - vic-2026-001665.jpg
 name: Arsalan
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Nephew of the tweet author, described as a hero who had not yet tasted life. Died on 19 Dey.
 source_type: Social Media
 source_social_media_link: https://x.com/AplcarolineDr/status/2015872132207804535
-child: false
 persian_name: ارسلان

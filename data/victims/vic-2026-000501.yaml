@@ -2,7 +2,10 @@
 # Victim Documentation - Ali Rouzbehani
 # ==========================================
 
-photo: vic-2026-000501.jpg
+photo:
+  - "vic-2026-000501.jpg"
+  - "vic-2026-56c37c595d13.jpg"
+  - "vic-2026-4f13c9db8130.jpg"
 name: Ali Rouzbehani
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Shot directly by Islamic Republic forces while in his wife's arms. He was an architect and a mathematics prodigy.
 source_type: Social Media
-source_social_media_link: https://x.com/Tavaana/status/2013671704934101436, https://x.com/khoshnevisnaser/status/2015107343327907988, https://t.me/RememberTheirNames/580
-child: false
+source_social_media_link:
+  - "https://x.com/Tavaana/status/2013671704934101436, https://x.com/khoshnevisnaser/status/2015107343327907988, https://t.me/RememberTheirNames/580"
+  - "https://x.com/Tavaana/status/2013671704934101436"
+  - "https://x.com/khoshnevisnaser/status/2015107343327907988"
 persian_name: علی روزبهانی

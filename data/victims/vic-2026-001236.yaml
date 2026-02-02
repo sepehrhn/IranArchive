@@ -2,7 +2,10 @@
 # Victim Documentation - Yalda Jafari
 # ==========================================
 
-photo: vic-2026-001236.jpg
+photo:
+  - "vic-2026-001236.jpg"
+  - "vic-2026-26257b4b577a.jpg"
+  - "vic-2026-68444da0fbdd.jpg"
 name: Yalda Jafari
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,7 @@ description: |-
 
   Mentioned in the context of 'IranMassacre' and 'R2PforIran', suggesting she is a victim of state violence.
 source_type: Social Media
-source_social_media_link: https://x.com/zizicgoogoolian/status/2014772948390052018, https://x.com/ZizicGoogoolian/status/2014772948390052018, https://t.me/RememberTheirNames/1005
-child: false
+source_social_media_link:
+  - "https://x.com/zizicgoogoolian/status/2014772948390052018, https://x.com/ZizicGoogoolian/status/2014772948390052018, https://t.me/RememberTheirNames/1005"
+  - "https://x.com/zizicgoogoolian/status/2014772948390052018"
 persian_name: یلدا جعفری

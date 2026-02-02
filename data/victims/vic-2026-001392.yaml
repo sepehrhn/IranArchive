@@ -2,7 +2,11 @@
 # Victim Documentation - Pouya Jafari
 # ==========================================
 
-photo: vic-2026-001392.jpg
+photo:
+  - "vic-2026-001392.jpg"
+  - "vic-2026-803ed44f794d.jpg"
+  - "vic-2026-a4c912c2f82d.jpg"
+  - "vic-2026-962ce1911759.jpg"
 name: Pouya Jafari
 birth_date: ""
 birth_province: ""
@@ -26,6 +30,7 @@ description: |-
 
   Died from direct shooting by security forces in the head and eye during nationwide protests. His body was returned to his family after several days, and they were warned against holding mourning ceremonies.
 source_type: Social Media
-source_social_media_link: https://x.com/iranintl/status/2015633640860905625, https://x.com/EditclipI/status/2015349964348535155, https://t.me/RememberTheirNames/1145
-child: true
+source_social_media_link:
+  - "https://x.com/iranintl/status/2015633640860905625, https://x.com/EditclipI/status/2015349964348535155, https://t.me/RememberTheirNames/1145"
+  - "https://x.com/iranintl/status/2015633640860905625"
 persian_name: پویا جعفری

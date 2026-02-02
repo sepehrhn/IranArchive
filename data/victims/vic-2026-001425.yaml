@@ -2,22 +2,23 @@
 # Victim Documentation - Mohammad Mozaffari
 # ==========================================
 
-photo: ''
+photo:
+  - ""
 name: Mohammad Mozaffari
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: ''
+incident_province: ""
+incident_city: ""
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Exact
-cause_of_death: ''
-status: Killed
+cause_of_death: ""
+status: "Missing"
 description: |
   Persian Name: محمد مظفری
 
@@ -25,4 +26,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/ras_e_isole/status/2014680813284008416
-child: false

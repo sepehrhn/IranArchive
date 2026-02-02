@@ -2,13 +2,16 @@
 # Victim Documentation - Mehdi Mostafaeipour
 # ==========================================
 
-photo: vic-2026-001586.jpg
+photo:
+  - "vic-2026-001586.jpg"
+  - "vic-2026-f1dff85cc48b.jpg"
+  - "vic-2026-a072df201c0c.jpg"
 name: Mehdi Mostafaeipour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 24
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,6 +26,9 @@ description: |-
 
   Killed by security forces. He was a graduate of Polymer Engineering at Isfahan University of Technology and a Master's student in Polymer Engineering at Iran Polymer and Petrochemical Institute.
 source_type: Social Media
-source_social_media_link: https://x.com/anjmotahed/status/2015700383453036614, https://x.com/i/status/2015700383453036614, https://t.me/RememberTheirNames/646
-child: false
+source_social_media_link:
+  - "https://x.com/anjmotahed/status/2015700383453036614, https://x.com/i/status/2015700383453036614, https://t.me/RememberTheirNames/646"
+  - "https://x.com/anjmotahed/status/2015700383453036614"
+  - "https://x.com/i/status/2015700383453036614"
+  - "https://x.com/khanbabamt/status/2017510646712303826"
 persian_name: مهدی مصطفایی‌پور

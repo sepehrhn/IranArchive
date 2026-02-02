@@ -2,7 +2,12 @@
 # Victim Documentation - Bashir Karimi
 # ==========================================
 
-photo: vic-2026-000269.jpg
+photo:
+  - "vic-2026-000269.jpg"
+  - "vic-2026-4dae4e9fb4fc.jpg"
+  - "vic-2026-2a937edf3ca3.jpg"
+  - "vic-2026-0e4935065b37.jpg"
+  - "vic-2026-444f21a3eabd.jpg"
 name: Bashir Karimi
 birth_date: ""
 birth_province: ""
@@ -24,6 +29,8 @@ description: |-
 
   Died during protests in Dey 1404 (late Dec 2025 - Jan 2026). Specific date and cause of death not provided.
 source_type: Social Media
-source_social_media_link: https://x.com/behnam_chegini/status/2015044433234850265, https://x.com/esmaeils1169/status/2014723627170595315, https://t.me/RememberTheirNames/923
-child: false
+source_social_media_link:
+  - "https://x.com/behnam_chegini/status/2015044433234850265, https://x.com/esmaeils1169/status/2014723627170595315, https://t.me/RememberTheirNames/923"
+  - "https://x.com/behnam_chegini/status/2015044433234850265"
+  - "https://x.com/esmaeils1169/status/2014723627170595315"
 persian_name: بشیر کریمی

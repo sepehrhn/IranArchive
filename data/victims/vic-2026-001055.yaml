@@ -2,7 +2,9 @@
 # Victim Documentation - Bijan Ebrahimi
 # ==========================================
 
-photo: vic-2026-001055.jpg
+photo:
+  - "vic-2026-001055.jpg"
+  - "vic-2026-b618be8c2a87.jpg"
 name: Bijan Ebrahimi
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Died in Esfarayen during the protests
 source_type: Social Media
-source_social_media_link: https://x.com/yaldarta/status/2014946096523481285, https://t.me/RememberTheirNames/1620
-child: false
+source_social_media_link:
+  - "https://x.com/yaldarta/status/2014946096523481285, https://t.me/RememberTheirNames/1620"
+  - "https://t.me/RememberTheirNames/1620"
 persian_name: بیژن ابراهیمی

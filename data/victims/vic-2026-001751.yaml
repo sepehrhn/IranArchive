@@ -2,7 +2,8 @@
 # Victim Documentation - Mohammad Hossein Hosseinzadeh
 # ==========================================
 
-photo: vic-2026-001751.jpg
+photo:
+  - vic-2026-001751.jpg
 name: Mohammad Hossein Hosseinzadeh
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-09"
@@ -24,5 +25,4 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1125
-child: false
 persian_name: محمدحسین حسین‌زاده

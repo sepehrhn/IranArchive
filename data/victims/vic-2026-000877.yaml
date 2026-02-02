@@ -2,7 +2,16 @@
 # Victim Documentation - ZeinabFard
 # ==========================================
 
-photo: vic-2026-000877.jpg
+photo:
+  - "vic-2026-000877.jpg"
+  - "vic-2026-ff85450f9555.jpg"
+  - "vic-2026-000878.jpg"
+  - "vic-2026-1b3c65d70655.jpg"
+  - "vic-2026-97fd2b60ba70.jpg"
+  - "vic-2026-8a6d71c13532.jpg"
+  - "vic-2026-9367e5b90359.jpg"
+  - "vic-2026-952b4cf70b4d.jpg"
+  - "vic-2026-b07c16a545e0.jpg"
 name: ZeinabFard
 birth_date: ""
 birth_province: ""
@@ -14,12 +23,18 @@ country: Iran
 incident_province: ""
 incident_city: Varamin
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
 description: |
   Shot in the head by a regime sniper during protests
 source_type: Social Media
-source_social_media_link: https://x.com/soranmansournia/status/2013395081558966690
-child: false
+source_social_media_link:
+  - "https://x.com/soranmansournia/status/2013395081558966690"
+  - "https://x.com/nicksotoudeh/status/2013680626403090640"
+  - "https://x.com/BabakTaghvaee1/status/2012518109307949187"
+  - "https://t.me/Namayandeh3oma/80467"
+  - "https://x.com/ashkvuo7000/status/2015031768752005362"
+  - "https://x.com/4z4dd/status/2015065930997338292"
+  - "https://x.com/kyokushinsoofi/status/2015930910492000350"

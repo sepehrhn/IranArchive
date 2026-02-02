@@ -2,19 +2,21 @@
 # Victim Documentation - Soroosh ( Hafez) Soleymani
 # ==========================================
 
-photo: vic-2026-001481.png
+photo:
+  - "vic-2026-001481.png"
+  - "vic-2026-0cf72ffcd608.jpg"
 name: Soroosh ( Hafez) Soleymani
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-age: null
-occupation: ''
+age: 27
+occupation: ""
 country: Iran
 incident_province: Chahar Mahaal and Bakhtiari
 incident_city: Hafshejan
-incident_address: ''
-date_of_death: '2026-01-03'
+incident_address: ""
+date_of_death: "2026-01-03"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -25,5 +27,4 @@ description: |
   According to local accounts, residents identified the shooter and set his shop and car on fire.
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

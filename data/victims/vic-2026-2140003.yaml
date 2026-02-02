@@ -2,7 +2,8 @@
 # Victim Documentation - Saeed Miri
 # ==========================================
 
-photo: vic-2026-2140003.jpg
+photo:
+  - vic-2026-2140003.jpg
 name: Saeed Miri
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed by Islamic Republic suppressors during protests on 18 Dey. His relatives had no news of him for five days until they found his lifeless body in the morgue of Arak cemetery.
+description: Killed by Islamic Republic suppressors during protests on 18 Dey. His relatives had no news of him for five days until they found his lifeless body in the morgue of Arak cemetery.
 source_type: Social Media
 source_social_media_link: https://x.com/behnam_chegini/status/2016776398065562001
-child: false
 persian_name: سعید میری

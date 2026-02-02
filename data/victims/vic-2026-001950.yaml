@@ -2,7 +2,9 @@
 # Victim Documentation - Mahin Behrouz
 # ==========================================
 
-photo: vic-2026-001950.jpg
+photo:
+  - "vic-2026-001950.jpg"
+  - "vic-2026-f0c05bd83dfe.jpg"
 name: Mahin Behrouz
 birth_date: ""
 birth_province: ""
@@ -25,6 +27,7 @@ description: |-
 
   Second-semester psychology student from Khartoot, North Khorasan, living in Tehran. Shot directly in the side by government suppression forces during protests. Family transported her body 800 kilometers from Tehran to Khorasan on ice to return her to her birthplace for burial.
 source_type: Social Media
-source_social_media_link: https://www.instagram.com/p/DUAHYkWDLwp, https://x.com/ManotoNews/status/2016783372576592283
-child: false
+source_social_media_link:
+  - "https://www.instagram.com/p/DUAHYkWDLwp, https://x.com/ManotoNews/status/2016783372576592283"
+  - "https://x.com/ManotoNews/status/2016783372576592283"
 persian_name: مهین بهروز

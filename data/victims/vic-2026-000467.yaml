@@ -2,7 +2,10 @@
 # Victim Documentation - Abbas Zeynali
 # ==========================================
 
-photo: vic-2026-000467.jpg
+photo:
+  - "vic-2026-000467.jpg"
+  - "vic-2026-d091da874eca.jpg"
+  - "vic-2026-4b38fd1adfff.jpg"
 name: Abbas Zeynali
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,8 @@ status: Killed
 description: |
   Shot directly with live ammunition by the Islamic Republic's repressive forces during protests. Less than 25 years old.
 source_type: Social Media
-source_social_media_link: https://x.com/tavaana/status/2014298864543834562, https://x.com/kurdpa_farsi/status/2015154673267708001, https://x.com/yaldarta/status/2014946096523481285, https://t.me/RememberTheirNames/502
-child: false
+source_social_media_link:
+  - "https://x.com/tavaana/status/2014298864543834562, https://x.com/kurdpa_farsi/status/2015154673267708001, https://x.com/yaldarta/status/2014946096523481285, https://t.me/RememberTheirNames/502"
+  - "https://x.com/kurdpa_farsi/status/2015154673267708001"
+  - "https://x.com/mfshfshh71601/status/2017830077770109157"
 persian_name: عباس زینالی

@@ -2,7 +2,11 @@
 # Victim Documentation - Masih Bigdeli
 # ==========================================
 
-photo: vic-2026-000016.jpeg
+photo:
+  - "vic-2026-000016.jpeg"
+  - "vic-2026-6282718fd705.jpg"
+  - "vic-2026-e5718dd651cb.jpg"
+  - "vic-2026-002080.jpg"
 name: Masih Bigdeli
 birth_date: ""
 birth_province: ""
@@ -26,6 +30,9 @@ description: |-
 
   Died in Isfahan in Dey 1404 (Persian calendar).
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1581
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1581"
+  - "https://x.com/parsia_kazmi/status/2017733013002481674"
+  - "https://x.com/shayanihimself/status/2017688247237812482"
+  - "https://t.me/RememberTheirNames/996"
 persian_name: مسیح بیگدلی

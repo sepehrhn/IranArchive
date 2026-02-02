@@ -2,7 +2,8 @@
 # Victim Documentation - Pejman Nikbakht
 # ==========================================
 
-photo: vic-2026-2140155.jpg
+photo:
+  - vic-2026-2140155.jpg
 name: Pejman Nikbakht
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  18-year-old local youth killed at Serah-e Malek Shahr intersection in Isfahan. Father was pressured by authorities to stay silent about the death.
+description: 18-year-old local youth killed at Serah-e Malek Shahr intersection in Isfahan. Father was pressured by authorities to stay silent about the death.
 source_type: Social Media
 source_social_media_link: https://x.com/visfehan/status/2016188250495266958
-child: false
 persian_name: پژمان نیکبخت

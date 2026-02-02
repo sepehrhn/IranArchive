@@ -2,7 +2,10 @@
 # Victim Documentation - Mojtaba Jouzi
 # ==========================================
 
-photo: ""
+photo:
+  - ""
+  - "vic-2026-5ebc624ba0a1.jpg"
+  - "vic-2026-ba9f054cc11d.jpg"
 name: Mojtaba Jouzi
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,7 @@ description: |
 
   Martyred on 18 Dey
 source_type: Social Media
-source_social_media_link: https://x.com/hannigan220/status/2014648644780085468
-child: false
+source_social_media_link:
+  - "https://x.com/hannigan220/status/2014648644780085468"
+  - "https://t.me/RememberTheirNames/1478"
 persian_name: مجتبی جوزی

@@ -2,7 +2,9 @@
 # Victim Documentation - Yasha Nourmohammadzadeh
 # ==========================================
 
-photo: vic-2026-2140019.jpg
+photo:
+  - "vic-2026-2140019.jpg"
+  - "vic-2026-571e4a03e622.jpg"
 name: Yasha Nourmohammadzadeh
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot by security forces and died.
+description: Shot by security forces and died.
 source_type: Social Media
 source_social_media_link: https://x.com/ashk_shadi/status/2016214708710158767
-child: false
 persian_name: یاشا نورمحمدزاده

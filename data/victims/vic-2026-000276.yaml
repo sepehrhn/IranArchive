@@ -2,7 +2,10 @@
 # Victim Documentation - Edris Darvishvand
 # ==========================================
 
-photo: vic-2026-000276.jpg
+photo:
+  - "vic-2026-000276.jpg"
+  - "vic-2026-892a54a4e2ca.jpg"
+  - "vic-2026-e367b07c9c35.jpg"
 name: Edris Darvishvand
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Shot by Islamic Republic forces during protests on the second day of Prince Reza Pahlavi's call for action
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2013641179762504085, https://t.me/RememberTheirNames/1618
-child: false
+source_social_media_link:
+  - "https://x.com/indypersian/status/2013641179762504085, https://t.me/RememberTheirNames/1618"
+  - "https://t.me/RememberTheirNames/1618"
 persian_name: ادریس درویش‌وند

@@ -2,7 +2,11 @@
 # Victim Documentation - Ehsan Souri
 # ==========================================
 
-photo: vic-2026-001066.jpg
+photo:
+  - "vic-2026-001066.jpg"
+  - "vic-2026-99ab353b4749.jpg"
+  - "vic-2026-2140111.jpg"
+  - "vic-2026-ca073656fa13.jpg"
 name: Ehsan Souri
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,8 @@ description: |-
 
   Shot in the heart by Islamic Republic forces during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/behnam_chegini/status/2014785194356601207, https://x.com/iranwire/status/2014987065272705225, https://t.me/RememberTheirNames/1104
-child: false
+source_social_media_link:
+  - "https://x.com/behnam_chegini/status/2014785194356601207, https://x.com/iranwire/status/2014987065272705225, https://t.me/RememberTheirNames/1104"
+  - "https://x.com/iranwire/status/2014987065272705225"
+  - "https://x.com/ashkvuo7000/status/2016542352450502879"
 persian_name: احسان سوری

@@ -2,7 +2,10 @@
 # Victim Documentation - Armin Soltan Mohammadi
 # ==========================================
 
-photo: vic-2026-001901.jpg
+photo:
+  - "vic-2026-001901.jpg"
+  - "vic-2026-df1e6a8516c0.jpg"
+  - "vic-2026-dd8d27a53f2b.jpg"
 name: Armin Soltan Mohammadi
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: 19
 occupation: ""
 country: Iran
-incident_province: East Tehran
+incident_province: Tehran
 incident_city: Tehranpars
 incident_address: Tehranpars
 date_of_death: "2026-01-08"
@@ -23,6 +26,7 @@ description: |-
 
   Shot in the head with live ammunition while protesting. He disappeared around 11 PM and his family was contacted by a hospital at 2 AM stating he had died. He was buried in Behesht-e Zahra, Tehran. He was a painter and previously worked as a mechanic.
 source_type: Social Media
-source_social_media_link: https://x.com/pardis__rabiee/status/2015897570711576664, https://x.com/iranwire/status/2015829467835572539, https://t.me/RememberTheirNames/984
-child: false
+source_social_media_link:
+  - "https://x.com/pardis__rabiee/status/2015897570711576664, https://x.com/iranwire/status/2015829467835572539, https://t.me/RememberTheirNames/984"
+  - "https://x.com/iranwire/status/2015829467835572539"
 persian_name: آرمین سلطانمحمدی

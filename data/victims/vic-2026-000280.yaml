@@ -2,20 +2,23 @@
 # Victim Documentation - Esmail Beygi
 # ==========================================
 
-photo: vic-2026-000280.png
+photo:
+  - "vic-2026-000280.png"
+  - "vic-2026-001680.png"
+  - "vic-2026-ddb5fa0c3620.png"
 name: Esmail Beygi
-persian_name: "اسماعیل بیگی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: اسماعیل بیگی
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Tehran
 incident_address: Sohrevardi
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,5 +26,6 @@ description: |
   Shot in the heart with a live bullet during protests.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/visfehan/status/2014991700691722644
-child: false
+  - "https://x.com/visfehan/status/2014991700691722644"
+  - "https://x.com/visfehan/status/2014991700691722644, https://x.com/VIsfehan/status/2014991700691722644, https://t.me/RememberTheirNames/1024"
+  - "https://x.com/VIsfehan/status/2014991700691722644"

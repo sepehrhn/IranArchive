@@ -2,19 +2,20 @@
 # Victim Documentation - Son of Amirhossein Kiyadarbandsari
 # ==========================================
 
-photo: vic-2026-001227.jpg
+photo:
+  - vic-2026-001227.jpg
 name: Son of Amirhossein Kiyadarbandsari
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 3
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_province: ""
+incident_city: ""
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,4 +24,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/longlosthills/status/2013437818383573032
-child: true

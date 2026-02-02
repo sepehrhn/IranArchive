@@ -2,7 +2,9 @@
 # Victim Documentation - Esmaeil Aslani
 # ==========================================
 
-photo: vic-2026-000279.png
+photo:
+  - "vic-2026-000279.png"
+  - "vic-2026-317cf109a846.jpg"
 name: Esmaeil Aslani
 birth_date: ""
 birth_province: ""
@@ -22,5 +24,4 @@ description: |
   Killed during protests in Yazdanshahr, Isfahan (described as Georgian speaker)
 source_type: Social Media
 source_social_media_link: https://x.com/visfehan/status/2014366150235230599, https://t.me/RememberTheirNames/666
-child: false
 persian_name: اسماعیل اصلانی

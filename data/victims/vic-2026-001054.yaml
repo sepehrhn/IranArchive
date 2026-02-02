@@ -2,7 +2,10 @@
 # Victim Documentation - Benyamin Balochi
 # ==========================================
 
-photo: vic-2026-001054.jpg
+photo:
+  - "vic-2026-001054.jpg"
+  - "vic-2026-117834bd9087.jpg"
+  - "vic-2026-97a26a71db2a.jpg"
 name: Benyamin Balochi
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,9 @@ status: Killed
 description: |
   Killed during protests, family had to pay 300 million for body release after 3 days
 source_type: Social Media
-source_social_media_link: https://x.com/thebalochworld/status/2013938636686053592, https://x.com/TheBalochWorld/status/2013978436876788119, https://t.me/RememberTheirNames/435
-child: false
+source_social_media_link:
+  - "https://x.com/thebalochworld/status/2013938636686053592, https://x.com/TheBalochWorld/status/2013978436876788119, https://t.me/RememberTheirNames/435"
+  - "https://x.com/thebalochworld/status/2013938636686053592"
+  - "https://x.com/TheBalochWorld/status/2013938636686053592"
+  - "https://x.com/HengawO/status/2018050030347919766"
 persian_name: بنیامین بلوچی

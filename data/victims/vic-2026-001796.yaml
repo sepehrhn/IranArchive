@@ -2,7 +2,8 @@
 # Victim Documentation - Saeed Malek Darvish
 # ==========================================
 
-photo: vic-2026-001796.jpg
+photo:
+  - vic-2026-001796.jpg
 name: Saeed Malek Darvish
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Shot in the head from above with live ammunition from the roof of a half-finished building. It was a few days before his daughter's first birthday.
 source_type: Social Media
 source_social_media_link: https://x.com/melancholyaida/status/2015914627016671562
-child: false
 persian_name: سعید ملک درویش

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, onMounted } from 'vue';
+const { t } = useI18n();
 import { useCampaigns, calculateGoal } from '~/composables/useCampaigns';
 import { useCampaignSigning } from '~/composables/useCampaignSigning';
 import { useCountries } from '~/composables/useCountries';
@@ -12,6 +13,13 @@ const allCampaigns = getAllCampaigns();
 const { loadSigned, isSigned, markSigned } = useCampaignSigning();
 
 const isMounted = ref(false);
+const loading = ref(true);
+
+const stats = computed(() => {
+    const active = allCampaigns.filter(c => c.status === 'active').length;
+    const victories = allCampaigns.filter(c => c.status === 'victory').length;
+    return { active, victories };
+});
 
 onMounted(async () => {
     loadSigned();
@@ -19,8 +27,8 @@ onMounted(async () => {
     
     // Live Updates
     // Fetch live stats for all active/victory campaigns
-    for (const campaign of allCampaigns) {
-        if (campaign.status === 'closed' || !campaign.url.includes('change.org')) continue;
+    const promises = allCampaigns.map(async (campaign) => {
+        if (campaign.status === 'closed' || !campaign.url.includes('change.org')) return;
 
         try {
             const data = await $fetch(`/api/campaign-stats`, {
@@ -28,30 +36,26 @@ onMounted(async () => {
             }) as any;
 
             if (data && data.signatures) {
-                // Update local state (reactive because it's in a ref store from composable)
-                // Note: useCampaigns returns a Ref, but the array contents are objects. 
-                // We are mutating the reactive objects directly.
                 campaign.signatures = data.signatures;
-                
-                // Author might be updated too
                 if (data.author) campaign.author = data.author;
-
-                // Recalculate Goal
                 campaign.goal = calculateGoal(campaign.signatures, campaign.status);
             }
         } catch (e) {
             console.error('Failed to fetch live stats for', campaign.url);
         }
-    }
+    });
+
+    await Promise.all(promises);
+    loading.value = false;
 });
 
 const showSubmitDialog = ref(false);
 
 // SEO
 useHead({
-  title: 'Campaigns - IranArchive',
+  title: t('campaignsPage.title'),
   meta: [
-    { name: 'description', content: 'Petitions and campaigns hosted on Change.org pressuring the Islamic Republic. Join the global call for justice.' }
+    { name: 'description', content: t('campaignsPage.description') }
   ]
 });
 
@@ -113,12 +117,14 @@ const { getCountryByIso, loadCountries } = useCountries();
 loadCountries();
 
 const formatCountries = (codes: string[]) => {
-    if (!codes || codes.length === 0) return 'International';
+    if (!codes || codes.length === 0) return t('countries.International');
     
     // Resolve names
     const names = codes.map(code => {
         const country = getCountryByIso(code);
-        return country ? country.name : code;
+        // Special case for 'International', otherwise try to get name from country object or fallback to code
+        if (code === 'International') return t('countries.International');
+        return t(`countries.${code}`, country ? country.name : code);
     });
 
     const display = names.slice(0, 3); // Showing 3 names max
@@ -132,7 +138,8 @@ const formatCountries = (codes: string[]) => {
 // Formatting & Helpers
 const formatNumber = (num?: number) => {
     if (num === undefined) return '0';
-    return new Intl.NumberFormat('en-US').format(num);
+    const formatted = new Intl.NumberFormat('en-US').format(num);
+    return useNuxtApp().$nFa(formatted);
 };
 
 const getProgress = (signatures?: number, goal?: number) => {
@@ -173,11 +180,39 @@ const handleConfetti = (event: MouseEvent, status: string) => {
             <div class="relative px-8 py-10 md:py-12">
                 <div class="max-w-3xl">
                     <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
-                        Campaigns
+                        {{ t('campaignsPage.heroTitle') }}
                     </h1>
                     <p class="text-lg text-surface-200 dark:text-surface-300 mb-6 leading-relaxed">
-                        Petitions and collective actions pressuring the regime.
+                        {{ t('campaignsPage.heroSubtitle') }}
                     </p>
+                    
+                    <!-- Stats -->
+                    <div class="flex flex-wrap gap-6 mb-2">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-primary-500/20 flex items-center justify-center">
+                                <i class="pi pi-megaphone text-primary-400 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-white">
+                                    <Skeleton v-if="loading || !isMounted" width="2rem" height="2.5rem" class="!bg-white/20" />
+                                    <span v-else>{{ $nFa(stats.active) }}</span>
+                                </p>
+                                <p class="text-sm text-surface-300 dark:text-surface-400">{{ t('campaignsPage.active') }}</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-amber-500/20 flex items-center justify-center">
+                                <i class="pi pi-trophy text-amber-400 text-xl"></i>
+                            </div>
+                            <div>
+                                <p class="text-3xl font-bold text-white">
+                                    <Skeleton v-if="loading || !isMounted" width="2rem" height="2.5rem" class="!bg-white/20" />
+                                    <span v-else>{{ $nFa(stats.victories) }}</span>
+                                </p>
+                                <p class="text-sm text-surface-300 dark:text-surface-400">{{ t('campaignsPage.victory') }}</p>
+                            </div>
+                        </div>
+                    </div>
                     
 
                 </div>
@@ -185,7 +220,7 @@ const handleConfetti = (event: MouseEvent, status: string) => {
                 <!-- Action Button in Top Right -->
                 <div class="absolute top-8 right-8 md:top-12 md:right-8">
                     <Button
-                        label="Submit Campaign"
+                        :label="t('campaignsPage.submit')"
                         icon="pi pi-plus"
                         @click="showSubmitDialog = true"
                         class="hidden md:flex shadow-lg"
@@ -241,10 +276,10 @@ const handleConfetti = (event: MouseEvent, status: string) => {
                     <div class="absolute top-3 right-3 z-10">
                         <Badge 
                             v-if="campaign.status === 'victory'"
-                            value="VICTORY" 
+                            :value="t('campaignsPage.victory')" 
                             class="!bg-amber-400 !text-black !font-black !text-[11px] shadow-lg shadow-amber-900/30"
                         >
-                            <i class="pi pi-trophy mr-1 text-[10px]"></i> VICTORY
+                            <i class="pi pi-trophy mr-1 text-[10px]"></i> {{ t('campaignsPage.victory') }}
                         </Badge>
                         <Badge 
                             v-else
@@ -260,7 +295,7 @@ const handleConfetti = (event: MouseEvent, status: string) => {
                     <!-- Signed Stamp -->
                     <div v-if="isSigned(campaign.id)" class="absolute inset-0 flex items-center justify-center pointer-events-none z-20">
                         <div class="seal text-white px-4 py-1 text-lg tracking-[0.2em] font-black uppercase border-4 border-white/90 bg-black/40 -rotate-12 backdrop-blur-sm shadow-2xl">
-                            Signed
+                            {{ t('campaignsPage.signed') }}
                         </div>
                     </div>
                 </div>
@@ -281,7 +316,7 @@ const handleConfetti = (event: MouseEvent, status: string) => {
 
                     <!-- Author -->
                     <div v-if="campaign.author" class="text-xs text-surface-500 dark:text-surface-400 mb-4 font-medium">
-                        by {{ campaign.author }}
+                        {{ t('campaignsPage.by') }} {{ campaign.author }}
                     </div>
 
                     <!-- Progress -->
@@ -289,7 +324,7 @@ const handleConfetti = (event: MouseEvent, status: string) => {
                         <!-- Stats Text -->
                         <div class="flex items-center gap-2 text-xs font-bold text-surface-700 dark:text-surface-200 mb-1.5">
                             <i class="pi pi-users text-primary-500 text-[10px]" />
-                            <span>{{ formatNumber(campaign.signatures) }} signatures</span>
+                            <span>{{ formatNumber(campaign.signatures) }} {{ t('campaignsPage.signatures') }}</span>
                         </div>
                         
                         <!-- Bar -->
@@ -300,14 +335,14 @@ const handleConfetti = (event: MouseEvent, status: string) => {
                             ></div>
                         </div>
                         <div v-if="campaign.goal" class="text-[10px] text-surface-500 mt-1 font-medium">
-                            <span class="font-bold text-surface-700 dark:text-surface-300">{{ Math.round(getProgress(campaign.signatures, campaign.goal)) }}%</span> to {{ formatNumber(campaign.goal) }}
+                            <span class="font-bold text-surface-700 dark:text-surface-300">{{ $nFa(Math.round(getProgress(campaign.signatures, campaign.goal))) }}%</span> {{ t('campaignsPage.to') }} {{ formatNumber(campaign.goal) }}
                         </div>
                     </div>
 
                     <div class="mt-auto pt-4 border-t border-surface-100 dark:border-surface-800 flex items-center justify-between text-sm font-medium group-hover:translate-x-1 transition-transform duration-300"
                         :class="campaign.status === 'victory' ? 'text-amber-600 dark:text-amber-400 border-amber-200 dark:border-amber-800/30' : 'text-primary-600 dark:text-primary-400'"
                     >
-                        <span>{{ isSigned(campaign.id) ? 'View Campaign' : (campaign.status === 'victory' ? 'View Victory' : 'Sign Campaign') }}</span>
+                        <span>{{ isSigned(campaign.id) ? t('campaignsPage.viewCampaign') : (campaign.status === 'victory' ? t('campaignsPage.viewVictory') : t('campaignsPage.signCampaign')) }}</span>
                         <i class="pi text-xs" :class="campaign.status === 'victory' ? 'pi-trophy' : 'pi-arrow-right'"></i>
                     </div>
                 </div>
@@ -317,14 +352,14 @@ const handleConfetti = (event: MouseEvent, status: string) => {
         <!-- Empty State -->
         <div v-else class="text-center py-20 bg-surface-50 dark:bg-surface-900/50 rounded-xl border border-surface-200 dark:border-surface-800 border-dashed">
             <i class="pi pi-file-excel text-4xl text-surface-400 mb-4 display-block" />
-            <p class="text-xl text-surface-500">No campaigns found.</p>
+            <p class="text-xl text-surface-500">{{ t('campaignsPage.noCampaigns') }}</p>
         </div>
 
         <!-- Submit Campaign Dialog -->
         <Dialog 
             v-model:visible="showSubmitDialog" 
             modal 
-            header="Submit a Campaign" 
+            :header="t('campaignsPage.dialogTitle')" 
             :style="{ width: '90vw', maxWidth: '700px' }"
             :draggable="false"
             class="submission-dialog"

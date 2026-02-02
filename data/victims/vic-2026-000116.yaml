@@ -2,7 +2,12 @@
 # Victim Documentation - Saeed Taghvaei
 # ==========================================
 
-photo: vic-2026-000116.jpg
+photo:
+  - "vic-2026-000116.jpg"
+  - "vic-2026-9637e73b481c.jpg"
+  - "vic-2026-502d415f44d2.jpg"
+  - "vic-2026-b5993b5c9d5d.jpg"
+  - "vic-2026-a4770038a65e.jpg"
 name: Saeed Taghvaei
 birth_date: ""
 birth_province: ""
@@ -21,6 +26,9 @@ status: Killed
 description: |
   Killed by Islamic Republic suppressors during protests on Friday night
 source_type: Social Media
-source_social_media_link: https://x.com/behnam_chegini/status/2014474140908937431, https://x.com/saeidvafa/status/2014465364415938892, https://x.com/HengawO/status/2014638058105151825, https://t.me/RememberTheirNames/737
-child: false
+source_social_media_link:
+  - "https://x.com/behnam_chegini/status/2014474140908937431, https://x.com/saeidvafa/status/2014465364415938892, https://x.com/HengawO/status/2014638058105151825, https://t.me/RememberTheirNames/737"
+  - "https://x.com/behnam_chegini/status/2014474140908937431"
+  - "https://x.com/saeidvafa/status/2014465364415938892"
+  - "https://x.com/HengawO/status/2014638058105151825"
 persian_name: سعید تقوایی

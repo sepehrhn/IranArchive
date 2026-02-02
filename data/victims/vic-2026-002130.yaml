@@ -2,7 +2,8 @@
 # Victim Documentation - Masoud Saeedi Eskouei
 # ==========================================
 
-photo: vic-2026-002130.jpg
+photo:
+  - vic-2026-002130.jpg
 name: Masoud Saeedi Eskouei
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Victim mentioned in a list of names.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1300
-child: false
 persian_name: مسعود سعیدی اسکویی

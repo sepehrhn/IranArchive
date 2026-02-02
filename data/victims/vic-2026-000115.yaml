@@ -2,7 +2,8 @@
 # Victim Documentation - Nasrin Zaremanesh
 # ==========================================
 
-photo: vic-2026-000115.jpg
+photo:
+  - vic-2026-000115.jpg
 name: Nasrin Zaremanesh
 birth_date: ""
 birth_province: ""
@@ -25,4 +26,3 @@ description: |-
   Shot in the neck and heart while in Nazi Abad. Died on her son's lap on the way to the hospital. Pronounced dead on arrival. Had a 15-year-old son and a 10-year-old daughter.
 source_type: Social Media
 source_social_media_link: https://x.com/The_Zhalzzz/status/2012200965307273311
-child: false

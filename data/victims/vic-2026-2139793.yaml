@@ -2,7 +2,10 @@
 # Victim Documentation - Hassan Abbas Akbarpur
 # ==========================================
 
-photo: vic-2026-2139793.jpg
+photo:
+  - "vic-2026-2139793.jpg"
+  - "vic-2026-9c4b0fa4070e.png"
+  - "vic-2026-af34755fc578.png"
 name: Hassan Abbas Akbarpur
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,9 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot directly in the heart between 8:30 PM and 9:00 PM. Occupation was a tanker truck driver for Isfahan refinery. Authorities restricted funeral arrangements, prevented public announcements, and monitored the burial, threatening to confiscate the body if more than ten people gathered.
+description: Shot directly in the heart between 8:30 PM and 9:00 PM. Occupation was a tanker truck driver for Isfahan refinery. Authorities restricted funeral arrangements, prevented public announcements, and monitored the burial, threatening to confiscate the body if more than ten people gathered.
 source_type: Social Media
-source_social_media_link: https://x.com/ka3rimi/status/2015456750489735202, https://x.com/hekasrehcrisis/status/2016594363938222297
-child: false
+source_social_media_link:
+  - "https://x.com/ka3rimi/status/2015456750489735202, https://x.com/hekasrehcrisis/status/2016594363938222297"
+  - "https://x.com/hekasrehcrisis/status/2016594363938222297"
 persian_name: حسن اکبر پور

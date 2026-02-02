@@ -2,7 +2,10 @@
 # Victim Documentation - Ahmad Alijani
 # ==========================================
 
-photo: vic-2026-2139758.jpg
+photo:
+  - "vic-2026-2139758.jpg"
+  - "vic-2026-d27be0494bf8.jpg"
+  - "vic-2026-ebffd72ffc8d.jpg"
 name: Ahmad Alijani
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,10 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Described as a child of Iran and killed on the path to the homeland.
+description: Described as a child of Iran and killed on the path to the homeland.
 source_type: Social Media
-source_social_media_link: https://x.com/pardis__rabiee/status/2016146978267189729, https://t.me/RememberTheirNames/1459
-child: true
+source_social_media_link:
+  - "https://x.com/pardis__rabiee/status/2016146978267189729, https://t.me/RememberTheirNames/1459"
+  - "https://x.com/pardis__rabiee/status/2016146978267189729"
+  - "https://t.me/RememberTheirNames/1459"
 persian_name: احمد علیجانی

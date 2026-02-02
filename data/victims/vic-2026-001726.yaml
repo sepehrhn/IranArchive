@@ -2,7 +2,9 @@
 # Victim Documentation - Maryam Mohammad Zahri
 # ==========================================
 
-photo: vic-2026-001726.jpg
+photo:
+  - "vic-2026-001726.jpg"
+  - "vic-2026-f2240da406ce.jpg"
 name: Maryam Mohammad Zahri
 birth_date: ""
 birth_province: ""
@@ -24,5 +26,4 @@ description: |-
   Shot and killed by the Islamic regime.
 source_type: Social Media
 source_social_media_link: https://x.com/isamanyasin/status/2016009358946033965
-child: false
 persian_name: مریم محمدظهری

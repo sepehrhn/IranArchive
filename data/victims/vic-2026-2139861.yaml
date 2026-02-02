@@ -2,7 +2,8 @@
 # Victim Documentation - Alireza Pouladastoon
 # ==========================================
 
-photo: vic-2026-2139861.jpg
+photo:
+  - vic-2026-2139861.jpg
 name: Alireza Pouladastoon
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed on 18 Dey 1404 in Isfahan.
+description: Killed on 18 Dey 1404 in Isfahan.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/443
-child: false
 persian_name: علیرضا (علی) پولادستون

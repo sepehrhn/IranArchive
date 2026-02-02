@@ -2,7 +2,10 @@
 # Victim Documentation - Peyman Babaii
 # ==========================================
 
-photo: vic-2026-001185.jpg
+photo:
+  - "vic-2026-001185.jpg"
+  - "vic-2026-001186.jpg"
+  - "vic-2026-04144d5ca52e.jpg"
 name: Peyman Babaii
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Pir Bakran
+incident_province: ""
 incident_city: Daragan village
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -24,6 +27,7 @@ description: |-
 
   Mentioned as 'Javidnam' (eternal name), implying death during protests. No specific date or cause of death provided.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014709165306888315, https://x.com/maryammoqaddam/status/2014711935275536389, https://x.com/VIsfehan/status/2014709165306888315, https://x.com/MaryamMoqaddam/status/2014711935275536389, https://t.me/persian_picture/4126, https://t.me/RememberTheirNames/1562
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2014709165306888315, https://x.com/maryammoqaddam/status/2014711935275536389, https://x.com/VIsfehan/status/2014709165306888315, https://x.com/MaryamMoqaddam/status/2014711935275536389, https://t.me/persian_picture/4126, https://t.me/RememberTheirNames/1562"
+  - "https://x.com/abhaddadii/status/2013572266005577900, https://x.com/abhaddadii/status/2013901363810287827, https://t.me/RememberTheirNames/578"
 persian_name: ایمان بابایی

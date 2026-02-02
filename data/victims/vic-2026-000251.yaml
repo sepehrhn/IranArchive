@@ -2,19 +2,21 @@
 # Victim Documentation - Armin Dehqan
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-286916824387.jpg"
 name: Armin Dehqan
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 27
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Fooladshahr
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +24,5 @@ description: |
   Shot in the throat outside his home
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/persianbanoo/status/2014855873315697121
-child: false
+  - "https://x.com/persianbanoo/status/2014855873315697121"
+  - "https://x.com/allahbakhshii/status/2017901732760621166"

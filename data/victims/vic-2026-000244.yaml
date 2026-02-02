@@ -2,19 +2,31 @@
 # Victim Documentation - Amir Teimouri-Rad
 # ==========================================
 
-photo: vic-2026-000244.jpg
+photo:
+  - "vic-2026-000244.jpg"
+  - "vic-2026-000254.jpg"
+  - "vic-2026-fce66dd39513.jpg"
+  - "vic-2026-af3aaafb823a.jpg"
+  - "vic-2026-7fb1a7b0ae87.jpg"
+  - "vic-2026-a9c63eb50f2b.jpg"
+  - "vic-2026-7d3bc02c4e11.jpg"
+  - "vic-2026-000406.jpg"
+  - "vic-2026-8de3a1583247.jpg"
+  - "vic-2026-bc901b220f1d.jpg"
+  - "vic-2026-f41c15de10d4.jpg"
+  - "vic-2026-1aa799543f13.jpg"
 name: Amir Teimouri-Rad
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 42
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Karaj
 incident_address: Fardis
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +34,11 @@ description: |
   Shot by suppressive forces during protests, killed along with his brother and nephew.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/tavaana/status/2014260965966295086
-child: false
+  - "https://x.com/tavaana/status/2014260965966295086"
+  - "https://x.com/soranmansournia/status/2014285114675470360, https://x.com/tavaana/status/2014260965966295086, https://x.com/HengawO/status/2012881502661423382, https://x.com/HengawO/status/2012881502661423382, https://x.com/FSeifikaran/status/2014249399652696305, https://x.com/ManotoNews/status/2014390352900186505, https://x.com/MonfaredAshkan/status/2015506848393449486, https://x.com/MonfaredAshkan/status/2015506848393449486, https://x.com/MonfaredAshkan/status/2015497891683737860, https://x.com/MonfaredAshkan/status/2015497891683737860, https://t.me/RememberTheirNames/239"
+  - "https://x.com/soranmansournia/status/2014285114675470360"
+  - "https://x.com/hoorieh81/status/2015508771741569138"
+  - "https://x.com/MonfaredAshkan/status/2015497891683737860"
+  - "https://x.com/soranmansournia/status/2014285114675470360, https://x.com/tavaana/status/2014260965966295086, https://x.com/HengawO/status/2012881502661423382, https://x.com/FSeifikaran/status/2014249399652696305, https://x.com/ManotoNews/status/2014382556880248855, https://x.com/MonfaredAshkan/status/2015506848393449486, https://x.com/MonfaredAshkan/status/2015497891683737860, https://t.me/RememberTheirNames/239"
+  - "https://x.com/ManotoNews/status/2014382556880248855"
+  - "https://x.com/ManotoNews/status/2014390352900186505"

@@ -2,7 +2,14 @@
 # Victim Documentation - Houman Sabbagh
 # ==========================================
 
-photo: vic-2026-000636.jpg
+photo:
+  - "vic-2026-000636.jpg"
+  - "vic-2026-76b7e0fa6952.jpg"
+  - "vic-2026-536944257239.jpg"
+  - "vic-2026-442800b1c319.jpg"
+  - "vic-2026-20454fb11637.jpg"
+  - "vic-2026-9855ea242b5e.jpg"
+  - "vic-2026-8a28d9b66bfb.jpg"
 name: Houman Sabbagh
 birth_date: ""
 birth_province: ""
@@ -11,7 +18,7 @@ gender: Male
 age: 37
 occupation: ""
 country: Iran
-incident_province: Sari
+incident_province: ""
 incident_city: Northern Iran (Chalous
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -24,6 +31,14 @@ description: |-
 
   Killed by direct gunfire from a military weapon, specifically targeting the head and other lethal parts of the body, during a protest in the Shishegaran area. The report notes this indicates a clear intent to kill and was part of a widespread, organized attack against civilians.
 source_type: Social Media
-source_social_media_link: https://x.com/pkhwshhal/status/2012477816462286888, https://x.com/manotonews/status/2014412755122442328, https://x.com/HyrcaniHRM/status/2012486406493405351, https://x.com/HengawO/status/2012863021467550147, https://x.com/ManotoNews/status/2014412755122442328, https://x.com/dadban4/status/2015160900731171186, https://x.com/pkhwshhal/status/2015804459918483954, https://t.me/RememberTheirNames/132
-child: false
+source_social_media_link:
+  - "https://x.com/pkhwshhal/status/2012477816462286888, https://x.com/manotonews/status/2014412755122442328, https://x.com/HyrcaniHRM/status/2012486406493405351, https://x.com/HengawO/status/2012863021467550147, https://x.com/ManotoNews/status/2014412755122442328, https://x.com/dadban4/status/2015160900731171186, https://x.com/pkhwshhal/status/2015804459918483954, https://t.me/RememberTheirNames/132"
+  - "https://x.com/HyrcaniHRM/status/2012486406493405351"
+  - "https://x.com/HengawO/status/2012863021467550147"
+  - "https://x.com/manotonews/status/2014412755122442328"
+  - "https://x.com/ManotoNews/status/2014412755122442328"
+  - "https://x.com/dadban4/status/2015160900731171186"
+  - "https://x.com/pkhwshhal/status/2015804459918483954"
+  - "https://x.com/pkhwshhal/status/2012477816462286888"
+  - "https://x.com/persuasion_elli/status/2017454197231284302"
 persian_name: هومن صباغ

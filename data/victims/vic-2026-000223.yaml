@@ -2,7 +2,8 @@
 # Victim Documentation - Akbar Pashapur
 # ==========================================
 
-photo: vic-2026-000223.jpg
+photo:
+  - vic-2026-000223.jpg
 name: Akbar Pashapur
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: 37
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Mohammadshahr
 incident_address: Mohammadshahr
 date_of_death: "2026-01-09"
@@ -22,5 +23,4 @@ description: |
   Killed Thursday night after returning from work and joining protesters
 source_type: Social Media
 source_social_media_link: https://x.com/mamlekate/status/2014375456460435830
-child: false
 persian_name: اکبر پاشاپور

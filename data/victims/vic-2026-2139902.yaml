@@ -2,7 +2,10 @@
 # Victim Documentation - Hamidreza Haddadi Shandiz
 # ==========================================
 
-photo: vic-2026-2139902.jpg
+photo:
+  - "vic-2026-2139902.jpg"
+  - "vic-2026-6dc3eb4532e3.jpg"
+  - "vic-2026-0fe4c605ad54.png"
 name: Hamidreza Haddadi Shandiz
 birth_date: ""
 birth_province: ""
@@ -11,16 +14,14 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Mashhad
+incident_province: ""
 incident_city: Shandiz
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Shandiz, Mashhad area during the protests
+description: Died in Shandiz, Mashhad area during the protests
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1520
-child: false
 persian_name: حمیدرضا حدادی شاندیز

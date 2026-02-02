@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Maghsoudfar
 # ==========================================
 
-photo: vic-2026-2139959.jpg
+photo:
+  - "vic-2026-2139959.jpg"
+  - "vic-2026-25e9e62835ee.jpg"
+  - "vic-2026-6de7f405805a.jpg"
 name: Mohammad Maghsoudfar
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Father of 2 children. Shot with war bullet from behind in Malekshahr, Isfahan and killed.
+description: Father of 2 children. Shot with war bullet from behind in Malekshahr, Isfahan and killed.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2016766715200155960
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2016766715200155960"
+  - "https://x.com/i/status/2016766715200155960"
 persian_name: محمد مقصودفر

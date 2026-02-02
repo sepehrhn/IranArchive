@@ -2,19 +2,23 @@
 # Victim Documentation - Farid Karimi
 # ==========================================
 
-photo: vic-2026-000128.jpg
+photo:
+  - "vic-2026-000128.jpg"
+  - "vic-2026-622afdd4d55f.jpg"
+  - "vic-2026-8d1b9f472a5e.jpg"
+  - "vic-2026-479f66d7c3a3.jpg"
 name: Farid Karimi
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-age: null
-occupation: ''
+age: 58
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Tehran
 incident_address: Enghelab Street
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Beating
 status: Killed
@@ -22,5 +26,8 @@ description: |
   Beaten with batons on Thursday, 18 Dey (January 8, 2026) in Enghelab Street, Tehran. His skull was shattered. He was taken to Imam Khomeini Hospital but died on 24 Dey (January 14, 2026).
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/rezatalebijamal/status/2014967354514370613
-child: false
+  - "https://x.com/rezatalebijamal/status/2014967354514370613"
+  - "https://x.com/RezaTalebijamal/status/2014967354514370613"
+  - "https://x.com/Realneo101/status/2015718402451460127"
+  - "https://t.me/javanmardi77/154246"
+  - "https://x.com/liwooom/status/2014446179329683501"

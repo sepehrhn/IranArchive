@@ -2,7 +2,10 @@
 # Victim Documentation - Kiyvan Moradi Mirani
 # ==========================================
 
-photo: vic-2026-2139927.jpg
+photo:
+  - "vic-2026-2139927.jpg"
+  - "vic-2026-6427a347416e.jpg"
+  - "vic-2026-7111f774a7dc.jpg"
 name: Kiyvan Moradi Mirani
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Death during protests in Shahrqods, Tehran
+description: Death during protests in Shahrqods, Tehran
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1439
-child: false
 persian_name: کیوان مرادی میرانی

@@ -2,7 +2,10 @@
 # Victim Documentation - Amir Mohammad Bolourian
 # ==========================================
 
-photo: vic-2026-001861.png
+photo:
+  - "vic-2026-001861.png"
+  - "vic-2026-03ec4e9f136f.png"
+  - "vic-2026-3fc32231581c.png"
 name: Amir Mohammad Bolourian
 birth_date: ""
 birth_province: ""
@@ -25,6 +28,8 @@ description: |-
 
   Directly targeted by live ammunition during protests. Identified as a shopkeeper from Aladin Passage.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2015831372863095284, https://x.com/HeKasrehCrisis/status/2015831372863095284
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2015831372863095284, https://x.com/HeKasrehCrisis/status/2015831372863095284"
+  - "https://x.com/hekasrehcrisis/status/2015831372863095284"
+  - "https://x.com/HeKasrehCrisis/status/2015831372863095284"
 persian_name: امیرمحمد بلوریان

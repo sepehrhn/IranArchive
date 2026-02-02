@@ -2,7 +2,9 @@
 # Victim Documentation - Seyed Mohammad Miraqa Rezaei
 # ==========================================
 
-photo: vic-2026-002161.jpg
+photo:
+  - "vic-2026-002161.jpg"
+  - "vic-2026-e1108fbd25eb.jpg"
 name: Seyed Mohammad Miraqa Rezaei
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,8 @@ description: |-
 
   Killed by direct gunfire from Islamic Republic of Iran forces during nationwide protests in 1404 (Persian calendar).
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2015836187395547176, https://x.com/HyrcaniHRM/status/2015836187395547176
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2015836187395547176, https://x.com/HyrcaniHRM/status/2015836187395547176"
+  - "https://x.com/hyrcanihrm/status/2015836187395547176"
+  - "https://x.com/HyrcaniHRM/status/2015836187395547176"
 persian_name: سید محمد میراقا رضایی

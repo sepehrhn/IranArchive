@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Darvishvand
 # ==========================================
 
-photo: vic-2026-000369.jpg
+photo:
+  - "vic-2026-000369.jpg"
+  - "vic-2026-af1ec6e359fb.jpg"
 name: Mohammad Darvishvand
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Shot by Islamic Republic suppressive forces alongside his cousin Edris Darvishvand during the national revolution
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2013641179762504085, https://t.me/RememberTheirNames/1628
-child: false
+source_social_media_link:
+  - "https://x.com/indypersian/status/2013641179762504085, https://t.me/RememberTheirNames/1628"
+  - "https://t.me/RememberTheirNames/1628"
 persian_name: محمد درویش‌وند

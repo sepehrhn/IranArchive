@@ -2,7 +2,8 @@
 # Victim Documentation - Milad Khaksar
 # ==========================================
 
-photo: vic-2026-001743.jpg
+photo:
+  - vic-2026-001743.jpg
 name: Milad Khaksar
 birth_date: ""
 birth_province: ""
@@ -23,6 +24,7 @@ description: |-
 
   Killed during protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1142
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1142"
+  - "https://x.com/sorr1w/status/2017324313167147076"
 persian_name: میلاد خاکسار

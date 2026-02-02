@@ -6,7 +6,6 @@ import { resolve } from 'path';
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
     compatibilityDate: '2024-04-03',
-    devtools: { enabled: true },
     ssr: true,
     experimental: {
         appManifest: false
@@ -48,7 +47,7 @@ export default defineNuxtConfig({
                 { rel: 'icon', type: 'image/svg+xml', href: '/lion-and-sun.svg' },
                 { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
                 { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-                { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap' }
+                { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700&display=swap' }
             ]
         }
     },
@@ -61,6 +60,8 @@ export default defineNuxtConfig({
         // Note: Media files (evidences, campaigns, victims) are NOT copied to static output.
         // They are loaded at runtime from GitHub raw URLs via utils/mediaUrl.ts
     },
+
+
 
 
     modules: [
@@ -91,13 +92,20 @@ export default defineNuxtConfig({
     },
 
     i18n: {
+        baseUrl: 'https://iranarchive.com',
         strategy: 'no_prefix', // Simple approach for now, or 'prefix_except_default'
         locales: [
-            { code: 'en', file: 'en.json', name: 'English' }
+            { code: 'en', file: 'en.json', name: 'English', dir: 'ltr' },
+            { code: 'fa', file: 'fa.json', name: 'Persian', dir: 'ltr' } // User requested LTR global layout
         ],
-        lazy: false,
+
         langDir: 'locales',
         defaultLocale: 'en',
+        detectBrowserLanguage: {
+            useCookie: true,
+            cookieKey: 'i18n_redirected',
+            redirectOn: 'root',
+        },
         vueI18n: './i18n.config.ts'
     },
 

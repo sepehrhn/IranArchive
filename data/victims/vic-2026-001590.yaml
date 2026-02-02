@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Ali Arad
 # ==========================================
 
-photo: vic-2026-001590.jpg
+photo:
+  - "vic-2026-001590.jpg"
+  - "vic-2026-2139955.jpg"
+  - "vic-2026-734a1ff304b2.jpg"
 name: Mohammad Ali Arad
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,7 @@ description: |-
 
   Mentioned in a list of names without further details.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/870
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/870"
+  - "https://x.com/shahan021kid/status/2016460450112696402"
 persian_name: محمدعلی آراد

@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Woman Life Freedom Gathering"
+
+featured: false
+
+description: |
+  Piccadilly Gardens is frequently used for spontaneous or student-led gatherings supporting the 'Woman, Life, Freedom' movement. While the main static rally often occurs at St Peter's Square, marches often start or end here.
+  
+  **Tips:** This location is often busier with general public foot traffic. Look for the Iranian tricolour flags.
+  
+  **Location Details:** By the Queen Victoria statue or the concrete pavilion.
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: "13:00"
+  end: "2026/02/07"
+  end_time: "15:00"
+
+location:
+  country: "GB"
+  city: "Manchester"
+  address: "Piccadilly Gardens"
+
+online: []
+
+organizer:
+  name: "Student & Youth Coalitions (Unconfirmed)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

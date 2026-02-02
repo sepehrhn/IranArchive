@@ -2,7 +2,11 @@
 # Victim Documentation - Aria Honarmand
 # ==========================================
 
-photo: vic-2026-000548.jpg
+photo:
+  - "vic-2026-000548.jpg"
+  - "vic-2026-af76e0263d2a.jpg"
+  - "vic-2026-51944b15f48f.jpg"
+  - "vic-2026-8e5292d3d8d7.jpg"
 name: Aria Honarmand
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,9 @@ description: |-
 
   A rapper who released a song named 'Azadi' on Instagram on 15 Dey (Jan 5th). He died on the 18th of Dey (Jan 8th) in Nazabad, sacrificing himself for the country. He is referred to as a 'child of Iran' and 'killed on the path of the homeland'.
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2013265190171574763, https://x.com/iranwire/status/2014235005241729082, https://x.com/ManotoNews/status/2013265190171574763, https://x.com/iliaaaa66/status/2015118263718396229, https://t.me/RememberTheirNames/226
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2013265190171574763, https://x.com/iranwire/status/2014235005241729082, https://x.com/ManotoNews/status/2013265190171574763, https://x.com/iliaaaa66/status/2015118263718396229, https://t.me/RememberTheirNames/226"
+  - "https://x.com/manotonews/status/2013265190171574763"
+  - "https://x.com/ManotoNews/status/2013265190171574763"
+  - "https://x.com/iranwire/status/2014235005241729082"
 persian_name: آريا هنرمند

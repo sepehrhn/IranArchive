@@ -2,7 +2,12 @@
 # Victim Documentation - Mohammad Ebrahim Dadashi
 # ==========================================
 
-photo: vic-2026-001146.jpg
+photo:
+  - "vic-2026-001146.jpg"
+  - "vic-2026-6e4a56734a46.jpg"
+  - "vic-2026-71ce7ddea4ff.jpg"
+  - "vic-2026-7152899b3675.jpg"
+  - "vic-2026-712439718d27.jpg"
 name: Mohammad Ebrahim Dadashi
 birth_date: ""
 birth_province: ""
@@ -24,6 +29,7 @@ description: |-
 
   Died in Dey 1404 (Persian calendar).
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2013396146186563772, https://t.me/RememberTheirNames/392
-child: false
+source_social_media_link:
+  - "https://x.com/fseifikaran/status/2013396146186563772, https://t.me/RememberTheirNames/392"
+  - "https://x.com/fseifikaran/status/2013396146186563772"
 persian_name: محمد ابراهیم داداشی

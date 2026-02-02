@@ -2,7 +2,9 @@
 # Victim Documentation - Iman Najjar
 # ==========================================
 
-photo: vic-2026-002212.jpg
+photo:
+  - "vic-2026-002212.jpg"
+  - "vic-2026-a51d9be8c2ca.jpg"
 name: Iman Najjar
 birth_date: ""
 birth_province: ""
@@ -24,5 +26,4 @@ description: |-
   Died during protests. Age 21.
 source_type: Social Media
 source_social_media_link: https://x.com/KyokushinSoofi/status/2015718178601488760
-child: false
 persian_name: ايمان نجار

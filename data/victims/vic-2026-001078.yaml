@@ -2,7 +2,8 @@
 # Victim Documentation - Farhad Nazari Gurajui
 # ==========================================
 
-photo: vic-2026-001078.jpg
+photo:
+  - vic-2026-001078.jpg
 name: Farhad Nazari Gurajui
 birth_date: ""
 birth_province: ""
@@ -18,8 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
-description: |+
+description: ""
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1397
-child: false
 persian_name: فرهاد نظری گوراجویی

@@ -1,0 +1,44 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Sunday Solidarity Gathering"
+
+featured: false
+
+description: |
+  Weekly gathering point for diaspora (tentative).
+  
+  **Tips:** Check social media on Sat night; Sunday is quieter in central London than Saturday.
+  
+  **Location Details:** North Terrace
+
+type: "in_person"
+
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+location:
+  country: "GB"
+  city: "London"
+  address: "Trafalgar Square"
+
+online: []
+
+organizer:
+  name: "Various Community Groups"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvVd7UxHBSBZriCQgYE4sb6QgwOemPwLctRHhUltOxuyObtwb3CjOnli-gCBiVmzk80g8ti6A0KNlw82NbPjHNusO-GlQqccYPjHleydG_IEsSty4-SMrTW5I4CJoWBZOCzH7ITPs="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqiqZFqjr48utlZtS6GPWoywwrIdDtSKg2N7XlWN9jKexbK8DUSSh9CIe_4yt5-Upe0ESUmj2jDfQJ8Q6UUl9umwM3NqHH1IJknvgyb_fjzXjsTvlN_MwBT_CGrEaoP6rhddwsSlwI"

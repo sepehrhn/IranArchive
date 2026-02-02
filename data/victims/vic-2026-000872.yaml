@@ -2,7 +2,8 @@
 # Victim Documentation - Zahra Arjmandi
 # ==========================================
 
-photo: vic-2026-000872.jpg
+photo:
+  - vic-2026-000872.jpg
 name: Zahra Arjmandi
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Shot in front of her son near the Boostan police station in Qeshm during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/mobarez_nastooh/status/2015041477982695464
-child: false
 persian_name: زهرا ارجمندی

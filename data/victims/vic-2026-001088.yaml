@@ -2,7 +2,8 @@
 # Victim Documentation - Hamid Ahmadnejad Sarhammami
 # ==========================================
 
-photo: ""
+photo:
+  - ""
 name: Hamid Ahmadnejad Sarhammami
 birth_date: ""
 birth_province: ""
@@ -17,10 +18,9 @@ incident_address: Behzad Township
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
-status: Killed
+status: "Injured"
 description: |
   Hit by pellet bullets and then beaten by security forces
 source_type: Social Media
 source_social_media_link: https://x.com/FSeifikaran/status/2013397194410180918
-child: false
 persian_name: حمید احمدنژاد سرحمامی

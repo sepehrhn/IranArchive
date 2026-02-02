@@ -2,7 +2,13 @@
 # Victim Documentation - Ashkan Torabzadeh
 # ==========================================
 
-photo: vic-2026-000263.jpg
+photo:
+  - "vic-2026-000263.jpg"
+  - "vic-2026-526b10a5a270.jpg"
+  - "vic-2026-fdd000916de1.jpg"
+  - "vic-2026-a143be7ac882.jpg"
+  - "vic-2026-1e057af9c99c.jpg"
+  - "vic-2026-6dfd4b41bf07.jpg"
 name: Ashkan Torabzadeh
 birth_date: ""
 birth_province: ""
@@ -24,6 +30,7 @@ description: |-
 
   Shot directly by security forces while in his car on Vakilabad Boulevard. His car was targeted with dozens of live rounds, indicating intent to kill. He was a hairdresser and father of a 14-year-old daughter.
 source_type: Social Media
-source_social_media_link: https://x.com/tavaana/status/2012480238681477548, https://x.com/longlosthills/status/2012624953053425854, https://x.com/Tavaana/status/2012480238681477548, https://t.me/RememberTheirNames/280
-child: false
+source_social_media_link:
+  - "https://x.com/tavaana/status/2012480238681477548, https://x.com/longlosthills/status/2012624953053425854, https://x.com/Tavaana/status/2012480238681477548, https://t.me/RememberTheirNames/280"
+  - "https://x.com/longlosthills/status/2012624953053425854"
 persian_name: اشکان تراب‌زاده

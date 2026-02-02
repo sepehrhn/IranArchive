@@ -2,16 +2,19 @@
 # Victim Documentation - Kaveh Eftekari
 # ==========================================
 
-photo: vic-2026-001716.jpg
+photo:
+  - "vic-2026-001716.jpg"
+  - "vic-2026-519b5cf57c2a.jpg"
+  - "vic-2026-066514f11d43.jpg"
 name: Kaveh Eftekari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 20
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Gohardasht
 incident_address: Gohardasht
 date_of_death: "2026-01-09"
@@ -23,6 +26,7 @@ description: |-
 
   Died during protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/465
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/465"
+  - "https://x.com/iranwire/status/2017635980262396330"
 persian_name: کاوه افتخاری

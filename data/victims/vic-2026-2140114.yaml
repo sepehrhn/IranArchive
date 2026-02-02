@@ -2,7 +2,8 @@
 # Victim Documentation - Eskandari
 # ==========================================
 
-photo: vic-2026-2140114.jpg
+photo:
+  - vic-2026-2140114.jpg
 name: Eskandari
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Brother-in-law of the source. Killed during protests.
+description: Brother-in-law of the source. Killed during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/FaribaKaze78897/status/2014800148426117408
-child: false
 persian_name: اسکندری

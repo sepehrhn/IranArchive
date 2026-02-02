@@ -2,7 +2,14 @@
 # Victim Documentation - Sara Behboudi
 # ==========================================
 
-photo: vic-2026-000437.jpg
+photo:
+  - "vic-2026-000437.jpg"
+  - "vic-2026-ffd495a9e06d.jpg"
+  - "vic-2026-840ef243a597.jpg"
+  - "vic-2026-5e409ea24782.jpg"
+  - "vic-2026-28294ac8bef5.jpg"
+  - "vic-2026-6b9d5118c139.jpg"
+  - "vic-2026-7c520c6cd9d8.jpg"
 name: Sara Behboudi
 birth_date: ""
 birth_province: ""
@@ -24,6 +31,11 @@ description: |-
 
   Killed by security forces' gunfire during protests. She was also a mountaineer.
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2012294037613519106, https://x.com/iranwire/status/2012272017555272165, https://x.com/manotonews/status/2013280288579670078, https://x.com/FSeifikaran/status/2012294037613519106, https://x.com/HengawO/status/2012660798242406499, https://x.com/HengawO/status/2012590781555478637, https://t.me/RememberTheirNames/276
-child: false
+source_social_media_link:
+  - "https://x.com/fseifikaran/status/2012294037613519106, https://x.com/iranwire/status/2012272017555272165, https://x.com/manotonews/status/2013280288579670078, https://x.com/FSeifikaran/status/2012294037613519106, https://x.com/HengawO/status/2012660798242406499, https://x.com/HengawO/status/2012590781555478637, https://t.me/RememberTheirNames/276"
+  - "https://x.com/FSeifikaran/status/2012294037613519106"
+  - "https://x.com/fseifikaran/status/2012294037613519106"
+  - "https://x.com/iranwire/status/2012272017555272165"
+  - "https://x.com/HengawO/status/2012660798242406499"
+  - "https://x.com/HengawO/status/2012590781555478637"
 persian_name: سارا بهبودی

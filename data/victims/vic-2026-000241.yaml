@@ -2,16 +2,18 @@
 # Victim Documentation - Amir Hossein Ebrahimi
 # ==========================================
 
-photo: ""
+photo:
+  - ""
+  - "vic-2026-001871.jpg"
 name: Amir Hossein Ebrahimi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 44
 occupation: ""
 country: Iran
-incident_province: Falavarjan
+incident_province: ""
 incident_city: Yazdabad
 incident_address: Yazdabad
 date_of_death: "2026-01-09"
@@ -21,6 +23,8 @@ status: Killed
 description: |
   No specific details provided, but implied death during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014781074325291189, https://x.com/VIsfehan/status/2014781074325291189
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2014781074325291189, https://x.com/VIsfehan/status/2014781074325291189"
+  - "https://x.com/visfehan/status/2014781074325291189"
+  - "https://x.com/tavaana/status/2014474638831845616, https://x.com/iranwire/status/2014678993283203577, https://x.com/HengawO/status/2014772586857598984, https://x.com/masoudkazemi81/status/2015866224710758762, https://t.me/RememberTheirNames/1360, https://t.me/RememberTheirNames/1349, https://t.me/RememberTheirNames/1291, https://t.me/RememberTheirNames/747, https://x.com/allahbakhshii/status/2015809005054984455"
 persian_name: امیر حسین ابراهیمی

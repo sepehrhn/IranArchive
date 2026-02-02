@@ -2,7 +2,12 @@
 # Victim Documentation - Amir Mohammad Arbabpouri
 # ==========================================
 
-photo: vic-2026-000530.jpg
+photo:
+  - "vic-2026-000530.jpg"
+  - "vic-2026-b9b72c2ad0d3.jpg"
+  - "vic-2026-d52c3d2cff91.jpg"
+  - "vic-2026-bda32108ecbe.jpg"
+  - "vic-2026-b89e29156f2a.jpg"
 name: Amir Mohammad Arbabpouri
 birth_date: ""
 birth_province: ""
@@ -24,6 +29,11 @@ description: |-
 
   Kurdish child from Harsin, shot by military-security forces of the Islamic Republic during popular protests in Moalem neighborhood of Kermanshah. Funeral held on 20 Dey in Pariweh Sofla village.
 source_type: Social Media
-source_social_media_link: https://x.com/_sabaa_z/status/2012990502832832644, https://x.com/noamagid/status/2012879178161385833, https://x.com/hiwa_life/status/2013954396506177684, https://x.com/NoaMagid/status/2012879178161385833, https://x.com/HengawO/status/2012641346142572662, https://t.me/RememberTheirNames/168, https://x.com/kurdistanhrn/status/2016559666197561404
-child: true
+source_social_media_link:
+  - "https://x.com/_sabaa_z/status/2012990502832832644, https://x.com/noamagid/status/2012879178161385833, https://x.com/hiwa_life/status/2013954396506177684, https://x.com/NoaMagid/status/2012879178161385833, https://x.com/HengawO/status/2012641346142572662, https://t.me/RememberTheirNames/168, https://x.com/kurdistanhrn/status/2016559666197561404"
+  - "https://x.com/noamagid/status/2012879178161385833"
+  - "https://x.com/NoaMagid/status/2012879178161385833"
+  - "https://x.com/HengawO/status/2012641346142572662"
+  - "https://x.com/hiwa_life/status/2013954396506177684"
+  - "https://x.com/kurdistanhrn/status/2016559666197561404"
 persian_name: امیر محمد ارباب‌پوری

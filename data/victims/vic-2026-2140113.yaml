@@ -2,7 +2,8 @@
 # Victim Documentation - Erfan Soltani
 # ==========================================
 
-photo: vic-2026-2140113.jpg
+photo:
+  - vic-2026-2140113.jpg
 name: Erfan Soltani
 birth_date: ""
 birth_province: ""
@@ -12,13 +13,12 @@ age: null
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: "Fardis"
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
-status: Killed
+status: "Sentenced"
 description: Shopkeeper who was arrested during the protests and sentenced to death. Called a 'rioter' by judiciary chief Gholam-Hossein Mohseni-Eje'i. Subsequent reports suggest his execution has been postponed and even denied that it had been intended.
 source_type: Social Media
 source_social_media_link: https://en.wikipedia.org/wiki/2026_Fardis_massacre
-child: false

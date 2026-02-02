@@ -2,7 +2,10 @@
 # Victim Documentation - Behnam Izadi
 # ==========================================
 
-photo: vic-2026-000271.jpg
+photo:
+  - "vic-2026-000271.jpg"
+  - "vic-2026-2140041.jpg"
+  - "vic-2026-eb5494034013.jpg"
 name: Behnam Izadi
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: 25
 occupation: ""
 country: Iran
-incident_province: Mamasani
+incident_province: ""
 incident_city: Nurabad
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -24,6 +27,9 @@ description: |-
 
   Son of Solat, killed by Anoushirvan Safaei with live ammunition.
 source_type: Social Media
-source_social_media_link: https://x.com/EhsanZareei/status/2014445102333083721, https://t.me/RememberTheirNames/760
-child: false
+source_social_media_link:
+  - "https://x.com/EhsanZareei/status/2014445102333083721, https://t.me/RememberTheirNames/760"
+  - "https://x.com/EhsanZareei/status/2014445102333083721"
+  - "https://x.com/farzandesagros/status/2014662270014415231"
+  - "https://t.me/RememberTheirNames/1645"
 persian_name: بهنام ایزدی

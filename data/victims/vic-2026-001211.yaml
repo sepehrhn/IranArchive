@@ -2,7 +2,9 @@
 # Victim Documentation - Sahba
 # ==========================================
 
-photo: vic-2026-001211.jpg
+photo:
+  - "vic-2026-001211.jpg"
+  - "vic-2026-de112e20980c.jpg"
 name: Sahba
 birth_date: ""
 birth_province: ""
@@ -22,4 +24,3 @@ description: |
   Murdered by the Islamic regime during protests
 source_type: Social Media
 source_social_media_link: https://x.com/persuasion_elli/status/2013469000097808385
-child: false

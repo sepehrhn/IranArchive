@@ -2,13 +2,15 @@
 # Victim Documentation - Hossein Hosseini
 # ==========================================
 
-photo: vic-2026-000629.jpg
+photo:
+  - "vic-2026-000629.jpg"
+  - "vic-2026-af0e59b67767.jpg"
 name: Hossein Hosseini
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 55
 occupation: ""
 country: Iran
 incident_province: ""
@@ -25,5 +27,4 @@ description: |-
   Killed by security forces of the Islamic Republic in Mashhad and buried in his hometown of Arak.
 source_type: Social Media
 source_social_media_link: https://x.com/saeidvafa/status/2014727059533099512, https://x.com/hekasrehcrisis/status/2015189146713637324, https://x.com/khoshrof/status/2015384816183640479, https://x.com/SaeidVafa/status/2014727059533099512, https://x.com/behnam_chegini/status/2014737595159171180, https://t.me/RememberTheirNames/1167, https://t.me/RememberTheirNames/866
-child: false
 persian_name: حسن حسینی

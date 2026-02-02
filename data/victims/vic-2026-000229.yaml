@@ -2,7 +2,16 @@
 # Victim Documentation - Ali Asghar Shiri
 # ==========================================
 
-photo: vic-2026-000229.jpg
+photo:
+  - "vic-2026-000229.jpg"
+  - "vic-2026-f693cce78756.jpg"
+  - "vic-2026-2140092.jpg"
+  - "vic-2026-3ce685468715.jpg"
+  - "vic-2026-f4224b75c372.jpg"
+  - "vic-2026-f2f3a67d5f3d.jpg"
+  - "vic-2026-b0fe803ff270.jpg"
+  - "vic-2026-699d5426543e.jpg"
+  - "vic-2026-7b802f1de44f.jpg"
 name: Ali Asghar Shiri
 birth_date: ""
 birth_province: ""
@@ -11,19 +20,24 @@ gender: Male
 age: 39
 occupation: ""
 country: Iran
-incident_province: Shahriar
+incident_province: ""
 incident_city: Sabaeshahr
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
-status: Killed
+status: "Missing"
 description: |-
   Shot by security forces in the chest during protests. Died in his father's arms while being taken to the hospital.
 
 
   Shot in the chest by security forces near Bank Melli and Taleghani Street in Sabashahr. He died in his father's arms while his family was trying to take him to the hospital. He was the father of two children, aged 7 and 10.
 source_type: Social Media
-source_social_media_link: https://x.com/Tavaana/status/2014715547511095713, https://x.com/allahbakhshii/status/2016084795369890002, https://t.me/RememberTheirNames/1437
-child: false
+source_social_media_link:
+  - "https://x.com/Tavaana/status/2014715547511095713, https://x.com/allahbakhshii/status/2016084795369890002, https://t.me/RememberTheirNames/1437"
+  - "https://x.com/Tavaana/status/2014715547511095713"
+  - "https://t.me/RememberTheirNames/1437"
+  - "https://x.com/sashtyani/status/2016819707467141613"
+  - "https://x.com/Sashtyani/status/2016819707467141613"
+  - "https://x.com/i/status/2016819707467141613"
 persian_name: علی‌اصغر شیری

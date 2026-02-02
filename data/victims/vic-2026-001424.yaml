@@ -2,7 +2,11 @@
 # Victim Documentation - Mohammad Mirzaei
 # ==========================================
 
-photo: vic-2026-001424.jpg
+photo:
+  - "vic-2026-001424.jpg"
+  - "vic-2026-88785c53fb53.jpg"
+  - "vic-2026-c1a0c5fe9e70.jpg"
+  - "vic-2026-2bbaf8f642ed.jpg"
 name: Mohammad Mirzaei
 birth_date: ""
 birth_province: ""
@@ -26,6 +30,9 @@ description: |-
 
   Shot and killed by the Islamic regime.
 source_type: Social Media
-source_social_media_link: https://x.com/Walterakam/status/2015457194972487721, https://x.com/pumkin_rn/status/2014610356266508489
-child: false
+source_social_media_link:
+  - "https://x.com/Walterakam/status/2015457194972487721, https://x.com/pumkin_rn/status/2014610356266508489"
+  - "https://x.com/Walterakam/status/2015457194972487721"
+  - "https://x.com/pumkin_rn/status/2014610356266508489"
+  - "https://x.com/ArkhamIgnite/status/2016936863471149242"
 persian_name: محمد میرزایی

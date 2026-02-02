@@ -2,25 +2,25 @@
 # Victim Documentation - Elsa Hamouni
 # ==========================================
 
-photo: vic-2026-001456.jpg
+photo:
+  - vic-2026-001456.jpg
 name: Elsa Hamouni
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
 age: 26
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_province: ""
+incident_city: ""
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |
   متاسفانه اطلاعات دقیقی در حال حاضر موجود نیست.
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

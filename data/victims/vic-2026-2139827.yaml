@@ -2,7 +2,9 @@
 # Victim Documentation - Rouhollah Mansouri
 # ==========================================
 
-photo: vic-2026-2139827.jpg
+photo:
+  - "vic-2026-2139827.jpg"
+  - "vic-2026-a6227d0ce5cd.png"
 name: Rouhollah Mansouri
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Originally from Shah-pasand but was killed in Gorgan. Was wounded on the first night of protests but still went out on the second night and was killed by a bullet to the heart.
+description: Originally from Shah-pasand but was killed in Gorgan. Was wounded on the first night of protests but still went out on the second night and was killed by a bullet to the heart.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2016399069048893475
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2016399069048893475"
+  - "https://x.com/hekasrehcrisis/status/2017253419317145735"
 persian_name: روح‌اله منصوری

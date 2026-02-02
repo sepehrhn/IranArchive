@@ -2,7 +2,10 @@
 # Victim Documentation - Hamed Borjiss
 # ==========================================
 
-photo: vic-2026-2140037.jpg
+photo:
+  - "vic-2026-2140037.jpg"
+  - "vic-2026-3cde6d2017ca.png"
+  - "vic-2026-91b558d4286d.png"
 name: Hamed Borjiss
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,9 @@ date_of_death: "2026-01-04"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot in the throat on Barazandeh Street. Resident of Parvin Street, Isfahan.
+description: Shot in the throat on Barazandeh Street. Resident of Parvin Street, Isfahan.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1567, https://x.com/hekasrehcrisis/status/2016548515992785071
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1567, https://x.com/hekasrehcrisis/status/2016548515992785071"
+  - "https://x.com/hekasrehcrisis/status/2016548515992785071"
 persian_name: حامد برجیس

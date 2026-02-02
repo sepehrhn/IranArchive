@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Pouya Karim Abadi
 # ==========================================
 
-photo: vic-2026-001156.jpg
+photo:
+  - "vic-2026-001156.jpg"
+  - "vic-2026-ff0644406fd8.jpg"
 name: Mohammad Pouya Karim Abadi
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Killed during protests
 source_type: Social Media
-source_social_media_link: https://x.com/yaldarta/status/2014946096523481285, https://t.me/RememberTheirNames/1619
-child: true
+source_social_media_link:
+  - "https://x.com/yaldarta/status/2014946096523481285, https://t.me/RememberTheirNames/1619"
+  - "https://t.me/RememberTheirNames/1619"
 persian_name: محمد پویا کریم آبادی

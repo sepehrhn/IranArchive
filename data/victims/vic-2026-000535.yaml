@@ -2,7 +2,8 @@
 # Victim Documentation - Amir Yaghoubi
 # ==========================================
 
-photo: vic-2026-000535.jpg
+photo:
+  - vic-2026-000535.jpg
 name: Amir Yaghoubi
 birth_date: ""
 birth_province: ""
@@ -25,5 +26,4 @@ description: |-
   Shot by Basij forces with live ammunition during a protest. The tweet mentions he was killed on 18 Dey (January 8, 2026).
 source_type: Social Media
 source_social_media_link: https://x.com/mobarez_nastooh/status/2014761811086594170
-child: false
 persian_name: امیر یعقوبی

@@ -2,7 +2,9 @@
 # Victim Documentation - Fatemeh Soltani
 # ==========================================
 
-photo: vic-2026-001923.jpg
+photo:
+  - "vic-2026-001923.jpg"
+  - "vic-2026-e5c07e06bdd0.jpg"
 name: Fatemeh Soltani
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Shot directly by government forces during public protests. She had posted a message about her children's right to a good life shortly before her death.
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2015906412832993768, https://t.me/RememberTheirNames/1399
-child: false
+source_social_media_link:
+  - "https://x.com/HengawO/status/2015906412832993768, https://t.me/RememberTheirNames/1399"
+  - "https://x.com/HengawO/status/2015906412832993768"
 persian_name: فاطمه سلطانی

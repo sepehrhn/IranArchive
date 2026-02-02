@@ -2,7 +2,12 @@
 # Victim Documentation - Robina Aminian
 # ==========================================
 
-photo: vic-2026-000426.jpg
+photo:
+  - "vic-2026-000426.jpg"
+  - "vic-2026-f1ae6204dd37.jpg"
+  - "vic-2026-9deffb44494d.jpg"
+  - "vic-2026-a42b6e9de3c1.jpg"
+  - "vic-2026-45a88f8f8bef.jpg"
 name: Robina Aminian
 birth_date: ""
 birth_province: ""
@@ -21,6 +26,9 @@ status: Killed
 description: |
   Shot in the head from close range from behind after joining a protest after leaving college
 source_type: Social Media
-source_social_media_link: https://www.theguardian.com/world/2026/jan/11/iranian-student-rubina-aminian-killed-during-protests-shot-in-head-from-close-range, https://www.theguardian.com/global-development/2026/jan/15/iran-protesters-uprising-killed-world-diaspora-families-tehran-internet-blackout, https://x.com/azatalsalim/status/2012127416928661744, https://x.com/henmazzig/status/2012508928609825121, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/missmarpel75/status/2014755290445459966, https://t.me/RememberTheirNames/87
-child: false
+source_social_media_link:
+  - "https://www.theguardian.com/world/2026/jan/11/iranian-student-rubina-aminian-killed-during-protests-shot-in-head-from-close-range, https://www.theguardian.com/global-development/2026/jan/15/iran-protesters-uprising-killed-world-diaspora-families-tehran-internet-blackout, https://x.com/azatalsalim/status/2012127416928661744, https://x.com/henmazzig/status/2012508928609825121, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/missmarpel75/status/2014755290445459966, https://t.me/RememberTheirNames/87"
+  - "https://x.com/azatalsalim/status/2012127416928661744"
+  - "https://x.com/henmazzig/status/2012508928609825121"
+  - "https://x.com/missmarpel75/status/2014755290445459966"
 persian_name: روبینا امینیان

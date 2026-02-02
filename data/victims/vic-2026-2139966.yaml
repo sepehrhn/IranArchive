@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Reza Gholivand
 # ==========================================
 
-photo: vic-2026-2139966.jpg
+photo:
+  - "vic-2026-2139966.jpg"
+  - "vic-2026-0f36c6dfa190.jpg"
+  - "vic-2026-713a8067c3b5.jpg"
 name: Mohammad Reza Gholivand
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,11 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed by Islamic Republic agents. The tweet refers to him as 'Javidnam' (eternal name) and laments the loss of a young life.
+description: Killed by Islamic Republic agents. The tweet refers to him as 'Javidnam' (eternal name) and laments the loss of a young life.
 source_type: Social Media
-source_social_media_link: https://x.com/walterakam/status/2016060370751017331, https://x.com/Walterakam/status/2016060370751017331, https://x.com/i/status/2016060370751017331
-child: true
+source_social_media_link:
+  - "https://x.com/walterakam/status/2016060370751017331, https://x.com/Walterakam/status/2016060370751017331, https://x.com/i/status/2016060370751017331"
+  - "https://x.com/walterakam/status/2016060370751017331"
+  - "https://x.com/Walterakam/status/2016060370751017331"
+  - "https://x.com/i/status/2016060370751017331"
 persian_name: محمدرضا قلی‌وند

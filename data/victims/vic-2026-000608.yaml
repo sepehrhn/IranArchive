@@ -2,7 +2,10 @@
 # Victim Documentation - Fatemeh Tabibi
 # ==========================================
 
-photo: vic-2026-000608.jpg
+photo:
+  - "vic-2026-000608.jpg"
+  - "vic-2026-cddb5bb0896c.jpg"
+  - "vic-2026-51944b15f48f.jpg"
 name: Fatemeh Tabibi
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,8 @@ status: Killed
 description: |
   Shot in the head by Islamic Republic forces during protests, died in hospital. Was targeted in front of her young daughter
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2014235005241729082, https://x.com/HengawO/status/2013992084802257150, https://t.me/RememberTheirNames/660
-child: false
+source_social_media_link:
+  - "https://x.com/iranwire/status/2014235005241729082, https://x.com/HengawO/status/2013992084802257150, https://t.me/RememberTheirNames/660"
+  - "https://x.com/HengawO/status/2013992084802257150"
+  - "https://x.com/iranwire/status/2014235005241729082"
 persian_name: فاطمه طبیبی

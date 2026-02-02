@@ -2,13 +2,15 @@
 # Victim Documentation - Mostafa Mirzaii
 # ==========================================
 
-photo: vic-2026-002028.jpg
+photo:
+  - "vic-2026-002028.jpg"
+  - "vic-2026-a9fb414e2d76.jpg"
 name: Mostafa Mirzaii
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 17
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -23,6 +25,7 @@ description: |-
 
   Mentioned in a list of names without specific details on death.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1352
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1352"
+  - "https://x.com/kyokushinsoofi/status/2017257140738556347"
 persian_name: مصطفی میرزایی

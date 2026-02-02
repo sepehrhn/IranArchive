@@ -2,22 +2,40 @@
 # Victim Documentation - Elina Hejati
 # ==========================================
 
-photo: vic-2026-000015.jpeg
+photo:
+  - "vic-2026-000015.jpeg"
+  - "vic-2026-000937.jpg"
+  - "vic-2026-ab7ce37b3c28.jpg"
+  - "vic-2026-5010a44d5751.jpg"
+  - "vic-2026-af51424b7bf8.jpg"
+  - "vic-2026-cf5950036e2b.jpg"
+  - "vic-2026-1827da4a0408.webp"
+  - "vic-2026-80fb94a70811.jpg"
+  - "vic-2026-23160be3308d.jpg"
+  - "vic-2026-65423e062bb7.jpg"
+  - "vic-2026-58f6b91352ff.jpg"
+  - "vic-2026-6b2b0fdcc948.jpg"
+  - "vic-2026-bef9dd6cc0a5.jpg"
+  - "vic-2026-07a7e3ac3a57.jpg"
+  - "vic-2026-4184578b9a3e.jpg"
+  - "vic-2026-99fa26648d19.jpg"
+  - "vic-2026-80c70e4e9931.jpg"
+  - "vic-2026-7d72c385bcc5.jpg"
 name: Elina Hejati
-birth_date: ''
-birth_province: ''
+birth_date: ""
+birth_province: ""
 birth_city: the hospital
 gender: Female
 age: 23
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: Gunshot
-disappearance_circumstances: ''
+disappearance_circumstances: ""
 suspected_actor: Security Forces
 status: Killed
 description: |
@@ -30,5 +48,15 @@ description: |
   # -----------------------------------------------------------------------------
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/FattahiFarzad/status/2014582915082989968?s=20
-child: false
+  - "https://x.com/FattahiFarzad/status/2014582915082989968?s=20"
+  - "https://x.com/theoldwaryaw/status/2014084551883014590, https://x.com/sarlzdd/status/2014376309078818949, https://x.com/sarlzdd/status/2014484535761617385, https://x.com/iranwire/status/2014750266709488030, https://x.com/autnews_org/status/2014694261971640649, https://www.instagram.com/p/DT2vV4rjpVv, https://x.com/Tavaana/status/2014703312487280890, https://www.instagram.com/p/DT17s8JAEHQ, https://x.com/hiitsmemooneh/status/2014844464783884622, https://x.com/fseifikaran/status/2014777282326405403, https://t.me/RememberTheirNames/795"
+  - "https://x.com/sarlzdd/status/2014376309078818949"
+  - "https://x.com/sarlzdd/status/2014484535761617385"
+  - "https://www.instagram.com/p/DT2vV4rjpVv"
+  - "https://x.com/iranwire/status/2014750266709488030"
+  - "https://x.com/Tavaana/status/2014703312487280890"
+  - "https://x.com/autnews_org/status/2014694261971640649"
+  - "https://www.instagram.com/p/DT17s8JAEHQ"
+  - "https://x.com/fseifikaran/status/2014777282326405403"
+  - "https://x.com/theoldwaryaw/status/2014084551883014590"
+  - "https://x.com/hiitsmemooneh/status/2014843780038533342"

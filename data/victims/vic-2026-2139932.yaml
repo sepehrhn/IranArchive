@@ -2,7 +2,11 @@
 # Victim Documentation - Majid Yousefvand
 # ==========================================
 
-photo: vic-2026-2139932.jpg
+photo:
+  - "vic-2026-2139932.jpg"
+  - "vic-2026-5b58725409a3.jpg"
+  - "vic-2026-07fda22debb3.jpg"
+  - "vic-2026-980d92036e59.jpg"
 name: Majid Yousefvand
 birth_date: ""
 birth_province: ""
@@ -18,9 +22,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed by Islamic Republic agents. Originally from Lorestan.
+description: Killed by Islamic Republic agents. Originally from Lorestan.
 source_type: Social Media
-source_social_media_link: https://x.com/chaawtimes/status/2016307122934251637
-child: false
+source_social_media_link:
+  - "https://x.com/chaawtimes/status/2016307122934251637"
+  - "https://x.com/hekasrehcrisis/status/2017713868500242712"
 persian_name: مجید یوسفوند

@@ -2,7 +2,13 @@
 # Victim Documentation - Amir Ali Jalilian
 # ==========================================
 
-photo: vic-2026-000879.jpg
+photo:
+  - "vic-2026-000879.jpg"
+  - "vic-2026-000ec63f8a1f.jpg"
+  - "vic-2026-5a43dc4a487a.jpg"
+  - "vic-2026-6ffe0e68454d.jpg"
+  - "vic-2026-e45f9ce2f9e4.jpg"
+  - "vic-2026-218d1bd6c927.jpg"
 name: Amir Ali Jalilian
 birth_date: ""
 birth_province: ""
@@ -21,6 +27,8 @@ status: Killed
 description: |
   Severely injured by dozens of shotgun pellets to the head and body during protests; died in hospital after several days.
 source_type: Social Media
-source_social_media_link: https://x.com/Daikatuo/status/2011858468727066737, https://x.com/KurdistanHRN/status/2011783655752880275, https://t.me/RememberTheirNames/271
-child: false
+source_social_media_link:
+  - "https://x.com/Daikatuo/status/2011858468727066737, https://x.com/KurdistanHRN/status/2011783655752880275, https://t.me/RememberTheirNames/271"
+  - "https://x.com/Daikatuo/status/2011858468727066737"
+  - "https://x.com/KurdistanHRN/status/2011783655752880275"
 persian_name: امیرعلی جلیلیان

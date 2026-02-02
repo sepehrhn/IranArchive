@@ -2,7 +2,12 @@
 # Victim Documentation - Ayoub Rasaneh
 # ==========================================
 
-photo: vic-2026-001048.jpg
+photo:
+  - "vic-2026-001048.jpg"
+  - "vic-2026-ec38dae0dad0.jpg"
+  - "vic-2026-c4e6a79fe584.jpg"
+  - "vic-2026-ccf931e36ead.jpg"
+  - "vic-2026-5d5d78a70ed0.jpg"
 name: Ayoub Rasaneh
 birth_date: ""
 birth_province: ""
@@ -11,7 +16,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Rask county
+incident_province: ""
 incident_city: Hassan-Abad village
 incident_address: ""
 date_of_death: "2026-01-10"
@@ -24,6 +29,11 @@ description: |-
 
   Killed by direct live ammunition during protests in Dey 1404 (January 2026).
 source_type: Social Media
-source_social_media_link: https://x.com/farzinkadkhodae/status/2014447944120844539, https://x.com/kalbalouchi/status/2014605814716301494, https://x.com/TheBalochWorld/status/2014464360333402434, https://x.com/hamalilalin/status/2015846726897176972, https://t.me/RememberTheirNames/579, https://x.com/hamalilalin/status/2015853984586604592
-child: false
+source_social_media_link:
+  - "https://x.com/farzinkadkhodae/status/2014447944120844539, https://x.com/kalbalouchi/status/2014605814716301494, https://x.com/TheBalochWorld/status/2014464360333402434, https://x.com/hamalilalin/status/2015846726897176972, https://t.me/RememberTheirNames/579, https://x.com/hamalilalin/status/2015853984586604592"
+  - "https://x.com/shiraninaroui/status/2014391779601035670"
+  - "https://x.com/kalbalouchi/status/2014605814716301494"
+  - "https://x.com/TheBalochWorld/status/2014464360333402434"
+  - "https://x.com/hamalilalin/status/2015846726897176972"
+  - "https://x.com/hamalilalin/status/2015853984586604592"
 persian_name: ایوب رسانه

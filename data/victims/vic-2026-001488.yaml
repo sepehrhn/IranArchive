@@ -2,19 +2,21 @@
 # Victim Documentation - Ali Ashouri
 # ==========================================
 
-photo: vic-2026-001488.png
+photo:
+  - "vic-2026-001488.png"
+  - "vic-2026-4fba020a5545.jpg"
 name: Ali Ashouri
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-age: null
-occupation: ''
+age: 22
+occupation: ""
 country: Iran
 incident_province: Fars
 incident_city: Neyriz
-incident_address: ''
-date_of_death: '2026-01-03'
+incident_address: ""
+date_of_death: "2026-01-03"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -24,5 +26,5 @@ description: |
   Ali Ashouri, A young man killed on January 3, 2026, in Neyriz by government forces' gunfire.
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""
+  - "https://x.com/damdami/status/2016441794058195354"

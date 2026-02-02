@@ -2,7 +2,12 @@
 # Victim Documentation - Meysam Kazemi
 # ==========================================
 
-photo: vic-2026-001138.jpg
+photo:
+  - "vic-2026-001138.jpg"
+  - "vic-2026-e24dd7efecf4.jpg"
+  - "vic-2026-739c09bed8f6.jpg"
+  - "vic-2026-63a895d54467.jpg"
+  - "vic-2026-97224b6b1ba3.jpg"
 name: Meysam Kazemi
 birth_date: ""
 birth_province: ""
@@ -17,10 +22,14 @@ incident_address: ""
 date_of_death: "2025-12-22"
 date_of_death_precision: Exact
 cause_of_death: Unknown
-status: Killed
+status: "Missing"
 description: |
   Implied death, possibly during protests, based on context and black heart emoji. Occupation as firefighter (آتش نشان قهرمان) is mentioned.
 source_type: Social Media
-source_social_media_link: https://x.com/amir75__n/status/2014466183769055581, https://t.me/RememberTheirNames/1453
-child: false
+source_social_media_link:
+  - "https://x.com/amir75__n/status/2014466183769055581, https://t.me/RememberTheirNames/1453"
+  - "https://x.com/amir75__n/status/2014466183769055581"
+  - "https://x.com/FSeifikaran/status/2011734542428885036"
+  - "https://x.com/ferchewc/status/2013521878787244276"
+  - "https://www.instagram.com/p/DT05Mwvkli0"
 persian_name: میثم کاظمی

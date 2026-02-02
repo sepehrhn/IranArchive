@@ -2,7 +2,10 @@
 # Victim Documentation - Alireza Mousavinoor
 # ==========================================
 
-photo: vic-2026-2139762.jpg
+photo:
+  - "vic-2026-2139762.jpg"
+  - "vic-2026-90dcaa7de6cf.jpg"
+  - "vic-2026-ebedd01322eb.jpg"
 name: Alireza Mousavinoor
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,9 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Baharestan, Isfahan during the 2025-2026 protests
+description: Died in Baharestan, Isfahan during the 2025-2026 protests
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1629
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1629"
+  - "https://x.com/itsettare/status/2016695728848921056"
 persian_name: علیرضا موسوی‌نور

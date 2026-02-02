@@ -2,7 +2,8 @@
 # Victim Documentation - Sasan Keshavarz
 # ==========================================
 
-photo: vic-2026-001798.jpg
+photo:
+  - vic-2026-001798.jpg
 name: Sasan Keshavarz
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Mentioned in a list of names without further details.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1381
-child: false
 persian_name: ساسان کشوری

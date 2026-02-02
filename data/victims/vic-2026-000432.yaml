@@ -2,13 +2,18 @@
 # Victim Documentation - Sajjad Feizi
 # ==========================================
 
-photo: vic-2026-000432.jpg
+photo:
+  - "vic-2026-000432.jpg"
+  - "vic-2026-73447c6f2bdb.jpg"
+  - "vic-2026-410f1b73a69a.jpg"
+  - "vic-2026-c48079ad95e7.jpg"
+  - "vic-2026-6fd50d720b44.jpg"
 name: Sajjad Feizi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 30
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,6 +29,8 @@ description: |-
 
   Killed during protests. Mentioned alongside Mohammad Jafari and Erfan Jamehshoorani.
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2012546870782914758, https://x.com/KurdistanHRN/status/2010377088927138216, https://x.com/HengawO/status/2015006944679862461, https://t.me/RememberTheirNames/95
-child: false
+source_social_media_link:
+  - "https://x.com/HengawO/status/2012546870782914758, https://x.com/KurdistanHRN/status/2010377088927138216, https://x.com/HengawO/status/2015006944679862461, https://t.me/RememberTheirNames/95"
+  - "https://x.com/KurdistanHRN/status/2010377088927138216"
+  - "https://x.com/HengawO/status/2015006944679862461"
 persian_name: سجاد فیضی

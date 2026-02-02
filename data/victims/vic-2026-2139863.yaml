@@ -2,7 +2,9 @@
 # Victim Documentation - Amir (Hassan) Pourahangarian
 # ==========================================
 
-photo: vic-2026-2139863.jpg
+photo:
+  - "vic-2026-2139863.jpg"
+  - "vic-2026-867f006a2041.jpg"
 name: Amir (Hassan) Pourahangarian
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot twice in the chest and neck while going to find his younger brother who was participating in the protests and feared for his safety. Died in Gol-Sorkhi Street.
+description: Shot twice in the chest and neck while going to find his younger brother who was participating in the protests and feared for his safety. Died in Gol-Sorkhi Street.
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2014475742038376810, https://x.com/FSeifikaran/status/2014475742038376810, https://t.me/RememberTheirNames/1363, https://t.me/RememberTheirNames/745, https://t.me/persian_picture/4126
-child: false
+source_social_media_link:
+  - "https://x.com/fseifikaran/status/2014475742038376810, https://x.com/FSeifikaran/status/2014475742038376810, https://t.me/RememberTheirNames/1363, https://t.me/RememberTheirNames/745, https://t.me/persian_picture/4126"
+  - "https://t.me/persian_picture/4126"
 persian_name: امیر پورآهنگریان

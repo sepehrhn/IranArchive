@@ -2,20 +2,29 @@
 # Victim Documentation - Iman Bahdari
 # ==========================================
 
-photo: vic-2026-000048.jpg
+photo:
+  - "vic-2026-000048.jpg"
+  - "vic-2026-c764682366cc.jpg"
+  - "vic-2026-0e9a03bbb427.jpg"
+  - "vic-2026-5753827818b7.jpg"
+  - "vic-2026-34da29d113b1.jpg"
+  - "vic-2026-fae167a4b793.jpg"
+  - "vic-2026-b7bda78b10ad.jpg"
+  - "vic-2026-928f7c56b145.jpg"
+  - "vic-2026-867f006a2041.jpg"
 name: Iman Bahdari
-persian_name: "ایمان بهداری"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+persian_name: ایمان بهداری
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 27
+occupation: ""
 country: Iran
 incident_province: Markazi
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_city: ""
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,5 +32,11 @@ description: |
   Shot in the back with war bullets during suppression by Islamic Republic forces
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/allahbakhshii/status/2014254381303054811
-child: false
+  - "https://x.com/allahbakhshii/status/2014254381303054811"
+  - "https://x.com/mousavi1355/status/2017953575452770374"
+  - "https://x.com/visfehan/status/2018006496672469318"
+  - "https://x.com/TheBalochWorld/status/2015016527637143858"
+  - "https://x.com/visfehan/status/2014709165306888315"
+  - "https://x.com/maryammoqaddam/status/2014711935275536389"
+  - "https://x.com/MaryamMoqaddam/status/2014711935275536389"
+  - "https://t.me/persian_picture/4126"

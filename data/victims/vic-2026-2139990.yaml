@@ -2,7 +2,10 @@
 # Victim Documentation - Peyman Palizdar
 # ==========================================
 
-photo: vic-2026-2139990.jpg
+photo:
+  - "vic-2026-2139990.jpg"
+  - "vic-2026-f23b9ad7ff36.webp"
+  - "vic-2026-83386813d965.jpg"
 name: Peyman Palizdar
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Shahin Vila, Karaj, on Thursday, 18 Dey, from a bullet wound to the throat.
+description: Died in Shahin Vila, Karaj, on Thursday, 18 Dey, from a bullet wound to the throat.
 source_type: Social Media
 source_social_media_link: https://www.instagram.com/p/DUAwUMLAgSS
-child: false
 persian_name: پیمان پالیزدار

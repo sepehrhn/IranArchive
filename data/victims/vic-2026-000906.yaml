@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammadreza Khabiri
 # ==========================================
 
-photo: vic-2026-000906.jpg
+photo:
+  - "vic-2026-000906.jpg"
+  - "vic-2026-5f1d21f992c2.jpg"
 name: Mohammadreza Khabiri
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Killed during protest on Friday
 source_type: Social Media
-source_social_media_link: https://x.com/maryamtorabikia/status/2014786719392870448, https://x.com/HeKasrehCrisis/status/2015868368553656345
-child: false
+source_social_media_link:
+  - "https://x.com/maryamtorabikia/status/2014786719392870448, https://x.com/HeKasrehCrisis/status/2015868368553656345"
+  - "https://x.com/HeKasrehCrisis/status/2015868368553656345"
 persian_name: محمدرضا خبیری

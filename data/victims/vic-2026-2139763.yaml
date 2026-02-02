@@ -2,7 +2,10 @@
 # Victim Documentation - Alireza Navaei Lavasani
 # ==========================================
 
-photo: vic-2026-2139763.jpg
+photo:
+  - "vic-2026-2139763.jpg"
+  - "vic-2026-9ef6c3396be7.jpg"
+  - "vic-2026-fd8e674b23a7.jpg"
 name: Alireza Navaei Lavasani
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,9 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Victim during 2025-2026 Iranian protests in Tehranpars district of Tehran
+description: Victim during 2025-2026 Iranian protests in Tehranpars district of Tehran
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1434
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1434"
+  - "https://x.com/ggehhry2/status/2017697391130939506"
 persian_name: علیرضا نوائی لواسانی

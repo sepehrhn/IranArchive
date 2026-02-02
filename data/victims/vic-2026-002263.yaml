@@ -2,7 +2,9 @@
 # Victim Documentation - Shahram Farajzadeh
 # ==========================================
 
-photo: vic-2026-002263.jpg
+photo:
+  - "vic-2026-002263.jpg"
+  - "vic-2026-e7ffae83f4bc.jpg"
 name: Shahram Farajzadeh
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Killed under the wheels of a police vehicle during Ashura in 2009. Uncle of Milad Bakhtiari.
 source_type: Social Media
-source_social_media_link: https://x.com/i/status/2015786366378934653
-child: false
+source_social_media_link:
+  - "https://x.com/i/status/2015786366378934653"
+  - "https://x.com/jeanne2022rev/status/2015786366378934653"
 persian_name: شهرام فرج زاده

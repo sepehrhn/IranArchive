@@ -2,13 +2,21 @@
 # Victim Documentation - Mohammad Khalili
 # ==========================================
 
-photo: vic-2026-000373.jpg
+photo:
+  - "vic-2026-000373.jpg"
+  - "vic-2026-42e876e7125a.jpg"
+  - "vic-2026-2139813.jpg"
+  - "vic-2026-63a13743ed15.jpg"
+  - "vic-2026-638b6f4384aa.png"
+  - "vic-2026-9eec8b3e4d7f.jpg"
+  - "vic-2026-06ce8cde63ca.jpg"
+  - "vic-2026-e73894a4772b.jpg"
 name: Mohammad Khalili
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 62
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,6 +32,8 @@ description: |-
 
   Shot during protest, telling his friend to run. Died on January 9, 2026.
 source_type: Social Media
-source_social_media_link: https://x.com/sssccpp/status/2015116079308124509
-child: false
+source_social_media_link:
+  - "https://x.com/sssccpp/status/2015116079308124509"
+  - "https://t.me/iranhrs98/67317"
+  - "https://x.com/VIsfehan/status/2016155695394033708"
 persian_name: محمد خلیلی

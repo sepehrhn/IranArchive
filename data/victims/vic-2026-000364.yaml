@@ -2,7 +2,19 @@
 # Victim Documentation - Moein Gholami
 # ==========================================
 
-photo: vic-2026-000364.png
+photo:
+  - "vic-2026-000364.png"
+  - "vic-2026-b9dce41b1982.png"
+  - "vic-2026-2626571a6e6f.png"
+  - "vic-2026-08a2833983b5.jpg"
+  - "vic-2026-26cf62fab343.png"
+  - "vic-2026-fdf1641919ad.jpg"
+  - "vic-2026-611ab9fe3624.jpg"
+  - "vic-2026-13e8bdccb5e2.png"
+  - "vic-2026-31625533698c.jpg"
+  - "vic-2026-4a7eacadaf56.jpg"
+  - "vic-2026-b55ca92fb372.jpg"
+  - "vic-2026-6402f82c6ea5.jpg"
 name: Moein Gholami
 birth_date: ""
 birth_province: ""
@@ -11,7 +23,7 @@ gender: Male
 age: 22
 occupation: ""
 country: Iran
-incident_province: Isfahan
+incident_province: ""
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -21,6 +33,13 @@ status: Killed
 description: |
   Shot directly by security forces during popular protests in Haft Tir area of Karaj
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2011865724189376853, https://x.com/allahbakhshii/status/2012839074608878059, https://x.com/manotonews/status/2012955649030889815, https://x.com/Daikatuo/status/2011862443933266250, https://t.me/RememberTheirNames/197, https://t.me/poshtpardeha/249104?single
-child: false
+source_social_media_link:
+  - "https://x.com/hengawo/status/2011865724189376853, https://x.com/allahbakhshii/status/2012839074608878059, https://x.com/manotonews/status/2012955649030889815, https://x.com/Daikatuo/status/2011862443933266250, https://t.me/RememberTheirNames/197"
+  - "https://x.com/Daikatuo/status/2011862443933266250"
+  - "https://x.com/hengawo/status/2011865724189376853"
+  - "https://x.com/manotonews/status/2012955649030889815"
+  - "https://t.me/poshtpardeha/249104?single"
+  - "https://x.com/autnews_org/status/2017005699214290982"
+  - "https://x.com/baydaqnews/status/2016939393953698246"
+  - "https://x.com/iranhrs99/status/2012917486702801319"
 persian_name: معین غلامی

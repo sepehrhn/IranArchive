@@ -2,7 +2,8 @@
 # Victim Documentation - Alireza Sadighian
 # ==========================================
 
-photo: vic-2026-001850.jpg
+photo:
+  - vic-2026-001850.jpg
 name: Alireza Sadighian
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Shot by suppressive forces
 source_type: Social Media
 source_social_media_link: https://x.com/allahbakhshii/status/2014325669576970555, https://t.me/RememberTheirNames/629
-child: false
 persian_name: علیرضا سدیان

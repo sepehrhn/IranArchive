@@ -2,7 +2,10 @@
 # Victim Documentation - Amir Ali Norizadeh
 # ==========================================
 
-photo: vic-2026-2139720.jpg
+photo:
+  - "vic-2026-2139720.jpg"
+  - "vic-2026-d57fe598f726.jpg"
+  - "vic-2026-f92e34f0a004.jpg"
 name: Amir Ali Norizadeh
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,11 @@ date_of_death: "2026-01-27"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  8-year-old child shot by police forces in Taheruiyeh neighborhood while police were chasing a vehicle suspected of carrying smuggled goods. Police later surrounded the hospital to prevent news of the incident from spreading.
+description: 8-year-old child shot by police forces in Taheruiyeh neighborhood while police were chasing a vehicle suspected of carrying smuggled goods. Police later surrounded the hospital to prevent news of the incident from spreading.
 source_type: Social Media
-source_social_media_link: https://x.com/rozhenabaloch/status/2016615070793449919, https://x.com/coordinatinga/status/2016642229310226547
-child: true
+source_social_media_link:
+  - "https://x.com/rozhenabaloch/status/2016615070793449919, https://x.com/coordinatinga/status/2016642229310226547"
+  - "https://x.com/rozhenabaloch/status/2016615070793449919"
+  - "https://x.com/coordinatinga/status/2016642229310226547"
+  - "https://x.com/CoordinatingA/status/2016642229310226547"
 persian_name: امیرعلی نوری‌زاده

@@ -2,7 +2,9 @@
 # Victim Documentation - Majid Daneshkhah
 # ==========================================
 
-photo: vic-2026-001114.jpg
+photo:
+  - "vic-2026-001114.jpg"
+  - "vic-2026-b992c7008d3d.jpg"
 name: Majid Daneshkhah
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Killed by Islamic Republic forces three days after his birthday. His body was not shown to his family, and they were not allowed to unzip his clothing below the chin. The family does not know where he was shot. He went to the streets for the freedom of his country.
 source_type: Social Media
-source_social_media_link: https://x.com/madameolmolouk/status/2014981848078688558, https://t.me/RememberTheirNames/782
-child: false
+source_social_media_link:
+  - "https://x.com/madameolmolouk/status/2014981848078688558, https://t.me/RememberTheirNames/782"
+  - "https://x.com/madameolmolouk/status/2014981848078688558"
 persian_name: مجید دانش‌خواه

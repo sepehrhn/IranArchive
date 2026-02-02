@@ -2,7 +2,13 @@
 # Victim Documentation - Hossein Zabihzadeh
 # ==========================================
 
-photo: vic-2026-000635.png
+photo:
+  - "vic-2026-000635.png"
+  - "vic-2026-323c05a872ad.png"
+  - "vic-2026-9f40b2a5f286.jpg"
+  - "vic-2026-877a37f92c97.png"
+  - "vic-2026-f725edc74422.png"
+  - "vic-2026-6da11c2a2930.jpg"
 name: Hossein Zabihzadeh
 birth_date: ""
 birth_province: ""
@@ -24,6 +30,8 @@ description: |-
 
   Killed during protests in Esfarayen. His identity was confirmed by Hengaw.
 source_type: Social Media
-source_social_media_link: https://x.com/Daikatuo/status/2013374068100104405, https://x.com/HengawO/status/2013204507925110943
-child: false
+source_social_media_link:
+  - "https://x.com/Daikatuo/status/2013374068100104405, https://x.com/HengawO/status/2013204507925110943"
+  - "https://x.com/Daikatuo/status/2013374068100104405"
+  - "https://x.com/HengawO/status/2013204507925110943"
 persian_name: حسین ذبیح‌زاده

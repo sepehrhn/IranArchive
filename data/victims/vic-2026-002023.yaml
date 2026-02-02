@@ -2,7 +2,8 @@
 # Victim Documentation - Mojtaba Roustaei
 # ==========================================
 
-photo: vic-2026-002023.jpg
+photo:
+  - vic-2026-002023.jpg
 name: Mojtaba Roustaei
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: 35
 occupation: ""
 country: Iran
-incident_province: Afsariyeh
+incident_province: ""
 incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -23,6 +24,7 @@ description: |-
 
   Mentioned in a list of names with a date and location, likely a victim.
 source_type: Social Media
-source_social_media_link: https://x.com/keyonek1/status/2015638719278030989, https://t.me/RememberTheirNames/1382
-child: false
+source_social_media_link:
+  - "https://x.com/keyonek1/status/2015638719278030989, https://t.me/RememberTheirNames/1382"
+  - "https://x.com/keyonek1/status/2015638719278030989"
 persian_name: مجتبی روستایی

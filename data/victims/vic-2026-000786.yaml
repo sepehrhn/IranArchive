@@ -2,7 +2,13 @@
 # Victim Documentation - Pouria Gholamali
 # ==========================================
 
-photo: vic-2026-000786.jpg
+photo:
+  - "vic-2026-000786.jpg"
+  - "vic-2026-f60c97cb97ed.jpg"
+  - "vic-2026-09d66e78dd62.jpg"
+  - "vic-2026-6273d39f524c.jpg"
+  - "vic-2026-252270d410c4.jpg"
+  - "vic-2026-fc24642a07af.jpg"
 name: Pouria Gholamali
 birth_date: ""
 birth_province: ""
@@ -11,7 +17,7 @@ gender: Male
 age: 32
 occupation: ""
 country: Iran
-incident_province: District 7
+incident_province: ""
 incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -24,6 +30,11 @@ description: |-
 
   Killed by 'bastards of the regime'. The tweet uses the term 'جاویدان شد' which implies becoming eternal/martyred, indicating death.
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2011830738174271901, https://x.com/ghorbaniiniyak/status/2013961023833686354, https://x.com/GhorbaniiNiyak/status/2013961023833686354, https://x.com/missmarpel75/status/2015555230801211411, https://x.com/Biarosh/status/2014648367742062927, https://t.me/RememberTheirNames/211
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2011830738174271901, https://x.com/ghorbaniiniyak/status/2013961023833686354, https://x.com/GhorbaniiNiyak/status/2013961023833686354, https://x.com/missmarpel75/status/2015555230801211411, https://x.com/Biarosh/status/2014648367742062927, https://t.me/RememberTheirNames/211"
+  - "https://x.com/manotonews/status/2011830738174271901"
+  - "https://x.com/ghorbaniiniyak/status/2013961023833686354"
+  - "https://x.com/GhorbaniiNiyak/status/2013961023833686354"
+  - "https://x.com/missmarpel75/status/2015555230801211411"
+  - "https://x.com/Biarosh/status/2014648367742062927"
 persian_name: پوریا غلامعلی

@@ -2,7 +2,12 @@
 # Victim Documentation - Khaled Mollaei
 # ==========================================
 
-photo: vic-2026-000648.jpg
+photo:
+  - "vic-2026-000648.jpg"
+  - "vic-2026-8cefed61d7cd.jpg"
+  - "vic-2026-bece7c8673e3.jpg"
+  - "vic-2026-fa57c0fc9f40.jpg"
+  - "vic-2026-afe2020e1737.jpg"
 name: Khaled Mollaei
 birth_date: ""
 birth_province: ""
@@ -21,6 +26,9 @@ status: Killed
 description: |
   Shot and killed by direct gunfire from government forces while returning home with his brother
 source_type: Social Media
-source_social_media_link: https://x.com/longlosthills/status/2010383759132995652, https://x.com/manotonews/status/2014012615534825548, https://x.com/Meisam1994/status/2014638768624374000, https://t.me/RememberTheirNames/89
-child: false
+source_social_media_link:
+  - "https://x.com/longlosthills/status/2010383759132995652, https://x.com/manotonews/status/2014012615534825548, https://x.com/Meisam1994/status/2014638768624374000, https://t.me/RememberTheirNames/89"
+  - "https://x.com/longlosthills/status/2010383759132995652"
+  - "https://x.com/manotonews/status/2014012615534825548"
+  - "https://x.com/Meisam1994/status/2014638768624374000"
 persian_name: خالد ملایی

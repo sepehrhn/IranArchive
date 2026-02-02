@@ -2,7 +2,9 @@
 # Victim Documentation - Masoud Youseliani
 # ==========================================
 
-photo: vic-2026-2140133.jpg
+photo:
+  - "vic-2026-2140133.jpg"
+  - "vic-2026-f8a053263cb7.jpg"
 name: Masoud Youseliani
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot with direct fire from war bullets during protests. Family searched for his body for a week among corpses at Gharazi Hospital. When found, his gold necklace had been stolen from his neck. Buried on 25 Dey next to his mother.
+description: Shot with direct fire from war bullets during protests. Family searched for his body for a week among corpses at Gharazi Hospital. When found, his gold necklace had been stolen from his neck. Buried on 25 Dey next to his mother.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2016911006203588767
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2016911006203588767"
+  - "https://x.com/VIsfehan/status/2016911006203588767"
 persian_name: مسعود یوسلیانی

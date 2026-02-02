@@ -2,7 +2,9 @@
 # Victim Documentation - Morteza Shahzeidi
 # ==========================================
 
-photo: vic-2026-000393.jpg
+photo:
+  - "vic-2026-000393.jpg"
+  - "vic-2026-82967058543a.jpg"
 name: Morteza Shahzeidi
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,8 @@ status: Killed
 description: |
   Shot by government security forces during protests in Isfahan.
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2013911264154546507, https://hengaw.net/fa/news/2026/01/article-170-1, https://x.com/HengawO/status/2013911264154546507
-child: false
+source_social_media_link:
+  - "https://x.com/hengawo/status/2013911264154546507, https://hengaw.net/fa/news/2026/01/article-170-1, https://x.com/HengawO/status/2013911264154546507"
+  - "https://x.com/hengawo/status/2013911264154546507"
+  - "https://x.com/HengawO/status/2013911264154546507"
 persian_name: مرتضی شاهزیدی

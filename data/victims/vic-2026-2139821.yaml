@@ -2,7 +2,12 @@
 # Victim Documentation - Nazanin Taghva
 # ==========================================
 
-photo: vic-2026-2139821.jpg
+photo:
+  - "vic-2026-2139821.jpg"
+  - "vic-2026-ab940e7ba06b.jpg"
+  - "vic-2026-c165df09916f.jpg"
+  - "vic-2026-61ae067a72e2.jpg"
+  - "vic-2026-a99a88744733.jpg"
 name: Nazanin Taghva
 birth_date: ""
 birth_province: ""
@@ -18,9 +23,13 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  34-year-old Gilaki citizen from Rasht, killed by direct fire from Islamic Republic forces during nationwide protests
+description: 34-year-old Gilaki citizen from Rasht, killed by direct fire from Islamic Republic forces during nationwide protests
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2016580144291328300, https://t.me/RememberTheirNames/1642
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2016580144291328300, https://t.me/RememberTheirNames/1642"
+  - "https://x.com/hyrcanihrm/status/2016580144291328300"
+  - "https://t.me/RememberTheirNames/1642"
+  - "https://x.com/Verethragnan/status/2017022031649222690"
+  - "https://x.com/verethragnan/status/2017022031649222690"
+  - "https://x.com/nicksotoudeh/status/2017391446039646400"
 persian_name: نازنین تقوا

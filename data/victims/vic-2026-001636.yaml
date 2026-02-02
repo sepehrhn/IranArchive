@@ -2,7 +2,9 @@
 # Victim Documentation - Ali Ashiri Lor
 # ==========================================
 
-photo: vic-2026-001636.jpg
+photo:
+  - "vic-2026-001636.jpg"
+  - "vic-2026-616bd5eed2e1.jpg"
 name: Ali Ashiri Lor
 birth_date: ""
 birth_province: ""
@@ -25,6 +27,7 @@ description: |-
 
   Shot and killed by Basij forces with direct gunfire using military ammunition during the night
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2015600875910078857, https://x.com/damdami/status/2016441794058195354
-child: false
+source_social_media_link:
+  - "https://x.com/hirman__/status/2015600875910078857, https://x.com/damdami/status/2016441794058195354"
+  - "https://x.com/hirman__/status/2015600875910078857"
 persian_name: علی عشیری لر

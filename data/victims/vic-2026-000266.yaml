@@ -2,7 +2,9 @@
 # Victim Documentation - Babak Pourmazaheri
 # ==========================================
 
-photo: vic-2026-000266.jpg
+photo:
+  - "vic-2026-000266.jpg"
+  - "vic-2026-3b16717c76e4.jpg"
 name: Babak Pourmazaheri
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Shot directly by Islamic Republic security forces in the heart during the national uprising. His body was returned to his family three days later after they paid 400 million Toman.
 source_type: Social Media
-source_social_media_link: https://x.com/iranintl/status/2014906099321757742, https://t.me/RememberTheirNames/1161
-child: false
+source_social_media_link:
+  - "https://x.com/iranintl/status/2014906099321757742, https://t.me/RememberTheirNames/1161"
+  - "https://x.com/iranintl/status/2014906099321757742"
 persian_name: بابک پورمظاهری

@@ -2,25 +2,31 @@
 # Victim Documentation - Pejman Fakhri
 # ==========================================
 
-photo: vic-2026-001391.jpg
+photo:
+  - "vic-2026-001391.jpg"
+  - "vic-2026-002042.jpg"
+  - "vic-2026-51fe6be0d7cc.jpg"
+  - "vic-2026-cecde373d43b.jpg"
+  - "vic-2026-6c7eb06cdb07.jpg"
 name: Pejman Fakhri
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Kermanshah
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |
   Shot by security forces on Taq-e Bostan Boulevard in Kermanshah.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/ihrdc/status/2015110432772731199
-child: false
+  - "https://x.com/ihrdc/status/2015110432772731199"
+  - "https://x.com/IHRDC/status/2015110432772731199, https://t.me/RememberTheirNames/1202"
+  - "https://x.com/IHRDC/status/2015110432772731199"

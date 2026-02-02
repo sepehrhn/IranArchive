@@ -2,7 +2,8 @@
 # Victim Documentation - Amir Arsalan Ghahremani
 # ==========================================
 
-photo: vic-2026-000240.jpg
+photo:
+  - vic-2026-000240.jpg
 name: Amir Arsalan Ghahremani
 birth_date: ""
 birth_province: ""
@@ -21,6 +22,7 @@ status: Killed
 description: |
   Shot and killed by Islamic Republic forces during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/banafshehviola/status/2012956339652477305, https://x.com/kurdpa_farsi/status/2012884350870692144, https://t.me/RememberTheirNames/186
-child: false
+source_social_media_link:
+  - "https://x.com/banafshehviola/status/2012956339652477305, https://x.com/kurdpa_farsi/status/2012884350870692144, https://t.me/RememberTheirNames/186"
+  - "https://x.com/banafshehviola/status/2012956339652477305"
 persian_name: امیرارسلان قهرمانی

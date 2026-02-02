@@ -2,7 +2,11 @@
 # Victim Documentation - Ali Bayat
 # ==========================================
 
-photo: vic-2026-000231.jpg
+photo:
+  - "vic-2026-000231.jpg"
+  - "vic-2026-c6ce7de629d3.jpg"
+  - "vic-2026-7d1bb52e125a.jpg"
+  - "vic-2026-000913.jpg"
 name: Ali Bayat
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,8 @@ status: Killed
 description: |
   Shot with live ammunition by security forces in Haft Howz neighborhood during protests
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2014086798746509403, https://t.me/RememberTheirNames/1446
-child: false
+source_social_media_link:
+  - "https://x.com/indypersian/status/2014086798746509403, https://t.me/RememberTheirNames/1446"
+  - "https://x.com/indypersian/status/2014086798746509403"
+  - "https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/Daikatuo/status/2007456429049856090, https://x.com/walterakam/status/2016571251636994153"
 persian_name: علی بیات

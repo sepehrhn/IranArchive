@@ -2,7 +2,11 @@
 # Victim Documentation - Bahram Yousefi
 # ==========================================
 
-photo: vic-2026-002187.jpg
+photo:
+  - "vic-2026-002187.jpg"
+  - "vic-2026-8a8a684fef39.jpg"
+  - "vic-2026-989269d5393c.jpg"
+  - "vic-2026-27c5070ee4f2.jpg"
 name: Bahram Yousefi
 birth_date: ""
 birth_province: ""
@@ -23,6 +27,9 @@ description: |-
 
   Killed. The post mentions 'one of his nephew's colleagues was killed in Nazabad' and then names Bahram Yousefi. His family is under pressure.
 source_type: Social Media
-source_social_media_link: https://t.me/poshtpardeha/249401?single
-child: false
+source_social_media_link:
+  - "https://t.me/poshtpardeha/249401?single"
+  - "https://x.com/SaeidVafa/status/2016861262173347842"
+  - "https://x.com/i/status/2016861262173347842"
+  - "https://x.com/i/status/2016875684774187264"
 persian_name: بهرام یوسفی

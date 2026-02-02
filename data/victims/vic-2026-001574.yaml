@@ -2,7 +2,12 @@
 # Victim Documentation - Hojjat Abbasi
 # ==========================================
 
-photo: vic-2026-001574.jpg
+photo:
+  - "vic-2026-001574.jpg"
+  - "vic-2026-efe2dc98f5f8.jpg"
+  - "vic-2026-2ecdc3ae4cf5.jpg"
+  - "vic-2026-b0d08c847cd2.jpg"
+  - "vic-2026-f185e869d7c1.jpg"
 name: Hojjat Abbasi
 birth_date: ""
 birth_province: ""
@@ -23,6 +28,9 @@ description: |-
 
   Died in Dey 1404 (January 2026)
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/905
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/905"
+  - "https://x.com/monfaredashkan/status/2015588372140671198"
+  - "https://x.com/soranmansournia/status/2016860351778730024"
+  - "https://x.com/MonfaredAshkan/status/2015588372140671198"
 persian_name: حجت عباسی

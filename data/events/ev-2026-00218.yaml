@@ -1,0 +1,43 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Gathering (Anticipated)"
+
+featured: true
+
+description: |
+  Likely spontaneous gathering in solidarity with the 'Jan 2026' uprising and opposing the upcoming Feb 11 (22 Bahman) regime anniversary. Irvine Civic Center is the standard location for Saturday/Sunday protests.
+  
+  **Tips:** No official flyer found for this specific date. Check local Telegram/Instagram channels on Saturday morning. Wear appropriate colors (Green/White/Red) but avoid MEK symbols.
+  
+  **Location Details:** Corner of Harvard Ave and Alton Pkwy
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: "14:00"
+  end: "2026/02/07"
+  end_time: "16:00"
+
+location:
+  country: "US"
+  city: "Irvine"
+  address: "Irvine Civic Center"
+
+online: []
+
+organizer:
+  name: "Grassroots / Independent Iranian Community (Likely)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGpJrkSQ9XqyfUma6FH2oqk7rdUZ87HNEu4WWCf1NQa4kTCuPQr0MGcMkT0yC2EVGcz-0vrRr_oo16z_ZvsKmVDNtvK01CYbW79-hvnmZ90nbKNIY5-yiUM8A=="

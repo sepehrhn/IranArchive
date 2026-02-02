@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Matin Bagheri
 # ==========================================
 
-photo: vic-2026-000056.jpg
+photo:
+  - "vic-2026-000056.jpg"
+  - "vic-2026-3c41559eaf10.jpg"
 name: Mohammad Matin Bagheri
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Shot directly with a bullet during the protests
 source_type: Social Media
-source_social_media_link: https://x.com/avatoday_news/status/2014589393068027940
-child: true
+source_social_media_link:
+  - "https://x.com/avatoday_news/status/2014589393068027940"
+  - "https://x.com/HengawO/status/2014723608359104900"
 persian_name: محمد متین باقری

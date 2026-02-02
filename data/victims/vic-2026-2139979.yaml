@@ -2,7 +2,10 @@
 # Victim Documentation - Mojtaba Shahperi (Shahmorad)
 # ==========================================
 
-photo: vic-2026-2139979.jpg
+photo:
+  - "vic-2026-2139979.jpg"
+  - "vic-2026-f47c48d85a4d.jpg"
+  - "vic-2026-d56d03f72b41.jpg"
 name: Mojtaba Shahperi (Shahmorad)
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Also known as Shah-Morad, royalist from Izeh who worked as a security guard in Isfahan. Shot first in the right leg by Islamic Republic suppression agents in Baharestan area of Isfahan, fell wounded and was transferred by ambulance to Al-Zahra Hospital in Isfahan. At the hospital, agents fired a bullet to the side of his head as a coup de grâce, killing him. Family searched hospitals for days, initially told he was wounded and alive, but later found his body at Bagh-e Rezvan cemetery in Isfahan with clear bullet wound marks to the side of his head. His wish to be buried with the Lion and Sun flag was fulfilled when buried on January 18, 2026 in Nashlil-e Do village in Izeh.
+description: Also known as Shah-Morad, royalist from Izeh who worked as a security guard in Isfahan. Shot first in the right leg by Islamic Republic suppression agents in Baharestan area of Isfahan, fell wounded and was transferred by ambulance to Al-Zahra Hospital in Isfahan. At the hospital, agents fired a bullet to the side of his head as a coup de grâce, killing him. Family searched hospitals for days, initially told he was wounded and alive, but later found his body at Bagh-e Rezvan cemetery in Isfahan with clear bullet wound marks to the side of his head. His wish to be buried with the Lion and Sun flag was fulfilled when buried on January 18, 2026 in Nashlil-e Do village in Izeh.
 source_type: Social Media
-source_social_media_link: https://x.com/i/status/2016185826716373294, https://x.com/foad_choobin/status/2016264071713263902, https://t.me/RememberTheirNames/1602
-child: false
+source_social_media_link:
+  - "https://x.com/i/status/2016185826716373294, https://x.com/foad_choobin/status/2016264071713263902, https://t.me/RememberTheirNames/1602"
+  - "https://x.com/i/status/2016185826716373294"
 persian_name: مجتبی شهپری (شاهمراد)

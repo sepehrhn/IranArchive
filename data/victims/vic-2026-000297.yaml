@@ -2,7 +2,11 @@
 # Victim Documentation - Hamid Mazaheri
 # ==========================================
 
-photo: vic-2026-000297.jpg
+photo:
+  - "vic-2026-000297.jpg"
+  - "vic-2026-40b82a1b77dd.jpg"
+  - "vic-2026-20425a76f34a.jpg"
+  - "vic-2026-25eae91b9016.jpg"
 name: Hamid Mazaheri
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,8 @@ description: |-
 
   Shot and killed by regime forces during the protests. A note found in his backpack read: “By the order of the Shah of Iran, King Reza Pahlavi.”
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2014307065108598993, https://x.com/sonofthebeach22/status/2014704673479897254, https://t.me/RememberTheirNames/357, https://x.com/Panikuta/status/2014646258535743997
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2014307065108598993, https://x.com/sonofthebeach22/status/2014704673479897254, https://t.me/RememberTheirNames/357, https://x.com/Panikuta/status/2014646258535743997"
+  - "https://x.com/manotonews/status/2014307065108598993"
+  - "https://x.com/sonofthebeach22/status/2014704673479897254"
 persian_name: حمید مظاهری

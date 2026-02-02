@@ -2,7 +2,9 @@
 # Victim Documentation - Rasoul Badparan
 # ==========================================
 
-photo: vic-2026-2140031.jpg
+photo:
+  - "vic-2026-2140031.jpg"
+  - "vic-2026-552b3ff433cf.jpg"
 name: Rasoul Badparan
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-07"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died during protests in Alvand, Qazvin Province. At least 40 to 50 people died in the city on the night of the 18th of Dey.
+description: Died during protests in Alvand, Qazvin Province. At least 40 to 50 people died in the city on the night of the 18th of Dey.
 source_type: Social Media
-source_social_media_link: https://x.com/iranintlbrk/status/2015806800096895002
-child: false
+source_social_media_link:
+  - "https://x.com/iranintlbrk/status/2015806800096895002"
+  - "https://x.com/KurdistanHRN/status/2017941978399260745"
 persian_name: رسول بادپران

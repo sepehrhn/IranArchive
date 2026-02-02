@@ -2,7 +2,8 @@
 # Victim Documentation - Arian Ghassemi-far
 # ==========================================
 
-photo: vic-2026-001660.jpg
+photo:
+  - vic-2026-001660.jpg
 name: Arian Ghassemi-far
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/952
-child: true
 persian_name: آرین قاسمی‌فر

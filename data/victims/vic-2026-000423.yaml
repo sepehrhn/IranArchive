@@ -2,7 +2,10 @@
 # Victim Documentation - Reza Fouladi
 # ==========================================
 
-photo: vic-2026-000423.jpg
+photo:
+  - "vic-2026-000423.jpg"
+  - "vic-2026-9af63de30b25.jpg"
+  - "vic-2026-cb3c1ed616ee.jpg"
 name: Reza Fouladi
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: 53
 occupation: ""
 country: Iran
-incident_province: Savadkuh
+incident_province: ""
 incident_city: Zirab
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -24,6 +27,7 @@ description: |-
 
   His 7-year-old daughter is thinking of avenging him. The tweet implies he was killed and his daughter is seeking revenge. The location 'Shomal' is mentioned as remembering him.
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2014764874279080399, https://x.com/Shomali_Rikaa/status/2014551262281236863, https://t.me/RememberTheirNames/1085
-child: false
+source_social_media_link:
+  - "https://x.com/indypersian/status/2014764874279080399, https://x.com/Shomali_Rikaa/status/2014551262281236863, https://t.me/RememberTheirNames/1085"
+  - "https://x.com/Shomali_Rikaa/status/2014551262281236863"
 persian_name: رضا فولادی

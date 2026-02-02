@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Saturday Rally for Freedom"
+
+featured: false
+
+description: |
+  Weekly gathering point for the diaspora to voice dissent. Given the 'ongoing' nature of the uprising (despite reports of crackdowns), a presence here is standard.
+  
+  **Tips:** A 'Protest Against UK Digital ID' is also scheduled for Hyde Park Corner on this day; do not confuse the two crowds if moving between locations. If no large crowd is visible here, head to the Embassy.
+  
+  **Location Details:** North Terrace (often shared with other causes, check specific spot)
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: "14:00"
+  end: "2026/02/07"
+  end_time: "16:00"
+
+location:
+  country: "GB"
+  city: "London"
+  address: "Trafalgar Square"
+
+online: []
+
+organizer:
+  name: "Various Community Groups (Likely 'Justice for Iran' or Constitutionalists)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Shakarmi
 # ==========================================
 
-photo: vic-2026-2139972.jpg
+photo:
+  - "vic-2026-2139972.jpg"
+  - "vic-2026-11be3d861c21.png"
 name: Mohammad Shakarmi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed during protests in Khorramabad
+description: Killed during protests in Khorramabad
 source_type: Social Media
 source_social_media_link: https://x.com/hekasrehcrisis/status/2016392515704734071
-child: false
 persian_name: محمد شاکرمی

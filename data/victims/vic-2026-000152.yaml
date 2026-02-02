@@ -2,19 +2,25 @@
 # Victim Documentation - Ali Arabi
 # ==========================================
 
-photo: vic-2026-000152.jpg
+photo:
+  - "vic-2026-000152.jpg"
+  - "vic-2026-730284e363c7.jpg"
+  - "vic-2026-b973dc5bec48.jpg"
+  - "vic-2026-465b60c1c972.jpg"
+  - "vic-2026-001639.jpg"
+  - "vic-2026-895cc9b7eca4.jpg"
 name: Ali Arabi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 23
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: Mahallati, Bagh-e Gol
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +28,7 @@ description: |
   Shot with fatal bullet to the head during protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/mamlekate/status/2014112939272183846
-child: false
+  - "https://x.com/mamlekate/status/2014112939272183846"
+  - "https://x.com/mamlekate/status/2014112939272183846, https://t.me/RememberTheirNames/494"
+  - "https://x.com/Aryammehr_2/status/2014713558991507464"
+  - "https://x.com/allahbakhshii/status/2014703432146227558"

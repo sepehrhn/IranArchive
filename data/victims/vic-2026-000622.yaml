@@ -2,7 +2,9 @@
 # Victim Documentation - Hasan Khalaj
 # ==========================================
 
-photo: vic-2026-000622.jpg
+photo:
+  - "vic-2026-000622.jpg"
+  - "vic-2026-543c0f5c79be.jpg"
 name: Hasan Khalaj
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Shot directly by the forces of the Islamic Republic of Iran.
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2015024081163162042
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2015024081163162042"
+  - "https://x.com/linowtinop/status/2014711404821881270"
 persian_name: حسن خلج

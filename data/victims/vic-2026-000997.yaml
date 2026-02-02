@@ -2,7 +2,11 @@
 # Victim Documentation - Abbas Aminzadeh
 # ==========================================
 
-photo: vic-2026-000997.jpg
+photo:
+  - "vic-2026-000997.jpg"
+  - "vic-2026-485313a49717.jpg"
+  - "vic-2026-f76ca5c45e4c.jpg"
+  - "vic-2026-3e5c5b2cb058.jpg"
 name: Abbas Aminzadeh
 birth_date: ""
 birth_province: ""
@@ -11,7 +15,7 @@ gender: Male
 age: 43
 occupation: ""
 country: Iran
-incident_province: Zarinshahr
+incident_province: ""
 incident_city: Sadeh Lenjan
 incident_address: Zarinshahr
 date_of_death: "2026-01-08"
@@ -21,6 +25,9 @@ status: Killed
 description: |
   Killed during protests
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2013890682461581812, https://x.com/VIsfehan/status/2014651351695786211, https://t.me/RememberTheirNames/720
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2013890682461581812, https://x.com/VIsfehan/status/2014651351695786211, https://t.me/RememberTheirNames/720"
+  - "https://x.com/allahbakhshii/status/2013890682461581812"
+  - "https://x.com/Tavaana/status/2015490267680485758"
+  - "https://x.com/VIsfehan/status/2014651351695786211"
 persian_name: عباس امین‌زاده

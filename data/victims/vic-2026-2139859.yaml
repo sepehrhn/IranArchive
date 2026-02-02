@@ -2,13 +2,15 @@
 # Victim Documentation - Alireza Mahdipour
 # ==========================================
 
-photo: vic-2026-2139859.jpg
+photo:
+  - "vic-2026-2139859.jpg"
+  - "vic-2026-41c82ceb15c1.jpg"
 name: Alireza Mahdipour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 18
 occupation: ""
 country: Iran
 incident_province: Fars
@@ -18,9 +20,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Victim during protests in Meymand, Fars province
+description: Victim during protests in Meymand, Fars province
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1669
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1669"
+  - "https://t.me/javanmardi77/154131"
 persian_name: علیرضا مهدی‌پور

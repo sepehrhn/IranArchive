@@ -2,28 +2,40 @@
 # Victim Documentation - Saman Alaei
 # ==========================================
 
-photo: vic-2026-000084.jpg
+photo:
+  - "vic-2026-000084.jpg"
+  - "vic-2026-2cfa565e08e9.jpg"
+  - "vic-2026-000835.jpg"
+  - "vic-2026-264c08e702ae.jpg"
+  - "vic-2026-4f2532ae5f9d.jpg"
+  - "vic-2026-001516.jpeg"
+  - "vic-2026-a500ee6c369a.jpg"
 name: Saman Alaei
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 23
 occupation: ""
 country: Iran
 incident_province: Mazandaran
 incident_city: Nur
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
-status: Killed
+status: "Missing"
 description: |-
   Killed by government suppressors during protests on Thursday and Friday
 
 
   Described as a 'child of Iran and killed on the path of the homeland'. No further details provided.
 source_type: Social Media
-source_social_media_link: https://x.com/alitagh30207454/status/2015074385925746874, https://x.com/missmarpel75/status/2015088820862030070
-child: false
+source_social_media_link:
+  - "https://x.com/alitagh30207454/status/2015074385925746874, https://x.com/missmarpel75/status/2015088820862030070"
+  - "https://x.com/missmarpel75/status/2015088820862030070"
+  - "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/KurdistanHRN/status/2014747456299270597, https://t.me/RememberTheirNames/81"
+  - "https://x.com/KurdistanHRN/status/2014747456299270597"
+  - "https://x.com/loabatk/status/2012277775860670677, https://x.com/hengawo/status/2012502028228907473, https://x.com/sssccpp/status/2012573833308352625, https://x.com/HengawO/status/2012502028228907473, https://x.com/HengawO/status/2012641346142572662, https://t.me/RememberTheirNames/214, https://t.me/RememberTheirNames/121"
+  - "https://x.com/alitagh30207454/status/2015074385925746874"
 persian_name: سامان علائی

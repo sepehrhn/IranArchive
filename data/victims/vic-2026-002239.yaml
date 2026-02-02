@@ -2,13 +2,15 @@
 # Victim Documentation - Mojtaba Rotivand (Ghiasvand)
 # ==========================================
 
-photo: vic-2026-002239.jpg
+photo:
+  - "vic-2026-002239.jpg"
+  - "vic-2026-3f5d754b264b.jpg"
 name: Mojtaba Rotivand (Ghiasvand)
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 36
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,5 +26,4 @@ description: |-
   Killed during protests in Shahriar.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/816
-child: false
 persian_name: مجتبی روتیوند (غیاثوند)

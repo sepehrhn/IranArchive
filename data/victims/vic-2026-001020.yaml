@@ -2,7 +2,9 @@
 # Victim Documentation - Alireza Eftekhari
 # ==========================================
 
-photo: vic-2026-001020.jpg
+photo:
+  - "vic-2026-001020.jpg"
+  - "vic-2026-79d7a9fd2824.jpg"
 name: Alireza Eftekhari
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,9 @@ description: |-
 
   17-year-old shot with five bullets from behind on the night of 18 Dey. Khamenei's mercenaries abandoned his body in a secluded location after killing him, and his body was only found the night before this report. His mother suffered a heart attack following these crimes.
 source_type: Social Media
-source_social_media_link: https://x.com/sattarkhan121/status/2016254554367500711, https://x.com/i/status/2016254554367500711
-child: true
+source_social_media_link:
+  - "https://x.com/sattarkhan121/status/2016254554367500711, https://x.com/i/status/2016254554367500711"
+  - "https://x.com/HengawO/status/2014723608359104900"
+  - "https://x.com/sattarkhan121/status/2016254554367500711"
+  - "https://x.com/i/status/2016254554367500711"
 persian_name: علیرضا افتخاری

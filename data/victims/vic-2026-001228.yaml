@@ -2,7 +2,8 @@
 # Victim Documentation - Soroush Hamidi
 # ==========================================
 
-photo: vic-2026-001228.jpg
+photo:
+  - vic-2026-001228.jpg
 name: Soroush Hamidi
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Killed during the early days of the protests
 source_type: Social Media
 source_social_media_link: https://x.com/revolution_r_/status/2014445028458827788
-child: false
 persian_name: سروش حمیدی

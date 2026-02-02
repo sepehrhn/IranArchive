@@ -2,7 +2,9 @@
 # Victim Documentation - Masih Shahvardi
 # ==========================================
 
-photo: vic-2026-000669.jpg
+photo:
+  - "vic-2026-000669.jpg"
+  - "vic-2026-88dac9b578c0.jpg"
 name: Masih Shahvardi
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,8 @@ description: |-
 
   Shot directly and killed. He was a footballer. His body was handed over to his family after several days under strict security measures.
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2014409427206496343, https://x.com/dadban4/status/2014776292776776017, https://x.com/HengawO/status/2014772586857598984, https://x.com/dadban4/status/2015006758817730853, https://t.me/RememberTheirNames/1522
-child: false
+source_social_media_link:
+  - "https://x.com/hengawo/status/2014409427206496343, https://x.com/dadban4/status/2014776292776776017, https://x.com/HengawO/status/2014772586857598984, https://x.com/dadban4/status/2015006758817730853, https://t.me/RememberTheirNames/1522"
+  - "https://x.com/hengawo/status/2014409427206496343"
+  - "https://t.me/RememberTheirNames/1522"
 persian_name: مسیح شاهوردی

@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Talebi Targhi
 # ==========================================
 
-photo: vic-2026-001387.jpg
+photo:
+  - "vic-2026-001387.jpg"
+  - "vic-2026-9d5e4ab4094e.jpg"
 name: Mohammad Talebi Targhi
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |
 
   Killed, buried in Behesht-e Zahra cemetery
 source_type: Social Media
-source_social_media_link: https://x.com/biarosh/status/2014649055125688777, https://x.com/Biarosh/status/2014649055125688777
-child: false
+source_social_media_link:
+  - "https://x.com/biarosh/status/2014649055125688777, https://x.com/Biarosh/status/2014649055125688777"
+  - "https://x.com/Biarosh/status/2014649055125688777"
 persian_name: جاویدنام محمد طالبی طرقی

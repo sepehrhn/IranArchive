@@ -2,19 +2,24 @@
 # Victim Documentation - Yashar Soltani
 # ==========================================
 
-photo: vic-2026-000069.jpg
+photo:
+  - "vic-2026-000069.jpg"
+  - "vic-2026-99a9243f2d21.jpg"
+  - "vic-2026-028801165661.jpg"
+  - "vic-2026-ca88f2c49c80.jpg"
+  - "vic-2026-60d904e7da43.jpg"
 name: Yashar Soltani
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: 27
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: ''
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -25,4 +30,3 @@ source_social_media_link:
   - https://x.com/naryawash/status/2014514296122732955
   - https://x.com/_sabaa_z/status/2014543386292720074
   - https://t.me/poshtpardeha/248385?single
-child: false

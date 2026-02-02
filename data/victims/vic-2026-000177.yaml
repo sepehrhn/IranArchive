@@ -2,7 +2,9 @@
 # Victim Documentation - Babak Matin Azad
 # ==========================================
 
-photo: vic-2026-000177.jpg
+photo:
+  - "vic-2026-000177.jpg"
+  - "vic-2026-5dc31c1c0485.png"
 name: Babak Matin Azad
 birth_date: ""
 birth_province: ""
@@ -17,10 +19,9 @@ incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
-status: Killed
+status: "Missing"
 description: |
   Shot in the head during national uprising protests, body identified after 5 days of family searching
 source_type: Social Media
 source_social_media_link: https://x.com/kayhanlondon/status/2012962583171510761, https://t.me/RememberTheirNames/250
-child: false
 persian_name: بابک متین آزاد

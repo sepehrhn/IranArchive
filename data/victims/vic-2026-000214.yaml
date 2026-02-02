@@ -2,20 +2,22 @@
 # Victim Documentation - Abolfazl Bakhtiarpour
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-001629.jpg"
 name: Abolfazl Bakhtiarpour
-persian_name: "ابوالفضل بختیارپور"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: ابوالفضل بختیارپور
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 19
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,5 +25,6 @@ description: |
   Shot by government forces
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/tavaana/status/2014629612874047493
-child: false
+  - "https://x.com/tavaana/status/2014629612874047493"
+  - "https://x.com/Tavaana/status/2014629612874047493"
+  - "https://x.com/Tavaana/status/2014629612874047493, https://t.me/RememberTheirNames/265"

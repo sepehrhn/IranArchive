@@ -2,19 +2,22 @@
 # Victim Documentation - Nima Khodkhodaei
 # ==========================================
 
-photo: vic-2026-001178.png
+photo:
+  - "vic-2026-001178.png"
+  - "vic-2026-002243.png"
+  - "vic-2026-47e1d8f24e18.png"
 name: Nima Khodkhodaei
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 14
 occupation: Basiji member
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,4 +26,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/visfehan/status/2015133858161713490
-child: true

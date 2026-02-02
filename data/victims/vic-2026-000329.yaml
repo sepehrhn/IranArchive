@@ -2,7 +2,10 @@
 # Victim Documentation - Majid Afshari
 # ==========================================
 
-photo: vic-2026-000329.png
+photo:
+  - "vic-2026-000329.png"
+  - "vic-2026-8a95009ba27d.jpg"
+  - "vic-2026-0c6c16ec9ce4.jpg"
 name: Majid Afshari
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,9 @@ description: |-
 
   Killed by live ammunition fired by government forces. One bullet hit the back of his thigh, and two other bullets struck his right and left sides. The severity of the injuries from this shooting led to his death.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014366150235230599, https://x.com/aban_khoonin/status/2015390167587000368, https://t.me/RememberTheirNames/664, https://x.com/Tavaana/status/2016040314574876724
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2014366150235230599, https://x.com/aban_khoonin/status/2015390167587000368, https://t.me/RememberTheirNames/664, https://x.com/Tavaana/status/2016040314574876724"
+  - "https://x.com/aban_khoonin/status/2015390167587000368"
+  - "https://x.com/Tavaana/status/2016040314574876724"
+  - "https://x.com/esmaeils1169/status/2014816881895412007"
 persian_name: مجید افشاری

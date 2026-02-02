@@ -2,7 +2,9 @@
 # Victim Documentation - Hossein Bashtani
 # ==========================================
 
-photo: vic-2026-001099.jpg
+photo:
+  - "vic-2026-001099.jpg"
+  - "vic-2026-eda74afd2909.jpg"
 name: Hossein Bashtani
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Died during protests in Dey 1404 (late Dec 2025 - Jan 2026). Specific date not provided, but Dey 1404 started on December 21, 2025. The post number 524 and the date context suggest this is a victim.
 source_type: Social Media
-source_social_media_link: https://x.com/shahramsadidi/status/2014074679607046202, https://t.me/RememberTheirNames/562
-child: false
+source_social_media_link:
+  - "https://x.com/shahramsadidi/status/2014074679607046202, https://t.me/RememberTheirNames/562"
+  - "https://x.com/shahramsadidi/status/2014074679607046202"
 persian_name: حسین باشتنی

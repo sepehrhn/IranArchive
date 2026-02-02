@@ -2,22 +2,23 @@
 # Victim Documentation - Mohammadreza Shapouri
 # ==========================================
 
-photo: ''
+photo:
+  - ""
 name: Mohammadreza Shapouri
-persian_name: "محمدرضا شاپوری"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: محمدرضا شاپوری
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 23
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ''
-date_of_death: '2026-01-19'
+incident_address: ""
+date_of_death: "2026-01-19"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |
   Persian Name: محمدرضا شاپوری
@@ -25,5 +26,5 @@ description: |
   Shot directly by criminals of the dictator in Tehran
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/biesmetahamishe/status/2013292440208204058
-child: false
+  - "https://x.com/biesmetahamishe/status/2013292440208204058"
+  - "https://x.com/BiEsmeTaHamishe/status/2013292440208204058"

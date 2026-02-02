@@ -39,7 +39,7 @@ const formattedDate = computed(() => {
 <template>
     <div class="flex flex-col gap-1">
         <span class="font-semibold text-base text-surface-900 dark:text-surface-0 leading-relaxed">
-            {{ formattedDate }}
+            {{ $nFa(formattedDate) }}
         </span>
     </div>
 </template>

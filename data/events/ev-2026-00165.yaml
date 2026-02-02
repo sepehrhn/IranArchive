@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Embassy Protest Gathering"
+
+featured: false
+
+description: |
+  While no official permit is listed for Sunday on the parliamentary calendar, spontaneous gatherings and smaller protests frequently occur outside the regime's embassy on Sundays, especially following the recent 'Bloody Thursday' crackdown. Protesters have recently climbed the embassy walls to remove regime flags.
+  
+  **Tips:** This is likely to be a less organized, more spontaneous gathering than the Saturday Parliament rally. Check 'Woman Life Freedom Oslo' social media channels for last-minute confirmation.
+  
+  **Location Details:** Drammensveien 88E, 0244 Oslo (Nearest tram: Skillebekk)
+
+type: "in_person"
+
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+location:
+  country: "NO"
+  city: "Oslo"
+  address: "Iranian Embassy"
+
+online: []
+
+organizer:
+  name: "Grassroots / Unofficial"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

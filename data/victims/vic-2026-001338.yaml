@@ -2,7 +2,10 @@
 # Victim Documentation - Farhad Farsi
 # ==========================================
 
-photo: vic-2026-001338.jpg
+photo:
+  - "vic-2026-001338.jpg"
+  - "vic-2026-541449d70ac1.jpg"
+  - "vic-2026-e3d636895296.jpg"
 name: Farhad Farsi
 birth_date: ""
 birth_province: ""
@@ -26,6 +29,7 @@ description: |-
 
   Arrested and killed during detention. His body was later identified with a gunshot wound to the abdomen. The authorities initially told his family he was alive and to not inquire further.
 source_type: Social Media
-source_social_media_link: https://x.com/VIsfehan/status/2015441559454388548, https://t.me/RememberTheirNames/1292
-child: false
+source_social_media_link:
+  - "https://x.com/VIsfehan/status/2015441559454388548, https://t.me/RememberTheirNames/1292"
+  - "https://x.com/VIsfehan/status/2015441559454388548"
 persian_name: فرهاد فارسى

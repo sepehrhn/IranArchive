@@ -2,7 +2,14 @@
 # Victim Documentation - Hossein Khabiri
 # ==========================================
 
-photo: vic-2026-000181.jpg
+photo:
+  - "vic-2026-000181.jpg"
+  - "vic-2026-686bdbbc6cab.jpg"
+  - "vic-2026-2139796.jpg"
+  - "vic-2026-dadbcf25a940.jpg"
+  - "vic-2026-aeb6721f2527.jpg"
+  - "vic-2026-c133488c84f8.jpg"
+  - "vic-2026-a8e948a1c619.jpg"
 name: Hossein Khabiri
 birth_date: ""
 birth_province: ""
@@ -11,7 +18,7 @@ gender: Male
 age: 25
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Mehrshahr
 incident_address: Mehrshahr
 date_of_death: "2026-01-09"
@@ -24,6 +31,10 @@ description: |-
 
   Killed during protests on Eram Boulevard. Public burial was not permitted for his family.
 source_type: Social Media
-source_social_media_link: https://x.com/dariush_zand/status/2013314761753084124, https://x.com/dariush_Zand/status/2013314761753084124, https://t.me/RememberTheirNames/324
-child: false
+source_social_media_link:
+  - "https://x.com/dariush_zand/status/2013314761753084124, https://x.com/dariush_Zand/status/2013314761753084124, https://t.me/RememberTheirNames/324"
+  - "https://x.com/dariush_zand/status/2013314761753084124"
+  - "https://x.com/dariush_Zand/status/2013314761753084124"
+  - "https://x.com/KurdistanHRN/status/2016642848137904294"
+  - "https://x.com/masoudkazemi81/status/2017117673381863718"
 persian_name: حسین خبیری

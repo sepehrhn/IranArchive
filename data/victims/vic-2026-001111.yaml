@@ -2,7 +2,10 @@
 # Victim Documentation - Komar Deroftadeh
 # ==========================================
 
-photo: vic-2026-001111.jpg
+photo:
+  - "vic-2026-001111.jpg"
+  - "vic-2026-c9f87036aa03.jpg"
+  - "vic-2026-928d361c0b17.jpg"
 name: Komar Deroftadeh
 birth_date: ""
 birth_province: ""
@@ -25,4 +28,3 @@ description: |-
   A Kurdish child from Iran's Kurdish regions, killed by direct fire from regime forces during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/longlosthills/status/2009997023949533500
-child: false

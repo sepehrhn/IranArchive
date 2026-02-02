@@ -2,7 +2,11 @@
 # Victim Documentation - Shirzad Balayi
 # ==========================================
 
-photo: vic-2026-001225.jpg
+photo:
+  - "vic-2026-001225.jpg"
+  - "vic-2026-5bbedfe21322.jpg"
+  - "vic-2026-e85db2771f05.jpg"
+  - "vic-2026-479f66d7c3a3.jpg"
 name: Shirzad Balayi
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,10 @@ description: |-
 
   Killed by direct fire from government forces.
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2012506899518800104, https://t.me/RememberTheirNames/128
-child: false
+source_social_media_link:
+  - "https://x.com/HengawO/status/2012506899518800104, https://t.me/RememberTheirNames/128"
+  - "https://x.com/kurdpa_farsi/status/2016969579415679014"
+  - "https://x.com/hekasrehcrisis/status/2016562992603668661"
+  - "https://t.me/javanmardi77/154246"
+  - "https://x.com/HeKasrehCrisis/status/2016562992603668661"
 persian_name: شیرزاد بالایی

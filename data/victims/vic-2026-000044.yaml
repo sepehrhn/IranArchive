@@ -2,19 +2,25 @@
 # Victim Documentation - Farzin Postashkan
 # ==========================================
 
-photo: vic-2026-000044.jpg
+photo:
+  - "vic-2026-000044.jpg"
+  - "vic-2026-001501.png"
+  - "vic-2026-9de0cd4b2ad8.jpg"
+  - "vic-2026-d2209e129544.jpg"
+  - "vic-2026-5b61583076f7.jpg"
+  - "vic-2026-39b74937ace8.jpg"
 name: Farzin Postashkan
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 25
+occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ''
-date_of_death: ''
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +28,9 @@ description: |
   Killed by the Islamic Republic in Isfahan.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/persephone7597/status/2014623432067924209
-child: false
+  - "https://x.com/persephone7597/status/2014623432067924209"
+  - "https://x.com/i/status/2015349657031836157, https://t.me/poshtpardeha/248938, https://x.com/VIsfehan/status/2014694742840230141"
+  - "https://x.com/i/status/2015349657031836157"
+  - "https://t.me/poshtpardeha/248938"
+  - "https://x.com/VIsfehan/status/2014694742840230141"
+  - "https://x.com/dadban4/status/2013956430164795889"

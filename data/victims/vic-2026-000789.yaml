@@ -2,7 +2,13 @@
 # Victim Documentation - Pouya Faragardi
 # ==========================================
 
-photo: vic-2026-000789.jpg
+photo:
+  - "vic-2026-000789.jpg"
+  - "vic-2026-fe1c6aac3249.jpg"
+  - "vic-2026-8df69843473f.jpg"
+  - "vic-2026-ffa3ec792ee4.jpg"
+  - "vic-2026-3f61a96b1edb.jpg"
+  - "vic-2026-ab5a2370a74c.jpg"
 name: Pouya Faragardi
 birth_date: ""
 birth_province: ""
@@ -11,7 +17,7 @@ gender: Male
 age: 45
 occupation: ""
 country: Iran
-incident_province: Shamsabad neighborhood
+incident_province: ""
 incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -24,6 +30,8 @@ description: |-
 
   Brother of the tweeter, disappeared and his body was found among the martyrs of the national revolution. Died on January 8, 2026.
 source_type: Social Media
-source_social_media_link: https://x.com/naaboodan/status/2014668191650185664, https://x.com/longlosthills/status/2014342785319444828, https://x.com/Fotouhia/status/2014035002934354394, https://t.me/RememberTheirNames/691
-child: false
+source_social_media_link:
+  - "https://x.com/naaboodan/status/2014668191650185664, https://x.com/longlosthills/status/2014342785319444828, https://x.com/Fotouhia/status/2014035002934354394, https://t.me/RememberTheirNames/691"
+  - "https://x.com/Fotouhia/status/2014035002934354394"
+  - "https://x.com/i/status/2016940277353546145"
 persian_name: پویا فراگردی

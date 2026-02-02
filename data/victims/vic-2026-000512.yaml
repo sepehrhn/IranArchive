@@ -2,19 +2,22 @@
 # Victim Documentation - Alireza Sedian
 # ==========================================
 
-photo: vic-2026-000512.jpg
+photo:
+  - "vic-2026-000512.jpg"
+  - "vic-2026-20b1c14075b9.jpg"
+  - "vic-2026-f135d69129bd.jpg"
 name: Alireza Sedian
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Farrokh Shahr
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +25,5 @@ description: |
   Shot by suppressive forces
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/allahbakhshii/status/2014325669576970555
-child: false
+  - "https://x.com/allahbakhshii/status/2014325669576970555"
+  - "https://x.com/sonofthebeach22/status/2016877669342646578"

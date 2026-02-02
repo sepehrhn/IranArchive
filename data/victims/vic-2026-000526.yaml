@@ -2,7 +2,10 @@
 # Victim Documentation - Amir Hossein Malekshahi
 # ==========================================
 
-photo: vic-2026-000526.jpg
+photo:
+  - "vic-2026-000526.jpg"
+  - "vic-2026-7412ff4a248a.jpg"
+  - "vic-2026-bc27dd155533.jpg"
 name: Amir Hossein Malekshahi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,9 @@ description: |-
 
   Musician, singer, and guitarist shot in the head by the forces of the Islamic Republic regime. His last video message spoke of his generation's struggle for freedom.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2014659078996250845, https://x.com/longlosthills/status/2014787190081941563, https://t.me/RememberTheirNames/797
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2014659078996250845, https://x.com/longlosthills/status/2014787190081941563, https://t.me/RememberTheirNames/797"
+  - "https://x.com/allahbakhshii/status/2014659078996250845"
+  - "https://x.com/longlosthills/status/2014787190081941563"
+  - "https://x.com/realmeaban/status/2017313077490745561"
 persian_name: امیرحسین ملکشاهی

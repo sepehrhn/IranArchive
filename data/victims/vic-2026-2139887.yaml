@@ -2,7 +2,11 @@
 # Victim Documentation - Benyamin Alizadeh
 # ==========================================
 
-photo: vic-2026-2139887.jpg
+photo:
+  - "vic-2026-2139887.jpg"
+  - "vic-2026-995dabea430e.jpg"
+  - "vic-2026-310517b401ad.jpg"
+  - "vic-2026-86feba5e966f.jpg"
 name: Benyamin Alizadeh
 birth_date: ""
 birth_province: ""
@@ -18,9 +22,13 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  A 15-year-old teenager, known as Javid, died after being shot in the legs by security forces of the Islamic Republic with live ammunition in Gilan Province. He died under the bodies of other deceased individuals. The medical certificate stated the cause of death as 'bullet wound', but the death certificate listed the cause of death as 'unknown'.
+description: A 15-year-old teenager, known as Javid, died after being shot in the legs by security forces of the Islamic Republic with live ammunition in Gilan Province. He died under the bodies of other deceased individuals. The medical certificate stated the cause of death as 'bullet wound', but the death certificate listed the cause of death as 'unknown'.
 source_type: Social Media
-source_social_media_link: https://x.com/iranintlbrk/status/2015809301449699412, https://x.com/HyrcaniHRM/status/2016151959242166333, https://t.me/RememberTheirNames/1500
-child: true
+source_social_media_link:
+  - "https://x.com/iranintlbrk/status/2015809301449699412, https://x.com/HyrcaniHRM/status/2016151959242166333, https://t.me/RememberTheirNames/1500"
+  - "https://x.com/iranintlbrk/status/2015809301449699412"
+  - "https://x.com/HyrcaniHRM/status/2016151959242166333"
+  - "https://t.me/RememberTheirNames/1500"
+  - "https://x.com/i/status/2017143864998396180"
+  - "https://x.com/persephone7597/status/2017143864998396180"
 persian_name: بنیامین علیزاده

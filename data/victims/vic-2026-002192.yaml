@@ -2,7 +2,9 @@
 # Victim Documentation - Davood Hajati Shimini
 # ==========================================
 
-photo: vic-2026-002192.jpg
+photo:
+  - "vic-2026-002192.jpg"
+  - "vic-2026-5e11c62402c8.jpg"
 name: Davood Hajati Shimini
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   A worker, father of three, who went to Baharestan, Isfahan for work. He was shot and killed. His body was buried at night in Izeh under security measures.
 source_type: Social Media
-source_social_media_link: https://x.com/i/status/2015527509467746419, https://x.com/fereshtehgilaki/status/2015527509467746419
-child: false
+source_social_media_link:
+  - "https://x.com/i/status/2015527509467746419, https://x.com/fereshtehgilaki/status/2015527509467746419"
+  - "https://x.com/i/status/2015527509467746419"
 persian_name: داود حاجتی شیمنی

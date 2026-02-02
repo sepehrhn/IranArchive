@@ -2,19 +2,23 @@
 # Victim Documentation - Amir-Mahdi Nemati-Nezhad
 # ==========================================
 
-photo: vic-2026-000040.jpg
+photo:
+  - "vic-2026-000040.jpg"
+  - "vic-2026-fefabf93bfcf.jpg"
+  - "vic-2026-8042b0e338fe.jpg"
+  - "vic-2026-3179c200f963.jpg"
 name: Amir-Mahdi Nemati-Nezhad
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: 17
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Arak
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +26,7 @@ description: |
   Shot by Islamic Republic forces during protests in Shora Square
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/behnam_chegini/status/2014738166876430483
-child: true
+  - "https://x.com/behnam_chegini/status/2014738166876430483"
+  - "https://x.com/iranwire/status/2015149549531120066"
+  - "https://x.com/ManotoNews/status/2015318720613134773"
+  - "https://x.com/SaeidVafa/status/2014725151674216456"

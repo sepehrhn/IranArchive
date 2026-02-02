@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Amin Hajian Tabari
 # ==========================================
 
-photo: vic-2026-001749.jpg
+photo:
+  - "vic-2026-001749.jpg"
+  - "vic-2026-9e3e385dd2ce.jpg"
+  - "vic-2026-80e91a0ef661.jpg"
 name: Mohammad Amin Hajian Tabari
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,7 @@ description: |-
 
   Killed by direct gunfire from Islamic Republic of Iran forces during nationwide protests.
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2013396146186563772, https://x.com/alitagh30207454/status/2013220851089314151, https://x.com/AliTagh30207454/status/2013220851089314151, https://x.com/hyrcanihrm/status/2015368931133858034, https://t.me/RememberTheirNames/397
-child: false
+source_social_media_link:
+  - "https://x.com/fseifikaran/status/2013396146186563772, https://x.com/alitagh30207454/status/2013220851089314151, https://x.com/AliTagh30207454/status/2013220851089314151, https://x.com/hyrcanihrm/status/2015368931133858034, https://t.me/RememberTheirNames/397"
+  - "https://x.com/hyrcanihrm/status/2015368931133858034"
 persian_name: محمد امین حاجیان

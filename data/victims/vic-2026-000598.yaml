@@ -2,7 +2,11 @@
 # Victim Documentation - Faisal Yousefi
 # ==========================================
 
-photo: vic-2026-000598.jpg
+photo:
+  - "vic-2026-000598.jpg"
+  - "vic-2026-8b4b3a6834a5.jpg"
+  - "vic-2026-8adc9fc62807.jpg"
+  - "vic-2026-58d55ef6c807.jpg"
 name: Faisal Yousefi
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,9 @@ status: Killed
 description: |
   Shot with multiple bullets in front of his parents for giving shelter to protesters
 source_type: Social Media
-source_social_media_link: https://x.com/cicicivw/status/2014380573737791947, https://x.com/isamanyasin/status/2014424949818012014, https://x.com/_sabaa_z/status/2014414014902599914, https://t.me/RememberTheirNames/431
-child: false
+source_social_media_link:
+  - "https://x.com/cicicivw/status/2014380573737791947, https://x.com/isamanyasin/status/2014424949818012014, https://x.com/_sabaa_z/status/2014414014902599914, https://t.me/RememberTheirNames/431"
+  - "https://x.com/isamanyasin/status/2014424949818012014"
+  - "https://x.com/_sabaa_z/status/2014414014902599914"
+  - "https://x.com/cicicivw/status/2014380573737791947"
 persian_name: فیصل یوسفی

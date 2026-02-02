@@ -2,7 +2,10 @@
 # Victim Documentation - Ebrahim Pourahmadian
 # ==========================================
 
-photo: vic-2026-001380.jpg
+photo:
+  - "vic-2026-001380.jpg"
+  - "vic-2026-b4e0957bbcdc.jpg"
+  - "vic-2026-a30661e7d94d.jpg"
 name: Ebrahim Pourahmadian
 birth_date: ""
 birth_province: ""
@@ -27,5 +30,4 @@ description: |-
   Shot in the forehead by a sniper in front of his young child. He was a caretaker from Saqqez.
 source_type: Social Media
 source_social_media_link: https://x.com/isamanyasin/status/2014517072101826701
-child: false
 persian_name: ابراهیم پوراحمدیان

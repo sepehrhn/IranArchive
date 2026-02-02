@@ -2,7 +2,8 @@
 # Victim Documentation - Omid Fallahi Pour
 # ==========================================
 
-photo: vic-2026-000404.jpg
+photo:
+  - vic-2026-000404.jpg
 name: Omid Fallahi Pour
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Killed by suppressive forces of the Islamic Republic
 source_type: Social Media
 source_social_media_link: https://x.com/allahbakhshii/status/2014332451334623584, https://x.com/HengawO/status/2014781999668437226, https://t.me/RememberTheirNames/630
-child: false
 persian_name: امید فلاحپور

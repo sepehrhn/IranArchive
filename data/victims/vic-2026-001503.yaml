@@ -2,7 +2,10 @@
 # Victim Documentation - Mehdi Rahimi Shamloo
 # ==========================================
 
-photo: vic-2026-001503.png
+photo:
+  - "vic-2026-001503.png"
+  - "vic-2026-d28f3fb70d6e.jpg"
+  - "vic-2026-e931120f0ef4.jpg"
 name: Mehdi Rahimi Shamloo
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Mentioned as 'Javidnam' (eternal/immortal) alongside Erfan Abdi Pourvanagh Sofla.
 source_type: Local Report
-source_social_media_link: https://x.com/hekasrehcrisis/status/2015835241944899932, https://t.me/RememberTheirNames/522, https://x.com/HeKasrehCrisis/status/2015835241944899932
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2015835241944899932, https://t.me/RememberTheirNames/522, https://x.com/HeKasrehCrisis/status/2015835241944899932"
+  - "https://x.com/hekasrehcrisis/status/2015835241944899932"
+  - "https://x.com/HeKasrehCrisis/status/2015835241944899932"
 persian_name: مهدی رحیمی شاملو

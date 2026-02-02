@@ -2,7 +2,8 @@
 # Victim Documentation - Hesam Nateghi
 # ==========================================
 
-photo: vic-2026-000625.jpg
+photo:
+  - vic-2026-000625.jpg
 name: Hesam Nateghi
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Died from being shot six times
 source_type: Social Media
 source_social_media_link: https://x.com/allahbakhshii/status/2014675056291356674, https://t.me/RememberTheirNames/751
-child: false
 persian_name: حسام ناطقی

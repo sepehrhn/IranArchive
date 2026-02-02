@@ -2,7 +2,13 @@
 # Victim Documentation - Dastagir Gorgij
 # ==========================================
 
-photo: vic-2026-000154.jpg
+photo:
+  - "vic-2026-000154.jpg"
+  - "vic-2026-000577.jpg"
+  - "vic-2026-1aecff06d2fd.jpg"
+  - "vic-2026-d1152468b547.jpg"
+  - "vic-2026-5d5d78a70ed0.jpg"
+  - "vic-2026-4e801b9c8fd4.jpg"
 name: Dastagir Gorgij
 birth_date: ""
 birth_province: ""
@@ -11,7 +17,7 @@ gender: Male
 age: 30
 occupation: Baluch citizen without identification
 country: Iran
-incident_province: Khorasan Razavi
+incident_province: ""
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -24,6 +30,12 @@ description: |-
 
   Killed by security forces during protests in Dey 1404 (late December 2025 - January 2026). He did not have an identity card, and his greatest wish was for his children to have identity cards, a wish that was silenced by bullets.
 source_type: Social Media
-source_social_media_link: https://x.com/haalvsh/status/2014539725730963775, https://x.com/thebalochworld/status/2014626960455176573, https://x.com/farzinkadkhodae/status/2015406278021980366, https://x.com/TheBalochWorld/status/2014626960455176573, https://x.com/hamalilalin/status/2015361907033612467, https://x.com/an_eastern_girl/status/2015241389047759042, https://x.com/hamalilalin/status/2015853984586604592, https://x.com/TheBalochWorld/status/2014624424461500874
-child: false
+source_social_media_link:
+  - "https://x.com/haalvsh/status/2014539725730963775, https://x.com/thebalochworld/status/2014626960455176573, https://x.com/farzinkadkhodae/status/2015406278021980366, https://x.com/TheBalochWorld/status/2014626960455176573, https://x.com/hamalilalin/status/2015361907033612467, https://x.com/an_eastern_girl/status/2015241389047759042, https://x.com/hamalilalin/status/2015853984586604592, https://x.com/TheBalochWorld/status/2014624424461500874"
+  - "https://x.com/an_eastern_girl/status/2015241389047759042"
+  - "https://x.com/TheBalochWorld/status/2014624424461500874"
+  - "https://x.com/hamalilalin/status/2015361907033612467"
+  - "https://x.com/hamalilalin/status/2015846726897176972"
+  - "https://x.com/i/status/2016944249023983829"
+  - "https://x.com/hamalilalin/status/2015853984586604592"
 persian_name: دستگیر گرگیج

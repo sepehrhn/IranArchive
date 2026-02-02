@@ -2,7 +2,11 @@
 # Victim Documentation - Jabar Panahi
 # ==========================================
 
-photo: vic-2026-002215.jpg
+photo:
+  - "vic-2026-002215.jpg"
+  - "vic-2026-8795e2e984c4.jpg"
+  - "vic-2026-21c4912fddea.jpg"
+  - "vic-2026-6b763533ec43.jpg"
 name: Jabar Panahi
 birth_date: ""
 birth_province: ""
@@ -12,7 +16,7 @@ age: 16
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: "Chenar Shahijan, Fars Province"
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
@@ -20,5 +24,8 @@ cause_of_death: ""
 status: Killed
 description: Mentioned as a victim in the context of sanctions against his killer. Age is stated as 16.
 source_type: Social Media
-source_social_media_link: https://x.com/Me_Hamed_Myself/status/2011868590274986324
-child: true
+source_social_media_link:
+  - "https://x.com/Me_Hamed_Myself/status/2011868590274986324"
+  - "https://x.com/eyakoby/status/2011651807391728076"
+  - "https://x.com/banafshehviola/status/2012747074194784310"
+  - "https://x.com/LoabatK/status/2011355028091789384"

@@ -2,7 +2,11 @@
 # Victim Documentation - Ali Pouladestoon
 # ==========================================
 
-photo: vic-2026-000497.jpg
+photo:
+  - "vic-2026-000497.jpg"
+  - "vic-2026-76ea083d81b9.jpg"
+  - "vic-2026-82967058543a.jpg"
+  - "vic-2026-4d1df430bb68.jpg"
 name: Ali Pouladestoon
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,9 @@ status: Killed
 description: |
   Shot by government security forces during protests in Isfahan. Killed at the entrance of Bagh-e-Razwan cemetery.
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2013529390261350866, https://x.com/hengawo/status/2013911264154546507, https://hengaw.net/fa/news/2026/01/article-170-1, https://x.com/HengawO/status/2013911264154546507
-child: false
+source_social_media_link:
+  - "https://x.com/iranwire/status/2013529390261350866, https://x.com/hengawo/status/2013911264154546507, https://hengaw.net/fa/news/2026/01/article-170-1, https://x.com/HengawO/status/2013911264154546507"
+  - "https://x.com/iranwire/status/2013529390261350866"
+  - "https://x.com/hengawo/status/2013911264154546507"
+  - "https://x.com/HengawO/status/2013911264154546507"
 persian_name: علی پولادستون

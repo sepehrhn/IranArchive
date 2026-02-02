@@ -2,24 +2,24 @@
 # Victim Documentation - Not specified
 # ==========================================
 
-photo: vic-2026-002244.jpg
+photo:
+  - vic-2026-002244.jpg
 name: Not specified
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Hamadan
-incident_address: ''
-date_of_death: ''
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: Shot dead in a hail of bullets during the protests. The victim and their spouse were both killed.
 source_type: Social Media
 source_social_media_link:
   - https://x.com/fattahifarzad/status/2012648535615746371
-child: false

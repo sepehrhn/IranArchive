@@ -2,7 +2,10 @@
 # Victim Documentation - Amirhossein Khodadadi
 # ==========================================
 
-photo: vic-2026-001876.jpg
+photo:
+  - "vic-2026-001876.jpg"
+  - "vic-2026-c06f579c823d.jpg"
+  - "vic-2026-feeef36d867d.jpg"
 name: Amirhossein Khodadadi
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,8 @@ description: |-
 
   One of the killed during protests. Heartbreaking images of the scene of his killing have reached IranWire.
 source_type: Social Media
-source_social_media_link: https://x.com/dadban4/status/2015531883837202477, https://x.com/i/status/2015786609430417908, https://x.com/iranwire/status/2015786609430417908, https://t.me/RememberTheirNames/1045
-child: false
+source_social_media_link:
+  - "https://x.com/dadban4/status/2015531883837202477, https://x.com/i/status/2015786609430417908, https://x.com/iranwire/status/2015786609430417908, https://t.me/RememberTheirNames/1045"
+  - "https://x.com/dadban4/status/2015531883837202477"
+  - "https://x.com/iranwire/status/2015786609430417908"
 persian_name: امیرحسین خدادادئی

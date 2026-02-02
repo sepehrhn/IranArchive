@@ -2,7 +2,9 @@
 # Victim Documentation - Abolfazl Mousavi Lor
 # ==========================================
 
-photo: vic-2026-001631.jpg
+photo:
+  - "vic-2026-001631.jpg"
+  - "vic-2026-2140053.jpg"
 name: Abolfazl Mousavi Lor
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Shot and killed by security forces in his hometown.
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2016015621213786495
-child: false
+source_social_media_link:
+  - "https://x.com/hirman__/status/2016015621213786495"
+  - "https://t.me/RememberTheirNames/659"
 persian_name: ابولفضل موسوی لر

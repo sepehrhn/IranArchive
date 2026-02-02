@@ -2,7 +2,10 @@
 # Victim Documentation - Davoud Kolivand
 # ==========================================
 
-photo: vic-2026-000580.jpg
+photo:
+  - "vic-2026-000580.jpg"
+  - "vic-2026-cfb7eb56b195.jpg"
+  - "vic-2026-0de1f71f933e.jpg"
 name: Davoud Kolivand
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-08"
@@ -24,6 +27,7 @@ description: |-
 
   Father of two young daughters. Shot in the eye and killed.
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2015170885452472509, https://x.com/monfaredashkan/status/2015171890487411010
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2015170885452472509, https://x.com/monfaredashkan/status/2015171890487411010"
+  - "https://x.com/MonfaredAshkan/status/2015170885452472509"
 persian_name: داوود کولیوند

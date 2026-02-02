@@ -2,7 +2,8 @@
 # Victim Documentation - Ali Kiadadeli
 # ==========================================
 
-photo: vic-2026-2140093.jpg
+photo:
+  - vic-2026-2140093.jpg
 name: Ali Kiadadeli
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed by security forces in Chalus.
+description: Killed by security forces in Chalus.
 source_type: Social Media
 source_social_media_link: https://t.me/persian_picture/4126
-child: false
 persian_name: علی کیادلیری

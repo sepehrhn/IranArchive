@@ -2,7 +2,10 @@
 # Victim Documentation - Davood Jalili
 # ==========================================
 
-photo: vic-2026-000274.jpg
+photo:
+  - "vic-2026-000274.jpg"
+  - "vic-2026-31a2ec7022e4.jpg"
+  - "vic-2026-d0b78ed9feec.jpg"
 name: Davood Jalili
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,7 @@ description: |-
 
   Shot by military bullet to the heart in Shahinshahr, Isfahan
 source_type: Social Media
-source_social_media_link: https://x.com/iranintl/status/2012891171773673876, https://t.me/RememberTheirNames/298, https://x.com/hekasrehcrisis/status/2016353141931769959
-child: false
+source_social_media_link:
+  - "https://x.com/iranintl/status/2012891171773673876, https://t.me/RememberTheirNames/298, https://x.com/hekasrehcrisis/status/2016353141931769959"
+  - "https://x.com/hekasrehcrisis/status/2016353141931769959"
 persian_name: داوود جلیلی

@@ -2,11 +2,13 @@
 # Victim Documentation - Hasan Akbarpour
 # ==========================================
 
-photo: vic-2026-001262.jpg
+photo:
+  - "vic-2026-001262.jpg"
+  - "vic-2026-001697.jpg"
 name: Hasan Akbarpour
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 39
 occupation: truck driver for a fuel refinery
@@ -14,7 +16,7 @@ country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
 incident_address: Malekshahr
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -25,4 +27,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/ka3rimi/status/2015456750489735202
-child: false

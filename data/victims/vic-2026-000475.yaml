@@ -2,7 +2,10 @@
 # Victim Documentation - Afshin Rezaiian
 # ==========================================
 
-photo: vic-2026-000475.jpg
+photo:
+  - "vic-2026-000475.jpg"
+  - "vic-2026-001004.jpg"
+  - "vic-2026-1ac2e860fc7b.jpg"
 name: Afshin Rezaiian
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Killed during protests on Thursday and Friday
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014331046636990578, https://t.me/RememberTheirNames/1346
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2014331046636990578, https://t.me/RememberTheirNames/1346"
+  - "https://x.com/visfehan/status/2014331046636990578"
 persian_name: افشین رضاییان

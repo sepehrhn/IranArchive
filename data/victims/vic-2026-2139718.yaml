@@ -2,7 +2,12 @@
 # Victim Documentation - Ahmad Salehi
 # ==========================================
 
-photo: vic-2026-2139718.jpg
+photo:
+  - "vic-2026-2139718.jpg"
+  - "vic-2026-27d4b636b746.png"
+  - "vic-2026-a6ba454edbb0.jpg"
+  - "vic-2026-dd66c253c61d.jpg"
+  - "vic-2026-2139986.jpg"
 name: Ahmad Salehi
 birth_date: ""
 birth_province: ""
@@ -18,9 +23,12 @@ date_of_death: "2026-07-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  A 25-year-old man who had recently gotten married, killed by the regime's killers on Thursday in the city of Khomein.
+description: A 25-year-old man who had recently gotten married, killed by the regime's killers on Thursday in the city of Khomein.
 source_type: Social Media
-source_social_media_link: https://x.com/mousavi1355/status/2016319717267378212, https://x.com/i/status/2016407122334920982
-child: false
+source_social_media_link:
+  - "https://x.com/mousavi1355/status/2016319717267378212, https://x.com/i/status/2016407122334920982"
+  - "https://x.com/i/status/2016407122334920982"
+  - "https://x.com/behnam_chegini/status/2017179898138214444"
+  - "https://x.com/mousavi1355/status/2016319717267378212"
+  - "https://x.com/bozoiii96/status/2016071849566744833, https://x.com/Bozoiii96/status/2016071849566744833"
 persian_name: احمد صالحی

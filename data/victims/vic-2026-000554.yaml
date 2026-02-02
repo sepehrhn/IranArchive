@@ -2,7 +2,8 @@
 # Victim Documentation - Armia Lachiani
 # ==========================================
 
-photo: vic-2026-000554.jpg
+photo:
+  - vic-2026-000554.jpg
 name: Armia Lachiani
 birth_date: ""
 birth_province: ""
@@ -21,6 +22,7 @@ status: Killed
 description: |
   Shot directly by suppressive forces
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2012484391461667103, https://t.me/RememberTheirNames/127
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2012484391461667103, https://t.me/RememberTheirNames/127"
+  - "https://x.com/VIsfehan/status/2015432913760719144"
 persian_name: ارمیا لاچیانی

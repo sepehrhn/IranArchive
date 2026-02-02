@@ -2,7 +2,11 @@
 # Victim Documentation - Mikayel Dadras
 # ==========================================
 
-photo: vic-2026-000357.jpg
+photo:
+  - "vic-2026-000357.jpg"
+  - "vic-2026-0b47585b1bb3.jpg"
+  - "vic-2026-5c4df13a5ced.jpg"
+  - "vic-2026-4070cd70f52e.png"
 name: Mikayel Dadras
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,9 @@ description: |-
 
   A 22-year-old student of mechanical engineering and a teacher, he was directly shot by security forces around 8 PM in one of Rasht's streets and died. His body was buried at night under security presence on Sunday, January 11, 2026.
 source_type: Social Media
-source_social_media_link: https://x.com/tavaana/status/2013562499728076946, https://x.com/Tavaana/status/2013562499728076946, https://x.com/autnews_org/status/2015837382969377052, https://t.me/RememberTheirNames/367
-child: false
+source_social_media_link:
+  - "https://x.com/tavaana/status/2013562499728076946, https://x.com/Tavaana/status/2013562499728076946, https://x.com/autnews_org/status/2015837382969377052, https://t.me/RememberTheirNames/367"
+  - "https://x.com/Tavaana/status/2013562499728076946"
+  - "https://x.com/tavaana/status/2013562499728076946"
+  - "https://x.com/autnews_org/status/2015837382969377052"
 persian_name: میکاییل دادرس

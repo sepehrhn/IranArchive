@@ -2,7 +2,12 @@
 # Victim Documentation - Mahyar Barani
 # ==========================================
 
-photo: vic-2026-001267.jpg
+photo:
+  - "vic-2026-001267.jpg"
+  - "vic-2026-c5012be541ed.jpg"
+  - "vic-2026-372478348dd1.jpg"
+  - "vic-2026-30e957332c35.jpg"
+  - "vic-2026-a5ad7ee8d321.jpg"
 name: Mahyar Barani
 birth_date: ""
 birth_province: ""
@@ -26,6 +31,8 @@ description: |-
 
   Killed on Thursday night, January 9, 2026, during protests in Tehran. He was 34 years old and lived in Tehran. He owned a car exhibition in Abbas Abad, Tehran.
 source_type: Social Media
-source_social_media_link: https://x.com/HeKasrehCrisis/status/2015543436472971575, https://x.com/polarbe79150109/status/2015578929940308278
-child: false
+source_social_media_link:
+  - "https://x.com/HeKasrehCrisis/status/2015543436472971575, https://x.com/polarbe79150109/status/2015578929940308278"
+  - "https://x.com/polarbe79150109/status/2015578929940308278"
+  - "https://x.com/HeKasrehCrisis/status/2015543436472971575"
 persian_name: مهیار بارانی

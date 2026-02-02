@@ -2,7 +2,8 @@
 # Victim Documentation - Mohammad Sadegh Yaghoubipour
 # ==========================================
 
-photo: vic-2026-002009.jpg
+photo:
+  - vic-2026-002009.jpg
 name: Mohammad Sadegh Yaghoubipour
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1403
-child: false
 persian_name: محمدصادق یعقوبی‌پور

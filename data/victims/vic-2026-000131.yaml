@@ -2,7 +2,11 @@
 # Victim Documentation - Masoud Sadeghi
 # ==========================================
 
-photo: vic-2026-000131.jpg
+photo:
+  - "vic-2026-000131.jpg"
+  - "vic-2026-7f6c623cbcfb.jpg"
+  - "vic-2026-0db79762f2fe.jpg"
+  - "vic-2026-36c93d7de362.jpg"
 name: Masoud Sadeghi
 birth_date: ""
 birth_province: ""
@@ -11,7 +15,7 @@ gender: Male
 age: 37
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -21,6 +25,9 @@ status: Killed
 description: |
   Found dead after approximately one week of absence, family identified body at legal medicine facility
 source_type: Social Media
-source_social_media_link: https://x.com/iranintl/status/2013993107969220828, https://x.com/kurdpa_farsi/status/2014092304173224413, https://x.com/sattarkhan121/status/2014008902581412027, https://x.com/rml7480/status/2014612434669957594, https://x.com/HengawO/status/2014429661707542927, https://t.me/RememberTheirNames/520
-child: false
+source_social_media_link:
+  - "https://x.com/iranintl/status/2013993107969220828, https://x.com/kurdpa_farsi/status/2014092304173224413, https://x.com/sattarkhan121/status/2014008902581412027, https://x.com/rml7480/status/2014612434669957594, https://x.com/HengawO/status/2014429661707542927, https://t.me/RememberTheirNames/520"
+  - "https://x.com/iranintl/status/2013993107969220828"
+  - "https://x.com/kurdpa_farsi/status/2014092304173224413"
+  - "https://x.com/HengawO/status/2014429661707542927"
 persian_name: مسعود صادقی

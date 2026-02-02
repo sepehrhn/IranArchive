@@ -2,13 +2,16 @@
 # Victim Documentation - Jabar Ghaffarpour Golsefidi
 # ==========================================
 
-photo: vic-2026-002214.jpg
+photo:
+  - "vic-2026-002214.jpg"
+  - "vic-2026-a941a72f0bc4.jpg"
+  - "vic-2026-d3a58ca4346e.jpg"
 name: Jabar Ghaffarpour Golsefidi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 45
 occupation: ""
 country: Iran
 incident_province: Isfahan
@@ -23,6 +26,8 @@ description: |-
 
   Died at the hands of suppressors.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2015721380143141239, https://x.com/VIsfehan/status/2015721380143141239
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2015721380143141239, https://x.com/VIsfehan/status/2015721380143141239"
+  - "https://x.com/visfehan/status/2015721380143141239"
+  - "https://x.com/VIsfehan/status/2015721380143141239"
 persian_name: جبار غفارپور گلسفیدی

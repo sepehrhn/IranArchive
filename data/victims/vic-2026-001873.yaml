@@ -2,13 +2,15 @@
 # Victim Documentation - Amirhossein Hesari
 # ==========================================
 
-photo: vic-2026-001873.jpg
+photo:
+  - "vic-2026-001873.jpg"
+  - "vic-2026-dd1d19aab360.jpg"
 name: Amirhossein Hesari
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 21
 occupation: ""
 country: Iran
 incident_province: ""
@@ -18,8 +20,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |+
+description: ""
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1411
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1411"
+  - "https://x.com/anjmotahed/status/2014683032523817020"
 persian_name: امیرحسین حصاری

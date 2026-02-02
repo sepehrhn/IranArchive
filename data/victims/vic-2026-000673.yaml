@@ -2,19 +2,25 @@
 # Victim Documentation - Matin Montazerzhohour
 # ==========================================
 
-photo: vic-2026-000673.jpg
+photo:
+  - "vic-2026-000673.jpg"
+  - "vic-2026-2533bb5f20a8.jpg"
+  - "vic-2026-8f555d7219e1.jpg"
+  - "vic-2026-99ff065f03f9.jpg"
+  - "vic-2026-0deb79a4bdbf.jpg"
+  - "vic-2026-82dc46284239.jpg"
 name: Matin Montazerzhohour
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: 32
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Shahroud
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +28,10 @@ description: |
   Shot in the chest during protests, bullet completely destroyed heart tissue
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/tavaana/status/2012132315187826752
-child: false
+  - "https://x.com/tavaana/status/2012132315187826752"
+  - "https://x.com/Tavaana/status/2012132315187826752"
+  - "https://x.com/Paya992/status/2012126040529985765"
+  - "https://x.com/paya992/status/2012126040529985765"
+  - "https://x.com/iranintl/status/2013221981533900868"
+  - "https://x.com/banafshehviola/status/2013346141702889705"
+  - "https://x.com/iranwire/status/2013277250280382502"

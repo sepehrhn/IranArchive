@@ -2,7 +2,13 @@
 # Victim Documentation - Morteza Zoompoosh
 # ==========================================
 
-photo: vic-2026-000753.jpg
+photo:
+  - "vic-2026-000753.jpg"
+  - "vic-2026-1951fb114c32.jpg"
+  - "vic-2026-1ebdce3448ae.jpg"
+  - "vic-2026-21194bbe38d2.jpg"
+  - "vic-2026-a746ebca540d.jpg"
+  - "vic-2026-f7bbbd6ceb29.jpg"
 name: Morteza Zoompoosh
 birth_date: ""
 birth_province: ""
@@ -11,7 +17,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Daneshgah Square
+incident_province: ""
 incident_city: Hamadan
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -21,6 +27,7 @@ status: Killed
 description: |
   Beaten with batons and shot 34 pellets directly at his face by armed regime forces during an attack on January 8th.
 source_type: Social Media
-source_social_media_link: https://x.com/marianmeyer0/status/2014655314318987462, https://x.com/longlosthills/status/2014719052061520275, https://x.com/damdami/status/2014971508527939875, https://t.me/RememberTheirNames/864, https://x.com/isamanyasin/status/2014735452515766722
-child: false
+source_social_media_link:
+  - "https://x.com/marianmeyer0/status/2014655314318987462, https://x.com/longlosthills/status/2014719052061520275, https://x.com/damdami/status/2014971508527939875, https://t.me/RememberTheirNames/864, https://x.com/isamanyasin/status/2014735452515766722"
+  - "https://x.com/isamanyasin/status/2014735452515766722"
 persian_name: مرتضی ذوم‌پوش

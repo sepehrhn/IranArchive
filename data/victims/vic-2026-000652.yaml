@@ -2,7 +2,9 @@
 # Victim Documentation - Kiumars Homayi
 # ==========================================
 
-photo: vic-2026-000652.jpg
+photo:
+  - "vic-2026-000652.jpg"
+  - "vic-2026-2bfb8fbebd59.jpg"
 name: Kiumars Homayi
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Sacrificed his life for the homeland on Thursday, 18 Dey.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2014735129147531738, https://x.com/NickSotoudeh/status/2014832906926194942, https://x.com/mojmojin/status/2014811230435708978, https://t.me/RememberTheirNames/599
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2014735129147531738, https://x.com/NickSotoudeh/status/2014832906926194942, https://x.com/mojmojin/status/2014811230435708978, https://t.me/RememberTheirNames/599"
+  - "https://x.com/NickSotoudeh/status/2014832906926194942"
 persian_name: کیومرث همایی

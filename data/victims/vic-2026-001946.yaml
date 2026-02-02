@@ -2,7 +2,8 @@
 # Victim Documentation - Kaveh Chegini
 # ==========================================
 
-photo: vic-2026-001946.jpg
+photo:
+  - vic-2026-001946.jpg
 name: Kaveh Chegini
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Gohardasht
 incident_address: Gohardasht
 date_of_death: "2026-01-08"
@@ -24,5 +25,4 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1162
-child: false
 persian_name: کاوه چگینی

@@ -2,7 +2,9 @@
 # Victim Documentation - Sina Saranoosh
 # ==========================================
 
-photo: vic-2026-2140085.jpg
+photo:
+  - "vic-2026-2140085.jpg"
+  - "vic-2026-07d7e6af6f81.jpg"
 name: Sina Saranoosh
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2025-12-22"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Isfahan in Dey 1404.
+description: Died in Isfahan in Dey 1404.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/279
-child: false
 persian_name: سینا سرانوش

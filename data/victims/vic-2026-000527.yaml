@@ -2,19 +2,20 @@
 # Victim Documentation - Amir Hossein Shakermi Lor
 # ==========================================
 
-photo: vic-2026-000527.jpg
+photo:
+  - vic-2026-000527.jpg
 name: Amir Hossein Shakermi Lor
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: 22
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Alborz
 incident_city: Karaj
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,4 +24,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/manotonews/status/2014865736435408962
-child: false

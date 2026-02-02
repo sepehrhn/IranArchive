@@ -2,7 +2,10 @@
 # Victim Documentation - Amir Ahmadvand
 # ==========================================
 
-photo: vic-2026-2139864.jpg
+photo:
+  - "vic-2026-2139864.jpg"
+  - "vic-2026-2072c821a87e.jpg"
+  - "vic-2026-c5b82cc0e939.jpg"
 name: Amir Ahmadvand
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Tehranpars, Tehran. No specific details about circumstances provided.
+description: Died in Tehranpars, Tehran. No specific details about circumstances provided.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1508
-child: false
 persian_name: امیر احمدوند

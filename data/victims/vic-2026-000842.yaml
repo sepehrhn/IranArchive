@@ -2,19 +2,20 @@
 # Victim Documentation - Seyed Davood Emami
 # ==========================================
 
-photo: vic-2026-000842.jpg
+photo:
+  - vic-2026-000842.jpg
 name: Seyed Davood Emami
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: 35
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Yazd
 incident_city: Meybod
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,4 +24,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/indypersian/status/2014771604593770526
-child: false

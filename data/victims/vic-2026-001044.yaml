@@ -2,7 +2,9 @@
 # Victim Documentation - Armita Geravand
 # ==========================================
 
-photo: vic-2026-001044.jpg
+photo:
+  - "vic-2026-001044.jpg"
+  - "vic-2026-d2f5f2678655.jpg"
 name: Armita Geravand
 birth_date: ""
 birth_province: ""
@@ -21,5 +23,6 @@ status: Killed
 description: |
   Violently beaten by government forces at Haft-e-Tir metro station, fell into coma and died several days later in hospital
 source_type: Social Media
-source_social_media_link: https://x.com/longlosthills/status/2011432069621248275
-child: true
+source_social_media_link:
+  - "https://x.com/longlosthills/status/2011432069621248275"
+  - "https://x.com/longlosthills/status/2011431073977426214"

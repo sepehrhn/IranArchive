@@ -2,7 +2,8 @@
 # Victim Documentation - Reza Zarei
 # ==========================================
 
-photo: vic-2026-000809.jpg
+photo:
+  - vic-2026-000809.jpg
 name: Reza Zarei
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Shot from the rooftop of a police station during protests.
 source_type: Social Media
 source_social_media_link: https://x.com/allahbakhshii/status/2014777854957900203
-child: false
 persian_name: رضا زارعی

@@ -2,19 +2,22 @@
 # Victim Documentation - Ajmin
 # ==========================================
 
-photo: vic-2026-001009.jpg
+photo:
+  - "vic-2026-001009.jpg"
+  - "vic-2026-f9f84e172c4f.jpg"
+  - "vic-2026-ce6c85767d18.jpg"
 name: Ajmin
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: ''
+incident_province: ""
+incident_city: "Mashhad"
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +25,5 @@ description: |
   Killed by IRGC during the revolution, identified as one of seven Armenians killed
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hamidrezavessa1/status/2011972759207768324
-child: false
+  - "https://x.com/hamidrezavessa1/status/2011972759207768324"
+  - "https://x.com/sonoamirrr/status/2015186764063703382"

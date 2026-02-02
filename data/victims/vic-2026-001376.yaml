@@ -2,7 +2,10 @@
 # Victim Documentation - Amir Hossein Emam Jomeh
 # ==========================================
 
-photo: vic-2026-001376.jpg
+photo:
+  - "vic-2026-001376.jpg"
+  - "vic-2026-fa986670f1b5.jpg"
+  - "vic-2026-6692fa2b76e8.jpg"
 name: Amir Hossein Emam Jomeh
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,8 @@ description: |
 
   Mentioned in a tweet with the hashtag 'Javid Nam' (eternal name), indicating he is deceased. The tweet references Thursday, 18 Dey.
 source_type: Social Media
-source_social_media_link: https://x.com/6ixmag6ix/status/2014699230212899206, https://x.com/6ixMag6ix/status/2014699230212899206, https://t.me/RememberTheirNames/1310, https://x.com/HeKasrehCrisis/status/2016154307071013253
-child: false
+source_social_media_link:
+  - "https://x.com/6ixmag6ix/status/2014699230212899206, https://x.com/6ixMag6ix/status/2014699230212899206, https://t.me/RememberTheirNames/1310, https://x.com/HeKasrehCrisis/status/2016154307071013253"
+  - "https://x.com/6ixMag6ix/status/2014699230212899206"
+  - "https://x.com/MartinNiko56009/status/2015043155196776880"
 persian_name: امیرحسین امام جمعه

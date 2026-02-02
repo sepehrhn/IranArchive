@@ -2,13 +2,15 @@
 # Victim Documentation - Mohammad Mahdi Kazemi
 # ==========================================
 
-photo: vic-2026-2139960.jpg
+photo:
+  - "vic-2026-2139960.jpg"
+  - "vic-2026-fbcaacff2c23.jpg"
 name: Mohammad Mahdi Kazemi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 40
 occupation: ""
 country: Iran
 incident_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Victim from Neyshabur during the protests, specific circumstances of death not provided
+description: Victim from Neyshabur during the protests, specific circumstances of death not provided
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1657
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1657"
+  - "https://x.com/i/status/2017114884341682474"
 persian_name: محمدمهدی کاظمی

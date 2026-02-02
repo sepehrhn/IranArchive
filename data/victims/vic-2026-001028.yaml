@@ -2,19 +2,22 @@
 # Victim Documentation - Amir Hossein Kargar
 # ==========================================
 
-photo: vic-2026-001028.jpg
+photo:
+  - "vic-2026-001028.jpg"
+  - "vic-2026-001528.jpg"
+  - "vic-2026-daedd83ffcd2.jpg"
 name: Amir Hossein Kargar
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 17
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_province: ""
+incident_city: ""
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +25,5 @@ description: |
   A 17-year-old victim of the Islamic Republic's crime.
 source_type: Social Media
 source_social_media_link:
-  - https://www.instagram.com/p/dt4f__rao5u
-child: true
+  - "https://www.instagram.com/p/dt4f__rao5u"
+  - "https://www.instagram.com/p/DT4F__RAo5U"

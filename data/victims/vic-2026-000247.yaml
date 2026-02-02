@@ -2,7 +2,9 @@
 # Victim Documentation - Amirreza Fathiyan
 # ==========================================
 
-photo: vic-2026-000247.jpg
+photo:
+  - "vic-2026-000247.jpg"
+  - "vic-2026-868839bd1f9f.jpg"
 name: Amirreza Fathiyan
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Identified as one of twelve citizens killed during public protests in Isfahan.
 source_type: Social Media
-source_social_media_link: https://x.com/shamidartii/status/2014389702669852925, https://x.com/HengawO/status/2014772586857598984, https://t.me/RememberTheirNames/690
-child: false
+source_social_media_link:
+  - "https://x.com/shamidartii/status/2014389702669852925, https://x.com/HengawO/status/2014772586857598984, https://t.me/RememberTheirNames/690"
+  - "https://x.com/Tavaana/status/2017022142781804583"
 persian_name: امیررضا فتحیان

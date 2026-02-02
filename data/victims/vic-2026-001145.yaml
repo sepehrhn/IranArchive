@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Ali (Sepehr) Foroughi Dehnavi
 # ==========================================
 
-photo: vic-2026-001145.jpg
+photo:
+  - "vic-2026-001145.jpg"
+  - "vic-2026-2788601c5074.jpg"
 name: Mohammad Ali (Sepehr) Foroughi Dehnavi
 birth_date: ""
 birth_province: ""
@@ -25,4 +27,3 @@ description: |-
   Killed during the protests. Identified as a pharmacist.
 source_type: Social Media
 source_social_media_link: https://x.com/IHRDC/status/2012979624930693342
-child: false

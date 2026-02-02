@@ -2,7 +2,8 @@
 # Victim Documentation - Mahdi Samavati
 # ==========================================
 
-photo: ""
+photo:
+  - ""
 name: Mahdi Samavati
 birth_date: ""
 birth_province: ""
@@ -17,9 +18,8 @@ incident_address: ""
 date_of_death: "2025-12-31"
 date_of_death_precision: Exact
 cause_of_death: Unknown
-status: Killed
+status: "Missing"
 description: |
   Reported killed during protest outside governor's office, though governor denied the report
 source_type: Social Media
 source_social_media_link: https://en.wikipedia.org/wiki/2025–2026_Iranian_protests
-child: false

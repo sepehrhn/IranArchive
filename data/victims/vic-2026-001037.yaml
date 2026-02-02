@@ -2,9 +2,11 @@
 # Victim Documentation - Amirhossein Sheikh-Bu
 # ==========================================
 
-photo: ""
+photo:
+  - ""
+  - "vic-2026-2139874.jpg"
 name: Amirhossein Sheikh-Bu
-persian_name: "امیرحسین بو"
+persian_name: امیرحسین بو
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -13,14 +15,15 @@ age: 24
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: "Mashhad"
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
 description: |
   Shot in the head by the Islamic regime while protesting for freedom
 source_type: Social Media
-source_social_media_link: https://x.com/noamagid/status/2014031614410448988
-child: false
+source_social_media_link:
+  - "https://x.com/noamagid/status/2014031614410448988"
+  - "https://x.com/manotonews/status/2015862302831222978, https://t.me/RememberTheirNames/449"

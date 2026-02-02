@@ -2,13 +2,16 @@
 # Victim Documentation - Mohammad Nobakht
 # ==========================================
 
-photo: vic-2026-001155.jpg
+photo:
+  - "vic-2026-001155.jpg"
+  - "vic-2026-90efd4a3b8d5.jpg"
+  - "vic-2026-001592.jpg"
 name: Mohammad Nobakht
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 42
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,6 +27,9 @@ description: |-
 
   Identified as one of the killed during public protests.
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2013369427656392749, https://x.com/HengawO/status/2013369427656392749
-child: false
+source_social_media_link:
+  - "https://x.com/hengawo/status/2013369427656392749, https://x.com/HengawO/status/2013369427656392749"
+  - "https://x.com/hengawo/status/2013369427656392749"
+  - "https://x.com/HengawO/status/2013369427656392749"
+  - "https://t.me/RememberTheirNames/696"
 persian_name: محمد نوبخت

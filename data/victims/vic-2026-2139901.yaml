@@ -2,7 +2,10 @@
 # Victim Documentation - Hamidreza Goodarzi
 # ==========================================
 
-photo: vic-2026-2139901.jpg
+photo:
+  - "vic-2026-2139901.jpg"
+  - "vic-2026-03994b5348e6.jpg"
+  - "vic-2026-66ca0b1d0965.jpg"
 name: Hamidreza Goodarzi
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died on 18 Dey 1404 in Karaj during the 2025-2026 protests
+description: Died on 18 Dey 1404 in Karaj during the 2025-2026 protests
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1489
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1489"
+  - "https://x.com/i/status/2016909296798163240"
 persian_name: حمیدرضا گودرزی

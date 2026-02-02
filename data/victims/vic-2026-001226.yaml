@@ -2,7 +2,15 @@
 # Victim Documentation - Sina Maleki
 # ==========================================
 
-photo: vic-2026-001226.png
+photo:
+  - "vic-2026-001226.png"
+  - "vic-2026-98327d312326.png"
+  - "vic-2026-c50e986c5e09.jpg"
+  - "vic-2026-8a7704d02290.jpg"
+  - "vic-2026-2b7062c4b5aa.jpg"
+  - "vic-2026-cf3c5552f91b.jpg"
+  - "vic-2026-2139784.jpg"
+  - "vic-2026-882229c4c0b9.jpg"
 name: Sina Maleki
 birth_date: ""
 birth_province: ""
@@ -14,13 +22,18 @@ country: Iran
 incident_province: ""
 incident_city: Kermanshah
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Killed during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2015177675464171624
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2015177675464171624"
+  - "https://x.com/sabamajlessi/status/2016163538276884750"
+  - "https://t.me/RememberTheirNames/1463"
+  - "https://x.com/sabamajlessi/status/2016163538276884750, https://x.com/irannewsagency0/status/2016564059915600382, https://x.com/IranNewsAgency0/status/2016564059915600382"
+  - "https://x.com/irannewsagency0/status/2016564059915600382"
+  - "https://x.com/IranNewsAgency0/status/2016564059915600382"
 persian_name: سینا ملکی

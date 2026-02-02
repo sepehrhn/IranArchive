@@ -2,7 +2,8 @@
 # Victim Documentation - Radin Zarnani
 # ==========================================
 
-photo: vic-2026-2139992.jpg
+photo:
+  - vic-2026-2139992.jpg
 name: Radin Zarnani
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed by security forces of the Islamic Republic.
+description: Killed by security forces of the Islamic Republic.
 source_type: Social Media
 source_social_media_link: https://x.com/iranintlbrk/status/2015816136302924014
-child: true
 persian_name: رادین زرنانی

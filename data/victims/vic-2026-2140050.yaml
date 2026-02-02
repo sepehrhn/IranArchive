@@ -2,13 +2,15 @@
 # Victim Documentation - Amir Hossein Heydar-Doost
 # ==========================================
 
-photo: vic-2026-2140050.jpg
+photo:
+  - "vic-2026-2140050.jpg"
+  - "vic-2026-f2fbdc6ecdbd.jpg"
 name: Amir Hossein Heydar-Doost
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 25
 occupation: ""
 country: Iran
 incident_province: Gilan
@@ -18,9 +20,7 @@ date_of_death: "2025-12-28"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Described as the sole breadwinner for his mother after his father's death, and referred to as a child of Iran killed for his country. The context implies he is a victim of the protests.
+description: Described as the sole breadwinner for his mother after his father's death, and referred to as a child of Iran killed for his country. The context implies he is a victim of the protests.
 source_type: Social Media
 source_social_media_link: https://x.com/hengawo/status/2011755621172068400, https://x.com/jinzianazadi/status/2011859200058528228, https://x.com/longlosthills/status/2011969461822030216, https://x.com/iranintlbrk/status/2013520695137857709, https://x.com/Daikatuo/status/2011836007839101290, https://t.me/RememberTheirNames/414, https://x.com/missmarpel75/status/2016093999619047658
-child: false
 persian_name: امیر حیدردوست

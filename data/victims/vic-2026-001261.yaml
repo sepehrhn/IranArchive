@@ -2,7 +2,9 @@
 # Victim Documentation - Habib Moallemi
 # ==========================================
 
-photo: vic-2026-001261.jpg
+photo:
+  - "vic-2026-001261.jpg"
+  - "vic-2026-810c8d914f46.jpg"
 name: Habib Moallemi
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: 32
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-09"
@@ -26,6 +28,8 @@ description: |-
 
   Died from direct gunfire by security forces. His body was forcibly buried in a village in the Savadkuh region, far from his home city, under pressure from security forces who also removed his employment records.
 source_type: Social Media
-source_social_media_link: https://x.com/Tavaana/status/2015352384499732568, https://x.com/iranintlbrk/status/2015361134535094715, https://t.me/RememberTheirNames/1044
-child: false
+source_social_media_link:
+  - "https://x.com/Tavaana/status/2015352384499732568, https://x.com/iranintlbrk/status/2015361134535094715, https://t.me/RememberTheirNames/1044"
+  - "https://x.com/Tavaana/status/2015352384499732568"
+  - "https://x.com/iranintlbrk/status/2015361134535094715"
 persian_name: حبیب معلمی

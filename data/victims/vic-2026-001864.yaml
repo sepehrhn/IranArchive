@@ -2,7 +2,9 @@
 # Victim Documentation - Amir Saleh Borji
 # ==========================================
 
-photo: vic-2026-001864.jpg
+photo:
+  - "vic-2026-001864.jpg"
+  - "vic-2026-fae20810cd81.jpg"
 name: Amir Saleh Borji
 birth_date: ""
 birth_province: ""
@@ -24,5 +26,4 @@ description: |-
   Shot directly by Islamic Republic of Iran forces. His body was buried in Anbaran.
 source_type: Social Media
 source_social_media_link: https://x.com/HyrcaniHRM/status/2015858743766851748
-child: false
 persian_name: امیر صالح برجی

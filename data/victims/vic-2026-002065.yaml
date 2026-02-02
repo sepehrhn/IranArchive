@@ -2,7 +2,9 @@
 # Victim Documentation - Sajjad Ghanbari
 # ==========================================
 
-photo: vic-2026-002065.jpg
+photo:
+  - "vic-2026-002065.jpg"
+  - "vic-2026-8b694611bf46.jpg"
 name: Sajjad Ghanbari
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,8 @@ description: |-
 
   Killed by a sniper from the Islamic Republic's forces. The shooting was carried out from the top of the Sarmaye Tower. Security agencies pressured the family to claim he was a Basiji, making the handover of his body conditional on accepting this narrative. Family and friends insist he was a protester seeking his rights and had no affiliation with government institutions.
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2015823014424621474, https://x.com/HyrcaniHRM/status/2015823014424621474
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2015823014424621474, https://x.com/HyrcaniHRM/status/2015823014424621474"
+  - "https://x.com/hyrcanihrm/status/2015823014424621474"
+  - "https://x.com/HyrcaniHRM/status/2015823014424621474"
 persian_name: سجاد قنبری

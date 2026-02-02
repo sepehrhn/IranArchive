@@ -2,7 +2,10 @@
 # Victim Documentation - Reza
 # ==========================================
 
-photo: vic-2026-000797.jpg
+photo:
+  - "vic-2026-000797.jpg"
+  - "vic-2026-57f569868deb.jpg"
+  - "vic-2026-73eeb8f4986a.jpg"
 name: Reza
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   His body was returned after four days of uncertainty, under the condition of complete family silence and prohibition of any ceremony. The text implies he was also a victim of the protests, likely killed, but his specific cause or date of death is not explicitly stated.
 source_type: Social Media
-source_social_media_link: https://x.com/dadban4/status/2015006758817730853, https://x.com/jeanne2022rev/status/2015069754055168232, https://x.com/jeditarin/status/2015132592064843840
-child: false
+source_social_media_link:
+  - "https://x.com/dadban4/status/2015006758817730853, https://x.com/jeanne2022rev/status/2015069754055168232, https://x.com/jeditarin/status/2015132592064843840"
+  - "https://x.com/jeditarin/status/2015132592064843840"
+  - "https://x.com/shahramsadidi/status/2014461972054475120"
 persian_name: رضا

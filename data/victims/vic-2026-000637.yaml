@@ -2,7 +2,10 @@
 # Victim Documentation - Iman Farai
 # ==========================================
 
-photo: vic-2026-000637.jpg
+photo:
+  - "vic-2026-000637.jpg"
+  - "vic-2026-24a25231bde7.jpg"
+  - "vic-2026-001298.jpg"
 name: Iman Farai
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,9 @@ description: |-
 
   Killed by direct gunfire from regime forces during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/saeidvafa/status/2014813738897973563, https://x.com/behnam_chegini/status/2014972049035260415, https://x.com/SaeidVafa/status/2014813738897973563, https://t.me/RememberTheirNames/1565
-child: true
+source_social_media_link:
+  - "https://x.com/saeidvafa/status/2014813738897973563, https://x.com/behnam_chegini/status/2014972049035260415, https://x.com/SaeidVafa/status/2014813738897973563, https://t.me/RememberTheirNames/1565"
+  - "https://x.com/SaeidVafa/status/2014813738897973563"
+  - "https://x.com/saeidvafa/status/2014813738897973563"
+  - "https://x.com/behnam_chegini/status/2014972049035260415"
 persian_name: ایمان فرعی

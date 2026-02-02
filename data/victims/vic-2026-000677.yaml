@@ -2,7 +2,12 @@
 # Victim Documentation - Mehdi Delkhoush
 # ==========================================
 
-photo: vic-2026-000677.jpg
+photo:
+  - "vic-2026-000677.jpg"
+  - "vic-2026-74e6260446da.jpg"
+  - "vic-2026-21efa50dedca.jpg"
+  - "vic-2026-adf3640a80f3.jpg"
+  - "vic-2026-9b8d8279b2c8.jpg"
 name: Mehdi Delkhoush
 birth_date: ""
 birth_province: ""
@@ -11,7 +16,7 @@ gender: Male
 age: 23
 occupation: ""
 country: Iran
-incident_province: Rasht
+incident_province: ""
 incident_city: Pasikhan
 incident_address: Pusikhaneh
 date_of_death: "2026-01-19"
@@ -24,6 +29,7 @@ description: |-
 
   23 years old, killed by the Islamic Republic regime in Pasikhan area of Rasht
 source_type: Social Media
-source_social_media_link: https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/Daikatuo/status/2011452789310824589, https://t.me/RememberTheirNames/246
-child: false
+source_social_media_link:
+  - "https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/Daikatuo/status/2011452789310824589, https://t.me/RememberTheirNames/246"
+  - "https://x.com/Daikatuo/status/2011452789310824589"
 persian_name: مهدی دلخوش

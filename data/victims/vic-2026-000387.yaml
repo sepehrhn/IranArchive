@@ -2,7 +2,10 @@
 # Victim Documentation - Mohsen Rezaei
 # ==========================================
 
-photo: vic-2026-000387.jpg
+photo:
+  - "vic-2026-000387.jpg"
+  - "vic-2026-736ca41e7ba5.jpg"
+  - "vic-2026-000746.jpg"
 name: Mohsen Rezaei
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Shot with live ammunition in the Masken neighborhood of Kermanshah. Reportedly shot in the leg and died from severe bleeding.
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2014730424358944897
-child: false
+source_social_media_link:
+  - "https://x.com/indypersian/status/2014730424358944897"
+  - "https://x.com/allahbakhshii/status/2013882320428597386"
 persian_name: محسن رضایی

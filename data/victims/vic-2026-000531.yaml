@@ -2,27 +2,34 @@
 # Victim Documentation - Amir Naderi
 # ==========================================
 
-photo: vic-2026-000531.jpg
+photo:
+  - "vic-2026-000531.jpg"
+  - "vic-2026-75d28e9f6fbc.jpg"
+  - "vic-2026-4ca0aa0e5ee0.jpg"
+  - "vic-2026-c92f9267cb87.jpg"
+  - "vic-2026-68bfad11e990.jpg"
 name: Amir Naderi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: 27
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Kermanshah
 incident_city: Islamabad-e Gharb
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
-status: Killed
+status: "Missing"
 description: |
   Shot with live ammunition by government forces during popular protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/manotonews/status/2014420299731615946
-  - https://x.com/HengawO/status/2012925250128810138
-  - https://x.com/KurdistanHRN/status/2014745842821824937
-child: false
+  - "https://x.com/manotonews/status/2014420299731615946"
+  - "https://x.com/HengawO/status/2012925250128810138"
+  - "https://x.com/KurdistanHRN/status/2014745842821824937"
+  - "https://x.com/hiwa_life/status/2014789505639755848"
+  - "https://x.com/Aryammehr_2/status/2014713558991507464"
+  - "https://x.com/allahbakhshii/status/2014703432146227558"

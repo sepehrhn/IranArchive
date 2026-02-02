@@ -2,7 +2,10 @@
 # Victim Documentation - Omid Ollahdad
 # ==========================================
 
-photo: vic-2026-2139987.jpg
+photo:
+  - "vic-2026-2139987.jpg"
+  - "vic-2026-d606ba43e7cf.jpg"
+  - "vic-2026-93c4821a80c6.jpg"
 name: Omid Ollahdad
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,10 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot directly in the neck by security forces of the regime during protests.
+description: Shot directly in the neck by security forces of the regime during protests.
 source_type: Social Media
-source_social_media_link: https://www.instagram.com/p/DUBSIcogBAS, https://t.me/RememberTheirNames/1455
-child: false
+source_social_media_link:
+  - "https://www.instagram.com/p/DUBSIcogBAS, https://t.me/RememberTheirNames/1455"
+  - "https://www.instagram.com/p/DUBSIcogBAS"
+  - "https://t.me/RememberTheirNames/1455"
 persian_name: امید الله‌داد

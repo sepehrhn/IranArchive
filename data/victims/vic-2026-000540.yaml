@@ -2,7 +2,9 @@
 # Victim Documentation - Amirmohammad Ostaddoost
 # ==========================================
 
-photo: vic-2026-000540.jpg
+photo:
+  - "vic-2026-000540.jpg"
+  - "vic-2026-606473d282d0.jpg"
 name: Amirmohammad Ostaddoost
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Shot with military bullet by security forces during Thursday protests
 source_type: Social Media
-source_social_media_link: https://x.com/iranintl/status/2012801949318390052, https://x.com/pegah76Fz/status/2014676929555644699, https://t.me/RememberTheirNames/736
-child: false
+source_social_media_link:
+  - "https://x.com/iranintl/status/2012801949318390052, https://x.com/pegah76Fz/status/2014676929555644699, https://t.me/RememberTheirNames/736"
+  - "https://x.com/iranintl/status/2012801949318390052"
 persian_name: امیرمحمد استاددوست

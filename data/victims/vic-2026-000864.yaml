@@ -2,7 +2,17 @@
 # Victim Documentation - Vahid Rahimi
 # ==========================================
 
-photo: vic-2026-000864.jpg
+photo:
+  - "vic-2026-000864.jpg"
+  - "vic-2026-f0d001360206.jpg"
+  - "vic-2026-002203.jpg"
+  - "vic-2026-8b070c4f0fca.jpg"
+  - "vic-2026-2140174.jpg"
+  - "vic-2026-bae93f1fc02a.jpg"
+  - "vic-2026-03506d3ef198.jpg"
+  - "vic-2026-9ffafd939a34.jpg"
+  - "vic-2026-17058f71ca21.jpg"
+  - "vic-2026-f7e616ed459a.jpg"
 name: Vahid Rahimi
 birth_date: ""
 birth_province: ""
@@ -11,7 +21,7 @@ gender: Male
 age: 45
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-08"
@@ -21,6 +31,7 @@ status: Killed
 description: |
   Killed during protests
 source_type: Social Media
-source_social_media_link: https://x.com/loabatk/status/2011890318480982157
-child: false
+source_social_media_link:
+  - "https://x.com/loabatk/status/2011890318480982157"
+  - "https://x.com/becrebb/status/2016724650223653340"
 persian_name: وحید رحیمی

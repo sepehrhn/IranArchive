@@ -2,13 +2,16 @@
 # Victim Documentation - Mohammad Matin Mosleh
 # ==========================================
 
-photo: vic-2026-000958.jpg
+photo:
+  - "vic-2026-000958.jpg"
+  - "vic-2026-126e0ea807fc.jpg"
+  - "vic-2026-6f21f241aec5.jpg"
 name: Mohammad Matin Mosleh
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 24
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Killed by government forces during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/HengawO/status/2014294428643389752, https://t.me/RememberTheirNames/610
-child: false
+source_social_media_link:
+  - "https://x.com/HengawO/status/2014294428643389752, https://t.me/RememberTheirNames/610"
+  - "https://x.com/HengawO/status/2014294428643389752"
+  - "https://x.com/kyokushinsoofi/status/2017561593970561295"
 persian_name: محمد متین مصلح

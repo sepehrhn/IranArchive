@@ -2,7 +2,11 @@
 # Victim Documentation - Mohammad Reza Maskin-navaz
 # ==========================================
 
-photo: vic-2026-2139968.jpg
+photo:
+  - "vic-2026-2139968.jpg"
+  - "vic-2026-a5b0f26a209a.jpg"
+  - "vic-2026-82b2f59f9a0f.jpg"
+  - "vic-2026-7ef7eb82fe7a.jpg"
 name: Mohammad Reza Maskin-navaz
 birth_date: ""
 birth_province: ""
@@ -18,9 +22,11 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot from behind near the neck in the Haft Houz area of Tehran on the evening of 18 Dey 1404. He was 34 years old, single, worked as a carpenter in a cabinet-making workshop. Described by those close to him as very kind, hardworking, and always smiling and cheerful.
+description: Shot from behind near the neck in the Haft Houz area of Tehran on the evening of 18 Dey 1404. He was 34 years old, single, worked as a carpenter in a cabinet-making workshop. Described by those close to him as very kind, hardworking, and always smiling and cheerful.
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2016195350567043519, https://x.com/i/status/2016195350567043519, https://t.me/RememberTheirNames/1491
-child: false
+source_social_media_link:
+  - "https://x.com/iranwire/status/2016195350567043519, https://x.com/i/status/2016195350567043519, https://t.me/RememberTheirNames/1491"
+  - "https://x.com/iranwire/status/2016195350567043519"
+  - "https://x.com/i/status/2016195350567043519"
+  - "https://t.me/RememberTheirNames/1491"
 persian_name: محمدرضا مسکین‌نواز

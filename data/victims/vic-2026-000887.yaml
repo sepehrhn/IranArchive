@@ -2,7 +2,9 @@
 # Victim Documentation - Mobin Yaghoubzadeh
 # ==========================================
 
-photo: vic-2026-000887.jpg
+photo:
+  - "vic-2026-000887.jpg"
+  - "vic-2026-cebb7f02dc46.jpg"
 name: Mobin Yaghoubzadeh
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Shot directly by Islamic Republic forces with an AK-47 during the national uprising.
 source_type: Social Media
-source_social_media_link: https://x.com/IranProtestsCom/status/2011457118902137106, https://t.me/RememberTheirNames/62
-child: true
+source_social_media_link:
+  - "https://x.com/IranProtestsCom/status/2011457118902137106, https://t.me/RememberTheirNames/62"
+  - "https://x.com/IranProtestsCom/status/2011457118902137106"
 persian_name: مبین یعقوب‌زاده

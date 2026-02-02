@@ -2,7 +2,13 @@
 # Victim Documentation - Hossein Hoveida
 # ==========================================
 
-photo: vic-2026-001296.jpg
+photo:
+  - "vic-2026-001296.jpg"
+  - "vic-2026-51f918231315.jpg"
+  - "vic-2026-38056b37ce11.jpg"
+  - "vic-2026-2652d1b3ccac.jpg"
+  - "vic-2026-d30f60f17ba5.jpg"
+  - "vic-2026-974837b9fe3c.jpg"
 name: Hossein Hoveida
 birth_date: ""
 birth_province: ""
@@ -23,6 +29,7 @@ description: |
 
   Shot by government forces in Tehran. Severely injured by a war bullet in the Afsariyeh neighborhood of Tehran on the evening of 18 Dey, in the area below his left eye.
 source_type: Social Media
-source_social_media_link: https://x.com/tavaana/status/2015227950455771513, https://x.com/monfaredashkan/status/2015181332733989118, https://x.com/Tavaana/status/2015227950455771513, https://x.com/MonfaredAshkan/status/2015181332733989118, https://t.me/RememberTheirNames/457
-child: false
+source_social_media_link:
+  - "https://x.com/tavaana/status/2015227950455771513, https://x.com/monfaredashkan/status/2015181332733989118, https://x.com/Tavaana/status/2015227950455771513, https://x.com/MonfaredAshkan/status/2015181332733989118, https://t.me/RememberTheirNames/457"
+  - "https://x.com/Tavaana/status/2015227950455771513"
 persian_name: حسین هویدا

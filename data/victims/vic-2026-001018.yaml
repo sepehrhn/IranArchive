@@ -2,7 +2,10 @@
 # Victim Documentation - Ali Shirafkan
 # ==========================================
 
-photo: vic-2026-001018.jpg
+photo:
+  - "vic-2026-001018.jpg"
+  - "vic-2026-f5c246fd24f0.jpg"
+  - "vic-2026-38bc0ee954e0.jpg"
 name: Ali Shirafkan
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Son of a disabled veteran, a very respectable man of Borujerd origin. Technician killed in Tehran.
 source_type: Social Media
-source_social_media_link: https://x.com/tonyfreeman2015/status/2014481868599570858, https://t.me/RememberTheirNames/334, https://x.com/Aryahashemi1/status/2016142598713311379, https://x.com/TonyFreeman2015/status/2014481868599570858
-child: false
+source_social_media_link:
+  - "https://x.com/tonyfreeman2015/status/2014481868599570858, https://t.me/RememberTheirNames/334, https://x.com/Aryahashemi1/status/2016142598713311379, https://x.com/TonyFreeman2015/status/2014481868599570858"
+  - "https://x.com/TonyFreeman2015/status/2014481868599570858"
+  - "https://x.com/tonyfreeman2015/status/2014481868599570858"
 persian_name: علی شیرافکن

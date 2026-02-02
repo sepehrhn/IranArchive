@@ -2,24 +2,29 @@
 # Victim Documentation - Hamed Hamidiyan
 # ==========================================
 
-photo: vic-2026-001930.jpg
+photo:
+  - "vic-2026-001930.jpg"
+  - "vic-2026-c2fa73dc5712.jpg"
+  - "vic-2026-1aa4017e101e.jpg"
 name: Hamed Hamidiyan
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
-description: |+
+description: ""
 source_type: Social Media
 source_social_media_link:
-  - https://t.me/RememberTheirNames/1284
-child: false
+  - "https://t.me/RememberTheirNames/1284"
+  - "https://x.com/Sssccpp/status/2015904296294928468"
+  - "https://x.com/HeKasrehCrisis/status/2015899380016898530"
+  - "https://x.com/maria74rzi/status/2016124354325590111"

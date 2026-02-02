@@ -2,7 +2,12 @@
 # Victim Documentation - Erfan Hasannejad
 # ==========================================
 
-photo: vic-2026-2140112.jpg
+photo:
+  - "vic-2026-2140112.jpg"
+  - "vic-2026-da9fb74507e1.jpg"
+  - "vic-2026-c8a2d45a3490.png"
+  - "vic-2026-ddd118933d92.jpg"
+  - "vic-2026-deb4c934852e.jpg"
 name: Erfan Hasannejad
 birth_date: ""
 birth_province: ""
@@ -18,9 +23,9 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  17-year-old from Mashhad who was wounded on Haft Tir Street. The first bullet hit his side causing bleeding but he was still alive. When bodies were transported by truck to Behesht Reza cemetery in Mashhad, they saw the boy was still alive and shot him with a finishing shot to kill him.
+description: 17-year-old from Mashhad who was wounded on Haft Tir Street. The first bullet hit his side causing bleeding but he was still alive. When bodies were transported by truck to Behesht Reza cemetery in Mashhad, they saw the boy was still alive and shot him with a finishing shot to kill him.
 source_type: Social Media
-source_social_media_link: https://x.com/i/status/2016363127105884627
-child: true
+source_social_media_link:
+  - "https://x.com/i/status/2016363127105884627"
+  - "https://x.com/fuckeduprainman/status/2017336591862087850"
 persian_name: عرفان حسن نژاد

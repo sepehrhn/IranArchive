@@ -2,7 +2,9 @@
 # Victim Documentation - Ali Sharif-Hosseini
 # ==========================================
 
-photo: vic-2026-2139857.jpg
+photo:
+  - "vic-2026-2139857.jpg"
+  - "vic-2026-c9dd6b996bff.jpg"
 name: Ali Sharif-Hosseini
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Shadabad district of Tehran
+description: Died in Shadabad district of Tehran
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1621
-child: false
 persian_name: علی شریف‌حسینی

@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Javad Heydari Lor
 # ==========================================
 
-photo: vic-2026-000372.jpg
+photo:
+  - "vic-2026-000372.jpg"
+  - "vic-2026-af4345f4f6ba.jpg"
 name: Mohammad Javad Heydari Lor
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   32-year-old MMA athlete killed by direct gunfire from security forces while helping an injured protester. His body was later buried under security measures, and his social media content was removed by security forces.
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2014573359284039831, https://x.com/iranintlsport/status/2015504213363609636, https://t.me/RememberTheirNames/933
-child: false
+source_social_media_link:
+  - "https://x.com/hirman__/status/2014573359284039831, https://x.com/iranintlsport/status/2015504213363609636, https://t.me/RememberTheirNames/933"
+  - "https://x.com/hirman__/status/2014573359284039831"
 persian_name: محمدجواد حیدری لر

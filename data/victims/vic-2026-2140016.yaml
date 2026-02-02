@@ -2,7 +2,8 @@
 # Victim Documentation - Syed Hussein (Arian) Hosseini
 # ==========================================
 
-photo: vic-2026-2140016.jpg
+photo:
+  - vic-2026-2140016.jpg
 name: Syed Hussein (Arian) Hosseini
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Kuchesfehan on January 8, 2026. Also known by the name Arian.
+description: Died in Kuchesfehan on January 8, 2026. Also known by the name Arian.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1623
-child: false
 persian_name: سید حسین (آرین) حسینی

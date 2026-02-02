@@ -2,7 +2,10 @@
 # Victim Documentation - Ali Asghar Alizadeh
 # ==========================================
 
-photo: vic-2026-2139851.jpg
+photo:
+  - "vic-2026-2139851.jpg"
+  - "vic-2026-8e4981437933.jpg"
+  - "vic-2026-32b61acb14e8.jpg"
 name: Ali Asghar Alizadeh
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed by security forces
+description: Killed by security forces
 source_type: Social Media
 source_social_media_link: https://x.com/iranintlbrk/status/2015687581061489099
-child: false
 persian_name: علی اصغر علیزاده

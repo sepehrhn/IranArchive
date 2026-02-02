@@ -2,7 +2,13 @@
 # Victim Documentation - Fardin Ghanbari
 # ==========================================
 
-photo: vic-2026-000127.jpg
+photo:
+  - "vic-2026-000127.jpg"
+  - "vic-2026-c679c12f2aa6.jpg"
+  - "vic-2026-63196f8dfac7.jpg"
+  - "vic-2026-bf7a6ea4e880.jpg"
+  - "vic-2026-72ccccdab45f.png"
+  - "vic-2026-5e6b6fbe2ba6.jpg"
 name: Fardin Ghanbari
 birth_date: ""
 birth_province: ""
@@ -21,6 +27,11 @@ status: Killed
 description: |
   Barista at the cafe who was injured the same night as Mohammad Ebrahimi and died after several days in hospital due to severity of injuries
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2012258882148540748, https://x.com/HengawO/status/2012283597374234675, https://x.com/walterakam/status/2015354087114424337, https://x.com/Walterakam/status/2015354087114424337, https://t.me/RememberTheirNames/1471
-child: true
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2012258882148540748, https://x.com/HengawO/status/2012283597374234675, https://x.com/walterakam/status/2015354087114424337, https://x.com/Walterakam/status/2015354087114424337, https://t.me/RememberTheirNames/1471"
+  - "https://x.com/hyrcanihrm/status/2012258882148540748"
+  - "https://x.com/walterakam/status/2015354087114424337"
+  - "https://x.com/Walterakam/status/2015354087114424337"
+  - "https://t.me/RememberTheirNames/1471"
+  - "https://x.com/hekasrehcrisis/status/2017451662307098927"
 persian_name: فردین قنبری

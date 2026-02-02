@@ -2,7 +2,11 @@
 # Victim Documentation - Alireza Parsafar
 # ==========================================
 
-photo: vic-2026-000237.jpg
+photo:
+  - "vic-2026-000237.jpg"
+  - "vic-2026-ad0e765552f1.jpg"
+  - "vic-2026-ffd0ce024b54.jpg"
+  - "vic-2026-1deae9aa24aa.jpg"
 name: Alireza Parsafar
 birth_date: ""
 birth_province: ""
@@ -11,7 +15,7 @@ gender: Male
 age: 17
 occupation: ""
 country: Iran
-incident_province: Borazjan County
+incident_province: ""
 incident_city: Abpuyeh
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -21,6 +25,8 @@ status: Killed
 description: |
   Killed by the suppression forces of the Islamic Republic during protests
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2013736962960531665, https://www.instagram.com/p/DTv7er6DMJ_, https://t.me/RememberTheirNames/451
-child: true
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2013736962960531665, https://www.instagram.com/p/DTv7er6DMJ_, https://t.me/RememberTheirNames/451"
+  - "https://x.com/allahbakhshii/status/2013736962960531665"
+  - "https://www.instagram.com/p/DTv7er6DMJ_"
 persian_name: علیرضا پارسافر

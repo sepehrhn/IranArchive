@@ -2,7 +2,10 @@
 # Victim Documentation - Farhad Sohrab
 # ==========================================
 
-photo: vic-2026-000281.jpg
+photo:
+  - "vic-2026-000281.jpg"
+  - "vic-2026-16d5bad2ffa0.jpg"
+  - "vic-2026-f51f6b7873b2.jpg"
 name: Farhad Sohrab
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Shot directly by government forces during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2013627582810571109, https://t.me/RememberTheirNames/420
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2013627582810571109, https://t.me/RememberTheirNames/420"
+  - "https://x.com/manotonews/status/2013627582810571109"
 persian_name: فرهاد سهراب

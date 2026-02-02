@@ -2,7 +2,8 @@
 # Victim Documentation - Mohammad Javad Molavardi
 # ==========================================
 
-photo: vic-2026-000100.jpg
+photo:
+  - vic-2026-000100.jpg
 name: Mohammad Javad Molavardi
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Died after going to the hospital to remove pellets from his body.
 source_type: Social Media
 source_social_media_link: https://x.com/khoshnevisnaser/status/2014732590473703710, https://t.me/RememberTheirNames/12
-child: false
 persian_name: محمدجواد ملاوردی

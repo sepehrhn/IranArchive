@@ -2,20 +2,21 @@
 # Victim Documentation - Maziyar Samimi
 # ==========================================
 
-photo: vic-2026-001253.jpg
+photo:
+  - vic-2026-001253.jpg
 name: Maziyar Samimi
-persian_name: "مازیار صمیمی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
+persian_name: مازیار صمیمی
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 28
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_province: ""
+incident_city: ""
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -27,4 +28,3 @@ source_type: Social Media
 source_social_media_link:
   - https://x.com/hyrcanihrm/status/2014440782711935030
   - https://x.com/hengawo/status/2015022203226513772
-child: false

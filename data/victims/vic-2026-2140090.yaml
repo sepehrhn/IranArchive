@@ -2,7 +2,9 @@
 # Victim Documentation - Ahmad Raeisi Nafchi
 # ==========================================
 
-photo: vic-2026-2140090.jpg
+photo:
+  - "vic-2026-2140090.jpg"
+  - "vic-2026-527c9cdf7a75.png"
 name: Ahmad Raeisi Nafchi
 birth_date: ""
 birth_province: ""
@@ -11,16 +13,17 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Najafabad
+incident_province: ""
 incident_city: Yazdanshahr
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot in the heart by security forces (suppressors). From Yazdanshahr, Najafabad, Isfahan.
+description: Shot in the heart by security forces (suppressors). From Yazdanshahr, Najafabad, Isfahan.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2016548415228826048, https://x.com/VIsfehan/status/2016548415228826048
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2016548415228826048, https://x.com/VIsfehan/status/2016548415228826048"
+  - "https://x.com/visfehan/status/2016548415228826048"
+  - "https://x.com/VIsfehan/status/2016548415228826048"
 persian_name: احمد رئیسی نافچی

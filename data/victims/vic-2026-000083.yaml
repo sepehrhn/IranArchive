@@ -2,7 +2,9 @@
 # Victim Documentation - Romina Momeni Boroujeni
 # ==========================================
 
-photo: vic-2026-000083.jpg
+photo:
+  - "vic-2026-000083.jpg"
+  - "vic-2026-84df7b5cbd2a.jpg"
 name: Romina Momeni Boroujeni
 birth_date: ""
 birth_province: ""
@@ -17,9 +19,8 @@ incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: Gunshot
-status: Killed
+status: "Injured"
 description: |
   Shot during protest by Iran’s Islamic Republic forces, resulting in paralysis.
 source_type: Social Media
 source_social_media_link: https://x.com/longlosthills/status/2014432565675884987
-child: false

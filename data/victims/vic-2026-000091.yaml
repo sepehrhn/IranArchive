@@ -2,7 +2,10 @@
 # Victim Documentation - Amir Ali Parvizi
 # ==========================================
 
-photo: vic-2026-000091.jpg
+photo:
+  - "vic-2026-000091.jpg"
+  - "vic-2026-d8c30e5b49f5.jpg"
+  - "vic-2026-c1a6ca48e782.jpg"
 name: Amir Ali Parvizi
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,8 @@ status: Killed
 description: |
   Shot in the legs by government forces on January 9, developed sepsis leading to brain death, died from complications
 source_type: Social Media
-source_social_media_link: https://x.com/shahramsadidi/status/2014083908921335998, https://x.com/avatoday_news/status/2014430123085201469, https://x.com/HengawO/status/2014781999668437226, https://t.me/RememberTheirNames/563
-child: true
+source_social_media_link:
+  - "https://x.com/shahramsadidi/status/2014083908921335998, https://x.com/avatoday_news/status/2014430123085201469, https://x.com/HengawO/status/2014781999668437226, https://t.me/RememberTheirNames/563"
+  - "https://x.com/shahramsadidi/status/2014083908921335998"
+  - "https://x.com/azambahrami/status/2014751904341848573"
 persian_name: امیرعلی پرویزی

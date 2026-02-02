@@ -2,7 +2,8 @@
 # Victim Documentation - Mostafa
 # ==========================================
 
-photo: ""
+photo:
+  - ""
 name: Mostafa
 birth_date: ""
 birth_province: ""
@@ -22,4 +23,3 @@ description: |
   Killed alongside Shayan Asadollahi and Vahab Musavi/Ghaedi during protests
 source_type: Social Media
 source_social_media_link: https://en.wikipedia.org/wiki/Killing_of_Shayan_Asadollahi
-child: true

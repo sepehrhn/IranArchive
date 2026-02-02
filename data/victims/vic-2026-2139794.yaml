@@ -2,7 +2,11 @@
 # Victim Documentation - Hesam Tabasi
 # ==========================================
 
-photo: vic-2026-2139794.jpg
+photo:
+  - "vic-2026-2139794.jpg"
+  - "vic-2026-2140121.jpg"
+  - "vic-2026-cb323f917325.png"
+  - "vic-2026-3d2d85b3454c.png"
 name: Hesam Tabasi
 birth_date: ""
 birth_province: ""
@@ -18,9 +22,9 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot directly in the heart with a bullet. Went missing for one week before his body was found. Buried on 26 Dey (January 16, 2026)
+description: Shot directly in the heart with a bullet. Went missing for one week before his body was found. Buried on 26 Dey (January 16, 2026)
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2016564828802891918
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2016564828802891918"
+  - "https://x.com/HeKasrehCrisis/status/2016710963051876587"
 persian_name: حسام طبسی

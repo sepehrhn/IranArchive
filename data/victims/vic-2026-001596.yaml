@@ -2,7 +2,8 @@
 # Victim Documentation - Mohammad Reza Ayubi
 # ==========================================
 
-photo: vic-2026-001596.jpg
+photo:
+  - vic-2026-001596.jpg
 name: Mohammad Reza Ayubi
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Died in Isfahan during Dey 1404 protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/573
-child: false
 persian_name: محمدرضا ایوبی

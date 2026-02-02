@@ -2,7 +2,8 @@
 # Victim Documentation - Mojtaba Beigi
 # ==========================================
 
-photo: vic-2026-001769.jpg
+photo:
+  - vic-2026-001769.jpg
 name: Mojtaba Beigi
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Killed by Khamenei's executioners.
 source_type: Social Media
 source_social_media_link: https://x.com/samouraigiobo/status/2015891000930058354, https://t.me/RememberTheirNames/1412
-child: false
 persian_name: مجتبی بیگی

@@ -2,7 +2,8 @@
 # Victim Documentation - Pooya Farsi
 # ==========================================
 
-photo: vic-2026-002142.jpg
+photo:
+  - vic-2026-002142.jpg
 name: Pooya Farsi
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Died in Tehran during Dey 1404 (December 2025 - January 2026). Specific date and cause of death not provided.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1340
-child: false
 persian_name: پویا فارسی

@@ -2,20 +2,25 @@
 # Victim Documentation - Arvin Vafaie
 # ==========================================
 
-photo: vic-2026-001046.jpg
+photo:
+  - "vic-2026-001046.jpg"
+  - "vic-2026-002164.jpg"
+  - "vic-2026-b17aad5e13f7.jpg"
+  - "vic-2026-92d9c8a928bc.png"
+  - "vic-2026-d735a0056f0d.jpg"
 name: Arvin Vafaie
-persian_name: "آروین وفایی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+persian_name: آروین وفایی
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 17
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,5 +28,7 @@ description: |
   Teenager killed in Tehran on Thursday night at the second street of Niru Havai.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/alborz_z/status/2015026606264164650
-child: false
+  - "https://x.com/alborz_z/status/2015026606264164650"
+  - "https://x.com/alborz_z/status/2015026606264164650, https://x.com/missmarpel75/status/2015078405209731210, https://x.com/HengawO/status/2015193081209934007, https://t.me/RememberTheirNames/1132, https://x.com/HeKasrehCrisis/status/2015904345271759189"
+  - "https://x.com/HengawO/status/2015193081209934007"
+  - "https://x.com/HeKasrehCrisis/status/2015904345271759189"

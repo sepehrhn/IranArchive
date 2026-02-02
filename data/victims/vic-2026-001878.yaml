@@ -2,24 +2,27 @@
 # Victim Documentation - Amirhossein Mohammadi
 # ==========================================
 
-photo: vic-2026-001878.jpg
+photo:
+  - "vic-2026-001878.jpg"
+  - "vic-2026-c8e6bcbb696d.jpg"
+  - "vic-2026-412f7b8f79bd.jpg"
 name: Amirhossein Mohammadi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
-description: |+
+description: ""
 source_type: Social Media
 source_social_media_link:
-  - https://t.me/RememberTheirNames/1210
-child: false
+  - "https://t.me/RememberTheirNames/1210"
+  - "https://x.com/hekasrehcrisis/status/2016356004917641664"

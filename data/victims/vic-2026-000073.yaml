@@ -2,13 +2,18 @@
 # Victim Documentation - Ali Goodarzi
 # ==========================================
 
-photo: vic-2026-000073.jpg
+photo:
+  - "vic-2026-000073.jpg"
+  - "vic-2026-9838bfe3ab7c.jpg"
+  - "vic-2026-398826717902.jpg"
+  - "vic-2026-6d8c41604601.jpg"
+  - "vic-2026-e9938b664546.jpg"
 name: Ali Goodarzi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 57
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,6 +29,13 @@ description: |-
 
   Killed during protests in Khorramabad
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2013678441258737739, https://x.com/shabe_nazz/status/2014760191766548574, https://x.com/ChaawTimes/status/2014295933492646162, https://x.com/hichkasofficial/status/2014806397293134048, https://x.com/shabe_nazz/status/2015088047256141969, https://t.me/RememberTheirNames/979
-child: false
+source_social_media_link:
+  - "https://x.com/fseifikaran/status/2013678441258737739, https://x.com/shabe_nazz/status/2014760191766548574, https://x.com/ChaawTimes/status/2014295933492646162, https://x.com/hichkasofficial/status/2014806397293134048, https://x.com/shabe_nazz/status/2015088047256141969, https://t.me/RememberTheirNames/979"
+  - "https://x.com/fseifikaran/status/2013678441258737739"
+  - "https://x.com/ChaawTimes/status/2014295933492646162"
+  - "https://t.me/javanmardi77/154106"
+  - "https://x.com/i/status/2017241298441244716"
+  - "https://x.com/hekasrehcrisis/status/2017241298441244716"
+  - "https://x.com/hichkasofficial/status/2014806397293134048"
+  - "https://x.com/auslaendermann/status/2008974475589767287"
 persian_name: علی گودرزی

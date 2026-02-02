@@ -2,7 +2,11 @@
 # Victim Documentation - Morteza Aslani
 # ==========================================
 
-photo: vic-2026-000121.jpg
+photo:
+  - "vic-2026-000121.jpg"
+  - "vic-2026-001171.jpg"
+  - "vic-2026-89ebbb5f3608.jpg"
+  - "vic-2026-96c9e61a8f10.jpg"
 name: Morteza Aslani
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,7 @@ status: Killed
 description: |
   Shot in the face with a war bullet in Chahar Rah Tirandaz, Tehran.
 source_type: Social Media
-source_social_media_link: https://x.com/banafshehviola/status/2014725879323361459, https://t.me/RememberTheirNames/1026
-child: false
+source_social_media_link:
+  - "https://x.com/banafshehviola/status/2014725879323361459, https://t.me/RememberTheirNames/1026"
+  - "https://x.com/hengawo/status/2012846909497430064, https://x.com/HengawO/status/2012846909497430064, https://t.me/RememberTheirNames/377"
 persian_name: مرتضی اصلانی

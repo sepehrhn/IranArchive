@@ -2,7 +2,10 @@
 # Victim Documentation - Hadi Sh'ah-vali
 # ==========================================
 
-photo: vic-2026-001086.jpg
+photo:
+  - "vic-2026-001086.jpg"
+  - "vic-2026-e3e5c95a2cf3.jpg"
+  - "vic-2026-93012f43fd71.jpg"
 name: Hadi Sh'ah-vali
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: 42
 occupation: ""
 country: Iran
-incident_province: Dezful
+incident_province: ""
 incident_city: Qaleh-ye Seid
 incident_address: ""
 date_of_death: "2026-01-01"
@@ -24,6 +27,8 @@ description: |-
 
   Father of three children, killed after being shot twice from behind in the head and neck.
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2015161390051602774, https://x.com/monfaredashkan/status/2015163825948164226, https://x.com/MonfaredAshkan/status/2015161390051602774, https://x.com/MonfaredAshkan/status/2015163825948164226, https://x.com/missmarpel75/status/2015358120512331798, https://x.com/Far_zandehIran/status/2015672068793331778, https://x.com/far_zandehiran/status/2015741119208808648, https://t.me/RememberTheirNames/1440
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2015161390051602774, https://x.com/monfaredashkan/status/2015163825948164226, https://x.com/MonfaredAshkan/status/2015161390051602774, https://x.com/MonfaredAshkan/status/2015163825948164226, https://x.com/missmarpel75/status/2015358120512331798, https://x.com/Far_zandehIran/status/2015672068793331778, https://x.com/far_zandehiran/status/2015741119208808648, https://t.me/RememberTheirNames/1440"
+  - "https://x.com/MonfaredAshkan/status/2015161390051602774"
+  - "https://t.me/RememberTheirNames/1440"
 persian_name: هادی شه‌ولی

@@ -2,19 +2,26 @@
 # Victim Documentation - Farhad Eyozi
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-001321.jpg"
+  - "vic-2026-a85be7f1c4ab.jpg"
+  - "vic-2026-c91e0eaf7f3e.jpg"
+  - "vic-2026-4caca75d99ef.jpg"
+  - "vic-2026-9e28f1eabb17.jpg"
+  - "vic-2026-4c41f8ffc1e0.jpg"
 name: Farhad Eyozi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
+age: 30
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_province: ""
+incident_city: "Lordegan"
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +29,6 @@ description: |
   Killed during nationwide protests
 source_type: Social Media
 source_social_media_link:
-  - https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/
-child: false
+  - "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/"
+  - "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/_ziZi_Zizi/status/2015208544652468277, https://t.me/RememberTheirNames/73"
+  - "https://x.com/_ziZi_Zizi/status/2015208544652468277"

@@ -2,7 +2,16 @@
 # Victim Documentation - Ali Moradi
 # ==========================================
 
-photo: vic-2026-000494.jpg
+photo:
+  - "vic-2026-000494.jpg"
+  - "vic-2026-bb66fa5163af.jpg"
+  - "vic-2026-000549.jpg"
+  - "vic-2026-e09e74b21ba2.jpg"
+  - "vic-2026-3b2ac57e3c89.jpg"
+  - "vic-2026-4627c6775395.jpg"
+  - "vic-2026-a629e0347496.jpg"
+  - "vic-2026-e3e8fbf59e27.jpg"
+  - "vic-2026-a9822d1d2364.jpg"
 name: Ali Moradi
 birth_date: ""
 birth_province: ""
@@ -11,7 +20,7 @@ gender: Male
 age: 42
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Hesar
 incident_address: Hesar
 date_of_death: "2026-01-08"
@@ -24,6 +33,13 @@ description: |-
 
   Mentioned as 'Javid Nam' (eternal name), a common eulogy for martyrs in Iran. The context implies he is a victim of the protests.
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2013382616007733533, https://x.com/HengawO/status/2013961319469158812, https://x.com/FSeifikaran/status/2015453470657032264, https://x.com/pegah76Fz/status/2014677489809760504, https://t.me/RememberTheirNames/1361, https://t.me/RememberTheirNames/319, https://x.com/hekasrehcrisis/status/2016609434261205212
-child: true
+source_social_media_link:
+  - "https://x.com/iranwire/status/2013382616007733533, https://x.com/HengawO/status/2013961319469158812, https://x.com/FSeifikaran/status/2015453470657032264, https://x.com/pegah76Fz/status/2014677489809760504, https://t.me/RememberTheirNames/1361, https://t.me/RememberTheirNames/319"
+  - "https://x.com/pegah76Fz/status/2014677489809760504"
+  - "https://www.instagram.com/p/dt3ncguciar"
+  - "https://x.com/hengawo/status/2011800517320577327"
+  - "https://x.com/HengawO/status/2012472910401642719"
+  - "https://x.com/iranwire/status/2013382616007733533"
+  - "https://x.com/HengawO/status/2013961319469158812"
+  - "https://x.com/hengawo/status/2017210801199669755"
 persian_name: علی مرادی

@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Hossein Khalaj
 # ==========================================
 
-photo: vic-2026-000889.jpg
+photo:
+  - "vic-2026-000889.jpg"
+  - "vic-2026-b59512a09a94.jpg"
+  - "vic-2026-f5f56e6e672c.jpg"
 name: Mohammad Hossein Khalaj
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Shot directly with live ammunition by security forces. His body was returned to his family after a significant payment under heavy security pressure. He worked at a juice and ice cream shop on Sohrwardi Street.
 source_type: Social Media
-source_social_media_link: https://x.com/tavaana/status/2013167394030833908, https://x.com/Tavaana/status/2013167394030833908, https://t.me/RememberTheirNames/440
-child: false
+source_social_media_link:
+  - "https://x.com/tavaana/status/2013167394030833908, https://x.com/Tavaana/status/2013167394030833908, https://t.me/RememberTheirNames/440"
+  - "https://x.com/tavaana/status/2013167394030833908"
+  - "https://x.com/Tavaana/status/2013167394030833908"
 persian_name: محمدحسین خلج

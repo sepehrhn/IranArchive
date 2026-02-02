@@ -2,7 +2,9 @@
 # Victim Documentation - Davood Jalili Lor
 # ==========================================
 
-photo: vic-2026-001675.jpg
+photo:
+  - "vic-2026-001675.jpg"
+  - "vic-2026-81418b21f5b2.jpg"
 name: Davood Jalili Lor
 birth_date: ""
 birth_province: ""
@@ -24,5 +26,4 @@ description: |-
   Shot directly by security forces and died in the same city.
 source_type: Social Media
 source_social_media_link: https://x.com/hirman__/status/2014895839760597241
-child: false
 persian_name: داود جلیلی لر

@@ -2,7 +2,11 @@
 # Victim Documentation - Abbas Amini
 # ==========================================
 
-photo: vic-2026-000996.jpg
+photo:
+  - "vic-2026-000996.jpg"
+  - "vic-2026-2f10c1ae8564.jpg"
+  - "vic-2026-33365eb24fcf.jpg"
+  - "vic-2026-fe7a5a62ebfb.jpg"
 name: Abbas Amini
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,8 @@ description: |-
 
   Shot and killed by agents of the Islamic Republic of Iran while riding on a motorcycle with his father. His father was also killed.
 source_type: Social Media
-source_social_media_link: https://www.instagram.com/p/DT2-huDDpgp, https://x.com/Tavaana/status/2015490267680485758, https://t.me/RememberTheirNames/919
-child: true
+source_social_media_link:
+  - "https://www.instagram.com/p/DT2-huDDpgp, https://x.com/Tavaana/status/2015490267680485758, https://t.me/RememberTheirNames/919"
+  - "https://www.instagram.com/p/DT2-huDDpgp"
+  - "https://x.com/5ogand/status/2018067113999474998"
 persian_name: عباس امینی

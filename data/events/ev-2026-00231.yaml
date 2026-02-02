@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Likely Weekend Solidarity Rally (Unconfirmed)"
+
+featured: true
+
+description: |
+  Solidarity gathering with the Iran uprising. Note: No official flyer is currently indexed, but this location is the standard weekly meeting point for independent (non-MEK) activists on Saturdays.
+  
+  **Tips:** Check 'Woman Life Freedom NYC' or 'PS752 Justice' social channels on Friday night for confirmation. Avoid groups with yellow/purple uniform jackets if you wish to avoid MEK.
+  
+  **Location Details:** North side near the Arch (Fifth Ave terminus). Nearest trains: A/C/E to W 4th St or N/R/W to 8th St.
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: "13:00"
+  end: "2026/02/07"
+  end_time: "15:00"
+
+location:
+  country: "US"
+  city: "New York City"
+  address: "Washington Square Park"
+
+online: []
+
+organizer:
+  name: "Grassroots / Woman Life Freedom NYC (Likely)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

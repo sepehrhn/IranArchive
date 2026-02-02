@@ -2,7 +2,8 @@
 # Victim Documentation - Kiaush Zaree Talab
 # ==========================================
 
-photo: vic-2026-000096.jpg
+photo:
+  - vic-2026-000096.jpg
 name: Kiaush Zaree Talab
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: given the context)
+incident_province: ""
 incident_city: Azari Avenue (presumed to be in Tehran or nearby
 incident_address: Azari Avenue
 date_of_death: ""
@@ -22,5 +23,4 @@ description: |
   Identified as a victim; nature of death not specified in text provided
 source_type: Social Media
 source_social_media_link: https://x.com/mazorangertulip/status/2014004222296285206
-child: false
 persian_name: کیاوش زارع طلب

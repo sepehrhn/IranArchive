@@ -1,16 +1,21 @@
-export type VictimStatus = 'not_verified' | 'verified';
+export type VictimStatus = 'not_verified' | 'verified' | 'Killed' | 'Missing' | string;
 
 export interface Victim {
     id: string;
     name: string;
+    persian_name?: string;
+    birth_date?: string;
     age?: number;
     child?: boolean;
+    gender?: string;
     country: string;
     province?: string;
     city: string;
     date_of_death: string; // ISO YYYY-MM-DD
     date_of_death_precision?: 'Exact' | 'Approximate';
     status: VictimStatus;
+    photos?: string[];
+    // Deprecated: use photos[0] instead
     photo?: string;
     incident_ids: string[];
 

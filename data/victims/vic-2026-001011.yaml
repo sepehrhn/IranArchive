@@ -2,26 +2,29 @@
 # Victim Documentation - Akram Pirgazi
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-efa1eb3acd2c.png"
+  - "vic-2026-2140024.jpg"
 name: Akram Pirgazi
-persian_name: "اکرم پیرگزی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: اکرم پیرگزی
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Female"
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: ''
+incident_province: ""
+incident_city: "Neyshabur, Razavi Khorasan"
+incident_address: ""
+date_of_death: "2026-01-07"
 date_of_death_precision: Exact
 cause_of_death: Unknown
-status: Killed
+status: "Missing"
 description: |
   Killed during nationwide protests
 source_type: Social Media
 source_social_media_link:
-  - https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/
-child: false
+  - "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/"
+  - "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://t.me/RememberTheirNames/77"

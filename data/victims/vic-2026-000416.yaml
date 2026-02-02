@@ -2,19 +2,23 @@
 # Victim Documentation - Pouya Norouzi
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-7dc43c6634f2.jpg"
+  - "vic-2026-001786.jpg"
+  - "vic-2026-28fd79be0695.jpg"
 name: Pouya Norouzi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 28
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Nurabad Mamasani
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +26,7 @@ description: |
   Killed by a sniper from the roof of a shop opposite Pasargad building, Haft-e Tir Boulevard
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/ehsanzareei/status/2014445102333083721
-child: false
+  - "https://x.com/ehsanzareei/status/2014445102333083721"
+  - "https://x.com/EhsanZareei/status/2014445102333083721, https://x.com/EhsanZareei/status/2014779353268142379, https://t.me/RememberTheirNames/762"
+  - "https://x.com/EhsanZareei/status/2014445102333083721"
+  - "https://x.com/rozhenabaloch/status/2016572815869149602"

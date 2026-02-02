@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Reza Heydari
 # ==========================================
 
-photo: vic-2026-001160.jpg
+photo:
+  - "vic-2026-001160.jpg"
+  - "vic-2026-f6f05b33660e.jpg"
 name: Mohammad Reza Heydari
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Killed in the line of duty for the country, as described in a quoted tweet. No specific details provided.
 source_type: Social Media
-source_social_media_link: https://x.com/missmarpel75/status/2014830525232329153, https://t.me/RememberTheirNames/968
-child: false
+source_social_media_link:
+  - "https://x.com/missmarpel75/status/2014830525232329153, https://t.me/RememberTheirNames/968"
+  - "https://x.com/missmarpel75/status/2014830525232329153"
 persian_name: محمدرضا هیودی

@@ -2,13 +2,15 @@
 # Victim Documentation - Abbas Barzookhani
 # ==========================================
 
-photo: vic-2026-001625.jpg
+photo:
+  - "vic-2026-001625.jpg"
+  - "vic-2026-28200b27e70a.jpg"
 name: Abbas Barzookhani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 25
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,5 +26,4 @@ description: |-
   Died during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1313
-child: false
 persian_name: عباس برزوخانی

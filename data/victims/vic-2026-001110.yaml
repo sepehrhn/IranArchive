@@ -2,7 +2,10 @@
 # Victim Documentation - Khodadad Sarlak Chivaiyi
 # ==========================================
 
-photo: vic-2026-001110.png
+photo:
+  - "vic-2026-001110.png"
+  - "vic-2026-86cea33fc7d3.png"
+  - "vic-2026-bddcd140d892.jpg"
 name: Khodadad Sarlak Chivaiyi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Mentioned as a 'Javidnam' (martyr) in Isfahan.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014332861415841824, https://x.com/VIsfehan/status/2014332861415841824, https://t.me/RememberTheirNames/668
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2014332861415841824, https://x.com/VIsfehan/status/2014332861415841824, https://t.me/RememberTheirNames/668"
+  - "https://x.com/visfehan/status/2014332861415841824"
+  - "https://x.com/VIsfehan/status/2014332861415841824"
 persian_name: خداداد سرلک چیوایی

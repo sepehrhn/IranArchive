@@ -2,7 +2,9 @@
 # Victim Documentation - Mostafa Safian
 # ==========================================
 
-photo: vic-2026-000761.jpg
+photo:
+  - "vic-2026-000761.jpg"
+  - "vic-2026-dc4a4a61a45e.jpg"
 name: Mostafa Safian
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: 40
 occupation: ""
 country: Iran
-incident_province: Shahreza
+incident_province: ""
 incident_city: Isfahan province
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -24,6 +26,7 @@ description: |-
 
   Died during protests in Dey 1404
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2014669819996446832, https://t.me/RememberTheirNames/686
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2014669819996446832, https://t.me/RememberTheirNames/686"
+  - "https://t.me/javanmardi77/154307"
 persian_name: مصطفی صفیان

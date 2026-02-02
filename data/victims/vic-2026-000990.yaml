@@ -2,7 +2,10 @@
 # Victim Documentation - Yahya-kia Daliri
 # ==========================================
 
-photo: vic-2026-000990.jpg
+photo:
+  - "vic-2026-000990.jpg"
+  - "vic-2026-54285e12b0c7.jpg"
+  - "vic-2026-d5f2ec5a2bc5.jpg"
 name: Yahya-kia Daliri
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,8 @@ status: Killed
 description: |
   Shot in the abdomen by Islamic Republic forces while going out to get medicine for his child
 source_type: Social Media
-source_social_media_link: https://x.com/hyrcanihrm/status/2014338023060611492, https://x.com/HengawO/status/2014421367446253740, https://x.com/pegah76Fz/status/2014678072545489111
-child: false
+source_social_media_link:
+  - "https://x.com/hyrcanihrm/status/2014338023060611492, https://x.com/HengawO/status/2014421367446253740, https://x.com/pegah76Fz/status/2014678072545489111"
+  - "https://x.com/hyrcanihrm/status/2014338023060611492"
+  - "https://x.com/HengawO/status/2014421367446253740"
 persian_name: یحیی‌کیا دلیری

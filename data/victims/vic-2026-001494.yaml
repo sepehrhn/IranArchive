@@ -2,19 +2,20 @@
 # Victim Documentation - Soheil Almasi
 # ==========================================
 
-photo: vic-2026-001494.png
+photo:
+  - vic-2026-001494.png
 name: Soheil Almasi
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 18
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Alborz
 incident_city: Marvdasht
-incident_address: ''
-date_of_death: '2026-01-09'
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -28,5 +29,4 @@ description: |
   اسمش رو زنده نگه دارید.
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

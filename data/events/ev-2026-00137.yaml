@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Daily Vigil (Unconfirmed for Sunday)"
+
+featured: false
+
+description: |
+  While no large-scale rally is scheduled for Sunday, local reports suggest 'almost daily' vigils are held in central Frankfurt (typically Hauptwache or Römer) to mourn the victims of the January 2026 crackdown. These are often smaller, silent gatherings with candles and photos.
+  
+  **Tips:** Check local Telegram channels or look for small groups at Hauptwache if you wish to show solidarity today. Dress warmly as temperatures are near freezing.
+  
+  **Location Details:** Common locations for spontaneous vigils.
+
+type: "in_person"
+
+date:
+  start: "2026/02/01"
+  start_time: ""
+
+
+location:
+  country: "DE"
+  city: "Frankfurt"
+  address: "Hauptwache or Römerberg"
+
+online: []
+
+organizer:
+  name: "Local Activists"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGn2QV__sTb3UXLU__M7rxHZL9KCZPbHGHWUTTfiddyFHnM0M5xCOXklIexyiTlm4PAJQniFXCL89DIsyGY-eySFzpXXibEATX8tFmNv_V5RKfmuG0KtqI8Ckt9bHWshPOeTg=="

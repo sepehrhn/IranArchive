@@ -2,7 +2,10 @@
 # Victim Documentation - Naser Dadkhodaei
 # ==========================================
 
-photo: vic-2026-2139984.jpg
+photo:
+  - "vic-2026-2139984.jpg"
+  - "vic-2026-813ecdf63123.png"
+  - "vic-2026-049c84ef0c82.png"
 name: Naser Dadkhodaei
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot on Friday night January 8th (19 Dey) in Mashhad. Family found his body after 4 days and had to pay 800 million (tomans/rials) to receive it
+description: Shot on Friday night January 8th (19 Dey) in Mashhad. Family found his body after 4 days and had to pay 800 million (tomans/rials) to receive it
 source_type: Social Media
 source_social_media_link: https://x.com/i/status/2016405898122383466
-child: false
 persian_name: ناصر داد خدایی

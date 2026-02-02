@@ -2,7 +2,12 @@
 # Victim Documentation - Shahin Azaratashe
 # ==========================================
 
-photo: vic-2026-000203.jpg
+photo:
+  - "vic-2026-000203.jpg"
+  - "vic-2026-536944257239.jpg"
+  - "vic-2026-4c71c7763144.jpg"
+  - "vic-2026-a2659c75f3e7.jpg"
+  - "vic-2026-cc8abf4a49d6.png"
 name: Shahin Azaratashe
 birth_date: ""
 birth_province: ""
@@ -11,7 +16,7 @@ gender: Male
 age: 29
 occupation: ""
 country: Iran
-incident_province: Sari
+incident_province: ""
 incident_city: Northern Iran (Chalous
 incident_address: ""
 date_of_death: "2026-01-03"
@@ -24,6 +29,11 @@ description: |-
 
   Died after being shot. His family, fearing for his safety in hospitals due to the intense security and reports of 'mercy killings' of the wounded, decided to take him home instead of to a medical center. He passed away at home.
 source_type: Social Media
-source_social_media_link: https://x.com/dadban4/status/2013329145174835536, https://x.com/Tavaana/status/2012626310011711905, https://x.com/HengawO/status/2012863021467550147, https://x.com/pkhwshhal/status/2015507140941672744, https://x.com/pkhwshhal/status/2015521052449808640, https://t.me/RememberTheirNames/287, https://x.com/missmarpel75/status/2015526170289213645
-child: false
+source_social_media_link:
+  - "https://x.com/dadban4/status/2013329145174835536, https://x.com/Tavaana/status/2012626310011711905, https://x.com/HengawO/status/2012863021467550147, https://x.com/pkhwshhal/status/2015507140941672744, https://x.com/pkhwshhal/status/2015521052449808640, https://t.me/RememberTheirNames/287, https://x.com/missmarpel75/status/2015526170289213645"
+  - "https://x.com/Tavaana/status/2012626310011711905"
+  - "https://x.com/dadban4/status/2013329145174835536"
+  - "https://x.com/HengawO/status/2012863021467550147"
+  - "https://x.com/pkhwshhal/status/2015521052449808640"
+  - "https://x.com/pkhwshhal/status/2015507140941672744"
 persian_name: شاهین آذرآتش

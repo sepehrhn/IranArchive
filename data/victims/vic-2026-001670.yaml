@@ -2,7 +2,9 @@
 # Victim Documentation - Bahram Abbasgholizadeh
 # ==========================================
 
-photo: vic-2026-001670.jpg
+photo:
+  - "vic-2026-001670.jpg"
+  - "vic-2026-cbb2cf8d262e.jpg"
 name: Bahram Abbasgholizadeh
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Shot in the leg during protests. Security forces reportedly prevented his admission to the hospital, leading to his death from severe bleeding. He had a 9-year-old daughter.
 source_type: Social Media
-source_social_media_link: https://x.com/FSeifikaran/status/2016024097470205988, https://t.me/RememberTheirNames/1256
-child: false
+source_social_media_link:
+  - "https://x.com/FSeifikaran/status/2016024097470205988, https://t.me/RememberTheirNames/1256"
+  - "https://x.com/FSeifikaran/status/2016024097470205988"
 persian_name: بهرام عباسقلی‌زاده

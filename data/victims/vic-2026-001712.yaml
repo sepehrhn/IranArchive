@@ -2,7 +2,9 @@
 # Victim Documentation - Jafar Monfared
 # ==========================================
 
-photo: vic-2026-001712.jpg
+photo:
+  - "vic-2026-001712.jpg"
+  - "vic-2026-867f006a2041.jpg"
 name: Jafar Monfared
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Victim identified in a list of names.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/915, https://t.me/persian_picture/4126
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/915, https://t.me/persian_picture/4126"
+  - "https://t.me/persian_picture/4126"
 persian_name: جعفر منفرد

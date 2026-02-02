@@ -2,7 +2,10 @@
 # Victim Documentation - Karim Ashoori
 # ==========================================
 
-photo: vic-2026-000318.jpg
+photo:
+  - "vic-2026-000318.jpg"
+  - "vic-2026-0c09549cb90a.jpg"
+  - "vic-2026-d49b22a9a609.jpg"
 name: Karim Ashoori
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Arak
+incident_province: ""
 incident_city: Milajerd
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -24,6 +27,9 @@ description: |-
 
   Killed by direct gunfire to the throat by Islamic Republic terrorists. Identified as a patriotic youth.
 source_type: Social Media
-source_social_media_link: https://x.com/saeidvafa/status/2014789233244831989, https://x.com/SaeidVafa/status/2014789233244831989, https://x.com/behnam_chegini/status/2014812383152128476, https://t.me/RememberTheirNames/717, https://x.com/YasamanKhodajo/status/2015757675410120711
-child: false
+source_social_media_link:
+  - "https://x.com/saeidvafa/status/2014789233244831989, https://x.com/SaeidVafa/status/2014789233244831989, https://x.com/behnam_chegini/status/2014812383152128476, https://t.me/RememberTheirNames/717, https://x.com/YasamanKhodajo/status/2015757675410120711"
+  - "https://x.com/saeidvafa/status/2014789233244831989"
+  - "https://x.com/behnam_chegini/status/2014812383152128476"
+  - "https://x.com/YasamanKhodajo/status/2015757675410120711"
 persian_name: کریم عاشوری

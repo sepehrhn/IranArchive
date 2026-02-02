@@ -2,7 +2,10 @@
 # Victim Documentation - Mohsen Siyahrang
 # ==========================================
 
-photo: vic-2026-2139978.jpg
+photo:
+  - "vic-2026-2139978.jpg"
+  - "vic-2026-efdd603e19e6.jpg"
+  - "vic-2026-f463c77a762e.jpg"
 name: Mohsen Siyahrang
 birth_date: ""
 birth_province: ""
@@ -18,9 +21,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died on January 8, 2026 in Andisheh Township during the 2025-2026 Iranian protests
+description: Died on January 8, 2026 in Andisheh Township during the 2025-2026 Iranian protests
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1616
-child: false
 persian_name: محسن سیاهرنگ

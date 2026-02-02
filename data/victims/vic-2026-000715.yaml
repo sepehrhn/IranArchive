@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Hossein Aman (Alboghbish)
 # ==========================================
 
-photo: vic-2026-000715.jpg
+photo:
+  - "vic-2026-000715.jpg"
+  - "vic-2026-d69e1ea57eeb.jpg"
+  - "vic-2026-69f08e9614f2.jpg"
 name: Mohammad Hossein Aman (Alboghbish)
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,8 @@ status: Killed
 description: |
   Shot in the heart by security forces during protests.
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2013704601552240973, https://x.com/mojahwaz/status/2013692897523020165, https://x.com/hiwa_life/status/2015532561011823087, https://x.com/MOJAHWAZ/status/2013692897523020165, https://x.com/fseifikaran/status/2015759001204519288
-child: false
+source_social_media_link:
+  - "https://x.com/iranwire/status/2013704601552240973, https://x.com/mojahwaz/status/2013692897523020165, https://x.com/hiwa_life/status/2015532561011823087, https://x.com/MOJAHWAZ/status/2013692897523020165, https://x.com/fseifikaran/status/2015759001204519288"
+  - "https://x.com/MOJAHWAZ/status/2013692897523020165"
+  - "https://x.com/fseifikaran/status/2015759001204519288"
 persian_name: محمدحسین امان (آلبوغبیش)

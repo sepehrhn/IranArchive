@@ -2,7 +2,9 @@
 # Victim Documentation - Darab Behzadi Lor
 # ==========================================
 
-photo: vic-2026-001912.jpg
+photo:
+  - "vic-2026-001912.jpg"
+  - "vic-2026-4fced02d30f1.jpg"
 name: Darab Behzadi Lor
 birth_date: ""
 birth_province: ""
@@ -25,6 +27,7 @@ description: |-
 
   Killed by live ammunition fired by security forces. His body was kept at home until morning to allow for burial. He was identified as Bakhtiari.
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2015594513016713311, https://x.com/realneo101/status/2016221062682362352
-child: false
+source_social_media_link:
+  - "https://x.com/hirman__/status/2015594513016713311, https://x.com/realneo101/status/2016221062682362352"
+  - "https://x.com/hirman__/status/2015594513016713311"
 persian_name: داراب بهزادی

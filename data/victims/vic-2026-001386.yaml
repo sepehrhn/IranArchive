@@ -2,7 +2,8 @@
 # Victim Documentation - Mehrzad Behdarvand
 # ==========================================
 
-photo: vic-2026-001386.jpg
+photo:
+  - vic-2026-001386.jpg
 name: Mehrzad Behdarvand
 birth_date: ""
 birth_province: ""
@@ -27,5 +28,4 @@ description: |-
   Went to the streets on January 8, 2026, and his body was handed over to his family seven days later.
 source_type: Social Media
 source_social_media_link: https://x.com/aliyazdani7612/status/2015173881405788296, https://t.me/RememberTheirNames/1047
-child: false
 persian_name: مهرزاد بهداروند

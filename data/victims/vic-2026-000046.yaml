@@ -2,25 +2,33 @@
 # Victim Documentation - Hossein Ajam
 # ==========================================
 
-photo: vic-2026-000046.jpg
+photo:
+  - "vic-2026-000046.jpg"
+  - "vic-2026-66c3c6de764f.jpg"
+  - "vic-2026-001531.jpg"
+  - "vic-2026-001544.jpg"
+  - "vic-2026-2139731.jpg"
+  - "vic-2026-05f2ad5ca547.jpg"
+  - "vic-2026-3266806ca990.jpg"
 name: Hossein Ajam
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 39
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gonabad
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-21"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
 description: |
   Died during protests (student)
 source_type: Social Media
-source_social_media_link: https://x.com/avatoday_news/status/2014771411001266382
-child: false
+source_social_media_link:
+  - "https://x.com/avatoday_news/status/2014771411001266382"
+  - "https://x.com/hekasrehcrisis/status/2017671722028134896"
 persian_name: حسین عجم

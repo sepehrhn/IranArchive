@@ -2,7 +2,9 @@
 # Victim Documentation - Mani Sabouri
 # ==========================================
 
-photo: ""
+photo:
+  - ""
+  - "vic-2026-2139801.jpg"
 name: Mani Sabouri
 birth_date: ""
 birth_province: ""
@@ -12,9 +14,9 @@ age: 18
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: "Vakilabad"
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
@@ -26,6 +28,7 @@ description: |-
 
   Young life cut short.
 source_type: Social Media
-source_social_media_link: https://x.com/isamanyasin/status/2015505735719780730
-child: false
+source_social_media_link:
+  - "https://x.com/isamanyasin/status/2015505735719780730"
+  - "https://x.com/hekasrehcrisis/status/2016557783479415029"
 persian_name: مانی صبوری

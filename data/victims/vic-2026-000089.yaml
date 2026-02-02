@@ -2,7 +2,12 @@
 # Victim Documentation - Alireza Rabat-Jazi
 # ==========================================
 
-photo: vic-2026-000089.jpg
+photo:
+  - "vic-2026-000089.jpg"
+  - "vic-2026-f7421865a2bd.jpg"
+  - "vic-2026-f354ab7427ac.jpg"
+  - "vic-2026-01ec96bf5e62.jpg"
+  - "vic-2026-aa83440a3659.jpg"
 name: Alireza Rabat-Jazi
 birth_date: ""
 birth_province: ""
@@ -11,7 +16,7 @@ gender: Male
 age: 38
 occupation: conscript and martyr
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Nazarabad
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -24,6 +29,8 @@ description: |-
 
   Shot in the side during protests, he reached a neighbor's house but was found via his blood trail and taken away. He died from excessive bleeding. His body was handed over two days later with a commitment for fewer than ten people to attend the funeral.
 source_type: Social Media
-source_social_media_link: https://x.com/banafshehviola/status/2014470371253313774, https://x.com/abhaddadii/status/2014441379653460462, https://x.com/HeKasrehCrisis/status/2015805554669604981, https://t.me/RememberTheirNames/803
-child: false
+source_social_media_link:
+  - "https://x.com/banafshehviola/status/2014470371253313774, https://x.com/abhaddadii/status/2014441379653460462, https://x.com/HeKasrehCrisis/status/2015805554669604981, https://t.me/RememberTheirNames/803"
+  - "https://x.com/abhaddadii/status/2014441379653460462"
+  - "https://t.me/javanmardi77/154248"
 persian_name: علیرضا رباط جزیی

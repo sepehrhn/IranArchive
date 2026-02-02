@@ -2,20 +2,24 @@
 # Victim Documentation - Mohammadreza Avazpour
 # ==========================================
 
-photo: vic-2026-000986.jpg
+photo:
+  - "vic-2026-000986.jpg"
+  - "vic-2026-001761.jpg"
+  - "vic-2026-c37a4a777c93.jpg"
+  - "vic-2026-623dd2543194.jpg"
 name: Mohammadreza Avazpour
-persian_name: "محمدرضا عوض‌پور"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: محمدرضا عوض‌پور
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 19
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Rumeshkan
 incident_address: Lorestan
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,5 +27,6 @@ description: |
   Shot by regime forces during December protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/pouriazeraati/status/2012997050665709637
-child: false
+  - "https://x.com/pouriazeraati/status/2012997050665709637"
+  - "https://x.com/pouriazeraati/status/2012997050665709637, https://x.com/banafshehviola/status/2013098885955416531, https://x.com/outofken/status/2013225571321528571, https://x.com/hengawo/status/2013568510937468981, https://x.com/HengawO/status/2013568510937468981, https://t.me/RememberTheirNames/333, https://x.com/pouyajegarvnd/status/2016594810254008479"
+  - "https://x.com/pouyajegarvnd/status/2016594810254008479"

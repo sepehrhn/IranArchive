@@ -2,7 +2,12 @@
 # Victim Documentation - Iman Najjarhosseini
 # ==========================================
 
-photo: vic-2026-2139916.jpg
+photo:
+  - "vic-2026-2139916.jpg"
+  - "vic-2026-5649379604ce.png"
+  - "vic-2026-2e2263926b50.jpg"
+  - "vic-2026-5fcb46f51b33.jpg"
+  - "vic-2026-8851b7a33761.jpg"
 name: Iman Najjarhosseini
 birth_date: ""
 birth_province: ""
@@ -18,9 +23,10 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  21-year-old from Nain, referred to as martyr (shahid) in commemorative message
+description: 21-year-old from Nain, referred to as martyr (shahid) in commemorative message
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2016559668580012115
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2016559668580012115"
+  - "https://x.com/i/status/2016559668580012115"
+  - "https://x.com/i/status/2016944620899271152"
 persian_name: ایمان نجارحسینی

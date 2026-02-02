@@ -2,13 +2,18 @@
 # Victim Documentation - Arman Ghahremani
 # ==========================================
 
-photo: vic-2026-2140062.jpg
+photo:
+  - "vic-2026-2140062.jpg"
+  - "vic-2026-ced9611ba9d3.jpg"
+  - "vic-2026-0b2de24f2044.jpg"
+  - "vic-2026-251dbce28424.jpg"
+  - "vic-2026-5d559f4c7fd5.jpg"
 name: Arman Ghahremani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 36
 occupation: ""
 country: Iran
 incident_province: ""
@@ -18,9 +23,10 @@ date_of_death: "2025-12-22"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Tehran in Dey 1404.
+description: Died in Tehran in Dey 1404.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/100
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/100"
+  - "https://x.com/mamlekate/status/2013982907132432757"
+  - "https://x.com/mashreghidokht/status/2016938110081204287"
 persian_name: آرمان قهرمانی

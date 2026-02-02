@@ -2,7 +2,8 @@
 # Victim Documentation - Ali Khalidi
 # ==========================================
 
-photo: vic-2026-001553.jpg
+photo:
+  - vic-2026-001553.jpg
 name: Ali Khalidi
 birth_date: ""
 birth_province: ""
@@ -25,6 +26,8 @@ description: |-
 
   A Luri citizen from Lordegan, killed by direct gunfire from security forces during public protests. His funeral was held on January 19, 2026, with widespread citizen participation and anti-regime slogans. It is unclear if he was targeted on December 28 or January 9.
 source_type: Social Media
-source_social_media_link: https://x.com/Daikatuo/status/2013374075251417097, https://x.com/HengawO/status/2014308430572351944, https://hengaw.net/fa/news/2026/01/article-182-1, https://t.me/RememberTheirNames/1480
-child: false
+source_social_media_link:
+  - "https://x.com/Daikatuo/status/2013374075251417097, https://x.com/HengawO/status/2014308430572351944, https://hengaw.net/fa/news/2026/01/article-182-1, https://t.me/RememberTheirNames/1480"
+  - "https://x.com/Aryammehr_2/status/2014713558991507464"
+  - "https://x.com/allahbakhshii/status/2014703432146227558"
 persian_name: علی خالدی

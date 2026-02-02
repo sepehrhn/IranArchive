@@ -2,7 +2,13 @@
 # Victim Documentation - Amir Hossein Alvand
 # ==========================================
 
-photo: vic-2026-001027.jpg
+photo:
+  - "vic-2026-001027.jpg"
+  - "vic-2026-88d95d49cc0b.jpg"
+  - "vic-2026-49bd804f7fa1.jpg"
+  - "vic-2026-9b5ea4266db0.jpg"
+  - "vic-2026-8955929a6780.png"
+  - "vic-2026-1f24609d6059.jpg"
 name: Amir Hossein Alvand
 birth_date: ""
 birth_province: ""
@@ -11,7 +17,7 @@ gender: Male
 age: 23
 occupation: ""
 country: Iran
-incident_province: Jaddah-e Saveh
+incident_province: ""
 incident_city: Golestan
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -24,6 +30,9 @@ description: |-
 
   Described as 'son of Iran and killed on the path of the homeland'. No specific date or location of death provided.
 source_type: Social Media
-source_social_media_link: https://x.com/iliaaaa66/status/2015111042322284842, https://x.com/hekasrehcrisis/status/2015516717649412233, https://x.com/HeKasrehCrisis/status/2015915894627545229, https://x.com/HeKasrehCrisis/status/2015516717649412233, https://t.me/RememberTheirNames/1428
-child: false
+source_social_media_link:
+  - "https://x.com/iliaaaa66/status/2015111042322284842, https://x.com/hekasrehcrisis/status/2015516717649412233, https://x.com/HeKasrehCrisis/status/2015915894627545229, https://x.com/HeKasrehCrisis/status/2015516717649412233, https://t.me/RememberTheirNames/1428"
+  - "https://x.com/HeKasrehCrisis/status/2015516717649412233"
+  - "https://x.com/hekasrehcrisis/status/2015516717649412233"
+  - "https://t.me/RememberTheirNames/1428"
 persian_name: امیرحسین الوند

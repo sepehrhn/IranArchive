@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Potential Solidarity Gathering (Unconfirmed)"
+
+featured: false
+
+description: |
+  While no official flyer has been released for this specific date, this location was the site of a major rally on Jan 18. Spontaneous gatherings often occur here on Sunday afternoons during periods of heightened unrest in Iran.
+  
+  **Tips:** Parking is available in the Galleria garages or nearby surface lots. Bring water and signs. Police presence is common in this high-traffic area.
+  
+  **Location Details:** Near the Galleria; gathering typically occurs on the lawn facing the Waterwall.
+
+type: "in_person"
+
+date:
+  start: "2026/02/01"
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
+
+location:
+  country: "US"
+  city: "Houston"
+  address: "Gerald D. Hines Waterwall Park, 2800 Post Oak Blvd, Houston, TX 77056"
+
+online: []
+
+organizer:
+  name: "Local Iranian Community (Grassroots/Spontaneous)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

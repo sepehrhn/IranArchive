@@ -2,13 +2,15 @@
 # Victim Documentation - Navid Nouri
 # ==========================================
 
-photo: vic-2026-002140.jpg
+photo:
+  - "vic-2026-002140.jpg"
+  - "vic-2026-5a843dfe5688.jpg"
 name: Navid Nouri
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 24
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Victim identified in a list of names.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/876
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/876"
+  - "https://x.com/__injaneb96/status/2017344763603915248"
 persian_name: نوید نوری

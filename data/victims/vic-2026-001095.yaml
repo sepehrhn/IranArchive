@@ -2,7 +2,8 @@
 # Victim Documentation - Hojjat Maleki
 # ==========================================
 
-photo: vic-2026-001095.jpg
+photo:
+  - vic-2026-001095.jpg
 name: Hojjat Maleki
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Mobarakeh
+incident_province: ""
 incident_city: Dizicheh
 incident_address: ""
 date_of_death: "2026-01-10"
@@ -24,6 +25,7 @@ description: |-
 
   Died during protests in Dey 1404.
 source_type: Social Media
-source_social_media_link: https://x.com/abhaddadii/status/2012993637005627689, https://t.me/RememberTheirNames/576
-child: false
+source_social_media_link:
+  - "https://x.com/abhaddadii/status/2012993637005627689, https://t.me/RememberTheirNames/576"
+  - "https://x.com/abhaddadii/status/2012993637005627689"
 persian_name: حجت ملکی

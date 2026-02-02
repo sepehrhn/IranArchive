@@ -2,7 +2,8 @@
 # Victim Documentation - Amir Nouzamani
 # ==========================================
 
-photo: vic-2026-2139768.jpg
+photo:
+  - vic-2026-2139768.jpg
 name: Amir Nouzamani
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,10 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  No details provided about circumstances of death
+description: No details provided about circumstances of death
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/390
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/390"
+  - "https://x.com/hekasrehcrisis/status/2017110720379330710"
+  - "https://x.com/i/status/2017110720379330710"
 persian_name: امیر نوزمانی

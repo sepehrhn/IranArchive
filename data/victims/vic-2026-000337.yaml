@@ -2,7 +2,10 @@
 # Victim Documentation - Mehdi Arshadi
 # ==========================================
 
-photo: vic-2026-000337.jpg
+photo:
+  - "vic-2026-000337.jpg"
+  - "vic-2026-6d8c3b559e44.jpg"
+  - "vic-2026-001964.jpg"
 name: Mehdi Arshadi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,9 @@ description: |-
 
   Killed in Seydi, Mashhad. His family was pressured by the killers to claim he was a Basiji, but he had clearly stated his views on his page.
 source_type: Social Media
-source_social_media_link: https://x.com/sama19861365/status/2015051114064777648, https://x.com/RealBabak_1992/status/2015062133428384208, https://t.me/RememberTheirNames/993
-child: false
+source_social_media_link:
+  - "https://x.com/sama19861365/status/2015051114064777648, https://x.com/RealBabak_1992/status/2015062133428384208, https://t.me/RememberTheirNames/993"
+  - "https://x.com/RealBabak_1992/status/2015062133428384208"
+  - "https://t.me/RememberTheirNames/983"
+  - "https://x.com/sama19861365/status/2015051114064777648"
 persian_name: مهدی ارشدی

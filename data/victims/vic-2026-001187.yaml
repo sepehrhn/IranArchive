@@ -2,7 +2,9 @@
 # Victim Documentation - Peyman Monbari
 # ==========================================
 
-photo: vic-2026-001187.jpg
+photo:
+  - "vic-2026-001187.jpg"
+  - "vic-2026-d7ae7f6c6c66.jpg"
 name: Peyman Monbari
 birth_date: ""
 birth_province: ""
@@ -22,5 +24,4 @@ description: |
   Killed during 2022 protests (uprising of 1401)
 source_type: Social Media
 source_social_media_link: https://x.com/dadban4/status/2012199580704628775
-child: false
 persian_name: پیمان منبری

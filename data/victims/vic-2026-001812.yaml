@@ -2,7 +2,8 @@
 # Victim Documentation - Ziba
 # ==========================================
 
-photo: vic-2026-001812.jpg
+photo:
+  - vic-2026-001812.jpg
 name: Ziba
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Shot with live ammunition near Lolagar Mosque. Her last Instagram story was a picture of the Prince.
 source_type: Social Media
 source_social_media_link: https://x.com/Hashshaashin/status/2014617586101612579
-child: false
 persian_name: زیبا

@@ -2,7 +2,9 @@
 # Victim Documentation - Iman Mirshekari
 # ==========================================
 
-photo: vic-2026-001710.jpg
+photo:
+  - "vic-2026-001710.jpg"
+  - "vic-2026-434a33b5b40d.jpg"
 name: Iman Mirshekari
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Shot in the back at close range by Basij members and killed. He was buried in a cemetery named Seyed Mohammad. He was a welder and had a two-year-old son.
 source_type: Social Media
-source_social_media_link: https://x.com/fseifikaran/status/2015528170229797301, https://t.me/RememberTheirNames/1298
-child: false
+source_social_media_link:
+  - "https://x.com/fseifikaran/status/2015528170229797301, https://t.me/RememberTheirNames/1298"
+  - "https://x.com/fseifikaran/status/2015528170229797301"
 persian_name: ایمان میرشکاری

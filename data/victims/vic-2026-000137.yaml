@@ -2,19 +2,25 @@
 # Victim Documentation - Hasan Lotfi
 # ==========================================
 
-photo: vic-2026-000137.jpg
+photo:
+  - "vic-2026-000137.jpg"
+  - "vic-2026-000459.jpg"
+  - "vic-2026-e2b0cd9f56fb.jpg"
+  - "vic-2026-001536.jpg"
+  - "vic-2026-34062c9d19e1.jpg"
+  - "vic-2026-83973ad5a733.jpg"
 name: Hasan Lotfi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: 35
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -22,5 +28,8 @@ description: |
   Shot by Khamenei's agents in Sattarkhan, Tehran.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/ashkvuo7000/status/2015037762475380993
-child: false
+  - "https://x.com/ashkvuo7000/status/2015037762475380993"
+  - "https://x.com/shahramsadidi/status/2014067682908291074, https://t.me/RememberTheirNames/561"
+  - "https://x.com/shahramsadidi/status/2014067682908291074"
+  - "https://x.com/ashkvuo7000/status/2015037762475380993, https://t.me/RememberTheirNames/786"
+  - "https://x.com/mousavi1355/status/2017090147506925568"

@@ -2,13 +2,21 @@
 # Victim Documentation - Mehdi Jarahi
 # ==========================================
 
-photo: vic-2026-001968.jpg
+photo:
+  - "vic-2026-001968.jpg"
+  - "vic-2026-002225.jpg"
+  - "vic-2026-4c8f4ea361fc.jpg"
+  - "vic-2026-2139940.jpg"
+  - "vic-2026-acc959acd5ce.jpg"
+  - "vic-2026-dc5a7797dbde.jpg"
+  - "vic-2026-2139941.jpg"
+  - "vic-2026-ca88dd579ff4.jpg"
 name: Mehdi Jarahi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 22
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,6 +31,8 @@ description: |-
 
   Mentioned in a list of names without further details.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/756
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/756"
+  - "https://x.com/YasamanKhodajo/status/2015806275431403598, https://x.com/yasamankhodajo/status/2015806275431403598, https://t.me/RememberTheirNames/1606"
+  - "https://x.com/pardis__rabiee/status/2017661160049279363"
 persian_name: مهدی جراحی

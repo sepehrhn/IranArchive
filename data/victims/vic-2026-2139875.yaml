@@ -2,25 +2,26 @@
 # Victim Documentation - Amirreza Kermanjani
 # ==========================================
 
-photo: vic-2026-2139875.jpg
+photo:
+  - "vic-2026-2139875.jpg"
+  - "vic-2026-a1c0ee1a4b32.jpg"
+  - "vic-2026-3f0f601badb1.png"
 name: Amirreza Kermanjani
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 22
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Fardis, Karaj during the protests
+description: Died in Fardis, Karaj during the protests
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1649
-child: false
 persian_name: امیررضا کرماجانی

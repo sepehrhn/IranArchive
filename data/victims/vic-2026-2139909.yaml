@@ -2,7 +2,9 @@
 # Victim Documentation - Heidar Karimi
 # ==========================================
 
-photo: vic-2026-2139909.jpg
+photo:
+  - "vic-2026-2139909.jpg"
+  - "vic-2026-4dc664cb8ae1.jpg"
 name: Heidar Karimi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot directly by government suppressive forces with bullets to the chest and leg during people's protests
+description: Shot directly by government suppressive forces with bullets to the chest and leg during people's protests
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/380, https://x.com/manotonews/status/2016813574652645774
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/380, https://x.com/manotonews/status/2016813574652645774"
+  - "https://x.com/manotonews/status/2016813574652645774"
 persian_name: حیدر کریمی

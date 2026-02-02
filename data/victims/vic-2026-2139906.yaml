@@ -2,7 +2,11 @@
 # Victim Documentation - Hassan Kalahar
 # ==========================================
 
-photo: vic-2026-2139906.jpg
+photo:
+  - "vic-2026-2139906.jpg"
+  - "vic-2026-63a5421b48d3.jpg"
+  - "vic-2026-c71379883f50.jpg"
+  - "vic-2026-d521b4bf5a43.jpg"
 name: Hassan Kalahar
 birth_date: ""
 birth_province: ""
@@ -18,9 +22,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed by the criminal forces of the Islamic Republic during the protests in the Fardis area of Karaj. His body was laid to rest in his hometown of Delijan.
+description: Killed by the criminal forces of the Islamic Republic during the protests in the Fardis area of Karaj. His body was laid to rest in his hometown of Delijan.
 source_type: Social Media
 source_social_media_link: https://x.com/saeidvafa/status/2016341315311571450
-child: false
 persian_name: حسن کلهر

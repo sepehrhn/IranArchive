@@ -2,7 +2,12 @@
 # Victim Documentation - Mehrab Golestani
 # ==========================================
 
-photo: vic-2026-000345.jpg
+photo:
+  - "vic-2026-000345.jpg"
+  - "vic-2026-ffb0449d2fc5.jpg"
+  - "vic-2026-d52c3d2cff91.jpg"
+  - "vic-2026-f703cb388bc8.jpg"
+  - "vic-2026-6df2109edb58.jpg"
 name: Mehrab Golestani
 birth_date: ""
 birth_province: ""
@@ -21,6 +26,9 @@ status: Killed
 description: |
   Shot directly by government forces during nationwide protests
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2012207564331663521, https://x.com/manotonews/status/2013891818837155894, https://x.com/HengawO/status/2012641346142572662, https://t.me/RememberTheirNames/275
-child: true
+source_social_media_link:
+  - "https://x.com/iranwire/status/2012207564331663521, https://x.com/manotonews/status/2013891818837155894, https://x.com/HengawO/status/2012641346142572662, https://t.me/RememberTheirNames/275"
+  - "https://x.com/iranwire/status/2012207564331663521"
+  - "https://x.com/HengawO/status/2012641346142572662"
+  - "https://x.com/manotonews/status/2013891818837155894"
 persian_name: محراب گلستانی

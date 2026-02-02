@@ -2,7 +2,9 @@
 # Victim Documentation - Holako Aivani
 # ==========================================
 
-photo: vic-2026-000626.jpg
+photo:
+  - "vic-2026-000626.jpg"
+  - "vic-2026-07aecf395404.jpg"
 name: Holako Aivani
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,8 @@ description: |-
 
   Killed by DShK machine gun fire during protests on 18th and 19th Dey.
 source_type: Social Media
-source_social_media_link: https://x.com/qadrichiya/status/2010757444507492437, https://x.com/nejatbahrami/status/2015451612404162809, https://x.com/missmarpel75/status/2015096621021667758, https://t.me/RememberTheirNames/99
-child: false
+source_social_media_link:
+  - "https://x.com/qadrichiya/status/2010757444507492437, https://x.com/nejatbahrami/status/2015451612404162809, https://x.com/missmarpel75/status/2015096621021667758, https://t.me/RememberTheirNames/99"
+  - "https://x.com/qadrichiya/status/2010757444507492437"
+  - "https://x.com/nejatbahrami/status/2015451612404162809"
 persian_name: هولاکو ایوانی

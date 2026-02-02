@@ -2,7 +2,9 @@
 # Victim Documentation - Sara Arab
 # ==========================================
 
-photo: vic-2026-000839.jpg
+photo:
+  - "vic-2026-000839.jpg"
+  - "vic-2026-5e3283470f98.jpg"
 name: Sara Arab
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Shot with live ammunition during the Million-strong protests in Mashhad.
 source_type: Social Media
-source_social_media_link: https://x.com/elaabita2022/status/2014955387183890950, https://x.com/ElaaBita2022/status/2014955387183890950, https://t.me/RememberTheirNames/949
-child: false
+source_social_media_link:
+  - "https://x.com/elaabita2022/status/2014955387183890950, https://x.com/ElaaBita2022/status/2014955387183890950, https://t.me/RememberTheirNames/949"
+  - "https://x.com/ElaaBita2022/status/2014955387183890950"
 persian_name: سارا عرب

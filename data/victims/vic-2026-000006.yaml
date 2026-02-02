@@ -2,25 +2,25 @@
 # Victim Documentation - Ghazal Aghaei
 # ==========================================
 
-photo: vic-2026-000006.jpeg
+photo:
+  - vic-2026-000006.jpeg
 name: Ghazal Aghaei
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
 age: 23
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
 description: |
   Killed in Sadeghieh, Tehran, by a sniper's bullet that directly targeted his heart.
-source_type: ''
+source_type: ""
 source_social_media_link:
-  - ''
-child: false
+  - ""

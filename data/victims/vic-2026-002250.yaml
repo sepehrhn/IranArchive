@@ -2,7 +2,9 @@
 # Victim Documentation - Reza Shasi Korkoor
 # ==========================================
 
-photo: vic-2026-002250.jpg
+photo:
+  - "vic-2026-002250.jpg"
+  - "vic-2026-100fedbf2017.jpg"
 name: Reza Shasi Korkoor
 birth_date: ""
 birth_province: ""
@@ -24,5 +26,4 @@ description: |-
   Killed by 'executioners' (likely security forces) with bullets in Izeh.
 source_type: Social Media
 source_social_media_link: https://x.com/shabgardan66/status/2015101920667455621
-child: false
 persian_name: رضا شاسی کورکور

@@ -2,7 +2,11 @@
 # Victim Documentation - Javad Aghamohammadi
 # ==========================================
 
-photo: vic-2026-000315.jpg
+photo:
+  - "vic-2026-000315.jpg"
+  - "vic-2026-1fbac5b949e7.png"
+  - "vic-2026-21508d9eafe0.png"
+  - "vic-2026-7808a6525803.png"
 name: Javad Aghamohammadi
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,8 @@ description: |-
 
   Shot with live ammunition around 8-9 PM near Fayyazbakhsh Hospital in Tehran. He was a tailor from Ajin city, Asadabad county, Hamadan province.
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2014920134209511738
-child: false
+source_social_media_link:
+  - "https://x.com/indypersian/status/2014920134209511738"
+  - "https://x.com/hekasrehcrisis/status/2017095193111974189"
+  - "https://x.com/i/status/2017095193111974189"
 persian_name: جواد آقامحمدی

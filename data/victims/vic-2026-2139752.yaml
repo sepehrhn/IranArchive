@@ -2,7 +2,9 @@
 # Victim Documentation - Saeed Teymouri
 # ==========================================
 
-photo: vic-2026-2139752.jpg
+photo:
+  - "vic-2026-2139752.jpg"
+  - "vic-2026-2a6899ab34e6.jpg"
 name: Saeed Teymouri
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died during protests in Isfahan
+description: Died during protests in Isfahan
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1607
-child: false
 persian_name: سعید تیموری

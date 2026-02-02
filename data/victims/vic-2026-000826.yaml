@@ -2,7 +2,10 @@
 # Victim Documentation - Sajad Soleimani
 # ==========================================
 
-photo: vic-2026-000826.jpg
+photo:
+  - "vic-2026-000826.jpg"
+  - "vic-2026-f141ae0527ba.jpg"
+  - "vic-2026-4dcc9ba39b4d.jpg"
 name: Sajad Soleimani
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,8 @@ status: Killed
 description: |
   Shot in the leg and back
 source_type: Social Media
-source_social_media_link: https://x.com/isamanyasin/status/2014509544769028131, https://x.com/MonfaredAshkan/status/2015593617835073785, https://x.com/MonfaredAshkan/status/2015592585935593482, https://t.me/RememberTheirNames/765
-child: false
+source_social_media_link:
+  - "https://x.com/isamanyasin/status/2014509544769028131, https://x.com/MonfaredAshkan/status/2015593617835073785, https://x.com/MonfaredAshkan/status/2015592585935593482, https://t.me/RememberTheirNames/765"
+  - "https://x.com/MonfaredAshkan/status/2015592585935593482"
+  - "https://t.me/javanmardi77/154324"
 persian_name: سجاد سلیمانی

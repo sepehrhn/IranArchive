@@ -2,7 +2,8 @@
 # Victim Documentation - Hamid Reza Soleimanian
 # ==========================================
 
-photo: vic-2026-001089.jpg
+photo:
+  - vic-2026-001089.jpg
 name: Hamid Reza Soleimanian
 birth_date: ""
 birth_province: ""
@@ -25,5 +26,4 @@ description: |-
   Employed at the steel skeleton unit of Mobarakeh Steel Isfahan. The tweet is a tribute, implying he is deceased in the context of the protests.
 source_type: Social Media
 source_social_media_link: https://x.com/visfehan/status/2014652979693969539, https://x.com/VIsfehan/status/2014652979693969539, https://t.me/RememberTheirNames/638
-child: false
 persian_name: حمید رضا سلیمیان

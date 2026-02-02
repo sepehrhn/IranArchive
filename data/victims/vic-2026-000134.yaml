@@ -2,7 +2,13 @@
 # Victim Documentation - Seyyed Milad Rahimi
 # ==========================================
 
-photo: vic-2026-000134.png
+photo:
+  - "vic-2026-000134.png"
+  - "vic-2026-c5cd2b4238bf.png"
+  - "vic-2026-48c32edea991.jpg"
+  - "vic-2026-81d333107da5.jpg"
+  - "vic-2026-1b53f394044a.jpg"
+  - "vic-2026-efa5662d7096.jpg"
 name: Seyyed Milad Rahimi
 birth_date: ""
 birth_province: ""
@@ -21,6 +27,9 @@ status: Killed
 description: |
   Shot directly by military forces during popular protests
 source_type: Social Media
-source_social_media_link: https://x.com/zagros_news/status/2011463206884212763, https://x.com/qadrichiya/status/2011456717721141417, https://x.com/Daikatuo/status/2011855746544136648
-child: false
+source_social_media_link:
+  - "https://x.com/zagros_news/status/2011463206884212763, https://x.com/qadrichiya/status/2011456717721141417, https://x.com/Daikatuo/status/2011855746544136648"
+  - "https://x.com/Daikatuo/status/2011855746544136648"
+  - "https://x.com/zagros_news/status/2011463206884212763"
+  - "https://x.com/qadrichiya/status/2011456717721141417"
 persian_name: سیدمیلاد رحیمی

@@ -2,7 +2,9 @@
 # Victim Documentation - Behnam Barabadi
 # ==========================================
 
-photo: vic-2026-000270.jpg
+photo:
+  - "vic-2026-000270.jpg"
+  - "vic-2026-995226a48349.jpg"
 name: Behnam Barabadi
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Shot by government forces in the evening, body left in street for hours, died from injuries after being taken to hospital
 source_type: Social Media
-source_social_media_link: https://x.com/shahramsadidi/status/2013684689609867386, https://t.me/RememberTheirNames/434
-child: false
+source_social_media_link:
+  - "https://x.com/shahramsadidi/status/2013684689609867386, https://t.me/RememberTheirNames/434"
+  - "https://x.com/shahramsadidi/status/2013684689609867386"
 persian_name: بهنام برآبادی

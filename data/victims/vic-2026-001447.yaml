@@ -2,24 +2,27 @@
 # Victim Documentation - medi babaei
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-4746754e73b1.jpg"
 name: medi babaei
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 33
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: Yaftabad
-date_of_death: '2026-02-07'
+date_of_death: "2026-02-07"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: ''
+description: ""
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""
+  - "https://x.com/fuckeduprainman/status/2017331473871753293"
+  - "https://x.com/FuckedupRainMan/status/2017331473871753293"

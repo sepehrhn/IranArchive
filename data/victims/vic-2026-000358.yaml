@@ -2,7 +2,12 @@
 # Victim Documentation - Milad Bahrami
 # ==========================================
 
-photo: vic-2026-000358.jpg
+photo:
+  - "vic-2026-000358.jpg"
+  - "vic-2026-d58046ae021e.jpg"
+  - "vic-2026-f5c67163ad15.jpg"
+  - "vic-2026-d75d925295de.jpg"
+  - "vic-2026-95c0b763080c.jpg"
 name: Milad Bahrami
 birth_date: ""
 birth_province: ""
@@ -24,6 +29,8 @@ description: |-
 
   Shot with live ammunition by Islamic Republic agents during the National Iranian Revolution. He was a 38-year-old monarchist residing in Marzdaran Boulevard, Tehran.
 source_type: Social Media
-source_social_media_link: https://x.com/indypersian/status/2015121457731301582, https://x.com/AmirMiresmaeili/status/2015098585713402163, https://t.me/RememberTheirNames/617
-child: false
+source_social_media_link:
+  - "https://x.com/indypersian/status/2015121457731301582, https://x.com/AmirMiresmaeili/status/2015098585713402163, https://t.me/RememberTheirNames/617"
+  - "https://x.com/indypersian/status/2015121457731301582"
+  - "https://x.com/AmirMiresmaeili/status/2015098585713402163"
 persian_name: میلاد بهرامی

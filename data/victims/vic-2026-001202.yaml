@@ -2,13 +2,16 @@
 # Victim Documentation - Rostam Mobarak Abadi
 # ==========================================
 
-photo: vic-2026-001202.jpg
+photo:
+  - "vic-2026-001202.jpg"
+  - "vic-2026-53efea499c15.jpg"
+  - "vic-2026-252c112ac18f.jpg"
 name: Rostam Mobarak Abadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 30
 occupation: ""
 country: Iran
 incident_province: Isfahan
@@ -24,6 +27,7 @@ description: |-
 
   Died during protests in Dey 1404 (late Dec 2025 - Jan 2026). Specific cause of death not mentioned.
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2013149810459619594, https://x.com/abhaddadii/status/2013901363810287827, https://t.me/RememberTheirNames/675
-child: false
+source_social_media_link:
+  - "https://x.com/iranwire/status/2013149810459619594, https://x.com/abhaddadii/status/2013901363810287827, https://t.me/RememberTheirNames/675"
+  - "https://x.com/allahbakhshii/status/2017258910193750202"
 persian_name: رستم مبارک‌آبادی

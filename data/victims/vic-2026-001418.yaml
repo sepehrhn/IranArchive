@@ -2,22 +2,26 @@
 # Victim Documentation - Mehdi Akrami Ghaderli
 # ==========================================
 
-photo: vic-2026-001418.jpg
+photo:
+  - "vic-2026-001418.jpg"
+  - "vic-2026-002131.jpg"
+  - "vic-2026-fe3431f96f49.jpg"
+  - "vic-2026-56455776039e.jpg"
 name: Mehdi Akrami Ghaderli
-persian_name: "مهدی اکرمی قدیرلی"
-birth_date: ''
-birth_province: ''
-birth_city: ''
+persian_name: مهدی اکرمی قدیرلی
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Saveh
-incident_address: ''
-date_of_death: ''
+incident_address: ""
+date_of_death: "2026-01-01"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |
   Persian Name: مهدی اکرمی قدیرلی
@@ -25,5 +29,5 @@ description: |
   Disappeared during protests in Saveh. Family was told he was arrested. Later, they were called to receive his body.
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/esmaeils1169/status/2014722657472610560
-child: false
+  - "https://x.com/esmaeils1169/status/2014722657472610560"
+  - "https://x.com/esmaeils1169/status/2014722657472610560, https://t.me/RememberTheirNames/921"

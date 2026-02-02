@@ -2,7 +2,11 @@
 # Victim Documentation - Arman Pourdeljo
 # ==========================================
 
-photo: vic-2026-000552.jpg
+photo:
+  - "vic-2026-000552.jpg"
+  - "vic-2026-5c4b1fa90379.jpg"
+  - "vic-2026-4ff93b35bb91.jpg"
+  - "vic-2026-b2fa647ea889.jpg"
 name: Arman Pourdeljo
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,9 @@ status: Killed
 description: |
   Killed during protests (specific circumstances not detailed)
 source_type: Social Media
-source_social_media_link: https://x.com/isamanyasin/status/2014407253802045538, https://x.com/Tavaana/status/2015261924049461286, https://x.com/missmarpel75/status/2015066521056289025, https://x.com/tavaana/status/2015261924049461286, https://t.me/RememberTheirNames/458
-child: false
+source_social_media_link:
+  - "https://x.com/isamanyasin/status/2014407253802045538, https://x.com/Tavaana/status/2015261924049461286, https://x.com/missmarpel75/status/2015066521056289025, https://x.com/tavaana/status/2015261924049461286, https://t.me/RememberTheirNames/458"
+  - "https://x.com/Tavaana/status/2015261924049461286"
+  - "https://x.com/missmarpel75/status/2015066521056289025"
+  - "https://x.com/tavaana/status/2015261924049461286"
 persian_name: آرمان پوردلجو

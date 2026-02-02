@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Javad Heydari
 # ==========================================
 
-photo: vic-2026-000719.jpg
+photo:
+  - "vic-2026-000719.jpg"
+  - "vic-2026-b62fe571352f.jpg"
+  - "vic-2026-0591b3568c00.jpg"
 name: Mohammad Javad Heydari
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Killed during protests in Masjed-e Soleyman on 18 Dey (January 8, 2026)
 source_type: Social Media
-source_social_media_link: https://x.com/yaldarta/status/2014816290448310736
-child: false
+source_social_media_link:
+  - "https://x.com/yaldarta/status/2014816290448310736"
+  - "https://x.com/iranintlsport/status/2015504213363609636"
 persian_name: محمد جواد حیدری

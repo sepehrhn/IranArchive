@@ -2,24 +2,28 @@
 # Victim Documentation - Amir Reza Shabaain
 # ==========================================
 
-photo: vic-2026-001466.png
+photo:
+  - "vic-2026-001466.png"
+  - "vic-2026-736f079f686b.jpg"
+  - "vic-2026-5cfde9709a25.jpg"
+  - "vic-2026-e8eb4729749c.jpg"
 name: Amir Reza Shabaain
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 16
-occupation: ''
+occupation: ""
 country: Iran
 incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: Shandiz
-date_of_death: '2026-01-08'
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: ''
+description: ""
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: true
+  - ""
+  - "https://x.com/longlosthills/status/2017369442745745909"

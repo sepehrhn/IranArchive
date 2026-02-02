@@ -2,7 +2,9 @@
 # Victim Documentation - Mehdi Geranmayeh
 # ==========================================
 
-photo: vic-2026-001130.jpg
+photo:
+  - "vic-2026-001130.jpg"
+  - "vic-2026-3413ba71ab1a.jpg"
 name: Mehdi GeranMayeh
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,8 @@ description: |-
 
   Died in Meydan-e Har, Tehran in Dey 1404 (late Dec 2025 - Jan 2026). The specific date is inferred from the post number 924 and the typical posting frequency of the channel, combined with the general timeframe of Dey 1404.
 source_type: Social Media
-source_social_media_link: https://x.com/hichkasofficial/status/2014823590269485061, https://t.me/RememberTheirNames/976
-child: false
+source_social_media_link:
+  - "https://x.com/hichkasofficial/status/2014823590269485061, https://t.me/RememberTheirNames/976"
+  - "https://x.com/hichkasofficial/status/2014823590269485061"
+  - "https://x.com/esmaeils1169/status/2014816176866554104"
 persian_name: مهدی گرانمایه

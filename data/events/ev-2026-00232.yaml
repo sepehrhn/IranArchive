@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Rassemblement de Solidarité avec le Peuple Iranien"
+
+featured: true
+
+description: |
+  Demonstration in solidarity with the ongoing nationwide uprising in Iran, condemning the regime's mass killings and repression. Participants typically demand regime change and democratic freedom.
+  
+  **Tips:** Exact time often confirmed 24-48h prior on social media. Past rallies have consistently started around 2:00 PM or 3:00 PM on weekends.
+  
+  **Location Details:** Main square, often near the Fontaine du Soleil or the Promenade des Anglais waterfront.
+
+type: "in_person"
+
+date:
+  start: "2026/02/07"
+  start_time: "14:00"
+  end: "2026/02/07"
+  end_time: "17:00"
+
+location:
+  country: "FR"
+  city: "Nice"
+  address: "Place Masséna, Nice, France"
+
+online: []
+
+organizer:
+  name: "Les Amis d'Iran / Mouvement Femme Vie Liberté Nice"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

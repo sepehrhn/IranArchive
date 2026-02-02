@@ -2,7 +2,10 @@
 # Victim Documentation - Morteza Saralak
 # ==========================================
 
-photo: vic-2026-001773.jpg
+photo:
+  - "vic-2026-001773.jpg"
+  - "vic-2026-185f05eef083.jpg"
+  - "vic-2026-27d4b636b746.png"
 name: Morteza Saralak
 birth_date: ""
 birth_province: ""
@@ -25,6 +28,8 @@ description: |-
 
   Shot in the back of the head by the regime's killers. He was a father of three young children.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1033, https://x.com/mousavi1355/status/2016322908755268058, https://x.com/i/status/2016407122334920982
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1033, https://x.com/mousavi1355/status/2016322908755268058, https://x.com/i/status/2016407122334920982"
+  - "https://x.com/mousavi1355/status/2016322908755268058"
+  - "https://x.com/i/status/2016407122334920982"
 persian_name: مرتضی سرلک

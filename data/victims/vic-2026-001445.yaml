@@ -2,24 +2,24 @@
 # Victim Documentation - Nima Khamis
 # ==========================================
 
-photo: ''
+photo:
+  - ""
 name: Nima Khamis
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 19
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-09'
+incident_province: ""
+incident_city: ""
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: Gunshot
 status: Killed
-description: ''
+description: ""
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

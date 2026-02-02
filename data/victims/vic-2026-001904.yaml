@@ -2,7 +2,9 @@
 # Victim Documentation - Ayoub Shaker
 # ==========================================
 
-photo: vic-2026-001904.jpg
+photo:
+  - "vic-2026-001904.jpg"
+  - "vic-2026-743026e49bfc.jpg"
 name: Ayoub Shaker
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,7 @@ description: |-
 
   Killed during protests.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1043
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1043"
+  - "https://x.com/HengawO/status/2015150648296079862"
 persian_name: ایوب شاکر

@@ -2,7 +2,11 @@
 # Victim Documentation - Mansooreh Heydari
 # ==========================================
 
-photo: vic-2026-000138.jpg
+photo:
+  - "vic-2026-000138.jpg"
+  - "vic-2026-d668281982d9.jpg"
+  - "vic-2026-f5c93b22bc7f.jpg"
+  - "vic-2026-0d8f6a057ebb.jpg"
 name: Mansooreh Heydari
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,8 @@ description: |-
 
   Killed by regime forces who shot at them from the “Quran Mosque” located on Ashouri Street. Leaves behind two young children.
 source_type: Social Media
-source_social_media_link: https://x.com/CallYOnYourBS/status/2012230301880295828, https://x.com/mtttiioon/status/2014666132263739656, https://t.me/RememberTheirNames/114
-child: false
+source_social_media_link:
+  - "https://x.com/CallYOnYourBS/status/2012230301880295828, https://x.com/mtttiioon/status/2014666132263739656, https://t.me/RememberTheirNames/114"
+  - "https://x.com/CallYOnYourBS/status/2012230301880295828"
+  - "https://x.com/mtttiioon/status/2014666132263739656"
 persian_name: منصوره حیدری

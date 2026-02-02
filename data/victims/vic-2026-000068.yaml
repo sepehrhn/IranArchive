@@ -2,19 +2,21 @@
 # Victim Documentation - Yaser Ezati Nosratian
 # ==========================================
 
-photo: vic-2026-000068.jpg
+photo:
+  - "vic-2026-000068.jpg"
+  - "vic-2026-5fd15a3a5a88.jpg"
 name: Yaser Ezati Nosratian
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
-age: null
-occupation: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
+age: 33
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,4 +25,3 @@ description: |
 source_type: Social Media
 source_social_media_link:
   - https://x.com/hengawo/status/2014781999668437226
-child: false

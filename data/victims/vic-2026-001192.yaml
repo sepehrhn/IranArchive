@@ -2,20 +2,25 @@
 # Victim Documentation - Ramin Sahri
 # ==========================================
 
-photo: vic-2026-001192.jpg
+photo:
+  - "vic-2026-001192.jpg"
+  - "vic-2026-001431.jpg"
+  - "vic-2026-3169dbbe847c.jpg"
+  - "vic-2026-002248.jpg"
+  - "vic-2026-b31c1a78c3ca.jpg"
 name: Ramin Sahri
-persian_name: "رامین سحری"
-birth_date: ''
-birth_province: ''
+persian_name: رامین سحری
+birth_date: ""
+birth_province: ""
 birth_city: Astaneh (Kisom)
-gender: ''
-age: null
-occupation: ''
+gender: "Male"
+age: 25
+occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -23,5 +28,8 @@ description: |
   Killed during protests, described as having two children aged 4 and 7, originally from Astaneh (Kisom)
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/pkhwshhal/status/2014372693735321885
-child: false
+  - "https://x.com/pkhwshhal/status/2014372693735321885"
+  - "https://x.com/potter_mer62985/status/2014658278748242333, https://t.me/RememberTheirNames/1552"
+  - "https://x.com/potter_mer62985/status/2014658278748242333"
+  - "https://t.me/RememberTheirNames/1552"
+  - "https://x.com/pkhwshhal/status/2014372693735321885, https://t.me/RememberTheirNames/673"

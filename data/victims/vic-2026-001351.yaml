@@ -2,21 +2,22 @@
 # Victim Documentation - Huzaifa Zargar
 # ==========================================
 
-photo: vic-2026-001351.jpg
+photo:
+  - vic-2026-001351.jpg
 name: Huzaifa Zargar
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: 11
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
+incident_province: ""
+incident_city: ""
 incident_address: Balochistan
-date_of_death: '2026-01-25'
+date_of_death: "2026-01-25"
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |
   Persian Name: حذیفه زرگر
@@ -26,4 +27,3 @@ source_type: Social Media
 source_social_media_link:
   - https://x.com/hamalilalin/status/2015507333082743134
   - https://x.com/hamalilalin/status/2015490997136851118
-child: true

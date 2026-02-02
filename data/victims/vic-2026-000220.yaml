@@ -2,7 +2,13 @@
 # Victim Documentation - Ahmad Balouri
 # ==========================================
 
-photo: vic-2026-000220.jpg
+photo:
+  - "vic-2026-000220.jpg"
+  - "vic-2026-e3627ea5f2b6.jpg"
+  - "vic-2026-d32f75cfa127.jpg"
+  - "vic-2026-54f1a4e192b3.jpg"
+  - "vic-2026-99cfab2f350e.png"
+  - "vic-2026-17cfac289ed0.jpg"
 name: Ahmad Balouri
 birth_date: ""
 birth_province: ""
@@ -24,6 +30,7 @@ description: |-
 
   Shot directly in the head by 'Khamenei's beasts' (security forces). Died for Iran's freedom.
 source_type: Social Media
-source_social_media_link: https://x.com/NegarAskaran/status/2011892911181615395, https://x.com/nedabahram/status/2015121783934906556, https://t.me/RememberTheirNames/681, https://x.com/outofken/status/2016106357578137798
-child: false
+source_social_media_link:
+  - "https://x.com/NegarAskaran/status/2011892911181615395, https://x.com/nedabahram/status/2015121783934906556, https://t.me/RememberTheirNames/681, https://x.com/outofken/status/2016106357578137798"
+  - "https://x.com/outofken/status/2016106357578137798"
 persian_name: احمد بلوری

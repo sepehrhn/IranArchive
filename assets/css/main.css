@@ -7,4 +7,9 @@
     body {
         @apply bg-surface-50 text-surface-900 dark:bg-surface-950 dark:text-surface-0 transition-colors duration-300;
     }
+
+    [dir="rtl"],
+    [lang="fa"] {
+        font-family: 'Vazirmatn', 'Inter', system-ui, sans-serif !important;
+    }
 }

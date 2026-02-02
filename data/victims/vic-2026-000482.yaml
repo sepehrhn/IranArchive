@@ -2,7 +2,9 @@
 # Victim Documentation - Akbar Esfandiari
 # ==========================================
 
-photo: vic-2026-000482.jpg
+photo:
+  - "vic-2026-000482.jpg"
+  - "vic-2026-2a6a03e53855.png"
 name: Akbar Esfandiari
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   A wrestler from Tehran, he was shot in the face and head with live ammunition and lost his life. He was married with two children, aged 9 and 7.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2015164460541853979, https://x.com/iliaaaa66/status/2015885736424141247, https://t.me/RememberTheirNames/1127
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2015164460541853979, https://x.com/iliaaaa66/status/2015885736424141247, https://t.me/RememberTheirNames/1127"
+  - "https://x.com/HeKasrehCrisis/status/2016716154899661151"
 persian_name: اکبر اسفندیاری

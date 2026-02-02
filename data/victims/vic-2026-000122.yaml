@@ -2,7 +2,9 @@
 # Victim Documentation - Pedram Madani
 # ==========================================
 
-photo: vic-2026-000122.jpg
+photo:
+  - "vic-2026-000122.jpg"
+  - "vic-2026-f2d6bb47a5da.jpg"
 name: Pedram Madani
 birth_date: ""
 birth_province: ""
@@ -21,6 +23,7 @@ status: Killed
 description: |
   Executed in prison
 source_type: Social Media
-source_social_media_link: https://x.com/jeanne2022rev/status/2012247859609960559
-child: false
+source_social_media_link:
+  - "https://x.com/jeanne2022rev/status/2012247859609960559"
+  - "https://x.com/Jeanne2022Rev/status/1927697812931612683"
 persian_name: پدرام مدنی

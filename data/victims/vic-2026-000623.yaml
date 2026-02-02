@@ -2,7 +2,9 @@
 # Victim Documentation - Hassan Ali Norouzi Sameleh
 # ==========================================
 
-photo: vic-2026-000623.jpg
+photo:
+  - "vic-2026-000623.jpg"
+  - "vic-2026-4f802c0b7fd0.jpg"
 name: Hassan Ali Norouzi Sameleh
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Kurdish citizen from Kermanshah, 54-year-old worker, shot by military-security forces of the Islamic Republic during popular protests in Mashhad. After several days of searching and family visits to medical centers, courts and security institutions in Mashhad, they were informed that his body had been buried in one of the city's cemeteries.
 source_type: Social Media
-source_social_media_link: https://x.com/kurdpa_farsi/status/2014228934586511367, https://x.com/kurdpa_farsi/status/2014229408744128960, https://x.com/KurdistanHRN/status/2016559459183505908
-child: false
+source_social_media_link:
+  - "https://x.com/kurdpa_farsi/status/2014228934586511367, https://x.com/kurdpa_farsi/status/2014229408744128960, https://x.com/KurdistanHRN/status/2016559459183505908"
+  - "https://x.com/KurdistanHRN/status/2016559459183505908"
 persian_name: حسنعلی نوروزی سامله

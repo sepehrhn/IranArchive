@@ -2,7 +2,12 @@
 # Victim Documentation - Arshia Ahmadpour
 # ==========================================
 
-photo: vic-2026-000258.jpg
+photo:
+  - "vic-2026-000258.jpg"
+  - "vic-2026-b494810fdbe9.jpg"
+  - "vic-2026-885f294ba828.jpg"
+  - "vic-2026-b254850db264.jpg"
+  - "vic-2026-1d7e62b74ac0.jpg"
 name: Arshia Ahmadpour
 birth_date: ""
 birth_province: ""
@@ -24,6 +29,10 @@ description: |-
 
   Killed by security forces during protests. Originally from Izeh, worked as a hairdresser in Isfahan.
 source_type: Social Media
-source_social_media_link: https://x.com/iranintlsport/status/2012528799896773049, https://x.com/banafshehviola/status/2012734272256594356, https://x.com/IranIntl_En/status/2012500446607184326, https://x.com/VIsfehan/status/2014667282467758141, https://t.me/RememberTheirNames/261
-child: false
+source_social_media_link:
+  - "https://x.com/iranintlsport/status/2012528799896773049, https://x.com/banafshehviola/status/2012734272256594356, https://x.com/IranIntl_En/status/2012500446607184326, https://x.com/VIsfehan/status/2014667282467758141, https://t.me/RememberTheirNames/261"
+  - "https://x.com/IranIntl_En/status/2012500446607184326"
+  - "https://x.com/iranintlsport/status/2012528799896773049"
+  - "https://x.com/banafshehviola/status/2012734272256594356"
+  - "https://x.com/VIsfehan/status/2014667282467758141"
 persian_name: عرشیا احمدپور

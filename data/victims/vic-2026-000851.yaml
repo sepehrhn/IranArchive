@@ -2,7 +2,10 @@
 # Victim Documentation - Shahrooz Mehrabi
 # ==========================================
 
-photo: vic-2026-000851.jpg
+photo:
+  - "vic-2026-000851.jpg"
+  - "vic-2026-900f4a43bb79.jpg"
+  - "vic-2026-34d415834e81.jpg"
 name: Shahrooz Mehrabi
 birth_date: ""
 birth_province: ""
@@ -17,10 +20,12 @@ incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
-status: Killed
+status: "Missing"
 description: |
   Shot by Islamic Republic security forces on the night of his wife's birthday.
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2013568510937468981, https://x.com/esmaeils1169/status/2014721946777276681, https://x.com/HengawO/status/2013568510937468981, https://t.me/RememberTheirNames/373
-child: false
+source_social_media_link:
+  - "https://x.com/hengawo/status/2013568510937468981, https://x.com/esmaeils1169/status/2014721946777276681, https://x.com/HengawO/status/2013568510937468981, https://t.me/RememberTheirNames/373"
+  - "https://x.com/hengawo/status/2013568510937468981"
+  - "https://x.com/HengawO/status/2013568510937468981"
 persian_name: شهروز محرابی

@@ -2,19 +2,20 @@
 # Victim Documentation - Shahab PourFalah
 # ==========================================
 
-photo: vic-2026-001513.jpeg
+photo:
+  - vic-2026-001513.jpeg
 name: Shahab PourFalah
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 19
-occupation: 'کشتی گیر '
+occupation: "کشتی گیر "
 country: Iran
 incident_province: Khuzestan
 incident_city: Andimeshk
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -28,5 +29,4 @@ description: |
   شهاب فلاح‌پور به‌عنوان ورزشکار محلی در اندیمشک شناخته می‌شد.
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

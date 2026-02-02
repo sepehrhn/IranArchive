@@ -2,7 +2,10 @@
 # Victim Documentation - Reza Khaksar
 # ==========================================
 
-photo: vic-2026-002144.jpg
+photo:
+  - "vic-2026-002144.jpg"
+  - "vic-2026-6892f28502c1.jpg"
+  - "vic-2026-b4b57a30e738.jpg"
 name: Reza Khaksar
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Chaharmahal and Bakhtiari
+incident_province: ""
 incident_city: Baladaji
 incident_address: ""
 date_of_death: "2026-01-01"
@@ -23,6 +26,8 @@ description: |-
 
   Shot and killed. His family was subjected to repeated threats in their efforts to recover his body.
 source_type: Social Media
-source_social_media_link: https://x.com/monfaredashkan/status/2015998440241824062, https://t.me/RememberTheirNames/713, https://x.com/Walterakam/status/2016124264122925076, https://x.com/MonfaredAshkan/status/2015974121566597581
-child: false
+source_social_media_link:
+  - "https://x.com/monfaredashkan/status/2015998440241824062, https://t.me/RememberTheirNames/713, https://x.com/Walterakam/status/2016124264122925076, https://x.com/MonfaredAshkan/status/2015974121566597581"
+  - "https://x.com/Walterakam/status/2016124264122925076"
+  - "https://x.com/MonfaredAshkan/status/2015974121566597581"
 persian_name: رضا خاکسار

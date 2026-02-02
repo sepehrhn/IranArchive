@@ -2,7 +2,11 @@
 # Victim Documentation - Younes Momeni
 # ==========================================
 
-photo: vic-2026-000870.jpg
+photo:
+  - "vic-2026-000870.jpg"
+  - "vic-2026-c41a484d8b19.jpg"
+  - "vic-2026-38683ef02b79.jpg"
+  - "vic-2026-30cc17667f23.jpg"
 name: Younes Momeni
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,7 @@ status: Killed
 description: |
   Struck in the neck by live ammunition near Park Square
 source_type: Social Media
-source_social_media_link: https://x.com/iranrights_org/status/2010060922572673167, https://t.me/RememberTheirNames/492
-child: false
+source_social_media_link:
+  - "https://x.com/iranrights_org/status/2010060922572673167, https://t.me/RememberTheirNames/492"
+  - "https://x.com/iranrights_org/status/2010060922572673167"
 persian_name: یونس مومنی

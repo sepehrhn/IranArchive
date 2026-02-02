@@ -2,7 +2,9 @@
 # Victim Documentation - Shayan Badaq
 # ==========================================
 
-photo: vic-2026-2140170.jpg
+photo:
+  - "vic-2026-2140170.jpg"
+  - "vic-2026-c487d9a5585a.jpg"
 name: Shayan Badaq
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed in Mashhad. The tweet states 'Son of Iran and killed on the path of the homeland'.
+description: Killed in Mashhad. The tweet states 'Son of Iran and killed on the path of the homeland'.
 source_type: Social Media
 source_social_media_link: https://x.com/pishibaadab/status/2015139320311488867
-child: false
 persian_name: شایان بداق

@@ -2,7 +2,9 @@
 # Victim Documentation - Mehdi Sanaei Samani
 # ==========================================
 
-photo: vic-2026-001740.jpg
+photo:
+  - "vic-2026-001740.jpg"
+  - "vic-2026-513de71f4fb3.jpg"
 name: Mehdi Sanaei Samani
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: 38
 occupation: ""
 country: Iran
-incident_province: Chaharmahal and Bakhtiari
+incident_province: ""
 incident_city: Saman
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -23,6 +25,7 @@ description: |-
 
   Died after being shot with three live bullets by the security forces of the Islamic Republic.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2016077688381862129, https://t.me/RememberTheirNames/1438
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2016077688381862129, https://t.me/RememberTheirNames/1438"
+  - "https://t.me/RememberTheirNames/1438"
 persian_name: مهدی سنایی سامانی

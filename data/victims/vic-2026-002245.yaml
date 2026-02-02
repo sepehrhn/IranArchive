@@ -2,7 +2,11 @@
 # Victim Documentation - Omid Zare
 # ==========================================
 
-photo: vic-2026-002245.jpg
+photo:
+  - "vic-2026-002245.jpg"
+  - "vic-2026-645a9d914df2.jpg"
+  - "vic-2026-d5bfe4dfe199.jpg"
+  - "vic-2026-c2922ce8725c.jpg"
 name: Omid Zare
 birth_date: ""
 birth_province: ""
@@ -25,6 +29,9 @@ description: |-
 
   Death occurred in Rostamabad, Gilan province during Dey 1404. No additional details provided about circumstances.
 source_type: Social Media
-source_social_media_link: https://x.com/missmarpel75/status/2015444633916936343, https://t.me/RememberTheirNames/1499
-child: false
+source_social_media_link:
+  - "https://x.com/missmarpel75/status/2015444633916936343, https://t.me/RememberTheirNames/1499"
+  - "https://t.me/RememberTheirNames/1499"
+  - "https://x.com/__injaneb96/status/2017345352056377771"
+  - "https://x.com/HyrcaniHRM/status/2018046910871884121"
 persian_name: امید زارع

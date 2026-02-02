@@ -2,21 +2,27 @@
 # Victim Documentation - Mohammadreza Mohammadlou
 # ==========================================
 
-photo: vic-2026-001427.jpg
+photo:
+  - "vic-2026-001427.jpg"
+  - "vic-2026-d1c6df38dd2c.jpg"
+  - "vic-2026-0f71fbd61de5.jpg"
+  - "vic-2026-a1e9883cb511.jpg"
+  - "vic-2026-7a519635f5ba.jpg"
+  - "vic-2026-02d1a5e1752e.jpg"
 name: Mohammadreza Mohammadlou
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: ''
+incident_province: ""
+incident_city: "Baghershah, Tehran"
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Exact
-cause_of_death: ''
+cause_of_death: ""
 status: Killed
 description: |
   Persian Name: محمدرضا محمدلو
@@ -24,5 +30,5 @@ description: |
   Described as 'child of Iran and one who sacrifices their life for the homeland'
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/youtab_ario36/status/2014683513467936888
-child: false
+  - "https://x.com/youtab_ario36/status/2014683513467936888"
+  - "https://x.com/HeKasrehCrisis/status/2017821406214410388"

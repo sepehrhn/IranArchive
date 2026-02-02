@@ -2,7 +2,8 @@
 # Victim Documentation - Haniyeh Natarsia
 # ==========================================
 
-photo: ""
+photo:
+  - ""
 name: Haniyeh Natarsia
 birth_date: ""
 birth_province: ""
@@ -23,6 +24,7 @@ description: |
 
   Killed on Friday, 19 Dey.
 source_type: Social Media
-source_social_media_link: https://x.com/hamed/status/2014837150743720278, https://x.com/Hamed/status/2014837150743720278
-child: false
+source_social_media_link:
+  - "https://x.com/hamed/status/2014837150743720278, https://x.com/Hamed/status/2014837150743720278"
+  - "https://x.com/Hamed/status/2014837150743720278"
 persian_name: هانیه نترسیا

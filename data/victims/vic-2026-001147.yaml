@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Esmaeil Vafa
 # ==========================================
 
-photo: vic-2026-001147.jpg
+photo:
+  - "vic-2026-001147.jpg"
+  - "vic-2026-b2973d027001.jpg"
 name: Mohammad Esmaeil Vafa
 birth_date: ""
 birth_province: ""
@@ -22,5 +24,4 @@ description: |
   Shot by government suppression forces during the national revolution
 source_type: Social Media
 source_social_media_link: https://x.com/indypersian/status/2013634895013097882
-child: false
 persian_name: محمداسماعیل وفا

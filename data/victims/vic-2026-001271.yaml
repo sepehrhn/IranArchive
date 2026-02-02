@@ -2,7 +2,9 @@
 # Victim Documentation - Mohammad Hossein Jamshidi
 # ==========================================
 
-photo: vic-2026-001271.jpg
+photo:
+  - "vic-2026-001271.jpg"
+  - "vic-2026-d8adbf9d2eb3.jpg"
 name: Mohammad Hossein Jamshidi
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: 23
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Hesar
 incident_address: Hesar
 date_of_death: "2026-01-09"
@@ -26,6 +28,9 @@ description: |-
 
   Died during protests, commemorated by family and friends at his funeral in Heser Cemetery, Karaj. Referred to as 'Javidan' (immortal).
 source_type: Social Media
-source_social_media_link: https://x.com/FSeifikaran/status/2015453470657032264, https://x.com/RadioFarda_/status/2015037805013983373, https://x.com/IranIntl/status/2014722292404662662, https://t.me/RememberTheirNames/1217
-child: false
+source_social_media_link:
+  - "https://x.com/FSeifikaran/status/2015453470657032264, https://x.com/RadioFarda_/status/2015037805013983373, https://x.com/IranIntl/status/2014722292404662662, https://t.me/RememberTheirNames/1217"
+  - "https://x.com/RadioFarda_/status/2015037805013983373"
+  - "https://x.com/IranIntl/status/2014722292404662662"
+  - "https://t.me/javanmardi77/154069"
 persian_name: محمدحسین جمشیدی

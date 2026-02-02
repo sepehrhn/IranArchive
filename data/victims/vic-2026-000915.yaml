@@ -2,7 +2,15 @@
 # Victim Documentation - Erfan Bozorgi
 # ==========================================
 
-photo: vic-2026-000915.jpg
+photo:
+  - "vic-2026-000915.jpg"
+  - "vic-2026-cc264d39b196.jpg"
+  - "vic-2026-86a6db0a5325.png"
+  - "vic-2026-dc1185e92fd0.jpg"
+  - "vic-2026-31ba8ec9b043.png"
+  - "vic-2026-22e22de00abf.png"
+  - "vic-2026-ff102a030893.jpg"
+  - "vic-2026-c4c089545cdd.png"
 name: Erfan Bozorgi
 birth_date: ""
 birth_province: ""
@@ -21,6 +29,10 @@ status: Killed
 description: |
   Shot in the head by Islamic Republic forces during the national uprising on January 1st, went into coma and died in hospital the following day
 source_type: Social Media
-source_social_media_link: https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/foundationilr/status/2010721794450415954, https://x.com/daikatuo/status/2007208952682164419, https://x.com/iranwire/status/2013593378575749436, https://x.com/Daikatuo/status/2007455835497152832, https://t.me/RememberTheirNames/20
-child: false
+source_social_media_link:
+  - "https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/foundationilr/status/2010721794450415954, https://x.com/daikatuo/status/2007208952682164419, https://x.com/iranwire/status/2013593378575749436, https://x.com/Daikatuo/status/2007455835497152832, https://t.me/RememberTheirNames/20"
+  - "https://x.com/Daikatuo/status/2007455835497152832"
+  - "https://x.com/foundationilr/status/2010721794450415954"
+  - "https://x.com/daikatuo/status/2007208952682164419"
+  - "https://x.com/mahshid_nazemi/status/2007196652919238768"
 persian_name: عرفان بزرگی

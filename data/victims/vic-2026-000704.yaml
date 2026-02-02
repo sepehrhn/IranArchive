@@ -2,7 +2,14 @@
 # Victim Documentation - Mohammad (Milad) Gholami
 # ==========================================
 
-photo: vic-2026-000704.jpg
+photo:
+  - "vic-2026-000704.jpg"
+  - "vic-2026-1827da4a0408.webp"
+  - "vic-2026-23160be3308d.jpg"
+  - "vic-2026-65423e062bb7.jpg"
+  - "vic-2026-58f6b91352ff.jpg"
+  - "vic-2026-6b2b0fdcc948.jpg"
+  - "vic-2026-7c602551f71c.jpg"
 name: Mohammad (Milad) Gholami
 birth_date: ""
 birth_province: ""
@@ -11,7 +18,7 @@ gender: Male
 age: 25
 occupation: ""
 country: Iran
-incident_province: east of Isfahan
+incident_province: Isfahan
 incident_city: Barsian village
 incident_address: East Tehran
 date_of_death: "2026-01-08"
@@ -24,6 +31,8 @@ description: |-
 
   Shot directly by government forces with two live rounds to the flank and one to the chest. His body was withheld from the family for a week and they were pressured to claim he was a Basij member.
 source_type: Social Media
-source_social_media_link: https://x.com/iranwire/status/2013698851073376393, https://x.com/autnews_org/status/2014694261971640649, https://www.instagram.com/p/DT2vV4rjpVv, https://x.com/Tavaana/status/2015593335516475755, https://x.com/tavaana/status/2015593335516475755, https://t.me/RememberTheirNames/909, https://x.com/visfehan/status/2016113277034504315
-child: false
+source_social_media_link:
+  - "https://x.com/iranwire/status/2013698851073376393, https://x.com/autnews_org/status/2014694261971640649, https://www.instagram.com/p/DT2vV4rjpVv, https://x.com/Tavaana/status/2015593335516475755, https://x.com/tavaana/status/2015593335516475755, https://t.me/RememberTheirNames/909, https://x.com/visfehan/status/2016113277034504315"
+  - "https://www.instagram.com/p/DT2vV4rjpVv"
+  - "https://x.com/autnews_org/status/2014694261971640649"
 persian_name: محمد (میلاد) غلامی

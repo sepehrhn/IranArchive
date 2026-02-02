@@ -2,7 +2,8 @@
 # Victim Documentation - Mohammad Mamloo
 # ==========================================
 
-photo: vic-2026-000374.jpg
+photo:
+  - vic-2026-000374.jpg
 name: Mohammad Mamloo
 birth_date: ""
 birth_province: ""
@@ -22,5 +23,4 @@ description: |
   Killed by Islamic Republic security forces
 source_type: Social Media
 source_social_media_link: https://x.com/allahbakhshii/status/2014828044670623782, https://t.me/RememberTheirNames/942
-child: false
 persian_name: محمد مملو

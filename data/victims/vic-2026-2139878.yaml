@@ -2,7 +2,8 @@
 # Victim Documentation - Aref Mirmoosavi
 # ==========================================
 
-photo: vic-2026-2139878.jpg
+photo:
+  - vic-2026-2139878.jpg
 name: Aref Mirmoosavi
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Described as killed for the homeland
+description: Described as killed for the homeland
 source_type: Social Media
 source_social_media_link: https://x.com/realmeaban/status/2016218573153186283
-child: false
 persian_name: عارف میرموسوی

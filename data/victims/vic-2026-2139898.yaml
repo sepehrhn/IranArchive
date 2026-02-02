@@ -2,7 +2,8 @@
 # Victim Documentation - Hamid Kooshāndeh
 # ==========================================
 
-photo: vic-2026-2139898.jpg
+photo:
+  - vic-2026-2139898.jpg
 name: Hamid Kooshāndeh
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Victim of state violence during protests.
+description: Victim of state violence during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/399
-child: false
 persian_name: حمید کوشنده

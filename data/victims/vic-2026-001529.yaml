@@ -2,7 +2,8 @@
 # Victim Documentation - Esmail Rezaei
 # ==========================================
 
-photo: vic-2026-001529.jpg
+photo:
+  - vic-2026-001529.jpg
 name: Esmail Rezaei
 birth_date: ""
 birth_province: ""
@@ -25,6 +26,7 @@ description: |-
 
   Shot with birdshot on the 18th of Dey (Gregorian: December 28, 2025), causing his kidneys and lungs to be perforated. He died on 4 Bahman (Gregorian: January 23, 2026). Authorities fabricated a story that he was not present at the 'Lion and Sun Revolution' (likely referring to a protest event). He was approximately 50 years old and had three children. His body had not been returned as of the time of the tweet.
 source_type: Social Media
-source_social_media_link: https://x.com/moh3nhadavi/status/2015743593206436146, https://x.com/moh3nhadavi/status/2015795720654118962
-child: false
+source_social_media_link:
+  - "https://x.com/moh3nhadavi/status/2015743593206436146, https://x.com/moh3nhadavi/status/2015795720654118962"
+  - "https://x.com/moh3nhadavi/status/2015743593206436146"
 persian_name: اسماعیل رضایی

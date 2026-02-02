@@ -2,7 +2,9 @@
 # Victim Documentation - Pouria Mirbehrouzian
 # ==========================================
 
-photo: vic-2026-002045.jpg
+photo:
+  - "vic-2026-002045.jpg"
+  - "vic-2026-7029ddbf964c.jpg"
 name: Pouria Mirbehrouzian
 birth_date: ""
 birth_province: ""
@@ -25,6 +27,7 @@ description: |-
 
   Shot in the abdomen on 18 Dey (January 8, 2026) in Mashhad, died on 25 Dey (January 15, 2026)
 source_type: Social Media
-source_social_media_link: https://x.com/iamsarvboland/status/2015887313297957103, https://t.me/RememberTheirNames/497, https://x.com/i/status/2015887313297957103
-child: false
+source_social_media_link:
+  - "https://x.com/iamsarvboland/status/2015887313297957103, https://t.me/RememberTheirNames/497, https://x.com/i/status/2015887313297957103"
+  - "https://x.com/i/status/2015887313297957103"
 persian_name: پوريا ميربهروزيان

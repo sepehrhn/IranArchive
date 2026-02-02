@@ -2,7 +2,9 @@
 # Victim Documentation - Manouchehr Baghani
 # ==========================================
 
-photo: vic-2026-000666.png
+photo:
+  - "vic-2026-000666.png"
+  - "vic-2026-fab5347b340c.png"
 name: Manouchehr Baghani
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Arrested on Thursday night, January 8, 2026, in Afsariyeh district, Tehran. His family was threatened and initially did not want his name released. He was shot in the heart. His face was disfigured, and his daughters were not allowed to see him. His death was confirmed by the Martyrs Foundation after two weeks of no contact.
 source_type: Social Media
-source_social_media_link: https://x.com/hekasrehcrisis/status/2015163601146028147, https://x.com/HeKasrehCrisis/status/2015163601146028147, https://t.me/RememberTheirNames/1114
-child: false
+source_social_media_link:
+  - "https://x.com/hekasrehcrisis/status/2015163601146028147, https://x.com/HeKasrehCrisis/status/2015163601146028147, https://t.me/RememberTheirNames/1114"
+  - "https://x.com/HeKasrehCrisis/status/2015163601146028147"
 persian_name: منوچهر باغانی

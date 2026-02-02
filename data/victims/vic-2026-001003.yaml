@@ -2,19 +2,22 @@
 # Victim Documentation - Abolfazl Khaledi
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-cde0ae23e274.jpg"
+  - "vic-2026-2139840.jpg"
 name: Abolfazl Khaledi
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Male"
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Lordegan
-incident_address: ''
-date_of_death: ''
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,6 +25,6 @@ description: |
   Killed during popular protests
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/nimarfati51385/status/2009962015557820632
-  - https://x.com/Savakzadeh/status/2013638645354209477
-child: false
+  - "https://x.com/nimarfati51385/status/2009962015557820632"
+  - "https://x.com/Savakzadeh/status/2013638645354209477"
+  - "https://t.me/RememberTheirNames/1654"

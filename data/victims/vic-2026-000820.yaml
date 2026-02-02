@@ -2,7 +2,11 @@
 # Victim Documentation - Saeed Khourche Farahani
 # ==========================================
 
-photo: vic-2026-000820.jpg
+photo:
+  - "vic-2026-000820.jpg"
+  - "vic-2026-d19be928a690.jpg"
+  - "vic-2026-980527d6ede1.jpg"
+  - "vic-2026-162aed069282.jpg"
 name: Saeed Khourche Farahani
 birth_date: ""
 birth_province: ""
@@ -21,6 +25,9 @@ status: Killed
 description: |
   Shot in the head in the early hours of the protests in Afsariyeh neighborhood.
 source_type: Social Media
-source_social_media_link: https://x.com/realneo101/status/2015150096644460745, https://x.com/HengawO/status/2016083913576235034, https://x.com/allahbakhshii/status/2016196731273368039, https://t.me/RememberTheirNames/1484
-child: false
+source_social_media_link:
+  - "https://x.com/realneo101/status/2015150096644460745, https://x.com/HengawO/status/2016083913576235034, https://x.com/allahbakhshii/status/2016196731273368039, https://t.me/RememberTheirNames/1484"
+  - "https://x.com/HengawO/status/2016083913576235034"
+  - "https://x.com/allahbakhshii/status/2016196731273368039"
+  - "https://t.me/RememberTheirNames/1484"
 persian_name: سعید خورچه فراهانی

@@ -2,7 +2,11 @@
 # Victim Documentation - Reza Darvishi
 # ==========================================
 
-photo: vic-2026-001199.jpg
+photo:
+  - "vic-2026-001199.jpg"
+  - "vic-2026-3b9d47bb9157.jpg"
+  - "vic-2026-dce7a3d28e3a.jpg"
+  - "vic-2026-de6250abce12.jpg"
 name: Reza Darvishi
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,9 @@ description: |-
 
   Killed by direct fire from regime suppressive forces during public protests.
 source_type: Social Media
-source_social_media_link: https://x.com/hengawo/status/2013693435627151563, https://x.com/HengawO/status/2013693435627151563, https://x.com/ManotoNews/status/2014563996624683114, https://t.me/RememberTheirNames/433, https://x.com/Hoorieh81/status/2016073974669623673
-child: false
+source_social_media_link:
+  - "https://x.com/hengawo/status/2013693435627151563, https://x.com/HengawO/status/2013693435627151563, https://x.com/ManotoNews/status/2014563996624683114, https://t.me/RememberTheirNames/433, https://x.com/Hoorieh81/status/2016073974669623673"
+  - "https://x.com/hengawo/status/2013693435627151563"
+  - "https://x.com/HengawO/status/2013693435627151563"
+  - "https://x.com/ManotoNews/status/2014563996624683114"
 persian_name: رضا درویشی

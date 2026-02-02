@@ -2,7 +2,9 @@
 # Victim Documentation - Baniamin Aghdami
 # ==========================================
 
-photo: vic-2026-002188.jpg
+photo:
+  - "vic-2026-002188.jpg"
+  - "vic-2026-bd27d4968396.jpg"
 name: Baniamin Aghdami
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: 17
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: ""
 date_of_death: "2025-12-22"
@@ -23,6 +25,7 @@ description: |-
 
   Injured during suppression of protests, transferred to Kachouyi prison, and died by the morning of the same night. His body was held at Kahrizak for five days and only returned after payment of 700 million Toman ('bullet cost') and under heavy security pressure and commitments. Buried in a village near Hashtgerd.
 source_type: Social Media
-source_social_media_link: https://x.com/Tavaana/status/2015325025520529598, https://t.me/RememberTheirNames/268, https://x.com/MatiuBrown7/status/2016040611283972324
-child: true
+source_social_media_link:
+  - "https://x.com/Tavaana/status/2015325025520529598, https://t.me/RememberTheirNames/268, https://x.com/MatiuBrown7/status/2016040611283972324"
+  - "https://x.com/Tavaana/status/2015325025520529598"
 persian_name: بنیامین اقدامی

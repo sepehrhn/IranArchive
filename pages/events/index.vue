@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import { ref, computed, watch } from 'vue';
+const { t } = useI18n();
 import type { ParsedEvent } from '~/server/utils/events/schemas';
 import { useCountries } from '~/composables/useCountries';
 
 useHead({
-    title: 'Events - IranArchive',
+    title: t('eventsPage.title'),
     meta: [
-        { name: 'description', content: 'Find protests, rallies, and demonstrations in support of Iran happening across the globe.' }
+        { name: 'description', content: t('eventsPage.description') }
     ]
 });
 
@@ -179,7 +180,7 @@ watch([() => selectedCountry.value, () => selectedCity.value, () => showPastEven
 
 const isLoading = computed(() => pending.value || filterLoading.value);
 
-const submissionStepTitle = ref('Submit a Global Solidarity Event');
+const submissionStepTitle = ref(t('eventsPage.submitDialogTitle'));
 
 </script>
 
@@ -192,10 +193,10 @@ const submissionStepTitle = ref('Submit a Global Solidarity Event');
                 <div class="relative px-8 py-10 md:py-12">
                     <div class="max-w-3xl">
                         <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
-                            Global Solidarity Events
+                            {{ t('eventsPage.heroTitle') }}
                         </h1>
                         <p class="text-lg text-surface-200 dark:text-surface-300 mb-6 leading-relaxed">
-                            Join the movement. Find protests, rallies, and demonstrations in support of Iran happening across the globe.
+                            {{ t('eventsPage.heroSubtitle') }}
                         </p>
                         
                         <!-- Stats -->
@@ -207,9 +208,9 @@ const submissionStepTitle = ref('Submit a Global Solidarity Event');
                                 <div>
                                     <p class="text-3xl font-bold text-white">
                                         <Skeleton v-if="pending" width="2rem" height="2.5rem" class="!bg-white/20" />
-                                        <span v-else>{{ stats.upcoming }}</span>
+                                        <span v-else>{{ $nFa(stats.upcoming) }}</span>
                                     </p>
-                                    <p class="text-sm text-surface-300 dark:text-surface-400">Upcoming</p>
+                                    <p class="text-sm text-surface-300 dark:text-surface-400">{{ t('eventsPage.upcoming') }}</p>
                                 </div>
                             </div>
                             <div class="flex items-center gap-3">
@@ -219,9 +220,9 @@ const submissionStepTitle = ref('Submit a Global Solidarity Event');
                                 <div>
                                     <p class="text-3xl font-bold text-white">
                                         <Skeleton v-if="pending" width="2rem" height="2.5rem" class="!bg-white/20" />
-                                        <span v-else>{{ stats.past }}</span>
+                                        <span v-else>{{ $nFa(stats.past) }}</span>
                                     </p>
-                                    <p class="text-sm text-surface-300 dark:text-surface-400">Past Events</p>
+                                    <p class="text-sm text-surface-300 dark:text-surface-400">{{ t('eventsPage.pastEvents') }}</p>
                                 </div>
                             </div>
 
@@ -231,7 +232,7 @@ const submissionStepTitle = ref('Submit a Global Solidarity Event');
                     <!-- Action Button in Top Right -->
                     <div class="absolute top-8 right-8 md:top-12 md:right-8 flex flex-col items-end gap-3">
                         <Button
-                            label="Submit an Event"
+                            :label="t('eventsPage.submit')"
                             icon="pi pi-plus"
                             @click="showSubmitDialog = true"
                             class="hidden md:flex shadow-lg"
@@ -239,7 +240,7 @@ const submissionStepTitle = ref('Submit a Global Solidarity Event');
                         
                         <!-- Past Events Toggle (Desktop) -->
                         <div class="hidden md:flex items-center gap-3 bg-surface-900/30 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-white/10 shadow-sm">
-                            <span class="text-sm font-bold text-white">Show past events</span>
+                            <span class="text-sm font-bold text-white">{{ t('eventsPage.showPastEvents') }}</span>
                             <InputSwitch v-model="showPastEvents" />
                         </div>
                     </div>
@@ -247,7 +248,7 @@ const submissionStepTitle = ref('Submit a Global Solidarity Event');
             </div>
 
             <!-- Mobile Filters (Sticky) -->
-            <div class="sticky-trigger md:hidden mb-6 sticky top-4 z-30 bg-surface-0/95 dark:bg-surface-900/95 backdrop-blur-md py-4 px-1 rounded-xl border border-surface-200 dark:border-surface-800 shadow-md">
+            <div class="sticky-trigger md:hidden mb-6 sticky top-20 z-30 bg-surface-0/95 dark:bg-surface-900/95 backdrop-blur-md py-4 px-1 rounded-xl border border-surface-200 dark:border-surface-800 shadow-md">
                 <EventsMobileFilters 
                     :events="events || []"
                     :selectedCountry="selectedCountry"
@@ -274,7 +275,7 @@ const submissionStepTitle = ref('Submit a Global Solidarity Event');
 
             <div class="grid grid-cols-1 lg:grid-cols-[240px_240px_1fr] gap-8 items-start">
                 <!-- Country Sidebar (Desktop) -->
-                <aside class="sticky-trigger hidden lg:block sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto custom-scrollbar">
+                <aside class="sticky-trigger hidden lg:block sticky top-20 max-h-[calc(100vh-2rem)] overflow-y-auto custom-scrollbar">
                     <div class="bg-surface-0 dark:bg-surface-900 p-4 rounded-2xl border border-surface-200 dark:border-surface-700">
                         <div v-if="pending" class="space-y-4">
                             <Skeleton width="100%" height="2rem" />
@@ -293,7 +294,7 @@ const submissionStepTitle = ref('Submit a Global Solidarity Event');
                 </aside>
 
                 <!-- City Sidebar (Desktop) -->
-                <aside class="sticky-trigger hidden lg:block sticky top-4 max-h-[calc(100vh-2rem)] overflow-y-auto custom-scrollbar">
+                <aside class="sticky-trigger hidden lg:block sticky top-20 max-h-[calc(100vh-2rem)] overflow-y-auto custom-scrollbar">
                     <div v-if="selectedCountry || pending" class="bg-surface-0 dark:bg-surface-900 p-4 rounded-2xl border border-surface-200 dark:border-surface-700">
                         <div v-if="pending" class="space-y-4">
                              <Skeleton width="100%" height="2rem" />
@@ -312,7 +313,7 @@ const submissionStepTitle = ref('Submit a Global Solidarity Event');
                     </div>
                      <div v-else-if="!pending" class="text-center p-8 opacity-50">
                         <i class="pi pi-map text-4xl text-surface-300 mb-2"></i>
-                        <p class="text-sm text-surface-500">Select a country to filter</p>
+                        <p class="text-sm text-surface-500">{{ t('eventsPage.selectCountry') }}</p>
                     </div>
                 </aside>
 
@@ -332,9 +333,9 @@ const submissionStepTitle = ref('Submit a Global Solidarity Event');
                         <div class="w-16 h-16 bg-surface-100 dark:bg-surface-800 rounded-2xl flex items-center justify-center mx-auto mb-6">
                             <i class="pi pi-search text-3xl text-surface-300 dark:text-surface-600"></i>
                         </div>
-                        <h2 class="text-2xl font-bold text-surface-700 dark:text-surface-200 mb-2">No events found</h2>
+                        <h2 class="text-2xl font-bold text-surface-700 dark:text-surface-200 mb-2">{{ t('eventsPage.emptyTitle') }}</h2>
                         <p class="text-surface-500 dark:text-surface-400 text-lg max-w-sm mx-auto">
-                            Try adjusting your filters or search query to find what you're looking for.
+                            {{ t('eventsPage.emptyDescription') }}
                         </p>
                     </div>
                 </main>

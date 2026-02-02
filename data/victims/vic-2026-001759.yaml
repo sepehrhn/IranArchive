@@ -2,7 +2,8 @@
 # Victim Documentation - Mohammad Reza Afrogh
 # ==========================================
 
-photo: vic-2026-001759.jpg
+photo:
+  - vic-2026-001759.jpg
 name: Mohammad Reza Afrogh
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Died during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/714
-child: false
 persian_name: محمدرضا افروغ

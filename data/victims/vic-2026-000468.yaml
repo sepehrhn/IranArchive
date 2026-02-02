@@ -2,7 +2,8 @@
 # Victim Documentation - Abdolrasoul Kharazi
 # ==========================================
 
-photo: vic-2026-000468.jpg
+photo:
+  - vic-2026-000468.jpg
 name: Abdolrasoul Kharazi
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Female
 age: 51
 occupation: ""
 country: Iran
-incident_province: Shahriar
+incident_province: ""
 incident_city: Vahidieh
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -22,5 +23,4 @@ description: |
   Shot directly in the head by government forces during popular protests in front of his wife and children
 source_type: Social Media
 source_social_media_link: https://x.com/manotonews/status/2013559631541362848, https://x.com/pouyajegarvnd/status/2014400069974307303, https://x.com/hengawo/status/2014810777199272005, https://x.com/HengawO/status/2014810777199272005, https://t.me/RememberTheirNames/369
-child: false
 persian_name: عابدین خزایی

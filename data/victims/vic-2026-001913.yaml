@@ -2,7 +2,9 @@
 # Victim Documentation - Davood Mirzaei
 # ==========================================
 
-photo: vic-2026-001913.jpg
+photo:
+  - "vic-2026-001913.jpg"
+  - "vic-2026-58f396b8037d.jpg"
 name: Davood Mirzaei
 birth_date: ""
 birth_province: ""
@@ -18,8 +20,10 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |+
+description: ""
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1066
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1066"
+  - "https://x.com/mahshid_nazemi/status/2017191256372195667"
+  - "https://x.com/i/status/2017191256372195667"
 persian_name: داوود میرزایی

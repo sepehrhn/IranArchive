@@ -2,7 +2,14 @@
 # Victim Documentation - Milad Ghasemi
 # ==========================================
 
-photo: vic-2026-000359.jpg
+photo:
+  - "vic-2026-000359.jpg"
+  - "vic-2026-0596c616e8a6.jpg"
+  - "vic-2026-b42ebb4f7cde.jpg"
+  - "vic-2026-0c48310d6edf.jpg"
+  - "vic-2026-0ab647b9f8ba.jpg"
+  - "vic-2026-2139949.jpg"
+  - "vic-2026-41c82ceb15c1.jpg"
 name: Milad Ghasemi
 birth_date: ""
 birth_province: ""
@@ -24,6 +31,10 @@ description: |-
 
   Shot in the upper body from behind around 10 PM near Dr. Hesabi Street, Isfahan. Died from blood loss before reaching the hospital. His body was returned to his family four days later and buried in Bagh-e Rezvan, Isfahan.
 source_type: Social Media
-source_social_media_link: https://x.com/manotonews/status/2014782688859656507, https://x.com/iranwire/status/2014938527155318871, https://x.com/FSeifikaran/status/2015044331770364118, https://t.me/RememberTheirNames/857
-child: false
+source_social_media_link:
+  - "https://x.com/manotonews/status/2014782688859656507, https://x.com/iranwire/status/2014938527155318871, https://x.com/FSeifikaran/status/2015044331770364118, https://t.me/RememberTheirNames/857"
+  - "https://x.com/manotonews/status/2014782688859656507"
+  - "https://x.com/FSeifikaran/status/2015044331770364118"
+  - "https://x.com/hekasrehcrisis/status/2016215536938479821, https://x.com/HeKasrehCrisis/status/2016215536938479821, https://t.me/RememberTheirNames/1666"
+  - "https://t.me/javanmardi77/154131"
 persian_name: میلاد قاسمی

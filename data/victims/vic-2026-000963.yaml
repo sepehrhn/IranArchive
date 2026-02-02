@@ -2,7 +2,10 @@
 # Victim Documentation - Reza Niknam
 # ==========================================
 
-photo: vic-2026-000963.jpg
+photo:
+  - "vic-2026-000963.jpg"
+  - "vic-2026-6e2b6a973ac9.jpg"
+  - "vic-2026-4874f7878b45.jpg"
 name: Reza Niknam
 birth_date: ""
 birth_province: ""
@@ -22,5 +25,4 @@ description: |
   Killed by Islamic Republic security forces during protests
 source_type: Social Media
 source_social_media_link: https://x.com/daikatuo/status/2006807497701756952
-child: false
 persian_name: رضا نیکنام

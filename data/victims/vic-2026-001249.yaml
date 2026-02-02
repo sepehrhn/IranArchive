@@ -2,7 +2,10 @@
 # Victim Documentation - Sahar Fard
 # ==========================================
 
-photo: vic-2026-001249.jpg
+photo:
+  - "vic-2026-001249.jpg"
+  - "vic-2026-d186ed2e11bc.jpg"
+  - "vic-2026-7f4d50c2043f.jpg"
 name: Sahar Fard
 birth_date: ""
 birth_province: ""
@@ -11,7 +14,7 @@ gender: Female
 age: 38
 occupation: ""
 country: Iran
-incident_province: Varamin
+incident_province: ""
 incident_city: Gharchak
 incident_address: ""
 date_of_death: "2026-01-18"
@@ -24,5 +27,7 @@ description: |-
 
   Killed by a war bullet from the forces of the Islamic Republic regime striking her forehead. She was an athlete, coach of Taekwondo, gymnastics, Pilates, TRX, and a model.
 source_type: Social Media
-source_social_media_link: https://x.com/longlosthills/status/2015119666167869786
-child: false
+source_social_media_link:
+  - "https://x.com/longlosthills/status/2015119666167869786"
+  - "https://x.com/historyinpik/status/2017712047014793536"
+  - "https://x.com/soranmansournia/status/2017030906024763484"

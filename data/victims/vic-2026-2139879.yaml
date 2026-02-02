@@ -2,13 +2,15 @@
 # Victim Documentation - Arman Mehdipour
 # ==========================================
 
-photo: vic-2026-2139879.jpg
+photo:
+  - "vic-2026-2139879.jpg"
+  - "vic-2026-536b35ea6e34.jpg"
 name: Arman Mehdipour
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 24
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -18,9 +20,7 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Salsabil area of Tehran during the protests
+description: Died in Salsabil area of Tehran during the protests
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/1590
-child: false
 persian_name: آرمان مهدی‌پور

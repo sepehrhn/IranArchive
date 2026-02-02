@@ -2,7 +2,11 @@
 # Victim Documentation - Hessam Eslami
 # ==========================================
 
-photo: vic-2026-2139911.jpg
+photo:
+  - "vic-2026-2139911.jpg"
+  - "vic-2026-03db52e70510.jpg"
+  - "vic-2026-7d4f0a48f591.jpg"
+  - "vic-2026-366840754e5b.jpg"
 name: Hessam Eslami
 birth_date: ""
 birth_province: ""
@@ -11,16 +15,19 @@ gender: Male
 age: 41
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Mehrshahr
 incident_address: Mehrshahr
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Shot with direct military fire in Mehrshahr, Karaj. Known by the nickname Javid Nam (جاوید نام). Had lost his mother since childhood and was abandoned by his father.
+description: Shot with direct military fire in Mehrshahr, Karaj. Known by the nickname Javid Nam (جاوید نام). Had lost his mother since childhood and was abandoned by his father.
 source_type: Social Media
-source_social_media_link: https://x.com/akumlind/status/2016133061490942073, https://x.com/creatorofdori/status/2016166962955473303, https://x.com/i/status/2016133061490942073, https://x.com/i/status/2016166962955473303
-child: false
+source_social_media_link:
+  - "https://x.com/akumlind/status/2016133061490942073, https://x.com/creatorofdori/status/2016166962955473303, https://x.com/i/status/2016133061490942073, https://x.com/i/status/2016166962955473303"
+  - "https://x.com/akumlind/status/2016133061490942073"
+  - "https://x.com/i/status/2016133061490942073"
+  - "https://x.com/i/status/2016166962955473303"
+  - "https://x.com/Persian_picture/status/2016922476941369498"
 persian_name: حسام علمی

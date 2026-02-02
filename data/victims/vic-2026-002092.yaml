@@ -2,7 +2,8 @@
 # Victim Documentation - Amirali Goudarzi
 # ==========================================
 
-photo: vic-2026-002092.jpg
+photo:
+  - vic-2026-002092.jpg
 name: Amirali Goudarzi
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   Killed during protests.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/995
-child: true
 persian_name: امیرعلی گودرزی

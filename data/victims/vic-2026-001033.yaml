@@ -2,7 +2,8 @@
 # Victim Documentation - Amir Reza Karamajani
 # ==========================================
 
-photo: vic-2026-001033.jpg
+photo:
+  - vic-2026-001033.jpg
 name: Amir Reza Karamajani
 birth_date: ""
 birth_province: ""
@@ -11,7 +12,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Fardis
 incident_address: Fardis
 date_of_death: ""
@@ -22,5 +23,4 @@ description: |
   Killed during protests
 source_type: Social Media
 source_social_media_link: https://x.com/pouyajegarvnd/status/2014627305490886663
-child: false
 persian_name: امیر رضا کرماجانی

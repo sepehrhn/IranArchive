@@ -2,7 +2,9 @@
 # Victim Documentation - Ali Yazdani
 # ==========================================
 
-photo: vic-2026-001372.jpg
+photo:
+  - "vic-2026-001372.jpg"
+  - "vic-2026-b4f360e61ac6.jpg"
 name: Ali Yazdani
 birth_date: ""
 birth_province: ""
@@ -27,5 +29,4 @@ description: |-
   Shot in the head with a military weapon during protests in Falavarjan. He was a 19-year-old computer science student at Najafabad University.
 source_type: Social Media
 source_social_media_link: https://x.com/anjmotahed/status/2015026226180534584
-child: false
 persian_name: علی یزدانی

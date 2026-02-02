@@ -75,7 +75,7 @@ const citiesWithEvents = computed(() => {
                             {{ city.city }}
                         </span>
                     </div>
-                    <span class="text-[10px] font-bold text-surface-400 tracking-tighter">{{ city.count }}</span>
+                    <span class="text-[10px] font-bold text-surface-400 tracking-tighter">{{ $nFa(city.count) }}</span>
                 </button>
             </div>
         </div>

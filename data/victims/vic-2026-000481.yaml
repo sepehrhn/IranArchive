@@ -2,7 +2,12 @@
 # Victim Documentation - Akbar Davari
 # ==========================================
 
-photo: vic-2026-000481.jpg
+photo:
+  - "vic-2026-000481.jpg"
+  - "vic-2026-cadd4718ba32.jpg"
+  - "vic-2026-8ef9501cf6d5.jpg"
+  - "vic-2026-ddba4d60d7c6.jpg"
+  - "vic-2026-d45a7e3e061f.jpg"
 name: Akbar Davari
 birth_date: ""
 birth_province: ""
@@ -11,7 +16,7 @@ gender: Male
 age: 27
 occupation: ""
 country: Iran
-incident_province: Fardis
+incident_province: ""
 incident_city: Arem Street
 incident_address: Arem Street
 date_of_death: "2026-01-08"
@@ -24,6 +29,10 @@ description: |-
 
   Shot in the chest and killed. Described as a former political prisoner who knew he might not survive and was fighting for his people, Mahsa Amini, Nika Shakarami, and Iran.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2012459150169538937, https://x.com/noamagid/status/2012807960393564430, https://x.com/khoshrof/status/2012539521166958619, https://x.com/NoaMagid/status/2012807960393564430, https://x.com/missmarpel75/status/2015444930945040653, https://x.com/navidmohebbi/status/2015424421666881598, https://t.me/RememberTheirNames/208
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2012459150169538937, https://x.com/noamagid/status/2012807960393564430, https://x.com/khoshrof/status/2012539521166958619, https://x.com/NoaMagid/status/2012807960393564430, https://x.com/missmarpel75/status/2015444930945040653, https://x.com/navidmohebbi/status/2015424421666881598, https://t.me/RememberTheirNames/208"
+  - "https://x.com/NoaMagid/status/2012807960393564430"
+  - "https://x.com/khoshrof/status/2012539521166958619"
+  - "https://x.com/navidmohebbi/status/2015424421666881598"
+  - "https://x.com/missmarpel75/status/2015444930945040653"
 persian_name: اکبر داوری

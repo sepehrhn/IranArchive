@@ -2,7 +2,10 @@
 # Victim Documentation - Ahmadreza Ghaderi
 # ==========================================
 
-photo: vic-2026-000479.jpg
+photo:
+  - "vic-2026-000479.jpg"
+  - "vic-2026-426eb9009309.jpg"
+  - "vic-2026-613338962363.jpg"
 name: Ahmadreza Ghaderi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,7 @@ description: |-
 
   Reported as one of nine additional students killed, bringing the total to 25 students killed. Specific details of death and date not provided in tweet.
 source_type: Social Media
-source_social_media_link: https://x.com/alitagh30207454/status/2012393530186977308, https://x.com/AliTagh30207454/status/2012393530186977308, https://x.com/HengawO/status/2014710031246066053, https://t.me/RememberTheirNames/848
-child: false
+source_social_media_link:
+  - "https://x.com/alitagh30207454/status/2012393530186977308, https://x.com/AliTagh30207454/status/2012393530186977308, https://x.com/HengawO/status/2014710031246066053, https://t.me/RememberTheirNames/848"
+  - "https://x.com/alitagh30207454/status/2012393530186977308"
 persian_name: احمدرضا قادری

@@ -10,10 +10,13 @@ const props = defineProps<{
 const { getCountryByIso } = useCountries();
 const loc = props.event.location;
 
+const { t } = useI18n();
+import { useI18n } from 'vue-i18n';
+
 const countryName = computed(() => {
     if (!loc?.country) return '';
     const c = getCountryByIso(loc.country);
-    return c ? c.name : loc.country;
+    return t(`countries.${loc.country}`, c ? c.name : loc.country);
 });
 </script>
 

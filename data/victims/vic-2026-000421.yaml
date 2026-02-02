@@ -2,7 +2,11 @@
 # Victim Documentation - Rasoul Choghakaboudi
 # ==========================================
 
-photo: vic-2026-000421.jpg
+photo:
+  - "vic-2026-000421.jpg"
+  - "vic-2026-df8f42526df4.jpg"
+  - "vic-2026-36c93d7de362.jpg"
+  - "vic-2026-4adbb575fd39.jpg"
 name: Rasoul Choghakaboudi
 birth_date: ""
 birth_province: ""
@@ -11,7 +15,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: Karaj
+incident_province: ""
 incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -24,6 +28,9 @@ description: |-
 
   Killed by shooting by the Islamic Republic's military-security forces during public protests in Karaj.
 source_type: Social Media
-source_social_media_link: https://x.com/kurdpa_farsi/status/2014447147056267719, https://www.instagram.com/p/DTzvKwiCC_U, https://x.com/HengawO/status/2014429661707542927, https://x.com/KurdistanHRN/status/2014721496011128854, https://x.com/KurdistanHRN/status/2013985376872878373, https://t.me/RememberTheirNames/612
-child: false
+source_social_media_link:
+  - "https://x.com/kurdpa_farsi/status/2014447147056267719, https://www.instagram.com/p/DTzvKwiCC_U, https://x.com/HengawO/status/2014429661707542927, https://x.com/KurdistanHRN/status/2014721496011128854, https://x.com/KurdistanHRN/status/2013985376872878373, https://t.me/RememberTheirNames/612"
+  - "https://www.instagram.com/p/DTzvKwiCC_U"
+  - "https://x.com/HengawO/status/2014429661707542927"
+  - "https://x.com/KurdistanHRN/status/2013985376872878373"
 persian_name: رسول چقاکبودی

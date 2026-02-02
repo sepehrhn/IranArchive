@@ -2,7 +2,10 @@
 # Victim Documentation - Majid Esmaeili
 # ==========================================
 
-photo: vic-2026-000660.jpg
+photo:
+  - "vic-2026-000660.jpg"
+  - "vic-2026-0425ade73002.jpg"
+  - "vic-2026-da01e7da3b99.jpg"
 name: Majid Esmaeili
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Shot by government forces during peaceful protests.
 source_type: Social Media
-source_social_media_link: https://x.com/allahbakhshii/status/2014619062702133586, https://x.com/dadban4/status/2014653806374482409, https://t.me/RememberTheirNames/798
-child: false
+source_social_media_link:
+  - "https://x.com/allahbakhshii/status/2014619062702133586, https://x.com/dadban4/status/2014653806374482409, https://t.me/RememberTheirNames/798"
+  - "https://x.com/dadban4/status/2014653806374482409"
 persian_name: مجید اسماعیلی

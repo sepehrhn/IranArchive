@@ -2,7 +2,12 @@
 # Victim Documentation - Amirali Ghanbarzadeh
 # ==========================================
 
-photo: vic-2026-001408.jpg
+photo:
+  - "vic-2026-001408.jpg"
+  - "vic-2026-7b51b296a050.jpg"
+  - "vic-2026-50b2616148db.jpg"
+  - "vic-2026-c461f45c1459.jpg"
+  - "vic-2026-ee4e8fca4fbc.jpg"
 name: Amirali Ghanbarzadeh
 birth_date: ""
 birth_province: ""
@@ -26,6 +31,8 @@ description: |-
 
   16-year-old killed during protests in Tehran
 source_type: Social Media
-source_social_media_link: https://x.com/Hsti_htmi/status/2014678154133020832, https://t.me/RememberTheirNames/1430
-child: true
+source_social_media_link:
+  - "https://x.com/Hsti_htmi/status/2014678154133020832, https://t.me/RememberTheirNames/1430"
+  - "https://x.com/Hsti_htmi/status/2014678154133020832"
+  - "https://x.com/longlosthills/status/2017246001665306837"
 persian_name: امیرعلی قنبرزاده

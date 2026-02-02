@@ -2,7 +2,8 @@
 # Victim Documentation - Milad Feyzi Namivand
 # ==========================================
 
-photo: vic-2026-2139810.jpg
+photo:
+  - vic-2026-2139810.jpg
 name: Milad Feyzi Namivand
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Killed by direct live ammunition from state repressive forces during public protests in the Maskan neighborhood of Kermanshah. His body was buried on Sunday, 21 Dey in Baghi Ferdows Cemetery, Kermanshah.
+description: Killed by direct live ammunition from state repressive forces during public protests in the Maskan neighborhood of Kermanshah. His body was buried on Sunday, 21 Dey in Baghi Ferdows Cemetery, Kermanshah.
 source_type: Social Media
 source_social_media_link: https://x.com/HengawO/status/2016284426892677286, https://t.me/RememberTheirNames/1579
-child: false
 persian_name: میلاد فیضی نامیوندی

@@ -2,7 +2,8 @@
 # Victim Documentation - Neda Azimifar
 # ==========================================
 
-photo: vic-2026-2139733.jpg
+photo:
+  - vic-2026-2139733.jpg
 name: Neda Azimifar
 birth_date: ""
 birth_province: ""
@@ -18,9 +19,7 @@ date_of_death: "2026-01-13"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Detained and killed by intelligence forces. She was a 27-year-old citizen and mother of a teenage daughter.
+description: Detained and killed by intelligence forces. She was a 27-year-old citizen and mother of a teenage daughter.
 source_type: Social Media
 source_social_media_link: https://x.com/iranintlbrk/status/2015702726944907674
-child: false
 persian_name: ندا عظیمی‌فر

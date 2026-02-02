@@ -2,7 +2,9 @@
 # Victim Documentation - Razvan Abdi
 # ==========================================
 
-photo: vic-2026-2139824.jpg
+photo:
+  - "vic-2026-2139824.jpg"
+  - "vic-2026-6a9ce6d92b0d.jpg"
 name: Razvan Abdi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Kurdish citizen from Divandarreh, killed by military-security forces of the Islamic Republic during popular protests in Tehran. Had lost his mother several years earlier and was living with his grandfather's family in Tehran. His body was handed over to the family after several days and burial ceremony was held on 30 Dey in Tazeh-Ava Vazir village in Divandarreh.
+description: Kurdish citizen from Divandarreh, killed by military-security forces of the Islamic Republic during popular protests in Tehran. Had lost his mother several years earlier and was living with his grandfather's family in Tehran. His body was handed over to the family after several days and burial ceremony was held on 30 Dey in Tazeh-Ava Vazir village in Divandarreh.
 source_type: Social Media
 source_social_media_link: https://x.com/KurdistanHRN/status/2016216782936121576
-child: false
 persian_name: رضوان عبدی

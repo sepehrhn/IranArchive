@@ -2,7 +2,12 @@
 # Victim Documentation - Yousef Mehraban
 # ==========================================
 
-photo: vic-2026-002087.jpg
+photo:
+  - "vic-2026-002087.jpg"
+  - "vic-2026-e6afd8ec863c.jpg"
+  - "vic-2026-5516ccedf4b1.jpg"
+  - "vic-2026-cf6ebd3d3ec5.jpg"
+  - "vic-2026-10459acd1159.jpg"
 name: Yousef Mehraban
 birth_date: ""
 birth_province: ""
@@ -23,6 +28,10 @@ description: |-
 
   Killed. Described as 'lively and cheerful son from the north'. The tweet also mentions remembering Hamidreza Rouhi upon seeing Yousef, but does not state Rouhi was killed in this specific incident or protest wave.
 source_type: Social Media
-source_social_media_link: https://x.com/missmarpel75/status/2015023975605108805, https://x.com/shaya9000/status/2015727742357315749, https://x.com/allahbakhshii/status/2015956487462408703, https://t.me/RememberTheirNames/1416, https://x.com/hekasrehcrisis/status/2016408181988008006, https://x.com/HeKasrehCrisis/status/2016408181988008006
-child: false
+source_social_media_link:
+  - "https://x.com/missmarpel75/status/2015023975605108805, https://x.com/shaya9000/status/2015727742357315749, https://x.com/allahbakhshii/status/2015956487462408703, https://t.me/RememberTheirNames/1416, https://x.com/hekasrehcrisis/status/2016408181988008006, https://x.com/HeKasrehCrisis/status/2016408181988008006"
+  - "https://x.com/shaya9000/status/2015727742357315749"
+  - "https://x.com/allahbakhshii/status/2015956487462408703"
+  - "https://x.com/hekasrehcrisis/status/2016408181988008006"
+  - "https://x.com/HeKasrehCrisis/status/2016408181988008006"
 persian_name: یوسف مهربان

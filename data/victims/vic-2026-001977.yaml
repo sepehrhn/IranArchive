@@ -2,7 +2,9 @@
 # Victim Documentation - Mehran Niayesh
 # ==========================================
 
-photo: vic-2026-001977.jpg
+photo:
+  - "vic-2026-001977.jpg"
+  - "vic-2026-9afe2d65570a.jpg"
 name: Mehran Niayesh
 birth_date: ""
 birth_province: ""
@@ -23,6 +25,8 @@ description: |-
 
   Arrested in the street in Isfahan and killed under torture by the Islamic Republic regime. His skull and ribs were broken, with a rib piercing his heart, leading to death from internal bleeding.
 source_type: Social Media
-source_social_media_link: https://x.com/sashtyani/status/2015770431249121710, https://x.com/Sashtyani/status/2015770431249121710, https://t.me/RememberTheirNames/1186
-child: false
+source_social_media_link:
+  - "https://x.com/sashtyani/status/2015770431249121710, https://x.com/Sashtyani/status/2015770431249121710, https://t.me/RememberTheirNames/1186"
+  - "https://x.com/sashtyani/status/2015770431249121710"
+  - "https://x.com/Sashtyani/status/2015770431249121710"
 persian_name: مهران نیایش

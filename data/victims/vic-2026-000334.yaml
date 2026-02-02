@@ -2,20 +2,22 @@
 # Victim Documentation - Mandana Golestaninejad
 # ==========================================
 
-photo: vic-2026-000334.jpg
+photo:
+  - "vic-2026-000334.jpg"
+  - "vic-2026-001725.jpg"
 name: Mandana Golestaninejad
-persian_name: "ماندانا گلستانی‌نژاد"
-birth_date: ''
-birth_province: ''
-birth_city: ''
-gender: ''
+persian_name: ماندانا گلستانی‌نژاد
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: "Female"
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
+incident_province: ""
 incident_city: Qeshm
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
@@ -23,5 +25,5 @@ description: |
   Shot by security forces
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/hirman__/status/2014471727061880968
-child: false
+  - "https://x.com/hirman__/status/2014471727061880968"
+  - "https://x.com/hirman__/status/2014471727061880968, https://t.me/RememberTheirNames/928"

@@ -2,7 +2,11 @@
 # Victim Documentation - Yousef Seyedhosseini
 # ==========================================
 
-photo: vic-2026-2139838.jpg
+photo:
+  - "vic-2026-2139838.jpg"
+  - "vic-2026-db0318d17eea.png"
+  - "vic-2026-db7f37fff2a0.png"
+  - "vic-2026-a1a478b2d074.png"
 name: Yousef Seyedhosseini
 birth_date: ""
 birth_province: ""
@@ -18,9 +22,9 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Described as 'javidan-nam' (eternal name), indicating martyrdom status during protests in Parand
+description: Described as 'javidan-nam' (eternal name), indicating martyrdom status during protests in Parand
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1659, https://x.com/hekasrehcrisis/status/2016375447827710377
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1659, https://x.com/hekasrehcrisis/status/2016375447827710377"
+  - "https://x.com/hekasrehcrisis/status/2016375447827710377"
 persian_name: یوسف سیدحسینی

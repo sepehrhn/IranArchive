@@ -2,7 +2,11 @@
 # Victim Documentation - Amir Bashiri
 # ==========================================
 
-photo: vic-2026-000524.jpg
+photo:
+  - "vic-2026-000524.jpg"
+  - "vic-2026-1affb3ab5300.jpg"
+  - "vic-2026-2ca138fa7a2e.jpg"
+  - "vic-2026-183d24c5058b.png"
 name: Amir Bashiri
 birth_date: ""
 birth_province: ""
@@ -24,6 +28,8 @@ description: |-
 
   Shot in the mouth with live ammunition by security forces near Danay Ali mausoleum. His death was officially recorded as 'bullet impact'.
 source_type: Social Media
-source_social_media_link: https://x.com/tavaana/status/2014978498373591305, https://x.com/Tavaana/status/2015163500600115700, https://x.com/Tavaana/status/2014978498373591305, https://t.me/RememberTheirNames/1149
-child: false
+source_social_media_link:
+  - "https://x.com/tavaana/status/2014978498373591305, https://x.com/Tavaana/status/2015163500600115700, https://x.com/Tavaana/status/2014978498373591305, https://t.me/RememberTheirNames/1149"
+  - "https://x.com/Tavaana/status/2015163500600115700"
+  - "https://x.com/Tavaana/status/2014978498373591305"
 persian_name: امیر بشیری

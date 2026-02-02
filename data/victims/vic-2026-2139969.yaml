@@ -2,13 +2,16 @@
 # Victim Documentation - Mohammad Reza Zare
 # ==========================================
 
-photo: vic-2026-2139969.jpg
+photo:
+  - "vic-2026-2139969.jpg"
+  - "vic-2026-cdaffdecfd81.jpg"
+  - "vic-2026-fdcbd9ad7995.jpg"
 name: Mohammad Reza Zare
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 33
 occupation: ""
 country: Iran
 incident_province: ""
@@ -18,9 +21,9 @@ date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  Died in Shahriar during the protests
+description: Died in Shahriar during the protests
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1675
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1675"
+  - "https://www.instagram.com/p/DT-EK6SD4NO"
 persian_name: محمدرضا زارع

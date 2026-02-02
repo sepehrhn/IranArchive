@@ -2,7 +2,10 @@
 # Victim Documentation - Mohammad Sadegh Mehrabi
 # ==========================================
 
-photo: vic-2026-001163.png
+photo:
+  - "vic-2026-001163.png"
+  - "vic-2026-fd5f6d9485db.png"
+  - "vic-2026-3ef61c0a14d8.png"
 name: Mohammad Sadegh Mehrabi
 birth_date: ""
 birth_province: ""
@@ -24,6 +27,8 @@ description: |-
 
   Mentioned as 'Javidnam' (eternal/immortal), indicating death. No specific date or cause of death provided in the text.
 source_type: Social Media
-source_social_media_link: https://x.com/visfehan/status/2014668449629315481, https://x.com/VIsfehan/status/2014668449629315481, https://x.com/VIsfehan/status/2014999040023314770, https://t.me/RememberTheirNames/828
-child: false
+source_social_media_link:
+  - "https://x.com/visfehan/status/2014668449629315481, https://x.com/VIsfehan/status/2014668449629315481, https://x.com/VIsfehan/status/2014999040023314770, https://t.me/RememberTheirNames/828"
+  - "https://x.com/visfehan/status/2014668449629315481"
+  - "https://x.com/VIsfehan/status/2014999040023314770"
 persian_name: محمد صادق محرابی

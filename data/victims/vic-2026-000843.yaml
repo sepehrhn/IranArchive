@@ -2,7 +2,9 @@
 # Victim Documentation - Seyed Hamed Hamidian
 # ==========================================
 
-photo: vic-2026-000843.jpg
+photo:
+  - "vic-2026-000843.jpg"
+  - "vic-2026-5eea6c0a848f.jpg"
 name: Seyed Hamed Hamidian
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,8 @@ description: |-
 
   Son of Iran and killed on the path to the homeland. Shot in the neck area near the overpass on Ashrafi Esfahani, Tehran. Buried in Shiraz.
 source_type: Social Media
-source_social_media_link: https://x.com/e_aria_n/status/2015078329456722209, https://x.com/E_Aria_N/status/2015078329456722209, https://t.me/RememberTheirNames/1284, https://x.com/Sssccpp/status/2015904296294928468, https://x.com/HeKasrehCrisis/status/2015899380016898530, https://x.com/i/status/2015811667255263660, https://x.com/maria74rzi/status/2016124354325590111
-child: false
+source_social_media_link:
+  - "https://x.com/e_aria_n/status/2015078329456722209, https://x.com/E_Aria_N/status/2015078329456722209, https://t.me/RememberTheirNames/1284, https://x.com/Sssccpp/status/2015904296294928468, https://x.com/HeKasrehCrisis/status/2015899380016898530, https://x.com/i/status/2015811667255263660, https://x.com/maria74rzi/status/2016124354325590111"
+  - "https://x.com/e_aria_n/status/2015078329456722209"
+  - "https://x.com/E_Aria_N/status/2015078329456722209"
 persian_name: حامد حمیدیان

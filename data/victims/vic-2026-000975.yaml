@@ -2,7 +2,10 @@
 # Victim Documentation - Vahab Mousavi
 # ==========================================
 
-photo: vic-2026-2140047.jpg
+photo:
+  - "vic-2026-2140047.jpg"
+  - "vic-2026-2140010.jpg"
+  - "vic-2026-303db84cf9fb.jpg"
 name: Vahab Mousavi
 birth_date: ""
 birth_province: ""
@@ -21,6 +24,7 @@ status: Killed
 description: |
   Shot by security forces during peaceful protest near county governor's office
 source_type: Social Media
-source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2, https://t.me/RememberTheirNames/8
-child: false
+source_social_media_link:
+  - "https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2, https://t.me/RememberTheirNames/8"
+  - "https://x.com/walterakam/status/2016523302085300482"
 persian_name: وهاب موسوی

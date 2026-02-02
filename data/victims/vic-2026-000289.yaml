@@ -2,7 +2,12 @@
 # Victim Documentation - Ghazal Janghorbani
 # ==========================================
 
-photo: vic-2026-000289.jpg
+photo:
+  - "vic-2026-000289.jpg"
+  - "vic-2026-f6e880f8a52e.jpg"
+  - "vic-2026-ca90685f5090.jpg"
+  - "vic-2026-a20cd09da340.png"
+  - "vic-2026-bac01089d3fe.jpg"
 name: Ghazal Janghorbani
 birth_date: ""
 birth_province: ""
@@ -21,6 +26,10 @@ status: Killed
 description: |
   Shot from behind during protests in the dried riverbed of Zayandeh-Rud
 source_type: Social Media
-source_social_media_link: https://x.com/dadban4/status/2014307835228688779, https://x.com/hs_maryam/status/2014546900213772717, https://t.me/RememberTheirNames/634, https://x.com/HeKasrehCrisis/status/2016614529753309508
-child: true
+source_social_media_link:
+  - "https://x.com/dadban4/status/2014307835228688779, https://x.com/hs_maryam/status/2014546900213772717, https://t.me/RememberTheirNames/634, https://x.com/HeKasrehCrisis/status/2016614529753309508"
+  - "https://x.com/dadban4/status/2014307835228688779"
+  - "https://x.com/hs_maryam/status/2014546900213772717"
+  - "https://x.com/HeKasrehCrisis/status/2016614529753309508"
+  - "https://x.com/azambahrami/status/2014751904341848573"
 persian_name: غزل جانقربان

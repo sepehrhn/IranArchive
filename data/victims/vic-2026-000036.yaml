@@ -2,19 +2,23 @@
 # Victim Documentation - Abolfazl Big-Mohammadi
 # ==========================================
 
-photo: ''
+photo:
+  - ""
+  - "vic-2026-6600affd6ccc.jpg"
+  - "vic-2026-a4770038a65e.jpg"
+  - "vic-2026-3bec5c95fd42.jpg"
 name: Abolfazl Big-Mohammadi
-birth_date: ''
-birth_province: ''
+birth_date: ""
+birth_province: ""
 birth_city: context)
-gender: ''
+gender: ""
 age: null
-occupation: ''
+occupation: ""
 country: Iran
-incident_province: ''
-incident_city: ''
-incident_address: ''
-date_of_death: '2026-01-08'
+incident_province: ""
+incident_city: "Markazi Province"
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
 status: Killed
@@ -22,5 +26,6 @@ description: |
   Student killed during protests (implied from context)
 source_type: Social Media
 source_social_media_link:
-  - https://x.com/azambahrami/status/2014751904341848573
-child: false
+  - "https://x.com/azambahrami/status/2014751904341848573"
+  - "https://x.com/saeidvafa/status/2014350766660575374"
+  - "https://x.com/HengawO/status/2014638058105151825"

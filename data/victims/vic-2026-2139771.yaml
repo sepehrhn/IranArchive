@@ -2,7 +2,9 @@
 # Victim Documentation - Amirmahdi Moradi
 # ==========================================
 
-photo: vic-2026-2139771.jpg
+photo:
+  - "vic-2026-2139771.jpg"
+  - "vic-2026-9c9a545592ed.jpg"
 name: Amirmahdi Moradi
 birth_date: ""
 birth_province: ""
@@ -18,9 +20,7 @@ date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 status: Killed
-description: |-
-  13-year-old child from Norabad Delfan, shot from behind with a war bullet by military-security forces of the Islamic Republic during popular protests in Qaemiyeh neighborhood of Eslamshahr, Tehran province. Security institutions pressured the family to introduce him as a Basij member in exchange for returning his body, but the family refused. His body was handed over to the family after four days and payment of one billion tomans, and was buried under pressure from security institutions in Dehshad cemetery.
+description: 13-year-old child from Norabad Delfan, shot from behind with a war bullet by military-security forces of the Islamic Republic during popular protests in Qaemiyeh neighborhood of Eslamshahr, Tehran province. Security institutions pressured the family to introduce him as a Basij member in exchange for returning his body, but the family refused. His body was handed over to the family after four days and payment of one billion tomans, and was buried under pressure from security institutions in Dehshad cemetery.
 source_type: Social Media
 source_social_media_link: https://x.com/KurdistanHRN/status/2016558781723734210
-child: true
 persian_name: امیرمهدی مرادی

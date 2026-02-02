@@ -2,7 +2,11 @@
 # Victim Documentation - Nader Mohammadi Abdvand
 # ==========================================
 
-photo: vic-2026-002241.jpg
+photo:
+  - "vic-2026-002241.jpg"
+  - "vic-2026-33408612efe2.jpg"
+  - "vic-2026-a53b65f42bb9.jpg"
+  - "vic-2026-75344fe5c108.jpg"
 name: Nader Mohammadi Abdvand
 birth_date: ""
 birth_province: ""
@@ -23,6 +27,7 @@ description: |-
 
   Died due to direct shooting by Khamenei's 'wild animals'. Father of three children (two daughters and one son). His body was buried in the Khomeini Shahr cemetery.
 source_type: Social Media
-source_social_media_link: https://x.com/SalarvandN21943/status/2015433254803751162
-child: false
+source_social_media_link:
+  - "https://x.com/SalarvandN21943/status/2015433254803751162"
+  - "https://x.com/hirman__/status/2014572087789207580"
 persian_name: نادر محمدی عبدوند

@@ -2,7 +2,9 @@
 # Victim Documentation - Sajjad Zilaei (Valamanesh)
 # ==========================================
 
-photo: vic-2026-000967.png
+photo:
+  - "vic-2026-000967.png"
+  - "vic-2026-002100.png"
 name: Sajjad Zilaei (Valamanesh)
 birth_date: ""
 birth_province: ""
@@ -11,7 +13,7 @@ gender: Male
 age: 20
 occupation: ""
 country: Iran
-incident_province: Chaharmahal and Bakhtiari
+incident_province: ""
 incident_city: Lordegan
 incident_address: ""
 date_of_death: "2026-01-01"
@@ -21,6 +23,8 @@ status: Killed
 description: |
   Killed by security forces during protests, body showed metal pellet wounds
 source_type: Social Media
-source_social_media_link: https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.iran-emrooz.net/index.php/news2/125134/, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/daikatuo/status/2006782276793741375, https://x.com/daikatuo/status/2006827494167793934, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2
-child: false
+source_social_media_link:
+  - "https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.iran-emrooz.net/index.php/news2/125134/, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/daikatuo/status/2006782276793741375, https://x.com/daikatuo/status/2006827494167793934, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2"
+  - "https://x.com/Daikatuo/status/2007218337814585392"
+  - "https://x.com/Daikatuo/status/2007218337814585392, https://x.com/_ziZi_Zizi/status/2015208544652468277, https://t.me/RememberTheirNames/6"
 persian_name: سجاد زیلایی

@@ -2,24 +2,24 @@
 # Victim Documentation - Amir Koohkan
 # ==========================================
 
-photo: vic-2026-001487.png
+photo:
+  - vic-2026-001487.png
 name: Amir Koohkan
-birth_date: ''
-birth_province: ''
-birth_city: ''
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
 age: 26
 occupation: مربی و داور فوتبال بود
 country: Iran
 incident_province: Fars
 incident_city: Neyriz
-incident_address: ''
-date_of_death: '2026-01-03'
+incident_address: ""
+date_of_death: "2026-01-03"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
 status: Killed
-description: ''
+description: ""
 source_type: Local Report
 source_social_media_link:
-  - ''
-child: false
+  - ""

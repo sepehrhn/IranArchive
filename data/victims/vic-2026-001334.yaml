@@ -2,7 +2,10 @@
 # Victim Documentation - Amir Abbas Baghestani
 # ==========================================
 
-photo: vic-2026-001334.jpg
+photo:
+  - "vic-2026-001334.jpg"
+  - "vic-2026-b897ce913ce8.jpg"
+  - "vic-2026-dc4a4a61a45e.jpg"
 name: Amir Abbas Baghestani
 birth_date: ""
 birth_province: ""
@@ -26,6 +29,8 @@ description: |-
 
   Killed by the cruel and criminal Islamic Republic regime on the path to freedom for Iran.
 source_type: Social Media
-source_social_media_link: https://x.com/KyokushinSoofi/status/2015149223243575314, https://t.me/RememberTheirNames/1279
-child: true
+source_social_media_link:
+  - "https://x.com/KyokushinSoofi/status/2015149223243575314, https://t.me/RememberTheirNames/1279"
+  - "https://x.com/KyokushinSoofi/status/2015149223243575314"
+  - "https://t.me/javanmardi77/154307"
 persian_name: اميرعباس باغستانى

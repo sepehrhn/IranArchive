@@ -2,7 +2,9 @@
 # Victim Documentation - Katayoun Dolabi
 # ==========================================
 
-photo: vic-2026-000319.jpg
+photo:
+  - "vic-2026-000319.jpg"
+  - "vic-2026-bc57d0a96880.jpg"
 name: Katayoun Dolabi
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,7 @@ description: |-
 
   Shot directly in the liver by security forces in Neyshabur.
 source_type: Social Media
-source_social_media_link: https://x.com/shahramsadidi/status/2015119317239566590, https://t.me/RememberTheirNames/879
-child: false
+source_social_media_link:
+  - "https://x.com/shahramsadidi/status/2015119317239566590, https://t.me/RememberTheirNames/879"
+  - "https://x.com/manotonews/status/2017296753561661826"
 persian_name: کتایون دولابی

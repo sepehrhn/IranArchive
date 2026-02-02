@@ -2,7 +2,9 @@
 # Victim Documentation - Farzin Norouzian
 # ==========================================
 
-photo: vic-2026-002198.jpg
+photo:
+  - "vic-2026-002198.jpg"
+  - "vic-2026-93aaf79d62f0.jpg"
 name: Farzin Norouzian
 birth_date: ""
 birth_province: ""
@@ -17,12 +19,11 @@ incident_address: ""
 date_of_death: ""
 date_of_death_precision: Exact
 cause_of_death: ""
-status: Killed
+status: "Missing"
 description: |-
   Persian Name: فرزین نوروزیان
 
   His lifeless body was found 5 days after his disappearance. He had a two-year-old child.
 source_type: Social Media
 source_social_media_link: https://x.com/sabaeslamii/status/2015898841392800023
-child: false
 persian_name: فرزین نوروزیان

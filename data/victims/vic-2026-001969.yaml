@@ -2,7 +2,9 @@
 # Victim Documentation - Mehdi Karimi Lor
 # ==========================================
 
-photo: vic-2026-001969.jpg
+photo:
+  - "vic-2026-001969.jpg"
+  - "vic-2026-383c25d15bea.jpg"
 name: Mehdi Karimi Lor
 birth_date: ""
 birth_province: ""
@@ -25,6 +27,7 @@ description: |-
 
   Died in Dey 1404 (late December 2025 - January 2026)
 source_type: Social Media
-source_social_media_link: https://x.com/hirman__/status/2016012177572803015, https://t.me/RememberTheirNames/1168, https://t.me/RememberTheirNames/854
-child: false
+source_social_media_link:
+  - "https://x.com/hirman__/status/2016012177572803015, https://t.me/RememberTheirNames/1168, https://t.me/RememberTheirNames/854"
+  - "https://x.com/hirman__/status/2016012177572803015"
 persian_name: مهدی کریمی

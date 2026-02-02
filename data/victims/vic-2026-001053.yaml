@@ -2,7 +2,10 @@
 # Victim Documentation - Behrouz Narimani Mehr
 # ==========================================
 
-photo: vic-2026-001053.jpg
+photo:
+  - "vic-2026-001053.jpg"
+  - "vic-2026-bbc2f7cb0f65.jpg"
+  - "vic-2026-3caaa42238f6.jpg"
 name: Behrouz Narimani Mehr
 birth_date: ""
 birth_province: ""
@@ -23,6 +26,8 @@ description: |-
 
   Shot directly with live ammunition by Islamic Republic security forces in the 'Dareh Dreezh' neighborhood. His body was returned to his family on January 11, 2026 (20 Dey 1404) and he was buried on January 12, 2026 (21 Dey 1404) in the cemetery of 'Anjirban Ovareh Ali' village, Sarpol-e Zahab. He was married and a father of two daughters.
 source_type: Social Media
-source_social_media_link: https://x.com/kurdpa_farsi/status/2015376199422484549, https://t.me/RememberTheirNames/1198
-child: false
+source_social_media_link:
+  - "https://x.com/kurdpa_farsi/status/2015376199422484549, https://t.me/RememberTheirNames/1198"
+  - "https://x.com/HengawO/status/2014723608359104900"
+  - "https://x.com/kurdpa_farsi/status/2015376199422484549"
 persian_name: بهروز نریمانی‌مهر

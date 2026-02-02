@@ -2,7 +2,9 @@
 # Victim Documentation - Davood Ahmadzadeh
 # ==========================================
 
-photo: vic-2026-000578.jpg
+photo:
+  - "vic-2026-000578.jpg"
+  - "vic-2026-f7e1d9320ace.jpg"
 name: Davood Ahmadzadeh
 birth_date: ""
 birth_province: ""
@@ -24,6 +26,8 @@ description: |-
 
   Became eternalized (died) on Thursday, January 8, 2026, at 8:10 PM.
 source_type: Social Media
-source_social_media_link: https://x.com/walterakam/status/2014440447121219900, https://x.com/CCuttlas/status/2014667093824721302, https://t.me/RememberTheirNames/743
-child: false
+source_social_media_link:
+  - "https://x.com/walterakam/status/2014440447121219900, https://x.com/CCuttlas/status/2014667093824721302, https://t.me/RememberTheirNames/743"
+  - "https://x.com/walterakam/status/2014440447121219900"
+  - "https://x.com/CCuttlas/status/2014667093824721302"
 persian_name: داوود احمدزاده

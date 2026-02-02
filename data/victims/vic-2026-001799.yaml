@@ -2,7 +2,8 @@
 # Victim Documentation - Shahbaz Shojaei
 # ==========================================
 
-photo: vic-2026-001799.jpg
+photo:
+  - vic-2026-001799.jpg
 name: Shahbaz Shojaei
 birth_date: ""
 birth_province: ""
@@ -24,5 +25,4 @@ description: |-
   No image available of this martyr.
 source_type: Social Media
 source_social_media_link: https://t.me/RememberTheirNames/716
-child: false
 persian_name: شهباز شجاعی

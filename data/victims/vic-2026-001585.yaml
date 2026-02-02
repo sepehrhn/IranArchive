@@ -2,13 +2,19 @@
 # Victim Documentation - Mehdi Kenari Khaniabadi
 # ==========================================
 
-photo: vic-2026-001585.jpg
+photo:
+  - "vic-2026-001585.jpg"
+  - "vic-2026-e5e739e57ea4.jpg"
+  - "vic-2026-295c698b48b6.png"
+  - "vic-2026-ba30499ba82a.jpg"
+  - "vic-2026-e773aeb71aaa.png"
+  - "vic-2026-4f288aac664a.jpg"
 name: Mehdi Kenari Khaniabadi
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 44
 occupation: ""
 country: Iran
 incident_province: Isfahan
@@ -23,6 +29,8 @@ description: |-
 
   Died in Dey 1404 (January 2026) in Baharestan, Isfahan. The post number 1319 suggests this is a victim.
 source_type: Social Media
-source_social_media_link: https://t.me/RememberTheirNames/1387, https://x.com/Sashtyani/status/2015841382322114860
-child: false
+source_social_media_link:
+  - "https://t.me/RememberTheirNames/1387, https://x.com/Sashtyani/status/2015841382322114860"
+  - "https://x.com/Sashtyani/status/2015841382322114860"
+  - "https://x.com/hekasrehcrisis/status/2016724454626267378"
 persian_name: مهدی کناری خانی‌آبادی
