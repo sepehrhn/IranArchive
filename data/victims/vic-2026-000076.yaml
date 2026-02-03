@@ -1,46 +1,135 @@
 # ==========================================
-# Victim Documentation - Benyamin Mohammadi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000076.jpg"
-  - "vic-2026-f9b0de4b6f94.jpg"
-  - "vic-2026-e5c05d6671a5.jpg"
-  - "vic-2026-51503bd60a54.jpg"
-  - "vic-2026-a6e00a35ef07.jpg"
-  - "vic-2026-febae2e2009b.jpg"
-  - "vic-2026-2638b64cef98.jpg"
+  - vic-2026-000076.jpg
+  - vic-2026-f9b0de4b6f94.jpg
+  - vic-2026-e5c05d6671a5.jpg
+  - vic-2026-51503bd60a54.jpg
+  - vic-2026-a6e00a35ef07.jpg
+  - vic-2026-febae2e2009b.jpg
+  - vic-2026-2638b64cef98.jpg
+
+# Full Name in English
 name: Benyamin Mohammadi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: بنیامین محمدی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 15
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran (Golchin neighborhood)
 incident_address: Golchin
-date_of_death: "2025-12-29"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2025-12-29'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot with a war bullet by government forces in front of his house door
 
 
   Killed by security forces. The tweet mentions him in the context of 41,000 slain protesters, but does not provide a specific date of death or location within Iran. The protest context implies a date on or after December 28, 2025.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/hashshaashin/status/2014356827689943118, https://x.com/iranianplateau/status/2014370655496511853, https://x.com/Hashshaashin/status/2014356827689943118, https://x.com/monfaredashkan/status/2014946212408119648, https://x.com/KhosroIsfahani/status/2015249472956100874, https://x.com/MonfaredAshkan/status/2014946212408119648, https://x.com/MonfaredAshkan/status/2014944096138494284, https://t.me/RememberTheirNames/624"
-  - "https://x.com/hashshaashin/status/2014356827689943118"
-  - "https://x.com/Hashshaashin/status/2014356827689943118"
-  - "https://x.com/iranianplateau/status/2014370655496511853"
-  - "https://x.com/KhosroIsfahani/status/2015249472956100874"
-  - "https://x.com/hekasrehcrisis/status/2017097583198384209"
-  - "https://x.com/MonfaredAshkan/status/2014944096138494284"
-  - "https://x.com/hiitsmemooneh/status/2014599870678761833"
-  - "https://x.com/i/status/2016895567612223663"
-  - "https://x.com/i/status/2017097583198384209"
-  - "https://x.com/azambahrami/status/2014751904341848573"
-persian_name: بنیامین محمدی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/hashshaashin/status/2014356827689943118, https://x.com/iranianplateau/status/2014370655496511853, https://x.com/Hashshaashin/status/2014356827689943118, https://x.com/monfaredashkan/status/2014946212408119648, https://x.com/KhosroIsfahani/status/2015249472956100874, https://x.com/MonfaredAshkan/status/2014946212408119648, https://x.com/MonfaredAshkan/status/2014944096138494284, https://t.me/RememberTheirNames/624
+  - https://x.com/hashshaashin/status/2014356827689943118
+  - https://x.com/Hashshaashin/status/2014356827689943118
+  - https://x.com/iranianplateau/status/2014370655496511853
+  - https://x.com/KhosroIsfahani/status/2015249472956100874
+  - https://x.com/hekasrehcrisis/status/2017097583198384209
+  - https://x.com/MonfaredAshkan/status/2014944096138494284
+  - https://x.com/hiitsmemooneh/status/2014599870678761833
+  - https://x.com/i/status/2016895567612223663
+  - https://x.com/i/status/2017097583198384209
+  - https://x.com/azambahrami/status/2014751904341848573
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

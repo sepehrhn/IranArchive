@@ -1,46 +1,135 @@
 # ==========================================
-# Victim Documentation - Sepehr Ganjeh
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000438.png"
-  - "vic-2026-76c3d135c435.png"
-  - "vic-2026-d1e4a6857629.jpg"
-  - "vic-2026-e3411a44b7dd.jpg"
-  - "vic-2026-dbde174cc3ec.jpg"
-  - "vic-2026-8a6951f292a5.jpg"
-  - "vic-2026-dab8855a4922.jpg"
-  - "vic-2026-d5909a1b6d44.jpg"
-  - "vic-2026-7bf7e5c545c5.jpg"
+  - vic-2026-000438.png
+  - vic-2026-76c3d135c435.png
+  - vic-2026-d1e4a6857629.jpg
+  - vic-2026-e3411a44b7dd.jpg
+  - vic-2026-dbde174cc3ec.jpg
+  - vic-2026-8a6951f292a5.jpg
+  - vic-2026-dab8855a4922.jpg
+  - vic-2026-d5909a1b6d44.jpg
+  - vic-2026-7bf7e5c545c5.jpg
+
+# Full Name in English
 name: Sepehr Ganjeh
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: سپهر گنجه
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 33
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Isfahan (Baharestan)
 incident_address: Baharestan
-date_of_death: "2026-01-09"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed in Baharestan
 
 
   His car was riddled with bullets by military and security forces on the evening of 19 Dey. He died from severe injuries at Al-Zahra Hospital in Isfahan. He was shot around 10:30 PM near Baharestan Square while driving a friend home. He tried to evade a checkpoint, and his car was shot at. The weapon used was unclear, possibly a DShK. His right arm was destroyed, one bullet hit below his heart causing severe lung and liver damage, and another bullet hit his lower back. He bled for about eight hours. Initially taken to a clinic with his friend, they were referred to Al-Zahra Hospital due to their critical condition. His body was returned to his family five days later after they refused to agree to state conditions for its release.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/visfehan/status/2014706757302395071, https://x.com/VIsfehan/status/2014706757302395071, https://x.com/aban_khoonin/status/2015467733287342574, https://x.com/dw_persian/status/2015392428342087817, https://x.com/allahbakhshii/status/2015356464110723527, https://x.com/ManotoNews/status/2015954223372915049, https://t.me/RememberTheirNames/911, https://www.instagram.com/p/DUA-FkDjcCo"
-  - "https://x.com/visfehan/status/2014706757302395071"
-  - "https://x.com/aban_khoonin/status/2015467733287342574"
-  - "https://x.com/dw_persian/status/2015392428342087817"
-  - "https://x.com/allahbakhshii/status/2015356464110723527"
-  - "https://x.com/ManotoNews/status/2015954223372915049"
-  - "https://www.instagram.com/p/DUA-FkDjcCo"
-  - "https://x.com/persephone7597/status/2017099669331984657"
-  - "https://x.com/i/status/2017099669331984657"
-persian_name: سپهر گنجه
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/visfehan/status/2014706757302395071, https://x.com/VIsfehan/status/2014706757302395071, https://x.com/aban_khoonin/status/2015467733287342574, https://x.com/dw_persian/status/2015392428342087817, https://x.com/allahbakhshii/status/2015356464110723527, https://x.com/ManotoNews/status/2015954223372915049, https://t.me/RememberTheirNames/911, https://www.instagram.com/p/DUA-FkDjcCo
+  - https://x.com/visfehan/status/2014706757302395071
+  - https://x.com/aban_khoonin/status/2015467733287342574
+  - https://x.com/dw_persian/status/2015392428342087817
+  - https://x.com/allahbakhshii/status/2015356464110723527
+  - https://x.com/ManotoNews/status/2015954223372915049
+  - https://www.instagram.com/p/DUA-FkDjcCo
+  - https://x.com/persephone7597/status/2017099669331984657
+  - https://x.com/i/status/2017099669331984657
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,45 +1,134 @@
 # ==========================================
-# Victim Documentation - Mehdi Abdali
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000336.jpg"
-  - "vic-2026-20d00776314d.jpg"
-  - "vic-2026-ce03d76e7320.jpg"
-  - "vic-2026-243ce9399d96.jpg"
-  - "vic-2026-9efa173e63d8.jpg"
-  - "vic-2026-001962.jpg"
-  - "vic-2026-2139726.jpg"
-  - "vic-2026-2139938.jpg"
-  - "vic-2026-c6ed9e188cd6.jpg"
+  - vic-2026-000336.jpg
+  - vic-2026-20d00776314d.jpg
+  - vic-2026-ce03d76e7320.jpg
+  - vic-2026-243ce9399d96.jpg
+  - vic-2026-9efa173e63d8.jpg
+  - vic-2026-001962.jpg
+  - vic-2026-2139726.jpg
+  - vic-2026-2139938.jpg
+  - vic-2026-c6ed9e188cd6.jpg
+
+# Full Name in English
 name: Mehdi Abdali
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مهدی ابدالی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 35
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Isfahan
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot directly by security forces on Azar Street. Witnesses report officers first struck his face with rifle butts, then shot him in the heart and neck
 
 
   Killed by a bullet to the forehead. He was the breadwinner of his family and worked as a cabinet installer. His father suffered from severe Alzheimer's, and his brother had passed away due to cancer.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranwire/status/2014366246158950622, https://x.com/melianouss/status/2015594914952691898, https://x.com/melianouss/status/2015595527639871647, https://t.me/RememberTheirNames/680"
-  - "https://x.com/iranwire/status/2014366246158950622"
-  - "https://x.com/melianouss/status/2015594914952691898"
-  - "https://x.com/melianouss/status/2015595527639871647"
-  - "https://x.com/missmarpel75/status/2016744632680317310"
-  - "https://t.me/RememberTheirNames/1246"
-  - "https://x.com/SalarvandN21943/status/2015941715497037951, https://x.com/SalarvandN21943/status/2014751363146592422"
-  - "https://x.com/behnam_chegini/status/2016684023376908357"
-persian_name: مهدی ابدالی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranwire/status/2014366246158950622, https://x.com/melianouss/status/2015594914952691898, https://x.com/melianouss/status/2015595527639871647, https://t.me/RememberTheirNames/680
+  - https://x.com/iranwire/status/2014366246158950622
+  - https://x.com/melianouss/status/2015594914952691898
+  - https://x.com/melianouss/status/2015595527639871647
+  - https://x.com/missmarpel75/status/2016744632680317310
+  - https://t.me/RememberTheirNames/1246
+  - https://x.com/SalarvandN21943/status/2015941715497037951, https://x.com/SalarvandN21943/status/2014751363146592422
+  - https://x.com/behnam_chegini/status/2016684023376908357
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

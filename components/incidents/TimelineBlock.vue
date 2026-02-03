@@ -52,10 +52,10 @@
                     :key="id"
                     href="#"
                     @click.prevent="$emit('view-source', id)" 
-                    class="group/src inline-flex items-center gap-1.5 px-2 py-1 text-[10px] uppercase font-bold text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded transition-colors"
+                    class="group/src inline-flex items-center gap-1.5 px-2 py-1 text-[10px] uppercase font-bold text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded transition-colors border border-transparent hover:border-blue-100 dark:hover:border-blue-800"
                 >
                   <i class="pi pi-external-link text-[10px]"></i>
-                  Src
+                  SRC
                 </a>
             </div>
            </div>

@@ -1,38 +1,127 @@
 # ==========================================
-# Victim Documentation - Mohammad Matin Ranjkesh
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001307.jpg"
-  - "vic-2026-24a1c893bc27.jpg"
-  - "vic-2026-7ad848cc57e0.jpg"
-  - "vic-2026-5b8098781835.jpg"
-  - "vic-2026-5a5d9fa1b4a9.webp"
-  - "vic-2026-6004c7f88fe2.jpg"
+  - vic-2026-001307.jpg
+  - vic-2026-24a1c893bc27.jpg
+  - vic-2026-7ad848cc57e0.jpg
+  - vic-2026-5b8098781835.jpg
+  - vic-2026-5a5d9fa1b4a9.webp
+  - vic-2026-6004c7f88fe2.jpg
+
+# Full Name in English
 name: Mohammad Matin Ranjkesh
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: محمد متین رنجکش
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 23
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Persian Name: محمد متین رنجکش
 
   Shot in the carotid artery with pellets during protests.
-source_type: Social Media
-source_social_media_link:
-  - "https://www.instagram.com/p/dt69mz9ddo6, https://www.instagram.com/p/DT69mz9DDo6, https://x.com/anjmotahed/status/2015883038740107393, https://x.com/missmarpel75/status/2015357313180143678, https://x.com/persephone7597/status/2016069157033320514, https://t.me/RememberTheirNames/1338"
-  - "https://x.com/anjmotahed/status/2015883038740107393"
-  - "https://www.instagram.com/p/DT69mz9DDo6, https://x.com/anjmotahed/status/2015883038740107393, https://x.com/missmarpel75/status/2015357313180143678, https://x.com/persephone7597/status/2016069157033320514, https://t.me/RememberTheirNames/1338"
-  - "https://www.instagram.com/p/DT69mz9DDo6"
-  - "https://x.com/missmarpel75/status/2015357313180143678"
-persian_name: محمد متین رنجکش
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://www.instagram.com/p/dt69mz9ddo6, https://www.instagram.com/p/DT69mz9DDo6, https://x.com/anjmotahed/status/2015883038740107393, https://x.com/missmarpel75/status/2015357313180143678, https://x.com/persephone7597/status/2016069157033320514, https://t.me/RememberTheirNames/1338
+  - https://x.com/anjmotahed/status/2015883038740107393
+  - https://www.instagram.com/p/DT69mz9DDo6, https://x.com/anjmotahed/status/2015883038740107393, https://x.com/missmarpel75/status/2015357313180143678, https://x.com/persephone7597/status/2016069157033320514, https://t.me/RememberTheirNames/1338
+  - https://www.instagram.com/p/DT69mz9DDo6
+  - https://x.com/missmarpel75/status/2015357313180143678
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

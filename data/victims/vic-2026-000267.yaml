@@ -1,53 +1,142 @@
 # ==========================================
-# Victim Documentation - Bahar Shadmehri
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000267.jpg"
-  - "vic-2026-64ed7c3cb4ab.jpg"
-  - "vic-2026-22bcb50154ad.png"
-  - "vic-2026-0cbd0c0acaca.jpg"
-  - "vic-2026-0440dbcab451.jpg"
-  - "vic-2026-20213df32251.jpg"
-  - "vic-2026-07bf072ce8d0.jpg"
-  - "vic-2026-218b662f4752.jpg"
-  - "vic-2026-8309a229ef14.jpg"
-  - "vic-2026-b2caae2e9f0e.jpg"
+  - vic-2026-000267.jpg
+  - vic-2026-64ed7c3cb4ab.jpg
+  - vic-2026-22bcb50154ad.png
+  - vic-2026-0cbd0c0acaca.jpg
+  - vic-2026-0440dbcab451.jpg
+  - vic-2026-20213df32251.jpg
+  - vic-2026-07bf072ce8d0.jpg
+  - vic-2026-218b662f4752.jpg
+  - vic-2026-8309a229ef14.jpg
+  - vic-2026-b2caae2e9f0e.jpg
+
+# Full Name in English
 name: Bahar Shadmehri
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: بهار شادمهری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 17
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Neyshabur
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot directly by security forces while fleeing after hearing gunfire
 
 
   Shot in the back of the head while fleeing after hearing gunshots. The tweet mentions her name as Bahar Shadmehri (Shahmehri).
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/sssccpp/status/2013674357571158329, https://x.com/dadban4/status/2013665997366939730, https://x.com/manotonews/status/2013725723849302192, https://x.com/NickSotoudeh/status/2013680225541070987, https://x.com/NickSotoudeh/status/2013679219180515743, https://x.com/Tavaana/status/2014250806841938163, https://www.instagram.com/p/DT0ONGwEX2H, https://x.com/HengawO/status/2015124778101985587, https://x.com/fereshtehgilaki/status/2014264951993401520, https://x.com/azijangravi/status/2014076799131509097, https://t.me/RememberTheirNames/366"
-  - "https://x.com/sssccpp/status/2013674357571158329"
-  - "https://x.com/dadban4/status/2013665997366939730"
-  - "https://x.com/manotonews/status/2013725723849302192"
-  - "https://x.com/NickSotoudeh/status/2013680225541070987"
-  - "https://x.com/NickSotoudeh/status/2013679219180515743"
-  - "https://x.com/Tavaana/status/2014250806841938163"
-  - "https://www.instagram.com/p/DT0ONGwEX2H"
-  - "https://x.com/HengawO/status/2015124778101985587"
-  - "https://x.com/fereshtehgilaki/status/2014264951993401520"
-  - "https://x.com/azijangravi/status/2014076799131509097"
-  - "https://x.com/ShahramSadidi/status/2014043337880199445"
-  - "https://x.com/ShahramSadidi/status/2013562439317455089"
-  - "https://t.me/javanmardi77/154026"
-  - "https://x.com/azambahrami/status/2014751904341848573"
-persian_name: بهار شادمهری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/sssccpp/status/2013674357571158329, https://x.com/dadban4/status/2013665997366939730, https://x.com/manotonews/status/2013725723849302192, https://x.com/NickSotoudeh/status/2013680225541070987, https://x.com/NickSotoudeh/status/2013679219180515743, https://x.com/Tavaana/status/2014250806841938163, https://www.instagram.com/p/DT0ONGwEX2H, https://x.com/HengawO/status/2015124778101985587, https://x.com/fereshtehgilaki/status/2014264951993401520, https://x.com/azijangravi/status/2014076799131509097, https://t.me/RememberTheirNames/366
+  - https://x.com/sssccpp/status/2013674357571158329
+  - https://x.com/dadban4/status/2013665997366939730
+  - https://x.com/manotonews/status/2013725723849302192
+  - https://x.com/NickSotoudeh/status/2013680225541070987
+  - https://x.com/NickSotoudeh/status/2013679219180515743
+  - https://x.com/Tavaana/status/2014250806841938163
+  - https://www.instagram.com/p/DT0ONGwEX2H
+  - https://x.com/HengawO/status/2015124778101985587
+  - https://x.com/fereshtehgilaki/status/2014264951993401520
+  - https://x.com/azijangravi/status/2014076799131509097
+  - https://x.com/ShahramSadidi/status/2014043337880199445
+  - https://x.com/ShahramSadidi/status/2013562439317455089
+  - https://t.me/javanmardi77/154026
+  - https://x.com/azambahrami/status/2014751904341848573
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

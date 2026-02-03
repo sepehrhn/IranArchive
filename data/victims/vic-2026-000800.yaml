@@ -1,43 +1,132 @@
 # ==========================================
-# Victim Documentation - Reza Haji Moradian
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000800.png"
-  - "vic-2026-ef2fc3a92a75.png"
-  - "vic-2026-5843d9880381.png"
-  - "vic-2026-1bf39af13854.png"
-  - "vic-2026-876370c081f9.jpg"
-  - "vic-2026-98327d312326.png"
-  - "vic-2026-c50e986c5e09.jpg"
-  - "vic-2026-14a2973726b2.jpg"
-  - "vic-2026-1a7cb0078e44.jpg"
-  - "vic-2026-e261c4b89e4e.jpg"
+  - vic-2026-000800.png
+  - vic-2026-ef2fc3a92a75.png
+  - vic-2026-5843d9880381.png
+  - vic-2026-1bf39af13854.png
+  - vic-2026-876370c081f9.jpg
+  - vic-2026-98327d312326.png
+  - vic-2026-c50e986c5e09.jpg
+  - vic-2026-14a2973726b2.jpg
+  - vic-2026-1a7cb0078e44.jpg
+  - vic-2026-e261c4b89e4e.jpg
+
+# Full Name in English
 name: Reza Haji Moradian
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: رضا حاجی‌مرادیان
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 31
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Shabad (Islamabad-e Gharb)
 incident_address: Islamabad-e Gharb
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed during 2025-2026 Iranian protests
 
 
   Shot by Islamic Republic forces during protests. He was married and a tattoo artist, and had no children yet.
-source_type: Social Media
-source_social_media_link:
-  - "https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/Daikatuo/status/2011478578936836544, https://x.com/hekasrehcrisis/status/2015177675464171624, https://x.com/iranwire/status/2015685161904439707, https://t.me/RememberTheirNames/1268, https://t.me/RememberTheirNames/146"
-  - "https://x.com/Daikatuo/status/2011478578936836544"
-  - "https://x.com/hekasrehcrisis/status/2015177675464171624"
-  - "https://x.com/iranwire/status/2015685161904439707"
-  - "https://t.me/javanmardi77/154058"
-persian_name: رضا حاجی‌مرادیان
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/Daikatuo/status/2011478578936836544, https://x.com/hekasrehcrisis/status/2015177675464171624, https://x.com/iranwire/status/2015685161904439707, https://t.me/RememberTheirNames/1268, https://t.me/RememberTheirNames/146
+  - https://x.com/Daikatuo/status/2011478578936836544
+  - https://x.com/hekasrehcrisis/status/2015177675464171624
+  - https://x.com/iranwire/status/2015685161904439707
+  - https://t.me/javanmardi77/154058
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,32 +1,121 @@
 # ==========================================
-# Victim Documentation - Marzieh Kamali (Bameri)
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-2139934.jpg"
-  - "vic-2026-ab94a492ce56.jpg"
-  - "vic-2026-d768d1afc466.jpg"
-  - "vic-2026-cbaa2d4f5bd6.jpg"
+  - vic-2026-2139934.jpg
+  - vic-2026-ab94a492ce56.jpg
+  - vic-2026-d768d1afc466.jpg
+  - vic-2026-cbaa2d4f5bd6.jpg
+
+# Full Name in English
 name: Marzieh Kamali (Bameri)
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: Female
-age: 21
-occupation: ""
-country: Iran
-incident_province: ""
-incident_city: Kerman
-incident_address: ""
-date_of_death: "2026-01-08"
-date_of_death_precision: Exact
-cause_of_death: ""
-status: Killed
-description: Baloch university student studying biomedical engineering at Azad University of Kerman. Shot in the back/waist area by suppression forces during protests on Bahmaniar Street in Kerman on the evening of Friday 19 Dey 1404. Died from severity of injuries. Her body was returned to family on Saturday 20 Dey 1404 from Kerman's forensic medicine office after threats to remain silent and obtaining commitments. Buried the same evening around 19:30 in her hometown of Anbarabad under security restrictions. Daughter of Hossein, from Anbarabad county.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/rozhenabaloch/status/2016601875529777407, https://t.me/RememberTheirNames/1457, https://x.com/haalvsh/status/2016826484812558359"
-  - "https://x.com/haalvsh/status/2016826484812558359"
-  - "https://x.com/balochestan1422/status/2017315455032074444"
-  - "https://x.com/sonofthebeach22/status/2017546311931736321"
+
+# Full Name in Persian (Optional)
 persian_name: مرضیه کمالی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Female
+
+# Age at time of death (Optional, remove if unknown)
+age: 21
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: Iran
+
+# Incident Location
+incident_province: ''
+incident_city: Kerman
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
+description: Baloch university student studying biomedical engineering at Azad University of Kerman. Shot in the back/waist area by suppression forces during protests on Bahmaniar Street in Kerman on the evening of Friday 19 Dey 1404. Died from severity of injuries. Her body was returned to family on Saturday 20 Dey 1404 from Kerman's forensic medicine office after threats to remain silent and obtaining commitments. Buried the same evening around 19:30 in her hometown of Anbarabad under security restrictions. Daughter of Hossein, from Anbarabad county.
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/rozhenabaloch/status/2016601875529777407, https://t.me/RememberTheirNames/1457, https://x.com/haalvsh/status/2016826484812558359
+  - https://x.com/haalvsh/status/2016826484812558359
+  - https://x.com/balochestan1422/status/2017315455032074444
+  - https://x.com/sonofthebeach22/status/2017546311931736321
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

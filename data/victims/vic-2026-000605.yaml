@@ -1,43 +1,132 @@
 # ==========================================
-# Victim Documentation - Farzam Ghasemi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000605.jpg"
-  - "vic-2026-db63c26528b5.jpg"
-  - "vic-2026-726cc08b2e02.jpg"
-  - "vic-2026-8353458c1617.jpg"
-  - "vic-2026-415b26191d99.png"
-  - "vic-2026-4eed35adf461.jpg"
-  - "vic-2026-40547d8627ad.png"
-  - "vic-2026-fca4d06ddf7d.jpg"
-  - "vic-2026-bbd60483b08c.jpg"
-  - "vic-2026-ec516a336d14.jpg"
-  - "vic-2026-328d4088a377.jpg"
+  - vic-2026-000605.jpg
+  - vic-2026-db63c26528b5.jpg
+  - vic-2026-726cc08b2e02.jpg
+  - vic-2026-8353458c1617.jpg
+  - vic-2026-415b26191d99.png
+  - vic-2026-4eed35adf461.jpg
+  - vic-2026-40547d8627ad.png
+  - vic-2026-fca4d06ddf7d.jpg
+  - vic-2026-bbd60483b08c.jpg
+  - vic-2026-ec516a336d14.jpg
+  - vic-2026-328d4088a377.jpg
+
+# Full Name in English
 name: Farzam Ghasemi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: فرزام قاسمی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 52
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Sadeghieh area
 incident_address: Sadeghieh Area
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot by forces affiliated with the Islamic Republic - three war bullets hit his leg, heart and head, and one shotgun pellet hit his face
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranwire/status/2011858021329121655, https://hengaw.net/en/news/2026/01/article-123-1, https://x.com/iranhrs99/status/2013633170009104682, https://x.com/allahbakhshii/status/2013650578073624648, https://x.com/Tina_ZZA/status/2011378368587985043, https://x.com/Daikatuo/status/2012213041681555926, https://t.me/RememberTheirNames/165"
-  - "https://x.com/iranwire/status/2011858021329121655"
-  - "https://x.com/Tina_ZZA/status/2011378368587985043"
-  - "https://x.com/Daikatuo/status/2012213041681555926"
-  - "https://x.com/allahbakhshii/status/2013650578073624648"
-  - "https://x.com/sonofthebeach22/status/2016488278929608850"
-  - "https://x.com/i/status/2016972203175338154"
-persian_name: فرزام قاسمی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranwire/status/2011858021329121655, https://hengaw.net/en/news/2026/01/article-123-1, https://x.com/iranhrs99/status/2013633170009104682, https://x.com/allahbakhshii/status/2013650578073624648, https://x.com/Tina_ZZA/status/2011378368587985043, https://x.com/Daikatuo/status/2012213041681555926, https://t.me/RememberTheirNames/165
+  - https://x.com/iranwire/status/2011858021329121655
+  - https://x.com/Tina_ZZA/status/2011378368587985043
+  - https://x.com/Daikatuo/status/2012213041681555926
+  - https://x.com/allahbakhshii/status/2013650578073624648
+  - https://x.com/sonofthebeach22/status/2016488278929608850
+  - https://x.com/i/status/2016972203175338154
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

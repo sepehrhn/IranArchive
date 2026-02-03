@@ -1,41 +1,130 @@
 # ==========================================
-# Victim Documentation - Taban Rahravan
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000860.jpg"
-  - "vic-2026-c65a9660ff8e.jpg"
-  - "vic-2026-3a92d9243536.jpg"
-  - "vic-2026-970051661539.jpg"
-  - "vic-2026-339b53cfa492.png"
-  - "vic-2026-40c0f91c3029.png"
-  - "vic-2026-104a07cc1206.png"
-  - "vic-2026-8f4b93fd31c7.png"
-  - "vic-2026-41150b68bd93.png"
-  - "vic-2026-7ba7da3eeef9.jpg"
-  - "vic-2026-dadc60b2df6e.jpg"
+  - vic-2026-000860.jpg
+  - vic-2026-c65a9660ff8e.jpg
+  - vic-2026-3a92d9243536.jpg
+  - vic-2026-970051661539.jpg
+  - vic-2026-339b53cfa492.png
+  - vic-2026-40c0f91c3029.png
+  - vic-2026-104a07cc1206.png
+  - vic-2026-8f4b93fd31c7.png
+  - vic-2026-41150b68bd93.png
+  - vic-2026-7ba7da3eeef9.jpg
+  - vic-2026-dadc60b2df6e.jpg
+
+# Full Name in English
 name: Taban Rahravan
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: تابان رهروان
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 18
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Lahijan
 incident_address: Gilan
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Killed in Lahijan (previously confirmed)
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/daikatuo/status/2011474379490652481, https://x.com/loabatk/status/2012033937049268346, https://x.com/Daikatuo/status/2011474379490652481, https://x.com/Daikatuo/status/2011479730583724347, https://t.me/RememberTheirNames/141"
-  - "https://x.com/Daikatuo/status/2011474379490652481"
-  - "https://x.com/Daikatuo/status/2011479730583724347"
-  - "https://x.com/loabatk/status/2012033937049268346"
-  - "https://x.com/pkhwshhal/status/2011430907761312179"
-persian_name: تابان رهروان
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/daikatuo/status/2011474379490652481, https://x.com/loabatk/status/2012033937049268346, https://x.com/Daikatuo/status/2011474379490652481, https://x.com/Daikatuo/status/2011479730583724347, https://t.me/RememberTheirNames/141
+  - https://x.com/Daikatuo/status/2011474379490652481
+  - https://x.com/Daikatuo/status/2011479730583724347
+  - https://x.com/loabatk/status/2012033937049268346
+  - https://x.com/pkhwshhal/status/2011430907761312179
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

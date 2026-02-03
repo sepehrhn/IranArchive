@@ -1,54 +1,134 @@
 # ==========================================
-# Victim Documentation - Safoura Jafari
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001346.jpg"
-  - "vic-2026-68eeaed0dbf1.jpg"
-  - "vic-2026-03788d10444e.jpg"
-  - "vic-2026-23abde571fb0.png"
-  - "vic-2026-3088f2141109.png"
-  - "vic-2026-8547f574d4de.png"
-  - "vic-2026-b6811728a672.jpg"
-  - "vic-2026-ed4bbd51eac9.png"
-  - "vic-2026-df719a62c40a.png"
-  - "vic-2026-243c3b05fedd.jpg"
-  - "vic-2026-8c2d78d4725b.jpg"
-  - "vic-2026-b093cf3497c2.jpg"
-  - "vic-2026-b962166b896a.jpg"
+  - vic-2026-243c3b05fedd.jpg
+  - vic-2026-68eeaed0dbf1.jpg
+  - vic-2026-23abde571fb0.png
+  - vic-2026-3088f2141109.png
+  - vic-2026-8547f574d4de.png
+  - vic-2026-8c2d78d4725b.jpg
+  - vic-2026-b093cf3497c2.jpg
+
+# Full Name in English
 name: Safoura Jafari
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: صفورا جعفری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 22
-occupation: ""
+
+# Occupation (Optional)
+occupation: 'Student'
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Qazvin
 incident_city: Zibashahr
 incident_address: Zibashahr
-date_of_death: "2026-01-09"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: Unknown
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
-  Persian Name: صفورا جعفری
+  She was a 22-year-old woman and a mathematics-and-applications student at Imam Khomeini International University of Qazvin. 
+  Friends and peers describe her as a high-achieving student—an Olympiad participant—and a committed member of the academic community 
+  who served as secretary of the department’s mathematics association. 
+  According to reports, she was killed on the night of 9 January in Qazvin 
+  by security forces of the Islamic Republic during the wider crackdown on protesters. 
+  Sources also state that authorities attempted to frame her death as the result of “terrorist attacks” and put her family under pressure. 
+  In contrast, people close to her—and content attributed to her personal Telegram channel—describe her as a freedom-seeking young woman 
+  with pro-monarchy leanings who went into the streets on days of protest calls, seeking the overthrow of the Islamic Republic.
 
-  Student of mathematics and applications at Imam Khomeini International University of Qazvin, killed by the Islamic Republic's suppressors. She was an Olympiad student and secretary of the mathematics association.
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/pari_d_warrior/status/2017282070553272742
+  - https://x.com/anjmotahed/status/2015507082154553592
+  - https://x.com/hekasrehcrisis/status/2015797646661763480
+  - https://x.com/persian_picture/status/2016083167866712127
+  - https://x.com/sasanrahimpour1/status/2016478344582254860
+  - https://x.com/hekasrehcrisis/status/2017347222002598225
 
 
-  Killed by security forces of the Islamic Republic. She was a mathematics and applications student at Imam Khomeini International University in Qazvin, an Olympiad student, and the secretary of the mathematics department association.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/shaya9000/status/2015522356861829630, https://x.com/anjmotahed/status/2015507082154553592, https://x.com/hekasrehcrisis/status/2015797646661763480, https://x.com/persian_picture/status/2016083167866712127, https://t.me/RememberTheirNames/1004, https://x.com/Persian_picture/status/2016083167866712127, https://x.com/soheilataheri67/status/2016263696285368615, https://x.com/sasanrahimpour1/status/2016478344582254860"
-  - "https://x.com/shaya9000/status/2015522356861829630"
-  - "https://x.com/anjmotahed/status/2015507082154553592"
-  - "https://x.com/hekasrehcrisis/status/2015797646661763480"
-  - "https://x.com/persian_picture/status/2016083167866712127"
-  - "https://x.com/Persian_picture/status/2016083167866712127"
-  - "https://x.com/soheilataheri67/status/2016263696285368615"
-  - "https://x.com/sasanrahimpour1/status/2016478344582254860"
-  - "https://x.com/hekasrehcrisis/status/2017347222002598225"
-  - "https://x.com/HeKasrehCrisis/status/2015797646661763480"
-  - "https://x.com/pari_d_warrior/status/2017282070553272742"
-persian_name: صفورا جعفری
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

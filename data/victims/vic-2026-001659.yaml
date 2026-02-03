@@ -1,42 +1,131 @@
 # ==========================================
-# Victim Documentation - Aref Barati
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001659.jpg"
-  - "vic-2026-10715bd74d65.jpg"
-  - "vic-2026-001894.jpg"
-  - "vic-2026-4e17509eed55.jpg"
-  - "vic-2026-6fc218d7d697.jpg"
-  - "vic-2026-cc38a090d9b0.jpg"
-  - "vic-2026-57516f3495ba.jpg"
-  - "vic-2026-f3e4ed581a01.jpg"
+  - vic-2026-001659.jpg
+  - vic-2026-10715bd74d65.jpg
+  - vic-2026-001894.jpg
+  - vic-2026-4e17509eed55.jpg
+  - vic-2026-6fc218d7d697.jpg
+  - vic-2026-cc38a090d9b0.jpg
+  - vic-2026-57516f3495ba.jpg
+  - vic-2026-f3e4ed581a01.jpg
+
+# Full Name in English
 name: Aref Barati
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: عارف براتی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 39
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Fars
 incident_city: Chenarshahijan (Koohechenar)
 incident_address: Koohechenar
-date_of_death: "2026-01-09"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: عارف براتی
 
   Shot and killed by direct fire from security forces of the terrorist Islamic Republic regime. The source mentions that over 200 people were killed in this town, but precise information is unavailable due to security pressures.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/manotonews/status/2015741515285545437, https://x.com/ManotoNews/status/2015741515285545437, https://x.com/sasanrahimpour1/status/2015764104435147094, https://t.me/RememberTheirNames/894"
-  - "https://x.com/ManotoNews/status/2015741515285545437"
-  - "https://x.com/sasanrahimpour1/status/2015764104435147094"
-  - "https://x.com/mousavi1355/status/2017442254693040561"
-  - "https://x.com/dadban4/status/2017519093331480989"
-  - "https://t.me/RememberTheirNames/1355"
-  - "https://x.com/5ogand/status/2017732026233721312"
-persian_name: عارف براتی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/manotonews/status/2015741515285545437, https://x.com/ManotoNews/status/2015741515285545437, https://x.com/sasanrahimpour1/status/2015764104435147094, https://t.me/RememberTheirNames/894
+  - https://x.com/ManotoNews/status/2015741515285545437
+  - https://x.com/sasanrahimpour1/status/2015764104435147094
+  - https://x.com/mousavi1355/status/2017442254693040561
+  - https://x.com/dadban4/status/2017519093331480989
+  - https://t.me/RememberTheirNames/1355
+  - https://x.com/5ogand/status/2017732026233721312
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

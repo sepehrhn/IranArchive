@@ -1,41 +1,130 @@
 # ==========================================
-# Victim Documentation - Taha Safari
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000922.jpg"
-  - "vic-2026-001176.jpg"
-  - "vic-2026-001243.jpg"
-  - "vic-2026-a0c08fb4effa.jpg"
-  - "vic-2026-5249fed5ffea.jpg"
-  - "vic-2026-3307f348af04.jpg"
-  - "vic-2026-e24969bcc4df.png"
-  - "vic-2026-2139920.jpg"
-  - "vic-2026-ed42b3c03803.jpg"
-  - "vic-2026-6a10c5469b75.jpg"
-  - "vic-2026-fef2f5f51dbe.png"
-  - "vic-2026-5fe0d5dbca04.jpg"
-  - "vic-2026-8adaa8fd3c8b.png"
+  - vic-2026-000922.jpg
+  - vic-2026-001176.jpg
+  - vic-2026-001243.jpg
+  - vic-2026-a0c08fb4effa.jpg
+  - vic-2026-5249fed5ffea.jpg
+  - vic-2026-3307f348af04.jpg
+  - vic-2026-e24969bcc4df.png
+  - vic-2026-2139920.jpg
+  - vic-2026-ed42b3c03803.jpg
+  - vic-2026-6a10c5469b75.jpg
+  - vic-2026-fef2f5f51dbe.png
+  - vic-2026-5fe0d5dbca04.jpg
+  - vic-2026-8adaa8fd3c8b.png
+
+# Full Name in English
 name: Taha Safari
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: طاها صفری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 15
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Lorestan
 incident_city: Azna
-incident_address: ""
-date_of_death: "2026-01-02"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-02'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot by security forces, body showed severe head injuries
-source_type: Social Media
-source_social_media_link:
-  - "https://www.iran-emrooz.net/index.php/news2/125134/, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://news.sky.com/story/how-the-iran-uprising-unfolded-and-what-happened-to-the-victims-of-the-crackdown-13495014, https://x.com/iranrights_org/status/2009387278918127758, https://x.com/Daikatuo/status/2007806138012844190, https://t.me/RememberTheirNames/30"
-  - "https://x.com/Daikatuo/status/2007806138012844190"
-  - "https://x.com/azambahrami/status/2014751904341848573"
-persian_name: طاها صفری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://www.iran-emrooz.net/index.php/news2/125134/, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://news.sky.com/story/how-the-iran-uprising-unfolded-and-what-happened-to-the-victims-of-the-crackdown-13495014, https://x.com/iranrights_org/status/2009387278918127758, https://x.com/Daikatuo/status/2007806138012844190, https://t.me/RememberTheirNames/30
+  - https://x.com/Daikatuo/status/2007806138012844190
+  - https://x.com/azambahrami/status/2014751904341848573
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

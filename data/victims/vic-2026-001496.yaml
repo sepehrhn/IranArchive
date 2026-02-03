@@ -1,30 +1,119 @@
 # ==========================================
-# Victim Documentation - Amirmohammad khodabandeh
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
   - vic-2026-001496.jpg
+
+# Full Name in English
 name: Amirmohammad khodabandeh
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: null
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: null
+
+# Occupation (Optional)
 occupation: دانشجو کارشناسی مهندسی نفت
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-07"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-07'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   در گزارشی اختصاصی که به دست خبرنامه امیرکبیر رسیده است؛ امیرمحمد خدابنده، دانشجوی خوابگاهی ورودی ۱۴۰۳ رشته مهندسی نفت دانشگاه صنعتی امیرکبیر (پلی‌تکنیک تهران) و اهل شهر کاشان، پنجشنبه ۱۸ دی‌ماه پس از فراخوان شاهزاده رضا پهلوی و با حضور در اعتراضات خیابان جمهوری تهران هدف تیراندازی ماموران حکومتی قرار گرفت و جان باخت.
 
   به گفته منابع مطلع، وی در شب ۱۸ دی‌ماه بر اثر اصابت دو گلوله جنگی مجروح شد و ساعاتی بعد جان خود را از دست داد. امیرمحمد مانند دیگر مردم حاضر در فراخوان هجدهم دی‌ماه، دارای گرایش پادشاهی‌خواهانه و از حامیان شاهزاده رضا پهلوی بوده است.
 
   برخی منابع نزدیک به این دانشجو اعلام کرده‌اند که تا زمان تنظیم این گزارش، پیکر امیرمحمد خدابنده به خانواده‌اش تحویل داده نشده است. منابع مطلع می‌گویند تأخیر در تحویل پیکر با تلاش برای معرفی او به‌عنوان «بسیجی کشته‌شده» مرتبط دانسته می‌شود.
-source_type: Local Report
-source_social_media_link:
-  - ""
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source: []
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

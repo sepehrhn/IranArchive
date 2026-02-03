@@ -1,34 +1,123 @@
 # ==========================================
-# Victim Documentation - Hadi Sh'ah-vali
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001086.jpg"
-  - "vic-2026-e3e5c95a2cf3.jpg"
-  - "vic-2026-93012f43fd71.jpg"
+  - vic-2026-001086.jpg
+  - vic-2026-e3e5c95a2cf3.jpg
+  - vic-2026-93012f43fd71.jpg
+
+# Full Name in English
 name: Hadi Sh'ah-vali
-birth_date: ""
-birth_province: ""
+
+# Full Name in Persian (Optional)
+persian_name: هادی شه‌ولی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
 birth_city: behind in the head and neck
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 42
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Qaleh-ye Seid
-incident_address: ""
-date_of_death: "2026-01-01"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-01'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Father of three children, was killed after being shot twice from behind in the head and neck.
 
 
   Father of three children, killed after being shot twice from behind in the head and neck.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/monfaredashkan/status/2015161390051602774, https://x.com/monfaredashkan/status/2015163825948164226, https://x.com/MonfaredAshkan/status/2015161390051602774, https://x.com/MonfaredAshkan/status/2015163825948164226, https://x.com/missmarpel75/status/2015358120512331798, https://x.com/Far_zandehIran/status/2015672068793331778, https://x.com/far_zandehiran/status/2015741119208808648, https://t.me/RememberTheirNames/1440"
-  - "https://x.com/MonfaredAshkan/status/2015161390051602774"
-  - "https://t.me/RememberTheirNames/1440"
-persian_name: هادی شه‌ولی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/monfaredashkan/status/2015161390051602774, https://x.com/monfaredashkan/status/2015163825948164226, https://x.com/MonfaredAshkan/status/2015161390051602774, https://x.com/MonfaredAshkan/status/2015163825948164226, https://x.com/missmarpel75/status/2015358120512331798, https://x.com/Far_zandehIran/status/2015672068793331778, https://x.com/far_zandehiran/status/2015741119208808648, https://t.me/RememberTheirNames/1440
+  - https://x.com/MonfaredAshkan/status/2015161390051602774
+  - https://t.me/RememberTheirNames/1440
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

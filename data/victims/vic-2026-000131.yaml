@@ -1,33 +1,122 @@
 # ==========================================
-# Victim Documentation - Masoud Sadeghi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000131.jpg"
-  - "vic-2026-7f6c623cbcfb.jpg"
-  - "vic-2026-0db79762f2fe.jpg"
-  - "vic-2026-36c93d7de362.jpg"
+  - vic-2026-000131.jpg
+  - vic-2026-7f6c623cbcfb.jpg
+  - vic-2026-0db79762f2fe.jpg
+  - vic-2026-36c93d7de362.jpg
+
+# Full Name in English
 name: Masoud Sadeghi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مسعود صادقی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 37
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Found dead after approximately one week of absence, family identified body at legal medicine facility
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranintl/status/2013993107969220828, https://x.com/kurdpa_farsi/status/2014092304173224413, https://x.com/sattarkhan121/status/2014008902581412027, https://x.com/rml7480/status/2014612434669957594, https://x.com/HengawO/status/2014429661707542927, https://t.me/RememberTheirNames/520"
-  - "https://x.com/iranintl/status/2013993107969220828"
-  - "https://x.com/kurdpa_farsi/status/2014092304173224413"
-  - "https://x.com/HengawO/status/2014429661707542927"
-persian_name: مسعود صادقی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranintl/status/2013993107969220828, https://x.com/kurdpa_farsi/status/2014092304173224413, https://x.com/sattarkhan121/status/2014008902581412027, https://x.com/rml7480/status/2014612434669957594, https://x.com/HengawO/status/2014429661707542927, https://t.me/RememberTheirNames/520
+  - https://x.com/iranintl/status/2013993107969220828
+  - https://x.com/kurdpa_farsi/status/2014092304173224413
+  - https://x.com/HengawO/status/2014429661707542927
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

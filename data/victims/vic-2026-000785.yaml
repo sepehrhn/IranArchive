@@ -1,36 +1,125 @@
 # ==========================================
-# Victim Documentation - Pezhman Shahpiri
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000785.jpg"
-  - "vic-2026-a216737d2086.jpg"
-  - "vic-2026-5824d155c6df.jpg"
-  - "vic-2026-053f3a53c21c.jpg"
-  - "vic-2026-eefecd7bd25d.jpg"
+  - vic-2026-000785.jpg
+  - vic-2026-a216737d2086.jpg
+  - vic-2026-5824d155c6df.jpg
+  - vic-2026-053f3a53c21c.jpg
+  - vic-2026-eefecd7bd25d.jpg
+
+# Full Name in English
 name: Pezhman Shahpiri
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: پژمان شهپیری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: null
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Izeh
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by security forces near the Red Crescent building.
 
 
   Shot in the shoulder by security forces during protests, died several hours later due to excessive bleeding. His body was transferred to Ahvaz, and his family was forced to bury him in the martyrs' section under heavy security, despite their wishes.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/foad_choobin/status/2014701219197935989, https://x.com/roozbehmon/status/2015350458433560758, https://t.me/RememberTheirNames/974"
-  - "https://x.com/foad_choobin/status/2014701219197935989"
-  - "https://x.com/roozbehmon/status/2015350458433560758"
-persian_name: پژمان شهپیری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/foad_choobin/status/2014701219197935989, https://x.com/roozbehmon/status/2015350458433560758, https://t.me/RememberTheirNames/974
+  - https://x.com/foad_choobin/status/2014701219197935989
+  - https://x.com/roozbehmon/status/2015350458433560758
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

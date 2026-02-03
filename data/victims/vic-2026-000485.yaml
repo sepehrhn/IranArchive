@@ -1,74 +1,163 @@
 # ==========================================
-# Victim Documentation - Ali Abbasi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000485.jpg"
-  - "vic-2026-1aad33188fd1.jpg"
-  - "vic-2026-001340.jpg"
-  - "vic-2026-001558.jpg"
-  - "vic-2026-c128899178c7.jpg"
-  - "vic-2026-0706e6c70856.jpg"
-  - "vic-2026-551fe13a56f4.jpg"
-  - "vic-2026-3fbb8dcdda1f.jpg"
-  - "vic-2026-3ff666ae4ee3.png"
-  - "vic-2026-c8279ee66466.png"
-  - "vic-2026-cbe595c20fcf.jpg"
-  - "vic-2026-5edaa0ae9039.jpg"
-  - "vic-2026-99c53ef333a0.jpg"
-  - "vic-2026-aa818cc6460e.jpg"
-  - "vic-2026-bc92ca69738a.jpg"
-  - "vic-2026-918b7a02830b.jpg"
-  - "vic-2026-211691fc2442.jpg"
-  - "vic-2026-5534fcef8876.jpg"
-  - "vic-2026-c1c9cdc47681.jpg"
-  - "vic-2026-218d1bd6c927.jpg"
-  - "vic-2026-a0579fb10928.jpg"
-  - "vic-2026-911d6b5b019e.jpg"
-  - "vic-2026-a14f7f5b93b1.jpg"
+  - vic-2026-000485.jpg
+  - vic-2026-1aad33188fd1.jpg
+  - vic-2026-001340.jpg
+  - vic-2026-001558.jpg
+  - vic-2026-c128899178c7.jpg
+  - vic-2026-0706e6c70856.jpg
+  - vic-2026-551fe13a56f4.jpg
+  - vic-2026-3fbb8dcdda1f.jpg
+  - vic-2026-3ff666ae4ee3.png
+  - vic-2026-c8279ee66466.png
+  - vic-2026-cbe595c20fcf.jpg
+  - vic-2026-5edaa0ae9039.jpg
+  - vic-2026-99c53ef333a0.jpg
+  - vic-2026-aa818cc6460e.jpg
+  - vic-2026-bc92ca69738a.jpg
+  - vic-2026-918b7a02830b.jpg
+  - vic-2026-211691fc2442.jpg
+  - vic-2026-5534fcef8876.jpg
+  - vic-2026-c1c9cdc47681.jpg
+  - vic-2026-218d1bd6c927.jpg
+  - vic-2026-a0579fb10928.jpg
+  - vic-2026-911d6b5b019e.jpg
+  - vic-2026-a14f7f5b93b1.jpg
+
+# Full Name in English
 name: Ali Abbasi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: علی عباسی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 18
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Iran (provinces of Ilam
-incident_address: ""
-date_of_death: "2026-01-07"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-07'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by IRGC forces with a war bullet in the upper right kidney area during protests at 11 PM, taken to hospital for surgery until 5 AM, body later found among hundreds of corpses in Kahrizak, Tehran
 
 
   Killed by direct fire from the Islamic Republic's military-security forces during the suppression of public protests. His family was forced to pay 700 million Toman for the body, which was then buried in his hometown.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/longlosthills/status/2011206482734264827, https://x.com/soranmansournia/status/2011802344011288780, https://x.com/kavehghoreishi/status/2012307852010914008, https://x.com/kurdpa_farsi/status/2012294518813413821, https://x.com/kurdpa_farsi/status/2012295793244332330, https://x.com/iranwire/status/2012895415679525000, https://x.com/hiwa_life/status/2013273344938811437, https://x.com/Daikatuo/status/2011448689416364436, https://x.com/FSeifikaran/status/2012301818965918120, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011417279737815321, https://x.com/KurdistanHRN/status/2014747114509595021, https://t.me/RememberTheirNames/136"
-  - "https://x.com/hekasrehcrisis/status/2017817321830601107"
-  - "https://x.com/HeKasrehCrisis/status/2017817321830601107"
-  - "https://x.com/hekasrehcrisis/status/2015525022958239826, https://x.com/arashzar111/status/2014662145837850653, https://t.me/RememberTheirNames/1253, https://x.com/persephone7597/status/2016225873129558455"
-  - "https://x.com/HyrcaniHRM/status/2015886085859971331, https://t.me/RememberTheirNames/1504"
-  - "https://x.com/HyrcaniHRM/status/2015886085859971331"
-  - "https://t.me/RememberTheirNames/1504"
-  - "https://x.com/_021Queen/status/2014645034616815861"
-  - "https://x.com/fuckeduprainman/status/2016940946202468570"
-  - "https://x.com/FuckedupRainMan/status/2016940946202468570"
-  - "https://x.com/i/status/2016940946202468570"
-  - "https://x.com/longlosthills/status/2011206482734264827"
-  - "https://x.com/Daikatuo/status/2011448689416364436"
-  - "https://x.com/soranmansournia/status/2011802344011288780"
-  - "https://x.com/kavehghoreishi/status/2012307852010914008"
-  - "https://x.com/kurdpa_farsi/status/2012294518813413821"
-  - "https://x.com/FSeifikaran/status/2012301818965918120"
-  - "https://x.com/kurdpa_farsi/status/2012295793244332330"
-  - "https://x.com/iranwire/status/2012895415679525000"
-  - "https://x.com/hiwa_life/status/2013273344938811437"
-  - "https://x.com/KurdistanHRN/status/2011783655752880275"
-  - "https://x.com/KurdistanHRN/status/2011417279737815321"
-  - "https://x.com/KurdistanHRN/status/2014747114509595021"
-persian_name: علی عباسی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/longlosthills/status/2011206482734264827, https://x.com/soranmansournia/status/2011802344011288780, https://x.com/kavehghoreishi/status/2012307852010914008, https://x.com/kurdpa_farsi/status/2012294518813413821, https://x.com/kurdpa_farsi/status/2012295793244332330, https://x.com/iranwire/status/2012895415679525000, https://x.com/hiwa_life/status/2013273344938811437, https://x.com/Daikatuo/status/2011448689416364436, https://x.com/FSeifikaran/status/2012301818965918120, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011417279737815321, https://x.com/KurdistanHRN/status/2014747114509595021, https://t.me/RememberTheirNames/136
+  - https://x.com/hekasrehcrisis/status/2017817321830601107
+  - https://x.com/HeKasrehCrisis/status/2017817321830601107
+  - https://x.com/hekasrehcrisis/status/2015525022958239826, https://x.com/arashzar111/status/2014662145837850653, https://t.me/RememberTheirNames/1253, https://x.com/persephone7597/status/2016225873129558455
+  - https://x.com/HyrcaniHRM/status/2015886085859971331, https://t.me/RememberTheirNames/1504
+  - https://x.com/HyrcaniHRM/status/2015886085859971331
+  - https://t.me/RememberTheirNames/1504
+  - https://x.com/_021Queen/status/2014645034616815861
+  - https://x.com/fuckeduprainman/status/2016940946202468570
+  - https://x.com/FuckedupRainMan/status/2016940946202468570
+  - https://x.com/i/status/2016940946202468570
+  - https://x.com/longlosthills/status/2011206482734264827
+  - https://x.com/Daikatuo/status/2011448689416364436
+  - https://x.com/soranmansournia/status/2011802344011288780
+  - https://x.com/kavehghoreishi/status/2012307852010914008
+  - https://x.com/kurdpa_farsi/status/2012294518813413821
+  - https://x.com/FSeifikaran/status/2012301818965918120
+  - https://x.com/kurdpa_farsi/status/2012295793244332330
+  - https://x.com/iranwire/status/2012895415679525000
+  - https://x.com/hiwa_life/status/2013273344938811437
+  - https://x.com/KurdistanHRN/status/2011783655752880275
+  - https://x.com/KurdistanHRN/status/2011417279737815321
+  - https://x.com/KurdistanHRN/status/2014747114509595021
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

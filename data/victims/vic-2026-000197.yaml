@@ -1,45 +1,134 @@
 # ==========================================
-# Victim Documentation - Parsa Saffar
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000197.jpg"
-  - "vic-2026-1729396378bf.png"
-  - "vic-2026-e8b57043870a.png"
-  - "vic-2026-155da0c4ffec.jpg"
-  - "vic-2026-31d211fe69ce.png"
-  - "vic-2026-89ebbb5f3608.jpg"
-  - "vic-2026-bbccfd0c8e62.jpg"
-  - "vic-2026-76d38a6083d2.jpg"
-  - "vic-2026-b6bfa4dee25c.jpg"
+  - vic-2026-000197.jpg
+  - vic-2026-1729396378bf.png
+  - vic-2026-e8b57043870a.png
+  - vic-2026-155da0c4ffec.jpg
+  - vic-2026-31d211fe69ce.png
+  - vic-2026-89ebbb5f3608.jpg
+  - vic-2026-bbccfd0c8e62.jpg
+  - vic-2026-76d38a6083d2.jpg
+  - vic-2026-b6bfa4dee25c.jpg
+
+# Full Name in English
 name: Parsa Saffar
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: پارسا صفار
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 21
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Mashhad
 incident_address: and Sabzevar
-date_of_death: "2026-01-10"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-10'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot with war bullets by Islamic Republic suppression forces during protests
 
 
   Killed by live ammunition during the massacre on Saturday, 20 Dey. He was a graduate of gifted students and in his 5th semester of medicine at Mashhad University of Medical Sciences. The tweet author last saw him two months prior.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/sharifizarchi/status/2011457107485442509, https://x.com/iranwire/status/2012939704073597217, https://x.com/hengawo/status/2012846909497430064, https://x.com/missmarpel75/status/2014605025436172346, https://x.com/Daikatuo/status/2012217391527117076, https://x.com/HengawO/status/2012846909497430064, https://x.com/SharifiZarchi/status/2011410570621370871, https://t.me/RememberTheirNames/349"
-  - "https://x.com/Daikatuo/status/2012217391527117076"
-  - "https://x.com/hengawo/status/2012846909497430064"
-  - "https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClU4oR"
-  - "https://x.com/sharifizarchi/status/2011457107485442509"
-  - "https://x.com/HengawO/status/2012846909497430064"
-  - "https://x.com/missmarpel75/status/2014605025436172346"
-  - "https://x.com/SharifiZarchi/status/2011410570621370871"
-persian_name: پارسا صفار
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/sharifizarchi/status/2011457107485442509, https://x.com/iranwire/status/2012939704073597217, https://x.com/hengawo/status/2012846909497430064, https://x.com/missmarpel75/status/2014605025436172346, https://x.com/Daikatuo/status/2012217391527117076, https://x.com/HengawO/status/2012846909497430064, https://x.com/SharifiZarchi/status/2011410570621370871, https://t.me/RememberTheirNames/349
+  - https://x.com/Daikatuo/status/2012217391527117076
+  - https://x.com/hengawo/status/2012846909497430064
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClU4oR
+  - https://x.com/sharifizarchi/status/2011457107485442509
+  - https://x.com/HengawO/status/2012846909497430064
+  - https://x.com/missmarpel75/status/2014605025436172346
+  - https://x.com/SharifiZarchi/status/2011410570621370871
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

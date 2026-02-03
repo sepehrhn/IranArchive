@@ -1,29 +1,118 @@
 # ==========================================
-# Victim Documentation - Aida Heydari
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - ""
-  - "vic-2026-72238edb897e.jpg"
-  - "vic-2026-63f9eae6034b.jpg"
+  - vic-2026-72238edb897e.jpg
+  - vic-2026-63f9eae6034b.jpg
+
+# Full Name in English
 name: Aida Heydari
+
+# Full Name in Persian (Optional)
 persian_name: آیدا حیدری
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 21
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-date_of_death: "2026-01-08"
+incident_address: null
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: Killed while a medical student at Tehran University of Medical Sciences. Her memorial service was later canceled by plainclothes agents. Her body was buried at night, five days after her death, with only her parents present, who were under significant security pressure.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/sharifizarchi/status/2011486805745377353, https://x.com/zananfirouzehie/status/2011815899292975260, https://x.com/yasekhali/status/2012958918784246216, https://x.com/nashianeam/status/2014428617212571690, https://x.com/missmarpel75/status/2014614939428597811, https://x.com/SharifiZarchi/status/2011486708190286085, https://x.com/isamanyasin/status/2015495110700806616, https://x.com/mamlekate/status/2015751747356999894, https://x.com/BiEsmeTaHamishe/status/2013292440208204058, https://t.me/RememberTheirNames/104"
-  - "https://x.com/sharifizarchi/status/2011486805745377353"
-  - "https://x.com/zananfirouzehie/status/2011815899292975260"
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/sharifizarchi/status/2011486805745377353, https://x.com/zananfirouzehie/status/2011815899292975260, https://x.com/yasekhali/status/2012958918784246216, https://x.com/nashianeam/status/2014428617212571690, https://x.com/missmarpel75/status/2014614939428597811, https://x.com/SharifiZarchi/status/2011486708190286085, https://x.com/isamanyasin/status/2015495110700806616, https://x.com/mamlekate/status/2015751747356999894, https://x.com/BiEsmeTaHamishe/status/2013292440208204058, https://t.me/RememberTheirNames/104
+  - https://x.com/sharifizarchi/status/2011486805745377353
+  - https://x.com/zananfirouzehie/status/2011815899292975260
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

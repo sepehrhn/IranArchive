@@ -1,54 +1,143 @@
 # ==========================================
-# Victim Documentation - Ahmad Hashemi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000021.jpg"
-  - "vic-2026-a4770038a65e.jpg"
-  - "vic-2026-5f57c1902174.jpg"
-  - "vic-2026-000477.jpg"
-  - "vic-2026-5d1ee42866bf.jpg"
-  - "vic-2026-2140054.jpg"
-  - "vic-2026-dfffe25c8e8e.jpg"
-  - "vic-2026-17ee6f6cc2ac.jpg"
-  - "vic-2026-01ec96bf5e62.jpg"
-  - "vic-2026-00b8ddaffbf8.jpg"
-  - "vic-2026-88ace8c06aa5.jpg"
-  - "vic-2026-abdaa67dfad5.jpg"
-  - "vic-2026-a4886b947f1e.jpg"
-  - "vic-2026-fa75823199ed.jpg"
+  - vic-2026-000021.jpg
+  - vic-2026-a4770038a65e.jpg
+  - vic-2026-5f57c1902174.jpg
+  - vic-2026-000477.jpg
+  - vic-2026-5d1ee42866bf.jpg
+  - vic-2026-2140054.jpg
+  - vic-2026-dfffe25c8e8e.jpg
+  - vic-2026-17ee6f6cc2ac.jpg
+  - vic-2026-01ec96bf5e62.jpg
+  - vic-2026-00b8ddaffbf8.jpg
+  - vic-2026-88ace8c06aa5.jpg
+  - vic-2026-abdaa67dfad5.jpg
+  - vic-2026-a4886b947f1e.jpg
+  - vic-2026-fa75823199ed.jpg
+
+# Full Name in English
 name: Ahmad Hashemi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: احمد هاشمی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 22
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Markazi
-incident_city: ""
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_city: ''
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot with live ammunition by government mercenaries, injured liver and spleen, died after 3 days in hospital
 
 
   Shot directly by the IRGC. He is described as a monarchist. The user states he is the cousin of a very close friend.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/allahbakhshii/status/2014662867589407023, https://x.com/HengawO/status/2014638058105151825, https://x.com/Y__leviii5/status/2014670741501825264, https://t.me/RememberTheirNames/808, https://www.instagram.com/p/DUF5ZiWjKzZ"
-  - "https://x.com/HengawO/status/2014638058105151825"
-  - "https://x.com/Y__leviii5/status/2014670741501825264"
-  - "https://x.com/soranmansournia/status/2013044425635545470, https://x.com/dadban4/status/2013274241030909957, https://x.com/Soranmansournia/status/2013044425635545470, https://t.me/RememberTheirNames/230, https://x.com/iranintlsport/status/2016086022237339711"
-  - "https://t.me/RememberTheirNames/1477"
-  - "https://x.com/RealMeAban/status/2016263398724370613, https://x.com/realmeaban/status/2016263398724370613, https://t.me/RememberTheirNames/1661, https://x.com/i/status/2016278339388923918, https://x.com/noamagid/status/2016450966451548421"
-  - "https://x.com/noamagid/status/2016450966451548421"
-  - "https://x.com/shahnazali_ali/status/2016278339388923918"
-  - "https://t.me/javanmardi77/154248"
-  - "https://x.com/RealMeAban/status/2016263398724370613"
-  - "https://x.com/i/status/2016278339388923918"
-  - "https://x.com/aminakramipour/status/2017687526329258492"
-persian_name: احمد هاشمی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/allahbakhshii/status/2014662867589407023, https://x.com/HengawO/status/2014638058105151825, https://x.com/Y__leviii5/status/2014670741501825264, https://t.me/RememberTheirNames/808, https://www.instagram.com/p/DUF5ZiWjKzZ
+  - https://x.com/HengawO/status/2014638058105151825
+  - https://x.com/Y__leviii5/status/2014670741501825264
+  - https://x.com/soranmansournia/status/2013044425635545470, https://x.com/dadban4/status/2013274241030909957, https://x.com/Soranmansournia/status/2013044425635545470, https://t.me/RememberTheirNames/230, https://x.com/iranintlsport/status/2016086022237339711
+  - https://t.me/RememberTheirNames/1477
+  - https://x.com/RealMeAban/status/2016263398724370613, https://x.com/realmeaban/status/2016263398724370613, https://t.me/RememberTheirNames/1661, https://x.com/i/status/2016278339388923918, https://x.com/noamagid/status/2016450966451548421
+  - https://x.com/noamagid/status/2016450966451548421
+  - https://x.com/shahnazali_ali/status/2016278339388923918
+  - https://t.me/javanmardi77/154248
+  - https://x.com/RealMeAban/status/2016263398724370613
+  - https://x.com/i/status/2016278339388923918
+  - https://x.com/aminakramipour/status/2017687526329258492
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

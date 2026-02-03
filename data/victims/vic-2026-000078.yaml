@@ -1,46 +1,135 @@
 # ==========================================
-# Victim Documentation - Farzaneh Tavakkoli
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000078.jpg"
-  - "vic-2026-a21c6696d136.jpg"
-  - "vic-2026-f801f1a44c3e.jpg"
-  - "vic-2026-7f81aea4cf11.jpg"
-  - "vic-2026-c8fa95aa2e99.jpg"
-  - "vic-2026-709ec2130b9c.jpg"
-  - "vic-2026-d12f840ccd2c.jpg"
-  - "vic-2026-a34df68c056b.jpg"
-  - "vic-2026-06b0efb1426a.jpg"
-  - "vic-2026-6f7a69d7bc38.jpg"
+  - vic-2026-000078.jpg
+  - vic-2026-a21c6696d136.jpg
+  - vic-2026-f801f1a44c3e.jpg
+  - vic-2026-7f81aea4cf11.jpg
+  - vic-2026-c8fa95aa2e99.jpg
+  - vic-2026-709ec2130b9c.jpg
+  - vic-2026-d12f840ccd2c.jpg
+  - vic-2026-a34df68c056b.jpg
+  - vic-2026-06b0efb1426a.jpg
+  - vic-2026-6f7a69d7bc38.jpg
+
+# Full Name in English
 name: Farzaneh Tavakkoli
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: فرزانه توکلی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 40
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Khaniabad
 incident_address: Khaniabad
-date_of_death: "2025-12-22"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2025-12-22'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed during suppression of protests by Islamic Republic forces
 
 
   Shot in the head and killed. Her family was forced to sign an agreement for a silent burial in Ebrahimabad, Arak. Originally from Arak, married with two children.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/behnam_chegini/status/2012939580618547384, https://x.com/iranwire/status/2013195338249621605, https://x.com/saeidvafa/status/2014025906474397742, https://x.com/saeidvafa/status/2014463644117983336, https://x.com/SaeidVafa/status/2014463644117983336, https://x.com/FSeifikaran/status/2015476373977002028, https://x.com/ManotoNews/status/2015605611480875325, https://t.me/RememberTheirNames/295, https://x.com/pardis__rabiee/status/2015875901951553668"
-  - "https://x.com/iranwire/status/2013195338249621605"
-  - "https://x.com/SaeidVafa/status/2014463644117983336"
-  - "https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMho7O"
-  - "https://x.com/saeidvafa/status/2014463644117983336"
-  - "https://x.com/FSeifikaran/status/2015476373977002028"
-  - "https://x.com/ManotoNews/status/2015605611480875325"
-  - "https://x.com/pardis__rabiee/status/2015875901951553668"
-persian_name: فرزانه توکلی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/behnam_chegini/status/2012939580618547384, https://x.com/iranwire/status/2013195338249621605, https://x.com/saeidvafa/status/2014025906474397742, https://x.com/saeidvafa/status/2014463644117983336, https://x.com/SaeidVafa/status/2014463644117983336, https://x.com/FSeifikaran/status/2015476373977002028, https://x.com/ManotoNews/status/2015605611480875325, https://t.me/RememberTheirNames/295, https://x.com/pardis__rabiee/status/2015875901951553668
+  - https://x.com/iranwire/status/2013195338249621605
+  - https://x.com/SaeidVafa/status/2014463644117983336
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMho7O
+  - https://x.com/saeidvafa/status/2014463644117983336
+  - https://x.com/FSeifikaran/status/2015476373977002028
+  - https://x.com/ManotoNews/status/2015605611480875325
+  - https://x.com/pardis__rabiee/status/2015875901951553668
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

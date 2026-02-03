@@ -1,67 +1,156 @@
 # ==========================================
-# Victim Documentation - Mehdi Dalaei
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000157.jpg"
-  - "vic-2026-730284e363c7.jpg"
-  - "vic-2026-b973dc5bec48.jpg"
-  - "vic-2026-465b60c1c972.jpg"
-  - "vic-2026-00936f4fc105.jpg"
-  - "vic-2026-ac077804eef0.jpg"
-  - "vic-2026-000342.jpg"
-  - "vic-2026-5a30cac2be73.jpg"
-  - "vic-2026-77be65f1cc1c.jpg"
-  - "vic-2026-000684.png"
-  - "vic-2026-9cc4ca1ec0bd.png"
-  - "vic-2026-2f373672dec9.jpg"
-  - "vic-2026-001343.jpg"
-  - "vic-2026-002222.png"
-  - "vic-2026-10fda8cc865f.png"
-  - "vic-2026-f6db715d87ca.jpg"
-  - "vic-2026-3ca6c7a061a3.jpg"
-  - "vic-2026-498c5be362f3.jpg"
-  - "vic-2026-13eba4b414fd.jpg"
-  - "vic-2026-343110eec541.jpg"
-  - "vic-2026-269079635494.jpg"
+  - vic-2026-000157.jpg
+  - vic-2026-730284e363c7.jpg
+  - vic-2026-b973dc5bec48.jpg
+  - vic-2026-465b60c1c972.jpg
+  - vic-2026-00936f4fc105.jpg
+  - vic-2026-ac077804eef0.jpg
+  - vic-2026-000342.jpg
+  - vic-2026-5a30cac2be73.jpg
+  - vic-2026-77be65f1cc1c.jpg
+  - vic-2026-000684.png
+  - vic-2026-9cc4ca1ec0bd.png
+  - vic-2026-2f373672dec9.jpg
+  - vic-2026-001343.jpg
+  - vic-2026-002222.png
+  - vic-2026-10fda8cc865f.png
+  - vic-2026-f6db715d87ca.jpg
+  - vic-2026-3ca6c7a061a3.jpg
+  - vic-2026-498c5be362f3.jpg
+  - vic-2026-13eba4b414fd.jpg
+  - vic-2026-343110eec541.jpg
+  - vic-2026-269079635494.jpg
+
+# Full Name in English
 name: Mehdi Dalaei
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مهدی دالائی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 23
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-01"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-01'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot with fatal bullet to the head during protests
 
 
   Described as a child of Iran and killed on the path to the homeland.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/mamlekate/status/2014112939272183846, https://t.me/RememberTheirNames/600, https://x.com/pardis__rabiee/status/2016140242156130359"
-  - "https://x.com/mamlekate/status/2014112939272183846"
-  - "https://x.com/pardis__rabiee/status/2016140242156130359"
-  - "https://x.com/behnam_chegini/status/2014328955755491372, https://x.com/foreverybd/status/2014459793587548220, https://x.com/HengawO/status/2014785326141612443, https://x.com/HengawO/status/2014781999668437226, https://t.me/RememberTheirNames/515"
-  - "https://x.com/foreverybd/status/2014459793587548220"
-  - "https://x.com/HengawO/status/2014785326141612443"
-  - "https://x.com/allahbakhshii/status/2014458085272912228"
-  - "https://x.com/daikatuo/status/2014810898167115939, https://t.me/RememberTheirNames/1431"
-  - "https://x.com/daikatuo/status/2014810898167115939"
-  - "https://t.me/RememberTheirNames/1431"
-  - "https://x.com/justchangingun/status/2015763824205344945, https://t.me/RememberTheirNames/1077, https://x.com/shahramsadidi/status/2015425695787241852, https://x.com/foxyparfox/status/2015744442469072955"
-  - "https://x.com/visfehan/status/2015824527201022281, https://x.com/i/status/2015824527201022281, https://x.com/VIsfehan/status/2015824527201022281"
-  - "https://x.com/visfehan/status/2015824527201022281"
-  - "https://x.com/i/status/2015824527201022281"
-  - "https://x.com/VIsfehan/status/2015824527201022281"
-  - "https://x.com/shahramsadidi/status/2015425695787241852"
-  - "https://x.com/justchangingun/status/2015763824205344945"
-  - "https://x.com/foxyparfox/status/2015744442469072955"
-persian_name: مهدی دالائی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/mamlekate/status/2014112939272183846, https://t.me/RememberTheirNames/600, https://x.com/pardis__rabiee/status/2016140242156130359
+  - https://x.com/mamlekate/status/2014112939272183846
+  - https://x.com/pardis__rabiee/status/2016140242156130359
+  - https://x.com/behnam_chegini/status/2014328955755491372, https://x.com/foreverybd/status/2014459793587548220, https://x.com/HengawO/status/2014785326141612443, https://x.com/HengawO/status/2014781999668437226, https://t.me/RememberTheirNames/515
+  - https://x.com/foreverybd/status/2014459793587548220
+  - https://x.com/HengawO/status/2014785326141612443
+  - https://x.com/allahbakhshii/status/2014458085272912228
+  - https://x.com/daikatuo/status/2014810898167115939, https://t.me/RememberTheirNames/1431
+  - https://x.com/daikatuo/status/2014810898167115939
+  - https://t.me/RememberTheirNames/1431
+  - https://x.com/justchangingun/status/2015763824205344945, https://t.me/RememberTheirNames/1077, https://x.com/shahramsadidi/status/2015425695787241852, https://x.com/foxyparfox/status/2015744442469072955
+  - https://x.com/visfehan/status/2015824527201022281, https://x.com/i/status/2015824527201022281, https://x.com/VIsfehan/status/2015824527201022281
+  - https://x.com/visfehan/status/2015824527201022281
+  - https://x.com/i/status/2015824527201022281
+  - https://x.com/VIsfehan/status/2015824527201022281
+  - https://x.com/shahramsadidi/status/2015425695787241852
+  - https://x.com/justchangingun/status/2015763824205344945
+  - https://x.com/foxyparfox/status/2015744442469072955
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

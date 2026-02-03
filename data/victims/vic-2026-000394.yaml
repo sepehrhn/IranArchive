@@ -1,44 +1,133 @@
 # ==========================================
-# Victim Documentation - Mostafa Nouri-Shirazi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000394.jpg"
-  - "vic-2026-836fd3928e9c.jpg"
-  - "vic-2026-a500ee6c369a.jpg"
-  - "vic-2026-7edcf79c0e86.jpg"
-  - "vic-2026-b124cf52fab7.jpg"
-  - "vic-2026-01c1a46c7b4b.jpg"
-  - "vic-2026-8d7e0ddc5bd9.jpg"
+  - vic-2026-000394.jpg
+  - vic-2026-836fd3928e9c.jpg
+  - vic-2026-a500ee6c369a.jpg
+  - vic-2026-7edcf79c0e86.jpg
+  - vic-2026-b124cf52fab7.jpg
+  - vic-2026-01c1a46c7b4b.jpg
+  - vic-2026-8d7e0ddc5bd9.jpg
+
+# Full Name in English
 name: Mostafa Nouri-Shirazi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مصطفى نورى‌شيرازى
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 23
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Noor-Mazandaran
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot and killed during protests in the city of Noor. His father stole his body from the hospital to wash and shroud it in his grandfather's yard.
 
 
   Killed during protests. His father took his body from the hospital, washed and shrouded it at his grandfather's house. He worked at Saedi Nia cafe. Described as energetic, full of hope, with a bright smile and luminous eyes.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/monfaredashkan/status/2014802095816536133, https://x.com/monfaredashkan/status/2014799780657168583, https://x.com/MonfaredAshkan/status/2014799780657168583, https://x.com/realneo101/status/2015070590919385235, https://x.com/alitagh30207454/status/2015074385925746874, https://x.com/realneo101/status/2015177858579149251, https://x.com/MonfaredAshkan/status/2014802095816536133, https://x.com/ManotoNews/status/2015847208403575048, https://t.me/RememberTheirNames/1332, https://x.com/manotonews/status/2015847208403575048, https://x.com/_aligoli/status/2015368992932712612"
-  - "https://x.com/monfaredashkan/status/2014799780657168583"
-  - "https://x.com/MonfaredAshkan/status/2014799780657168583"
-  - "https://x.com/alitagh30207454/status/2015074385925746874"
-  - "https://x.com/realneo101/status/2015177858579149251"
-  - "https://x.com/ManotoNews/status/2015847208403575048"
-  - "https://x.com/manotonews/status/2015847208403575048"
-  - "https://x.com/spidygiirl/status/2017733151150239925"
-  - "https://x.com/HyrcaniHRM/status/2017548130183504311"
-persian_name: مصطفى نورى‌شيرازى
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/monfaredashkan/status/2014802095816536133, https://x.com/monfaredashkan/status/2014799780657168583, https://x.com/MonfaredAshkan/status/2014799780657168583, https://x.com/realneo101/status/2015070590919385235, https://x.com/alitagh30207454/status/2015074385925746874, https://x.com/realneo101/status/2015177858579149251, https://x.com/MonfaredAshkan/status/2014802095816536133, https://x.com/ManotoNews/status/2015847208403575048, https://t.me/RememberTheirNames/1332, https://x.com/manotonews/status/2015847208403575048, https://x.com/_aligoli/status/2015368992932712612
+  - https://x.com/monfaredashkan/status/2014799780657168583
+  - https://x.com/MonfaredAshkan/status/2014799780657168583
+  - https://x.com/alitagh30207454/status/2015074385925746874
+  - https://x.com/realneo101/status/2015177858579149251
+  - https://x.com/ManotoNews/status/2015847208403575048
+  - https://x.com/manotonews/status/2015847208403575048
+  - https://x.com/spidygiirl/status/2017733151150239925
+  - https://x.com/HyrcaniHRM/status/2017548130183504311
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

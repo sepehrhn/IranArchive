@@ -1,54 +1,143 @@
 # ==========================================
-# Victim Documentation - Nazli Janparvar
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000768.jpg"
-  - "vic-2026-92ae48f945ee.png"
-  - "vic-2026-0caf5b6367fd.jpg"
-  - "vic-2026-b34bfea12819.png"
-  - "vic-2026-4b90d27eb72a.png"
-  - "vic-2026-df45b7b3e662.jpg"
-  - "vic-2026-2ae8d1f6f46c.jpg"
-  - "vic-2026-d188538fce96.jpg"
-  - "vic-2026-ef35be6ede91.jpg"
-  - "vic-2026-46330e451423.jpg"
-  - "vic-2026-645d4d5a768b.jpg"
-  - "vic-2026-1749a9bee028.jpg"
-  - "vic-2026-6327004148be.jpg"
-  - "vic-2026-e44ce73ee59a.jpg"
-  - "vic-2026-976991ce28d2.jpg"
-  - "vic-2026-0816f5c9080c.jpg"
+  - vic-2026-000768.jpg
+  - vic-2026-92ae48f945ee.png
+  - vic-2026-0caf5b6367fd.jpg
+  - vic-2026-b34bfea12819.png
+  - vic-2026-4b90d27eb72a.png
+  - vic-2026-df45b7b3e662.jpg
+  - vic-2026-2ae8d1f6f46c.jpg
+  - vic-2026-d188538fce96.jpg
+  - vic-2026-ef35be6ede91.jpg
+  - vic-2026-46330e451423.jpg
+  - vic-2026-645d4d5a768b.jpg
+  - vic-2026-1749a9bee028.jpg
+  - vic-2026-6327004148be.jpg
+  - vic-2026-e44ce73ee59a.jpg
+  - vic-2026-976991ce28d2.jpg
+  - vic-2026-0816f5c9080c.jpg
+
+# Full Name in English
 name: Nazli Janparvar
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: نازلی جان‌پرور
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 27
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Bojnourd
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot during a protest in Tajrish Square, Tehran. Her body was found in Shohaday-e Tajrish Hospital.
 
 
   Shot with pellets by security forces in Gheytarieh, Tehran. She was taken to Gheytarieh clinic while alive and receiving treatment when regime thugs kidnapped her. Her body was later found at the coroner's office with a final shot to the chest. She was a monarchist supporter who had fought for years for the freedom of Iran and the return of Crown Prince Reza Pahlavi.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/longlosthills/status/2011967936194363739, https://hengaw.net/en/news/2026/01/article-121, https://news.sky.com/story/how-the-iran-uprising-unfolded-and-what-happened-to-the-victims-of-the-crackdown-13495014, https://x.com/hashshaashin/status/2014330838393983195, https://x.com/Daikatuo/status/2012209690470490271, https://www.instagram.com/p/DT2G189DB0m, https://x.com/hiitsmemooneh/status/2014840709657067542, https://x.com/nicksotoudeh/status/2014808415693144165, https://x.com/raziehshin/status/2014973910760985033, https://t.me/RememberTheirNames/161, https://x.com/zahraabdi1396/status/2016273911189549194, https://x.com/allahbakhshii/status/2016578366866854191"
-  - "https://x.com/longlosthills/status/2011967936194363739"
-  - "https://x.com/Daikatuo/status/2012209690470490271"
-  - "https://x.com/hashshaashin/status/2014330838393983195"
-  - "https://www.instagram.com/p/DT2G189DB0m"
-  - "https://x.com/nicksotoudeh/status/2014808415693144165"
-  - "https://x.com/raziehshin/status/2014973910760985033"
-  - "https://x.com/zahraabdi1396/status/2016273911189549194"
-  - "https://x.com/allahbakhshii/status/2016578366866854191"
-  - "https://x.com/hiitsmemooneh/status/2014610614195560673"
-persian_name: نازلی جان‌پرور
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/longlosthills/status/2011967936194363739, https://hengaw.net/en/news/2026/01/article-121, https://news.sky.com/story/how-the-iran-uprising-unfolded-and-what-happened-to-the-victims-of-the-crackdown-13495014, https://x.com/hashshaashin/status/2014330838393983195, https://x.com/Daikatuo/status/2012209690470490271, https://www.instagram.com/p/DT2G189DB0m, https://x.com/hiitsmemooneh/status/2014840709657067542, https://x.com/nicksotoudeh/status/2014808415693144165, https://x.com/raziehshin/status/2014973910760985033, https://t.me/RememberTheirNames/161, https://x.com/zahraabdi1396/status/2016273911189549194, https://x.com/allahbakhshii/status/2016578366866854191
+  - https://x.com/longlosthills/status/2011967936194363739
+  - https://x.com/Daikatuo/status/2012209690470490271
+  - https://x.com/hashshaashin/status/2014330838393983195
+  - https://www.instagram.com/p/DT2G189DB0m
+  - https://x.com/nicksotoudeh/status/2014808415693144165
+  - https://x.com/raziehshin/status/2014973910760985033
+  - https://x.com/zahraabdi1396/status/2016273911189549194
+  - https://x.com/allahbakhshii/status/2016578366866854191
+  - https://x.com/hiitsmemooneh/status/2014610614195560673
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

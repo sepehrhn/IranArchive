@@ -1,46 +1,135 @@
 # ==========================================
-# Victim Documentation - Nazanin Osmi Khani
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000767.jpg"
-  - "vic-2026-d0cf971d6db9.jpg"
-  - "vic-2026-1c737d3cb665.jpg"
-  - "vic-2026-cbb0d21ce8fc.jpg"
-  - "vic-2026-5284dba4a6a3.jpg"
-  - "vic-2026-ad65b8d5bcaf.jpg"
-  - "vic-2026-1e0a99b0883f.jpg"
-  - "vic-2026-0c2441787070.jpg"
-  - "vic-2026-e6f23d237d55.jpg"
+  - vic-2026-000767.jpg
+  - vic-2026-d0cf971d6db9.jpg
+  - vic-2026-1c737d3cb665.jpg
+  - vic-2026-cbb0d21ce8fc.jpg
+  - vic-2026-5284dba4a6a3.jpg
+  - vic-2026-ad65b8d5bcaf.jpg
+  - vic-2026-1e0a99b0883f.jpg
+  - vic-2026-0c2441787070.jpg
+  - vic-2026-e6f23d237d55.jpg
+
+# Full Name in English
 name: Nazanin Osmi Khani
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: نازنین اسمی خانی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 17
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Qazvin
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by security forces during popular protests
 
 
   Killed by security forces with live ammunition during protests.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/manotonews/status/2013657775851606043, https://x.com/nicksotoudeh/status/2013697925004828679, https://x.com/sssccpp/status/2013687589287403556, https://x.com/nicksotoudeh/status/2013720176777404627, https://x.com/ManotoNews/status/2013657775851606043, https://x.com/NickSotoudeh/status/2013697925004828679, https://x.com/hiwa_life/status/2015754762042421500"
-  - "https://x.com/manotonews/status/2013657775851606043"
-  - "https://x.com/nicksotoudeh/status/2013697925004828679"
-  - "https://x.com/sssccpp/status/2013687589287403556"
-  - "https://x.com/ManotoNews/status/2013657775851606043"
-  - "https://x.com/nicksotoudeh/status/2013720176777404627"
-  - "https://x.com/NickSotoudeh/status/2013697925004828679"
-  - "https://x.com/hiwa_life/status/2015754762042421500"
-  - "https://x.com/LoabatK/status/2016780028315369853"
-persian_name: نازنین اسمی خانی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/manotonews/status/2013657775851606043, https://x.com/nicksotoudeh/status/2013697925004828679, https://x.com/sssccpp/status/2013687589287403556, https://x.com/nicksotoudeh/status/2013720176777404627, https://x.com/ManotoNews/status/2013657775851606043, https://x.com/NickSotoudeh/status/2013697925004828679, https://x.com/hiwa_life/status/2015754762042421500
+  - https://x.com/manotonews/status/2013657775851606043
+  - https://x.com/nicksotoudeh/status/2013697925004828679
+  - https://x.com/sssccpp/status/2013687589287403556
+  - https://x.com/ManotoNews/status/2013657775851606043
+  - https://x.com/nicksotoudeh/status/2013720176777404627
+  - https://x.com/NickSotoudeh/status/2013697925004828679
+  - https://x.com/hiwa_life/status/2015754762042421500
+  - https://x.com/LoabatK/status/2016780028315369853
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

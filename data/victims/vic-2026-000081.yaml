@@ -1,43 +1,132 @@
 # ==========================================
-# Victim Documentation - Rasoul Zarei
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000081.jpg"
-  - "vic-2026-73a6fb31764a.jpg"
-  - "vic-2026-0502dae3a399.jpg"
-  - "vic-2026-000082.jpg"
-  - "vic-2026-a5b8d9205b85.jpg"
-  - "vic-2026-2070b8482590.jpg"
-  - "vic-2026-b5513dcdb7ee.jpg"
+  - vic-2026-000081.jpg
+  - vic-2026-73a6fb31764a.jpg
+  - vic-2026-0502dae3a399.jpg
+  - vic-2026-000082.jpg
+  - vic-2026-a5b8d9205b85.jpg
+  - vic-2026-2070b8482590.jpg
+  - vic-2026-b5513dcdb7ee.jpg
+
+# Full Name in English
 name: Rasoul Zarei
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: رسول زارعی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 40
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Karaj
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed in his wife's arms
 
 
   Died during protests in Dey 1404 (late Dec 2025 - Jan 2026). Specific cause of death not mentioned.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/isamanyasin/status/2014486306907173207, https://x.com/dadban4/status/2015662797082751412, https://t.me/RememberTheirNames/773"
-  - "https://x.com/allahbakhshii/status/2014777854957900203"
-  - "https://x.com/dadban4/status/2015662797082751412"
-  - "https://www.instagram.com/p/dt03sbqexkl, https://www.instagram.com/p/DT03SbQEXkl, https://t.me/RememberTheirNames/631, https://x.com/hoorieh81/status/2016211883166970006"
-  - "https://www.instagram.com/p/DT03SbQEXkl"
-  - "https://x.com/hoorieh81/status/2016211883166970006"
-  - "https://www.instagram.com/p/DT03SbQEXkl, https://t.me/RememberTheirNames/631, https://x.com/hoorieh81/status/2016211883166970006"
-  - "https://x.com/i/status/2016185179442970672"
-persian_name: رسول زارعی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/isamanyasin/status/2014486306907173207, https://x.com/dadban4/status/2015662797082751412, https://t.me/RememberTheirNames/773
+  - https://x.com/allahbakhshii/status/2014777854957900203
+  - https://x.com/dadban4/status/2015662797082751412
+  - https://www.instagram.com/p/dt03sbqexkl, https://www.instagram.com/p/DT03SbQEXkl, https://t.me/RememberTheirNames/631, https://x.com/hoorieh81/status/2016211883166970006
+  - https://www.instagram.com/p/DT03SbQEXkl
+  - https://x.com/hoorieh81/status/2016211883166970006
+  - https://www.instagram.com/p/DT03SbQEXkl, https://t.me/RememberTheirNames/631, https://x.com/hoorieh81/status/2016211883166970006
+  - https://x.com/i/status/2016185179442970672
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,47 +1,136 @@
 # ==========================================
-# Victim Documentation - Abolfazl Yaghmouri
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000218.jpg"
-  - "vic-2026-06881d2220b0.jpg"
-  - "vic-2026-40e58c4ef137.jpg"
-  - "vic-2026-808eb6884b3b.png"
-  - "vic-2026-30339e911801.png"
-  - "vic-2026-1a0ea1fd1696.png"
-  - "vic-2026-9b2f649ec4dc.jpg"
-  - "vic-2026-aac5ce5dde09.jpg"
-  - "vic-2026-e3da985f87af.jpg"
-  - "vic-2026-ab5a2370a74c.jpg"
-  - "vic-2026-89d4b3d42526.jpg"
+  - vic-2026-000218.jpg
+  - vic-2026-06881d2220b0.jpg
+  - vic-2026-40e58c4ef137.jpg
+  - vic-2026-808eb6884b3b.png
+  - vic-2026-30339e911801.png
+  - vic-2026-1a0ea1fd1696.png
+  - vic-2026-9b2f649ec4dc.jpg
+  - vic-2026-aac5ce5dde09.jpg
+  - vic-2026-e3da985f87af.jpg
+  - vic-2026-ab5a2370a74c.jpg
+  - vic-2026-89d4b3d42526.jpg
+
+# Full Name in English
 name: Abolfazl Yaghmouri
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: ابوالفضل یغموری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 17
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Karaj
 incident_address: Fardis
-date_of_death: "2026-01-09"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the heart by Islamic Republic forces during protests. Security forces prevented anyone from helping him for approximately 40 minutes while he was bleeding.
 
 
   Shot directly in the heart by Islamic Republic forces in the Fardis area of Karaj. Security forces prevented anyone from helping him for about 40 minutes while he was bleeding, threatening anyone who tried to assist. After the killing, security forces collected and removed all CCTV cameras from homes and shops on 15th Street in Fardis to destroy evidence. He was an aspiring rapper who had built a small recording studio in his bedroom closet and wrote lyrics about his generation's pain.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/loabatk/status/2012030090834821607, https://x.com/banafshehviola/status/2012581927342297534, https://x.com/manotonews/status/2012857504091263264, https://x.com/IranProtestsCom/status/2011853640642818479, https://x.com/Daikatuo/status/2011843247153246303, https://t.me/RememberTheirNames/314"
-  - "https://x.com/IranProtestsCom/status/2011853640642818479"
-  - "https://x.com/Daikatuo/status/2011843247153246303"
-  - "https://x.com/loabatk/status/2012030090834821607"
-  - "https://x.com/banafshehviola/status/2012581927342297534"
-  - "https://x.com/manotonews/status/2012857504091263264"
-  - "https://x.com/jinzianazadi/status/2012472428539056430"
-  - "https://x.com/i/status/2016940277353546145"
-persian_name: ابوالفضل یغموری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/loabatk/status/2012030090834821607, https://x.com/banafshehviola/status/2012581927342297534, https://x.com/manotonews/status/2012857504091263264, https://x.com/IranProtestsCom/status/2011853640642818479, https://x.com/Daikatuo/status/2011843247153246303, https://t.me/RememberTheirNames/314
+  - https://x.com/IranProtestsCom/status/2011853640642818479
+  - https://x.com/Daikatuo/status/2011843247153246303
+  - https://x.com/loabatk/status/2012030090834821607
+  - https://x.com/banafshehviola/status/2012581927342297534
+  - https://x.com/manotonews/status/2012857504091263264
+  - https://x.com/jinzianazadi/status/2012472428539056430
+  - https://x.com/i/status/2016940277353546145
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

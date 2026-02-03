@@ -1,44 +1,134 @@
 # ==========================================
-# Victim Documentation - Amir Teimouri-Rad
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000244.jpg"
-  - "vic-2026-000254.jpg"
-  - "vic-2026-fce66dd39513.jpg"
-  - "vic-2026-af3aaafb823a.jpg"
-  - "vic-2026-7fb1a7b0ae87.jpg"
-  - "vic-2026-a9c63eb50f2b.jpg"
-  - "vic-2026-7d3bc02c4e11.jpg"
-  - "vic-2026-000406.jpg"
-  - "vic-2026-8de3a1583247.jpg"
-  - "vic-2026-bc901b220f1d.jpg"
-  - "vic-2026-f41c15de10d4.jpg"
-  - "vic-2026-1aa799543f13.jpg"
+  - vic-2026-000244.jpg
+  - vic-2026-000254.jpg
+  - vic-2026-fce66dd39513.jpg
+  - vic-2026-af3aaafb823a.jpg
+  - vic-2026-7fb1a7b0ae87.jpg
+  - vic-2026-a9c63eb50f2b.jpg
+  - vic-2026-7d3bc02c4e11.jpg
+  - vic-2026-000406.jpg
+  - vic-2026-8de3a1583247.jpg
+  - vic-2026-bc901b220f1d.jpg
+  - vic-2026-f41c15de10d4.jpg
+  - vic-2026-1aa799543f13.jpg
+
+# Full Name in English
 name: Amir Teimouri-Rad
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: null
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 42
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Karaj
 incident_address: Fardis
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot by suppressive forces during protests, killed along with his brother and nephew.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/tavaana/status/2014260965966295086"
-  - "https://x.com/soranmansournia/status/2014285114675470360, https://x.com/tavaana/status/2014260965966295086, https://x.com/HengawO/status/2012881502661423382, https://x.com/HengawO/status/2012881502661423382, https://x.com/FSeifikaran/status/2014249399652696305, https://x.com/ManotoNews/status/2014390352900186505, https://x.com/MonfaredAshkan/status/2015506848393449486, https://x.com/MonfaredAshkan/status/2015506848393449486, https://x.com/MonfaredAshkan/status/2015497891683737860, https://x.com/MonfaredAshkan/status/2015497891683737860, https://t.me/RememberTheirNames/239"
-  - "https://x.com/soranmansournia/status/2014285114675470360"
-  - "https://x.com/hoorieh81/status/2015508771741569138"
-  - "https://x.com/MonfaredAshkan/status/2015497891683737860"
-  - "https://x.com/soranmansournia/status/2014285114675470360, https://x.com/tavaana/status/2014260965966295086, https://x.com/HengawO/status/2012881502661423382, https://x.com/FSeifikaran/status/2014249399652696305, https://x.com/ManotoNews/status/2014382556880248855, https://x.com/MonfaredAshkan/status/2015506848393449486, https://x.com/MonfaredAshkan/status/2015497891683737860, https://t.me/RememberTheirNames/239"
-  - "https://x.com/ManotoNews/status/2014382556880248855"
-  - "https://x.com/ManotoNews/status/2014390352900186505"
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/tavaana/status/2014260965966295086
+  - https://x.com/soranmansournia/status/2014285114675470360, https://x.com/tavaana/status/2014260965966295086, https://x.com/HengawO/status/2012881502661423382, https://x.com/HengawO/status/2012881502661423382, https://x.com/FSeifikaran/status/2014249399652696305, https://x.com/ManotoNews/status/2014390352900186505, https://x.com/MonfaredAshkan/status/2015506848393449486, https://x.com/MonfaredAshkan/status/2015506848393449486, https://x.com/MonfaredAshkan/status/2015497891683737860, https://x.com/MonfaredAshkan/status/2015497891683737860, https://t.me/RememberTheirNames/239
+  - https://x.com/soranmansournia/status/2014285114675470360
+  - https://x.com/hoorieh81/status/2015508771741569138
+  - https://x.com/MonfaredAshkan/status/2015497891683737860
+  - https://x.com/soranmansournia/status/2014285114675470360, https://x.com/tavaana/status/2014260965966295086, https://x.com/HengawO/status/2012881502661423382, https://x.com/FSeifikaran/status/2014249399652696305, https://x.com/ManotoNews/status/2014382556880248855, https://x.com/MonfaredAshkan/status/2015506848393449486, https://x.com/MonfaredAshkan/status/2015497891683737860, https://t.me/RememberTheirNames/239
+  - https://x.com/ManotoNews/status/2014382556880248855
+  - https://x.com/ManotoNews/status/2014390352900186505
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

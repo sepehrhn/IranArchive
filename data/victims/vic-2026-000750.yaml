@@ -1,38 +1,127 @@
 # ==========================================
-# Victim Documentation - Mojtaba Tarsheez
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000750.png"
-  - "vic-2026-3ff666ae4ee3.png"
-  - "vic-2026-c8279ee66466.png"
-  - "vic-2026-cbe595c20fcf.jpg"
-  - "vic-2026-5edaa0ae9039.jpg"
-  - "vic-2026-f07654b39ad8.jpg"
-  - "vic-2026-5d4a82efd426.jpg"
-  - "vic-2026-f206233d96d0.jpg"
-  - "vic-2026-7fc6526ac287.jpg"
+  - vic-2026-000750.png
+  - vic-2026-3ff666ae4ee3.png
+  - vic-2026-c8279ee66466.png
+  - vic-2026-cbe595c20fcf.jpg
+  - vic-2026-5edaa0ae9039.jpg
+  - vic-2026-f07654b39ad8.jpg
+  - vic-2026-5d4a82efd426.jpg
+  - vic-2026-f206233d96d0.jpg
+  - vic-2026-7fc6526ac287.jpg
+
+# Full Name in English
 name: Mojtaba Tarsheez
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مجتبی ترشیز
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 47
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Qaem Shahr
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Former midfielder for Tractor Sazi Tabriz. Killed alongside his wife while protesting for a free Iran.
-source_type: Social Media
-source_social_media_link:
-  - "https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/iranhrs99/status/2012920289823252883, https://x.com/callyonyourbs/status/2013354616012836903, https://x.com/Daikatuo/status/2011448689416364436, https://t.me/RememberTheirNames/135"
-  - "https://x.com/Daikatuo/status/2011448689416364436"
-  - "https://x.com/iranhrs99/status/2012920289823252883"
-  - "https://x.com/callyonyourbs/status/2013354616012836903"
-persian_name: مجتبی ترشیز
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/iranhrs99/status/2012920289823252883, https://x.com/callyonyourbs/status/2013354616012836903, https://x.com/Daikatuo/status/2011448689416364436, https://t.me/RememberTheirNames/135
+  - https://x.com/Daikatuo/status/2011448689416364436
+  - https://x.com/iranhrs99/status/2012920289823252883
+  - https://x.com/callyonyourbs/status/2013354616012836903
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

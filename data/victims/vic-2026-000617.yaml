@@ -1,57 +1,146 @@
 # ==========================================
-# Victim Documentation - Hamid Arzanlou
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000617.jpg"
-  - "vic-2026-ec553a2a7603.jpg"
-  - "vic-2026-1abf0c43286e.jpg"
-  - "vic-2026-555691d900d7.jpg"
-  - "vic-2026-75416edb4766.jpg"
-  - "vic-2026-6a802f919e02.jpg"
-  - "vic-2026-24c86557a005.jpg"
-  - "vic-2026-000863.jpg"
-  - "vic-2026-b6ec090da403.jpg"
-  - "vic-2026-e1f261fecdb5.jpg"
-  - "vic-2026-30d11db5cc3b.jpg"
-  - "vic-2026-e1956a556b22.jpg"
-  - "vic-2026-db22b3a99c80.jpg"
-  - "vic-2026-6ce3a3131b70.jpg"
-  - "vic-2026-3c5d38f316f1.jpg"
+  - vic-2026-000617.jpg
+  - vic-2026-ec553a2a7603.jpg
+  - vic-2026-1abf0c43286e.jpg
+  - vic-2026-555691d900d7.jpg
+  - vic-2026-75416edb4766.jpg
+  - vic-2026-6a802f919e02.jpg
+  - vic-2026-24c86557a005.jpg
+  - vic-2026-000863.jpg
+  - vic-2026-b6ec090da403.jpg
+  - vic-2026-e1f261fecdb5.jpg
+  - vic-2026-30d11db5cc3b.jpg
+  - vic-2026-e1956a556b22.jpg
+  - vic-2026-db22b3a99c80.jpg
+  - vic-2026-6ce3a3131b70.jpg
+  - vic-2026-3c5d38f316f1.jpg
+
+# Full Name in English
 name: Hamid Arzanlou
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: حمید ارزانلو
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 50
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran (Tehranpars area)
 incident_address: Tehranpars
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in neck, shoulder, and lung by security forces while aiding his brother Hamid
 
 
   Entrepreneur and known activist in Iran's furniture industry. Shot in the head by Islamic Republic suppression forces during direct gunfire targeting in Tehranpars area of Tehran during national uprising on Friday evening 19 Dey. Severely wounded by bullet to head area, fell into coma, and died after several days of unconsciousness on 21 Dey. Father of two small children. Security institutions demanded 1.5 billion tomans from family for body delivery and forced them to sign commitment declaring cause of death as 'brain stroke'. Mandatory family presence at government rally in Revolution Square was condition for body delivery.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/noamagid/status/2012637561257160767, https://x.com/longlosthills/status/2012974441001623916, https://x.com/Hamidrezavessa1/status/2012583492685574628, https://x.com/HengawO/status/2012966483861672205, https://x.com/ManotoNews/status/2014458059859296303, https://x.com/Soranmansournia/status/2015395827938631873, https://x.com/Soranmansournia/status/2012683788124410003, https://x.com/IranIntl/status/2013931084476489754, https://x.com/IranIntl/status/2013931084476489754, https://t.me/RememberTheirNames/200, https://x.com/i/status/2016231887161680037, https://x.com/IranProtestsCom/status/2016204288792343037"
-  - "https://x.com/noamagid/status/2012637561257160767"
-  - "https://x.com/Hamidrezavessa1/status/2012583492685574628"
-  - "https://x.com/longlosthills/status/2012974441001623916"
-  - "https://x.com/Soranmansournia/status/2015395827938631873"
-  - "https://x.com/Soranmansournia/status/2012683788124410003"
-  - "https://x.com/IranProtestsCom/status/2016204288792343037"
-  - "https://x.com/longlosthills/status/2012974441001623916, https://x.com/noamagid/status/2012637561257160767, https://x.com/Hamidrezavessa1/status/2012583492685574628, https://x.com/HengawO/status/2012966483861672205, https://x.com/Soranmansournia/status/2015395827938631873, https://x.com/Soranmansournia/status/2012683788124410003, https://x.com/masoudkazemi81/status/2015874311878275215, https://x.com/masoudkazemi81/status/2015874311878275215, https://x.com/ManotoNews/status/2014473152726741416, https://t.me/RememberTheirNames/199, https://x.com/i/status/2016231887161680037, https://x.com/IranProtestsCom/status/2016204288792343037"
-  - "https://x.com/HengawO/status/2012966483861672205"
-  - "https://x.com/ManotoNews/status/2014473152726741416"
-  - "https://x.com/masoudkazemi81/status/2015874311878275215"
-  - "https://x.com/IranIntl/status/2013931084476489754"
-  - "https://x.com/i/status/2016231887161680037"
-  - "https://x.com/ManotoNews/status/2014458059859296303"
-persian_name: حمید ارزانلو
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/noamagid/status/2012637561257160767, https://x.com/longlosthills/status/2012974441001623916, https://x.com/Hamidrezavessa1/status/2012583492685574628, https://x.com/HengawO/status/2012966483861672205, https://x.com/ManotoNews/status/2014458059859296303, https://x.com/Soranmansournia/status/2015395827938631873, https://x.com/Soranmansournia/status/2012683788124410003, https://x.com/IranIntl/status/2013931084476489754, https://x.com/IranIntl/status/2013931084476489754, https://t.me/RememberTheirNames/200, https://x.com/i/status/2016231887161680037, https://x.com/IranProtestsCom/status/2016204288792343037
+  - https://x.com/noamagid/status/2012637561257160767
+  - https://x.com/Hamidrezavessa1/status/2012583492685574628
+  - https://x.com/longlosthills/status/2012974441001623916
+  - https://x.com/Soranmansournia/status/2015395827938631873
+  - https://x.com/Soranmansournia/status/2012683788124410003
+  - https://x.com/IranProtestsCom/status/2016204288792343037
+  - https://x.com/longlosthills/status/2012974441001623916, https://x.com/noamagid/status/2012637561257160767, https://x.com/Hamidrezavessa1/status/2012583492685574628, https://x.com/HengawO/status/2012966483861672205, https://x.com/Soranmansournia/status/2015395827938631873, https://x.com/Soranmansournia/status/2012683788124410003, https://x.com/masoudkazemi81/status/2015874311878275215, https://x.com/masoudkazemi81/status/2015874311878275215, https://x.com/ManotoNews/status/2014473152726741416, https://t.me/RememberTheirNames/199, https://x.com/i/status/2016231887161680037, https://x.com/IranProtestsCom/status/2016204288792343037
+  - https://x.com/HengawO/status/2012966483861672205
+  - https://x.com/ManotoNews/status/2014473152726741416
+  - https://x.com/masoudkazemi81/status/2015874311878275215
+  - https://x.com/IranIntl/status/2013931084476489754
+  - https://x.com/i/status/2016231887161680037
+  - https://x.com/ManotoNews/status/2014458059859296303
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

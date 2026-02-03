@@ -1,53 +1,142 @@
 # ==========================================
-# Victim Documentation - Sho'leh Sotoudeh
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000204.jpg"
-  - "vic-2026-ee119e25f9a4.jpg"
-  - "vic-2026-5ba63eb5fc8a.jpg"
-  - "vic-2026-a8f6bb7ce520.jpg"
-  - "vic-2026-fc013b7d3fa7.jpg"
-  - "vic-2026-1a3ba8735212.jpg"
-  - "vic-2026-28294ac8bef5.jpg"
-  - "vic-2026-2f3be0c24579.jpg"
-  - "vic-2026-8be407435091.jpg"
-  - "vic-2026-0bc1e10d1865.jpg"
-  - "vic-2026-34f5cb70176d.png"
-  - "vic-2026-a2003bf263c8.jpg"
+  - vic-2026-000204.jpg
+  - vic-2026-ee119e25f9a4.jpg
+  - vic-2026-5ba63eb5fc8a.jpg
+  - vic-2026-a8f6bb7ce520.jpg
+  - vic-2026-fc013b7d3fa7.jpg
+  - vic-2026-1a3ba8735212.jpg
+  - vic-2026-28294ac8bef5.jpg
+  - vic-2026-2f3be0c24579.jpg
+  - vic-2026-8be407435091.jpg
+  - vic-2026-0bc1e10d1865.jpg
+  - vic-2026-34f5cb70176d.png
+  - vic-2026-a2003bf263c8.jpg
+
+# Full Name in English
 name: Sho'leh Sotoudeh
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: شعله ستوده
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 38
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Chaf
-incident_address: ""
-date_of_death: "2026-01-10"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-10'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by security forces during suppression of a family gathering/protest, reportedly died in her husband Abbas's arms, was pregnant
 
 
   Killed during protests in the coastal city of Chaf. The narrator mentions that on Saturday, 20 Dey 1404, the main square of Chaf was crowded with people chanting slogans, and several places, including the 'house of a known IRGC member', were set on fire. Her exact date of death is unclear but is associated with this event.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/longlosthills/status/2012648484541702446, https://x.com/mothrofdrgns/status/2012646965004173373, https://x.com/antonstruve/status/2012806976682500352, https://x.com/pkhwshhal/status/2013029830724391353, https://x.com/israelwarroom/status/2013074474145341563, https://x.com/tavaana/status/2013076144795288021, https://x.com/hyrcanihrm/status/2013664501694882056, https://x.com/missmarpel75/status/2014604118283682256, https://x.com/HyrcaniHRM/status/2012624118143656067, https://x.com/Tavaana/status/2013076144795288021, https://x.com/HengawO/status/2012660798242406499, https://x.com/hiitsmemooneh/status/2014846731964580339, https://x.com/Persian_picture/status/2014990511958855904, https://t.me/RememberTheirNames/284"
-  - "https://x.com/HyrcaniHRM/status/2012624118143656067"
-  - "https://x.com/longlosthills/status/2012648484541702446"
-  - "https://x.com/mothrofdrgns/status/2012646965004173373"
-  - "https://x.com/israelwarroom/status/2013074474145341563"
-  - "https://x.com/Tavaana/status/2013076144795288021"
-  - "https://x.com/tavaana/status/2013076144795288021"
-  - "https://x.com/hyrcanihrm/status/2013664501694882056"
-  - "https://x.com/HengawO/status/2012660798242406499"
-  - "https://x.com/hiitsmemooneh/status/2014846731964580339"
-  - "https://x.com/Persian_picture/status/2014990511958855904"
-  - "https://x.com/AntonStruve/status/2012806816858595754"
-  - "https://x.com/pkhwshhal/status/2013029830724391353"
-persian_name: شعله ستوده
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/longlosthills/status/2012648484541702446, https://x.com/mothrofdrgns/status/2012646965004173373, https://x.com/antonstruve/status/2012806976682500352, https://x.com/pkhwshhal/status/2013029830724391353, https://x.com/israelwarroom/status/2013074474145341563, https://x.com/tavaana/status/2013076144795288021, https://x.com/hyrcanihrm/status/2013664501694882056, https://x.com/missmarpel75/status/2014604118283682256, https://x.com/HyrcaniHRM/status/2012624118143656067, https://x.com/Tavaana/status/2013076144795288021, https://x.com/HengawO/status/2012660798242406499, https://x.com/hiitsmemooneh/status/2014846731964580339, https://x.com/Persian_picture/status/2014990511958855904, https://t.me/RememberTheirNames/284
+  - https://x.com/HyrcaniHRM/status/2012624118143656067
+  - https://x.com/longlosthills/status/2012648484541702446
+  - https://x.com/mothrofdrgns/status/2012646965004173373
+  - https://x.com/israelwarroom/status/2013074474145341563
+  - https://x.com/Tavaana/status/2013076144795288021
+  - https://x.com/tavaana/status/2013076144795288021
+  - https://x.com/hyrcanihrm/status/2013664501694882056
+  - https://x.com/HengawO/status/2012660798242406499
+  - https://x.com/hiitsmemooneh/status/2014846731964580339
+  - https://x.com/Persian_picture/status/2014990511958855904
+  - https://x.com/AntonStruve/status/2012806816858595754
+  - https://x.com/pkhwshhal/status/2013029830724391353
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

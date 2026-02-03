@@ -1,47 +1,136 @@
 # ==========================================
-# Victim Documentation - Sam Rezaee
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000831.jpg"
-  - "vic-2026-20423ee2e704.jpg"
-  - "vic-2026-e8004ad514fb.jpg"
-  - "vic-2026-9e8f0d332322.jpg"
-  - "vic-2026-0924513a0933.jpg"
-  - "vic-2026-217d6abf66f2.jpg"
-  - "vic-2026-13d7914d872a.jpg"
-  - "vic-2026-b8672c7129b8.jpg"
-  - "vic-2026-6052292e8314.jpg"
-  - "vic-2026-6a8cbc03dc14.jpg"
-  - "vic-2026-959c504a94a5.jpg"
-  - "vic-2026-09e2d45aad57.jpg"
-  - "vic-2026-ba86c885ec82.jpg"
-  - "vic-2026-08bf860d4bf4.jpg"
+  - vic-2026-000831.jpg
+  - vic-2026-20423ee2e704.jpg
+  - vic-2026-e8004ad514fb.jpg
+  - vic-2026-9e8f0d332322.jpg
+  - vic-2026-0924513a0933.jpg
+  - vic-2026-217d6abf66f2.jpg
+  - vic-2026-13d7914d872a.jpg
+  - vic-2026-b8672c7129b8.jpg
+  - vic-2026-6052292e8314.jpg
+  - vic-2026-6a8cbc03dc14.jpg
+  - vic-2026-959c504a94a5.jpg
+  - vic-2026-09e2d45aad57.jpg
+  - vic-2026-ba86c885ec82.jpg
+  - vic-2026-08bf860d4bf4.jpg
+
+# Full Name in English
 name: Sam Rezaee
-birth_date: ""
-birth_province: ""
+
+# Full Name in Persian (Optional)
+persian_name: سام رضاEEE
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
 birth_city: wounds
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 20
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Shiraz
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot in throat/chest with pellet gun by regime security forces near Saadi Cinema, taken to Pars Hospital where he died from wounds
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/walterakam/status/2014338419791393038, https://x.com/longlosthills/status/2014319373150720002, https://x.com/esmaeils1169/status/2014421445074452706"
-  - "https://x.com/longlosthills/status/2014319373150720002"
-  - "https://x.com/esmaeils1169/status/2014421445074452706"
-  - "https://x.com/giligili97/status/2014180771594961317, https://x.com/mousavi1355/status/2014456429189415286, https://x.com/fseifikaran/status/2014361871151681654, https://t.me/RememberTheirNames/611"
-  - "https://x.com/giligili97/status/2014180771594961317"
-  - "https://x.com/mousavi1355/status/2014456429189415286"
-  - "https://x.com/fseifikaran/status/2014361871151681654"
-  - "https://x.com/walterakam/status/2014338419791393038"
-persian_name: سام رضاEEE
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/walterakam/status/2014338419791393038, https://x.com/longlosthills/status/2014319373150720002, https://x.com/esmaeils1169/status/2014421445074452706
+  - https://x.com/longlosthills/status/2014319373150720002
+  - https://x.com/esmaeils1169/status/2014421445074452706
+  - https://x.com/giligili97/status/2014180771594961317, https://x.com/mousavi1355/status/2014456429189415286, https://x.com/fseifikaran/status/2014361871151681654, https://t.me/RememberTheirNames/611
+  - https://x.com/giligili97/status/2014180771594961317
+  - https://x.com/mousavi1355/status/2014456429189415286
+  - https://x.com/fseifikaran/status/2014361871151681654
+  - https://x.com/walterakam/status/2014338419791393038
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

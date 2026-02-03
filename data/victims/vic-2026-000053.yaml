@@ -1,40 +1,129 @@
 # ==========================================
-# Victim Documentation - Meysam Nouri
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000053.jpg"
-  - "vic-2026-9f72ceb052df.jpg"
-  - "vic-2026-000351.jpg"
-  - "vic-2026-000353.jpg"
-  - "vic-2026-af959769e236.jpg"
-  - "vic-2026-001139.jpg"
+  - vic-2026-000053.jpg
+  - vic-2026-9f72ceb052df.jpg
+  - vic-2026-000351.jpg
+  - vic-2026-000353.jpg
+  - vic-2026-af959769e236.jpg
+  - vic-2026-001139.jpg
+
+# Full Name in English
 name: Meysam Nouri
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: میثم نوری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 26
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Isfahan
-incident_address: ""
-date_of_death: "2026-01-10"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-10'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the head on Friday at Parvin Street, 24 Metri intersection.
 
 
   Shot in the head during protests at the intersection of 24-metri, Parvin Street.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/visfehan/status/2015130341875294495, https://t.me/RememberTheirNames/1147"
-  - "https://x.com/visfehan/status/2015130341875294495"
-  - "https://x.com/indypersian/status/2014764874279080399"
-  - "https://x.com/hengawo/status/2013334156923548092, https://x.com/soranmansournia/status/2013414867273675254, https://x.com/ferchewc/status/2013521878787244276, https://x.com/outofken/status/2013982650797851112, https://x.com/hiwa_life/status/2014664787615953138, https://x.com/FSeifikaran/status/2011734542428885036, https://x.com/Soranmansournia/status/2013414867273675254, https://x.com/HengawO/status/2013340887531634939, https://x.com/KurdistanHRN/status/2013630712088281345, https://x.com/missmarpel75/status/2014971398238675018, https://t.me/RememberTheirNames/441, https://t.me/RememberTheirNames/358"
-  - "https://x.com/HengawO/status/2013340887531634939"
-  - "https://x.com/hengawo/status/2013340887531634939"
-persian_name: میثم نوری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/visfehan/status/2015130341875294495, https://t.me/RememberTheirNames/1147
+  - https://x.com/visfehan/status/2015130341875294495
+  - https://x.com/indypersian/status/2014764874279080399
+  - https://x.com/hengawo/status/2013334156923548092, https://x.com/soranmansournia/status/2013414867273675254, https://x.com/ferchewc/status/2013521878787244276, https://x.com/outofken/status/2013982650797851112, https://x.com/hiwa_life/status/2014664787615953138, https://x.com/FSeifikaran/status/2011734542428885036, https://x.com/Soranmansournia/status/2013414867273675254, https://x.com/HengawO/status/2013340887531634939, https://x.com/KurdistanHRN/status/2013630712088281345, https://x.com/missmarpel75/status/2014971398238675018, https://t.me/RememberTheirNames/441, https://t.me/RememberTheirNames/358
+  - https://x.com/HengawO/status/2013340887531634939
+  - https://x.com/hengawo/status/2013340887531634939
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

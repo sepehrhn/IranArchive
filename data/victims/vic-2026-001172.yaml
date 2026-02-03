@@ -1,42 +1,131 @@
 # ==========================================
-# Victim Documentation - Mostafa Rabeti
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001172.jpg"
-  - "vic-2026-7a7fbf3ebb9c.jpg"
-  - "vic-2026-ab5a2370a74c.jpg"
-  - "vic-2026-002029.jpg"
-  - "vic-2026-4a40644947ca.jpg"
-  - "vic-2026-2115df932e3d.jpg"
-  - "vic-2026-5ce999fd135b.jpg"
+  - vic-2026-001172.jpg
+  - vic-2026-7a7fbf3ebb9c.jpg
+  - vic-2026-ab5a2370a74c.jpg
+  - vic-2026-002029.jpg
+  - vic-2026-4a40644947ca.jpg
+  - vic-2026-2115df932e3d.jpg
+  - vic-2026-5ce999fd135b.jpg
+
+# Full Name in English
 name: Mostafa Rabeti
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مصطفی رابطی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 28
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Hamadan
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed in his home in front of his wife and child after Khamenei's forces broke down the door, stabbed him with a machete, and shot him twice.
 
 
   While fleeing security forces, he took refuge in a house with his wife and 11-year-old daughter. Security forces broke down the door and beat him with kicks and batons. He was killed by live ammunition and knife wounds in front of his wife and daughter.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/marianmeyer0/status/2014779879401664819, https://x.com/Sarinavoice/status/2015745039100486123"
-  - "https://x.com/marianmeyer0/status/2014779879401664819"
-  - "https://x.com/i/status/2016940277353546145"
-  - "https://x.com/sashtyani/status/2015750086492405801, https://x.com/i/status/2015750086492405801, https://x.com/hekasrehcrisis/status/2016554519249707443, https://x.com/manotonews/status/2016594627726365150, https://t.me/RememberTheirNames/1630"
-  - "https://x.com/i/status/2015750086492405801"
-  - "https://x.com/manotonews/status/2016594627726365150"
-  - "https://t.me/RememberTheirNames/1630"
-persian_name: مصطفی رابطی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/marianmeyer0/status/2014779879401664819, https://x.com/Sarinavoice/status/2015745039100486123
+  - https://x.com/marianmeyer0/status/2014779879401664819
+  - https://x.com/i/status/2016940277353546145
+  - https://x.com/sashtyani/status/2015750086492405801, https://x.com/i/status/2015750086492405801, https://x.com/hekasrehcrisis/status/2016554519249707443, https://x.com/manotonews/status/2016594627726365150, https://t.me/RememberTheirNames/1630
+  - https://x.com/i/status/2015750086492405801
+  - https://x.com/manotonews/status/2016594627726365150
+  - https://t.me/RememberTheirNames/1630
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

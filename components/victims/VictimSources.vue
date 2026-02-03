@@ -2,18 +2,22 @@
 import { computed } from 'vue';
 
 const props = defineProps<{
-    sourceType?: string;
-    socialMediaLink?: string | string[];
+    sources?: string | string[];
 }>();
 
-const sources = computed(() => {
-    const links = props.socialMediaLink;
-    if (!links) return [];
+const parsedSources = computed(() => {
+    const raw = props.sources;
+    if (!raw) return [];
     
-    const list = Array.isArray(links) ? links : [links];
+    // Handle comma-separated string
+    const list = Array.isArray(raw) 
+        ? raw 
+        : raw.includes(',') 
+            ? raw.split(',').map(s => s.trim()) 
+            : [raw];
     
-    return list.map((url, index) => {
-        let label = 'Social Media Link';
+    return list.filter(Boolean).map((url, index) => {
+        let label = 'Source Link';
         try {
             const u = new URL(url);
             label = u.hostname.replace('www.', '');
@@ -24,6 +28,8 @@ const sources = computed(() => {
             if (label === 't.me') label = 'Telegram';
         } catch (e) {
             label = url;
+            // if not a valid URL, it might be just text? 
+            if (url.length > 30) label = 'Source Reference';
         }
 
         return {
@@ -38,18 +44,12 @@ const sources = computed(() => {
 <template>
     <div class="space-y-4">
         
-        <div v-if="sources.length > 0 || sourceType" class="space-y-3">
+        <div v-if="parsedSources.length > 0" class="space-y-3">
             <h4 class="text-sm font-semibold text-surface-900 dark:text-surface-0 border-b border-surface-100 dark:border-surface-800 pb-2">Source Information</h4>
 
-            <div v-if="sourceType" class="flex items-center gap-2 text-sm text-surface-600 dark:text-surface-400">
-                <i class="pi pi-file text-surface-400"></i>
-                <span class="font-medium text-surface-900 dark:text-surface-200">Type:</span>
-                <span>{{ sourceType }}</span>
-            </div>
-
-            <div v-if="sources.length > 0" class="flex flex-wrap gap-2">
+            <div class="flex flex-wrap gap-2">
                 <a 
-                    v-for="source in sources" 
+                    v-for="source in parsedSources" 
                     :key="source.id" 
                     :href="source.url" 
                     target="_blank" 

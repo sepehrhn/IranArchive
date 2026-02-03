@@ -1,38 +1,127 @@
 # ==========================================
-# Victim Documentation - Roham Saadati
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000810.jpg"
-  - "vic-2026-90337cd12983.jpg"
-  - "vic-2026-9b6e86ab3f46.jpg"
-  - "vic-2026-99776398329a.jpg"
-  - "vic-2026-881eb97dffbc.jpg"
-  - "vic-2026-dca5fd1ce0e5.jpg"
-  - "vic-2026-cd6ea9e03db3.jpg"
-  - "vic-2026-64c7cf6947f2.jpg"
+  - vic-2026-000810.jpg
+  - vic-2026-90337cd12983.jpg
+  - vic-2026-9b6e86ab3f46.jpg
+  - vic-2026-99776398329a.jpg
+  - vic-2026-881eb97dffbc.jpg
+  - vic-2026-dca5fd1ce0e5.jpg
+  - vic-2026-cd6ea9e03db3.jpg
+  - vic-2026-64c7cf6947f2.jpg
+
+# Full Name in English
 name: Roham Saadati
-birth_date: ""
-birth_province: ""
+
+# Full Name in Persian (Optional)
+persian_name: رهام سعادتی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
 birth_city: his family in the crowd
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 19
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Alborz
 incident_city: Karaj
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot directly in the lung by Islamic Republic suppression forces during the national revolution of Iranians. He was with his family at the protests in Chaharrah Mesbah in Karaj, disappeared after being separated from his family in the crowd, and his body was found hours later in a clinic.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranwire/status/2014626621404180521, https://x.com/santa_mariya__/status/2015164789681479744, https://x.com/iranintlsport/status/2015184169593143440, https://x.com/FSeifikaran/status/2015388238307881022, https://x.com/sonofthebeach22/status/2015442546390888923, https://x.com/HengawO/status/2015422578408435940, https://t.me/RememberTheirNames/1128, https://x.com/gm_mostaghel/status/2016395484852609520"
-  - "https://x.com/santa_mariya__/status/2015164789681479744"
-  - "https://x.com/iranintlsport/status/2015184169593143440"
-  - "https://x.com/HengawO/status/2015422578408435940"
-  - "https://x.com/gm_mostaghel/status/2016395484852609520"
-persian_name: رهام سعادتی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranwire/status/2014626621404180521, https://x.com/santa_mariya__/status/2015164789681479744, https://x.com/iranintlsport/status/2015184169593143440, https://x.com/FSeifikaran/status/2015388238307881022, https://x.com/sonofthebeach22/status/2015442546390888923, https://x.com/HengawO/status/2015422578408435940, https://t.me/RememberTheirNames/1128, https://x.com/gm_mostaghel/status/2016395484852609520
+  - https://x.com/santa_mariya__/status/2015164789681479744
+  - https://x.com/iranintlsport/status/2015184169593143440
+  - https://x.com/HengawO/status/2015422578408435940
+  - https://x.com/gm_mostaghel/status/2016395484852609520
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

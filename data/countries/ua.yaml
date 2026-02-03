@@ -2,15 +2,15 @@ iso2: UA
 name: "Ukraine"
 region: "Europe"
 subregion: "Eastern Europe"
-last_reviewed_at: '2026-01-19'
+last_reviewed_at: '2026-02-03'
 diplomacy:
   status: severed
   expelled_diplomats: all
   iran_mission_status: none
   summary: "Severed diplomatic ties in Sep 2022 due to Iran supplying drones to Russia to bomb Ukrainian cities."
 irgc_designation:
-  status: designated_terrorist
-  summary: "Sanctioned Iranian entities and generals involved in drone supply. Parliament voted to terminate all sectoral agreements."
+  status: designated_full
+  summary: "Officially listing the IRGC as a terrorist organization, following the EU's lead, as announced in Feb 2026 meeting with Israeli FM Saar."
 un_posture:
   status: supports_accountability
   supports_un_investigations: true
@@ -21,4 +21,10 @@ un_posture:
 security_posture:
   status: explicit_support
   summary: "Active conflict. Intercepting Iranian Shahed drones daily."
-evidence: []
+evidence:
+  - title: "Ukraine to list Iran’s IRGC as terror group following EU lead, says Saar"
+    publisher: "The Times of Israel"
+    date: "2026-02-03"
+    url: "https://www.timesofisrael.com/liveblog_entry/ukraine-to-list-irans-irgc-as-terror-group-following-eu-lead-says-saar/"
+    summary: "Ukraine set to declare Iran's IRGC a terrorist organization following EU's lead, announced during Israeli FM Saar's visit to Kyiv."
+    tags: ["irgc", "diplomacy"]

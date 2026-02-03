@@ -1,59 +1,148 @@
 # ==========================================
-# Victim Documentation - Ghazal Aghayee-lindi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000287.jpg"
-  - "vic-2026-f8c9406dde82.jpg"
-  - "vic-2026-94d022c2d76d.jpg"
-  - "vic-2026-9209eb5c26c2.jpg"
-  - "vic-2026-3188a9282a3e.jpg"
-  - "vic-2026-3fc8c7178c02.jpg"
-  - "vic-2026-29d17f38e5c8.jpg"
-  - "vic-2026-f533838434c8.jpg"
-  - "vic-2026-59668a990f83.jpg"
-  - "vic-2026-f063613cb95b.png"
-  - "vic-2026-9e27254cb53e.jpg"
-  - "vic-2026-a8e5a931130f.jpg"
-  - "vic-2026-f07d7d2df4e9.jpg"
-  - "vic-2026-93d54becc0d6.jpg"
-  - "vic-2026-4819632fd97a.jpg"
-  - "vic-2026-d20d8c39d8c5.jpg"
-  - "vic-2026-d0b67401b123.jpg"
-  - "vic-2026-814ae9adf2a8.jpg"
+  - vic-2026-000287.jpg
+  - vic-2026-f8c9406dde82.jpg
+  - vic-2026-94d022c2d76d.jpg
+  - vic-2026-9209eb5c26c2.jpg
+  - vic-2026-3188a9282a3e.jpg
+  - vic-2026-3fc8c7178c02.jpg
+  - vic-2026-29d17f38e5c8.jpg
+  - vic-2026-f533838434c8.jpg
+  - vic-2026-59668a990f83.jpg
+  - vic-2026-f063613cb95b.png
+  - vic-2026-9e27254cb53e.jpg
+  - vic-2026-a8e5a931130f.jpg
+  - vic-2026-f07d7d2df4e9.jpg
+  - vic-2026-93d54becc0d6.jpg
+  - vic-2026-4819632fd97a.jpg
+  - vic-2026-d20d8c39d8c5.jpg
+  - vic-2026-d0b67401b123.jpg
+  - vic-2026-814ae9adf2a8.jpg
+
+# Full Name in English
 name: Ghazal Aghayee-lindi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: غزل آقایی لیندی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 28
+
+# Occupation (Optional)
 occupation: عکاس
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Qal'eh Hassan Khan (Shahr-e Qods)
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by Islamic Republic agents during protests, died in her father's arms
 
 
   Shot with live ammunition by security forces during a protest rally in front of the city's governorship. After forces used tear gas, sonic bombs, and then fired from the rooftops of surrounding buildings, a bullet struck her from behind and exited her abdomen. She died due to severe internal and external bleeding, despite being immediately transferred to a clinic while fleeing with her father.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/longlosthills/status/2012931356318154768, https://x.com/indypersian/status/2013008572683030870, https://x.com/babaktaghvaee1/status/2013002310532632822, https://x.com/hengawo/status/2013015289240125666, https://x.com/daikatuo/status/2013374063612235945, https://x.com/outofken/status/2013226794673938502, https://x.com/Daikatuo/status/2013374063612235945, https://x.com/HengawO/status/2013015289240125666, https://x.com/missmarpel75/status/2014750021527220493, https://t.me/RememberTheirNames/249, https://x.com/AfsoonAB/status/2016258401509245250, https://x.com/allahbakhshii/status/2016241508442075159, https://x.com/Sssccpp/status/2016578007549329732"
-  - "https://x.com/longlosthills/status/2012931356318154768"
-  - "https://x.com/indypersian/status/2013008572683030870"
-  - "https://x.com/babaktaghvaee1/status/2013002310532632822"
-  - "https://x.com/hengawo/status/2013015289240125666"
-  - "https://x.com/daikatuo/status/2013374063612235945"
-  - "https://x.com/outofken/status/2013226794673938502"
-  - "https://x.com/Daikatuo/status/2013374063612235945"
-  - "https://x.com/HengawO/status/2013015289240125666"
-  - "https://x.com/AfsoonAB/status/2016258401509245250"
-  - "https://x.com/allahbakhshii/status/2016241508442075159"
-  - "https://x.com/Sssccpp/status/2016578007549329732"
-  - "https://x.com/LoabatK/status/2013026415164219650"
-persian_name: غزل آقایی لیندی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/longlosthills/status/2012931356318154768, https://x.com/indypersian/status/2013008572683030870, https://x.com/babaktaghvaee1/status/2013002310532632822, https://x.com/hengawo/status/2013015289240125666, https://x.com/daikatuo/status/2013374063612235945, https://x.com/outofken/status/2013226794673938502, https://x.com/Daikatuo/status/2013374063612235945, https://x.com/HengawO/status/2013015289240125666, https://x.com/missmarpel75/status/2014750021527220493, https://t.me/RememberTheirNames/249, https://x.com/AfsoonAB/status/2016258401509245250, https://x.com/allahbakhshii/status/2016241508442075159, https://x.com/Sssccpp/status/2016578007549329732
+  - https://x.com/longlosthills/status/2012931356318154768
+  - https://x.com/indypersian/status/2013008572683030870
+  - https://x.com/babaktaghvaee1/status/2013002310532632822
+  - https://x.com/hengawo/status/2013015289240125666
+  - https://x.com/daikatuo/status/2013374063612235945
+  - https://x.com/outofken/status/2013226794673938502
+  - https://x.com/Daikatuo/status/2013374063612235945
+  - https://x.com/HengawO/status/2013015289240125666
+  - https://x.com/AfsoonAB/status/2016258401509245250
+  - https://x.com/allahbakhshii/status/2016241508442075159
+  - https://x.com/Sssccpp/status/2016578007549329732
+  - https://x.com/LoabatK/status/2013026415164219650
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

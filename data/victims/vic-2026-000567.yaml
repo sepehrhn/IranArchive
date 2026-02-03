@@ -1,45 +1,134 @@
 # ==========================================
-# Victim Documentation - Behnam Darvishi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000567.jpg"
-  - "vic-2026-751d937ad539.jpg"
-  - "vic-2026-eec7bade556d.jpg"
-  - "vic-2026-cd19604411bb.jpg"
-  - "vic-2026-bc968c4039fe.jpg"
-  - "vic-2026-0a6f4338faef.jpg"
-  - "vic-2026-40b25ff18c00.jpg"
-  - "vic-2026-57f45e65f35b.jpg"
-  - "vic-2026-c5d156c5ac08.jpg"
+  - vic-2026-000567.jpg
+  - vic-2026-751d937ad539.jpg
+  - vic-2026-eec7bade556d.jpg
+  - vic-2026-cd19604411bb.jpg
+  - vic-2026-bc968c4039fe.jpg
+  - vic-2026-0a6f4338faef.jpg
+  - vic-2026-40b25ff18c00.jpg
+  - vic-2026-57f45e65f35b.jpg
+  - vic-2026-c5d156c5ac08.jpg
+
+# Full Name in English
 name: Behnam Darvishi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: بهنام درویش
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 33
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran (Tehranpars district)
 incident_address: Tehranpars
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot directly by Islamic Republic forces, shot in the heart while in the street among people
 
 
   Owner of the “Smoke Burger” restaurant. Killed by direct gunfire from Islamic Republic terror forces, shot straight in the heart by a regime sniper.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/mothrofdrgns/status/2012274004590022937, https://x.com/lizarosen0000/status/2012470764952314142, https://x.com/HengawO/status/2012264880410136745, https://x.com/LizaRosen0000/status/2012470764952314142, https://x.com/HengawO/status/2012521048164434197, https://x.com/monfaredashkan/status/2015163825948164226, https://x.com/MonfaredAshkan/status/2015163825948164226, https://x.com/MonfaredAshkan/status/2015165120700371213, https://t.me/RememberTheirNames/122"
-  - "https://x.com/mothrofdrgns/status/2012274004590022937"
-  - "https://x.com/HengawO/status/2012264880410136745"
-  - "https://x.com/LizaRosen0000/status/2012470764952314142"
-  - "https://x.com/lizarosen0000/status/2012470764952314142"
-  - "https://x.com/HengawO/status/2012521048164434197"
-  - "https://x.com/monfaredashkan/status/2015163825948164226"
-  - "https://x.com/MonfaredAshkan/status/2015163825948164226"
-persian_name: بهنام درویش
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/mothrofdrgns/status/2012274004590022937, https://x.com/lizarosen0000/status/2012470764952314142, https://x.com/HengawO/status/2012264880410136745, https://x.com/LizaRosen0000/status/2012470764952314142, https://x.com/HengawO/status/2012521048164434197, https://x.com/monfaredashkan/status/2015163825948164226, https://x.com/MonfaredAshkan/status/2015163825948164226, https://x.com/MonfaredAshkan/status/2015165120700371213, https://t.me/RememberTheirNames/122
+  - https://x.com/mothrofdrgns/status/2012274004590022937
+  - https://x.com/HengawO/status/2012264880410136745
+  - https://x.com/LizaRosen0000/status/2012470764952314142
+  - https://x.com/lizarosen0000/status/2012470764952314142
+  - https://x.com/HengawO/status/2012521048164434197
+  - https://x.com/monfaredashkan/status/2015163825948164226
+  - https://x.com/MonfaredAshkan/status/2015163825948164226
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

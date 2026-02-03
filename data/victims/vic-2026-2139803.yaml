@@ -1,39 +1,128 @@
 # ==========================================
-# Victim Documentation - Majid Soleimani
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-2139803.jpg"
-  - "vic-2026-3ce685468715.jpg"
-  - "vic-2026-f4224b75c372.jpg"
-  - "vic-2026-f2f3a67d5f3d.jpg"
-  - "vic-2026-3051f1e7fa68.jpg"
-  - "vic-2026-c79159ce605b.jpg"
-  - "vic-2026-77692b85c6e6.jpg"
-  - "vic-2026-b091fc9584c6.jpg"
+  - vic-2026-2139803.jpg
+  - vic-2026-3ce685468715.jpg
+  - vic-2026-f4224b75c372.jpg
+  - vic-2026-f2f3a67d5f3d.jpg
+  - vic-2026-3051f1e7fa68.jpg
+  - vic-2026-c79159ce605b.jpg
+  - vic-2026-77692b85c6e6.jpg
+  - vic-2026-b091fc9584c6.jpg
+
+# Full Name in English
 name: Majid Soleimani
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مجید سلیمانی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 16
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Yaftabad
 incident_address: Yaftabad
-date_of_death: "2026-01-09"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: Died in Yaftabad, Shams Abad neighborhood. Local children requested that his memory not be forgotten.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/sashtyani/status/2016819707467141613"
-  - "https://x.com/Sashtyani/status/2016819707467141613"
-  - "https://x.com/i/status/2016819707467141613"
-  - "https://x.com/micohen_02/status/2017673866445726076"
-  - "https://x.com/Shirin_j_/status/2015552516633645395"
-  - "https://x.com/Iliaaaa6/status/2015516092790169640"
-  - "https://x.com/OutFarsi/status/2015693528555503772"
-persian_name: مجید سلیمانی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/sashtyani/status/2016819707467141613
+  - https://x.com/Sashtyani/status/2016819707467141613
+  - https://x.com/i/status/2016819707467141613
+  - https://x.com/micohen_02/status/2017673866445726076
+  - https://x.com/Shirin_j_/status/2015552516633645395
+  - https://x.com/Iliaaaa6/status/2015516092790169640
+  - https://x.com/OutFarsi/status/2015693528555503772
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

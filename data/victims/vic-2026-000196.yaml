@@ -1,46 +1,135 @@
 # ==========================================
-# Victim Documentation - Parisa Lashkari
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000196.jpg"
-  - "vic-2026-255ca2538365.jpg"
-  - "vic-2026-6fcc300bc193.jpg"
-  - "vic-2026-3a4e7c2bbd1c.jpg"
-  - "vic-2026-471080eb6c2e.jpg"
-  - "vic-2026-0f53d06cb89a.jpg"
-  - "vic-2026-59e3e5818ed6.jpg"
-  - "vic-2026-6d0c14f5a50c.jpg"
+  - vic-2026-000196.jpg
+  - vic-2026-255ca2538365.jpg
+  - vic-2026-6fcc300bc193.jpg
+  - vic-2026-3a4e7c2bbd1c.jpg
+  - vic-2026-471080eb6c2e.jpg
+  - vic-2026-0f53d06cb89a.jpg
+  - vic-2026-59e3e5818ed6.jpg
+  - vic-2026-6d0c14f5a50c.jpg
+
+# Full Name in English
 name: Parisa Lashkari
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: پریسا لشکری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 30
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Nourabad Mamasoli (نورآباد ممسنی)
 incident_address: نورآباد ممسنی
-date_of_death: "2026-01-10"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-10'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot during protests in Nourabad Mamasoli. She was wounded and later killed by further gunfire while being transported with other injured individuals.
 
 
   Shot by security forces during protests. She was transferred with other injured and deceased individuals, and her body was later handed over to her family under security conditions. Her body had multiple bullet wounds, including one to the heart, which occurred after her initial contact with her family.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/vahidmirzaeii/status/2014101283645300963, https://x.com/iranintl/status/2014605969607503889, https://x.com/IranIntl/status/2014605969607503889, https://x.com/EhsanZareei/status/2014445102333083721, https://x.com/abelbalb/status/2015056118804828563, https://x.com/BabakTaghvaee1/status/2015173119124914217, https://x.com/HengawO/status/2015493618371641853, https://x.com/EhsanZareei/status/2015190479843754399, https://t.me/RememberTheirNames/761"
-  - "https://x.com/vahidmirzaeii/status/2014101283645300963"
-  - "https://x.com/iranintl/status/2014605969607503889"
-  - "https://x.com/IranIntl/status/2014605969607503889"
-  - "https://x.com/EhsanZareei/status/2014445102333083721"
-  - "https://x.com/abelbalb/status/2015056118804828563"
-  - "https://x.com/BabakTaghvaee1/status/2015173119124914217"
-  - "https://x.com/HengawO/status/2015493618371641853"
-  - "https://x.com/EhsanZareei/status/2015190479843754399"
-  - "https://x.com/manotonews/status/2017100462030311740"
-persian_name: پریسا لشکری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/vahidmirzaeii/status/2014101283645300963, https://x.com/iranintl/status/2014605969607503889, https://x.com/IranIntl/status/2014605969607503889, https://x.com/EhsanZareei/status/2014445102333083721, https://x.com/abelbalb/status/2015056118804828563, https://x.com/BabakTaghvaee1/status/2015173119124914217, https://x.com/HengawO/status/2015493618371641853, https://x.com/EhsanZareei/status/2015190479843754399, https://t.me/RememberTheirNames/761
+  - https://x.com/vahidmirzaeii/status/2014101283645300963
+  - https://x.com/iranintl/status/2014605969607503889
+  - https://x.com/IranIntl/status/2014605969607503889
+  - https://x.com/EhsanZareei/status/2014445102333083721
+  - https://x.com/abelbalb/status/2015056118804828563
+  - https://x.com/BabakTaghvaee1/status/2015173119124914217
+  - https://x.com/HengawO/status/2015493618371641853
+  - https://x.com/EhsanZareei/status/2015190479843754399
+  - https://x.com/manotonews/status/2017100462030311740
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

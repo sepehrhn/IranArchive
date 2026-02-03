@@ -1,46 +1,135 @@
 # ==========================================
-# Victim Documentation - Erfan Jameh-Shourani
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000593.jpg"
-  - "vic-2026-d00a6e8e4d33.jpg"
-  - "vic-2026-9319536f08db.jpg"
-  - "vic-2026-34506ad7fbc0.jpg"
-  - "vic-2026-42ab455ecfb4.jpg"
-  - "vic-2026-80c0223dc55e.jpg"
-  - "vic-2026-410f1b73a69a.jpg"
-  - "vic-2026-0927bc21ddd4.jpg"
-  - "vic-2026-8808c3e1dc3d.jpg"
-  - "vic-2026-73447c6f2bdb.jpg"
+  - vic-2026-000593.jpg
+  - vic-2026-d00a6e8e4d33.jpg
+  - vic-2026-9319536f08db.jpg
+  - vic-2026-34506ad7fbc0.jpg
+  - vic-2026-42ab455ecfb4.jpg
+  - vic-2026-80c0223dc55e.jpg
+  - vic-2026-410f1b73a69a.jpg
+  - vic-2026-0927bc21ddd4.jpg
+  - vic-2026-8808c3e1dc3d.jpg
+  - vic-2026-73447c6f2bdb.jpg
+
+# Full Name in English
 name: Erfan Jameh-Shourani
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: عرفان جامه‌شورانی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: null
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Kermanshah
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot directly by government forces during popular protests
 
 
   Shot directly by Islamic Republic security forces during protests in the Jafarabad neighborhood.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/soranmansournia/status/2013411462480285731, https://x.com/HengawO/status/2012546870782914758, https://x.com/Soranmansournia/status/2013411462480285731, https://x.com/KurdistanHRN/status/2010377088927138216, https://x.com/monfaredashkan/status/2014784794912338085, https://x.com/missmarpel75/status/2014980736852328626, https://x.com/HengawO/status/2015006944679862461, https://x.com/MonfaredAshkan/status/2014784794912338085, https://x.com/MonfaredAshkan/status/2014794897900056829, https://x.com/kurdpa_farsi/status/2015041091825696942, https://t.me/RememberTheirNames/94"
-  - "https://x.com/soranmansournia/status/2013411462480285731"
-  - "https://x.com/monfaredashkan/status/2014784794912338085"
-  - "https://x.com/missmarpel75/status/2014980736852328626"
-  - "https://x.com/HengawO/status/2015006944679862461"
-  - "https://x.com/MonfaredAshkan/status/2014784794912338085"
-  - "https://x.com/kurdpa_farsi/status/2015041091825696942"
-  - "https://x.com/KurdistanHRN/status/2010377088927138216"
-persian_name: عرفان جامه‌شورانی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/soranmansournia/status/2013411462480285731, https://x.com/HengawO/status/2012546870782914758, https://x.com/Soranmansournia/status/2013411462480285731, https://x.com/KurdistanHRN/status/2010377088927138216, https://x.com/monfaredashkan/status/2014784794912338085, https://x.com/missmarpel75/status/2014980736852328626, https://x.com/HengawO/status/2015006944679862461, https://x.com/MonfaredAshkan/status/2014784794912338085, https://x.com/MonfaredAshkan/status/2014794897900056829, https://x.com/kurdpa_farsi/status/2015041091825696942, https://t.me/RememberTheirNames/94
+  - https://x.com/soranmansournia/status/2013411462480285731
+  - https://x.com/monfaredashkan/status/2014784794912338085
+  - https://x.com/missmarpel75/status/2014980736852328626
+  - https://x.com/HengawO/status/2015006944679862461
+  - https://x.com/MonfaredAshkan/status/2014784794912338085
+  - https://x.com/kurdpa_farsi/status/2015041091825696942
+  - https://x.com/KurdistanHRN/status/2010377088927138216
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,35 +1,124 @@
 # ==========================================
-# Victim Documentation - Abolfazl Heydari
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000471.png"
-  - "vic-2026-90242fed5e27.jpg"
-  - "vic-2026-573af2de4d3a.jpg"
-  - "vic-2026-acd8ff7b5d03.jpg"
-  - "vic-2026-002170.jpg"
+  - vic-2026-000471.png
+  - vic-2026-90242fed5e27.jpg
+  - vic-2026-573af2de4d3a.jpg
+  - vic-2026-acd8ff7b5d03.jpg
+  - vic-2026-002170.jpg
+
+# Full Name in English
 name: Abolfazl Heydari
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: ابوالفضل پایدار
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 17
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Sabzevar
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Killed by the Islamic Republic regime during protests in Dey month 1404
-source_type: Social Media
-source_social_media_link:
-  - "https://hengaw.net/en/news/2026/01/article-120, https://x.com/khoshrof/status/2012274388284936394, https://x.com/indypersian/status/2012820143454212483, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/nimarfati51385/status/2009962015557820632, https://x.com/Daikatuo/status/2012207885086830728, https://t.me/RememberTheirNames/382, https://x.com/javidshah109/status/2016441036487250004"
-  - "https://x.com/indypersian/status/2012820143454212483"
-  - "https://x.com/javidshah109/status/2016441036487250004"
-  - "https://x.com/javidshah109/status/2017151657906156002"
-  - "https://t.me/RememberTheirNames/1110"
-persian_name: ابوالفضل پایدار
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://hengaw.net/en/news/2026/01/article-120, https://x.com/khoshrof/status/2012274388284936394, https://x.com/indypersian/status/2012820143454212483, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/nimarfati51385/status/2009962015557820632, https://x.com/Daikatuo/status/2012207885086830728, https://t.me/RememberTheirNames/382, https://x.com/javidshah109/status/2016441036487250004
+  - https://x.com/indypersian/status/2012820143454212483
+  - https://x.com/javidshah109/status/2016441036487250004
+  - https://x.com/javidshah109/status/2017151657906156002
+  - https://t.me/RememberTheirNames/1110
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

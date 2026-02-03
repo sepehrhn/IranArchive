@@ -1,39 +1,128 @@
 # ==========================================
-# Victim Documentation - Morteza Jahangiri
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001771.jpg"
-  - "vic-2026-4344ef5a0020.jpg"
-  - "vic-2026-dcb2f29b8d7a.jpg"
-  - "vic-2026-9526c54a0550.jpg"
-  - "vic-2026-06bfe96401b4.jpg"
-  - "vic-2026-ee0285d1320c.jpg"
-  - "vic-2026-41d1c1fe7967.jpg"
+  - vic-2026-001771.jpg
+  - vic-2026-4344ef5a0020.jpg
+  - vic-2026-dcb2f29b8d7a.jpg
+  - vic-2026-9526c54a0550.jpg
+  - vic-2026-06bfe96401b4.jpg
+  - vic-2026-ee0285d1320c.jpg
+  - vic-2026-41d1c1fe7967.jpg
+
+# Full Name in English
 name: Morteza Jahangiri
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مرتضی جهانگیری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 77
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Dezful/Ahvaz
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: مرتضی جهانگیری
 
   Killed during protests.
 
   Shot with one bullet right under his throat during protests. His friends reported he said I'm suffocating after being shot. He was taken to Dezful hospital and later his body was moved to Ahvaz. His family searched for his body from Friday night until Sunday at 8 PM. Authorities arranged for the body's return between 12 AM and 5 AM for direct burial, preventing a viewing or farewell.
-source_type: Social Media
-source_social_media_link:
-  - "https://t.me/RememberTheirNames/1418, https://x.com/iliaaaa66/status/2015912948426826216, https://x.com/longlosthills/status/2015911351059669394"
-  - "https://x.com/iliaaaa66/status/2015912948426826216"
-  - "https://x.com/longlosthills/status/2015911351059669394"
-persian_name: مرتضی جهانگیری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://t.me/RememberTheirNames/1418, https://x.com/iliaaaa66/status/2015912948426826216, https://x.com/longlosthills/status/2015911351059669394
+  - https://x.com/iliaaaa66/status/2015912948426826216
+  - https://x.com/longlosthills/status/2015911351059669394
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

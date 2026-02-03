@@ -1,36 +1,125 @@
 # ==========================================
-# Victim Documentation - Ali Shoosh
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001019.jpg"
-  - "vic-2026-2bf527af6c5e.jpg"
-  - "vic-2026-5985b5a1b8ef.jpg"
-  - "vic-2026-6eaa364a0661.jpg"
-  - "vic-2026-f4a26139fa97.jpg"
+  - vic-2026-001019.jpg
+  - vic-2026-2bf527af6c5e.jpg
+  - vic-2026-5985b5a1b8ef.jpg
+  - vic-2026-6eaa364a0661.jpg
+  - vic-2026-f4a26139fa97.jpg
+
+# Full Name in English
 name: Ali Shoosh
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: علی شوش
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 37
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Lahijan
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed during 2022-2023 protests (described as poet)
 
 
   Slain by regime forces. Previously tortured with baton blows in Esfahan on October 26, 2022, and succumbed to injuries on March 4, 2023, but this entry refers to his death in Lahijan on January 8, 2026.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/pkhwshhal/status/2012912179264053754, https://x.com/pkhwshhal/status/2013014589340856385, https://x.com/longlosthills/status/2013042889215885821"
-  - "https://x.com/pkhwshhal/status/2012912179264053754"
-  - "https://x.com/longlosthills/status/2013042889215885821"
-persian_name: علی شوش
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/pkhwshhal/status/2012912179264053754, https://x.com/pkhwshhal/status/2013014589340856385, https://x.com/longlosthills/status/2013042889215885821
+  - https://x.com/pkhwshhal/status/2012912179264053754
+  - https://x.com/longlosthills/status/2013042889215885821
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

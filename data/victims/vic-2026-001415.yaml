@@ -1,38 +1,128 @@
 # ==========================================
-# Victim Documentation - Hasan Mohammadi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001415.jpg"
-  - "vic-2026-001661.jpg"
-  - "vic-2026-001699.jpg"
-  - "vic-2026-2139910.jpg"
-  - "vic-2026-dbb105d850a8.jpg"
-  - "vic-2026-1fb69f6893b1.jpg"
+  - vic-2026-001415.jpg
+  - vic-2026-001661.jpg
+  - vic-2026-001699.jpg
+  - vic-2026-2139910.jpg
+  - vic-2026-dbb105d850a8.jpg
+  - vic-2026-1fb69f6893b1.jpg
+
+# Full Name in English
 name: Hasan Mohammadi
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+
+# Full Name in Persian (Optional)
+persian_name: null
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: null
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Khorramabad
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Persian Name: حسن محمدی
 
   Killed in the way of the homeland, father of two young daughters and reportedly expecting a son.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/mifonetush/status/2015393254804447645"
-  - "https://t.me/RememberTheirNames/1121, https://x.com/mifonetush/status/2015393254804447645, https://t.me/RememberTheirNames/1040, https://x.com/Darinima72417/status/2015819612785434628"
-  - "https://t.me/RememberTheirNames/1040"
-  - "https://t.me/RememberTheirNames/1534"
-  - "https://x.com/Darinima72417/status/2015819612785434628"
-  - "https://x.com/mifonetush/status/2015393254804447645, https://t.me/RememberTheirNames/1121, https://t.me/RememberTheirNames/1040, https://x.com/Darinima72417/status/2015819612785434628"
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/mifonetush/status/2015393254804447645
+  - https://t.me/RememberTheirNames/1121, https://x.com/mifonetush/status/2015393254804447645, https://t.me/RememberTheirNames/1040, https://x.com/Darinima72417/status/2015819612785434628
+  - https://t.me/RememberTheirNames/1040
+  - https://t.me/RememberTheirNames/1534
+  - https://x.com/Darinima72417/status/2015819612785434628
+  - https://x.com/mifonetush/status/2015393254804447645, https://t.me/RememberTheirNames/1121, https://t.me/RememberTheirNames/1040, https://x.com/Darinima72417/status/2015819612785434628
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

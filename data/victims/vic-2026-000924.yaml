@@ -1,39 +1,128 @@
 # ==========================================
-# Victim Documentation - Ahad Ebrahimpour Abdeli
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000924.jpg"
-  - "vic-2026-cc264d39b196.jpg"
-  - "vic-2026-86a6db0a5325.png"
-  - "vic-2026-dc1185e92fd0.jpg"
-  - "vic-2026-31ba8ec9b043.png"
-  - "vic-2026-b9c17b15dda0.jpg"
-  - "vic-2026-08033f6a4c0e.jpg"
-  - "vic-2026-a064e28ddbe7.jpg"
-  - "vic-2026-5dc154806cd3.jpg"
+  - vic-2026-000924.jpg
+  - vic-2026-cc264d39b196.jpg
+  - vic-2026-86a6db0a5325.png
+  - vic-2026-dc1185e92fd0.jpg
+  - vic-2026-31ba8ec9b043.png
+  - vic-2026-b9c17b15dda0.jpg
+  - vic-2026-08033f6a4c0e.jpg
+  - vic-2026-a064e28ddbe7.jpg
+  - vic-2026-5dc154806cd3.jpg
+
+# Full Name in English
 name: Ahad Ebrahimpour Abdeli
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: احد ابراهیم‌پور عبدلی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 35
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Lorestan
 incident_city: Kuhdasht or Nurabad
 incident_address: or Nurabad
-date_of_death: "2026-01-01"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-01'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot three times by Iranian state forces in Bahesht Square while trying to help a detained woman, one bullet struck his heart
-source_type: Social Media
-source_social_media_link:
-  - "https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.iran-emrooz.net/index.php/news2/125134/, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/daikatuo/status/2007059158428967404, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2, https://x.com/Daikatuo/status/2007455835497152832, https://x.com/KurdistanHRN/status/2007433103787106713, https://x.com/KurdistanHRN/status/2007058583725199803, https://t.me/RememberTheirNames/10"
-  - "https://x.com/Daikatuo/status/2007455835497152832"
-  - "https://x.com/daikatuo/status/2007059158428967404"
-  - "https://x.com/KurdistanHRN/status/2007433103787106713"
-  - "https://x.com/HengawO/status/2007045604443344913"
-persian_name: احد ابراهیم‌پور عبدلی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://en.wikipedia.org/wiki/2026_Iran_massacres, https://www.iran-emrooz.net/index.php/news2/125134/, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/daikatuo/status/2007059158428967404, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2, https://x.com/Daikatuo/status/2007455835497152832, https://x.com/KurdistanHRN/status/2007433103787106713, https://x.com/KurdistanHRN/status/2007058583725199803, https://t.me/RememberTheirNames/10
+  - https://x.com/Daikatuo/status/2007455835497152832
+  - https://x.com/daikatuo/status/2007059158428967404
+  - https://x.com/KurdistanHRN/status/2007433103787106713
+  - https://x.com/HengawO/status/2007045604443344913
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

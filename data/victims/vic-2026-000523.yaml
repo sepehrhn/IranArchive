@@ -1,54 +1,143 @@
 # ==========================================
-# Victim Documentation - Amir Ali Zarei
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000523.jpg"
-  - "vic-2026-764fe2675afb.jpg"
-  - "vic-2026-3147f8cf37ca.jpg"
-  - "vic-2026-18c016a333ff.jpg"
-  - "vic-2026-5e52876a9c33.jpg"
-  - "vic-2026-97fcd23f6c23.jpg"
-  - "vic-2026-84d2d0e7c368.jpg"
-  - "vic-2026-001352.jpg"
-  - "vic-2026-867f006a2041.jpg"
-  - "vic-2026-1ac81f68e0ea.jpg"
-  - "vic-2026-72f303ae2b3b.jpg"
-  - "vic-2026-e1ccdd7c9f76.jpg"
+  - vic-2026-000523.jpg
+  - vic-2026-764fe2675afb.jpg
+  - vic-2026-3147f8cf37ca.jpg
+  - vic-2026-18c016a333ff.jpg
+  - vic-2026-5e52876a9c33.jpg
+  - vic-2026-97fcd23f6c23.jpg
+  - vic-2026-84d2d0e7c368.jpg
+  - vic-2026-001352.jpg
+  - vic-2026-867f006a2041.jpg
+  - vic-2026-1ac81f68e0ea.jpg
+  - vic-2026-72f303ae2b3b.jpg
+  - vic-2026-e1ccdd7c9f76.jpg
+
+# Full Name in English
 name: Amir Ali Zarei
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: امیرعلی زارعی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 36
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
 incident_address: Majidiyeh
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed by regime forces during protest
 
 
   Shot directly in the head in front of his sister. He was a student at the University of Art, a life coach, and active in the healing field.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/aryammehr_2/status/2013853014260412664, https://x.com/FSeifikaran/status/2012976039979295076, https://x.com/HengawO/status/2013727681393700938, https://x.com/allahbakhshii/status/2015762578534789205, https://x.com/Far_zandehIran/status/2015673774041915575, https://t.me/RememberTheirNames/422"
-  - "https://x.com/fseifikaran/status/2012986010200650052"
-  - "https://x.com/loabatk/status/2013144099012976888"
-  - "https://x.com/FSeifikaran/status/2012976039979295076"
-  - "https://x.com/HengawO/status/2013727681393700938"
-  - "https://x.com/aryammehr_2/status/2013853014260412664"
-  - "https://x.com/allahbakhshii/status/2015762578534789205"
-  - "https://x.com/h_cuji/status/2015044731240145182"
-  - "https://t.me/persian_picture/4126"
-  - "https://x.com/fuckeduprainman/status/2017225432588808673"
-  - "https://x.com/FuckedupRainMan/status/2017225432588808673"
-  - "https://x.com/i/status/2017225432588808673"
-  - "https://x.com/behzadhamrahi/status/2017307030193619046"
-  - "https://x.com/kyokushinsoofi/status/2017576035361976475"
-persian_name: امیرعلی زارعی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/aryammehr_2/status/2013853014260412664, https://x.com/FSeifikaran/status/2012976039979295076, https://x.com/HengawO/status/2013727681393700938, https://x.com/allahbakhshii/status/2015762578534789205, https://x.com/Far_zandehIran/status/2015673774041915575, https://t.me/RememberTheirNames/422
+  - https://x.com/fseifikaran/status/2012986010200650052
+  - https://x.com/loabatk/status/2013144099012976888
+  - https://x.com/FSeifikaran/status/2012976039979295076
+  - https://x.com/HengawO/status/2013727681393700938
+  - https://x.com/aryammehr_2/status/2013853014260412664
+  - https://x.com/allahbakhshii/status/2015762578534789205
+  - https://x.com/h_cuji/status/2015044731240145182
+  - https://t.me/persian_picture/4126
+  - https://x.com/fuckeduprainman/status/2017225432588808673
+  - https://x.com/FuckedupRainMan/status/2017225432588808673
+  - https://x.com/i/status/2017225432588808673
+  - https://x.com/behzadhamrahi/status/2017307030193619046
+  - https://x.com/kyokushinsoofi/status/2017576035361976475
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

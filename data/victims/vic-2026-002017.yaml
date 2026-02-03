@@ -1,38 +1,127 @@
 # ==========================================
-# Victim Documentation - Mohsen Bagheri
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-002017.jpg"
-  - "vic-2026-24629091a2e6.jpg"
-  - "vic-2026-5aabcb60b027.jpg"
-  - "vic-2026-b07038a874fe.jpg"
-  - "vic-2026-11b9bca5dc2d.jpg"
-  - "vic-2026-bf0b1877ce96.jpg"
-  - "vic-2026-6a6179ae45ce.jpg"
+  - vic-2026-002017.jpg
+  - vic-2026-24629091a2e6.jpg
+  - vic-2026-5aabcb60b027.jpg
+  - vic-2026-b07038a874fe.jpg
+  - vic-2026-11b9bca5dc2d.jpg
+  - vic-2026-bf0b1877ce96.jpg
+  - vic-2026-6a6179ae45ce.jpg
+
+# Full Name in English
 name: Mohsen Bagheri
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: محسن باقری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 42
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Qazvin
 incident_city: Alvand
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: محسن باقری
 
   Shot directly by Islamic Republic forces during the suppression of public protests and died due to the severity of his injuries. He was 42 years old, born in 1363.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/tavaana/status/2015683904477241500, https://t.me/RememberTheirNames/1542"
-  - "https://x.com/tavaana/status/2015683904477241500"
-  - "https://t.me/RememberTheirNames/1542"
-  - "https://x.com/afsoonab/status/2013280169218183298"
-persian_name: محسن باقری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/tavaana/status/2015683904477241500, https://t.me/RememberTheirNames/1542
+  - https://x.com/tavaana/status/2015683904477241500
+  - https://t.me/RememberTheirNames/1542
+  - https://x.com/afsoonab/status/2013280169218183298
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

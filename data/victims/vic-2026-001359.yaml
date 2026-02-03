@@ -1,39 +1,128 @@
 # ==========================================
-# Victim Documentation - Mehdi Saleh Khan
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001359.jpg"
-  - "vic-2026-001739.png"
-  - "vic-2026-fcf43ba95170.png"
-  - "vic-2026-273865f69839.jpg"
-  - "vic-2026-32ab917567c1.jpg"
-  - "vic-2026-46358a2eb6fa.jpg"
-  - "vic-2026-4ea6e1618b81.jpg"
+  - vic-2026-001359.jpg
+  - vic-2026-001739.png
+  - vic-2026-fcf43ba95170.png
+  - vic-2026-273865f69839.jpg
+  - vic-2026-32ab917567c1.jpg
+  - vic-2026-46358a2eb6fa.jpg
+  - vic-2026-4ea6e1618b81.jpg
+
+# Full Name in English
 name: Mehdi Saleh Khan
+
+# Full Name in Persian (Optional)
 persian_name: مهدی صالح خانی
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 30
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Golpayegan
-incident_address: ""
-date_of_death: "2026-01-10"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-10'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Persian Name: مهدی صالح خان
 
   Killed by the Islamic Republic government.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/hafeziranr/status/2014458904827060562"
-  - "https://x.com/visfehan/status/2015402669528023514, https://x.com/VIsfehan/status/2015402669528023514, https://x.com/hafeziranr/status/2014458904827060562, https://t.me/RememberTheirNames/775"
-  - "https://x.com/visfehan/status/2015402669528023514"
-  - "https://x.com/VIsfehan/status/2015402669528023514"
-  - "https://x.com/aryammehr_2/status/2017211073364123849"
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/hafeziranr/status/2014458904827060562
+  - https://x.com/visfehan/status/2015402669528023514, https://x.com/VIsfehan/status/2015402669528023514, https://x.com/hafeziranr/status/2014458904827060562, https://t.me/RememberTheirNames/775
+  - https://x.com/visfehan/status/2015402669528023514
+  - https://x.com/VIsfehan/status/2015402669528023514
+  - https://x.com/aryammehr_2/status/2017211073364123849
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

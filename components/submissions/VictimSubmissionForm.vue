@@ -130,12 +130,49 @@
           <!-- Photo Upload Redesign -->
           <div class="relative group">
             <label class="block text-sm font-bold mb-3 text-surface-700 dark:text-surface-300 ml-1">{{ t('submissionForm.victim.photo.label') }}</label>
+            
+            <!-- Photo Gallery -->
+            <div v-if="existingPhotos.length > 0 || previewUrls.length > 0" class="mb-4 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
+              <!-- Existing Photos -->
+              <div v-for="(photoUrl, index) in existingPhotos" :key="'existing-' + index" class="relative group aspect-square rounded-xl overflow-hidden bg-surface-100 dark:bg-surface-800 border border-surface-200 dark:border-surface-700">
+                <img :src="photoUrl" alt="Existing" class="w-full h-full object-cover" />
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                  <button 
+                    type="button"
+                    @click="removeExistingPhoto(index)"
+                    class="p-2 rounded-full bg-red-500 text-white hover:bg-red-600 transition-colors"
+                  >
+                    <i class="pi pi-trash text-sm"></i>
+                  </button>
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 bg-black/50 text-white text-[10px] px-2 py-1 text-center font-bold">
+                  {{ t('submissionForm.victim.photo.current') || 'Existing' }}
+                </div>
+              </div>
+
+              <!-- New Photos -->
+              <div v-for="(url, index) in previewUrls" :key="'new-' + index" class="relative group aspect-square rounded-xl overflow-hidden bg-surface-100 dark:bg-surface-800 border border-success-200 dark:border-success-800/30">
+                <img :src="url" alt="New" class="w-full h-full object-cover" />
+                <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                  <button 
+                    type="button"
+                    @click="removeFile(index)"
+                    class="p-2 rounded-full bg-red-500 text-white hover:bg-red-600 transition-colors"
+                  >
+                    <i class="pi pi-trash text-sm"></i>
+                  </button>
+                </div>
+                 <div class="absolute bottom-0 left-0 right-0 bg-success-500 text-white text-[10px] px-2 py-1 text-center font-bold">
+                  {{ t('common.new') || 'New' }}
+                </div>
+              </div>
+            </div>
+
+            <!-- Upload Dropzone -->
             <div 
-              class="relative flex flex-col items-center justify-center w-full h-48 border-2 border-dashed rounded-2xl cursor-pointer transition-all duration-300 overflow-hidden"
+              class="relative flex flex-col items-center justify-center w-full min-h-[120px] border-2 border-dashed rounded-2xl cursor-pointer transition-all duration-300"
               :class="[
-                selectedFiles.length > 0 
-                  ? 'border-primary-500 bg-primary-50/30 dark:bg-primary-900/10' 
-                  : 'border-surface-300 dark:border-surface-700 hover:border-primary-400 dark:hover:border-primary-500 bg-surface-100 dark:bg-surface-900 hover:bg-surface-200 dark:hover:bg-surface-800'
+                'border-surface-300 dark:border-surface-700 hover:border-primary-400 dark:hover:border-primary-500 bg-surface-50 dark:bg-surface-900/50 hover:bg-surface-100 dark:hover:bg-surface-800'
               ]"
             >
               <input 
@@ -146,44 +183,15 @@
                 @change="onFileInputChange"
               />
               
-              <!-- Preview if file selected -->
-              <div v-if="selectedFiles.length > 0" class="absolute inset-0 z-10 bg-surface-0/90 dark:bg-surface-900/90 backdrop-blur-sm overflow-y-auto p-4 flex flex-col gap-4">
-                <div v-for="(file, index) in selectedFiles" :key="file.name + index" class="flex items-center gap-4 bg-surface-100 dark:bg-surface-800 p-3 rounded-xl border border-surface-200 dark:border-surface-700 relative group/item">
-                  <div class="relative w-16 h-16 flex-shrink-0">
-                    <img :src="previewUrls[index]" alt="Preview" class="w-full h-full rounded-lg object-cover" />
-                  </div>
-                  <div class="flex-1 min-w-0">
-                    <p class="text-sm font-bold text-surface-900 dark:text-surface-0 truncate">{{ file.name }}</p>
-                    <p class="text-xs text-surface-500 font-medium" dir="ltr">{{ formatFileSize(file.size) }}</p>
-                  </div>
-                   <button 
-                    type="button"
-                    @click.stop.prevent="removeFile(index)"
-                    class="p-2 rounded-lg text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
-                  >
-                    <i class="pi pi-trash"></i>
-                  </button>
+              <div class="flex flex-col items-center justify-center py-4 pointer-events-none text-center px-4">
+                <div class="w-10 h-10 rounded-full bg-surface-200 dark:bg-surface-700 flex items-center justify-center mb-3">
+                  <i class="pi pi-plus text-xl text-surface-500"></i>
                 </div>
-
-                 <button 
-                    type="button"
-                    @click.stop.prevent="clearFiles"
-                    class="mt-auto self-center px-4 py-1.5 rounded-lg bg-red-50 dark:bg-red-900/20 text-red-500 hover:bg-red-100 dark:hover:bg-red-900/30 text-xs font-bold transition-colors flex items-center gap-2"
-                  >
-                    <i class="pi pi-trash"></i>
-                    {{ t('submissionForm.victim.photo.remove') }} ({{ t('common.all') }})
-                  </button>
-              </div>
-
-              <!-- Default upload prompt -->
-              <div v-else class="flex flex-col items-center justify-center py-6 pointer-events-none">
-                <div class="w-16 h-16 rounded-3xl bg-surface-200 dark:bg-surface-700 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-500">
-                  <i class="pi pi-cloud-upload text-3xl text-surface-500 group-hover:text-primary-500 transition-colors"></i>
-                </div>
-                <p class="text-lg font-bold text-surface-700 dark:text-surface-200">{{ t('submissionForm.victim.photo.dropzone') }}</p>
-                <p class="text-sm text-surface-500 mt-2 flex items-center justify-center gap-1.5">
-                  <span>{{ t('submissionForm.victim.photo.maxSize') }}</span>
-                  <span class="font-bold" dir="ltr">2MB</span>
+                <p class="text-sm font-bold text-surface-700 dark:text-surface-200">
+                  {{ (existingPhotos.length > 0 || previewUrls.length > 0) ? (t('submissionForm.victim.photo.addMore') || 'Add More Photos') : t('submissionForm.victim.photo.dropzone') }}
+                </p>
+                <p class="text-xs text-surface-500 mt-1">
+                  {{ t('submissionForm.victim.photo.maxSize') }} <span class="font-bold">2MB</span>
                 </p>
               </div>
             </div>
@@ -436,35 +444,60 @@
             </div>
             
             <div class="grid grid-cols-1 gap-6">
-              <div>
-                <IftaLabel>
-                  <Select
-                    id="src_type"
-                    v-model="form.sourceType"
-                    :options="sourceTypeOptions"
-                    optionLabel="label"
-                    optionValue="value"
-                    class="w-full"
-                    variant="filled"
-                    :invalid="stepErrors.sourceType"
-                  />
-                  <label for="src_type">{{ t('submissionForm.victim.source.type') }}</label>
-                </IftaLabel>
-                <small v-if="stepErrors.sourceType" class="text-red-500 mt-1 block px-1">{{ t('submissionForm.victim.source.typeError') }}</small>
-              </div>
 
-              <div v-if="form.sourceType === 'Social Media'">
-                <IftaLabel>
-                  <InputText
-                    id="src_link"
-                    v-model="form.socialMediaLink"
-                    class="w-full"
-                    variant="filled"
-                    :invalid="stepErrors.socialMediaLink"
+              <div>
+                <label class="block text-sm font-medium text-surface-700 dark:text-surface-300 mb-2">
+                  {{ t('submissionForm.victim.source.link') }}
+                </label>
+                
+                <div class="space-y-3">
+                  <div 
+                    v-for="(source, index) in form.source" 
+                    :key="index"
+                    class="flex gap-2"
+                  >
+                    <div class="flex-1">
+                      <InputText
+                        v-model="form.source[index]"
+                        class="w-full"
+                        variant="filled"
+                        :invalid="stepErrors.source && index === 0 && !source"
+                        placeholder="https://..."
+                      />
+                    </div>
+                    
+                    <Button 
+                      v-if="form.source.length > 1"
+                      icon="pi pi-trash" 
+                      severity="danger" 
+                      text 
+                      rounded
+                      @click="removeSource(index)"
+                      aria-label="Remove source"
+                    />
+                     <Button 
+                      v-else
+                      icon="pi pi-trash" 
+                      severity="secondary" 
+                      text 
+                      rounded
+                      disabled
+                      class="opacity-0"
+                    />
+                  </div>
+                </div>
+
+                <div class="mt-3">
+                  <Button 
+                    label="Add Another Source" 
+                    icon="pi pi-plus" 
+                    size="small" 
+                    outlined 
+                    @click="addSource"
                   />
-                  <label for="src_link">{{ t('submissionForm.victim.source.link') }}</label>
-                </IftaLabel>
-                <small v-if="stepErrors.socialMediaLink" class="text-red-500 mt-1 block px-1">{{ t('submissionForm.victim.source.linkError') }}</small>
+                </div>
+
+                <small v-if="stepErrors.source" class="text-red-500 mt-2 block px-1">{{ t('submissionForm.victim.source.linkError') }}</small>
               </div>
             </div>
           </div>
@@ -611,12 +644,18 @@
                         <i class="pi pi-shield-check text-primary-500"></i>
                       </div>
                       <div>
-                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400">{{ t('submissionForm.victim.source.verifiedBy') }}</p>
-                        <p class="text-xs font-bold text-surface-700 dark:text-surface-300">
-                          {{ form.sourceType ? findLabel(sourceTypeOptions, form.sourceType) : '' }} {{ t('submissionForm.victim.source.source') }}
-                          <span v-if="form.socialMediaLink" class="mx-2 opacity-30">|</span>
-                          <a v-if="form.socialMediaLink" :href="form.socialMediaLink" target="_blank" class="text-primary-500 hover:underline">{{ t('submissionForm.victim.source.linkProvided') }}</a>
-                        </p>
+                        <p class="text-[10px] font-black uppercase tracking-widest text-surface-400">{{ t('submissionForm.victim.source.source') }}</p>
+                        <div class="flex flex-col gap-1">
+                          <a 
+                            v-for="(src, idx) in form.source.filter(s => s)" 
+                            :key="idx"
+                            :href="src"
+                            target="_blank"
+                            class="text-xs font-bold text-primary-500 hover:underline break-all truncate"
+                          >
+                            {{ src }}
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -666,7 +705,7 @@
           <Button
             v-else
             type="button"
-            :label="t('submissionForm.common.submitReport')"
+            :label="isUpdate ? t('submissionForm.common.submitUpdate') : t('submissionForm.common.submitReport')"
             icon="pi pi-send"
             :loading="submitting"
             :disabled="!turnstileToken"
@@ -688,6 +727,7 @@ const { pn } = usePersianNumbers();
 
 const props = defineProps<{
   submitting: boolean;
+  initialData?: any;
 }>();
 
 const emit = defineEmits<{
@@ -701,10 +741,100 @@ const turnstileToken = ref('');
 // ... (previous imports)
 const selectedFiles = ref<File[]>([]);
 const previewUrls = ref<string[]>([]);
+const existingPhotos = ref<string[]>([]);
+const existingPhotoPaths = ref<string[]>([]);
+const isUpdate = computed(() => !!props.initialData);
+
+const form = ref({
+  status: '', // Killed | Missing
+  name: '',
+  persianName: '',
+  age: null as number | null,
+  gender: '', // Male | Female
+  occupation: '',
+  birthDate: null as Date | null,
+  birthProvince: '',
+  birthCity: '',
+  
+  // Incident Info
+  incident_province: '',
+  incident_city: '',
+  incident_address: '',
+  dateOfDeath: null as Date | null,
+  deathDateApproximate: false,
+  description: '',
+  
+  // Specifics
+  causeOfDeath: '',
+  disappearanceCircumstances: '',
+  suspectedActor: '',
+  
+  // Source info
+  source: ['']
+});
+
+const addSource = () => {
+  form.value.source.push('');
+};
+
+const removeSource = (index: number) => {
+  form.value.source.splice(index, 1);
+};
+
+// Pre-fill form if initialData is provided
+onMounted(() => {
+    if (props.initialData) {
+        // Map initialData to form
+        const d = props.initialData;
+        form.value.status = d.status || '';
+        form.value.name = d.name || '';
+        form.value.persianName = d.persian_name || '';
+        form.value.age = d.age || null;
+        form.value.gender = d.gender || '';
+        form.value.occupation = d.occupation || '';
+        form.value.birthDate = d.birth_date ? new Date(d.birth_date) : null;
+        form.value.birthProvince = d.birth_province || '';
+        form.value.birthCity = d.birth_city || '';
+        
+        form.value.incident_province = d.incident_province || '';
+        form.value.incident_city = d.incident_city || '';
+        form.value.incident_address = d.incident_address || '';
+        form.value.dateOfDeath = d.date_of_death ? new Date(d.date_of_death) : null;
+        form.value.deathDateApproximate = d.date_of_death_precision === 'Approximate';
+        form.value.description = d.description || '';
+        
+        form.value.causeOfDeath = d.cause_of_death || '';
+        form.value.disappearanceCircumstances = d.disappearance_circumstances || '';
+        // suspectedActor might not be in standard victim model yet, but if it is:
+        // form.value.suspectedActor = d.suspected_actor || '';
+        
+        // map source
+        if (d.source) {
+            form.value.source = Array.isArray(d.source) ? [...d.source] : [d.source];
+        } else {
+            form.value.source = [''];
+        }
+
+        if (d.photo) {
+             const photos = Array.isArray(d.photo) ? d.photo : [d.photo];
+             existingPhotoPaths.value = [...photos];
+             existingPhotos.value = photos.map(p => getMediaUrl({ kind: 'victim_photo', relativePath: p }));
+        }
+    }
+});
+
+import { getMediaUrl } from '~/utils/mediaUrl'; // Make sure to import if used
 
 const reviewPreviewUrl = computed(() => {
-  return previewUrls.value.length > 0 ? previewUrls.value[0] : null;
+  if (previewUrls.value.length > 0) return previewUrls.value[0];
+  if (existingPhotos.value.length > 0) return existingPhotos.value[0];
+  return null;
 });
+
+function removeExistingPhoto(index: number) {
+  existingPhotos.value.splice(index, 1);
+  existingPhotoPaths.value.splice(index, 1);
+}
 
 // ... (existing code)
 
@@ -771,10 +901,11 @@ const canGoToNext = computed(() => {
     return !!form.value.name.trim();
   }
   if (currentStep.value === 2) {
-    const hasSource = !!form.value.sourceType;
-    if (!hasSource) return false;
-    if (form.value.sourceType === 'Social Media') {
-      return !!form.value.socialMediaLink.trim();
+    // Check if at least one source is filled
+    const hasValidSource = form.value.source.some(s => s && s.trim().length > 0);
+    if (!hasValidSource) {
+        stepErrors.value.source = true;
+        return false;
     }
     return true;
   }
@@ -842,35 +973,6 @@ function findLabel(options: { label: string, value: string }[], value: string) {
   return options.find(o => o.value === value)?.label || value;
 }
 
-const form = ref({
-  status: '' as 'Killed' | 'Missing' | '',
-  name: '',
-  persianName: '',
-  // Personal info
-  birthDate: null as Date | null,
-  birthProvince: '',
-  birthCity: '',
-  gender: '',
-  age: null as number | null,
-
-  occupation: '',
-  // Death/Disappearance info
-  dateOfDeath: null as Date | null,
-  deathDateApproximate: false,
-  causeOfDeath: '',
-  // Missing-specific fields
-  disappearanceCircumstances: '',
-  suspectedActor: '',
-  // Incident location
-  incident_province: '',
-  incident_city: '',
-  incident_address: '',
-  // Description
-  description: '',
-  // Source info
-  sourceType: '',
-  socialMediaLink: ''
-});
 
 onMounted(() => {
   // Load Turnstile script on mount
@@ -940,12 +1042,8 @@ function validateStep(): boolean {
   }
 
   if (currentStep.value === 2) {
-    if (!form.value.sourceType) {
-      stepErrors.value.sourceType = true;
-      return false;
-    }
-    if (form.value.sourceType === 'Social Media' && !form.value.socialMediaLink) {
-      stepErrors.value.socialMediaLink = true;
+    if (!form.value.source) {
+      stepErrors.value.source = true;
       return false;
     }
   }
@@ -964,7 +1062,9 @@ function handleNext() {
 }
 
 function handleSubmit() {
-  const data = {
+  if (!turnstileToken.value) return;
+
+  const payload: any = {
     name: form.value.name,
     persian_name: form.value.persianName,
     // Personal info
@@ -989,16 +1089,21 @@ function handleSubmit() {
     // Content
     description: form.value.description,
     // Sources
-    source_type: form.value.sourceType,
-    source_social_media_link: form.value.socialMediaLink,
+    source: form.value.source.filter(s => s && s.trim().length > 0),
     // Status
-    status: form.value.status
+    status: form.value.status,
+    // Photos (existing ones to keep)
+    photo: existingPhotoPaths.value,
+    // Add update metadata if in update mode
+    is_update: isUpdate.value ? true : undefined,
+    original_victim_id: isUpdate.value ? props.initialData!.id : undefined,
+    update_type: isUpdate.value ? 'full_update' : undefined
   };
 
   emit('submit', {
     kind: 'victim',
-    data,
-    files: selectedFiles.value,
+    data: payload,
+    files: selectedFiles.value, // Only new files
     turnstileToken: turnstileToken.value
   });
 }

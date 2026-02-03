@@ -1,41 +1,130 @@
 # ==========================================
-# Victim Documentation - Mohammad Seyedi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000733.png"
-  - "vic-2026-8eb1b8b44545.png"
-  - "vic-2026-4afdbae7d573.png"
-  - "vic-2026-dd5ea3654843.png"
-  - "vic-2026-515d43935353.jpg"
-  - "vic-2026-5d894ebc4291.jpg"
-  - "vic-2026-218d1bd6c927.jpg"
-  - "vic-2026-e442f07e1a9f.jpg"
-  - "vic-2026-29c278971df3.jpg"
-  - "vic-2026-d9107e403417.png"
+  - vic-2026-000733.png
+  - vic-2026-8eb1b8b44545.png
+  - vic-2026-4afdbae7d573.png
+  - vic-2026-dd5ea3654843.png
+  - vic-2026-515d43935353.jpg
+  - vic-2026-5d894ebc4291.jpg
+  - vic-2026-218d1bd6c927.jpg
+  - vic-2026-e442f07e1a9f.jpg
+  - vic-2026-29c278971df3.jpg
+  - vic-2026-d9107e403417.png
+
+# Full Name in English
 name: Mohammad Seyedi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: محمد صیدی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: null
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Iran (provinces of Ilam
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Killed during 2025-2026 Iranian protests
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranhrs99/status/2012920690526068918"
-  - "https://x.com/Daikatuo/status/2011853708418597021"
-  - "https://x.com/KurdistanHRN/status/2011783655752880275"
-  - "https://x.com/hiwa_life/status/2014633627267579966"
-  - "https://x.com/KurdistanHRN/status/2016560792326336532"
-  - "https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/Daikatuo/status/2011853708418597021, https://x.com/hiwa_life/status/2014633627267579966, https://t.me/RememberTheirNames/157, https://x.com/KurdistanHRN/status/2016560792326336532"
-persian_name: محمد صیدی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranhrs99/status/2012920690526068918
+  - https://x.com/Daikatuo/status/2011853708418597021
+  - https://x.com/KurdistanHRN/status/2011783655752880275
+  - https://x.com/hiwa_life/status/2014633627267579966
+  - https://x.com/KurdistanHRN/status/2016560792326336532
+  - https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/Daikatuo/status/2011853708418597021, https://x.com/hiwa_life/status/2014633627267579966, https://t.me/RememberTheirNames/157, https://x.com/KurdistanHRN/status/2016560792326336532
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

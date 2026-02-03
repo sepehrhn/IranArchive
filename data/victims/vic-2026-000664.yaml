@@ -1,52 +1,141 @@
 # ==========================================
-# Victim Documentation - Malika Dastiyab
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000664.jpg"
-  - "vic-2026-efdf28344c30.jpg"
-  - "vic-2026-a2d1491e9cd8.jpg"
-  - "vic-2026-cc3dc53561bf.jpg"
-  - "vic-2026-4adbb575fd39.jpg"
-  - "vic-2026-12a640696908.jpg"
-  - "vic-2026-2e823a51ad0a.jpg"
-  - "vic-2026-a660b34daa8b.jpg"
-  - "vic-2026-8f9ba8810e20.jpg"
-  - "vic-2026-b4cd0e1c6770.jpg"
-  - "vic-2026-360a856b56a1.jpg"
-  - "vic-2026-e92cf7b68ae9.jpg"
-  - "vic-2026-ab5a2370a74c.jpg"
-  - "vic-2026-001980.jpg"
+  - vic-2026-000664.jpg
+  - vic-2026-efdf28344c30.jpg
+  - vic-2026-a2d1491e9cd8.jpg
+  - vic-2026-cc3dc53561bf.jpg
+  - vic-2026-4adbb575fd39.jpg
+  - vic-2026-12a640696908.jpg
+  - vic-2026-2e823a51ad0a.jpg
+  - vic-2026-a660b34daa8b.jpg
+  - vic-2026-8f9ba8810e20.jpg
+  - vic-2026-b4cd0e1c6770.jpg
+  - vic-2026-360a856b56a1.jpg
+  - vic-2026-e92cf7b68ae9.jpg
+  - vic-2026-ab5a2370a74c.jpg
+  - vic-2026-001980.jpg
+
+# Full Name in English
 name: Malika Dastiyab
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: ملیکا دستیاب
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 21
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Kermanshah
 incident_city: Dalahu
-incident_address: ""
-date_of_death: "2025-12-28"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2025-12-28'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by live ammunition fired by security forces during protests in the Shahrek Moallem neighborhood
 
 
   Shot directly with live ammunition by government forces during the national revolution in the 'Moallem Town' neighborhood. She was a 21-year-old student of economics and a professional tanbur player, and a follower of the Yarsan faith. She was responsible for caring for her younger sister after her mother passed away.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/ka3rimi/status/2014337290630254858, https://x.com/longlosthills/status/2014844686217744423, https://x.com/IHRDC/status/2013964147730604294, https://x.com/KurdistanHRN/status/2013985376872878373, https://x.com/autnews_org/status/2015459043351949376, https://x.com/anjmotahed/status/2015443072352477333, https://x.com/KyokushinSoofi/status/2015857162170597607"
-  - "https://x.com/ka3rimi/status/2014337290630254858"
-  - "https://x.com/IHRDC/status/2013964147730604294"
-  - "https://x.com/KurdistanHRN/status/2013985376872878373"
-  - "https://x.com/longlosthills/status/2014844686217744423"
-  - "https://x.com/autnews_org/status/2015459043351949376"
-  - "https://x.com/missmarpel75/status/2014766970189545610"
-  - "https://x.com/anjmotahed/status/2015443072352477333"
-  - "https://x.com/KyokushinSoofi/status/2015857162170597607"
-  - "https://x.com/i/status/2016940277353546145"
-persian_name: ملیکا دستیاب
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/ka3rimi/status/2014337290630254858, https://x.com/longlosthills/status/2014844686217744423, https://x.com/IHRDC/status/2013964147730604294, https://x.com/KurdistanHRN/status/2013985376872878373, https://x.com/autnews_org/status/2015459043351949376, https://x.com/anjmotahed/status/2015443072352477333, https://x.com/KyokushinSoofi/status/2015857162170597607
+  - https://x.com/ka3rimi/status/2014337290630254858
+  - https://x.com/IHRDC/status/2013964147730604294
+  - https://x.com/KurdistanHRN/status/2013985376872878373
+  - https://x.com/longlosthills/status/2014844686217744423
+  - https://x.com/autnews_org/status/2015459043351949376
+  - https://x.com/missmarpel75/status/2014766970189545610
+  - https://x.com/anjmotahed/status/2015443072352477333
+  - https://x.com/KyokushinSoofi/status/2015857162170597607
+  - https://x.com/i/status/2016940277353546145
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

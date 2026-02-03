@@ -1,48 +1,137 @@
 # ==========================================
-# Victim Documentation - Mobin Ghanbari
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000702.jpg"
-  - "vic-2026-78a7a1afdefa.jpg"
-  - "vic-2026-f246d299e2f5.jpg"
-  - "vic-2026-126e0ea807fc.jpg"
-  - "vic-2026-d53f28def2c4.jpg"
-  - "vic-2026-48f6a99fec89.jpg"
-  - "vic-2026-7df625e98f10.jpg"
-  - "vic-2026-d99dd96be513.jpg"
-  - "vic-2026-0d171bc72614.jpg"
-  - "vic-2026-25e333ffc466.jpg"
-  - "vic-2026-dc788e5b7e41.jpg"
-  - "vic-2026-4d0f3d93e566.jpg"
+  - vic-2026-000702.jpg
+  - vic-2026-78a7a1afdefa.jpg
+  - vic-2026-f246d299e2f5.jpg
+  - vic-2026-126e0ea807fc.jpg
+  - vic-2026-d53f28def2c4.jpg
+  - vic-2026-48f6a99fec89.jpg
+  - vic-2026-7df625e98f10.jpg
+  - vic-2026-d99dd96be513.jpg
+  - vic-2026-0d171bc72614.jpg
+  - vic-2026-25e333ffc466.jpg
+  - vic-2026-dc788e5b7e41.jpg
+  - vic-2026-4d0f3d93e566.jpg
+
+# Full Name in English
 name: Mobin Ghanbari
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مبین قنبری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 20
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed during a peaceful protest by the Islamic regime of Iran
 
 
   The text is a lament from a mother to her son, Mobin Qanbari, who was a street vendor. The mother expresses deep sorrow and regret, wishing she had protected him from freezing to death. The context implies he died from exposure or cold, possibly during the protests. The mother's words suggest he was left out in the cold and she blames herself for not keeping him warm. The quoted tweet refers to him as 'son of Iran and killed on the path of homeland'.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/avatoday_news/status/2013986348072304733, https://x.com/outofken/status/2014492057969324089, https://x.com/HengawO/status/2014294428643389752, https://x.com/iranwire/status/2015789377213833519, https://x.com/FSeifikaran/status/2014130415368372386, https://t.me/RememberTheirNames/596, https://x.com/pardis__rabiee/status/2016116356077248698, https://x.com/HeKasrehCrisis/status/2015903730109968436"
-  - "https://x.com/avatoday_news/status/2013986348072304733"
-  - "https://x.com/outofken/status/2014492057969324089"
-  - "https://x.com/HengawO/status/2014294428643389752"
-  - "https://x.com/iranwire/status/2015789377213833519"
-  - "https://x.com/FSeifikaran/status/2014130415368372386"
-  - "https://x.com/HeKasrehCrisis/status/2015903730109968436"
-  - "https://x.com/LoabatK/status/2014243398882857445"
-persian_name: مبین قنبری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/avatoday_news/status/2013986348072304733, https://x.com/outofken/status/2014492057969324089, https://x.com/HengawO/status/2014294428643389752, https://x.com/iranwire/status/2015789377213833519, https://x.com/FSeifikaran/status/2014130415368372386, https://t.me/RememberTheirNames/596, https://x.com/pardis__rabiee/status/2016116356077248698, https://x.com/HeKasrehCrisis/status/2015903730109968436
+  - https://x.com/avatoday_news/status/2013986348072304733
+  - https://x.com/outofken/status/2014492057969324089
+  - https://x.com/HengawO/status/2014294428643389752
+  - https://x.com/iranwire/status/2015789377213833519
+  - https://x.com/FSeifikaran/status/2014130415368372386
+  - https://x.com/HeKasrehCrisis/status/2015903730109968436
+  - https://x.com/LoabatK/status/2014243398882857445
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

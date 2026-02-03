@@ -1,57 +1,146 @@
 # ==========================================
-# Victim Documentation - Mehdi Ghadimi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000340.png"
-  - "vic-2026-854c883122d9.jpg"
-  - "vic-2026-8cbdb8da91a8.jpg"
-  - "vic-2026-2140070.jpg"
-  - "vic-2026-01ec96bf5e62.jpg"
-  - "vic-2026-72f6997dd44b.png"
-  - "vic-2026-a042c5132278.png"
-  - "vic-2026-45906426bcdb.png"
-  - "vic-2026-f48db72b3b7f.png"
-  - "vic-2026-8fe6b7112a2d.jpg"
-  - "vic-2026-ae032820cbdd.jpg"
-  - "vic-2026-7dd95b775aee.jpg"
-  - "vic-2026-99561effc978.jpg"
-  - "vic-2026-43db6d5834b1.jpg"
-  - "vic-2026-8f5daf568eca.jpg"
-  - "vic-2026-4f3a2be596b8.jpg"
-  - "vic-2026-9727be4a6c9f.jpg"
-  - "vic-2026-e73182e15bcb.png"
+  - vic-2026-000340.png
+  - vic-2026-854c883122d9.jpg
+  - vic-2026-8cbdb8da91a8.jpg
+  - vic-2026-2140070.jpg
+  - vic-2026-01ec96bf5e62.jpg
+  - vic-2026-72f6997dd44b.png
+  - vic-2026-a042c5132278.png
+  - vic-2026-45906426bcdb.png
+  - vic-2026-f48db72b3b7f.png
+  - vic-2026-8fe6b7112a2d.jpg
+  - vic-2026-ae032820cbdd.jpg
+  - vic-2026-7dd95b775aee.jpg
+  - vic-2026-99561effc978.jpg
+  - vic-2026-43db6d5834b1.jpg
+  - vic-2026-8f5daf568eca.jpg
+  - vic-2026-4f3a2be596b8.jpg
+  - vic-2026-9727be4a6c9f.jpg
+  - vic-2026-e73182e15bcb.png
+
+# Full Name in English
 name: Mehdi Ghadimi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مهدی قدیمی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 22
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Isfahan
 incident_city: Charmhain (Lenjan region
 incident_address: Lenjan Region
-date_of_death: "2026-01-09"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the chest with a Kalashnikov rifle during direct fire by IRGC forces while protesting near a Basij base
 
 
   Shot in the chest with live ammunition by IRGC forces during protests where demonstrators set fire to the Islamic Republic flag and approached a Basij base. He had recently finished his military service.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/dadban4/status/2012448882483995020, https://x.com/tavaana/status/2014237443009257786, https://x.com/daikatuo/status/2014292914092826992, https://x.com/longlosthills/status/2014374545080070511, https://x.com/monfaredashkan/status/2014733648659103929, https://x.com/Daikatuo/status/2011838399754178592, https://x.com/Tavaana/status/2014237443009257786, https://x.com/Daikatuo/status/2014292914092826992, https://www.instagram.com/p/DTmxossjWDK, https://x.com/MonfaredAshkan/status/2014733648659103929, https://x.com/MonfaredAshkan/status/2014738207032934891, https://t.me/RememberTheirNames/754, https://t.me/RememberTheirNames/340"
-  - "https://x.com/longlosthills/status/2014374545080070511"
-  - "https://t.me/RememberTheirNames/1429"
-  - "https://t.me/javanmardi77/154248"
-  - "https://x.com/Daikatuo/status/2011838399754178592"
-  - "https://x.com/Tavaana/status/2014237443009257786"
-  - "https://x.com/tavaana/status/2014237443009257786"
-  - "https://x.com/Daikatuo/status/2014292914092826992"
-  - "https://x.com/monfaredashkan/status/2014733648659103929"
-  - "https://www.instagram.com/p/DTmxossjWDK"
-  - "https://x.com/MonfaredAshkan/status/2014733648659103929"
-persian_name: مهدی قدیمی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/dadban4/status/2012448882483995020, https://x.com/tavaana/status/2014237443009257786, https://x.com/daikatuo/status/2014292914092826992, https://x.com/longlosthills/status/2014374545080070511, https://x.com/monfaredashkan/status/2014733648659103929, https://x.com/Daikatuo/status/2011838399754178592, https://x.com/Tavaana/status/2014237443009257786, https://x.com/Daikatuo/status/2014292914092826992, https://www.instagram.com/p/DTmxossjWDK, https://x.com/MonfaredAshkan/status/2014733648659103929, https://x.com/MonfaredAshkan/status/2014738207032934891, https://t.me/RememberTheirNames/754, https://t.me/RememberTheirNames/340
+  - https://x.com/longlosthills/status/2014374545080070511
+  - https://t.me/RememberTheirNames/1429
+  - https://t.me/javanmardi77/154248
+  - https://x.com/Daikatuo/status/2011838399754178592
+  - https://x.com/Tavaana/status/2014237443009257786
+  - https://x.com/tavaana/status/2014237443009257786
+  - https://x.com/Daikatuo/status/2014292914092826992
+  - https://x.com/monfaredashkan/status/2014733648659103929
+  - https://www.instagram.com/p/DTmxossjWDK
+  - https://x.com/MonfaredAshkan/status/2014733648659103929
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,33 +1,122 @@
 # ==========================================
-# Victim Documentation - Hadi Forough
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000615.jpg"
-  - "vic-2026-caa4745e6e76.jpg"
-  - "vic-2026-d7b4285aea95.jpg"
+  - vic-2026-000615.jpg
+  - vic-2026-caa4745e6e76.jpg
+  - vic-2026-d7b4285aea95.jpg
+
+# Full Name in English
 name: Hadi Forough
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: هادی فروغ
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 43
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Ariashahr
 incident_address: Ariashahr (Sadeghieh)
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the chest by Islamic Republic suppression forces during the Iranian national revolution. His family searched for his body in Kahrizak for two days. He was buried in Asadabad, Hamedan.
 
 
   Shot in the heart during protests. He was a basketball coach, a university basketball champion, a master's student in sports physiology, a business owner, and had a three-year-old son named Avesh. His body was held in Kahrizak for two days before being returned to his hometown of Asadabad for burial. He died 12 days after his 43rd birthday.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranintlsport/status/2015021281968587103, https://x.com/sonofthebeach22/status/2015026105967575469, https://x.com/HeKasrehCrisis/status/2015538900425466045, https://t.me/RememberTheirNames/201"
-  - "https://x.com/sonofthebeach22/status/2015026105967575469"
-persian_name: هادی فروغ
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranintlsport/status/2015021281968587103, https://x.com/sonofthebeach22/status/2015026105967575469, https://x.com/HeKasrehCrisis/status/2015538900425466045, https://t.me/RememberTheirNames/201
+  - https://x.com/sonofthebeach22/status/2015026105967575469
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,50 +1,139 @@
 # ==========================================
-# Victim Documentation - Babak Sadeghi Mohseni
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000564.jpg"
-  - "vic-2026-c5cd2b4238bf.png"
-  - "vic-2026-48c32edea991.jpg"
-  - "vic-2026-81d333107da5.jpg"
-  - "vic-2026-1b53f394044a.jpg"
-  - "vic-2026-6e7bd1c88c3e.jpg"
-  - "vic-2026-e63ff333d24c.jpg"
-  - "vic-2026-8d886c722a5f.jpg"
-  - "vic-2026-8469a61b23bd.jpg"
-  - "vic-2026-742a032284ef.jpg"
-  - "vic-2026-bbb5166fdb13.jpg"
-  - "vic-2026-fc18a1bac311.jpg"
-  - "vic-2026-b75c8f577d38.jpg"
+  - vic-2026-000564.jpg
+  - vic-2026-c5cd2b4238bf.png
+  - vic-2026-48c32edea991.jpg
+  - vic-2026-81d333107da5.jpg
+  - vic-2026-1b53f394044a.jpg
+  - vic-2026-6e7bd1c88c3e.jpg
+  - vic-2026-e63ff333d24c.jpg
+  - vic-2026-8d886c722a5f.jpg
+  - vic-2026-8469a61b23bd.jpg
+  - vic-2026-742a032284ef.jpg
+  - vic-2026-bbb5166fdb13.jpg
+  - vic-2026-fc18a1bac311.jpg
+  - vic-2026-b75c8f577d38.jpg
+
+# Full Name in English
 name: Babak Sadeghi Mohseni
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: بابک صادقی‌محسنی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 32
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-01"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-01'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed during the revolutionary uprising by the Islamic Republic regime
 
 
   Shot dead with live ammunition by the regime's security forces. Born in Karaj and later living in Hamedan, was the youngest in his family. Described as a kind-hearted nature enthusiast and passionate hiker who deeply loved the earth.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/longlosthills/status/2011618414876323989, https://x.com/soranmansournia/status/2011801770310193541, https://x.com/dadban4/status/2012892179383959752, https://x.com/callyonyourbs/status/2013002063802945539, https://x.com/Daikatuo/status/2011855746544136648, https://x.com/Bestynisha/status/2014407346605199574, https://t.me/RememberTheirNames/253"
-  - "https://x.com/longlosthills/status/2011618414876323989"
-  - "https://x.com/Daikatuo/status/2011855746544136648"
-  - "https://x.com/soranmansournia/status/2011801770310193541"
-  - "https://x.com/callyonyourbs/status/2013002063802945539"
-  - "https://x.com/Bestynisha/status/2014407346605199574"
-  - "https://x.com/hiitsmemooneh/status/2013067943391736233"
-  - "https://t.me/javanmardi77/153692"
-  - "https://x.com/JashniMitra/status/2017058007666790755"
-persian_name: بابک صادقی‌محسنی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/longlosthills/status/2011618414876323989, https://x.com/soranmansournia/status/2011801770310193541, https://x.com/dadban4/status/2012892179383959752, https://x.com/callyonyourbs/status/2013002063802945539, https://x.com/Daikatuo/status/2011855746544136648, https://x.com/Bestynisha/status/2014407346605199574, https://t.me/RememberTheirNames/253
+  - https://x.com/longlosthills/status/2011618414876323989
+  - https://x.com/Daikatuo/status/2011855746544136648
+  - https://x.com/soranmansournia/status/2011801770310193541
+  - https://x.com/callyonyourbs/status/2013002063802945539
+  - https://x.com/Bestynisha/status/2014407346605199574
+  - https://x.com/hiitsmemooneh/status/2013067943391736233
+  - https://t.me/javanmardi77/153692
+  - https://x.com/JashniMitra/status/2017058007666790755
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

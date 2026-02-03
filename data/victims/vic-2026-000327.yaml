@@ -1,39 +1,128 @@
 # ==========================================
-# Victim Documentation - Mahdieh Moradi-Kia
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000327.jpg"
-  - "vic-2026-001497.png"
-  - "vic-2026-57d762c5507d.jpg"
-  - "vic-2026-a8e5a931130f.jpg"
-  - "vic-2026-9e86f2e95d17.jpg"
-  - "vic-2026-dc6e0fd50336.jpg"
+  - vic-2026-000327.jpg
+  - vic-2026-001497.png
+  - vic-2026-57d762c5507d.jpg
+  - vic-2026-a8e5a931130f.jpg
+  - vic-2026-9e86f2e95d17.jpg
+  - vic-2026-dc6e0fd50336.jpg
+
+# Full Name in English
 name: Mahdieh Moradi-Kia
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مائده مرادی‌کیا
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 22
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran (Satar Khan)
 incident_address: Sattarkhan
-date_of_death: "2026-01-09"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot during protests in the Starkhaneh neighborhood of Tehran.
 
 
   Killed by Islamic Republic terrorists on Sattar Khan Street. She was a newlywed.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/pouriazeraati/status/2012657078892896328, https://x.com/allahbakhshii/status/2012845940906791034, https://x.com/hengawo/status/2013015289240125666, https://x.com/__Injaneb96/status/2012644628495741249, https://x.com/HengawO/status/2013015289240125666, https://t.me/RememberTheirNames/305, https://x.com/ka3rimi/status/2016262617229066447"
-  - "https://x.com/__Injaneb96/status/2012644628495741249"
-  - "https://x.com/hengawo/status/2013015289240125666"
-  - "https://x.com/HengawO/status/2013015289240125666"
-  - "https://t.me/javanmardi77/154060"
-persian_name: مائده مرادی‌کیا
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/pouriazeraati/status/2012657078892896328, https://x.com/allahbakhshii/status/2012845940906791034, https://x.com/hengawo/status/2013015289240125666, https://x.com/__Injaneb96/status/2012644628495741249, https://x.com/HengawO/status/2013015289240125666, https://t.me/RememberTheirNames/305, https://x.com/ka3rimi/status/2016262617229066447
+  - https://x.com/__Injaneb96/status/2012644628495741249
+  - https://x.com/hengawo/status/2013015289240125666
+  - https://x.com/HengawO/status/2013015289240125666
+  - https://t.me/javanmardi77/154060
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

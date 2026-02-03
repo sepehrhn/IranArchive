@@ -1,32 +1,121 @@
 # ==========================================
-# Victim Documentation - Mina Amirzadeh
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-2139744.jpg"
-  - "vic-2026-70f2aaf1ce3e.jpg"
-  - "vic-2026-8569fef0c770.jpg"
-  - "vic-2026-664d5e9c5120.jpg"
-  - "vic-2026-ce4bcd36421d.jpg"
+  - vic-2026-2139744.jpg
+  - vic-2026-70f2aaf1ce3e.jpg
+  - vic-2026-8569fef0c770.jpg
+  - vic-2026-664d5e9c5120.jpg
+  - vic-2026-ce4bcd36421d.jpg
+
+# Full Name in English
 name: Mina Amirzadeh
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: Female
-age: 25
-occupation: ""
-country: Iran
-incident_province: ""
-incident_city: Kahrizak
-incident_address: ""
-date_of_death: "2026-01-10"
-date_of_death_precision: Exact
-cause_of_death: ""
-status: Killed
-description: Shot with a war bullet in the neck while riding on the back of her father's motorcycle on Friday, 19 Dey. After being shot, she fell off the motorcycle and tried to call out to her father but could not speak due to her throat wound. She died in her father's arms. Her body was later found in Kahrizak.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/5ogand/status/2016632640691196110"
-  - "https://x.com/autnews_org/status/2017595718840582285"
-  - "https://x.com/noamagid/status/2016940795454947553"
+
+# Full Name in Persian (Optional)
 persian_name: مینا امیرزاده
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Female
+
+# Age at time of death (Optional, remove if unknown)
+age: 25
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: Iran
+
+# Incident Location
+incident_province: ''
+incident_city: Kahrizak
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-10'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
+description: Shot with a war bullet in the neck while riding on the back of her father's motorcycle on Friday, 19 Dey. After being shot, she fell off the motorcycle and tried to call out to her father but could not speak due to her throat wound. She died in her father's arms. Her body was later found in Kahrizak.
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/5ogand/status/2016632640691196110
+  - https://x.com/autnews_org/status/2017595718840582285
+  - https://x.com/noamagid/status/2016940795454947553
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

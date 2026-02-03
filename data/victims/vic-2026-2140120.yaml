@@ -1,28 +1,117 @@
 # ==========================================
-# Victim Documentation - Hassan Shayesteh
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-2140120.jpg"
-  - "vic-2026-b55f3d30d1cf.jpg"
+  - vic-2026-2140120.jpg
+  - vic-2026-b55f3d30d1cf.jpg
+
+# Full Name in English
 name: Hassan Shayesteh
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: Male
-age: 35
-occupation: ""
-country: Iran
-incident_province: ""
-incident_city: Tehran
-incident_address: ""
-date_of_death: ""
-date_of_death_precision: Exact
-cause_of_death: ""
-status: Killed
-description: Baloch citizen killed during protests in Tehran. Son of Musa, from Kadyan neighborhood in Bent city, Nikshahr county. His body was transferred to Balochistan yesterday and buried in Melandan cemetery in his birthplace.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/farzinkadkhodae/status/2016581491573104934"
-  - "https://x.com/hamalilalin/status/2016705480215675214"
+
+# Full Name in Persian (Optional)
 persian_name: حسن شایسته
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Male
+
+# Age at time of death (Optional, remove if unknown)
+age: 35
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: Iran
+
+# Incident Location
+incident_province: ''
+incident_city: Tehran
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: ''
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
+description: Baloch citizen killed during protests in Tehran. Son of Musa, from Kadyan neighborhood in Bent city, Nikshahr county. His body was transferred to Balochistan yesterday and buried in Melandan cemetery in his birthplace.
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/farzinkadkhodae/status/2016581491573104934
+  - https://x.com/hamalilalin/status/2016705480215675214
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

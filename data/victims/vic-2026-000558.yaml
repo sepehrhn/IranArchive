@@ -1,49 +1,138 @@
 # ==========================================
-# Victim Documentation - Arshiya Barari
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000558.jpg"
-  - "vic-2026-61de9d10f51c.jpg"
-  - "vic-2026-3124edfc4068.webp"
-  - "vic-2026-59cee897b55e.jpg"
-  - "vic-2026-53483b49af30.jpg"
-  - "vic-2026-db6ca92bcb50.jpg"
-  - "vic-2026-2237cd88393a.jpg"
-  - "vic-2026-e7f737de5777.jpg"
-  - "vic-2026-1c88c0cfa787.jpg"
-  - "vic-2026-9746fbd1f25c.jpg"
-  - "vic-2026-264ed450a7eb.jpg"
-  - "vic-2026-51f0437b316a.jpg"
+  - vic-2026-000558.jpg
+  - vic-2026-61de9d10f51c.jpg
+  - vic-2026-3124edfc4068.webp
+  - vic-2026-59cee897b55e.jpg
+  - vic-2026-53483b49af30.jpg
+  - vic-2026-db6ca92bcb50.jpg
+  - vic-2026-2237cd88393a.jpg
+  - vic-2026-e7f737de5777.jpg
+  - vic-2026-1c88c0cfa787.jpg
+  - vic-2026-9746fbd1f25c.jpg
+  - vic-2026-264ed450a7eb.jpg
+  - vic-2026-51f0437b316a.jpg
+
+# Full Name in English
 name: Arshiya Barari
-birth_date: ""
-birth_province: ""
+
+# Full Name in Persian (Optional)
+persian_name: عرشیا براری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
 birth_city: Prince Reza Pahlavi
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 25
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Zanjan
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by security forces during protests in Zanjan following a call from Prince Reza Pahlavi.
 
 
   Student of English Language Teaching at Azad University of Zanjan, national athlete (national fitness champion, international Kyokushin champion, official coach of the World Federation). He was killed by live ammunition from the Islamic Republic's repressive forces during protests.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/missmarpel75/status/2014614223133786312, https://x.com/Iran_Sweeden/status/2014112153846808881, https://www.instagram.com/p/DT3h7aIiVkj, https://x.com/babaktaghvaee1/status/2014878765223182580, https://x.com/Tavaana/status/2015288635990647111, https://x.com/BabakTaghvaee1/status/2014878765223182580, https://t.me/RememberTheirNames/683, https://x.com/MobinRave/status/2014669672788963468, https://x.com/outofken/status/2016360554974306443"
-  - "https://x.com/Iran_Sweeden/status/2014112153846808881"
-  - "https://www.instagram.com/p/DT3h7aIiVkj"
-  - "https://x.com/babaktaghvaee1/status/2014878765223182580"
-  - "https://x.com/Tavaana/status/2015288635990647111"
-  - "https://x.com/BabakTaghvaee1/status/2014878765223182580"
-  - "https://x.com/outofken/status/2016360554974306443"
-  - "https://x.com/DamDami/status/2015499323644031129"
-  - "https://x.com/missmarpel75/status/2014614223133786312"
-persian_name: عرشیا براری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/missmarpel75/status/2014614223133786312, https://x.com/Iran_Sweeden/status/2014112153846808881, https://www.instagram.com/p/DT3h7aIiVkj, https://x.com/babaktaghvaee1/status/2014878765223182580, https://x.com/Tavaana/status/2015288635990647111, https://x.com/BabakTaghvaee1/status/2014878765223182580, https://t.me/RememberTheirNames/683, https://x.com/MobinRave/status/2014669672788963468, https://x.com/outofken/status/2016360554974306443
+  - https://x.com/Iran_Sweeden/status/2014112153846808881
+  - https://www.instagram.com/p/DT3h7aIiVkj
+  - https://x.com/babaktaghvaee1/status/2014878765223182580
+  - https://x.com/Tavaana/status/2015288635990647111
+  - https://x.com/BabakTaghvaee1/status/2014878765223182580
+  - https://x.com/outofken/status/2016360554974306443
+  - https://x.com/DamDami/status/2015499323644031129
+  - https://x.com/missmarpel75/status/2014614223133786312
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

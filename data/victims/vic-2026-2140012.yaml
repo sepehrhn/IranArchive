@@ -1,33 +1,122 @@
 # ==========================================
-# Victim Documentation - Shilan Salehi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-2140012.jpg"
-  - "vic-2026-ad88675480da.jpg"
-  - "vic-2026-4e09a0f1c48e.jpg"
-  - "vic-2026-390ca91d439c.jpg"
-  - "vic-2026-55f3291e7647.jpg"
+  - vic-2026-2140012.jpg
+  - vic-2026-ad88675480da.jpg
+  - vic-2026-4e09a0f1c48e.jpg
+  - vic-2026-390ca91d439c.jpg
+  - vic-2026-55f3291e7647.jpg
+
+# Full Name in English
 name: Shilan Salehi
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: Female
-age: null
-occupation: ""
-country: Iran
-incident_province: ""
-incident_city: Kermanshah
-incident_address: ""
-date_of_death: "2026-01-08"
-date_of_death_precision: Exact
-cause_of_death: ""
-status: Killed
-description: Student at National University (Beheshti), child of Fattah and Shirin, from Baneh city. Killed by direct shooting from suppressive forces during popular protests in Tehran. Security institutions returned the body to family after applying pressure, threats, obtaining commitments, and payment of 150 million tomans. Burial ceremony held Monday evening February 25, 2026 in Baneh cemetery.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/Darinima72417/status/2016266977686278320, https://x.com/autnews_org/status/2016552071298765201"
-  - "https://x.com/Darinima72417/status/2016266977686278320"
-  - "https://x.com/autnews_org/status/2016552071298765201"
-  - "https://t.me/RememberTheirNames/1462"
+
+# Full Name in Persian (Optional)
 persian_name: شیلان صالحی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Female
+
+# Age at time of death (Optional, remove if unknown)
+age: null
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: Iran
+
+# Incident Location
+incident_province: ''
+incident_city: Kermanshah
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
+description: Student at National University (Beheshti), child of Fattah and Shirin, from Baneh city. Killed by direct shooting from suppressive forces during popular protests in Tehran. Security institutions returned the body to family after applying pressure, threats, obtaining commitments, and payment of 150 million tomans. Burial ceremony held Monday evening February 25, 2026 in Baneh cemetery.
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/Darinima72417/status/2016266977686278320, https://x.com/autnews_org/status/2016552071298765201
+  - https://x.com/Darinima72417/status/2016266977686278320
+  - https://x.com/autnews_org/status/2016552071298765201
+  - https://t.me/RememberTheirNames/1462
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

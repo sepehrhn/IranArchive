@@ -1,34 +1,123 @@
 # ==========================================
-# Victim Documentation - Latif Karimi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000901.jpg"
-  - "vic-2026-8d946173c858.jpg"
-  - "vic-2026-7f47c7063341.jpg"
-  - "vic-2026-64497415d3ab.jpg"
-  - "vic-2026-a30a135523d4.jpg"
-  - "vic-2026-17e82789448f.jpg"
+  - vic-2026-000901.jpg
+  - vic-2026-8d946173c858.jpg
+  - vic-2026-7f47c7063341.jpg
+  - vic-2026-64497415d3ab.jpg
+  - vic-2026-a30a135523d4.jpg
+  - vic-2026-17e82789448f.jpg
+
+# Full Name in English
 name: Latif Karimi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: لطیف کریمی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: null
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Ilam
 incident_city: Malekshahi County
-incident_address: ""
-date_of_death: "2026-01-03"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-03'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot and killed by live ammunition fired by Islamic Revolutionary Guard Corps agents during protests. He was a retired IRGC brigadier general who was participating in the protests when he was specifically targeted by shooters.
-source_type: Social Media
-source_social_media_link:
-  - "https://en.wikipedia.org/wiki/2026_Malekshahi_massacre, https://www.iran-emrooz.net/index.php/news2/125134/, https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://en.wikipedia.org/wiki/Killing_of_Latif_Karimi, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/Daikatuo/status/2007848960887755083, https://t.me/RememberTheirNames/59"
-  - "https://x.com/Daikatuo/status/2007848960887755083"
-  - "https://x.com/behnam_chegini/status/2017908987023220855"
-persian_name: لطیف کریمی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://en.wikipedia.org/wiki/2026_Malekshahi_massacre, https://www.iran-emrooz.net/index.php/news2/125134/, https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://en.wikipedia.org/wiki/Killing_of_Latif_Karimi, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/Daikatuo/status/2007848960887755083, https://t.me/RememberTheirNames/59
+  - https://x.com/Daikatuo/status/2007848960887755083
+  - https://x.com/behnam_chegini/status/2017908987023220855
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

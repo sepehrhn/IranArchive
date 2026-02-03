@@ -1,41 +1,131 @@
 # ==========================================
-# Victim Documentation - Mehrdad (Matin) Moshtaqi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001136.jpg"
-  - "vic-2026-001268.jpg"
-  - "vic-2026-fb4d3ac8c83c.jpg"
-  - "vic-2026-e94fe1b2fb50.jpg"
-  - "vic-2026-ee279eb82f4a.jpg"
-  - "vic-2026-001542.jpg"
+  - vic-2026-001136.jpg
+  - vic-2026-001268.jpg
+  - vic-2026-fb4d3ac8c83c.jpg
+  - vic-2026-e94fe1b2fb50.jpg
+  - vic-2026-ee279eb82f4a.jpg
+  - vic-2026-001542.jpg
+
+# Full Name in English
 name: Mehrdad (Matin) Moshtaqi
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+
+# Full Name in Persian (Optional)
+persian_name: null
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 27
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Arak
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Killed by the regime
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/saeidvafa/status/2014331693843300748"
-  - "https://x.com/allahbakhshii/status/2014686574282260563"
-  - "https://x.com/saeidvafa/status/2014818159694336100"
-  - "https://x.com/SaeidVafa/status/2014331693843300748"
-  - "https://x.com/HengawO/status/2014349937677377761"
-  - "https://x.com/allahbakhshii/status/2014672039223689584"
-  - "https://x.com/missmarpel75/status/2014926779878629824"
-  - "https://x.com/MonfaredAshkan/status/2015543513887526957"
-  - "https://x.com/hashshaashin/status/2015268146668589258"
-  - "https://x.com/MonfaredAshkan/status/2015539075353362667"
-  - "https://x.com/saeidvafa/status/2014331693843300748, https://x.com/allahbakhshii/status/2014686574282260563, https://x.com/saeidvafa/status/2014818159694336100, https://x.com/SaeidVafa/status/2014331693843300748, https://x.com/HengawO/status/2014349937677377761, https://x.com/ManotoNews/status/2014646794496716803, https://x.com/allahbakhshii/status/2014672039223689584, https://x.com/missmarpel75/status/2014926779878629824, https://x.com/MonfaredAshkan/status/2015543513887526957, https://x.com/hashshaashin/status/2015268146668589258, https://x.com/MonfaredAshkan/status/2015539075353362667, https://t.me/RememberTheirNames/649"
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/saeidvafa/status/2014331693843300748
+  - https://x.com/allahbakhshii/status/2014686574282260563
+  - https://x.com/saeidvafa/status/2014818159694336100
+  - https://x.com/SaeidVafa/status/2014331693843300748
+  - https://x.com/HengawO/status/2014349937677377761
+  - https://x.com/allahbakhshii/status/2014672039223689584
+  - https://x.com/missmarpel75/status/2014926779878629824
+  - https://x.com/MonfaredAshkan/status/2015543513887526957
+  - https://x.com/hashshaashin/status/2015268146668589258
+  - https://x.com/MonfaredAshkan/status/2015539075353362667
+  - https://x.com/saeidvafa/status/2014331693843300748, https://x.com/allahbakhshii/status/2014686574282260563, https://x.com/saeidvafa/status/2014818159694336100, https://x.com/SaeidVafa/status/2014331693843300748, https://x.com/HengawO/status/2014349937677377761, https://x.com/ManotoNews/status/2014646794496716803, https://x.com/allahbakhshii/status/2014672039223689584, https://x.com/missmarpel75/status/2014926779878629824, https://x.com/MonfaredAshkan/status/2015543513887526957, https://x.com/hashshaashin/status/2015268146668589258, https://x.com/MonfaredAshkan/status/2015539075353362667, https://t.me/RememberTheirNames/649
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

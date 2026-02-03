@@ -1,37 +1,126 @@
 # ==========================================
-# Victim Documentation - Mehdi Sepehran
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-2139944.jpg"
-  - "vic-2026-4b9eddaab778.jpg"
-  - "vic-2026-67e7a9c6d471.jpg"
-  - "vic-2026-e9f42dcc447d.jpg"
-  - "vic-2026-484432bb4a65.jpg"
-  - "vic-2026-4e0702919dfc.jpg"
+  - vic-2026-2139944.jpg
+  - vic-2026-4b9eddaab778.jpg
+  - vic-2026-67e7a9c6d471.jpg
+  - vic-2026-e9f42dcc447d.jpg
+  - vic-2026-484432bb4a65.jpg
+  - vic-2026-4e0702919dfc.jpg
+
+# Full Name in English
 name: Mehdi Sepehran
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: Male
-age: 21
-occupation: ""
-country: Iran
-incident_province: ""
-incident_city: Tabriz
-incident_address: ""
-date_of_death: "2026-01-08"
-date_of_death_precision: Exact
-cause_of_death: ""
-status: Killed
-description: Killed by regime mercenaries' bullets during recent protests.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/ashk_shadi/status/2016206577640890857"
-  - "https://x.com/i/status/2017100154629734701"
-  - "https://x.com/iamnot_pouya/status/2016903227367735398"
-  - "https://x.com/persephone7597/status/2017100154629734701"
-  - "https://x.com/missmarpel75/status/2016272895010365687"
-  - "https://x.com/kyokushinsoofi/status/2017282173846376589"
-  - "https://x.com/iran_mn20/status/2017236182065615064"
+
+# Full Name in Persian (Optional)
 persian_name: مهدی سپهران
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Male
+
+# Age at time of death (Optional, remove if unknown)
+age: 21
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: Iran
+
+# Incident Location
+incident_province: ''
+incident_city: Tabriz
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
+description: Killed by regime mercenaries' bullets during recent protests.
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/ashk_shadi/status/2016206577640890857
+  - https://x.com/i/status/2017100154629734701
+  - https://x.com/iamnot_pouya/status/2016903227367735398
+  - https://x.com/persephone7597/status/2017100154629734701
+  - https://x.com/missmarpel75/status/2016272895010365687
+  - https://x.com/kyokushinsoofi/status/2017282173846376589
+  - https://x.com/iran_mn20/status/2017236182065615064
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

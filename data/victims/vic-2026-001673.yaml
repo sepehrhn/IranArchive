@@ -1,41 +1,130 @@
 # ==========================================
-# Victim Documentation - Bita Akbari
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001673.jpg"
-  - "vic-2026-cb3405d69b5d.png"
-  - "vic-2026-9ca2796494d3.png"
-  - "vic-2026-ab22274073bf.jpg"
-  - "vic-2026-f559d98b5e64.jpg"
-  - "vic-2026-fb4febdd8248.jpg"
-  - "vic-2026-e2822a7fd051.jpg"
+  - vic-2026-001673.jpg
+  - vic-2026-cb3405d69b5d.png
+  - vic-2026-9ca2796494d3.png
+  - vic-2026-ab22274073bf.jpg
+  - vic-2026-f559d98b5e64.jpg
+  - vic-2026-fb4febdd8248.jpg
+  - vic-2026-e2822a7fd051.jpg
+
+# Full Name in English
 name: Bita Akbari
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: بیتا اکبری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 19
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Isfahan
 incident_city: Goz
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: بیتا اکبری
 
   Shot and killed with live ammunition. Was recently engaged.
 
   Shot with direct gunfire from war bullets in Gaz, Isfahan. She had recently gotten engaged.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/winston_buffon/status/2015712095157838151, https://x.com/SoheilaTahEri67/status/2015893255637123229, https://t.me/RememberTheirNames/1576, https://x.com/HeKasrehCrisis/status/2016604173647687862"
-  - "https://x.com/SoheilaTahEri67/status/2015893255637123229"
-  - "https://x.com/HeKasrehCrisis/status/2016604173647687862"
-  - "https://x.com/i/status/2017102487644221486"
-  - "https://x.com/mousavi1355/status/2017472832133812366"
-persian_name: بیتا اکبری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/winston_buffon/status/2015712095157838151, https://x.com/SoheilaTahEri67/status/2015893255637123229, https://t.me/RememberTheirNames/1576, https://x.com/HeKasrehCrisis/status/2016604173647687862
+  - https://x.com/SoheilaTahEri67/status/2015893255637123229
+  - https://x.com/HeKasrehCrisis/status/2016604173647687862
+  - https://x.com/i/status/2017102487644221486
+  - https://x.com/mousavi1355/status/2017472832133812366
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

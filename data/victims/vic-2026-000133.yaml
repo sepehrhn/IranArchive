@@ -1,46 +1,135 @@
 # ==========================================
-# Victim Documentation - Sardar Mohammadi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000133.jpg"
-  - "vic-2026-001393.jpg"
-  - "vic-2026-b440723a1842.jpg"
-  - "vic-2026-2140021.jpg"
-  - "vic-2026-2ae29411d40e.jpg"
-  - "vic-2026-3d7171621f47.jpg"
-  - "vic-2026-f2a7b79f664a.jpg"
-  - "vic-2026-f614060184f9.jpg"
-  - "vic-2026-a8705b60e51a.jpg"
-  - "vic-2026-0cc94f0e77ef.jpg"
-  - "vic-2026-84c1f95943f1.jpg"
+  - vic-2026-000133.jpg
+  - vic-2026-001393.jpg
+  - vic-2026-b440723a1842.jpg
+  - vic-2026-2140021.jpg
+  - vic-2026-2ae29411d40e.jpg
+  - vic-2026-3d7171621f47.jpg
+  - vic-2026-f2a7b79f664a.jpg
+  - vic-2026-f614060184f9.jpg
+  - vic-2026-a8705b60e51a.jpg
+  - vic-2026-0cc94f0e77ef.jpg
+  - vic-2026-84c1f95943f1.jpg
+
+# Full Name in English
 name: Sardar Mohammadi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: سردار محمدی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 15
+
+# Occupation (Optional)
 occupation: Basij member and that he was martyred
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Qaleh Hassan Khan (قلعه حسن خان)
 incident_address: قلعه حسن خان
-date_of_death: "2025-12-24"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2025-12-24'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Killed in prison on the evening of 24 Dey (January 14, 2026). His family was forced to say he was a Basij member and that he was martyred. Restrictions were placed on his funeral attendance.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/bar0ninthetrees/status/2014817462609424609"
-  - "https://x.com/i/status/2016064576455148026"
-  - "https://x.com/shayanx0/status/2016971951458439288"
-  - "https://x.com/jeonxti/status/2017578302555185560"
-  - "https://x.com/shabidesign/status/2017618669870764037"
-  - "https://x.com/AliTagh30207454/status/2015853239191646653"
-  - "https://x.com/alitagh30207454/status/2015853239191646653"
-  - "https://x.com/sadafam21/status/2016688224442470531"
-  - "https://x.com/i/status/2016990711514562721"
-  - "https://x.com/sadafam21/status/2016064576455148026"
-persian_name: سردار محمدی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/bar0ninthetrees/status/2014817462609424609
+  - https://x.com/i/status/2016064576455148026
+  - https://x.com/shayanx0/status/2016971951458439288
+  - https://x.com/jeonxti/status/2017578302555185560
+  - https://x.com/shabidesign/status/2017618669870764037
+  - https://x.com/AliTagh30207454/status/2015853239191646653
+  - https://x.com/alitagh30207454/status/2015853239191646653
+  - https://x.com/sadafam21/status/2016688224442470531
+  - https://x.com/i/status/2016990711514562721
+  - https://x.com/sadafam21/status/2016064576455148026
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

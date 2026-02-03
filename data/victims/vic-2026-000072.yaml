@@ -1,46 +1,135 @@
 # ==========================================
-# Victim Documentation - Ali Asghar Mohammadi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000072.jpg"
-  - "vic-2026-a500ee6c369a.jpg"
-  - "vic-2026-0081e5f99e8a.png"
-  - "vic-2026-76ea083d81b9.jpg"
-  - "vic-2026-57b149f9a3c7.jpg"
-  - "vic-2026-c928ee6e59b1.jpg"
-  - "vic-2026-b261f6101e85.jpg"
-  - "vic-2026-7125d33d7ef3.png"
+  - vic-2026-000072.jpg
+  - vic-2026-a500ee6c369a.jpg
+  - vic-2026-0081e5f99e8a.png
+  - vic-2026-76ea083d81b9.jpg
+  - vic-2026-57b149f9a3c7.jpg
+  - vic-2026-c928ee6e59b1.jpg
+  - vic-2026-b261f6101e85.jpg
+  - vic-2026-7125d33d7ef3.png
+
+# Full Name in English
 name: Ali Asghar Mohammadi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: علی اصغر محمدی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 40
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Mazandaran
 incident_city: Nur
-incident_address: ""
-date_of_death: ""
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: ''
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed by government suppressors during protests on Thursday and Friday
 
 
   Mentioned as a hero who has rest in peace, implying death. No further details provided.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/alitagh30207454/status/2015074385925746874, https://x.com/NoaMagid/status/2015469437931929800"
-  - "https://x.com/alitagh30207454/status/2015074385925746874"
-  - "https://x.com/pe_dall/status/2016919994056028277"
-  - "https://x.com/sayswbaa/status/2016768779682812413"
-  - "https://x.com/iranwire/status/2013529390261350866"
-  - "https://x.com/Kiansan70/status/2014748044596568264"
-  - "https://x.com/NoaMagid/status/2015469437931929800"
-  - "https://x.com/avatoday_news/status/2015750846672236790"
-  - "https://x.com/aref_saraie/status/2015614756128997513"
-  - "https://x.com/HeKasrehCrisis/status/2017722905228906606"
-persian_name: علی اصغر محمدی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/alitagh30207454/status/2015074385925746874, https://x.com/NoaMagid/status/2015469437931929800
+  - https://x.com/alitagh30207454/status/2015074385925746874
+  - https://x.com/pe_dall/status/2016919994056028277
+  - https://x.com/sayswbaa/status/2016768779682812413
+  - https://x.com/iranwire/status/2013529390261350866
+  - https://x.com/Kiansan70/status/2014748044596568264
+  - https://x.com/NoaMagid/status/2015469437931929800
+  - https://x.com/avatoday_news/status/2015750846672236790
+  - https://x.com/aref_saraie/status/2015614756128997513
+  - https://x.com/HeKasrehCrisis/status/2017722905228906606
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

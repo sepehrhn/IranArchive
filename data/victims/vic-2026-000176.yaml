@@ -1,51 +1,140 @@
 # ==========================================
-# Victim Documentation - Babak Jamali
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000176.jpg"
-  - "vic-2026-ddfaad3eacdb.jpg"
-  - "vic-2026-15bbed74d423.jpg"
-  - "vic-2026-b7a044fe23ba.jpg"
-  - "vic-2026-a21c6696d136.jpg"
-  - "vic-2026-5ee8ab5f24b7.jpg"
-  - "vic-2026-7462cddd615d.jpg"
-  - "vic-2026-29d5fcbb3e64.jpg"
-  - "vic-2026-df1775b96db9.jpg"
-  - "vic-2026-000265.jpg"
-  - "vic-2026-650cdb510c88.jpg"
+  - vic-2026-000176.jpg
+  - vic-2026-ddfaad3eacdb.jpg
+  - vic-2026-15bbed74d423.jpg
+  - vic-2026-b7a044fe23ba.jpg
+  - vic-2026-a21c6696d136.jpg
+  - vic-2026-5ee8ab5f24b7.jpg
+  - vic-2026-7462cddd615d.jpg
+  - vic-2026-29d5fcbb3e64.jpg
+  - vic-2026-df1775b96db9.jpg
+  - vic-2026-000265.jpg
+  - vic-2026-650cdb510c88.jpg
+
+# Full Name in English
 name: Babak Jamali
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: بابک جمالی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 31
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Arak
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed by the Islamic Republic regime during the national revolution/protests
 
 
   Father of two sons, described as having been killed during protests. Known for writing 'The world owes me a Hayedeh concert'
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/behnam_chegini/status/2012927415090049215, https://x.com/saeidvafa/status/2013136865658909182, https://x.com/fseifikaran/status/2012951522083000775, https://x.com/saeidvafa/status/2012988398768635997, https://x.com/iranwire/status/2013195338249621605, https://x.com/saeidvafa/status/2014025906474397742, https://x.com/HengawO/status/2013195295618695186, https://x.com/herwithz/status/2015045837307433351, https://t.me/RememberTheirNames/254, https://x.com/jinzianazadi/status/2015036409048936871"
-  - "https://x.com/behnam_chegini/status/2012927415090049215"
-  - "https://x.com/saeidvafa/status/2013136865658909182"
-  - "https://x.com/fseifikaran/status/2012951522083000775"
-  - "https://x.com/saeidvafa/status/2012988398768635997"
-  - "https://x.com/iranwire/status/2013195338249621605"
-  - "https://x.com/HengawO/status/2013195295618695186"
-  - "https://x.com/jinzianazadi/status/2015036409048936871"
-  - "https://x.com/herwithz/status/2015045837307433351"
-  - "https://x.com/SaeidVafa/status/2012940540292038909"
-  - "https://x.com/shimababaeii/status/2014734387447738708, https://x.com/iranwire/status/2014775783051481595, https://x.com/ardalanmousavi/status/2014872516079083697, https://t.me/RememberTheirNames/895"
-  - "https://x.com/ardalanmousavi/status/2014872516079083697"
-persian_name: بابک جمالی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/behnam_chegini/status/2012927415090049215, https://x.com/saeidvafa/status/2013136865658909182, https://x.com/fseifikaran/status/2012951522083000775, https://x.com/saeidvafa/status/2012988398768635997, https://x.com/iranwire/status/2013195338249621605, https://x.com/saeidvafa/status/2014025906474397742, https://x.com/HengawO/status/2013195295618695186, https://x.com/herwithz/status/2015045837307433351, https://t.me/RememberTheirNames/254, https://x.com/jinzianazadi/status/2015036409048936871
+  - https://x.com/behnam_chegini/status/2012927415090049215
+  - https://x.com/saeidvafa/status/2013136865658909182
+  - https://x.com/fseifikaran/status/2012951522083000775
+  - https://x.com/saeidvafa/status/2012988398768635997
+  - https://x.com/iranwire/status/2013195338249621605
+  - https://x.com/HengawO/status/2013195295618695186
+  - https://x.com/jinzianazadi/status/2015036409048936871
+  - https://x.com/herwithz/status/2015045837307433351
+  - https://x.com/SaeidVafa/status/2012940540292038909
+  - https://x.com/shimababaeii/status/2014734387447738708, https://x.com/iranwire/status/2014775783051481595, https://x.com/ardalanmousavi/status/2014872516079083697, https://t.me/RememberTheirNames/895
+  - https://x.com/ardalanmousavi/status/2014872516079083697
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,57 +1,146 @@
 # ==========================================
-# Victim Documentation - Mohammad Nemati
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001154.png"
-  - "vic-2026-88a75e637813.png"
-  - "vic-2026-a2ce742ce15c.png"
-  - "vic-2026-43570c669c0b.jpg"
-  - "vic-2026-001366.png"
-  - "vic-2026-62e035932e63.jpg"
-  - "vic-2026-2140076.jpg"
-  - "vic-2026-490479ce6925.png"
-  - "vic-2026-8c1e36a44c34.jpg"
-  - "vic-2026-169ebae43731.jpg"
-  - "vic-2026-0e72f43aa7f2.jpg"
+  - vic-2026-001154.png
+  - vic-2026-88a75e637813.png
+  - vic-2026-a2ce742ce15c.png
+  - vic-2026-43570c669c0b.jpg
+  - vic-2026-001366.png
+  - vic-2026-62e035932e63.jpg
+  - vic-2026-2140076.jpg
+  - vic-2026-490479ce6925.png
+  - vic-2026-8c1e36a44c34.jpg
+  - vic-2026-169ebae43731.jpg
+  - vic-2026-0e72f43aa7f2.jpg
+
+# Full Name in English
 name: Mohammad Nemati
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: محمد نعمتی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 37
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Isfahan
 incident_city: Abresham
-incident_address: ""
-date_of_death: "2026-01-10"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-10'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Unknown - commemorated as martyred
 
 
   37-year-old from Abrisham city, shot from behind by Islamic Republic suppressive forces during protests on 18 Dey. He was the only child of his family and his parents had placed all their hopes in him. Mohammad went to the streets to voice the people's demands and was killed in an ambush by forces hidden around a police station. His body was returned after one week and his burial coincided with his birthday night, turning what should have been a birthday celebration into eternal mourning for his family.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/visfehan/status/2014404512555864566, https://x.com/VIsfehan/status/2014404512555864566, https://x.com/VIsfehan/status/2015382993917931722, https://t.me/RememberTheirNames/701, https://x.com/allahbakhshii/status/2016500475906986368"
-  - "https://x.com/VIsfehan/status/2014404512555864566"
-  - "https://x.com/VIsfehan/status/2015382993917931722"
-  - "https://x.com/visfehan/status/2016456178369229311"
-  - "https://x.com/allahbakhshii/status/2016500475906986368"
-  - "https://x.com/barbad_golshiri/status/2013300308495958440"
-  - "https://x.com/outofken/status/2016358943837323363"
-  - "https://x.com/VIsfehan/status/2015386810835231084"
-  - "https://x.com/pkhwshhal/status/2015771031416496366"
-  - "https://x.com/iranwire/status/2016235961504399508"
-  - "https://x.com/LoabatK/status/2016257668772442239"
-  - "https://t.me/RememberTheirNames/1554"
-  - "https://x.com/vahidmirzaeii/status/2014406560366092401"
-  - "https://x.com/EhsanZareei/status/2014445102333083721"
-  - "https://x.com/visfehan/status/2015492119054450877"
-  - "https://x.com/roozbeh1963/status/2016994497192743198"
-  - "https://x.com/i/status/2016968367781851163"
-  - "https://x.com/VIsfehan/status/2016968367781851163"
-persian_name: محمد نعمتی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/visfehan/status/2014404512555864566, https://x.com/VIsfehan/status/2014404512555864566, https://x.com/VIsfehan/status/2015382993917931722, https://t.me/RememberTheirNames/701, https://x.com/allahbakhshii/status/2016500475906986368
+  - https://x.com/VIsfehan/status/2014404512555864566
+  - https://x.com/VIsfehan/status/2015382993917931722
+  - https://x.com/visfehan/status/2016456178369229311
+  - https://x.com/allahbakhshii/status/2016500475906986368
+  - https://x.com/barbad_golshiri/status/2013300308495958440
+  - https://x.com/outofken/status/2016358943837323363
+  - https://x.com/VIsfehan/status/2015386810835231084
+  - https://x.com/pkhwshhal/status/2015771031416496366
+  - https://x.com/iranwire/status/2016235961504399508
+  - https://x.com/LoabatK/status/2016257668772442239
+  - https://t.me/RememberTheirNames/1554
+  - https://x.com/vahidmirzaeii/status/2014406560366092401
+  - https://x.com/EhsanZareei/status/2014445102333083721
+  - https://x.com/visfehan/status/2015492119054450877
+  - https://x.com/roozbeh1963/status/2016994497192743198
+  - https://x.com/i/status/2016968367781851163
+  - https://x.com/VIsfehan/status/2016968367781851163
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

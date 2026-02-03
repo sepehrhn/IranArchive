@@ -1,47 +1,136 @@
 # ==========================================
-# Victim Documentation - Matin Khosravi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000672.jpg"
-  - "vic-2026-0607eec0fa8d.jpg"
-  - "vic-2026-d5f2ec5a2bc5.jpg"
-  - "vic-2026-abca2cbdc7ae.jpg"
-  - "vic-2026-002081.jpg"
-  - "vic-2026-7e2733d2a040.jpg"
-  - "vic-2026-70481c6c6a3d.jpg"
-  - "vic-2026-e8d61c2b36d8.jpg"
+  - vic-2026-000672.jpg
+  - vic-2026-0607eec0fa8d.jpg
+  - vic-2026-d5f2ec5a2bc5.jpg
+  - vic-2026-abca2cbdc7ae.jpg
+  - vic-2026-002081.jpg
+  - vic-2026-7e2733d2a040.jpg
+  - vic-2026-70481c6c6a3d.jpg
+  - vic-2026-e8d61c2b36d8.jpg
+
+# Full Name in English
 name: Matin Khosravi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: متین خسروی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 24
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Gilan and Mazandaran
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot directly by government forces during protests in the city
 
 
   A 24-year-old from Talesh, died on January 8, 2026, after being directly shot by government forces during protests in the city.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranrights_org/status/2012267893845549329, https://x.com/banafshehviola/status/2012584867289084034, https://x.com/iranrights_org/status/2012482857944445049, https://x.com/manotonews/status/2013568308570648865, https://x.com/callyonyourbs/status/2013576903312187886, https://x.com/par_izadi/status/2013569544661393623, https://x.com/IranRights_org/status/2012267893845549329, https://x.com/HengawO/status/2014421367446253740, https://t.me/RememberTheirNames/205"
-  - "https://x.com/manotonews/status/2013568308570648865"
-  - "https://x.com/callyonyourbs/status/2013576903312187886"
-  - "https://x.com/HengawO/status/2014421367446253740"
-  - "https://x.com/ManotoNews/status/2013568308570648865"
-  - "https://t.me/RememberTheirNames/1329"
-  - "https://x.com/iranrights_org/status/2012267893845549329"
-  - "https://x.com/banafshehviola/status/2012584867289084034"
-  - "https://x.com/iranrights_org/status/2012482857944445049"
-  - "https://x.com/IranRights_org/status/2012267893845549329"
-  - "https://x.com/hiitsmemooneh/status/2012671980982403513"
-persian_name: متین خسروی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranrights_org/status/2012267893845549329, https://x.com/banafshehviola/status/2012584867289084034, https://x.com/iranrights_org/status/2012482857944445049, https://x.com/manotonews/status/2013568308570648865, https://x.com/callyonyourbs/status/2013576903312187886, https://x.com/par_izadi/status/2013569544661393623, https://x.com/IranRights_org/status/2012267893845549329, https://x.com/HengawO/status/2014421367446253740, https://t.me/RememberTheirNames/205
+  - https://x.com/manotonews/status/2013568308570648865
+  - https://x.com/callyonyourbs/status/2013576903312187886
+  - https://x.com/HengawO/status/2014421367446253740
+  - https://x.com/ManotoNews/status/2013568308570648865
+  - https://t.me/RememberTheirNames/1329
+  - https://x.com/iranrights_org/status/2012267893845549329
+  - https://x.com/banafshehviola/status/2012584867289084034
+  - https://x.com/iranrights_org/status/2012482857944445049
+  - https://x.com/IranRights_org/status/2012267893845549329
+  - https://x.com/hiitsmemooneh/status/2012671980982403513
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

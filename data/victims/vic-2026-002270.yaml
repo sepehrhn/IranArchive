@@ -1,48 +1,132 @@
 # ==========================================
-# Victim Documentation - Negin Khaksar
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-002270.jpeg"
-  - "vic-2026-449363e9fd7a.jpg"
-  - "vic-2026-167f99bc12b7.jpg"
-  - "vic-2026-0b61eb45db45.jpg"
-  - "vic-2026-3a1c7d36eab1.jpg"
-  - "vic-2026-503fb7224241.jpg"
-  - "vic-2026-723f988ffb02.jpg"
+  - vic-2026-002270.jpeg
+  - vic-2026-449363e9fd7a.jpg
+  - vic-2026-167f99bc12b7.jpg
+  - vic-2026-0b61eb45db45.jpg
+  - vic-2026-3a1c7d36eab1.jpg
+  - vic-2026-503fb7224241.jpg
+  - vic-2026-723f988ffb02.jpg
+
+# Full Name in English
 name: Negin Khaksar
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: null
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: null
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
 disappearance_circumstances: Arrested and transferred to unknown location
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
 suspected_actor: Security Forces
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Missing
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   As of today, there is still no news of her.
   The only information available is that her name appears on a list of detainees. 
   She has had just one brief phone call from prison with her mother.
   No official notice. No clear charge. No information about her condition.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/SabaMajlessi/status/2015072448304095274?s=20"
-  - "https://x.com/negcello/status/2015063162480152686"
-  - "https://x.com/hengaw_english/status/2015805693840769222"
-  - "https://x.com/blcksull/status/2017259953531101561"
-  - "https://x.com/blablabelo/status/2015526899217301986"
-  - "https://x.com/anitaqasmy/status/2017396557075587076"
-  - "https://x.com/SayehsarmmandSa/status/2015174442398151011"
-  - "https://x.com/i/status/2015698133058273299"
-submission:
-  submitted_by: Anonymous
-  received_at: "2026-01-25T02:13:13.558Z"
-  submission_id: b483a509-aed5-461e-b54d-40046315efbd
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/SabaMajlessi/status/2015072448304095274?s=20
+  - https://x.com/negcello/status/2015063162480152686
+  - https://x.com/hengaw_english/status/2015805693840769222
+  - https://x.com/blcksull/status/2017259953531101561
+  - https://x.com/blablabelo/status/2015526899217301986
+  - https://x.com/anitaqasmy/status/2017396557075587076
+  - https://x.com/SayehsarmmandSa/status/2015174442398151011
+  - https://x.com/i/status/2015698133058273299
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

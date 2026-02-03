@@ -1,36 +1,111 @@
 # ==========================================
-# Victim Documentation - Abolfazl Azizi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001322.jpg"
-  - "vic-2026-3a968899fda8.jpg"
-  - "vic-2026-890d2becc334.jpg"
-  - "vic-2026-8c9f6fa1b5a8.jpg"
-  - "vic-2026-0f369e9812ff.jpg"
-  - "vic-2026-2d215a8a9f56.jpg"
-  - "vic-2026-62dc2e402d8f.jpg"
-  - "vic-2026-001823.jpg"
-  - "vic-2026-3782afed5108.jpg"
-  - "vic-2026-88d22cb021e1.jpg"
-  - "vic-2026-522d37307406.jpg"
-  - "vic-2026-2139756.jpg"
-  - "vic-2026-f69594587ea6.jpg"
+  - vic-2026-001322.jpg
+  - vic-2026-3a968899fda8.jpg
+  - vic-2026-890d2becc334.jpg
+  - vic-2026-8c9f6fa1b5a8.jpg
+  - vic-2026-0f369e9812ff.jpg
+  - vic-2026-2d215a8a9f56.jpg
+  - vic-2026-62dc2e402d8f.jpg
+  - vic-2026-001823.jpg
+  - vic-2026-3782afed5108.jpg
+  - vic-2026-88d22cb021e1.jpg
+  - vic-2026-522d37307406.jpg
+  - vic-2026-2139756.jpg
+  - vic-2026-f69594587ea6.jpg
+
+# Full Name in English
 name: Abolfazl Azizi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: ابوالفضل عزیزی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 17
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Gilan and Mazandaran
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: ابوالفضل عزیزی
 
@@ -38,16 +113,30 @@ description: |-
 
 
   Shot directly by government forces with live ammunition during protests. His body was returned to his family after a week. He was only a few weeks away from his 18th birthday.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/HengawO/status/2015022203226513772, https://x.com/HengawO/status/2015461053618901327, https://x.com/sssccpp/status/2015881962758504791, https://t.me/RememberTheirNames/1262, https://x.com/HeKasrehCrisis/status/2015832412266151987, https://x.com/HeKasrehCrisis/status/2015832412266151987"
-  - "https://x.com/HengawO/status/2015022203226513772"
-  - "https://x.com/HengawO/status/2015461053618901327"
-  - "https://x.com/sssccpp/status/2015881962758504791"
-  - "https://x.com/HeKasrehCrisis/status/2015832412266151987"
-  - "https://x.com/iranintlbrk/status/2015812255854567561, https://t.me/RememberTheirNames/582, https://x.com/mrsamsolomon/status/2016614112579530791"
-  - "https://x.com/iranintlbrk/status/2015812255854567561"
-  - "https://x.com/mrsamsolomon/status/2016614112579530791"
-  - "https://x.com/manotonews/status/2016445897333227959, https://t.me/RememberTheirNames/1637"
-  - "https://t.me/RememberTheirNames/1637"
-persian_name: ابوالفضل عزیزی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/HengawO/status/2015022203226513772, https://x.com/HengawO/status/2015461053618901327, https://x.com/sssccpp/status/2015881962758504791, https://t.me/RememberTheirNames/1262, https://x.com/HeKasrehCrisis/status/2015832412266151987, https://x.com/HeKasrehCrisis/status/2015832412266151987
+  - https://x.com/HengawO/status/2015022203226513772
+  - https://x.com/HengawO/status/2015461053618901327
+  - https://x.com/sssccpp/status/2015881962758504791
+  - https://x.com/HeKasrehCrisis/status/2015832412266151987
+  - https://x.com/iranintlbrk/status/2015812255854567561, https://t.me/RememberTheirNames/582, https://x.com/mrsamsolomon/status/2016614112579530791
+  - https://x.com/iranintlbrk/status/2015812255854567561
+  - https://x.com/mrsamsolomon/status/2016614112579530791
+  - https://x.com/manotonews/status/2016445897333227959, https://t.me/RememberTheirNames/1637
+  - https://t.me/RememberTheirNames/1637
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,38 +1,127 @@
 # ==========================================
-# Victim Documentation - Mohammad (Milad) Gholami
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000704.jpg"
-  - "vic-2026-1827da4a0408.webp"
-  - "vic-2026-23160be3308d.jpg"
-  - "vic-2026-65423e062bb7.jpg"
-  - "vic-2026-58f6b91352ff.jpg"
-  - "vic-2026-6b2b0fdcc948.jpg"
-  - "vic-2026-7c602551f71c.jpg"
+  - vic-2026-000704.jpg
+  - vic-2026-1827da4a0408.webp
+  - vic-2026-23160be3308d.jpg
+  - vic-2026-65423e062bb7.jpg
+  - vic-2026-58f6b91352ff.jpg
+  - vic-2026-6b2b0fdcc948.jpg
+  - vic-2026-7c602551f71c.jpg
+
+# Full Name in English
 name: Mohammad (Milad) Gholami
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: محمد (میلاد) غلامی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 25
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Isfahan
 incident_city: Barsian village
 incident_address: East Tehran
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the head with a war bullet by Islamic Republic suppressors
 
 
   Shot directly by government forces with two live rounds to the flank and one to the chest. His body was withheld from the family for a week and they were pressured to claim he was a Basij member.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranwire/status/2013698851073376393, https://x.com/autnews_org/status/2014694261971640649, https://www.instagram.com/p/DT2vV4rjpVv, https://x.com/Tavaana/status/2015593335516475755, https://x.com/tavaana/status/2015593335516475755, https://t.me/RememberTheirNames/909, https://x.com/visfehan/status/2016113277034504315"
-  - "https://www.instagram.com/p/DT2vV4rjpVv"
-  - "https://x.com/autnews_org/status/2014694261971640649"
-persian_name: محمد (میلاد) غلامی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranwire/status/2013698851073376393, https://x.com/autnews_org/status/2014694261971640649, https://www.instagram.com/p/DT2vV4rjpVv, https://x.com/Tavaana/status/2015593335516475755, https://x.com/tavaana/status/2015593335516475755, https://t.me/RememberTheirNames/909, https://x.com/visfehan/status/2016113277034504315
+  - https://www.instagram.com/p/DT2vV4rjpVv
+  - https://x.com/autnews_org/status/2014694261971640649
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

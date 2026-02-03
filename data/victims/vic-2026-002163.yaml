@@ -1,36 +1,125 @@
 # ==========================================
-# Victim Documentation - Sowda Akrami Fard
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-002163.jpg"
-  - "vic-2026-6361dae65679.jpg"
-  - "vic-2026-656b234d1a08.jpg"
-  - "vic-2026-438a3c9094ae.jpg"
-  - "vic-2026-0820e4cdab1b.jpg"
+  - vic-2026-002163.jpg
+  - vic-2026-6361dae65679.jpg
+  - vic-2026-656b234d1a08.jpg
+  - vic-2026-438a3c9094ae.jpg
+  - vic-2026-0820e4cdab1b.jpg
+
+# Full Name in English
 name: Sowda Akrami Fard
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: سودا اکرمی فرد
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 16
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Unknown
-incident_address: ""
-date_of_death: "2025-12-28"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2025-12-28'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: سودا اکرمی فرد
 
   Killed in her neighborhood. Described as the niece of the tweet author's friend. The author states she was not found on Twitter and they are sharing her name. No high-quality photo available.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/isamanyasin/status/2015887016181850312, https://x.com/d3joudi/status/2015837478800801837, https://x.com/pardis__rabiee/status/2015893473509920983, https://x.com/i/status/2015887016181850312, https://x.com/d3Joudi/status/2015837478800801837, https://t.me/RememberTheirNames/1533"
-  - "https://t.me/RememberTheirNames/1533"
-  - "https://x.com/i/status/2016715663222403171"
-  - "https://x.com/daadkhast/status/2015900329745777147"
-persian_name: سودا اکرمی فرد
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/isamanyasin/status/2015887016181850312, https://x.com/d3joudi/status/2015837478800801837, https://x.com/pardis__rabiee/status/2015893473509920983, https://x.com/i/status/2015887016181850312, https://x.com/d3Joudi/status/2015837478800801837, https://t.me/RememberTheirNames/1533
+  - https://t.me/RememberTheirNames/1533
+  - https://x.com/i/status/2016715663222403171
+  - https://x.com/daadkhast/status/2015900329745777147
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

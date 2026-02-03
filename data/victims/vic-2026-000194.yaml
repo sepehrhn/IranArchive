@@ -1,45 +1,134 @@
 # ==========================================
-# Victim Documentation - Omid Azimi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000194.jpg"
-  - "vic-2026-e32bc8435f0c.jpg"
-  - "vic-2026-6e241274a0df.jpg"
-  - "vic-2026-7059422b6985.jpg"
-  - "vic-2026-2bea54f496d1.jpg"
-  - "vic-2026-4b38f024a647.jpg"
-  - "vic-2026-5eae0a695638.jpg"
-  - "vic-2026-95c2f07a1e70.jpg"
-  - "vic-2026-564281b653c9.jpg"
+  - vic-2026-000194.jpg
+  - vic-2026-e32bc8435f0c.jpg
+  - vic-2026-6e241274a0df.jpg
+  - vic-2026-7059422b6985.jpg
+  - vic-2026-2bea54f496d1.jpg
+  - vic-2026-4b38f024a647.jpg
+  - vic-2026-5eae0a695638.jpg
+  - vic-2026-95c2f07a1e70.jpg
+  - vic-2026-564281b653c9.jpg
+
+# Full Name in English
 name: Omid Azimi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: امید عظیمی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 26
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-10"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-10'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed during protests (specific circumstances not detailed)
 
 
   Killed by Islamic Republic armed forces. Worked as a barber and lived with his ill old mother.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/manotonews/status/2011822431699157380, https://x.com/fseifikaran/status/2013911306282078307, https://x.com/Soranmansournia/status/2013932219111256249, https://x.com/HenMazzig/status/2014420341024535013, https://x.com/tinafay1978/status/2014831308355318024, https://x.com/soranmansournia/status/2014845352868798739, https://t.me/RememberTheirNames/351, https://x.com/senooyekta/status/2016157854055448869"
-  - "https://x.com/manotonews/status/2011822431699157380"
-  - "https://x.com/fseifikaran/status/2013911306282078307"
-  - "https://x.com/Soranmansournia/status/2013932219111256249"
-  - "https://x.com/HenMazzig/status/2014420341024535013"
-  - "https://x.com/soranmansournia/status/2014845352868798739"
-  - "https://x.com/senooyekta/status/2016157854055448869"
-  - "https://x.com/persian_picture/status/2017348357199409266"
-persian_name: امید عظیمی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/manotonews/status/2011822431699157380, https://x.com/fseifikaran/status/2013911306282078307, https://x.com/Soranmansournia/status/2013932219111256249, https://x.com/HenMazzig/status/2014420341024535013, https://x.com/tinafay1978/status/2014831308355318024, https://x.com/soranmansournia/status/2014845352868798739, https://t.me/RememberTheirNames/351, https://x.com/senooyekta/status/2016157854055448869
+  - https://x.com/manotonews/status/2011822431699157380
+  - https://x.com/fseifikaran/status/2013911306282078307
+  - https://x.com/Soranmansournia/status/2013932219111256249
+  - https://x.com/HenMazzig/status/2014420341024535013
+  - https://x.com/soranmansournia/status/2014845352868798739
+  - https://x.com/senooyekta/status/2016157854055448869
+  - https://x.com/persian_picture/status/2017348357199409266
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

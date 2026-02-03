@@ -1,43 +1,132 @@
 # ==========================================
-# Victim Documentation - Habib Khoobi-pour
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000130.jpg"
-  - "vic-2026-f1414ef5f72a.jpg"
-  - "vic-2026-989187d3aad0.jpg"
-  - "vic-2026-78281db467fc.jpg"
-  - "vic-2026-eb4534f428fc.jpg"
-  - "vic-2026-01319410512a.jpg"
+  - vic-2026-000130.jpg
+  - vic-2026-f1414ef5f72a.jpg
+  - vic-2026-989187d3aad0.jpg
+  - vic-2026-78281db467fc.jpg
+  - vic-2026-eb4534f428fc.jpg
+  - vic-2026-01319410512a.jpg
+
+# Full Name in English
 name: Habib Khoobi-pour
-birth_date: ""
-birth_province: ""
+
+# Full Name in Persian (Optional)
+persian_name: حبیب خوبی‌پور
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
 birth_city: gunshot wounds
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 27
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Lekak
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by Islamic Republic forces during protests on January 8, 2026, hospitalized for several days before dying from gunshot wounds
 
 
   Shot during protests on the night of 18 Dey 1404 (January 8, 2026) and died several days later on 24 Dey 1404 (January 14, 2026) due to severe injuries. His body was buried on 25 Dey 1404 (January 15, 2026). Described as a PhD student and mathematics prodigy. One account states he was shot in the heart at close range while in IRGC custody.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/dariush_zand/status/2014125568178999563, https://x.com/iranintlbrk/status/2014302580596195699, https://x.com/anjmotahed/status/2014301198669537569, https://x.com/Tavaana/status/2014168011327041699, https://x.com/autnews_org/status/2015599934620193012, https://x.com/allahbakhshii/status/2014765201342824715, https://x.com/hirman__/status/2014364585671737589, https://t.me/RememberTheirNames/657, https://x.com/Hemadnazari/status/2014999801884975539"
-  - "https://x.com/Tavaana/status/2014168011327041699"
-  - "https://x.com/iranintlbrk/status/2014302580596195699"
-  - "https://x.com/hemadnazari/status/2014999801884975539"
-  - "https://x.com/autnews_org/status/2015599934620193012"
-  - "https://x.com/allahbakhshii/status/2014765201342824715"
-  - "https://x.com/hirman__/status/2014364585671737589"
-  - "https://x.com/Hemadnazari/status/2014999801884975539"
-  - "https://x.com/khobzadeh/status/2014830663145291841"
-persian_name: حبیب خوبی‌پور
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/dariush_zand/status/2014125568178999563, https://x.com/iranintlbrk/status/2014302580596195699, https://x.com/anjmotahed/status/2014301198669537569, https://x.com/Tavaana/status/2014168011327041699, https://x.com/autnews_org/status/2015599934620193012, https://x.com/allahbakhshii/status/2014765201342824715, https://x.com/hirman__/status/2014364585671737589, https://t.me/RememberTheirNames/657, https://x.com/Hemadnazari/status/2014999801884975539
+  - https://x.com/Tavaana/status/2014168011327041699
+  - https://x.com/iranintlbrk/status/2014302580596195699
+  - https://x.com/hemadnazari/status/2014999801884975539
+  - https://x.com/autnews_org/status/2015599934620193012
+  - https://x.com/allahbakhshii/status/2014765201342824715
+  - https://x.com/hirman__/status/2014364585671737589
+  - https://x.com/Hemadnazari/status/2014999801884975539
+  - https://x.com/khobzadeh/status/2014830663145291841
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

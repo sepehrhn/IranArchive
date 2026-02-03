@@ -1,52 +1,141 @@
 # ==========================================
-# Victim Documentation - Faeezeh Mostaan
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000597.jpg"
-  - "vic-2026-818de00ffc5d.jpg"
-  - "vic-2026-a1198f9a9788.jpg"
-  - "vic-2026-e27ac1e9a81f.jpg"
-  - "vic-2026-3ac2a61eb7b0.jpg"
-  - "vic-2026-c560b61c3921.jpg"
-  - "vic-2026-30638746b094.jpg"
-  - "vic-2026-ab7d2c675c28.jpg"
-  - "vic-2026-461cf1eafc53.jpg"
-  - "vic-2026-ca3337dbb348.jpg"
-  - "vic-2026-400eef559367.jpg"
-  - "vic-2026-78b50f7c7b49.jpg"
-  - "vic-2026-47fb18246752.jpg"
-  - "vic-2026-93f122b33dc9.jpg"
-  - "vic-2026-6202e246a0b0.jpg"
+  - vic-2026-000597.jpg
+  - vic-2026-818de00ffc5d.jpg
+  - vic-2026-a1198f9a9788.jpg
+  - vic-2026-e27ac1e9a81f.jpg
+  - vic-2026-3ac2a61eb7b0.jpg
+  - vic-2026-c560b61c3921.jpg
+  - vic-2026-30638746b094.jpg
+  - vic-2026-ab7d2c675c28.jpg
+  - vic-2026-461cf1eafc53.jpg
+  - vic-2026-ca3337dbb348.jpg
+  - vic-2026-400eef559367.jpg
+  - vic-2026-78b50f7c7b49.jpg
+  - vic-2026-47fb18246752.jpg
+  - vic-2026-93f122b33dc9.jpg
+  - vic-2026-6202e246a0b0.jpg
+
+# Full Name in English
 name: Faeezeh Mostaan
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: فائزه مستعان
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 20
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Gohardasht
 incident_address: Gohardasht
-date_of_death: "2025-12-28"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2025-12-28'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed by the Islamic regime of Iran during a peaceful protest.
 
 
   Shot in the chest with an AK47 rifle from a rooftop. The sender states she was 20 years old and a close friend.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/amymous021/status/2013719743929123304, https://x.com/lipsticknlashes/status/2014418306288046112, https://x.com/HengawO/status/2014670380019925226, https://x.com/olilondontv/status/2014842334773391780, https://x.com/outofken/status/2015028880705561007, https://x.com/MayaThefish/status/2015874286158807318, https://x.com/ariaTis223243/status/2014463189816377779, https://t.me/RememberTheirNames/677"
-  - "https://x.com/amymous021/status/2013719743929123304"
-  - "https://x.com/lipsticknlashes/status/2014418306288046112"
-  - "https://x.com/HengawO/status/2014670380019925226"
-  - "https://x.com/olilondontv/status/2014842334773391780"
-  - "https://x.com/outofken/status/2015028880705561007"
-  - "https://x.com/MayaThefish/status/2015874286158807318"
-  - "https://x.com/ariaTis223243/status/2014463189816377779"
-  - "https://x.com/ImanOracle/status/2014777309153395063"
-persian_name: فائزه مستعان
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/amymous021/status/2013719743929123304, https://x.com/lipsticknlashes/status/2014418306288046112, https://x.com/HengawO/status/2014670380019925226, https://x.com/olilondontv/status/2014842334773391780, https://x.com/outofken/status/2015028880705561007, https://x.com/MayaThefish/status/2015874286158807318, https://x.com/ariaTis223243/status/2014463189816377779, https://t.me/RememberTheirNames/677
+  - https://x.com/amymous021/status/2013719743929123304
+  - https://x.com/lipsticknlashes/status/2014418306288046112
+  - https://x.com/HengawO/status/2014670380019925226
+  - https://x.com/olilondontv/status/2014842334773391780
+  - https://x.com/outofken/status/2015028880705561007
+  - https://x.com/MayaThefish/status/2015874286158807318
+  - https://x.com/ariaTis223243/status/2014463189816377779
+  - https://x.com/ImanOracle/status/2014777309153395063
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

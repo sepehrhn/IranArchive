@@ -1,47 +1,136 @@
 # ==========================================
-# Victim Documentation - Nihayat Rahimi Dashti
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000769.jpg"
-  - "vic-2026-3d9f7c19ef41.jpg"
-  - "vic-2026-22826f021662.jpg"
-  - "vic-2026-30638746b094.jpg"
-  - "vic-2026-592b966e297d.jpg"
-  - "vic-2026-ab7d2c675c28.jpg"
-  - "vic-2026-69243a4fd046.jpg"
-  - "vic-2026-201d4f2d2f2a.jpg"
-  - "vic-2026-606adc44cd54.jpg"
-  - "vic-2026-255bdba2d174.jpg"
+  - vic-2026-000769.jpg
+  - vic-2026-3d9f7c19ef41.jpg
+  - vic-2026-22826f021662.jpg
+  - vic-2026-30638746b094.jpg
+  - vic-2026-592b966e297d.jpg
+  - vic-2026-ab7d2c675c28.jpg
+  - vic-2026-69243a4fd046.jpg
+  - vic-2026-201d4f2d2f2a.jpg
+  - vic-2026-606adc44cd54.jpg
+  - vic-2026-255bdba2d174.jpg
+
+# Full Name in English
 name: Nihayat Rahimi Dashti
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: نهایت رحیمی دشتی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 37
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Gorgan
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the neck by Islamic Republic mercenaries on the night of 18 Dey 1404 (January 8, 2026) and died in Panj Azar Hospital in Gorgan on Wednesday, 24 Dey (January 14, 2026).
 
 
   Shot in the neck with live ammunition during protests in Gorgan on January 8, 2026. She was hospitalized at 5 Azar Hospital but died on January 14, 2026 from her injuries.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/hyrcanihrm/status/2014594772057354506, https://x.com/babaktaghvaee1/status/2014768525341024524, https://x.com/HyrcaniHRM/status/2014594772057354506, https://www.instagram.com/p/DT28IjVjF6U, https://x.com/HengawO/status/2014670380019925226, https://x.com/olilondontv/status/2014842334773391780, https://x.com/Persuasion_elli/status/2015180293167091748, https://t.me/MihanParastanX/86014, https://t.me/RememberTheirNames/835, https://x.com/hoorieh81/status/2015776668887998628, https://x.com/NoaMagid/status/2016087080300851336"
-  - "https://x.com/HyrcaniHRM/status/2014594772057354506"
-  - "https://www.instagram.com/p/DT28IjVjF6U"
-  - "https://x.com/HengawO/status/2014670380019925226"
-  - "https://x.com/babaktaghvaee1/status/2014768525341024524"
-  - "https://x.com/olilondontv/status/2014842334773391780"
-  - "https://t.me/MihanParastanX/86014"
-  - "https://x.com/hoorieh81/status/2015776668887998628"
-  - "https://x.com/NoaMagid/status/2016087080300851336"
-persian_name: نهایت رحیمی دشتی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/hyrcanihrm/status/2014594772057354506, https://x.com/babaktaghvaee1/status/2014768525341024524, https://x.com/HyrcaniHRM/status/2014594772057354506, https://www.instagram.com/p/DT28IjVjF6U, https://x.com/HengawO/status/2014670380019925226, https://x.com/olilondontv/status/2014842334773391780, https://x.com/Persuasion_elli/status/2015180293167091748, https://t.me/MihanParastanX/86014, https://t.me/RememberTheirNames/835, https://x.com/hoorieh81/status/2015776668887998628, https://x.com/NoaMagid/status/2016087080300851336
+  - https://x.com/HyrcaniHRM/status/2014594772057354506
+  - https://www.instagram.com/p/DT28IjVjF6U
+  - https://x.com/HengawO/status/2014670380019925226
+  - https://x.com/babaktaghvaee1/status/2014768525341024524
+  - https://x.com/olilondontv/status/2014842334773391780
+  - https://t.me/MihanParastanX/86014
+  - https://x.com/hoorieh81/status/2015776668887998628
+  - https://x.com/NoaMagid/status/2016087080300851336
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

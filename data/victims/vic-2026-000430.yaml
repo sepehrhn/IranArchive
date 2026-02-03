@@ -1,50 +1,139 @@
 # ==========================================
-# Victim Documentation - Sahba Rashtian
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000430.jpg"
-  - "vic-2026-2ae30d04619a.jpg"
-  - "vic-2026-a51e8820098d.jpg"
-  - "vic-2026-c0043a078490.jpg"
-  - "vic-2026-937e67677e74.jpg"
-  - "vic-2026-28694ae9cc43.jpg"
-  - "vic-2026-c0cbf7217cca.png"
-  - "vic-2026-e563cfb4b680.jpg"
-  - "vic-2026-1e145370fb12.png"
-  - "vic-2026-23b646b2be61.jpg"
-  - "vic-2026-e15b564e1bec.jpg"
-  - "vic-2026-41636cd10f41.jpg"
-  - "vic-2026-44dc6ea894fa.jpg"
-  - "vic-2026-26f786c01abe.jpg"
+  - vic-2026-000430.jpg
+  - vic-2026-2ae30d04619a.jpg
+  - vic-2026-a51e8820098d.jpg
+  - vic-2026-c0043a078490.jpg
+  - vic-2026-937e67677e74.jpg
+  - vic-2026-28694ae9cc43.jpg
+  - vic-2026-c0cbf7217cca.png
+  - vic-2026-e563cfb4b680.jpg
+  - vic-2026-1e145370fb12.png
+  - vic-2026-23b646b2be61.jpg
+  - vic-2026-e15b564e1bec.jpg
+  - vic-2026-41636cd10f41.jpg
+  - vic-2026-44dc6ea894fa.jpg
+  - vic-2026-26f786c01abe.jpg
+
+# Full Name in English
 name: Sahba Rashtian
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: صهبا رشتیان
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 23
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Isfahan
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the side with live ammunition by Islamic Republic suppressive forces during popular uprising
 
 
   Mother of Sahba Rashtian stated, 'I gave my child to Motherland.' Sahba Rashtian is referred to as 'immortalized'.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/longlosthills/status/2011898777574297836, https://x.com/zananfirouzehie/status/2012121313499091292, https://hengaw.net/en/news/2026/01/article-121, https://x.com/indypersian/status/2012249171768856796, https://x.com/manotonews/status/2013189146299294069, https://x.com/Daikatuo/status/2012211183286091831, https://x.com/Farhad5778/status/2015154127366414835, https://t.me/RememberTheirNames/309"
-  - "https://x.com/longlosthills/status/2011898777574297836"
-  - "https://x.com/zananfirouzehie/status/2012121313499091292"
-  - "https://x.com/Daikatuo/status/2012211183286091831"
-  - "https://x.com/indypersian/status/2012249171768856796"
-  - "https://x.com/manotonews/status/2013189146299294069"
-  - "https://x.com/hiitsmemooneh/status/2012323552465125612"
-  - "https://x.com/Farhad5778/status/2015154127366414835"
-persian_name: صهبا رشتیان
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/longlosthills/status/2011898777574297836, https://x.com/zananfirouzehie/status/2012121313499091292, https://hengaw.net/en/news/2026/01/article-121, https://x.com/indypersian/status/2012249171768856796, https://x.com/manotonews/status/2013189146299294069, https://x.com/Daikatuo/status/2012211183286091831, https://x.com/Farhad5778/status/2015154127366414835, https://t.me/RememberTheirNames/309
+  - https://x.com/longlosthills/status/2011898777574297836
+  - https://x.com/zananfirouzehie/status/2012121313499091292
+  - https://x.com/Daikatuo/status/2012211183286091831
+  - https://x.com/indypersian/status/2012249171768856796
+  - https://x.com/manotonews/status/2013189146299294069
+  - https://x.com/hiitsmemooneh/status/2012323552465125612
+  - https://x.com/Farhad5778/status/2015154127366414835
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

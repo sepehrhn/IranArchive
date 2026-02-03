@@ -1,35 +1,124 @@
 # ==========================================
-# Victim Documentation - Mohammad Reza Davashi Bakhtiari
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001159.jpg"
-  - "vic-2026-002235.jpg"
-  - "vic-2026-5b9c6c44fc30.jpg"
-  - "vic-2026-f619caca3af7.jpg"
-  - "vic-2026-336ca14dc6c6.jpg"
+  - vic-2026-001159.jpg
+  - vic-2026-002235.jpg
+  - vic-2026-5b9c6c44fc30.jpg
+  - vic-2026-f619caca3af7.jpg
+  - vic-2026-336ca14dc6c6.jpg
+
+# Full Name in English
 name: Mohammad Reza Davashi Bakhtiari
+
+# Full Name in Persian (Optional)
 persian_name: محمدرضا دواشی بختیاری
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: null
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Yazdanshahr
 incident_address: Isfahan
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Killed during protests in Isfahan. Exact date and circumstances not specified.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/foreverybd/status/2013209531367522740"
-  - "https://x.com/foreverybd/status/2013209531367522740, https://x.com/allahbakhshii/status/2013199912712773904, https://x.com/hengawo/status/2013618561839677909, https://x.com/HengawO/status/2013618561839677909, https://t.me/RememberTheirNames/321"
-  - "https://x.com/allahbakhshii/status/2013199912712773904"
-  - "https://x.com/hengawo/status/2013618561839677909"
-  - "https://x.com/HengawO/status/2013618561839677909"
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/foreverybd/status/2013209531367522740
+  - https://x.com/foreverybd/status/2013209531367522740, https://x.com/allahbakhshii/status/2013199912712773904, https://x.com/hengawo/status/2013618561839677909, https://x.com/HengawO/status/2013618561839677909, https://t.me/RememberTheirNames/321
+  - https://x.com/allahbakhshii/status/2013199912712773904
+  - https://x.com/hengawo/status/2013618561839677909
+  - https://x.com/HengawO/status/2013618561839677909
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

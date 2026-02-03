@@ -1,51 +1,140 @@
 # ==========================================
-# Victim Documentation - Ali Zanganeh
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000504.jpg"
-  - "vic-2026-18c016a333ff.jpg"
-  - "vic-2026-0a23ea7d6beb.jpg"
-  - "vic-2026-e7958e392ed3.png"
-  - "vic-2026-2139852.jpg"
-  - "vic-2026-1e1ab51f5a6a.png"
-  - "vic-2026-46f558086efd.jpg"
-  - "vic-2026-14c87f4dbb96.jpg"
-  - "vic-2026-a0846b61c004.jpg"
-  - "vic-2026-ca49ec38cb8e.jpg"
-  - "vic-2026-c76594324a8c.jpg"
-  - "vic-2026-d3deae4a57ec.jpg"
+  - vic-2026-000504.jpg
+  - vic-2026-18c016a333ff.jpg
+  - vic-2026-0a23ea7d6beb.jpg
+  - vic-2026-e7958e392ed3.png
+  - vic-2026-2139852.jpg
+  - vic-2026-1e1ab51f5a6a.png
+  - vic-2026-46f558086efd.jpg
+  - vic-2026-14c87f4dbb96.jpg
+  - vic-2026-a0846b61c004.jpg
+  - vic-2026-ca49ec38cb8e.jpg
+  - vic-2026-c76594324a8c.jpg
+  - vic-2026-d3deae4a57ec.jpg
+
+# Full Name in English
 name: Ali Zanganeh
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: علی زنگنه
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 24
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran or Mashhad
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot with war bullets from behind and side while in Emamiyeh Square - electrical engineering student
 
 
   Shot in the back and side with live ammunition. Student of Electrical Engineering. Hit by live ammunition in Imamieh Square.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranwire/status/2013696492058390755, https://x.com/HengawO/status/2013727681393700938, https://x.com/Azargoy/status/2014105643494289912, https://t.me/RememberTheirNames/432, https://x.com/mousavi1355/status/2016336382256427304"
-  - "https://x.com/HengawO/status/2013727681393700938"
-  - "https://x.com/mousavi1355/status/2016336382256427304"
-  - "https://t.me/RememberTheirNames/306, https://www.instagram.com/p/DTi_uFAiKKF"
-  - "https://www.instagram.com/p/DTi_uFAiKKF"
-  - "https://x.com/ManotoNews/status/2014941235132387643, https://x.com/sama19861365/status/2014997785918022064, https://x.com/autnews_org/status/2015840798353289417, https://x.com/anjmotahed/status/2015834503902540161, https://t.me/RememberTheirNames/941"
-  - "https://x.com/ManotoNews/status/2014941235132387643"
-  - "https://x.com/sama19861365/status/2014997785918022064"
-  - "https://x.com/autnews_org/status/2015840798353289417"
-  - "https://x.com/anjmotahed/status/2015834503902540161"
-  - "https://x.com/Azargoy/status/2014105643494289912"
-persian_name: علی زنگنه
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranwire/status/2013696492058390755, https://x.com/HengawO/status/2013727681393700938, https://x.com/Azargoy/status/2014105643494289912, https://t.me/RememberTheirNames/432, https://x.com/mousavi1355/status/2016336382256427304
+  - https://x.com/HengawO/status/2013727681393700938
+  - https://x.com/mousavi1355/status/2016336382256427304
+  - https://t.me/RememberTheirNames/306, https://www.instagram.com/p/DTi_uFAiKKF
+  - https://www.instagram.com/p/DTi_uFAiKKF
+  - https://x.com/ManotoNews/status/2014941235132387643, https://x.com/sama19861365/status/2014997785918022064, https://x.com/autnews_org/status/2015840798353289417, https://x.com/anjmotahed/status/2015834503902540161, https://t.me/RememberTheirNames/941
+  - https://x.com/ManotoNews/status/2014941235132387643
+  - https://x.com/sama19861365/status/2014997785918022064
+  - https://x.com/autnews_org/status/2015840798353289417
+  - https://x.com/anjmotahed/status/2015834503902540161
+  - https://x.com/Azargoy/status/2014105643494289912
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

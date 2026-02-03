@@ -1,28 +1,117 @@
 # ==========================================
-# Victim Documentation - Shahin Ramtin Keshavarz
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-2140011.jpg"
-  - "vic-2026-6e7490893fc5.webp"
+  - vic-2026-2140011.jpg
+  - vic-2026-6e7490893fc5.webp
+
+# Full Name in English
 name: Shahin Ramtin Keshavarz
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: رامتین کشاورز
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 32
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Gilan
 incident_city: Kelachaei
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: Shot and killed by plainclothes officers in a white Samand car on the night of 18th Dey. Family retrieved his body with great difficulty and buried him at 3-4 AM without anyone present, maintaining complete media silence. Intelligence officers threatened the family that if anyone holds ceremonies or posts any announcements, they would arrest his brother and father. He had completed all his marriage and engagement preparations and was planning to finalize everything in the next few days when he was killed by the Islamic Republic.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/HyrcaniHRM/status/2015725416229536212, https://x.com/hyrcanihrm/status/2015725416229536212, https://www.instagram.com/p/DUA40gCgn9I, https://x.com/ariakeoxer/status/2016444935202030078"
-  - "https://www.instagram.com/p/DUA40gCgn9I"
-persian_name: رامتین کشاورز
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/HyrcaniHRM/status/2015725416229536212, https://x.com/hyrcanihrm/status/2015725416229536212, https://www.instagram.com/p/DUA40gCgn9I, https://x.com/ariakeoxer/status/2016444935202030078
+  - https://www.instagram.com/p/DUA40gCgn9I
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,42 +1,131 @@
 # ==========================================
-# Victim Documentation - Soheil Zilabi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000451.jpg"
-  - "vic-2026-4422093aae9a.jpg"
-  - "vic-2026-80d4be0737f9.jpg"
-  - "vic-2026-72ce0a8be400.jpg"
-  - "vic-2026-0965c9ea0f30.jpg"
-  - "vic-2026-2bcf9b2ed7e6.jpg"
+  - vic-2026-000451.jpg
+  - vic-2026-4422093aae9a.jpg
+  - vic-2026-80d4be0737f9.jpg
+  - vic-2026-72ce0a8be400.jpg
+  - vic-2026-0965c9ea0f30.jpg
+  - vic-2026-2bcf9b2ed7e6.jpg
+
+# Full Name in English
 name: Soheil Zilabi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: سهیل زیلابی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 24
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Isfahan
 incident_city: Yazdanshahr
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the head by security forces during protests on Motahari Boulevard in Yazdanshahr, transferred to Fateme Alzahra Hospital where he died
 
 
   Shot directly in the head by security forces during protests in Yazdanshar, died later that night at Fatemeh Zahra Hospital. His body was returned to his family five days later after they visited Baghe Rezvan cemetery in Isfahan.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranintl/status/2012602084890153297, https://x.com/banafshehviola/status/2012728529033851350, https://x.com/manotonews/status/2013181673395847576, https://x.com/allahbakhshii/status/2014302599390835174, https://x.com/IranIntl_En/status/2012616160345276867, https://x.com/IranIntl/status/2012602084890153297, https://x.com/HengawO/status/2014772586857598984, https://x.com/hirman__/status/2016015145294495928, https://x.com/sayesohrabi/status/2014363234443088234, https://t.me/RememberTheirNames/303"
-  - "https://x.com/IranIntl_En/status/2012616160345276867"
-  - "https://x.com/iranintl/status/2012602084890153297"
-  - "https://x.com/banafshehviola/status/2012728529033851350"
-  - "https://x.com/manotonews/status/2013181673395847576"
-  - "https://x.com/allahbakhshii/status/2014302599390835174"
-  - "https://x.com/sayesohrabi/status/2014363234443088234"
-  - "https://x.com/IranIntl/status/2012602084890153297"
-persian_name: سهیل زیلابی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranintl/status/2012602084890153297, https://x.com/banafshehviola/status/2012728529033851350, https://x.com/manotonews/status/2013181673395847576, https://x.com/allahbakhshii/status/2014302599390835174, https://x.com/IranIntl_En/status/2012616160345276867, https://x.com/IranIntl/status/2012602084890153297, https://x.com/HengawO/status/2014772586857598984, https://x.com/hirman__/status/2016015145294495928, https://x.com/sayesohrabi/status/2014363234443088234, https://t.me/RememberTheirNames/303
+  - https://x.com/IranIntl_En/status/2012616160345276867
+  - https://x.com/iranintl/status/2012602084890153297
+  - https://x.com/banafshehviola/status/2012728529033851350
+  - https://x.com/manotonews/status/2013181673395847576
+  - https://x.com/allahbakhshii/status/2014302599390835174
+  - https://x.com/sayesohrabi/status/2014363234443088234
+  - https://x.com/IranIntl/status/2012602084890153297
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

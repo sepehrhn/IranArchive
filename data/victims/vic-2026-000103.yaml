@@ -1,36 +1,126 @@
 # ==========================================
-# Victim Documentation - Amir Abbaspour
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000103.jpg"
-  - "vic-2026-ed45fb257756.jpg"
-  - "vic-2026-9b0df6555350.jpg"
-  - "vic-2026-9d155badce8c.jpg"
-  - "vic-2026-001258.jpg"
-  - "vic-2026-7987a772b645.jpg"
+  - vic-2026-000103.jpg
+  - vic-2026-ed45fb257756.jpg
+  - vic-2026-9b0df6555350.jpg
+  - vic-2026-9d155badce8c.jpg
+  - vic-2026-001258.jpg
+  - vic-2026-7987a772b645.jpg
+
+# Full Name in English
 name: Amir Abbaspour
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+
+# Full Name in Persian (Optional)
+persian_name: null
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 26
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Karaj
 incident_address: Gohardasht
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Killed in recent days; further details not yet available
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/monfaredashkan/status/2014835442647237063"
-  - "https://x.com/pouriazeraati/status/2015034629275754688"
-  - "https://x.com/iranintl/status/2015122429497024849"
-  - "https://x.com/MonfaredAshkan/status/2014835442647237063"
-  - "https://x.com/monfaredashkan/status/2014835442647237063, https://x.com/monfaredashkan/status/2014837746100273656, https://x.com/pouriazeraati/status/2015034629275754688, https://x.com/iranintl/status/2015122429497024849, https://x.com/MonfaredAshkan/status/2014837746100273656, https://x.com/HengawO/status/2015480363087204829, https://x.com/MonfaredAshkan/status/2014835442647237063, https://t.me/RememberTheirNames/1261, https://t.me/RememberTheirNames/731"
-  - "https://x.com/HengawO/status/2015480363087204829"
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/monfaredashkan/status/2014835442647237063
+  - https://x.com/pouriazeraati/status/2015034629275754688
+  - https://x.com/iranintl/status/2015122429497024849
+  - https://x.com/MonfaredAshkan/status/2014835442647237063
+  - https://x.com/monfaredashkan/status/2014835442647237063, https://x.com/monfaredashkan/status/2014837746100273656, https://x.com/pouriazeraati/status/2015034629275754688, https://x.com/iranintl/status/2015122429497024849, https://x.com/MonfaredAshkan/status/2014837746100273656, https://x.com/HengawO/status/2015480363087204829, https://x.com/MonfaredAshkan/status/2014835442647237063, https://t.me/RememberTheirNames/1261, https://t.me/RememberTheirNames/731
+  - https://x.com/HengawO/status/2015480363087204829
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

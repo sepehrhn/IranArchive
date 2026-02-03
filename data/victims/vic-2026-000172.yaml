@@ -1,52 +1,141 @@
 # ==========================================
-# Victim Documentation - Alireza Sadeghi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000172.jpg"
-  - "vic-2026-2915cf87f0e0.jpg"
-  - "vic-2026-a0f4dee39ac7.jpg"
-  - "vic-2026-9255a93108ff.png"
-  - "vic-2026-ec9eb75ddfc8.png"
-  - "vic-2026-f2593fc80ef6.png"
-  - "vic-2026-4ea847d746a4.jpg"
-  - "vic-2026-001333.jpg"
-  - "vic-2026-001477.jpeg"
-  - "vic-2026-bdc5ad1c3f6d.jpg"
-  - "vic-2026-2140056.jpg"
-  - "vic-2026-5df9c823b820.jpg"
-  - "vic-2026-f75275880a29.jpg"
-  - "vic-2026-e1ca7ac2192a.jpg"
+  - vic-2026-000172.jpg
+  - vic-2026-2915cf87f0e0.jpg
+  - vic-2026-a0f4dee39ac7.jpg
+  - vic-2026-9255a93108ff.png
+  - vic-2026-ec9eb75ddfc8.png
+  - vic-2026-f2593fc80ef6.png
+  - vic-2026-4ea847d746a4.jpg
+  - vic-2026-001333.jpg
+  - vic-2026-001477.jpeg
+  - vic-2026-bdc5ad1c3f6d.jpg
+  - vic-2026-2140056.jpg
+  - vic-2026-5df9c823b820.jpg
+  - vic-2026-f75275880a29.jpg
+  - vic-2026-e1ca7ac2192a.jpg
+
+# Full Name in English
 name: Alireza Sadeghi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: علیرضا صادقی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 28
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Malayer
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot by Islamic Republic suppression forces on Andarzgoo Boulevard in Tehran alongside his close friend Mohammad Golriz
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/indypersian/status/2013042864733688021, https://x.com/manotonews/status/2014299506796384369, https://x.com/Mousavi1355/status/2016002240213860355, https://t.me/RememberTheirNames/977, https://t.me/RememberTheirNames/339"
-  - "https://x.com/manotonews/status/2014299506796384369"
-  - "https://x.com/Mousavi1355/status/2016002240213860355"
-  - "https://x.com/hekasrehcrisis/status/2017250279830212989"
-  - "https://x.com/hekasrehcrisis/status/2015471667200319767"
-  - "https://x.com/hekasrehcrisis/status/2016005814767452442, https://t.me/RememberTheirNames/944, https://x.com/STILL_LOUIE/status/2016100752914317388, https://x.com/pedram_fs/status/2015777766042472790"
-  - "https://x.com/hekasrehcrisis/status/2016005814767452442"
-  - "https://x.com/HeKasrehCrisis/status/2016005814767452442"
-  - "https://x.com/i/status/2016344289110868295, https://t.me/RememberTheirNames/1604"
-  - "https://x.com/i/status/2016344289110868295"
-  - "https://t.me/RememberTheirNames/1604"
-  - "https://x.com/iampayaam/status/2017322590142857236"
-  - "https://t.me/RememberTheirNames/1611"
-persian_name: علیرضا صادقی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/indypersian/status/2013042864733688021, https://x.com/manotonews/status/2014299506796384369, https://x.com/Mousavi1355/status/2016002240213860355, https://t.me/RememberTheirNames/977, https://t.me/RememberTheirNames/339
+  - https://x.com/manotonews/status/2014299506796384369
+  - https://x.com/Mousavi1355/status/2016002240213860355
+  - https://x.com/hekasrehcrisis/status/2017250279830212989
+  - https://x.com/hekasrehcrisis/status/2015471667200319767
+  - https://x.com/hekasrehcrisis/status/2016005814767452442, https://t.me/RememberTheirNames/944, https://x.com/STILL_LOUIE/status/2016100752914317388, https://x.com/pedram_fs/status/2015777766042472790
+  - https://x.com/hekasrehcrisis/status/2016005814767452442
+  - https://x.com/HeKasrehCrisis/status/2016005814767452442
+  - https://x.com/i/status/2016344289110868295, https://t.me/RememberTheirNames/1604
+  - https://x.com/i/status/2016344289110868295
+  - https://t.me/RememberTheirNames/1604
+  - https://x.com/iampayaam/status/2017322590142857236
+  - https://t.me/RememberTheirNames/1611
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+
