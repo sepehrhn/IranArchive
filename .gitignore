@@ -27,7 +27,8 @@ logs
 .env.submissions
 
 # Maintenance & Temporary Files
-scripts/
+scripts/*
+!scripts/submissions/
 !scripts/validate-data.js
 !scripts/generate-metadata.js
 !scripts/import_events.js
