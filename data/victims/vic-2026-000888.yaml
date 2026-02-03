@@ -1,5 +1,5 @@
 # ==========================================
-# Victim Documentation Template
+# Victim Documentation
 # ==========================================
 # File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
 # Location: \data\victims\
@@ -42,7 +42,7 @@ gender: "Male"
 age: 18
 
 # Occupation (Optional)
-occupation: "High school student (final year)"
+occupation: "High School Student"
 
 # -----------------------------------------------------------------------------
 # Location & Timing
@@ -73,13 +73,13 @@ cause_of_death: "Gunshot"
 # -----------------------------------------------------------------------------
 
 # Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' |
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
 #          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
+disappearance_circumstances: ""
 
 # Suspected Actor (Optional, for status: Missing)
 # Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
+suspected_actor: ""
 
 # -----------------------------------------------------------------------------
 # Status
@@ -96,15 +96,15 @@ status: "Killed"
 
 # Detailed incident description. Supports basic markdown.
 description: |
-  Mohammad Erfan Faraji (18) was killed by gunfire during protests in south Tehran, in the Naziabad area around Meidan-e Behesht (Behesht Square).
-
-  According to reports, he was filming/recording the protests when he was shot from behind at close range at around 8:00 p.m. on 2026/01/08. The bullet reportedly passed through his heart and exited his chest. Bystanders carried him to a nearby home, and he was later taken to Amir al-Momenin Hospital, where the family was informed he had died instantly.
-
+  Mohammad Erfan Faraji (18) was killed by gunfire during protests in south Tehran, in the Naziabad area around Behesht Square.
+  
+  According to reports, he was recording the protests when he was shot from behind at close range at around 8:00 p.m. on 2026/01/08. The bullet reportedly passed through his heart and exited his chest. Bystanders carried him to a nearby home, and he was later taken to Amir al-Momenin Hospital, where the family was informed he had died instantly.
+  
   Erfan was a resident of Shahr-e Rey. His family had been preparing a surprise party for his 18th birthday that night (two days after his actual birthday). After his death, the family reportedly faced intense pressure and restrictions on mourning ceremonies, and his burial was carried out under heavy security at Behesht-e Zahra cemetery.
-
+  
   **Reported letter from Donald J. Trump to the family**
   A letter reported as being from the White House (dated 2026/01/13) was shared publicly in connection with Erfan’s killing and addressed to his uncle, Majid Moghadasi. The text below is the reported content of that letter as circulated:
-
+  
   > The White House - Washington
   > January 13, 2026
   >
@@ -121,6 +121,7 @@ description: |
   >
   > Sincerely,
   > Donald J. Trump
+  
 
 # -----------------------------------------------------------------------------
 # Sources & References
@@ -136,9 +137,16 @@ source:
   - "https://x.com/IranIntl/status/2018516312167723032"
   - "https://iranwire.com/en/features/147911-erfan-was-killed-before-reaching-home-for-his-birthday-surprise/"
 
+
 # -----------------------------------------------------------------------------
 # Relationships
 # -----------------------------------------------------------------------------
 # Note: Incident linking is handled in the INCIDENT YAML files.
 # Do NOT list incident IDs here.
 # To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+
+# Submission Metadata
+# submitted_by: ""
+# received_at: "2026-02-03T04:20:36.833Z"
+# submission_id: "ad34c80b-782c-4d8a-a867-9fd77e672b4c"
+# original_id: "000888"
