@@ -815,8 +815,11 @@ onMounted(() => {
             form.value.source = [''];
         }
 
-        if (d.photo) {
-             const photos = Array.isArray(d.photo) ? d.photo : [d.photo];
+        // Prefer 'photos' array if available (contains all images), otherwise fallback to 'photo'
+        const photosSource = (d.photos && d.photos.length > 0) ? d.photos : d.photo;
+
+        if (photosSource) {
+             const photos = Array.isArray(photosSource) ? photosSource : [photosSource];
              existingPhotoPaths.value = [...photos];
              existingPhotos.value = photos.map(p => getMediaUrl({ kind: 'victim_photo', relativePath: p }));
         }
