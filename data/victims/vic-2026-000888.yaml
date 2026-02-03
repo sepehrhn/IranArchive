@@ -14,66 +14,66 @@
 # The system will automatically find and optimize it.
 photo:
   - vic-2026-000888.jpg
-  - vic-2026-5c961827f41e.jpg
+  - image_2026-02-03_06-45-37.png
 
 # Full Name in English
-name: Mohammad Erfan Faraji
+name: "Mohammad Erfan Faraji"
 
 # Full Name in Persian (Optional)
-persian_name: عرفان فرجی
+persian_name: "محمد عرفان فرجی"
 
 # -----------------------------------------------------------------------------
 # Personal & Birth Information
 # -----------------------------------------------------------------------------
 
 # Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
+birth_date: "2008/01/06"
 
 # Province of Birth (Optional)
-birth_province: ''
+birth_province: ""
 
 # City of Birth (Optional)
-birth_city: ''
+birth_city: ""
 
 # Gender (Optional: "Male" or "Female")
-gender: Male
+gender: "Male"
 
 # Age at time of death (Optional, remove if unknown)
 age: 18
 
 # Occupation (Optional)
-occupation: ''
+occupation: "High school student (final year)"
 
 # -----------------------------------------------------------------------------
 # Location & Timing
 # -----------------------------------------------------------------------------
 
 # Country
-country: Iran
+country: "Iran"
 
 # Incident Location
-incident_province: ''
-incident_city: Behesht Square
-incident_address: Behesht Square
+incident_province: "Tehran"
+incident_city: "Tehran"
+incident_address: "Behesht Square / Naziabad area"
 
 # Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-07'
+date_of_death: "2026/01/08"
 
 # Date of Death Precision: 'Exact' | 'Approximate'
 # - Exact: Confirmed exact date
 # - Approximate: Estimated or uncertain date
-date_of_death_precision: Exact
+date_of_death_precision: "Exact"
 
 # Cause of Death (Optional, for status: Killed)
 # Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: Gunshot
+cause_of_death: "Gunshot"
 
 # -----------------------------------------------------------------------------
 # Missing Person Fields (Only for status: Missing)
 # -----------------------------------------------------------------------------
 
 # Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' |
 #          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
 disappearance_circumstances: null
 
@@ -88,18 +88,39 @@ suspected_actor: null
 # Status: 'Killed' | 'Missing'
 # - Killed: Confirmed death
 # - Missing: Person is missing, status unknown
-status: Killed
+status: "Killed"
 
 # -----------------------------------------------------------------------------
 # Narrative
 # -----------------------------------------------------------------------------
 
 # Detailed incident description. Supports basic markdown.
-description: |-
-  Shot in the back by military and security forces while filming protests.
+description: |
+  Mohammad Erfan Faraji (18) was killed by gunfire during protests in south Tehran, in the Naziabad area around Meidan-e Behesht (Behesht Square).
 
+  According to reports, he was filming/recording the protests when he was shot from behind at close range at around 8:00 p.m. on 2026/01/08. The bullet reportedly passed through his heart and exited his chest. Bystanders carried him to a nearby home, and he was later taken to Amir al-Momenin Hospital, where the family was informed he had died instantly.
 
-  Was filming protests with his mobile phone when he was shot from behind by military and security forces. The bullet entered his back and exited his heart. He died two days after his birthday. He was a final-year high school student.
+  Erfan was a resident of Shahr-e Rey. His family had been preparing a surprise party for his 18th birthday that night (two days after his actual birthday). After his death, the family reportedly faced intense pressure and restrictions on mourning ceremonies, and his burial was carried out under heavy security at Behesht-e Zahra cemetery.
+
+  **Reported letter from Donald J. Trump to the family**
+  A letter reported as being from the White House (dated 2026/01/13) was shared publicly in connection with Erfan’s killing and addressed to his uncle, Majid Moghadasi. The text below is the reported content of that letter as circulated:
+
+  > The White House - Washington
+  > January 13, 2026
+  >
+  > Mr. Majid Moghadasi
+  > Woodland Hills, California
+  >
+  > Dear Majid,
+  >
+  > Melania and I are devastated to learn of the senseless loss of your beloved nephew, Erfan Faraji, and we are heartbroken for your entire family.
+  >
+  > Erfan will be held in my heart, and I promise never to forget or forgive the terrible events that took him from us. Please know that my Administration will always stand with the Iranian people in their quest for freedom and democracy. We are working diligently to ensure that the Ayatollah and his murderous regime are brought to justice.
+  >
+  > May God bless you and your family, and may he continue to bless the brave people of Iran.
+  >
+  > Sincerely,
+  > Donald J. Trump
 
 # -----------------------------------------------------------------------------
 # Sources & References
@@ -108,9 +129,12 @@ description: |-
 # Source Link (Required)
 # Can be a single link or a list of links
 source:
-  - https://x.com/manotonews/status/2013970919039852837, https://x.com/NoaMagid/status/2010753333603020937, https://x.com/RadioFarda_/status/2014266162121478564, https://t.me/RememberTheirNames/112
-  - https://x.com/RadioFarda_/status/2014266162121478564
-
+  - "https://x.com/manotonews/status/2013970919039852837"
+  - "https://x.com/NoaMagid/status/2010753333603020937"
+  - "https://x.com/RadioFarda_/status/2014266162121478564"
+  - "https://x.com/AliEbrahimzade_/status/2018482092393549895"
+  - "https://x.com/IranIntl/status/2018516312167723032"
+  - "https://iranwire.com/en/features/147911-erfan-was-killed-before-reaching-home-for-his-birthday-surprise/"
 
 # -----------------------------------------------------------------------------
 # Relationships
@@ -118,4 +142,3 @@ source:
 # Note: Incident linking is handled in the INCIDENT YAML files.
 # Do NOT list incident IDs here.
 # To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
