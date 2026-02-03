@@ -1,41 +1,130 @@
 # ==========================================
-# Victim Documentation - Sajjad Raadi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000033.jpg"
-  - "vic-2026-001441.png"
-  - "vic-2026-1d9c39bfa679.jpg"
-  - "vic-2026-2140082.jpg"
-  - "vic-2026-d4026ffa805e.jpg"
-  - "vic-2026-e2ca6c93ec1a.jpg"
-  - "vic-2026-af7176e1718f.jpg"
-  - "vic-2026-5753827818b7.jpg"
-  - "vic-2026-34da29d113b1.jpg"
-  - "vic-2026-fae167a4b793.jpg"
-  - "vic-2026-bfa820e89d5b.jpg"
+  - vic-2026-000033.jpg
+  - vic-2026-001441.png
+  - vic-2026-1d9c39bfa679.jpg
+  - vic-2026-2140082.jpg
+  - vic-2026-d4026ffa805e.jpg
+  - vic-2026-e2ca6c93ec1a.jpg
+  - vic-2026-af7176e1718f.jpg
+  - vic-2026-5753827818b7.jpg
+  - vic-2026-34da29d113b1.jpg
+  - vic-2026-fae167a4b793.jpg
+  - vic-2026-bfa820e89d5b.jpg
+
+# Full Name in English
 name: Sajjad Raadi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: سجاد رعدی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 19
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Valiasr Town Police Station
 incident_address: Valiasr Town
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the eyes in front of the Vali Asr Township police station.
 
 
   Mentioned as a hero, age 19, from Tehran. No specific date of death or cause provided, but implied to be a victim of the protests.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/khanbabamt/status/2014964282283458584, https://x.com/shahinmodarres/status/2015152194236961105, https://x.com/HeKasrehCrisis/status/2015180811931091108, https://t.me/RememberTheirNames/1159, https://x.com/senooyekta/status/2016157854055448869"
-  - "https://x.com/_thedeadstar/status/2017403825036951997"
-persian_name: سجاد رعدی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/khanbabamt/status/2014964282283458584, https://x.com/shahinmodarres/status/2015152194236961105, https://x.com/HeKasrehCrisis/status/2015180811931091108, https://t.me/RememberTheirNames/1159, https://x.com/senooyekta/status/2016157854055448869
+  - https://x.com/_thedeadstar/status/2017403825036951997
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

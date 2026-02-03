@@ -1,49 +1,139 @@
 # ==========================================
-# Victim Documentation - Alireza Rahimi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000238.jpg"
-  - "vic-2026-d9aebfd03c88.jpg"
-  - "vic-2026-db4dcb08df97.jpg"
-  - "vic-2026-5cad59f99247.jpg"
-  - "vic-2026-a8362f9e3725.jpg"
-  - "vic-2026-9b76ff6db4db.jpg"
-  - "vic-2026-9ae3c81c81ba.jpg"
-  - "vic-2026-450dd12f19a1.jpg"
-  - "vic-2026-90efd4a3b8d5.jpg"
-  - "vic-2026-72a0c132b6d2.jpg"
-  - "vic-2026-9e5a9aafaf56.jpg"
-  - "vic-2026-4dd44da36e8a.jpg"
-  - "vic-2026-068a2d1c5aa7.jpg"
+  - vic-2026-000238.jpg
+  - vic-2026-d9aebfd03c88.jpg
+  - vic-2026-db4dcb08df97.jpg
+  - vic-2026-5cad59f99247.jpg
+  - vic-2026-a8362f9e3725.jpg
+  - vic-2026-9b76ff6db4db.jpg
+  - vic-2026-9ae3c81c81ba.jpg
+  - vic-2026-450dd12f19a1.jpg
+  - vic-2026-90efd4a3b8d5.jpg
+  - vic-2026-72a0c132b6d2.jpg
+  - vic-2026-9e5a9aafaf56.jpg
+  - vic-2026-4dd44da36e8a.jpg
+  - vic-2026-068a2d1c5aa7.jpg
+
+# Full Name in English
 name: Alireza Rahimi
-birth_date: ""
-birth_province: ""
+
+# Full Name in Persian (Optional)
+persian_name: null
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
 birth_city: rooftops
-gender: ""
+
+# Gender (Optional: "Male" or "Female")
+gender: ''
+
+# Age at time of death (Optional, remove if unknown)
 age: 26
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
 incident_address: Tehranpars, Third Circle
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot directly in the back of the head with live ammunition at Third Square of Tehranpars; gunfire came from rooftops; died 45 minutes after being transferred to hospital
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/pouriazeraati/status/2012845717065253252"
-  - "https://x.com/iranrights_org/status/2011854412306645279"
-  - "https://x.com/niohberg/status/2013303124946014250"
-  - "https://x.com/hamidrezavessa1/status/2013339117732397396"
-  - "https://x.com/hengawo/status/2013369427656392749"
-  - "https://x.com/HengawO/status/2013369427656392749"
-  - "https://x.com/nicksotoudeh/status/2013721566681735471"
-  - "https://x.com/Tavaana/status/2013965213608132913"
-  - "https://x.com/longlosthills/status/2013949206264791461"
-  - "https://x.com/banafshehviola/status/2014165581830799736"
-  - "https://x.com/MaryamMoqaddam/status/2013898212403200456"
-  - "https://x.com/ErfanAp9/status/2013979814026256668"
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/pouriazeraati/status/2012845717065253252
+  - https://x.com/iranrights_org/status/2011854412306645279
+  - https://x.com/niohberg/status/2013303124946014250
+  - https://x.com/hamidrezavessa1/status/2013339117732397396
+  - https://x.com/hengawo/status/2013369427656392749
+  - https://x.com/HengawO/status/2013369427656392749
+  - https://x.com/nicksotoudeh/status/2013721566681735471
+  - https://x.com/Tavaana/status/2013965213608132913
+  - https://x.com/longlosthills/status/2013949206264791461
+  - https://x.com/banafshehviola/status/2014165581830799736
+  - https://x.com/MaryamMoqaddam/status/2013898212403200456
+  - https://x.com/ErfanAp9/status/2013979814026256668
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

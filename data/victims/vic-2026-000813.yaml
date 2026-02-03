@@ -1,43 +1,132 @@
 # ==========================================
-# Victim Documentation - Sadra Soltani
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000813.jpg"
-  - "vic-2026-17f0354ecb59.png"
-  - "vic-2026-7d457f7a9b3c.jpg"
-  - "vic-2026-2dc279d80ee9.jpg"
-  - "vic-2026-a046001da82c.jpg"
-  - "vic-2026-2f767362fbde.jpg"
-  - "vic-2026-2f7e42f91b34.jpg"
-  - "vic-2026-03fe8abe07ec.jpg"
+  - vic-2026-000813.jpg
+  - vic-2026-17f0354ecb59.png
+  - vic-2026-7d457f7a9b3c.jpg
+  - vic-2026-2dc279d80ee9.jpg
+  - vic-2026-a046001da82c.jpg
+  - vic-2026-2f767362fbde.jpg
+  - vic-2026-2f7e42f91b34.jpg
+  - vic-2026-03fe8abe07ec.jpg
+
+# Full Name in English
 name: Sadra Soltani
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: صدرا سلطانی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 24
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Narmak
 incident_address: Narmak
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the kidney during shootings in Mehranpour street, Narmak. He was trying to move his family away from the area when he was shot and died after being transferred to Ansari hospital in Narmak.
 
 
   Graduate architecture student shot by government forces during nighttime shooting in Mehranpour street area of Narmak, Tehran. Was trying to move his family members away from the incident when he was targeted by Islamic Republic regime forces. Shot in kidney area, transferred to Ansari Hospital in Narmak but died despite medical treatment.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/allahbakhshii/status/2015041421804200130, https://t.me/RememberTheirNames/1028, https://x.com/tavaana/status/2016257882719941094, https://x.com/autnews_org/status/2016404922397266172, https://t.me/RememberTheirNames/1538"
-  - "https://x.com/hekasrehcrisis/status/2017727206093418731"
-  - "https://x.com/isamanyasin/status/2014790910899585275"
-  - "https://x.com/tavaana/status/2016257882719941094"
-  - "https://x.com/autnews_org/status/2016404922397266172"
-  - "https://t.me/RememberTheirNames/1538"
-  - "https://x.com/hadeeselahi/status/2016947025556722014"
-persian_name: صدرا سلطانی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/allahbakhshii/status/2015041421804200130, https://t.me/RememberTheirNames/1028, https://x.com/tavaana/status/2016257882719941094, https://x.com/autnews_org/status/2016404922397266172, https://t.me/RememberTheirNames/1538
+  - https://x.com/hekasrehcrisis/status/2017727206093418731
+  - https://x.com/isamanyasin/status/2014790910899585275
+  - https://x.com/tavaana/status/2016257882719941094
+  - https://x.com/autnews_org/status/2016404922397266172
+  - https://t.me/RememberTheirNames/1538
+  - https://x.com/hadeeselahi/status/2016947025556722014
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

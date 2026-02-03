@@ -1,35 +1,124 @@
 # ==========================================
-# Victim Documentation - Amirhossein Shakerami
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001883.jpg"
-  - "vic-2026-d5e83d8a3dd3.jpg"
-  - "vic-2026-4655e6f40ef2.jpg"
+  - vic-2026-001883.jpg
+  - vic-2026-d5e83d8a3dd3.jpg
+  - vic-2026-4655e6f40ef2.jpg
+
+# Full Name in English
 name: Amirhossein Shakerami
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: امیرحسین شاکرمی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 22
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: امیرحسین شاکرمی
 
   Shot directly with live ammunition by government forces on his first night in the streets. He was shot at close range (less than 10 meters), with the bullet entering his chest and side. There were signs of severe beating on his body, indicating he was beaten before being shot. His body was found in a morgue after a long search by his family. His family was denied possession of his body, and a relative secretly transported it for burial. He was buried near the grave of Nika Shakermi, a victim of the 2022 protests.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/manotonews/status/2014865736435408962, https://x.com/hirman__/status/2014906557167726910, https://x.com/allahbakhshii/status/2015743587170894180, https://x.com/Tavaana/status/2014605269729476630, https://x.com/IranIntlbrk/status/2015397726817493278, https://t.me/RememberTheirNames/873"
-  - "https://x.com/manotonews/status/2014865736435408962"
-  - "https://x.com/allahbakhshii/status/2015743587170894180"
-  - "https://x.com/Tavaana/status/2014605269729476630"
-  - "https://x.com/IranIntlbrk/status/2015397726817493278"
-persian_name: امیرحسین شاکرمی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/manotonews/status/2014865736435408962, https://x.com/hirman__/status/2014906557167726910, https://x.com/allahbakhshii/status/2015743587170894180, https://x.com/Tavaana/status/2014605269729476630, https://x.com/IranIntlbrk/status/2015397726817493278, https://t.me/RememberTheirNames/873
+  - https://x.com/manotonews/status/2014865736435408962
+  - https://x.com/allahbakhshii/status/2015743587170894180
+  - https://x.com/Tavaana/status/2014605269729476630
+  - https://x.com/IranIntlbrk/status/2015397726817493278
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

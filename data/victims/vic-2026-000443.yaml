@@ -1,44 +1,133 @@
 # ==========================================
-# Victim Documentation - Shahram Maghsoudi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000443.jpg"
-  - "vic-2026-8827173b9150.jpg"
-  - "vic-2026-7697e67e8ef3.jpg"
-  - "vic-2026-1b40809aee3d.jpg"
-  - "vic-2026-ffb2015c6314.jpg"
-  - "vic-2026-38e0f635cdb7.jpg"
-  - "vic-2026-001801.jpg"
-  - "vic-2026-cd48675964fb.jpg"
+  - vic-2026-000443.jpg
+  - vic-2026-8827173b9150.jpg
+  - vic-2026-7697e67e8ef3.jpg
+  - vic-2026-1b40809aee3d.jpg
+  - vic-2026-ffb2015c6314.jpg
+  - vic-2026-38e0f635cdb7.jpg
+  - vic-2026-001801.jpg
+  - vic-2026-cd48675964fb.jpg
+
+# Full Name in English
 name: Shahram Maghsoudi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: شهرام مقصودی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 32
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Baharestan
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by direct gunfire from Islamic Republic security forces during Iran's national uprising
 
 
   Killed by direct gunfire from Islamic Republic security forces. He was a powerlifting athlete and a two-time national champion. His last message to a friend was 'I’m not here, take care of the family.'
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/longlosthills/status/2011622954199662991, https://x.com/avatoday_news/status/2011806527422693438, https://x.com/loabatk/status/2012035742147735682, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/manotonews/status/2012865051666100735, https://x.com/IranProtestsCom/status/2011543145624879301, https://x.com/ManotoNews/status/2012865051666100735, https://t.me/RememberTheirNames/282"
-  - "https://x.com/longlosthills/status/2011622954199662991"
-  - "https://x.com/IranProtestsCom/status/2011543145624879301"
-  - "https://x.com/avatoday_news/status/2011806527422693438"
-  - "https://x.com/loabatk/status/2012035742147735682"
-  - "https://x.com/manotonews/status/2012865051666100735"
-  - "https://x.com/ManotoNews/status/2012865051666100735"
-  - "https://x.com/Dialogue1402/status/2013853650292990250"
-persian_name: شهرام مقصودی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/longlosthills/status/2011622954199662991, https://x.com/avatoday_news/status/2011806527422693438, https://x.com/loabatk/status/2012035742147735682, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/manotonews/status/2012865051666100735, https://x.com/IranProtestsCom/status/2011543145624879301, https://x.com/ManotoNews/status/2012865051666100735, https://t.me/RememberTheirNames/282
+  - https://x.com/longlosthills/status/2011622954199662991
+  - https://x.com/IranProtestsCom/status/2011543145624879301
+  - https://x.com/avatoday_news/status/2011806527422693438
+  - https://x.com/loabatk/status/2012035742147735682
+  - https://x.com/manotonews/status/2012865051666100735
+  - https://x.com/ManotoNews/status/2012865051666100735
+  - https://x.com/Dialogue1402/status/2013853650292990250
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

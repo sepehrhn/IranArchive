@@ -1,47 +1,136 @@
 # ==========================================
-# Victim Documentation - Pouya Rostami
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000791.jpg"
-  - "vic-2026-a67026a2528f.png"
-  - "vic-2026-001190.jpg"
-  - "vic-2026-002247.jpg"
-  - "vic-2026-16e12cfb5b68.jpg"
-  - "vic-2026-13054965fd81.png"
-  - "vic-2026-80acdb104fbd.png"
-  - "vic-2026-97cee1ec51fb.png"
-  - "vic-2026-d0bc2fb6908d.jpg"
-  - "vic-2026-862723c846b8.jpg"
-  - "vic-2026-218d1bd6c927.jpg"
-  - "vic-2026-d091da874eca.jpg"
+  - vic-2026-000791.jpg
+  - vic-2026-a67026a2528f.png
+  - vic-2026-001190.jpg
+  - vic-2026-002247.jpg
+  - vic-2026-16e12cfb5b68.jpg
+  - vic-2026-13054965fd81.png
+  - vic-2026-80acdb104fbd.png
+  - vic-2026-97cee1ec51fb.png
+  - vic-2026-d0bc2fb6908d.jpg
+  - vic-2026-862723c846b8.jpg
+  - vic-2026-218d1bd6c927.jpg
+  - vic-2026-d091da874eca.jpg
+
+# Full Name in English
 name: Pouya Rostami
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: پویا رستمی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 23
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Iran (provinces of Ilam
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the mouth and chest with live ammunition by the Islamic Republic's repressive forces during protests.
 
 
   Shot in the mouth and chest with live ammunition by security forces. His father died when he was a child.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/kurdpa_farsi/status/2011561969413681177, https://x.com/loabatk/status/2012028125685956850, https://x.com/Daikatuo/status/2011836007839101290, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2014745150619058653, https://x.com/kurdpa_farsi/status/2015154673267708001, https://t.me/RememberTheirNames/150"
-  - "https://x.com/Daikatuo/status/2011836007839101290"
-  - "https://x.com/kurdpa_farsi/status/2011561969413681177"
-  - "https://x.com/loabatk/status/2012028125685956850"
-  - "https://x.com/KurdistanHRN/status/2011783655752880275"
-  - "https://x.com/kurdpa_farsi/status/2015154673267708001"
-  - "https://x.com/yaldarta/status/2014946096523481285"
-persian_name: پویا رستمی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/kurdpa_farsi/status/2011561969413681177, https://x.com/loabatk/status/2012028125685956850, https://x.com/Daikatuo/status/2011836007839101290, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2014745150619058653, https://x.com/kurdpa_farsi/status/2015154673267708001, https://t.me/RememberTheirNames/150
+  - https://x.com/Daikatuo/status/2011836007839101290
+  - https://x.com/kurdpa_farsi/status/2011561969413681177
+  - https://x.com/loabatk/status/2012028125685956850
+  - https://x.com/KurdistanHRN/status/2011783655752880275
+  - https://x.com/kurdpa_farsi/status/2015154673267708001
+  - https://x.com/yaldarta/status/2014946096523481285
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,41 +1,130 @@
 # ==========================================
-# Victim Documentation - Iman Moradi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-2139799.jpg"
-  - "vic-2026-b95da8f9e998.jpg"
-  - "vic-2026-1d2eb18c3fcd.png"
-  - "vic-2026-449c804e8d26.jpg"
-  - "vic-2026-218d1bd6c927.jpg"
-  - "vic-2026-033b992f8266.jpg"
-  - "vic-2026-ff9abf08ebc0.jpg"
-  - "vic-2026-8a1a0c144792.jpg"
-  - "vic-2026-38ab8ce62617.jpg"
-  - "vic-2026-8b3de5a8a9dc.jpg"
-  - "vic-2026-1c70b41e93d5.jpg"
-  - "vic-2026-30609028a516.jpg"
-  - "vic-2026-3b2ac57e3c89.jpg"
+  - vic-2026-2139799.jpg
+  - vic-2026-b95da8f9e998.jpg
+  - vic-2026-1d2eb18c3fcd.png
+  - vic-2026-449c804e8d26.jpg
+  - vic-2026-218d1bd6c927.jpg
+  - vic-2026-033b992f8266.jpg
+  - vic-2026-ff9abf08ebc0.jpg
+  - vic-2026-8a1a0c144792.jpg
+  - vic-2026-38ab8ce62617.jpg
+  - vic-2026-8b3de5a8a9dc.jpg
+  - vic-2026-1c70b41e93d5.jpg
+  - vic-2026-30609028a516.jpg
+  - vic-2026-3b2ac57e3c89.jpg
+
+# Full Name in English
 name: Iman Moradi
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: Male
-age: 17
-occupation: ""
-country: Iran
-incident_province: ""
-incident_city: Ilam Province
-incident_address: ""
-date_of_death: "2026-01-09"
-date_of_death_precision: Exact
-cause_of_death: ""
-status: Killed
-description: Shot with war bullet on 19 Dey. Body was returned to family after 10 days. Family was forced to say he died in a traffic accident. Funeral held on 2 Dalw with nearly 5000 people attending.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/hekasrehcrisis/status/2016728025505681422"
-  - "https://x.com/dadban4/status/2012199580704628775"
-  - "https://x.com/hengawo/status/2011732625166307802"
-  - "https://x.com/HengawO/status/2012472910401642719"
+
+# Full Name in Persian (Optional)
 persian_name: ایمان مرادی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Male
+
+# Age at time of death (Optional, remove if unknown)
+age: 17
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: Iran
+
+# Incident Location
+incident_province: ''
+incident_city: Ilam Province
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
+description: Shot with war bullet on 19 Dey. Body was returned to family after 10 days. Family was forced to say he died in a traffic accident. Funeral held on 2 Dalw with nearly 5000 people attending.
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/hekasrehcrisis/status/2016728025505681422
+  - https://x.com/dadban4/status/2012199580704628775
+  - https://x.com/hengawo/status/2011732625166307802
+  - https://x.com/HengawO/status/2012472910401642719
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

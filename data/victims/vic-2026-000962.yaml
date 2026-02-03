@@ -1,37 +1,126 @@
 # ==========================================
-# Victim Documentation - Reza Moradi Abdolvand
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000962.jpg"
-  - "vic-2026-95d28df9b2e3.jpg"
-  - "vic-2026-505478a8aca9.jpg"
-  - "vic-2026-4b72ad0eaaa5.jpg"
-  - "vic-2026-d3d22ed3d1b6.jpg"
+  - vic-2026-000962.jpg
+  - vic-2026-95d28df9b2e3.jpg
+  - vic-2026-505478a8aca9.jpg
+  - vic-2026-4b72ad0eaaa5.jpg
+  - vic-2026-d3d22ed3d1b6.jpg
+
+# Full Name in English
 name: Reza Moradi Abdolvand
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: رضا مرادی عبدالوند
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 17
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Lorestan
 incident_city: Azna
-incident_address: ""
-date_of_death: "2026-01-01"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-01'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot during Islamic Republic's crackdown on protests
 
 
   Killed during protests. Date of death is 15 Dey 1404, which converts to January 5, 2026.
-source_type: Social Media
-source_social_media_link:
-  - "https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/longlosthills/status/2010008640460357875, https://x.com/israelwarroom/status/2012652786027036832, https://x.com/iranrights_org/status/2009387278918127758, https://x.com/IsraelWarRoom/status/2012652786027036832, https://t.me/RememberTheirNames/60"
-  - "https://x.com/IsraelWarRoom/status/2012652786027036832"
-  - "https://x.com/israelwarroom/status/2012652786027036832"
-  - "https://x.com/longlosthills/status/2010008640460357875"
-persian_name: رضا مرادی عبدالوند
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://en.wikipedia.org/wiki/2026_Fardis_massacre, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/longlosthills/status/2010008640460357875, https://x.com/israelwarroom/status/2012652786027036832, https://x.com/iranrights_org/status/2009387278918127758, https://x.com/IsraelWarRoom/status/2012652786027036832, https://t.me/RememberTheirNames/60
+  - https://x.com/IsraelWarRoom/status/2012652786027036832
+  - https://x.com/israelwarroom/status/2012652786027036832
+  - https://x.com/longlosthills/status/2010008640460357875
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

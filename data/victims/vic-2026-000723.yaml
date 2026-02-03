@@ -1,38 +1,127 @@
 # ==========================================
-# Victim Documentation - Mohammad Mirzaei Noush Abadi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000723.jpg"
-  - "vic-2026-3b44194543fe.jpg"
-  - "vic-2026-63d39972ec9c.jpg"
-  - "vic-2026-91501d405b63.jpg"
-  - "vic-2026-09fa3d227e0c.jpg"
-  - "vic-2026-2c0db2c29280.jpg"
-  - "vic-2026-003a8f30bd63.jpg"
+  - vic-2026-000723.jpg
+  - vic-2026-3b44194543fe.jpg
+  - vic-2026-63d39972ec9c.jpg
+  - vic-2026-91501d405b63.jpg
+  - vic-2026-09fa3d227e0c.jpg
+  - vic-2026-2c0db2c29280.jpg
+  - vic-2026-003a8f30bd63.jpg
+
+# Full Name in English
 name: Mohammad Mirzaei Noush Abadi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: محمد میرزایی نوش آبادی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 37
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Mazandaran
 incident_city: Sari
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Killed by direct shots from Islamic Republic agents during national protests.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/longlosthills/status/2014495916011495906, https://x.com/hichkasofficial/status/2014817039123181881, https://x.com/shimababaeii/status/2014622468082737332, https://t.me/RememberTheirNames/753, https://x.com/POOYAJAHANDAR/status/2016119607195484461"
-  - "https://x.com/Martin129446771/status/2014439406069776599"
-  - "https://x.com/hichkasofficial/status/2014817039123181881"
-  - "https://x.com/shimababaeii/status/2014622468082737332"
-  - "https://x.com/POOYAJAHANDAR/status/2016119607195484461"
-  - "https://x.com/longlosthills/status/2014495916011495906"
-persian_name: محمد میرزایی نوش آبادی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/longlosthills/status/2014495916011495906, https://x.com/hichkasofficial/status/2014817039123181881, https://x.com/shimababaeii/status/2014622468082737332, https://t.me/RememberTheirNames/753, https://x.com/POOYAJAHANDAR/status/2016119607195484461
+  - https://x.com/Martin129446771/status/2014439406069776599
+  - https://x.com/hichkasofficial/status/2014817039123181881
+  - https://x.com/shimababaeii/status/2014622468082737332
+  - https://x.com/POOYAJAHANDAR/status/2016119607195484461
+  - https://x.com/longlosthills/status/2014495916011495906
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

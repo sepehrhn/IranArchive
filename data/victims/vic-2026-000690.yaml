@@ -1,43 +1,132 @@
 # ==========================================
-# Victim Documentation - Melina Asadi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000690.jpg"
-  - "vic-2026-a86823bcf1ba.jpg"
-  - "vic-2026-c39d0b8abe03.jpg"
-  - "vic-2026-b1283af34817.jpg"
-  - "vic-2026-d07695dbc04a.jpg"
-  - "vic-2026-d52c3d2cff91.jpg"
-  - "vic-2026-f31f2ac89494.jpg"
+  - vic-2026-000690.jpg
+  - vic-2026-a86823bcf1ba.jpg
+  - vic-2026-c39d0b8abe03.jpg
+  - vic-2026-b1283af34817.jpg
+  - vic-2026-d07695dbc04a.jpg
+  - vic-2026-d52c3d2cff91.jpg
+  - vic-2026-f31f2ac89494.jpg
+
+# Full Name in English
 name: Melina Asadi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: ملینا اسدی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 3
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Kermanshah
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by security forces with pellet bullets on Taghbostan Boulevard
 
 
   Violently killed by the Islamic Republic. Age is stated as three years old.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/kermanshahvoice/status/2012233294327296444, https://x.com/loabatk/status/2012273338991751384, https://x.com/olilondontv/status/2012825674822660372, https://x.com/DrEliDavid/status/2012354669826195590, https://x.com/HengawO/status/2012641346142572662, https://t.me/RememberTheirNames/175"
-  - "https://x.com/kermanshahvoice/status/2012233294327296444"
-  - "https://x.com/loabatk/status/2012273338991751384"
-  - "https://x.com/DrEliDavid/status/2012354669826195590"
-  - "https://x.com/olilondontv/status/2012825674822660372"
-  - "https://x.com/HengawO/status/2012641346142572662"
-  - "https://x.com/hiitsmemooneh/status/2012344781251162376"
-  - "https://x.com/azambahrami/status/2014751904341848573"
-persian_name: ملینا اسدی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/kermanshahvoice/status/2012233294327296444, https://x.com/loabatk/status/2012273338991751384, https://x.com/olilondontv/status/2012825674822660372, https://x.com/DrEliDavid/status/2012354669826195590, https://x.com/HengawO/status/2012641346142572662, https://t.me/RememberTheirNames/175
+  - https://x.com/kermanshahvoice/status/2012233294327296444
+  - https://x.com/loabatk/status/2012273338991751384
+  - https://x.com/DrEliDavid/status/2012354669826195590
+  - https://x.com/olilondontv/status/2012825674822660372
+  - https://x.com/HengawO/status/2012641346142572662
+  - https://x.com/hiitsmemooneh/status/2012344781251162376
+  - https://x.com/azambahrami/status/2014751904341848573
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

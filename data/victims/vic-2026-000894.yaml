@@ -1,47 +1,136 @@
 # ==========================================
-# Victim Documentation - Mohammad Reza Karami
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000894.jpg"
-  - "vic-2026-8a1319de0719.jpg"
-  - "vic-2026-c5886a0ec4a6.png"
-  - "vic-2026-002001.jpg"
-  - "vic-2026-904e38983ccb.jpg"
-  - "vic-2026-6be3f13b9257.jpg"
-  - "vic-2026-f1c0bba48dc9.jpg"
-  - "vic-2026-43ca5dabe516.jpg"
-  - "vic-2026-7459c6bdc8ae.jpg"
-  - "vic-2026-f295e0946d73.jpg"
-  - "vic-2026-997018d2a54b.jpg"
+  - vic-2026-000894.jpg
+  - vic-2026-8a1319de0719.jpg
+  - vic-2026-c5886a0ec4a6.png
+  - vic-2026-002001.jpg
+  - vic-2026-904e38983ccb.jpg
+  - vic-2026-6be3f13b9257.jpg
+  - vic-2026-f1c0bba48dc9.jpg
+  - vic-2026-43ca5dabe516.jpg
+  - vic-2026-7459c6bdc8ae.jpg
+  - vic-2026-f295e0946d73.jpg
+  - vic-2026-997018d2a54b.jpg
+
+# Full Name in English
 name: Mohammad Reza Karami
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: محمدرضا کرمی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 16
+
+# Occupation (Optional)
 occupation: boxer
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Ilam
 incident_city: Malekshahi
-incident_address: ""
-date_of_death: "2026-01-06"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-06'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot with live ammunition by IRGC forces during protests on January 2, 2026, died after 4 days in ICU at Khomeini Hospital in Ilam. He was a boxer.
 
 
   Severely injured by live ammunition from IRGC forces during public protests in Meleksahi city on Saturday, 13 Dey 1404 (January 4, 2026). He was transferred to the ICU of Khomeini Hospital in Ilam and passed away after 4 days of hospitalization.
-source_type: Social Media
-source_social_media_link:
-  - "https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/iranrights_org/status/2009387278918127758, https://x.com/KurdistanHRN/status/2008481864546152872, https://t.me/RememberTheirNames/61"
-  - "https://x.com/KurdistanHRN/status/2008481864546152872"
-  - "https://x.com/visfehan/status/2015398506714878412, https://t.me/RememberTheirNames/1296"
-  - "https://x.com/visfehan/status/2016456178369229311"
-  - "https://x.com/allahbakhshii/status/2014468115862847928, https://x.com/HengawO/status/2014710031246066053, https://x.com/anjmotahed/status/2015014380954337691, https://x.com/iranintlsport/status/2015467191924031768, https://x.com/Walterakam/status/2015396856528781727, https://x.com/Walterakam/status/2015391393473069067, https://t.me/RememberTheirNames/811, https://t.me/RememberTheirNames/734"
-  - "https://x.com/anjmotahed/status/2015014380954337691"
-  - "https://x.com/Walterakam/status/2015391393473069067"
-  - "https://x.com/sssccpp/status/2017331120115712029"
-persian_name: محمدرضا کرمی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/iranrights_org/status/2009387278918127758, https://x.com/KurdistanHRN/status/2008481864546152872, https://t.me/RememberTheirNames/61
+  - https://x.com/KurdistanHRN/status/2008481864546152872
+  - https://x.com/visfehan/status/2015398506714878412, https://t.me/RememberTheirNames/1296
+  - https://x.com/visfehan/status/2016456178369229311
+  - https://x.com/allahbakhshii/status/2014468115862847928, https://x.com/HengawO/status/2014710031246066053, https://x.com/anjmotahed/status/2015014380954337691, https://x.com/iranintlsport/status/2015467191924031768, https://x.com/Walterakam/status/2015396856528781727, https://x.com/Walterakam/status/2015391393473069067, https://t.me/RememberTheirNames/811, https://t.me/RememberTheirNames/734
+  - https://x.com/anjmotahed/status/2015014380954337691
+  - https://x.com/Walterakam/status/2015391393473069067
+  - https://x.com/sssccpp/status/2017331120115712029
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

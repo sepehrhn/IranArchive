@@ -1,33 +1,122 @@
 # ==========================================
-# Victim Documentation - Ali Abbas Zourghchian
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001552.jpg"
-  - "vic-2026-001830.jpg"
+  - vic-2026-001552.jpg
+  - vic-2026-001830.jpg
+
+# Full Name in English
 name: Ali Abbas Zourghchian
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: دکتر علی عباس زورقچیان
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 52
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Mazandaran
 incident_city: Sari
-incident_address: ""
-date_of_death: "2026-01-10"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-10'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: دکتر علی عباس زورقچیان
 
   Arrested during protests in Dey 1404 (January 2026). Died in prison a few days after arrest. Evidence suggests he was shot at close range ('tir-e khales'). His body was returned to his family.
 
   Doctor who left his home on January 8, 2026 at around 18:45 to participate in nationwide protests in Sari. Disappeared for six days while family searched hospitals, police stations, detention centers, and morgues. Authorities gave contradictory responses saying he was 'fine', 'detained', 'forbidden from visits' but never revealed his location. After six days, family was called to identify his body at the coroner's office. Examination showed a bullet had hit his side area. Circumstances remain unclear whether he was shot and killed on the street the same day, or was wounded and transferred by security forces and died from bleeding without medical care, or was killed during detention.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/HyrcaniHRM/status/2015795531826577800, https://x.com/HeKasrehCrisis/status/2016212992682078323, https://x.com/hyrcanihrm/status/2016132930167345158"
-  - "https://t.me/RememberTheirNames/1112"
-persian_name: دکتر علی عباس زورقچیان
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/HyrcaniHRM/status/2015795531826577800, https://x.com/HeKasrehCrisis/status/2016212992682078323, https://x.com/hyrcanihrm/status/2016132930167345158
+  - https://t.me/RememberTheirNames/1112
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,38 +1,127 @@
 # ==========================================
-# Victim Documentation - Mehdi Jarahi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001968.jpg"
-  - "vic-2026-002225.jpg"
-  - "vic-2026-4c8f4ea361fc.jpg"
-  - "vic-2026-2139940.jpg"
-  - "vic-2026-acc959acd5ce.jpg"
-  - "vic-2026-dc5a7797dbde.jpg"
-  - "vic-2026-2139941.jpg"
-  - "vic-2026-ca88dd579ff4.jpg"
+  - vic-2026-001968.jpg
+  - vic-2026-002225.jpg
+  - vic-2026-4c8f4ea361fc.jpg
+  - vic-2026-2139940.jpg
+  - vic-2026-acc959acd5ce.jpg
+  - vic-2026-dc5a7797dbde.jpg
+  - vic-2026-2139941.jpg
+  - vic-2026-ca88dd579ff4.jpg
+
+# Full Name in English
 name: Mehdi Jarahi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مهدی جراحی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 22
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Shahr-e Rey
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: مهدی جراحی
 
   Mentioned in a list of names without further details.
-source_type: Social Media
-source_social_media_link:
-  - "https://t.me/RememberTheirNames/756"
-  - "https://x.com/YasamanKhodajo/status/2015806275431403598, https://x.com/yasamankhodajo/status/2015806275431403598, https://t.me/RememberTheirNames/1606"
-  - "https://x.com/pardis__rabiee/status/2017661160049279363"
-persian_name: مهدی جراحی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://t.me/RememberTheirNames/756
+  - https://x.com/YasamanKhodajo/status/2015806275431403598, https://x.com/yasamankhodajo/status/2015806275431403598, https://t.me/RememberTheirNames/1606
+  - https://x.com/pardis__rabiee/status/2017661160049279363
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

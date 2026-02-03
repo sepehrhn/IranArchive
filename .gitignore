@@ -26,23 +26,40 @@ logs
 # Credentials
 .env.submissions
 
-# Scraper & Temporary Files
+# Maintenance & Temporary Files
 scripts/
 !scripts/validate-data.js
-scripts/scrape_and_update_events.cjs
 !scripts/generate-metadata.js
 !scripts/import_events.js
 !scripts/migrate_events.js
+!scripts/standardize_cities.js
+!scripts/fix-yaml.mjs
+!scripts/final-migration.mjs
+!scripts/audit_countries.ts
+!scripts/check_geojson_isos.ts
+!scripts/debug_char_codes.cjs
+!scripts/delete_extras.cjs
+!scripts/fix_provinces.cjs
+!scripts/migrate_victim_photos.cjs
+!scripts/migrate_victim_sources.cjs
+!scripts/populate_countries.ts
+!scripts/populate_small_nations.ts
+!scripts/prune_events.cjs
+!scripts/refactor_comments.ts
+!scripts/standardize_victims.cjs
+!scripts/update_regions.ts
+!scripts/update_*
+
 *.txt
 *.log
-debug_image_download.ts
-debug_image.png
-temp_victim*.json
-temp_fetch_one.*
-source.html
-victims.csv
-extras.json
+*.html
 *.cjs
 !*.config.ts
 !*.config.js
 !i18n.config.ts
+temp_victim*.json
+temp_fetch_one.*
+victims.csv
+extras.json
+debug_image_download.ts
+debug_image.png

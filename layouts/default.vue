@@ -32,32 +32,36 @@ onUnmounted(() => {
                 <div class="hidden md:flex items-center gap-1 md:gap-2">
                     <NuxtLink 
                         to="/incidents" 
-                        class="px-4 py-2 rounded-full hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all duration-300 relative group"
+                        class="px-4 py-2 rounded-full hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all duration-300 relative group flex items-center gap-2"
                         active-class="text-primary-600 dark:text-primary-400 font-medium"
                     >
-                        {{ $t('common.incidents') }}
+                        <i class="pi pi-exclamation-triangle text-sm opacity-70 group-hover:opacity-100 group-[.router-link-active]:opacity-100 transition-opacity"></i>
+                        <span>{{ $t('common.incidents') }}</span>
                         <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-primary-500 transition-all duration-300 group-[.router-link-active]:w-1/2"></span>
                     </NuxtLink>
                     <NuxtLink 
                         to="/victims" 
-                        class="px-4 py-2 rounded-full hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all duration-300 relative group"
+                        class="px-4 py-2 rounded-full hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all duration-300 relative group flex items-center gap-2"
                         active-class="text-primary-600 dark:text-primary-400 font-medium"
                     >
-                        {{ $t('common.victims') }}
+                        <i class="pi pi-user text-sm opacity-70 group-hover:opacity-100 group-[.router-link-active]:opacity-100 transition-opacity"></i>
+                        <span>{{ $t('common.victims') }}</span>
                         <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-primary-500 transition-all duration-300 group-[.router-link-active]:w-1/2"></span>
                     </NuxtLink>
                     <NuxtLink 
                         to="/events" 
-                        class="px-4 py-2 rounded-full hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all duration-300 relative group"
+                        class="px-4 py-2 rounded-full hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all duration-300 relative group flex items-center gap-2"
                         active-class="text-primary-600 dark:text-primary-400 font-medium"
                     >
-                        {{ $t('common.events') }}
+                        <i class="pi pi-calendar text-sm opacity-70 group-hover:opacity-100 group-[.router-link-active]:opacity-100 transition-opacity"></i>
+                        <span>{{ $t('common.events') }}</span>
                         <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-primary-500 transition-all duration-300 group-[.router-link-active]:w-1/2"></span>
                     </NuxtLink>
                     
                     <div class="relative group">
-                        <button class="px-4 py-2 rounded-full hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all duration-300 flex items-center gap-1.5 outline-none focus:ring-2 focus:ring-primary-500/50 text-surface-700 dark:text-surface-300 group-hover:text-primary-600 dark:group-hover:text-primary-400">
-                            <span class="font-medium">{{ $t('common.globalPressure') }}</span>
+                        <button class="px-4 py-2 rounded-full hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all duration-300 flex items-center gap-2 outline-none focus:ring-2 focus:ring-primary-500/50 text-surface-700 dark:text-surface-300 group-hover:text-primary-600 dark:group-hover:text-primary-400 font-medium">
+                            <i class="pi pi-chart-bar text-sm opacity-70 group-hover:opacity-100 transition-opacity"></i>
+                            <span>{{ $t('common.globalPressure') }}</span>
                             <i class="pi pi-chevron-down text-[10px] opacity-70 transition-transform duration-300 group-hover:rotate-180"></i>
                         </button>
                         

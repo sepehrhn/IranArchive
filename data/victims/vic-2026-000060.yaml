@@ -1,44 +1,133 @@
 # ==========================================
-# Victim Documentation - Nazanin Zahra Salehi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000060.jpg"
-  - "vic-2026-968095df804e.jpg"
-  - "vic-2026-f70f83d2b182.jpg"
-  - "vic-2026-7809fb0ac638.jpg"
-  - "vic-2026-ee5997518689.jpg"
-  - "vic-2026-f32352b85892.jpg"
-  - "vic-2026-2145e1e1d132.jpg"
+  - vic-2026-000060.jpg
+  - vic-2026-968095df804e.jpg
+  - vic-2026-f70f83d2b182.jpg
+  - vic-2026-7809fb0ac638.jpg
+  - vic-2026-ee5997518689.jpg
+  - vic-2026-f32352b85892.jpg
+  - vic-2026-2145e1e1d132.jpg
+
+# Full Name in English
 name: Nazanin Zahra Salehi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: نازنین زهرا صالحی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 13
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Kermanshah
-incident_address: ""
-date_of_death: "2025-12-28"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2025-12-28'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot directly by the Islamic Republic's repressive forces during popular protests in Kermanshah, possibly on January 8 or 9, 2026, inside a park.
 
 
   13-year-old Kurdish child shot by Islamic Republic military-security forces while present at Zeitoun Complex Park in Basij neighborhood during popular protests in Kermanshah. Her body was buried on 21 Dey in Bagh-e Ferdows Cemetery. She was an exemplary student and wushu athlete who had been living under her aunt's care for three years following her mother's death.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/hengawo/status/2014641789483810825, https://x.com/kurdpa_farsi/status/2014762398662496281, https://x.com/noamagid/status/2014745407205630403, https://x.com/HengawO/status/2014641789483810825, https://www.instagram.com/p/DT1q3M8CLSW, https://t.me/RememberTheirNames/899, https://x.com/KurdistanHRN/status/2016177690819035437"
-  - "https://x.com/HengawO/status/2014641789483810825"
-  - "https://x.com/hengawo/status/2014641789483810825"
-  - "https://x.com/HengawO/status/2014723608359104900"
-  - "https://x.com/i/status/2016983112215921071"
-  - "https://www.instagram.com/p/DT1q3M8CLSW"
-  - "https://x.com/kurdpa_farsi/status/2014762398662496281"
-  - "https://x.com/noamagid/status/2014745407205630403"
-  - "https://x.com/KurdistanHRN/status/2016177690819035437"
-persian_name: نازنین زهرا صالحی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/hengawo/status/2014641789483810825, https://x.com/kurdpa_farsi/status/2014762398662496281, https://x.com/noamagid/status/2014745407205630403, https://x.com/HengawO/status/2014641789483810825, https://www.instagram.com/p/DT1q3M8CLSW, https://t.me/RememberTheirNames/899, https://x.com/KurdistanHRN/status/2016177690819035437
+  - https://x.com/HengawO/status/2014641789483810825
+  - https://x.com/hengawo/status/2014641789483810825
+  - https://x.com/HengawO/status/2014723608359104900
+  - https://x.com/i/status/2016983112215921071
+  - https://www.instagram.com/p/DT1q3M8CLSW
+  - https://x.com/kurdpa_farsi/status/2014762398662496281
+  - https://x.com/noamagid/status/2014745407205630403
+  - https://x.com/KurdistanHRN/status/2016177690819035437
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,34 +1,123 @@
 # ==========================================
-# Victim Documentation - Pouria Bagheri
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000412.jpg"
-  - "vic-2026-0327a9bc86db.jpg"
-  - "vic-2026-49c3ba141c22.jpg"
+  - vic-2026-000412.jpg
+  - vic-2026-0327a9bc86db.jpg
+  - vic-2026-49c3ba141c22.jpg
+
+# Full Name in English
 name: Pouria Bagheri
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: پوریا باقری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 22
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Shahriar
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the heart while trying to help a friend who had been shot.
 
 
   Loved volleyball and studied physical education at university. The tweet is a memorial, but does not specify the circumstances or date of death, only that he was 22 years old.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/mousavi1355/status/2014793598613532775, https://x.com/ieatalexturner2/status/2015663682303275046, https://x.com/anjmotahed/status/2015738838140797158, https://t.me/RememberTheirNames/1242, https://t.me/RememberTheirNames/1212"
-  - "https://x.com/ieatalexturner2/status/2015663682303275046"
-  - "https://x.com/anjmotahed/status/2015738838140797158"
-persian_name: پوریا باقری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/mousavi1355/status/2014793598613532775, https://x.com/ieatalexturner2/status/2015663682303275046, https://x.com/anjmotahed/status/2015738838140797158, https://t.me/RememberTheirNames/1242, https://t.me/RememberTheirNames/1212
+  - https://x.com/ieatalexturner2/status/2015663682303275046
+  - https://x.com/anjmotahed/status/2015738838140797158
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

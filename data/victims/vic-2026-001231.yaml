@@ -1,41 +1,129 @@
 # ==========================================
-# Victim Documentation - Tina Hosseini
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - ""
-  - "vic-2026-2139937.jpg"
-  - "vic-2026-2139950.jpg"
-  - "vic-2026-3caadf368916.jpg"
-  - "vic-2026-a5eee7041a76.jpg"
-  - "vic-2026-7794aa1f33f6.jpg"
-  - "vic-2026-e4b5513eb0b6.jpg"
-  - "vic-2026-2d5d24269c8e.jpg"
-  - "vic-2026-a8e5a931130f.jpg"
-  - "vic-2026-bb6e93f7392c.jpg"
-  - "vic-2026-0a5311cc33ef.jpg"
-  - "vic-2026-8c2bbbe2a120.jpg"
-  - "vic-2026-4add3ee0ddc5.jpg"
+  - vic-2026-2139937.jpg
+  - vic-2026-2139950.jpg
+  - vic-2026-3caadf368916.jpg
+  - vic-2026-a5eee7041a76.jpg
+  - vic-2026-7794aa1f33f6.jpg
+  - vic-2026-e4b5513eb0b6.jpg
+  - vic-2026-2d5d24269c8e.jpg
+  - vic-2026-a8e5a931130f.jpg
+  - vic-2026-bb6e93f7392c.jpg
+  - vic-2026-0a5311cc33ef.jpg
+  - vic-2026-8c2bbbe2a120.jpg
+  - vic-2026-4add3ee0ddc5.jpg
+
+# Full Name in English
 name: Tina Hosseini
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: تینا حسینی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 16
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Gorgan
-incident_address: ""
-date_of_death: "2025-12-28"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2025-12-28'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Killed by government forces during protests
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/alitagh30207454/status/2013629468783386768"
-  - "https://x.com/Immortalless/status/2015932935434633518"
-  - "https://x.com/Hoorieh81/status/2016852487597166892"
-persian_name: تینا حسینی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/alitagh30207454/status/2013629468783386768
+  - https://x.com/Immortalless/status/2015932935434633518
+  - https://x.com/Hoorieh81/status/2016852487597166892
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

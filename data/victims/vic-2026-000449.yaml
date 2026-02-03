@@ -1,54 +1,143 @@
 # ==========================================
-# Victim Documentation - Sogand Amani
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000449.jpg"
-  - "vic-2026-21e81fc2db26.jpg"
-  - "vic-2026-03294f65b5f4.jpg"
-  - "vic-2026-b325d1097109.jpg"
-  - "vic-2026-e688e813df48.jpg"
-  - "vic-2026-31fba93269a8.jpg"
-  - "vic-2026-bd4eb5fd0008.jpg"
-  - "vic-2026-1a1a681e2dbe.jpg"
-  - "vic-2026-3a0d43be82b5.jpg"
-  - "vic-2026-9eadc644935c.jpg"
-  - "vic-2026-a8860a824081.jpg"
-  - "vic-2026-68623650d3a7.jpg"
-  - "vic-2026-340ee82932b8.jpg"
-  - "vic-2026-000856.jpg"
-  - "vic-2026-244fd2dd56dd.jpg"
+  - vic-2026-000449.jpg
+  - vic-2026-21e81fc2db26.jpg
+  - vic-2026-03294f65b5f4.jpg
+  - vic-2026-b325d1097109.jpg
+  - vic-2026-e688e813df48.jpg
+  - vic-2026-31fba93269a8.jpg
+  - vic-2026-bd4eb5fd0008.jpg
+  - vic-2026-1a1a681e2dbe.jpg
+  - vic-2026-3a0d43be82b5.jpg
+  - vic-2026-9eadc644935c.jpg
+  - vic-2026-a8860a824081.jpg
+  - vic-2026-68623650d3a7.jpg
+  - vic-2026-340ee82932b8.jpg
+  - vic-2026-000856.jpg
+  - vic-2026-244fd2dd56dd.jpg
+
+# Full Name in English
 name: Sogand Amani
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: سوگند امانی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 22
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Kish Island
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed during a peaceful protest by the Islamic regime of Iran.
 
 
   Shot in the stomach by security forces and later succumbed to her injuries in hospital. She was a professional handball player and a Wushu athlete.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/allahbakhshii/status/2014786351963504688, https://www.instagram.com/p/DT3YqiNDI6W, https://x.com/outofken/status/2014880335117615353, https://x.com/shaya9000/status/2014830824999489921, https://x.com/BabakTaghvaee1/status/2014985938137465109, https://x.com/MonfaredAshkan/status/2015555034835247162, https://x.com/MonfaredAshkan/status/2015550401861525778, https://x.com/hediekimiaee/status/2015446063298052427, https://x.com/missmarpel75/status/2015484312120955150, https://x.com/monfaredashkan/status/2015555034835247162, https://x.com/monfaredashkan/status/2015550401861525778, https://x.com/isamanyasin/status/2015466661483041009, https://t.me/RememberTheirNames/901"
-  - "https://x.com/allahbakhshii/status/2014786351963504688"
-  - "https://www.instagram.com/p/DT3YqiNDI6W"
-  - "https://x.com/shaya9000/status/2014830824999489921"
-  - "https://x.com/BabakTaghvaee1/status/2014985938137465109"
-  - "https://x.com/hediekimiaee/status/2015446063298052427"
-  - "https://x.com/monfaredashkan/status/2015550401861525778"
-  - "https://x.com/isamanyasin/status/2015466661483041009"
-  - "https://x.com/MonfaredAshkan/status/2015550401861525778"
-  - "https://x.com/missmarpel75/status/2015484312120955150"
-  - "https://x.com/mtavoli/status/2014898652485972423"
-persian_name: سوگند امانی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/allahbakhshii/status/2014786351963504688, https://www.instagram.com/p/DT3YqiNDI6W, https://x.com/outofken/status/2014880335117615353, https://x.com/shaya9000/status/2014830824999489921, https://x.com/BabakTaghvaee1/status/2014985938137465109, https://x.com/MonfaredAshkan/status/2015555034835247162, https://x.com/MonfaredAshkan/status/2015550401861525778, https://x.com/hediekimiaee/status/2015446063298052427, https://x.com/missmarpel75/status/2015484312120955150, https://x.com/monfaredashkan/status/2015555034835247162, https://x.com/monfaredashkan/status/2015550401861525778, https://x.com/isamanyasin/status/2015466661483041009, https://t.me/RememberTheirNames/901
+  - https://x.com/allahbakhshii/status/2014786351963504688
+  - https://www.instagram.com/p/DT3YqiNDI6W
+  - https://x.com/shaya9000/status/2014830824999489921
+  - https://x.com/BabakTaghvaee1/status/2014985938137465109
+  - https://x.com/hediekimiaee/status/2015446063298052427
+  - https://x.com/monfaredashkan/status/2015550401861525778
+  - https://x.com/isamanyasin/status/2015466661483041009
+  - https://x.com/MonfaredAshkan/status/2015550401861525778
+  - https://x.com/missmarpel75/status/2015484312120955150
+  - https://x.com/mtavoli/status/2014898652485972423
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

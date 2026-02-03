@@ -1,41 +1,130 @@
 # ==========================================
-# Victim Documentation - Hadi Faghani
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001928.jpg"
-  - "vic-2026-6076ce6bfde3.jpg"
-  - "vic-2026-fd7219a2ab62.jpg"
-  - "vic-2026-2139895.jpg"
-  - "vic-2026-82967058543a.jpg"
-  - "vic-2026-ba1fd68d02d0.png"
+  - vic-2026-001928.jpg
+  - vic-2026-6076ce6bfde3.jpg
+  - vic-2026-fd7219a2ab62.jpg
+  - vic-2026-2139895.jpg
+  - vic-2026-82967058543a.jpg
+  - vic-2026-ba1fd68d02d0.png
+
+# Full Name in English
 name: Hadi Faghani
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: هادی فغانی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 40
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Gorgan
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: هادی فغانی
 
   Mentioned in a list of names with a date and location, likely a victim.
 
   Shot directly by a sniper from the Islamic Republic of Iran's forces. The incident occurred on the first night of protest calls, near the first station of Ghal'eh Hassan. He was reportedly going to a shop to buy something and was targeted because he was wearing a mask. He was hit by a bullet and died at the scene. He was a worker and had a young child.
-source_type: Social Media
-source_social_media_link:
-  - "https://t.me/RememberTheirNames/1271, https://x.com/hyrcanihrm/status/2016309332854427843, https://x.com/HyrcaniHRM/status/2016309332854427843"
-  - "https://x.com/hyrcanihrm/status/2016309332854427843"
-  - "https://x.com/HyrcaniHRM/status/2016309332854427843"
-  - "https://x.com/iranintlbrk/status/2015812585472340478"
-  - "https://x.com/hengawo/status/2013911264154546507"
-  - "https://x.com/HengawO/status/2013911264154546507"
-persian_name: هادی فغانی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://t.me/RememberTheirNames/1271, https://x.com/hyrcanihrm/status/2016309332854427843, https://x.com/HyrcaniHRM/status/2016309332854427843
+  - https://x.com/hyrcanihrm/status/2016309332854427843
+  - https://x.com/HyrcaniHRM/status/2016309332854427843
+  - https://x.com/iranintlbrk/status/2015812585472340478
+  - https://x.com/hengawo/status/2013911264154546507
+  - https://x.com/HengawO/status/2013911264154546507
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

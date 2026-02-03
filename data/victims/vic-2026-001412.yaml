@@ -1,27 +1,102 @@
 # ==========================================
-# Victim Documentation - Ashkan Rostami
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001412.jpg"
-  - "vic-2026-259ef6aa103d.jpg"
-  - "vic-2026-7a8ef69f6b60.jpg"
-  - "vic-2026-c56f9bab1854.jpg"
+  - vic-2026-001412.jpg
+  - vic-2026-259ef6aa103d.jpg
+  - vic-2026-7a8ef69f6b60.jpg
+  - vic-2026-c56f9bab1854.jpg
+
+# Full Name in English
 name: Ashkan Rostami
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: ماهان رستمی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 21
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Isfahan
 incident_city: Shahinn Shahr
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: اشکان رستمی
 
@@ -29,9 +104,23 @@ description: |-
 
 
   Shot and killed by direct fire from government forces in the heart during public protests in the Dowlatabad neighborhood of Kermanshah. He was a 21-year-old Kurdish citizen, follower of the Yaresan faith, and from Dalāho, Kermanshah province.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/hengawo/status/2015696482284810656, https://x.com/pertikan_king/status/2014685488636952655, https://t.me/RememberTheirNames/1215, https://t.me/RememberTheirNames/1006"
-  - "https://x.com/pertikan_king/status/2014685488636952655"
-  - "https://x.com/hengawo/status/2015696482284810656"
-persian_name: ماهان رستمی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/hengawo/status/2015696482284810656, https://x.com/pertikan_king/status/2014685488636952655, https://t.me/RememberTheirNames/1215, https://t.me/RememberTheirNames/1006
+  - https://x.com/pertikan_king/status/2014685488636952655
+  - https://x.com/hengawo/status/2015696482284810656
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

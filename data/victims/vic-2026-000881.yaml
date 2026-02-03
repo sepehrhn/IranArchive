@@ -1,38 +1,127 @@
 # ==========================================
-# Victim Documentation - Aref Nazarpour
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000881.jpg"
-  - "vic-2026-4a6c9507f1ec.jpg"
-  - "vic-2026-984a9777fc40.jpg"
-  - "vic-2026-716279643f75.jpg"
-  - "vic-2026-e60c6fe015e3.jpg"
-  - "vic-2026-92604ccc1296.jpg"
-  - "vic-2026-5f9fbd3f2188.jpg"
-  - "vic-2026-718a57dab4aa.jpg"
+  - vic-2026-000881.jpg
+  - vic-2026-4a6c9507f1ec.jpg
+  - vic-2026-984a9777fc40.jpg
+  - vic-2026-716279643f75.jpg
+  - vic-2026-e60c6fe015e3.jpg
+  - vic-2026-92604ccc1296.jpg
+  - vic-2026-5f9fbd3f2188.jpg
+  - vic-2026-718a57dab4aa.jpg
+
+# Full Name in English
 name: Aref Nazarpour
-birth_date: ""
-birth_province: ""
+
+# Full Name in Persian (Optional)
+persian_name: عارف نظرپور
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
 birth_city: on top of a mosque
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 26
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Khuzestan
 incident_city: Andika
-incident_address: ""
-date_of_death: "2026-01-07"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-07'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot by a cleric with the surname Taheri while trying to help his wounded friend. Witnesses said he was shot from on top of a mosque.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/roozbehmon/status/2014107590259777671, https://x.com/allahbakhshii/status/2014294110018961513, https://x.com/outofken/status/2014486746512425233, https://www.instagram.com/p/DT3zoIPiIzo, https://t.me/RememberTheirNames/619, https://x.com/salarvandn21943/status/2016298428058226890"
-  - "https://x.com/outofken/status/2014486746512425233"
-  - "https://www.instagram.com/p/DT3zoIPiIzo"
-  - "https://x.com/salarvandn21943/status/2016298428058226890"
-  - "https://x.com/LoabatK/status/2014245814269362500"
-persian_name: عارف نظرپور
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/roozbehmon/status/2014107590259777671, https://x.com/allahbakhshii/status/2014294110018961513, https://x.com/outofken/status/2014486746512425233, https://www.instagram.com/p/DT3zoIPiIzo, https://t.me/RememberTheirNames/619, https://x.com/salarvandn21943/status/2016298428058226890
+  - https://x.com/outofken/status/2014486746512425233
+  - https://www.instagram.com/p/DT3zoIPiIzo
+  - https://x.com/salarvandn21943/status/2016298428058226890
+  - https://x.com/LoabatK/status/2014245814269362500
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

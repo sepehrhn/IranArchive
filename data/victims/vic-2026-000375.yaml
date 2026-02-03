@@ -1,37 +1,126 @@
 # ==========================================
-# Victim Documentation - Mohammad Mehdi Jarchi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000375.png"
-  - "vic-2026-1729396378bf.png"
-  - "vic-2026-e8b57043870a.png"
-  - "vic-2026-155da0c4ffec.jpg"
-  - "vic-2026-31d211fe69ce.png"
-  - "vic-2026-98018db1be8e.jpg"
+  - vic-2026-000375.png
+  - vic-2026-1729396378bf.png
+  - vic-2026-e8b57043870a.png
+  - vic-2026-155da0c4ffec.jpg
+  - vic-2026-31d211fe69ce.png
+  - vic-2026-98018db1be8e.jpg
+
+# Full Name in English
 name: Mohammad Mehdi Jarchi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: محمدمهدی جارچی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 38
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Karaj
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed by Islamic Republic regime
 
 
   Killed by the Islamic Republic regime.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/Daikatuo/status/2012217391527117076, https://www.instagram.com/p/DT261h9jPGw, https://t.me/RememberTheirNames/590"
-  - "https://x.com/Daikatuo/status/2012217391527117076"
-  - "https://www.instagram.com/p/DT261h9jPGw"
-persian_name: محمدمهدی جارچی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/Daikatuo/status/2012217391527117076, https://www.instagram.com/p/DT261h9jPGw, https://t.me/RememberTheirNames/590
+  - https://x.com/Daikatuo/status/2012217391527117076
+  - https://www.instagram.com/p/DT261h9jPGw
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

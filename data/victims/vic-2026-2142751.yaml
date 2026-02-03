@@ -1,61 +1,142 @@
 # ==========================================
-# Victim Documentation
+# Victim Documentation Template
 # ==========================================
-# Auto-generated from IranVictims.com
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-32d385fa3cf5.jpg"
-  - "vic-2026-67041d0a1d4c.jpg"
-  - "vic-2026-26130ce1057b.png"
-  - "vic-2026-55c32765017b.jpg"
-  - "vic-2026-8bb71b0a1cd3.jpg"
-  - "vic-2026-4c3531ede11d.jpg"
-  - "vic-2026-23a714a829fa.jpg"
-  - "vic-2026-2d59647c073c.jpg"
-  - "vic-2026-40f66e3789be.jpg"
-  - "vic-2026-02b01865b82e.jpg"
-  - "vic-2026-e483992b1da7.png"
-  - "vic-2026-f868723717d8.jpg"
-  - "vic-2026-de80a7ea7a36.jpg"
-  - "vic-2026-98b0dd3feb4b.jpg"
-  - "vic-2026-774e2bacc77b.jpg"
-  - "vic-2026-0d7db8ab2b12.jpg"
+  - vic-2026-32d385fa3cf5.jpg
+  - vic-2026-67041d0a1d4c.jpg
+  - vic-2026-26130ce1057b.png
+  - vic-2026-55c32765017b.jpg
+  - vic-2026-8bb71b0a1cd3.jpg
+  - vic-2026-4c3531ede11d.jpg
+  - vic-2026-23a714a829fa.jpg
+  - vic-2026-2d59647c073c.jpg
+  - vic-2026-40f66e3789be.jpg
+  - vic-2026-02b01865b82e.jpg
+  - vic-2026-e483992b1da7.png
+  - vic-2026-f868723717d8.jpg
+  - vic-2026-de80a7ea7a36.jpg
+  - vic-2026-98b0dd3feb4b.jpg
+  - vic-2026-774e2bacc77b.jpg
+  - vic-2026-0d7db8ab2b12.jpg
 
-name: "Reza Eskandaripour"
-persian_name: "رضا اسکندرپور"
+# Full Name in English
+name: Reza Eskandaripour
 
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+# Full Name in Persian (Optional)
+persian_name: رضا اسکندرپور
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: ''
+
+# Age at time of death (Optional, remove if unknown)
 age: 37
-occupation: ""
 
-country: "Iran"
-incident_province: ""
-incident_city: "Tehran"
-incident_address: ""
+# Occupation (Optional)
+occupation: ''
 
-date_of_death: ""
-date_of_death_precision: "Approximate"
-cause_of_death: ""
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
 
-status: "Killed"
+# Country
+country: Iran
 
+# Incident Location
+incident_province: ''
+incident_city: Tehran
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: ''
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: Approximate
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Reported by IranVictims.com
 
-source_type: "Social Media"
-source_social_media_link:
-  - "https://x.com/Daikatuo/status/2012215640212332549"
-  - "https://x.com/MothrOfDrgns/status/2012274823662051518"
-  - "https://x.com/iranintl/status/2012502738223952250"
-  - "https://x.com/Tavaana/status/2012144486609195322"
-  - "https://x.com/ihrights/status/2012588665579466815"
-  - "https://x.com/manotonews/status/2012774780886188168"
-  - "https://x.com/maroofian_n/status/2012851494152769763"
-  - "https://x.com/HengawO/status/2012222547601834311"
-  - "https://x.com/RadioFarda_/status/2013948066454183937"
-  - "https://x.com/hiwa_life/status/2015417391845629982"
-  - "https://x.com/missmarpel75/status/2014766321410470146"
-  - "https://x.com/hiitsmemooneh/status/2012345769190105435"
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/Daikatuo/status/2012215640212332549
+  - https://x.com/MothrOfDrgns/status/2012274823662051518
+  - https://x.com/iranintl/status/2012502738223952250
+  - https://x.com/Tavaana/status/2012144486609195322
+  - https://x.com/ihrights/status/2012588665579466815
+  - https://x.com/manotonews/status/2012774780886188168
+  - https://x.com/maroofian_n/status/2012851494152769763
+  - https://x.com/HengawO/status/2012222547601834311
+  - https://x.com/RadioFarda_/status/2013948066454183937
+  - https://x.com/hiwa_life/status/2015417391845629982
+  - https://x.com/missmarpel75/status/2014766321410470146
+  - https://x.com/hiitsmemooneh/status/2012345769190105435
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

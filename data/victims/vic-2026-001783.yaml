@@ -1,36 +1,125 @@
 # ==========================================
-# Victim Documentation - Parnia Khalaji
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001783.jpg"
-  - "vic-2026-d972b30a7e33.jpg"
-  - "vic-2026-3004728a32ce.jpg"
-  - "vic-2026-c9e8f37c60c5.jpg"
-  - "vic-2026-08bdfa4dbc7c.jpg"
-  - "vic-2026-f8d812caee9b.jpg"
+  - vic-2026-001783.jpg
+  - vic-2026-d972b30a7e33.jpg
+  - vic-2026-3004728a32ce.jpg
+  - vic-2026-c9e8f37c60c5.jpg
+  - vic-2026-08bdfa4dbc7c.jpg
+  - vic-2026-f8d812caee9b.jpg
+
+# Full Name in English
 name: Parnia Khalaji
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: پرنیا خلجی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: null
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: پرنیا خلجی
 
   Mentioned in a list of names with a date and location, implying death during protests.
-source_type: Social Media
-source_social_media_link:
-  - "https://t.me/RememberTheirNames/768"
-  - "https://x.com/elhamyazdiha/status/2017295023943938271"
-  - "https://x.com/noamagid/status/2017372227465838861"
-persian_name: پرنیا خلجی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://t.me/RememberTheirNames/768
+  - https://x.com/elhamyazdiha/status/2017295023943938271
+  - https://x.com/noamagid/status/2017372227465838861
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

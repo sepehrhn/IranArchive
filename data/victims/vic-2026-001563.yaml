@@ -1,36 +1,125 @@
 # ==========================================
-# Victim Documentation - Amirmehdi Keshavarz
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001563.jpg"
-  - "vic-2026-47d83ab95fde.jpg"
-  - "vic-2026-b923878c74b5.jpg"
-  - "vic-2026-f814a7427ec3.jpg"
+  - vic-2026-001563.jpg
+  - vic-2026-47d83ab95fde.jpg
+  - vic-2026-b923878c74b5.jpg
+  - vic-2026-f814a7427ec3.jpg
+
+# Full Name in English
 name: Amirmehdi Keshavarz
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: امیرمهدی کشاورز
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 17
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Qazvin
 incident_city: Zibashahr
 incident_address: Zibashahr
-date_of_death: "2026-01-10"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-10'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: امیرمهدی کشاورز
 
   Died in Dey 1404 (January 2026)
 
   17-year-old footballer shot with two war bullets by suppression forces during protests in Zibashah area of Qazvin during the national revolution of Iranians against the Islamic Republic
-source_type: Social Media
-source_social_media_link:
-  - "https://t.me/RememberTheirNames/1102, https://x.com/iranintlsport/status/2016604510081204449"
-  - "https://x.com/iranintlsport/status/2016604510081204449"
-  - "https://x.com/sssccpp/status/2017300501977591888"
-persian_name: امیرمهدی کشاورز
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://t.me/RememberTheirNames/1102, https://x.com/iranintlsport/status/2016604510081204449
+  - https://x.com/iranintlsport/status/2016604510081204449
+  - https://x.com/sssccpp/status/2017300501977591888
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

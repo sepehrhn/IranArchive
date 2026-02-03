@@ -16,7 +16,10 @@
         "dialogTitle": "Submit an Incident",
         "days_short": "d",
         "hours_short": "h",
-        "minutes_short": "m"
+        "minutes_short": "m",
+        "update": "Update",
+        "suggestUpdate": "Suggest Update",
+        "new": "New"
     },
     "home": {
         "heroTitleStart": "They can't post.",
@@ -222,7 +225,10 @@
                 "maxSize": "Maximum file size:",
                 "remove": "Remove Photo",
                 "empty": "No Photo Provided",
-                "sizeError": "File size must be under 2MB"
+                "sizeError": "File size must be under 2MB",
+                "addMore": "Add More Photos",
+                "current": "Existing Photo",
+                "replaceHint": "Upload a new photo to replace this one."
             },
             "personalInfo": {
                 "nameEn": "Full Name (English) *",
@@ -269,9 +275,9 @@
             "source": {
                 "verification": "Source Verification",
                 "type": "Source Type *",
-                "link": "Social Media Link *",
+                "link": "Source Link *",
                 "typeError": "Please select a source type",
-                "linkError": "Link is required for social media sources",
+                "linkError": "Source link is required",
                 "verifiedBy": "Verified By",
                 "source": "Source",
                 "linkProvided": "Link Provided"

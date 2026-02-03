@@ -1,36 +1,125 @@
 # ==========================================
-# Victim Documentation - Soleiman Parhizkari
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-2140013.jpg"
-  - "vic-2026-216f350ea1e3.jpg"
-  - "vic-2026-267dc607bd3d.jpg"
-  - "vic-2026-b4dcff77ad84.png"
-  - "vic-2026-e33d4deb7586.jpg"
-  - "vic-2026-0d74715968a9.jpg"
+  - vic-2026-2140013.jpg
+  - vic-2026-216f350ea1e3.jpg
+  - vic-2026-267dc607bd3d.jpg
+  - vic-2026-b4dcff77ad84.png
+  - vic-2026-e33d4deb7586.jpg
+  - vic-2026-0d74715968a9.jpg
+
+# Full Name in English
 name: Soleiman Parhizkari
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: سلیمان پرهیزکاری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 36
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Haft Hoz
 incident_address: Haft Howz
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: Kickboxing athlete shot by Islamic Republic suppression forces. Initially targeted with pellet shots, fled while wounded, then shot in the side from behind with a pistol. Transferred alive to ambulance but friends later found his body with signs of bruising on his neck. Had gone to a barber before joining protests, saying he was 'going to a wedding'.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranintlbrk/status/2016127639950360792, https://x.com/hemadnazari/status/2016058238769263085, https://x.com/hekasrehcrisis/status/2016357574946263140, https://x.com/iranintlsport/status/2016453805462765581, https://x.com/i/status/2016058238769263085"
-  - "https://x.com/hemadnazari/status/2016058238769263085"
-  - "https://x.com/iranintlbrk/status/2016127639950360792"
-  - "https://x.com/hekasrehcrisis/status/2016357574946263140"
-  - "https://x.com/iranintlsport/status/2016453805462765581"
-  - "https://x.com/i/status/2016058238769263085"
-persian_name: سلیمان پرهیزکاری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranintlbrk/status/2016127639950360792, https://x.com/hemadnazari/status/2016058238769263085, https://x.com/hekasrehcrisis/status/2016357574946263140, https://x.com/iranintlsport/status/2016453805462765581, https://x.com/i/status/2016058238769263085
+  - https://x.com/hemadnazari/status/2016058238769263085
+  - https://x.com/iranintlbrk/status/2016127639950360792
+  - https://x.com/hekasrehcrisis/status/2016357574946263140
+  - https://x.com/iranintlsport/status/2016453805462765581
+  - https://x.com/i/status/2016058238769263085
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

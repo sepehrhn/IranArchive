@@ -16,7 +16,10 @@
         "dialogTitle": "ثبت یک رویداد",
         "days_short": "روز",
         "hours_short": "ساعت",
-        "minutes_short": "دقیقه"
+        "minutes_short": "دقیقه",
+        "update": "بروزرسانی",
+        "suggestUpdate": "پیشنهاد بروزرسانی",
+        "new": "جدید"
     },
     "home": {
         "heroTitleStart": "آنها نمی‌توانند پست بگذارند.",
@@ -48,6 +51,7 @@
         "submit": "ثبت جاویدنام",
         "submitDialogTitle": "ثبت جاویدنام جدید",
         "searchPlaceholder": "جستجوی نام، مکان، شغل...",
+        "showFilters": "نمایش فیلترها",
         "filterProvince": "استان",
         "filterCity": "شهر",
         "selectProvinceFirst": "ابتدا استان را انتخاب کنید",
@@ -223,7 +227,10 @@
                 "maxSize": "حداکثر اندازه فایل:",
                 "remove": "حذف تصویر",
                 "empty": "تصویری ارائه نشده است",
-                "sizeError": "اندازه فایل باید کمتر از ۲ مگابایت باشد"
+                "sizeError": "اندازه فایل باید کمتر از ۲ مگابایت باشد",
+                "addMore": "افزودن تصاویر بیشتر",
+                "current": "تصویر موجود",
+                "replaceHint": "برای جایگزینی، تصویر جدیدی بارگذاری کنید."
             },
             "personalInfo": {
                 "nameEn": "نام کامل (انگلیسی) *",
@@ -270,9 +277,9 @@
             "source": {
                 "verification": "تأیید منبع",
                 "type": "نوع منبع *",
-                "link": "لینک شبکه‌های اجتماعی *",
+                "link": "لینک منبع *",
                 "typeError": "لطفاً یک نوع منبع انتخاب کنید",
-                "linkError": "لینک برای منابع شبکه‌های اجتماعی الزامی است",
+                "linkError": "لینک منبع الزامی است",
                 "verifiedBy": "تأیید شده توسط",
                 "source": "منبع",
                 "linkProvided": "لینک ارائه شده"

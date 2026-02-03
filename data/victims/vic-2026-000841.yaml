@@ -1,42 +1,131 @@
 # ==========================================
-# Victim Documentation - Setayesh Soosanabadi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000841.jpg"
-  - "vic-2026-30638746b094.jpg"
-  - "vic-2026-ab7d2c675c28.jpg"
-  - "vic-2026-b3fe2852a364.jpg"
-  - "vic-2026-a6b79407c310.jpg"
-  - "vic-2026-aa2ebeac4cbe.jpg"
-  - "vic-2026-001349.jpg"
+  - vic-2026-000841.jpg
+  - vic-2026-30638746b094.jpg
+  - vic-2026-ab7d2c675c28.jpg
+  - vic-2026-b3fe2852a364.jpg
+  - vic-2026-a6b79407c310.jpg
+  - vic-2026-aa2ebeac4cbe.jpg
+  - vic-2026-001349.jpg
+
+# Full Name in English
 name: Setayesh Soosanabadi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: ستایش سوسن‌آبادی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 37
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Arak
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by the Islamic Republic's repressive forces during protests on Thursday, 18 Dey.
 
 
   Killed by the Islamic Republic regime while demanding freedom for Iran. This is the last video Setayesh shared on her social media right before heading to the streets.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/saeidvafa/status/2014697038152077589, https://x.com/behnam_chegini/status/2014708872536035826, https://x.com/SaeidVafa/status/2014697038152077589, https://x.com/HengawO/status/2014670380019925226, https://x.com/SaeidVafa/status/2014693197272821815, https://x.com/olilondontv/status/2014842334773391780, https://x.com/iliaaaa66/status/2015507795257315723, https://t.me/RememberTheirNames/844"
-  - "https://x.com/SaeidVafa/status/2014697038152077589"
-  - "https://x.com/HengawO/status/2014670380019925226"
-  - "https://x.com/saeidvafa/status/2014697038152077589"
-  - "https://x.com/olilondontv/status/2014842334773391780"
-  - "https://x.com/Soranmansournia/status/2015051122902237325"
-  - "https://x.com/iliaaaa66/status/2015507795257315723"
-persian_name: ستایش سوسن‌آبادی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/saeidvafa/status/2014697038152077589, https://x.com/behnam_chegini/status/2014708872536035826, https://x.com/SaeidVafa/status/2014697038152077589, https://x.com/HengawO/status/2014670380019925226, https://x.com/SaeidVafa/status/2014693197272821815, https://x.com/olilondontv/status/2014842334773391780, https://x.com/iliaaaa66/status/2015507795257315723, https://t.me/RememberTheirNames/844
+  - https://x.com/SaeidVafa/status/2014697038152077589
+  - https://x.com/HengawO/status/2014670380019925226
+  - https://x.com/saeidvafa/status/2014697038152077589
+  - https://x.com/olilondontv/status/2014842334773391780
+  - https://x.com/Soranmansournia/status/2015051122902237325
+  - https://x.com/iliaaaa66/status/2015507795257315723
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

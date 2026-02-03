@@ -1,52 +1,141 @@
 # ==========================================
-# Victim Documentation - Yalda Mohammad Khani
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000456.jpg"
-  - "vic-2026-658fbc7855de.jpg"
-  - "vic-2026-cd54a79cd60d.jpg"
-  - "vic-2026-b7f9dd796aee.jpg"
-  - "vic-2026-32c8bc8cb0c4.jpg"
-  - "vic-2026-265a780ca75d.jpg"
-  - "vic-2026-aec82a7b25b0.jpg"
-  - "vic-2026-ac2453849b23.jpg"
-  - "vic-2026-1063065fea4a.jpg"
-  - "vic-2026-cef4442a7b83.jpg"
-  - "vic-2026-836696995581.jpg"
-  - "vic-2026-1052f211071f.jpg"
-  - "vic-2026-a304d5ea4408.jpg"
-  - "vic-2026-000865.jpg"
+  - vic-2026-000456.jpg
+  - vic-2026-658fbc7855de.jpg
+  - vic-2026-cd54a79cd60d.jpg
+  - vic-2026-b7f9dd796aee.jpg
+  - vic-2026-32c8bc8cb0c4.jpg
+  - vic-2026-265a780ca75d.jpg
+  - vic-2026-aec82a7b25b0.jpg
+  - vic-2026-ac2453849b23.jpg
+  - vic-2026-1063065fea4a.jpg
+  - vic-2026-cef4442a7b83.jpg
+  - vic-2026-836696995581.jpg
+  - vic-2026-1052f211071f.jpg
+  - vic-2026-a304d5ea4408.jpg
+  - vic-2026-000865.jpg
+
+# Full Name in English
 name: Yalda Mohammad Khani
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: يلدا محمد خانى
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 17
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Fardis
 incident_address: Fardis
-date_of_death: "2026-01-09"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot directly
 
 
   Shot with war bullets in heart, kidney and leg during protests. Killed in the arms of her parents. Her father lifted her and she said 'Dad, my whole body is burning' before dying in her mother's arms.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/aryammehr_2/status/2014939038151802977, https://x.com/Aryammehr_2/status/2014939038151802977, https://x.com/IranNewsAgency0/status/2016019152813883572, https://x.com/m_saeedy44360/status/2016082581582733703, https://x.com/Persian_picture/status/2016539927035494498"
-  - "https://x.com/noamagid/status/2015155999577976951"
-  - "https://x.com/bbcparham/status/2015083258539651231"
-  - "https://x.com/Tavaana/status/2015588662642405865"
-  - "https://x.com/BBCParham/status/2015083258539651231"
-  - "https://x.com/Aryammehr_2/status/2014939038151802977"
-  - "https://x.com/IranNewsAgency0/status/2016019152813883572"
-  - "https://x.com/m_saeedy44360/status/2016082581582733703"
-  - "https://x.com/Persian_picture/status/2016539927035494498"
-  - "https://x.com/bbcparham/status/2015131423733108984, https://x.com/noamagid/status/2015155999577976951, https://x.com/bbcparham/status/2015083258539651231, https://x.com/Tavaana/status/2015588662642405865, https://x.com/BBCParham/status/2015083258539651231, https://x.com/BBCParham/status/2015131423733108984, https://t.me/RememberTheirNames/1317"
-persian_name: يلدا محمد خانى
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/aryammehr_2/status/2014939038151802977, https://x.com/Aryammehr_2/status/2014939038151802977, https://x.com/IranNewsAgency0/status/2016019152813883572, https://x.com/m_saeedy44360/status/2016082581582733703, https://x.com/Persian_picture/status/2016539927035494498
+  - https://x.com/noamagid/status/2015155999577976951
+  - https://x.com/bbcparham/status/2015083258539651231
+  - https://x.com/Tavaana/status/2015588662642405865
+  - https://x.com/BBCParham/status/2015083258539651231
+  - https://x.com/Aryammehr_2/status/2014939038151802977
+  - https://x.com/IranNewsAgency0/status/2016019152813883572
+  - https://x.com/m_saeedy44360/status/2016082581582733703
+  - https://x.com/Persian_picture/status/2016539927035494498
+  - https://x.com/bbcparham/status/2015131423733108984, https://x.com/noamagid/status/2015155999577976951, https://x.com/bbcparham/status/2015083258539651231, https://x.com/Tavaana/status/2015588662642405865, https://x.com/BBCParham/status/2015083258539651231, https://x.com/BBCParham/status/2015131423733108984, https://t.me/RememberTheirNames/1317
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,40 +1,129 @@
 # ==========================================
-# Victim Documentation - Bahram Akhlaghi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000119.jpg"
-  - "vic-2026-e1a6f4a6fe71.jpg"
-  - "vic-2026-016d77a5b682.jpg"
-  - "vic-2026-45246ee10940.jpg"
-  - "vic-2026-9e2fe9c2aedb.jpg"
-  - "vic-2026-752c5748af05.png"
+  - vic-2026-000119.jpg
+  - vic-2026-e1a6f4a6fe71.jpg
+  - vic-2026-016d77a5b682.jpg
+  - vic-2026-45246ee10940.jpg
+  - vic-2026-9e2fe9c2aedb.jpg
+  - vic-2026-752c5748af05.png
+
+# Full Name in English
 name: Bahram Akhlaghi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: بهرام اخلاقی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 59
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Alborz
 incident_city: Hashtgerd
-incident_address: ""
-date_of_death: "2026-01-17"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-17'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   War veteran. Severely injured by a barrage of bullets from the regime's murderers on January 9, 2026 (19 Dey) and died on Friday, January 16, 2026 (26 Dey).
 
 
   Wounded by direct shotgun fire from security forces on January 9, 2026, in Hashtgerd. He died on January 17, 2026, after a week in a coma due to injuries to his brain, face, throat, heart, and lungs. The death certificate states he died from internal bleeding due to a firearm to the chest.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/mousavi1355/status/2015142760500646180, https://x.com/nedabahram/status/2015193908003656134, https://x.com/HengawO/status/2015496748106662154, https://x.com/kyokushinsoofi/status/2015768280925970623, https://x.com/KyokushinSoofi/status/2015768280925970623, https://t.me/RememberTheirNames/1258"
-  - "https://x.com/kyokushinsoofi/status/2015768280925970623"
-  - "https://x.com/KyokushinSoofi/status/2015768280925970623"
-  - "https://x.com/mousavi1355/status/2015142760500646180"
-  - "https://x.com/nedabahram/status/2015193908003656134"
-  - "https://x.com/HengawO/status/2015496748106662154"
-persian_name: بهرام اخلاقی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/mousavi1355/status/2015142760500646180, https://x.com/nedabahram/status/2015193908003656134, https://x.com/HengawO/status/2015496748106662154, https://x.com/kyokushinsoofi/status/2015768280925970623, https://x.com/KyokushinSoofi/status/2015768280925970623, https://t.me/RememberTheirNames/1258
+  - https://x.com/kyokushinsoofi/status/2015768280925970623
+  - https://x.com/KyokushinSoofi/status/2015768280925970623
+  - https://x.com/mousavi1355/status/2015142760500646180
+  - https://x.com/nedabahram/status/2015193908003656134
+  - https://x.com/HengawO/status/2015496748106662154
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

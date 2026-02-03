@@ -1,70 +1,151 @@
 # ==========================================
-# Victim Documentation
+# Victim Documentation Template
 # ==========================================
-# Auto-generated from IranVictims.com
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-5681f751c90e.jpg"
-  - "vic-2026-b84c2ea9df16.jpg"
-  - "vic-2026-f25adf290ec6.jpg"
-  - "vic-2026-6961a04ed357.jpg"
-  - "vic-2026-c4e6a79fe584.jpg"
-  - "vic-2026-32e2c9fdf612.jpg"
-  - "vic-2026-cf5a8a826be3.jpg"
-  - "vic-2026-578577ea50b0.jpg"
-  - "vic-2026-5d5d78a70ed0.jpg"
-  - "vic-2026-edd79e2c1e73.jpg"
-  - "vic-2026-a55e628297c8.jpg"
-  - "vic-2026-80251e9f6a25.jpg"
-  - "vic-2026-0bd305b55f1f.jpg"
-  - "vic-2026-744ebabee67f.jpg"
-  - "vic-2026-5391cd81d33e.jpg"
-  - "vic-2026-cef95ce445d6.jpg"
-  - "vic-2026-63b037d26e6a.jpg"
-  - "vic-2026-feb222cb2e3c.jpg"
-  - "vic-2026-ab332bbd789a.jpg"
-  - "vic-2026-51f284a1c3f6.jpg"
-  - "vic-2026-a629e0347496.jpg"
+  - vic-2026-5681f751c90e.jpg
+  - vic-2026-b84c2ea9df16.jpg
+  - vic-2026-f25adf290ec6.jpg
+  - vic-2026-6961a04ed357.jpg
+  - vic-2026-c4e6a79fe584.jpg
+  - vic-2026-32e2c9fdf612.jpg
+  - vic-2026-cf5a8a826be3.jpg
+  - vic-2026-578577ea50b0.jpg
+  - vic-2026-5d5d78a70ed0.jpg
+  - vic-2026-edd79e2c1e73.jpg
+  - vic-2026-a55e628297c8.jpg
+  - vic-2026-80251e9f6a25.jpg
+  - vic-2026-0bd305b55f1f.jpg
+  - vic-2026-744ebabee67f.jpg
+  - vic-2026-5391cd81d33e.jpg
+  - vic-2026-cef95ce445d6.jpg
+  - vic-2026-63b037d26e6a.jpg
+  - vic-2026-feb222cb2e3c.jpg
+  - vic-2026-ab332bbd789a.jpg
+  - vic-2026-51f284a1c3f6.jpg
+  - vic-2026-a629e0347496.jpg
 
-name: "Mohsen Arbabi"
-persian_name: "محسن اربابی"
+# Full Name in English
+name: Mohsen Arbabi
 
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+# Full Name in Persian (Optional)
+persian_name: محسن اربابی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: ''
+
+# Age at time of death (Optional, remove if unknown)
 age: 20
-occupation: ""
 
-country: "Iran"
-incident_province: ""
-incident_city: "Karaj"
-incident_address: ""
+# Occupation (Optional)
+occupation: ''
 
-date_of_death: ""
-date_of_death_precision: "Approximate"
-cause_of_death: ""
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
 
-status: "Killed"
+# Country
+country: Iran
 
+# Incident Location
+incident_province: ''
+incident_city: Karaj
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: ''
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: Approximate
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Reported by IranVictims.com
 
-source_type: "Social Media"
-source_social_media_link:
-  - "https://x.com/longlosthills/status/2014044754799886835"
-  - "https://x.com/outofken/status/2014198126807269572"
-  - "https://x.com/kalbalouchi/status/2014605814716301494"
-  - "https://x.com/farzinkadkhodae/status/2014797726651687360"
-  - "https://x.com/balochestan1422/status/2015348839687827825"
-  - "https://x.com/hamalilalin/status/2015846726897176972"
-  - "https://x.com/farzinkadkhodae/status/2014411998440677755"
-  - "https://x.com/shiraninaroui/status/2013608449439936595"
-  - "https://x.com/TheBalochWorld/status/2013713956016398582"
-  - "https://x.com/TheBalochWorld/status/2013712817271005379"
-  - "https://x.com/hamalilalin/status/2015853984586604592"
-  - "https://x.com/daikatuo/status/2013660252072218941"
-  - "https://x.com/haalvsh/status/2013645410741469473"
-  - "https://x.com/haalvsh/status/2013696423431118891"
-  - "https://x.com/farzinkadkhodae/status/2013955284180390055"
-  - "https://x.com/HengawO/status/2013961319469158812"
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/longlosthills/status/2014044754799886835
+  - https://x.com/outofken/status/2014198126807269572
+  - https://x.com/kalbalouchi/status/2014605814716301494
+  - https://x.com/farzinkadkhodae/status/2014797726651687360
+  - https://x.com/balochestan1422/status/2015348839687827825
+  - https://x.com/hamalilalin/status/2015846726897176972
+  - https://x.com/farzinkadkhodae/status/2014411998440677755
+  - https://x.com/shiraninaroui/status/2013608449439936595
+  - https://x.com/TheBalochWorld/status/2013713956016398582
+  - https://x.com/TheBalochWorld/status/2013712817271005379
+  - https://x.com/hamalilalin/status/2015853984586604592
+  - https://x.com/daikatuo/status/2013660252072218941
+  - https://x.com/haalvsh/status/2013645410741469473
+  - https://x.com/haalvsh/status/2013696423431118891
+  - https://x.com/farzinkadkhodae/status/2013955284180390055
+  - https://x.com/HengawO/status/2013961319469158812
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

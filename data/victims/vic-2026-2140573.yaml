@@ -1,49 +1,130 @@
 # ==========================================
-# Victim Documentation
+# Victim Documentation Template
 # ==========================================
-# Auto-generated from IranVictims.com
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-506b6b94de18.jpg"
-  - "vic-2026-0118694bbdc1.jpg"
-  - "vic-2026-9d42b9e2b17d.jpg"
-  - "vic-2026-cf4c09f37327.jpg"
-  - "vic-2026-a6a8e39f2cb9.jpg"
-  - "vic-2026-82d5da64c7a0.jpg"
-  - "vic-2026-5039f0a8c3b3.png"
-  - "vic-2026-2dd4f55d327a.png"
-  - "vic-2026-ae28475963d7.png"
-  - "vic-2026-17a27538d3b8.jpg"
-  - "vic-2026-7a74afa97cc6.jpg"
+  - vic-2026-506b6b94de18.jpg
+  - vic-2026-0118694bbdc1.jpg
+  - vic-2026-9d42b9e2b17d.jpg
+  - vic-2026-cf4c09f37327.jpg
+  - vic-2026-a6a8e39f2cb9.jpg
+  - vic-2026-82d5da64c7a0.jpg
+  - vic-2026-5039f0a8c3b3.png
+  - vic-2026-2dd4f55d327a.png
+  - vic-2026-ae28475963d7.png
+  - vic-2026-17a27538d3b8.jpg
+  - vic-2026-7a74afa97cc6.jpg
 
-name: "Parnian Dabiri Abkenari"
-persian_name: "پرنیان دبیری آبکناری"
+# Full Name in English
+name: Parnian Dabiri Abkenari
 
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+# Full Name in Persian (Optional)
+persian_name: پرنیان دبیری آبکناری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: ''
+
+# Age at time of death (Optional, remove if unknown)
 age: 16
-occupation: ""
 
-country: "Iran"
-incident_province: ""
-incident_city: "Baharestan County"
-incident_address: ""
+# Occupation (Optional)
+occupation: ''
 
-date_of_death: ""
-date_of_death_precision: "Approximate"
-cause_of_death: ""
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
 
-status: "Killed"
+# Country
+country: Iran
 
+# Incident Location
+incident_province: ''
+incident_city: Baharestan County
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: ''
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: Approximate
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Reported by IranVictims.com
 
-source_type: "Social Media"
-source_social_media_link:
-  - "https://x.com/babaktaghvaee1/status/2017312191154639294"
-  - "https://x.com/pardis__rabiee/status/2017325623690334267"
-  - "https://x.com/hekasrehcrisis/status/2016751852344291707"
-  - "https://x.com/pardis__rabiee/status/2015352105465188628"
-  - "https://x.com/sadiography/status/2017269252508590194"
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/babaktaghvaee1/status/2017312191154639294
+  - https://x.com/pardis__rabiee/status/2017325623690334267
+  - https://x.com/hekasrehcrisis/status/2016751852344291707
+  - https://x.com/pardis__rabiee/status/2015352105465188628
+  - https://x.com/sadiography/status/2017269252508590194
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

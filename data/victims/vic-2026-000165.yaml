@@ -1,36 +1,125 @@
 # ==========================================
-# Victim Documentation - Soroosh Soleimani
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000165.jpg"
-  - "vic-2026-6a10c5469b75.jpg"
-  - "vic-2026-fef2f5f51dbe.png"
-  - "vic-2026-5fe0d5dbca04.jpg"
-  - "vic-2026-5dbc4f68f6f1.jpg"
-  - "vic-2026-b6f6fd0850e2.jpg"
+  - vic-2026-000165.jpg
+  - vic-2026-6a10c5469b75.jpg
+  - vic-2026-fef2f5f51dbe.png
+  - vic-2026-5fe0d5dbca04.jpg
+  - vic-2026-5dbc4f68f6f1.jpg
+  - vic-2026-b6f6fd0850e2.jpg
+
+# Full Name in English
 name: Soroosh Soleimani
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: سروش سلیمانی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 15
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Hafshejan
-incident_address: ""
-date_of_death: "2026-01-04"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-04'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Killed by security forces during protests, body showed metal pellet wounds
-source_type: Social Media
-source_social_media_link:
-  - "https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/soranmansournia/status/2011802076632830012, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/allahbakhshii/status/2014530301750349889, https://x.com/Daikatuo/status/2007806138012844190, https://x.com/HengawO/status/2012589697831161899, https://t.me/RememberTheirNames/54"
-  - "https://x.com/Daikatuo/status/2007806138012844190"
-  - "https://x.com/soranmansournia/status/2011802076632830012"
-  - "https://x.com/HengawO/status/2012589697831161899"
-  - "https://x.com/allahbakhshii/status/2014530301750349889"
-persian_name: سروش سلیمانی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/soranmansournia/status/2011802076632830012, https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/allahbakhshii/status/2014530301750349889, https://x.com/Daikatuo/status/2007806138012844190, https://x.com/HengawO/status/2012589697831161899, https://t.me/RememberTheirNames/54
+  - https://x.com/Daikatuo/status/2007806138012844190
+  - https://x.com/soranmansournia/status/2011802076632830012
+  - https://x.com/HengawO/status/2012589697831161899
+  - https://x.com/allahbakhshii/status/2014530301750349889
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

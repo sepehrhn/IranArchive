@@ -102,13 +102,9 @@ description: |
 # Sources & References
 # -----------------------------------------------------------------------------
 
-# Source Type (Optional)
-# Options: 'Family or Close Friend' | 'Eyewitness' | 'Hospital/Forensic' | 'Local Report' | 'Social Media'
-source_type: ""
-
-# Social Media Link (Required if source_type is 'Social Media')
+# Source Link (Required)
 # Can be a single link or a list of links
-source_social_media_link:
+source:
   - ""
 
 

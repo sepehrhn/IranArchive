@@ -1,38 +1,127 @@
 # ==========================================
-# Victim Documentation - Hamidreza Hemmati
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000619.jpg"
-  - "vic-2026-66702fca8440.jpg"
-  - "vic-2026-027c592014a0.jpg"
-  - "vic-2026-16e18faca76b.jpg"
-  - "vic-2026-504329c7bc79.jpg"
+  - vic-2026-000619.jpg
+  - vic-2026-66702fca8440.jpg
+  - vic-2026-027c592014a0.jpg
+  - vic-2026-16e18faca76b.jpg
+  - vic-2026-504329c7bc79.jpg
+
+# Full Name in English
 name: Hamidreza Hemmati
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: حمیدرضا همتی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 21
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Isfahan / Laleh
 incident_address: Laleh
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Torture
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Abducted by suppressive forces and his lifeless body was returned to his family. The cause of death was announced as a 'stroke,' but the family observed severe signs of torture on his body.
 
 
   Abducted during protests on January 8, 2026, and his lifeless body was returned to his family a few days later. Authorities claimed the cause of death was 'heart attack', but severe injuries were observed on his body. He was a final-semester student of foreign languages at Isfahan University.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/dariush_zand/status/2014655939316441268, https://x.com/hirman__/status/2014631564253020419, https://x.com/dariush_Zand/status/2014655939316441268, https://x.com/autnews_org/status/2016037218645594297, https://t.me/RememberTheirNames/896"
-  - "https://x.com/hirman__/status/2014631564253020419"
-  - "https://x.com/dariush_zand/status/2014655939316441268"
-  - "https://x.com/autnews_org/status/2016037218645594297"
-  - "https://x.com/kyokushinsoofi/status/2017208878614663656"
-persian_name: حمیدرضا همتی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/dariush_zand/status/2014655939316441268, https://x.com/hirman__/status/2014631564253020419, https://x.com/dariush_Zand/status/2014655939316441268, https://x.com/autnews_org/status/2016037218645594297, https://t.me/RememberTheirNames/896
+  - https://x.com/hirman__/status/2014631564253020419
+  - https://x.com/dariush_zand/status/2014655939316441268
+  - https://x.com/autnews_org/status/2016037218645594297
+  - https://x.com/kyokushinsoofi/status/2017208878614663656
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

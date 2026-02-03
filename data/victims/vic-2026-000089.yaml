@@ -1,36 +1,125 @@
 # ==========================================
-# Victim Documentation - Alireza Rabat-Jazi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000089.jpg"
-  - "vic-2026-f7421865a2bd.jpg"
-  - "vic-2026-f354ab7427ac.jpg"
-  - "vic-2026-01ec96bf5e62.jpg"
-  - "vic-2026-aa83440a3659.jpg"
+  - vic-2026-000089.jpg
+  - vic-2026-f7421865a2bd.jpg
+  - vic-2026-f354ab7427ac.jpg
+  - vic-2026-01ec96bf5e62.jpg
+  - vic-2026-aa83440a3659.jpg
+
+# Full Name in English
 name: Alireza Rabat-Jazi
-birth_date: ""
-birth_province: ""
+
+# Full Name in Persian (Optional)
+persian_name: علیرضا رباط جزیی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
 birth_city: behind
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 38
+
+# Occupation (Optional)
 occupation: conscript and martyr
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Nazarabad
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot from behind. Family pressured to claim he was a conscript and martyr.
 
 
   Shot in the side during protests, he reached a neighbor's house but was found via his blood trail and taken away. He died from excessive bleeding. His body was handed over two days later with a commitment for fewer than ten people to attend the funeral.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/banafshehviola/status/2014470371253313774, https://x.com/abhaddadii/status/2014441379653460462, https://x.com/HeKasrehCrisis/status/2015805554669604981, https://t.me/RememberTheirNames/803"
-  - "https://x.com/abhaddadii/status/2014441379653460462"
-  - "https://t.me/javanmardi77/154248"
-persian_name: علیرضا رباط جزیی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/banafshehviola/status/2014470371253313774, https://x.com/abhaddadii/status/2014441379653460462, https://x.com/HeKasrehCrisis/status/2015805554669604981, https://t.me/RememberTheirNames/803
+  - https://x.com/abhaddadii/status/2014441379653460462
+  - https://t.me/javanmardi77/154248
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

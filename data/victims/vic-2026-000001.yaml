@@ -1,48 +1,137 @@
 # ==========================================
-# Victim Documentation - Nasim Pouraghaei
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000001.jpeg"
-  - "vic-2026-000398.jpg"
-  - "vic-2026-080141e0821d.jpg"
-  - "vic-2026-db6454d6ce28.jpg"
-  - "vic-2026-c0cbf7217cca.png"
-  - "vic-2026-e563cfb4b680.jpg"
-  - "vic-2026-1e145370fb12.png"
-  - "vic-2026-23b646b2be61.jpg"
-  - "vic-2026-6d8ad94c3b19.jpg"
-  - "vic-2026-bcede182c190.jpg"
-  - "vic-2026-022162e86985.jpg"
-  - "vic-2026-541593394aae.jpg"
+  - vic-2026-000001.jpeg
+  - vic-2026-000398.jpg
+  - vic-2026-080141e0821d.jpg
+  - vic-2026-db6454d6ce28.jpg
+  - vic-2026-c0cbf7217cca.png
+  - vic-2026-e563cfb4b680.jpg
+  - vic-2026-1e145370fb12.png
+  - vic-2026-23b646b2be61.jpg
+  - vic-2026-6d8ad94c3b19.jpg
+  - vic-2026-bcede182c190.jpg
+  - vic-2026-022162e86985.jpg
+  - vic-2026-541593394aae.jpg
+
+# Full Name in English
 name: Nasim Pouraghaei
+
+# Full Name in Persian (Optional)
 persian_name: نسیم پورآقایی
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 44
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Nasim Pouraghaei, mother of two, was shot dead on January 8, 2026 in Sadeghiyeh, Tehran.
   She was deliberately targeted with live ammunition to the neck by the regime's forces during the protests.
   According to her family's account, on that night, her husband was forced to carry her lifeless body in his arms for more than an hour, 
   because security forces routinely seize the bodies and refuse to return them to their families.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/longlosthills/status/2011968614891422054?s=20"
-  - "https://x.com/hengawo/status/2011871207369703702, https://x.com/tavaana/status/2011821741849645397, https://hengaw.net/en/news/2026/01/article-121, https://x.com/loabatk/status/2012026653091000767, https://x.com/iranhrs99/status/2013363419794010191, https://x.com/Daikatuo/status/2012211183286091831, https://t.me/RememberTheirNames/163"
-  - "https://x.com/hengawo/status/2011871207369703702"
-  - "https://x.com/tavaana/status/2011821741849645397"
-  - "https://x.com/Daikatuo/status/2012211183286091831"
-  - "https://x.com/loabatk/status/2012026653091000767"
-  - "https://x.com/iranhrs99/status/2013363419794010191"
-  - "https://x.com/hadeeselahi/status/2017334033747771541"
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/longlosthills/status/2011968614891422054?s=20
+  - https://x.com/hengawo/status/2011871207369703702, https://x.com/tavaana/status/2011821741849645397, https://hengaw.net/en/news/2026/01/article-121, https://x.com/loabatk/status/2012026653091000767, https://x.com/iranhrs99/status/2013363419794010191, https://x.com/Daikatuo/status/2012211183286091831, https://t.me/RememberTheirNames/163
+  - https://x.com/hengawo/status/2011871207369703702
+  - https://x.com/tavaana/status/2011821741849645397
+  - https://x.com/Daikatuo/status/2012211183286091831
+  - https://x.com/loabatk/status/2012026653091000767
+  - https://x.com/iranhrs99/status/2013363419794010191
+  - https://x.com/hadeeselahi/status/2017334033747771541
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

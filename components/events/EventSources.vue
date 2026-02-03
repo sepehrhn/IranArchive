@@ -1,21 +1,56 @@
 <script setup lang="ts">
-defineProps<{
+import { computed } from 'vue';
+
+const props = defineProps<{
     sources: string[]
 }>();
+
+const formattedSources = computed(() => {
+    if (!props.sources) return [];
+    
+    return props.sources.map((url, index) => {
+        let label = 'Source';
+        try {
+            const u = new URL(url);
+            label = u.hostname.replace('www.', '');
+            if (label === 'x.com' || label === 'twitter.com') label = 'X (Twitter)';
+            if (label === 'instagram.com') label = 'Instagram';
+            if (label === 'youtube.com') label = 'YouTube';
+            if (label === 'facebook.com') label = 'Facebook';
+            if (label === 't.me') label = 'Telegram';
+        } catch (e) {
+            label = url;
+        }
+
+        return {
+            id: index,
+            url: url,
+            label: label
+        };
+    });
+});
 </script>
 
 <template>
-    <div v-if="sources && sources.length > 0" class="flex flex-col gap-2">
-        <h3 class="font-semibold text-lg flex items-center gap-2">
-            <i class="pi pi-link"></i> Sources & Verification
-        </h3>
-        <ul class="list-disc list-inside space-y-1 text-sm">
-            <li v-for="(source, idx) in sources" :key="idx">
-                <a :href="source" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline break-all">
-                    {{ source }}
-                </a>
-            </li>
-        </ul>
+    <div v-if="formattedSources.length > 0" class="space-y-3">
+        <h4 class="text-xs font-bold text-surface-400 uppercase tracking-widest flex items-center gap-2">
+            <i class="pi pi-link text-primary-500 text-[10px]"></i>
+            Sources & Verification
+        </h4>
+
+        <div class="flex flex-wrap gap-2">
+            <a 
+                v-for="source in formattedSources" 
+                :key="source.id" 
+                :href="source.url" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="group inline-flex items-center gap-1.5 px-2 py-1 text-[10px] uppercase font-bold text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded transition-colors border border-transparent hover:border-blue-100 dark:hover:border-blue-800"
+                :title="source.label"
+            >
+                <i class="pi pi-external-link text-[10px]"></i>
+                SRC
+            </a>
+        </div>
     </div>
 </template>
-

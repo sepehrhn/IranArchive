@@ -1,40 +1,130 @@
 # ==========================================
-# Victim Documentation - Mehrshad Ragbar
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000149.jpg"
-  - "vic-2026-001547.jpg"
-  - "vic-2026-c516e27eb279.jpg"
-  - "vic-2026-6b5ea6a25f1f.jpg"
-  - "vic-2026-1ab92541f15e.jpg"
-  - "vic-2026-8bd603a4f621.jpg"
-  - "vic-2026-c9253e544a8e.jpg"
+  - vic-2026-000149.jpg
+  - vic-2026-001547.jpg
+  - vic-2026-c516e27eb279.jpg
+  - vic-2026-6b5ea6a25f1f.jpg
+  - vic-2026-1ab92541f15e.jpg
+  - vic-2026-8bd603a4f621.jpg
+  - vic-2026-c9253e544a8e.jpg
+
+# Full Name in English
 name: Mehrshad Ragbar
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: null
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 26
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Bandar Abbas
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot directly by security forces while riding a motorcycle with his friend Mohammad Amin Khatem
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/daikatuo/status/2013742568496935299"
-  - "https://x.com/daikatuo/status/2013742568496935299, https://x.com/Daikatuo/status/2013742568496935299, https://x.com/HengawO/status/2013750016439960017, https://x.com/HengawO/status/2013973994119053442, https://x.com/Tavaana/status/2013923437178143075, https://x.com/hiwa_life/status/2015704106879308037, https://x.com/TheBalochWorld/status/2014626960455176573, https://t.me/RememberTheirNames/455"
-  - "https://x.com/Daikatuo/status/2013742568496935299"
-  - "https://x.com/HengawO/status/2013750016439960017"
-  - "https://x.com/HengawO/status/2013973994119053442"
-  - "https://x.com/Tavaana/status/2013923437178143075"
-  - "https://x.com/thebalochworld/status/2014626960455176573"
-  - "https://x.com/hiwa_life/status/2015704106879308037"
-  - "https://x.com/TheBalochWorld/status/2014626960455176573"
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/daikatuo/status/2013742568496935299
+  - https://x.com/daikatuo/status/2013742568496935299, https://x.com/Daikatuo/status/2013742568496935299, https://x.com/HengawO/status/2013750016439960017, https://x.com/HengawO/status/2013973994119053442, https://x.com/Tavaana/status/2013923437178143075, https://x.com/hiwa_life/status/2015704106879308037, https://x.com/TheBalochWorld/status/2014626960455176573, https://t.me/RememberTheirNames/455
+  - https://x.com/Daikatuo/status/2013742568496935299
+  - https://x.com/HengawO/status/2013750016439960017
+  - https://x.com/HengawO/status/2013973994119053442
+  - https://x.com/Tavaana/status/2013923437178143075
+  - https://x.com/thebalochworld/status/2014626960455176573
+  - https://x.com/hiwa_life/status/2015704106879308037
+  - https://x.com/TheBalochWorld/status/2014626960455176573
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

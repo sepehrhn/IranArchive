@@ -1,43 +1,132 @@
 # ==========================================
-# Victim Documentation - Jalil Dostiyar Brahooyi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000314.png"
-  - "vic-2026-b9dce41b1982.png"
-  - "vic-2026-2626571a6e6f.png"
-  - "vic-2026-08a2833983b5.jpg"
-  - "vic-2026-26cf62fab343.png"
-  - "vic-2026-296308dd40e1.jpg"
-  - "vic-2026-b60367ce933b.jpg"
-  - "vic-2026-ab332bbd789a.jpg"
-  - "vic-2026-80251e9f6a25.jpg"
-  - "vic-2026-0bd305b55f1f.jpg"
-  - "vic-2026-744ebabee67f.jpg"
-  - "vic-2026-9256bee8fdc0.png"
+  - vic-2026-000314.png
+  - vic-2026-b9dce41b1982.png
+  - vic-2026-2626571a6e6f.png
+  - vic-2026-08a2833983b5.jpg
+  - vic-2026-26cf62fab343.png
+  - vic-2026-296308dd40e1.jpg
+  - vic-2026-b60367ce933b.jpg
+  - vic-2026-ab332bbd789a.jpg
+  - vic-2026-80251e9f6a25.jpg
+  - vic-2026-0bd305b55f1f.jpg
+  - vic-2026-744ebabee67f.jpg
+  - vic-2026-9256bee8fdc0.png
+
+# Full Name in English
 name: Jalil Dostiyar Brahooyi
+
+# Full Name in Persian (Optional)
 persian_name: جلیل دوستیار‌‌براهویی
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: ''
+
+# Age at time of death (Optional, remove if unknown)
 age: 22
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Yazd
 incident_city: Meybod
 incident_address: Yazd
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot in the chest by government forces during popular protests
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/daikatuo/status/2011862443933266250"
-  - "https://x.com/Daikatuo/status/2011862443933266250"
-  - "https://x.com/manotonews/status/2013257640676409561"
-  - "https://x.com/HengawO/status/2012175682348958150"
-  - "https://x.com/haalvsh/status/2013696423431118891"
-  - "https://x.com/TheBalochWorld/status/2013713956016398582"
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/daikatuo/status/2011862443933266250
+  - https://x.com/Daikatuo/status/2011862443933266250
+  - https://x.com/manotonews/status/2013257640676409561
+  - https://x.com/HengawO/status/2012175682348958150
+  - https://x.com/haalvsh/status/2013696423431118891
+  - https://x.com/TheBalochWorld/status/2013713956016398582
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,48 +1,137 @@
 # ==========================================
-# Victim Documentation - Ali Ghorbani
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000171.jpg"
-  - "vic-2026-106a6b285593.jpg"
-  - "vic-2026-001446.jpg"
-  - "vic-2026-0c721d343602.jpg"
-  - "vic-2026-001645.jpg"
-  - "vic-2026-1a3d607bf881.jpg"
-  - "vic-2026-5695435c9e30.jpg"
-  - "vic-2026-6dca9e972a2b.jpg"
-  - "vic-2026-17b5638d7850.jpg"
-  - "vic-2026-62779520587c.jpg"
-  - "vic-2026-d1fb7c7a4772.jpg"
+  - vic-2026-000171.jpg
+  - vic-2026-106a6b285593.jpg
+  - vic-2026-001446.jpg
+  - vic-2026-0c721d343602.jpg
+  - vic-2026-001645.jpg
+  - vic-2026-1a3d607bf881.jpg
+  - vic-2026-5695435c9e30.jpg
+  - vic-2026-6dca9e972a2b.jpg
+  - vic-2026-17b5638d7850.jpg
+  - vic-2026-62779520587c.jpg
+  - vic-2026-d1fb7c7a4772.jpg
+
+# Full Name in English
 name: Ali Ghorbani
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: علی قربانی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 30
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Pasargad
-incident_address: ""
-date_of_death: "2026-01-10"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-10'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the abdomen with a war bullet on January 8, 2026 in Parand. After two surgeries and initial recovery, the doctor gave permission for discharge, but his family was suspiciously informed on January 10 that he had died. His body was not handed over until Wednesday.
 
 
   Shot in the abdomen with live ammunition on 18 Dey (January 8, 2026). Initially showed signs of recovery after two surgeries, but his death was suspiciously announced on 20 Dey (January 10, 2026). His body was not returned to the family until Wednesday. He was a 30-year-old pharmaceutical salesman, an only child, married for 3 years, loved football and the gym, and had a strong desire for a free Iran.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/zanzendegi2201/status/2015032672091799806, https://x.com/ZanZendegi2201/status/2015032672091799806, https://t.me/RememberTheirNames/732, https://x.com/dgharibeh/status/2015498280692576551"
-  - "https://x.com/historyinpik/status/2018065177816506579"
-  - "https://x.com/pardis__rabiee/status/2015363381415338281, https://t.me/RememberTheirNames/1182"
-  - "https://t.me/RememberTheirNames/1115"
-  - "https://x.com/blcksull/status/2017283818953056567"
-  - "https://x.com/zanzendegi2201/status/2015032672091799806"
-  - "https://x.com/ZanZendegi2201/status/2015032672091799806"
-  - "https://x.com/dgharibeh/status/2015498280692576551"
-  - "https://x.com/HyrcaniHRM/status/2017004503619264678"
-persian_name: علی قربانی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/zanzendegi2201/status/2015032672091799806, https://x.com/ZanZendegi2201/status/2015032672091799806, https://t.me/RememberTheirNames/732, https://x.com/dgharibeh/status/2015498280692576551
+  - https://x.com/historyinpik/status/2018065177816506579
+  - https://x.com/pardis__rabiee/status/2015363381415338281, https://t.me/RememberTheirNames/1182
+  - https://t.me/RememberTheirNames/1115
+  - https://x.com/blcksull/status/2017283818953056567
+  - https://x.com/zanzendegi2201/status/2015032672091799806
+  - https://x.com/ZanZendegi2201/status/2015032672091799806
+  - https://x.com/dgharibeh/status/2015498280692576551
+  - https://x.com/HyrcaniHRM/status/2017004503619264678
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

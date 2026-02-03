@@ -1,37 +1,126 @@
 # ==========================================
-# Victim Documentation - Misagh Alidoost
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000700.jpg"
-  - "vic-2026-02fe45b2f1cf.jpg"
-  - "vic-2026-3f96a78ba065.jpg"
-  - "vic-2026-486549a7fd0d.jpg"
-  - "vic-2026-16a37ded321c.jpg"
+  - vic-2026-000700.jpg
+  - vic-2026-02fe45b2f1cf.jpg
+  - vic-2026-3f96a78ba065.jpg
+  - vic-2026-486549a7fd0d.jpg
+  - vic-2026-16a37ded321c.jpg
+
+# Full Name in English
 name: Misagh Alidoost
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: میثاق علیدوست
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 30
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Gilan
 incident_city: Bandar-e Kiyashahr
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by Basij forces affiliated with the Islamic Republic government
 
 
   Shot by Basij forces affiliated with the Islamic Republic of Iran regime.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/hyrcanihrm/status/2014099074341822774, https://x.com/iranwire/status/2014647305660486124, https://www.instagram.com/p/DTygBymDItr, https://x.com/ManotoNews/status/2015071087877640273, https://x.com/pkhwshhal/status/2015034103247040698, https://t.me/RememberTheirNames/574"
-  - "https://x.com/iranwire/status/2014647305660486124"
-  - "https://www.instagram.com/p/DTygBymDItr"
-  - "https://x.com/ManotoNews/status/2015071087877640273"
-persian_name: میثاق علیدوست
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/hyrcanihrm/status/2014099074341822774, https://x.com/iranwire/status/2014647305660486124, https://www.instagram.com/p/DTygBymDItr, https://x.com/ManotoNews/status/2015071087877640273, https://x.com/pkhwshhal/status/2015034103247040698, https://t.me/RememberTheirNames/574
+  - https://x.com/iranwire/status/2014647305660486124
+  - https://www.instagram.com/p/DTygBymDItr
+  - https://x.com/ManotoNews/status/2015071087877640273
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

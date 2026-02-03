@@ -1,52 +1,133 @@
 # ==========================================
-# Victim Documentation
+# Victim Documentation Template
 # ==========================================
-# Auto-generated from IranVictims.com
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-f13bcad07ed5.jpg"
-  - "vic-2026-e671b980b874.jpg"
-  - "vic-2026-6c7c68dde6ca.jpg"
-  - "vic-2026-020c0380e47a.jpg"
-  - "vic-2026-3c69f4080ade.jpg"
-  - "vic-2026-52809ea66b03.jpg"
-  - "vic-2026-477ee8002b8f.jpg"
-  - "vic-2026-ab5a2370a74c.jpg"
-  - "vic-2026-2726632b28bd.jpg"
-  - "vic-2026-dde534874673.png"
+  - vic-2026-f13bcad07ed5.jpg
+  - vic-2026-e671b980b874.jpg
+  - vic-2026-6c7c68dde6ca.jpg
+  - vic-2026-020c0380e47a.jpg
+  - vic-2026-3c69f4080ade.jpg
+  - vic-2026-52809ea66b03.jpg
+  - vic-2026-477ee8002b8f.jpg
+  - vic-2026-ab5a2370a74c.jpg
+  - vic-2026-2726632b28bd.jpg
+  - vic-2026-dde534874673.png
 
-name: "Javad Gananji"
-persian_name: "جواد گنجی"
+# Full Name in English
+name: Javad Gananji
 
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+# Full Name in Persian (Optional)
+persian_name: جواد گنجی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: ''
+
+# Age at time of death (Optional, remove if unknown)
 age: 39
-occupation: ""
 
-country: "Iran"
-incident_province: ""
-incident_city: "Tehran"
-incident_address: ""
+# Occupation (Optional)
+occupation: ''
 
-date_of_death: ""
-date_of_death_precision: "Approximate"
-cause_of_death: ""
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
 
-status: "Killed"
+# Country
+country: Iran
 
+# Incident Location
+incident_province: ''
+incident_city: Tehran
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: ''
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: Approximate
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Reported by IranVictims.com
 
-source_type: "Social Media"
-source_social_media_link:
-  - "https://x.com/IranProtestsCom/status/2010452621916528719"
-  - "https://x.com/iranintl/status/2013746572006248931"
-  - "https://x.com/Imaan8464/status/2014619728799506701"
-  - "https://x.com/imaan8464/status/2014619728799506701"
-  - "https://x.com/ManotoNews/status/2014662420606689736"
-  - "https://x.com/HamboodIRAN/status/2010326613716795750"
-  - "https://x.com/nahidseif/status/2016093474873847841"
-  - "https://x.com/i/status/2016940277353546145"
-  - "https://x.com/missmarpel75/status/2015070540067737702"
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/IranProtestsCom/status/2010452621916528719
+  - https://x.com/iranintl/status/2013746572006248931
+  - https://x.com/Imaan8464/status/2014619728799506701
+  - https://x.com/imaan8464/status/2014619728799506701
+  - https://x.com/ManotoNews/status/2014662420606689736
+  - https://x.com/HamboodIRAN/status/2010326613716795750
+  - https://x.com/nahidseif/status/2016093474873847841
+  - https://x.com/i/status/2016940277353546145
+  - https://x.com/missmarpel75/status/2015070540067737702
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

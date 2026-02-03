@@ -1,25 +1,114 @@
 # ==========================================
-# Victim Documentation - Pouria Jahangiri
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
   - vic-2026-2140157.jpg
+
+# Full Name in English
 name: Pouria Jahangiri
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: Male
-age: null
-occupation: ""
-country: Iran
-incident_province: ""
-incident_city: Shahreza
-incident_address: ""
-date_of_death: ""
-date_of_death_precision: Exact
-cause_of_death: ""
-status: Killed
-description: His father held a farewell ceremony for him. The ceremony included playing music in a 'reversed' or 'left-handed' style, which is a sorrowful tradition among the Lurs and Qashqai tribes for bidding farewell to lost loved ones. This style of mourning involves altering the rhythm and melody of celebratory music to a somber tone, and in some very specific traditional cases, physically inverting instruments like the naqareh to signify that 'the wheel of fortune has turned upside down' or 'the world has ended for us'. In Lorestan and Bakhtiari culture, this concept is known as 'Chamari' or the song of death, and can involve covering instruments with black cloth, playing slow and heavy rhythms on the drum, or even smearing mud on the instrument's opening or body. The 'reversed' music is played to signify that the natural order of life has been disrupted by the person's death, transforming joy into sorrow, and to inform the tribe of a tragedy. The deceased's horse is also saddled 'in reverse' (with tack tied backwards) during this 'funeral dance' called 'Kotol' or 'Ketol'.
-source_type: Social Media
-source_social_media_link: https://x.com/sasanrahimpour1/status/2015448028203643215
+
+# Full Name in Persian (Optional)
 persian_name: پوریا جهانگیری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Male
+
+# Age at time of death (Optional, remove if unknown)
+age: null
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: Iran
+
+# Incident Location
+incident_province: ''
+incident_city: Shahreza
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: ''
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
+description: His father held a farewell ceremony for him. The ceremony included playing music in a 'reversed' or 'left-handed' style, which is a sorrowful tradition among the Lurs and Qashqai tribes for bidding farewell to lost loved ones. This style of mourning involves altering the rhythm and melody of celebratory music to a somber tone, and in some very specific traditional cases, physically inverting instruments like the naqareh to signify that 'the wheel of fortune has turned upside down' or 'the world has ended for us'. In Lorestan and Bakhtiari culture, this concept is known as 'Chamari' or the song of death, and can involve covering instruments with black cloth, playing slow and heavy rhythms on the drum, or even smearing mud on the instrument's opening or body. The 'reversed' music is played to signify that the natural order of life has been disrupted by the person's death, transforming joy into sorrow, and to inform the tribe of a tragedy. The deceased's horse is also saddled 'in reverse' (with tack tied backwards) during this 'funeral dance' called 'Kotol' or 'Ketol'.
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source: https://x.com/sasanrahimpour1/status/2015448028203643215
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

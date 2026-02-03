@@ -1,35 +1,124 @@
 # ==========================================
-# Victim Documentation - Yasin Elahi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000458.jpg"
-  - "vic-2026-56434ce38c12.jpg"
-  - "vic-2026-af959769e236.jpg"
-  - "vic-2026-5396c0999250.jpg"
-  - "vic-2026-1267eecb1ebb.jpg"
+  - vic-2026-000458.jpg
+  - vic-2026-56434ce38c12.jpg
+  - vic-2026-af959769e236.jpg
+  - vic-2026-5396c0999250.jpg
+  - vic-2026-1267eecb1ebb.jpg
+
+# Full Name in English
 name: Yasin Elahi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: یاسین الهی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 18
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Kermanshah
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot in the chest with Kalashnikov bullet by Islamic Republic suppression forces during protests at Falakeh Dovom Dolatabad Tehran
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/kurdpa_farsi/status/2013256647624298681, https://x.com/hengawo/status/2013334156923548092, https://x.com/hiwa_life/status/2014676134684758132, https://x.com/HengawO/status/2013340887531634939, https://x.com/KurdistanHRN/status/2013630712088281345, https://x.com/RadioFarda_/status/2015067984314749252, https://t.me/RememberTheirNames/260"
-  - "https://x.com/HengawO/status/2013340887531634939"
-  - "https://x.com/hengawo/status/2013334156923548092"
-  - "https://x.com/KurdistanHRN/status/2013630712088281345"
-  - "https://x.com/RadioFarda_/status/2015067984314749252"
-persian_name: یاسین الهی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/kurdpa_farsi/status/2013256647624298681, https://x.com/hengawo/status/2013334156923548092, https://x.com/hiwa_life/status/2014676134684758132, https://x.com/HengawO/status/2013340887531634939, https://x.com/KurdistanHRN/status/2013630712088281345, https://x.com/RadioFarda_/status/2015067984314749252, https://t.me/RememberTheirNames/260
+  - https://x.com/HengawO/status/2013340887531634939
+  - https://x.com/hengawo/status/2013334156923548092
+  - https://x.com/KurdistanHRN/status/2013630712088281345
+  - https://x.com/RadioFarda_/status/2015067984314749252
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

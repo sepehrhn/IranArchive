@@ -1,39 +1,128 @@
 # ==========================================
-# Victim Documentation - Alireza Rafiei Rad
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000153.jpg"
-  - "vic-2026-b9aa8cfe5016.jpg"
-  - "vic-2026-806c417ed401.jpg"
-  - "vic-2026-18c016a333ff.jpg"
-  - "vic-2026-9434288cf624.jpg"
-  - "vic-2026-78b624cbd0c4.jpg"
+  - vic-2026-000153.jpg
+  - vic-2026-b9aa8cfe5016.jpg
+  - vic-2026-806c417ed401.jpg
+  - vic-2026-18c016a333ff.jpg
+  - vic-2026-9434288cf624.jpg
+  - vic-2026-78b624cbd0c4.jpg
+
+# Full Name in English
 name: Alireza Rafiei Rad
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: علیرضا رفیعی راد
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 20
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Mashhad
 incident_address: Nazi Abad
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by regime forces, severely wounded in main blood artery in leg near Naziabad Tehran on Friday, died Saturday after surgery at Shariati Hospital
 
 
   Shot on 19 Dey (Jan 9, 2026) and died on 20 Dey (Jan 10, 2026) by Islamic Republic's suppression agents. His grave was photographed by friends and shared on his Telegram channel.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/pouriazeraati/status/2012969280678007144, https://x.com/soranmansournia/status/2013648965875438007, https://x.com/HengawO/status/2013727681393700938, https://x.com/gh0lch0magh/status/2015337971105304828, https://t.me/RememberTheirNames/354"
-  - "https://x.com/pouriazeraati/status/2012969280678007144"
-  - "https://x.com/soranmansournia/status/2013648965875438007"
-  - "https://x.com/HengawO/status/2013727681393700938"
-  - "https://x.com/gh0lch0magh/status/2015337971105304828"
-persian_name: علیرضا رفیعی راد
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/pouriazeraati/status/2012969280678007144, https://x.com/soranmansournia/status/2013648965875438007, https://x.com/HengawO/status/2013727681393700938, https://x.com/gh0lch0magh/status/2015337971105304828, https://t.me/RememberTheirNames/354
+  - https://x.com/pouriazeraati/status/2012969280678007144
+  - https://x.com/soranmansournia/status/2013648965875438007
+  - https://x.com/HengawO/status/2013727681393700938
+  - https://x.com/gh0lch0magh/status/2015337971105304828
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,43 +1,132 @@
 # ==========================================
-# Victim Documentation - Arash Behfar
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000248.png"
-  - "vic-2026-814fb5a9092c.png"
-  - "vic-2026-ed07aa30169c.png"
-  - "vic-2026-48bed36a2dad.png"
-  - "vic-2026-cece599b7382.png"
-  - "vic-2026-7322e1b3b881.jpg"
-  - "vic-2026-798ec5001385.jpg"
-  - "vic-2026-03ec4e9f136f.png"
-  - "vic-2026-3fc32231581c.png"
+  - vic-2026-000248.png
+  - vic-2026-814fb5a9092c.png
+  - vic-2026-ed07aa30169c.png
+  - vic-2026-48bed36a2dad.png
+  - vic-2026-cece599b7382.png
+  - vic-2026-7322e1b3b881.jpg
+  - vic-2026-798ec5001385.jpg
+  - vic-2026-03ec4e9f136f.png
+  - vic-2026-3fc32231581c.png
+
+# Full Name in English
 name: Arash Behfar
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: آرش بهفر
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 32
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Nezamabad
 incident_address: Nezamabad
-date_of_death: "2026-01-09"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by government forces in the evening
 
 
   Directly targeted by live ammunition during protests. Identified as a shopkeeper from Aladin Passage.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/loabatk/status/2012083273628028964, https://x.com/shahramsadidi/status/2014325230055956634, https://x.com/Daikatuo/status/2011840906878423452, https://x.com/hekasrehcrisis/status/2015831372863095284, https://t.me/RememberTheirNames/391, https://x.com/HeKasrehCrisis/status/2015831372863095284"
-  - "https://x.com/Daikatuo/status/2011840906878423452"
-  - "https://x.com/loabatk/status/2012083273628028964"
-  - "https://x.com/shahramsadidi/status/2014325230055956634"
-  - "https://x.com/hekasrehcrisis/status/2015831372863095284"
-  - "https://x.com/HeKasrehCrisis/status/2015831372863095284"
-persian_name: آرش بهفر
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/loabatk/status/2012083273628028964, https://x.com/shahramsadidi/status/2014325230055956634, https://x.com/Daikatuo/status/2011840906878423452, https://x.com/hekasrehcrisis/status/2015831372863095284, https://t.me/RememberTheirNames/391, https://x.com/HeKasrehCrisis/status/2015831372863095284
+  - https://x.com/Daikatuo/status/2011840906878423452
+  - https://x.com/loabatk/status/2012083273628028964
+  - https://x.com/shahramsadidi/status/2014325230055956634
+  - https://x.com/hekasrehcrisis/status/2015831372863095284
+  - https://x.com/HeKasrehCrisis/status/2015831372863095284
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

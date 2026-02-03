@@ -1,40 +1,129 @@
 # ==========================================
-# Victim Documentation - Negar Ajam
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000061.jpg"
-  - "vic-2026-848d0d7120c9.jpg"
-  - "vic-2026-26d1934cac30.jpg"
-  - "vic-2026-db898f07837b.jpg"
-  - "vic-2026-01374eef9e59.jpg"
-  - "vic-2026-4265c72c9e12.jpg"
+  - vic-2026-000061.jpg
+  - vic-2026-848d0d7120c9.jpg
+  - vic-2026-26d1934cac30.jpg
+  - vic-2026-db898f07837b.jpg
+  - vic-2026-01374eef9e59.jpg
+  - vic-2026-4265c72c9e12.jpg
+
+# Full Name in English
 name: Negar Ajam
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: نگار عجم
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 27
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Razavi Khorasan
 incident_city: Gonabad
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Not specified, listed as a victim in the context of protests.
 
 
   From Zibed village, 27 years old. Associated with IranMassacre hashtag suggesting killed during protests
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/avatoday_news/status/2014771411001266382, https://x.com/moazabam/status/2014789259891507544, https://t.me/poshtpardeha/248754, https://x.com/outofken/status/2015609501098090688, https://x.com/moazabam/status/2015001965936472077, https://x.com/moazabam/status/2014870639354773801, https://x.com/moazabam/status/2014874613143241136, https://t.me/RememberTheirNames/1676"
-  - "https://t.me/poshtpardeha/248754"
-  - "https://x.com/outofken/status/2015609501098090688"
-  - "https://t.me/RememberTheirNames/1676"
-  - "https://x.com/LoabatK/status/2015242896929100106"
-  - "https://x.com/moazabam/status/2014789259891507544"
-persian_name: نگار عجم
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/avatoday_news/status/2014771411001266382, https://x.com/moazabam/status/2014789259891507544, https://t.me/poshtpardeha/248754, https://x.com/outofken/status/2015609501098090688, https://x.com/moazabam/status/2015001965936472077, https://x.com/moazabam/status/2014870639354773801, https://x.com/moazabam/status/2014874613143241136, https://t.me/RememberTheirNames/1676
+  - https://t.me/poshtpardeha/248754
+  - https://x.com/outofken/status/2015609501098090688
+  - https://t.me/RememberTheirNames/1676
+  - https://x.com/LoabatK/status/2015242896929100106
+  - https://x.com/moazabam/status/2014789259891507544
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,45 +1,134 @@
 # ==========================================
-# Victim Documentation - Nastaran Zare Manesh
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000764.jpg"
-  - "vic-2026-29d17f38e5c8.jpg"
-  - "vic-2026-f533838434c8.jpg"
-  - "vic-2026-59668a990f83.jpg"
-  - "vic-2026-f063613cb95b.png"
-  - "vic-2026-acc5ff32361f.jpg"
-  - "vic-2026-a8e5a931130f.jpg"
-  - "vic-2026-d1c0a67898f3.jpg"
-  - "vic-2026-31f16c188314.jpg"
+  - vic-2026-000764.jpg
+  - vic-2026-29d17f38e5c8.jpg
+  - vic-2026-f533838434c8.jpg
+  - vic-2026-59668a990f83.jpg
+  - vic-2026-f063613cb95b.png
+  - vic-2026-acc5ff32361f.jpg
+  - vic-2026-a8e5a931130f.jpg
+  - vic-2026-d1c0a67898f3.jpg
+  - vic-2026-31f16c188314.jpg
+
+# Full Name in English
 name: Nastaran Zare Manesh
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: نسترن زارع‌منش
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 39
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-01"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-01'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed by the Islamic Republic regime during protests
 
 
   Mother of two young children. Died during the protests.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/hengawo/status/2013015289240125666, https://x.com/daikatuo/status/2013374063612235945, https://x.com/manotonews/status/2013665325565550975, https://x.com/Daikatuo/status/2013374063612235945, https://x.com/HengawO/status/2013015289240125666, https://t.me/RememberTheirNames/204, https://x.com/kyokushinsoofi/status/2016288056613945558"
-  - "https://x.com/hengawo/status/2013015289240125666"
-  - "https://x.com/daikatuo/status/2013374063612235945"
-  - "https://x.com/Daikatuo/status/2013374063612235945"
-  - "https://x.com/manotonews/status/2013665325565550975"
-  - "https://x.com/HengawO/status/2013015289240125666"
-  - "https://x.com/kyokushinsoofi/status/2016288056613945558"
-  - "https://x.com/hiitsmemooneh/status/2012325845352804560"
-persian_name: نسترن زارع‌منش
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/hengawo/status/2013015289240125666, https://x.com/daikatuo/status/2013374063612235945, https://x.com/manotonews/status/2013665325565550975, https://x.com/Daikatuo/status/2013374063612235945, https://x.com/HengawO/status/2013015289240125666, https://t.me/RememberTheirNames/204, https://x.com/kyokushinsoofi/status/2016288056613945558
+  - https://x.com/hengawo/status/2013015289240125666
+  - https://x.com/daikatuo/status/2013374063612235945
+  - https://x.com/Daikatuo/status/2013374063612235945
+  - https://x.com/manotonews/status/2013665325565550975
+  - https://x.com/HengawO/status/2013015289240125666
+  - https://x.com/kyokushinsoofi/status/2016288056613945558
+  - https://x.com/hiitsmemooneh/status/2012325845352804560
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

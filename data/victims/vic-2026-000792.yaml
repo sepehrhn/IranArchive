@@ -1,42 +1,131 @@
 # ==========================================
-# Victim Documentation - Ramatin Bozorgmagham
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000792.jpg"
-  - "vic-2026-c6ffe7e1f7d2.jpg"
-  - "vic-2026-928f7c56b145.jpg"
-  - "vic-2026-28ef297ba82a.jpg"
-  - "vic-2026-867f006a2041.jpg"
-  - "vic-2026-87d6ec9d3c71.jpg"
+  - vic-2026-000792.jpg
+  - vic-2026-c6ffe7e1f7d2.jpg
+  - vic-2026-928f7c56b145.jpg
+  - vic-2026-28ef297ba82a.jpg
+  - vic-2026-867f006a2041.jpg
+  - vic-2026-87d6ec9d3c71.jpg
+
+# Full Name in English
 name: Ramatin Bozorgmagham
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: رامتین بزرگمقام
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 50
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Mazandaran
 incident_city: Chalus
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot directly in the head while trying to help his friend who had been killed during protests. Worked at a pharmacy.
 
 
   Killed by a gunshot. His photo was posted on shop windows. The tweet mentions a relative (father or brother) who confirmed he was shot dead. The tweet was posted on December 28, 2025, and the protests began on the same date, so this victim is included.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/faiiiiiiiiiiry/status/2013337243596038438, https://x.com/faiiiiiiiiiiry/status/2013574039399194948, https://x.com/faiiiiiiiiiiry/status/2014445717063139594, https://x.com/maryammoqaddam/status/2014711935275536389, https://x.com/rosster666/status/2014828063981220306, https://x.com/faiiiiiiiiiiry/status/2014774105384571218, https://x.com/hyrcanihrm/status/2015419215969210808, https://x.com/missmarpel75/status/2014636222614741311, https://x.com/MaryamMoqaddam/status/2014711935275536389, https://x.com/zizicgoogoolian/status/2015217347897028901, https://x.com/pegah76Fz/status/2014677226126512547, https://t.me/RememberTheirNames/386, https://t.me/persian_picture/4126"
-  - "https://x.com/faiiiiiiiiiiry/status/2014445717063139594"
-  - "https://x.com/maryammoqaddam/status/2014711935275536389"
-  - "https://x.com/hyrcanihrm/status/2015419215969210808"
-  - "https://x.com/MaryamMoqaddam/status/2014711935275536389"
-  - "https://t.me/persian_picture/4126"
-  - "https://x.com/faiiiiiiiiiiry/status/2013569361047437458"
-  - "https://x.com/faiiiiiiiiiiry/status/2013337243596038438"
-persian_name: رامتین بزرگمقام
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/faiiiiiiiiiiry/status/2013337243596038438, https://x.com/faiiiiiiiiiiry/status/2013574039399194948, https://x.com/faiiiiiiiiiiry/status/2014445717063139594, https://x.com/maryammoqaddam/status/2014711935275536389, https://x.com/rosster666/status/2014828063981220306, https://x.com/faiiiiiiiiiiry/status/2014774105384571218, https://x.com/hyrcanihrm/status/2015419215969210808, https://x.com/missmarpel75/status/2014636222614741311, https://x.com/MaryamMoqaddam/status/2014711935275536389, https://x.com/zizicgoogoolian/status/2015217347897028901, https://x.com/pegah76Fz/status/2014677226126512547, https://t.me/RememberTheirNames/386, https://t.me/persian_picture/4126
+  - https://x.com/faiiiiiiiiiiry/status/2014445717063139594
+  - https://x.com/maryammoqaddam/status/2014711935275536389
+  - https://x.com/hyrcanihrm/status/2015419215969210808
+  - https://x.com/MaryamMoqaddam/status/2014711935275536389
+  - https://t.me/persian_picture/4126
+  - https://x.com/faiiiiiiiiiiry/status/2013569361047437458
+  - https://x.com/faiiiiiiiiiiry/status/2013337243596038438
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

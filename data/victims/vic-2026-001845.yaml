@@ -1,44 +1,133 @@
 # ==========================================
-# Victim Documentation - Alireza Ghaleh Ghafi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001845.jpg"
-  - "vic-2026-47ef8ce99ca0.jpg"
-  - "vic-2026-c7b10089e988.jpg"
-  - "vic-2026-decf78d36b9a.jpg"
-  - "vic-2026-f67a8a533d5f.jpg"
-  - "vic-2026-67ccc858b8c4.jpg"
-  - "vic-2026-e71f687aca7a.jpg"
+  - vic-2026-001845.jpg
+  - vic-2026-47ef8ce99ca0.jpg
+  - vic-2026-c7b10089e988.jpg
+  - vic-2026-decf78d36b9a.jpg
+  - vic-2026-f67a8a533d5f.jpg
+  - vic-2026-67ccc858b8c4.jpg
+  - vic-2026-e71f687aca7a.jpg
+
+# Full Name in English
 name: Alireza Ghaleh Ghafi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: علیرضا قلعه قافی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 23
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Golestan
 incident_city: Shah-pasand (Azadshahr)
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: علیرضا قلعه قافی
 
   The tweet asks for his name to be posted as a 'Javidnam' (eternal name, a term used for martyrs). His father is mentioned as being heartbroken and not having received any condolences, implying his death. The circumstances of death are not explicitly stated, but the context suggests he was killed during the protests.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/anitabakt/status/2015865479403810915, https://x.com/ya3na_/status/2015814264506679334, https://x.com/hekasrehcrisis/status/2015810286733623673, https://x.com/i/status/2015810286733623673, https://x.com/Persian_picture/status/2015823937586737168, https://x.com/svdw_za/status/2015857659262439933, https://t.me/RememberTheirNames/1335, https://x.com/Sssccpp/status/2015857282463019224, https://x.com/iliaaaa66/status/2015820490300862870, https://x.com/Ya3na_/status/2015814264506679334, https://x.com/sssccpp/status/2015857282463019224, https://x.com/amirhuseyns/status/2015925826282213516, https://x.com/HeKasrehCrisis/status/2015810286733623673, https://x.com/hekasrehcrisis/status/2016399069048893475"
-  - "https://x.com/anitabakt/status/2015865479403810915"
-  - "https://x.com/i/status/2015810286733623673"
-  - "https://x.com/Persian_picture/status/2015823937586737168"
-  - "https://x.com/Sssccpp/status/2015857282463019224"
-  - "https://x.com/iliaaaa66/status/2015820490300862870"
-  - "https://x.com/Ya3na_/status/2015814264506679334"
-  - "https://x.com/HeKasrehCrisis/status/2015810286733623673"
-  - "https://x.com/sssccpp/status/2015857282463019224"
-  - "https://x.com/hekasrehcrisis/status/2016399069048893475"
-persian_name: علیرضا قلعه قافی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/anitabakt/status/2015865479403810915, https://x.com/ya3na_/status/2015814264506679334, https://x.com/hekasrehcrisis/status/2015810286733623673, https://x.com/i/status/2015810286733623673, https://x.com/Persian_picture/status/2015823937586737168, https://x.com/svdw_za/status/2015857659262439933, https://t.me/RememberTheirNames/1335, https://x.com/Sssccpp/status/2015857282463019224, https://x.com/iliaaaa66/status/2015820490300862870, https://x.com/Ya3na_/status/2015814264506679334, https://x.com/sssccpp/status/2015857282463019224, https://x.com/amirhuseyns/status/2015925826282213516, https://x.com/HeKasrehCrisis/status/2015810286733623673, https://x.com/hekasrehcrisis/status/2016399069048893475
+  - https://x.com/anitabakt/status/2015865479403810915
+  - https://x.com/i/status/2015810286733623673
+  - https://x.com/Persian_picture/status/2015823937586737168
+  - https://x.com/Sssccpp/status/2015857282463019224
+  - https://x.com/iliaaaa66/status/2015820490300862870
+  - https://x.com/Ya3na_/status/2015814264506679334
+  - https://x.com/HeKasrehCrisis/status/2015810286733623673
+  - https://x.com/sssccpp/status/2015857282463019224
+  - https://x.com/hekasrehcrisis/status/2016399069048893475
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

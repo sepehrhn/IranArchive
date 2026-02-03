@@ -201,7 +201,7 @@ const openAppleMaps = () => {
                 class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-100 dark:bg-surface-800 hover:bg-surface-200 dark:hover:bg-surface-700 border border-surface-200 dark:border-surface-700 shadow-sm hover:shadow text-xs font-bold text-surface-600 dark:text-surface-300 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-200 backdrop-blur-sm"
             >
                 <i class="pi pi-pencil text-[10px]"></i>
-                <span>Update</span>
+                <span>{{ t('common.update') }}</span>
             </button>
         </div>
 
@@ -454,7 +454,7 @@ const openAppleMaps = () => {
         <Dialog 
             v-model:visible="showUpdateDialog" 
             modal 
-            header="Suggest Update" 
+            :header="t('common.suggestUpdate')" 
             :style="{ width: '90vw', maxWidth: '600px' }"
             :draggable="false"
         >

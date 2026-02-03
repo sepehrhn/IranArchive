@@ -1,59 +1,148 @@
 # ==========================================
-# Victim Documentation - Aida Heidari
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000480.jpg"
-  - "vic-2026-e60deeff82d8.jpg"
-  - "vic-2026-8f8f1a326dab.jpg"
-  - "vic-2026-bb3b9dceb809.jpg"
-  - "vic-2026-363bcb96f09d.jpg"
-  - "vic-2026-4d078990331e.jpg"
-  - "vic-2026-85943c41b1fc.jpg"
-  - "vic-2026-4315649d474c.png"
-  - "vic-2026-59ec7ca4660a.jpg"
-  - "vic-2026-d3eccb94b1be.jpg"
-  - "vic-2026-f44fd8df6050.jpg"
-  - "vic-2026-7fdca005e4b4.jpg"
-  - "vic-2026-4148476d65a6.jpg"
-  - "vic-2026-d3b3cb0bdb64.jpg"
-  - "vic-2026-000515.jpg"
-  - "vic-2026-a629e0347496.jpg"
-  - "vic-2026-b17d23b0f4df.jpg"
-  - "vic-2026-000998.jpg"
-  - "vic-2026-002169.jpg"
-  - "vic-2026-f3bf93af7c5c.jpg"
-  - "vic-2026-119c7cdb92ed.jpg"
+  - vic-2026-000480.jpg
+  - vic-2026-e60deeff82d8.jpg
+  - vic-2026-8f8f1a326dab.jpg
+  - vic-2026-bb3b9dceb809.jpg
+  - vic-2026-363bcb96f09d.jpg
+  - vic-2026-4d078990331e.jpg
+  - vic-2026-85943c41b1fc.jpg
+  - vic-2026-4315649d474c.png
+  - vic-2026-59ec7ca4660a.jpg
+  - vic-2026-d3eccb94b1be.jpg
+  - vic-2026-f44fd8df6050.jpg
+  - vic-2026-7fdca005e4b4.jpg
+  - vic-2026-4148476d65a6.jpg
+  - vic-2026-d3b3cb0bdb64.jpg
+  - vic-2026-000515.jpg
+  - vic-2026-a629e0347496.jpg
+  - vic-2026-b17d23b0f4df.jpg
+  - vic-2026-000998.jpg
+  - vic-2026-002169.jpg
+  - vic-2026-f3bf93af7c5c.jpg
+  - vic-2026-119c7cdb92ed.jpg
+
+# Full Name in English
 name: Aida Heidari
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: آیدا حیدری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 23
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Tehran
 incident_address: Sadeghieh Square
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot by Islamic Regime forces while demanding freedom.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/sharifizarchi/status/2011486805745377353, https://x.com/zananfirouzehie/status/2011815899292975260, https://x.com/yasekhali/status/2012958918784246216, https://x.com/nashianeam/status/2014428617212571690, https://x.com/missmarpel75/status/2014614939428597811, https://x.com/SharifiZarchi/status/2011486708190286085, https://x.com/isamanyasin/status/2015495110700806616, https://x.com/mamlekate/status/2015751747356999894, https://x.com/BiEsmeTaHamishe/status/2013292440208204058, https://t.me/RememberTheirNames/104"
-  - "https://x.com/SharifiZarchi/status/2011486708190286085"
-  - "https://x.com/nashianeam/status/2014428617212571690"
-  - "https://x.com/missmarpel75/status/2014614939428597811"
-  - "https://x.com/mamlekate/status/2015751747356999894"
-  - "https://x.com/BiEsmeTaHamishe/status/2012956069606109685"
-  - "https://x.com/hiitsmemooneh/status/2013006246001958985"
-  - "https://x.com/isamanyasin/status/2015495110700806616"
-  - "https://x.com/allahbakhshii/status/2013535996730618038, https://x.com/banafshehviola/status/2013712240734806343, https://x.com/bar0ninthetrees/status/2014616642307621363, https://x.com/HengawO/status/2013961319469158812, https://t.me/RememberTheirNames/337"
-  - "https://x.com/HengawO/status/2013961319469158812"
-  - "https://x.com/allahbakhshii/status/2013535996730618038"
-  - "https://x.com/avatoday_news/status/2015139281551904842"
-  - "https://x.com/MischaelW29286/status/2014727671754654201"
-persian_name: آیدا حیدری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/sharifizarchi/status/2011486805745377353, https://x.com/zananfirouzehie/status/2011815899292975260, https://x.com/yasekhali/status/2012958918784246216, https://x.com/nashianeam/status/2014428617212571690, https://x.com/missmarpel75/status/2014614939428597811, https://x.com/SharifiZarchi/status/2011486708190286085, https://x.com/isamanyasin/status/2015495110700806616, https://x.com/mamlekate/status/2015751747356999894, https://x.com/BiEsmeTaHamishe/status/2013292440208204058, https://t.me/RememberTheirNames/104
+  - https://x.com/SharifiZarchi/status/2011486708190286085
+  - https://x.com/nashianeam/status/2014428617212571690
+  - https://x.com/missmarpel75/status/2014614939428597811
+  - https://x.com/mamlekate/status/2015751747356999894
+  - https://x.com/BiEsmeTaHamishe/status/2012956069606109685
+  - https://x.com/hiitsmemooneh/status/2013006246001958985
+  - https://x.com/isamanyasin/status/2015495110700806616
+  - https://x.com/allahbakhshii/status/2013535996730618038, https://x.com/banafshehviola/status/2013712240734806343, https://x.com/bar0ninthetrees/status/2014616642307621363, https://x.com/HengawO/status/2013961319469158812, https://t.me/RememberTheirNames/337
+  - https://x.com/HengawO/status/2013961319469158812
+  - https://x.com/allahbakhshii/status/2013535996730618038
+  - https://x.com/avatoday_news/status/2015139281551904842
+  - https://x.com/MischaelW29286/status/2014727671754654201
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

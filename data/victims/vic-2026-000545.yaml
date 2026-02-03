@@ -1,45 +1,134 @@
 # ==========================================
-# Victim Documentation - Ardeshir Zarei
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000545.jpg"
-  - "vic-2026-806b389d5dd8.jpg"
-  - "vic-2026-40c0f91c3029.png"
-  - "vic-2026-104a07cc1206.png"
-  - "vic-2026-8f4b93fd31c7.png"
-  - "vic-2026-41150b68bd93.png"
-  - "vic-2026-8409eae92ac7.jpg"
-  - "vic-2026-218d1bd6c927.jpg"
-  - "vic-2026-1e42325ddc75.jpg"
-  - "vic-2026-2e2e06698dbd.png"
+  - vic-2026-000545.jpg
+  - vic-2026-806b389d5dd8.jpg
+  - vic-2026-40c0f91c3029.png
+  - vic-2026-104a07cc1206.png
+  - vic-2026-8f4b93fd31c7.png
+  - vic-2026-41150b68bd93.png
+  - vic-2026-8409eae92ac7.jpg
+  - vic-2026-218d1bd6c927.jpg
+  - vic-2026-1e42325ddc75.jpg
+  - vic-2026-2e2e06698dbd.png
+
+# Full Name in English
 name: Ardeshir Zarei
-birth_date: ""
+
+# Full Name in Persian (Optional)
+persian_name: اردشیر زارعی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
 birth_province: Kermanshah
-birth_city: ""
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 40
+
+# Occupation (Optional)
 occupation: worker and follower of Yarsanism from Dalahu
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Saveh
-incident_address: ""
-date_of_death: "2026-01-05"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-05'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed during protests in Saveh city, was a worker and follower of Yarsanism from Dalahu in Kermanshah province
 
 
   Shot directly from behind while on his way to the pharmacy. His body was buried 7 days later in his hometown. He was a worker and father of 3 children.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/kurdistanhrn/status/2011441516489957603, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/manotonews/status/2012827310991331580, https://x.com/hiwa_life/status/2013937208441381123, https://x.com/Daikatuo/status/2011479730583724347, https://x.com/ManotoNews/status/2012827310991331580, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011441516489957603, https://t.me/RememberTheirNames/217"
-  - "https://x.com/kurdistanhrn/status/2011441516489957603"
-  - "https://x.com/Daikatuo/status/2011479730583724347"
-  - "https://x.com/ManotoNews/status/2012827310991331580"
-  - "https://x.com/KurdistanHRN/status/2011783655752880275"
-  - "https://x.com/KurdistanHRN/status/2011441516489957603"
-  - "https://x.com/hiwa_life/status/2013937208441381123"
-persian_name: اردشیر زارعی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/kurdistanhrn/status/2011441516489957603, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/manotonews/status/2012827310991331580, https://x.com/hiwa_life/status/2013937208441381123, https://x.com/Daikatuo/status/2011479730583724347, https://x.com/ManotoNews/status/2012827310991331580, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011441516489957603, https://t.me/RememberTheirNames/217
+  - https://x.com/kurdistanhrn/status/2011441516489957603
+  - https://x.com/Daikatuo/status/2011479730583724347
+  - https://x.com/ManotoNews/status/2012827310991331580
+  - https://x.com/KurdistanHRN/status/2011783655752880275
+  - https://x.com/KurdistanHRN/status/2011441516489957603
+  - https://x.com/hiwa_life/status/2013937208441381123
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

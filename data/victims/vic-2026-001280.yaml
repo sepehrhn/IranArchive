@@ -1,36 +1,126 @@
 # ==========================================
-# Victim Documentation - Soroush Khabazian Moghaddam
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001280.jpg"
-  - "vic-2026-001805.jpg"
-  - "vic-2026-c23f4f9e3c33.jpg"
-  - "vic-2026-db0318d17eea.png"
-  - "vic-2026-db7f37fff2a0.png"
-  - "vic-2026-a1a478b2d074.png"
+  - vic-2026-001280.jpg
+  - vic-2026-001805.jpg
+  - vic-2026-c23f4f9e3c33.jpg
+  - vic-2026-db0318d17eea.png
+  - vic-2026-db7f37fff2a0.png
+  - vic-2026-a1a478b2d074.png
+
+# Full Name in English
 name: Soroush Khabazian Moghaddam
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: null
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 23
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Isfahan
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Persian Name: سروش خبازیان مقدم
 
   Shot directly from behind by the Islamic Republic's suppressive forces in Robat-e Sevom region of Malekshahr, Esfahan. His family found his body after five days of searching and buried him in Baghe Rezvan cemetery in Esfahan.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranintl/status/2015620773365301482"
-  - "https://x.com/IranIntl/status/2015620773365301482, https://t.me/RememberTheirNames/994, https://x.com/hekasrehcrisis/status/2016375447827710377"
-  - "https://x.com/IranIntl/status/2015620773365301482"
-  - "https://x.com/hekasrehcrisis/status/2016375447827710377"
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranintl/status/2015620773365301482
+  - https://x.com/IranIntl/status/2015620773365301482, https://t.me/RememberTheirNames/994, https://x.com/hekasrehcrisis/status/2016375447827710377
+  - https://x.com/IranIntl/status/2015620773365301482
+  - https://x.com/hekasrehcrisis/status/2016375447827710377
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

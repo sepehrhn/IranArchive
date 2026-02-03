@@ -1,31 +1,120 @@
 # ==========================================
-# Victim Documentation - Abolfazl Sheikh-Veisi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000217.jpg"
-  - "vic-2026-9b1fc0dee154.jpg"
-  - "vic-2026-48de1987c72b.jpg"
+  - vic-2026-000217.jpg
+  - vic-2026-9b1fc0dee154.jpg
+  - vic-2026-48de1987c72b.jpg
+
+# Full Name in English
 name: Abolfazl Sheikh-Veisi
-birth_date: ""
-birth_province: ""
+
+# Full Name in Persian (Optional)
+persian_name: ابوالفضل شیخ‌ویسی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
 birth_city: blood loss
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 18
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Mashhad
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot in the thigh by security forces during a crackdown on protests. He was among at least 21 people targeted with direct gunfire. Security forces transported the injured to remote locations without medical care, and he later died from blood loss.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/shiraninaroui/status/2014709359075352968, https://x.com/haalvsh/status/2014694498232893847, https://x.com/balochestan1422/status/2015913529979568624, https://t.me/RememberTheirNames/1407, https://x.com/vanheda97/status/2016246103524385185"
-  - "https://x.com/shiraninaroui/status/2014709359075352968"
-  - "https://x.com/TheBalochWorld/status/2014700095502196912"
-persian_name: ابوالفضل شیخ‌ویسی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/shiraninaroui/status/2014709359075352968, https://x.com/haalvsh/status/2014694498232893847, https://x.com/balochestan1422/status/2015913529979568624, https://t.me/RememberTheirNames/1407, https://x.com/vanheda97/status/2016246103524385185
+  - https://x.com/shiraninaroui/status/2014709359075352968
+  - https://x.com/TheBalochWorld/status/2014700095502196912
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

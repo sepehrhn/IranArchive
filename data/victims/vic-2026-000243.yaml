@@ -1,53 +1,142 @@
 # ==========================================
-# Victim Documentation - Amir Mohammad Karami
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000243.jpg"
-  - "vic-2026-9576136e49f3.jpg"
-  - "vic-2026-99c07362bb9e.jpg"
-  - "vic-2026-458bec20d93a.jpg"
-  - "vic-2026-e7fd82ac2ca6.jpg"
-  - "vic-2026-db04beffb334.jpg"
-  - "vic-2026-640e0d9fd2b0.jpg"
-  - "vic-2026-d15f45c57d1d.jpg"
-  - "vic-2026-001862.jpg"
-  - "vic-2026-2e161ed446b9.jpg"
-  - "vic-2026-e2fdc34fc501.jpg"
-  - "vic-2026-3d63f3918ae4.jpg"
-  - "vic-2026-58b514b0798f.png"
+  - vic-2026-000243.jpg
+  - vic-2026-9576136e49f3.jpg
+  - vic-2026-99c07362bb9e.jpg
+  - vic-2026-458bec20d93a.jpg
+  - vic-2026-e7fd82ac2ca6.jpg
+  - vic-2026-db04beffb334.jpg
+  - vic-2026-640e0d9fd2b0.jpg
+  - vic-2026-d15f45c57d1d.jpg
+  - vic-2026-001862.jpg
+  - vic-2026-2e161ed446b9.jpg
+  - vic-2026-e2fdc34fc501.jpg
+  - vic-2026-3d63f3918ae4.jpg
+  - vic-2026-58b514b0798f.png
+
+# Full Name in English
 name: Amir Mohammad Karami
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: امیرمحمد کرمی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 18
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Marvdasht
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by security forces during national revolution protests
 
 
   Mentioned as one of the deceased from the Taekwondo community, but specific details of his death are not provided in this text.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/longlosthills/status/2011624069859340544, https://x.com/iranintl_en/status/2012858105558700344, https://x.com/indypersian/status/2013554344310792564, https://x.com/HengawO/status/2013597457872019946, https://x.com/iranintlsport/status/2015340504821506100, https://t.me/RememberTheirNames/301"
-  - "https://x.com/longlosthills/status/2011624069859340544"
-  - "https://x.com/avatoday_news/status/2011806828858913270"
-  - "https://x.com/iranintlsport/status/2012941724587335908"
-  - "https://x.com/iranintl_en/status/2012858105558700344"
-  - "https://x.com/indypersian/status/2013554344310792564"
-  - "https://x.com/HengawO/status/2013597457872019946"
-  - "https://x.com/iranintlsport/status/2015340504821506100"
-  - "https://x.com/Realneo101/status/2015347720878166299, https://x.com/realneo101/status/2015347720878166299, https://t.me/RememberTheirNames/1356"
-  - "https://x.com/Realneo101/status/2015347720878166299"
-  - "https://x.com/realneo101/status/2015347720878166299"
-  - "https://x.com/sasanrahimpour1/status/2017274602150330634"
-persian_name: امیرمحمد کرمی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/longlosthills/status/2011624069859340544, https://x.com/iranintl_en/status/2012858105558700344, https://x.com/indypersian/status/2013554344310792564, https://x.com/HengawO/status/2013597457872019946, https://x.com/iranintlsport/status/2015340504821506100, https://t.me/RememberTheirNames/301
+  - https://x.com/longlosthills/status/2011624069859340544
+  - https://x.com/avatoday_news/status/2011806828858913270
+  - https://x.com/iranintlsport/status/2012941724587335908
+  - https://x.com/iranintl_en/status/2012858105558700344
+  - https://x.com/indypersian/status/2013554344310792564
+  - https://x.com/HengawO/status/2013597457872019946
+  - https://x.com/iranintlsport/status/2015340504821506100
+  - https://x.com/Realneo101/status/2015347720878166299, https://x.com/realneo101/status/2015347720878166299, https://t.me/RememberTheirNames/1356
+  - https://x.com/Realneo101/status/2015347720878166299
+  - https://x.com/realneo101/status/2015347720878166299
+  - https://x.com/sasanrahimpour1/status/2017274602150330634
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

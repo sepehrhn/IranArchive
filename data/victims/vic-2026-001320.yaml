@@ -1,28 +1,103 @@
 # ==========================================
-# Victim Documentation - Yaser Majidi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001320.jpg"
-  - "vic-2026-7798a6fb8171.jpg"
-  - "vic-2026-c8f27696a69d.jpg"
-  - "vic-2026-4dd39347a27f.jpg"
-  - "vic-2026-0a6bb0f04331.jpg"
+  - vic-2026-001320.jpg
+  - vic-2026-7798a6fb8171.jpg
+  - vic-2026-c8f27696a69d.jpg
+  - vic-2026-4dd39347a27f.jpg
+  - vic-2026-0a6bb0f04331.jpg
+
+# Full Name in English
 name: Yaser Majidi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: یاسر مجیدی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 21
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Arak
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: یاسر مجیدی
 
@@ -30,11 +105,25 @@ description: |-
 
 
   Chemistry student shot and killed by regime forces while attempting to rescue a girl who had been shot. His burial was only permitted in the village of Gazaran, a suburb of Arak. His father was also arrested.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/anjmotahed/status/2015453782306435144, https://x.com/autnews_org/status/2015468074636341749, https://x.com/IranIntlbrk/status/2015411807783878779, https://x.com/behnam_chegini/status/2016442886879883641, https://x.com/saeidvafa/status/2016555556111098130, https://t.me/RememberTheirNames/1664"
-  - "https://x.com/anjmotahed/status/2015453782306435144"
-  - "https://x.com/autnews_org/status/2015468074636341749"
-  - "https://x.com/IranIntlbrk/status/2015411807783878779"
-  - "https://x.com/saeidvafa/status/2016555556111098130"
-persian_name: یاسر مجیدی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/anjmotahed/status/2015453782306435144, https://x.com/autnews_org/status/2015468074636341749, https://x.com/IranIntlbrk/status/2015411807783878779, https://x.com/behnam_chegini/status/2016442886879883641, https://x.com/saeidvafa/status/2016555556111098130, https://t.me/RememberTheirNames/1664
+  - https://x.com/anjmotahed/status/2015453782306435144
+  - https://x.com/autnews_org/status/2015468074636341749
+  - https://x.com/IranIntlbrk/status/2015411807783878779
+  - https://x.com/saeidvafa/status/2016555556111098130
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

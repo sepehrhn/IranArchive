@@ -1,50 +1,139 @@
 # ==========================================
-# Victim Documentation - Zahra Moradi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000876.png"
-  - "vic-2026-ef2fc3a92a75.png"
-  - "vic-2026-5843d9880381.png"
-  - "vic-2026-1bf39af13854.png"
-  - "vic-2026-876370c081f9.jpg"
-  - "vic-2026-218d1bd6c927.jpg"
-  - "vic-2026-14f506369765.jpg"
-  - "vic-2026-6e08114aaf23.jpg"
-  - "vic-2026-cc8d2269381f.jpg"
-  - "vic-2026-001897.jpg"
-  - "vic-2026-9ad2c27b52b0.jpg"
-  - "vic-2026-48aca955c535.jpg"
-  - "vic-2026-80deed348f34.jpg"
-  - "vic-2026-f10f5785bb2a.png"
+  - vic-2026-000876.png
+  - vic-2026-ef2fc3a92a75.png
+  - vic-2026-5843d9880381.png
+  - vic-2026-1bf39af13854.png
+  - vic-2026-876370c081f9.jpg
+  - vic-2026-218d1bd6c927.jpg
+  - vic-2026-14f506369765.jpg
+  - vic-2026-6e08114aaf23.jpg
+  - vic-2026-cc8d2269381f.jpg
+  - vic-2026-001897.jpg
+  - vic-2026-9ad2c27b52b0.jpg
+  - vic-2026-48aca955c535.jpg
+  - vic-2026-80deed348f34.jpg
+  - vic-2026-f10f5785bb2a.png
+
+# Full Name in English
 name: Zahra Moradi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: زهرا مرادی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 25
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Iran (provinces of Ilam
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed by a direct shot to the head and chest during protests in Tehran.
 
 
   Killed by shooting by the security forces of the Islamic Republic during the popular protests in Tehran.
-source_type: Social Media
-source_social_media_link:
-  - "https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/kurdistanhrn/status/2014695894638112871, https://x.com/Daikatuo/status/2011478578936836544, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2014695894638112871, https://t.me/RememberTheirNames/145"
-  - "https://x.com/Daikatuo/status/2011478578936836544"
-  - "https://x.com/KurdistanHRN/status/2011783655752880275"
-  - "https://x.com/kurdistanhrn/status/2014695894638112871"
-  - "https://x.com/allahbakhshii/status/2017500747936432326"
-  - "https://x.com/kurdpa_farsi/status/2014761916787281990, https://www.instagram.com/p/DT3NcGUCiAR, https://t.me/RememberTheirNames/469"
-  - "https://www.instagram.com/p/DT3NcGUCiAR"
-  - "https://x.com/kurdpa_farsi/status/2014761916787281990"
-persian_name: زهرا مرادی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/kurdistanhrn/status/2014695894638112871, https://x.com/Daikatuo/status/2011478578936836544, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2014695894638112871, https://t.me/RememberTheirNames/145
+  - https://x.com/Daikatuo/status/2011478578936836544
+  - https://x.com/KurdistanHRN/status/2011783655752880275
+  - https://x.com/kurdistanhrn/status/2014695894638112871
+  - https://x.com/allahbakhshii/status/2017500747936432326
+  - https://x.com/kurdpa_farsi/status/2014761916787281990, https://www.instagram.com/p/DT3NcGUCiAR, https://t.me/RememberTheirNames/469
+  - https://www.instagram.com/p/DT3NcGUCiAR
+  - https://x.com/kurdpa_farsi/status/2014761916787281990
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

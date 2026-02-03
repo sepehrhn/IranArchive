@@ -1,29 +1,118 @@
 # ==========================================
-# Victim Documentation - Abu Al-Qasem Babaei
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
   - vic-2026-000982.jpg
+
+# Full Name in English
 name: Abu Al-Qasem Babaei
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: ابوالقاسم بابایی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 44
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Vahidiyeh
-incident_address: ""
-date_of_death: "2025-12-29"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2025-12-29'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot at close range, reportedly took 70 bullets to protect others
 
 
   44-year-old taxi driver and father of three children (ages 4, 11, and 15), originally from Kangavar but living in Vahidiyeh Shahriar for years. He was alone in the Vahidiyeh area on Joqin Street when he was trapped by Basij forces and plainclothes agents. He was first severely beaten with batons, then shot with pellet bullets to his chest and abdomen area, dying from the severity of his injuries. He was a relative of Erfan Khazaei, who was killed in the 2022 revolutionary uprising.
-source_type: Social Media
-source_social_media_link: https://x.com/pouriazeraati/status/2012971889958821982, https://x.com/pouyajegarvnd/status/2014340742387507330, https://x.com/pouyajegarvnd/status/2014400069974307303, https://x.com/tavaana/status/2016392166323388870, https://x.com/dadban4/status/2016623713853329429
-persian_name: ابوالقاسم بابایی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source: https://x.com/pouriazeraati/status/2012971889958821982, https://x.com/pouyajegarvnd/status/2014340742387507330, https://x.com/pouyajegarvnd/status/2014400069974307303, https://x.com/tavaana/status/2016392166323388870, https://x.com/dadban4/status/2016623713853329429
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

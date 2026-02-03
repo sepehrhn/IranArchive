@@ -1,41 +1,130 @@
 # ==========================================
-# Victim Documentation - Mohammad Golriz
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000189.jpg"
-  - "vic-2026-000920.jpg"
-  - "vic-2026-8d946173c858.jpg"
-  - "vic-2026-7f47c7063341.jpg"
-  - "vic-2026-c6295b390817.jpg"
-  - "vic-2026-7965a0ab386e.jpg"
-  - "vic-2026-6eb04151da12.jpg"
-  - "vic-2026-e92102159d3f.jpg"
-  - "vic-2026-dfd235f437f9.jpg"
-  - "vic-2026-002233.jpg"
-  - "vic-2026-ab5a2370a74c.jpg"
-  - "vic-2026-551f39ff2699.jpg"
-  - "vic-2026-e69c7f67a857.jpg"
-  - "vic-2026-d60f4d656529.jpg"
+  - vic-2026-000189.jpg
+  - vic-2026-000920.jpg
+  - vic-2026-8d946173c858.jpg
+  - vic-2026-7f47c7063341.jpg
+  - vic-2026-c6295b390817.jpg
+  - vic-2026-7965a0ab386e.jpg
+  - vic-2026-6eb04151da12.jpg
+  - vic-2026-e92102159d3f.jpg
+  - vic-2026-dfd235f437f9.jpg
+  - vic-2026-002233.jpg
+  - vic-2026-ab5a2370a74c.jpg
+  - vic-2026-551f39ff2699.jpg
+  - vic-2026-e69c7f67a857.jpg
+  - vic-2026-d60f4d656529.jpg
+
+# Full Name in English
 name: Mohammad Golriz
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: محمد گلریز
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 29
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot by Islamic Republic suppression forces on Andarzgoo Boulevard in Tehran alongside his close friend Alireza Sadeghi
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/indypersian/status/2012923968576217217, https://x.com/indypersian/status/2013042864733688021"
-  - "https://x.com/solmazbarghgir/status/2014688824689930363"
-persian_name: محمد گلریز
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/indypersian/status/2012923968576217217, https://x.com/indypersian/status/2013042864733688021
+  - https://x.com/solmazbarghgir/status/2014688824689930363
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

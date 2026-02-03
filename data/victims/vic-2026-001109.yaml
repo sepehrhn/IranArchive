@@ -1,52 +1,141 @@
 # ==========================================
-# Victim Documentation - Kamran Alizadeh
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001109.jpg"
-  - "vic-2026-39c86839ded3.jpg"
-  - "vic-2026-e700b49b5d3f.jpg"
-  - "vic-2026-96c3892ed95a.jpg"
-  - "vic-2026-88ec04dc77ec.jpg"
-  - "vic-2026-2139922.jpg"
-  - "vic-2026-70b84bfeec2e.jpg"
-  - "vic-2026-37945798594c.jpg"
-  - "vic-2026-507b7142c383.jpg"
-  - "vic-2026-c8e76ca744b3.jpg"
-  - "vic-2026-3abe2301b50b.jpg"
-  - "vic-2026-d149855bd8c7.jpg"
-  - "vic-2026-27646a6cb958.jpg"
-  - "vic-2026-e48fd26fb3b7.jpg"
+  - vic-2026-001109.jpg
+  - vic-2026-39c86839ded3.jpg
+  - vic-2026-e700b49b5d3f.jpg
+  - vic-2026-96c3892ed95a.jpg
+  - vic-2026-88ec04dc77ec.jpg
+  - vic-2026-2139922.jpg
+  - vic-2026-70b84bfeec2e.jpg
+  - vic-2026-37945798594c.jpg
+  - vic-2026-507b7142c383.jpg
+  - vic-2026-c8e76ca744b3.jpg
+  - vic-2026-3abe2301b50b.jpg
+  - vic-2026-d149855bd8c7.jpg
+  - vic-2026-27646a6cb958.jpg
+  - vic-2026-e48fd26fb3b7.jpg
+
+# Full Name in English
 name: Kamran Alizadeh
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: کامران علیزاده
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: null
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Mashhad
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Direct gunshot to the head. Under 20 years old. Student of mechanical engineering.
 
 
   Shot directly in the head. Student of Mechanical Engineering. Under twenty years old.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/mahenimrooz/status/2014975377936994814, https://x.com/Mahenimrooz/status/2014975377936994814, https://t.me/RememberTheirNames/1518"
-  - "https://x.com/Mahenimrooz/status/2014975377936994814"
-  - "https://t.me/RememberTheirNames/1518"
-  - "https://x.com/autnews_org/status/2017228240247505054"
-  - "https://x.com/isamanyasin/status/2016859528986309111"
-  - "https://x.com/soheil7and/status/2016646325358465398"
-  - "https://x.com/missmarpel75/status/2016741469000785997"
-  - "https://x.com/HengawO/status/2014731535656648720"
-  - "https://x.com/kurdpa_farsi/status/2014762104096534912"
-  - "https://x.com/HengawO/status/2014733186132038089"
-persian_name: کامران علیزاده
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/mahenimrooz/status/2014975377936994814, https://x.com/Mahenimrooz/status/2014975377936994814, https://t.me/RememberTheirNames/1518
+  - https://x.com/Mahenimrooz/status/2014975377936994814
+  - https://t.me/RememberTheirNames/1518
+  - https://x.com/autnews_org/status/2017228240247505054
+  - https://x.com/isamanyasin/status/2016859528986309111
+  - https://x.com/soheil7and/status/2016646325358465398
+  - https://x.com/missmarpel75/status/2016741469000785997
+  - https://x.com/HengawO/status/2014731535656648720
+  - https://x.com/kurdpa_farsi/status/2014762104096534912
+  - https://x.com/HengawO/status/2014733186132038089
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

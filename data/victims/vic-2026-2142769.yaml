@@ -1,40 +1,121 @@
 # ==========================================
-# Victim Documentation
+# Victim Documentation Template
 # ==========================================
-# Auto-generated from IranVictims.com
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-7349e1df7fce.jpg"
-  - "vic-2026-99d9d4e4833b.jpg"
-  - "vic-2026-ce3a105d3447.jpg"
+  - vic-2026-7349e1df7fce.jpg
+  - vic-2026-99d9d4e4833b.jpg
+  - vic-2026-ce3a105d3447.jpg
 
-name: "Saeed Joodaki Rashno"
-persian_name: "سعید جودکی رشنو"
+# Full Name in English
+name: Saeed Joodaki Rashno
 
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: ""
+# Full Name in Persian (Optional)
+persian_name: سعید جودکی رشنو
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: ''
+
+# Age at time of death (Optional, remove if unknown)
 age: 35
-occupation: ""
 
-country: "Iran"
-incident_province: ""
-incident_city: "Khorramabad"
-incident_address: ""
+# Occupation (Optional)
+occupation: ''
 
-date_of_death: ""
-date_of_death_precision: "Approximate"
-cause_of_death: ""
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
 
-status: "Killed"
+# Country
+country: Iran
 
+# Incident Location
+incident_province: ''
+incident_city: Khorramabad
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: ''
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: Approximate
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Reported by IranVictims.com
 
-source_type: "Social Media"
-source_social_media_link:
-  - "https://x.com/khoshrof/status/2014313292378845487"
-  - "https://x.com/ChaawTimes/status/2014459866731979064"
-  - "https://x.com/amoody408/status/2014983075625923003"
-  - "https://x.com/KhoshroF/status/2014313292378845487"
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/khoshrof/status/2014313292378845487
+  - https://x.com/ChaawTimes/status/2014459866731979064
+  - https://x.com/amoody408/status/2014983075625923003
+  - https://x.com/KhoshroF/status/2014313292378845487
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

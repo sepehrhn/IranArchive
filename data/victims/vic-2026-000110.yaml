@@ -1,39 +1,128 @@
 # ==========================================
-# Victim Documentation - Hamid Kouchak Koutiani
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000110.jpg"
-  - "vic-2026-0e9d718a0b66.jpg"
-  - "vic-2026-b27793d79f76.jpg"
-  - "vic-2026-87bcac085c9d.jpg"
-  - "vic-2026-f4e729c36765.png"
-  - "vic-2026-579f3e389bf6.png"
+  - vic-2026-000110.jpg
+  - vic-2026-0e9d718a0b66.jpg
+  - vic-2026-b27793d79f76.jpg
+  - vic-2026-87bcac085c9d.jpg
+  - vic-2026-f4e729c36765.png
+  - vic-2026-579f3e389bf6.png
+
+# Full Name in English
 name: Hamid Kouchak Koutiani
-birth_date: ""
-birth_province: ""
+
+# Full Name in Persian (Optional)
+persian_name: حمید کوچک کوتیانی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
 birth_city: Dezful
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 45
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Dezful
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   45-year-old Arab artist from Dezful, who was injured by being shot by security forces during the protests, died after several days of hospitalization in Dezful Grand Hospital due to brain death.
 
 
   Arab artist from Dezful, was injured by security forces' gunfire during protests and died after several days in Dezful Grand Hospital due to brain death.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/fseifikaran/status/2012851468504563868, https://x.com/hirman__/status/2014917123403817391, https://t.me/RememberTheirNames/592, https://www.instagram.com/p/DT5_Jw8ikvU"
-  - "https://x.com/fseifikaran/status/2012851468504563868"
-  - "https://x.com/hirman__/status/2014917123403817391"
-  - "https://www.instagram.com/p/DT5_Jw8ikvU"
-  - "https://x.com/hekasrehcrisis/status/2017646766716268560"
-persian_name: حمید کوچک کوتیانی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/fseifikaran/status/2012851468504563868, https://x.com/hirman__/status/2014917123403817391, https://t.me/RememberTheirNames/592, https://www.instagram.com/p/DT5_Jw8ikvU
+  - https://x.com/fseifikaran/status/2012851468504563868
+  - https://x.com/hirman__/status/2014917123403817391
+  - https://www.instagram.com/p/DT5_Jw8ikvU
+  - https://x.com/hekasrehcrisis/status/2017646766716268560
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

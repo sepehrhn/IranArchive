@@ -1,42 +1,131 @@
 # ==========================================
-# Victim Documentation - Abbas Khadem
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000465.png"
-  - "vic-2026-72f6997dd44b.png"
-  - "vic-2026-a042c5132278.png"
-  - "vic-2026-45906426bcdb.png"
-  - "vic-2026-f48db72b3b7f.png"
-  - "vic-2026-8b9898b8bbf3.jpg"
-  - "vic-2026-8c81aaace9df.jpg"
-  - "vic-2026-df059de08c4e.jpg"
-  - "vic-2026-d7914ff0fee5.png"
+  - vic-2026-000465.png
+  - vic-2026-72f6997dd44b.png
+  - vic-2026-a042c5132278.png
+  - vic-2026-45906426bcdb.png
+  - vic-2026-f48db72b3b7f.png
+  - vic-2026-8b9898b8bbf3.jpg
+  - vic-2026-8c81aaace9df.jpg
+  - vic-2026-df059de08c4e.jpg
+  - vic-2026-d7914ff0fee5.png
+
+# Full Name in English
 name: Abbas Khadem
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: عباس خادم
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 39
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Gilan
 incident_city: Rostamabad
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the neck with a military bullet by Islamic Republic forces
 
 
   A 47-year-old fitness coach, Abbas Khadem was killed in Rostamabad, Gilan, after being shot directly in the heart by the regime's killers.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/mohammadabedi_z/status/2014450611853410709, https://x.com/Daikatuo/status/2011838399754178592, https://x.com/HyrcaniHRM/status/2012113239732347154, https://x.com/Mohammadabedi_z/status/2014450611853410709, https://t.me/RememberTheirNames/151, https://x.com/mousavi1355/status/2016191823467733120"
-  - "https://x.com/Daikatuo/status/2011838399754178592"
-  - "https://x.com/HyrcaniHRM/status/2012113239732347154"
-  - "https://x.com/mohammadabedi_z/status/2014450611853410709"
-  - "https://x.com/mousavi1355/status/2016191823467733120"
-persian_name: عباس خادم
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/mohammadabedi_z/status/2014450611853410709, https://x.com/Daikatuo/status/2011838399754178592, https://x.com/HyrcaniHRM/status/2012113239732347154, https://x.com/Mohammadabedi_z/status/2014450611853410709, https://t.me/RememberTheirNames/151, https://x.com/mousavi1355/status/2016191823467733120
+  - https://x.com/Daikatuo/status/2011838399754178592
+  - https://x.com/HyrcaniHRM/status/2012113239732347154
+  - https://x.com/mohammadabedi_z/status/2014450611853410709
+  - https://x.com/mousavi1355/status/2016191823467733120
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

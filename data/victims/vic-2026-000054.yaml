@@ -1,53 +1,142 @@
 # ==========================================
-# Victim Documentation - Mohammad Jabari
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000054.jpg"
-  - "vic-2026-001157.jpg"
-  - "vic-2026-001354.png"
-  - "vic-2026-df09a1b64e53.png"
-  - "vic-2026-979519700a35.jpg"
-  - "vic-2026-001450.jpeg"
-  - "vic-2026-002010.jpg"
-  - "vic-2026-7918f58d02fe.jpg"
-  - "vic-2026-a1b89267e467.jpg"
-  - "vic-2026-d76ec9d6ee49.jpg"
-  - "vic-2026-73447c6f2bdb.jpg"
-  - "vic-2026-53df3652fe0b.jpg"
-  - "vic-2026-410f1b73a69a.jpg"
-  - "vic-2026-08f2c4d1b1ce.jpg"
-  - "vic-2026-728eb41d601a.jpg"
-  - "vic-2026-ad741fd97412.jpg"
-  - "vic-2026-4e1fcccb0ec5.jpg"
-  - "vic-2026-5fc6a610ab2f.jpg"
-  - "vic-2026-cd5cd8a51ed5.jpg"
-  - "vic-2026-831cdfab14a3.jpg"
-  - "vic-2026-51352ff6529b.jpg"
-  - "vic-2026-76455ba4876b.jpg"
-  - "vic-2026-d984b9c381a0.jpg"
-  - "vic-2026-d48948fe163c.jpg"
-  - "vic-2026-e9f8fb2f044c.jpg"
+  - vic-2026-000054.jpg
+  - vic-2026-001157.jpg
+  - vic-2026-001354.png
+  - vic-2026-df09a1b64e53.png
+  - vic-2026-979519700a35.jpg
+  - vic-2026-001450.jpeg
+  - vic-2026-002010.jpg
+  - vic-2026-7918f58d02fe.jpg
+  - vic-2026-a1b89267e467.jpg
+  - vic-2026-d76ec9d6ee49.jpg
+  - vic-2026-73447c6f2bdb.jpg
+  - vic-2026-53df3652fe0b.jpg
+  - vic-2026-410f1b73a69a.jpg
+  - vic-2026-08f2c4d1b1ce.jpg
+  - vic-2026-728eb41d601a.jpg
+  - vic-2026-ad741fd97412.jpg
+  - vic-2026-4e1fcccb0ec5.jpg
+  - vic-2026-5fc6a610ab2f.jpg
+  - vic-2026-cd5cd8a51ed5.jpg
+  - vic-2026-831cdfab14a3.jpg
+  - vic-2026-51352ff6529b.jpg
+  - vic-2026-76455ba4876b.jpg
+  - vic-2026-d984b9c381a0.jpg
+  - vic-2026-d48948fe163c.jpg
+  - vic-2026-e9f8fb2f044c.jpg
+
+# Full Name in English
 name: Mohammad Jabari
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: محمد جعفری
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 27
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Isfahan
 incident_city: Karaj
 incident_address: Mespah neighborhood
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot four times in the head and body during protests.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/afioriiiiom/status/2014634354824106410, https://x.com/abhaddadii/status/2012993637005627689, https://x.com/hengawo/status/2012997053215899934, https://x.com/iranwire/status/2014235005241729082, https://x.com/iranwire/status/2014339406841151834, https://x.com/manotonews/status/2014709124034887998, https://x.com/dadban4/status/2014545944528765314, https://x.com/HengawO/status/2012546870782914758, https://x.com/HengawO/status/2012997053215899934, https://x.com/KurdistanHRN/status/2010377088927138216, https://x.com/kurdpa_farsi/status/2015041026809901526, https://x.com/HengawO/status/2015006944679862461, https://x.com/ManotoNews/status/2014709124034887998, https://t.me/RememberTheirNames/1007, https://t.me/RememberTheirNames/500, https://x.com/IranNewsAgency0/status/2016880036070994084"
-  - "https://x.com/iranhrs99/status/2012963645798428966"
-  - "https://x.com/hengawo/status/2013547854837493921"
-persian_name: محمد جعفری
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/afioriiiiom/status/2014634354824106410, https://x.com/abhaddadii/status/2012993637005627689, https://x.com/hengawo/status/2012997053215899934, https://x.com/iranwire/status/2014235005241729082, https://x.com/iranwire/status/2014339406841151834, https://x.com/manotonews/status/2014709124034887998, https://x.com/dadban4/status/2014545944528765314, https://x.com/HengawO/status/2012546870782914758, https://x.com/HengawO/status/2012997053215899934, https://x.com/KurdistanHRN/status/2010377088927138216, https://x.com/kurdpa_farsi/status/2015041026809901526, https://x.com/HengawO/status/2015006944679862461, https://x.com/ManotoNews/status/2014709124034887998, https://t.me/RememberTheirNames/1007, https://t.me/RememberTheirNames/500, https://x.com/IranNewsAgency0/status/2016880036070994084
+  - https://x.com/iranhrs99/status/2012963645798428966
+  - https://x.com/hengawo/status/2013547854837493921
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,37 +1,126 @@
 # ==========================================
-# Victim Documentation - Majid Salehi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000993.jpg"
-  - "vic-2026-83f59cd37cb1.jpg"
-  - "vic-2026-8c9f4b24ee3e.jpg"
-  - "vic-2026-2140067.jpg"
-  - "vic-2026-f7f5c0df614e.png"
+  - vic-2026-000993.jpg
+  - vic-2026-83f59cd37cb1.jpg
+  - vic-2026-8c9f4b24ee3e.jpg
+  - vic-2026-2140067.jpg
+  - vic-2026-f7f5c0df614e.png
+
+# Full Name in English
 name: Majid Salehi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مجید صالحی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: null
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-01"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-01'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot in the face during protests.
 
 
   Mentioned as a victim in the context of protests in Tehran during Dey 1404 (late Dec 2025 - Jan 2026). Specific circumstances of death not detailed.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/damdami/status/2015005680210514047, https://t.me/RememberTheirNames/962"
-  - "https://x.com/loabatk/status/2017319985765363736"
-  - "https://x.com/hadeeselahi/status/2017527718489866667"
-  - "https://t.me/RememberTheirNames/381"
-persian_name: مجید صالحی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/damdami/status/2015005680210514047, https://t.me/RememberTheirNames/962
+  - https://x.com/loabatk/status/2017319985765363736
+  - https://x.com/hadeeselahi/status/2017527718489866667
+  - https://t.me/RememberTheirNames/381
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

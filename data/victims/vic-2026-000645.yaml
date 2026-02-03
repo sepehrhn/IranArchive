@@ -1,40 +1,129 @@
 # ==========================================
-# Victim Documentation - Kamran Ahmadi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000645.jpg"
-  - "vic-2026-412f7b8f79bd.jpg"
-  - "vic-2026-31cb014fc556.jpg"
-  - "vic-2026-d83e8e293a2b.jpg"
-  - "vic-2026-ff7a536dd924.jpg"
+  - vic-2026-000645.jpg
+  - vic-2026-412f7b8f79bd.jpg
+  - vic-2026-31cb014fc556.jpg
+  - vic-2026-d83e8e293a2b.jpg
+  - vic-2026-ff7a536dd924.jpg
+
+# Full Name in English
 name: Kamran Ahmadi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: کامران احمدی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 20
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Fars
 incident_city: Nurabad Mamasani
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed by security forces during protests
 
 
   Shot with Kalashnikov war bullet in the pelvic area, bullet exited from his side, in front of Police Station 13 in Jui Abad neighborhood. Due to family pressure, burial was conducted after one week without ceremony at Bagh Ferdows cemetery in Khomeinishahr
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/vahidmirzaeii/status/2014406560366092401, https://x.com/EhsanZareei/status/2014445102333083721, https://t.me/RememberTheirNames/1384, https://x.com/hekasrehcrisis/status/2016356004917641664, https://t.me/RememberTheirNames/1497"
-  - "https://x.com/vahidmirzaeii/status/2014406560366092401"
-  - "https://x.com/Iranxoxo/status/2014667757812412435"
-  - "https://x.com/hekasrehcrisis/status/2016356004917641664"
-  - "https://x.com/EhsanZareei/status/2014445102333083721"
-  - "https://t.me/RememberTheirNames/1497"
-  - "https://x.com/iranwire/status/2017896336348131440"
-persian_name: کامران احمدی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/vahidmirzaeii/status/2014406560366092401, https://x.com/EhsanZareei/status/2014445102333083721, https://t.me/RememberTheirNames/1384, https://x.com/hekasrehcrisis/status/2016356004917641664, https://t.me/RememberTheirNames/1497
+  - https://x.com/vahidmirzaeii/status/2014406560366092401
+  - https://x.com/Iranxoxo/status/2014667757812412435
+  - https://x.com/hekasrehcrisis/status/2016356004917641664
+  - https://x.com/EhsanZareei/status/2014445102333083721
+  - https://t.me/RememberTheirNames/1497
+  - https://x.com/iranwire/status/2017896336348131440
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,41 +1,130 @@
 # ==========================================
-# Victim Documentation - Saman Alaei
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000084.jpg"
-  - "vic-2026-2cfa565e08e9.jpg"
-  - "vic-2026-000835.jpg"
-  - "vic-2026-264c08e702ae.jpg"
-  - "vic-2026-4f2532ae5f9d.jpg"
-  - "vic-2026-001516.jpeg"
-  - "vic-2026-a500ee6c369a.jpg"
+  - vic-2026-000084.jpg
+  - vic-2026-2cfa565e08e9.jpg
+  - vic-2026-000835.jpg
+  - vic-2026-264c08e702ae.jpg
+  - vic-2026-4f2532ae5f9d.jpg
+  - vic-2026-001516.jpeg
+  - vic-2026-a500ee6c369a.jpg
+
+# Full Name in English
 name: Saman Alaei
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: سامان علائی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 23
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Mazandaran
 incident_city: Nur
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-status: "Missing"
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Missing
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed by government suppressors during protests on Thursday and Friday
 
 
   Described as a 'child of Iran and killed on the path of the homeland'. No further details provided.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/alitagh30207454/status/2015074385925746874, https://x.com/missmarpel75/status/2015088820862030070"
-  - "https://x.com/missmarpel75/status/2015088820862030070"
-  - "https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/KurdistanHRN/status/2014747456299270597, https://t.me/RememberTheirNames/81"
-  - "https://x.com/KurdistanHRN/status/2014747456299270597"
-  - "https://x.com/loabatk/status/2012277775860670677, https://x.com/hengawo/status/2012502028228907473, https://x.com/sssccpp/status/2012573833308352625, https://x.com/HengawO/status/2012502028228907473, https://x.com/HengawO/status/2012641346142572662, https://t.me/RememberTheirNames/214, https://t.me/RememberTheirNames/121"
-  - "https://x.com/alitagh30207454/status/2015074385925746874"
-persian_name: سامان علائی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/alitagh30207454/status/2015074385925746874, https://x.com/missmarpel75/status/2015088820862030070
+  - https://x.com/missmarpel75/status/2015088820862030070
+  - https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/KurdistanHRN/status/2014747456299270597, https://t.me/RememberTheirNames/81
+  - https://x.com/KurdistanHRN/status/2014747456299270597
+  - https://x.com/loabatk/status/2012277775860670677, https://x.com/hengawo/status/2012502028228907473, https://x.com/sssccpp/status/2012573833308352625, https://x.com/HengawO/status/2012502028228907473, https://x.com/HengawO/status/2012641346142572662, https://t.me/RememberTheirNames/214, https://t.me/RememberTheirNames/121
+  - https://x.com/alitagh30207454/status/2015074385925746874
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

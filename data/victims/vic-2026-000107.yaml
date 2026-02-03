@@ -1,38 +1,127 @@
 # ==========================================
-# Victim Documentation - Reza Rostamian
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000107.jpg"
-  - "vic-2026-86aea4ef4081.jpg"
-  - "vic-2026-69797c43fcc9.jpg"
-  - "vic-2026-3c30762e8b37.jpg"
-  - "vic-2026-36c93d7de362.jpg"
+  - vic-2026-000107.jpg
+  - vic-2026-86aea4ef4081.jpg
+  - vic-2026-69797c43fcc9.jpg
+  - vic-2026-3c30762e8b37.jpg
+  - vic-2026-36c93d7de362.jpg
+
+# Full Name in English
 name: Reza Rostamian
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: رضا رستمیان
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 18
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot with live ammunition by Islamic Republic suppression forces during popular protests
 
 
   Shot in the alley. The tweet was posted on May 15, 2024, but the protest context implies a date after December 28, 2025. The exact date of death is not specified.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/imanoracle/status/2012977544266477704, https://x.com/s_iran01/status/2013103413416890842, https://x.com/kurdpa_farsi/status/2014443816112025712, https://x.com/ImanOracle/status/2012977544266477704, https://x.com/HengawO/status/2014429661707542927, https://t.me/RememberTheirNames/409"
-  - "https://x.com/ImanOracle/status/2012977544266477704"
-  - "https://x.com/imanoracle/status/2012977544266477704"
-  - "https://x.com/s_iran01/status/2013103413416890842"
-  - "https://x.com/HengawO/status/2014429661707542927"
-persian_name: رضا رستمیان
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/imanoracle/status/2012977544266477704, https://x.com/s_iran01/status/2013103413416890842, https://x.com/kurdpa_farsi/status/2014443816112025712, https://x.com/ImanOracle/status/2012977544266477704, https://x.com/HengawO/status/2014429661707542927, https://t.me/RememberTheirNames/409
+  - https://x.com/ImanOracle/status/2012977544266477704
+  - https://x.com/imanoracle/status/2012977544266477704
+  - https://x.com/s_iran01/status/2013103413416890842
+  - https://x.com/HengawO/status/2014429661707542927
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

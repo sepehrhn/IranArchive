@@ -1,33 +1,122 @@
 # ==========================================
-# Victim Documentation - Younes Cheraghi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-2140020.jpg"
-  - "vic-2026-84b5e44b6b62.jpg"
-  - "vic-2026-3f0edd9fd143.jpg"
-  - "vic-2026-8859381f702a.jpg"
+  - vic-2026-2140020.jpg
+  - vic-2026-84b5e44b6b62.jpg
+  - vic-2026-3f0edd9fd143.jpg
+  - vic-2026-8859381f702a.jpg
+
+# Full Name in English
 name: Younes Cheraghi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: یونس چراغی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 22
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Isfahan
 incident_city: Fooladshahr
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: Shot from behind with a war bullet while moving away from the scene during protests in Fooladshahr. Suppressive forces fired extensively and directly at him. An unknown person who knew Younes transported his wounded body by car to near his family's home. Family took him to Fooladshahr Hospital thinking he was alive due to bleeding from mouth and nose. Hospital doors were closed and families were denied information. His body was transferred by security institutions the next day. Family underwent a long, ambiguous process with pressure and threats to receive the body after about 10 days, forced to accept specific narratives about how their son was killed. He had just started working as a CNC cutting machine operator one week before his death.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranintlbrk/status/2015812911046725714, https://x.com/tavaana/status/2016607530110374086, https://t.me/RememberTheirNames/1558"
-  - "https://x.com/iranintlbrk/status/2015812911046725714"
-  - "https://x.com/tavaana/status/2016607530110374086"
-  - "https://t.me/RememberTheirNames/1558"
-  - "https://x.com/Tavaana/status/2016601752024580591"
-persian_name: یونس چراغی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranintlbrk/status/2015812911046725714, https://x.com/tavaana/status/2016607530110374086, https://t.me/RememberTheirNames/1558
+  - https://x.com/iranintlbrk/status/2015812911046725714
+  - https://x.com/tavaana/status/2016607530110374086
+  - https://t.me/RememberTheirNames/1558
+  - https://x.com/Tavaana/status/2016601752024580591
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

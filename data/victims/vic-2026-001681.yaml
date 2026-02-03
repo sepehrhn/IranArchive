@@ -1,44 +1,133 @@
 # ==========================================
-# Victim Documentation - Faizeh Hosseini-Nejad
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001681.jpg"
-  - "vic-2026-12abdc1f1a2c.jpg"
-  - "vic-2026-1e5642dde07d.jpg"
-  - "vic-2026-87c362c124c6.jpg"
-  - "vic-2026-77ea5fb1ff19.jpg"
-  - "vic-2026-d8bdce8d0b59.jpg"
-  - "vic-2026-89009abb82a9.jpg"
-  - "vic-2026-61da3902ea82.jpg"
-  - "vic-2026-7315c65e3815.png"
+  - vic-2026-001681.jpg
+  - vic-2026-12abdc1f1a2c.jpg
+  - vic-2026-1e5642dde07d.jpg
+  - vic-2026-87c362c124c6.jpg
+  - vic-2026-77ea5fb1ff19.jpg
+  - vic-2026-d8bdce8d0b59.jpg
+  - vic-2026-89009abb82a9.jpg
+  - vic-2026-61da3902ea82.jpg
+  - vic-2026-7315c65e3815.png
+
+# Full Name in English
 name: Faizeh Hosseini-Nejad
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: فائزه حسینی نژاد
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 22
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Mashhad
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: فائزه حسینی نژاد
 
   Shot near the intersection of Milad and Emamat Boulevard in Mashhad, died due to severe injuries after being transferred to a clinic. Her mother was also injured during the incident.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/noamagid/status/2015743590551388399, https://x.com/SoroushOsivand/status/2015719838623174809, https://x.com/soroushosivand/status/2015719838623174809, https://x.com/missmarpel75/status/2015356307809722749, https://www.instagram.com/p/DT-lmPZESB1, https://x.com/NoaMagid/status/2015743590551388399"
-  - "https://x.com/noamagid/status/2015743590551388399"
-  - "https://x.com/SoroushOsivand/status/2015719838623174809"
-  - "https://x.com/soroushosivand/status/2015719838623174809"
-  - "https://www.instagram.com/p/DT-lmPZESB1"
-  - "https://x.com/shaya9000/status/2016175432660615423"
-  - "https://x.com/irannewsagency0/status/2017451742162489380"
-  - "https://x.com/kyokushinsoofi/status/2017302455223189622"
-persian_name: فائزه حسینی نژاد
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/noamagid/status/2015743590551388399, https://x.com/SoroushOsivand/status/2015719838623174809, https://x.com/soroushosivand/status/2015719838623174809, https://x.com/missmarpel75/status/2015356307809722749, https://www.instagram.com/p/DT-lmPZESB1, https://x.com/NoaMagid/status/2015743590551388399
+  - https://x.com/noamagid/status/2015743590551388399
+  - https://x.com/SoroushOsivand/status/2015719838623174809
+  - https://x.com/soroushosivand/status/2015719838623174809
+  - https://www.instagram.com/p/DT-lmPZESB1
+  - https://x.com/shaya9000/status/2016175432660615423
+  - https://x.com/irannewsagency0/status/2017451742162489380
+  - https://x.com/kyokushinsoofi/status/2017302455223189622
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

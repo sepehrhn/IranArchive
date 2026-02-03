@@ -1,40 +1,129 @@
 # ==========================================
-# Victim Documentation - Milad Ghasemi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000359.jpg"
-  - "vic-2026-0596c616e8a6.jpg"
-  - "vic-2026-b42ebb4f7cde.jpg"
-  - "vic-2026-0c48310d6edf.jpg"
-  - "vic-2026-0ab647b9f8ba.jpg"
-  - "vic-2026-2139949.jpg"
-  - "vic-2026-41c82ceb15c1.jpg"
+  - vic-2026-000359.jpg
+  - vic-2026-0596c616e8a6.jpg
+  - vic-2026-b42ebb4f7cde.jpg
+  - vic-2026-0c48310d6edf.jpg
+  - vic-2026-0ab647b9f8ba.jpg
+  - vic-2026-2139949.jpg
+  - vic-2026-41c82ceb15c1.jpg
+
+# Full Name in English
 name: Milad Ghasemi
-birth_date: ""
-birth_province: ""
+
+# Full Name in Persian (Optional)
+persian_name: میلاد قاسمی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
 birth_city: further shooting
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 37
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Isfahan
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Died in a car while friends attempted to protect him from further shooting. He died one hour after being placed under the car.
 
 
   Shot in the upper body from behind around 10 PM near Dr. Hesabi Street, Isfahan. Died from blood loss before reaching the hospital. His body was returned to his family four days later and buried in Bagh-e Rezvan, Isfahan.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/manotonews/status/2014782688859656507, https://x.com/iranwire/status/2014938527155318871, https://x.com/FSeifikaran/status/2015044331770364118, https://t.me/RememberTheirNames/857"
-  - "https://x.com/manotonews/status/2014782688859656507"
-  - "https://x.com/FSeifikaran/status/2015044331770364118"
-  - "https://x.com/hekasrehcrisis/status/2016215536938479821, https://x.com/HeKasrehCrisis/status/2016215536938479821, https://t.me/RememberTheirNames/1666"
-  - "https://t.me/javanmardi77/154131"
-persian_name: میلاد قاسمی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/manotonews/status/2014782688859656507, https://x.com/iranwire/status/2014938527155318871, https://x.com/FSeifikaran/status/2015044331770364118, https://t.me/RememberTheirNames/857
+  - https://x.com/manotonews/status/2014782688859656507
+  - https://x.com/FSeifikaran/status/2015044331770364118
+  - https://x.com/hekasrehcrisis/status/2016215536938479821, https://x.com/HeKasrehCrisis/status/2016215536938479821, https://t.me/RememberTheirNames/1666
+  - https://t.me/javanmardi77/154131
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

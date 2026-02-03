@@ -1,44 +1,132 @@
 # ==========================================
-# Victim Documentation - Nima Jozaii
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000004.jpg"
-  - "vic-2026-000402.jpg"
-  - "vic-2026-2188a6948438.jpg"
-  - "vic-2026-7b13cb7b80cf.jpg"
-  - "vic-2026-4220dea61f36.jpg"
-  - "vic-2026-b3e24611bbc9.jpg"
-  - "vic-2026-1f883c61910a.jpg"
-  - "vic-2026-388fff0ff47b.jpg"
-  - "vic-2026-5c17b3f4e673.jpg"
-  - "vic-2026-2140080.jpg"
-  - "vic-2026-e911ec508510.jpg"
+  - vic-2026-000004.jpg
+  - vic-2026-000402.jpg
+  - vic-2026-2188a6948438.jpg
+  - vic-2026-7b13cb7b80cf.jpg
+  - vic-2026-4220dea61f36.jpg
+  - vic-2026-b3e24611bbc9.jpg
+  - vic-2026-1f883c61910a.jpg
+  - vic-2026-388fff0ff47b.jpg
+  - vic-2026-5c17b3f4e673.jpg
+  - vic-2026-2140080.jpg
+  - vic-2026-e911ec508510.jpg
+
+# Full Name in English
 name: Nima Jozaii
+
+# Full Name in Persian (Optional)
 persian_name: نیما جوزایی
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: "Male"
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 16
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Bushehr
 incident_city: Bushehr
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   .
-source_type: ""
-source_social_media_link:
-  - ""
-  - "https://x.com/fseifikaran/status/2013380774523797809, https://x.com/outofken/status/2013399236650455517, https://x.com/longlosthills/status/2013760527554519354, https://x.com/allahbakhshii/status/2013733761096040587, https://x.com/FSeifikaran/status/2013380774523797809, https://t.me/RememberTheirNames/311"
-  - "https://x.com/outofken/status/2013399236650455517"
-  - "https://x.com/longlosthills/status/2013760527554519354"
-  - "https://x.com/allahbakhshii/status/2013733761096040587"
-  - "https://x.com/kyokushinsoofi/status/2017265004081221862"
-  - "https://t.me/RememberTheirNames/1586"
-  - "https://x.com/FSeifikaran/status/2013380774523797809"
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/fseifikaran/status/2013380774523797809, https://x.com/outofken/status/2013399236650455517, https://x.com/longlosthills/status/2013760527554519354, https://x.com/allahbakhshii/status/2013733761096040587, https://x.com/FSeifikaran/status/2013380774523797809, https://t.me/RememberTheirNames/311
+  - https://x.com/outofken/status/2013399236650455517
+  - https://x.com/longlosthills/status/2013760527554519354
+  - https://x.com/allahbakhshii/status/2013733761096040587
+  - https://x.com/kyokushinsoofi/status/2017265004081221862
+  - https://t.me/RememberTheirNames/1586
+  - https://x.com/FSeifikaran/status/2013380774523797809
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

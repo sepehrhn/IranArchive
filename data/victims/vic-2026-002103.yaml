@@ -1,46 +1,135 @@
 # ==========================================
-# Victim Documentation - Afsaaneh Razavian
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-002103.jpg"
-  - "vic-2026-928f7c56b145.jpg"
-  - "vic-2026-6ac2a0ed7c2c.jpg"
-  - "vic-2026-39d8a37b9454.jpg"
-  - "vic-2026-867f006a2041.jpg"
-  - "vic-2026-5522752e8a4f.jpg"
-  - "vic-2026-e3cf855354cc.jpg"
-  - "vic-2026-9c4fee40051c.jpg"
-  - "vic-2026-de7ca0185541.jpg"
+  - vic-2026-002103.jpg
+  - vic-2026-928f7c56b145.jpg
+  - vic-2026-6ac2a0ed7c2c.jpg
+  - vic-2026-39d8a37b9454.jpg
+  - vic-2026-867f006a2041.jpg
+  - vic-2026-5522752e8a4f.jpg
+  - vic-2026-e3cf855354cc.jpg
+  - vic-2026-9c4fee40051c.jpg
+  - vic-2026-de7ca0185541.jpg
+
+# Full Name in English
 name: Afsaaneh Razavian
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: افسانه رضويان
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 30
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Chalous
-incident_address: ""
-date_of_death: "2026-01-01"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-01'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
-cause_of_death: ""
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Persian Name: افسانه رضويان
 
   Shot with live ammunition and died. Several men attempted to save her but were then shot by security forces.
 
   Gilaki citizen from Chalous, shot by suppressive forces of the Islamic Republic of Iran during popular protests. After she was shot and fell to the ground, regime forces prevented citizens from approaching to help and rescue her body by shooting at anyone who attempted to provide aid. Several other people were killed in this crime when trying to help her. Her lifeless body remained in the middle of the street.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/maryammoqaddam/status/2014711935275536389, https://x.com/MaryamMoqaddam/status/2014711935275536389, https://x.com/persian_picture/status/2015797049476710682, https://t.me/RememberTheirNames/1368, https://x.com/IranianPlateau/status/2015801587961126917, https://x.com/HeKasrehCrisis/status/2015884531325112386, https://t.me/persian_picture/4126, https://x.com/hyrcanihrm/status/2016161403346829486"
-  - "https://x.com/maryammoqaddam/status/2014711935275536389"
-  - "https://x.com/MaryamMoqaddam/status/2014711935275536389"
-  - "https://x.com/persian_picture/status/2015797049476710682"
-  - "https://x.com/IranianPlateau/status/2015801587961126917"
-  - "https://t.me/persian_picture/4126"
-  - "https://x.com/hyrcanihrm/status/2016161403346829486"
-  - "https://x.com/yasamankhodajo/status/2016811458336543135"
-persian_name: افسانه رضويان
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/maryammoqaddam/status/2014711935275536389, https://x.com/MaryamMoqaddam/status/2014711935275536389, https://x.com/persian_picture/status/2015797049476710682, https://t.me/RememberTheirNames/1368, https://x.com/IranianPlateau/status/2015801587961126917, https://x.com/HeKasrehCrisis/status/2015884531325112386, https://t.me/persian_picture/4126, https://x.com/hyrcanihrm/status/2016161403346829486
+  - https://x.com/maryammoqaddam/status/2014711935275536389
+  - https://x.com/MaryamMoqaddam/status/2014711935275536389
+  - https://x.com/persian_picture/status/2015797049476710682
+  - https://x.com/IranianPlateau/status/2015801587961126917
+  - https://t.me/persian_picture/4126
+  - https://x.com/hyrcanihrm/status/2016161403346829486
+  - https://x.com/yasamankhodajo/status/2016811458336543135
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

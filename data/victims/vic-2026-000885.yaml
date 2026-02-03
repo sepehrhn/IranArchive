@@ -1,39 +1,128 @@
 # ==========================================
-# Victim Documentation - Mehdi Mousavi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000885.jpg"
-  - "vic-2026-d791ebbd5002.jpg"
-  - "vic-2026-0db73f067978.jpg"
-  - "vic-2026-ec399750112b.png"
-  - "vic-2026-ae823d7d01f6.jpg"
-  - "vic-2026-493a1b4c081a.jpg"
+  - vic-2026-000885.jpg
+  - vic-2026-d791ebbd5002.jpg
+  - vic-2026-0db73f067978.jpg
+  - vic-2026-ec399750112b.png
+  - vic-2026-ae823d7d01f6.jpg
+  - vic-2026-493a1b4c081a.jpg
+
+# Full Name in English
 name: Mehdi Mousavi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: مهدی موسوی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 27
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Lordegan
-incident_address: ""
-date_of_death: "2026-01-07"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-07'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot directly by security forces during protests
 
 
   Killed during protests. Described as 'Javidnam' (eternal name). Father of a 20-day-old child.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/hirman__/status/2014372539561136361, https://x.com/_ziZi_Zizi/status/2015208544652468277, https://t.me/RememberTheirNames/69, https://x.com/mousavi1355/status/2016236734657265874"
-  - "https://x.com/i/status/2017180555700253073"
-  - "https://x.com/i/status/2015860180873806173"
-  - "https://x.com/blcksull/status/2017668088515191069"
-  - "https://x.com/ashk_shadi/status/2015141897426043373"
-persian_name: مهدی موسوی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/hirman__/status/2014372539561136361, https://x.com/_ziZi_Zizi/status/2015208544652468277, https://t.me/RememberTheirNames/69, https://x.com/mousavi1355/status/2016236734657265874
+  - https://x.com/i/status/2017180555700253073
+  - https://x.com/i/status/2015860180873806173
+  - https://x.com/blcksull/status/2017668088515191069
+  - https://x.com/ashk_shadi/status/2015141897426043373
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

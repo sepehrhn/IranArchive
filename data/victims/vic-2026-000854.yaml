@@ -1,48 +1,137 @@
 # ==========================================
-# Victim Documentation - Siavash Shirzad
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000854.jpg"
-  - "vic-2026-c65a9660ff8e.jpg"
-  - "vic-2026-3a92d9243536.jpg"
-  - "vic-2026-970051661539.jpg"
-  - "vic-2026-339b53cfa492.png"
-  - "vic-2026-44abd5b82e01.jpg"
-  - "vic-2026-c7b7773f8527.jpg"
-  - "vic-2026-218d1bd6c927.jpg"
-  - "vic-2026-b82c3a3be198.jpg"
-  - "vic-2026-c5b9884ba01e.jpg"
-  - "vic-2026-6de855fdfc6d.jpg"
-  - "vic-2026-30d9257a62ad.jpg"
+  - vic-2026-000854.jpg
+  - vic-2026-c65a9660ff8e.jpg
+  - vic-2026-3a92d9243536.jpg
+  - vic-2026-970051661539.jpg
+  - vic-2026-339b53cfa492.png
+  - vic-2026-44abd5b82e01.jpg
+  - vic-2026-c7b7773f8527.jpg
+  - vic-2026-218d1bd6c927.jpg
+  - vic-2026-b82c3a3be198.jpg
+  - vic-2026-c5b9884ba01e.jpg
+  - vic-2026-6de855fdfc6d.jpg
+  - vic-2026-30d9257a62ad.jpg
+
+# Full Name in English
 name: Siavash Shirzad
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: سیاوش شیرزاد
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 38
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Iran (provinces of Ilam
-incident_address: ""
-date_of_death: "2026-01-08"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot with live ammunition while dancing Kurdish dances in Punak Square, Tehran. He was among 22 young people shot at close range (5-10 meters). Died at Rasoul Akram Hospital at 2 a.m. on Friday due to lack of medical attention and severe blood loss.
-source_type: Social Media
-source_social_media_link:
-  - "https://www.theguardian.com/global-development/2026/jan/15/iran-protesters-uprising-killed-world-diaspora-families-tehran-internet-blackout, https://x.com/hengawo/status/2011895912491347983, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/gh0lch0magh/status/2012903209904251294, https://x.com/samrasoulpour/status/2011439752780661168, https://x.com/emilykschrader/status/2013009412525380070, https://x.com/Daikatuo/status/2011474379490652481, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011427010795450565, https://x.com/KurdistanHRN/status/2014745639930810718, https://t.me/RememberTheirNames/142"
-  - "https://x.com/Daikatuo/status/2011474379490652481"
-  - "https://x.com/hengawo/status/2011895912491347983"
-  - "https://x.com/gh0lch0magh/status/2012903209904251294"
-  - "https://x.com/samrasoulpour/status/2011439752780661168"
-  - "https://x.com/emilykschrader/status/2013009412525380070"
-  - "https://x.com/KurdistanHRN/status/2011783655752880275"
-  - "https://x.com/KurdistanHRN/status/2011427010795450565"
-  - "https://x.com/KurdistanHRN/status/2014745639930810718"
-  - "https://x.com/gh0lch0magh/status/2012902700111827231"
-  - "https://x.com/SamRasoulpour/status/2011432808703574086"
-persian_name: سیاوش شیرزاد
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://www.theguardian.com/global-development/2026/jan/15/iran-protesters-uprising-killed-world-diaspora-families-tehran-internet-blackout, https://x.com/hengawo/status/2011895912491347983, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/gh0lch0magh/status/2012903209904251294, https://x.com/samrasoulpour/status/2011439752780661168, https://x.com/emilykschrader/status/2013009412525380070, https://x.com/Daikatuo/status/2011474379490652481, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011427010795450565, https://x.com/KurdistanHRN/status/2014745639930810718, https://t.me/RememberTheirNames/142
+  - https://x.com/Daikatuo/status/2011474379490652481
+  - https://x.com/hengawo/status/2011895912491347983
+  - https://x.com/gh0lch0magh/status/2012903209904251294
+  - https://x.com/samrasoulpour/status/2011439752780661168
+  - https://x.com/emilykschrader/status/2013009412525380070
+  - https://x.com/KurdistanHRN/status/2011783655752880275
+  - https://x.com/KurdistanHRN/status/2011427010795450565
+  - https://x.com/KurdistanHRN/status/2014745639930810718
+  - https://x.com/gh0lch0magh/status/2012902700111827231
+  - https://x.com/SamRasoulpour/status/2011432808703574086
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

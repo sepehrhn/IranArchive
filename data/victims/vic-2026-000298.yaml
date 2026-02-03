@@ -1,33 +1,122 @@
 # ==========================================
-# Victim Documentation - Hamidreza Mohseni
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000298.jpg"
-  - "vic-2026-097775cfb824.jpg"
-  - "vic-2026-000621.jpg"
-  - "vic-2026-2d9580b0ec5b.jpg"
+  - vic-2026-000298.jpg
+  - vic-2026-097775cfb824.jpg
+  - vic-2026-000621.jpg
+  - vic-2026-2d9580b0ec5b.jpg
+
+# Full Name in English
 name: Hamidreza Mohseni
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: حمیدرضا محسنی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 42
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Karaj
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |
   Shot directly in the head by Islamic Republic repressive forces in 45 Metri Golshahr area
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/maroofian_n/status/2013559515958870249, https://t.me/RememberTheirNames/426"
-  - "https://x.com/maroofian_n/status/2013559515958870249"
-  - "https://x.com/kurdpa_farsi/status/2014716360333369767, https://x.com/hekasrehcrisis/status/2014824538719051889, https://x.com/HeKasrehCrisis/status/2014824538719051889, https://t.me/RememberTheirNames/817"
-  - "https://x.com/HengawO/status/2014723608359104900"
-persian_name: حمیدرضا محسنی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/maroofian_n/status/2013559515958870249, https://t.me/RememberTheirNames/426
+  - https://x.com/maroofian_n/status/2013559515958870249
+  - https://x.com/kurdpa_farsi/status/2014716360333369767, https://x.com/hekasrehcrisis/status/2014824538719051889, https://x.com/HeKasrehCrisis/status/2014824538719051889, https://t.me/RememberTheirNames/817
+  - https://x.com/HengawO/status/2014723608359104900
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,59 +1,148 @@
 # ==========================================
-# Victim Documentation - Sonia Salehi-Rad
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000859.jpg"
-  - "vic-2026-86ae191f8611.jpg"
-  - "vic-2026-ea9719457609.jpg"
-  - "vic-2026-a8e5a931130f.jpg"
-  - "vic-2026-8090cc19e158.jpg"
-  - "vic-2026-36bb5b298b6c.jpg"
-  - "vic-2026-065f9adb255d.jpg"
-  - "vic-2026-d86072e34473.jpg"
-  - "vic-2026-15a506a8da86.jpg"
-  - "vic-2026-5d029fb553f6.jpg"
-  - "vic-2026-74454db88343.jpg"
-  - "vic-2026-724ba215ef31.jpg"
-  - "vic-2026-c860a6cd924b.jpg"
-  - "vic-2026-80f9989cf1a8.jpg"
-  - "vic-2026-f9d59be5a590.jpg"
-  - "vic-2026-7d6c9f860b31.jpg"
+  - vic-2026-000859.jpg
+  - vic-2026-86ae191f8611.jpg
+  - vic-2026-ea9719457609.jpg
+  - vic-2026-a8e5a931130f.jpg
+  - vic-2026-8090cc19e158.jpg
+  - vic-2026-36bb5b298b6c.jpg
+  - vic-2026-065f9adb255d.jpg
+  - vic-2026-d86072e34473.jpg
+  - vic-2026-15a506a8da86.jpg
+  - vic-2026-5d029fb553f6.jpg
+  - vic-2026-74454db88343.jpg
+  - vic-2026-724ba215ef31.jpg
+  - vic-2026-c860a6cd924b.jpg
+  - vic-2026-80f9989cf1a8.jpg
+  - vic-2026-f9d59be5a590.jpg
+  - vic-2026-7d6c9f860b31.jpg
+
+# Full Name in English
 name: Sonia Salehi-Rad
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: سونیا صالحی‌راد
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 35
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Shiraz (Sadra)
 incident_address: Sadra
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot with war bullet by Islamic Republic repressive forces in Sadra neighborhood
 
 
   Shot directly with live ammunition from about six meters away, with a bullet hitting her head, killed by Khamenei's mercenaries. Her body was buried under severe security measures in the village of Ghalat, Shiraz.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/banafshehviola/status/2012586050443735399, https://x.com/iranrights_org/status/2012994629650550990, https://x.com/iranrights_org/status/2012994638299144248, https://x.com/hengawo/status/2013015289240125666, https://x.com/maroofian_n/status/2013403927862010341, https://x.com/dadban4/status/2014351827936948614, https://x.com/Daikatuo/status/2012513727615058000, https://x.com/IranRights_org/status/2012893789644370022, https://x.com/HengawO/status/2013015289240125666, https://x.com/Realneo101/status/2015355909145264288, https://x.com/allahbakhshii/status/2015754459528257955, https://x.com/MayaThefish/status/2014525869822279830, https://t.me/RememberTheirNames/179"
-  - "https://x.com/banafshehviola/status/2012586050443735399"
-  - "https://x.com/iranrights_org/status/2012994629650550990"
-  - "https://x.com/iranrights_org/status/2012994638299144248"
-  - "https://x.com/hengawo/status/2013015289240125666"
-  - "https://x.com/HengawO/status/2013015289240125666"
-  - "https://x.com/maroofian_n/status/2013403927862010341"
-  - "https://x.com/Realneo101/status/2015355909145264288"
-  - "https://x.com/allahbakhshii/status/2015754459528257955"
-  - "https://x.com/MayaThefish/status/2014525869822279830"
-  - "https://x.com/Daikatuo/status/2012513727615058000"
-  - "https://x.com/nimnia11/status/2012471988732776942"
-  - "https://x.com/pardis__rabiee/status/2017662123359281190"
-  - "https://x.com/banafshehviola/status/2017720563918401858"
-  - "https://x.com/IranRights_org/status/2012893789644370022"
-persian_name: سونیا صالحی‌راد
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/banafshehviola/status/2012586050443735399, https://x.com/iranrights_org/status/2012994629650550990, https://x.com/iranrights_org/status/2012994638299144248, https://x.com/hengawo/status/2013015289240125666, https://x.com/maroofian_n/status/2013403927862010341, https://x.com/dadban4/status/2014351827936948614, https://x.com/Daikatuo/status/2012513727615058000, https://x.com/IranRights_org/status/2012893789644370022, https://x.com/HengawO/status/2013015289240125666, https://x.com/Realneo101/status/2015355909145264288, https://x.com/allahbakhshii/status/2015754459528257955, https://x.com/MayaThefish/status/2014525869822279830, https://t.me/RememberTheirNames/179
+  - https://x.com/banafshehviola/status/2012586050443735399
+  - https://x.com/iranrights_org/status/2012994629650550990
+  - https://x.com/iranrights_org/status/2012994638299144248
+  - https://x.com/hengawo/status/2013015289240125666
+  - https://x.com/HengawO/status/2013015289240125666
+  - https://x.com/maroofian_n/status/2013403927862010341
+  - https://x.com/Realneo101/status/2015355909145264288
+  - https://x.com/allahbakhshii/status/2015754459528257955
+  - https://x.com/MayaThefish/status/2014525869822279830
+  - https://x.com/Daikatuo/status/2012513727615058000
+  - https://x.com/nimnia11/status/2012471988732776942
+  - https://x.com/pardis__rabiee/status/2017662123359281190
+  - https://x.com/banafshehviola/status/2017720563918401858
+  - https://x.com/IranRights_org/status/2012893789644370022
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,42 +1,131 @@
 # ==========================================
-# Victim Documentation - Mohammad Reza Golmakani
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000379.jpg"
-  - "vic-2026-18f609bdb866.jpg"
-  - "vic-2026-99420073e559.jpg"
-  - "vic-2026-5aab85eb8250.jpg"
-  - "vic-2026-4d49013b6dff.jpg"
-  - "vic-2026-d7f238c110ff.jpg"
-  - "vic-2026-9a92ed65a66d.jpg"
-  - "vic-2026-002236.jpg"
-  - "vic-2026-a977bf590ee5.jpg"
+  - vic-2026-000379.jpg
+  - vic-2026-18f609bdb866.jpg
+  - vic-2026-99420073e559.jpg
+  - vic-2026-5aab85eb8250.jpg
+  - vic-2026-4d49013b6dff.jpg
+  - vic-2026-d7f238c110ff.jpg
+  - vic-2026-9a92ed65a66d.jpg
+  - vic-2026-002236.jpg
+  - vic-2026-a977bf590ee5.jpg
+
+# Full Name in English
 name: Mohammad Reza Golmakani
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: محمدرضا گلمکانی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 36
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Mashhad
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by direct live fire from repressive forces during protests
 
 
   Shot in the leg with live ammunition on Emamat Boulevard. His family received his body on Sunday (January 11, 2026) with bruises around his neck, and the stated cause of death was suffocation with plastic. He was a provincial and national bodybuilding champion and has two daughters.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/longlosthills/status/2011903540642349158, https://x.com/loabatk/status/2011986054845210806, https://x.com/loabatk/status/2011975833280184578, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/HeKasrehCrisis/status/2015891976143700042, https://t.me/RememberTheirNames/325"
-  - "https://x.com/longlosthills/status/2011903540642349158"
-  - "https://x.com/loabatk/status/2011986054845210806"
-  - "https://x.com/HeKasrehCrisis/status/2015891976143700042"
-  - "https://x.com/persian_picture/status/2015901747294675057"
-persian_name: محمدرضا گلمکانی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/longlosthills/status/2011903540642349158, https://x.com/loabatk/status/2011986054845210806, https://x.com/loabatk/status/2011975833280184578, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/HeKasrehCrisis/status/2015891976143700042, https://t.me/RememberTheirNames/325
+  - https://x.com/longlosthills/status/2011903540642349158
+  - https://x.com/loabatk/status/2011986054845210806
+  - https://x.com/HeKasrehCrisis/status/2015891976143700042
+  - https://x.com/persian_picture/status/2015901747294675057
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

@@ -1,42 +1,131 @@
 # ==========================================
-# Victim Documentation - Arman Haji-Yousefi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-001043.jpg"
-  - "vic-2026-a21c6696d136.jpg"
-  - "vic-2026-5ee8ab5f24b7.jpg"
-  - "vic-2026-d06d463d21c3.jpg"
-  - "vic-2026-f73c18a85668.jpg"
-  - "vic-2026-ba22376bc2e2.jpg"
-  - "vic-2026-bd4b4246828c.jpg"
-  - "vic-2026-2a20c6dd2147.jpg"
-  - "vic-2026-2167e75cf859.jpg"
+  - vic-2026-001043.jpg
+  - vic-2026-a21c6696d136.jpg
+  - vic-2026-5ee8ab5f24b7.jpg
+  - vic-2026-d06d463d21c3.jpg
+  - vic-2026-f73c18a85668.jpg
+  - vic-2026-ba22376bc2e2.jpg
+  - vic-2026-bd4b4246828c.jpg
+  - vic-2026-2a20c6dd2147.jpg
+  - vic-2026-2167e75cf859.jpg
+
+# Full Name in English
 name: Arman Haji-Yousefi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: آرمان حاجی‌یوسفی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 20
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-09"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-09'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Killed during suppression of protests by Islamic Republic forces
 
 
   Mentioned in context of sacrifice and legacy left behind for survivors, with reference to his Telegram bio containing music from Expedition 33 game
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/behnam_chegini/status/2012935899416289648, https://x.com/iranwire/status/2013195338249621605, https://x.com/saeidvafa/status/2014025906474397742, https://x.com/HengawO/status/2013195295618695186, https://x.com/ManotoNews/status/2015794101875261792, https://x.com/PureVoid00/status/2015479329711366169, https://t.me/RememberTheirNames/1233, https://t.me/RememberTheirNames/297, https://x.com/LadyBernkastle/status/2015101836781359568"
-  - "https://x.com/iranwire/status/2013195338249621605"
-  - "https://x.com/HengawO/status/2013195295618695186"
-  - "https://x.com/PureVoid00/status/2015479329711366169"
-  - "https://x.com/LadyBernkastle/status/2015101836781359568"
-persian_name: آرمان حاجی‌یوسفی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/behnam_chegini/status/2012935899416289648, https://x.com/iranwire/status/2013195338249621605, https://x.com/saeidvafa/status/2014025906474397742, https://x.com/HengawO/status/2013195295618695186, https://x.com/ManotoNews/status/2015794101875261792, https://x.com/PureVoid00/status/2015479329711366169, https://t.me/RememberTheirNames/1233, https://t.me/RememberTheirNames/297, https://x.com/LadyBernkastle/status/2015101836781359568
+  - https://x.com/iranwire/status/2013195338249621605
+  - https://x.com/HengawO/status/2013195295618695186
+  - https://x.com/PureVoid00/status/2015479329711366169
+  - https://x.com/LadyBernkastle/status/2015101836781359568
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

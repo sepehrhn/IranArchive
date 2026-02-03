@@ -1,37 +1,126 @@
 # ==========================================
-# Victim Documentation - Samiyar Alipour
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-2140083.jpg"
-  - "vic-2026-916de8507a07.jpg"
-  - "vic-2026-27686d0a46a9.jpg"
-  - "vic-2026-5634ca17ff96.jpg"
-  - "vic-2026-4371741bb33f.jpg"
-  - "vic-2026-684eb9d7afbe.jpg"
+  - vic-2026-2140083.jpg
+  - vic-2026-916de8507a07.jpg
+  - vic-2026-27686d0a46a9.jpg
+  - vic-2026-5634ca17ff96.jpg
+  - vic-2026-4371741bb33f.jpg
+  - vic-2026-684eb9d7afbe.jpg
+
+# Full Name in English
 name: Samiyar Alipour
-birth_date: ""
-birth_province: ""
-birth_city: ""
-gender: Male
-age: 15
-occupation: ""
-country: Iran
-incident_province: ""
-incident_city: Tehran
-incident_address: ""
-date_of_death: "2025-12-22"
-date_of_death_precision: Exact
-cause_of_death: ""
-status: Killed
-description: 15-year-old teenager shot directly in the head by Islamic Republic security forces during suppression of popular protests in Tehranpars area, Amin Street. Security agents fired from rooftops of buildings, shooting directly and fatally at citizens. The direct shooting to the head from elevation represents deadly and uncontrolled use of weapons against civilians, especially children.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/tavaana/status/2016518821444768178, https://t.me/RememberTheirNames/1673, https://x.com/tarashg6ro/status/2016661238240203012"
-  - "https://x.com/tavaana/status/2016518821444768178"
-  - "https://x.com/tarashg6ro/status/2016661238240203012"
-  - "https://x.com/allahbakhshii/status/2017001666881429675"
-  - "https://x.com/chaiteryak/status/2016832573675028508"
-  - "https://x.com/i/status/2016832573675028508"
-  - "https://x.com/bhfak46419/status/2017202599116611840"
+
+# Full Name in Persian (Optional)
 persian_name: سامیار علیپور
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
+gender: Male
+
+# Age at time of death (Optional, remove if unknown)
+age: 15
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
+country: Iran
+
+# Incident Location
+incident_province: ''
+incident_city: Tehran
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2025-12-22'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
+date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
+cause_of_death: ''
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
+status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
+description: 15-year-old teenager shot directly in the head by Islamic Republic security forces during suppression of popular protests in Tehranpars area, Amin Street. Security agents fired from rooftops of buildings, shooting directly and fatally at citizens. The direct shooting to the head from elevation represents deadly and uncontrolled use of weapons against civilians, especially children.
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/tavaana/status/2016518821444768178, https://t.me/RememberTheirNames/1673, https://x.com/tarashg6ro/status/2016661238240203012
+  - https://x.com/tavaana/status/2016518821444768178
+  - https://x.com/tarashg6ro/status/2016661238240203012
+  - https://x.com/allahbakhshii/status/2017001666881429675
+  - https://x.com/chaiteryak/status/2016832573675028508
+  - https://x.com/i/status/2016832573675028508
+  - https://x.com/bhfak46419/status/2017202599116611840
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

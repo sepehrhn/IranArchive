@@ -38,7 +38,7 @@ const { getIncidentById } = useIncidents();
 
 // Use async data to fetch server/client side compatible
 // We watch props.victimId to refetch if it changes
-const { data: victim, error, refresh } = await useAsyncData(`victim-${props.victimId}`, async () => {
+const { data: victim, error, refresh, status } = useAsyncData(`victim-${props.victimId}`, async () => {
     const v = await getVictimById(props.victimId);
     if (!v) return null;
 
@@ -155,12 +155,86 @@ if (!props.headless) {
         ]
     });
 }
+import VictimSubmissionForm from '@/components/submissions/VictimSubmissionForm.vue';
+import { initUpload, uploadToR2, completeSubmission } from '~/utils/submissionsClient';
+import type { UploadedFileInfo } from '~/utils/submissionsClient';
+import Dialog from 'primevue/dialog';
+
+// Update Logic
+const showUpdateDialog = ref(false);
+const submitting = ref(false);
+const submitSuccess = ref(false);
+const submitError = ref('');
+const submissionStepTitle = ref(t('victimsPage.submitDialogTitle')); // Reusing key for simplicity or add new one
+
+const handleUpdateSubmission = async (payload: any) => {
+    submitting.value = true;
+    submitError.value = '';
+    submitSuccess.value = false;
+
+    try {
+        const { kind, data, files, turnstileToken } = payload;
+        
+        const fileInfos = files ? await Promise.all(
+            files.map(async (file: File) => ({
+                name: file.name,
+                size: file.size,
+                mime: file.type,
+                sha256: ''
+            }))
+        ) : [];
+
+        const initResponse = await initUpload({
+            turnstileToken,
+            files: fileInfos,
+            kind
+        });
+
+        const uploadedFiles: UploadedFileInfo[] = [];
+        if (files) {
+            for (let i = 0; i < files.length; i++) {
+                await uploadToR2(files[i], initResponse.uploads[i].putUrl);
+                uploadedFiles.push({
+                    key: initResponse.uploads[i].key,
+                    originalName: files[i].name,
+                    name: files[i].name,
+                    size: files[i].size,
+                    mime: files[i].type,
+                    sha256: ''
+                });
+            }
+        }
+
+        await completeSubmission({
+            submissionId: initResponse.submissionId,
+            kind,
+            payload: data,
+            uploadedFiles,
+            turnstileToken
+        });
+
+        submitSuccess.value = true;
+        setTimeout(() => {
+            showUpdateDialog.value = false;
+            submitSuccess.value = false;
+        }, 3000);
+    } catch (error) {
+        submitError.value = error instanceof Error ? error.message : 'Update failed';
+    } finally {
+        submitting.value = false;
+    }
+};
 </script>
 
 <template>
     <div>
+        <!-- Loading -->
+        <div v-if="status === 'pending'" class="flex justify-center items-center py-20">
+            <i class="pi pi-spin pi-spinner text-4xl text-surface-400"></i>
+        </div>
+
         <!-- Not Found -->
-        <div v-if="!victim" class="text-center py-10">
+        <div v-else-if="!victim" class="text-center py-10">
             <h1 class="text-3xl font-bold mb-4">{{ t('victimDetail.notFoundTitle') }}</h1>
             <p class="text-surface-500 mb-8">{{ t('victimDetail.notFoundDescription') }}</p>
         </div>
@@ -173,12 +247,25 @@ if (!props.headless) {
                 <!-- blurred background -->
                 <div class="absolute inset-0 overflow-hidden opacity-30 dark:opacity-20 pointer-events-none transition-opacity duration-700">
                      <img 
+                        v-if="currentPhoto"
                         :key="currentPhoto"
                         :src="getMediaUrl({ kind: 'victim_photo', relativePath: currentPhoto })" 
                         class="w-full h-full object-cover blur-3xl scale-110 transition-all duration-700" 
                         alt="" 
                     />
                      <div class="absolute inset-0 bg-gradient-to-b from-transparent to-surface-0 dark:to-surface-900"></div>
+                </div>
+
+                <!-- Update Button (Top Left) -->
+                <div class="absolute top-4 left-4 z-30">
+                    <Button 
+                        icon="pi pi-pencil" 
+                        :label="t('common.update') || 'Update'" 
+                        rounded 
+                        severity="secondary" 
+                        class="!bg-surface-0/50 dark:!bg-surface-900/50 backdrop-blur-md !border-surface-200 dark:!border-surface-700 !text-surface-900 dark:!text-surface-0 shadow-lg hover:!bg-surface-0 dark:hover:!bg-surface-900 transition-all"
+                        @click="showUpdateDialog = true"
+                    />
                 </div>
 
                 <div class="relative py-8 md:py-10 px-6 w-full max-w-lg mx-auto z-10 flex flex-col items-center">
@@ -348,8 +435,7 @@ if (!props.headless) {
                         <!-- Sources -->
                         <div>
                             <VictimSources 
-                                :source-type="victim.source_type"
-                                :social-media-link="victim.source_social_media_link"
+                                :sources="victim.source"
                             />
                         </div>
                     </div>
@@ -358,4 +444,38 @@ if (!props.headless) {
             </div>
         </div>
     </div>
+
+    <!-- Update Dialog -->
+    <Dialog 
+        v-model:visible="showUpdateDialog" 
+        modal 
+        :header="submissionStepTitle" 
+        :style="{ width: '50rem' }" 
+        :breakpoints="{ '960px': '75vw', '640px': '95vw' }"
+        :dismissableMask="true"
+        :draggable="false"
+    >
+        <div v-if="submitSuccess" class="text-center py-8">
+            <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center">
+                <i class="pi pi-check text-4xl text-green-500"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-2 text-surface-900 dark:text-surface-0">{{ t('victimsPage.successTitle') }}</h3>
+            <p class="text-surface-600 dark:text-surface-400">{{ t('victimsPage.successMessage') }}</p>
+        </div>
+        <div v-else-if="submitError" class="text-center py-8">
+            <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-red-100 dark:bg-red-900/30 flex items-center justify-center">
+                <i class="pi pi-times text-4xl text-red-500"></i>
+            </div>
+            <h3 class="text-2xl font-bold mb-2 text-red-600">{{ t('victimsPage.failedTitle') }}</h3>
+            <p class="text-surface-600 dark:text-surface-400 mb-4">{{ submitError }}</p>
+            <Button :label="t('victimsPage.tryAgain')" icon="pi pi-refresh" @click="submitError = ''" />
+        </div>
+        <VictimSubmissionForm 
+            v-else 
+            :submitting="submitting" 
+            :initial-data="victim"
+            @submit="handleUpdateSubmission" 
+            @update:step-title="submissionStepTitle = $event" 
+        />
+    </Dialog>
 </template>

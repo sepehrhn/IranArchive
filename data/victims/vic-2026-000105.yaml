@@ -1,47 +1,136 @@
 # ==========================================
-# Victim Documentation - Hamidreza Moieni Far
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000105.jpg"
-  - "vic-2026-f9c09168339a.jpg"
-  - "vic-2026-f27e97dd6f18.jpg"
-  - "vic-2026-95f750198a6b.jpg"
-  - "vic-2026-72c808c970f0.jpg"
-  - "vic-2026-087b66658812.jpg"
-  - "vic-2026-e430bb3a54e4.jpg"
-  - "vic-2026-288ed00d1630.jpg"
-  - "vic-2026-d4f06112861b.jpg"
-  - "vic-2026-8b754b83dcc0.jpg"
-  - "vic-2026-ceb5ced004bd.jpg"
+  - vic-2026-000105.jpg
+  - vic-2026-f9c09168339a.jpg
+  - vic-2026-f27e97dd6f18.jpg
+  - vic-2026-95f750198a6b.jpg
+  - vic-2026-72c808c970f0.jpg
+  - vic-2026-087b66658812.jpg
+  - vic-2026-e430bb3a54e4.jpg
+  - vic-2026-288ed00d1630.jpg
+  - vic-2026-d4f06112861b.jpg
+  - vic-2026-8b754b83dcc0.jpg
+  - vic-2026-ceb5ced004bd.jpg
+
+# Full Name in English
 name: Hamidreza Moieni Far
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: حمیدرضا معینی فر
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 23
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Tehran
 incident_city: Naziaabad
 incident_address: Nazi Abad
-date_of_death: "2026-01-08"
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-08'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot during protest; body found on January 9, 2026 and handed over to family on January 10, 2026.
 
 
   Separated from family on 18 Dey (Jan 8, 2026) in Naziaabad, his body was later identified among unidentified bodies at the Kahrizak forensic center. He had been shot in the chest. He was a shopkeeper in Tehran's Grand Bazaar.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/missmarpel75/status/2014561945504886861, https://x.com/dashte_havij/status/2014597951889264708, https://x.com/monfaredashkan/status/2014733648659103929, https://x.com/RadioFarda_/status/2014732654281634220, https://x.com/MonfaredAshkan/status/2014733648659103929, https://x.com/freedommesenger/status/2015461018416132196, https://x.com/MonfaredAshkan/status/2014731093757591765, https://x.com/giligili97/status/2014775034317783185, https://x.com/iwasshiin/status/2014812144999477260, https://x.com/shadyfts/status/2015777586631098700, https://t.me/RememberTheirNames/1433"
-  - "https://x.com/dashte_havij/status/2014597951889264708"
-  - "https://x.com/giligili97/status/2014775034317783185"
-  - "https://x.com/freedommesenger/status/2015461018416132196"
-  - "https://x.com/MonfaredAshkan/status/2014731093757591765"
-  - "https://x.com/shadyfts/status/2015777586631098700"
-  - "https://t.me/RememberTheirNames/1433"
-  - "https://x.com/iwasshiin/status/2014812144999477260"
-persian_name: حمیدرضا معینی فر
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/missmarpel75/status/2014561945504886861, https://x.com/dashte_havij/status/2014597951889264708, https://x.com/monfaredashkan/status/2014733648659103929, https://x.com/RadioFarda_/status/2014732654281634220, https://x.com/MonfaredAshkan/status/2014733648659103929, https://x.com/freedommesenger/status/2015461018416132196, https://x.com/MonfaredAshkan/status/2014731093757591765, https://x.com/giligili97/status/2014775034317783185, https://x.com/iwasshiin/status/2014812144999477260, https://x.com/shadyfts/status/2015777586631098700, https://t.me/RememberTheirNames/1433
+  - https://x.com/dashte_havij/status/2014597951889264708
+  - https://x.com/giligili97/status/2014775034317783185
+  - https://x.com/freedommesenger/status/2015461018416132196
+  - https://x.com/MonfaredAshkan/status/2014731093757591765
+  - https://x.com/shadyfts/status/2015777586631098700
+  - https://t.me/RememberTheirNames/1433
+  - https://x.com/iwasshiin/status/2014812144999477260
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

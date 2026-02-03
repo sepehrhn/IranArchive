@@ -1,39 +1,128 @@
 # ==========================================
-# Victim Documentation - Delaram Kazemi
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000893.jpg"
-  - "vic-2026-866dabf02719.jpg"
-  - "vic-2026-ff118204b66f.jpg"
-  - "vic-2026-8175caeaee25.jpg"
-  - "vic-2026-339f7a133884.jpg"
-  - "vic-2026-37397513bf58.jpg"
+  - vic-2026-000893.jpg
+  - vic-2026-866dabf02719.jpg
+  - vic-2026-ff118204b66f.jpg
+  - vic-2026-8175caeaee25.jpg
+  - vic-2026-339f7a133884.jpg
+  - vic-2026-37397513bf58.jpg
+
+# Full Name in English
 name: Delaram Kazemi
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: دلارام کاظمی
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Female
+
+# Age at time of death (Optional, remove if unknown)
 age: 37
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
+
+# Incident Location
 incident_province: Kermanshah
 incident_city: Gilan-e Gharb
-incident_address: ""
-date_of_death: "2026-01-06"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-06'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Died in detention after being arrested during protests. She was reportedly subjected to severe violence during the arrest, resulting in broken hands and ribs.
 
 
   Brutally arrested by the Islamic Regime during protests on January 6, 2026, and later died in custody under suspicious circumstances, likely from torture. Mother of two.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/avatoday_news/status/2011813645504663718, https://x.com/longlosthills/status/2012375264848748984, https://x.com/hiwa_life/status/2013754620590334164"
-  - "https://x.com/avatoday_news/status/2011813645504663718"
-  - "https://x.com/longlosthills/status/2012375264848748984"
-  - "https://x.com/hiwa_life/status/2013754620590334164"
-  - "https://x.com/hiitsmemooneh/status/2012670715942904300"
-persian_name: دلارام کاظمی
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/avatoday_news/status/2011813645504663718, https://x.com/longlosthills/status/2012375264848748984, https://x.com/hiwa_life/status/2013754620590334164
+  - https://x.com/avatoday_news/status/2011813645504663718
+  - https://x.com/longlosthills/status/2012375264848748984
+  - https://x.com/hiwa_life/status/2013754620590334164
+  - https://x.com/hiitsmemooneh/status/2012670715942904300
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+

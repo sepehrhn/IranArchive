@@ -1,35 +1,124 @@
 # ==========================================
-# Victim Documentation - Diyar Pourchehriq
+# Victim Documentation Template
 # ==========================================
+# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
+# Location: \data\victims\
 
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Photo Handling:
+# 1. Place the image in `\data\victims\img\`
+# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
+# The system will automatically find and optimize it.
 photo:
-  - "vic-2026-000077.jpg"
-  - "vic-2026-001480.png"
-  - "vic-2026-2d735be80265.jpg"
-  - "vic-2026-e1cf70f831c9.jpg"
+  - vic-2026-000077.jpg
+  - vic-2026-001480.png
+  - vic-2026-2d735be80265.jpg
+  - vic-2026-e1cf70f831c9.jpg
+
+# Full Name in English
 name: Diyar Pourchehriq
-birth_date: ""
-birth_province: ""
-birth_city: ""
+
+# Full Name in Persian (Optional)
+persian_name: دیار پورچهریق
+
+# -----------------------------------------------------------------------------
+# Personal & Birth Information
+# -----------------------------------------------------------------------------
+
+# Date of Birth (Format: YYYY/MM/DD, Optional)
+birth_date: ''
+
+# Province of Birth (Optional)
+birth_province: ''
+
+# City of Birth (Optional)
+birth_city: ''
+
+# Gender (Optional: "Male" or "Female")
 gender: Male
+
+# Age at time of death (Optional, remove if unknown)
 age: 32
-occupation: ""
+
+# Occupation (Optional)
+occupation: ''
+
+# -----------------------------------------------------------------------------
+# Location & Timing
+# -----------------------------------------------------------------------------
+
+# Country
 country: Iran
-incident_province: ""
+
+# Incident Location
+incident_province: ''
 incident_city: Tehran
-incident_address: ""
-date_of_death: "2026-01-22"
+incident_address: ''
+
+# Date of Death (Format: YYYY/MM/DD)
+date_of_death: '2026-01-22'
+
+# Date of Death Precision: 'Exact' | 'Approximate'
+# - Exact: Confirmed exact date
+# - Approximate: Estimated or uncertain date
 date_of_death_precision: Exact
+
+# Cause of Death (Optional, for status: Killed)
+# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
+
+# -----------------------------------------------------------------------------
+# Missing Person Fields (Only for status: Missing)
+# -----------------------------------------------------------------------------
+
+# Disappearance Circumstances (Optional, for status: Missing)
+# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
+#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+disappearance_circumstances: null
+
+# Suspected Actor (Optional, for status: Missing)
+# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
+suspected_actor: null
+
+# -----------------------------------------------------------------------------
+# Status
+# -----------------------------------------------------------------------------
+
+# Status: 'Killed' | 'Missing'
+# - Killed: Confirmed death
+# - Missing: Person is missing, status unknown
 status: Killed
+
+# -----------------------------------------------------------------------------
+# Narrative
+# -----------------------------------------------------------------------------
+
+# Detailed incident description. Supports basic markdown.
 description: |-
   Shot by suppressive forces during protests in Poonak street, Tehran.
 
 
   Shot directly by security forces in Poanak Street, Tehran. He was originally from Chehriq village in Salmas County, West Azerbaijan Province, and lived in Patavir village, but came to Tehran for work and lived in the city. He was in a very difficult financial situation, worked as an Snapp driver to support his family, and sent part of his income to his family. He was the breadwinner of the family and due to rising rents, he could not even afford to rent a house and slept in his car at night.
-source_type: Social Media
-source_social_media_link:
-  - "https://x.com/iranintl/status/2014423024796111149, https://x.com/IranIntl/status/2014423024796111149, https://t.me/RememberTheirNames/360, https://x.com/KurdistanHRN/status/2016561186175631787"
-  - "https://x.com/KurdistanHRN/status/2016561186175631787"
-  - "https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMh8ju"
-persian_name: دیار پورچهریق
+
+# -----------------------------------------------------------------------------
+# Sources & References
+# -----------------------------------------------------------------------------
+
+# Source Link (Required)
+# Can be a single link or a list of links
+source:
+  - https://x.com/iranintl/status/2014423024796111149, https://x.com/IranIntl/status/2014423024796111149, https://t.me/RememberTheirNames/360, https://x.com/KurdistanHRN/status/2016561186175631787
+  - https://x.com/KurdistanHRN/status/2016561186175631787
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMh8ju
+
+
+# -----------------------------------------------------------------------------
+# Relationships
+# -----------------------------------------------------------------------------
+# Note: Incident linking is handled in the INCIDENT YAML files.
+# Do NOT list incident IDs here.
+# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
+
