@@ -1,0 +1,87 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA - EV-2026-7d0a0ef7
+# -----------------------------------------------------------------------------
+
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# This file serves as a template and documentation for adding new events.
+# Use this structure to submit new events to the platform.
+#
+# FILENAME CONVENTION:
+#   ev-YYYY-XXXXX.yaml (e.g., ev-2026-00001.yaml)
+#   The filename (without extension) becomes the unique Event ID.
+# -----------------------------------------------------------------------------
+
+# [REQUIRED] Core Details
+# The visible title of the event (e.g. "Berlin Rally for Freedom")
+title: "Global Day of Action in Solidarity with the Lion-and-Sun Revolution in Iran"
+
+# Set to true to highlight this event in the list
+featured: false
+
+# A full description of the event. Supports Markdown (bold, links, lists).
+# Use the pipe (|) for multi-line text blocks.
+description: |
+  
+  ١۴ فوریه ٢٠٢۶، ٢۵ بهمن ١۴٠۴/٢۵٨۴
+  
+  روز جهانی اقدام در همبستگی با انقلاب شیروخورشید ایران
+  
+  مونیخ، لس‌آنجلس، تورنتو، و دیگر شهرهای جهان
+  
+
+# [REQUIRED] Categorization
+# The type of event (physical vs online format)
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+# [REQUIRED] Timing
+date:
+  # Start date in YYYY/MM/DD format
+  start: "2026/02/14"
+  # Start time in HH:mm format (optional)
+  start_time: "13:00"
+  # End date (optional)
+  end: ""
+  # End time (optional)
+  end_time: ""
+
+# Location (Required for in_person/hybrid events)
+location:
+  country: "CA"
+  # City name
+  city: "Toronto"
+  # Specific address or landmark (optional)
+  address: "Toronto"
+  # Latitude (auto-calculated from address if not provided)
+  lat: null
+  # Longitude (auto-calculated from address if not provided)
+  lng: null
+
+# Online Specifics (Required for online/hybrid events)
+online: []
+  # e.g., Zoom, YouTube, X Spaces
+  # platform: ""
+  # join_url: ""
+  # registration_url: ""
+
+# Organizer
+organizer:
+  name: "Reza Pahlavi"
+  website: ""
+  contact_email: ""
+  # Social media links for the organizer
+  socials:
+    x: ""
+    instagram: "https://www.instagram.com/officialrezapahlavi/"
+    telegram: ""
+
+# Announcement link (Required) - e.g. Instgram post or tweet
+announcement: "https://www.instagram.com/p/DURFSmSkR2o"
+
+# INTERNAL USE - Submission Metadata
+submission:
+  submitted_by: ""
+  received_at: "2026-02-03T15:57:43.536Z"
+  submission_id: "7d0a0ef7-a883-406a-98fe-26e0df2500a6"
