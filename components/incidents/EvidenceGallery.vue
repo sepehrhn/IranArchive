@@ -245,8 +245,10 @@ const props = defineProps<{
   evidence: Evidence[];
 }>();
 
+const config = useRuntimeConfig();
+
 const getEvidenceUrl = (path: string) => {
-    return getMediaUrl({ kind: 'evidence', relativePath: path });
+    return getMediaUrl({ kind: 'evidence', relativePath: path }, config);
 };
 
 const allPossibleTypes = ['all', 'video', 'image', 'document'];

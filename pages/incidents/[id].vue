@@ -263,6 +263,8 @@ const { data: incident, pending, error } = await useAsyncData<Incident>(`inciden
   }
 });
 
+const config = useRuntimeConfig();
+
 const pageTitle = computed(() => incident.value ? `${incident.value.title} — IranArchive` : 'Incident Not Found');
 const pageDescription = computed(() => {
     if (!incident.value?.narrative) return 'Incident details on IranArchive.';
@@ -274,7 +276,7 @@ const pageImage = computed(() => {
     if (incident.value?.evidence?.length > 0) {
         const firstEvidence = incident.value.evidence[0];
         if (firstEvidence.file_path) {
-            return getMediaUrl({ kind: 'evidence', relativePath: firstEvidence.file_path });
+            return getMediaUrl({ kind: 'evidence', relativePath: firstEvidence.file_path }, config);
         }
     }
     return 'https://iranarchive.com/og-image-incidents.jpg';
