@@ -15,7 +15,7 @@ import { initUpload, uploadToR2, completeSubmission } from '~/utils/submissionsC
 import type { UploadedFileInfo } from '~/utils/submissionsClient';
 import { useStickyHeader } from '~/composables/useStickyHeader';
 
-const { headerOffset, headerHeight, registerStickyTrigger } = useStickyHeader()
+const { headerOffset, headerHeight, isMobile, registerStickyTrigger } = useStickyHeader()
 
 const filterBarRef = ref<HTMLElement | null>(null)
 
@@ -378,11 +378,12 @@ const openPosterGenerator = (victim: Victim) => {
             </div>
         </div>
 
-        <!-- Filters Section -->
+        <!-- Filters Section (Sticky only on desktop) -->
         <div 
             ref="filterBarRef"
-            class="sticky-trigger sticky z-40 px-4 md:px-0 transition-all duration-300"
-            :style="{ top: headerOffset + 'px' }"
+            class="z-40 px-4 md:px-0 transition-all duration-300"
+            :class="isMobile ? 'relative mb-6' : 'sticky-trigger sticky'"
+            :style="{ top: (isMobile ? 0 : headerOffset) + 'px' }"
         >
             <div class="w-full mx-auto bg-surface-0/80 dark:bg-surface-900/80 backdrop-blur-xl rounded-2xl border border-surface-200/50 dark:border-surface-700/50 shadow-xl shadow-surface-900/5 overflow-hidden transition-all duration-300">
                 

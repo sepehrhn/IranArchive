@@ -3,6 +3,9 @@ const { t } = useI18n();
 import type { ParsedEvent } from '~/server/utils/events/schemas';
 import { useCountries } from '~/composables/useCountries';
 import { useEvents } from '~/composables/useEvents';
+import { useStickyHeader } from '~/composables/useStickyHeader';
+
+const { isMobile } = useStickyHeader();
 
 useSeoMeta({
     title: t('eventsPage.title'),
@@ -259,8 +262,11 @@ const submissionStepTitle = ref(t('eventsPage.submitDialogTitle'));
                 </div>
             </div>
 
-            <!-- Mobile Filters (Sticky) -->
-            <div class="sticky-trigger md:hidden mb-6 sticky top-20 z-30 bg-surface-0/95 dark:bg-surface-900/95 backdrop-blur-md py-4 px-1 rounded-xl border border-surface-200 dark:border-surface-800 shadow-md">
+            <!-- Mobile Filters (Sticky only on desktop/if needed, but user wants it disabled for mobile) -->
+            <div 
+                class="sticky-trigger md:hidden z-30 bg-surface-0/95 dark:bg-surface-900/95 backdrop-blur-md py-4 px-1 rounded-xl border border-surface-200 dark:border-surface-800 shadow-md"
+                :class="isMobile ? 'relative mb-6' : 'sticky top-20'"
+            >
                 <EventsMobileFilters 
                     :events="events || []"
                     :selectedCountry="selectedCountry"
