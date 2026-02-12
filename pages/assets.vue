@@ -102,8 +102,6 @@ const countryOptions = computed(() => {
     ]
 })
 
-    ]
-})
 
 const typeOptions = computed(() => [
     { label: t('assetsPage.filters.all'), value: 'all' },
