@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM automatically generated
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Cardiff"
+title: "Solidarity Protest in Denver"
 
 featured: false
 
@@ -20,9 +20,9 @@ date:
   end_time: "16:00"
 
 location:
-  country: "GB"
-  city: "Cardiff"
-  address: "Queen Street, Opposite NatWest"
+  country: "US"
+  city: "Denver"
+  address: "Colorado State Capitol West Steps, 200 E Colfax Ave Denver, Co, 80203"
 
 online: []
 
@@ -36,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

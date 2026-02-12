@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Bucharest"
+title: "Solidarity Protest in Irvine"
 
 featured: false
 
@@ -14,14 +14,15 @@ description: |
 type: "in_person"
 
 date:
-  start: "2026/02/02"
-  start_time: "15:00"
-
+  start: "2026/02/07"
+  start_time: "13:00"
+  end: "2026/02/07"
+  end_time: "15:00"
 
 location:
-  country: "RO"
-  city: "Bucharest"
-  address: "Piața Victoriei"
+  country: "US"
+  city: "Irvine"
+  address: "MASON Park Irvine, Jeffery & Culver PKWY"
 
 online: []
 
@@ -35,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

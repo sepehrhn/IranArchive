@@ -1,0 +1,17 @@
+# Asset Configuration Example
+# ID is derived from the filename (e.g., 'asset-001.yaml' -> ID 'asset-001')
+# Size and format are calculated automatically; do not enter them manually.
+
+# --- Core Settings ---
+# Path relative to 'data/assets/' (e.g., img/poster_v1.jpg)
+file: img/asset-061.pdf
+# Type: 'poster' or 'other'
+type: poster
+
+# --- Metadata ---
+# Original source URL
+source_url: https://graphicsforiran.com/
+
+# --- Visibility & Filtering ---
+# Specific countries: ISO2 codes list (e.g., ['US', 'DE']) or [] (Global)
+countries: []

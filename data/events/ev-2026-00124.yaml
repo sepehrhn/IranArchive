@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM automatically generated
 # -----------------------------------------------------------------------------
 
-title: "Weekly Solidarity Rally"
+title: "Solidarity Protest in Charlottetown"
 
 featured: false
 
 description: |
-  The recurring weekly gathering for the Calgary Iranian diaspora to voice continued opposition to the Islamic Republic, support the current strikes in Iran, and advocate for regime change.
-  
-  **Tips:** This is the most consistent weekly event time. Bring flags (Lion and Sun) and signs. Parking is available at City Hall parkade.
-  
-  **Location Details:** 800 Macleod Trail SE, Calgary, AB. Meeting point often near the 'Famous Five' statues or main steps.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: "14:00"
+  start_time: "11:30"
   end: "2026/02/01"
-  end_time: "16:00"
+  end_time: "13:00"
 
 location:
   country: "CA"
-  city: "Calgary"
-  address: "Calgary City Hall Plaza"
+  city: "Charlottetown"
+  address: "145 Grafton Street, Cenotaph of Veterans"
 
 online: []
 
 organizer:
-  name: "Iranian Community of Western Canada / Justice for PS752 Families"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

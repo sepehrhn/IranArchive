@@ -57,6 +57,15 @@ onUnmounted(() => {
                         <span>{{ $t('common.events') }}</span>
                         <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-primary-500 transition-all duration-300 group-[.router-link-active]:w-1/2"></span>
                     </NuxtLink>
+                    <NuxtLink 
+                        to="/assets" 
+                        class="px-4 py-2 rounded-full hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all duration-300 relative group flex items-center gap-2"
+                        active-class="text-primary-600 dark:text-primary-400 font-medium"
+                    >
+                        <i class="pi pi-image text-sm opacity-70 group-hover:opacity-100 group-[.router-link-active]:opacity-100 transition-opacity"></i>
+                        <span>{{ $t('common.assets') }}</span>
+                        <span class="absolute bottom-0 left-1/2 -translate-x-1/2 w-0 h-0.5 bg-primary-500 transition-all duration-300 group-[.router-link-active]:w-1/2"></span>
+                    </NuxtLink>
                     
                     <div class="relative group">
                         <button class="px-4 py-2 rounded-full hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all duration-300 flex items-center gap-2 outline-none focus:ring-2 focus:ring-primary-500/50 text-surface-700 dark:text-surface-300 group-hover:text-primary-600 dark:group-hover:text-primary-400 font-medium">
@@ -75,12 +84,7 @@ onUnmounted(() => {
                                     <span class="text-sm font-bold text-surface-900 dark:text-surface-0 group-hover/item:text-primary-600 dark:group-hover/item:text-primary-400 transition-colors">{{ $t('common.tracker') }}</span>
                                 </NuxtLink>
 
-                                <NuxtLink to="/campaigns" class="flex items-center gap-3 p-2 rounded-xl hover:bg-primary-50 dark:hover:bg-primary-900/20 group/item transition-all duration-200" active-class="bg-primary-50 dark:bg-primary-900/20">
-                                    <div class="w-8 h-8 shrink-0 rounded-lg bg-primary-100/50 dark:bg-primary-900/40 flex items-center justify-center text-primary-600 dark:text-primary-400 group-hover/item:scale-110 transition-transform">
-                                        <i class="pi pi-megaphone"></i>
-                                    </div>
-                                    <span class="text-sm font-bold text-surface-900 dark:text-surface-0 group-hover/item:text-primary-600 dark:group-hover/item:text-primary-400 transition-colors">{{ $t('common.campaigns') }}</span>
-                                </NuxtLink>
+
                             </div>
                         </div>
                     </div>
@@ -118,6 +122,10 @@ onUnmounted(() => {
                      <i class="pi pi-calendar text-lg opacity-70 group-[.router-link-active]:opacity-100"></i>
                     <span>{{ $t('common.events') }}</span>
                 </NuxtLink>
+                <NuxtLink to="/assets" class="px-4 py-3 rounded-xl hover:bg-surface-100 dark:hover:bg-surface-900 transition-all flex items-center gap-4 group" active-class="bg-primary-50 dark:bg-primary-900/20 text-primary-600 dark:text-primary-400 font-medium" @click="closeMenu">
+                     <i class="pi pi-image text-lg opacity-70 group-[.router-link-active]:opacity-100"></i>
+                    <span>{{ $t('common.assets') }}</span>
+                </NuxtLink>
                 
                 <div class="mt-4 pt-4 border-t border-surface-100 dark:border-surface-800">
                     <div class="px-4 py-2 text-[10px] font-bold text-surface-400 dark:text-surface-500 uppercase tracking-[0.2em]">{{ $t('common.globalPressure') }}</div>
@@ -125,10 +133,7 @@ onUnmounted(() => {
                         <i class="pi pi-globe text-lg opacity-70 group-[.router-link-active]:opacity-100"></i>
                         <span>{{ $t('common.tracker') }}</span>
                     </NuxtLink>
-                    <NuxtLink to="/campaigns" class="px-4 py-3 rounded-xl hover:bg-surface-100 dark:hover:bg-surface-900 transition-all flex items-center gap-4 group" active-class="bg-primary-50 dark:bg-primary-900/20 text-primary-600 dark:text-primary-400 font-medium" @click="closeMenu">
-                        <i class="pi pi-megaphone text-lg opacity-70 group-[.router-link-active]:opacity-100"></i>
-                        <span>{{ $t('common.campaigns') }}</span>
-                    </NuxtLink>
+
                 </div>
             </div>
         </Drawer>

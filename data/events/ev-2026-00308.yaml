@@ -1,0 +1,43 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# -----------------------------------------------------------------------------
+
+title: "Weekly Sunday Protest Against the Regime"
+
+featured: true
+
+description: |
+  Recurring weekly demonstration condemning mass executions and internet blackouts.
+  
+  **Tips:** Parking at Galleria mall is recommended. Be prepared for walking.
+  
+  **Location Details:** 2800 Post Oak Blvd, Houston, TX 77056
+
+type: "in_person"
+
+date:
+  start: "2026/02/15"
+  start_time: "14:00"
+  end: "2026/02/15"
+  end_time: "17:00"
+
+location:
+  country: "US"
+  city: "Houston"
+  address: "Gerald D. Hines Waterwall Park"
+
+online: []
+
+organizer:
+  name: "Local Iranian Diaspora & Student Groups"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []
+

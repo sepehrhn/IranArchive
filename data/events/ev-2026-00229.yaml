@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Solidarity with Iran Uprising (Global Day of Action)"
+title: "Solidarity Protest in Frankfurt"
 
-featured: true
+featured: false
 
 description: |
-  Likely impromptu gathering to coincide with global rallies marking the anniversary of the 1979 Revolution and supporting the current 2026 uprising. Expect flags, chanting, and signs visible to passing traffic.
-  
-  **Tips:** Park at the nearby shopping center (Mission Viejo Village Center) but avoid blocking business entrances. Bring water and distinct 'Lion and Sun' flags.
-  
-  **Location Details:** Mission Viejo, CA 92692. Attendees typically gather on the sidewalks at the intersection.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
-  start_time: "12:00"
-  end: "2026/02/07"
-  end_time: "14:00"
+  start: "2026/02/12"
+  start_time: "17:00"
+  end: "2026/02/12"
+  end_time: "19:00"
 
 location:
-  country: "US"
-  city: "Mission Viejo"
-  address: "Corner of Marguerite Parkway & La Paz Road"
+  country: "DE"
+  city: "Frankfurt"
+  address: "Frankfurt Rathenauplatgz (Goetheplatz)"
 
 online: []
 
 organizer:
-  name: "Grassroots / Local Community (Unconfirmed)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

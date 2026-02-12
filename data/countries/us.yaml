@@ -1,5 +1,8 @@
 iso2: US
-name: "United States"
+name: "US"
+aliases:
+  - "United States"
+  - "ایالات متحده آمریکا"
 region: "Americas"
 subregion: "Northern America"
 last_reviewed_at: '2026-01-19'

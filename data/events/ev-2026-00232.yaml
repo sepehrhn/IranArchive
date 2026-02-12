@@ -1,37 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Rassemblement de Solidarité avec le Peuple Iranien"
+title: "Justice for Victims of 2026 Crackdown"
 
-featured: true
+featured: false
 
 description: |
-  Demonstration in solidarity with the ongoing nationwide uprising in Iran, condemning the regime's mass killings and repression. Participants typically demand regime change and democratic freedom.
+  Gathering to condemn the recent execution of protesters and the internet blackout in Iran. Likely to coincide with the global call to action.
   
-  **Tips:** Exact time often confirmed 24-48h prior on social media. Past rallies have consistently started around 2:00 PM or 3:00 PM on weekends.
+  **Tips:** Parking is available at nearby surface lots. Liberty Plaza is a common alternative if CNN Center is unavailable.
   
-  **Location Details:** Main square, often near the Fontaine du Soleil or the Promenade des Anglais waterfront.
+  **Location Details:** Capitol Ave SW, Atlanta, GA 30334. Opposite the Capitol building.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
-  start_time: "14:00"
-  end: "2026/02/07"
-  end_time: "17:00"
+  start: "2026/02/14"
+  start_time: "12:00"
+  end: "2026/02/14"
+  end_time: "14:00"
 
 location:
-  country: "FR"
-  city: "Nice"
-  address: "Place Masséna, Nice, France"
+  country: "US"
+  city: "Atlanta"
+  address: "Liberty Plaza (Georgia State Capitol)"
 
 online: []
 
 organizer:
-  name: "Les Amis d'Iran / Mouvement Femme Vie Liberté Nice"
+  name: "Independent Iranian Diaspora (Non-MEK)"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +40,3 @@ organizer:
     telegram: ""
 
 source: []
-

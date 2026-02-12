@@ -1,36 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Pop-up Solidarity Protests (Unconfirmed)"
+title: "Protest Against Repression & Executions"
 
 featured: false
 
 description: |
-  While no large-scale centralized rally is explicitly confirmed for this Saturday (following the major Golden Gate Bridge event last weekend), smaller independent groups often gather at Union Square or Civic Center on Saturdays. Monitor social media for 'flash' protest announcements.
+  A gathering to condemn the recent wave of executions and the brutal crackdown on protesters in Iran. Participants often chant slogans against both the theocratic regime and monarchist restoration, emphasizing a democratic, secular republic.
   
-  **Tips:** If no specific flyer is found, head to the Sunday rally at the Ferry Building which is the primary recurring event.
+  **Tips:** This location is often used for more specific, sometimes smaller or more radical demonstrations compared to the mass rallies at Schuman.
   
-  **Location Details:** Powell St BART (Union Square) or Civic Center BART
+  **Location Details:** Outside the Embassy of the Islamic Republic of Iran. Tram stop: ULB or Solbosch.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
-  start_time: ""
-
+  start: "2026/02/14"
+  start_time: "14:00"
+  end: "2026/02/14"
+  end_time: "16:30"
 
 location:
-  country: "US"
-  city: "San Francisco"
-  address: "Union Square or Civic Center"
+  country: "BE"
+  city: "Brussels"
+  address: "Avenue Franklin Roosevelt 15, 1050 Bruxelles"
 
 online: []
 
 organizer:
-  name: "Independent Activists"
+  name: "Independent Diaspora Groups / Left-leaning collectives"
   website: ""
   contact_email: ""
   socials:
@@ -38,5 +39,5 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
-
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUi0GEFShxqYT6VMbO4TnbjOH1JywI8q64zmMg6_69EspV0LLPrTuKquYwE7moSl2ks4Iu0bukbIQK1VwvvTbLfJqhIdp5e5ytXa7Yx9pJyL6lmzCVyV4lGbcL8B-1Gg=="

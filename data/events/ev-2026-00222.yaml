@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Possible Regional Gathering"
+title: "Solidarity Protest in Montreal"
 
 featured: false
 
 description: |
-  While no specific Lund event is confirmed, Malmö's Gustav Adolfs Torg is the standard hub for regional solidarity rallies. Independent activists often gather here on Saturdays.
-  
-  **Tips:** Check for 'Woman, Life, Freedom' banners. Avoid events with yellow branding or portraits of Rajavi if you wish to avoid MEK.
-  
-  **Location Details:** Central square, 10-15 min train from Lund C.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
-  start_time: "13:00"
-  end: "2026/02/07"
-  end_time: "15:00"
+  start: "2026/02/08"
+  start_time: "14:00"
+
 
 location:
-  country: "SE"
-  city: "Lund"
-  address: "Gustav Adolfs Torg, Malmö"
+  country: "CA"
+  city: "Montreal"
+  address: "2330 Rue Sainte-Catherine O, Montréal"
 
 online: []
 
 organizer:
-  name: "Local Iranian Diaspora / Kvinna Liv Frihet (Unconfirmed)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

@@ -21,16 +21,19 @@ const citiesWithEvents = computed(() => {
         const stateMatch = props.showPastEvents 
             ? ['past', 'held'].includes(e.computed_state)
             : ['upcoming', 'ongoing'].includes(e.computed_state);
-        const countryMatch = e.location?.country === props.selectedCountry;
+        
+        const loc = Array.isArray(e.location) ? null : (e.location as any);
+        const countryMatch = loc?.country === props.selectedCountry;
         return stateMatch && countryMatch;
     });
 
     // Count events per city
     const cityMap = new Map<string, number>();
     filteredEvents.forEach(event => {
-        if (event.location?.city) {
-            const count = cityMap.get(event.location.city) || 0;
-            cityMap.set(event.location.city, count + 1);
+        const loc = Array.isArray(event.location) ? null : (event.location as any);
+        if (loc?.city) {
+            const count = cityMap.get(loc.city) || 0;
+            cityMap.set(loc.city, count + 1);
         }
     });
 

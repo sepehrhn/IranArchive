@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Weekly Sunday Solidarity Rally"
+title: "Solidarity Protest in Torino"
 
-featured: true
+featured: false
 
 description: |
-  Weekly recurring protest held every Sunday to amplify the voices of protesters in Iran. Participants typically gather to chant, wave national (Lion and Sun) flags, and share updates on the crackdown and strikes in Iran.
-  
-  **Tips:** This is a recurring community event that has happened for the last several Sundays. Check local 'Woman Life Freedom' Bay Area social media channels on Sunday morning for any last-minute time changes.
-  
-  **Location Details:** The Embarcadero, in front of the Ferry Building
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/01"
-  start_time: "14:00"
-  end: "2026/02/01"
-  end_time: "16:00"
+  start: "2026/02/03"
+  start_time: "17:00"
+  end: "2026/02/03"
+  end_time: "18:30"
 
 location:
-  country: "US"
-  city: "San Francisco"
-  address: "Harry Bridges Plaza (Ferry Building)"
+  country: "IT"
+  city: "Torino"
+  address: "Piazza Carignano"
 
 online: []
 
 organizer:
-  name: "Independent Iranian Alliance / Local Activists"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

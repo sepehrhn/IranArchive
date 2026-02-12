@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Conditional Emergency Protest (Anti-War/Solidarity)"
+title: "Solidarity Protest in Stockholm"
 
 featured: false
 
 description: |
-  A standing call exists for an emergency protest at 5:00 PM on the day of any significant new U.S. military strikes or major escalation involving Iran. While primarily anti-war, these events often serve as gathering points for Iranian solidarity.
-  
-  **Tips:** This event is CONDITIONAL. Do not attend unless news reports confirm a significant escalation or strike on the day.
-  
-  **Location Details:** Central gathering point for most Iran-related demonstrations.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/07"
-  start_time: "17:00"
-  end: "2026/02/07"
-  end_time: "19:00"
+  start_time: "15:30"
+
 
 location:
-  country: "US"
-  city: "Chicago"
-  address: "Federal Plaza, 230 S Dearborn St, Chicago, IL"
+  country: "SE"
+  city: "Stockholm"
+  address: "Norra Bantorget"
 
 online: []
 
 organizer:
-  name: "Various Anti-War/Solidarity Groups (Conditional)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,6 +34,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjd5qokynSZEzB-2xBiJk0G6Saf23N2vvEi4iU0miuFczK0fAri5L8aFcS3AtMK-4Om2P5DsP7obsPQAvPPx5pDs1PmTk-gPag0PrexF05_Q3Nx0GEUxrhWCzIxEhACuEX0lKQs-RHuLU="
-
+source: []

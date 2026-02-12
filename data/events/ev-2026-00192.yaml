@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Interests Section Protest"
+title: "Solidarity Protest in Chicago"
 
 featured: false
 
 description: |
-  A common site for smaller, angrier protests directly targeting regime representatives. Often involves chanting and street presence.
-  
-  **Tips:** Police presence is usually higher here due to diplomatic security.
-  
-  **Location Details:** 1250 23rd St NW #200, Washington, DC (or specifically the Wisconsin Ave location if referenced locally)
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/01"
-  start_time: "12:00"
-  end: "2026/02/01"
-  end_time: "16:00"
+  start: "2026/02/07"
+  start_time: "13:00"
+
 
 location:
   country: "US"
-  city: "Washington DC"
-  address: "Islamic Republic of Iran Interests Section"
+  city: "Chicago"
+  address: "Congress Plaza (477 S Michigan Ave)"
 
 online: []
 
 organizer:
-  name: "Grassroots"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

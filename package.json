@@ -9,7 +9,8 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "validate": "node scripts/validate-data.js",
-    "gen-metadata": "node scripts/generate-metadata.js"
+    "gen-metadata": "node scripts/generate-metadata.js",
+    "generate-thumbnails": "node scripts/generate-pdf-thumbnails.js"
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^2.0.2",
@@ -26,8 +27,10 @@
     "d3-selection": "^3.0.0",
     "d3-zoom": "^3.0.0",
     "jalaali-js": "^1.2.8",
+    "jspdf": "^4.1.0",
     "markdown-it": "^14.1.0",
     "nuxt": "^3.11.2",
+    "pdfjs-dist": "^5.4.624",
     "primeicons": "latest",
     "primevue": "latest",
     "tailwindcss": "latest",
@@ -49,6 +52,8 @@
     "js-yaml": "^4.1.1",
     "puppeteer": "^24.36.1",
     "tailwindcss-primeui": "latest",
-    "vite": "^7.3.1"
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vue-tsc": "^3.2.4"
   }
 }

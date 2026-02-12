@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Sunday Solidarity Gathering (Likely)"
+title: "Solidarity Protest in Folsom"
 
-featured: true
+featured: false
 
 description: |
-  Weekly grassroots gatherings often occur here on Sundays to support the uprising. Unlike the organized political rallies at City Hall, these tend to be more community-focused and independent.
-  
-  **Tips:** Check social media (Instagram/Telegram) for 'Woman Life Freedom DFW' to confirm. Wear comfortable shoes and bring water.
-  
-  **Location Details:** 2012 Woodall Rodgers Fwy, Dallas, TX 75201. Look for the 'Woman, Life, Freedom' banners near the main lawn or food trucks.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: "14:00"
+  start_time: "11:30"
   end: "2026/02/01"
-  end_time: "16:00"
+  end_time: "13:00"
 
 location:
   country: "US"
-  city: "Dallas"
-  address: "Klyde Warren Park"
+  city: "Folsom"
+  address: "200 PALLADIO PKWY, FOLSOM, CA 95630"
 
 online: []
 
 organizer:
-  name: "Grassroots / Woman Life Freedom DFW (Likely)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

@@ -7,7 +7,7 @@
 
 import { useRuntimeConfig } from '#app';
 
-export type MediaKind = 'evidence' | 'campaign_img' | 'victim_photo';
+export type MediaKind = 'evidence' | 'victim_photo' | 'asset'; // Added asset
 
 export interface MediaUrlOptions {
     kind: MediaKind;
@@ -33,6 +33,10 @@ export interface MediaUrlOptions {
  * // Victim: /data/victims/img/vic-2026-000007.jpg
  * getMediaUrl({ kind: 'victim_photo', relativePath: 'vic-2026-000007.jpg' })
  * // Returns: https://raw.githubusercontent.com/sepehrhn/IranArchive/main/data/victims/img/vic-2026-000007.jpg
+ * 
+ * // Asset: /data/assets/img/poster.jpg
+ * getMediaUrl({ kind: 'asset', relativePath: 'img/poster.jpg' })
+ * // Returns: https://raw.githubusercontent.com/sepehrhn/IranArchive/main/data/assets/img/poster.jpg
  * ```
  */
 export function getMediaUrl(options: MediaUrlOptions): string {
@@ -58,12 +62,15 @@ export function getMediaUrl(options: MediaUrlOptions): string {
         case 'evidence':
             fullPath = `data/evidences/${normalizedPath}`;
             break;
-        case 'campaign_img':
-            fullPath = `data/campaigns/img/${normalizedPath}`;
-            break;
+
         case 'victim_photo':
             fullPath = `data/victims/img/${normalizedPath}`;
             break;
+
+        case 'asset':
+            fullPath = `data/assets/${normalizedPath}`;
+            break;
+
         default:
             throw new Error(`Unknown media kind: ${kind}`);
     }

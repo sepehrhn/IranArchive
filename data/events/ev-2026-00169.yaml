@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Paris"
+title: "Solidarity Protest in Bucharest"
 
 featured: false
 
@@ -14,14 +14,14 @@ description: |
 type: "in_person"
 
 date:
-  start: "2026/02/01"
+  start: "2026/02/02"
   start_time: "15:00"
 
 
 location:
-  country: "FR"
-  city: "Paris"
-  address: "De La PLACE VAUBAN À La Place JACQUES RUEFF"
+  country: "RO"
+  city: "Bucharest"
+  address: "Piața Victoriei"
 
 online: []
 
@@ -35,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

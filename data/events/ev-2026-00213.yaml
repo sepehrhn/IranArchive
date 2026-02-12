@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Weekly Vigil / Mahnwache (Unconfirmed)"
+title: "Solidarity Protest in Warsaw"
 
 featured: false
 
 description: |
-  While no major specific call has been issued due to the Berlin mobilization, local grassroots groups often hold standing vigils on Saturdays to support political prisoners and the uprising. This is a non-MEK, community-led gathering point.
-  
-  **Tips:** Since many activists are travelling to Berlin, this local attendance may be smaller. Check Instagram channels like @womanlifefreedom_frankfurt or @iran_protest_frankfurt for last-minute cancellations.
-  
-  **Location Details:** Common meeting point for 'Woman Life Freedom' rallies; check local social media for last-minute confirmation.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/07"
-  start_time: "14:00"
-  end: "2026/02/07"
-  end_time: "16:00"
+  start_time: "13:00"
+
 
 location:
-  country: "DE"
-  city: "Frankfurt"
-  address: "Alte Oper (Opernplatz)"
+  country: "PL"
+  city: "Warsaw"
+  address: "From Plac Zamkowy to Palac Staszic"
 
 online: []
 
 organizer:
-  name: "Woman Life Freedom Frankfurt (Grassroots Collective)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

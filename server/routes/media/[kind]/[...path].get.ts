@@ -12,11 +12,13 @@ export default defineEventHandler(async (event) => {
         case 'victim_photo':
             baseDir = resolve(process.cwd(), 'data/victims/img');
             break;
-        case 'campaign_img':
-            baseDir = resolve(process.cwd(), 'data/campaigns/img');
-            break;
+
         case 'evidence':
             baseDir = resolve(process.cwd(), 'data/evidences');
+            break;
+
+        case 'asset':
+            baseDir = resolve(process.cwd(), 'data/assets');
             break;
         default:
             throw createError({
@@ -25,10 +27,13 @@ export default defineEventHandler(async (event) => {
             });
     }
 
-    const filePath = join(baseDir, pathParam);
+    const filePath = resolve(baseDir, pathParam);
 
     // Security check: ensure filePath is inside baseDir to prevent traversal
-    if (!filePath.startsWith(baseDir)) {
+    const normalizedFilePath = filePath.toLowerCase();
+    const normalizedBaseDir = baseDir.toLowerCase();
+
+    if (!normalizedFilePath.startsWith(normalizedBaseDir)) {
         throw createError({
             statusCode: 403,
             statusMessage: 'Forbidden'

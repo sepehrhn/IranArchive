@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Free Iran Demonstration"
+title: "Solidarity Protest in Auckland"
 
 featured: false
 
 description: |
-  A scheduled protest calling for freedom in Iran. This group ('Azadegan') holds regular events at this location on Saturdays (confirmed for Jan 31 and Feb 14).
-  
-  **Tips:** Verify specific time upon arrival as schedules can shift slightly.
-  
-  **Location Details:** Karl Johans gate 22, 0026 Oslo
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
+  start: "2026/02/14"
   start_time: "11:00"
-  end: "2026/02/07"
+  end: "2026/02/14"
   end_time: "12:00"
 
 location:
-  country: "NO"
-  city: "Oslo"
-  address: "Eidsvolls Plass (outside Stortinget)"
+  country: "NZ"
+  city: "Auckland"
+  address: "Te Komititanga Square to Myers Park"
 
 online: []
 
 organizer:
-  name: "Azadegan (Fri Iran)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

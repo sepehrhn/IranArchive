@@ -1,36 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Potential Solidarity Gathering"
+title: "Solidarity Protest in Valencia"
 
 featured: false
 
 description: |
-  While no specific flyer is confirmed for this date, this group recently concluded a major exhibition and may hold a Saturday rally given the ongoing crisis in Iran.
-  
-  **Tips:** Check the 'Woman Life Freedom DFW' Instagram or Facebook page on Friday night. Avoid 'Iranian-American Community of North Texas' events if you strictly wish to exclude MEK/NCRI affiliates.
-  
-  **Location Details:** Common gathering spot for independent/grassroots protests.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/07"
-  start_time: ""
+  start_time: "17:30"
 
 
 location:
-  country: "US"
-  city: "Dallas"
-  address: "Klyde Warren Park, 2012 Woodall Rodgers Fwy, Dallas, TX 75201"
+  country: "ES"
+  city: "Valencia"
+  address: "Plaza del Ayuntamiento de Valencia"
 
 online: []
 
 organizer:
-  name: "Woman Life Freedom DFW Collective (Unconfirmed)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

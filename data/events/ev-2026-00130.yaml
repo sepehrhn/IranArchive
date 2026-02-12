@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Denver"
+title: "Solidarity Protest in Fort Lauderdale"
 
 featured: false
 
@@ -15,14 +15,14 @@ type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: "14:00"
+  start_time: "16:00"
   end: "2026/02/01"
-  end_time: "16:00"
+  end_time: "18:00"
 
 location:
   country: "US"
-  city: "Denver"
-  address: "Colorado State Capitol West Steps, 200 E Colfax Ave Denver, Co, 80203"
+  city: "Fort Lauderdale"
+  address: "299 E Broward Blvd, Fort Lauderdale, FL 33301"
 
 online: []
 
@@ -36,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

@@ -1,19 +1,15 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Los Angeles Stands with Iran's Revolution"
+title: "Solidarity Protest in Prague"
 
 featured: false
 
 description: |
-  A major rally to show solidarity with the Iranian people's uprising, condemn the mass executions and 'massacre' reported in January, and support the families of victims. The event aims to unify the community against the Islamic Republic.
-  
-  **Tips:** Westwood Blvd is likely to be closed to traffic. Parking is very difficult; use ride-shares or park in residential areas blocks away. Be aware of your surroundings due to the Jan 11 vehicle incident in this same location.
-  
-  **Location Details:** Crowds often extend north towards Wilshire Blvd and the Federal Building.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
@@ -21,17 +17,17 @@ date:
   start: "2026/02/01"
   start_time: "14:00"
   end: "2026/02/01"
-  end_time: "17:00"
+  end_time: "16:00"
 
 location:
-  country: "US"
-  city: "Los Angeles"
-  address: "Persian Square (Intersection of Westwood Blvd & Wilkins Ave)"
+  country: "CZ"
+  city: "Prague"
+  address: "100 METRŮ PŘED NEW YORKREM"
 
 online: []
 
 organizer:
-  name: "Iranian Diaspora Coalition (Promoted by Radio Javan)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,7 +35,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF6tBHajFocq0BqQh8wTJ724MpF2ze1yVEW4LK1SmlJpDUMWL9ZXBXxeeecKL88LWT7UtQWFMK2PC7H2AgNZkr0g6TjNGnG3O_l_hqHbwf4PvxGbQg_5d6qzjlHpxrH6joQi08j7CE="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEKaSe5rJhI52tSkkOfzcdwalZRhDXhBZD9b_SIGwUcVXoMKfkPVSygdELsVyVMqOUM7FJry9xWAF9PdnAee70NEhY8BtkN8ZWrrg-uldKaGF7aH9KUfaKwOVOWSt6_LfAfSYWq3Lw="
-
+source: []

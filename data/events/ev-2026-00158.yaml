@@ -1,36 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Los Angeles Stands with Iran's Revolution"
+title: "Solidarity Protest in Tampa"
 
 featured: false
 
 description: |
-  A massive regional rally in solidarity with the 'Revolution of 2026' and the victims of the January massacres. While not in Mission Viejo, this is the primary event for Sunday, Feb 1, drawing supporters from Orange County.
-  
-  **Tips:** Arrive early for parking; Westwood Blvd is often closed to traffic during these rallies. Wear comfortable shoes.
-  
-  **Location Details:** Major gathering point for the SoCal Iranian diaspora.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: "13:00"
+  start_time: "14:00"
 
 
 location:
   country: "US"
-  city: "Mission Viejo"
-  address: "Persian Square (Westwood Blvd & Wilkins Ave), Los Angeles, CA"
+  city: "Tampa"
+  address: "600 N Ashley Dr, Tampa, FL 33602"
 
 online: []
 
 organizer:
-  name: "Coalition of Iranian Groups (Grassroots)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

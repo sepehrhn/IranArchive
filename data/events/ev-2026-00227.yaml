@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Manchester Solidarity Rally for Iran Uprising"
+title: "Solidarity Protest in Stockholm"
 
-featured: true
+featured: false
 
 description: |
-  A continuation of the weekly Saturday rallies in solidarity with the nationwide uprising in Iran. Demonstrators are demanding regime change, the designation of the IRGC as a terrorist organisation, and an end to the brutal crackdown that began in January. Previous rallies at this location have featured 'Woman, Life, Freedom' banners, Lion and Sun flags, and portraits of victims.
-  
-  **Tips:** Dress warmly for February weather. St Peter's Square is the confirmed location of the Jan 24 rally; however, Piccadilly Gardens is also a common assembly point, so check both (they are a short walk apart).
-  
-  **Location Details:** Outside Central Library; near the tram stop.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
+  start: "2026/02/09"
   start_time: "14:00"
-  end: "2026/02/07"
+  end: "2026/02/09"
   end_time: "16:00"
 
 location:
-  country: "GB"
-  city: "Manchester"
-  address: "St Peter's Square"
+  country: "SE"
+  city: "Stockholm"
+  address: "Dagens Nyheter Gjörwellsgatan 30"
 
 online: []
 
 organizer:
-  name: "Manchester Iranian Community / Grassroots Activists"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Weekly Rally: Solidarity with the Iranian Uprising"
+title: "Solidarity Protest in Vilnius"
 
-featured: true
+featured: false
 
 description: |
-  A recurring grassroots demonstration in solidarity with the active uprising in Iran, condemning the recent execution orders and internet blackouts. Participants typically chant 'Woman, Life, Freedom' and call for the end of the Islamic Republic.
-  
-  **Tips:** This is a recurring Saturday event (confirmed for previous Saturday, Jan 31). Dress warmly for February weather. Standard non-MEK national flags (Lion and Sun without leadership portraits) and 'Woman Life Freedom' signs are welcome.
-  
-  **Location Details:** Gathering usually starts at The Spire; groups often move towards the GPO.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/07"
-  start_time: "13:00"
+  start_time: "15:00"
   end: "2026/02/07"
-  end_time: "15:00"
+  end_time: "17:00"
 
 location:
-  country: "IE"
-  city: "Dublin"
-  address: "The Spire / GPO, O'Connell Street, Dublin 1"
+  country: "LT"
+  city: "Vilnius"
+  address: "Vincas Kudirka Square, Vinco Kudirkos aikštė, Vilnius"
 
 online: []
 
 organizer:
-  name: "Solidarity with the Iranian Uprising / Grassroots Diaspora"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

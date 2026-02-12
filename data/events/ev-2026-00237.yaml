@@ -1,37 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Weekly Action for Iran Rally"
+title: "Valentine's Day Vigil: 'For the Love of Iran'"
 
-featured: true
+featured: false
 
 description: |
-  A recurring weekly demonstration in solidarity with the nationwide uprising in Iran. Participants demand regime change and an end to the brutal crackdown. Expect chanting, waving of the Lion and Sun flag, and signs calling for international support.
+  A candlelight vigil and silent protest honoring the estimated 3,000+ victims killed since December 2025. Protesters often place flowers and photos of recent victims (including the 'Jan 8 Martyrs') at the embassy gates.
   
-  **Tips:** Parking is available at the nearby Home Depot or surrounding shopping centers, but expect them to be busy. Bring water, comfortable shoes, and Iranian flags (Lion and Sun).
+  **Tips:** Bring candles, flowers, or photos of victims. This is a more somber, smaller gathering compared to the Brandenburg Gate rally.
   
-  **Location Details:** Clairemont Mesa area. Protesters gather on all four corners; main group often near the Home Depot side.
+  **Location Details:** Podbielskiallee 67, 14195 Berlin (Dahlem). Nearest U-Bahn: U3 Podbielskiallee.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
-  start_time: "14:00"
-  end: "2026/02/07"
-  end_time: "16:00"
+  start: "2026/02/14"
+  start_time: "17:00"
+  end: "2026/02/14"
+  end_time: "19:00"
 
 location:
-  country: "US"
-  city: "San Diego"
-  address: "Intersection of Balboa Ave & Genesee Ave"
+  country: "DE"
+  city: "Berlin"
+  address: "Iranian Embassy"
 
 online: []
 
 organizer:
-  name: "Iranians of San Diego (Grassroots)"
+  name: "Independent Activists / Student Groups"
   website: ""
   contact_email: ""
   socials:
@@ -39,6 +39,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHOj3b5M4qV_vnoPfyK68Hc3VO950xh4jLoiYCQWYF7IPcDHWguqfvlG9V3-AfwhxW4FBhITbJI8dVDGtwuz--nVsiuPSaF2_ADKD8YxD5ejZ8AEtbvQQ=="
-
+source: []

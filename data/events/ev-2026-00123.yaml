@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM automatically generated
 # -----------------------------------------------------------------------------
 
-title: "No Hijab Day Solidarity Rally: Justice for Raha"
+title: "Solidarity Protest in Charlotte"
 
 featured: false
 
 description: |
-  A major solidarity rally coinciding with the global 'No Hijab Day' action. Demonstrators are gathering to honor the victims of the recent 'Bloody January' crackdown, specifically memorializing Raha (Zahra) Bahlouli-Pour, a student killed by security forces on January 8. The protest demands an end to the enforced hijab laws, the release of political prisoners detained during the January uprising, and calls for EU sanctions against regime officials involved in the recent massacres.
-  
-  **Tips:** This is expected to be a peaceful, high-visibility event with many attendees wearing white or carrying photos of victims. Security may be tighter than usual around the European Parliament due to recent tensions. Check for local transport disruptions as farmer protests have also been reported in the city this weekend.
-  
-  **Location Details:** In front of the European Parliament complex; nearest station: Bruxelles-Luxembourg.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: "12:00"
-  end: "2026/02/01"
-  end_time: "14:00"
+  start_time: "14:00"
+
 
 location:
-  country: "BE"
-  city: "Brussels"
-  address: "Place du Luxembourg, 1050 Brussels"
+  country: "US"
+  city: "Charlotte"
+  address: "420 S Tryon St, Charlotte, NC"
 
 online: []
 
 organizer:
-  name: "Grassroots Women's Rights Groups / Global No Hijab Day Coalition"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

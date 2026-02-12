@@ -145,7 +145,7 @@ const displayPersianValue = computed(() => {
     const shYear = j.jy + 1180;
     
     const persianMap = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
-    const toFa = (n: number) => n.toString().replace(/\d/g, d => persianMap[parseInt(d)]);
+    const toFa = (n: number | string) => n.toString().replace(/\d/g, d => persianMap[parseInt(d)]);
     const pad = (n: number) => n < 10 ? '0' + n : n;
 
     // Format: YYYY/MM/DD (Persian Digits)

@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Weekly Rally for Regime Change in Iran"
+title: "Solidarity Protest in Bergen"
 
-featured: true
+featured: false
 
 description: |
-  A continuation of the weekly mass demonstrations in solidarity with the nationwide uprising in Iran. Protesters are demanding the fall of the Islamic Republic, the designation of the IRGC as a terrorist organization, and support for the Iranian people's strikes and protests. Expect chanting, singing of revolutionary songs, and speeches from community activists.
-  
-  **Tips:** Dress warmly for the weather. Bring Iranian flags (Lion and Sun preferred by many) and signs. This location was the site of the 'massive' rally on Jan 25.
-  
-  **Location Details:** 1055 Canada Pl, Vancouver, BC. Located near the Olympic Cauldron.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/01"
+  start: "2026/02/07"
   start_time: "14:00"
-  end: "2026/02/01"
-  end_time: "16:00"
+  end: "2026/02/07"
+  end_time: "15:00"
 
 location:
-  country: "CA"
-  city: "Vancouver"
-  address: "Jack Poole Plaza"
+  country: "NO"
+  city: "Bergen"
+  address: "Festplassen"
 
 online: []
 
 organizer:
-  name: "Local Iranian Community / Solidarity with Iranians"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

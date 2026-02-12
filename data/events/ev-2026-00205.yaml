@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Solidarity with Iran Uprising (Weekly Rally)"
+title: "Solidarity Protest in Perth"
 
-featured: true
+featured: false
 
 description: |
-  Likely continuation of weekend solidarity rallies supporting the ongoing uprising and condemning the recent mass killings. Participants are expected to celebrate the recent 'Winship Victory' (firing of Larijani's daughter) and call for the removal of other regime affiliates.
-  
-  **Tips:** Bring 'Lion and Sun' flags (symbol of the Pahlavi/Constitutionalist era). Avoid yellow/MEK branding if you wish to remain independent. Wear masks if concerned about regime surveillance.
-  
-  **Location Details:** Common gathering spot: Near the Olympic Rings or CNN entrance. Check local grassroots channels for last-minute changes.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/07"
-  start_time: "14:00"
+  start_time: "17:00"
   end: "2026/02/07"
-  end_time: "16:00"
+  end_time: "19:00"
 
 location:
-  country: "US"
-  city: "Atlanta"
-  address: "Centennial Olympic Park / CNN Center"
+  country: "AU"
+  city: "Perth"
+  address: "Forrest Place"
 
 online: []
 
 organizer:
-  name: "Independent Iranian Diaspora (Grassroots)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

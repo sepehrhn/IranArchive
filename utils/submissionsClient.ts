@@ -5,7 +5,7 @@
  * Implements 2-step upload: init → upload files to R2 → complete
  */
 
-export type SubmissionKind = 'incident' | 'victim' | 'event' | 'campaign';
+export type SubmissionKind = 'incident' | 'victim' | 'event';
 
 export interface FileInfo {
     name: string;
@@ -156,7 +156,7 @@ export function validateFile(file: File, kind: SubmissionKind): { valid: boolean
             'application/pdf'
         ],
         event: [], // No files for events
-        campaign: ['image/jpeg', 'image/png', 'image/webp']
+
     };
 
     const allowed = allowedTypes[kind];

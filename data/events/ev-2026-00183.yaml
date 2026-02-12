@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Timișoara, Romania"
+title: "Solidarity Protest in Amsterdam"
 
 featured: false
 
@@ -14,15 +14,14 @@ description: |
 type: "in_person"
 
 date:
-  start: "2026/02/01"
+  start: "2026/02/07"
   start_time: "16:00"
-  end: "2026/02/01"
-  end_time: "18:30"
+
 
 location:
-  country: "RO"
-  city: "Timișoara"
-  address: "Piața Victoriei - vis-a-vis de Opera Română"
+  country: "NL"
+  city: "Amsterdam"
+  address: "Dam Square"
 
 online: []
 
@@ -36,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

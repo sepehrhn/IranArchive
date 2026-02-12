@@ -1,36 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Speak for Those Who Can't"
+title: "Solidarity Protest in Göteborg"
 
 featured: false
 
 description: |
-  A protest with this title is scheduled. While the title is generic and often used by animal rights or immigration groups, it aligns with the 'Woman, Life, Freedom' theme of speaking for silenced voices. Verify specifically before traveling.
-  
-  **Tips:** Check 'Chicago for Iran' social media to see if they are endorsing this specific gathering.
-  
-  **Location Details:** Riverwalk or sidewalk in front of the building.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/08"
-  start_time: "13:00"
+  start: "2026/02/14"
+  start_time: "12:00"
 
 
 location:
-  country: "US"
-  city: "Chicago"
-  address: "Trump Tower, 401 N Wabash Ave, Chicago, IL"
+  country: "SE"
+  city: "Göteborg"
+  address: "Götaplatsen"
 
 online: []
 
 organizer:
-  name: "Unknown (Listed in Security Briefings)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -38,6 +34,5 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFjd5qokynSZEzB-2xBiJk0G6Saf23N2vvEi4iU0miuFczK0fAri5L8aFcS3AtMK-4Om2P5DsP7obsPQAvPPx5pDs1PmTk-gPag0PrexF05_Q3Nx0GEUxrhWCzIxEhACuEX0lKQs-RHuLU="
+source: []
 
