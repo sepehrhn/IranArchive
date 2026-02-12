@@ -28,6 +28,7 @@ const loading = computed(() => status.value === 'pending')
 
 // Filters
 const selectedCountry = ref('all')
+const selectedType = ref('all')
 
 // Modal state
 const showPreviewModal = ref(false)
@@ -66,6 +67,11 @@ const filteredAssets = computed(() => {
             const isSpecific = assetCountries.includes(selectedCountry.value)
             if (!isGlobal && !isSpecific) return false
         }
+
+        // Type Filter
+        if (selectedType.value !== 'all') {
+            if (asset.type !== selectedType.value) return false
+        }
         
         return true
     })
@@ -95,6 +101,15 @@ const countryOptions = computed(() => {
         ...localized
     ]
 })
+
+    ]
+})
+
+const typeOptions = computed(() => [
+    { label: t('assetsPage.filters.all'), value: 'all' },
+    { label: t('assetsPage.filters.posters'), value: 'poster' },
+    { label: t('assetsPage.filters.leaflet'), value: 'leaflet' }
+])
 
 const openPreviewModal = (asset: Asset) => {
     selectedAsset.value = asset
@@ -302,6 +317,7 @@ const getAssetThumbnail = (asset: Asset) => {
 
 const clearFilters = () => {
     selectedCountry.value = 'all'
+    selectedType.value = 'all'
 }
 </script>
 
@@ -341,9 +357,31 @@ const clearFilters = () => {
 
             <!-- Filter Bar (Sticky) -->
             <div class="sticky top-20 z-30 bg-surface-0/95 dark:bg-surface-900/95 backdrop-blur-md p-4 rounded-2xl border border-surface-200 dark:border-surface-800 shadow-sm mb-8">
-                <div class="flex justify-center">
+                <div class="flex justify-center gap-4 flex-wrap">
+                    <!-- Type Filter -->
+                    <div class="w-full sm:w-48">
+                        <SelectButton 
+                            v-model="selectedType" 
+                            :options="typeOptions" 
+                            optionLabel="label" 
+                            optionValue="value"
+                            class="w-full"
+                            :pt="{
+                                root: { class: 'bg-surface-100 dark:bg-surface-800 p-1 rounded-xl w-full' },
+                                button: ({ context }) => ({
+                                    class: [
+                                        'flex-1 py-3 px-4 rounded-lg text-sm font-medium transition-all duration-200',
+                                        context.active 
+                                            ? 'bg-white dark:bg-surface-700 text-primary-600 dark:text-primary-400 shadow-sm' 
+                                            : 'text-surface-600 dark:text-surface-400 hover:text-surface-900 dark:hover:text-surface-0'
+                                    ]
+                                })
+                            }"
+                        />
+                    </div>
+
                     <!-- Country Filter -->
-                    <div class="w-full max-w-md">
+                    <div class="w-full sm:w-64">
                         <Select 
                             v-model="selectedCountry"
                             :options="countryOptions"
