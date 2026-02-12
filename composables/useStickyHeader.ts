@@ -11,8 +11,8 @@ export const useStickyHeader = () => {
     const route = useRoute()
 
     const handleScroll = () => {
-        // Force header visible on events page
-        if (route.path.startsWith('/events')) {
+        // Force header visible on events page or home page
+        if (route.path.startsWith('/events') || route.path === '/') {
             isHeaderVisible.value = true
             return
         }
