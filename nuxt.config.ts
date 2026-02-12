@@ -41,7 +41,20 @@ export default defineNuxtConfig({
             title: 'IranArchive',
             meta: [
                 { charset: 'utf-8' },
-                { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+                { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+                { name: 'description', content: 'IranArchive: A digital memorial and database documenting the crimes of the Islamic Republic.' },
+                // Open Graph / Facebook
+                { property: 'og:type', content: 'website' },
+                { property: 'og:url', content: 'https://iranarchive.com/' },
+                { property: 'og:title', content: 'IranArchive' },
+                { property: 'og:description', content: 'Documenting the crimes of the Islamic Republic. Honouring the victims. Seeking justice.' },
+                { property: 'og:image', content: 'https://iranarchive.com/og-image.jpg' }, // Assuming this exists or will be added
+                // Twitter
+                { name: 'twitter:card', content: 'summary_large_image' },
+                { name: 'twitter:url', content: 'https://iranarchive.com/' },
+                { name: 'twitter:title', content: 'IranArchive' },
+                { name: 'twitter:description', content: 'Documenting the crimes of the Islamic Republic. Honouring the victims. Seeking justice.' },
+                { name: 'twitter:image', content: 'https://iranarchive.com/og-image.jpg' }
             ],
             link: [
                 { rel: 'icon', type: 'image/svg+xml', href: '/lion-and-sun.svg' },

@@ -56,6 +56,7 @@
         "filterProvince": "Province",
         "filterCity": "City",
         "selectProvinceFirst": "Select Province First",
+        "showFilters": "Show Filters",
         "filterStatus": "Status",
         "loadingMore": "Loading more...",
         "endOfList": "You've reached the end of the list",
@@ -82,7 +83,14 @@
         "story": "Story",
         "linkedIncidents": "Linked Incidents",
         "unknown": "Unknown",
-        "createPoster": "Create Poster"
+        "createPoster": "Create Poster",
+        "createMemorialPoster": "Create Memorial Poster",
+        "selectSize": "Select Size",
+        "selectPhoto": "Select Photo",
+        "autoFit": "Auto fit",
+        "addOverlay": "Add overlay",
+        "bloodEffect": "Blood effect",
+        "download": "Download"
     },
     "eventsPage": {
         "title": "Events - IranArchive",

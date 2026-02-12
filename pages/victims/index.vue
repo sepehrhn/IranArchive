@@ -9,6 +9,7 @@ import VictimGalleryCard from '@/components/victims/VictimGalleryCard.vue';
 import VictimDetail from '@/components/victims/VictimDetail.vue';
 import VictimSkeleton from '@/components/victims/VictimSkeleton.vue';
 import VictimSubmissionForm from '~/components/submissions/VictimSubmissionForm.vue';
+import PosterGeneratorModal from '@/components/victims/PosterGeneratorModal.vue';
 import { initUpload, uploadToR2, completeSubmission } from '~/utils/submissionsClient';
 
 import type { UploadedFileInfo } from '~/utils/submissionsClient';
@@ -18,12 +19,14 @@ const { headerOffset, headerHeight, registerStickyTrigger } = useStickyHeader()
 
 const filterBarRef = ref<HTMLElement | null>(null)
 
-useHead({
+useSeoMeta({
     title: t('victimsPage.title'),
-    meta: [
-        { name: 'description', content: t('victimsPage.description') }
-    ]
-});
+    ogTitle: t('victimsPage.title'),
+    description: t('victimsPage.description'),
+    ogDescription: t('victimsPage.description'),
+    ogImage: 'https://iranarchive.com/og-image-victims.jpg',
+    twitterCard: 'summary_large_image',
+})
 
 const { listVictims, buildFilterOptions, applyVictimQuery } = useVictims();
 const route = useRoute();
@@ -49,6 +52,10 @@ const showSubmitDialog = ref(false);
 const submitting = ref(false);
 const submitSuccess = ref(false);
 const submitError = ref('');
+
+// Poster Generator
+const showPosterModal = ref(false);
+const selectedPosterVictim = ref<Victim | null>(null);
 
 // Pagination
 const currentPage = ref(0); // PrimeVue Paginator uses 0-based index for first
@@ -307,6 +314,11 @@ const showVictimDialog = computed({
         if (!val) closeVictim();
     }
 });
+
+const openPosterGenerator = (victim: Victim) => {
+    selectedPosterVictim.value = victim;
+    showPosterModal.value = true;
+};
 </script>
 
 <template>
@@ -523,6 +535,7 @@ const showVictimDialog = computed({
                     :key="victim.id" 
                     :victim="victim" 
                     @click="openVictim"
+                    @create-poster="openPosterGenerator"
                 />
             </div>
             
@@ -608,4 +621,11 @@ const showVictimDialog = computed({
             />
         </div>
     </Dialog>
+
+    <!-- Poster Generator Quick Access -->
+    <PosterGeneratorModal 
+        v-if="selectedPosterVictim" 
+        v-model:visible="showPosterModal" 
+        :victim="selectedPosterVictim" 
+    />
 </template>

@@ -150,11 +150,21 @@ const copyLink = () => {
 
 // Head Management (SEO)
 if (!props.headless) {
-    useHead({
-        title: computed(() => victim.value ? `${victim.value.name} — ${t('common.victims')}` : t('victimDetail.notFoundTitle')),
-        meta: [
-            { name: 'description', content: computed(() => victim.value?.description || t('victimDetail.notFoundDescription')) }
-        ]
+    const pageTitle = computed(() => victim.value ? `${victim.value.name} — ${t('common.victims')}` : t('victimDetail.notFoundTitle'));
+    const pageDescription = computed(() => victim.value?.description || t('victimDetail.notFoundDescription'));
+    const pageImage = computed(() => victim.value?.photo ? getMediaUrl({ kind: 'victim_photo', relativePath: victim.value.photo }) : 'https://iranarchive.com/og-image.jpg');
+    
+    useSeoMeta({
+        title: pageTitle,
+        ogTitle: pageTitle,
+        description: pageDescription,
+        ogDescription: pageDescription,
+        ogImage: pageImage,
+        ogType: 'profile',
+        twitterCard: 'summary_large_image',
+        twitterTitle: pageTitle,
+        twitterDescription: pageDescription,
+        twitterImage: pageImage,
     });
 }
 import VictimSubmissionForm from '@/components/submissions/VictimSubmissionForm.vue';
