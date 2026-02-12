@@ -4,6 +4,7 @@ import { useIncidents } from '@/composables/useIncidents';
 import VictimPhoto from '@/components/victims/VictimPhoto.vue';
 import VictimStatusBadge from '@/components/victims/VictimStatusBadge.vue';
 import VictimSources from '@/components/victims/VictimSources.vue';
+import PosterGeneratorModal from '@/components/victims/PosterGeneratorModal.vue';
 import { formatDate } from '@/utils/formatters';
 import MarkdownIt from 'markdown-it';
 import { getMediaUrl } from '~/utils/mediaUrl';
@@ -20,6 +21,7 @@ const { t, locale } = useI18n();
 const { pn } = usePersianNumbers();
 
 const copied = ref(false);
+const showPosterModal = ref(false);
 const selectedPhotoIndex = ref(0);
 
 const md = new MarkdownIt({
@@ -348,6 +350,15 @@ const handleUpdateSubmission = async (payload: any) => {
                             class="!border-surface-200 dark:!border-surface-700 !text-surface-600 dark:!text-surface-300" 
                             @click="copyLink"
                         />
+                         <Button 
+                            icon="pi pi-image" 
+                            :label="t('victimDetail.createPoster') || 'Create Poster'"
+                            rounded 
+                            outlined 
+                            severity="help"
+                            class="!border-purple-200 dark:!border-purple-800 !text-purple-600 dark:!text-purple-300 hover:!bg-purple-50 dark:hover:!bg-purple-900/20" 
+                            @click="showPosterModal = true"
+                        />
                     </div>
 
 
@@ -445,7 +456,7 @@ const handleUpdateSubmission = async (payload: any) => {
         </div>
     </div>
 
-    <!-- Update Dialog -->
+      <!-- Update Dialog -->
     <Dialog 
         v-model:visible="showUpdateDialog" 
         modal 
@@ -478,4 +489,11 @@ const handleUpdateSubmission = async (payload: any) => {
             @update:step-title="submissionStepTitle = $event" 
         />
     </Dialog>
+
+    <!-- Poster Generator Modal -->
+    <PosterGeneratorModal 
+        v-if="victim" 
+        v-model:visible="showPosterModal" 
+        :victim="victim" 
+    />
 </template>
