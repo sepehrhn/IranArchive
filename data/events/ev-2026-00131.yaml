@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Dresden"
+title: "Solidarity Protest in Great Neck"
 
 featured: false
 
@@ -15,13 +15,13 @@ type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: "16:00"
+  start_time: "12:30"
 
 
 location:
-  country: "DE"
-  city: "Dresden"
-  address: "Goldener Reiter zum Postplatz, Dresden"
+  country: "US"
+  city: "Great Neck"
+  address: "Village Green Park, 5 Beach Rd, Great Neck, NY 11023"
 
 online: []
 
@@ -35,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

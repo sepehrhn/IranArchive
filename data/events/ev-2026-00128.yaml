@@ -1,36 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Emergency Contingency Protest (Conditional)"
+title: "Solidarity Protest in Edmonton"
 
 featured: false
 
 description: |
-  A standing plan exists for an emergency protest at 5:00 PM on the day of (or day after) any U.S. military strike on Iran. Given the current high tensions (US carrier strike group arrival, live-fire drills in Hormuz), this location is the likely hub for any emergency mobilization.
-  
-  **Tips:** This is a CONDITIONAL event. Confirmed only if military escalation occurs or spontaneous crowds gather.
-  
-  **Location Details:** Standard meeting point for emergency anti-war protests.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: "17:00"
+  start_time: "13:00"
 
 
 location:
-  country: "US"
-  city: "Chicago"
-  address: "Federal Plaza (230 S Dearborn St)"
+  country: "CA"
+  city: "Edmonton"
+  address: "Walterdale Bridge, Edmonton"
 
 online: []
 
 organizer:
-  name: "Chicago 'No War on Iran' Coalition (various groups)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

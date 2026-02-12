@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in London"
+title: "Solidarity Protest in Paris"
 
 featured: false
 
@@ -16,13 +16,12 @@ type: "in_person"
 date:
   start: "2026/02/01"
   start_time: "15:00"
-  end: "2026/02/01"
-  end_time: "17:00"
+
 
 location:
-  country: "GB"
-  city: "London"
-  address: "SW11 7US"
+  country: "FR"
+  city: "Paris"
+  address: "De La PLACE VAUBAN À La Place JACQUES RUEFF"
 
 online: []
 
@@ -36,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

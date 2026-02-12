@@ -1,29 +1,27 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "No Confirmed Event"
+title: "Solidarity Protest in Regina"
 
 featured: false
 
 description: |
-  No official listing found for Sunday, Feb 1. Major rallies are confirmed for Berlin and Stockholm (past) this weekend.
-  
-  **Tips:** Visit Stortorget or Clemenstorget around 12:00-14:00 to check for spontaneous solidarity actions.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: ""
+  start_time: "12:00"
 
 
 location:
-  country: "SE"
-  city: "Lund"
-  address: "Stortorget, Lund"
+  country: "CA"
+  city: "Regina"
+  address: "2405 Legislative Dr, Regina, SK S4S 0B3"
 
 online: []
 
@@ -36,6 +34,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGMSqnrscMK8ly1vX3N65mSL-j7pMP9e19C_f7swFJE7vSpXvcn7G3N8cVwlYfNmPtco_d2M9rspu7IYCJ4NDW-gOBDvzGzqH9lsqt2Xva3LuR5leRMWqoZtIeT0BCEtg=="
-
+source: []

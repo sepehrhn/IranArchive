@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Regina"
+title: "Solidarity Protest in Linköping"
 
 featured: false
 
@@ -14,14 +14,15 @@ description: |
 type: "in_person"
 
 date:
-  start: "2026/02/02"
-  start_time: "12:00"
-
+  start: "2026/02/07"
+  start_time: "13:00"
+  end: "2026/02/07"
+  end_time: "15:00"
 
 location:
-  country: "CA"
-  city: "Regina"
-  address: "Riddell Centre, University of Regina"
+  country: "SE"
+  city: "Linköping"
+  address: "Stora Torget, Linköping"
 
 online: []
 
@@ -35,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

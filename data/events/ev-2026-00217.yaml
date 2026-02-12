@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Weekly Solidarity Rally with the Iranian Uprising"
+title: "Solidarity Protest in Bucharest"
 
-featured: true
+featured: false
 
 description: |
-  A gathering to support the ongoing uprising in Iran, condemn the recent execution of protesters, and demand an end to the Islamic Republic. Recent Saturdays have seen hundreds to thousands gather in Hannover's city center.
-  
-  **Tips:** Check 'Avaye Iran' or local 'Iranische Gemeinde' social media channels for last-minute changes. Be aware that attendance might be lower than usual if a contingent has travelled to Berlin.
-  
-  **Location Details:** Central pedestrian area / Kröpcke square (common gathering point for Iranian diaspora)
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
-  start_time: "14:00"
-  end: "2026/02/07"
-  end_time: "16:00"
+  start: "2026/02/08"
+  start_time: "15:00"
+
 
 location:
-  country: "DE"
-  city: "Hannover"
-  address: "Kröpcke"
+  country: "RO"
+  city: "Bucharest"
+  address: "Piața Universității (zona cu statui și BCR)"
 
 online: []
 
 organizer:
-  name: "Independent Iranian Community / Avaye Iran (Likely)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

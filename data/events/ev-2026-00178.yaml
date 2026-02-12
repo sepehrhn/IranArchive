@@ -1,36 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Vigil for the Victims of January Massacres"
+title: "Solidarity Protest in Zurich"
 
 featured: false
 
 description: |
-  A quieter vigil focused on honoring the estimated 3,000+ victims of the January crackdown. Often involves lighting candles and displaying photos of the victims.
-  
-  **Tips:** Check local Telegram channels for last-minute confirmation. Avoid MEK-affiliated stands if you wish to remain with the independent movement (MEK often gathers here earlier in the day).
-  
-  **Location Details:** Square next to the Swedish Parliament (Riksdagen). Gamla Stan subway.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/01"
-  start_time: "15:00"
+  start: "2026/02/04"
+  start_time: "18:45"
 
 
 location:
-  country: "SE"
-  city: "Stockholm"
-  address: "Mynttorget"
+  country: "CH"
+  city: "Zurich"
+  address: "Europaplatz / Hauptbahnhof Zürich"
 
 online: []
 
 organizer:
-  name: "Various Activists / Political Prisoners' Families"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -38,6 +34,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHy9nQPaZsq_b5IfLr7wO376OEhfyBC2ncLmUDyQ2vxz8w7zTkOh40Upafxn2UuPJ1J7vHsoM01dJpZFgslrY_8aARFjKT26O66J9GPrZoRD4uscKUWVWW81aVj_Wbt9NQ2TV5ljEzEuyI6"
-
+source: []

@@ -1,33 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Prince George"
+title: "Global Day of Action: Solidarity with the Iranian Uprising"
 
-featured: false
+featured: true
 
 description: |
-  Community-organized solidarity event for the Iranian people's uprising.
+  A major international rally coinciding with protests worldwide. Demonstrators are demanding an end to the Islamic Republic, the release of political prisoners detained in the Jan 2026 purges, and the designation of the IRGC as a terrorist organization. Expect speeches, human chains, and chanting.
+  
+  **Tips:** This is expected to be the main event of the weekend. Dress warmly (Berlin Feb weather is around 2°C). Police presence will be visible but generally cooperative.
+  
+  **Location Details:** Pariser Platz; Nearest S/U-Bahn: Brandenburger Tor. Look for the 'Lion and Sun' flags and 'Woman Life Freedom' banners.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
-  start_time: "18:00"
-  end: "2026/02/07"
-  end_time: "20:00"
+  start: "2026/02/14"
+  start_time: "14:00"
+  end: "2026/02/14"
+  end_time: "16:00"
 
 location:
-  country: "CA"
-  city: "Prince George"
-  address: "St. Michael and All Angels Hall, 1505 5th Ave, Prince George, BC, V2L 3L9"
+  country: "DE"
+  city: "Berlin"
+  address: "Brandenburg Gate (Brandenburger Tor)"
 
 online: []
 
 organizer:
-  name: "Local Organizer"
+  name: "Coalition of Iranian Opposition Groups / Supporters of the Uprising (Global Call to Action)"
   website: ""
   contact_email: ""
   socials:
@@ -36,4 +40,3 @@ organizer:
     telegram: ""
 
 source: []
-

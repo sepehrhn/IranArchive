@@ -10,6 +10,7 @@
         "globalPressure": "Global Pressure",
         "tracker": "Tracker",
         "campaigns": "Campaigns",
+        "assets": "Assets",
         "homePage": "Home Page",
         "emptyDescription": "We couldn't find any incidents matching your search criteria. Try adjusting your filters.",
         "clearFilters": "Clear Filters",
@@ -19,7 +20,8 @@
         "minutes_short": "m",
         "update": "Update",
         "suggestUpdate": "Suggest Update",
-        "new": "New"
+        "new": "New",
+        "allCountries": "All Countries"
     },
     "home": {
         "heroTitleStart": "They can't post.",
@@ -136,6 +138,62 @@
         "security": "Security Support",
         "countriesListTitle": "Countries",
         "noCountriesFound": "No countries found matching your criteria."
+    },
+    "assetsPage": {
+        "title": "Assets - IranArchive",
+        "description": "Download posters and assets for protests.",
+        "heroTitle": "Protest Assets",
+        "heroSubtitle": "High-quality posters and graphics for your next protest.",
+        "heroTotalAssets": "Total Assets",
+        "download": "Download",
+        "filters": {
+            "all": "All",
+            "posters": "Posters",
+            "other": "Other"
+        },
+        "language": {
+            "all": "All Languages",
+            "fa": "Persian",
+            "en": "English"
+        },
+        "poster": "Poster",
+        "noAssetsFound": "No assets found matching your criteria."
+    },
+    "assetModal": {
+        "type": "Type",
+        "format": "Format",
+        "source": "Source",
+        "downloadOptions": "Download Options",
+        "selectFormat": "Select Format",
+        "selectPaperSize": "Select Paper Size",
+        "selectColorMode": "Select Color Mode",
+        "advancedOptions": "Advanced Options",
+        "quality": "Quality",
+        "dpi": "Resolution (DPI)",
+        "download": "Download",
+        "quickDownload": "Quick Download",
+        "formats": {
+            "original": "Original",
+            "originalDesc": "Download in original format",
+            "jpgDesc": "Compressed JPEG image",
+            "pngDesc": "Lossless PNG with transparency",
+            "pdfDesc": "Print-ready PDF document",
+            "bundle": "Bundle (All)",
+            "bundleDesc": "Download all formats as ZIP"
+        },
+        "paperSizes": {
+            "original": "Original Size"
+        },
+        "colorModes": {
+            "full": "Full Color",
+            "fullDesc": "Original colors as designed",
+            "grayscale": "Grayscale",
+            "grayscaleDesc": "Black and white conversion",
+            "inkSaver": "Ink Saver",
+            "inkSaverDesc": "Optimized for reduced ink usage",
+            "cmykDesc": "Print color mode (CMYK)",
+            "rgbDesc": "Screen color mode (RGB)"
+        }
     },
     "submitPage": {
         "title": "Submit Information - IranArchive",
@@ -538,9 +596,9 @@
         "TV": "Tuvalu",
         "UG": "Uganda",
         "UA": "Ukraine",
-        "AE": "United Arab Emirates",
-        "GB": "United Kingdom",
-        "US": "United States",
+        "AE": "UAE",
+        "GB": "UK",
+        "US": "US",
         "UY": "Uruguay",
         "UZ": "Uzbekistan",
         "VU": "Vanuatu",

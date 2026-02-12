@@ -1,37 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Weekly Solidarity Rally for Iran Uprising"
+title: "Global Day of Action: Solidarity with the Iranian Uprising"
 
-featured: true
+featured: false
 
 description: |
-  A recurring weekly rally supporting the nationwide uprising in Iran. Demonstrators gather to amplify the voices of protesters in Iran, condemn the recent mass killings (estimated 3,000-5,000+), and demand the end of the Islamic Republic. Expect chanting, speeches, and a march along the Embarcadero.
+  Major regional rally for the Global Day of Action. Thousands from across Southern California (including Irvine) are expected to converge here to demand regime change and international action against the crackdown.
   
-  **Tips:** This has been the main weekly location for 'Woman, Life, Freedom' and uprising solidarity (non-MEK) for the past month. Check @BayArea4Iran on Instagram for last-minute time changes.
+  **Tips:** Expect road closures and heavy traffic in Downtown LA. Carpooling from Irvine is highly recommended.
   
-  **Location Details:** Embarcadero BART/Muni station; meet at the plaza in front of the Ferry Building.
+  **Location Details:** 200 N Spring St, Los Angeles, CA 90012. Gathering often starts at City Hall and may march to the Federal Building or Pershing Square.
 
 type: "in_person"
 
 date:
-  start: "2026/02/08"
-  start_time: "11:00"
-  end: "2026/02/08"
-  end_time: "14:00"
+  start: "2026/02/14"
+  start_time: "13:00"
+  end: "2026/02/14"
+  end_time: "16:00"
 
 location:
   country: "US"
-  city: "San Francisco"
-  address: "Harry Bridges Plaza (in front of the Ferry Building)"
+  city: "Irvine"
+  address: "Los Angeles City Hall / Grand Park"
 
 online: []
 
 organizer:
-  name: "BayArea4Iran / Grassroots Diaspora"
+  name: "Coalition of Iranian Diaspora Groups (SoCal)"
   website: ""
   contact_email: ""
   socials:
@@ -39,5 +39,6 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH-JvFsdxqmTFNPpZeukh7qr7MWz10ePsnoh1ThzykWJfrnQMbVTrVs8fTbsTyRpYifnnzWwj3I1Tls_Mu83wfruLDTLwagawPxNETMc8B4iI04i9ASNVUVHdC2TRhKA=="
 

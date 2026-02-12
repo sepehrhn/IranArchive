@@ -1,36 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Embassy Sit-in / Protest"
+title: "Solidarity Protest in Prague"
 
 featured: false
 
 description: |
-  Potential recurring protest condemning the regime's crackdown and execution of protesters.
-  
-  **Tips:** Police often cordon off the street; bring ID.
-  
-  **Location Details:** Metro Pío XII
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
-  start_time: ""
-
+  start: "2026/02/08"
+  start_time: "14:00"
+  end: "2026/02/08"
+  end_time: "17:00"
 
 location:
-  country: "ES"
-  city: "Madrid"
-  address: "Embassy of Iran, Calle Jerez 5"
+  country: "CZ"
+  city: "Prague"
+  address: "Malostranské náměstí"
 
 online: []
 
 organizer:
-  name: "Independent activists"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -38,6 +35,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFqawBnCfEd3Rddu6n6DmNnr3lQsrLmYjFO9pt27p4Yz1JYSrKHpx2mFV1wey2FXPQ_ubaWHWw9x7-pXBwvfXE_ZK7aqVggGd3-EI_PZxHcUq_Kq-FJnlx3eXPEy3pKgkLLAj4="
-
+source: []

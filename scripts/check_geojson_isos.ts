@@ -9,8 +9,8 @@ const __dirname = path.dirname(__filename);
 const geoJsonPath = path.resolve(__dirname, '../assets/geo/world-countries.json');
 const geoJson = JSON.parse(fs.readFileSync(geoJsonPath, 'utf-8'));
 
-const geoMap = {};
-geoJson.features.forEach(f => {
+const geoMap: Record<string, string> = {};
+geoJson.features.forEach((f: any) => {
     const p = f.properties;
     const iso = p.ISO_A2 || p.ISO_A2_EH;
     const name = p.NAME || p.name || p.ADMIN;
@@ -54,7 +54,7 @@ const missingInGeo = CANONICAL_ISOS.filter(iso => !geoMap[iso]);
 console.log(`Missing in GeoJSON (${missingInGeo.length}): ${missingInGeo.join(', ')}`);
 
 // Check specifically for Taiwan
-const taiwanFeature = geoJson.features.find(f => {
+const taiwanFeature = geoJson.features.find((f: any) => {
     const p = f.properties;
     return /taiwan|china/i.test(JSON.stringify(p)) && (p.NAME === 'Taiwan' || p.NAME === 'China');
 });

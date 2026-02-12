@@ -108,9 +108,10 @@ const openGoogleCalendar = () => {
     const startStr = start.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
     const endStr = end.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
     
+    const loc = Array.isArray(ev.location) ? null : (ev.location as any);
     const location = ev.type === 'online' 
         ? 'Online' 
-        : `${ev.location?.address || ''}, ${ev.location?.city || ''}, ${ev.location?.country || ''}`;
+        : `${loc?.address || ''}, ${loc?.city || ''}, ${loc?.country || ''}`;
     
     const details = `${ev.description || ev.title}\n\nOrganizer: ${ev.organizer.name}`;
     
@@ -140,9 +141,10 @@ Organizer: ${ev.organizer.name}
 Link: ${ev.online?.join_url || window.location.href}
 `.trim();
 
+    const loc = Array.isArray(ev.location) ? null : (ev.location as any);
     const location = ev.type === 'online' 
         ? 'Online' 
-        : `${ev.location?.address || ''}, ${ev.location?.city || ''}, ${ev.location?.country || ''}`;
+        : `${loc?.address || ''}, ${loc?.city || ''}, ${loc?.country || ''}`;
 
     const content = [
         'BEGIN:VCALENDAR',
@@ -173,9 +175,10 @@ const showMapsPopup = ref(false);
 
 const getMapQuery = () => {
     const ev = props.event;
-    return ev.location?.lat && ev.location?.lng 
-        ? `${ev.location.lat},${ev.location.lng}` 
-        : `${ev.location?.address || ''} ${ev.location?.city || ''} ${ev.location?.country || ''}`;
+    const loc = Array.isArray(ev.location) ? null : (ev.location as any);
+    return loc?.lat && loc?.lng 
+        ? `${loc.lat},${loc.lng}` 
+        : `${loc?.address || ''} ${loc?.city || ''} ${loc?.country || ''}`;
 };
 
 const openGoogleMaps = () => {
@@ -327,14 +330,14 @@ const openAppleMaps = () => {
                     </div>
                     
                     <!-- Map -->
-                    <div v-if="event.location?.lat && event.location?.lng" class="space-y-3">
+                    <div v-if="!Array.isArray(event.location) && event.location?.lat && event.location?.lng" class="space-y-3">
                         <h4 class="text-xs font-bold text-surface-400 uppercase tracking-widest flex items-center gap-2">
                             <i class="pi pi-map text-primary-500 text-[10px]"></i>
                             Location
                         </h4>
                         <div class="bg-surface-0 dark:bg-surface-950 border border-surface-100 dark:border-surface-800 rounded-xl overflow-hidden shadow-sm">
                             <div class="h-48">
-                                <IncidentsIncidentMap :lat="event.location.lat" :lng="event.location.lng" />
+                                <IncidentsIncidentMap :lat="(event.location as any).lat" :lng="(event.location as any).lng" />
                             </div>
                         </div>
                     </div>

@@ -1,0 +1,44 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# -----------------------------------------------------------------------------
+
+title: "Weekly Sunday Solidarity Protest"
+
+featured: true
+
+description: |
+  Continuation of the standing weekly protests in Austin against the regime's brutal crackdown and recent wave of executions.
+  
+  **Tips:** Parking is usually free at the Capitol Visitors Garage on San Jacinto Blvd.
+  
+  **Location Details:** South Steps or 11th Street sidewalk
+
+type: "in_person"
+
+date:
+  start: "2026/02/15"
+  start_time: "13:00"
+  end: "2026/02/15"
+  end_time: "15:00"
+
+location:
+  country: "US"
+  city: "Austin"
+  address: "Texas State Capitol, 1100 Congress Ave, Austin, TX 78701"
+
+online: []
+
+organizer:
+  name: "Local Community Activists"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1gLvOdAm806rAH9fL-0TzMwuWQTJLlt9BUXPRP2SE18JSymMpoYDdNWoOIr2slBelnbanb-IfVyUeb7F46E9NNkDknjW8xfQ6UlzVJU6lMzawup-_Z7MqSLuUHtvHf1J6pWwEwso="
+

@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Possible Weekend Solidarity Stand"
+title: "Solidarity Protest in Chicago"
 
 featured: false
 
 description: |
-  While no specific flyer has been released for this date, Malieveld is the standard location for Iranian diaspora rallies in The Hague. Expect smaller crowds as many activists may have travelled to Berlin.
-  
-  **Tips:** Look for 'Lion and Sun' flags or tricolors without emblems. If the field is empty, check social media for last-minute moves.
-  
-  **Location Details:** Koekamp / Malieveld (near Den Haag Centraal Station)
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
+  start: "2026/02/14"
   start_time: "13:00"
-  end: "2026/02/07"
-  end_time: "16:00"
+
 
 location:
-  country: "NL"
-  city: "The Hague"
-  address: "Malieveld"
+  country: "US"
+  city: "Chicago"
+  address: "Congress Plaza S Michigan ave, Chicago, IL"
 
 online: []
 
 organizer:
-  name: "Local independent activists (implied)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,10 +34,5 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiw3TqPHj98Q7QjVYTT_ldxHOCRVz9964vdKlMdCWdRaFLrPWhsAOGQY4i0z0l8f1ezazIcPUF1B_KjsJBKLWHhIC0xiklzT73VRtUUPCmbekb-U-4iET_tf0a-TdbmOgfHy37bABuuR_GFykzsUI="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEkVSLlViq6pDmFBYs05DJlILpaftaq_ZR5ysNUAdyhGTRsvXe4VYHPNATZgpJ35BHk9eCStRPRHjsyFipEmPdZXu2K0DJAi8iPcfUGEraq2Mf4Jfsr0Y9h4ISmR1JArBRle3OSMQ=="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH676KWFQhr_BmGfseghQz08gf6tDPeGdKvSu00kAG6GvqUxbV6fzkTeEW5WyObAZHQuZVfVbWHf9QvcCcJDSItP_MGEXVRkBr0rF32AbvAZ_Etrfh4f44cKs-U9WbPfCY="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFadp-JqsBGznhP-Y4hOIFtwKuRN-dlg80EWd5syM7haya8nmbWUgio5DcbJHW4OOgllfFsYFC_hMxtJDsTHCu1QPaqcykPZ4WXc7RtvU7f_BEDzvunvBXVh4mew6OQK7J1bj1QnqHcJSou9Q=="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXrle8U-YOs7rAnBlyn0Ubu2H42uwMLtcNELLTloXIjfP1QqXqcluMmqcF3D2-gSFXPu6zXj4BFZ6lx_dM2MJFyFOT8BGyueCsx8HQxqIVuJkbro39FkdmCOGMgUaJWwveXAJyG9-TDgM0Cqj6ZIgr"
+source: []
 

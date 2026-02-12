@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "March for Democracy in Iran"
+title: "Solidarity Protest in Austin"
 
 featured: false
 
 description: |
-  A march emphasizing a democratic, secular future for Iran. Previous marches in Jan 2026 started here and moved toward the City Hall. Participants often include the Constitutionalist (Pro-Pahlavi) bloc and civil society groups.
-  
-  **Tips:** Check for road closures or police presence on Mönckebergstraße.
-  
-  **Location Details:** Central shopping street, often used for marching towards Rathaus.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
-  start_time: "14:00"
-  end: "2026/02/07"
-  end_time: "16:00"
+  start: "2026/02/08"
+  start_time: "12:00"
+
 
 location:
-  country: "DE"
-  city: "Hamburg"
-  address: "Mönckebergstraße (Saturn/MediaMarkt area)"
+  country: "US"
+  city: "Austin"
+  address: "Starting from Richard Moya Park (10001 Burleson Rd., Austin, TX 78719) proceeding to Texas Capitol (1100 Congress Ave., Austin, TX 78701)"
 
 online: []
 
 organizer:
-  name: "Migration Guide e.V. / Iranian Community Hamburg"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,8 +34,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPXjEe63_OuY_6y0Z4r_sqog-QfDRINxNU4CCLnp67gYSo8trnzX09TdryGhGa0tx7slpjM5dFHjVHhH9qOSFcwWKYeXqzkNFK__YpvOyA9QA5RFxCiDIS11UyiAhib3s9hII="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHrurW4vp1-DGf2mxTwvy-j7uYgUz9iYh15Mpb20sTFsA5mxrTPTAzBbA0xjoMtvtCYqbY_xXFYRvj_7XLgEHLSV1CYrT2_tUhDshObg80JOvbXS2SLAkc6d6GcA6Pi3fSU5wb1t4r"
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnb8qWCZlR8aB3yeWlJgF04IadFWEzz9jBE3J9B9RKPqRCCxAOeLzhWTpXzN9gvamiteOirW3p6UQ7tkiZWzUUhhhA471ZFAUUQmlYOaNOvz6eYEJcb-g="
-
+source: []

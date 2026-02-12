@@ -1,0 +1,43 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# -----------------------------------------------------------------------------
+
+title: "WEEKLY RALLY CANCELLED"
+
+featured: false
+
+description: |
+  The weekly protest at this location is cancelled for Feb 14 in favor of the LA rally.
+  
+  **Tips:** Do not gather here; go to Los Angeles.
+  
+  **Location Details:** Clairemont neighborhood (Usual weekly spot)
+
+type: "in_person"
+
+date:
+  start: "2026/02/14"
+  start_time: ""
+
+
+location:
+  country: "US"
+  city: "San Diego"
+  address: "Balboa Ave & Genesee Ave, San Diego, CA"
+
+online: []
+
+organizer:
+  name: "Iranians of San Diego"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsoH57IDaj_In8dKq57JtFMQUZQmNXoMa3ePIqRu_Gm0a1A_IxKJDvb12rNlsSiamUxO_levbiXGMEmdyhwnT6hqTC9i7hUnehU65K5Wi4wCofFrw8ZeOdFA=="
+

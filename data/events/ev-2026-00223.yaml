@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Spontaneous Solidarity Stand"
+title: "Solidarity Protest in Ottawa"
 
 featured: false
 
 description: |
-  Small-scale, spontaneous gatherings often occur here during major uprising peaks. Look for student groups or Kurdish solidarity organizations.
-  
-  **Tips:** If no crowd is present, head to Malmö.
-  
-  **Location Details:** Main square in front of City Hall.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
-  start_time: "12:00"
-  end: "2026/02/07"
-  end_time: "14:00"
+  start: "2026/02/08"
+  start_time: "13:00"
+
 
 location:
-  country: "SE"
-  city: "Lund"
-  address: "Stortorget, Lund"
+  country: "CA"
+  city: "Ottawa"
+  address: "Parliament Hill to City Hall"
 
 online: []
 
 organizer:
-  name: "Spontaneous / Local Students"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

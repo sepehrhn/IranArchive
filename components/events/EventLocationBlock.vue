@@ -8,7 +8,7 @@ const props = defineProps<{
 }>();
 
 const { getCountryByIso } = useCountries();
-const loc = props.event.location;
+const loc = Array.isArray(props.event.location) ? null : props.event.location;
 
 const { t } = useI18n();
 import { useI18n } from 'vue-i18n';

@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Weekly Solidarity Rally with the Iranian Uprising"
+title: "Solidarity Protest in Wroclaw"
 
-featured: true
+featured: false
 
 description: |
-  Continuation of the weekly Saturday protests against the Islamic Republic. Demonstrators are gathering to condemn the recent mass executions and crackdown (Jan 2026) and support the nationwide strikes. Expect slogans like 'Woman, Life, Freedom' and calls for regime change.
-  
-  **Tips:** Protests have taken place here every Saturday since Jan 9. Look for the Lion and Sun flags (non-MEK version) or 'Woman Life Freedom' banners. If not immediately visible, check nearby Rathausmarkt (5 min walk).
-  
-  **Location Details:** Standard meeting point for Iranian diaspora protests, often near the Alsterhaus or the flagpoles.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/07"
-  start_time: "14:00"
+  start_time: "14:30"
   end: "2026/02/07"
-  end_time: "16:00"
+  end_time: "16:30"
 
 location:
-  country: "DE"
-  city: "Hamburg"
-  address: "Jungfernstieg / Reesendammbrücke"
+  country: "PL"
+  city: "Wroclaw"
+  address: "PREGIERZ, RYNEK 50-116 WROCLAW"
 
 online: []
 
 organizer:
-  name: "Iranian Diaspora & Solidarity Groups (Grassroots/Non-MEK)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,8 +35,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHPXjEe63_OuY_6y0Z4r_sqog-QfDRINxNU4CCLnp67gYSo8trnzX09TdryGhGa0tx7slpjM5dFHjVHhH9qOSFcwWKYeXqzkNFK__YpvOyA9QA5RFxCiDIS11UyiAhib3s9hII="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGHrurW4vp1-DGf2mxTwvy-j7uYgUz9iYh15Mpb20sTFsA5mxrTPTAzBbA0xjoMtvtCYqbY_xXFYRvj_7XLgEHLSV1CYrT2_tUhDshObg80JOvbXS2SLAkc6d6GcA6Pi3fSU5wb1t4r"
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnb8qWCZlR8aB3yeWlJgF04IadFWEzz9jBE3J9B9RKPqRCCxAOeLzhWTpXzN9gvamiteOirW3p6UQ7tkiZWzUUhhhA471ZFAUUQmlYOaNOvz6eYEJcb-g="
-
+source: []

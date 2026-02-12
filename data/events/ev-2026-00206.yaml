@@ -1,36 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Likely Rally: Anniversary of 1979 Revolution / Solidarity with Uprising"
+title: "Solidarity Protest in Portland"
 
-featured: true
+featured: false
 
 description: |
-  Protests are anticipated this weekend to oppose the Islamic Republic ahead of the Feb 11 revolution anniversary. NOTE: Confirmed details are pending; check local social media listed below.
-  
-  **Tips:** Verify the organizer before joining. If you see yellow/purple flags with the Rajavi name, it is an MEK event (see exclusions below).
-  
-  **Location Details:** 1100 Congress Ave, Austin, TX 78701
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/07"
-  start_time: ""
+  start_time: "13:00"
 
 
 location:
   country: "US"
-  city: "Austin"
-  address: "Texas State Capitol (South Steps)"
+  city: "Portland"
+  address: "Pioneer Square"
 
 online: []
 
 organizer:
-  name: "Likely: Austin Iranian Professionals Association (AustinIPA) or Woman Life Freedom ATX"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

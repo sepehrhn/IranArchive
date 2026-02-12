@@ -28,9 +28,10 @@ const countriesWithEvents = computed(() => {
     // Count events per country
     const countryMap = new Map<string, number>();
     filteredEvents.forEach(event => {
-        if (event.location?.country) {
-            const count = countryMap.get(event.location.country) || 0;
-            countryMap.set(event.location.country, count + 1);
+        const loc = Array.isArray(event.location) ? null : (event.location as any);
+        if (loc?.country) {
+            const count = countryMap.get(loc.country) || 0;
+            countryMap.set(loc.country, count + 1);
         }
     });
 

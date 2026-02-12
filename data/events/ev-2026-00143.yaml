@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Standing in Solidarity With The People of Iran"
+title: "Mumbai, India"
 
 featured: false
 
 description: |
-  A major regional rally supporting the ongoing uprising and condemning the recent mass executions and internet blackouts in Iran. This is expected to be the largest gathering in the region this weekend.
-  
-  **Tips:** Arrive early for parking. This event often draws thousands; carpooling from Orange County is recommended.
-  
-  **Location Details:** Major gathering point for the Southern California Iranian community (approx. 45-60 min drive from Irvine).
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: "13:00"
-  end: "2026/02/01"
-  end_time: "15:00"
+  start_time: "18:00"
+
 
 location:
-  country: "US"
-  city: "Irvine"
-  address: "Persian Square (Westwood Blvd & Wilkins Ave), Los Angeles, CA"
+  country: "IN"
+  city: "Mumbai"
+  address: "Carter Road"
 
 online: []
 
 organizer:
-  name: "Solidarity with the People of Iran (Coalition)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

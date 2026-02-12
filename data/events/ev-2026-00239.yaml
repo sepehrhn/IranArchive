@@ -1,37 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Embassy Picket"
+title: "Global Day of Action: Solidarity with the Iranian Revolution"
 
 featured: true
 
 description: |
-  Ongoing frequent protests demanding the closure of the embassy and expulsion of diplomats. Often involves chanting and chanting slogans directly at the embassy building.
+  A major rally coinciding with the 'Global Day of Action' called by opposition figures including Reza Pahlavi. The protest brings together a coalition of Iranian ethnic minority groups (Ahwazi, Kurdish, Baluchi, etc.) and constitutionalist supporters to demand the designation of the IRGC as a terrorist organization and to support the ongoing uprising in Iran.
   
-  **Tips:** Take the bus to Lidingö; dress warmly as this location is exposed to wind.
+  **Tips:** Expect a large crowd as this is part of a worldwide coordinated effort. Security will be tight around EU institutions. Bring warm clothes and rain gear as Feb weather is unpredictable.
   
-  **Location Details:** Outside the Embassy of the Islamic Republic of Iran.
+  **Location Details:** Metro Schuman. The square in front of the European Commission/EEAS buildings.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
-  start_time: "12:00"
-  end: "2026/02/07"
-  end_time: "15:00"
+  start: "2026/02/14"
+  start_time: "14:00"
+  end: "2026/02/14"
+  end_time: "16:00"
 
 location:
-  country: "SE"
-  city: "Stockholm"
-  address: "Elfsviksvägen, Lidingö"
+  country: "BE"
+  city: "Brussels"
+  address: "Place Schuman (Schuman Roundabout)"
 
 online: []
 
 organizer:
-  name: "Independent protesters / 'Make a Change for Iran'"
+  name: "Broad Solidarity for Freedom and Equality in Iran / Iranian Diaspora Coalition"
   website: ""
   contact_email: ""
   socials:
@@ -40,5 +40,4 @@ organizer:
     telegram: ""
 
 source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGYHLGnkQ8YByTVANkUXCWrrcd1yT2hnbD1qXUDv0xwqpW2uKTtA77kRpM3bHiy_c_TuMHUnxmOK-X9pfZU66istMWE3ebP4M4t"
-
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHUi0GEFShxqYT6VMbO4TnbjOH1JywI8q64zmMg6_69EspV0LLPrTuKquYwE7moSl2ks4Iu0bukbIQK1VwvvTbLfJqhIdp5e5ytXa7Yx9pJyL6lmzCVyV4lGbcL8B-1Gg=="

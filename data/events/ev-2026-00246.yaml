@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Satellite Solidarity Gathering"
+title: "Solidarity Protest in Columbia"
 
 featured: false
 
 description: |
-  Smaller, often youth-led gatherings sometimes occur on Saturdays if the main Sunday rally is at the Art Gallery. Focuses on raising awareness for political prisoners and recent execution orders.
-  
-  **Tips:** Saturday afternoons at the Art Gallery are often occupied by other causes (e.g., Palestine solidarity), so Iran-specific events may move to Jack Poole Plaza or occur on Sunday instead.
-  
-  **Location Details:** 1055 Canada Pl; near the Olympic Cauldron.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
-  start_time: "14:00"
-  end: "2026/02/07"
-  end_time: "16:00"
+  start: "2026/02/14"
+  start_time: "12:00"
+  end: "2026/02/14"
+  end_time: "14:00"
 
 location:
-  country: "CA"
-  city: "Vancouver"
-  address: "Jack Poole Plaza"
+  country: "US"
+  city: "Columbia"
+  address: "State House, Columbia, SC"
 
 online: []
 
 organizer:
-  name: "Local Activists / Students"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:

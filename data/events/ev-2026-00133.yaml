@@ -1,34 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Sunday Vigil / Gathering"
+title: "Solidarity Protest in Kraków"
 
 featured: false
 
 description: |
-  Smaller gatherings or vigils have occurred on Sundays (e.g., Jan 11). While less formal than the Saturday rallies, community members often gather to share news and support given the internet blackout in Iran.
-  
-  **Tips:** Check 'Iran Solidarity Ireland' social channels for last-minute confirmations.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: ""
-
+  start_time: "14:00"
+  end: "2026/02/01"
+  end_time: "16:00"
 
 location:
-  country: "IE"
-  city: "Dublin"
-  address: "The Spire, O'Connell Street"
+  country: "PL"
+  city: "Kraków"
+  address: "Rynek główny, Town Hall Tower / Wieża Ratuszowa"
 
 online: []
 
 organizer:
-  name: "Iranian Community Dublin"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -36,6 +35,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyWuOMc7CIL3vYOKeVrBp_n1_5VvrY4tzty72W6U5_CwToHR-_eL5w2Gd5QKKq_dg9n9xQwiGz0a5j_rm0oJQGGfOO39aHDKAuPUVgobgqZ3F1rNVH4u0m_KOFojj5tpzeWO-pF1LYEot5aTGlMBo="
-
+source: []

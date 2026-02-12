@@ -281,7 +281,7 @@
                           :alt="slotProps.option.name" 
                           class="w-6 h-4 object-cover rounded shadow-sm"
                         />
-                        <span>{{ slotProps.option.name }}</span>
+                        <span>{{ t('countries.' + slotProps.option.iso2, slotProps.option.name) }}</span>
                       </div>
                     </template>
                   </AutoComplete>
@@ -487,6 +487,7 @@
                     class="w-full pl-10"
                     variant="filled"
                     placeholder="@username or URL"
+                    @blur="formatSocialUrl('x')"
                   />
                 </div>
 
@@ -500,6 +501,7 @@
                     class="w-full pl-10"
                     variant="filled"
                     placeholder="@username or URL"
+                    @blur="formatSocialUrl('instagram')"
                   />
                 </div>
 
@@ -513,6 +515,7 @@
                     class="w-full pl-10"
                     variant="filled"
                     placeholder="@channel or URL"
+                    @blur="formatSocialUrl('telegram')"
                   />
                 </div>
               </div>
@@ -747,6 +750,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted, nextTick, computed, watch } from 'vue';
+import { useI18n } from 'vue-i18n';
 import { useCountries } from '~/composables/useCountries';
 import { initUpload, completeSubmission } from '~/utils/submissionsClient';
 
@@ -761,6 +765,7 @@ const emit = defineEmits<{
 }>();
 
 const config = useRuntimeConfig();
+const { t } = useI18n();
 const turnstileContainer = ref<HTMLElement>();
 const turnstileToken = ref('');
 const submitting = ref(false);
@@ -864,7 +869,10 @@ onMounted(() => {
 function searchCountry(event: any) {
   const query = event.query.toLowerCase();
   filteredCountries.value = countriesList.value.filter(c => 
-    c.name.toLowerCase().includes(query) || c.iso2.toLowerCase().includes(query)
+    c.name.toLowerCase().includes(query) || 
+    c.iso2.toLowerCase().includes(query) ||
+    t('countries.' + c.iso2, c.name).toLowerCase().includes(query) ||
+    (c.aliases && c.aliases.some((a: string) => a.toLowerCase().includes(query)))
   );
 }
 
@@ -878,7 +886,7 @@ function onCountrySelect(event: any) {
 
 function getCountryName(iso2: string) {
   const country = countriesList.value.find(c => c.iso2 === iso2);
-  return country ? country.name : iso2;
+  return country ? t('countries.' + country.iso2, country.name) : iso2;
 }
 
 function validateTimeInput(event: KeyboardEvent) {
@@ -1103,5 +1111,32 @@ function formatDate(date: Date | null): string {
 
 function formatDateDisplay(date: Date): string {
   return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+
+function formatSocialUrl(platform: 'x' | 'instagram' | 'telegram') {
+  let value = '';
+  
+  if (platform === 'x') value = form.value.organizerX;
+  else if (platform === 'instagram') value = form.value.organizerInstagram;
+  else if (platform === 'telegram') value = form.value.organizerTelegram;
+  
+  if (!value || !value.trim()) return;
+  
+  value = value.trim();
+  
+  // If it's already a URL, leave it alone
+  if (value.startsWith('http://') || value.startsWith('https://')) return;
+  
+  // Remove @ if present
+  if (value.startsWith('@')) value = value.substring(1);
+  
+  // Construct URL
+  if (platform === 'x') {
+    form.value.organizerX = `https://x.com/${value}`;
+  } else if (platform === 'instagram') {
+    form.value.organizerInstagram = `https://www.instagram.com/${value}/`;
+  } else if (platform === 'telegram') {
+    form.value.organizerTelegram = `https://t.me/${value}`;
+  }
 }
 </script>

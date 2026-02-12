@@ -117,6 +117,14 @@ const persianMonths = [
 ];
 const weekDays = ['ش', 'ی', 'د', 'س', 'چ', 'پ', 'ج'];
 
+// Types
+interface CalendarDate {
+    day: number | string;
+    otherMonth: boolean;
+    today?: boolean;
+    jDate?: { jy: number, jm: number, jd: number };
+}
+
 // State
 const view = ref<'date' | 'month' | 'year'>('date');
 // Current view date (Jalaali)
@@ -171,8 +179,8 @@ const calendar = computed(() => {
     // (Sat(6)+1)%7 = 0
     const startDayOfWeek = (gFirst.getDay() + 1) % 7; 
 
-    const weeks = [];
-    let week = [];
+    const weeks: CalendarDate[][] = [];
+    let week: CalendarDate[] = [];
     
     // Fill previous month empty slots
     for (let i = 0; i < startDayOfWeek; i++) {
@@ -257,14 +265,15 @@ const setYear = (y: number) => {
     view.value = 'month';
 };
 
-const isSelected = (date: any) => {
-    if (!props.modelValue || date.otherMonth) return false;
+const isSelected = (date: CalendarDate) => {
+    if (!props.modelValue || date.otherMonth || typeof date.day !== 'number') return false;
     const j = jalaali.toJalaali(props.modelValue);
+    // Ensure date.day is a number for comparison if needed, though j.jd is number
     return j.jy === currentJYear.value && j.jm === currentMonth.value && j.jd === date.day;
 };
 
-const selectDate = (date: any) => {
-    if (date.otherMonth) return;
+const selectDate = (date: CalendarDate) => {
+    if (date.otherMonth || typeof date.day !== 'number') return;
     const g = jalaali.toGregorian(currentJYear.value, currentMonth.value, date.day);
     const d = new Date(g.gy, g.gm - 1, g.gd);
     emit('update:modelValue', d);

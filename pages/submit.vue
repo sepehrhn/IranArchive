@@ -57,14 +57,7 @@
             </div>
           </TabPanel>
 
-          <!-- Campaign Tab -->
-          <TabPanel :header="t('submitPage.tabs.campaign')">
-            <CampaignSubmissionForm
-              v-if="activeTab === 2"
-              @submit="handleSubmit"
-              :submitting="submitting"
-            />
-          </TabPanel>
+
 
         </TabView>
       </div>
@@ -81,7 +74,7 @@ import { ref, onMounted } from 'vue';
 const { t } = useI18n();
 import IncidentSubmissionForm from '~/components/submissions/IncidentSubmissionForm.vue';
 import EventSubmissionForm from '~/components/submissions/EventSubmissionForm.vue';
-import CampaignSubmissionForm from '~/components/submissions/CampaignSubmissionForm.vue';
+
 import {  
   initUpload,
   completeSubmission,

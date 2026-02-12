@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Weekly Solidarity Rally for Iran Uprising"
+title: "Solidarity Protest in Athens"
 
-featured: true
+featured: false
 
 description: |
-  Demonstration to condemn the brutal crackdown by the Islamic Republic (including recent internet blackouts and mass detentions) and to support the 'Woman, Life, Freedom' movement. Protesters are calling for the expulsion of regime ambassadors and greater international pressure.
-  
-  **Tips:** Dress warmly for -10°C weather. Bring signs with slogans like 'Woman, Life, Freedom' (Zan, Zendegi, Azadi). Check the 'Woman Life Freedom Montreal' Instagram page for last-minute time changes.
-  
-  **Location Details:** Atwater Metro station; Lambert-Closse & Sainte-Catherine. March often proceeds to US Consulate or Place du Canada.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
-  start_time: "14:00"
-  end: "2026/02/07"
-  end_time: "16:00"
+  start: "2026/02/14"
+  start_time: "12:00"
+
 
 location:
-  country: "CA"
-  city: "Montreal"
-  address: "Cabot Square (Square Cabot)"
+  country: "GR"
+  city: "Athens"
+  address: "Panepistimio metro station"
 
 online: []
 
 organizer:
-  name: "Woman, Life, Freedom Collective (Femme Vie Liberté Montréal); individual activists (e.g., Ayrik Armani)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

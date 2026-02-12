@@ -1,5 +1,7 @@
 iso2: GB
-name: "United Kingdom"
+name: "UK"
+aliases:
+  - "United Kingdom"
 region: "Europe"
 subregion: "Northern Europe"
 last_reviewed_at: '2026-02-01'

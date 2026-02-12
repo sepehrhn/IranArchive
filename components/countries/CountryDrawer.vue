@@ -13,10 +13,6 @@ import {
 import { 
   TIER_COLORS, TIER_LABELS, DIPLOMACY_COLORS, IRGC_COLORS, UN_COLORS, SECURITY_COLORS 
 } from '@/utils/countryColors';
-import { useCampaigns } from '~/composables/useCampaigns';
-import { useCountries } from '@/composables/useCountries';
-
-const { getCampaignsForCountry } = useCampaigns();
 const { getCountryFlagUrl } = useCountries();
 
 const props = defineProps<{
@@ -87,10 +83,7 @@ const formatDate = (dateStr?: string) => {
   return new Date(dateStr).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 };
 
-const relevantCampaigns = computed(() => {
-  if (!props.country) return [];
-  return getCampaignsForCountry(props.country.iso2);
-});
+
 
 </script>
 
@@ -184,47 +177,7 @@ const relevantCampaigns = computed(() => {
         </div>
       </div>
 
-      <!-- Campaigns -->
-      <div v-if="relevantCampaigns.length > 0">
-        <h3 class="font-bold text-lg mb-3 flex items-center gap-2">
-            <span>Campaigns</span>
-            <span class="bg-primary-100 text-primary-700 text-xs px-2 py-0.5 rounded-full">{{ relevantCampaigns.length }}</span>
-        </h3>
-        <div class="space-y-3">
-          <a
-            v-for="camp in relevantCampaigns"
-            :key="camp.id"
-            :href="camp.url"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="block bg-surface-0 dark:bg-surface-800 border border-surface-200 dark:border-surface-700 rounded-lg overflow-hidden hover:shadow-md hover:border-primary-500/50 transitionLink group"
-          >
-            <div class="flex">
-                <div class="w-24 h-auto bg-surface-100 dark:bg-surface-700 relative shrink-0">
-                    <img 
-                        :src="camp.thumbnailUrl || '/campaign-placeholder.svg'" 
-                        :alt="camp.title"
-                        loading="lazy"
-                        class="w-full h-full object-cover absolute inset-0"
-                    />
-                </div>
-                <div class="p-3 flex-1 min-w-0">
-                    <div class="flex justify-between items-start gap-2 mb-1">
-                        <h4 class="font-bold text-sm text-surface-900 dark:text-surface-0 line-clamp-2 leading-tight group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors">
-                            {{ camp.title }}
-                        </h4>
-                         <span v-if="camp.status === 'active'" class="w-2 h-2 rounded-full bg-green-500 shrink-0 mt-1"></span>
-                    </div>
-                    <div class="flex justify-end">
-                         <span class="text-[10px] font-bold text-primary-600 dark:text-primary-400 flex items-center">
-                            Open <i class="pi pi-arrow-up-right ml-1 text-[9px]"></i>
-                         </span>
-                    </div>
-                </div>
-            </div>
-          </a>
-        </div>
-      </div>
+
 
       <!-- Evidence -->
       <div v-if="country.evidence.length > 0">

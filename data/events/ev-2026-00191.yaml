@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Standing Vigil for Iran (Likely)"
+title: "Solidarity Protest in Bordeaux"
 
-featured: true
+featured: false
 
 description: |
-  While no massive march is scheduled for this specific Sunday, Lafayette Square is the traditional standing location for Iranian diaspora vigils. Expect smaller groups gathering to chant slogans like 'Woman, Life, Freedom' and engage with tourists/locals, especially given the recent UN emergency session.
-  
-  **Tips:** This is likely an informal gathering rather than a permitted stage rally. Bring Iranian flags (Sun & Lion) and signs. Check 'Woman Life Freedom DC' social channels for last-minute meetups.
-  
-  **Location Details:** H St NW & 16th St NW; Nearest Metro: McPherson Sq or Farragut West
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/01"
-  start_time: "12:00"
-  end: "2026/02/01"
-  end_time: "14:00"
+  start: "2026/02/07"
+  start_time: "15:00"
+  end: "2026/02/07"
+  end_time: "17:00"
 
 location:
-  country: "US"
-  city: "Washington DC"
-  address: "Lafayette Square (North side of White House)"
+  country: "FR"
+  city: "Bordeaux"
+  address: "Devant le Grand-Théâtre de Bordeaux"
 
 online: []
 
 organizer:
-  name: "Grassroots / Informal Diaspora"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

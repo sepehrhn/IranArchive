@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Wellington"
+title: "Solidarity Protest in Düsseldorf"
 
 featured: false
 
@@ -14,15 +14,15 @@ description: |
 type: "in_person"
 
 date:
-  start: "2026/02/01"
-  start_time: "11:00"
-  end: "2026/02/01"
-  end_time: "12:00"
+  start: "2026/02/07"
+  start_time: "13:00"
+  end: "2026/02/07"
+  end_time: "17:00"
 
 location:
-  country: "NZ"
-  city: "Wellington"
-  address: "Wellington Waterfront"
+  country: "DE"
+  city: "Düsseldorf"
+  address: "Düsseldorf Hauptbahnhof"
 
 online: []
 
@@ -36,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

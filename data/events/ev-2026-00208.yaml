@@ -1,19 +1,15 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Photo Exhibition of Executed Victims"
+title: "Solidarity Protest in Reno"
 
-featured: true
+featured: false
 
 description: |
-  A recurring photo exhibition and information desk showing the faces of those executed by the regime during the recent crackdown (Dec 2025–Jan 2026). Aimed at raising public awareness among Berliners and tourists.
-  
-  **Tips:** A quieter, educational vigil compared to the large marches. Good for engaging with the public.
-  
-  **Location Details:** Public square outside the S-Bahn station
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
@@ -21,17 +17,17 @@ date:
   start: "2026/02/07"
   start_time: "11:00"
   end: "2026/02/07"
-  end_time: "18:00"
+  end_time: "13:00"
 
 location:
-  country: "DE"
-  city: "Berlin"
-  address: "Hackescher Markt, 10178 Berlin"
+  country: "US"
+  city: "Reno"
+  address: "Plumb & Virginia Crossing"
 
 online: []
 
 organizer:
-  name: "Independent Activists / Woman Life Freedom Collective"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

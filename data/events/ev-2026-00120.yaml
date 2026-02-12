@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM automatically generated
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Rally for Iran Uprising"
+title: "Solidarity Protest in Belfast"
 
-featured: true
+featured: false
 
 description: |
-  Gathering to support the nationwide uprising in Iran, condemn the recent mass executions and crackdown, and call for regime change. Participants typically chant 'Woman, Life, Freedom' and display pre-1979 Iranian flags.
-  
-  **Tips:** Wear comfortable shoes. Bring water. Look for the 'Lion and Sun' flags or 'Woman Life Freedom' signs to identify the correct group. Avoid groups with rigid uniform dress or specific cult-like branding (MEK).
-  
-  **Location Details:** South Steps / 11th Street and Congress Ave
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: "14:00"
-  end: "2026/02/01"
-  end_time: "16:00"
+  start_time: "13:30"
+
 
 location:
-  country: "US"
-  city: "Austin"
-  address: "Texas State Capitol"
+  country: "GB"
+  city: "Belfast"
+  address: "Belfast City Hall"
 
 online: []
 
 organizer:
-  name: "Local Iranian Diaspora (likely supported by Austin Iranian Professionals Association/Woman Life Freedom Austin)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

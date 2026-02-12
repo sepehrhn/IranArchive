@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Solidarity with the Iranian Uprising"
+title: "Solidarity Protest in Kelowna"
 
-featured: true
+featured: false
 
 description: |
-  Standing protest condemning the recent execution of protesters and the 'massacres' reported in Jan 2026. Participants typically wave the 'Lion and Sun' flag and chant for regime change. Met Police have indicated they expect ongoing protests at this location.
-  
-  **Tips:** Police conditions may be in place requiring protesters to stay within a specific zone (often the pavement opposite). Avoid groups displaying portraits of Maryam/Massoud Rajavi (MEK leaders). Look for 'Woman Life Freedom' signs or Reza Pahlavi portraits for non-MEK groups.
-  
-  **Location Details:** Nearest Tube: South Kensington or Knightsbridge. Gathering usually opposite the embassy building.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/07"
+  start: "2026/02/08"
   start_time: "13:00"
-  end: "2026/02/07"
-  end_time: "17:00"
+  end: "2026/02/08"
+  end_time: "15:00"
 
 location:
-  country: "GB"
-  city: "London"
-  address: "Iranian Embassy, 16 Prince's Gate, London SW7 1PT"
+  country: "CA"
+  city: "Kelowna"
+  address: "Downtown Kelowna Ogopogo Statue"
 
 online: []
 
 organizer:
-  name: "Independent / Grassroots (Pahlavi supporters & Woman Life Freedom activists)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

@@ -1,36 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Irvine Solidarity Protest for Iran"
+title: "Solidarity Protest in Miami"
 
-featured: true
+featured: false
 
 description: |
-  A recurring grassroots demonstration in solidarity with the 'Woman, Life, Freedom' uprising and the recent surge in nationwide protests in Iran. Participants typically wave pre-1979 flags and hold signs condemning the regime's crackdown.
-  
-  **Tips:** This is a recurring 'First Sunday of the Month' event. Recent community posts suggest an 11:00 AM start time. Parking is available in nearby shopping center lots, but avoid blocking business entrances.
-  
-  **Location Details:** Meeting at the street corners; a common recurring location for Irvine's Iranian diaspora.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: "11:00"
-
+  start_time: "16:00"
+  end: "2026/02/01"
+  end_time: "18:00"
 
 location:
   country: "US"
-  city: "Irvine"
-  address: "Intersection of Culver Dr & Barranca Pkwy, Irvine, CA"
+  city: "Miami"
+  address: "Torch of Friendship, 301 Biscayne Blvd, Miami, FL 33132"
 
 online: []
 
 organizer:
-  name: "Local Iranian Diaspora Activists (Grassroots)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

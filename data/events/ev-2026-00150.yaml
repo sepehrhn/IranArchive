@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Sunday Solidarity Gathering"
+title: "Solidarity Protest in Portland"
 
 featured: false
 
 description: |
-  Weekly gathering point for diaspora (tentative).
-  
-  **Tips:** Check social media on Sat night; Sunday is quieter in central London than Saturday.
-  
-  **Location Details:** North Terrace
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: "14:00"
-  end: "2026/02/01"
-  end_time: "16:00"
+  start_time: "13:00"
+
 
 location:
-  country: "GB"
-  city: "London"
-  address: "Trafalgar Square"
+  country: "US"
+  city: "Portland"
+  address: "Ceder Hills Park, Beaverton to Pioneer Square"
 
 online: []
 
 organizer:
-  name: "Various Community Groups"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,7 +34,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHvVd7UxHBSBZriCQgYE4sb6QgwOemPwLctRHhUltOxuyObtwb3CjOnli-gCBiVmzk80g8ti6A0KNlw82NbPjHNusO-GlQqccYPjHleydG_IEsSty4-SMrTW5I4CJoWBZOCzH7ITPs="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHqiqZFqjr48utlZtS6GPWoywwrIdDtSKg2N7XlWN9jKexbK8DUSSh9CIe_4yt5-Upe0ESUmj2jDfQJ8Q6UUl9umwM3NqHH1IJknvgyb_fjzXjsTvlN_MwBT_CGrEaoP6rhddwsSlwI"
-
+source: []

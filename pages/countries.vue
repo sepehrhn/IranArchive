@@ -64,7 +64,9 @@ const filteredCountries = computed(() => {
     const q = searchQuery.value.toLowerCase();
     result = result.filter(c => 
       c.localizedName.toLowerCase().includes(q) || 
-      c.iso2.toLowerCase().includes(q)
+      c.iso2.toLowerCase().includes(q) ||
+      c.name.toLowerCase().includes(q) ||
+      (c.aliases && c.aliases.some(a => a.toLowerCase().includes(q)))
     );
   }
 

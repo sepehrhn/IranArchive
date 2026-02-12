@@ -1,37 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM MAINTENANCE
+# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
 # -----------------------------------------------------------------------------
 
-title: "Embassy Protest Gathering"
+title: "Solidarity Protest in Wellington"
 
 featured: false
 
 description: |
-  While no official permit is listed for Sunday on the parliamentary calendar, spontaneous gatherings and smaller protests frequently occur outside the regime's embassy on Sundays, especially following the recent 'Bloody Thursday' crackdown. Protesters have recently climbed the embassy walls to remove regime flags.
-  
-  **Tips:** This is likely to be a less organized, more spontaneous gathering than the Saturday Parliament rally. Check 'Woman Life Freedom Oslo' social media channels for last-minute confirmation.
-  
-  **Location Details:** Drammensveien 88E, 0244 Oslo (Nearest tram: Skillebekk)
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/01"
-  start_time: "14:00"
+  start_time: "11:00"
   end: "2026/02/01"
-  end_time: "16:00"
+  end_time: "12:00"
 
 location:
-  country: "NO"
-  city: "Oslo"
-  address: "Iranian Embassy"
+  country: "NZ"
+  city: "Wellington"
+  address: "Wellington Waterfront"
 
 online: []
 
 organizer:
-  name: "Grassroots / Unofficial"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-
