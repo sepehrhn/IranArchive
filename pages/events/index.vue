@@ -1,3 +1,4 @@
+<script setup lang="ts">
 import { ref, computed, watch, onMounted } from 'vue';
 const { t } = useI18n();
 import type { ParsedEvent } from '~/server/utils/events/schemas';
