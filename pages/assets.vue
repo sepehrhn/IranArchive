@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, watch } from 'vue'
 import { useI18n } from 'vue-i18n'
-import { useAssets } from '~/composables/useAssets'
 import { useCountries } from '~/composables/useCountries'
 import { useRoute, useRouter } from 'vue-router'
 import { getMediaUrl } from '~/utils/mediaUrl'
@@ -9,7 +8,6 @@ import type { Asset } from '~/types/asset'
 import AssetPreviewModal from '~/components/AssetPreviewModal.vue'
 
 const { t, locale } = useI18n()
-const { listAssets } = useAssets()
 const { loadCountries, getAllCountries, getCountryFlagUrl } = useCountries()
 const route = useRoute()
 const router = useRouter()
@@ -21,8 +19,12 @@ useHead({
     ]
 })
 
-const assets = ref<Asset[]>([])
-const loading = ref(true)
+const { data: fetchedAssets, status } = await useFetch<Asset[]>('/api/assets', {
+    default: () => []
+})
+
+const assets = computed(() => fetchedAssets.value || [])
+const loading = computed(() => status.value === 'pending')
 
 // Filters
 const selectedCountry = ref('all')
@@ -31,10 +33,9 @@ const selectedCountry = ref('all')
 const showPreviewModal = ref(false)
 const selectedAsset = ref<Asset | null>(null)
 
+// Load countries (can stay client-side or be moved to useFetch too, but keeping minimal changes first)
 onMounted(async () => {
-    loading.value = true
     try {
-        assets.value = await listAssets()
         await loadCountries()
 
         // Handle deep linking
@@ -46,9 +47,7 @@ onMounted(async () => {
             }
         }
     } catch (e) {
-        console.error('Failed to load assets:', e)
-    } finally {
-        loading.value = false
+        console.error('Failed to init page:', e)
     }
 })
 
