@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Massive National Rally in Toronto"
+title: "Solidarity Protest in Melbourne"
 
 featured: false
 
 description: |
-  Montrealers are being encouraged to travel to Toronto for a massive centralized rally expected to draw hundreds of thousands. Bus convoys may be organized from Montreal.
-  
-  **Tips:** If you can travel, this is the main event for Eastern Canada. Check local community Telegram/Instagram groups for carpools or bus tickets.
-  
-  **Location Details:** Queen's Park / US Consulate Toronto
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "13:00"
-  end: "2026/02/14"
-  end_time: "17:00"
+  start_time: "17:00"
+
 
 location:
-  country: "CA"
-  city: "Montreal"
-  address: "Toronto (Travel from Montreal)"
+  country: "AU"
+  city: "Melbourne"
+  address: "Parliament House"
 
 online: []
 
 organizer:
-  name: "National solidarity network"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,6 +34,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlEtq5PXfPXutfHjMR__InMywSaiIXe_46MX9yynYNzskfAw-p3hVu4TEQ1IdAoEIRbhdcCaDydMm-opZqLViGX7k4luEhuXvhhWmVW6cCDMoQYduFFYcVfMLDWA=="
-
+source: []

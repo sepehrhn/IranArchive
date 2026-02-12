@@ -1,36 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Global Day of Action & Solidarity"
+title: "Solidarity Protest in New Haven"
 
 featured: false
 
 description: |
-  A massive rally expecting 100,000+ participants to support the Iranian uprising. Many local groups from France are traveling to this event instead of holding local protests.
-  
-  **Tips:** Check with 'Collectif Iran Nice' for carpooling or bus delegations departing from Nice.
-  
-  **Location Details:** Munich Security Conference venue
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: ""
-
+  start_time: "18:00"
+  end: "2026/02/14"
+  end_time: "19:00"
 
 location:
-  country: "FR"
-  city: "Nice"
-  address: "Munich, Germany (Central Rally)"
+  country: "US"
+  city: "New Haven"
+  address: "Beinecke Plaza, Yale University, New Haven CT"
 
 online: []
 
 organizer:
-  name: "The Munich Circle / Diaspora Groups"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -38,8 +35,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXLaRS6mq39-OjIx1IuRONWyu787g6207Q9WnneW4ghu6Chd1GewzfR3MYHw7boOQEs8AdY0LcCjyR5JphIvU1rW7Lu5MTVbZ25duRyT8-FEulKKjBKDbwUgwI1t9p8P0S1w=="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWJz6MY7L4CqR9OJjLT1v5NvxA_dnPuuAdORMNRtXXCXYRhDE7Y3qRjj76hDw305EOL5NzDLSJSsWU0z8BMzemWaYfrhyPdvTtl0M-Cc3xEhzOw9U7xz4Wq2AuAc8="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4pyil-GlRXxraHgQ6NUoZuwNV2M2MZ-ckAEpU-4nG1fDnEW0Qqes3xpCKmGR8-84SAzW55v2Jp33uGiQII8qi53knI5d3oRLt6gzCuHbw-8YhE3Z2am5M-U9q4frJzplaBuBO"
-
+source: []

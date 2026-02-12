@@ -1,36 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Sunday Solidarity Gathering (Tentative)"
+title: "Weekly Solidarity Protest"
 
-featured: false
+featured: true
 
 description: |
-  While the main Global Day of Action is Saturday, local Iranian diaspora groups have frequently held Sunday rallies at City Hall or Union Square during peak uprising periods (Jan-Feb 2026). If you cannot make Saturday, a smaller gathering often forms here on Sundays.
+  The standing weekly protest in Irvine where the local community gathers to wave flags (Lion and Sun), hold signs, and chant slogans against the Islamic Republic.
   
-  **Tips:** This is less formally confirmed than the Saturday event; check local Telegram channels or look for crowds at Civic Center Plaza around 1:00 PM.
+  **Tips:** Bring water and comfortable shoes. Parking is available in nearby shopping center lots, but avoid blocking business entrances.
   
-  **Location Details:** 1 Dr. Carlton B. Goodlett Pl, San Francisco, CA
+  **Location Details:** Protesters usually gather on the corners of the intersection.
 
 type: "in_person"
 
 date:
   start: "2026/02/15"
-  start_time: ""
-
+  start_time: "11:00"
+  end: "2026/02/15"
+  end_time: "13:00"
 
 location:
   country: "US"
-  city: "San Francisco"
-  address: "San Francisco Civic Center / City Hall"
+  city: "Irvine"
+  address: "Intersection of Culver Drive & Barranca Parkway"
 
 online: []
 
 organizer:
-  name: "Independent activists (Recurring)"
+  name: "Orange County Iranian Community"
   website: ""
   contact_email: ""
   socials:
@@ -39,7 +40,4 @@ organizer:
     telegram: ""
 
 source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZiEcPZG3NuNxu2K7h0RX5jNVrimeJOpQK4_plEnlUhWDgNgr-iUrP7l_6PA3oDVh341q3F3Zj8clOhhL3epcdNdgXtDU-qgRD4TKcIM4yrK8YGo6bL0Ey0tw="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMTNkGM565KbATTRDf5_AxibTFcCxfy5xU2x-oBflHzNkKr9JdZuS-lrLEHH9FrMhlMU9fOJpDVCy7clYTuLghqKGEwWVAv-7kwbQppiWsp5WDeQe2olI7AVk-3tLHPH8m8vqQoA=="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq-7YPAuRQ3Y9Ig9Jfu6tMDww8_Q-hd8BXpF-57aJH3TT3pYpNNWbg71e4pm8s-sssCZMIq5mCmezOj0r8sB77b_zvVNWxunF1IeMEi_KJAWMErfXbD6oFN0ckc6wQTPmyAQ=="
-
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH-JvFsdxqmTFNPpZeukh7qr7MWz10ePsnoh1ThzykWJfrnQMbVTrVs8fTbsTyRpYifnnzWwj3I1Tls_Mu83wfruLDTLwagawPxNETMc8B4iI04i9ASNVUVHdC2TRhKA=="

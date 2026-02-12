@@ -1,33 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Sofia"
+title: "Sunday Freedom Rally in Tehrangeles"
 
-featured: false
+featured: true
 
 description: |
-  Community-organized solidarity event for the Iranian people's uprising.
+  Recurring Sunday gathering in the heart of the Iranian-American community. Recent Sundays have seen crowds blocking streets to protest the execution of protestors.
+  
+  **Tips:** Westwood Blvd may be closed to traffic. Great location for community solidarity.
+  
+  **Location Details:** Westwood Blvd between Wilshire and Santa Monica Blvd.
 
 type: "in_person"
 
 date:
   start: "2026/02/15"
-  start_time: "16:00"
+  start_time: "12:00"
   end: "2026/02/15"
-  end_time: "18:00"
+  end_time: "15:00"
 
 location:
-  country: "BG"
-  city: "Sofia"
-  address: "Sofia"
+  country: "US"
+  city: "Los Angeles"
+  address: "Persian Square, Westwood Blvd"
 
 online: []
 
 organizer:
-  name: "Local Organizer"
+  name: "Grassroots / Student Groups"
   website: ""
   contact_email: ""
   socials:
@@ -35,5 +39,8 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
-
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFCRYPBqm_5Q-m-jD7Q-dccqkulxQnBrBLdVmjioTRfHc1rtGh3eGv0dAqIVgJD3I6e5ERIK5CQQy0Ca8z70n448x1qXkPqmYN76GdYIXkk3vH4nyBwRjbdhDRZe2cnntRA_O8="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMjxmmdPE3BJuiTHSiks3WXJv6f7mZG3-1eiKtYcUichlxwwenoEtvaADrAktJ0N4Xpr0ymLkvHTSgIZkRw0xwTDPKMCpzfCnbb_9xtcsOxJS1yln311EcyS6ktFzE8mqs1CeIc1o="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF3qSY0DWVZBQptg8L5xLvVerSyuD6dPs9gsD_XEOoD_BxowwGxFvcMpXiSfF6sC0NrzKQRppK6XEMpw6rK8FlQfiWSbSDO1rQHsRSLuLIP3VAptOKYnOTnWurfsAGBfVPiHUUXhh8="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGf7OZcuO1OVcQfSI8TX1MIojTjKcMMj3fTz2sBC-RJj1bc3lphnLRBoN3U4RZ3Rf_BE783f7KvACAlCjDkTPuR_mRxq0jrKbADQf5soKAIk-UtRPBSHA_QGsbMoqFw8NMBQd1b4d0="

@@ -1,36 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Global Day of Action: Solidarity with Iran's Uprising"
+title: "Massive National Rally in Toronto"
 
-featured: true
+featured: false
 
 description: |
-  A major international rally designated as a 'Global Day of Action' to support the nationwide uprising in Iran that began in Dec 2025. Protesters are demanding an end to the Islamic Republic, the release of political prisoners detained in the Jan 2026 crackdown, and international recognition of the Iranian people's demand for regime change. Recent rallies have focused on condemning the internet blackout and mass killings.
+  Montrealers are being encouraged to travel to Toronto for a massive centralized rally expected to draw hundreds of thousands. Bus convoys may be organized from Montreal.
   
-  **Tips:** Wear white or the colors of the Iranian flag (Green/White/Red). Bring warm clothes as it will be cold. Avoid engaging with any counter-protestors. Check 'Woman Life Freedom NYC' or 'New York City for Iran' social media for last-minute time confirmation.
+  **Tips:** If you can travel, this is the main event for Eastern Canada. Check local community Telegram/Instagram groups for carpools or bus tickets.
   
-  **Location Details:** Broadway & 46th/47th St. Look for 'Woman Life Freedom' signs and the Lion and Sun flags.
+  **Location Details:** Queen's Park / US Consulate Toronto
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "14:00"
-
+  start_time: "13:00"
+  end: "2026/02/14"
+  end_time: "17:00"
 
 location:
-  country: "US"
-  city: "New York City"
-  address: "Times Square (Father Duffy Square)"
+  country: "CA"
+  city: "Montreal"
+  address: "Toronto (Travel from Montreal)"
 
 online: []
 
 organizer:
-  name: "Coalition of Iranian Diaspora Groups / Woman Life Freedom NYC (Unified 'Global Day of Action')"
+  name: "National solidarity network"
   website: ""
   contact_email: ""
   socials:
@@ -38,5 +39,5 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
-
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlEtq5PXfPXutfHjMR__InMywSaiIXe_46MX9yynYNzskfAw-p3hVu4TEQ1IdAoEIRbhdcCaDydMm-opZqLViGX7k4luEhuXvhhWmVW6cCDMoQYduFFYcVfMLDWA=="

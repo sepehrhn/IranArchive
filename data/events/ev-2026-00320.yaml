@@ -1,0 +1,43 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED FROM SCRAPER
+# -----------------------------------------------------------------------------
+
+title: "Sunday Diaspora Vigil / Rassemblement Hebdomadaire"
+
+featured: false
+
+description: |
+  Weekly Sunday gathering often held by grassroots diaspora groups to maintain visibility for the uprising. Focuses on mourning victims of the recent January 2026 massacres and maintaining pressure on European governments.
+  
+  **Tips:** Bring candles or photos of victims. Avoid groups displaying photos of Maryam Rajavi (MEK/NCRI) if you wish to stick to the grassroots/secular uprising movement.
+  
+  **Location Details:** Parvis des Droits de l'Homme (Trocadéro) is a common Sunday venue for the diaspora.
+
+type: "in_person"
+
+date:
+  start: "2026/02/15"
+  start_time: "15:00"
+  end: "2026/02/15"
+  end_time: "18:00"
+
+location:
+  country: "FR"
+  city: "Paris"
+  address: "Place du Trocadéro or Place de la Bastille"
+
+online: []
+
+organizer:
+  name: "Independent Diaspora Collectives (Non-MEK)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGI3WpSjfeR-glz2ddfPRvQ_Q87iHaPzJOv3NmVyCdti1_daa9qALbi5kidyy8zQn5tf0e9j3mRu1PqD6kkxfPG-H1_M8tdFtWgnk9jz9R57FzkpHeoKZBeWUqp7JQu880SGewIUCM="

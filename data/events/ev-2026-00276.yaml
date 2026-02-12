@@ -1,33 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in New Haven"
+title: "Mission Viejo Solidarity Rally (Global Day of Action)"
 
-featured: false
+featured: true
 
 description: |
-  Community-organized solidarity event for the Iranian people's uprising.
+  A rally in solidarity with the December 2025 uprising and against the recent brutal crackdown (including internet blackouts and mass detentions). Participants typically wave the Lion and Sun flag and chant slogans supporting the establishment of a secular democracy.
+  
+  **Tips:** Bring Iranian flags (Lion and Sun preferred by this crowd), signs regarding the 'Dec 2025 Uprising', and water. Parking is available at the nearby shopping centers, but avoid blocking business entrances.
+  
+  **Location Details:** Sidewalks near the intersection; a common site for local rallies.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "18:00"
+  start_time: "13:00"
   end: "2026/02/14"
-  end_time: "19:00"
+  end_time: "16:00"
 
 location:
   country: "US"
-  city: "New Haven"
-  address: "Beinecke Plaza, Yale University, New Haven CT"
+  city: "Mission Viejo"
+  address: "Corner of Marguerite Parkway & La Paz Road, Mission Viejo, CA 92692"
 
 online: []
 
 organizer:
-  name: "Local Organizer"
+  name: "Local Iranian-American Community / Global Day of Action Coalition"
   website: ""
   contact_email: ""
   socials:
@@ -35,5 +39,6 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
-
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQELP8u38lwpIJQ2loyRZNmAWpPw601GWsqHaN8uA44IcTJSk_hR1ej3-RJgSBCuth2sM0U32LawnYYFImmYpQY5fvedn_XiIPV-vELYzbBsBOQ0wAc940ALm3l4Jjgs57Ny1tfKlcxxcxmwjS0="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG_Xyt-YVqDNWB4bJSXkYL_KtOoFdxNNXi1g5hBkBch2jd7pTBWdw89ypQHtVYm-11274qaN5g4qct0_IV3gw8qsIgThsPS3JASiL1eZyi5qU6bv6_kT9TBbzJRfM5BTXEmRTalFS1GmOVnkLkBqQ=="

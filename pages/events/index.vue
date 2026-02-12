@@ -12,7 +12,10 @@ useHead({
 });
 
 // Get Data
-const { data: events, pending } = await useFetch<ParsedEvent[]>('/api/events', { lazy: true });
+const { data: events, pending } = await useFetch<ParsedEvent[]>('/api/events', { 
+    key: 'events-list',
+    lazy: true 
+});
 
 // Load countries
 const { loadCountries } = useCountries();

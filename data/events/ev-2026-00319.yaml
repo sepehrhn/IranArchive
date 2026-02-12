@@ -1,19 +1,19 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Weekly Solidarity Rally (Tentative)"
+title: "Weekly Sunday Solidarity Rally"
 
-featured: true
+featured: false
 
 description: |
-  Weekly rallies have been held here on Sundays throughout the uprising by grassroots groups (often distinct from the Pahlavi-aligned group). While the Saturday event is the main focus this weekend, a gathering here is likely for those maintaining the weekly vigil tradition.
+  While the main global event is Saturday, local Ottawa groups often hold their regular weekly rallies on Sundays. If you miss Saturday, a smaller gathering often occurs on Sunday at the same location to maintain a continuous presence.
   
-  **Tips:** Check 'Solidarity with Iranians' or 'Woman Life Freedom Vancouver' social media for last-minute confirmation, as the Saturday event may supersede this one.
+  **Tips:** Check 'Ottawa Rise IRAN' social media pages on Saturday night to confirm if the Sunday event is still proceeding in light of the major Saturday rally.
   
-  **Location Details:** South Plaza (Robson Street side) is the standard meeting point.
+  **Location Details:** Centennial Flame or main lawn.
 
 type: "in_person"
 
@@ -25,13 +25,13 @@ date:
 
 location:
   country: "CA"
-  city: "Vancouver"
-  address: "Vancouver Art Gallery, 750 Hornby St, Vancouver, BC"
+  city: "Ottawa"
+  address: "Parliament Hill, Wellington St, Ottawa, ON"
 
 online: []
 
 organizer:
-  name: "Solidarity with Iranians / Woman Life Freedom Vancouver"
+  name: "Ottawa Rise IRAN Community Team (Tentative)"
   website: ""
   contact_email: ""
   socials:
@@ -39,5 +39,6 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
-
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQQE2BgCBhnzvkSCENfAktdb4JIlE9Wdvrkc1Qk3rwx2_weBzXzOMNg6_QWy5cB2oUCnjX8RKaB2XC2LmOF-x6EB69xQzOgqY81xS1-xIShGxrtl_q0m06Pz4GCMzwEzX4v9Mkgd4="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXEkIInBMLfDvXCcKFM11ONsnXoegCuBwkGT2EawDeqcGN-nIdmD9p61jM-cax4-uLiC2eI7Er6UE6U_cLJLiBerj8wtsDCixux90mW5VOKBh6JfPYDreqXCHvqIxCHZrBQNN9bOc="

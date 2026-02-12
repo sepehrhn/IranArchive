@@ -1,36 +1,33 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Global Day of Action: Solidarity with the Iranian Revolution"
+title: "Solidarity Protest in Christchurch"
 
-featured: true
+featured: false
 
 description: |
-  A major solidarity rally coinciding with global demonstrations called by Reza Pahlavi and other opposition leaders. The protest condemns the recent massacre of over 3,000 protesters in Iran, the internet blackout, and the execution of political prisoners. Participants often display the 'Lion and Sun' flag and chant for regime change.
-  
-  **Tips:** Community forums indicate a 'new location' may have been secured for this specific date, so check the latest updates from 'Woman Life Freedom DFW' or 'NewIran' social media pages before heading out. Bring water and signs supporting the 'Woman, Life, Freedom' movement.
-  
-  **Location Details:** Exact location recently updated (permits secured for a 'new location' per community discussions). Historically, rallies gather at 1500 Marilla St (City Hall) or Pioneer Plaza.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "11:00"
-
+  start_time: "16:00"
+  end: "2026/02/14"
+  end_time: "17:00"
 
 location:
-  country: "US"
-  city: "Dallas"
-  address: "Downtown Dallas (Likely Dallas City Hall or Pioneer Plaza)"
+  country: "NZ"
+  city: "Christchurch"
+  address: "Bridge of Remembrance Christchurch CBD"
 
 online: []
 
 organizer:
-  name: "Supporters of the Iranian Uprising / Constitutionalist Front (Lion & Sun)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

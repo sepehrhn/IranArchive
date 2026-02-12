@@ -1,32 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Geneva"
+title: "Global Day of Action: Solidarity with the Iranian Uprising"
 
 featured: false
 
 description: |
-  Community-organized solidarity event for the Iranian people's uprising.
+  A major solidarity rally coinciding with worldwide demonstrations to support the uprising in Iran. Participants will demand an end to the crackdown, the release of political prisoners, and the expulsion of Islamic Republic diplomats. This event is part of a coordinated global effort across dozens of cities.
+  
+  **Tips:** Wear warm clothes as it will be outdoors. Bring placards with slogans such as 'Woman, Life, Freedom' or photos of victims of the recent crackdown. Expect chanting in both English and Persian.
+  
+  **Location Details:** O'Connell Street, Dublin 1 (Meeting point at the base of the Spire)
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "13:00"
-
+  start_time: "12:00"
+  end: "2026/02/14"
+  end_time: "14:00"
 
 location:
-  country: "CH"
-  city: "Geneva"
-  address: "Palais des Nations, Place des Nations, Geneva"
+  country: "IE"
+  city: "Dublin"
+  address: "The Spire"
 
 online: []
 
 organizer:
-  name: "Local Organizer"
+  name: "Iranian Community of Ireland / Global Day of Action Coalition"
   website: ""
   contact_email: ""
   socials:
@@ -35,4 +40,3 @@ organizer:
     telegram: ""
 
 source: []
-

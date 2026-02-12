@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Global Day of Action - Lion and Sun Revolution"
+title: "Solidarity Protest in Geneva"
 
 featured: false
 
 description: |
-  The main nationwide rally in solidarity with the uprising, coinciding with the Munich Security Conference. Reza Pahlavi has designated this day for global action.
-  
-  **Tips:** Check for organized buses from Hamburg Hauptbahnhof or Dammtor. Dress warmly.
-  
-  **Location Details:** Centralized event for all German diaspora. Many Hamburg groups are traveling here.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
   start_time: "13:00"
-  end: "2026/02/14"
-  end_time: "16:00"
+
 
 location:
-  country: "DE"
-  city: "Hamburg"
-  address: "Theresienwiese, Munich (Central Germany Rally)"
+  country: "CH"
+  city: "Geneva"
+  address: "Palais des Nations, Place des Nations, Geneva"
 
 online: []
 
 organizer:
-  name: "Hope Association / Constitutionalist Party / Reza Pahlavi"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

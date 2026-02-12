@@ -1,37 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Weekly Solidarity Protest"
+title: "Global Day of Action: Solidarity with the Lion and Sun Revolution"
 
-featured: true
+featured: false
 
 description: |
-  The standing weekly protest in Irvine where the local community gathers to wave flags (Lion and Sun), hold signs, and chant slogans against the Islamic Republic.
+  A major rally marking the 'Global Day of Action' called by Reza Pahlavi and the Transitional Leadership of Iran. Demonstrators will gather to support the nationwide uprising in Iran, condemn the January massacres, and demand the designation of the IRGC as a terrorist organization. Expect 'Lion and Sun' flags and slogans calling for regime change.
   
-  **Tips:** Bring water and comfortable shoes. Parking is available in nearby shopping center lots, but avoid blocking business entrances.
+  **Tips:** This is expected to be a large gathering. Wear comfortable shoes as rallies at the Washington Monument often involve marching to the White House (approx. 15-20 min walk). Dress warmly for February weather. Avoid engaging with any pro-regime agitators.
   
-  **Location Details:** Protesters usually gather on the corners of the intersection.
+  **Location Details:** Independence Ave SW & 15th St NW; closest Metro: Smithsonian (Blue/Orange/Silver)
 
 type: "in_person"
 
 date:
-  start: "2026/02/15"
-  start_time: "11:00"
-  end: "2026/02/15"
-  end_time: "13:00"
+  start: "2026/02/14"
+  start_time: "14:00"
+  end: "2026/02/14"
+  end_time: "17:00"
 
 location:
   country: "US"
-  city: "Irvine"
-  address: "Intersection of Culver Drive & Barranca Parkway"
+  city: "Washington DC"
+  address: "Sylvan Theater, Washington Monument Grounds"
 
 online: []
 
 organizer:
-  name: "Orange County Iranian Community"
+  name: "Coalition of Iranian Diaspora Groups (supported by DC Protests for Iran)"
   website: ""
   contact_email: ""
   socials:
@@ -40,5 +40,4 @@ organizer:
     telegram: ""
 
 source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH-JvFsdxqmTFNPpZeukh7qr7MWz10ePsnoh1ThzykWJfrnQMbVTrVs8fTbsTyRpYifnnzWwj3I1Tls_Mu83wfruLDTLwagawPxNETMc8B4iI04i9ASNVUVHdC2TRhKA=="
-
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEL8VRi-68K2_kWvBAz5DghvNKDdJvAG2qPVuw7iF3A8uWd62OYT9Ej_udVVepbmbsl4FQ5m0Q0Jz0ZjehHecyEhtupw3hOyN3SfAXrEGTo33aJ4TYAd4abP7U23wBM2alocIXYRupId1ZetQLxvMk"

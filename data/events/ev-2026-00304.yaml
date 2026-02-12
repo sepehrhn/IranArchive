@@ -1,33 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Wellington"
+title: "Global Day of Action: Solidarity with the Lion and Sun Revolution"
 
 featured: false
 
 description: |
-  Community-organized solidarity event for the Iranian people's uprising.
+  A major solidarity rally designated as a 'Global Day of Action' to support the uprising in Iran. Demands include the expulsion of regime diplomats and support for a democratic transition. This follows the massive Feb 1 rally and responds to the regime's recent crackdown.
+  
+  **Tips:** Dress warmly for -10°C to -15°C weather. Bring 'Lion and Sun' flags (no Islamic Republic symbols). Public transit (TTC buses to Steeles) is recommended as traffic will be heavy.
+  
+  **Location Details:** Intersection of Yonge and Steeles; a common gathering point for the Iranian community in North York. Look for the 'Lion and Sun' flags.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "11:00"
+  start_time: "13:00"
   end: "2026/02/14"
-  end_time: "12:00"
+  end_time: "16:00"
 
 location:
-  country: "NZ"
-  city: "Wellington"
-  address: "Wellington Waterfront (Behind Frank Kitts Park)"
+  country: "CA"
+  city: "Toronto"
+  address: "Yonge St & Steeles Ave, Toronto, ON"
 
 online: []
 
 organizer:
-  name: "Local Organizer"
+  name: "Supporters of the Lion and Sun Revolution (aligned with Reza Pahlavi)"
   website: ""
   contact_email: ""
   socials:
@@ -35,5 +39,5 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
-
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEs7Q8b4rpNB3KVoF06xCZbOsASY-qQLTKYCKu31q7Ia_CJqbsXY_U51qxUTUsfZzO8TNv-mtlAK0fO92HCtMrsNuTwPTevRFLGA2_NIBvmS9Hu47ohwzknsBe-pFcC5vCJsIuXUdA="

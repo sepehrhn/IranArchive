@@ -1,19 +1,19 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Weekly Solidarity Rally for Iran Uprising"
+title: "Student Solidarity Vigil & Rally"
 
-featured: true
+featured: false
 
 description: |
-  A recurring community rally to support the ongoing uprising in Iran, condemn the recent wave of executions and mass detentions, and call for the Australian government to take stronger action (such as listing the IRGC as a terrorist entity). Attendees typically chant slogans like 'Woman, Life, Freedom' and 'Zan, Zendegi, Azadi'.
+  A gathering often led by Iranian student associations to honor students and youth killed or disappeared during the recent crackdown. Focuses on the 'Woman Life Freedom' message and academic solidarity.
   
-  **Tips:** This event is rated 'Likely' based on the regular Sunday schedule of these rallies. However, double-check specific times as the 'Mardi Gras Street Rally' is also scheduled for this Sunday in the CBD, which might affect the exact meeting spot or time. Wear comfortable shoes and bring water.
+  **Tips:** Usually a more peaceful/vigil atmosphere compared to the midtown rallies.
   
-  **Location Details:** 483 George St, Sydney NSW 2000 (Gadigal Country). Look for the 'Woman, Life, Freedom' banners near the steps or square.
+  **Location Details:** Near the Arch.
 
 type: "in_person"
 
@@ -24,14 +24,14 @@ date:
   end_time: "15:00"
 
 location:
-  country: "AU"
-  city: "Sydney"
-  address: "Sydney Town Hall"
+  country: "US"
+  city: "New York City"
+  address: "Washington Square Park"
 
 online: []
 
 organizer:
-  name: "Woman Life Freedom Sydney / Iranian Community of NSW"
+  name: "University Students / Youth Collectives"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +40,3 @@ organizer:
     telegram: ""
 
 source: []
-

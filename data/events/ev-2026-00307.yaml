@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Sunday Information Stand & Flash Mob"
+title: "Solidarity Protest in Warsaw"
 
 featured: false
 
 description: |
-  Outreach event aimed at the German public to raise awareness about the recent UN Human Rights Council emergency session and the internet blackout in Iran. Often involves performance art symbolizing the crackdown.
-  
-  **Tips:** Good for those who want to engage in dialogue with locals rather than just chanting. Look for the 'Woman Life Freedom' signs.
-  
-  **Location Details:** Weltzeituhr (World Time Clock)
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
-  start: "2026/02/15"
-  start_time: "13:00"
-  end: "2026/02/15"
-  end_time: "15:00"
+  start: "2026/02/14"
+  start_time: "16:00"
+
 
 location:
-  country: "DE"
-  city: "Berlin"
-  address: "Alexanderplatz"
+  country: "PL"
+  city: "Warsaw"
+  address: "Plac Zamkowy → Pałac Staszica, Warsaw"
 
 online: []
 
 organizer:
-  name: "Woman Life Freedom Collective Berlin"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

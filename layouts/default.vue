@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import { ref } from 'vue';
+import { ref, onMounted, onUnmounted } from 'vue';
+import { useStickyHeader } from '~/composables/useStickyHeader';
 
 const { t } = useI18n();
 const mobileMenuOpen = ref(false);
+const { isHeaderVisible } = useStickyHeader();
 
 
 const closeMenu = () => {
@@ -20,7 +22,8 @@ onUnmounted(() => {
 <template>
     <div class="min-h-screen flex flex-col bg-surface-50 dark:bg-surface-950 text-surface-900 dark:text-surface-0 font-sans">
         <header 
-            class="sticky top-0 z-50 border-b border-surface-200/50 dark:border-surface-800/50 bg-white/80 dark:bg-surface-900/80 backdrop-blur-md shadow-sm"
+            class="sticky top-0 z-50 border-b border-surface-200/50 dark:border-surface-800/50 bg-white/80 dark:bg-surface-900/80 backdrop-blur-md shadow-sm transition-transform duration-300"
+            :class="{ '-translate-y-full': !isHeaderVisible }"
         >
             <nav class="container mx-auto px-4 h-16 flex items-center justify-between">
                 <NuxtLink to="/" class="flex items-center gap-2 font-bold text-xl tracking-tight text-primary-600 dark:text-primary-500 hover:opacity-80 transition-all duration-300" @click="closeMenu">

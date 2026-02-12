@@ -1,19 +1,19 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Protest for Kurdish Political Prisoners & Iran Solidarity"
+title: "Protest Against Political Repression"
 
 featured: false
 
 description: |
-  February 15 marks the anniversary of the capture of Kurdish leader Abdullah Öcalan. Given the prominent role of Kurdish regions in the current Iran uprising (and the 'Woman, Life, Freedom' slogan's Kurdish origins), this protest will likely have a strong focus on solidarity with the crackdown in Iranian Kurdistan (Rojhilat).
+  A frequent location for Sunday gatherings demanding political action from the Spanish government, specifically the designation of the IRGC as a terrorist organization and the cessation of diplomatic relations.
   
-  **Tips:** Expect a mix of Kurdish flags and Iran solidarity signs. This is often a passionate and loud demonstration.
+  **Tips:** Bring Persian flags (Lion and Sun) and signs in Spanish/English.
   
-  **Location Details:** Archibald Fountain area.
+  **Location Details:** Opposite the Parliament building.
 
 type: "in_person"
 
@@ -24,14 +24,14 @@ date:
   end_time: "14:00"
 
 location:
-  country: "AU"
-  city: "Sydney"
-  address: "Hyde Park North"
+  country: "ES"
+  city: "Madrid"
+  address: "Congreso de los Diputados (Carrera de San Jerónimo)"
 
 online: []
 
 organizer:
-  name: "Kurdish Community & Supporters"
+  name: "Independent Iranian Community / Human Rights Activists"
   website: ""
   contact_email: ""
   socials:
@@ -39,5 +39,5 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
-
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH6nfZcKwe4Rmm34NLrTEujB3frxGNCgNIUcXfr95YwAQEqkS7pR_iTHC4q2E1Ql-v9kbfZN-0vS8BobrKcVMfw-dR8A3hXmlqNkM7FptAfF2Tc5U1DWMkfJtOMzamAbjy6QhgqnvxT2B_Sue0="

@@ -6,11 +6,16 @@ import { useRoute, useRouter } from 'vue-router'
 import { getMediaUrl } from '~/utils/mediaUrl'
 import type { Asset } from '~/types/asset'
 import AssetPreviewModal from '~/components/AssetPreviewModal.vue'
+import { useStickyHeader } from '~/composables/useStickyHeader'
 
 const { t, locale } = useI18n()
 const { loadCountries, getAllCountries, getCountryFlagUrl } = useCountries()
 const route = useRoute()
+
 const router = useRouter()
+const { headerOffset, headerHeight, registerStickyTrigger } = useStickyHeader()
+
+const filterBarRef = ref<HTMLElement | null>(null)
 
 useHead({
     title: t('assetsPage.title'),
@@ -20,6 +25,7 @@ useHead({
 })
 
 const { data: fetchedAssets, status } = await useFetch<Asset[]>('/api/assets', {
+    key: 'assets-list',
     default: () => []
 })
 
@@ -29,6 +35,8 @@ const loading = computed(() => status.value === 'pending')
 // Filters
 const selectedCountry = ref('all')
 const selectedType = ref('all')
+const searchQuery = ref('')
+const isSearchFocused = ref(false)
 
 // Modal state
 const showPreviewModal = ref(false)
@@ -47,9 +55,34 @@ onMounted(async () => {
                 openPreviewModal(asset)
             }
         }
+        
+        // Set scroll threshold for sticky header swap
+        if (filterBarRef.value) {
+            registerStickyTrigger(filterBarRef.value)
+        }
     } catch (e) {
         console.error('Failed to init page:', e)
     }
+})
+
+// Clean up is handled automatically by new composable logic or we can add a reset if needed,
+// but for now the composable doesn't export a reset. 
+// Actually, we should probably reset on unmount to be safe if we navigate to a page without triggers.
+// The new composable uses `activeThreshold` ref. We should probably expose a clear method or just make it route-bound? 
+// Current impl doesn't reset activeThreshold on route change explicitly (except via onUnmounted in composable?).
+// Wait, `useStickyHeader` is likely a singleton or shared state? 
+// Yes, `isHeaderVisible` is global. `activeThreshold` was defined INSIDE the composable function in my last edit?
+// Checking `useStickyHeader` scope... 
+// Ah, `isHeaderVisible` is global. `activeThreshold` was defined inside the function.
+// This means every component gets its own `activeThreshold`? NO. 
+// If `activeThreshold` is local to the `useStickyHeader()` call, then `handleScroll` (which is local) uses it.
+// BUT `handleScroll` writes to GLOBAL `isHeaderVisible`.
+// This is correct: The active page calls `useStickyHeader`, gets a local `activeThreshold`, registers a local `handleScroll`.
+// When page unmounts, local `handleScroll` is removed. Global `isHeaderVisible` remains.
+// Perfect. No manual reset needed for global state, just unmount.
+
+onUnmounted(() => {
+    // No explicit reset needed for local threshold, but listener is removed.
 })
 
 // Stats
@@ -60,6 +93,14 @@ const stats = computed(() => {
 
 const filteredAssets = computed(() => {
     let result = assets.value.filter(asset => {
+        // Search Filter
+        if (searchQuery.value) {
+            const query = searchQuery.value.toLowerCase()
+            const matchesId = asset.id.toLowerCase().includes(query)
+            const matchesFile = asset.file.toLowerCase().includes(query)
+            if (!matchesId && !matchesFile) return false
+        }
+
         // Country Filter
         if (selectedCountry.value !== 'all') {
             const assetCountries = asset.countries || []
@@ -104,10 +145,14 @@ const countryOptions = computed(() => {
 
 
 const typeOptions = computed(() => [
-    { label: t('assetsPage.filters.all'), value: 'all' },
-    { label: t('assetsPage.filters.posters'), value: 'poster' },
-    { label: t('assetsPage.filters.leaflet'), value: 'leaflet' }
+    { label: t('assetsPage.filters.all'), value: 'all', icon: 'pi pi-th-large' },
+    { label: t('assetsPage.filters.posters'), value: 'poster', icon: 'pi pi-image' },
+    { label: t('assetsPage.filters.leaflet'), value: 'leaflet', icon: 'pi pi-file' }
 ])
+
+const hasActiveFilters = computed(() => {
+    return selectedCountry.value !== 'all' || selectedType.value !== 'all' || searchQuery.value !== ''
+})
 
 const openPreviewModal = (asset: Asset) => {
     selectedAsset.value = asset
@@ -316,6 +361,7 @@ const getAssetThumbnail = (asset: Asset) => {
 const clearFilters = () => {
     selectedCountry.value = 'all'
     selectedType.value = 'all'
+    searchQuery.value = ''
 }
 </script>
 
@@ -354,68 +400,111 @@ const clearFilters = () => {
             </div>
 
             <!-- Filter Bar (Sticky) -->
-            <div class="sticky top-20 z-30 bg-surface-0/95 dark:bg-surface-900/95 backdrop-blur-md p-4 rounded-2xl border border-surface-200 dark:border-surface-800 shadow-sm mb-8">
-                <div class="flex justify-center gap-4 flex-wrap">
-                    <!-- Type Filter -->
-                    <div class="w-full sm:w-48">
-                        <SelectButton 
-                            v-model="selectedType" 
-                            :options="typeOptions" 
-                            optionLabel="label" 
-                            optionValue="value"
-                            class="w-full"
-                            :pt="{
-                                root: { class: 'bg-surface-100 dark:bg-surface-800 p-1 rounded-xl w-full' },
-                                button: ({ context }) => ({
-                                    class: [
-                                        'flex-1 py-3 px-4 rounded-lg text-sm font-medium transition-all duration-200',
-                                        context.active 
-                                            ? 'bg-white dark:bg-surface-700 text-primary-600 dark:text-primary-400 shadow-sm' 
-                                            : 'text-surface-600 dark:text-surface-400 hover:text-surface-900 dark:hover:text-surface-0'
-                                    ]
-                                })
-                            }"
-                        />
-                    </div>
-
-                    <!-- Country Filter -->
-                    <div class="w-full sm:w-64">
-                        <Select 
-                            v-model="selectedCountry"
-                            :options="countryOptions"
-                            optionLabel="name"
-                            optionValue="iso2"
-                            class="w-full !bg-surface-50 dark:!bg-surface-800 !border-none !rounded-xl text-base shadow-sm hover:shadow-md transition-shadow"
-                            :pt="{
-                                root: { class: 'focus:ring-2 focus:ring-primary-500 min-h-[52px]' },
-                                label: { class: 'px-6 py-4 text-surface-900 dark:text-surface-0 font-medium' },
-                                dropdown: { class: 'pr-4' }
-                            }"
-                            filter
-                            :filterPlaceholder="t('incidentsPage.searchPlaceholder')"
+            <div 
+                ref="filterBarRef"
+                class="sticky z-30 mb-8 transition-all duration-300 pointer-events-none"
+                :style="{ top: headerOffset + 'px' }"
+            >
+                <div class="pointer-events-auto px-4">
+                    <div class="glass-panel w-fit mx-auto p-2 rounded-2xl flex flex-col md:flex-row gap-3 items-center shadow-lg shadow-surface-950/5 border border-surface-200/50 dark:border-surface-700/50 backdrop-blur-xl bg-surface-0/80 dark:bg-surface-900/80">
+                        
+                        <!-- Search -->
+                        <div 
+                            class="relative w-full md:w-72 group transition-all duration-300"
+                            :class="{ 'md:w-80': isSearchFocused }"
                         >
-                            <template #value="slotProps">
-                                <div v-if="slotProps.value === 'all'" class="flex items-center gap-2">
-                                    <span class="text-lg">🌐</span>
-                                    <span>{{ t('common.allCountries') }}</span>
-                                </div>
-                                <div v-else-if="slotProps.value" class="flex items-center gap-2">
-                                    <img :src="getCountryFlagUrl(slotProps.value)" class="w-5 h-3.5 object-cover rounded-sm shadow-sm" />
-                                    <span>{{ countryOptions.find(c => c.iso2 === slotProps.value)?.name }}</span>
-                                </div>
-                                <span v-else>{{ slotProps.placeholder }}</span>
-                            </template>
-                            <template #option="slotProps">
-                                <div class="flex items-center gap-2">
-                                    <span v-if="slotProps.option.iso2 === 'all'" class="text-lg">🌐</span>
-                                    <img v-else :src="getCountryFlagUrl(slotProps.option.iso2)" class="w-5 h-3.5 object-cover rounded-sm shadow-sm" />
-                                    <span>{{ slotProps.option.name }}</span>
-                                </div>
-                            </template>
-                        </Select>
+                            <i class="pi pi-search absolute left-3.5 top-1/2 -translate-y-1/2 text-surface-400 dark:text-surface-500 transition-colors group-focus-within:text-primary-500 z-10"></i>
+                            <input 
+                                v-model="searchQuery"
+                                type="text" 
+                                @focus="isSearchFocused = true"
+                                @blur="isSearchFocused = false"
+                                :placeholder="t('assetsPage.searchPlaceholder') || t('common.search') || 'Search assets...'"
+                                class="w-full bg-surface-50 dark:bg-surface-800 border-none rounded-xl pl-10 pr-10 py-3 text-sm focus:ring-2 focus:ring-primary-500/50 transition-all placeholder:text-surface-400 dark:placeholder:text-surface-500 hover:bg-surface-100 dark:hover:bg-surface-700/50"
+                            />
+                            <i 
+                                v-if="searchQuery"
+                                @click="searchQuery = ''"
+                                class="pi pi-times-circle absolute right-3 top-1/2 -translate-y-1/2 text-surface-400 hover:text-surface-600 dark:hover:text-surface-300 cursor-pointer transition-colors"
+                            ></i>
+                        </div>
+
+                        <div class="hidden md:block w-px h-8 bg-surface-200 dark:bg-surface-700 mx-1"></div>
+
+                        <!-- Type Filter (Custom Segmented) -->
+                        <div class="w-full md:w-auto overflow-x-auto no-scrollbar shrink-0">
+                            <div class="inline-flex bg-surface-50 dark:bg-surface-800 p-1.5 rounded-xl gap-1">
+                                <button 
+                                    v-for="opt in typeOptions" 
+                                    :key="opt.value"
+                                    @click="selectedType = opt.value"
+                                    class="relative group px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center gap-2 whitespace-nowrap min-w-fit"
+                                    :class="selectedType === opt.value ? 'bg-white dark:bg-surface-700 text-primary-600 dark:text-primary-400 shadow-sm' : 'text-surface-600 dark:text-surface-400 hover:text-surface-900 dark:hover:text-surface-200 hover:bg-surface-100 dark:hover:bg-surface-700/50'"
+                                >
+                                    <i :class="[opt.icon, 'text-xs opacity-70']"></i>
+                                    <span>{{ opt.label }}</span>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Country Filter -->
+                        <div class="w-full md:w-56">
+                            <Select 
+                                v-model="selectedCountry"
+                                :options="countryOptions"
+                                optionLabel="name"
+                                optionValue="iso2"
+                                class="w-full !bg-surface-50 dark:!bg-surface-800 !border-none !rounded-xl text-sm shadow-none hover:bg-surface-100 dark:hover:bg-surface-700/50 transition-colors"
+                                :pt="{
+                                    root: { class: 'focus:ring-2 focus:ring-primary-500 min-h-[46px] flex items-center' },
+                                    label: { class: 'px-3 py-2 text-surface-700 dark:text-surface-200 font-medium' },
+                                    trigger: { class: 'w-8 text-surface-400' },
+                                    panel: { class: 'border border-surface-200 dark:border-surface-700 shadow-xl rounded-xl mt-1 overflow-hidden' },
+                                    list: { class: '!p-1' },
+                                    item: ({ context }) => ({
+                                        class: [
+                                            'rounded-lg m-1 p-2 transition-colors duration-200',
+                                            context.selected ? 'bg-primary-50 dark:bg-primary-900/20 text-primary-600 dark:text-primary-400' : 'hover:bg-surface-100 dark:hover:bg-surface-800 text-surface-700 dark:text-surface-200'
+                                        ]
+                                    })
+                                }"
+                                filter
+                                :filterPlaceholder="t('incidentsPage.searchPlaceholder')"
+                            >
+                                <template #value="slotProps">
+                                    <div v-if="slotProps.value === 'all'" class="flex items-center gap-2 px-1">
+                                        <span class="text-base text-surface-500">🌐</span>
+                                        <span>{{ t('common.allCountries') }}</span>
+                                    </div>
+                                    <div v-else-if="slotProps.value" class="flex items-center gap-2 px-1">
+                                        <img :src="getCountryFlagUrl(slotProps.value)" class="w-5 h-3.5 object-cover rounded-sm shadow-sm opacity-90" />
+                                        <span class="truncate">{{ countryOptions.find(c => c.iso2 === slotProps.value)?.name }}</span>
+                                    </div>
+                                    <span v-else class="text-surface-400">{{ slotProps.placeholder }}</span>
+                                </template>
+                                <template #option="slotProps">
+                                    <div class="flex items-center gap-3">
+                                        <span v-if="slotProps.option.iso2 === 'all'" class="text-lg w-5 text-center text-surface-500">🌐</span>
+                                        <img v-else :src="getCountryFlagUrl(slotProps.option.iso2)" class="w-5 h-3.5 object-cover rounded-sm shadow-sm" />
+                                        <span>{{ slotProps.option.name }}</span>
+                                        <i v-if="slotProps.option.iso2 === selectedCountry" class="pi pi-check ml-auto text-primary-500 text-xs"></i>
+                                    </div>
+                                </template>
+                            </Select>
+                        </div>
+
+                        <!-- Clear Filters -->
+                        <Transition name="fade">
+                            <button 
+                                v-if="hasActiveFilters"
+                                @click="clearFilters"
+                                class="w-10 h-10 md:w-11 md:h-11 rounded-xl bg-surface-50 dark:bg-surface-800 hover:bg-red-50 dark:hover:bg-red-900/20 text-surface-400 hover:text-red-500 flex items-center justify-center transition-all shrink-0 tooltip-target"
+                                :title="t('common.clearFilters')"
+                            >
+                                <i class="pi pi-filter-slash"></i>
+                            </button>
+                        </Transition>
                     </div>
-
-
                 </div>
             </div>
 
@@ -428,12 +517,12 @@ const clearFilters = () => {
                 </div>
             </div>
 
-            <div v-else-if="filteredAssets.length > 0" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+            <div v-else-if="filteredAssets.length > 0" class="relative grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                 <TransitionGroup name="grid">
                     <div 
                         v-for="asset in filteredAssets" 
                         :key="asset.id" 
-                        class="group cursor-pointer"
+                        class="group cursor-pointer w-full"
                         @click="openPreviewModal(asset)"
                     >
                         <!-- Card -->
@@ -506,10 +595,30 @@ const clearFilters = () => {
 .grid-enter-from,
 .grid-leave-to {
     opacity: 0;
-    transform: translateY(20px) scale(0.95);
+    transform: translateY(10px);
 }
 
 .grid-leave-active {
     position: absolute;
+    pointer-events: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+    opacity: 0;
+    transform: scale(0.9);
 }
 </style>
