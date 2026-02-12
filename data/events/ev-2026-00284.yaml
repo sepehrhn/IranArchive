@@ -1,37 +1,36 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "National Gathering: Solidarity with the Iranian People / Soutien au Peuple Iranien"
+title: "Potential Local Solidarity Gathering"
 
-featured: true
+featured: false
 
 description: |
-  A major mobilization part of a national day of action calling for an immediate end to the brutal repression in Iran, the release of political prisoners, and support for the democratic uprising (started Dec 2025). Expect speeches from diaspora figures, human rights activists, and chanting of 'Femme, Vie, Liberté' (Jin, Jiyan, Azadî).
+  Due to the Nice Carnival occupying Place Masséna, any local action will likely be a smaller static rally at City Hall or cancelled in favor of the Munich trip. Past events (Jan 14) were held at Hôtel de Ville.
   
-  **Tips:** Confirm exact spot on 'Femme Azadi' or LDH Twitter/Instagram. Note: A separate Palestine solidarity march is planned at Place de la Nation at 14:00; ensure you join the correct group (look for Lion & Sun flags or 'Woman Life Freedom' banners).
+  **Tips:** Verify last-minute locations on the 'Nice 24' news feed or local Facebook groups. Avoid Place Masséna due to the Carnival parade at 21:00.
   
-  **Location Details:** Exact location pending final police prefecture decree; check LDH Paris or Femme Azadi social media 24h prior. Previous Jan 17 rally was at Panthéon.
+  **Location Details:** Hôtel de Ville (City Hall) or Place Garibaldi
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "14:00"
-  end: "2026/02/14"
-  end_time: "17:00"
+  start_time: ""
+
 
 location:
   country: "FR"
-  city: "Paris"
-  address: "Likely Place de la République or Place du Panthéon"
+  city: "Nice"
+  address: "Nice (Likely Hôtel de Ville or suspended)"
 
 online: []
 
 organizer:
-  name: "LDH (Ligue des droits de l'Homme), Femme Azadi, and coalition of NGOs"
+  name: "Collectif Iran Nice / Femme Vie Liberté Nice"
   website: ""
   contact_email: ""
   socials:
@@ -40,5 +39,6 @@ organizer:
     telegram: ""
 
 source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGI3WpSjfeR-glz2ddfPRvQ_Q87iHaPzJOv3NmVyCdti1_daa9qALbi5kidyy8zQn5tf0e9j3mRu1PqD6kkxfPG-H1_M8tdFtWgnk9jz9R57FzkpHeoKZBeWUqp7JQu880SGewIUCM="
-
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEXLaRS6mq39-OjIx1IuRONWyu787g6207Q9WnneW4ghu6Chd1GewzfR3MYHw7boOQEs8AdY0LcCjyR5JphIvU1rW7Lu5MTVbZ25duRyT8-FEulKKjBKDbwUgwI1t9p8P0S1w=="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFWJz6MY7L4CqR9OJjLT1v5NvxA_dnPuuAdORMNRtXXCXYRhDE7Y3qRjj76hDw305EOL5NzDLSJSsWU0z8BMzemWaYfrhyPdvTtl0M-Cc3xEhzOw9U7xz4Wq2AuAc8="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4pyil-GlRXxraHgQ6NUoZuwNV2M2MZ-ckAEpU-4nG1fDnEW0Qqes3xpCKmGR8-84SAzW55v2Jp33uGiQII8qi53knI5d3oRLt6gzCuHbw-8YhE3Z2am5M-U9q4frJzplaBuBO"

@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Wrocław"
+title: "Solidarity Protest in Vaasa"
 
 featured: false
 
@@ -15,13 +15,13 @@ type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "14:30"
+  start_time: "15:00"
 
 
 location:
-  country: "PL"
-  city: "Wrocław"
-  address: "Pregierz, Rynek, 50-116 Wrocław"
+  country: "FI"
+  city: "Vaasa"
+  address: "Vaasapuistikko 19"
 
 online: []
 
@@ -35,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

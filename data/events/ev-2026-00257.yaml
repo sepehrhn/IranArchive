@@ -1,33 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Houston"
+title: "Global Day of Action - Lion and Sun Revolution"
 
 featured: false
 
 description: |
-  Community-organized solidarity event for the Iranian people's uprising.
+  The main nationwide rally in solidarity with the uprising, coinciding with the Munich Security Conference. Reza Pahlavi has designated this day for global action.
+  
+  **Tips:** Check for organized buses from Hamburg Hauptbahnhof or Dammtor. Dress warmly.
+  
+  **Location Details:** Centralized event for all German diaspora. Many Hamburg groups are traveling here.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "14:00"
+  start_time: "13:00"
   end: "2026/02/14"
   end_time: "16:00"
 
 location:
-  country: "US"
-  city: "Houston"
-  address: "2800 Post Oak Blvd, Houston, TX 77056"
+  country: "DE"
+  city: "Hamburg"
+  address: "Theresienwiese, Munich (Central Germany Rally)"
 
 online: []
 
 organizer:
-  name: "Local Organizer"
+  name: "Hope Association / Constitutionalist Party / Reza Pahlavi"
   website: ""
   contact_email: ""
   socials:
@@ -36,4 +40,3 @@ organizer:
     telegram: ""
 
 source: []
-

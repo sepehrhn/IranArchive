@@ -1,37 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Global Day of Action: Solidarity with the Iranian Uprising"
+title: "Global Day of Action: Solidarity with Iran's Uprising"
 
 featured: true
 
 description: |
-  A major solidarity rally coinciding with protests in dozens of cities worldwide. Demonstrators will be gathering to condemn the brutal crackdown by the Islamic Republic (including the recent mass killings in January) and to support the Iranian people's demand for regime change and democracy. Expect speeches, chanting of slogans like 'Woman, Life, Freedom', and a call for international sanctions.
+  Part of a worldwide day of coordinated protests in solidarity with the uprising that began in December 2025. Demonstrators are demanding an end to the brutal crackdown, the expulsion of Islamic Republic diplomats, and immediate support for the Iranian people's strikes and protests. The 'Lion and Sun' branding is prominent in this wave of protests.
   
-  **Tips:** Malieveld is a short walk from Den Haag Centraal. Dress warmly for February weather. Many attendees will be carrying the pre-revolutionary 'Lion and Sun' flag; avoid bringing symbols not aligned with the general unity of the uprising.
+  **Tips:** Wear comfortable shoes and bring warm layers as it can be windy by the water. Bring Iranian flags (Lion and Sun versions are common) and signs. Check 'BayArea4Iran' on social media for last-minute updates.
   
-  **Location Details:** Large grass field near Den Haag Centraal station; look for the Lion and Sun flags.
+  **Location Details:** The Embarcadero (Market St & Steuart St), San Francisco. In front of the Ferry Building.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "14:00"
+  start_time: "12:00"
   end: "2026/02/14"
-  end_time: "16:00"
+  end_time: "14:00"
 
 location:
-  country: "NL"
-  city: "The Hague"
-  address: "Malieveld, The Hague"
+  country: "US"
+  city: "San Francisco"
+  address: "Harry Bridges Plaza (Ferry Building)"
 
 online: []
 
 organizer:
-  name: "Coalition of Iranian Diaspora Groups (Global Day of Action)"
+  name: "BayArea4Iran, Iran Monitor, and independent diaspora coalitions"
   website: ""
   contact_email: ""
   socials:
@@ -39,5 +39,7 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
-
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZiEcPZG3NuNxu2K7h0RX5jNVrimeJOpQK4_plEnlUhWDgNgr-iUrP7l_6PA3oDVh341q3F3Zj8clOhhL3epcdNdgXtDU-qgRD4TKcIM4yrK8YGo6bL0Ey0tw="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMTNkGM565KbATTRDf5_AxibTFcCxfy5xU2x-oBflHzNkKr9JdZuS-lrLEHH9FrMhlMU9fOJpDVCy7clYTuLghqKGEwWVAv-7kwbQppiWsp5WDeQe2olI7AVk-3tLHPH8m8vqQoA=="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq-7YPAuRQ3Y9Ig9Jfu6tMDww8_Q-hd8BXpF-57aJH3TT3pYpNNWbg71e4pm8s-sssCZMIq5mCmezOj0r8sB77b_zvVNWxunF1IeMEi_KJAWMErfXbD6oFN0ckc6wQTPmyAQ=="

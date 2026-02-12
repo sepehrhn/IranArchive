@@ -1,37 +1,36 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "King Reza Pahlavi - Maximum Support For Iran"
+title: "Global Day of Action: Solidarity with Iran's Uprising"
 
-featured: false
+featured: true
 
 description: |
-  Rally in support of Reza Pahlavi and the uprising for regime change. Expect Lion and Sun flags and monarchist slogans.
+  A major international rally designated as a 'Global Day of Action' to support the nationwide uprising in Iran that began in Dec 2025. Protesters are demanding an end to the Islamic Republic, the release of political prisoners detained in the Jan 2026 crackdown, and international recognition of the Iranian people's demand for regime change. Recent rallies have focused on condemning the internet blackout and mass killings.
   
-  **Tips:** This is a politically specific event supporting the constitutionalist/monarchist opposition wing.
+  **Tips:** Wear white or the colors of the Iranian flag (Green/White/Red). Bring warm clothes as it will be cold. Avoid engaging with any counter-protestors. Check 'Woman Life Freedom NYC' or 'New York City for Iran' social media for last-minute time confirmation.
   
-  **Location Details:** In front of the Stortinget (Parliament) building.
+  **Location Details:** Broadway & 46th/47th St. Look for 'Woman Life Freedom' signs and the Lion and Sun flags.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "16:00"
-  end: "2026/02/14"
-  end_time: "18:00"
+  start_time: "14:00"
+
 
 location:
-  country: "NO"
-  city: "Oslo"
-  address: "Eidsvolls plass, Karl Johans gate 22, 0026 Oslo"
+  country: "US"
+  city: "New York City"
+  address: "Times Square (Father Duffy Square)"
 
 online: []
 
 organizer:
-  name: "Maximum Support For Iran"
+  name: "Coalition of Iranian Diaspora Groups / Woman Life Freedom NYC (Unified 'Global Day of Action')"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +39,3 @@ organizer:
     telegram: ""
 
 source: []
-

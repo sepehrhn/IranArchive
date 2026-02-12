@@ -1,36 +1,36 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Woman Life Freedom & One Billion Rising Solidarity Rally"
+title: "Global Day of Action: Solidarity with the Iranian Revolution"
 
-featured: false
+featured: true
 
 description: |
-  A solidarity rally marking the 'Global Day of Action' for Iran, integrated with the 'One Billion Rising' campaign against violence against women. The event supports the current uprising in Iran, emphasizing the 'Woman, Life, Freedom' slogan and condemning the regime's brutal crackdown.
+  A major solidarity rally coinciding with global demonstrations called by Reza Pahlavi and other opposition leaders. The protest condemns the recent massacre of over 3,000 protesters in Iran, the internet blackout, and the execution of political prisoners. Participants often display the 'Lion and Sun' flag and chant for regime change.
   
-  **Tips:** This event connects the Iranian struggle with the global campaign for women's rights. Expect dancing (part of the One Billion Rising tradition) alongside political speeches and chanting. Wear warm clothes.
+  **Tips:** Community forums indicate a 'new location' may have been secured for this specific date, so check the latest updates from 'Woman Life Freedom DFW' or 'NewIran' social media pages before heading out. Bring water and signs supporting the 'Woman, Life, Freedom' movement.
   
-  **Location Details:** Central square near Hauptwache; look for 'Woman, Life, Freedom' banners and 'One Billion Rising' stage.
+  **Location Details:** Exact location recently updated (permits secured for a 'new location' per community discussions). Historically, rallies gather at 1500 Marilla St (City Hall) or Pioneer Plaza.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "14:00"
+  start_time: "11:00"
 
 
 location:
-  country: "DE"
-  city: "Frankfurt"
-  address: "Roßmarkt, 60311 Frankfurt am Main"
+  country: "US"
+  city: "Dallas"
+  address: "Downtown Dallas (Likely Dallas City Hall or Pioneer Plaza)"
 
 online: []
 
 organizer:
-  name: "Local activist groups / One Billion Rising Frankfurt"
+  name: "Supporters of the Iranian Uprising / Constitutionalist Front (Lion & Sun)"
   website: ""
   contact_email: ""
   socials:
@@ -38,8 +38,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHLFPafBorQAZQ40T0QJSVToqdb7PJTPQXKTTn3Q_05f8QdOMjG1IA942G6F7C_6-mQHRhRcm2kv2MVeODkd-P5j5wLsie3WMuUvpb998rn6W3Pvs0socJoXL67fpSQ_Oc8Qg=="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEfHNiaqGXcemPqfv5g9DrTe2j6gvW2q2NslL5G8mBw2gMmAXTXYpBSLb4_xO7koOTuvxnObIDmwaze8zDiJkAxvYNYL34TXsLzcm6ppdh3yNYe0knt0B_kAQK0HGNf4ekikAaGYKKy"
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMcositO1zhqwvCj5yxa8GozEuVh7znjtxKS2CI5aDvO2_vzRjvl4JCmjuta_-9kiNq3551k60Drr4B6KV66jzIh7vJdAO08-UWzCv8PYZXcKRQz8TrFgsjXV5dv8="
-
+source: []

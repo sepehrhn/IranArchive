@@ -1,37 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Weekly Sunday Solidarity Rally"
+title: "Sunday Information Stand & Flash Mob"
 
 featured: false
 
 description: |
-  While the main global event is Saturday, local Ottawa groups often hold their regular weekly rallies on Sundays. If you miss Saturday, a smaller gathering often occurs on Sunday at the same location to maintain a continuous presence.
+  Outreach event aimed at the German public to raise awareness about the recent UN Human Rights Council emergency session and the internet blackout in Iran. Often involves performance art symbolizing the crackdown.
   
-  **Tips:** Check 'Ottawa Rise IRAN' social media pages on Saturday night to confirm if the Sunday event is still proceeding in light of the major Saturday rally.
+  **Tips:** Good for those who want to engage in dialogue with locals rather than just chanting. Look for the 'Woman Life Freedom' signs.
   
-  **Location Details:** Centennial Flame or main lawn.
+  **Location Details:** Weltzeituhr (World Time Clock)
 
 type: "in_person"
 
 date:
   start: "2026/02/15"
-  start_time: "14:00"
+  start_time: "13:00"
   end: "2026/02/15"
-  end_time: "16:00"
+  end_time: "15:00"
 
 location:
-  country: "CA"
-  city: "Ottawa"
-  address: "Parliament Hill, Wellington St, Ottawa, ON"
+  country: "DE"
+  city: "Berlin"
+  address: "Alexanderplatz"
 
 online: []
 
 organizer:
-  name: "Ottawa Rise IRAN Community Team (Tentative)"
+  name: "Woman Life Freedom Collective Berlin"
   website: ""
   contact_email: ""
   socials:
@@ -39,7 +39,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQQE2BgCBhnzvkSCENfAktdb4JIlE9Wdvrkc1Qk3rwx2_weBzXzOMNg6_QWy5cB2oUCnjX8RKaB2XC2LmOF-x6EB69xQzOgqY81xS1-xIShGxrtl_q0m06Pz4GCMzwEzX4v9Mkgd4="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXEkIInBMLfDvXCcKFM11ONsnXoegCuBwkGT2EawDeqcGN-nIdmD9p61jM-cax4-uLiC2eI7Er6UE6U_cLJLiBerj8wtsDCixux90mW5VOKBh6JfPYDreqXCHvqIxCHZrBQNN9bOc="
-
+source: []

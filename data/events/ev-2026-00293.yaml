@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Stockholm"
+title: "Solidarity Protest in Regina"
 
 featured: false
 
@@ -15,13 +15,13 @@ type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "15:30"
+  start_time: "14:00"
 
 
 location:
-  country: "SE"
-  city: "Stockholm"
-  address: "Norra Bantorget"
+  country: "CA"
+  city: "Regina"
+  address: "Darke Hall, 2255 College Ave, Regina, SK S4P 0S9"
 
 online: []
 
@@ -35,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

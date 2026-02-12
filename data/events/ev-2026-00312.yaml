@@ -1,19 +1,19 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Student Solidarity Vigil & Rally"
+title: "Weekly Sunday Solidarity Protest"
 
-featured: false
+featured: true
 
 description: |
-  A gathering often led by Iranian student associations to honor students and youth killed or disappeared during the recent crackdown. Focuses on the 'Woman Life Freedom' message and academic solidarity.
+  Continuation of the standing weekly protests in Austin against the regime's brutal crackdown and recent wave of executions.
   
-  **Tips:** Usually a more peaceful/vigil atmosphere compared to the midtown rallies.
+  **Tips:** Parking is usually free at the Capitol Visitors Garage on San Jacinto Blvd.
   
-  **Location Details:** Near the Arch.
+  **Location Details:** South Steps or 11th Street sidewalk
 
 type: "in_person"
 
@@ -25,13 +25,13 @@ date:
 
 location:
   country: "US"
-  city: "New York City"
-  address: "Washington Square Park"
+  city: "Austin"
+  address: "Texas State Capitol, 1100 Congress Ave, Austin, TX 78701"
 
 online: []
 
 organizer:
-  name: "University Students / Youth Collectives"
+  name: "Local Community Activists"
   website: ""
   contact_email: ""
   socials:
@@ -39,5 +39,5 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
-
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1gLvOdAm806rAH9fL-0TzMwuWQTJLlt9BUXPRP2SE18JSymMpoYDdNWoOIr2slBelnbanb-IfVyUeb7F46E9NNkDknjW8xfQ6UlzVJU6lMzawup-_Z7MqSLuUHtvHf1J6pWwEwso="

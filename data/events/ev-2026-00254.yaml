@@ -1,36 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Local Solidarity Gathering (Unconfirmed)"
+title: "Solidarity Protest in Göteborg"
 
 featured: false
 
 description: |
-  Likely standing protest for those unable to travel to Munich. This is the standard location for Hamburg's Iran protests (e.g., the 13,000-person march on Jan 17).
-  
-  **Tips:** If no crowd is visible, the community has likely traveled to Munich. Avoid Rathausmarkt (other demo).
-  
-  **Location Details:** Reesendammbrücke / Flaggenplatz
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: ""
+  start_time: "12:00"
 
 
 location:
-  country: "DE"
-  city: "Hamburg"
-  address: "Jungfernstieg, Hamburg"
+  country: "SE"
+  city: "Göteborg"
+  address: "Götaplatsen"
 
 online: []
 
 organizer:
-  name: "Local Activists (Informal)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

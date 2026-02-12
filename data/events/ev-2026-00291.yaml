@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Global Day of Action: Solidarity with Iran's Uprising"
+title: "Solidarity Protest in Portland"
 
-featured: true
+featured: false
 
 description: |
-  Part of a worldwide day of coordinated protests in solidarity with the uprising that began in December 2025. Demonstrators are demanding an end to the brutal crackdown, the expulsion of Islamic Republic diplomats, and immediate support for the Iranian people's strikes and protests. The 'Lion and Sun' branding is prominent in this wave of protests.
-  
-  **Tips:** Wear comfortable shoes and bring warm layers as it can be windy by the water. Bring Iranian flags (Lion and Sun versions are common) and signs. Check 'BayArea4Iran' on social media for last-minute updates.
-  
-  **Location Details:** The Embarcadero (Market St & Steuart St), San Francisco. In front of the Ferry Building.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "12:00"
-  end: "2026/02/14"
-  end_time: "14:00"
+  start_time: "13:00"
+
 
 location:
   country: "US"
-  city: "San Francisco"
-  address: "Harry Bridges Plaza (Ferry Building)"
+  city: "Portland"
+  address: "Pioneer Square"
 
 online: []
 
 organizer:
-  name: "BayArea4Iran, Iran Monitor, and independent diaspora coalitions"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -39,8 +34,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEZiEcPZG3NuNxu2K7h0RX5jNVrimeJOpQK4_plEnlUhWDgNgr-iUrP7l_6PA3oDVh341q3F3Zj8clOhhL3epcdNdgXtDU-qgRD4TKcIM4yrK8YGo6bL0Ey0tw="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFMTNkGM565KbATTRDf5_AxibTFcCxfy5xU2x-oBflHzNkKr9JdZuS-lrLEHH9FrMhlMU9fOJpDVCy7clYTuLghqKGEwWVAv-7kwbQppiWsp5WDeQe2olI7AVk-3tLHPH8m8vqQoA=="
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGq-7YPAuRQ3Y9Ig9Jfu6tMDww8_Q-hd8BXpF-57aJH3TT3pYpNNWbg71e4pm8s-sssCZMIq5mCmezOj0r8sB77b_zvVNWxunF1IeMEi_KJAWMErfXbD6oFN0ckc6wQTPmyAQ=="
-
+source: []

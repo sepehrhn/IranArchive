@@ -1,33 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Porto"
+title: "Global Day of Action: Solidarity with the Iranian Uprising"
 
-featured: false
+featured: true
 
 description: |
-  Community-organized solidarity event for the Iranian people's uprising.
+  A major rally coinciding with worldwide demonstrations to support the ongoing uprising in Iran. Participants will demand the fall of the Islamic Republic, call for the designation of the IRGC as a terrorist organization, and show solidarity with protesters facing the regime's brutal crackdown. Expect 'Woman, Life, Freedom' chants and pre-1979 'Lion and Sun' flags.
+  
+  **Tips:** Dress warmly as February in Ottawa is freezing (often -10°C to -20°C). Bring hand warmers. This is part of a coordinated global effort, so turnout is expected to be higher than usual weekly rallies.
+  
+  **Location Details:** Main lawn in front of the Parliament buildings.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "15:00"
+  start_time: "13:00"
   end: "2026/02/14"
-  end_time: "18:00"
+  end_time: "16:00"
 
 location:
-  country: "PT"
-  city: "Porto"
-  address: "Intersection of Av. do Mal. Gomes da Costa & Av. da Boavista (4150-354)"
+  country: "CA"
+  city: "Ottawa"
+  address: "Parliament Hill, Wellington St, Ottawa, ON"
 
 online: []
 
 organizer:
-  name: "Local Organizer"
+  name: "Coalition of Iranian diaspora groups (likely including Ottawa Rise IRAN Community Team)"
   website: ""
   contact_email: ""
   socials:
@@ -35,5 +39,6 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
-
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGQQE2BgCBhnzvkSCENfAktdb4JIlE9Wdvrkc1Qk3rwx2_weBzXzOMNg6_QWy5cB2oUCnjX8RKaB2XC2LmOF-x6EB69xQzOgqY81xS1-xIShGxrtl_q0m06Pz4GCMzwEzX4v9Mkgd4="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHXEkIInBMLfDvXCcKFM11ONsnXoegCuBwkGT2EawDeqcGN-nIdmD9p61jM-cax4-uLiC2eI7Er6UE6U_cLJLiBerj8wtsDCixux90mW5VOKBh6JfPYDreqXCHvqIxCHZrBQNN9bOc="

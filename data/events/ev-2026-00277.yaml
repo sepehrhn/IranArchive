@@ -1,36 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Protest at Regime Officials' Residence"
+title: "Global Day of Action - Montreal Solidarity Stand"
 
 featured: true
 
 description: |
-  Demonstrators often march or gather here to directly confront regime representatives. This location was the site of a significant rally on Jan 31, 2026. Expect chants of 'Death to the Dictator' and calls for the expulsion of Islamic Republic diplomats.
+  A local gathering in solidarity with the 'Global Day of Action' designated by Reza Pahlavi. While many Montrealers are traveling to Toronto, those remaining typically gather here to support the uprising and demand regime change.
   
-  **Tips:** This location is in a residential/museum area; police presence is usually heavy.
+  **Tips:** Check 'Woman Life Freedom Montreal' social channels for last-minute updates. Dress warmly as it is an outdoor standing event.
   
-  **Location Details:** 1033 Fifth Avenue (at E 83rd St), across from the Metropolitan Museum of Art.
+  **Location Details:** Near Peel Metro; often marches to US Consulate (1155 Metcalfe St)
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "15:00"
-
+  start_time: "14:00"
+  end: "2026/02/14"
+  end_time: "16:00"
 
 location:
-  country: "US"
-  city: "New York City"
-  address: "Residence of the Iranian Ambassador to the UN"
+  country: "CA"
+  city: "Montreal"
+  address: "Place du Canada"
 
 online: []
 
 organizer:
-  name: "Independent Activists / Pahlavi Supporters"
+  name: "Local grassroots / Global Call to Action"
   website: ""
   contact_email: ""
   socials:
@@ -38,5 +39,5 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
-
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlEtq5PXfPXutfHjMR__InMywSaiIXe_46MX9yynYNzskfAw-p3hVu4TEQ1IdAoEIRbhdcCaDydMm-opZqLViGX7k4luEhuXvhhWmVW6cCDMoQYduFFYcVfMLDWA=="

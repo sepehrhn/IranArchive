@@ -1,7 +1,11 @@
 <script setup lang="ts">
 import { type Incident } from '~/types/incident';
+import { useStickyHeader } from '~/composables/useStickyHeader';
 
 const { t } = useI18n()
+const { headerOffset, headerHeight, registerStickyTrigger } = useStickyHeader()
+
+const filterBarRef = ref<HTMLElement | null>(null)
 
 // Load all incidents using glob import
 const incidentModules = import.meta.glob('~/data/incidents/**/*.yaml', { eager: true });
@@ -37,6 +41,14 @@ onMounted(() => {
     setTimeout(() => {
         loading.value = false;
     }, 400);
+
+    if (filterBarRef.value) {
+        registerStickyTrigger(filterBarRef.value)
+    }
+});
+
+onUnmounted(() => {
+    // No explicit reset needed
 });
 
 const statusOptions = computed(() => [
@@ -89,7 +101,11 @@ const clearFilters = () => {
         </div>
 
         <!-- Controls Toolbar -->
-        <div class="sticky-trigger flex flex-col lg:flex-row gap-4 justify-between items-center bg-surface-0/95 dark:bg-surface-900/95 p-4 rounded-xl border border-surface-200 dark:border-surface-800 shadow-md mb-8 sticky top-16 z-40 backdrop-blur-md">
+        <div 
+            ref="filterBarRef"
+            class="sticky-trigger flex flex-col lg:flex-row gap-4 justify-between items-center bg-surface-0/95 dark:bg-surface-900/95 p-4 rounded-xl border border-surface-200 dark:border-surface-800 shadow-md mb-8 sticky z-40 backdrop-blur-md transition-all duration-300"
+            :style="{ top: headerOffset + 'px' }"
+        >
             <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0 flex-grow">
                 <IconField iconPosition="left" class="w-full sm:w-96">
                     <InputIcon class="pi pi-search" />

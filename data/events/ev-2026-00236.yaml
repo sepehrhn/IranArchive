@@ -1,37 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Global Day of Action: Solidarity with the Iranian Uprising"
+title: "Valentine's Day Vigil: 'For the Love of Iran'"
 
-featured: true
+featured: false
 
 description: |
-  A major international rally coinciding with protests worldwide. Demonstrators are demanding an end to the Islamic Republic, the release of political prisoners detained in the Jan 2026 purges, and the designation of the IRGC as a terrorist organization. Expect speeches, human chains, and chanting.
+  A candlelight vigil and silent protest honoring the estimated 3,000+ victims killed since December 2025. Protesters often place flowers and photos of recent victims (including the 'Jan 8 Martyrs') at the embassy gates.
   
-  **Tips:** This is expected to be the main event of the weekend. Dress warmly (Berlin Feb weather is around 2°C). Police presence will be visible but generally cooperative.
+  **Tips:** Bring candles, flowers, or photos of victims. This is a more somber, smaller gathering compared to the Brandenburg Gate rally.
   
-  **Location Details:** Pariser Platz; Nearest S/U-Bahn: Brandenburger Tor. Look for the 'Lion and Sun' flags and 'Woman Life Freedom' banners.
+  **Location Details:** Podbielskiallee 67, 14195 Berlin (Dahlem). Nearest U-Bahn: U3 Podbielskiallee.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "14:00"
+  start_time: "17:00"
   end: "2026/02/14"
-  end_time: "16:00"
+  end_time: "19:00"
 
 location:
   country: "DE"
   city: "Berlin"
-  address: "Brandenburg Gate (Brandenburger Tor)"
+  address: "Iranian Embassy"
 
 online: []
 
 organizer:
-  name: "Coalition of Iranian Opposition Groups / Supporters of the Uprising (Global Call to Action)"
+  name: "Independent Activists / Student Groups"
   website: ""
   contact_email: ""
   socials:

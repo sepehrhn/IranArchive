@@ -1,10 +1,10 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Warsaw"
+title: "Solidarity Protest in Tallinn"
 
 featured: false
 
@@ -15,13 +15,14 @@ type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "16:00"
-
+  start_time: "12:00"
+  end: "2026/02/14"
+  end_time: "14:00"
 
 location:
-  country: "PL"
-  city: "Warsaw"
-  address: "Plac Zamkowy → Pałac Staszica, Warsaw"
+  country: "XX"
+  city: "Tallinn"
+  address: "Vabaduse väljak"
 
 online: []
 
@@ -35,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

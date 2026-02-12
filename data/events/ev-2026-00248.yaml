@@ -1,19 +1,15 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Global Day of Action: Solidarity with the Iranian Uprising"
+title: "Solidarity Protest in Columbia"
 
 featured: false
 
 description: |
-  A major solidarity rally coinciding with worldwide demonstrations to support the uprising in Iran. Participants will demand an end to the crackdown, the release of political prisoners, and the expulsion of Islamic Republic diplomats. This event is part of a coordinated global effort across dozens of cities.
-  
-  **Tips:** Wear warm clothes as it will be outdoors. Bring placards with slogans such as 'Woman, Life, Freedom' or photos of victims of the recent crackdown. Expect chanting in both English and Persian.
-  
-  **Location Details:** O'Connell Street, Dublin 1 (Meeting point at the base of the Spire)
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
@@ -24,14 +20,14 @@ date:
   end_time: "14:00"
 
 location:
-  country: "IE"
-  city: "Dublin"
-  address: "The Spire"
+  country: "US"
+  city: "Columbia"
+  address: "State House, Columbia, SC"
 
 online: []
 
 organizer:
-  name: "Iranian Community of Ireland / Global Day of Action Coalition"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +36,3 @@ organizer:
     telegram: ""
 
 source: []
-

@@ -1,33 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Lisbon"
+title: "Irvine Support Rally - Global Day of Action"
 
 featured: false
 
 description: |
-  Community-organized solidarity event for the Iranian people's uprising.
+  A local gathering in solidarity with the 'Global Day of Action' called by opposition figures including Reza Pahlavi. Protesters will gather to condemn the regime's crackdown and support the nationwide uprising in Iran.
+  
+  **Tips:** This event is listed as tentative/possible in some community calendars; attendees are advised to check local Telegram/social media channels for last-minute confirmation. Many may carpool to the main LA rally afterwards.
+  
+  **Location Details:** 18712 University Dr, Irvine, CA 92612. Meeting point likely near the intersection of Culver Dr & University Dr.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "15:00"
+  start_time: "10:00"
   end: "2026/02/14"
-  end_time: "18:00"
+  end_time: "12:00"
 
 location:
-  country: "PT"
-  city: "Lisbon"
-  address: "Praça Duque de Saldanha"
+  country: "US"
+  city: "Irvine"
+  address: "William R. Mason Regional Park"
 
 online: []
 
 organizer:
-  name: "Local Organizer"
+  name: "Local Iranian Diaspora Activists"
   website: ""
   contact_email: ""
   socials:
@@ -35,5 +39,5 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
-
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH-JvFsdxqmTFNPpZeukh7qr7MWz10ePsnoh1ThzykWJfrnQMbVTrVs8fTbsTyRpYifnnzWwj3I1Tls_Mu83wfruLDTLwagawPxNETMc8B4iI04i9ASNVUVHdC2TRhKA=="

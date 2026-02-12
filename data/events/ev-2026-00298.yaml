@@ -1,32 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Solidarity Protest in Toronto"
+title: "Global Day of Action: Solidarity with Iran's Uprising"
 
-featured: false
+featured: true
 
 description: |
-  Community-organized solidarity event for the Iranian people's uprising.
+  A major coordinated rally supporting the ongoing nationwide uprising in Iran (begun Dec 2025). Demands include the overthrow of the Islamic Republic, halting of mass executions, and international support for the Iranian people. Expect chants of 'Woman, Life, Freedom' and 'Death to the Dictator'.
+  
+  **Tips:** Dress strictly for sub-zero weather. The march to Mynttorget is approximately 600m.
+  
+  **Location Details:** Meeting point at the main square; march to Mynttorget (Parliament) follows.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "13:00"
-
+  start_time: "14:00"
+  end: "2026/02/14"
+  end_time: "16:00"
 
 location:
-  country: "CA"
-  city: "Toronto"
-  address: "Yonge St & Steeles Ave"
+  country: "SE"
+  city: "Stockholm"
+  address: "Sergels Torg"
 
 online: []
 
 organizer:
-  name: "Local Organizer"
+  name: "Global Day of Action / Iranian Diaspora Coalition"
   website: ""
   contact_email: ""
   socials:
@@ -34,5 +39,5 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: []
-
+source: 
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEsonnpW4lo-leY2v0EviKBc1NN9L9IxhLvt_RWlgUeNoW1aH3MbBQH8ICoXRfROeA1REJKdHfo26dSSADOKAU_VzSE4NZ4Llz906HW8DfHwpe9jL4BO_ynZyyd960lvA=="

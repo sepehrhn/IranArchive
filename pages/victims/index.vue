@@ -10,7 +10,13 @@ import VictimDetail from '@/components/victims/VictimDetail.vue';
 import VictimSkeleton from '@/components/victims/VictimSkeleton.vue';
 import VictimSubmissionForm from '~/components/submissions/VictimSubmissionForm.vue';
 import { initUpload, uploadToR2, completeSubmission } from '~/utils/submissionsClient';
+
 import type { UploadedFileInfo } from '~/utils/submissionsClient';
+import { useStickyHeader } from '~/composables/useStickyHeader';
+
+const { headerOffset, headerHeight, registerStickyTrigger } = useStickyHeader()
+
+const filterBarRef = ref<HTMLElement | null>(null)
 
 useHead({
     title: t('victimsPage.title'),
@@ -224,6 +230,10 @@ let observer: IntersectionObserver | null = null;
 
 onMounted(() => {
     loadData();
+
+    if (filterBarRef.value) {
+        registerStickyTrigger(filterBarRef.value)
+    }
 });
 
 // Intersection Observer Logic
@@ -256,6 +266,10 @@ onUnmounted(() => {
     if (observer) {
         observer.disconnect();
     }
+    if (observer) {
+        observer.disconnect();
+    }
+    // No explicit reset needed
 });
 
 
@@ -353,7 +367,11 @@ const showVictimDialog = computed({
         </div>
 
         <!-- Filters Section -->
-        <div class="sticky-trigger sticky top-4 z-40 px-4 md:px-0 transition-all duration-300">
+        <div 
+            ref="filterBarRef"
+            class="sticky-trigger sticky z-40 px-4 md:px-0 transition-all duration-300"
+            :style="{ top: headerOffset + 'px' }"
+        >
             <div class="w-full mx-auto bg-surface-0/80 dark:bg-surface-900/80 backdrop-blur-xl rounded-2xl border border-surface-200/50 dark:border-surface-700/50 shadow-xl shadow-surface-900/5 overflow-hidden transition-all duration-300">
                 
                 <!-- Desktop Unified Bar -->

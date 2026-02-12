@@ -60,24 +60,34 @@ onUnmounted(() => {
             {{ t('blackout.startTime') }}
         </div>
         
-        <div class="grid grid-cols-4 gap-4 md:gap-8 w-full mt-4">
-            <div class="flex flex-col items-center">
-                <span class="text-4xl md:text-6xl font-bold text-surface-900 dark:text-surface-0">{{ pn(elapsedTime.days) }}</span>
-                <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold">{{ t('blackout.days') }}</span>
+        <ClientOnly>
+            <div class="grid grid-cols-4 gap-4 md:gap-8 w-full mt-4">
+                <div class="flex flex-col items-center">
+                    <span class="text-4xl md:text-6xl font-bold text-surface-900 dark:text-surface-0">{{ pn(elapsedTime.days) }}</span>
+                    <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold">{{ t('blackout.days') }}</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="text-4xl md:text-6xl font-bold text-surface-900 dark:text-surface-0">{{ pn(String(elapsedTime.hours).padStart(2, '0')) }}</span>
+                    <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold">{{ t('blackout.hours') }}</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="text-4xl md:text-6xl font-bold text-surface-900 dark:text-surface-0">{{ pn(String(elapsedTime.minutes).padStart(2, '0')) }}</span>
+                    <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold">{{ t('blackout.minutes') }}</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <span class="text-4xl md:text-6xl font-bold text-red-600 dark:text-red-500">{{ pn(String(elapsedTime.seconds).padStart(2, '0')) }}</span>
+                    <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold">{{ t('blackout.seconds') }}</span>
+                </div>
             </div>
-            <div class="flex flex-col items-center">
-                <span class="text-4xl md:text-6xl font-bold text-surface-900 dark:text-surface-0">{{ pn(String(elapsedTime.hours).padStart(2, '0')) }}</span>
-                <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold">{{ t('blackout.hours') }}</span>
-            </div>
-            <div class="flex flex-col items-center">
-                <span class="text-4xl md:text-6xl font-bold text-surface-900 dark:text-surface-0">{{ pn(String(elapsedTime.minutes).padStart(2, '0')) }}</span>
-                <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold">{{ t('blackout.minutes') }}</span>
-            </div>
-            <div class="flex flex-col items-center">
-                <span class="text-4xl md:text-6xl font-bold text-red-600 dark:text-red-500">{{ pn(String(elapsedTime.seconds).padStart(2, '0')) }}</span>
-                <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold">{{ t('blackout.seconds') }}</span>
-            </div>
-        </div>
+            <template #fallback>
+                <div class="grid grid-cols-4 gap-4 md:gap-8 w-full mt-4 animate-pulse">
+                     <div class="flex flex-col items-center" v-for="i in 4" :key="i">
+                        <div class="h-12 w-16 bg-surface-200 dark:bg-surface-700 rounded mb-2"></div>
+                        <div class="h-4 w-12 bg-surface-200 dark:bg-surface-700 rounded"></div>
+                     </div>
+                </div>
+            </template>
+        </ClientOnly>
 
         <div class="w-full mt-6 py-3 px-4 bg-surface-50 dark:bg-surface-800/50 rounded-xl border border-surface-200 dark:border-surface-700 flex flex-col md:flex-row items-center justify-between gap-2">
             <div class="flex items-center gap-2 text-surface-600 dark:text-surface-400">

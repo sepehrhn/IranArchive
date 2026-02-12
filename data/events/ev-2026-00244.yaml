@@ -1,37 +1,32 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Global Day of Action: Solidarity with Iran's Uprising"
+title: "Solidarity Protest in Charlotte"
 
-featured: true
+featured: false
 
 description: |
-  A mass rally in solidarity with the January 2026 uprising in Iran. This event answers the global call for a coordinated day of protest to condemn the regime's recent mass killings and crackdowns. Protesters will demand the immediate release of political prisoners and an end to the Islamic Republic.
-  
-  **Tips:** Dress warmly as it is an outdoor standing event. Bring Iranian flags (Lion and Sun preferred by this coalition) and signs. Check @Chicago4Iran on Instagram for last-minute updates.
-  
-  **Location Details:** Corner of Adams & Dearborn Streets; accessible via Monroe or Jackson CTA Blue/Red lines.
+  Community-organized solidarity event for the Iranian people's uprising.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "13:00"
-  end: "2026/02/14"
-  end_time: "15:00"
+  start_time: "14:00"
+
 
 location:
   country: "US"
-  city: "Chicago"
-  address: "Federal Plaza, 219 S Dearborn St, Chicago, IL 60604"
+  city: "Charlotte"
+  address: "420 S Tryon Street"
 
 online: []
 
 organizer:
-  name: "Local grassroots activists (likely Chicago for Iran / Independent)"
+  name: "Local Organizer"
   website: ""
   contact_email: ""
   socials:
@@ -40,4 +35,3 @@ organizer:
     telegram: ""
 
 source: []
-

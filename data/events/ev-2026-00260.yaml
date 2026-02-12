@@ -1,37 +1,37 @@
 # -----------------------------------------------------------------------------
 # EVENT DATA SCHEMA - IRAN ARCHIVE
 # -----------------------------------------------------------------------------
-# AUTOMATICALLY GENERATED FROM AUTOMATICALLY GENERATED
+# AUTOMATICALLY GENERATED FROM SCRAPER
 # -----------------------------------------------------------------------------
 
-title: "Global Day of Action: Solidarity with the Iranian Uprising"
+title: "Global Day of Action for Iran - Houston"
 
-featured: false
+featured: true
 
 description: |
-  Major regional rally for the Global Day of Action. Thousands from across Southern California (including Irvine) are expected to converge here to demand regime change and international action against the crackdown.
+  Solidarity rally part of the worldwide 'Global Day of Action' called by opposition leaders to support the January 2026 uprising.
   
-  **Tips:** Expect road closures and heavy traffic in Downtown LA. Carpooling from Irvine is highly recommended.
+  **Tips:** Wear white or green/white/red. Bring flags. Check local hashtags for exact meetup time.
   
-  **Location Details:** 200 N Spring St, Los Angeles, CA 90012. Gathering often starts at City Hall and may march to the Federal Building or Pershing Square.
+  **Location Details:** Likely gathering point near the Waterwall or the intersection corners.
 
 type: "in_person"
 
 date:
   start: "2026/02/14"
-  start_time: "13:00"
+  start_time: "12:00"
   end: "2026/02/14"
-  end_time: "16:00"
+  end_time: "15:00"
 
 location:
   country: "US"
-  city: "Irvine"
-  address: "Los Angeles City Hall / Grand Park"
+  city: "Houston"
+  address: "Galleria Area (Post Oak Blvd & Westheimer Rd)"
 
 online: []
 
 organizer:
-  name: "Coalition of Iranian Diaspora Groups (SoCal)"
+  name: "Global Day of Action Coalition (Decentralized)"
   website: ""
   contact_email: ""
   socials:
@@ -39,6 +39,4 @@ organizer:
     instagram: ""
     telegram: ""
 
-source: 
-  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGH-JvFsdxqmTFNPpZeukh7qr7MWz10ePsnoh1ThzykWJfrnQMbVTrVs8fTbsTyRpYifnnzWwj3I1Tls_Mu83wfruLDTLwagawPxNETMc8B4iI04i9ASNVUVHdC2TRhKA=="
-
+source: []
