@@ -14,7 +14,7 @@ const { listAssets } = useAssets()
 const route = useRoute()
 
 const router = useRouter()
-const { headerOffset, headerHeight, registerStickyTrigger } = useStickyHeader()
+const { headerOffset, headerHeight, isMobile, registerStickyTrigger } = useStickyHeader()
 
 const filterBarRef = ref<HTMLElement | null>(null)
 
@@ -401,11 +401,12 @@ const clearFilters = () => {
                 </div>
             </div>
 
-            <!-- Filter Bar (Sticky) -->
+            <!-- Filter Bar (Sticky only on desktop) -->
             <div 
                 ref="filterBarRef"
-                class="sticky z-30 mb-8 transition-all duration-300 pointer-events-none"
-                :style="{ top: headerOffset + 'px' }"
+                class="z-30 mb-8 transition-all duration-300 pointer-events-none"
+                :class="isMobile ? 'relative' : 'sticky'"
+                :style="{ top: (isMobile ? 0 : headerOffset) + 'px' }"
             >
                 <div class="pointer-events-auto px-4">
                     <div class="glass-panel w-fit mx-auto p-2 rounded-2xl flex flex-col md:flex-row gap-3 items-center shadow-lg shadow-surface-950/5 border border-surface-200/50 dark:border-surface-700/50 backdrop-blur-xl bg-surface-0/80 dark:bg-surface-900/80">
