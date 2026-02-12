@@ -6,10 +6,11 @@ import { useRoute, useRouter } from 'vue-router'
 import { getMediaUrl } from '~/utils/mediaUrl'
 import type { Asset } from '~/types/asset'
 import AssetPreviewModal from '~/components/AssetPreviewModal.vue'
-import { useStickyHeader } from '~/composables/useStickyHeader'
+import { useAssets } from '~/composables/useAssets'
 
 const { t, locale } = useI18n()
 const { loadCountries, getAllCountries, getCountryFlagUrl } = useCountries()
+const { listAssets } = useAssets()
 const route = useRoute()
 
 const router = useRouter()
@@ -26,13 +27,10 @@ useSeoMeta({
     twitterCard: 'summary_large_image',
 })
 
-const { data: fetchedAssets, status } = await useFetch<Asset[]>('/api/assets', {
-    key: 'assets-list',
-    default: () => []
-})
+const fetchedAssets = ref<Asset[]>([])
+const loading = ref(true)
 
 const assets = computed(() => fetchedAssets.value || [])
-const loading = computed(() => status.value === 'pending')
 
 // Filters
 const selectedCountry = ref('all')
@@ -44,10 +42,12 @@ const isSearchFocused = ref(false)
 const showPreviewModal = ref(false)
 const selectedAsset = ref<Asset | null>(null)
 
-// Load countries (can stay client-side or be moved to useFetch too, but keeping minimal changes first)
+// Load countries and assets
 onMounted(async () => {
     try {
         await loadCountries()
+        fetchedAssets.value = await listAssets()
+        loading.value = false
 
         // Handle deep linking
         const assetId = route.query.asset as string

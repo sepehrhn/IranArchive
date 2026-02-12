@@ -1,8 +1,8 @@
-<script setup lang="ts">
-import { ref, computed, watch } from 'vue';
+import { ref, computed, watch, onMounted } from 'vue';
 const { t } = useI18n();
 import type { ParsedEvent } from '~/server/utils/events/schemas';
 import { useCountries } from '~/composables/useCountries';
+import { useEvents } from '~/composables/useEvents';
 
 useSeoMeta({
     title: t('eventsPage.title'),
@@ -14,14 +14,21 @@ useSeoMeta({
 })
 
 // Get Data
-const { data: events, pending } = await useFetch<ParsedEvent[]>('/api/events', { 
-    key: 'events-list',
-    lazy: true 
-});
+const { listEvents } = useEvents();
+const events = ref<ParsedEvent[]>([]);
+const pending = ref(true);
 
 // Load countries
 const { loadCountries } = useCountries();
-loadCountries();
+
+onMounted(async () => {
+    try {
+        await loadCountries();
+        events.value = await listEvents();
+    } finally {
+        pending.value = false;
+    }
+});
 
 // State
 
