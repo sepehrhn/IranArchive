@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import type { Asset } from '~/types/asset'
+import { getMediaUrl } from '~/utils/mediaUrl'
 
 interface DownloadOptions {
     format: 'jpg' | 'png' | 'pdf'
@@ -35,9 +36,9 @@ const assetPreviewUrl = computed(() => {
     if (!props.asset) return ''
     // Use generated JPG for PDF preview
     if (props.asset.file.toLowerCase().endsWith('.pdf')) {
-        return `/media/asset/${props.asset.file.replace(/\.pdf$/i, '.jpg')}`
+        return getMediaUrl({ kind: 'asset', relativePath: props.asset.file.replace(/\.pdf$/i, '.jpg') })
     }
-    return `/media/asset/${props.asset.file}`
+    return getMediaUrl({ kind: 'asset', relativePath: props.asset.file })
 })
 
 const isPDF = computed(() => props.asset?.format === 'PDF')
