@@ -144,6 +144,7 @@ import { type Incident, type Evidence } from '~/types/incident';
 import MarkdownIt from 'markdown-it';
 import { useVictims } from '~/composables/useVictims';
 import VictimDetail from '@/components/victims/VictimDetail.vue';
+import { getMediaUrl } from '~/utils/mediaUrl';
 
 const { fetchEvidenceById } = useEvidence();
 
@@ -262,8 +263,33 @@ const { data: incident, pending, error } = await useAsyncData<Incident>(`inciden
   }
 });
 
-useHead({
-  title: incident.value ? `${incident.value.title} - IranArchive` : 'Incident Not Found',
+const pageTitle = computed(() => incident.value ? `${incident.value.title} — IranArchive` : 'Incident Not Found');
+const pageDescription = computed(() => {
+    if (!incident.value?.narrative) return 'Incident details on IranArchive.';
+    // Simple truncation for description
+    const plainText = incident.value.narrative.replace(/[#*`]/g, '').slice(0, 160);
+    return plainText + (plainText.length >= 160 ? '...' : '');
+});
+const pageImage = computed(() => {
+    if (incident.value?.evidence?.length > 0) {
+        const firstEvidence = incident.value.evidence[0];
+        if (firstEvidence.file_path) {
+            return getMediaUrl({ kind: 'evidence', relativePath: firstEvidence.file_path });
+        }
+    }
+    return 'https://iranarchive.com/og-image-incidents.jpg';
+});
+
+useSeoMeta({
+    title: pageTitle,
+    ogTitle: pageTitle,
+    description: pageDescription,
+    ogDescription: pageDescription,
+    ogImage: pageImage,
+    twitterCard: 'summary_large_image',
+    twitterTitle: pageTitle,
+    twitterDescription: pageDescription,
+    twitterImage: pageImage,
 });
 
 const scrollToEvidence = (id: string) => {

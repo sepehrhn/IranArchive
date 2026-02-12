@@ -71,7 +71,7 @@
     "victimDetail": {
         "notFoundTitle": "جاویدنام یافت نشد",
         "notFoundDescription": "رکورد جاویدنام مورد نظر یافت نشد.",
-        "yearsOld": "ساله",
+        "yearsOld": "سال",
         "shareStory": "اشتراک‌گذاری روایت",
         "copied": "کپی شد",
         "timeline": "خط زمانی",
@@ -83,7 +83,14 @@
         "story": "روایت",
         "linkedIncidents": "رویدادهای مرتبط",
         "unknown": "نامشخص",
-        "createPoster": "ساخت پوستر"
+        "createPoster": "ساخت پوستر",
+        "createMemorialPoster": "ساخت پوستر یادبود",
+        "selectSize": "انتخاب ابعاد",
+        "selectPhoto": "انتخاب تصویر",
+        "autoFit": "تناسب خودکار",
+        "addOverlay": "افزودن لایه تیره",
+        "bloodEffect": "افکت خون",
+        "download": "دانلود"
     },
     "eventsPage": {
         "title": "رویدادها - آرشیو ایران",

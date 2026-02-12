@@ -16,11 +16,13 @@ import CountryDrawer from '@/components/countries/CountryDrawer.vue';
 import MethodologyModal from '@/components/countries/MethodologyModal.vue';
 
 // SEO
-useHead({
+useSeoMeta({
   title: t('countriesPage.title'),
-  meta: [
-    { name: 'description', content: t('countriesPage.description') }
-  ]
+  ogTitle: t('countriesPage.title'),
+  description: t('countriesPage.description'),
+  ogDescription: t('countriesPage.description'),
+  ogImage: 'https://iranarchive.com/og-image-tracker.jpg',
+  twitterCard: 'summary_large_image',
 });
 
 // Data

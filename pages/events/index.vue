@@ -4,12 +4,14 @@ const { t } = useI18n();
 import type { ParsedEvent } from '~/server/utils/events/schemas';
 import { useCountries } from '~/composables/useCountries';
 
-useHead({
+useSeoMeta({
     title: t('eventsPage.title'),
-    meta: [
-        { name: 'description', content: t('eventsPage.description') }
-    ]
-});
+    ogTitle: t('eventsPage.title'),
+    description: t('eventsPage.description'),
+    ogDescription: t('eventsPage.description'),
+    ogImage: 'https://iranarchive.com/og-image-events.jpg',
+    twitterCard: 'summary_large_image',
+})
 
 // Get Data
 const { data: events, pending } = await useFetch<ParsedEvent[]>('/api/events', { 

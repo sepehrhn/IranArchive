@@ -17,11 +17,13 @@ const { headerOffset, headerHeight, registerStickyTrigger } = useStickyHeader()
 
 const filterBarRef = ref<HTMLElement | null>(null)
 
-useHead({
+useSeoMeta({
     title: t('assetsPage.title'),
-    meta: [
-        { name: 'description', content: t('assetsPage.description') }
-    ]
+    ogTitle: t('assetsPage.title'),
+    description: t('assetsPage.description'),
+    ogDescription: t('assetsPage.description'),
+    ogImage: 'https://iranarchive.com/og-image-assets.jpg',
+    twitterCard: 'summary_large_image',
 })
 
 const { data: fetchedAssets, status } = await useFetch<Asset[]>('/api/assets', {

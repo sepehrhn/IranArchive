@@ -4,6 +4,7 @@ import type { Victim } from '@/types/victim';
 import { useI18n } from 'vue-i18n';
 import QRCode from 'qrcode';
 import html2canvas from 'html2canvas';
+import { formatDate } from '@/utils/formatters';
 
 const props = defineProps<{
     visible: boolean;
@@ -15,7 +16,10 @@ const emit = defineEmits<{
     'close': [];
 }>();
 
+import { usePersianNumbers } from '@/composables/usePersianNumbers';
+
 const { t, locale } = useI18n();
+const { pn } = usePersianNumbers();
 
 // -- State --
 const selectedSize = ref('instagram_story'); // 'a4', 'a3', 'instagram_post', 'instagram_story', 'tiktok'
@@ -31,7 +35,11 @@ const actionTextEn = computed(() => isMissing.value ? 'Captured by' : 'Killed by
 
 // Dynamic Font Sizing for Name
 const nameFontSize = computed(() => {
-    const name = props.victim?.name || '';
+    // Only show Persian name if locale is fa and persian_name exists
+    const name = (isPersian.value && props.victim?.persian_name) 
+        ? props.victim.persian_name 
+        : (props.victim?.name || '');
+        
     const length = name.length;
     const words = name.split(/\s+/); // Split by whitespace
     const longestWord = Math.max(...words.map(w => w.length), 0);
@@ -88,12 +96,12 @@ const posterDimensions = computed(() => {
 });
 
 // Size Labels
-const sizes = [
-    { label: 'A4 (Print)', value: 'a4' },
-    { label: 'A3 (Print)', value: 'a3' },
-    { label: 'Instagram', value: 'instagram_post' }, // Usually 1:1 or 4:5, using 1:1 based on request 1080x1080
-    { label: 'Story/TikTok', value: 'instagram_story' }, // 9:16
-];
+const sizes = computed(() => [
+    { label: t('assetsPage.filters.posters') + ' (A4)', value: 'a4' },
+    { label: t('assetsPage.filters.posters') + ' (A3)', value: 'a3' },
+    { label: 'Instagram', value: 'instagram_post' },
+    { label: 'Story/TikTok', value: 'instagram_story' },
+]);
 
 // -- Logic --
 
@@ -111,6 +119,11 @@ watch(() => props.visible, async (newVal) => {
             });
         } catch (e) {
             console.error('QR Gen Error', e);
+        }
+        
+        // Reset effects if missing
+        if (isMissing.value) {
+            bloodEffect.value = false;
         }
     }
 });
@@ -190,7 +203,7 @@ import { getMediaUrl } from '~/utils/mediaUrl';
         :style="{ width: '95vw', maxWidth: '1200px' }"
         :contentStyle="{ padding: '0', height: '85vh', maxHeight: '900px' }"
         class="poster-modal"
-        header="Create Memorial Poster"
+        :header="t('victimDetail.createMemorialPoster')"
     >
         <div class="flex flex-col lg:flex-row h-full">
             
@@ -262,10 +275,10 @@ import { getMediaUrl } from '~/utils/mediaUrl';
                             <div class="pt-4 flex flex-col items-center">
                                 <!-- Persian Layout -->
                                 <template v-if="isPersian">
-                                    <h3 class="text-white text-[1.2em] md:text-[1.5em] font-bold font-fa drop-shadow-lg leading-tight mb-1">
+                                    <h3 class="text-white text-[1.1em] md:text-[1.3em] font-bold font-fa drop-shadow-lg leading-tight mb-1">
                                         {{ actionTextFa }}
                                     </h3>
-                                    <h2 class="text-[1.8em] md:text-[2.5em] font-black font-fa drop-shadow-md leading-tight"
+                                    <h2 class="text-[1.6em] md:text-[2.2em] font-black font-fa drop-shadow-md leading-tight"
                                         :class="statusColorClass">
                                         {{ perpitratorTextFa }}
                                     </h2>
@@ -273,10 +286,10 @@ import { getMediaUrl } from '~/utils/mediaUrl';
 
                                 <!-- English Layout -->
                                 <template v-else>
-                                    <h3 class="text-white text-[1em] md:text-[1.2em] font-bold font-en uppercase drop-shadow-lg leading-tight tracking-wide mb-1">
+                                    <h3 class="text-white text-[0.9em] md:text-[1.1em] font-bold font-en uppercase drop-shadow-lg leading-tight tracking-wide mb-1">
                                         {{ actionTextEn }}
                                     </h3>
-                                    <h2 class="text-[1.4em] md:text-[1.8em] font-black font-en uppercase drop-shadow-md leading-none tracking-tight"
+                                    <h2 class="text-[1.2em] md:text-[1.6em] font-black font-en uppercase drop-shadow-md leading-none tracking-tight"
                                         :class="statusColorClass">
                                         {{ perpitratorTextEn }}
                                     </h2>
@@ -286,24 +299,24 @@ import { getMediaUrl } from '~/utils/mediaUrl';
                             <!-- Bottom: Info -->
                             <div class="flex flex-col items-center gap-2 pb-4 w-full">
                                 <!-- Name -->
-                                <h1 class="text-white font-black uppercase tracking-tighter drop-shadow-xl font-en break-words w-full px-2"
-                                    :class="nameFontSize">
-                                    {{ victim?.name }}
+                                <h1 class="text-white font-black uppercase tracking-tighter drop-shadow-xl w-full px-2"
+                                    :class="[nameFontSize, isPersian ? 'font-fa' : 'font-en']">
+                                    {{ (isPersian && victim?.persian_name) ? victim.persian_name : victim?.name }}
                                 </h1>
-                                <h2 v-if="victim?.persian_name && isPersian" class="text-white/90 text-[1.8em] md:text-[2.2em] font-bold font-fa drop-shadow-lg mt-[-0.2em]">
-                                    {{ victim?.persian_name }}
-                                </h2>
 
                                 <!-- Details Line -->
                                 <div class="flex flex-wrap items-center justify-center gap-2 text-white/70 text-[0.9em] font-medium mt-1">
-                                    <span v-if="victim?.age">{{ victim.age }} years old</span>
-                                    <span v-if="victim?.age && (victim.incident_city || victim.incident_province)">•</span>
-                                    <span v-if="victim?.incident_city">{{ victim.incident_city }}</span>
-                                    <span v-else-if="victim?.incident_province">{{ victim.incident_province }}</span>
+                                    <span v-if="victim?.age">
+                                        {{ isPersian ? pn(victim.age) : victim.age }} {{ t('victimDetail.yearsOld') }}
+                                    </span>
+                                    <span v-if="victim?.age && victim?.incident_province">•</span>
+                                    <span v-if="victim?.incident_province">
+                                        {{ t(`provinces.${victim.incident_province}`, victim.incident_province) }}
+                                    </span>
                                 </div>
                                 
                                 <div class="text-[0.8em] font-bold mt-1 mb-3" :class="statusColorClass">
-                                    {{ victim?.date_of_death }}
+                                    {{ formatDate(victim?.date_of_death, locale) }}
                                 </div>
 
                                 <!-- QR Code Area -->
@@ -327,7 +340,7 @@ import { getMediaUrl } from '~/utils/mediaUrl';
                     
                     <!-- Size Selector -->
                     <div>
-                        <h3 class="text-sm font-semibold text-surface-400 mb-3">Select Size</h3>
+                        <h3 class="text-sm font-semibold text-surface-400 mb-3">{{ t('victimDetail.selectSize') }}</h3>
                         <div class="grid grid-cols-2 gap-2">
                              <button 
                                 v-for="size in sizes" 
@@ -345,7 +358,7 @@ import { getMediaUrl } from '~/utils/mediaUrl';
 
                     <!-- Photo Selector -->
                     <div v-if="victim?.photos && victim.photos.length > 1">
-                         <h3 class="text-sm font-semibold text-surface-400 mb-3">Select Photo</h3>
+                         <h3 class="text-sm font-semibold text-surface-400 mb-3">{{ t('victimDetail.selectPhoto') }}</h3>
                          <div class="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-thin">
                              <button
                                 v-for="(photo, idx) in victim.photos"
@@ -365,15 +378,15 @@ import { getMediaUrl } from '~/utils/mediaUrl';
                     <!-- Toggles -->
                     <div class="space-y-4">
                         <div class="flex items-center justify-between">
-                            <label class="text-surface-200 font-medium">Auto fit</label>
+                            <label class="text-surface-200 font-medium">{{ t('victimDetail.autoFit') }}</label>
                             <InputSwitch v-model="autoFit" />
                         </div>
                          <div class="flex items-center justify-between">
-                            <label class="text-surface-200 font-medium">Add overlay</label>
+                            <label class="text-surface-200 font-medium">{{ t('victimDetail.addOverlay') }}</label>
                             <InputSwitch v-model="addOverlay" />
                         </div>
-                         <div class="flex items-center justify-between">
-                            <label class="text-surface-200 font-medium">Blood effect</label>
+                         <div v-if="!isMissing" class="flex items-center justify-between">
+                            <label class="text-surface-200 font-medium">{{ t('victimDetail.bloodEffect') }}</label>
                             <InputSwitch v-model="bloodEffect" />
                         </div>
 
@@ -381,9 +394,12 @@ import { getMediaUrl } from '~/utils/mediaUrl';
 
                     <!-- Victim Mini Info -->
                     <div class="bg-surface-900 rounded-xl p-4 border border-surface-700 mt-4">
-                        <h4 class="font-bold text-white text-lg mb-1">{{ victim?.persian_name }}</h4>
-                        <div class="text-surface-400 text-sm">{{ victim?.name }}</div>
-                        <div class="text-surface-500 text-sm mt-1">{{ victim?.age }} years old</div>
+                        <h4 class="font-bold text-white text-lg mb-1">
+                            {{ (isPersian && victim?.persian_name) ? victim.persian_name : victim?.name }}
+                        </h4>
+                        <div v-if="victim?.age" class="text-surface-500 text-sm mt-1">
+                            {{ isPersian ? pn(victim.age) : victim.age }} {{ t('victimDetail.yearsOld') }}
+                        </div>
                     </div>
 
                 </div>
@@ -393,7 +409,7 @@ import { getMediaUrl } from '~/utils/mediaUrl';
                     <Button 
                         @click="handleDownload" 
                         :loading="isGenerating"
-                        label="Download" 
+                        :label="t('victimDetail.download')" 
                         icon="pi pi-download" 
                         class="w-full font-bold !text-lg !py-3" 
                         severity="success" 

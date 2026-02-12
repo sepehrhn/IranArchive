@@ -20,6 +20,13 @@ const formattedDate = computed(() => {
     return formatDate(props.victim.date_of_death, locale.value);
 });
 
+const displayName = computed(() => {
+    if (locale.value === 'fa') {
+        return props.victim.persian_name || props.victim.name;
+    }
+    return props.victim.name;
+});
+
 // Photo cycling logic
 const currentPhotoIndex = ref(0);
 const intervalId = ref<number | null>(null);
@@ -58,7 +65,8 @@ onUnmounted(() => {
 });
 
 const emit = defineEmits<{
-    (e: 'click', id: string): void
+    (e: 'click', id: string): void;
+    (e: 'createPoster', victim: Victim): void;
 }>();
 
 const handleClick = (event: MouseEvent) => {
@@ -87,7 +95,7 @@ const handleClick = (event: MouseEvent) => {
                 <div class="victim-photo-wrapper relative">
                     <VictimPhoto 
                         :src="currentPhoto" 
-                        :alt="victim.name" 
+                        :alt="displayName" 
                         aspect="portrait" 
                         class="!rounded-b-none" 
                     />
@@ -108,15 +116,24 @@ const handleClick = (event: MouseEvent) => {
                 <div class="absolute top-2 left-2">
                     <VictimStatusBadge :status="victim.status" />
                 </div>
+                
+                <!-- Quick Access: Create Poster -->
+                <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
+                    <Button 
+                        icon="pi pi-image" 
+                        rounded 
+                        severity="help" 
+                        class="!w-10 !h-10 !bg-white/90 dark:!bg-surface-900/90 backdrop-blur-md shadow-lg hover:scale-110 active:scale-95 transition-all !border-none !text-purple-600 dark:!text-purple-400"
+                        v-tooltip.left="t('victimDetail.createPoster')"
+                        @click.stop.prevent="emit('createPoster', victim)"
+                    />
+                </div>
             </div>
             
             <div class="p-4 flex flex-col gap-2">
-                <h3 class="font-bold text-lg text-surface-900 dark:text-surface-0 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors leading-tight">
-                    {{ victim.name }}
+                <h3 class="font-bold text-lg text-surface-900 dark:text-surface-0 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors leading-tight" :class="{ 'font-fa': locale === 'fa' }" :dir="locale === 'fa' ? 'rtl' : 'ltr'">
+                    {{ displayName }}
                 </h3>
-                <p v-if="victim.persian_name" class="text-sm font-medium text-surface-500 dark:text-surface-400 font-fa" dir="rtl">
-                    {{ victim.persian_name }}
-                </p>
                 
                 <div class="text-sm text-surface-600 dark:text-surface-400 flex flex-col gap-1">
                     <div class="flex items-center gap-1">

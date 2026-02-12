@@ -9,23 +9,10 @@ const formattedSources = computed(() => {
     if (!props.sources) return [];
     
     return props.sources.map((url, index) => {
-        let label = 'Source';
-        try {
-            const u = new URL(url);
-            label = u.hostname.replace('www.', '');
-            if (label === 'x.com' || label === 'twitter.com') label = 'X (Twitter)';
-            if (label === 'instagram.com') label = 'Instagram';
-            if (label === 'youtube.com') label = 'YouTube';
-            if (label === 'facebook.com') label = 'Facebook';
-            if (label === 't.me') label = 'Telegram';
-        } catch (e) {
-            label = url;
-        }
-
         return {
             id: index,
             url: url,
-            label: label
+            label: formatSourceName(url)
         };
     });
 });
@@ -49,7 +36,7 @@ const formattedSources = computed(() => {
                 :title="source.label"
             >
                 <i class="pi pi-external-link text-[10px]"></i>
-                SRC
+                {{ source.label }}
             </a>
         </div>
     </div>

@@ -1,5 +1,14 @@
 <script setup lang="ts">
 const { t } = useI18n()
+
+useSeoMeta({
+    title: t('common.homePage'),
+    ogTitle: t('common.homePage'),
+    description: t('home.incidentsDescription'),
+    ogDescription: t('home.incidentsDescription'),
+    ogImage: 'https://iranarchive.com/og-image.jpg',
+    twitterCard: 'summary_large_image',
+})
 </script>
 
 <template>

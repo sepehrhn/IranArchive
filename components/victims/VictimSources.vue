@@ -17,25 +17,10 @@ const parsedSources = computed(() => {
             : [raw];
     
     return list.filter(Boolean).map((url, index) => {
-        let label = 'Source Link';
-        try {
-            const u = new URL(url);
-            label = u.hostname.replace('www.', '');
-            if (label === 'x.com' || label === 'twitter.com') label = 'X (Twitter)';
-            if (label === 'instagram.com') label = 'Instagram';
-            if (label === 'youtube.com') label = 'YouTube';
-            if (label === 'facebook.com') label = 'Facebook';
-            if (label === 't.me') label = 'Telegram';
-        } catch (e) {
-            label = url;
-            // if not a valid URL, it might be just text? 
-            if (url.length > 30) label = 'Source Reference';
-        }
-
         return {
             id: index,
             url: url,
-            label: label
+            label: formatSourceName(url)
         };
     });
 });
@@ -58,7 +43,7 @@ const parsedSources = computed(() => {
                     :title="source.label"
                 >
                     <i class="pi pi-external-link text-[10px]"></i>
-                    SRC
+                    {{ source.label }}
                 </a>
             </div>
         </div>

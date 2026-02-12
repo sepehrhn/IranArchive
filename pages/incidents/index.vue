@@ -7,7 +7,14 @@ const { headerOffset, headerHeight, registerStickyTrigger } = useStickyHeader()
 
 const filterBarRef = ref<HTMLElement | null>(null)
 
-// Load all incidents using glob import
+useSeoMeta({
+    title: t('incidentsPage.title'),
+    ogTitle: t('incidentsPage.title'),
+    description: t('incidentsPage.description'),
+    ogDescription: t('incidentsPage.description'),
+    ogImage: 'https://iranarchive.com/og-image-incidents.jpg',
+    twitterCard: 'summary_large_image',
+})
 const incidentModules = import.meta.glob('~/data/incidents/**/*.yaml', { eager: true });
 
 const baseIncidents = computed(() => {
