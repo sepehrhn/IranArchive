@@ -4,13 +4,13 @@
 
 # --- Core Settings ---
 # Path relative to 'data/assets/' (e.g., img/poster_v1.jpg)
-file: img/example_poster.jpg
+file: img/asset-076.jpg
 # Type: 'poster' or 'other'
 type: poster
 
 # --- Metadata ---
 # Original source URL
-source_url: https://example.com/source
+source_url: []
 
 
 # --- Visibility & Filtering ---
