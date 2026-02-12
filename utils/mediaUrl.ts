@@ -39,8 +39,8 @@ export interface MediaUrlOptions {
  * // Returns: https://raw.githubusercontent.com/sepehrhn/IranArchive/main/data/assets/img/poster.jpg
  * ```
  */
-export function getMediaUrl(options: MediaUrlOptions): string {
-    const config = useRuntimeConfig();
+export function getMediaUrl(options: MediaUrlOptions, config?: any): string {
+    const runtimeConfig = config || useRuntimeConfig();
     const { kind, relativePath } = options;
 
     // Validate and sanitize the relative path
@@ -76,10 +76,10 @@ export function getMediaUrl(options: MediaUrlOptions): string {
     }
 
     // Get configuration
-    const baseUrl = config.public.mediaBaseRawUrl as string;
-    const owner = config.public.mediaRepoOwner as string;
-    const repo = config.public.mediaRepoName as string;
-    const ref = config.public.mediaRepoRef as string;
+    const baseUrl = runtimeConfig.public.mediaBaseRawUrl as string;
+    const owner = runtimeConfig.public.mediaRepoOwner as string;
+    const repo = runtimeConfig.public.mediaRepoName as string;
+    const ref = runtimeConfig.public.mediaRepoRef as string;
 
     // URL-encode the path segments
     const encodedPath = fullPath.split('/').map(segment => encodeURIComponent(segment)).join('/');

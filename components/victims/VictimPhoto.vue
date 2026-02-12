@@ -14,6 +14,8 @@ const props = withDefaults(defineProps<{
 
 const placeholderSrc = '/placeholder-victim.png';
 
+const config = useRuntimeConfig();
+
 // Generate photo URL from GitHub or use placeholder
 const photoUrl = computed(() => {
     if (!props.src) return placeholderSrc;
@@ -26,7 +28,7 @@ const photoUrl = computed(() => {
     // If src is already a full URL, use it
     if (rawSrc.startsWith('http')) return rawSrc;
     // Otherwise, generate GitHub raw URL
-    return getMediaUrl({ kind: 'victim_photo', relativePath: rawSrc });
+    return getMediaUrl({ kind: 'victim_photo', relativePath: rawSrc }, config);
 });
 
 const aspectRatioClass = computed(() => {

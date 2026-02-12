@@ -191,6 +191,7 @@ const handleDownload = async () => {
 
 
 import { getMediaUrl } from '~/utils/mediaUrl';
+const config = useRuntimeConfig();
 
 </script>
 
@@ -230,7 +231,7 @@ import { getMediaUrl } from '~/utils/mediaUrl';
                         <div class="absolute inset-0 z-0">
                             <img 
                                 v-if="currentPhoto"
-                                :src="getMediaUrl({ kind: 'victim_photo', relativePath: currentPhoto })" 
+                                :src="getMediaUrl({ kind: 'victim_photo', relativePath: currentPhoto }, config)" 
                                 class="w-full h-full grayscale contrast-125"
                                 :class="[ autoFit ? 'object-contain' : 'object-cover' ]"
                                 crossOrigin="anonymous"
@@ -367,7 +368,7 @@ import { getMediaUrl } from '~/utils/mediaUrl';
                                 class="relative w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 border-2 transition-all"
                                 :class="selectedPhotoIndex === idx ? 'border-primary-500' : 'border-transparent opacity-60 hover:opacity-100'"
                              >
-                                 <img :src="getMediaUrl({ kind: 'victim_photo', relativePath: photo })" class="w-full h-full object-cover" />
+                                 <img :src="getMediaUrl({ kind: 'victim_photo', relativePath: photo }, config)" class="w-full h-full object-cover" />
                              </button>
                          </div>
                          <div class="text-xs text-center text-surface-500 mt-1">
