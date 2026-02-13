@@ -1,0 +1,39 @@
+﻿# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Oslo"
+
+featured: false
+
+description: |
+  Join the community for a solidarity event for the Iranian people's uprising.
+
+type: "in_person"
+
+date:
+  start: "2026/02/14"
+  start_time: "16:15"
+  end: "2026/02/14"
+  end_time: ""
+
+location:
+  country: "NO"
+  city: "Oslo"
+  address: "Jernbanetorget"
+
+online: []
+
+organizer:
+  name: "Community"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://cgkmxmogcmblyyvqeeco.supabase.co/storage/v1/object/public/protest-posters/photo_2026-02-12_09-35-42_1770889008424.jpg"
+
+# Features
