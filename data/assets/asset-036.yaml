@@ -14,4 +14,4 @@ source_url: https://graphicsforiran.com/
 
 # --- Visibility & Filtering ---
 # Specific countries: ISO2 codes list (e.g., ['US', 'DE']) or [] (Global)
-countries: []
+countries: ['GB', 'IR', 'US']

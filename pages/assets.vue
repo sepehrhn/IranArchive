@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue'
+import { ref, computed, onMounted, watch, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useCountries } from '~/composables/useCountries'
 import { useRoute, useRouter } from 'vue-router'
@@ -17,6 +17,7 @@ const router = useRouter()
 const { headerOffset, headerHeight, isMobile, registerStickyTrigger } = useStickyHeader()
 
 const filterBarRef = ref<HTMLElement | null>(null)
+const loadMoreTrigger = ref<HTMLElement | null>(null)
 
 useSeoMeta({
     title: t('assetsPage.title'),
@@ -37,6 +38,10 @@ const selectedCountry = ref('all')
 const selectedType = ref('all')
 const searchQuery = ref('')
 const isSearchFocused = ref(false)
+
+// Pagination
+const visibleCount = ref(24)
+const LOAD_STEP = 24
 
 // Modal state
 const showPreviewModal = ref(false)
@@ -67,24 +72,26 @@ onMounted(async () => {
     }
 })
 
-// Clean up is handled automatically by new composable logic or we can add a reset if needed,
-// but for now the composable doesn't export a reset. 
-// Actually, we should probably reset on unmount to be safe if we navigate to a page without triggers.
-// The new composable uses `activeThreshold` ref. We should probably expose a clear method or just make it route-bound? 
-// Current impl doesn't reset activeThreshold on route change explicitly (except via onUnmounted in composable?).
-// Wait, `useStickyHeader` is likely a singleton or shared state? 
-// Yes, `isHeaderVisible` is global. `activeThreshold` was defined INSIDE the composable function in my last edit?
-// Checking `useStickyHeader` scope... 
-// Ah, `isHeaderVisible` is global. `activeThreshold` was defined inside the function.
-// This means every component gets its own `activeThreshold`? NO. 
-// If `activeThreshold` is local to the `useStickyHeader()` call, then `handleScroll` (which is local) uses it.
-// BUT `handleScroll` writes to GLOBAL `isHeaderVisible`.
-// This is correct: The active page calls `useStickyHeader`, gets a local `activeThreshold`, registers a local `handleScroll`.
-// When page unmounts, local `handleScroll` is removed. Global `isHeaderVisible` remains.
-// Perfect. No manual reset needed for global state, just unmount.
+let observer: IntersectionObserver | null = null
+
+onMounted(() => {
+    observer = new IntersectionObserver((entries) => {
+        if (entries[0].isIntersecting && hasMoreAssets.value) {
+            loadMore()
+        }
+    }, {
+        rootMargin: '200px', // Trigger before reaching the bottom
+    })
+    
+    if (loadMoreTrigger.value) {
+        observer.observe(loadMoreTrigger.value)
+    }
+})
 
 onUnmounted(() => {
-    // No explicit reset needed for local threshold, but listener is removed.
+    if (observer) {
+        observer.disconnect()
+    }
 })
 
 // Stats
@@ -132,6 +139,36 @@ const filteredAssets = computed(() => {
 
     return result
 })
+
+// Reset pagination when filters change
+watch([selectedCountry, selectedType, searchQuery], () => {
+    visibleCount.value = LOAD_STEP
+    
+    // Re-observe trigger if needed
+    if (loadMoreTrigger.value && observer) {
+       observer.disconnect()
+       observer.observe(loadMoreTrigger.value)
+    }
+})
+
+// Watch trigger ref separately for initial binding
+watch(loadMoreTrigger, (el) => {
+    if (el && observer) {
+        observer.observe(el)
+    }
+})
+
+const paginatedAssets = computed(() => {
+    return filteredAssets.value.slice(0, visibleCount.value)
+})
+
+const hasMoreAssets = computed(() => {
+    return visibleCount.value < filteredAssets.value.length
+})
+
+const loadMore = () => {
+    visibleCount.value += LOAD_STEP
+}
 
 const countryOptions = computed(() => {
     const localized = getAllCountries.value.map(c => ({
@@ -520,10 +557,10 @@ const clearFilters = () => {
                 </div>
             </div>
 
-            <div v-else-if="filteredAssets.length > 0" class="relative grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
-                <TransitionGroup name="grid">
+            <div v-else-if="filteredAssets.length > 0">
+                <div class="relative grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                     <div 
-                        v-for="asset in filteredAssets" 
+                        v-for="asset in paginatedAssets" 
                         :key="asset.id" 
                         class="group cursor-pointer w-full"
                         @click="openPreviewModal(asset)"
@@ -560,7 +597,12 @@ const clearFilters = () => {
                             </div>
                         </div>
                     </div>
-                </TransitionGroup>
+                </div>
+
+                <!-- Infinite Scroll Trigger -->
+                <div ref="loadMoreTrigger" class="h-20 w-full flex items-center justify-center mt-8">
+                     <i v-if="hasMoreAssets" class="pi pi-spin pi-spinner text-surface-400 text-2xl"></i>
+                </div>
             </div>
 
             <!-- Empty State -->
@@ -589,23 +631,6 @@ const clearFilters = () => {
 </template>
 
 <style scoped>
-.grid-move,
-.grid-enter-active,
-.grid-leave-active {
-    transition: all 0.4s ease;
-}
-
-.grid-enter-from,
-.grid-leave-to {
-    opacity: 0;
-    transform: translateY(10px);
-}
-
-.grid-leave-active {
-    position: absolute;
-    pointer-events: none;
-}
-
 .no-scrollbar::-webkit-scrollbar {
     display: none;
 }
