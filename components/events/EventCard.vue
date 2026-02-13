@@ -171,7 +171,9 @@ Link: ${ev.online?.join_url || window.location.href}
     document.body.removeChild(link);
     showCalendarPopup.value = false;
 };
+
 const showMapsPopup = ref(false);
+const showShareDialog = ref(false);
 
 const getMapQuery = () => {
     const ev = props.event;
@@ -198,13 +200,26 @@ const openAppleMaps = () => {
 
     <div class="group relative border border-surface-200 dark:border-surface-800 rounded-2xl bg-surface-0 dark:bg-surface-900 overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-primary-500/10 hover:-translate-y-1 hover:border-primary-200 dark:hover:border-primary-900 backdrop-blur-sm h-full flex flex-col">
         <!-- Update Button (Absolute Top Right) -->
-        <div v-if="['upcoming', 'ongoing', 'postponed'].includes(event.computed_state)" class="absolute top-6 right-6 z-10">
-             <button 
+        <!-- Action Buttons (Absolute Top Right) -->
+        <div class="absolute top-6 right-6 z-10 flex items-center gap-2">
+            <!-- Update Button -->
+            <button 
+                v-if="['upcoming', 'ongoing', 'postponed'].includes(event.computed_state)"
                 @click.stop="showUpdateDialog = true" 
                 class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-100 dark:bg-surface-800 hover:bg-surface-200 dark:hover:bg-surface-700 border border-surface-200 dark:border-surface-700 shadow-sm hover:shadow text-xs font-bold text-surface-600 dark:text-surface-300 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-200 backdrop-blur-sm"
+                :title="t('common.update')"
             >
                 <i class="pi pi-pencil text-[10px]"></i>
-                <span>{{ t('common.update') }}</span>
+                <span class="hidden sm:inline">{{ t('common.update') }}</span>
+            </button>
+
+            <!-- Share Button -->
+            <button 
+                @click.stop="showShareDialog = true" 
+                class="flex items-center justify-center w-8 h-8 rounded-lg bg-surface-100 dark:bg-surface-800 hover:bg-surface-200 dark:hover:bg-surface-700 border border-surface-200 dark:border-surface-700 shadow-sm hover:shadow text-surface-600 dark:text-surface-300 hover:text-primary-600 dark:hover:text-primary-400 transition-all duration-200 backdrop-blur-sm"
+                title="Share Event"
+            >
+                <i class="pi pi-share-alt text-xs"></i>
             </button>
         </div>
 
@@ -469,6 +484,12 @@ const openAppleMaps = () => {
                 @cancel="showUpdateDialog = false"
             />
         </Dialog>
+
+        <EventsShareEventDialog 
+            v-if="showShareDialog"
+            v-model:visible="showShareDialog"
+            :event="event"
+        />
     </div>
 </template>
 
