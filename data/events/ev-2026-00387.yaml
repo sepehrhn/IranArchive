@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Houston"
+
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+type: "in_person"
+
+date:
+  start: "2026/02/22"
+  start_time: "15:00"
+
+location:
+  country: "US"
+  city: "Houston"
+  address: "Wyndham Hotel, 8686 Kirby Dr., Houston, TX 77054"
+online: []
+
+organizer:
+  name: "Local Organizer"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []
