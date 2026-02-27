@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Bellevue"
+
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+type: "in_person"
+
+date:
+  start: "2026/02/20"
+  start_time: "18:30"
+
+location:
+  country: "US"
+  city: "Bellevue"
+  address: "Bellevue Down Town Park, 321 Bellevue Way NE"
+online: []
+
+organizer:
+  name: "Local Organizer"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

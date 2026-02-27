@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Paris"
+
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+type: "in_person"
+
+date:
+  start: "2026/02/22"
+  start_time: "15:00"
+
+location:
+  country: "FR"
+  city: "Paris"
+  address: "TBC"
+online: []
+
+organizer:
+  name: "Local Organizer"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []

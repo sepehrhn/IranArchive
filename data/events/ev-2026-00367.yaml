@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# AUTOMATICALLY GENERATED
+# -----------------------------------------------------------------------------
+
+title: "Solidarity Protest in Dallas"
+
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+type: "in_person"
+
+date:
+  start: "2026/02/21"
+  start_time: "17:00"
+
+location:
+  country: "US"
+  city: "Dallas"
+  address: "3060 Mockingbird Lane, Dallas TX 75205"
+online: []
+
+organizer:
+  name: "Local Organizer"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source: []
