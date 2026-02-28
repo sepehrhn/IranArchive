@@ -1,24 +1,55 @@
 iso2: EH
-name: "Western Sahara"
-region: "Africa"
-subregion: "Northern Africa"
+name: Western Sahara
+region: Africa
+subregion: Northern Africa
 last_reviewed_at: '2026-01-19'
 diplomacy:
   status: unknown
   expelled_diplomats: unknown
   iran_mission_status: unknown
-  summary: "Disputed territory. Polisario Front administration (SADR) receives support from Iran/Hezbollah alleged by Morocco."
+  summary: Disputed territory. Polisario Front administration (SADR) receives support from Iran/Hezbollah alleged by Morocco.
 irgc_designation:
   status: unknown
-  summary: "No designation."
+  summary: No designation.
 un_posture:
   status: unknown
   supports_un_investigations: false
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Not a UN member state."
+  summary: Not a UN member state.
 security_posture:
   status: unknown
-  summary: "Alleged receipt of arms/training involved."
+  summary: Alleged receipt of arms/training involved.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

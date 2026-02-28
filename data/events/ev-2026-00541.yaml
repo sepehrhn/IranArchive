@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Being the Voice of Iranian People - Solidarity Rally"
+featured: false
+
+description: |
+  A solidarity rally supporting the ongoing uprising in Iran. Participants will chant slogans against the Islamic Republic and in support of the Iranian people's demand for regime change. This location is the central hub for Orange County diaspora protests. | Tips: Bring 'Lion and Sun' flags and signs. Wear white or protest-themed t-shirts. Water is recommended as it can get warm standing on the corner.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "14:00-16:00"
+
+location:
+  country: "US"
+  city: "Mission Viejo"
+  address: "Intersection of Culver Drive & Barranca Parkway, Irvine, CA - Meeting at the street corners; attendees often park at the nearby shopping centers (e.g., Culver Plaza or Crossroads) but avoid parking in restricted zones."
+
+online: []
+
+organizer:
+  name: "Grassroots Iranian American Community (Orange County)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

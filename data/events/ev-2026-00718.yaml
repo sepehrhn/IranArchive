@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Solidarity Protest in Reno"
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/07"
+  start_time: "11:00-13:00"
+
+location:
+  country: "US"
+  city: "Reno"
+  address: "Plumb & Virginia Crossing"
+
+online: []
+
+organizer:
+  name: "Community"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

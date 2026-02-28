@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Meeting with Benjamin Brière (Ex-Hostage)"
+featured: false
+
+description: |
+  Benjamin Brière presents his book 'Azadi' and discusses his imprisonment. While this is a key solidarity event, note that it is in Grenoble, not Paris. | Tips: Included for clarity as it appears in many search results for this date.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "15:00"
+
+location:
+  country: "FR"
+  city: "Paris"
+  address: "Librairie Arthaud, Grenoble (NOT Paris) - 23 Grande Rue, 38000 Grenoble"
+
+online: []
+
+organizer:
+  name: "Librairie Arthaud / Utopiran"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN0Yj2BcjJ3OLltBIsayVbrafjnR_-4slsyFcQp9pjA3Otz2TxLHxCzMltHUfTwUhY3buVw-tWqKZ7XupoRPTTQVPcFv2fxTHDyVtUej7Lafuf1konu-H7uUop4rIg5ZVk9aJ7Hg=="

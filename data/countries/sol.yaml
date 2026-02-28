@@ -1,24 +1,56 @@
 iso2: SOL
-name: "Somaliland"
-region: "Africa"
-subregion: "Eastern Africa"
+name: Somaliland
+region: Africa
+subregion: Eastern Africa
 last_reviewed_at: '2026-01-29'
 diplomacy:
   status: no_resident_mission
   expelled_diplomats: unknown
   iran_mission_status: none
-  summary: "Hostile relations. Iran condemns its quest for independence. Israel recognized it in 2025."
+  summary: Hostile relations. Iran condemns its quest for independence. Israel recognized it in 2025.
 irgc_designation:
   status: rejected_or_no
-  summary: "No formal designation found, but aligns with anti-Iran bloc for recognition."
+  summary: No formal designation found, but aligns with anti-Iran bloc for recognition.
 un_posture:
   status: neutral_inconsistent
   supports_un_investigations: false
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Not a UN member."
+  summary: Not a UN member.
 security_posture:
   status: explicit_support
-  summary: "Strategic alignment with Israel/UK/US."
+  summary: Strategic alignment with Israel/UK/US.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 3
+    last_updated: '2026-01-29'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Strategic alignment with Israel/UK/US.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

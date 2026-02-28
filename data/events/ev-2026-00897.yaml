@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Solidarity Protest in Zurich"
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/01/28"
+  start_time: "18:30"
+
+location:
+  country: "CH"
+  city: "Zurich"
+  address: "In front of FIFA headquarters"
+
+online: []
+
+organizer:
+  name: "Community"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

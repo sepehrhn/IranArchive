@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Solidaritet med protestene til Iran og Kurdistan"
+featured: false
+
+description: |
+  Solidarity demonstration supporting the uprising in Iran, specifically highlighting the situation in Kurdish regions. | Tips: Expect Kurdish flags and political chants.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "16:00-18:00"
+
+location:
+  country: "NO"
+  city: "Oslo"
+  address: "Eidsvolls Plass, Karl Johans gate 22, 0026 Oslo - Outside the Parliament."
+
+online: []
+
+organizer:
+  name: "Komala Party"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGXRswhHJyE-59gZXyqE5FCdCG0W5p2BRSCjZ4TQmgHDuYEYHCu-S3z0QiXavhhQYA7ATubmcM7Kfa8JUisAYXZ0u6DN6f_k-fkLwaAek2BE1jpD1NpSVMI8v_60CPZxckQJMt_875I8_H"
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEa9vtS_JmWT5NVV22VAUbOok8p2EG2uawvYCXGL2maX7gvuc8fa7-VBAe5H8mwsfXMOBAsOtXDk5NjHm85nbzDkj8icW1IpBw6hj7tIIQ0oHCIUKmF9EsiLzlsOhbOA1EevZBd3XL6eQuipNeha0j"

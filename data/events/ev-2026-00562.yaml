@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Solidarity with the Lion and Sun Revolution in Iran"
+featured: false
+
+description: |
+  A rally in solidarity with the Iranian uprising, supporting the 'Lion and Sun' movement and calling for the fall of the Islamic Republic. Expected to feature the pre-1979 national flag. | Tips: Dress warmly for winter weather. Expect road closures on Yonge Street due to large crowds. The 'Lion and Sun' flag is the primary symbol used by this group.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "11:00-14:00"
+
+location:
+  country: "CA"
+  city: "Toronto"
+  address: "Yonge Street, Richmond Hill / North York - Likely marching along Yonge St; check Mel Lastman Square or Yonge/Steeles for meeting point."
+
+online: []
+
+organizer:
+  name: "Iranian Diaspora Community (Grassroots)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYMH2OZ688kqNURWYKzgItNguZnl8x4t8Yf92R6Z5NHCvm229yj662KV2RlkO3NXtQ4mJoSMTL4w3RuOXvp75KvpFP5m5vgLRuBu-kp0g0V-z49UnYDNlPqp1axA_26ab2Zw=="

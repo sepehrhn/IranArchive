@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Solidarity with the Iranian Uprising (Tentative)"
+featured: false
+
+description: |
+  Gathering to condemn the recent execution of protesters and the internet blackout in Iran. Likely to feature the 'Woman, Life, Freedom' slogan and pre-revolutionary flags. | Tips: Check the 'Collectif Femme Vie Liberté Nice' Instagram/Facebook 24h before. Expect heavy security and crowds due to the Carnival finale.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "14:00-16:00"
+
+location:
+  country: "FR"
+  city: "Nice"
+  address: "Place Garibaldi or Place Masséna (Perimeter) - Due to the Carnival closing at Place Masséna, check Place Garibaldi or the area near the Hôtel de Ville."
+
+online: []
+
+organizer:
+  name: "Collectif Femme Vie Liberté Nice (likely)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFPBoc5t7D6Xq1CMQmFZee2E3I58_WphplT00DtPMFSsQU8BipRl-N5R2s1YPh5-BM4iJhl_yOuti1zzCy_iDNrSV3BdIyJwgcypNNbR_4G7wetllsHHZt7Yrm5Ed_PqVpWPXJ3gg=="

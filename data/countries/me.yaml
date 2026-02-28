@@ -1,24 +1,56 @@
 iso2: ME
-name: "Montenegro"
-region: "Europe"
-subregion: "Southern Europe"
+name: Montenegro
+region: Europe
+subregion: Southern Europe
 last_reviewed_at: '2026-01-19'
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
-  summary: "Strained. Expelled Iranian diplomat in past. NATO member."
+  summary: Strained. Expelled Iranian diplomat in past. NATO member.
 irgc_designation:
   status: rejected_or_no
-  summary: "No designation."
+  summary: No designation.
 un_posture:
   status: supports_accountability
   supports_un_investigations: false
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Votes with EU bloc."
+  summary: Votes with EU bloc.
 security_posture:
   status: conditional_support
-  summary: "NATO member."
+  summary: NATO member.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 2
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: NATO member.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

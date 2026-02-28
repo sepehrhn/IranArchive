@@ -1,24 +1,57 @@
 iso2: MA
-name: "Morocco"
-region: "Africa"
-subregion: "Northern Africa"
+name: Morocco
+region: Africa
+subregion: Northern Africa
 last_reviewed_at: '2026-01-19'
 diplomacy:
   status: severed
   expelled_diplomats: all
   iran_mission_status: none
-  summary: "Severed relations in 2018, citing Iran's support for the Polisario Front via Hezbollah."
+  summary: Severed relations in 2018, citing Iran's support for the Polisario Front via Hezbollah.
 irgc_designation:
   status: rejected_or_no
-  summary: "No official FTO designation, but strongly opposes IRGC influence."
+  summary: No official FTO designation, but strongly opposes IRGC influence.
 un_posture:
   status: supports_accountability
   supports_un_investigations: true
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Consistently supports measures against Iranian destabilization."
+  summary: Consistently supports measures against Iranian destabilization.
 security_posture:
   status: explicit_support
-  summary: "Strong security partner with US/Israel; monitors Iranian activity in West Africa."
+  summary: Strong security partner with US/Israel; monitors Iranian activity in West Africa.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 3
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Strong security partner with US/Israel; monitors Iranian activity in West Africa.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 3
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from irgc_designation/diplomacy.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

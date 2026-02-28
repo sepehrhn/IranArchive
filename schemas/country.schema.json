@@ -1,0 +1,62 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Country Schema",
+    "type": "object",
+    "required": [
+        "iso2",
+        "name"
+    ],
+    "properties": {
+        "iso2": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "aliases": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "region": {
+            "type": "string"
+        },
+        "subregion": {
+            "type": "string"
+        },
+        "last_reviewed_at": {
+            "type": "string"
+        },
+        "campaign_statuses": {
+            "type": "object",
+            "patternProperties": {
+                "^[a-z_]+$": {
+                    "type": "object",
+                    "required": [
+                        "level"
+                    ],
+                    "properties": {
+                        "level": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 4
+                        },
+                        "last_updated": {
+                            "type": "string"
+                        },
+                        "evidence_ids": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "notes": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

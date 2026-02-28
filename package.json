@@ -8,9 +8,11 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "validate": "node scripts/validate-data.js",
+    "validate": "node scripts/validate-data.js && node scripts/validate-campaigns.js",
     "gen-metadata": "node scripts/generate-metadata.js",
-    "generate-thumbnails": "node scripts/generate-pdf-thumbnails.js"
+    "generate-thumbnails": "node scripts/generate-pdf-thumbnails.js",
+    "validate:entities": "node scripts/validate-entities.js",
+    "gen-indexes": "node scripts/generate-campaign-indexes.js"
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^2.0.2",

@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Sunday Solidarity Rally for Iran's Uprising"
+featured: false
+
+description: |
+  A recurring weekly mass demonstration in solidarity with the ongoing nationwide uprising in Iran. Participants demand the fall of the Islamic Republic, support the strikers and protesters in Iran, and call for international pressure on the regime. Expect chanting, speeches, and a march along the Embarcadero. | Tips: Wear comfortable shoes and bring warm layers as it can be windy by the water. Bring Iranian flags (Lion and Sun) and signs. Check 'Bay Area for Iran' social media for last-minute time changes.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  start_time: "14:00-16:00"
+
+location:
+  country: "US"
+  city: "San Francisco"
+  address: "Harry Bridges Plaza (Embarcadero) - In front of the Ferry Building, Market St & The Embarcadero."
+
+online: []
+
+organizer:
+  name: "Bay Area for Iran / Woman Life Freedom Coalition (Grassroots)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

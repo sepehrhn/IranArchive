@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Saturday Information & Solidarity Stand"
+featured: false
+
+description: |
+  Smaller, often spontaneous or student-led gatherings frequently occur on Saturdays at Union Square to raise awareness among tourists and locals about the mass killings and internet blackouts in Iran. | Tips: This event is less formally structured than the Sunday rally. Look for the group with flags near the center of the square.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "13:00-15:00"
+
+location:
+  country: "US"
+  city: "San Francisco"
+  address: "Union Square - Central Plaza, near the Dewey Monument."
+
+online: []
+
+organizer:
+  name: "Independent Activists / Student Groups"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Solidarity Rally for Iran's Revolution"
+featured: false
+
+description: |
+  A major weekly gathering to support the ongoing uprising (began Dec 2025) and condemn the regime's brutal crackdown. Protesters are demanding regime change and an end to the '2026 Massacres.' Expect chants of 'Woman, Life, Freedom' and calls for international action. | Tips: This is the primary gathering point. Parking in Westwood is very difficult; consider parking at the Hammer Museum or using rideshare. Be aware that this location was the site of a vehicle attack on Jan 11; while security is now heightened, remain vigilant near the street.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  start_time: "13:00-16:00"
+
+location:
+  country: "US"
+  city: "Los Angeles"
+  address: "Federal Building, 11000 Wilshire Blvd, Los Angeles, CA 90024 - Corner of Wilshire Blvd and Veteran Ave; gathering often extends to 'Persian Square' (Westwood Blvd & Wilkins Ave)."
+
+online: []
+
+organizer:
+  name: "Grassroots Diaspora / Iranian Hotline / General Community"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFJQlapQJRTOEkV9VEZoDwXTc-Pwg8-AgdYEbzsNAIKsj1lrrQGYp9NxPBWxI5k7Gr_bujAXO-9VuxfPuRQUxKkX-wRaj7pMpaIR62xcoimTok09C6Twj6O7g=="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF5n2VZ9Hof9VGt5FWg2NILn8CymGeUZjvL9Vi0mIiDicVn0w9Ovkj4xQ5XtSFrqOo0ctYyiPDG1US4MZ77el8gde4tZH3cxGEDk5S0NS_mriALH1xtdo2aNNSGTNZGqG8AOYCRLmGp"

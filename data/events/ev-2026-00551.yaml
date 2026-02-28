@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Student Solidarity Gathering (Unconfirmed)"
+featured: false
+
+description: |
+  With university protests restarting in Iran on Feb 28 (according to reports), student groups in Paris may hold spontaneous gatherings. The Panthéon was the site of a major rally on Jan 17. | Tips: Check 'Paris-Luttes.info' or 'Collectif Roja' social media for last-minute Saturday calls.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  # start_time: "14:00"
+
+location:
+  country: "FR"
+  city: "Paris"
+  address: "Place du Panthéon - Common gathering spot for student/academic solidarity."
+
+online: []
+
+organizer:
+  name: "Student Collectives (e.g., We Are Iranian Students)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN0Yj2BcjJ3OLltBIsayVbrafjnR_-4slsyFcQp9pjA3Otz2TxLHxCzMltHUfTwUhY3buVw-tWqKZ7XupoRPTTQVPcFv2fxTHDyVtUej7Lafuf1konu-H7uUop4rIg5ZVk9aJ7Hg=="

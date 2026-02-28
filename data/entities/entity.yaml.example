@@ -1,0 +1,162 @@
+# ==========================================
+# Entity Documentation Template
+# ==========================================
+# File Naming Convention: ent-<slug>.yaml (e.g., ent-marco-rubio.yaml)
+# Location: \data\entities\
+#
+# IMPORTANT: The entity's ID and URL slug are automatically derived from the filename.
+# For a file named "ent-marco-rubio.yaml":
+#   - id   = "ent-marco-rubio"
+#   - slug = "marco-rubio"  (used in URLs like /entities?entity=marco-rubio)
+#
+# All data is entered in English. Persian/localized text is only used for
+# the "native" name field (the person/org's name in their own script).
+# UI labels and static text are translated via the i18n locale files.
+
+# -----------------------------------------------------------------------------
+# Core Identification
+# -----------------------------------------------------------------------------
+
+# Entity Type
+# Options: 'celebrity' | 'politician' | 'organization' | 'company' | 'media' |
+#          'ngo' | 'government_body' | 'religious_figure' | 'influencer' |
+#          'academic' | 'other'
+type: "politician"
+
+# -----------------------------------------------------------------------------
+# Names
+# -----------------------------------------------------------------------------
+
+names:
+  # Primary display name (English)
+  primary: "Example Person"
+
+  # Native name in their own script (Optional, e.g., Persian/Arabic)
+  native: ""
+
+  # Alternative names or handles (Optional)
+  aliases: []
+
+# -----------------------------------------------------------------------------
+# Photo Handling
+# -----------------------------------------------------------------------------
+# 1. Place the image in \data\entities\img\
+# 2. Enter JUST the filename(s) here (e.g., "ent-example.jpg")
+# The system will automatically find and serve it via GitHub raw URL.
+photo: []
+
+# -----------------------------------------------------------------------------
+# Country
+# -----------------------------------------------------------------------------
+
+country:
+  # ISO 3166-1 alpha-2 code (Required)
+  iso2: "US"
+
+  # Country name in English (Optional, for display)
+  name: "United States"
+
+# -----------------------------------------------------------------------------
+# Visibility
+# -----------------------------------------------------------------------------
+
+visibility:
+  # Which locale(s) to show this entity in
+  # Options: 'both' | 'en_only' | 'fa_only'
+  show_in: "both"
+
+# -----------------------------------------------------------------------------
+# Roles & Links
+# -----------------------------------------------------------------------------
+
+# List of roles or titles (Optional)
+roles:
+  - "Senator"
+
+# External links (Optional)
+links:
+  # Official website URL
+  website: ""
+
+  # Social media accounts
+  social:
+    - platform: "x"          # Platform name (x, instagram, facebook, linkedin, youtube, telegram, etc.)
+      url: ""                 # Full profile URL
+      verified: false         # Is the account verified?
+      handle: ""              # Display handle (e.g., "@username")
+
+# -----------------------------------------------------------------------------
+# Stance Assessment
+# -----------------------------------------------------------------------------
+
+stance:
+  # Stance label toward Iran
+  # Options: 'pro_people' | 'pro_regime' | 'neutral' | 'both_sides' | 'unclear'
+  label: "unclear"
+
+  # Confidence score (0-100)
+  # Higher = more evidence supporting the assessment
+  confidence: 50
+
+  # Brief summary of their stance (English, 1-2 sentences)
+  summary: ""
+
+  # Date of last assessment update (YYYY-MM-DD)
+  last_updated: "2026-01-01"
+
+  # Controlled theme tags for filtering (Optional)
+  # Options: 'condemned_repression' | 'called_for_sanctions' | 'opposed_sanctions' |
+  #          'called_irgc_terrorist' | 'amplified_regime_narratives' |
+  #          'spread_misinformation' | 'fundraised_for_protesters' |
+  #          'supported_human_rights_orgs'
+  themes: []
+
+  # Additional notes about the stance (Optional, English)
+  notes: ""
+
+# -----------------------------------------------------------------------------
+# Evidence References
+# -----------------------------------------------------------------------------
+# Each entry links to a specific piece of evidence supporting the assessment.
+
+evidence_refs:
+  - evidence_id: "ev_example_001"       # Unique evidence reference ID
+    direction: "supports_people"         # Options: 'supports_people' | 'supports_regime' | 'neutral' | 'disputed' | 'context_needed'
+    date: "2026-01-01"                   # Date of the statement/action (YYYY-MM-DD)
+    quote: ""                            # Direct quote or summary of the evidence (English)
+    context: ""                          # Additional context (Optional, English)
+    importance: 3                        # Importance score (1-5, where 5 is most important)
+    external_url: ""                     # URL to the source (Optional, fallback if no internal evidence YAML)
+
+# -----------------------------------------------------------------------------
+# Review Status
+# -----------------------------------------------------------------------------
+
+review:
+  # Status of editorial review
+  # Options: 'draft' | 'under_review' | 'published'
+  status: "draft"
+
+  # Review history log
+  review_history:
+    - at: "2026-01-01"
+      by: "admin"
+      note: "Initial draft."
+
+# -----------------------------------------------------------------------------
+# Optional Metadata
+# -----------------------------------------------------------------------------
+
+# Affiliations with other entities or organizations (Optional)
+affiliations: []
+  # - entity_id: "ent_other"     # Link to another entity (Optional)
+  #   name: "Organization Name"  # Or just a name
+  #   relation: "member"         # Relationship type
+  #   since: "2020"              # Start date (Optional)
+  #   until: ""                  # End date (Optional)
+
+# Free-form tags for additional categorization (Optional)
+tags: []
+
+# Whether this entity should be featured/highlighted (Optional)
+featured: false

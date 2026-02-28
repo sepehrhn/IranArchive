@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Solidarity Rally for Iran Uprising"
+featured: false
+
+description: |
+  Demonstration in solidarity with the 2026 uprising, condemning regime violence and mass executions. Weekly recurring Saturday event. | Tips: Dress warmly; look for the 'Lion and Sun' flags; start time is typically 1pm but arrive early to confirm.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "13:00-15:00"
+
+location:
+  country: "GB"
+  city: "Manchester"
+  address: "St Peter's Square, Manchester - Outside Central Library / Cenotaph area"
+
+online: []
+
+organizer:
+  name: "Woman Life Freedom Manchester / Red Roots Collective (Grassroots)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

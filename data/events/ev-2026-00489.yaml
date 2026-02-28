@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Solidarity Protest for Iran"
+featured: false
+
+description: |
+  A recurring weekly demonstration standing in solidarity with the ongoing uprising in Iran. Participants carry flags (pre-1979 Lion and Sun), signs condemning the regime's crackdown, and chant slogans such as 'Woman, Life, Freedom'. | Tips: Parking is available at the nearby Crossroads Shopping Center. Wear comfortable shoes and bring water. Avoid engaging with any potential counter-protesters.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  start_time: "14:00-16:00"
+
+location:
+  country: "US"
+  city: "Irvine"
+  address: "Intersection of Culver Drive and Barranca Parkway, Irvine, CA 92606 - Protesters typically gather at all four corners of the intersection; near the Crossroads Shopping Center."
+
+online: []
+
+organizer:
+  name: "Grassroots Iranian American Community of Orange County"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

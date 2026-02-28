@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Solidarity with Iran Uprising (Recurring)"
+featured: false
+
+description: |
+  Weekly gathering to support the ongoing uprising in Iran, condemn the execution of protesters, and demand regime change. Recent rallies have focused on the 'January Massacres' and the 2026 uprising context. | Tips: Wear white or green/white/red. Bring Iranian flags (Sun & Lion). Check 'Woman Life Freedom Austin' or 'Austin Iranian Professionals Association' social media for last-minute time changes.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  start_time: "14:00-16:00"
+
+location:
+  country: "US"
+  city: "Austin"
+  address: "Texas State Capitol (South Steps) - 1100 Congress Ave; gather on the south lawn/steps facing Congress Ave."
+
+online: []
+
+organizer:
+  name: "Austin Iranian Community / Woman Life Freedom Austin"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmRbsRXnLY0TUTT9qnFFcuSVXmrTv7KCD9ji3lF-R81MeyfWp7R69Kst9BpEji3VT8rG_Cp_4TV8u2WhWL_0tAEc_qX9-22WaOFx_jTCnJB_NqguR9XKqyS_lubAAyE2IlZpNP8Mg="

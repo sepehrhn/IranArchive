@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Protest Against Executions and Repression"
+featured: false
+
+description: |
+  A focused gathering outside the regime's embassy to condemn the recent mass killings (estimated 3,000+) and detention of protesters. Participants often display photos of recent martyrs and chant for the closure of the embassy. | Tips: These embassy protests are often smaller but more intense than the Schuman rallies. Police often cordon off the immediate front of the embassy.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "15:00-17:00"
+
+location:
+  country: "BE"
+  city: "Brussels"
+  address: "Embassy of the Islamic Republic of Iran - Avenue Franklin Roosevelt 15, 1050 Bruxelles. Near ULB."
+
+online: []
+
+organizer:
+  name: "Committee of Solidarity with the Iranian People's Struggle (and others)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

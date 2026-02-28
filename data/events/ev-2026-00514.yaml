@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Solidarity Vigil (Recurring)"
+featured: false
+
+description: |
+  While no 'mega-rally' is scheduled for this specific Saturday, independent activists often hold a standing vigil here every Saturday to support the ongoing uprising. Expect a smaller crowd compared to the massive Feb 7 & Feb 14 events. | Tips: Bring warm clothes (temperatures are freezing). Avoid groups with 'No to Shah, No to Mullahs' banners if you wish to avoid MEK affiliates.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "13:00-15:00"
+
+location:
+  country: "DE"
+  city: "Berlin"
+  address: "Brandenburg Gate (Pariser Platz) - Standard meeting point for Iranian diaspora rallies; look for 'Woman Life Freedom' flags."
+
+online: []
+
+organizer:
+  name: "Independent activists / Woman* Life Freedom Collective (Likely)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

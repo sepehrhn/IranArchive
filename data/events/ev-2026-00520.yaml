@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Saturday Solidarity Rally (Unconfirmed)"
+featured: false
+
+description: |
+  While no specific flyer exists for this date, local groups often gather here on Saturdays to protest the regime's crackdown and execution of protesters. This is a recurring time slot for the community. | Tips: Check Instagram (@Chicago4Iran or @WomanLifeFreedomChicago) on Saturday morning for last-minute confirmation. Dress warmly as it is an outdoor plaza.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "13:00-15:00"
+
+location:
+  country: "US"
+  city: "Chicago"
+  address: "Federal Plaza, 230 S Dearborn St, Chicago, IL 60604 - Corner of Adams & Dearborn; look for Iranian flags"
+
+online: []
+
+organizer:
+  name: "Chicago for Iran (Recurring Pattern)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Sunday Protest for a Free Iran"
+featured: false
+
+description: |
+  The long-standing weekly Sunday gathering to protest the Islamic Republic. Given the recent crackdown and January uprising, turnout is expected to be higher than usual. Protesters line the sidewalks waving flags and eliciting honks from passing traffic. | Tips: This is a consistent, family-friendly protest environment. Stay on the sidewalk to ensure safety and avoid blocking traffic.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  start_time: "14:00-16:00"
+
+location:
+  country: "US"
+  city: "Mission Viejo"
+  address: "Intersection of Culver Drive & Barranca Parkway, Irvine, CA - Same location as Saturday; this corner hosts a standing protest every Sunday afternoon."
+
+online: []
+
+organizer:
+  name: "OC Iranian Community / Independent Activists"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

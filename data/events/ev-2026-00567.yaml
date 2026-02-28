@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Solidarity Rally for Iran Uprising"
+featured: false
+
+description: |
+  Weekly gathering in solidarity with the ongoing uprising in Iran (Phase II). Demonstrators demand an end to the Islamic Republic's repression, internet blackouts, and mass detentions. Expect speeches, chanting, and singing of revolutionary songs. | Tips: Dress for rain/cold as this is an outdoor standing event. Bring Lion and Sun flags or protest signs. Check 'Woman Life Freedom Vancouver' social media for last-minute location changes to Jack Poole Plaza.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "14:00-16:00"
+
+location:
+  country: "CA"
+  city: "Vancouver"
+  address: "Vancouver Art Gallery, North Plaza - 750 Hornby St. The plaza facing Georgia St is the traditional meeting point."
+
+online: []
+
+organizer:
+  name: "Woman, Life, Freedom Vancouver (Grassroots)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

@@ -1,24 +1,58 @@
 iso2: AU
-name: "Australia"
-region: "Oceania"
-subregion: "Australia and New Zealand"
+name: Australia
+region: Oceania
+subregion: Australia and New Zealand
 last_reviewed_at: '2026-01-19'
 diplomacy:
   status: downgraded
   expelled_diplomats: limited
   iran_mission_status: Interests section only
-  summary: "Relations severely strained. Australian government has suspended high-level dialogues and imposed significant sanctions on Iranian entities following human rights abuses."
+  summary: Relations severely strained. Australian government has suspended high-level dialogues and imposed significant sanctions on Iranian entities following human rights abuses.
 irgc_designation:
   status: designated_full
-  summary: "Listed the IRGC as a terrorist organization in its entirety, following the EU Council decision in January 2026. Prior to this, targeted sanctions were already in place."
+  summary: Listed the IRGC as a terrorist organization in its entirety, following the EU Council decision in January 2026. Prior to this, targeted sanctions were already in place.
 un_posture:
   status: leads_accountability
   supports_un_investigations: true
   supports_sanctions_or_condemnation: true
   supports_evidence_preservation: true
   supports_credential_limits: true
-  summary: "Leading voice in the UN for human rights accountability. Consistently spearheads and co-sponsors resolutions against the Islamic Republic's crimes."
+  summary: Leading voice in the UN for human rights accountability. Consistently spearheads and co-sponsors resolutions against the Islamic Republic's crimes.
 security_posture:
   status: explicit_support
-  summary: "Active participant in international maritime security operations (Operation Prosperity Guardian) and counter-proliferation efforts."
+  summary: Active participant in international maritime security operations (Operation Prosperity Guardian) and counter-proliferation efforts.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 3
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Active participant in international maritime security operations (Operation Prosperity Guardian) and counter-proliferation efforts.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 4
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from irgc_designation/diplomacy.
+  free_political_prisoners:
+    level: 3
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from un_posture leads_accountability.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

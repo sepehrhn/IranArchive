@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "National Rally & March 4 Democracy"
+featured: false
+
+description: |
+  A broader pro-democracy rally listed on community calendars. While not exclusively for Iran, Iranian solidarity blocs are expected to participate given the scale of the current uprising. | Tips: Check 'Mobilize.us' for specific meeting points for the Iran solidarity contingent.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "11:30-16:30"
+
+location:
+  country: "US"
+  city: "Washington DC"
+  address: "National Mall - Exact gathering spot TBA (Check local listings closer to time)."
+
+online: []
+
+organizer:
+  name: "National Rally & March 4 Democracy"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFV5AbT_ZsYz7MhiP4-9zxXLTLBMRuy4UWtfjv75Tv20DOp9Xz-TBz-18pH8DLBQxtP81ilunKfUrzTfU7xwwkb5lO8ygL63SCwnBY1Pfi2NX6M5Gk0oxWic2-Uc_MEFHMHvkvA068="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF4g9HogYHNWHkAPsYl1G7_oVJ_FcYcsQrxjNoyAwmj0SUZNVOTPhZa-89G4AbOWN2EIlreJL5QL-XPVKlhk5GHq6tcWK03SankJ-wiEP0eKfUZTL0nVK4="

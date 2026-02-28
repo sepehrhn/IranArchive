@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Saturday Solidarity Rally"
+featured: false
+
+description: |
+  Part of the 'Phase II' global mobilization supporting the renewed work stoppages and street demonstrations in Iran. Protesters demand the designation of the IRGC as a terrorist organization and support for a secular democratic transition. | Tips: Weekly rallies have been occurring here since Jan 2026. Due to the stabbing incident at a protest in Jan 2026, police presence may be higher than usual; remain aware of your surroundings.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "14:00-16:00"
+
+location:
+  country: "DE"
+  city: "Hamburg"
+  address: "Jungfernstieg / Rathausmarkt - Meeting point typically near the Alster steps or Rathaus square."
+
+online: []
+
+organizer:
+  name: "Woman Life Freedom Hamburg / Local Solidarity Groups"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

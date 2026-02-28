@@ -1,0 +1,114 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Entity Schema",
+    "type": "object",
+    "required": [
+        "type"
+    ],
+    "properties": {
+        "type": {
+            "type": "string"
+        },
+        "entity_type": {
+            "type": "string",
+            "enum": [
+                "government_body",
+                "parliament",
+                "political_party",
+                "ngo",
+                "igo",
+                "company",
+                "platform",
+                "financial_institution",
+                "media_org",
+                "think_tank",
+                "transitional_authority",
+                "diaspora_org",
+                "other"
+            ]
+        },
+        "names": {
+            "type": "object"
+        },
+        "country": {
+            "type": "object"
+        },
+        "visibility": {
+            "type": "object"
+        },
+        "campaign_positions": {
+            "type": "object",
+            "patternProperties": {
+                "^[a-z_]+$": {
+                    "type": "object",
+                    "required": [
+                        "level"
+                    ],
+                    "properties": {
+                        "level": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 4
+                        },
+                        "last_updated": {
+                            "type": "string"
+                        },
+                        "evidence_ids": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "notes": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "actions": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "date",
+                    "action_type",
+                    "title",
+                    "description"
+                ],
+                "properties": {
+                    "date": {
+                        "type": "string"
+                    },
+                    "action_type": {
+                        "type": "string"
+                    },
+                    "campaigns": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "evidence_ids": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "sources": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

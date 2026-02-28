@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Stage for Freedom Rally and Procession"
+featured: false
+
+description: |
+  Large-scale march calling for IRGC proscription and solidarity with the January 2026 uprising victims. Not affiliated with MEK. | Tips: Long walking route (~3 miles). Expect road closures and heavy police presence. Dress warmly.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "13:00-18:30"
+
+location:
+  country: "GB"
+  city: "London"
+  address: "Whitehall (Downing St) to Iranian Embassy (Kensington) - Meeting point: Opposite 10 Downing Street. Route via Trafalgar Sq, Piccadilly, Marble Arch."
+
+online: []
+
+organizer:
+  name: "Stage of Freedom"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgFvD_7ixSv054LY06MzF32wHRS67ZzZPcOtfWiho9O8v1v6rCBKv0_-kXYjjFY-OwooL1rSipkLRzsTvOSoy9QZSTISRz0aKvzAGfGBbY4TA3XF3xDMTsm4lB5qR6ggeH9w=="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED1gM1nLtH6fj9n4elbvQ8VCdC_zTB_WgryU72zhnua82d2OX1bOhsr4UV-i00uYzJ--JOCJ0Qr7bv6nW0d5kHjP4UOzs-IV-WS_M_n67-V1QhkhdLlayT6CkHlPiYIA=="

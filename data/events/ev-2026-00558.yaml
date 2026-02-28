@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Iran Solidarity Contingent at Sydney Mardi Gras"
+featured: false
+
+description: |
+  Given the date, the major visibility for the Iranian cause this Saturday will likely be within the Mardi Gras parade itself. Groups often march to protest the Islamic Republic's persecution of women and LGBTQ+ individuals. | Tips: The CBD will be extremely busy. If you wish to support, look for the Iranian group in the parade or watch the broadcast. Bring hearing protection.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "18:00-23:00"
+
+location:
+  country: "AU"
+  city: "Sydney"
+  address: "Oxford Street & Flinders Street, Darlinghurst - Mardi Gras Parade Route (Ticketed/Crowded areas). Look for the 'Woman, Life, Freedom' or Iranian Community float/marching group."
+
+online: []
+
+organizer:
+  name: "Australian United Solidarity for Iran / Woman Life Freedom groups"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnNAJthZ9d3IeKhLnW9NhhyItMVopsK_cxds5GdjBS29zlxB0NC4YNZWciHrDeLz9Xut4Qjr6AfbD0te7mI47MSkBlAOE2AAb-eLC9YQdkBaOl-F22yyQGDbmrf5qA"
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlA0E3fwH0OSy8kDzRjmY7CxOjluXrDhtnghQIIOMGqGDDJpxVyQPLXSUjRax1poSqnrnuMoQWnGSE0g97vvSDu1quGALOX9awYRfvYtavEBC85ktCGTBLennj5QGgkuWqSTrG"

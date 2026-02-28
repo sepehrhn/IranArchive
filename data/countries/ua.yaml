@@ -1,30 +1,65 @@
 iso2: UA
-name: "Ukraine"
-region: "Europe"
-subregion: "Eastern Europe"
+name: Ukraine
+region: Europe
+subregion: Eastern Europe
 last_reviewed_at: '2026-02-03'
 diplomacy:
   status: severed
   expelled_diplomats: all
   iran_mission_status: none
-  summary: "Severed diplomatic ties in Sep 2022 due to Iran supplying drones to Russia to bomb Ukrainian cities."
+  summary: Severed diplomatic ties in Sep 2022 due to Iran supplying drones to Russia to bomb Ukrainian cities.
 irgc_designation:
   status: designated_full
-  summary: "Officially listing the IRGC as a terrorist organization, following the EU's lead, as announced in Feb 2026 meeting with Israeli FM Saar."
+  summary: Officially listing the IRGC as a terrorist organization, following the EU's lead, as announced in Feb 2026 meeting with Israeli FM Saar.
 un_posture:
   status: supports_accountability
   supports_un_investigations: true
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Consistently sponsors/supports resolutions against Iran."
+  summary: Consistently sponsors/supports resolutions against Iran.
 security_posture:
   status: explicit_support
-  summary: "Active conflict. Intercepting Iranian Shahed drones daily."
+  summary: Active conflict. Intercepting Iranian Shahed drones daily.
 evidence:
-  - title: "Ukraine to list Iran’s IRGC as terror group following EU lead, says Saar"
-    publisher: "The Times of Israel"
-    date: "2026-02-03"
-    url: "https://www.timesofisrael.com/liveblog_entry/ukraine-to-list-irans-irgc-as-terror-group-following-eu-lead-says-saar/"
-    summary: "Ukraine set to declare Iran's IRGC a terrorist organization following EU's lead, announced during Israeli FM Saar's visit to Kyiv."
-    tags: ["irgc", "diplomacy"]
+  - title: Ukraine to list Iran’s IRGC as terror group following EU lead, says Saar
+    publisher: The Times of Israel
+    date: '2026-02-03'
+    url: https://www.timesofisrael.com/liveblog_entry/ukraine-to-list-irans-irgc-as-terror-group-following-eu-lead-says-saar/
+    summary: Ukraine set to declare Iran's IRGC a terrorist organization following EU's lead, announced during Israeli FM Saar's visit to Kyiv.
+    tags:
+      - irgc
+      - diplomacy
+campaign_statuses:
+  protect_iran:
+    level: 3
+    last_updated: '2026-02-03'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Active conflict. Intercepting Iranian Shahed drones daily.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-02-03'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-02-03'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 4
+    last_updated: '2026-02-03'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from irgc_designation/diplomacy.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-02-03'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-02-03'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

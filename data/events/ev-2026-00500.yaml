@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Maximum Support For Iran"
+featured: false
+
+description: |
+  Rally by supporters of Reza Pahlavi calling for regime change and support for the national uprising. | Tips: Lion and Sun flags will be prominent.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  start_time: "13:00-16:00"
+
+location:
+  country: "NO"
+  city: "Oslo"
+  address: "Eidsvolls Plass, Karl Johans gate 22, 0026 Oslo - Outside the Parliament."
+
+online: []
+
+organizer:
+  name: "King Reza Pahlavi - Maximum Support For Iran"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGXRswhHJyE-59gZXyqE5FCdCG0W5p2BRSCjZ4TQmgHDuYEYHCu-S3z0QiXavhhQYA7ATubmcM7Kfa8JUisAYXZ0u6DN6f_k-fkLwaAek2BE1jpD1NpSVMI8v_60CPZxckQJMt_875I8_H"
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGEa9vtS_JmWT5NVV22VAUbOok8p2EG2uawvYCXGL2maX7gvuc8fa7-VBAe5H8mwsfXMOBAsOtXDk5NjHm85nbzDkj8icW1IpBw6hj7tIIQ0oHCIUKmF9EsiLzlsOhbOA1EevZBd3XL6eQuipNeha0j"

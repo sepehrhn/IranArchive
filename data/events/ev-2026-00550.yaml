@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Potential Solidarity Gathering (Unconfirmed)"
+featured: false
+
+description: |
+  No official large-scale protest is confirmed for this date. However, Parliament Hill is the standard meeting point for Iranian solidarity rallies (typically on Saturdays or Sundays). Spontaneous gatherings may occur given the ongoing crisis. | Tips: Check 'Woman Life Freedom Ottawa' or 'PS752 Justice' social media pages for last-minute announcements before heading out. Dress warmly as it is an outdoor location.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  # start_time: "14:00"
+
+location:
+  country: "CA"
+  city: "Ottawa"
+  address: "Parliament Hill (Centennial Flame) - 111 Wellington St, Ottawa, ON"
+
+online: []
+
+organizer:
+  name: "Iranian Diaspora (Various Groups)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

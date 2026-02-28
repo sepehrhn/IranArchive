@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Sunday Solidarity Vigil"
+featured: false
+
+description: |
+  likely recurring standing protest/vigil for victims of the crackdown. A continuation of the weekend's resistance activities. | Tips: Stationary event. Nearest tubes: South Kensington or Knightsbridge.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  start_time: "14:00-17:00"
+
+location:
+  country: "GB"
+  city: "London"
+  address: "Iranian Embassy, 16 Prince's Gate, SW7 1PT - Pavement opposite the Embassy"
+
+online: []
+
+organizer:
+  name: "Grassroots / Community"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEgFvD_7ixSv054LY06MzF32wHRS67ZzZPcOtfWiho9O8v1v6rCBKv0_-kXYjjFY-OwooL1rSipkLRzsTvOSoy9QZSTISRz0aKvzAGfGBbY4TA3XF3xDMTsm4lB5qR6ggeH9w=="
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQED1gM1nLtH6fj9n4elbvQ8VCdC_zTB_WgryU72zhnua82d2OX1bOhsr4UV-i00uYzJ--JOCJ0Qr7bv6nW0d5kHjP4UOzs-IV-WS_M_n67-V1QhkhdLlayT6CkHlPiYIA=="
