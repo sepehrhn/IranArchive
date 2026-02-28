@@ -1,24 +1,55 @@
 iso2: SY
-name: "Syria"
-region: "Asia"
-subregion: "Western Asia"
+name: Syria
+region: Asia
+subregion: Western Asia
 last_reviewed_at: '2026-01-20'
 diplomacy:
   status: minimal_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
-  summary: "Al-Asad government fell. New transitional government in power. Alliance with Iran effectively ended."
+  summary: Al-Asad government fell. New transitional government in power. Alliance with Iran effectively ended.
 irgc_designation:
   status: rejected_or_no
-  summary: "New government expected to expel IRGC elements. Status under review."
+  summary: New government expected to expel IRGC elements. Status under review.
 un_posture:
   status: neutral
   supports_un_investigations: false
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "New government position on Iran at UN is pending."
+  summary: New government position on Iran at UN is pending.
 security_posture:
   status: neutral
-  summary: "Weapons transit and IRGC bases likely disrupted by regime change."
+  summary: Weapons transit and IRGC bases likely disrupted by regime change.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 0
+    last_updated: '2026-01-20'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-20'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-20'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 0
+    last_updated: '2026-01-20'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-20'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-20'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

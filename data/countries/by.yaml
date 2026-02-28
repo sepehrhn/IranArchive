@@ -1,24 +1,55 @@
 iso2: BY
-name: "Belarus"
-region: "Europe"
-subregion: "Eastern Europe"
+name: Belarus
+region: Europe
+subregion: Eastern Europe
 last_reviewed_at: '2026-01-19'
 diplomacy:
   status: enhanced_engagement
   expelled_diplomats: unknown
   iran_mission_status: embassy
-  summary: "Strong ties. Lukashenko visited Tehran Mar 2023. Cooperation to evade Western sanctions."
+  summary: Strong ties. Lukashenko visited Tehran Mar 2023. Cooperation to evade Western sanctions.
 irgc_designation:
   status: rejected_or_no
-  summary: "No designation."
+  summary: No designation.
 un_posture:
   status: protects_regime
   supports_un_investigations: false
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Votes with Iran/Russia bloc."
+  summary: Votes with Iran/Russia bloc.
 security_posture:
   status: opposed
-  summary: "Defense cooperation accords signed."
+  summary: Defense cooperation accords signed.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

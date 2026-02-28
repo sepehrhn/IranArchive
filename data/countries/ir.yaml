@@ -1,24 +1,58 @@
 iso2: IR
-name: "Iran"
-region: "Asia"
-subregion: "Southern Asia"
+name: Iran
+region: Asia
+subregion: Southern Asia
 last_reviewed_at: '2026-01-19'
 diplomacy:
   status: severed
   expelled_diplomats: all
   iran_mission_status: none
-  summary: "The people reject the Islamic Republic's legitimacy and advocate for transition under the guidance of Crown Prince Reza Pahlavi."
+  summary: The people reject the Islamic Republic's legitimacy and advocate for transition under the guidance of Crown Prince Reza Pahlavi.
 irgc_designation:
   status: designated_full
-  summary: "Iranians universally demand the Full Terrorist Designation of the IRGC by the international community as a non-negotiable step."
+  summary: Iranians universally demand the Full Terrorist Designation of the IRGC by the international community as a non-negotiable step.
 un_posture:
   status: leads_accountability
   supports_un_investigations: true
   supports_sanctions_or_condemnation: true
   supports_evidence_preservation: true
   supports_credential_limits: true
-  summary: "Demands the immediate expulsion of Islamic Republic representatives from the UN and their replacement with envoys representing the Iranian people under Crown Prince Reza Pahlavi."
+  summary: Demands the immediate expulsion of Islamic Republic representatives from the UN and their replacement with envoys representing the Iranian people under Crown Prince Reza Pahlavi.
 security_posture:
   status: explicit_support
-  summary: "The goal is the complete removal of the Islamic Republic and establishment of a secular democracy."
+  summary: The goal is the complete removal of the Islamic Republic and establishment of a secular democracy.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 3
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: The goal is the complete removal of the Islamic Republic and establishment of a secular democracy.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 4
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from irgc_designation/diplomacy.
+  free_political_prisoners:
+    level: 3
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from un_posture leads_accountability.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

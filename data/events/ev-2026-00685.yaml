@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Solidarity Protest in Fuengirola"
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/08"
+  start_time: "16:30"
+
+location:
+  country: "ES"
+  city: "Fuengirola"
+  address: "Plaza de la constitución Fuengirola"
+
+online: []
+
+organizer:
+  name: "Community"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

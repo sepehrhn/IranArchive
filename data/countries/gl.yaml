@@ -1,24 +1,57 @@
 iso2: GL
-name: "Greenland"
-region: "Americas"
-subregion: "North America"
+name: Greenland
+region: Americas
+subregion: North America
 last_reviewed_at: '2026-01-29'
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
-  summary: "Aligns with Denmark/EU. Covered by EU sanctions and designation."
+  summary: Aligns with Denmark/EU. Covered by EU sanctions and designation.
 irgc_designation:
   status: designated_full
-  summary: "Designated as a terrorist organization by the EU Council."
+  summary: Designated as a terrorist organization by the EU Council.
 un_posture:
   status: supports_accountability
   supports_un_investigations: false
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Follows Denmark's voting."
+  summary: Follows Denmark's voting.
 security_posture:
   status: explicit_support
-  summary: "NATO/US defense alignment."
+  summary: NATO/US defense alignment.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 3
+    last_updated: '2026-01-29'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: NATO/US defense alignment.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 4
+    last_updated: '2026-01-29'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from irgc_designation/diplomacy.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

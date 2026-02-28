@@ -1,24 +1,57 @@
 iso2: RO
-name: "Romania"
-region: "Europe"
-subregion: "Eastern Europe"
+name: Romania
+region: Europe
+subregion: Eastern Europe
 last_reviewed_at: '2026-01-29'
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
-  summary: "Relations maintained but cool. EU adopted new sanctions on Jan 29, 2026."
+  summary: Relations maintained but cool. EU adopted new sanctions on Jan 29, 2026.
 irgc_designation:
   status: designated_full
-  summary: "Designated as a terrorist organization by the EU Council decision on Jan 29, 2026."
+  summary: Designated as a terrorist organization by the EU Council decision on Jan 29, 2026.
 un_posture:
   status: supports_accountability
   supports_un_investigations: false
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Votes with EU bloc."
+  summary: Votes with EU bloc.
 security_posture:
   status: conditional_support
-  summary: "Hosts NATO missile defense (Aegis Ashore)."
+  summary: Hosts NATO missile defense (Aegis Ashore).
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 2
+    last_updated: '2026-01-29'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Hosts NATO missile defense (Aegis Ashore).
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 4
+    last_updated: '2026-01-29'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from irgc_designation/diplomacy.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

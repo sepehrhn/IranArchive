@@ -1,24 +1,57 @@
 iso2: AL
-name: "Albania"
-region: "Europe"
-subregion: "Southern Europe"
+name: Albania
+region: Europe
+subregion: Southern Europe
 last_reviewed_at: '2026-01-19'
 diplomacy:
   status: severed
   expelled_diplomats: all
   iran_mission_status: none
-  summary: "Severed diplomatic relations in Sep 2022 following massive Iranian cyberattacks. Hosts MEK (Mojahedin-e Khalq) members."
+  summary: Severed diplomatic relations in Sep 2022 following massive Iranian cyberattacks. Hosts MEK (Mojahedin-e Khalq) members.
 irgc_designation:
   status: security_threat
-  summary: "Expelled Iranian diplomats for plotting terrorist attacks against dissidents."
+  summary: Expelled Iranian diplomats for plotting terrorist attacks against dissidents.
 un_posture:
   status: supports_accountability
   supports_un_investigations: false
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Co-sponsored UN resolutions on Iranian human rights."
+  summary: Co-sponsored UN resolutions on Iranian human rights.
 security_posture:
   status: explicit_support
-  summary: "Target of direct Iranian cyber warfare."
+  summary: Target of direct Iranian cyber warfare.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 3
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Target of direct Iranian cyber warfare.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 3
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from irgc_designation/diplomacy.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

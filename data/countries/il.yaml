@@ -1,24 +1,58 @@
 iso2: IL
-name: "Israel"
-region: "Asia"
-subregion: "Western Asia"
+name: Israel
+region: Asia
+subregion: Western Asia
 last_reviewed_at: '2026-01-29'
 diplomacy:
   status: severed
   expelled_diplomats: unknown
   iran_mission_status: none
-  summary: "State of war. No diplomatic recognition. Active military conflict."
+  summary: State of war. No diplomatic recognition. Active military conflict.
 irgc_designation:
   status: designated_full
-  summary: "Designated as a terrorist organization. Active targeting of IRGC assets."
+  summary: Designated as a terrorist organization. Active targeting of IRGC assets.
 un_posture:
   status: leads_accountability
   supports_un_investigations: true
   supports_sanctions_or_condemnation: true
   supports_evidence_preservation: true
   supports_credential_limits: true
-  summary: "Leads international pressure and accountability efforts."
+  summary: Leads international pressure and accountability efforts.
 security_posture:
   status: explicit_support
-  summary: "Active military operations against IRGC/proxies (Syria, Lebanon, Gaza, Yemen)."
+  summary: Active military operations against IRGC/proxies (Syria, Lebanon, Gaza, Yemen).
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 3
+    last_updated: '2026-01-29'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Active military operations against IRGC/proxies (Syria, Lebanon, Gaza, Yemen).
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 4
+    last_updated: '2026-01-29'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from irgc_designation/diplomacy.
+  free_political_prisoners:
+    level: 3
+    last_updated: '2026-01-29'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from un_posture leads_accountability.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

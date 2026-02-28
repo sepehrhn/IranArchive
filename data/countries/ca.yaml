@@ -1,24 +1,58 @@
 iso2: CA
-name: "Canada"
-region: "Americas"
-subregion: "Northern America"
+name: Canada
+region: Americas
+subregion: Northern America
 last_reviewed_at: '2026-01-19'
 diplomacy:
   status: severed
   expelled_diplomats: all
   iran_mission_status: none
-  summary: "Severed relations in 2012. Designates regime as a state sponsor of terrorism (Justice for Victims of Terrorism Act)."
+  summary: Severed relations in 2012. Designates regime as a state sponsor of terrorism (Justice for Victims of Terrorism Act).
 irgc_designation:
   status: designated_full
-  summary: "Officially listed the IRGC as a terrorist entity in June 2024."
+  summary: Officially listed the IRGC as a terrorist entity in June 2024.
 un_posture:
   status: leads_accountability
   supports_un_investigations: true
   supports_sanctions_or_condemnation: true
   supports_evidence_preservation: true
   supports_credential_limits: false
-  summary: "Leads the annual UN General Assembly resolution on Iran's human rights situation."
+  summary: Leads the annual UN General Assembly resolution on Iran's human rights situation.
 security_posture:
   status: explicit_support
-  summary: "Enforces robust sanctions; coordinates with Five Eyes on threat assessment."
+  summary: Enforces robust sanctions; coordinates with Five Eyes on threat assessment.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 3
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Enforces robust sanctions; coordinates with Five Eyes on threat assessment.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 4
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from irgc_designation/diplomacy.
+  free_political_prisoners:
+    level: 3
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from un_posture leads_accountability.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

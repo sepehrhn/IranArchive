@@ -1,27 +1,61 @@
 iso2: US
-name: "US"
+name: US
 aliases:
-  - "United States"
-  - "ایالات متحده آمریکا"
-region: "Americas"
-subregion: "Northern America"
+  - United States
+  - ایالات متحده آمریکا
+region: Americas
+subregion: Northern America
 last_reviewed_at: '2026-01-19'
 diplomacy:
   status: severed
   expelled_diplomats: all
   iran_mission_status: interests_section
-  summary: "Diplomatic relations severed since 1980. Leads global maximum pressure campaign."
+  summary: Diplomatic relations severed since 1980. Leads global maximum pressure campaign.
 irgc_designation:
   status: designated_full
-  summary: "Designated as a Foreign Terrorist Organization (FTO) in 2019."
+  summary: Designated as a Foreign Terrorist Organization (FTO) in 2019.
 un_posture:
   status: leads_accountability
   supports_un_investigations: true
   supports_sanctions_or_condemnation: true
   supports_evidence_preservation: true
   supports_credential_limits: true
-  summary: "Spearheads most UN resolutions condemning human rights abuses and nuclear proliferation."
+  summary: Spearheads most UN resolutions condemning human rights abuses and nuclear proliferation.
 security_posture:
   status: explicit_support
-  summary: "Leads maritime security coalitions; enforces secondary sanctions; conducts deterrence operations."
+  summary: Leads maritime security coalitions; enforces secondary sanctions; conducts deterrence operations.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 3
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Leads maritime security coalitions; enforces secondary sanctions; conducts deterrence operations.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 4
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from irgc_designation/diplomacy.
+  free_political_prisoners:
+    level: 3
+    last_updated: '2026-01-19'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Migrated from un_posture leads_accountability.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

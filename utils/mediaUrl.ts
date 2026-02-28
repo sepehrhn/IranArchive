@@ -7,7 +7,7 @@
 
 import { useRuntimeConfig } from '#app';
 
-export type MediaKind = 'evidence' | 'victim_photo' | 'asset'; // Added asset
+export type MediaKind = 'evidence' | 'victim_photo' | 'entity_photo' | 'asset'; // Added asset, entity_photo
 
 export interface MediaUrlOptions {
     kind: MediaKind;
@@ -69,6 +69,10 @@ export function getMediaUrl(options: MediaUrlOptions, config?: any): string {
 
         case 'asset':
             fullPath = `data/assets/${normalizedPath}`;
+            break;
+
+        case 'entity_photo':
+            fullPath = `data/entities/img/${normalizedPath}`;
             break;
 
         default:

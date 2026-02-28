@@ -68,7 +68,7 @@ export default defineNuxtConfig({
     nitro: {
         preset: 'github-pages',
         prerender: {
-            routes: ['/data/events/events.ics', '/api/assets', '/api/events']
+            routes: ['/data/events/events.ics', '/api/assets', '/api/events', '/entities']
         }
         // Note: Media files (evidences, campaigns, victims) are NOT copied to static output.
         // They are loaded at runtime from GitHub raw URLs via utils/mediaUrl.ts

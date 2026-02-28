@@ -1,0 +1,84 @@
+type: media
+names:
+  primary: Press TV
+  native: پرس تی‌وی
+country:
+  iso2: IR
+  name: Iran
+visibility:
+  show_in: both
+roles:
+  - State Media
+  - Broadcaster
+links:
+  website: https://www.presstv.ir
+  social:
+    - platform: x
+      url: https://x.com/PressTV
+      handle: '@PressTV'
+stance:
+  label: pro_regime
+  confidence: 98
+  summary: State-funded English-language outlet of the Islamic Republic. Consistently amplifies regime narratives and has been sanctioned by multiple countries for propaganda.
+  last_updated: '2026-01-25'
+  themes:
+    - amplified_regime_narratives
+    - spread_misinformation
+evidence_refs:
+  - evidence_id: ev_presstv_misinfo_2026
+    direction: supports_regime
+    date: '2026-01-10'
+    quote: Press TV described protesters as 'rioters backed by foreign agents' without evidence.
+    context: Broadcast during January 2026 protests, contradicting eyewitness footage.
+    importance: 5
+    external_url: https://www.presstv.ir/Detail/2026/01/10/protests
+  - evidence_id: ev_presstv_sanctions_eu
+    direction: supports_regime
+    date: '2024-06-15'
+    quote: EU banned Press TV for its role in broadcasting forced confessions of political prisoners.
+    context: European Commission decision on media sanctions against IR entities.
+    importance: 4
+    external_url: https://eur-lex.europa.eu/presstv-sanctions
+review:
+  status: published
+  review_history:
+    - at: '2026-01-25'
+      by: admin
+      note: Well-documented state media entity.
+tags:
+  - state-media
+  - propaganda
+  - sanctions
+entity_type: other
+campaign_positions:
+  protect_iran:
+    level: 0
+    last_updated: '2026-01-25'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-25'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-25'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 0
+    last_updated: '2026-01-25'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-25'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-25'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+actions: []

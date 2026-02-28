@@ -1,24 +1,55 @@
 iso2: RU
-name: "Russian Federation"
-region: "Europe"
-subregion: "Eastern Europe"
+name: Russian Federation
+region: Europe
+subregion: Eastern Europe
 last_reviewed_at: '2026-01-19'
 diplomacy:
   status: enhanced_engagement
   expelled_diplomats: unknown
   iran_mission_status: embassy
-  summary: "Strategic alliance. 20-year comprehensive agreement in works. Iran supplies drones (Shahed) for war in Ukraine."
+  summary: Strategic alliance. 20-year comprehensive agreement in works. Iran supplies drones (Shahed) for war in Ukraine.
 irgc_designation:
   status: rejected_or_no
-  summary: "No designation."
+  summary: No designation.
 un_posture:
   status: protects_regime
   supports_un_investigations: false
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Veto protector. Blocks UNSC resolutions against Iran."
+  summary: Veto protector. Blocks UNSC resolutions against Iran.
 security_posture:
   status: opposed
-  summary: "Deep military cooperation. Shared drone tech. Su-35 fighter jet deal reported."
+  summary: Deep military cooperation. Shared drone tech. Su-35 fighter jet deal reported.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

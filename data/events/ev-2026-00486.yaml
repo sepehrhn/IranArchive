@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Sunday Solidarity Gathering"
+featured: false
+
+description: |
+  Sundays have been a common day for major rallies in Dublin during this uprising (e.g., Jan 11, Feb 1). Focus is on condemning the recent mass executions and internet blackouts. | Tips: Crowds have been gathering at the Spire. Look for the 'Lion and Sun' flags which distinguish opposition groups from pro-regime elements.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  start_time: "13:00-15:00"
+
+location:
+  country: "IE"
+  city: "Dublin"
+  address: "The Spire, O'Connell Street - Meeting at the Spire, potentially marching to Dáil Éireann."
+
+online: []
+
+organizer:
+  name: "Iranian Community Ireland"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

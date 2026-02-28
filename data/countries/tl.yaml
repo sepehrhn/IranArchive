@@ -1,24 +1,55 @@
 iso2: TL
-name: "Timor-Leste"
-region: "Asia"
-subregion: "South-eastern Asia"
+name: Timor-Leste
+region: Asia
+subregion: South-eastern Asia
 last_reviewed_at: '2026-01-19'
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
-  summary: "Maintains relations."
+  summary: Maintains relations.
 irgc_designation:
   status: rejected_or_no
-  summary: "No designation."
+  summary: No designation.
 un_posture:
   status: supports_accountability
   supports_un_investigations: false
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Supports HR resolutions."
+  summary: Supports HR resolutions.
 security_posture:
   status: unknown
-  summary: "None known."
+  summary: None known.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

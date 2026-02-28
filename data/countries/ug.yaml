@@ -1,24 +1,55 @@
 iso2: UG
-name: "Uganda"
-region: "Africa"
-subregion: "Eastern Africa"
+name: Uganda
+region: Africa
+subregion: Eastern Africa
 last_reviewed_at: '2026-01-19'
 diplomacy:
   status: full_relations
   expelled_diplomats: unknown
   iran_mission_status: unknown
-  summary: "Growing ties. President Raisi visited in 2023. Interest in Iranian oil/petrochemical technology."
+  summary: Growing ties. President Raisi visited in 2023. Interest in Iranian oil/petrochemical technology.
 irgc_designation:
   status: rejected_or_no
-  summary: "No designation."
+  summary: No designation.
 un_posture:
   status: neutral_inconsistent
   supports_un_investigations: false
   supports_sanctions_or_condemnation: false
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Mixed voting record."
+  summary: Mixed voting record.
 security_posture:
   status: unknown
-  summary: "None known."
+  summary: None known.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-19'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

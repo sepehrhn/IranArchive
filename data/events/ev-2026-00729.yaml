@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Solidarity Protest in Wellington"
+featured: false
+
+description: |
+  Community-organized solidarity event for the Iranian people's uprising.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/05"
+  start_time: "12:15-12:45"
+
+location:
+  country: "NZ"
+  city: "Wellington"
+  address: "29 Fitzherbert Terrace, Wellington"
+
+online: []
+
+organizer:
+  name: "Community"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

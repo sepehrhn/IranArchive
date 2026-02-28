@@ -1,24 +1,56 @@
 iso2: AR
-name: "Argentina"
-region: "Americas"
-subregion: "South America"
+name: Argentina
+region: Americas
+subregion: South America
 last_reviewed_at: '2026-01-29'
 diplomacy:
   status: downgraded
   expelled_diplomats: limited
   iran_mission_status: embassy
-  summary: "Relations strained by AMIA (1994) and Israeli Embassy (1992) bombings legacy. Milei govt designated Quds Force as terrorists."
+  summary: Relations strained by AMIA (1994) and Israeli Embassy (1992) bombings legacy. Milei govt designated Quds Force as terrorists.
 irgc_designation:
   status: designated_partial
-  summary: "President Milei signed a decree proscribing the IRGC Quds Force and 13 individuals as terrorists on Jan 29, 2026."
+  summary: President Milei signed a decree proscribing the IRGC Quds Force and 13 individuals as terrorists on Jan 29, 2026.
 un_posture:
   status: supports_accountability
   supports_un_investigations: true
   supports_sanctions_or_condemnation: true
   supports_evidence_preservation: false
   supports_credential_limits: false
-  summary: "Consistently supports human rights investigations."
+  summary: Consistently supports human rights investigations.
 security_posture:
   status: explicit_support
-  summary: "Cooperates on counter-terrorism; specifically targets Hezbollah/IRGC networks in the Tri-Border Area."
+  summary: Cooperates on counter-terrorism; specifically targets Hezbollah/IRGC networks in the Tri-Border Area.
 evidence: []
+campaign_statuses:
+  protect_iran:
+    level: 3
+    last_updated: '2026-01-29'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Cooperates on counter-terrorism; specifically targets Hezbollah/IRGC networks in the Tri-Border Area.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-01-29'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.

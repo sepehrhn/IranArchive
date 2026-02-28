@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Saturday Solidarity Rally"
+featured: false
+
+description: |
+  A major recurring weekly demonstration in solidarity with the Iranian people's uprising. Thousands have been gathering every Saturday to condemn the recent mass executions and internet blackouts. Protesters often demand the expulsion of Iranian diplomats and support the democratic transition in Iran. Recent petitions have called for lighting the Sergels Torg obelisk in green, white, and red. | Tips: Dress warmly (sub-zero temperatures expected). Bring placards with photos of recent victims if available. This is the main central gathering.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "14:00-16:00 (Estimated)"
+
+location:
+  country: "SE"
+  city: "Stockholm"
+  address: "Sergels Torg, Stockholm - Central square, near the 'Kristallvertikalaccent' (glass obelisk)."
+
+online: []
+
+organizer:
+  name: "Woman Life Freedom Coalition / Iranian Diaspora in Sweden"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []
