@@ -4,81 +4,53 @@ import { useIncidents } from '@/composables/useIncidents';
 
 // In-memory cache
 const victimsData = ref<Victim[]>([]);
+const victimsLoaded = ref(false);
+let loadPromise: Promise<void> | null = null;
 
 export const useVictims = () => {
 
     /**
-     * Loads all victims from YAML files.
-     * Uses import.meta.glob with eager loading for SSG compatibility.
-     * Also loads incidents to compute relationships.
+     * Loads all victims from a prerendered API endpoint.
+     * This avoids bundling thousands of YAML files into the client/SSR chunks.
      */
     const loadVictims = async () => {
-        if (victimsData.value.length > 0) return;
+        if (victimsLoaded.value) return;
+        if (loadPromise) return loadPromise;
 
-        try {
-            const files = import.meta.glob('/data/victims/*.yaml', { eager: true });
-            const loadedVictims: Victim[] = [];
+        loadPromise = (async () => {
+            try {
+                const loadedVictims = await $fetch<Victim[]>('/api/victims');
+                victimsData.value = Array.isArray(loadedVictims) ? loadedVictims : [];
 
-            // Load base victim data
-            for (const path in files) {
-                const module = files[path] as any;
-                const data = module.default;
+                // Fallback: if incident_ids are missing from API payload, compute them from incidents.
+                const needsIncidentIds = victimsData.value.some(v => !Array.isArray(v.incident_ids));
+                if (needsIncidentIds) {
+                    const { listIncidents } = useIncidents();
+                    const incidents = await listIncidents();
+                    const victimMap = new Map(victimsData.value.map(v => [v.id, v]));
 
-                // Extract ID from filename
-                const parts = path.split('/');
-                const fileName = parts[parts.length - 1];
-                const id = fileName.replace('.yaml', '');
-
-                if (data && data.name) {
-                    // Normalize photos from various possible field names and formats
-                    let rawPhotos: string[] = [];
-                    const photosVal = data.photos || data.photo;
-
-                    if (Array.isArray(photosVal)) {
-                        rawPhotos = photosVal.filter(p => typeof p === 'string');
-                    } else if (typeof photosVal === 'string') {
-                        rawPhotos = [photosVal];
-                    }
-
-                    loadedVictims.push({
-                        ...data,
-                        id: id,
-                        photos: rawPhotos,
-                        photo: rawPhotos[0] || '/placeholder-victim.png', // Main photo for backward compatibility
-                        child: (typeof data.age === 'number' && data.age <= 17),
-                        incident_ids: []
-                    } as Victim);
-                } else {
-                    console.warn(`Skipping invalid victim file: ${path}`);
-                }
-            }
-
-            // Compute relationships from Incidents
-            const { listIncidents } = useIncidents();
-            const incidents = await listIncidents();
-
-            // Create a map for quick lookup
-            const victimMap = new Map(loadedVictims.map(v => [v.id, v]));
-
-            for (const inc of incidents) {
-                if (inc.victims && Array.isArray(inc.victims)) {
-                    for (const vRef of inc.victims) {
-                        // vRef is just the ID string now
-                        if (vRef && victimMap.has(vRef)) {
+                    for (const inc of incidents) {
+                        if (!Array.isArray(inc.victims)) continue;
+                        for (const vRef of inc.victims) {
+                            if (!vRef || !victimMap.has(vRef)) continue;
                             const victim = victimMap.get(vRef)!;
-                            // Add incident ID if not present
+                            victim.incident_ids = Array.isArray(victim.incident_ids) ? victim.incident_ids : [];
                             if (!victim.incident_ids.includes(inc.id)) {
                                 victim.incident_ids.push(inc.id);
                             }
                         }
                     }
                 }
+            } catch (e) {
+                console.error('Failed to load victims:', e);
+                victimsData.value = [];
+            } finally {
+                victimsLoaded.value = true;
+                loadPromise = null;
             }
+        })();
 
-            victimsData.value = loadedVictims;
-        } catch (e) {
-            console.error('Failed to load victims:', e);
-        }
+        return loadPromise;
     };
 
     const listVictims = async (): Promise<Victim[]> => {
