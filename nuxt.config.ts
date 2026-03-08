@@ -83,9 +83,11 @@ export default defineNuxtConfig({
                 '/events',
                 '/incidents',
                 '/submit',
+                '/victims',
                 '/data/events/events.ics',
                 '/api/assets',
-                '/api/events'
+                '/api/events',
+                '/api/victims'
             ]
         }
         // Note: Media files (evidences, campaigns, victims) are NOT copied to static output.
