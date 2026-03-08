@@ -13,6 +13,7 @@ const copiedLink = ref(false);
 const copiedCryptoType = ref<string | null>(null);
 const isGlobalPressureOpen = ref(false);
 const isWartimeOpen = ref(false);
+const isRefreshingData = ref(false);
 
 const BTC_ADDRESS = 'bc1q2ljvxxang69hqm578jqvx9pv5rjpz8psnjqjpv';
 const ETH_ADDRESS = '0xdf52878DffE453396E8Fa3f740A70DE6E081E9E6';
@@ -116,6 +117,12 @@ const copyCryptoAddress = (type: string, address: string) => {
     }, 2000);
 };
 
+const refreshData = () => {
+    if (isRefreshingData.value) return;
+    isRefreshingData.value = true;
+    window.location.reload();
+};
+
 const handleOutsideClick = (e: MouseEvent) => {
     const target = e.target as HTMLElement;
     if (!target.closest('.share-dropdown-trigger') && !target.closest('.share-dropdown-content')) {
@@ -150,12 +157,32 @@ onUnmounted(() => {
             <!-- Top Row: Logo & Utilities -->
             <div class="relative group/top z-20">
                 <nav class="container mx-auto px-6 h-16 flex items-center justify-between relative z-10">
-                    <NuxtLink to="/" class="flex items-center gap-3 font-black text-2xl tracking-tighter hover:scale-[1.02] transition-transform duration-500 group/logo" @click="closeMenu">
-                        <img src="/lion-and-sun.svg" alt="Lion and Sun" class="h-10 w-auto drop-shadow-[0_0_15px_rgba(217,119,6,0.3)] group-hover/logo:scale-110 transition-all duration-500 ease-out will-change-transform" />
-                        <span class="text-surface-900 dark:text-white flex items-baseline">
-                            IRAN<span class="text-primary-600 dark:text-primary-400 font-extralight ml-1">ARCHIVE</span>
-                        </span>
-                    </NuxtLink>
+                    <div class="flex items-center gap-2 sm:gap-4">
+                        <NuxtLink to="/" class="flex items-center gap-3 font-black text-2xl tracking-tighter hover:scale-[1.02] transition-transform duration-500 group/logo" @click="closeMenu">
+                            <img src="/lion-and-sun.svg" alt="Lion and Sun" class="h-10 w-auto drop-shadow-[0_0_15px_rgba(217,119,6,0.3)] group-hover/logo:scale-110 transition-all duration-500 ease-out will-change-transform" />
+                            <span class="text-surface-900 dark:text-white flex items-baseline">
+                                IRAN<span class="text-primary-600 dark:text-primary-400 font-extralight ml-1">ARCHIVE</span>
+                            </span>
+                        </NuxtLink>
+
+                        <div class="hidden sm:flex items-center gap-2">
+                            <div class="inline-flex items-center gap-1 border-2 border-emerald-500/80 text-emerald-600 dark:text-emerald-400 rounded-full px-2 py-1 leading-none pointer-events-none">
+                                <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                                <span class="text-[10px] font-bold tracking-[0.2em] uppercase">{{ $t('common.live') }}</span>
+                            </div>
+
+                            <button
+                                type="button"
+                                :disabled="isRefreshingData"
+                                :aria-label="$t('common.refreshData')"
+                                @click="refreshData"
+                                class="h-8 px-2.5 rounded-xl flex items-center gap-1.5 text-[11px] font-bold tracking-[0.12em] uppercase text-surface-500 dark:text-surface-400 hover:text-surface-900 dark:hover:text-surface-100 hover:bg-surface-200/40 dark:hover:bg-surface-800/40 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+                            >
+                                <i class="pi pi-refresh text-xs" :class="{ 'animate-spin': isRefreshingData }"></i>
+                                <span>{{ isRefreshingData ? $t('common.refreshing') : $t('common.refreshData') }}</span>
+                            </button>
+                        </div>
+                    </div>
                     
                     <div class="flex items-center gap-4">
                         <!-- Desktop Utilities -->
