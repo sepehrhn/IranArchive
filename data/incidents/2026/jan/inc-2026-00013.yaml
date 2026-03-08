@@ -1,0 +1,169 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "verified"
+
+ratings:
+  veracity: 9
+  evidence_availability: 6
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/08"
+  start_time: ""
+  # End date (optional)
+  end: "2026/01/09"
+  end_time: ""
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Kerman"
+  # City name
+  city: "Kerman"
+  # Specific address or landmark (optional)
+  address: "Azadi Square / route toward the Qassem Soleimani statue / Bahmanyar Street"
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Uprising / Crackdown / Mass Shooting"
+
+# Estimated severity statistics (optional)
+severity:
+  deaths:
+    min: 7
+    max: 30
+  injured:
+    min: 10
+    max: 100
+  arrests:
+    min: 0
+    max: 20
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Kerman Soleimani Statue Protest Killings"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "Witnesses and victim reporting indicate that security forces in Kerman opened fire on crowds trying to reach the Qassem Soleimani statue on January 8, 2026. Named victim documentation supports a conservative minimum of seven deaths in Kerman that day, while Iran International later reported that dozens may have been killed."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  In Kerman, one of the clearest January 8 massacre patterns involved crowds trying to reach the Qassem Soleimani statue and being met with direct lethal force.
+
+  Iran International's later investigation, based on eyewitnesses and medical staff, said security forces fired on protesters attempting to approach the statue and that local accounts described the city as a war zone. The same report said some protesters were ordered to salute Qassem Soleimani and shout pro-regime slogans while under armed pressure.
+
+  Public victim documentation linked to the city supports the conclusion that the killings were not isolated. Among the named fatalities documented online for January 8 in Kerman are Danial Diyani, killed by gunshots to the eye and chest; Mehdi Khosravi, reportedly shot while bending down during the confrontation; and Milad Moazzami Goodarzi, whose comrades said he was hit by four bullets fired from the direction of the Soleimani statue. Additional Kerman victims dated January 8 are also present in the archive's victim collection, supporting a minimum of seven named deaths in the city that day.
+
+  Because witness sources described far higher losses than the current named public list, the incident records a wider upper range while clearly separating documented minimums from broader estimates.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Security forces opened fire on crowds in Kerman attempting to approach the Qassem Soleimani statue on January 8, 2026."
+  - "Some protesters were pressured or ordered to salute Soleimani while the crackdown unfolded."
+  - "At least seven named fatalities from Kerman are currently documented for January 8 in archive-linked victim material."
+  - "Witnesses and medical staff later said dozens may have been killed in Kerman."
+
+# Open questions or missing information
+open_questions:
+  - "What exact route did protesters take from Azadi Square toward the Soleimani statue?"
+  - "Were rooftop or elevated firing positions used in addition to street-level fire?"
+  - "How many of the wounded were treated in hospitals, and how many avoided treatment out of fear of arrest?"
+  - "Can the current minimum victim list for January 8 Kerman be expanded with full names, ages, and neighborhoods?"
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "The gap between the documented named-victim minimum and witness estimates remains substantial."
+  - "The internet blackout and fear of retaliation limited the publication of contemporaneous footage from Kerman."
+  - "Several supporting victim sources are social-media based and require ongoing preservation."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+evidence_ids: []
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-krm-001"
+    label: "Iran International: new accounts detail mass killing at Soleimani statue protest"
+    url: "https://www.iranintl.com/en/202602165918"
+    publisher: "Iran International"
+    published_at: "2026/02/16"
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Core reconstruction based on eyewitnesses and medical staff from Kerman."
+  - id: "src-krm-002"
+    label: "Iran International post documenting Danial Diyani"
+    url: "https://x.com/IranIntl/status/2014006043513155635"
+    publisher: "Iran International"
+    published_at: ""
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "Used in existing victim documentation for Danial Diyani, who was killed in Kerman on January 8."
+  - id: "src-krm-003"
+    label: "Open-source victim documentation for Mehdi Khosravi"
+    url: "https://x.com/Realneo101/status/2015353337550393776"
+    publisher: "Realneo101"
+    published_at: ""
+    type: "primary"
+    archived_urls: []
+    language: "fa"
+    notes: "Family- or activist-circulated victim report used in the archive's Mehdi Khosravi record."
+  - id: "src-krm-004"
+    label: "Open-source victim documentation for Milad Moazzami Goodarzi"
+    url: "https://x.com/azadehkhorasan/status/2016626197883736105"
+    publisher: "Azadeh Khorasan"
+    published_at: ""
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "States that four bullets hit Milad Moazzami Goodarzi from the direction of the Qassem Soleimani statue."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/08"
+    time: ""
+    title: "Crowds move toward the Qassem Soleimani statue"
+    description: "Witnesses later say crowds in Kerman tried to approach the Qassem Soleimani statue and were met with armed force."
+    evidence_ids: []
+    source_ids: ["src-krm-001"]
+  - at: "2026/01/08"
+    time: ""
+    title: "Named victims begin to emerge from the crackdown"
+    description: "Victim documentation links the same day in Kerman to the killings of Danial Diyani, Mehdi Khosravi, Milad Moazzami Goodarzi, and other protesters."
+    evidence_ids: []
+    source_ids: ["src-krm-002", "src-krm-003", "src-krm-004"]
+
+# Internal review history
+review_history:
+  - at: "2026/03/08"
+    reviewer: "Codex"
+    change: "created"
+    to_status: "verified"
+    notes: "Created after targeted web research to add Kerman's January 8 statue-route killings, which were absent from the existing incident archive."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []

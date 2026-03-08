@@ -1,115 +1,36 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1912"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23184_0_twitter_v1.jpg
   - vic-2026-2139951.jpg
   - vic-2026-59460c1800f4.jpg
-
-# Full Name in English
 name: Milad Moazzami Goodarzi
-
-# Full Name in Persian (Optional)
 persian_name: میلاد معظمی گودرزی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: null
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 28
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Kerman
 incident_city: Kerman
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
+description: |-
+  Army commando from Khorramabad who went to protest in civilian clothes with his commander. Both were shot with jungle bullets and killed. Family was contacted 48 hours later. Father is retired army personnel. When father arrived at Kerman morgue, he saw about 12 young men and women left in corner to die. Father protested they were still alive and should be helped, but was told to either shut up and take his son's body or leave. Father believes if they had reached Milad in time, he would have survived and that he died suffering. Father was pressured to say his son died defending the government.
 
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: Shot and killed in Kerman. According to his comrades who were present at the scene, four bullets hit his body from the direction of the Qasem Soleimani statue. Originally from Khorramabad. His funeral was held in a security-controlled environment on January 12, 2026.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
-source: https://x.com/azadehkhorasan/status/2016626197883736105
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  Shot and killed in Kerman. According to his comrades who were present at the scene, four bullets hit his body from the direction of the Qasem Soleimani statue. Originally from Khorramabad. His funeral was held in a security-controlled environment on January 12, 2026.
+source_type: Social Media
+source:
+  - https://x.com/azadehkhorasan/status/2016626197883736105
+  - https://x.com/HeKasrehCrisis/status/2018557638532124868
+  - https://x.com/persian_picture/status/2023695253945909407
+  - https://x.com/afsheenn/status/2023734990953922599
+  - https://x.com/nazanin7/status/2024331126211284997
+  - https://t.me/RememberTheirNames/3038
+  - https://t.me/JavidnamaneVatan/2379

@@ -1,114 +1,58 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1964"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23300_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39997_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40447_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40735_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48234_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49336_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49441_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49446_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49489_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50080_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51028_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51028_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53033_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53831_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55609_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56681_0_twitter_v1.jpg
   - vic-2026-756ff71f7b32.jpg
-
-# Full Name in English
 name: Mohammad Amin Biglari
-
-# Full Name in Persian (Optional)
 persian_name: محمدامین بیگلری
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
-age: 18
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
+age: 19
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: ''
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
-status: Sentenced
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+incident_province: Tehran
+incident_city: Tehran
+incident_address: ""
+date_of_death: "2026-01-08"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: 19-year-old computer science student sentenced to death by Branch 15 of Tehran Revolutionary Court under Judge Salvati. Arrested on January 8, 2026 in Damavand Street area of Tehran while returning from work at a men's barbershop where he worked to support his living and study expenses. He is an only child who had previously lost his mother. Denied access to chosen lawyer and effective defense. Currently held in Tehran's Greater Prison (Evin). State media broadcast edited forced confessions obtained under torture. Case transferred from Branch 3 to Branch 15 of Revolutionary Court, initial verdict sent to Supreme Court for review.
+suspected_actor: ""
+status: Missing
+detention_status: sentenced_to_death
+description: 19-year-old computer science student sentenced to death by Branch 15 of Tehran Revolutionary Court under Judge Salvati. Arrested on January 8, 2026 in Damavand Street area of Tehran while returning from work at a men's barbershop where he worked to support his living and study expenses. He is an only child who had previously lost his mother. Denied access to chosen lawyer and effective defense. Currently held in Tehran's Greater Prison (Evin). State media broadcast edited forced confessions obtained under torture. Case transferred from Branch 3 to Branch 15 of Revolutionary Court, initial verdict sent to Supreme Court for review.
+source_type: Social Media
 source:
   - https://x.com/Elaheh_Ela/status/2016464361359806750
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/monaborzouei/status/2019463878443160021
+  - https://x.com/khatibiofficial/status/2019455001261732256
+  - https://x.com/i/status/2019410221991620728
+  - https://x.com/realmeaban/status/2019811958510465495
+  - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-884
+  - https://x.com/jegarhayenarenj/status/2023119393228513335
+  - https://x.com/autnews_org/status/2023817520805798373
+  - https://x.com/katierebel2nd/status/2024416595838140454
+  - https://x.com/batmaniei7vrc/status/2024446111205687642
+  - https://x.com/faezehhkv/status/2024272411315626398
+  - https://x.com/donyarad/status/2024824721229943217
+  - https://x.com/persianlionessx/status/2024984932112609447
+  - https://x.com/followupiran/status/2025526851834142936
+  - https://www.instagram.com/p/DVI2HbijIud
+  - https://x.com/irangirl0/status/2026514903889056122
+  - https://x.com/allahbakhshii/status/2027484492538253695

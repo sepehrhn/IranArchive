@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "709"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20807_0_twitter_v1.jpg
   - vic-2026-000858.jpg
   - vic-2026-1a90a8788492.jpg
   - vic-2026-7c5c1977c0c5.jpg
@@ -23,114 +11,43 @@ photo:
   - vic-2026-1c8c2cd10711.jpg
   - vic-2026-5a29cd0ea7dd.jpg
   - vic-2026-9639146890a7.jpg
-
-# Full Name in English
 name: Sona Yekta
-
-# Full Name in Persian (Optional)
 persian_name: سونا یکتا
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
-
-# Age at time of death (Optional, remove if unknown)
 age: 22
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Gilan
-incident_city: Pare Sar
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_city: Parehsar
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Killed on 18 Dey (January 8, 2026) in Parehsar, Gilan province. Described as 'child of Iran and one who sacrificed life for homeland'
+
   Killed by Islamic Republic forces during protest in Parsi Sar, Gilan
 
 
   Killed during protests in Preshahr Gilan on Thursday when people came from surrounding villages for the call to action
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/banafshehviola/status/2014215203144237547, https://x.com/Ehssan1401/status/2014213626505367681, https://x.com/HyrcaniHRM/status/2014379717596508313, https://x.com/HengawO/status/2014670380019925226, https://x.com/olilondontv/status/2014842334773391780, https://t.me/RememberTheirNames/726, https://x.com/i/status/2016158731382247886
-  - https://x.com/i/status/2016158731382247886
   - https://x.com/banafshehviola/status/2014215203144237547
   - https://x.com/HyrcaniHRM/status/2014379717596508313
   - https://x.com/HengawO/status/2014670380019925226
   - https://x.com/olilondontv/status/2014842334773391780
+  - https://x.com/i/status/2016158731382247886
   - https://x.com/Ehssan1401/status/2014213626505367681
   - https://x.com/i/status/2017149909917417588
   - https://x.com/hashshaashin/status/2017149909917417588
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMilxE
+  - https://t.me/RememberTheirNames/726
+  - https://x.com/mitraaa115/status/2021854257331245451
+  - https://t.me/JavidnamaneVatan/374
+  - https://hengaw.net/en/news/2026/01/article-187

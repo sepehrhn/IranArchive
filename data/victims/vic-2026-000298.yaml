@@ -1,122 +1,38 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "547"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20495_0_twitter_v1.jpg
   - vic-2026-000298.jpg
   - vic-2026-097775cfb824.jpg
   - vic-2026-000621.jpg
   - vic-2026-2d9580b0ec5b.jpg
-
-# Full Name in English
 name: Hamidreza Mohseni
-
-# Full Name in Persian (Optional)
 persian_name: حمیدرضا محسنی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 42
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: ""
 incident_city: Karaj
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
+description: |-
+  Shot directly in the head by Islamic Republic suppressive forces in the 45 Metri Golshahr area. Had a master's degree in civil engineering and was unmarried. Family initially thought he was arrested and imprisoned for a week before friends informed them his body was in a Tehran morgue. Security forces did not return the body to family but transferred it to a remote cemetery in Karaj with only parents allowed to attend ceremony. Family was forced to remove the word 'Javidnam' (eternal memory) from death notices by security agents.
 
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: |
   Shot directly in the head by Islamic Republic repressive forces in 45 Metri Golshahr area
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/maroofian_n/status/2013559515958870249, https://t.me/RememberTheirNames/426
   - https://x.com/maroofian_n/status/2013559515958870249
-  - https://x.com/kurdpa_farsi/status/2014716360333369767, https://x.com/hekasrehcrisis/status/2014824538719051889, https://x.com/HeKasrehCrisis/status/2014824538719051889, https://t.me/RememberTheirNames/817
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWidy0
+  - https://t.me/RememberTheirNames/426
+  - https://x.com/kurdpa_farsi/status/2014716360333369767
+  - https://x.com/hekasrehcrisis/status/2014824538719051889
+  - https://t.me/RememberTheirNames/817
   - https://x.com/HengawO/status/2014723608359104900
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

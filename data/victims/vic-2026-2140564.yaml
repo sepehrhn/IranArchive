@@ -1,115 +1,36 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "615"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20585_0_twitter_v1.jpg
   - vic-2026-d3ab73270d82.jpg
   - vic-2026-de3b9478d483.jpg
-
-# Full Name in English
 name: Morteza Rahnama Toudekanlou
-
-# Full Name in Persian (Optional)
-persian_name: مرتضی رهنما توپکانلو
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
-age: 37
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+persian_name: مرتضی رهنما
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
+age: 33
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: ""
 incident_city: Mashhad
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_address: ""
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Shot in the head with a bullet while helping injured protesters. For three days (17th, 18th, and 19th of Dey), he carried more than twenty injured people one by one to take them to alleys, parking lots, or neighbors' courtyards to get them to the hospital. Finally, he was shot in the head and fell to the cold ground instead of being in his sister's embrace.
+source_type: Social Media
 source:
+  - https://x.com/__injaneb96/status/2014003550737625253
+  - https://x.com/Mahestane_iran/status/2014439724602065115
   - https://x.com/ManotoNews/status/2015155214504903089
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/marzieh_rahnama/status/2015064023163662777
+  - https://x.com/persian_picture/status/2016053523838800350
+  - https://x.com/justchangingun/status/2015190805732798850
+  - https://x.com/i/status/2016131638409793981
+  - https://javidnaman.iranintl.com/memorial/Poz7RgSatptP6OCyj5Tw82
+  - https://t.me/RememberTheirNames/535
+  - https://x.com/i/status/2016518197407559874

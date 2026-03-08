@@ -1,110 +1,31 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "2237"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23850_0_twitter_v1.jpg
   - vic-2026-b62b89de045e.jpg
   - vic-2026-be98110a4c4a.jpg
   - vic-2026-afa944223714.jpg
   - vic-2026-2134488aa1f0.jpg
   - vic-2026-f484d31a4a8b.jpg
-
-# Full Name in English
 name: Sagher Saif Allahi Fard
-
-# Full Name in Persian (Optional)
 persian_name: ساغر سیف اللهی فرد
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
-age: null
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Female
+age: 23
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: ''
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_province: Tehran
+incident_city: Tehran
+incident_address: ""
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Book author and mechanical engineering graduate killed during violent arrest by Islamic Republic agents. Was returning from work to home when security agents arrested her on charges of 'participating in protests'. She resisted the arrest and agents severely beat her with multiple blows to the head area with batons, which ultimately led to her death. Family was pressured by security institutions to declare cause of death as 'suicide', but death certificate records cause of death as 'impact of hard object to head'.
+source_type: Social Media
 source:
   - https://x.com/jashnimitra/status/2017328318182211774
   - https://t.me/iliaen/2712
@@ -112,12 +33,8 @@ source:
   - https://x.com/i/status/2016921122042749232
   - https://x.com/tavaana/status/2017603790405243318
   - https://x.com/irannewsagency0/status/2017615961713442836
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/NoaMagid/status/2017509927086960724
+  - https://t.me/iliaen/2716
+  - https://x.com/aminbehroozi2/status/2018257088145752203
+  - https://t.me/RememberTheirNames/1903
+  - https://x.com/abypeyman/status/2022339999371493508

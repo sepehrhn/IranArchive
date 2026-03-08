@@ -1,119 +1,43 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "145"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19735_0_twitter_v1.jpg
   - vic-2026-bc968c4039fe.jpg
   - vic-2026-3394cf872a7f.jpg
   - vic-2026-2577accc488e.jpg
   - vic-2026-54ecf964fd1b.jpg
   - vic-2026-e83e126558ad.jpg
-
-# Full Name in English
 name: Ali Behrouz-doost
-
-# Full Name in Persian (Optional)
-persian_name: علی بهروز‌دوست
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+persian_name: علی بهروزی
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: 25
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_address: ""
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: University of Tehran graduate student (class of 2019, irrigation major, College of Agriculture and Natural Resources), shot with war bullets by suppressive forces. Was wounded on Thursday evening 18 Dey in Haft-Howz area of Tehran, died on 19 Dey. Had a tattoo on his arm reading 'For those I love I will sacrifice'. Secret burial ceremony held with extensive presence of security agents.
+source_type: Social Media
 source:
+  - https://x.com/manotonews/status/2011800543321342168
+  - https://x.com/mamlekate/status/2012486300977308142
+  - https://x.com/longlosthills/status/2012607431268766179
   - https://x.com/HengawO/status/2012521048164434197
+  - https://x.com/Iran_Royal_/status/2014658968170463659
   - https://x.com/anjmotahed/status/2016893150585839620
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWh86I
+  - https://x.com/HeKasrehCrisis/status/2017343667426546102
+  - https://x.com/irannewsagency0/status/2018645282796228942
+  - https://x.com/dadban4/status/2012573780632015005
+  - https://t.me/RememberTheirNames/181
+  - https://x.com/becrebb/status/2021425700964794746
+  - https://t.me/JavidnamaneVatan/478
+  - https://hengaw.net/en/news/2026/01/article-136

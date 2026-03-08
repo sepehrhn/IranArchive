@@ -1,119 +1,40 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "5340"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42225_0_web_v1.jpg
   - vic-2026-000629.jpg
   - vic-2026-af0e59b67767.jpg
-
-# Full Name in English
 name: Hossein Hosseini
-
-# Full Name in Persian (Optional)
-persian_name: حسن حسینی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+persian_name: حسین حسینی
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 55
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 21
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Khorramabad
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: Fars
+incident_city: Abadeh
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  21-year-old physical education student from Abadeh in Fars province, killed during suppression by Islamic Republic forces in Dey month 1404
+
   Killed by Sajad Yousefi, leader of the terrorist group Ashuraian Montazer
 
 
   Killed by security forces of the Islamic Republic in Mashhad and buried in his hometown of Arak.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
-source: https://x.com/saeidvafa/status/2014727059533099512, https://x.com/hekasrehcrisis/status/2015189146713637324, https://x.com/khoshrof/status/2015384816183640479, https://x.com/SaeidVafa/status/2014727059533099512, https://x.com/behnam_chegini/status/2014737595159171180, https://t.me/RememberTheirNames/1167, https://t.me/RememberTheirNames/866
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+source_type: Social Media
+source:
+  - https://x.com/anjmotahed/status/2021232158736613635
+  - https://javidnaman.iranintl.com/memorial/KDUdFijd5QqIhPjGYD5AEv
+  - https://x.com/saeidvafa/status/2014727059533099512
+  - https://x.com/hekasrehcrisis/status/2015189146713637324
+  - https://x.com/khoshrof/status/2015384816183640479
+  - https://x.com/behnam_chegini/status/2014737595159171180
+  - https://t.me/RememberTheirNames/1167
+  - https://t.me/RememberTheirNames/866

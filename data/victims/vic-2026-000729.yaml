@@ -1,127 +1,44 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "404"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20260_0_twitter_v1.jpg
   - vic-2026-000729.jpg
   - vic-2026-fae6e913f457.jpg
   - vic-2026-a489ce628a41.jpg
   - vic-2026-ad3d41e834d7.jpg
   - vic-2026-27a271c37ead.jpg
   - vic-2026-fd388f5a5205.jpg
-
-# Full Name in English
 name: Mohammad Reza Ahangar
-
-# Full Name in Persian (Optional)
 persian_name: محمدرضا آهنگر
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 40
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 21
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Tehran
 incident_city: Tehran
 incident_address: Sadeghiyeh
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
+description: |-
+  Shot and killed by government forces during protests on Kashani Street in Sadeghieh's second circle. Eyewitnesses reported that the bullet was fired from above the Goldis complex opposite Ibn Sina Hospital and directly targeted his head. Before joining the protests, he had posted a video on Instagram saying: 'I'm going for the freedom of my homeland, for my people not to migrate. Don't you want Iran to be free? So let's go for Iran's freedom.'
 
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: |
   Shot directly by government forces during protests on Kashani Street, Sadeghieh second circle. Eyewitnesses report he was shot in the head by a bullet fired from above the Goldis complex opposite Ibn Sina Hospital
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/iranwire/status/2013244932648018136, https://x.com/iranwire/status/2013250792048763270, https://x.com/sssccpp/status/2013299534743429277, https://x.com/fseifikaran/status/2013706011186454528, https://x.com/FSeifikaran/status/2013549886277357659, https://x.com/Sssccpp/status/2013299534743429277, https://x.com/Sashtyani/status/2015552388304601276, https://x.com/MahshadBayat/status/2013205264514666710, https://t.me/RememberTheirNames/218, https://x.com/pouriazeraati/status/2016049239428563002
   - https://x.com/sssccpp/status/2013299534743429277
   - https://x.com/fseifikaran/status/2013706011186454528
   - https://x.com/FSeifikaran/status/2013549886277357659
-  - https://x.com/Sssccpp/status/2013299534743429277
   - https://x.com/MahshadBayat/status/2013205264514666710
+  - https://x.com/iranwire/status/2013244932648018136
+  - https://x.com/iranwire/status/2013250792048763270
+  - https://t.me/RememberTheirNames/218
+  - https://x.com/pouriazeraati/status/2016049239428563002
+  - https://t.me/JavidnamaneVatan/172
+  - https://x.com/persian_kiti/status/2020431541659385947
   - https://x.com/Sashtyani/status/2015552388304601276
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

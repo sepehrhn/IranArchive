@@ -1,129 +1,50 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "195"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20574_0_twitter_v1.jpg
   - vic-2026-000895.jpg
   - vic-2026-54f8d2f1eb95.jpg
   - vic-2026-808c5480d7cf.jpg
   - vic-2026-7956d10ed934.jpg
   - vic-2026-3f8a4ba808a7.jpg
   - vic-2026-a5b6361fd916.jpg
-
-# Full Name in English
 name: Reza Kadivarian
-
-# Full Name in Persian (Optional)
 persian_name: رضا کدیوریان
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 20
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Kermanshah
 incident_city: Jafarabad area
 incident_address: Jafarabad
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-05'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-03"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot on the evening of January 3, 2026 on Artesh Street in Jafarabad, Kermanshah and sustained severe injuries that caused him to fall into a coma. Was admitted to the intensive care unit at Taleghani Hospital where he remained until he died on January 4, 2026. Following his death, the family was reportedly pressured by authorities and told to pay 800 million tomans to receive the brothers' bodies. As of January 5, 2026, the bodies had not been returned.
+
   Shot by Islamic Republic forces during protests, died in hospital the day after being shot
 
 
   Shot on the evening of January 3, 2026, sustained severe injuries that caused him to fall into a coma. Was admitted to the intensive care unit at Taleghani Hospital where he remained until he died on January 4, 2026. Security forces demanded 800 million tomans from the family to release the bodies and requested that the deaths be officially recorded as those of 'government Basij members'.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed, https://x.com/iranwire/status/2012041685069414749, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://x.com/KurdistanHRN/status/2008214640791064873, https://x.com/KurdistanHRN/status/2015538579116642517, https://x.com/kurdistanhrn/status/2015538579116642517, https://x.com/Iran1Asl/status/2015089576088318398, https://x.com/KurdistanHRN/status/2015538461290422714, https://t.me/RememberTheirNames/50, https://en.wikipedia.org/wiki/Killing_of_the_Kadyvrian_brothers
+  - https://www.hrw.org/news/2026/01/08/iran-authorities-renewed-cycle-of-protest-bloodshed
   - https://x.com/KurdistanHRN/status/2008214640791064873
   - https://x.com/KurdistanHRN/status/2015538579116642517
   - https://x.com/KurdistanHRN/status/2015538461290422714
-  - https://x.com/kurdistanhrn/status/2015538579116642517
   - https://x.com/Iran1Asl/status/2015089576088318398
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://en.wikipedia.org/wiki/Killing_of_the_Kadyvrian_brothers
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClUVQB
+  - https://x.com/iranwire/status/2012041685069414749
+  - https://t.me/RememberTheirNames/50
+  - https://x.com/hengawo/status/2008197629612642360
+  - https://hengaw.net/en/news/2026/01/article-33
+  - https://hengaw.net/fa/news/2026/01/article-36
+  - https://hengaw.net/fa/news/2026/01/article-33
+  - https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/

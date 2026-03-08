@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "746"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20769_0_twitter_v1.jpg
   - vic-2026-000336.jpg
   - vic-2026-20d00776314d.jpg
   - vic-2026-ce03d76e7320.jpg
@@ -22,113 +10,43 @@ photo:
   - vic-2026-2139726.jpg
   - vic-2026-2139938.jpg
   - vic-2026-c6ed9e188cd6.jpg
-
-# Full Name in English
 name: Mehdi Abdali
-
-# Full Name in Persian (Optional)
 persian_name: مهدی ابدالی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 35
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Engineer from Isfahan. Killed during popular protests on Azar Street in Isfahan by direct gunfire from government forces with war bullets hitting his neck and heart area. According to informed sources, signs of severe beatings including blows from rifle butts were observed on his face and nose area.
+
   Shot directly by security forces on Azar Street. Witnesses report officers first struck his face with rifle butts, then shot him in the heart and neck
 
 
   Killed by a bullet to the forehead. He was the breadwinner of his family and worked as a cabinet installer. His father suffered from severe Alzheimer's, and his brother had passed away due to cancer.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/iranwire/status/2014366246158950622, https://x.com/melianouss/status/2015594914952691898, https://x.com/melianouss/status/2015595527639871647, https://t.me/RememberTheirNames/680
   - https://x.com/iranwire/status/2014366246158950622
   - https://x.com/melianouss/status/2015594914952691898
   - https://x.com/melianouss/status/2015595527639871647
   - https://x.com/missmarpel75/status/2016744632680317310
+  - https://t.me/RememberTheirNames/680
+  - https://www.instagram.com/p/DUuj0SiDNFD
+  - https://t.me/JavidnamaneVatan/1080
+  - https://hengaw.net/en/news/2026/01/article-181
+  - https://hengaw.net/fa/news/2026/01/article-186-1
   - https://t.me/RememberTheirNames/1246
-  - https://x.com/SalarvandN21943/status/2015941715497037951, https://x.com/SalarvandN21943/status/2014751363146592422
+  - https://x.com/SalarvandN21943/status/2015941715497037951
+  - https://x.com/SalarvandN21943/status/2014751363146592422
   - https://x.com/behnam_chegini/status/2016684023376908357
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

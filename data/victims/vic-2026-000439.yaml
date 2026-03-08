@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "33"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19646_0_twitter_v1.jpg
   - vic-2026-000439.jpg
   - vic-2026-d71a21869368.jpg
   - vic-2026-6440f416984d.jpg
@@ -27,100 +15,33 @@ photo:
   - vic-2026-800984bacfa2.jpg
   - vic-2026-d2c4a1a02969.jpg
   - vic-2026-64625332445c.png
-
-# Full Name in English
 name: Setayesh Shafiei
-
-# Full Name in Persian (Optional)
 persian_name: ستایش شفیعی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
-
-# Age at time of death (Optional, remove if unknown)
 age: 20
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot by the regime in the streets for protesting. Was an orphan with no family to receive her body after paying the $4,500 fine demanded by the IRGC for removing bullets from bodies of murdered protesters before burial. Buried in an unmarked mass grave. Her Telegram channel was called 'The Girl Who Was a Sun'.
+
   20-year-old orphan shot dead by suppression forces during nationwide protests. Ran a Telegram channel 'The Girl Who Was the Sun'.
 
 
   Orphaned daughter of Iran and killed on the path of the homeland. Setayesh has no one to seek justice for her. The author of the tweet states they have no sister but from today they do and will seek justice for her sister Setayesh.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/longlosthills/status/2011415117703860644, https://x.com/loabatk/status/2011890447057404157, https://x.com/Daikatuo/status/2011479730583724347, https://x.com/HenMazzig/status/2014047369709449667, https://x.com/nasim48381036/status/2015595269136535710, https://t.me/RememberTheirNames/130, https://www.instagram.com/p/DUAXmT5CG0l, https://x.com/Chaiteryak/status/2016150157843161141, https://x.com/Persian_picture/status/2016570617613439045
   - https://x.com/longlosthills/status/2011415117703860644
   - https://x.com/Daikatuo/status/2011479730583724347
   - https://x.com/loabatk/status/2011890447057404157
@@ -129,12 +50,9 @@ source:
   - https://www.instagram.com/p/DUAXmT5CG0l
   - https://x.com/Chaiteryak/status/2016150157843161141
   - https://x.com/Persian_picture/status/2016570617613439045
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClUhU0
+  - https://x.com/mhekhaste/status/2018417923728023805
+  - https://t.me/RememberTheirNames/130
+  - https://x.com/yssmmnn_/status/2023803890416972285
+  - https://t.me/JavidnamaneVatan/730
+  - https://hengaw.net/en/news/2026/01/article-108

@@ -1,120 +1,45 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "236"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20146_0_twitter_v1.jpg
   - vic-2026-000708.jpg
   - vic-2026-da0658cb08ae.jpg
   - vic-2026-d4b9cc4a7969.jpg
-
-# Full Name in English
 name: Mohammad Amin Ghobadi
-
-# Full Name in Persian (Optional)
-persian_name: محمد امین قبادی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+persian_name: امین قبادی
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 23
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 20
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Isfahan
 incident_city: Fooladshahr
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Lor citizen from Fooladshahr, killed by government forces' gunfire to the chest area during protests. His body has not been returned to his family, and security agencies are demanding payment of 2-3 billion tomans for the body's return.
+
   Shot in the neck by direct fire from IRGC forces during the protests.
 
 
   Shot in the neck by direct fire from IRGC forces. His family had to pay billions in toman to retrieve his body.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
-source: https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/iranhrs99/status/2012917486702801319, https://x.com/Martin129446771/status/2014439406069776599, https://t.me/RememberTheirNames/117
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+source_type: Social Media
+source:
+  - https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/
+  - https://x.com/iranhrs99/status/2012917486702801319
+  - https://t.me/poshtpardeha/249104?single
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmONPJX
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWgJLO
+  - https://www.instagram.com/p/DUO6YZ1EXt3
+  - https://x.com/visfehan/status/2018999485498814760
+  - https://t.me/RememberTheirNames/117
+  - https://t.me/JavidnamaneVatan/509
+  - https://t.me/JavidnamaneVatan/1832
+  - https://hengaw.net/en/news/2026/01/article-99
+  - https://x.com/Martin129446771/status/2014439406069776599

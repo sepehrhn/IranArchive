@@ -1,113 +1,36 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "322"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20103_0_twitter_v1.jpg
   - vic-2026-61e9e993cdf7.jpg
-
-# Full Name in English
 name: Abolfazl Heydari Mosalloo
-
-# Full Name in Persian (Optional)
 persian_name: ابوالفضل حیدری موصلو
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
-age: 17
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
+age: 16
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Qeyrokarzen - Fars
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_province: Fars
+incident_city: Qir
+incident_address: ""
+date_of_death: "2026-01-08"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
-source: []
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+description: Shot by IRGC forces during protests in Qir city with direct gunfire. His body was delivered to the family with threats that they must declare their son was not killed in protests and hold the burial ceremony without gathering. The family initially planned to hold the funeral on Friday but officials refused to deliver the body due to crowds and gatherings. His body was buried around 6 AM Saturday with only his father present and four security officers at Qir cemetery.
+source_type: Social Media
+source:
+  - https://x.com/allahbakhshii/status/2012841057118015884
+  - https://x.com/indypersian/status/2012820143454212483
+  - https://x.com/iranwire/status/2012961494472745233
+  - https://x.com/HengawO/status/2012641346142572662
+  - https://x.com/javidshah109/status/2016441036487250004
+  - https://x.com/javidshah109/status/2017151657906156002
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWfjlo
+  - https://x.com/iranintl/status/2012597199725645917
+  - https://t.me/RememberTheirNames/209
+  - https://t.me/JavidnamaneVatan/79
+  - https://hengaw.net/fa/news/2026/01/article-142-1

@@ -1,0 +1,168 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "not_verified"
+
+ratings:
+  veracity: 8
+  evidence_availability: 5
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/08"
+  start_time: ""
+  # End date (optional)
+  end: "2026/01/14"
+  end_time: ""
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Ardabil"
+  # City name
+  city: "Ardabil"
+  # Specific address or landmark (optional)
+  address: "Private homes and clinics used to treat wounded protesters"
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Uprising / Medical Repression / Arrest"
+
+# Estimated severity statistics (optional)
+severity:
+  deaths:
+    min: 0
+    max: 50
+  injured:
+    min: 20
+    max: 20
+  arrests:
+    min: 5
+    max: 5
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Ardabil Medical Shelter Raids After the January 8-9 Crackdown"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "After the January 8-9 killings in Ardabil, security forces allegedly targeted doctors and volunteer first responders who treated wounded protesters outside formal medical facilities. Human-rights reporting says at least four doctors were arrested and a volunteer shelter treating more than 20 wounded people was raided on January 14."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  Ardabil appears to have been one of the cities where the state response on January 8 and 9, 2026 was so severe that wounded people could no longer safely rely on normal medical channels.
+
+  Iran Human Rights reported that the situation in Ardabil on those two days was extremely critical and relayed an estimate that at least 50 people may have been killed in the city. The same report said at least four doctors were arrested for helping wounded protesters and described the case of a volunteer first responder, identified as Kh. M., who turned his home into an improvised shelter for more than 20 injured people.
+
+  According to that account, security forces raided the house on January 14, arrested Kh. M. after a severe beating, smashed windows, and destroyed his car and parts of the home. Two of the wounded patients reportedly later died there because of the severity of their injuries.
+
+  Separate international reporting on the wider crackdown against medical workers corroborates the broader pattern. Le Monde, citing medical sources, reported the arrest in Ardabil of dermatologist Dr. Ameneh Soleimani, while Amnesty documented attacks on health workers and interference with treatment during and after the January massacre.
+
+  The city-specific shelter details remain dependent largely on one human-rights reporting channel, so this incident is retained as not verified pending stronger independent corroboration, even though the broader pattern of medical repression is well supported.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "At least four doctors in Ardabil were arrested for treating wounded protesters after the January 8-9 crackdown."
+  - "A volunteer first responder turned his home into a shelter for more than 20 wounded people."
+  - "Security forces raided that shelter on January 14, beat the volunteer, and destroyed property."
+  - "At least 50 people may have been killed in Ardabil on January 8-9, though that number remains unverified."
+
+# Open questions or missing information
+open_questions:
+  - "What are the names and current legal status of the four doctors reported arrested in Ardabil?"
+  - "Can the identity and fate of Kh. M. be independently confirmed?"
+  - "Were the more than 20 wounded treated in the shelter all victims of January 8-9 gunfire?"
+  - "Is there independent hospital, cemetery, or morgue evidence that clarifies the real Ardabil death toll?"
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "The most detailed city-specific information comes primarily from one Iran Human Rights report relaying informed sources."
+  - "The reported estimate of at least 50 deaths in Ardabil has not been independently confirmed in open sources reviewed for this draft."
+  - "Much of the documentation concerns the aftermath of the January 8-9 violence rather than contemporaneous footage of the killings themselves."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+evidence_ids: []
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-ard-001"
+    label: "Iran Human Rights: crackdown on health personnel and volunteers"
+    url: "https://iranhr.net/en/articles/8553/"
+    publisher: "Iran Human Rights"
+    published_at: "2026/01/25"
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Primary source for the Ardabil-specific allegations about arrests of doctors and the January 14 raid on a home shelter."
+  - id: "src-ard-002"
+    label: "Le Monde: Iran cracks down on medical workers treating protesters"
+    url: "https://www.lemonde.fr/en/international/article/2026/02/03/iran-cracks-down-on-medical-workers-treating-protesters_6750107_4.html"
+    publisher: "Le Monde"
+    published_at: "2026/02/03"
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Corroborates the broader targeting of medical staff and specifically mentions an arrest in Ardabil."
+  - id: "src-ard-003"
+    label: "Amnesty International: massacre of protesters demands global action"
+    url: "https://www.amnesty.org/en/latest/news/2026/01/iran-massacre-of-protesters-demands-global-diplomatic-action-to-signal-an-end-to-impunity/"
+    publisher: "Amnesty International"
+    published_at: "2026/01/14"
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Documents the wider January 8-9 massacre and attacks on treatment access across Iran."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/08"
+    time: ""
+    title: "Mass casualty phase begins in Ardabil"
+    description: "Ardabil enters an extremely critical phase of the crackdown, producing a large number of wounded people who seek treatment outside formal facilities."
+    evidence_ids: []
+    source_ids: ["src-ard-001", "src-ard-003"]
+  - at: "2026/01/09"
+    time: ""
+    title: "Medical helpers continue treating wounded protesters"
+    description: "Doctors and volunteers continue assisting the injured despite the danger of arrest and reprisals."
+    evidence_ids: []
+    source_ids: ["src-ard-001", "src-ard-002"]
+  - at: "2026/01/14"
+    time: ""
+    title: "Volunteer shelter raided"
+    description: "Security forces raid the private shelter of a volunteer first responder, beat him, arrest him, and destroy property."
+    evidence_ids: []
+    source_ids: ["src-ard-001"]
+
+# Internal review history
+review_history:
+  - at: "2026/03/08"
+    reviewer: "Codex"
+    change: "created"
+    to_status: "not_verified"
+    notes: "Created after web research because Ardabil had no dedicated January 8-9 incident file; status kept conservative due limited independent corroboration of the shelter details."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []

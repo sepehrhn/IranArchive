@@ -1,120 +1,39 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "2482"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25515_0_twitter_v1.jpg
   - vic-2026-67a5694c50db.jpg
   - vic-2026-8012a28e3ff8.jpg
   - vic-2026-ef839caf5be8.jpg
   - vic-2026-5c89a1b9f692.jpg
-
-# Full Name in English
 name: Amirhossein Safari Goldasteh
-
-# Full Name in Persian (Optional)
 persian_name: امیرحسین صفری گلدسته
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: null
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 20
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Kermanshah
 incident_city: Kermanshah
-incident_address: null
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
+description: |-
+  20-year-old Kurdish youth from Tehran, killed during popular protests on 18 Dey 1404 in the 'Seh-rah Maskan' area of Kermanshah by direct fire from war bullets by Islamic Republic suppression forces. His body was buried on 19 Dey 1404 in one of the villages in the 'Kansht' area located on the 'Qazanchi-Cheshmeh Cheragh' road.
 
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: Described as an Iranian child who was killed in the protests, but no specific details about age, location, or date of death are provided.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+  Described as an Iranian child who was killed in the protests, but no specific details about age, location, or date of death are provided.
+source_type: Social Media
 source:
-  - https://x.com/missmarpel75/status/2014749595721429178, https://t.me/RememberTheirNames/970
   - https://x.com/tavaana/status/2017476385720160554
   - https://x.com/autnews_org/status/2017640446114103754
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/yEYwvbhpDrCFHYzchO7fol
+  - https://x.com/missmarpel75/status/2014749595721429178
+  - https://t.me/RememberTheirNames/970
+  - https://x.com/kurdpa_farsi/status/2020482914073371005
+  - https://x.com/eisabazyar1/status/2020506909220991123
+  - https://www.instagram.com/p/DUs82_0jJ24

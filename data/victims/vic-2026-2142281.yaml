@@ -1,125 +1,40 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "951"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21144_0_twitter_v1.jpg
   - vic-2026-ca81087bee04.jpg
   - vic-2026-5a9b86794452.jpg
   - vic-2026-9a06a1c2c9b7.jpg
   - vic-2026-e437a6b38982.jpg
   - vic-2026-8ce99cbd33fd.jpg
   - vic-2026-4004ae4ee998.jpg
-
-# Full Name in English
 name: Sina Lavasani
-
-# Full Name in Persian (Optional)
 persian_name: سینا لواسانی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: 17
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Shahriar, Tehran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_province: Tehran
+incident_city: Shahriar
+incident_address: ""
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: 17-year-old from Tehran who was shot and killed by direct gunfire from war bullets on the night of the 19th on Zakaria Razi street in Shahr-e Rey. According to his family, he was courageously present in the street like many other young people and 'fought like a lion'. His burial ceremony coincided with his birthday. He had lost his mother since childhood and his only wish was to see her again.
+source_type: Social Media
 source:
   - https://x.com/hengawo/status/2014770392380891590
   - https://t.me/poshtpardeha/248700
   - https://x.com/__injaneb96/status/2015237599300927892
   - https://x.com/vfarvahar/status/2015234696892870931
   - https://x.com/leill_i/status/2015268075390525715
-  - https://x.com/__Injaneb96/status/2015237599300927892
   - https://x.com/hekasrehcrisis/status/2016389825000075302
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/allahbakhshii/status/2014719609341948180
+  - https://t.me/RememberTheirNames/769
+  - https://t.me/JavidnamaneVatan/63
+  - https://x.com/iranianpapppi3/status/2027504577533145296

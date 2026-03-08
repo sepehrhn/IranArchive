@@ -1,129 +1,45 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "530"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20454_0_twitter_v1.png
   - vic-2026-000368.png
   - vic-2026-ae3f9d17b94c.png
   - vic-2026-6b5ea6a25f1f.jpg
   - vic-2026-1ab92541f15e.jpg
   - vic-2026-c60909a2a86a.jpg
   - vic-2026-3b55133568c9.jpg
-
-# Full Name in English
 name: Mohammad Amin Khatem
-
-# Full Name in Persian (Optional)
 persian_name: محمدامین خاتم
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 20
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Hormozgan
 incident_city: Bandar Abbas
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot with bullets while traveling by motorcycle with his close friend Mehrshad Ragbar. A traditional 'Hojleh' ceremony was held for him according to southern coastal customs, a ritual typically performed for young people who lose their lives in their prime.
+
   Shot directly by security forces while riding a motorcycle with his friend Mehrshad Regbar
 
 
   Killed by direct gunfire from security forces while riding a motorcycle with his friend Mehrshad Ragbar during public protests.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/daikatuo/status/2013742040052388266, https://x.com/HengawO/status/2013750016439960017, https://x.com/HengawO/status/2013973994119053442, https://x.com/Tavaana/status/2013923437178143075, https://t.me/RememberTheirNames/454
-  - https://x.com/HengawO/status/2013750016439960017
   - https://x.com/daikatuo/status/2013742040052388266
+  - https://x.com/HengawO/status/2013750016439960017
   - https://x.com/HengawO/status/2013973994119053442
   - https://x.com/Tavaana/status/2013923437178143075
   - https://x.com/TheBalochWorld/status/2014468508923646386
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWhYQ9
+  - https://t.me/RememberTheirNames/454
+  - https://x.com/manotonews/status/2019910224686059807
+  - https://hengaw.net/fa/news/2026/01/article-174-1

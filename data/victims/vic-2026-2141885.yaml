@@ -1,114 +1,43 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1955"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23273_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29134_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30214_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39982_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42168_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49089_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50082_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52400_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52593_0_twitter_v1.jpg
   - vic-2026-c0ed4aa1ab99.jpg
-
-# Full Name in English
 name: Armin Asadzadeh
-
-# Full Name in Persian (Optional)
 persian_name: آرمین اسدزاده
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: null
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: ''
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: ""
+incident_city: Iran
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
-status: Sentenced
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+cause_of_death: ""
+disappearance_circumstances: Sentenced to moharebeh (enmity against God) and at serious risk of execution. Currently alive and allowed contact with parents.
+suspected_actor: ""
+status: Missing
+detention_status: sentenced_to_death
+description: Sentenced to moharebeh (enmity against God) and at serious risk of execution. Currently alive and allowed contact with parents.
+source_type: Social Media
 source:
   - https://x.com/ellay_ve/status/2016292856688730179
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/moonlif7/status/2018227806220542255
+  - https://x.com/katierebel2nd/status/2018638131000471701
+  - https://x.com/xblueshine369x/status/2019321891555508238
+  - https://x.com/normah_rh/status/2021551908956103072
+  - https://www.instagram.com/p/DU3mVJ8DHmB
+  - https://x.com/imanoracle/status/2024704812366123383
+  - https://x.com/day19146/status/2025458772777341153
+  - https://x.com/armintext98979/status/2024810510349210068

@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "642"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20622_0_twitter_v1.jpg
   - vic-2026-000163.jpg
   - vic-2026-cef48a5cb422.jpg
   - vic-2026-730284e363c7.jpg
@@ -26,116 +14,46 @@ photo:
   - vic-2026-cc9f91370380.jpg
   - vic-2026-03dbe6d25852.jpg
   - vic-2026-3191e0673ef2.jpg
-
-# Full Name in English
 name: Sahar Fallah
-
-# Full Name in Persian (Optional)
 persian_name: سحر فلاح
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
-
-# Age at time of death (Optional, remove if unknown)
 age: 26
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Tehran
 incident_city: Tehran-Pars
 incident_address: Tehranpars
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-10'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot with shotgun that destroyed her face. Family wrote on her obituary that she became a gift to the homeland. Her mother's regret was that she could not kiss her face one last time because the shotgun had destroyed her beautiful face completely. One of her relatives said at her grave that she had many dreams and asked that she not be forgotten.
+
   Shot in the head with a shotgun by the Islamic Republic’s forces.
 
 
   Her face was destroyed by shotgun pellets. Her family described her death as a 'gift to the homeland'. A relative mentioned she had many dreams and asked for her not to be forgotten.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/mamlekate/status/2014112939272183846, https://x.com/isamanyasin/status/2014555447819133070, https://x.com/hashshaashin/status/2014646029459587075, https://www.instagram.com/p/DT0-8EBkhiN, https://x.com/Hashshaashin/status/2014646029459587075, https://x.com/Soranmansournia/status/2014793127014646048, https://x.com/Behzadhamrahi/status/2014758769834541223, https://x.com/noamagid/status/2015040375325438122, https://x.com/hiitsmemooneh/status/2014842627641020683, https://x.com/HengawO/status/2015391168796958732, https://x.com/sssccpp/status/2015472518635589663, https://t.me/RememberTheirNames/640, https://x.com/KhalilOghab/status/2016133661691633675, https://x.com/Sssccpp/status/2015472518635589663
-  - https://www.instagram.com/p/DT0-8EBkhiN
   - https://x.com/mamlekate/status/2014112939272183846
+  - https://www.instagram.com/p/DT0-8EBkhiN
   - https://x.com/Soranmansournia/status/2014793127014646048
   - https://x.com/hashshaashin/status/2014646029459587075
   - https://x.com/noamagid/status/2015040375325438122
   - https://x.com/hiitsmemooneh/status/2014842627641020683
   - https://x.com/HengawO/status/2015391168796958732
   - https://x.com/sssccpp/status/2015472518635589663
-  - https://x.com/Sssccpp/status/2015472518635589663
   - https://x.com/nicksotoudeh/status/2017299260388348300
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWgmel
+  - https://x.com/isamanyasin/status/2014555447819133070
+  - https://x.com/behzadhamrahi/status/2014758769834541223
+  - https://t.me/RememberTheirNames/640
+  - https://x.com/khaliloghab/status/2016133661691633675
+  - https://x.com/abelbalb/status/2019856066951967073
+  - https://t.me/JavidnamaneVatan/616

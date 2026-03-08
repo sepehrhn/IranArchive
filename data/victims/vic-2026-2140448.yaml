@@ -1,121 +1,46 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1492"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20366_0_twitter_v1.jpg
   - vic-2026-a94f94e3333f.jpg
   - vic-2026-57574bf05406.jpg
   - vic-2026-bb6458258ff6.jpg
   - vic-2026-20f87d8a12bc.jpg
   - vic-2026-7f082d203770.jpg
-
-# Full Name in English
 name: Nazanin Zahra Asmi Khani
-
-# Full Name in Persian (Optional)
 persian_name: نازنین‌زهرا اسمی‌خانی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Female
 age: 18
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Mohammadieh, Qazvin
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_province: Qazvin
+incident_city: Mohammadiyeh
+incident_address: ""
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Shot with war bullets by Islamic Republic suppression forces during popular protests in Mohammadieh city, Qazvin. She was a photographer and guitarist. Her body was handed over to her family in exchange for 300 million tomans. She was buried in Hesar Khorvan cemetery in Qazvin. Her family remains under heavy surveillance by security agencies.
+source_type: Social Media
 source:
+  - https://x.com/manotonews/status/2013657775851606043
+  - https://x.com/nicksotoudeh/status/2013697925004828679
+  - https://x.com/sssccpp/status/2013687589287403556
+  - https://x.com/nicksotoudeh/status/2013720176777404627
+  - https://x.com/hiwa_life/status/2015754762042421500
   - https://x.com/MayaThefish/status/2015882718387560571
   - https://x.com/kurdpa_farsi/status/2016900179807654200
   - https://x.com/outofken/status/2017401840657408081
+  - https://x.com/LoabatK/status/2016780028315369853
   - https://x.com/noamagid/status/2017632149453623319
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWipKH
+  - https://x.com/historyinpik/status/2018379888797917693
+  - https://x.com/mahmocean/status/2018537953476419957
+  - https://x.com/irannewsagency0/status/2018972889270366280
+  - https://t.me/RememberTheirNames/784
+  - https://x.com/i/status/2022731354488922480
+  - https://t.me/JavidnamaneVatan/2136

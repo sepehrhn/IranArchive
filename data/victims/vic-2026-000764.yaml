@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "385"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20296_0_twitter_v1.jpg
   - vic-2026-000764.jpg
   - vic-2026-29d17f38e5c8.jpg
   - vic-2026-f533838434c8.jpg
@@ -22,113 +10,43 @@ photo:
   - vic-2026-a8e5a931130f.jpg
   - vic-2026-d1c0a67898f3.jpg
   - vic-2026-31f16c188314.jpg
-
-# Full Name in English
 name: Nastaran Zare Manesh
-
-# Full Name in Persian (Optional)
 persian_name: نسترن زارع‌منش
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
-
-# Age at time of death (Optional, remove if unknown)
 age: 39
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Tehran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-01'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: ""
+incident_city: Nazi Abad
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Young woman resident of Tehran killed by direct shooting of government forces with two bullets to neck and heart during popular protests in Nazi Abad area of Tehran. Was married and mother of two children.
+
   Killed by the Islamic Republic regime during protests
 
 
   Mother of two young children. Died during the protests.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/hengawo/status/2013015289240125666, https://x.com/daikatuo/status/2013374063612235945, https://x.com/manotonews/status/2013665325565550975, https://x.com/Daikatuo/status/2013374063612235945, https://x.com/HengawO/status/2013015289240125666, https://t.me/RememberTheirNames/204, https://x.com/kyokushinsoofi/status/2016288056613945558
   - https://x.com/hengawo/status/2013015289240125666
   - https://x.com/daikatuo/status/2013374063612235945
-  - https://x.com/Daikatuo/status/2013374063612235945
   - https://x.com/manotonews/status/2013665325565550975
-  - https://x.com/HengawO/status/2013015289240125666
   - https://x.com/kyokushinsoofi/status/2016288056613945558
   - https://x.com/hiitsmemooneh/status/2012325845352804560
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://t.me/RememberTheirNames/204
+  - https://x.com/mrhiccup42/status/2020225919751975250
+  - https://x.com/loabatk/status/2012415228248547692
+  - https://x.com/i/status/2020778379193241744
+  - https://x.com/moeinnajafii/status/2023516123459973391
+  - https://t.me/JavidnamaneVatan/1095
+  - https://t.me/JavidnamaneVatan/1657
+  - https://hengaw.net/fa/news/2026/01/article-153-1

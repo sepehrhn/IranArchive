@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "998"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41199_0_telegram_v1.jpg
   - vic-2026-000806.jpg
   - vic-2026-14e2104e008e.jpg
   - vic-2026-a770de650c9a.jpg
@@ -23,114 +11,46 @@ photo:
   - vic-2026-fbbbdfd223b2.jpg
   - vic-2026-7315655303ca.jpg
   - vic-2026-f801ca68eab5.jpg
-
-# Full Name in English
 name: Reza Gholipour
-
-# Full Name in Persian (Optional)
-persian_name: رضا قلی‌پور
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+persian_name: رضا قلی پور
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 20
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Tehran
-incident_city: Haft Tir area
+incident_city: Mashhad
 incident_address: Haft Tir Area
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Went to Haft Tir area to try to save Amir Bughi when he learned that Amir had gone there. He understood what freedom meant and tried to help. He was killed, likely during the same incident as Amir Bughi.
+
   Supermarket owner killed in Shaqayeq alley, Haft-e Tir Boulevard
 
 
   Killed by gunfire from security forces. Was a bakery apprentice in the Haft Tir area.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/allahbakhshii/status/2013882320428597386, https://x.com/gr2493/status/2014837951394725972, https://x.com/hamiparvane/status/2016280101512474649
   - https://x.com/gr2493/status/2014837951394725972
   - https://x.com/hamiparvane/status/2016280101512474649
-  - https://x.com/marianmeyer0/status/2014713124541075915, https://www.instagram.com/p/DT2vyE0DIyo, https://x.com/hirman__/status/2014746994854564055, https://x.com/foad_choobin/status/2014700673179214179, https://t.me/RememberTheirNames/973, https://x.com/roozbehmon/status/2015527829698761082
+  - https://x.com/allahbakhshii/status/2013882320428597386
+  - https://t.me/RememberTheirNames/2481
+  - https://t.me/RememberTheirNames/2512
+  - https://x.com/a_neghabdaran_a/status/2020947149958123861
+  - https://x.com/i/status/2020763145971597548
+  - https://x.com/iranwire/status/2020416556874821906
+  - https://www.instagram.com/p/DU7XLXTjN1d
   - https://x.com/marianmeyer0/status/2014713124541075915
   - https://www.instagram.com/p/DT2vyE0DIyo
-  - https://x.com/sonofthebeach22/status/2014717786950385758
-  - https://x.com/roozbehmon/status/2015527829698761082
+  - https://x.com/hirman__/status/2014746994854564055
   - https://x.com/foad_choobin/status/2014700673179214179
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://t.me/RememberTheirNames/973
+  - https://x.com/roozbehmon/status/2015527829698761082
+  - https://x.com/sonofthebeach22/status/2014717786950385758

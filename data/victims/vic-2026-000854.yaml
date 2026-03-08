@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "90"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19690_0_twitter_v1.jpg
   - vic-2026-000854.jpg
   - vic-2026-c65a9660ff8e.jpg
   - vic-2026-3a92d9243536.jpg
@@ -25,99 +13,34 @@ photo:
   - vic-2026-c5b9884ba01e.jpg
   - vic-2026-6de855fdfc6d.jpg
   - vic-2026-30d9257a62ad.jpg
-
-# Full Name in English
 name: Siavash Shirzad
-
-# Full Name in Persian (Optional)
 persian_name: سیاوش شیرزاد
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 38
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Tehran
 incident_city: Iran (provinces of Ilam
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
+description: |-
+  Shot with live ammunition while dancing Kurdish dances around a fire in Punak Square after a placard of Qassem Soleimani was burned. Initially wounded and taken to Al-Ghadir Hospital which had no capacity, then transferred to Rasoul Akram Hospital where he died at 2 a.m. on Friday due to lack of medical attention and severe blood loss. From the city of Bukan. Was one of 22 young people shot down at the scene. Body was assigned number 12647 at Kahrizak Forensic Medicine Center among five thousand bodies.
 
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: |
   Shot with live ammunition while dancing Kurdish dances in Punak Square, Tehran. He was among 22 young people shot at close range (5-10 meters). Died at Rasoul Akram Hospital at 2 a.m. on Friday due to lack of medical attention and severe blood loss.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://www.theguardian.com/global-development/2026/jan/15/iran-protesters-uprising-killed-world-diaspora-families-tehran-internet-blackout, https://x.com/hengawo/status/2011895912491347983, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/gh0lch0magh/status/2012903209904251294, https://x.com/samrasoulpour/status/2011439752780661168, https://x.com/emilykschrader/status/2013009412525380070, https://x.com/Daikatuo/status/2011474379490652481, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2011427010795450565, https://x.com/KurdistanHRN/status/2014745639930810718, https://t.me/RememberTheirNames/142
   - https://x.com/Daikatuo/status/2011474379490652481
+  - https://www.theguardian.com/global-development/2026/jan/15/iran-protesters-uprising-killed-world-diaspora-families-tehran-internet-blackout
   - https://x.com/hengawo/status/2011895912491347983
+  - https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/
   - https://x.com/gh0lch0magh/status/2012903209904251294
   - https://x.com/samrasoulpour/status/2011439752780661168
   - https://x.com/emilykschrader/status/2013009412525380070
@@ -126,12 +49,8 @@ source:
   - https://x.com/KurdistanHRN/status/2014745639930810718
   - https://x.com/gh0lch0magh/status/2012902700111827231
   - https://x.com/SamRasoulpour/status/2011432808703574086
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMhL12
+  - https://t.me/RememberTheirNames/142
+  - https://x.com/i/status/2026391163100356983
+  - https://hengaw.net/en/news/2026/01/article-103
+  - https://hengaw.net/fa/news/2026/01/article-105

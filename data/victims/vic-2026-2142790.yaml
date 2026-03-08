@@ -1,111 +1,32 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "232"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19931_0_twitter_v1.jpg
   - vic-2026-0eb568579334.jpg
   - vic-2026-1ca20e00472d.jpg
   - vic-2026-28294ac8bef5.jpg
   - vic-2026-ef9e295cc046.jpg
   - vic-2026-ab5a2370a74c.jpg
   - vic-2026-aed4725744e0.jpg
-
-# Full Name in English
 name: Sanam Pourbabaii
-
-# Full Name in Persian (Optional)
 persian_name: صنم پوربابایی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Female
 age: 26
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: ""
 incident_city: Lahijan
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_address: ""
+date_of_death: "2026-01-08"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Gilaki citizen and violin teacher from Siahkal, shot by Islamic Republic forces in the vicinity of Lahijan governorate. Eyewitnesses described the shooting as from a distance in the governorate area. Method of killing described as 'unusual'. Body buried in Barfjan shrine in the city.
+source_type: Social Media
 source:
   - https://x.com/pkhwshhal/status/2012426815214686694
   - https://x.com/longlosthills/status/2012474184207663571
@@ -114,12 +35,10 @@ source:
   - https://x.com/HengawO/status/2012660798242406499
   - https://x.com/pkhwshhal/status/2015097494179369100
   - https://x.com/i/status/2016940277353546145
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWh0mo
+  - https://www.instagram.com/p/DT7QFBJiEBG
+  - https://x.com/hiwa_life/status/2014601356980478319
+  - https://t.me/RememberTheirNames/184
+  - https://www.instagram.com/p/DU0CBWqjHt_
+  - https://x.com/chaiteryak/status/2023822635680100457
+  - https://hengaw.net/en/news/2026/01/article-140

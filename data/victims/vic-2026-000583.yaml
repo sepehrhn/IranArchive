@@ -1,123 +1,38 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "610"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20579_0_twitter_v1.jpg
   - vic-2026-000583.jpg
   - vic-2026-892fc49f3420.jpg
   - vic-2026-4b25c3baabcb.jpg
-
-# Full Name in English
 name: Ebrahim Ahmadpourian
-
-# Full Name in Persian (Optional)
 persian_name: ابراهیم احمدپوریان
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 39
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: null
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Tehran
 incident_city: Nazi Abad
 incident_address: Nazi Abad
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Kurdish citizen from Saqqez, worker and father of two children. Shot by military-security forces of the Islamic Republic during popular protests in Tehran on 18 Dey 1404, and died the next day in hospital due to severity of injuries.
+
   Shot and killed by special unit motorcycle battalions with war bullets during protests
 
 
   A Kurdish citizen from Saqqez, a worker and father of two, was injured by the shooting of the Islamic Republic's military-security forces during public protests in Tehran on January 8, 2026. He died the next day in the hospital due to the severity of his injuries.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/hiwa_life/status/2013588719136014641, https://x.com/KurdistanHRN/status/2015913809299267612, https://t.me/RememberTheirNames/236
   - https://x.com/hiwa_life/status/2013588719136014641
   - https://x.com/KurdistanHRN/status/2015913809299267612
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMgG0l
+  - https://t.me/RememberTheirNames/236
+  - https://hengaw.net/en/news/2026/01/article-80

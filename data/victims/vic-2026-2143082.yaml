@@ -1,116 +1,43 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "250"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19944_0_twitter_v1.jpg
   - vic-2026-6e754ededf1f.jpg
   - vic-2026-3eab81f47575.jpg
-
-# Full Name in English
 name: Masoud Balourchi
-
-# Full Name in Persian (Optional)
 persian_name: مسعود بلورچی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: 37
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_address: ""
+date_of_death: "2026-01-08"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Dr. Masoud Bolourchi, 37 years old, physiotherapist, athlete, voice actor, narrator and actor. Founder of Rush Clinic and educated at Budapest University in Hungary. Described as a very noble and gentle person. Shot directly with a bullet by the Islamic regime on the night of 18 Dey in Tehran. Born 1367/01/09 (March 29, 1988).
+source_type: Social Media
 source:
   - https://x.com/NoaMagid/status/2012498946262773929
-  - https://x.com/noamagid/status/2012498946262773929
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/NickSotoudeh/status/2012646469308985434
+  - https://x.com/LiberalArtist0/status/2012528764370968801
+  - https://x.com/soranmansournia/status/2012929853335437761
+  - https://x.com/dadban4/status/2012931658786226329
+  - https://x.com/HengawO/status/2012521048164434197
+  - https://x.com/isamanyasin/status/2014489026384761324
+  - https://x.com/longlosthills/status/2012686535536128005
+  - https://x.com/HeKasrehCrisis/status/2017125738730618924
+  - https://x.com/hiitsmemooneh/status/2013007924797243544
+  - https://x.com/iliaaaa6/status/2012845841376014347
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClT38q
+  - https://x.com/alirezahopefull/status/2014885074609512917
+  - https://t.me/RememberTheirNames/312
+  - https://www.instagram.com/p/DUkhswcjIeL
+  - https://x.com/i/status/2020809414660239785
+  - https://hengaw.net/fa/news/2026/01/article-138-1

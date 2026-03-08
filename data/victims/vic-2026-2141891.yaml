@@ -1,111 +1,45 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "2257"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23881_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24157_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25641_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25729_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25741_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25770_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29212_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29213_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29260_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29260_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29260_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40480_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_54371_0_twitter_v1.jpg
   - vic-2026-40c41156e0f7.jpg
   - vic-2026-114867c27599.jpg
   - vic-2026-fca42a206695.jpg
   - vic-2026-699014e9bd64.jpg
   - vic-2026-25bc40e2f789.jpg
   - vic-2026-d9bb82f37a4c.jpg
-
-# Full Name in English
 name: Ashkan Jahesh
-
-# Full Name in Persian (Optional)
 persian_name: اشکان جهش
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: null
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+cause_of_death: ""
+disappearance_circumstances: Known as 'Yang Jahesh', disappeared on January 8 (18 Dey month) after posting his last message on X social media platform. Initially claimed to have been shot and killed with demands for money to return his body, but friends received information from sources that he is currently detained and likely still alive. The narrative of his death has not been confirmed. Artist and regime opponent. Was previously detained in 1401 (2022-2023). Has lost both parents and has one brother with whom he apparently has fundamental ideological differences.
+suspected_actor: ""
 status: Missing
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+detention_status: arrested
+description: Known as 'Yang Jahesh', disappeared on January 8 (18 Dey month) after posting his last message on X social media platform. Initially claimed to have been shot and killed with demands for money to return his body, but friends received information from sources that he is currently detained and likely still alive. The narrative of his death has not been confirmed. Artist and regime opponent. Was previously detained in 1401 (2022-2023). Has lost both parents and has one brother with whom he apparently has fundamental ideological differences.
+source_type: Social Media
 source:
   - https://x.com/ragnarragz/status/2017367165058617420
   - https://x.com/ragnarragz/status/2017259359789535446
@@ -113,12 +47,7 @@ source:
   - https://x.com/noamagid/status/2017670075566731430
   - https://x.com/jeanne2022rev/status/2017597142567682535
   - https://x.com/amirkabirbozorg/status/2017616787408622054
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/AMIRKABIRbozorg/status/2017324942669582732
+  - https://x.com/i/status/2017654121998749956
+  - https://x.com/saarmot/status/2018467120993190279
+  - https://x.com/smnzargarzadeh/status/2020448971781517662

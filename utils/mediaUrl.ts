@@ -48,6 +48,12 @@ export function getMediaUrl(options: MediaUrlOptions, config?: any): string {
         throw new Error(`Invalid relativePath: ${relativePath}`);
     }
 
+    // Pass through absolute URLs directly.
+    const trimmedPath = relativePath.trim();
+    if (/^https?:\/\//i.test(trimmedPath)) {
+        return trimmedPath;
+    }
+
     // Security: Reject path traversal attempts
     if (relativePath.includes('..')) {
         throw new Error(`Path traversal detected in relativePath: ${relativePath}`);

@@ -1,125 +1,45 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "559"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20514_0_twitter_v1.jpg
   - vic-2026-000957.jpg
   - vic-2026-cffbc6188e0e.jpg
   - vic-2026-001478.jpg
   - vic-2026-82967058543a.jpg
   - vic-2026-741bab357133.jpg
   - vic-2026-cec2e9c7a442.jpg
-
-# Full Name in English
 name: Mohammad Hossein Mousavi
-
-# Full Name in Persian (Optional)
 persian_name: محمدحسین موسوی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 24
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 25
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Isfahan
-incident_city: Shahr-e-Reza
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-01'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_city: Shahreza
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
+description: |-
+  24-year-old barista shot directly with a bullet in front of his workplace door. The legal analysis notes this as a clear violation of the right to life and prohibition of lethal force against citizens, constituting direct criminal responsibility for commanders and perpetrators. Part of a broader pattern of systematic killing of citizens across different cities.
 
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: |
   Shot by government security forces during protests in Shahr-e-Reza. Killed with a sidearm by Sergeant Shakorollah Pourkhakan near his shop around 9 PM.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/hengawo/status/2013911264154546507, https://hengaw.net/fa/news/2026/01/article-170-1, https://x.com/HengawO/status/2013911264154546507, https://x.com/HengawO/status/2014772586857598984, https://x.com/dadban4/status/2014970608069836970, https://x.com/mousavi1355/status/2015566509557326221, https://t.me/RememberTheirNames/684
-  - https://x.com/mousavi1355/status/2015566509557326221
   - https://x.com/hengawo/status/2013911264154546507
-  - https://x.com/HengawO/status/2013911264154546507
+  - https://hengaw.net/fa/news/2026/01/article-170-1
   - https://x.com/dadban4/status/2014970608069836970
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/mousavi1355/status/2015566509557326221
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClW9cH
+  - https://x.com/hengawo/status/2014772586857598984
+  - https://t.me/JavidnamaneVatan/834
+  - https://x.com/jashnimitra/status/2022589300626297175
+  - https://x.com/gilasgoz/status/2022252062268899713
+  - https://hengaw.net/en/news/2026/01/article-192
+  - https://hengaw.net/en/news/2026/01/article-166
+  - https://t.me/RememberTheirNames/684

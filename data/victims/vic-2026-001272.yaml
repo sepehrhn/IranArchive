@@ -1,124 +1,43 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1241"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21671_0_twitter_v1.jpg
   - vic-2026-001272.jpg
   - vic-2026-168dc8ae445e.jpg
   - vic-2026-dbbd1c098563.jpg
   - vic-2026-001594.jpg
   - vic-2026-001755.jpg
-
-# Full Name in English
 name: Mohammad Khan Mohammadi
-
-# Full Name in Persian (Optional)
-persian_name: محمد خان‌محمدی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+persian_name: محمد خان‌ محمدی
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 67
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
+description: |-
+  67-year-old retired Air Force Colonel and war veteran from the Iran-Iraq war. Shot with two bullets during protests in Kaj Square, Saadat Abad neighborhood of Tehran on Friday evening. His body was found in front of a clinic with emergency medical equipment, including angiocath, attached to his body.
 
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: |
   Persian Name: محمد خان‌ محمدی
 
   Retired colonel and veteran of the eight-year war, shot with two bullets during protests in Kaj Square, Saadat Abad neighborhood. His body was found in front of a clinic with medical equipment attached.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
   - https://x.com/hra_news/status/2015490758548058478
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMjJTh
+  - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaTF20If
+  - https://t.me/RememberTheirNames/1137
+  - https://x.com/iranianpapppi3/status/2020519666515329305
+  - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-949
+  - https://t.me/JavidnamaneVatan/633
+  - https://x.com/i/status/2026368687654281364
   - https://t.me/RememberTheirNames/787
-  - https://x.com/hra_news/status/2015490758548058478, https://t.me/RememberTheirNames/1137
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

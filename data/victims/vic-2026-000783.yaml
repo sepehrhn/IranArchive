@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "772"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20843_0_instagram_v1.jpg
   - vic-2026-000783.jpg
   - vic-2026-9895385aa19b.jpg
   - vic-2026-37c905055044.jpg
@@ -25,114 +13,44 @@ photo:
   - vic-2026-1e86975a9fc6.jpg
   - vic-2026-3b8665b8fef6.jpg
   - vic-2026-fe6beb7cd821.jpg
-
-# Full Name in English
 name: Pedram Argha
-
-# Full Name in Persian (Optional)
 persian_name: پدرام ارغا
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
+birth_date: ""
+birth_province: ""
 birth_city: his injuries
-
-# Gender (Optional: "Male" or "Female")
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 31
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Kermanshah
 incident_city: Kermanshah
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  31-year-old dentist shot during protests after intervening to protect another individual being assaulted by security forces. Shot from two directions - one bullet from behind and another from the front. Taken to private hospital where he fell into a coma and died. Adherent of the Yarsani faith. Authorities pressured family to pay one billion tomans or identify him as Basij member to release body; family was compelled to accept regime supporter designation due to inability to pay.
+
   Dr. Pedram Argha, a 31-year-old Kurdish Yarsan dentist, was shot by live ammunition during protests in the Maskan neighborhood of Kermanshah on January 8, 2026. He died from his injuries. His body was buried on January 18 at Sarab Tiran cemetery.
 
 
   The circumstances of his death are not specified, but he is listed as a victim. His family was reportedly forced to pay 1 billion Toman for the bullets he was shot with, or declare him a Basiji, to receive his body. His family is poor and elderly.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://www.instagram.com/p/DTybwESDMc9, https://www.instagram.com/p/DT2mgdFCMjm, https://www.instagram.com/p/DT2arwkimIR, https://www.instagram.com/p/DT1FKEpDciW, https://x.com/kurdpa_farsi/status/2014649171093901402, https://x.com/atenamoghaddam1/status/2015609532958089242, https://x.com/asnitsfi/status/2015736808135430296, https://x.com/missmarpel75/status/2014748871914672547, https://t.me/RememberTheirNames/815
-  - https://www.instagram.com/p/DT1FKEpDciW
-  - https://x.com/atenamoghaddam1/status/2015609532958089242
-  - https://x.com/asnitsfi/status/2015736808135430296
-  - https://x.com/MothrOfDrgns/status/2015706449729466592
   - https://www.instagram.com/p/DTybwESDMc9
   - https://www.instagram.com/p/DT2mgdFCMjm
   - https://www.instagram.com/p/DT2arwkimIR
   - https://x.com/HengawO/status/2014723608359104900
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://www.instagram.com/p/DT1FKEpDciW
+  - https://x.com/atenamoghaddam1/status/2015609532958089242
+  - https://x.com/asnitsfi/status/2015736808135430296
+  - https://x.com/MothrOfDrgns/status/2015706449729466592
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWiETg
+  - https://x.com/kurdpa_farsi/status/2014649171093901402
+  - https://t.me/RememberTheirNames/815
+  - https://t.me/JavidnamaneVatan/295
+  - https://hengaw.net/en/news/2026/01/article-191
+  - https://x.com/missmarpel75/status/2014748871914672547

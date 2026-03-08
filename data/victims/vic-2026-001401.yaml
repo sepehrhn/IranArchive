@@ -1,129 +1,45 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1303"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21784_0_twitter_v1.jpg
   - vic-2026-001401.jpg
   - vic-2026-2621853ce53c.jpg
   - vic-2026-bd6070011641.jpg
   - vic-2026-0f369e9812ff.jpg
   - vic-2026-2d215a8a9f56.jpg
   - vic-2026-62dc2e402d8f.jpg
-
-# Full Name in English
 name: Abolfazl Roshan
-
-# Full Name in Persian (Optional)
 persian_name: ابولفضل روشن
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 23
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 22
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: ""
 incident_city: Sari
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot and killed on 18 Dey in Sari. Described as a hero and brave person (دلاور) who was 22 years old.
+
   Persian Name: ابولفضل روشن
 
   No details provided, but the tweet commemorates him and expresses hope he is not forgotten.
 
 
   Mentioned with a broken heart emoji and 'Javid Nam' (eternal name), indicating death. Birth year provided.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/tasmehydrolic/status/2015387527213981789, https://x.com/i/status/2015865484458017058, https://x.com/Sssccpp/status/2015865484458017058, https://x.com/fatma_masgedy/status/2015539385404477458, https://t.me/RememberTheirNames/1371
   - https://x.com/fatma_masgedy/status/2015539385404477458
   - https://x.com/i/status/2015865484458017058
   - https://x.com/HeKasrehCrisis/status/2015832412266151987
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/sssccpp/status/2015865484458017058
+  - https://t.me/RememberTheirNames/1371
+  - https://t.me/JavidnamaneVatan/225
+  - https://x.com/tasmehydrolic/status/2015387527213981789

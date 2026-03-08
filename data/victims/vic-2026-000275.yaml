@@ -1,128 +1,45 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "231"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19926_0_twitter_v1.jpg
   - vic-2026-000275.jpg
   - vic-2026-1454ea1093fa.jpg
   - vic-2026-b6f6fd0850e2.jpg
   - vic-2026-956220071d08.jpg
   - vic-2026-e751d1678fa7.jpg
-
-# Full Name in English
 name: Ebrahim Hashem Beigi
-
-# Full Name in Persian (Optional)
 persian_name: ابراهیم هاشم‌بیگی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 42
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Fars
 incident_city: Neyriz
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Futsal coach and father of two children, shot directly by Islamic Republic suppression forces at 21:30 while driving his car towards security forces in the main square of Neyriz, Fars province. He was targeted with shotgun fire from approximately 20 centimeters away while behind the steering wheel. Despite being transferred to Neyriz hospital, he died about half an hour later due to the severity of his injuries. He was married and father of a young daughter. Security forces held his body for two days and threatened his family not to hold any gatherings or protests. His body was finally buried at 2 AM on 22 Dey in complete silence under security forces siege, alongside the body of Amirmohammad Kohkan. He was a close friend of Amirmohammad Kohkan who was killed on 13 Dey in Neyriz.
+
   Shot directly by suppressive forces while driving in the main square of Neyriz, Fars province. He was hit by shotgun fire at close range (about 20 cm) and died approximately 30 minutes later at Neyriz hospital
 
 
   Shot directly by security forces while driving towards them. Died about 30 minutes after being taken to Neiriz Hospital due to shotgun wounds sustained at close range. His body was held by security forces for two days and buried under heavy security presence.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/tavaana/status/2012459772478693640, https://x.com/ranginkamaan/status/2012462045602472223, https://x.com/manotonews/status/2013869172556734489, https://x.com/ka3rimi/status/2014589927451685112, https://x.com/Tavaana/status/2012459772478693640, https://x.com/HengawO/status/2012589697831161899, https://t.me/RememberTheirNames/178
   - https://x.com/Tavaana/status/2012459772478693640
-  - https://x.com/tavaana/status/2012459772478693640
   - https://x.com/HengawO/status/2012589697831161899
   - https://x.com/manotonews/status/2013869172556734489
   - https://x.com/sar_tmn/status/2014689317487001751
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMgGWh
+  - https://t.me/RememberTheirNames/178
+  - https://www.instagram.com/p/DUvCqriDGim
+  - https://hengaw.net/fa/news/2026/01/article-139-1
+  - https://x.com/ranginkamaan/status/2012462045602472223
+  - https://x.com/ka3rimi/status/2014589927451685112

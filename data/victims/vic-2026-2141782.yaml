@@ -1,117 +1,32 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1549"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22336_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24281_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25437_0_telegram_v1.jpg
   - vic-2026-ac1641c91a93.jpg
   - vic-2026-91205f8d39c7.jpg
   - vic-2026-a1f2795b0f8b.jpg
-
-# Full Name in English
 name: Sirus Rabie Beigi
-
-# Full Name in Persian (Optional)
 persian_name: سیروس ربیع‌بیگی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: 33
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Karzan, Ilam Province
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
-status: Injured
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+incident_province: Ilam
+incident_city: Karzan
+incident_address: ""
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: 33-year-old Kurdish man from Karzan in Ilam Province who was shot with shotgun pellets by security forces on Friday, 19 Dey 1404, during public protests. He was carrying his young child and crossing the street when he was directly targeted by suppressors. He was severely injured in both eyes and completely lost his sight. He is the breadwinner of his family and a simple worker. After 17 days from the injury, he still sees only darkness and general doctors have given up hope for treating his eyes. His family had to sell their sheep, which were their main source of income, to travel to Tehran and seek specialist medical opinion.
+suspected_actor: ""
+status: Missing
+detention_status: injured
+description: 33-year-old Kurdish man from Karzan in Ilam Province who was shot with shotgun pellets by security forces on Friday, 19 Dey 1404, during public protests. He was carrying his young child and crossing the street when he was directly targeted by suppressors. He was severely injured in both eyes and completely lost his sight. He is the breadwinner of his family and a simple worker. After 17 days from the injury, he still sees only darkness and general doctors have given up hope for treating his eyes. His family had to sell their sheep, which were their main source of income, to travel to Tehran and seek specialist medical opinion.
+source_type: Social Media
 source:
   - https://x.com/kurdpa_farsi/status/2015899168653353313
   - https://t.me/javanmardi77/154158
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

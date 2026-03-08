@@ -1,127 +1,41 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "808"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20926_0_twitter_v1.jpg
   - vic-2026-000823.jpg
   - vic-2026-cc5f11d3f1fe.jpg
   - vic-2026-121563a804e9.jpg
   - vic-2026-5f3b669200be.jpg
   - vic-2026-251b770074b4.jpg
-
-# Full Name in English
 name: Saeed Sanjideh
-
-# Full Name in Persian (Optional)
 persian_name: سعید سنجیده
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 36
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 35
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Bushehr
 incident_city: Bushehr
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  From Khormoj, shot in the throat during protests in Bushehr. Body was found in hospital two days after death. Buried four days later with only parents present under heavy security surveillance.
+
   Shot in the throat with a Kalashnikov bullet.
 
 
   Shot in the throat during a call for protest in Bushehr. His body was found in the hospital two days later and buried four days later under heavy security presence with only his parents present. Born in 1369, from Khormuj.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/hoorieh81/status/2014664263445483744, https://x.com/hekasrehcrisis/status/2015184356461990326, https://x.com/HeKasrehCrisis/status/2015184356461990326, https://x.com/Hoorieh81/status/2014664263445483744, https://t.me/RememberTheirNames/820, https://x.com/zzgulu_asipasi/status/2016274181403369806
   - https://x.com/hoorieh81/status/2014664263445483744
   - https://x.com/hekasrehcrisis/status/2015184356461990326
-  - https://x.com/HeKasrehCrisis/status/2015184356461990326
   - https://x.com/zzgulu_asipasi/status/2016274181403369806
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://t.me/RememberTheirNames/820
+  - https://javidnaman.iranintl.com/memorial/8321cd51-c882-4f7a-9ab5-b76bd3929c6d
+  - https://x.com/yasamankhodajo/status/2017894883579580902

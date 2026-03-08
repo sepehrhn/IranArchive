@@ -1,125 +1,42 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1419"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22060_0_twitter_v1.jpg
   - vic-2026-001793.jpg
   - vic-2026-393b04332f5a.jpg
   - vic-2026-3372274aeee9.jpg
   - vic-2026-f6892edf308b.jpg
   - vic-2026-90fd5814419d.jpg
-
-# Full Name in English
 name: Reza Rizvandi
-
-# Full Name in Persian (Optional)
 persian_name: رضا ریزوندی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 27
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Tehran
 incident_city: Pakdasht
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  27-year-old software engineer working in Tehran. Left home on Friday evening January 8, 2026 around 7 PM. In his last phone call around 8:30 PM, he told his family he was fleeing and security forces were pursuing him. His phone was then turned off and he disappeared. After extensive searches by family at various detention centers including Evin Prison, Fashafuyeh Prison, and Tehran prosecutor offices, no official institution acknowledged detaining him. His body was finally identified at Behesht Zahra morgue on January 16. Severe blow marks to the back of his head were visible on his body, and cause of death was declared as 'high-speed projectile impact'. Killed in Pakdasht.
+
   Persian Name: رضا ریزوندی
 
   Detained during protests, his body was identified by his family days later at Kahrizak morgue. Reports indicate visible signs of torture on his body.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/justchangingun/status/2015779802825834856, https://x.com/FSeifikaran/status/2015795005957255384, https://x.com/KurdistanHRN/status/2015878294940389719, https://t.me/RememberTheirNames/938
   - https://x.com/justchangingun/status/2015779802825834856
   - https://x.com/FSeifikaran/status/2015795005957255384
   - https://x.com/KurdistanHRN/status/2015878294940389719
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/Tavaana/status/2018577549111050731
+  - https://t.me/RememberTheirNames/938
+  - https://javidnaman.iranintl.com/memorial/sHbxgqPwudv03k1fYMD4yh
+  - https://x.com/imdearie2/status/2021288513258569869
+  - https://x.com/mashreghidokht/status/2021141332845121583

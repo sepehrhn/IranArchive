@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1195"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21582_0_twitter_v1.jpg
   - vic-2026-243c3b05fedd.jpg
   - vic-2026-68eeaed0dbf1.jpg
   - vic-2026-23abde571fb0.png
@@ -20,87 +8,27 @@ photo:
   - vic-2026-8547f574d4de.png
   - vic-2026-8c2d78d4725b.jpg
   - vic-2026-b093cf3497c2.jpg
-
-# Full Name in English
 name: Safoura Jafari
-
-# Full Name in Persian (Optional)
 persian_name: صفورا جعفری
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
-
-# Age at time of death (Optional, remove if unknown)
-age: 22
-
-# Occupation (Optional)
-occupation: 'Student'
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 20
+occupation: Student
 country: Iran
-
-# Incident Location
 incident_province: Qazvin
 incident_city: Zibashahr
 incident_address: Zibashahr
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  22-year-old Gilaki citizen from Chanask village, Abik county, Qazvin province, mathematics student at Qazvin International University. Shot directly with war bullets by Islamic Republic of Iran forces in Zibashahr area of Qazvin. She was an outstanding and Olympiad student at the university and served as secretary of the mathematics scientific association. After her killing, Imam Khomeini University of Qazvin tried to attribute this murder to opponents of the Islamic Republic of Iran and put her name in the list of 'security martyrs'. Students later shared messages from her personal channel showing her freedom-seeking views, but government institutions pressured the university and students to delete these messages and limit access to her personal channel. Her body was buried in her birthplace, Chanask village.
+
   She was a 22-year-old woman and a mathematics-and-applications student at Imam Khomeini International University of Qazvin. 
   Friends and peers describe her as a high-achieving student—an Olympiad participant—and a committed member of the academic community 
   who served as secretary of the department’s mathematics association. 
@@ -109,26 +37,19 @@ description: |-
   Sources also state that authorities attempted to frame her death as the result of “terrorist attacks” and put her family under pressure. 
   In contrast, people close to her—and content attributed to her personal Telegram channel—describe her as a freedom-seeking young woman 
   with pro-monarchy leanings who went into the streets on days of protest calls, seeking the overthrow of the Islamic Republic.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/pari_d_warrior/status/2017282070553272742
+  - https://x.com/shaya9000/status/2015522356861829630
   - https://x.com/anjmotahed/status/2015507082154553592
   - https://x.com/hekasrehcrisis/status/2015797646661763480
   - https://x.com/persian_picture/status/2016083167866712127
+  - https://x.com/soheilataheri67/status/2016263696285368615
   - https://x.com/sasanrahimpour1/status/2016478344582254860
   - https://x.com/hekasrehcrisis/status/2017347222002598225
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/pari_d_warrior/status/2017282070553272742
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmLQvRI
+  - https://www.instagram.com/p/DUD3XTsDa-C
+  - https://x.com/Tavaana/status/2018290418438246718
+  - https://t.me/RememberTheirNames/1004
+  - https://x.com/hyrcanihrm/status/2021976793004081297
+  - https://x.com/i/status/2026251881295561115

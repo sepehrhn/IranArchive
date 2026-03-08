@@ -1,125 +1,44 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "503"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20405_0_twitter_v1.jpg
   - vic-2026-001199.jpg
   - vic-2026-3b9d47bb9157.jpg
   - vic-2026-dce7a3d28e3a.jpg
   - vic-2026-de6250abce12.jpg
-
-# Full Name in English
 name: Reza Darvishi
-
-# Full Name in Persian (Optional)
 persian_name: رضا درویشی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 27
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Islamabad-e Gharb
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-01'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: ""
+incident_city: Eslam Abad-e Gharb
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  27-year-old young man killed during protests in Eslam Abad-e Gharb with direct shooting by government suppressive forces. Near Imam Hussein mosque, first severely wounded with shotgun pellets, then government forces shot him in the heart with Kalashnikov rifle while he was lying on the ground. Buried on January 10 in Tajar village, Karam Panahabad
+
   Killed during protests in Kermanshah
 
 
   Killed by direct fire from regime suppressive forces during public protests.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/hengawo/status/2013693435627151563, https://x.com/HengawO/status/2013693435627151563, https://x.com/ManotoNews/status/2014563996624683114, https://t.me/RememberTheirNames/433, https://x.com/Hoorieh81/status/2016073974669623673
   - https://x.com/hengawo/status/2013693435627151563
-  - https://x.com/HengawO/status/2013693435627151563
   - https://x.com/ManotoNews/status/2014563996624683114
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClUToT
+  - https://x.com/IranNewsAgency0/status/2018160442439352643
+  - https://t.me/RememberTheirNames/433
+  - https://x.com/hoorieh81/status/2016073974669623673
+  - https://t.me/ravizh14/31118?single
+  - https://x.com/missmarpel75/status/2016742151736959470
+  - https://hengaw.net/en/news/2026/01/article-163
+  - https://hengaw.net/fa/news/2026/01/article-167-1
