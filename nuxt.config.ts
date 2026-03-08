@@ -68,7 +68,25 @@ export default defineNuxtConfig({
     nitro: {
         preset: 'github-pages',
         prerender: {
-            routes: ['/data/events/events.ics', '/api/assets', '/api/events', '/entities']
+            // Keep prerender deterministic for CI: only render explicitly listed routes.
+            // This avoids crawling into heavy SSR routes that exhaust memory on GitHub runners.
+            crawlLinks: false,
+            routes: [
+                '/',
+                '/assets',
+                '/campaigns',
+                '/countries',
+                '/design-system',
+                '/docs/events-submission',
+                '/docs/incidents-submission',
+                '/entities',
+                '/events',
+                '/incidents',
+                '/submit',
+                '/data/events/events.ics',
+                '/api/assets',
+                '/api/events'
+            ]
         }
         // Note: Media files (evidences, campaigns, victims) are NOT copied to static output.
         // They are loaded at runtime from GitHub raw URLs via utils/mediaUrl.ts
