@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue';
+import { computed, ref, onMounted, onUnmounted } from 'vue';
 import { useStickyHeader } from '~/composables/useStickyHeader';
 
 const { t, locale } = useI18n();
@@ -14,6 +14,9 @@ const copiedCryptoType = ref<string | null>(null);
 const isGlobalPressureOpen = ref(false);
 const isWartimeOpen = ref(false);
 const isRefreshingData = ref(false);
+const lastDataRefreshAt = ref(Date.now());
+const refreshClock = ref(Date.now());
+let refreshClockTimer: ReturnType<typeof setInterval> | null = null;
 
 const BTC_ADDRESS = 'bc1q2ljvxxang69hqm578jqvx9pv5rjpz8psnjqjpv';
 const ETH_ADDRESS = '0xdf52878DffE453396E8Fa3f740A70DE6E081E9E6';
@@ -120,8 +123,24 @@ const copyCryptoAddress = (type: string, address: string) => {
 const refreshData = () => {
     if (isRefreshingData.value) return;
     isRefreshingData.value = true;
+    lastDataRefreshAt.value = Date.now();
     window.location.reload();
 };
+
+const lastRefreshLabel = computed(() => {
+    if (isRefreshingData.value) return t('common.refreshing');
+
+    const elapsedMs = Math.max(0, refreshClock.value - lastDataRefreshAt.value);
+    const elapsedMinutes = Math.floor(elapsedMs / 60000);
+
+    if (elapsedMinutes < 1) return t('common.justNow');
+    if (elapsedMinutes === 1) return t('common.minuteAgo');
+    if (elapsedMinutes < 60) return t('common.minutesAgo', { count: elapsedMinutes });
+
+    const elapsedHours = Math.floor(elapsedMinutes / 60);
+    if (elapsedHours === 1) return t('common.hourAgo');
+    return t('common.hoursAgo', { count: elapsedHours });
+});
 
 const handleOutsideClick = (e: MouseEvent) => {
     const target = e.target as HTMLElement;
@@ -141,10 +160,16 @@ const handleOutsideClick = (e: MouseEvent) => {
 
 onMounted(() => {
     window.addEventListener('click', handleOutsideClick);
+    refreshClockTimer = setInterval(() => {
+        refreshClock.value = Date.now();
+    }, 15000);
 });
 
 onUnmounted(() => {
     window.removeEventListener('click', handleOutsideClick);
+    if (refreshClockTimer) {
+        clearInterval(refreshClockTimer);
+    }
 });
 </script>
 
@@ -175,11 +200,12 @@ onUnmounted(() => {
                                 type="button"
                                 :disabled="isRefreshingData"
                                 :aria-label="$t('common.refreshData')"
+                                :title="$t('common.refreshData')"
                                 @click="refreshData"
                                 class="h-8 px-2.5 rounded-xl flex items-center gap-1.5 text-[11px] font-bold tracking-[0.12em] uppercase text-surface-500 dark:text-surface-400 hover:text-surface-900 dark:hover:text-surface-100 hover:bg-surface-200/40 dark:hover:bg-surface-800/40 transition-all disabled:opacity-50 disabled:cursor-not-allowed"
                             >
                                 <i class="pi pi-refresh text-xs" :class="{ 'animate-spin': isRefreshingData }"></i>
-                                <span>{{ isRefreshingData ? $t('common.refreshing') : $t('common.refreshData') }}</span>
+                                <span>{{ lastRefreshLabel }}</span>
                             </button>
                         </div>
                     </div>

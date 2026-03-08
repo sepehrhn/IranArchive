@@ -1,8 +1,13 @@
 {
     "common": {
-        "live": "LIVE",
-        "refreshData": "Refresh Data",
-        "refreshing": "Refreshing...",
+        "live": "زنده",
+        "refreshData": "بروزرسانی داده‌ها",
+        "refreshing": "در حال بروزرسانی...",
+        "justNow": "همین حالا",
+        "minuteAgo": "۱ دقیقه پیش",
+        "minutesAgo": "{count} دقیقه پیش",
+        "hourAgo": "۱ ساعت پیش",
+        "hoursAgo": "{count} ساعت پیش",
         "welcome": "به آرشیو ایران خوش آمدید",
         "darkMode": "حالت تاریک",
         "lightMode": "حالت روشن",
