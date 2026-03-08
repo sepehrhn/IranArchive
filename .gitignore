@@ -34,6 +34,9 @@ scripts/*
 !scripts/import_events.js
 !scripts/migrate_events.js
 !scripts/standardize_cities.js
+!scripts/validate-campaigns.js
+!scripts/validate-entities.js
+!scripts/generate-campaign-indexes.js
 !scripts/fix-yaml.mjs
 !scripts/final-migration.mjs
 !scripts/audit_countries.ts
@@ -71,6 +74,9 @@ scripts/*
 !scripts/import_events.js
 !scripts/migrate_events.js
 !scripts/standardize_cities.js
+!scripts/validate-campaigns.js
+!scripts/validate-entities.js
+!scripts/generate-campaign-indexes.js
 
 # Data Temp Files
 temp_victim*.json
