@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "650"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20627_0_twitter_v1.jpg
   - vic-2026-000447.jpg
   - vic-2026-282e42edcaad.jpg
   - vic-2026-001383.png
@@ -26,117 +14,49 @@ photo:
   - vic-2026-6e23feeeb72a.jpg
   - vic-2026-d092fc7b9258.jpg
   - vic-2026-5ae2ed8a609d.jpg
-
-# Full Name in English
 name: Sina Kazemi
-
-# Full Name in Persian (Optional)
 persian_name: سینا کاظمی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 22
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Tehran
 incident_city: Tehran (Haft Houz area)
 incident_address: Haft Houz
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  22-year-old final-year software engineering student shot directly from behind by Islamic Republic forces in Tehranpars area of Tehran. Family found his body among other corpses after five days of searching. He was also a guitarist and athlete alongside his studies.
+
   Shot by government forces during national revolution protests in the evening
 
 
   Shot directly from behind by Islamic Republic forces in the Tehranpars area of Tehran. His body was identified among other bodies after five days of searching. He was a guitarist and athlete in addition to his studies.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/alitagh30207454/status/2014310225046646870, https://x.com/sh_i_i_i/status/2014361260364587396, https://x.com/sh_i_i_i/status/2014364120242401613, https://x.com/iranwire/status/2014676865600888880, https://x.com/ShahramSadidi/status/2014087721900212382, https://x.com/AliTagh30207454/status/2014310225046646870, https://x.com/HengawO/status/2014710031246066053, https://x.com/iranintl/status/2014897583093604796, https://t.me/RememberTheirNames/569
   - https://x.com/ShahramSadidi/status/2014087721900212382
   - https://x.com/sh_i_i_i/status/2014364120242401613
   - https://x.com/AliTagh30207454/status/2014310225046646870
   - https://x.com/iranwire/status/2014676865600888880
   - https://x.com/iranintl/status/2014897583093604796
+  - https://x.com/lobaaat/status/2017216546230133130
   - https://x.com/i/status/2016705489162174495
-  - https://x.com/qishti_marduk/status/2015382850955051430, https://t.me/RememberTheirNames/552
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClX5IE
+  - https://x.com/sh_i_i_i/status/2014361260364587396
+  - https://x.com/hengawo/status/2014710031246066053
+  - https://t.me/RememberTheirNames/569
+  - https://hengaw.net/en/news/2026/01/article-190
+  - https://hengaw.net/fa/news/2026/01/article-194-1
+  - https://x.com/qishti_marduk/status/2015382850955051430
+  - https://t.me/RememberTheirNames/552
   - https://t.me/RememberTheirNames/850
   - https://x.com/iranhrs99/status/2012963645798428966
   - https://x.com/hengawo/status/2013547854837493921
   - https://x.com/hiwa_life/status/2014397354850275610
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

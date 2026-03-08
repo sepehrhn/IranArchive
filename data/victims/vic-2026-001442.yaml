@@ -1,120 +1,43 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "2615"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20621_0_twitter_v1.jpg
   - vic-2026-001442.png
   - vic-2026-69b9c4c60049.jpg
   - vic-2026-e2f06fac2372.jpg
   - vic-2026-001616.jpg
-
-# Full Name in English
 name: Seyyed Arman Mousavi
-
-# Full Name in Persian (Optional)
-persian_name: سید آرمان موسوی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+persian_name: آرمان موسوی
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 29
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Kermanshah
 incident_city: Kermanshah
 incident_address: Maskan Neighborhood
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2025-12-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Kurdish youth killed by direct gunshot to the heart by Islamic Republic suppression forces during popular protests in Maskan neighborhood of Kermanshah. He worked in a shoe store called 'Tankora-ye Kafsh'. Images of his body after being killed were published by 'Parau News' Instagram page.
+source_type: Social Media
 source:
   - https://x.com/hengawo/status/2014088323942256878
-  - https://x.com/HengawO/status/2014088323942256878
-  - https://x.com/hengawo/status/2014088323942256878, https://x.com/allahbakhshii/status/2014663511813550216, https://x.com/hekasrehcrisis/status/2014820145672110316, https://x.com/indypersian/status/2015410039620808967, https://x.com/aban_khoonin/status/2015402537583562823, https://x.com/roozbehmon/status/2015405735811915905, https://x.com/HeKasrehCrisis/status/2014820145672110316, https://t.me/RememberTheirNames/800
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/banafshehviola/status/2017733312891199880
+  - https://x.com/RealMeAban/status/2017635636707012927
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMhLBg
+  - https://t.me/RememberTheirNames/539
+  - https://x.com/kurdpa_farsi/status/2022036968297967671
+  - https://x.com/missmarpel75/status/2017591211888955884
+  - https://hengaw.net/en/news/2026/01/article-174
+  - https://hengaw.net/fa/news/2026/01/article-179-1
+  - https://x.com/allahbakhshii/status/2014663511813550216
+  - https://x.com/hekasrehcrisis/status/2014820145672110316
+  - https://x.com/indypersian/status/2015410039620808967
+  - https://x.com/aban_khoonin/status/2015402537583562823
+  - https://x.com/roozbehmon/status/2015405735811915905
+  - https://t.me/RememberTheirNames/800

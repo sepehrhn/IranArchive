@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "68"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19668_0_twitter_v1.jpg
   - vic-2026-000612.jpg
   - vic-2026-6e63ab74e5d7.jpg
   - vic-2026-2914f745dfcf.jpg
@@ -24,113 +12,44 @@ photo:
   - vic-2026-5d4afb974e8d.jpg
   - vic-2026-001512.png
   - vic-2026-0720a10847d8.jpg
-
-# Full Name in English
 name: Ghasem Vakili
-
-# Full Name in Persian (Optional)
 persian_name: قاسم وکیلی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 40
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Qazvin
 incident_city: Qazvin province
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-01'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Off-road racing champion from Qazvin. Shot first in the hand and then in the stomach on Yakhchal Street in Qazvin. Transferred to Pasteur Hospital where surgery was reportedly successful. However, at 5 AM Friday morning, he was shot with a finishing shot at the hospital and killed. Described as a planned field execution and example of the regime's policy of slaughter, elimination and assassination of defenseless citizens.
+
   Shot directly in the head by Islamic Republic forces during crackdown on protests
 
 
   Off-road racing champion shot directly in the head by Islamic Republic forces during crackdown on national uprising. Father of a young daughter, described as honorable, kind, and deeply responsible. Was actively involved in humanitarian work and had devoted himself to helping victims of the Kermanshah earthquake.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/iranprotestscom/status/2012103435953328438, https://x.com/longlosthills/status/2012604451161325654, https://x.com/jinzianazadi/status/2012470517274399074, https://x.com/banafshehviola/status/2012626117489020929, https://x.com/manotonews/status/2013302938471669782, https://x.com/manotonews/status/2013310492702372285, https://t.me/RememberTheirNames/176
   - https://x.com/iranprotestscom/status/2012103435953328438
   - https://x.com/longlosthills/status/2012604451161325654
   - https://x.com/jinzianazadi/status/2012470517274399074
   - https://x.com/banafshehviola/status/2012626117489020929
   - https://x.com/manotonews/status/2013302938471669782
   - https://x.com/manotonews/status/2013310492702372285
+  - https://x.com/IranNewsAgency0/status/2018522322802491802
+  - https://t.me/RememberTheirNames/176
+  - https://t.me/JavidnamaneVatan/944
+  - https://x.com/hekasrehcrisis/status/2018398097030693218
+  - https://x.com/hadeeselahi/status/2026305301448728605
+  - https://hengaw.net/en/news/2026/01/article-134
+  - https://hengaw.net/fa/news/2026/01/article-136-1
   - https://x.com/YepremKhann/status/2015545457733431730
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

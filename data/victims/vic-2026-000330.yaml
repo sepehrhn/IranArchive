@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "995"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21219_0_twitter_v1.jpg
   - vic-2026-000330.jpg
   - vic-2026-ffbce5e6e506.jpg
   - vic-2026-001455.jpeg
@@ -26,112 +14,42 @@ photo:
   - vic-2026-9d4e7fa0ecf6.jpg
   - vic-2026-8bd8fee60fad.jpg
   - vic-2026-607fd3b7c9b2.jpg
-
-# Full Name in English
 name: Majid Bagheri
-
-# Full Name in Persian (Optional)
-persian_name: امید باقری
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+persian_name: مجید باقری
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 26
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 25
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Tehran
 incident_city: Mahdasht
 incident_address: Mahdasht
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot by government mercenary forces during the violent suppression of popular protests. Originally from Kuhdasht county.
+
   Killed by Islamic Republic soldiers on Friday 19 Dey in Arak. His body was secretly transferred to his father's village, Bazneh, and buried without a human funeral. The family was forced to pay two billion rials as collateral for the funeral.
 
 
   Killed by the criminal regime of the Islamic Republic. His body was transferred secretly at night to his father's village of Bazneh and buried without permission to hold a funeral ceremony. His family was forced under pressure to post 2 billion toman bail.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/behnam_chegini/status/2014810174876156340, https://x.com/amirmiresmaeili/status/2014685689950957985, https://x.com/aban_khoonin/status/2015147119972323545, https://t.me/RememberTheirNames/963, https://t.me/RememberTheirNames/541, https://x.com/isamanyasin/status/2016501534968648157
   - https://x.com/amirmiresmaeili/status/2014685689950957985
   - https://x.com/me_azadi/status/2016942213687644513
   - https://t.me/javanmardi77/153866
+  - https://t.me/RememberTheirNames/541
+  - https://t.me/JavidnamaneVatan/1873
+  - https://x.com/scharllinn/status/2018015706386747716
+  - https://x.com/missmarpel75/status/2026309144320368697
+  - https://x.com/behnam_chegini/status/2014810174876156340
   - https://x.com/aban_khoonin/status/2015147119972323545
+  - https://t.me/RememberTheirNames/963
   - https://x.com/isamanyasin/status/2016501534968648157
   - https://x.com/drneilstone/status/2017127786092147151
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

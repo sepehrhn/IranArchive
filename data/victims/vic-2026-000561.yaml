@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "498"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20461_0_twitter_v1.jpg
   - vic-2026-000561.jpg
   - vic-2026-ac93480243ab.jpg
   - vic-2026-7512c3f9919c.jpg
@@ -21,108 +9,40 @@ photo:
   - vic-2026-bc79e0138bda.jpg
   - vic-2026-51f71a966282.png
   - vic-2026-c0a4f6f86932.jpg
-
-# Full Name in English
 name: Ashkan Alipour
-
-# Full Name in Persian (Optional)
 persian_name: اشکان علیپور
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: null
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 19
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Ferdows
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: Alborz
+incident_city: Fardis, Karaj
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
+description: |-
+  Killed by the Islamic Republic regime. Was a barista and bartender, a young man who built his life with his own hands. His last story was a cry of honor: 'History is made by those who did not fear and did not surrender.' He did not fear and did not surrender; it was the terrorist regime of the Islamic Republic that fears the youth. Became a martyr for the homeland.
 
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: |
   Shot in the neck by Islamic Republic regime forces during protests
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/negannegan55/status/2013657195359940809, https://x.com/longlosthills/status/2013731310095810836, https://x.com/soranmansournia/status/2014082511748337969, https://x.com/zahra_masgedyy/status/2014092914062750194, https://x.com/HengawO/status/2013961319469158812, https://t.me/RememberTheirNames/445
   - https://x.com/negannegan55/status/2013657195359940809
   - https://x.com/longlosthills/status/2013731310095810836
   - https://x.com/HengawO/status/2013961319469158812
   - https://x.com/soranmansournia/status/2014082511748337969
   - https://x.com/zahra_masgedyy/status/2014092914062750194
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWg8NA
+  - https://x.com/HeKasrehCrisis/status/2018579257853943837
+  - https://x.com/IranNewsAgency0/status/2018595734388359293
+  - https://t.me/RememberTheirNames/445
+  - https://x.com/asaal_aj/status/2024105447343489286
+  - https://hengaw.net/en/news/2026/01/article-182
+  - https://hengaw.net/fa/news/2026/01/article-173-1
+  - https://x.com/mojtabapacino/status/2024056980197761449

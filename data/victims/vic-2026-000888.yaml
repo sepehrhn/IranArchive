@@ -1,110 +1,38 @@
-# ==========================================
-# Victim Documentation
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "755"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19935_0_twitter_v1.jpg
   - vic-2026-000888.jpg
   - image_2026-02-03_06-45-37.png
-
-# Full Name in English
-name: "Mohammad Erfan Faraji"
-
-# Full Name in Persian (Optional)
-persian_name: "محمد عرفان فرجی"
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: "2008/01/06"
-
-# Province of Birth (Optional)
+name: Mohammad Erfan Faraji
+persian_name: محمدعرفان فرجی
+birth_date: 2008/01/06
 birth_province: ""
-
-# City of Birth (Optional)
 birth_city: ""
-
-# Gender (Optional: "Male" or "Female")
-gender: "Male"
-
-# Age at time of death (Optional, remove if unknown)
+gender: Male
 age: 18
-
-# Occupation (Optional)
-occupation: "High School Student"
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
-country: "Iran"
-
-# Incident Location
-incident_province: "Tehran"
-incident_city: "Tehran"
-incident_address: "Behesht Square / Naziabad area"
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: "2026/01/08"
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: "Exact"
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: "Gunshot"
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
+occupation: High School Student
+country: Iran
+incident_province: Tehran
+incident_city: Nazi Abad (Behesht Square)
+incident_address: Behesht Square / Naziabad area
+date_of_death: "2026-01-08"
+date_of_death_precision: Exact
+cause_of_death: Gunshot
 disappearance_circumstances: ""
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
 suspected_actor: ""
+status: Killed
+description: |-
+  18-year-old high school senior was filming protests with his mobile phone at Behesht Square in Nazi Abad when he was shot from behind by military and security forces with a war bullet. The bullet entered through his lower back and exited through his heart. He died two days after his birthday. His family is under severe pressure and has been threatened that his grave will be opened and his body removed.
 
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
-status: "Killed"
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: |
   Mohammad Erfan Faraji (18) was killed by gunfire during protests in south Tehran, in the Naziabad area around Behesht Square.
-  
+
   According to reports, he was recording the protests when he was shot from behind at close range at around 8:00 p.m. on 2026/01/08. The bullet reportedly passed through his heart and exited his chest. Bystanders carried him to a nearby home, and he was later taken to Amir al-Momenin Hospital, where the family was informed he had died instantly.
-  
+
   Erfan was a resident of Shahr-e Rey. His family had been preparing a surprise party for his 18th birthday that night (two days after his actual birthday). After his death, the family reportedly faced intense pressure and restrictions on mourning ceremonies, and his burial was carried out under heavy security at Behesht-e Zahra cemetery.
-  
+
   **Reported letter from Donald J. Trump to the family**
   A letter reported as being from the White House (dated 2026/01/13) was shared publicly in connection with Erfan’s killing and addressed to his uncle, Majid Moghadasi. The text below is the reported content of that letter as circulated:
-  
+
   > The White House - Washington
   > January 13, 2026
   >
@@ -121,30 +49,12 @@ description: |
   >
   > Sincerely,
   > Donald J. Trump
-  
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - "https://x.com/manotonews/status/2013970919039852837"
-  - "https://x.com/NoaMagid/status/2010753333603020937"
-  - "https://x.com/RadioFarda_/status/2014266162121478564"
-  - "https://x.com/AliEbrahimzade_/status/2018482092393549895"
-  - "https://x.com/IranIntl/status/2018516312167723032"
-  - "https://iranwire.com/en/features/147911-erfan-was-killed-before-reaching-home-for-his-birthday-surprise/"
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
-# Submission Metadata
-# submitted_by: ""
-# received_at: "2026-02-03T04:20:36.833Z"
-# submission_id: "ad34c80b-782c-4d8a-a867-9fd77e672b4c"
-# original_id: "000888"
+  - https://x.com/NoaMagid/status/2010753333603020937
+  - https://x.com/manotonews/status/2013970919039852837
+  - https://x.com/RadioFarda_/status/2014266162121478564
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClVADB
+  - https://x.com/AliEbrahimzade_/status/2018482092393549895
+  - https://x.com/IranIntl/status/2018516312167723032
+  - https://iranwire.com/en/features/147911-erfan-was-killed-before-reaching-home-for-his-birthday-surprise/

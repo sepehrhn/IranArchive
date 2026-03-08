@@ -1,126 +1,46 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "902"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21069_0_twitter_v1.jpg
   - vic-2026-000347.jpg
   - vic-2026-36c93d7de362.jpg
   - vic-2026-cf7f7cfeb17f.jpg
   - vic-2026-becfafef750e.jpg
   - vic-2026-455b8eb77292.jpg
-
-# Full Name in English
 name: Mehrdad Kermanjani
-
-# Full Name in Persian (Optional)
 persian_name: مهرداد کرماجانی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 30
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 31
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Tehran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: Alborz
+incident_city: Gohardasht, Karaj
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot with live ammunition by Islamic Republic suppression forces during popular protests in Karaj. Kurdish citizen originally from Kangavar, Kermanshah Province, of Lak ethnicity. Body may not yet have been returned to family.
+
   Shot with live ammunition by Islamic Republic suppression forces during popular protests
 
 
   A 31-year-old citizen from Kangavar, Kermanshah province, was killed in the protests of 19 Dey 1404 in Karaj. Mehrdad had joined the street protests in Gohardasht, Karaj, when he was suddenly targeted from behind with live ammunition.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/kurdpa_farsi/status/2014447021227208799, https://x.com/HengawO/status/2014429661707542927, https://t.me/RememberTheirNames/627, https://x.com/iranwire/status/2016247397655957589, https://x.com/KurdistanHRN/status/2016177480659353720
   - https://x.com/HengawO/status/2014429661707542927
   - https://x.com/iranwire/status/2016247397655957589
   - https://x.com/KurdistanHRN/status/2016177480659353720
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmON0fx
+  - https://x.com/kurdpa_farsi/status/2014447021227208799
+  - https://x.com/kyokushinsoofi/status/2020073149161677280
+  - https://t.me/ParawNews/7741
+  - https://x.com/missmarpel75/status/2018593322273849419
+  - https://hengaw.net/en/news/2026/01/article-185
+  - https://hengaw.net/fa/news/2026/01/article-189-1
+  - https://t.me/RememberTheirNames/627

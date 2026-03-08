@@ -1,124 +1,39 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "2946"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21563_0_twitter_v1.jpg
   - vic-2026-001338.jpg
   - vic-2026-541449d70ac1.jpg
   - vic-2026-e3d636895296.jpg
-
-# Full Name in English
 name: Farhad Farsi
-
-# Full Name in Persian (Optional)
-persian_name: فرهاد فارسى
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+persian_name: فرهاد فارسی
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 37
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 35
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  37-year-old killed in Isfahan. He was arrested and authorities said he was alive and told family not to follow up. After a few days, Bagh-e Razvan (morgue) called saying there were several bodies to identify. When family went to identify, they found he had been shot in the stomach and died, meaning he was killed during detention.
+
   Persian Name: فرهاد فارسى
 
   37-year-old killed in Isfahan. He was arrested and his family was told he was alive and not to follow up. After a few days, they were called from Bagh-e Rezvan cemetery to identify several bodies. They found that he had been shot in the stomach and died, meaning he was killed while in detention.
 
 
   Arrested and killed during detention. His body was later identified with a gunshot wound to the abdomen. The authorities initially told his family he was alive and to not inquire further.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/VIsfehan/status/2015441559454388548, https://t.me/RememberTheirNames/1292
   - https://x.com/VIsfehan/status/2015441559454388548
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaTEiKNX
+  - https://x.com/i/status/2026007762950357218
+  - https://t.me/RememberTheirNames/1292

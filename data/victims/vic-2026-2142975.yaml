@@ -1,113 +1,46 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "473"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20367_0_twitter_v1.jpg
   - vic-2026-22bcb50154ad.png
-
-# Full Name in English
 name: Bahareh Shadmehri
-
-# Full Name in Persian (Optional)
-persian_name: بهاره شادمهری
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+persian_name: بهار شادمهری
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Female
 age: 17
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Khorasan Razavi
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_province: ""
+incident_city: Nishapur, Khorasan Razavi Province
+incident_address: ""
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
-source: []
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+description: Shot by IRGC sniper while standing in the street with her mother and friends in front of their house alley at around 10:30 PM. First hit by pellet bullets, then by live ammunition. A sniper's bullet struck her beneath her left breast with such force that a piece of flesh was torn from her back. She was a kind, compassionate girl who was deeply saddened by the killing of other young people and would cry for her 'sisters and brothers'. She had a Telegram channel where she shared personal writings.
+source_type: Social Media
+source:
+  - https://x.com/sssccpp/status/2013674357571158329
+  - https://x.com/dadban4/status/2013665997366939730
+  - https://x.com/manotonews/status/2013725723849302192
+  - https://x.com/NickSotoudeh/status/2013680225541070987
+  - https://x.com/NickSotoudeh/status/2013679219180515743
+  - https://x.com/Tavaana/status/2014250806841938163
+  - https://www.instagram.com/p/DT0ONGwEX2H
+  - https://x.com/HengawO/status/2015124778101985587
+  - https://x.com/fereshtehgilaki/status/2014264951993401520
+  - https://x.com/azijangravi/status/2014076799131509097
+  - https://x.com/ShahramSadidi/status/2014043337880199445
+  - https://x.com/ShahramSadidi/status/2013562439317455089
+  - https://t.me/javanmardi77/154026
+  - https://x.com/azambahrami/status/2014751904341848573
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWgM0I
+  - https://javidnaman.iranintl.com/memorial/yEYwvbhpDrCFHYzchU92hs
+  - https://x.com/irannewsagency0/status/2018610842003275933
+  - https://x.com/IranNewsAgency0/status/2018505705813065926
+  - https://t.me/RememberTheirNames/366
+  - https://www.instagram.com/p/DUp6nG8jSj8
+  - https://www.instagram.com/p/DURIFe9jfC3

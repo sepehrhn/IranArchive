@@ -1,123 +1,44 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1779"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22925_0_twitter_v1.jpg
   - vic-2026-8f60a0248f3c.jpg
   - vic-2026-b79da4d491c8.jpg
   - vic-2026-1cec3ab144f7.jpg
   - vic-2026-07de60ec5ef8.jpg
   - vic-2026-a1f3bfffdccb.jpg
   - vic-2026-7ef777f2b3ee.jpg
-
-# Full Name in English
 name: Mohaddetheh Shahbazi
-
-# Full Name in Persian (Optional)
 persian_name: محدثه شهبازی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Female
 age: 20
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_address: ""
+date_of_death: "2026-01-08"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Lur citizen from Nahavand, Hamedan province, residing in Tehran. Shot with war bullets during protests on Thursday 18 Dey by government suppression forces. Died Friday 19 Dey from injuries sustained from the shooting.
+source_type: Social Media
 source:
   - https://x.com/mahmocean/status/2016243431379521727
   - https://x.com/amureza64/status/2016565843589513396
   - https://t.me/RememberTheirNames/1594
   - https://x.com/senooyekta/status/2015845565527920925
   - https://x.com/HengawO/status/2017921563069124857
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/7G0E78pdgELSDZc0Cp7IFq
+  - https://x.com/i/status/2018103508189528208
+  - https://www.instagram.com/p/DUTGhPPEag0
+  - https://x.com/IranNewsAgency0/status/2018275252791390627
+  - https://t.me/javidnamhamedan/148
+  - https://t.me/javidnamhamedan/163
+  - https://t.me/javidnamhamedan/362
+  - https://t.me/javidnamhamedan/438
+  - https://www.instagram.com/p/DVDlsUQAd6A

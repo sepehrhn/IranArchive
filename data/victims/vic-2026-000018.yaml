@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1169"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21519_0_twitter_v1.jpg
   - placeholder.png
   - vic-2026-9383156f6fc0.jpg
   - vic-2026-38f012fe0096.jpg
@@ -33,102 +21,35 @@ photo:
   - vic-2026-f7d66daee3da.jpg
   - vic-2026-2140135.jpg
   - vic-2026-87bcac085c9d.jpg
-
-# Full Name in English
 name: Mehran Salimi
-
-# Full Name in Persian (Optional)
 persian_name: مهران سلیمی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
+birth_date: ""
+birth_province: ""
 birth_city: them while they were en route
-
-# Gender (Optional: "Male" or "Female")
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 28
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 27
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Vahdat Town
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: ""
+incident_city: Hashtgerd, Karaj
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Young artist and hairstylist who worked in music production and accessory sales at AS Man boutique. Gunned down by bullets of Islamic Republic forces in his own city. Remembered as joyful, nature-loving, energetic, and fiercely loyal companion. Grave photo inscription reads 'Soldier of the Path of Light'.
+
   Mehran Salimi was killed by a gunshot in Hashtgerd on February 7, 2026. 
   By the time he was brought to the hospital, he had already passed away. 
   His family managed to take his body out of the hospital at night, but security agents seized it from them while they were en route.
 
 
   Gunned down by Islamic Republic's forces. Described as a vibrant young artist and talented hairstylist, thriving in music production and accessory sales. Friends remembered him as joyful, nature-loving, energetic, and a fiercely loyal companion. Photo on grave reads: Soldier of the Path of Light.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/khoshnevisnaser/status/2014470628141650432, https://x.com/longlosthills/status/2015361665995272603, https://t.me/RememberTheirNames/852, https://x.com/persephone7597/status/2016146349058596959
   - https://x.com/longlosthills/status/2015361665995272603
   - https://x.com/persephone7597/status/2016146349058596959
   - https://x.com/mashalahkarami/status/2016614937116725434
@@ -136,17 +57,18 @@ source:
   - https://x.com/outofken/status/2017163678790103395
   - https://x.com/mashakahkarami/status/2016617056490111080
   - https://x.com/mashalahkarami/status/2016617056490111080
-  - https://x.com/pkhwshhal/status/2012363412274135472, https://x.com/hemadnazari/status/2012454210877415626, https://x.com/longlosthills/status/2012911154201325642, https://x.com/HengawO/status/2012863021467550147, https://t.me/RememberTheirNames/177, https://x.com/pkhwshhal/status/2016255018182099357, https://x.com/pkhwshhal/status/2012858924010016901
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmONCJA
+  - https://x.com/i/status/2014470628141650432
+  - https://x.com/ghazal_bateh/status/2017266680058319084
+  - https://x.com/khoshnevisnaser/status/2014470628141650432
+  - https://t.me/RememberTheirNames/852
+  - https://x.com/hemadnazari/status/2024394094366134482
+  - https://t.me/JavidnamaneVatan/585
+  - https://x.com/pkhwshhal/status/2012363412274135472
+  - https://x.com/hemadnazari/status/2012454210877415626
   - https://x.com/longlosthills/status/2012911154201325642
   - https://x.com/HengawO/status/2012863021467550147
-  - https://x.com/pkhwshhal/status/2012363412274135472
+  - https://t.me/RememberTheirNames/177
+  - https://x.com/pkhwshhal/status/2016255018182099357
+  - https://x.com/pkhwshhal/status/2012858924010016901
   - https://www.instagram.com/p/DT5_Jw8ikvU
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

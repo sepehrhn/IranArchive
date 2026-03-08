@@ -1,127 +1,41 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1124"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21457_0_twitter_v1.jpg
   - vic-2026-001270.jpg
   - vic-2026-b1e52bc45e38.jpg
   - vic-2026-73ed077a793d.jpg
   - vic-2026-7a6659f8c447.jpg
-
-# Full Name in English
 name: Mohammad Hassan Khazaei
-
-# Full Name in Persian (Optional)
-persian_name: محمد حسن خزایی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+persian_name: محمدحسن خزائی
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 19
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 18
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Tehran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: ""
+incident_city: Karaj
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot dead by regime forces. Authorities held his body and banned his family from burial ceremony, from crying, or from mourning. On the day of burial, family was expelled from the cemetery.
+
   Persian Name: محمدحسن خزائی
 
   Shot directly by government forces during popular protests.
 
 
   Shot dead by the regime. His body was held, and his family was banned from a burial ceremony, from crying, or from mourning. On the day of the burial, they were expelled from the cemetery.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/missmarpel75/status/2015117390070071453, https://x.com/manotonews/status/2015228128461832194, https://x.com/ManotoNews/status/2015228128461832194, https://t.me/RememberTheirNames/712, https://x.com/noamagid/status/2016201827105059200
   - https://x.com/manotonews/status/2015228128461832194
-  - https://x.com/ManotoNews/status/2015228128461832194
   - https://x.com/noamagid/status/2016201827105059200
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://t.me/JavidnamaneVatan/173
+  - https://x.com/missmarpel75/status/2015117390070071453
+  - https://t.me/RememberTheirNames/712

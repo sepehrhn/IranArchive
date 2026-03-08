@@ -1,124 +1,41 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "9057"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55756_0_web_v1.jpg
   - vic-2026-001649.jpg
   - vic-2026-a629e0347496.jpg
   - vic-2026-9bc553fc34a9.png
-
-# Full Name in English
 name: Amir Mohsen Allahyari
-
-# Full Name in Persian (Optional)
 persian_name: امیرمحسن الهیاری
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 51
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 29
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Fardis
+incident_province: ""
+incident_city: Karaj
 incident_address: Fardis
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot by Iranian forces during protests in Karaj. According to his death certificate and burial permit, the cause of death was listed as gunshot wound to the torso. His body was handed over to his family on January 11 and was subsequently buried. Resident of Fardis, Karaj.
+
   Persian Name: امیرمحسن الهیاری
 
   Shot with military bullets during protests
 
   Shot while outside, described as being hit by a bullet
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/s_iran01/status/2013321172146893084, https://x.com/iranwire/status/2013913468248674542, https://t.me/RememberTheirNames/490, https://x.com/jashnimitra/status/2016218663053861191
+  - https://hengaw.net/en/news/2026/01/article-182
+  - https://x.com/s_iran01/status/2013321172146893084
+  - https://x.com/iranwire/status/2013913468248674542
+  - https://t.me/RememberTheirNames/490
+  - https://x.com/jashnimitra/status/2016218663053861191
   - https://x.com/HengawO/status/2013961319469158812
   - https://x.com/DamDami/status/2016066295502905474
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

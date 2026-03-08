@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "9123"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55790_0_web_v1.jpg
   - vic-2026-000003.jpg
   - vic-2026-aba020dae4cd.jpg
   - vic-2026-a9aa8afcb388.jpg
@@ -33,122 +21,50 @@ photo:
   - vic-2026-71164eb2c3a9.jpg
   - vic-2026-511caa5e2554.jpg
   - vic-2026-2a3c8422fcea.jpg
-
-# Full Name in English
 name: Zahra Fazeli
-
-# Full Name in Persian (Optional)
 persian_name: زهرا فاضلی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
-
-# Age at time of death (Optional, remove if unknown)
 age: 38
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Bushehr
 incident_city: Bushehr
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  MBA degree holder killed during popular protests in Bushehr when targeted by government forces shooting. Severely injured by two war bullets to her side, died after being transferred to hospital. Her body was handed over to family after four days of follow-up and repeated visits to various medical and administrative centers, buried on 24 Dey.
+
   During protests on Friday, 9 Jan 2026, in Bushehr, southern Iran, armed motorbike units of IR suppressive forces shot Zahra Fazeli in the chest. She was 38 years old.
 
   Her family released Zahra's body by paying a $4,500 “bullet fee.” Zahra was laid to rest on Friday, 16 Jan 2026.
 
 
   Shot in the chest by armed motorbike units of IR suppressive forces. Her family paid a $4,500 “bullet fee” to retrieve her body. Laid to rest on January 16, 2026.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/HengawO/status/2012244742432588145, https://x.com/Soranmansournia/status/2014654692454781432, https://x.com/longlosthills/status/2011862532936409535
-  - https://x.com/longlosthills/status/2011862532936409535
+  - https://hengaw.net/en/news/2026/01/article-128
+  - https://hengaw.net/fa/news/2026/01/article-130-1
   - https://x.com/HengawO/status/2012244742432588145
   - https://x.com/Soranmansournia/status/2014654692454781432
+  - https://x.com/longlosthills/status/2011862532936409535
   - https://x.com/hiitsmemooneh/status/2012343522972602388
-  - https://x.com/longlosthills/status/2011862532936409535, https://x.com/justchangingun/status/2012223549373587729, https://x.com/iranwire/status/2012146986569314475, https://x.com/nicksotoudeh/status/2012328399264456856, https://x.com/shimababaeii/status/2013290575399629278, https://x.com/iranwire/status/2014442887694712952, https://x.com/isamanyasin/status/2014708549398524170, https://x.com/Daikatuo/status/2012215640212332549, https://x.com/elliesfriendd/status/2014707090699255892, https://t.me/RememberTheirNames/310
-  - https://x.com/Daikatuo/status/2012215640212332549
   - https://x.com/justchangingun/status/2012223549373587729
   - https://x.com/iranwire/status/2012146986569314475
   - https://x.com/nicksotoudeh/status/2012328399264456856
   - https://x.com/shimababaeii/status/2013290575399629278
+  - https://x.com/iranwire/status/2014442887694712952
+  - https://x.com/isamanyasin/status/2014708549398524170
+  - https://x.com/Daikatuo/status/2012215640212332549
   - https://x.com/elliesfriendd/status/2014707090699255892
+  - https://t.me/RememberTheirNames/310
   - https://x.com/SHAYA9000/status/2016581826052297148
   - https://x.com/baharatish/status/2016410732586205579
   - https://x.com/justchangingun/status/2016663943305994551
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

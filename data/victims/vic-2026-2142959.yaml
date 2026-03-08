@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "546"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20494_0_twitter_v1.png
   - vic-2026-25b75cc36e2a.png
   - vic-2026-b682dde6ed21.jpg
   - vic-2026-b6a73ee308dc.jpg
@@ -20,93 +8,26 @@ photo:
   - vic-2026-71f74590204f.jpg
   - vic-2026-f69ba9ce5652.jpg
   - vic-2026-169a2ed0152d.jpg
-
-# Full Name in English
 name: Arash Nikkhoo
-
-# Full Name in Persian (Optional)
 persian_name: آرش نیکخو
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
-age: null
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
+age: 38
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Dehdasht, Kohgiluyeh and Boyer-Ahmad
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: Kohgiluyeh and Boyer-Ahmad
+incident_city: Dehdasht
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Teacher and environmental activist arrested at his personal residence on Tuesday 30 Dey by Islamic Republic security forces raid. Graduate of software engineering (bachelor's) and artificial intelligence (master's) from Isfahan University of Technology. Has been teaching computer science at high school level since 1396 in Alborz province and Karaj city. Threatened and summoned multiple times by security and intelligence forces since 1401 due to his positions during Woman Life Freedom movement. Suspended from teaching for about one year in fall 1401 by education department security under pressure from security institutions. Founded 'Siavash Unit' for preventing destruction, fires and restoration of Zagros forests. Was held in solitary confinement under lengthy interrogations from 30 Dey until 4 days ago, then transferred to Dehdasht prison.
+source_type: Social Media
 source:
   - https://x.com/sinaaghighi/status/2013680226815955126
   - https://x.com/ali_nayeri/status/2014804449802461252
@@ -114,12 +35,7 @@ source:
   - https://x.com/BehroozHos1989/status/2015484867329278324
   - https://x.com/rostamdastranj/status/2015755422590775766
   - https://x.com/IranianPlateau/status/2013662975857500622
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/znbrahimi/status/2018216954285179255
+  - https://x.com/tarashg6ro/status/2018485905011671537
+  - https://x.com/vahidmirzaeii/status/2018763076661543173
+  - https://x.com/hegei_javan/status/2019037321086288038

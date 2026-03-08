@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "759"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20793_0_twitter_v1.jpg
   - vic-2026-fdf096b3cadc.jpg
   - vic-2026-0f6be4a74671.jpg
   - vic-2026-ee73d53d67f8.jpg
@@ -21,109 +9,39 @@ photo:
   - vic-2026-22c2737cd8cd.jpg
   - vic-2026-94d863cd864c.jpg
   - vic-2026-7805b586f677.jpg
-
-# Full Name in English
 name: Parastoo Jarrahiyan
-
-# Full Name in Persian (Optional)
 persian_name: پرستو جراحیان
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Female
 age: 23
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: ""
 incident_city: Arak
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_address: ""
+date_of_death: "2026-01-08"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Shot in the side with live ammunition by Islamic Revolutionary Guard Corps (IRGC) forces at Shoora Square in Arak around 7 PM. Was hospitalized in ICU and conscious despite severe injuries, but security forces expelled her family from the hospital. Her lifeless body was transferred to the morgue of Bagh-e Jannat cemetery in Arak that same night. Family was threatened and forced to make coerced confessions to obtain her body.
+source_type: Social Media
 source:
   - https://x.com/saeidvafa/status/2014508199861174470
-  - https://x.com/SaeidVafa/status/2014508199861174470
   - https://x.com/niohberg/status/2014801918720106894
   - https://x.com/SaeidVafa/status/2014891606525071435
-  - https://x.com/saeidvafa/status/2014891606525071435
   - https://t.me/poshtpardeha/248822
   - https://x.com/SaeidVafa/status/2014895378978517425
   - https://x.com/MonfaredAshkan/status/2014794897900056829
   - https://x.com/noamagid/status/2017665115026264349
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClXSpc
+  - https://x.com/historyinpik/status/2018387908445802875
+  - https://x.com/behnam_chegini/status/2014671079948615890
+  - https://x.com/isamanyasin/status/2014546706470142334
+  - https://t.me/JavidnamaneVatan/244
+  - https://x.com/aminbehroozi2/status/2017624960861167837
+  - https://www.instagram.com/p/DU50yNNjy8N
+  - https://www.instagram.com/p/DU0X1wCDe-X

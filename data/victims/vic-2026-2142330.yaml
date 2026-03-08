@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "314"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20086_0_twitter_v1.jpg
   - vic-2026-f8c9406dde82.jpg
   - vic-2026-94d022c2d76d.jpg
   - vic-2026-9209eb5c26c2.jpg
@@ -30,93 +18,26 @@ photo:
   - vic-2026-d20d8c39d8c5.jpg
   - vic-2026-d0b67401b123.jpg
   - vic-2026-814ae9adf2a8.jpg
-
-# Full Name in English
 name: Ghazal Aghaiee Lindi
-
-# Full Name in Persian (Optional)
 persian_name: غزل آقایی لیندی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Female
 age: 28
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Tehran
 incident_city: Qaleh Hassan Khan, Tehran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_address: ""
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Shot with live ammunition by security forces during protest gathering in front of the governor's office. After forces attacked with tear gas, sound bombs, and then opened fire from rooftops of surrounding buildings, a bullet hit her from behind and exited through her abdomen. She was fleeing with her father when shot. Despite immediate transfer to clinic, she died due to severe internal and external bleeding.
+source_type: Social Media
 source:
   - https://x.com/longlosthills/status/2012931356318154768
   - https://x.com/indypersian/status/2013008572683030870
@@ -124,18 +45,12 @@ source:
   - https://x.com/hengawo/status/2013015289240125666
   - https://x.com/daikatuo/status/2013374063612235945
   - https://x.com/outofken/status/2013226794673938502
-  - https://x.com/Daikatuo/status/2013374063612235945
-  - https://x.com/HengawO/status/2013015289240125666
   - https://x.com/AfsoonAB/status/2016258401509245250
   - https://x.com/allahbakhshii/status/2016241508442075159
   - https://x.com/Sssccpp/status/2016578007549329732
   - https://x.com/LoabatK/status/2013026415164219650
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMhmus
+  - https://t.me/RememberTheirNames/249
+  - https://t.me/JavidnamaneVatan/431
+  - https://hengaw.net/en/news/2026/01/article-150
+  - https://hengaw.net/fa/news/2026/01/article-153-1

@@ -1,121 +1,37 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1240"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21010_0_twitter_v1.jpg
   - vic-2026-000372.jpg
   - vic-2026-af4345f4f6ba.jpg
-
-# Full Name in English
 name: Mohammad Javad Heydari Lor
-
-# Full Name in Persian (Optional)
-persian_name: محمدجواد حیدری لر
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+persian_name: محمدجواد حیدری
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 32
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 31
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Khuzestan
 incident_city: Masjed Soleyman
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  MMA athlete shot directly by suppression forces while helping a wounded protester at 9:30 PM in Pasdaran neighborhood of Masjed Soleyman. Security forces later buried him as a 'martyred Basiji' with security arrangements at Behesht-e Zahra cemetery in Charbisheh on Dey 25, 1404 at 4 AM. His Instagram photos and videos were removed by security forces.
+
   Shot directly by suppressive forces
 
 
   32-year-old MMA athlete killed by direct gunfire from security forces while helping an injured protester. His body was later buried under security measures, and his social media content was removed by security forces.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/hirman__/status/2014573359284039831, https://x.com/iranintlsport/status/2015504213363609636, https://t.me/RememberTheirNames/933
   - https://x.com/hirman__/status/2014573359284039831
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/iranintlsport/status/2015504213363609636
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWj2xP
+  - https://x.com/yaldarta/status/2014816290448310736
+  - https://t.me/RememberTheirNames/933

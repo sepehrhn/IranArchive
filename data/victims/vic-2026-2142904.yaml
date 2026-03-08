@@ -1,113 +1,36 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "464"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20353_0_twitter_v1.jpg
   - vic-2026-c3801cca5377.png
-
-# Full Name in English
 name: Ali Mahmoudi
-
-# Full Name in Persian (Optional)
 persian_name: علی محمودی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: 33
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Isfahan
 incident_city: Zeinabiyeh neighborhood - Isfahan
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_address: ""
+date_of_death: "2026-01-08"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
-source: []
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+description: Killed during protests. The poster mentions this was their cousin who was killed on the first night of the call/protests. The family has no one to advocate for them.
+source_type: Social Media
+source:
+  - https://x.com/iranwire/status/2013529390261350866
+  - https://x.com/Kiansan70/status/2014748044596568264
+  - https://x.com/NoaMagid/status/2015469437931929800
+  - https://x.com/avatoday_news/status/2015750846672236790
+  - https://x.com/aref_saraie/status/2015614756128997513
+  - https://x.com/HeKasrehCrisis/status/2017722905228906606
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClVNMz
+  - https://x.com/aryammehr_2/status/2014775885489119283
+  - https://t.me/RememberTheirNames/878
+  - https://t.me/RememberTheirNames/442
+  - https://t.me/JavidnamaneVatan/691

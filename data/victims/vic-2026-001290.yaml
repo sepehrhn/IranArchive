@@ -1,129 +1,51 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1246"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21680_0_twitter_v1.jpg
   - vic-2026-001290.jpg
   - vic-2026-2a628acd59a1.jpg
   - vic-2026-448167540656.jpg
   - vic-2026-29ba55df6746.jpg
   - vic-2026-2140058.jpg
   - vic-2026-25329fe8812c.jpg
-
-# Full Name in English
 name: Amirreza Rostami
-
-# Full Name in Persian (Optional)
 persian_name: امیررضا رستمی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 22
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Tehran
 incident_city: Yafteh Abad
 incident_address: Yaftabad
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot by government forces with two bullets to the heart and shoulder area during protests in Yaft Abad, Tehran. He was reportedly throwing back tear gas canisters toward security forces when he was shot. He was unmarried and had only two months left of military service, and was on leave participating in protests with friends. His body was buried under security conditions in complete silence at Darolsalam Cemetery in Islamshahr, with family not allowed to take photos or videos. Security pressures also prevented holding traditional third and seventh day memorial ceremonies.
+
   Persian Name: امیررضا رستمی
 
   Shot in the heart and shoulder by government forces during protests. He was reportedly throwing back a tear gas canister when he was shot.
 
 
   Shot in the heart and shoulder by security forces while participating in protests. He was reportedly returning tear gas canisters thrown by security forces when he was targeted with direct live ammunition. He was single and had two months left until the end of his military service.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/Tavaana/status/2015297512467464325, https://x.com/nasibe_shamsaei/status/2015337453259837797, https://x.com/tavaana/status/2015297512467464325, https://t.me/RememberTheirNames/1180, https://t.me/RememberTheirNames/742
   - https://x.com/nasibe_shamsaei/status/2015337453259837797
   - https://x.com/tavaana/status/2015297512467464325
+  - https://x.com/i/status/2018423091043463354
+  - https://x.com/i/status/2018268514990035259
+  - https://x.com/mayekhal/status/2018268514990035259
+  - https://x.com/HeKasrehCrisis/status/2018375055953084686
+  - https://t.me/RememberTheirNames/1180
+  - https://javidnaman.iranintl.com/memorial/97jPSY1hGrsjdU7l1660j7
+  - https://www.instagram.com/p/DU3JI8LAN0b
+  - https://t.me/JavidnamaneVatan/2160
+  - https://www.instagram.com/p/DVDzbvDmCsQ
+  - https://t.me/RememberTheirNames/742
   - https://t.me/RememberTheirNames/1549
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

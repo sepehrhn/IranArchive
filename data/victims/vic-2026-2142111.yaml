@@ -1,118 +1,35 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "827"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20959_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23045_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23045_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28837_0_twitter_v1.jpg
   - vic-2026-52a67227da04.jpg
   - vic-2026-aa7038129b05.jpg
   - vic-2026-44927fd16470.jpg
-
-# Full Name in English
 name: Salman Nazar Haghighi
-
-# Full Name in Persian (Optional)
 persian_name: سلمان نظر حقیقی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: 45
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Rasht
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: ""
+incident_city: رشت, گیلان
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
-status: Injured
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+cause_of_death: ""
+disappearance_circumstances: 45-year-old married fitness trainer from Rasht who was severely injured by direct gunfire from security forces and hospitalized in intensive care. While still under treatment, he was arrested by security forces from the hospital and transferred to Lakan Prison in Rasht. His physical condition is reported as critical, raising serious concerns about his life and health. Known among his neighbors for his charitable acts and helping others. Previously arrested in August 2023 for visiting Mahsa Jina Amini's grave in Saqez.
+suspected_actor: ""
+status: Missing
+detention_status: arrested
+description: 45-year-old married fitness trainer from Rasht who was severely injured by direct gunfire from security forces and hospitalized in intensive care. While still under treatment, he was arrested by security forces from the hospital and transferred to Lakan Prison in Rasht. His physical condition is reported as critical, raising serious concerns about his life and health. Known among his neighbors for his charitable acts and helping others. Previously arrested in August 2023 for visiting Mahsa Jina Amini's grave in Saqez.
+source_type: Social Media
 source:
   - https://x.com/Mohammadabedi_z/status/2014678788462801350
-  - https://x.com/mohammadabedi_z/status/2014678788462801350
   - https://x.com/masoudkazemi81/status/2016431669079609402
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/i/status/2017510285532123331
+  - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1088

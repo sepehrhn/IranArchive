@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "93"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19691_0_twitter_v1.png
   - vic-2026-000876.png
   - vic-2026-ef2fc3a92a75.png
   - vic-2026-5843d9880381.png
@@ -27,113 +15,46 @@ photo:
   - vic-2026-48aca955c535.jpg
   - vic-2026-80deed348f34.jpg
   - vic-2026-f10f5785bb2a.png
-
-# Full Name in English
 name: Zahra Moradi
-
-# Full Name in Persian (Optional)
 persian_name: زهرا مرادی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
-
-# Age at time of death (Optional, remove if unknown)
-age: 25
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 27
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Tehran
 incident_city: Iran (provinces of Ilam
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Kurdish hairdresser from Tehransar neighborhood who had married about two years prior. Shot by security forces from behind the head and heart area during protests around 22:30 in front of her brother's eyes. Her family found her body among many others at Kahrizak forensic medicine center three days later. Buried on January 14, 2026 in section 71 of Behesht Zahra cemetery in Tehran.
+
   Killed by a direct shot to the head and chest during protests in Tehran.
 
 
   Killed by shooting by the security forces of the Islamic Republic during the popular protests in Tehran.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/kurdistanhrn/status/2014695894638112871, https://x.com/Daikatuo/status/2011478578936836544, https://x.com/KurdistanHRN/status/2011783655752880275, https://x.com/KurdistanHRN/status/2014695894638112871, https://t.me/RememberTheirNames/145
   - https://x.com/Daikatuo/status/2011478578936836544
+  - https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/
   - https://x.com/KurdistanHRN/status/2011783655752880275
   - https://x.com/kurdistanhrn/status/2014695894638112871
   - https://x.com/allahbakhshii/status/2017500747936432326
-  - https://x.com/kurdpa_farsi/status/2014761916787281990, https://www.instagram.com/p/DT3NcGUCiAR, https://t.me/RememberTheirNames/469
-  - https://www.instagram.com/p/DT3NcGUCiAR
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClUYmf
+  - https://x.com/i/status/2017500747936432326
+  - https://x.com/IranNewsAgency0/status/2018611972225351769
+  - https://t.me/RememberTheirNames/145
+  - https://www.instagram.com/p/DUscuwkDCOu
+  - https://hengaw.net/en/news/2026/01/article-103
+  - https://hengaw.net/fa/news/2026/01/article-105
+  - https://t.me/JavidnamaneVatan/2320
   - https://x.com/kurdpa_farsi/status/2014761916787281990
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://www.instagram.com/p/DT3NcGUCiAR
+  - https://t.me/RememberTheirNames/469

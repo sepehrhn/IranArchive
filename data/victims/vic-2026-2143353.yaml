@@ -1,123 +1,39 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "2664"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25917_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25927_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25939_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25974_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26065_0_twitter_v1.jpg
   - vic-2026-1354ec7647ed.jpg
   - vic-2026-dc3eb3a76777.jpg
   - vic-2026-fe4cf6a3b516.jpg
   - vic-2026-767d0a111401.jpg
   - vic-2026-e322f98e71cd.jpg
-
-# Full Name in English
 name: Farhad Nadeali
-
-# Full Name in Persian (Optional)
 persian_name: فرهاد نادعلی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: null
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Golestan
 incident_city: Gorgan
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+cause_of_death: ""
+disappearance_circumstances: Faculty member at Golestan University of Medical Sciences, arrested after protesting against suppressive forces who were shooting at protesters and wounded individuals in the hospital. Current detention location and physical/legal status unknown.
+suspected_actor: ""
 status: Missing
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+detention_status: arrested
+description: Faculty member at Golestan University of Medical Sciences, arrested after protesting against suppressive forces who were shooting at protesters and wounded individuals in the hospital. Current detention location and physical/legal status unknown.
+source_type: Social Media
 source:
   - https://x.com/Shirin_j_/status/2015571305064550506
   - https://x.com/ellay_ve/status/2015803582847631805
   - https://x.com/Nabauti88/status/2015842339412181157
-  - https://x.com/i/status/2016803668062802036
   - https://x.com/MrSamSolomon/status/2016208727825592434
-  - https://x.com/mrsamsolomon/status/2016208727825592434
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/i/status/2016803668062802036

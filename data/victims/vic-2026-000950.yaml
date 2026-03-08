@@ -1,127 +1,45 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "893"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21064_0_twitter_v1.jpg
   - vic-2026-000950.jpg
   - vic-2026-ea8c044a782e.jpg
   - vic-2026-001974.jpg
   - vic-2026-ca6f3a62bf80.jpg
   - vic-2026-9fee906c171f.jpg
   - vic-2026-ab17ad5fe92f.png
-
-# Full Name in English
 name: Mehdi Ghanbari
-
-# Full Name in Persian (Optional)
-persian_name: مەهدی قەنبەری
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
+persian_name: مهدی قنبری
+birth_date: ""
+birth_province: ""
 birth_city: tweet and source)
-
-# Gender (Optional: "Male" or "Female")
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 22
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 27
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Ilam
 incident_city: Ilam
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Kurdish citizen from Malekshahi in Ilam province. Shot with three direct war bullets by government forces during popular protests on 18 Dey 1404 in Ilam. He was cornered in a dead-end alley by suppressive forces and shot at. The forces then rode motorcycles over his wounded body and left him at the scene. He died on 27 Dey due to severe injuries from the direct shooting and from the forces running motorcycles over his body.
+
   Killed during protests (implied from tweet and source)
 
 
   Died during protests in Dey 1404 (late Dec 2025 - Jan 2026). Specific date not provided, but Dey 1404 started on December 22, 2025. The post number 902 and the URL ending in 954 suggest this is a later entry in a list, potentially placing it later in Dey.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/HengawO/status/2014688455331086748, https://x.com/HengawO/status/2014678844024775051, https://t.me/RememberTheirNames/954
   - https://x.com/HengawO/status/2014678844024775051
-  - https://x.com/hekasrehcrisis/status/2015835381925642414, https://x.com/i/status/2015835381925642414, https://x.com/HeKasrehCrisis/status/2015835381925642414
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClX6Sk
+  - https://x.com/hengawo/status/2018402135373717849
+  - https://t.me/RememberTheirNames/954
+  - https://www.instagram.com/p/DUb4_9JDOJa
+  - https://hengaw.net/en/news/2026/01/article-188
+  - https://x.com/HengawO/status/2014688455331086748
+  - https://x.com/hekasrehcrisis/status/2015835381925642414
   - https://x.com/i/status/2015835381925642414
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

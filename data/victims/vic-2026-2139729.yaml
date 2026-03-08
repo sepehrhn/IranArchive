@@ -1,119 +1,37 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1731"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22862_0_twitter_v1.jpg
   - vic-2026-2139729.jpg
   - vic-2026-6eda6ffeab3f.jpg
   - vic-2026-5444bf664816.jpg
-
-# Full Name in English
 name: Mohammad Fateh
-
-# Full Name in Persian (Optional)
 persian_name: محمد فاتح
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 27
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Qazvin
 incident_city: Qazvin
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-18'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
+description: |-
+  Turkish citizen from Qazvin who was shot in the forehead with pellet gun by government suppression forces during protests on Thursday 18 Dey (January 8, 2026). He fell into a coma and died after eleven days. His body was buried in one of the villages around Qazvin.
 
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: A 27-year-old Turkish citizen from Qazvin, who was injured by direct shotgun fire from repressive government forces during public protests, lost his life. He was injured on Thursday, 18 Dey 1404, by shotgun pellets to the forehead and was transferred to a coma. He ultimately lost his life after eleven days, and his body was buried in one of the villages around Qazvin.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+  A 27-year-old Turkish citizen from Qazvin, who was injured by direct shotgun fire from repressive government forces during public protests, lost his life. He was injured on Thursday, 18 Dey 1404, by shotgun pellets to the forehead and was transferred to a coma. He ultimately lost his life after eleven days, and his body was buried in one of the villages around Qazvin.
+source_type: Social Media
 source:
-  - https://x.com/hengawo/status/2016074358389670329, https://t.me/RememberTheirNames/1523
   - https://x.com/hengawo/status/2016074358389670329
   - https://t.me/RememberTheirNames/1523
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://www.instagram.com/p/DT90R9qCKA0
+  - https://x.com/mahmocean/status/2018244461478699082
+  - https://t.me/JavidnamaneVatan/657
+  - https://x.com/allahbakhshii/status/2017807873854550096
+  - https://x.com/i/status/2026993984724435195

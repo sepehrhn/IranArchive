@@ -1,128 +1,44 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1212"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21634_0_twitter_v1.jpg
   - vic-2026-001277.jpg
   - vic-2026-e8ebf29f6180.jpg
   - vic-2026-9af23bd99f54.jpg
   - vic-2026-2140004.jpg
   - vic-2026-f64e04145b2d.jpg
-
-# Full Name in English
 name: Saeed Shahgoli
-
-# Full Name in Persian (Optional)
 persian_name: سعید شهگلی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 39
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 40
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Tehran
-incident_city: Shahriar
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_city: Saeedabad Shahriar
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  39-year-old Kurdish citizen from Haji Abad village in Tuyserkan, Hamedan province, resident of Shahriar Tehran, killed during popular protests by direct shooting from government forces, with a war bullet hitting his neck area. He was the father of a young child.
+
   Persian Name: سعید شهگلی
 
   Shot and killed by government forces during protests. He was shot in the neck.
 
 
   Killed by direct fire from government forces with live ammunition hitting his neck. He was a 39-year-old Kurdish citizen from Hajiabad village, Tuyserkan, Hamadan Province, and a resident of Shahriar, Tehran. He was the father of a young child.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/HengawO/status/2015525387946848420, https://x.com/hengawo/status/2015525387946848420, https://t.me/RememberTheirNames/1257
   - https://x.com/HengawO/status/2015525387946848420
-  - https://x.com/hengawo/status/2015525387946848420
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWj63n
+  - https://t.me/javidnamhamedan/114
+  - https://t.me/RememberTheirNames/1257
+  - https://x.com/manotonews/status/2021099812578546065
+  - https://www.instagram.com/p/DUlG-RykUiT
   - https://t.me/RememberTheirNames/1597
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

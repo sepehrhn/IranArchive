@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "125"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19701_0_twitter_v1.jpg
   - vic-2026-000ec63f8a1f.jpg
   - vic-2026-5a43dc4a487a.jpg
   - vic-2026-6ffe0e68454d.jpg
@@ -21,105 +9,35 @@ photo:
   - vic-2026-1b168cbbbcec.jpg
   - vic-2026-68b14e13cb36.jpg
   - vic-2026-a3ba8700740e.jpg
-
-# Full Name in English
 name: Zahra Bani-Amerian
-
-# Full Name in Persian (Optional)
 persian_name: زهرا بنی‌عامریان
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Female
 age: 48
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Karaj
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_province: ""
+incident_city: Sangar
+incident_address: ""
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Killed along with her husband and child when Islamic Republic forces opened fire on their car during a peaceful protest in Karaj. She was a retired employee of the Social Security Organization from Karaj, originally from Sonqor. Their eldest son Davood survived despite being shot. Bodies were transferred to Sonqor and buried before 6 AM under heightened security.
+source_type: Social Media
 source:
   - https://x.com/Daikatuo/status/2011858468727066737
   - https://x.com/masoudkazemi81/status/2011736143847379427
+  - https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/
   - https://x.com/manotonews/status/2012948104665059375
+  - https://x.com/banafshehviola/status/2013349473104343202
   - https://x.com/IranIntl/status/2011737339719012787
-  - https://x.com/ManotoNews/status/2012948104665059375
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/masoudkazemi81/status/2011755497968259450
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMhBpW
+  - https://t.me/RememberTheirNames/257
+  - https://t.me/ravizh14/31164
+  - https://t.me/ravizh14/31165

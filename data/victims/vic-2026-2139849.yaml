@@ -1,118 +1,33 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "2004"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23381_0_telegram_v1.jpg
   - vic-2026-2139849.jpg
   - vic-2026-bf0a48553ec0.jpg
-
-# Full Name in English
 name: Ali Akbar Ramezanzadeh
-
-# Full Name in Persian (Optional)
-persian_name: علی اکبر رمضان زاده
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+persian_name: علی‌اکبر رمضان‌زاده
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 38
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 39
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Shahrak-e Andisheh
+incident_province: ""
+incident_city: Shahrak Andisheh
 incident_address: Andisheh
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
+description: |-
+  Shot with pellet bullets during protests in Andisheh, Tehran. Born in 1366, originally from Bijar, living in Andisheh New Town. Father of two children (9-year-old daughter and unborn child - wife 7 months pregnant). Worked as furniture repair craftsman from 7 AM to 11 PM. Previously wounded in leg during past protests. Shot twice with pellet bullets - one to lower abdomen, another to leg hitting main artery. Severely injured, taken to hospital, spent several hours in coma. Despite initially coming out of coma, died from severe infection caused by pellets and lead entering body after several long surgical operations. Funeral held with security forces present.
 
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: 38-year-old father of one child whose wife was seven months pregnant at the time of his death. Killed in Shahriar.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+  38-year-old father of one child whose wife was seven months pregnant at the time of his death. Killed in Shahriar.
+source_type: Social Media
 source:
-  - https://x.com/hekasrehcrisis/status/2016407545309438226, https://t.me/RememberTheirNames/1601
   - https://x.com/hekasrehcrisis/status/2016407545309438226
   - https://t.me/RememberTheirNames/1601
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/HeKasrehCrisis/status/2017126797314240667
+  - https://x.com/tavaana/status/2019609890952564792

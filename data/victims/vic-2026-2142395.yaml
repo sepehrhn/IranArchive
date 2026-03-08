@@ -1,119 +1,31 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "944"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21133_0_twitter_v1.jpg
   - vic-2026-26ddd22e86c6.jpg
   - vic-2026-6b30aaefeac9.jpg
   - vic-2026-a7908f31b348.jpg
-
-# Full Name in English
 name: Reza Sharifi
-
-# Full Name in Persian (Optional)
 persian_name: رضا شریفی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: 44
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: ""
 incident_city: Arak
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_address: ""
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Father of two children (16-year-old son and 8-year-old daughter), owned a shop in Arak. Shot directly with a war bullet by Islamic Republic forces in front of Vali-e Asr Hospital in Arak around 8:15 PM on Friday. The bullet hit his abdomen area and caused his death. Evidence of the bullet impact was clearly visible on his jacket - holes and burns from the war bullet remained on his clothes, indicating direct shooting from close range or with high power. After his killing, his family was pressured and threatened to confirm the government's official narrative about his death, with threats that his children would be deprived of continuing their education if they opposed or told the real story. Despite being from Arak, his body was not allowed to be buried in the city's cemetery. His burial ceremony was held three days later on Tuesday in Qaniaro village near Arak under special conditions and restrictions.
+source_type: Social Media
 source:
   - https://x.com/saeidvafa/status/2014745093215842320
   - https://x.com/tavaana/status/2015030288913772624
   - https://x.com/SaeidVafa/status/2015438977545674843
-  - https://x.com/Tavaana/status/2015030288913772624
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/behnam_chegini/status/2014754846574788669

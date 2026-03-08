@@ -1,125 +1,51 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "49"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19658_0_twitter_v1.jpg
   - vic-2026-000918.jpg
   - vic-2026-40d4bc79b62f.jpg
   - vic-2026-8e02d88f82c1.png
   - vic-2026-dba37ba66745.jpg
   - vic-2026-888efa08eb2d.jpg
   - vic-2026-f197a94a8b4c.jpg
-
-# Full Name in English
 name: Mansour Mokhtari
-
-# Full Name in Persian (Optional)
 persian_name: منصور مختاری
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: null
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 22
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Fars
 incident_city: Marvdasht
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-02'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-02"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot by Islamic Republic forces in Marvdasht. He was a 29-year-old graduate in industrial electrical engineering who worked in panel beating and tailoring while studying, later continuing tailoring professionally. He also worked at the road administration and then attended maritime courses to work on ships, selling his two new sewing machines to finance these courses. He held health, safety and environmental certificates for petrochemical work and had maritime credentials. Described by relatives as a handsome and responsible young man who always helped his family and friends.
+
   Shot directly from the front by Iranian state forces outside Police Station No. 11, struck in abdomen by Kalashnikov round
 
 
   Died after being shot by agents during the 'Iranian National Revolution'. His mourners chanted slogans against Khamenei and 'I will kill the one who killed my brother'.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://www.iran-emrooz.net/index.php/news2/125134/, https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/, https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2, https://x.com/Daikatuo/status/2007456429049856090, https://x.com/IranIntl/status/2013611585634210053, https://t.me/RememberTheirNames/15
   - https://x.com/Daikatuo/status/2007456429049856090
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://www.iran-emrooz.net/index.php/news2/125134/
+  - https://hengaw.net/en/reports-and-statistics-1/2026/01/article-2
+  - https://x.com/IranIntl/status/2013611585634210053
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWhjVF
+  - https://t.me/RememberTheirNames/15
+  - https://x.com/iranintl/status/2021812453248483586
+  - https://hengaw.net/en/news/2026/01/article-161
+  - https://hengaw.net/en/news/2026/01/article-139
+  - https://hengaw.net/en/news/2026/01/article-38
+  - https://hengaw.net/en/news/2026/01/article-19
+  - https://hengaw.net/fa/news/2026/01/article-142-1
+  - https://hengaw.net/fa/news/2026/01/article-38
+  - https://hengaw.net/fa/news/2026/01/article-19
+  - https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/

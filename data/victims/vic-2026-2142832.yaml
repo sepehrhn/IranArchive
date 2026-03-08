@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "64"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19665_0_twitter_v1.jpg
   - vic-2026-8d946173c858.jpg
   - vic-2026-7f47c7063341.jpg
   - vic-2026-c6295b390817.jpg
@@ -20,103 +8,32 @@ photo:
   - vic-2026-6eb04151da12.jpg
   - vic-2026-e92102159d3f.jpg
   - vic-2026-dfd235f437f9.jpg
-
-# Full Name in English
 name: Mohammad Nouri
-
-# Full Name in Persian (Optional)
 persian_name: محمد نوری
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: 17
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Qom
 incident_city: Qom
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_address: ""
+date_of_death: "2026-01-02"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: 17-year-old child killed during protests after being shot by state forces. He was struck in the chest by pellet gun fire in the Towhid area. The child's body was not returned to his family. State authorities, without the family's consent, buried him in Section 56 of Behesht-e Masoumeh Cemetery in Qom—one of the most remote and marginalized sections of the cemetery. He was the son of a municipal worker in Qom and lived with his family in the Niroogah neighborhood, one of the city's most deprived areas.
+source_type: Social Media
 source:
+  - https://www.iran-emrooz.net/index.php/news2/125134/
   - https://x.com/Daikatuo/status/2007848960887755083
   - https://x.com/loabatk/status/2008050407361110147
   - https://x.com/AblotiaLucas/status/2010965817245024582
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClW7Ci
+  - https://en.wikipedia.org/wiki/Killing_of_Mohammad_Nouri
+  - https://t.me/RememberTheirNames/29
+  - https://hengaw.net/en/news/2026/01/article-109

@@ -1,130 +1,45 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "629"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20608_0_twitter_v1.jpg
   - vic-2026-000075.jpg
   - vic-2026-ed7398007f7f.jpg
   - vic-2026-0e4fcc7f551f.jpg
   - vic-2026-b817a0e067f9.png
   - vic-2026-591131f47cad.jpg
   - vic-2026-001826.jpg
-
-# Full Name in English
 name: Bahar Hosseini
-
-# Full Name in Persian (Optional)
 persian_name: بهار حسینی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
+birth_date: ""
+birth_province: ""
 birth_city: context)
-
-# Gender (Optional: "Male" or "Female")
 gender: Female
-
-# Age at time of death (Optional, remove if unknown)
 age: 3
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: ""
 incident_city: Neyshabur
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2025-12-28'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-11"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  3-year-old child who died from injuries sustained from direct gunfire by government suppressive forces during protests. Was hit by a bullet during clashes between government forces and protesters on January 9, 2026, was wounded and fell into a coma before dying. Body was buried on January 14, 2026 in the cemetery of Shadab village in Neyshabur. Government institutions blamed protesters for her death.
+
   Student killed during protests (implied from context)
 
 
   Shot and killed by security forces (IRGC and Basij). Her family was forced to appear on camera and claim she was killed by terrorists.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/shahramsadidi/status/2013977286840607199, https://x.com/sattarkhan121/status/2014400881794433196, https://x.com/HaidryNasrin/status/2014341531302293872, https://x.com/isamanyasin/status/2015155917126254743, https://t.me/RememberTheirNames/488
   - https://x.com/shahramsadidi/status/2013977286840607199
   - https://x.com/sattarkhan121/status/2014400881794433196
   - https://x.com/HaidryNasrin/status/2014341531302293872
   - https://x.com/isamanyasin/status/2015155917126254743
+  - https://x.com/hengawo/status/2017180245057520052
   - https://x.com/azambahrami/status/2014751904341848573
+  - https://javidnaman.iranintl.com/memorial/lxVN8PoYiuh5MeTfn3Y3f3
+  - https://t.me/RememberTheirNames/488
   - https://t.me/RememberTheirNames/540
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

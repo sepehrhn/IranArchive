@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "174"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19806_0_twitter_v1.jpg
   - vic-2026-000690.jpg
   - vic-2026-a86823bcf1ba.jpg
   - vic-2026-c39d0b8abe03.jpg
@@ -20,100 +8,33 @@ photo:
   - vic-2026-d07695dbc04a.jpg
   - vic-2026-d52c3d2cff91.jpg
   - vic-2026-f31f2ac89494.jpg
-
-# Full Name in English
 name: Melina Asadi
-
-# Full Name in Persian (Optional)
 persian_name: ملینا اسدی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
-
-# Age at time of death (Optional, remove if unknown)
 age: 3
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Kermanshah
 incident_city: Kermanshah
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  3-year-old child killed by direct gunfire from war bullets by regime mercenaries during national uprising on 18 Dey month. She was not a protester, was not chanting slogans, had no weapon; she was simply alive and that was enough for the regime. After this crime, the regime's propaganda apparatus tried to cover up the truth with scenario-making and lies, and put pressure on the grieving family.
+
   Shot by security forces with pellet bullets on Taghbostan Boulevard
 
 
   Violently killed by the Islamic Republic. Age is stated as three years old.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/kermanshahvoice/status/2012233294327296444, https://x.com/loabatk/status/2012273338991751384, https://x.com/olilondontv/status/2012825674822660372, https://x.com/DrEliDavid/status/2012354669826195590, https://x.com/HengawO/status/2012641346142572662, https://t.me/RememberTheirNames/175
   - https://x.com/kermanshahvoice/status/2012233294327296444
   - https://x.com/loabatk/status/2012273338991751384
   - https://x.com/DrEliDavid/status/2012354669826195590
@@ -121,12 +42,8 @@ source:
   - https://x.com/HengawO/status/2012641346142572662
   - https://x.com/hiitsmemooneh/status/2012344781251162376
   - https://x.com/azambahrami/status/2014751904341848573
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/IranNewsAgency0/status/2018531228123648218
+  - https://t.me/RememberTheirNames/175
+  - https://javidnaman.iranintl.com/memorial/z0JmINcmTJe7Ul3GOgm0Z0
+  - https://hengaw.net/en/news/2026/01/article-139
+  - https://hengaw.net/fa/news/2026/01/article-142-1

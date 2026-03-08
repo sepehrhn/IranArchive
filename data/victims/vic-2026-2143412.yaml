@@ -1,127 +1,65 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1940"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23223_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23223_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25554_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25754_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25827_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25940_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34066_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34330_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39963_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41981_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_45096_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47716_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47722_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48225_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48895_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56043_0_twitter_v1.jpg
   - vic-2026-3d7171621f47.jpg
   - vic-2026-f2a7b79f664a.jpg
   - vic-2026-f614060184f9.jpg
   - vic-2026-a8705b60e51a.jpg
   - vic-2026-0cc94f0e77ef.jpg
   - vic-2026-84c1f95943f1.jpg
-
-# Full Name in English
 name: Saleh Mohammadi
-
-# Full Name in Persian (Optional)
 persian_name: صالح محمدی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: 19
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Langaroud, Qom
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: ""
+incident_city: قم, قم
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
-status: Sentenced
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+cause_of_death: ""
+disappearance_circumstances: Being tortured with electric shock devices in prison. His face was so disfigured from torture that his mother could not recognize him when she saw him before he was placed in solitary confinement. Currently being tortured with electric shock equipment.
+suspected_actor: ""
+status: Missing
+detention_status: sentenced_to_death
+description: Being tortured with electric shock devices in prison. His face was so disfigured from torture that his mother could not recognize him when she saw him before he was placed in solitary confinement. Currently being tortured with electric shock equipment.
+source_type: Social Media
 source:
   - https://x.com/i/status/2016064576455148026
   - https://x.com/shayanx0/status/2016971951458439288
   - https://x.com/jeonxti/status/2017578302555185560
   - https://x.com/shabidesign/status/2017618669870764037
   - https://x.com/AliTagh30207454/status/2015853239191646653
-  - https://x.com/alitagh30207454/status/2015853239191646653
   - https://x.com/sadafam21/status/2016688224442470531
   - https://x.com/i/status/2016990711514562721
   - https://x.com/sadafam21/status/2016064576455148026
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/marianmeyer0/status/2018808200246734924
+  - https://x.com/golbinrad/status/2019152152724467817
+  - https://x.com/daniar2828/status/2019297582334242889
+  - https://x.com/shabidesign/status/2021068324478554276
+  - https://x.com/solmazbarghgir/status/2021021030119059958
+  - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-110
+  - https://www.instagram.com/p/DUs3Ypmja4F
+  - https://www.instagram.com/p/DUoz_6wjNIX
+  - https://x.com/mahmocean/status/2022734875674181879
+  - https://x.com/gm_mostaghel/status/2023513533045223680
+  - https://x.com/irannewsagency0/status/2026942028391522724

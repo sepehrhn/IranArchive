@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "450"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20339_0_twitter_v1.jpg
   - vic-2026-001031.jpg
   - vic-2026-bbaf03c6919f.jpg
   - vic-2026-002112.jpg
@@ -21,108 +9,35 @@ photo:
   - vic-2026-dba37ba66745.jpg
   - vic-2026-888efa08eb2d.jpg
   - vic-2026-a9779dc904bc.jpg
-
-# Full Name in English
 name: Amir Nadafi
-
-# Full Name in Persian (Optional)
 persian_name: امیر ندافی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: null
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 32
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Isfahan
-incident_city: ''
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_city: Khomeini Shahr
+incident_address: ""
+date_of_death: "2026-01-11"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
+description: |-
+  Shot by direct gunfire from Iranian government forces on the evening of Sunday, January 11, 2026 during December protests
 
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: |
   Killed during protests in Isfahan Province
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/hengawo/status/2013351223739531311
   - https://x.com/HengawO/status/2013351223739531311
-  - https://x.com/hengawo/status/2013351223739531311, https://x.com/HengawO/status/2013351223739531311
-  - https://www.iran-emrooz.net/index.php/news2/125134/, https://x.com/Daikatuo/status/2007456429049856090, https://x.com/walterakam/status/2016571251636994153
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClTvSJ
+  - https://t.me/JavidnamaneVatan/1029
+  - https://hengaw.net/en/news/2026/01/article-156
+  - https://hengaw.net/fa/news/2026/01/article-159-1
+  - https://www.iran-emrooz.net/index.php/news2/125134/
   - https://x.com/Daikatuo/status/2007456429049856090
   - https://x.com/walterakam/status/2016571251636994153
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

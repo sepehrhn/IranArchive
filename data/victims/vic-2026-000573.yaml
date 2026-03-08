@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "115"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19698_3_twitter_v1.png
   - vic-2026-000573.png
   - vic-2026-d78b64219bd4.png
   - vic-2026-3c12d578b159.png
@@ -23,111 +11,42 @@ photo:
   - vic-2026-67780ae30d4d.jpg
   - vic-2026-d18166441db7.jpg
   - vic-2026-7bed9264e389.jpg
-
-# Full Name in English
 name: Danial Maranki
-
-# Full Name in Persian (Optional)
 persian_name: دانیال مرانکی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 28
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 29
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Tehran
 incident_city: Tehran (Narmak district)
 incident_address: Narmak
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot in Haft Hoz area. Bullet entered his left side and exited from the right, destroying his internal organs. He died on the spot from direct gunshot. His body was left in a garden where his friends found him and brought him home. Family tried everything - applied pressure to wound, gave artificial respiration, performed heart massage - but he had died from internal bleeding. He was wearing a shirt that read 'A soldier for life'
+
   Killed by Islamic Republic regime during protests
 
 
   Shot in the left side with a direct bullet that exited his right side, destroying all internal organs, and died instantly. His body was left in a garden and found by his friends who brought it home. His family attempted to stop the bleeding and provide resuscitation, including cardiac massage, but he died from internal bleeding. The text on his shirt read 'Service for Life'.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/loabatk/status/2011971756207010133, https://x.com/Daikatuo/status/2011846379635716511, https://x.com/Soranmansournia/status/2012327804738707583, https://x.com/uuozii/status/2015423789778030995, https://t.me/RememberTheirNames/156, https://x.com/HeKasrehCrisis/status/2016007824237584736, https://x.com/manotonews/status/2016390910922354822
   - https://x.com/Daikatuo/status/2011846379635716511
   - https://x.com/loabatk/status/2011971756207010133
   - https://x.com/Soranmansournia/status/2012327804738707583
   - https://x.com/uuozii/status/2015423789778030995
   - https://x.com/HeKasrehCrisis/status/2016007824237584736
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWgaZp
+  - https://www.instagram.com/p/DUUz1AVCNBr
+  - https://t.me/RememberTheirNames/156
+  - https://x.com/manotonews/status/2024186136898244949
+  - https://t.me/JavidnamaneVatan/417
+  - https://hengaw.net/en/news/2026/01/article-108
+  - https://x.com/manotonews/status/2016390910922354822

@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "152"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19749_0_twitter_v1.jpg
   - vic-2026-000892.jpg
   - vic-2026-645483853ef0.jpg
   - vic-2026-415b26191d99.png
@@ -22,110 +10,44 @@ photo:
   - vic-2026-65b99700e287.jpg
   - vic-2026-41cfab0be647.jpg
   - vic-2026-a1190a47b202.jpg
-
-# Full Name in English
 name: Souran Feyzi-Zadeh
-
-# Full Name in Persian (Optional)
 persian_name: سوران فیضی‌زاده
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 40
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Bijar / Sanandaj
+incident_province: ""
+incident_city: Bijar
 incident_address: Sanandaj
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-02'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-06"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Torture
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Kurdish citizen, son of Abbas, from Saghez living in Bijar, married with two children (one only 3 months old). Arrested on the street during popular protests in Bijar on Thursday evening January 8, 2026. Severely tortured with batons and repeated beatings during arrest. Died Friday January 9, 2026 in a hospital in Sanandaj as a result of severe injuries sustained. Security forces did not allow family visits during hospitalization. After death, his body was secretly buried without family knowledge in an unmarked location in Saghez. Family under severe pressure not to speak or report to media.
+
   Died from severe injuries sustained during arrest and torture by security forces during protests in Bijar. Was severely beaten with batons during arrest and died in hospital in Sanandaj.
 
 
   Arrested during protests in Bijar, severely beaten by security forces, transferred to a medical center in Sanandaj, and died from his injuries after 24 hours. His body was reportedly buried secretly by security forces in the 'Aichi' cemetery in Saqqez. Torture marks were visible on his face and neck.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/maroofian_n/status/2011890030390731140, https://x.com/kurdpa_farsi/status/2012233985007484951, https://x.com/hiwa_life/status/2014333886952612202, https://x.com/Daikatuo/status/2012213041681555926, https://x.com/KurdistanHRN/status/2014746602829758474, https://t.me/RememberTheirNames/637
   - https://x.com/maroofian_n/status/2011890030390731140
   - https://x.com/Daikatuo/status/2012213041681555926
   - https://x.com/kurdpa_farsi/status/2012233985007484951
   - https://x.com/KurdistanHRN/status/2014746602829758474
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMhKCT
+  - https://javidnaman.iranintl.com/memorial/arh0kOme1YEvhe6nUrnLED
+  - https://x.com/hiwa_life/status/2014333886952612202
+  - https://t.me/RememberTheirNames/637
+  - https://hengaw.net/en/news/2026/02/article-67
+  - https://hengaw.net/en/news/2026/01/article-124
+  - https://hengaw.net/fa/news/2026/02/article-72
+  - https://hengaw.net/fa/news/2026/01/article-124-2
+  - https://hengaw.net/fa/news/2025/12/article-155
+  - https://hengaw.net/fa/news/2025/12/article-117

@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "91"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19691_0_twitter_v1.png
   - vic-2026-000800.png
   - vic-2026-ef2fc3a92a75.png
   - vic-2026-5843d9880381.png
@@ -23,110 +11,41 @@ photo:
   - vic-2026-14a2973726b2.jpg
   - vic-2026-1a7cb0078e44.jpg
   - vic-2026-e261c4b89e4e.jpg
-
-# Full Name in English
 name: Reza Haji Moradian
-
-# Full Name in Persian (Optional)
 persian_name: رضا حاجی‌مرادیان
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 31
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 35
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Shabad (Islamabad-e Gharb)
+incident_province: ""
+incident_city: Karaj
 incident_address: Islamabad-e Gharb
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot with war ammunition in the lung area during protests. Originally from Shabad, lived in various areas including Shahryarshahr and Vali-e Asr Shabad before moving with family to Ni-pehan village in Qasr-e Shirin due to his father's agricultural lands. Was a tattoo artist who moved to Karaj with his wife for career advancement. Body was delivered to family after extensive pressure and difficulty - many victims' bodies were reportedly stacked on top of each other in a warehouse. Burial was forced to be conducted quietly at 10 AM instead of the planned 2:30 PM ceremony due to security pressure. Buried under heavy security presence with IRGC forces, plainclothes agents, mobile phone and internet cuts, with only close relatives present. Family continues to face unspecified security pressures.
+
   Killed during 2025-2026 Iranian protests
 
 
   Shot by Islamic Republic forces during protests. He was married and a tattoo artist, and had no children yet.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/Daikatuo/status/2011478578936836544, https://x.com/hekasrehcrisis/status/2015177675464171624, https://x.com/iranwire/status/2015685161904439707, https://t.me/RememberTheirNames/1268, https://t.me/RememberTheirNames/146
   - https://x.com/Daikatuo/status/2011478578936836544
+  - https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/
   - https://x.com/hekasrehcrisis/status/2015177675464171624
   - https://x.com/iranwire/status/2015685161904439707
   - https://t.me/javanmardi77/154058
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWgeZB
+  - https://t.me/RememberTheirNames/1268
+  - https://t.me/RememberTheirNames/146
+  - https://x.com/batmaniei7vrc/status/2019356196839329981
+  - https://hengaw.net/en/news/2026/01/article-99
+  - https://hengaw.net/en/news/2026/01/article-101

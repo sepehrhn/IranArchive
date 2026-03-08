@@ -1,127 +1,41 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "208"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19864_0_twitter_v1.jpg
   - vic-2026-000834.jpg
   - vic-2026-62a2179c3b2f.jpg
   - vic-2026-e9b698ba9977.jpg
   - vic-2026-db04beffb334.jpg
   - vic-2026-7fc1b2e65297.jpg
-
-# Full Name in English
 name: Saman Gerami
-
-# Full Name in Persian (Optional)
 persian_name: سامان گرامی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 29
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Fars
 incident_city: Marvdasht
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot from behind with a war bullet by suppressive forces around 9 PM on Thursday 18 Dey 1404, which was his birthday. The bullet hit him from behind and passed through his thigh area. Due to severe injuries and heavy bleeding, his transfer to hospital was delayed. He arrived at the hospital around 12:30 AM and suffered brain death. Doctors managed to revive him once, but he ultimately died around 4 AM. He worked at a cardboard manufacturing company as a driver and executive worker. He had lost his father at age 9 and his sister at age 17-18, and was the only remaining member of his family.
+
   Shot with a war bullet by suppressive forces, bullet hit him from behind and passed through his thigh area. He was shot around 9 PM on his birthday and died around 4 AM after suffering brain death at the hospital
 
 
   Shot directly with live ammunition by security forces on his birthday. The bullet entered from the back and exited his thigh. He died in the hospital around 4 AM after suffering severe injuries and heavy bleeding.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/loabatk/status/2011939874291454279, https://x.com/tavaana/status/2013209043196850449, https://x.com/Tavaana/status/2013209043196850449, https://x.com/HengawO/status/2013597457872019946, https://t.me/RememberTheirNames/220
   - https://x.com/loabatk/status/2011939874291454279
   - https://x.com/tavaana/status/2013209043196850449
-  - https://x.com/Tavaana/status/2013209043196850449
   - https://x.com/HengawO/status/2013597457872019946
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMhFJ5
+  - https://t.me/RememberTheirNames/220
+  - https://hengaw.net/en/news/2026/01/article-161

@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "480"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20496_0_twitter_v1.jpg
   - vic-2026-5681f751c90e.jpg
   - vic-2026-b84c2ea9df16.jpg
   - vic-2026-f25adf290ec6.jpg
@@ -34,94 +22,32 @@ photo:
   - vic-2026-ab332bbd789a.jpg
   - vic-2026-51f284a1c3f6.jpg
   - vic-2026-a629e0347496.jpg
-
-# Full Name in English
 name: Mohsen Arbabi
-
-# Full Name in Persian (Optional)
 persian_name: محسن اربابی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: 20
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: ""
 incident_city: Karaj
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_address: ""
+date_of_death: "2026-01-08"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Baloch man from the city of Gasht in the central district of Saravan County who was living in Karaj for work. Killed during protests after being shot in the head with live ammunition by Iranian forces. Family identified his body after an extensive search at Alborz Hospital in Karaj. Authorities demanded around one billion tomans for the release of his body and pressured the family to state that he was a member of the Basij militia. The family rejected the claim, saying he had gone to Karaj solely to work as a laborer. His body was eventually buried on January 13 in his hometown of Gasht.
+source_type: Social Media
 source:
+  - https://x.com/daikatuo/status/2013660252072218941
+  - https://x.com/haalvsh/status/2013645410741469473
+  - https://x.com/haalvsh/status/2013696423431118891
+  - https://x.com/farzinkadkhodae/status/2013955284180390055
+  - https://x.com/HengawO/status/2013961319469158812
   - https://x.com/longlosthills/status/2014044754799886835
   - https://x.com/outofken/status/2014198126807269572
   - https://x.com/kalbalouchi/status/2014605814716301494
@@ -133,17 +59,9 @@ source:
   - https://x.com/TheBalochWorld/status/2013713956016398582
   - https://x.com/TheBalochWorld/status/2013712817271005379
   - https://x.com/hamalilalin/status/2015853984586604592
-  - https://x.com/daikatuo/status/2013660252072218941
-  - https://x.com/haalvsh/status/2013645410741469473
-  - https://x.com/haalvsh/status/2013696423431118891
-  - https://x.com/farzinkadkhodae/status/2013955284180390055
-  - https://x.com/HengawO/status/2013961319469158812
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClVecb
+  - https://x.com/haalvsh/status/2013606587126939688
+  - https://x.com/farzinkadkhodae/status/2013703546063945921
+  - https://t.me/RememberTheirNames/421
+  - https://hengaw.net/en/news/2026/01/article-182
+  - https://hengaw.net/fa/news/2026/01/article-173-1

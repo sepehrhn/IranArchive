@@ -1,117 +1,35 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "3287"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29051_0_twitter_v1.jpg
   - vic-2026-001608.jpg
-
-# Full Name in English
 name: Ramin Raeisi
-
-# Full Name in Persian (Optional)
 persian_name: رامین رئیسی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: null
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 29
+occupation: ""
 country: Iran
-
-# Incident Location
 incident_province: Isfahan
 incident_city: Baharestan
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-10'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-17"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Disappeared on the night of 19 Dey 1404 while trying to deliver medical supplies to injured protesters in the Baharestan area of Isfahan following protest calls. After 10 days of uncertainty and contradictory information from authorities, his lifeless body was delivered to his family under strict security measures with threats. Burial ceremony was held under security surveillance with plainclothes agents present to expedite burial and prevent gatherings. Had recently obtained a crane driving license and planned to work officially.
+
   Persian Name: رامین رئیسی
 
   Died in Baharestan, Isfahan during Dey 1404 (late December 2025 - January 2026). The specific date is inferred from the post number 1260 and the context of the channel which lists victims chronologically. Dey 1404 starts on December 22, 2025. The post number 1260 suggests it's likely in the latter half of Dey.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
-source: https://t.me/RememberTheirNames/1327
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+source_type: Social Media
+source:
+  - https://x.com/i/status/2017981470929732072
+  - https://x.com/Tavaana/status/2018583788800856239
+  - https://javidnaman.iranintl.com/memorial/7G0E78pdgELSDZc0D0DZiG
+  - https://t.me/JavidnamaneVatan/1253
+  - https://t.me/RememberTheirNames/1327

@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "1150"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21484_0_twitter_v1.jpg
   - vic-2026-001322.jpg
   - vic-2026-3a968899fda8.jpg
   - vic-2026-890d2becc334.jpg
@@ -26,117 +14,45 @@ photo:
   - vic-2026-522d37307406.jpg
   - vic-2026-2139756.jpg
   - vic-2026-f69594587ea6.jpg
-
-# Full Name in English
 name: Abolfazl Azizi
-
-# Full Name in Persian (Optional)
 persian_name: ابوالفضل عزیزی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
 age: 17
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Gilan and Mazandaran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: ""
+incident_city: Sari
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  17-year-old from Sari city who was killed during popular protests around 10:30 PM in one of the city's streets by direct shooting from government forces with war bullets. His body was returned to his family after one week. He was only a few weeks away from turning 18.
+
   Persian Name: ابوالفضل عزیزی
 
   Shot and killed by government forces during protests.
 
 
   Shot directly by government forces with live ammunition during protests. His body was returned to his family after a week. He was only a few weeks away from his 18th birthday.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/HengawO/status/2015022203226513772, https://x.com/HengawO/status/2015461053618901327, https://x.com/sssccpp/status/2015881962758504791, https://t.me/RememberTheirNames/1262, https://x.com/HeKasrehCrisis/status/2015832412266151987, https://x.com/HeKasrehCrisis/status/2015832412266151987
   - https://x.com/HengawO/status/2015022203226513772
   - https://x.com/HengawO/status/2015461053618901327
   - https://x.com/sssccpp/status/2015881962758504791
   - https://x.com/HeKasrehCrisis/status/2015832412266151987
-  - https://x.com/iranintlbrk/status/2015812255854567561, https://t.me/RememberTheirNames/582, https://x.com/mrsamsolomon/status/2016614112579530791
+  - https://t.me/RememberTheirNames/1262
+  - https://t.me/JavidnamaneVatan/224
+  - https://hengaw.net/en/news/2026/01/article-195
+  - https://hengaw.net/fa/news/2026/01/article-198-1
   - https://x.com/iranintlbrk/status/2015812255854567561
+  - https://t.me/RememberTheirNames/582
   - https://x.com/mrsamsolomon/status/2016614112579530791
-  - https://x.com/manotonews/status/2016445897333227959, https://t.me/RememberTheirNames/1637
+  - https://x.com/manotonews/status/2016445897333227959
   - https://t.me/RememberTheirNames/1637
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-

@@ -1,126 +1,43 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "625"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20602_0_twitter_v1.jpg
   - vic-2026-000789.jpg
   - vic-2026-fe1c6aac3249.jpg
   - vic-2026-8df69843473f.jpg
   - vic-2026-ffa3ec792ee4.jpg
   - vic-2026-3f61a96b1edb.jpg
   - vic-2026-ab5a2370a74c.jpg
-
-# Full Name in English
 name: Pouya Faragardi
-
-# Full Name in Persian (Optional)
 persian_name: پویا فراگردی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 45
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: 37
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Unknown
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Killed during protests on 18th of Dey month. His body was found among other victims of Iran's national revolution. Brother of the tweet author Payam Fotouhiyehpour, went missing on Wednesday when communication with outside the country became available, family and friends searched everywhere but found no trace until Tuesday when they were informed his body was found among the martyrs.
+
   Mentioned in a tweet, but no explicit information about death or circumstances provided.
 
 
   Brother of the tweeter, disappeared and his body was found among the martyrs of the national revolution. Died on January 8, 2026.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/naaboodan/status/2014668191650185664, https://x.com/longlosthills/status/2014342785319444828, https://x.com/Fotouhia/status/2014035002934354394, https://t.me/RememberTheirNames/691
   - https://x.com/Fotouhia/status/2014035002934354394
   - https://x.com/i/status/2016940277353546145
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://www.instagram.com/p/DT7QFBJiEBG
+  - https://t.me/javidnamhamedan/96
+  - https://x.com/naaboodan/status/2014668191650185664
+  - https://t.me/RememberTheirNames/691
+  - https://x.com/longlosthills/status/2014342785319444828

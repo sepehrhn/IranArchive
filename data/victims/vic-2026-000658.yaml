@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "773"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20849_0_instagram_v1.jpg
   - vic-2026-000658.jpg
   - vic-2026-10b090c635db.jpg
   - vic-2026-30638746b094.jpg
@@ -24,100 +12,33 @@ photo:
   - vic-2026-00f8c997ab10.jpg
   - vic-2026-f3e055111688.jpg
   - vic-2026-6569f35b557d.jpg
-
-# Full Name in English
 name: Mahna Dokoushakani
-
-# Full Name in Persian (Optional)
 persian_name: مهنا دوکوشکانی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Female
-
-# Age at time of death (Optional, remove if unknown)
 age: 18
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Kermanshah
 incident_city: Kermanshah
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_address: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
 description: |-
+  Shot with war bullets by Islamic Republic suppression forces during popular protests in the Saadi neighborhood of Kermanshah. She was an 18-year-old Kurdish woman from Kermanshah. Her body was buried on Friday 26 Dey 1404 (January 16, 2026) in Bagh-e Ferdows cemetery in Kermanshah.
+
   Shot with live ammunition by Islamic Republic suppression forces during popular protests in Saadi neighborhood
 
 
   Killed by IRGC gunfire during public protests. Her body was returned to her family after about a week, and her funeral was held on January 16, 2026, in the 'Baghi Ferdows' cemetery in Kermanshah.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/kurdpa_farsi/status/2014092218668036359, https://www.instagram.com/p/DTyQKUUkR0j, https://x.com/NoaMagid/status/2014649706241032276, https://x.com/HengawO/status/2014670380019925226, https://x.com/HengawO/status/2014280444745830546, https://x.com/KurdistanHRN/status/2014748290919621023, https://x.com/olilondontv/status/2014842334773391780, https://x.com/avatoday_news/status/2015392363250700581, https://x.com/missmarpel75/status/2014749057873236114, https://t.me/RememberTheirNames/572, https://x.com/noamagid/status/2016261948304707817
   - https://www.instagram.com/p/DTyQKUUkR0j
   - https://x.com/HengawO/status/2014670380019925226
   - https://x.com/HengawO/status/2014280444745830546
@@ -126,12 +47,13 @@ source:
   - https://x.com/noamagid/status/2016261948304707817
   - https://x.com/fseifikaran/status/2017328183020802521
   - https://x.com/missmarpel75/status/2014749057873236114
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClWajk
+  - https://x.com/kurdpa_farsi/status/2014092218668036359
+  - https://x.com/kurdistanhrn/status/2014748290919621023
+  - https://t.me/RememberTheirNames/572
+  - https://x.com/abelbalb/status/2017450990153199767
+  - https://hengaw.net/en/news/2026/01/article-187
+  - https://hengaw.net/en/news/2026/01/article-175
+  - https://hengaw.net/fa/news/2026/01/article-180-1
+  - https://hengaw.net/fa/news/2026/01/article-31
+  - https://x.com/NoaMagid/status/2014649706241032276

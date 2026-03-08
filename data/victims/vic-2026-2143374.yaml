@@ -1,118 +1,52 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "2242"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23855_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25734_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25972_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29006_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_45158_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55740_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55740_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55740_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55740_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55740_4_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55740_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55740_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55740_7_web_v1.png
   - vic-2026-6d85fb72472d.jpg
   - vic-2026-851f2b466967.jpg
   - vic-2026-a1469dfb6728.jpg
-
-# Full Name in English
 name: Masoud Babaei
-
-# Full Name in Persian (Optional)
 persian_name: مسعود بابایی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Male
 age: null
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Shirvan
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: ""
+incident_city: شیروان, خراسان شمالی
+incident_address: ""
+date_of_death: ""
 date_of_death_precision: Approximate
+cause_of_death: ""
+disappearance_circumstances: |-
+  Charges: لیدری و هدایت تظاهرات
 
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
+  مسعود بابایی، شهروند اهل شیروان از توابع خراسان نیز در میانه اعتراضات دی ماه امسال بازداشت شده و با پرونده‌سازی و خطر جدی تحمیل حکم اعدام مواجه است. او صاحب یک کافی‌شاپ بوده و به رهبری اعتراضات متهم شده است.
+suspected_actor: ""
+status: Missing
+detention_status: sentenced_to_death
+description: |-
+  Charges: لیدری و هدایت تظاهرات
 
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
-status: Sentenced
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+  مسعود بابایی، شهروند اهل شیروان از توابع خراسان نیز در میانه اعتراضات دی ماه امسال بازداشت شده و با پرونده‌سازی و خطر جدی تحمیل حکم اعدام مواجه است. او صاحب یک کافی‌شاپ بوده و به رهبری اعتراضات متهم شده است.
+source_type: Social Media
 source:
   - https://x.com/baharatish/status/2017323347172794649
   - https://x.com/persian_picture/status/2017687757225591181
   - https://x.com/Suzana654321/status/2016219106144305486
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/i/status/2017712876308324811
+  - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-840
+  - https://hengaw.net/en/news/2026/01/article-224

@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "262"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19963_0_twitter_v1.jpg
   - vic-2026-ee119e25f9a4.jpg
   - vic-2026-5ba63eb5fc8a.jpg
   - vic-2026-a8f6bb7ce520.jpg
@@ -24,112 +12,40 @@ photo:
   - vic-2026-0bc1e10d1865.jpg
   - vic-2026-34f5cb70176d.png
   - vic-2026-a2003bf263c8.jpg
-
-# Full Name in English
 name: Shoaleh Sotoudeh
-
-# Full Name in Persian (Optional)
 persian_name: شعله ستوده
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Female
 age: 38
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: ""
 incident_city: Chaf
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_address: ""
+date_of_death: "2026-01-10"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: Killed during protests in the coastal city of Chaf in Langarud County. Mother of two children. Protests occurred on Saturday, 20 Dey 1404, when the main square of Chaf was crowded with people chanting slogans and several locations including 'the house of a famous IRGC member' were set on fire. She followed Tavaana's educational materials and commented on them.
+source_type: Social Media
 source:
   - https://x.com/HyrcaniHRM/status/2012624118143656067
   - https://x.com/longlosthills/status/2012648484541702446
   - https://x.com/mothrofdrgns/status/2012646965004173373
   - https://x.com/israelwarroom/status/2013074474145341563
   - https://x.com/Tavaana/status/2013076144795288021
-  - https://x.com/tavaana/status/2013076144795288021
   - https://x.com/hyrcanihrm/status/2013664501694882056
   - https://x.com/HengawO/status/2012660798242406499
   - https://x.com/hiitsmemooneh/status/2014846731964580339
   - https://x.com/Persian_picture/status/2014990511958855904
   - https://x.com/AntonStruve/status/2012806816858595754
   - https://x.com/pkhwshhal/status/2013029830724391353
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/tCKl8UDDdoQQUGMvcWozqm
+  - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClV0Pr
+  - https://x.com/missmarpel75/status/2014604118283682256
+  - https://t.me/RememberTheirNames/284
+  - https://hengaw.net/en/news/2026/01/article-140

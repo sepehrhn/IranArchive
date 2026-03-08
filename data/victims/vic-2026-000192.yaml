@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "21"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19633_0_twitter_v1.jpg
   - vic-2026-000192.jpg
   - vic-2026-285cdbad23d1.jpg
   - vic-2026-ef2fc3a92a75.png
@@ -27,99 +15,34 @@ photo:
   - vic-2026-427be1e89e5d.jpg
   - vic-2026-c657aeb81054.jpg
   - vic-2026-001606.jpg
-
-# Full Name in English
 name: Negin Ghadimi
-
-# Full Name in Persian (Optional)
-persian_name: null
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: Male
-
-# Age at time of death (Optional, remove if unknown)
+persian_name: نگین قدیمی
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Female
 age: 28
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Tonekabon
+incident_province: ""
+incident_city: Shahsavar
 incident_address: Tonekabon
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-08'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
+description: |-
+  Shot with live ammunition by Islamic Republic forces during protests in Shahsavar (Tonekabon). She was participating in protests with her father and died in his arms. Negin had studied biotechnology engineering and was described as a cheerful girl interested in art and sports. She painted, swam, and read extensively. She had wanted to emigrate to Australia.
 
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: |
   Shot with live ammunition by Islamic Republic forces during protests in Shahsavar. She was participating in protests with her father and died in his arms.
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
   - https://x.com/visegrad24/status/2011816555533729995
   - https://x.com/Daikatuo/status/2011478578936836544
   - https://x.com/Ebne_noah/status/2011850456352383389
+  - https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/
   - https://x.com/nicksotoudeh/status/2012302930087657643
   - https://x.com/iranwire/status/2012765137598374292
   - https://x.com/ihrights/status/2012223553806942652
@@ -127,13 +50,8 @@ source:
   - https://x.com/Farhadgol60/status/2015592132531355778
   - https://x.com/hiitsmemooneh/status/2012313115623669787
   - https://x.com/negaronikoo/status/2017293539898478664
-  - https://x.com/visegrad24/status/2011816555533729995, https://iranhrs.org/جانباختگان-اعتراضات-۱۴۰۴/, https://x.com/nicksotoudeh/status/2012302930087657643, https://x.com/iranwire/status/2012765137598374292, https://x.com/ihrights/status/2012223553806942652, https://x.com/iranwire/status/2013942874363118075, https://x.com/Daikatuo/status/2011478578936836544, https://x.com/Ebne_noah/status/2011850456352383389, https://x.com/Farhadgol60/status/2015592132531355778, https://t.me/RememberTheirNames/348
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWhyWG
+  - https://x.com/i/status/2017839885839962589
+  - https://t.me/RememberTheirNames/348
+  - https://hengaw.net/en/news/2026/01/article-113
+  - https://t.me/JavidnamaneVatan/2371

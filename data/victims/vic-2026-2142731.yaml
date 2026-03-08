@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "2130"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19855_0_twitter_v1.jpg
   - vic-2026-cf4c09f37327.jpg
   - vic-2026-a6a8e39f2cb9.jpg
   - vic-2026-82d5da64c7a0.jpg
@@ -21,104 +9,38 @@ photo:
   - vic-2026-ae28475963d7.png
   - vic-2026-17a27538d3b8.jpg
   - vic-2026-7a74afa97cc6.jpg
-
-# Full Name in English
 name: Parnian Dabiri Abkanari
-
-# Full Name in Persian (Optional)
 persian_name: پرنیان دبیری آبکناری
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
-age: 18
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Female
+age: 16
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Tehran-Pakdasht
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_province: ""
+incident_city: Baharestan, Eslamshahr
+incident_address: ""
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: 16-year-old Gilaki citizen from Abkanar, born April 1, 1388 (Persian calendar). Shot directly with war bullets from behind during nationwide protests. She was the only child of her family and was shot in front of her parents' eyes. Her body was found and identified by her father, uncle, and aunt's husband around noon the next day in Kahrizak.
+source_type: Social Media
 source:
+  - https://x.com/loabatk/status/2012032069300568238
+  - https://x.com/FuckedupRainMan/status/2016991951099208170
   - https://x.com/pardis__rabiee/status/2017325623690334267
   - https://x.com/hekasrehcrisis/status/2016751852344291707
   - https://x.com/pardis__rabiee/status/2015352105465188628
+  - https://x.com/i/status/2016991951099208170
+  - https://x.com/babaktaghvaee1/status/2017312191154639294
   - https://x.com/sadiography/status/2017269252508590194
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://x.com/HyrcaniHRM/status/2018062818205917423
+  - https://x.com/verethragnan/status/2018129443558973856
+  - https://t.me/RememberTheirNames/1708
+  - https://x.com/manotonews/status/2021945636632113606
+  - https://t.me/JavidnamaneVatan/793
+  - https://x.com/me_azadi/status/2026556110954741998

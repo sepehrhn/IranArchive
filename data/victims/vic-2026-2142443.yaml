@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "761"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20796_0_twitter_v1.jpg
   - vic-2026-ab7ce37b3c28.jpg
   - vic-2026-5010a44d5751.jpg
   - vic-2026-af51424b7bf8.jpg
@@ -29,93 +17,26 @@ photo:
   - vic-2026-99fa26648d19.jpg
   - vic-2026-80c70e4e9931.jpg
   - vic-2026-7d72c385bcc5.jpg
-
-# Full Name in English
 name: Alina Hojjati
-
-# Full Name in Persian (Optional)
 persian_name: الینا حجتی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
-gender: ''
-
-# Age at time of death (Optional, remove if unknown)
+birth_date: ""
+birth_province: ""
+birth_city: ""
+gender: Female
 age: 23
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
+incident_province: Tehran
 incident_city: Tehran
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: ''
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
-date_of_death_precision: Approximate
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
-cause_of_death: ''
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+incident_address: ""
+date_of_death: "2026-01-09"
+date_of_death_precision: Exact
+cause_of_death: ""
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
-
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: ''
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+description: 23-year-old final year microbiology student shot with war bullets by Islamic Republic suppression forces in east Tehran. Transferred to Shahid-e Tajrish Hospital immediately after shooting, died on 19 Dey due to severe bleeding. Family believes blood was not transfused during treatment. Body was not returned to family for three days and was transferred to Kahrizak. Family had to search among thousands of unnamed corpses to find their daughter's body. Family was under severe security pressure, not allowed to post mourning notices in their neighborhood, forced to hold limited funeral at home.
+source_type: Social Media
 source:
   - https://x.com/sarlzdd/status/2014376309078818949
   - https://x.com/sarlzdd/status/2014484535761617385
@@ -127,12 +48,7 @@ source:
   - https://x.com/fseifikaran/status/2014777282326405403
   - https://x.com/theoldwaryaw/status/2014084551883014590
   - https://x.com/hiitsmemooneh/status/2014843780038533342
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMj7t9
+  - https://x.com/IranNewsAgency0/status/2018596407498690720
+  - https://t.me/RememberTheirNames/795
+  - https://x.com/gilasgoz/status/2022022892809240937

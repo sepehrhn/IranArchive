@@ -1,18 +1,6 @@
-# ==========================================
-# Victim Documentation Template
-# ==========================================
-# File Naming Convention: vic-YYYY-XXXXX.yaml (e.g., vic-2026-00001.yaml)
-# Location: \data\victims\
-
-# -----------------------------------------------------------------------------
-# Core Identification
-# -----------------------------------------------------------------------------
-
-# Photo Handling:
-# 1. Place the image in `\data\victims\img\`
-# 2. Enter JUST the filename here (e.g., "vic-xxxx.jpg")
-# The system will automatically find and optimize it.
+external_card_id: "7409"
 photo:
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49731_0_telegram_v1.jpg
   - vic-2026-000226.jpg
   - vic-2026-a3624eff8b13.jpg
   - vic-2026-ab06d3a6f2bc.jpg
@@ -43,109 +31,46 @@ photo:
   - vic-2026-98da43332115.jpg
   - vic-2026-528d1ca51b29.jpg
   - vic-2026-6a7486dbfa70.jpg
-
-# Full Name in English
 name: Ali Amani
-
-# Full Name in Persian (Optional)
 persian_name: علی امانی
-
-# -----------------------------------------------------------------------------
-# Personal & Birth Information
-# -----------------------------------------------------------------------------
-
-# Date of Birth (Format: YYYY/MM/DD, Optional)
-birth_date: ''
-
-# Province of Birth (Optional)
-birth_province: ''
-
-# City of Birth (Optional)
-birth_city: ''
-
-# Gender (Optional: "Male" or "Female")
+birth_date: ""
+birth_province: ""
+birth_city: ""
 gender: Male
-
-# Age at time of death (Optional, remove if unknown)
-age: 27
-
-# Occupation (Optional)
-occupation: ''
-
-# -----------------------------------------------------------------------------
-# Location & Timing
-# -----------------------------------------------------------------------------
-
-# Country
+age: null
+occupation: ""
 country: Iran
-
-# Incident Location
-incident_province: ''
-incident_city: Abpakhsh
-incident_address: ''
-
-# Date of Death (Format: YYYY/MM/DD)
-date_of_death: '2026-01-09'
-
-# Date of Death Precision: 'Exact' | 'Approximate'
-# - Exact: Confirmed exact date
-# - Approximate: Estimated or uncertain date
+incident_province: Bushehr
+incident_city: Abpakhsh, Dashtestan County
+incident_address: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-
-# Cause of Death (Optional, for status: Killed)
-# Options: 'Gunshot' | 'Beating' | 'Torture' | 'Execution' | 'Unknown'
 cause_of_death: Gunshot
-
-# -----------------------------------------------------------------------------
-# Missing Person Fields (Only for status: Missing)
-# -----------------------------------------------------------------------------
-
-# Disappearance Circumstances (Optional, for status: Missing)
-# Options: 'Disappeared during protests' | 'Arrested and transferred to unknown location' | 
-#          'Abducted from home' | 'Disappeared after detention' | 'Unknown'
-disappearance_circumstances: null
-
-# Suspected Actor (Optional, for status: Missing)
-# Options: 'Security Forces' | 'Plainclothes Agents' | 'Unknown'
-suspected_actor: null
-
-# -----------------------------------------------------------------------------
-# Status
-# -----------------------------------------------------------------------------
-
-# Status: 'Killed' | 'Missing'
-# - Killed: Confirmed death
-# - Missing: Person is missing, status unknown
+disappearance_circumstances: ""
+suspected_actor: ""
 status: Killed
+description: |-
+  Shot by Basij forces from the rooftop of the Basij resistance base. According to witnesses, 4 people were killed and 12 were injured in the shooting by Basij mercenaries that day.
 
-# -----------------------------------------------------------------------------
-# Narrative
-# -----------------------------------------------------------------------------
-
-# Detailed incident description. Supports basic markdown.
-description: |
   Shot directly by bullets fired by Islamic Republic suppressors
-
-# -----------------------------------------------------------------------------
-# Sources & References
-# -----------------------------------------------------------------------------
-
-# Source Link (Required)
-# Can be a single link or a list of links
+source_type: Social Media
 source:
-  - https://x.com/allahbakhshii/status/2013721255073939927, https://t.me/RememberTheirNames/329
+  - https://t.me/JavidnamaneVatan/107
+  - https://x.com/sasanrahimpour1/status/2017551833581895705
   - https://x.com/allahbakhshii/status/2013721255073939927
+  - https://t.me/RememberTheirNames/329
   - https://x.com/hekasrehcrisis/status/2014833063541248416
   - https://x.com/HeKasrehCrisis/status/2015907301115212052
-  - https://x.com/HeKasrehCrisis/status/2014833063541248416
-  - https://x.com/iranwire/status/2011812078084866557, https://x.com/Daikatuo/status/2011855746544136648, https://t.me/RememberTheirNames/415
-  - https://x.com/Daikatuo/status/2011855746544136648
   - https://x.com/iranwire/status/2011812078084866557
-  - https://x.com/Tavaana/status/2015232260229009759, https://x.com/HengawO/status/2015476576473800916, https://x.com/tavaana/status/2015232260229009759, https://t.me/RememberTheirNames/1148
+  - https://x.com/Daikatuo/status/2011855746544136648
+  - https://t.me/RememberTheirNames/415
+  - https://x.com/Tavaana/status/2015232260229009759
+  - https://x.com/HengawO/status/2015476576473800916
+  - https://t.me/RememberTheirNames/1148
   - https://x.com/babaktaghvaee1/status/2017402945839464460
-  - https://x.com/i/status/2015833089981784505, https://x.com/kurdpa_farsi/status/2015833089981784505, https://t.me/RememberTheirNames/810
   - https://x.com/i/status/2015833089981784505
   - https://x.com/kurdpa_farsi/status/2015833089981784505
+  - https://t.me/RememberTheirNames/810
   - https://t.me/RememberTheirNames/1394
   - https://x.com/zaviz1880701/status/2017221183096094873
   - https://x.com/purple9494/status/2017349675347562996
@@ -157,12 +82,3 @@ source:
   - https://x.com/thxlio_o/status/2015008422362579175
   - https://x.com/_MrMean_/status/2016478010610737315
   - https://x.com/HengawO/status/2015382975945277625
-
-
-# -----------------------------------------------------------------------------
-# Relationships
-# -----------------------------------------------------------------------------
-# Note: Incident linking is handled in the INCIDENT YAML files.
-# Do NOT list incident IDs here.
-# To link this victim to an incident, add their ID to the 'victims' list in the relevant incident YAML.
-
