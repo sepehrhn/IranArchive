@@ -19,8 +19,11 @@ export const useVictims = () => {
 
         loadPromise = (async () => {
             try {
-                const loadedVictims = await $fetch<Victim[]>('/api/victims');
-                victimsData.value = Array.isArray(loadedVictims) ? loadedVictims : [];
+                // GitHub Pages serves extension-less files as application/octet-stream.
+                // Force text response and parse manually to avoid empty lists in production.
+                const raw = await $fetch<string>('/api/victims', { responseType: 'text' });
+                const loadedVictims = JSON.parse(raw) as unknown;
+                victimsData.value = Array.isArray(loadedVictims) ? (loadedVictims as Victim[]) : [];
 
                 // Fallback: if incident_ids are missing from API payload, compute them from incidents.
                 const needsIncidentIds = victimsData.value.some(v => !Array.isArray(v.incident_ids));
