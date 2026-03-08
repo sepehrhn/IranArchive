@@ -5,10 +5,11 @@ export default defineEventHandler(async (event) => {
     // Filter only upcoming and ongoing for the subscription feed
     const activeEvents = allEvents.filter(e => ['upcoming', 'ongoing'].includes(e.computed_state));
 
-    // Helper to parse event date from YAML structure
-    const parseEventDate = (dateStr: string, timeStr?: string | null): Date => {
+    // Helper to parse event date from YAML structure; returns null if invalid
+    const parseEventDate = (dateStr: string | undefined | null, timeStr?: string | null): Date | null => {
+        if (!dateStr) return null;
         const d = new Date(dateStr + (timeStr ? ' ' + timeStr : ''));
-        return d;
+        return isNaN(d.getTime()) ? null : d;
     };
 
     const formatDate = (date: Date) => {
@@ -27,27 +28,26 @@ export default defineEventHandler(async (event) => {
 
     for (const ev of activeEvents) {
         const startDate = parseEventDate(ev.date.start, ev.date.start_time);
+        if (!startDate) continue; // skip events with invalid/missing start dates
         const start = formatDate(startDate);
 
         let endDate: Date;
-        if (ev.date.end) {
-            endDate = parseEventDate(ev.date.end, ev.date.end_time);
+        const parsedEnd = ev.date.end ? parseEventDate(ev.date.end, ev.date.end_time) : null;
+        if (parsedEnd) {
+            endDate = parsedEnd;
         } else {
-            // Default to 1 hour after start if no end time specified
+            // Default to 1 hour after start if no end time specified or end is invalid
             endDate = new Date(startDate.getTime() + 3600000);
         }
         const end = formatDate(endDate);
 
-        const description = `
-${ev.summary}
-
-Organizer: ${ev.organizer.name}
+        const description = `Organizer: ${ev.organizer.name || ''}
 Link: https://iranarchive.net/events/${ev.id}
 
-${ev.description || ''}
-`.trim();
+${ev.description || ''}`.trim();
 
-        const location = ev.format === 'online' ? 'Online' : `${ev.location?.address || ''}, ${ev.location?.city || ''}, ${ev.location?.country || ''}`.trim();
+        const locationObj = ev.location && !Array.isArray(ev.location) ? ev.location : null;
+        const location = ev.type === 'online' ? 'Online' : `${locationObj?.address || ''}, ${locationObj?.city || ''}, ${locationObj?.country || ''}`.replace(/^[, ]+|[, ]+$/g, '').trim();
 
         lines.push(
             'BEGIN:VEVENT',
