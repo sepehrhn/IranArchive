@@ -1,9 +1,9 @@
 <template>
   <div class="container mx-auto px-4 py-8 max-w-[1400px]">
     <div class="mb-8">
-      <h1 class="text-4xl font-bold mb-2">{{ $t('Entities Directory') || 'Entities Directory' }}</h1>
+      <h1 class="text-4xl font-bold mb-2">{{ $t('entitiesPage.alignmentTitle') }}</h1>
       <p class="text-xl text-surface-600 dark:text-surface-300">
-        {{ $t('Explore organizational and individual alignment to the 6 canonical demands.') || 'Explore organizational and individual alignment to the 6 canonical demands.' }}
+        {{ $t('entitiesPage.alignmentSubtitle') }}
       </p>
     </div>
 
@@ -12,7 +12,7 @@
       <div class="flex gap-4 w-full md:w-auto flex-wrap sm:flex-nowrap">
         <IconField iconPosition="left" class="w-full sm:w-64">
           <InputIcon class="pi pi-search" />
-          <InputText v-model="searchQuery" :placeholder="$t('Search entity...') || 'Search entity...'" class="w-full" />
+          <InputText v-model="searchQuery" :placeholder="$t('entitiesPage.searchEntity')" class="w-full" />
         </IconField>
         
         <Select 
@@ -20,7 +20,7 @@
           :options="typeOptions" 
           optionLabel="label"
           optionValue="value"
-          :placeholder="$t('Any Type') || 'Any Type'" 
+          :placeholder="$t('entitiesPage.anyType')" 
           class="w-full sm:w-48" 
         />
         
@@ -29,13 +29,13 @@
           :options="scoreOptions" 
           optionLabel="label"
           optionValue="value"
-          :placeholder="$t('Min Overall Score') || 'Min Overall Score'" 
+          :placeholder="$t('entitiesPage.minOverallScore')" 
           class="w-full sm:w-48" 
         />
       </div>
 
       <NuxtLink to="/campaigns">
-        <Button :label="$t('View Campaign Details') || 'View Campaign Details'" icon="pi pi-flag" outlined />
+        <Button :label="$t('common.viewCampaignDetails')" icon="pi pi-flag" outlined />
       </NuxtLink>
     </div>
 
@@ -55,7 +55,7 @@
         removableSort
         :globalFilterFields="['id', 'names.primary', 'names.native']"
       >
-        <Column field="names.primary" :header="$t('Entity') || 'Entity'" sortable class="font-bold min-w-[250px]" frozen>
+        <Column field="names.primary" :header="$t('entitiesPage.entity')" sortable class="font-bold min-w-[250px]" frozen>
           <template #body="{ data }">
             <div class="flex items-center gap-2">
               <span class="text-xl" v-if="data.country" :title="data.country">{{ getFlagEmoji(data.country) }}</span>
@@ -84,7 +84,7 @@
         </Column>
 
         <!-- Overall Score sum -->
-        <Column field="overall_score" :header="$t('Total') || 'Total'" sortable class="font-bold border-l border-surface-200 dark:border-surface-700 w-[100px] text-center" alignFrozen="right" frozen>
+        <Column field="overall_score" :header="$t('common.total')" sortable class="font-bold border-l border-surface-200 dark:border-surface-700 w-[100px] text-center" alignFrozen="right" frozen>
           <template #body="{ data }">
             <span class="text-lg" :class="data.overall_score > 0 ? 'text-primary-600 dark:text-primary-400' : 'text-surface-400'">
               {{ data.overall_score || 0 }}
@@ -99,10 +99,12 @@
 <script setup>
 import { ref, computed } from 'vue';
 import { useFetch, useHead } from '#imports';
+import { useI18n } from 'vue-i18n';
 import LevelBadge from '~/components/campaigns/LevelBadge.vue';
 import EvidenceListPopover from '~/components/campaigns/EvidenceListPopover.vue';
 
 useHead({ title: 'Entities | IranArchive' });
+const { t } = useI18n();
 
 const { data: entitiesList, pending: pendingEnt } = await useFetch('/index/entities.json');
 const { data: campaignsList, pending: pendingCamp } = await useFetch('/index/campaigns.json');
@@ -131,15 +133,15 @@ const typeOptions = computed(() => {
   const types = new Set();
   entities.value.forEach(e => { if (e.entity_type) types.add(e.entity_type); });
   const arr = Array.from(types).map(t => ({ label: t.replace(/_/g, ' '), value: t }));
-  arr.unshift({ label: 'Any Type', value: '' });
+  arr.unshift({ label: t('entitiesPage.anyType'), value: '' });
   return arr;
 });
 
-const scoreOptions = [
-  { label: 'Any Score', value: 0 },
-  { label: 'Score > 5', value: 6 },
-  { label: 'Score > 10', value: 11 },
-];
+const scoreOptions = computed(() => [
+  { label: t('common.anyScore'), value: 0 },
+  { label: t('common.scoreGreaterThan', { score: 5 }), value: 6 },
+  { label: t('common.scoreGreaterThan', { score: 10 }), value: 11 },
+]);
 
 const filteredEntities = computed(() => {
   let res = entities.value;

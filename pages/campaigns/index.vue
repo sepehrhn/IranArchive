@@ -1,9 +1,9 @@
 <template>
   <div class="container mx-auto px-4 py-8">
     <div class="mb-12">
-      <h1 class="text-4xl font-bold mb-4">{{ $t('Campaigns for Iran') || 'Campaigns for Iran' }}</h1>
+      <h1 class="text-4xl font-bold mb-4">{{ $t('campaignsPage.alignmentTitle') }}</h1>
       <p class="text-xl text-surface-600 dark:text-surface-300 max-w-3xl">
-        {{ $t('The six canonical demands of the Iranian people. We measure international alignment against these concrete policy goals.') || 'The six canonical demands of the Iranian people. We measure international alignment against these concrete policy goals.' }}
+        {{ $t('campaignsPage.alignmentSubtitle') }}
       </p>
     </div>
 
@@ -14,7 +14,7 @@
 
     <!-- Error State -->
     <div v-else-if="error" class="bg-red-100 dark:bg-red-900/30 text-red-800 dark:text-red-300 p-4 rounded-lg">
-      <p>{{ $t('Error loading campaigns:') || 'Error loading campaigns:' }} {{ error.message }}</p>
+      <p>{{ $t('campaignsPage.errorLoading') }} {{ error.message }}</p>
     </div>
 
     <!-- Campaigns Grid -->

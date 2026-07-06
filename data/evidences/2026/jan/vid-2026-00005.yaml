@@ -30,5 +30,13 @@ corroboration:
   related_evidence_ids: ["vid-2026-00006"]
   notes: "Cross-referenced with IRIB/Fars interview clip circulated as a response attempting to redirect attribution via name conflation."
 
+technical:
+  sha256: ""
+  file_size_bytes: 0
+  format: "mp4"
+  duration_seconds: 0
+  exif_summary: ""
+  reencoded: false
+
 # Content warning (true if sensitive)
 content_warning: true

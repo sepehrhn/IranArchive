@@ -4,9 +4,9 @@ The Iran Archive Victims database documents those who have suffered under the re
 
 ## How to Submit
 
-### Option 1: Tag us on 𝕏 (Twitter)
+### Option 1: Tag us on X
 
-Tag our 𝕏 page [@Iran_Archive](https://x.com/Iran_Archive) with details of the victim.
+Tag [@Iran_Archive](https://x.com/Iran_Archive) with details of the victim.
 
 ### Option 2: Email
 

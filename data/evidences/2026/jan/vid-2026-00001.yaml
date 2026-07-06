@@ -21,5 +21,13 @@ corroboration:
   related_evidence_ids: []
   notes: ""
 
+technical:
+  sha256: ""
+  file_size_bytes: 0
+  format: "mp4"
+  duration_seconds: 0
+  exif_summary: ""
+  reencoded: false
+
 # Content warning (true if sensitive)
 content_warning: false

@@ -40,7 +40,11 @@
         "suggestUpdate": "پیشنهاد بروزرسانی",
         "new": "جدید",
         "allCountries": "همه کشورها",
-        "entities": "نهادها"
+        "entities": "نهادها",
+        "viewCampaignDetails": "مشاهده جزئیات کارزارها",
+        "total": "مجموع",
+        "anyScore": "هر امتیازی",
+        "scoreGreaterThan": "امتیاز بیشتر از {score}"
     },
     "home": {
         "heroTitleStart": "آنها نمی‌توانند پست بگذارند.",
@@ -150,7 +154,10 @@
         "by": "توسط",
         "active": "فعال",
         "victory": "پیروزی",
-        "dialogTitle": "ثبت یک کارزار"
+        "dialogTitle": "ثبت یک کارزار",
+        "alignmentTitle": "کارزارها برای ایران",
+        "alignmentSubtitle": "شش خواسته اصلی مردم ایران. ما هم‌سویی بین‌المللی را بر اساس این اهداف مشخص سیاستی می‌سنجیم.",
+        "errorLoading": "خطا در بارگذاری کارزارها:"
     },
     "countriesPage": {
         "title": "رهگیری فشار جهانی - آرشیو ایران",
@@ -166,7 +173,11 @@
         "unPosture": "موضع سازمان ملل",
         "security": "حمایت امنیتی",
         "countriesListTitle": "کشورها",
-        "noCountriesFound": "هیچ کشوری مطابق معیار شما یافت نشد."
+        "noCountriesFound": "هیچ کشوری مطابق معیار شما یافت نشد.",
+        "alignmentTitle": "داده‌های هم‌سویی کشورها",
+        "alignmentSubtitle": "بررسی کنید کشورها چگونه با شش خواسته اصلی مردم ایران هم‌سو هستند.",
+        "searchCountry": "جستجوی کشور...",
+        "country": "کشور"
     },
     "assetsPage": {
         "title": "ابزارها - آرشیو ایران",
@@ -669,7 +680,13 @@
         "showFilters": "فیلترها",
         "lastUpdated": "بروزرسانی",
         "evidenceCount": "{count} مدرک",
-        "confidence": "اطمینان"
+        "confidence": "اطمینان",
+        "alignmentTitle": "فهرست نهادها",
+        "alignmentSubtitle": "بررسی هم‌سویی سازمان‌ها و افراد با شش خواسته اصلی.",
+        "searchEntity": "جستجوی نهاد...",
+        "anyType": "هر نوع",
+        "minOverallScore": "حداقل امتیاز کل",
+        "entity": "نهاد"
     },
     "entityDetail": {
         "positionCard": "کارت موضع",

@@ -37,6 +37,8 @@ scripts/*
 !scripts/validate-campaigns.js
 !scripts/validate-entities.js
 !scripts/generate-campaign-indexes.js
+!scripts/generate-search-index.js
+!scripts/audit-data-coverage.js
 !scripts/fix-yaml.mjs
 !scripts/final-migration.mjs
 !scripts/audit_countries.ts
@@ -77,6 +79,8 @@ scripts/*
 !scripts/validate-campaigns.js
 !scripts/validate-entities.js
 !scripts/generate-campaign-indexes.js
+!scripts/generate-search-index.js
+!scripts/audit-data-coverage.js
 
 # Data Temp Files
 temp_victim*.json

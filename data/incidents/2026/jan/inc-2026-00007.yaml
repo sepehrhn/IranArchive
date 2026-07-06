@@ -97,8 +97,7 @@ limitations:
 # Evidence IDs (referencing files in /data/evidences/)
 # Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
 # IDs are the filenames (e.g. ev-2026-00001-vid-001)
-evidence_ids:
-  - "ev-2026-00010-vid-001"
+evidence_ids: []
 
 # Sources (News reports, social media posts, etc.)
 sources:

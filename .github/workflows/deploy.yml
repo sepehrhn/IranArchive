@@ -32,8 +32,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Static HTML export with Nuxt
-        run: npm run build -- --preset github_pages
+      - name: Validate and build
+        run: npm run check
         env:
           NODE_OPTIONS: --max-old-space-size=6144
           GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}

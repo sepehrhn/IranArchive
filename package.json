@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "iranarchive",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,10 +9,13 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "validate": "node scripts/validate-data.js && node scripts/validate-campaigns.js",
+    "typecheck": "nuxi prepare && vue-tsc --noEmit -p tsconfig.typecheck.json",
+    "check": "npm run validate && npm run validate:entities && npm run typecheck && npm run build",
     "gen-metadata": "node scripts/generate-metadata.js",
     "generate-thumbnails": "node scripts/generate-pdf-thumbnails.js",
     "validate:entities": "node scripts/validate-entities.js",
-    "gen-indexes": "node scripts/generate-campaign-indexes.js"
+    "gen-indexes": "node scripts/generate-campaign-indexes.js && node scripts/generate-search-index.js",
+    "audit:data": "node scripts/audit-data-coverage.js"
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^2.0.2",

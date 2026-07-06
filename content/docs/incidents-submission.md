@@ -4,9 +4,9 @@ The Iran Archive Incidents database tracks human rights violations and other sig
 
 ## How to Submit
 
-### Option 1: Tag us on 𝕏 (Twitter)
+### Option 1: Tag us on X
 
-Tag our 𝕏 page [@Iran_Archive](https://x.com/Iran_Archive) with details of the incident.
+Tag [@Iran_Archive](https://x.com/Iran_Archive) with details of the incident.
 
 ### Option 2: Email
 
@@ -24,7 +24,7 @@ Please ensure you provide at least:
 ## Verification Policy
 
 We employ a strict verification process. Incidents are classified as:
--   **Verified**: Confroimed by multiple independent sources or trusted partners.
+-   **Verified**: Confirmed by multiple independent sources or trusted partners.
 -   **Not Verified**: Included in the database but lacks independent confirmation.
 
 All disputed or unverified claims should be clearly marked.

@@ -5,7 +5,6 @@ import { zoom, zoomIdentity } from 'd3-zoom';
 import { select } from 'd3-selection';
 import type { CountryData } from '@/types/countries';
 import { getCountryColor } from '@/utils/countryColors';
-import worldGeoJSON from '@/assets/geo/world-countries.json';
 
 const props = defineProps<{
   countries: CountryData[];
@@ -28,14 +27,15 @@ const pathGenerator = d3.geoPath().projection(projection);
 const svgRef = ref<SVGElement | null>(null);
 const gRef = ref<SVGGElement | null>(null);
 const zoomBehavior = ref<any>(null);
+const worldGeoJSON = ref<any | null>(null);
 
 const currentZoom = ref(1);
 
 // Process features
 const features = computed(() => {
-  if (!worldGeoJSON || !worldGeoJSON.features) return [];
+  if (!worldGeoJSON.value?.features) return [];
   
-  return worldGeoJSON.features.map((feature: any) => {
+  return worldGeoJSON.value.features.map((feature: any) => {
     // Helper to get the best ISO code
     const getIsoCode = (props: any) => {
       let iso = props.ISO_A2;
@@ -79,7 +79,12 @@ const handleClick = (feature: any) => {
   }
 };
 
-onMounted(() => {
+onMounted(async () => {
+  if (!worldGeoJSON.value) {
+    const response = await fetch('/geo/world-countries.json');
+    worldGeoJSON.value = await response.json();
+  }
+
   if (svgRef.value && gRef.value) {
     const svg = select(svgRef.value);
     const g = select(gRef.value);
@@ -97,7 +102,7 @@ onMounted(() => {
 
 const handleZoomIn = () => {
   if (svgRef.value && zoomBehavior.value) {
-    select(svgRef.value)
+    (select(svgRef.value) as any)
       .transition()
       .call(zoomBehavior.value.scaleBy, 1.5);
   }
@@ -105,7 +110,7 @@ const handleZoomIn = () => {
 
 const handleZoomOut = () => {
   if (svgRef.value && zoomBehavior.value) {
-    select(svgRef.value)
+    (select(svgRef.value) as any)
       .transition()
       .call(zoomBehavior.value.scaleBy, 0.75);
   }
@@ -113,7 +118,7 @@ const handleZoomOut = () => {
 
 const handleReset = () => {
   if (svgRef.value && zoomBehavior.value) {
-     select(svgRef.value)
+     (select(svgRef.value) as any)
       .transition()
       .call(zoomBehavior.value.transform, zoomIdentity);
   }
