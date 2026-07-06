@@ -13,7 +13,22 @@ export default defineNuxtConfig({
     vite: {
         plugins: [
             yaml()
-        ]
+        ],
+        build: {
+            chunkSizeWarningLimit: 2000,
+            rollupOptions: {
+                output: {
+                    manualChunks(id) {
+                        if (!id.includes('node_modules')) return;
+                        if (id.includes('pdfjs-dist')) return 'vendor-pdf';
+                        if (id.includes('html2canvas') || id.includes('jspdf') || id.includes('qrcode')) return 'vendor-export';
+                        if (id.includes('d3-')) return 'vendor-maps';
+                        if (id.includes('@googlemaps')) return 'vendor-google-maps';
+                        if (id.includes('primevue') || id.includes('@primevue') || id.includes('primeicons')) return 'vendor-primevue';
+                    }
+                }
+            }
+        }
     },
 
     css: [

@@ -1,48 +1,71 @@
 # Contributing: Victims Registry
 
-This guide explains how to add new victims to the registry. We prioritize accuracy, dignity, and safety.
+This guide explains how to add or update victim records. Accuracy, dignity, and safety take priority over completeness.
 
-## 1. Prerequisites
-- Only add victims with confirmed reports or strong credible evidence.
-- Do not include sensitive private details (home address, phone numbers) not relevant to the public record.
+## Data Location
 
-## 2. Directory Structure
-- `data/victims/`: Stores victim profiles as JSON.
-- `data/sources/`: Stores source citation metadata.
-- `public/media/victims/`: Stores profile images.
+- Victim records live in `data/victims/*.yaml`.
+- Local victim photos live in `data/victims/img/`.
+- External photos may be referenced by URL when they are already hosted by a trusted source.
 
-## 3. Adding a Victim
-1. **Create Source Files**: First, ensure the sources you are citing exist in `data/sources/`.
-   - Create `data/sources/SRC-XXXX.json`.
-   - Use `archive_url` whenever possible to prevent link rot.
+## File Naming
 
-2. **Create Victim File**: Create a new file `data/victims/<slug>.json`.
-   - Filename must match the `slug` field.
-   - Example: `john-doe.json` -> `"slug": "john-doe"`.
+Use a stable ID-style filename:
 
-3. **Required Fields**:
-   - `id`: Unique ID (e.g., `VIC-001`).
-   - `names`: Latin is required; Native is highly recommended.
-   - `status`: `confirmed`, `probable`, or `unverified`.
-   - `death`: Date and location details.
-   - `sources`: Array of source IDs supporting the claim.
+```text
+data/victims/vic-YYYY-XXXXX.yaml
+```
 
-4. **Linking to Incidents**:
-   If the victim was killed during a specific recorded incident, link it:
-   ```json
-   "incident_links": [
-     {
-       "incident_id": "IR-2026-01-01-TEHRAN-0001",
-       "relation": "killed",
-       "confidence": "high",
-       "supporting_sources": ["SRC-001"]
-     }
-   ]
-   ```
+The filename becomes the victim ID exposed by the API.
 
-5. **Validation**:
-   Run `npm run validate` locally before committing.
+## Required Fields
 
-## 4. Safety & Ethics
-- Use "unknown" for precision fields rather than guessing.
-- Respect family wishes regarding images or names if known.
+At minimum, each record should include:
+
+```yaml
+name: "Full Name"
+persian_name: "نام فارسی"
+status: "Killed"
+date_of_death: "2026-01-08"
+date_of_death_precision: "Exact"
+incident_province: "Tehran"
+incident_city: "Tehran"
+description: "Short verified narrative."
+source_type: "Social Media"
+source:
+  - "https://example.com/source"
+```
+
+Use empty strings for unknown optional values instead of guessing.
+
+## Photos
+
+Use the `photo` field as an array:
+
+```yaml
+photo:
+  - "vic-2026-00001.jpg"
+  - "https://example.com/photo.jpg"
+```
+
+Local filenames are resolved from `data/victims/img/`. External URLs should be public, stable, and safe to display.
+
+## Incident Links
+
+If a victim is linked to an incident, add the victim ID to the incident YAML under `victims`, or add `incident_ids` to the victim record if the incident already exists.
+
+## Validation
+
+Before committing:
+
+```bash
+npm run validate
+```
+
+The validator checks YAML parsing, required app fields, source URL format, duplicate IDs, and known province names.
+
+## Safety
+
+- Do not publish private addresses, phone numbers, or family contact information.
+- Mark uncertain details clearly in `description`.
+- Prefer archived or durable source links when available.

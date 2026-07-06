@@ -91,8 +91,7 @@ limitations:
 # Evidence IDs (referencing files in /data/evidences/)
 # Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
 # IDs are the filenames (e.g. ev-2026-00001-vid-001)
-evidence_ids:
-  - "ev-YYYY-0000X-vid-001"
+evidence_ids: []
 
 # Sources (News reports, social media posts, etc.)
 sources:
@@ -114,7 +113,7 @@ timeline:
     title: "Event Starts"
     description: "Crowd begins to form."
     # Evidence IDs linked to this specific moment
-    evidence_ids: ["ev-YYYY-0000X-vid-001"]
+    evidence_ids: []
     # Source IDs linked to this specific moment
     source_ids: ["src-001"]
 

@@ -30,6 +30,13 @@ corroboration:
   related_evidence_ids: ["vid-2026-00005"]
   notes: "Corroborates the narrative-redirection pattern by presenting a different 'Sepehr' (Ebrahimi) in response to the viral 'Sepehr Baba' clip later identified as Shokri."
 
+technical:
+  sha256: ""
+  file_size_bytes: 0
+  format: "mp4"
+  duration_seconds: 0
+  exif_summary: ""
+  reencoded: false
 
 # Content warning (true if sensitive)
 content_warning: false

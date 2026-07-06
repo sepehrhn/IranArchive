@@ -40,7 +40,11 @@
         "suggestUpdate": "Suggest Update",
         "new": "New",
         "allCountries": "All Countries",
-        "entities": "Entities"
+        "entities": "Entities",
+        "viewCampaignDetails": "View Campaign Details",
+        "total": "Total",
+        "anyScore": "Any Score",
+        "scoreGreaterThan": "Score > {score}"
     },
     "home": {
         "heroTitleStart": "They can't post.",
@@ -149,7 +153,10 @@
         "viewVictory": "View Victory",
         "signCampaign": "Sign Campaign",
         "by": "by",
-        "dialogTitle": "Submit a Campaign"
+        "dialogTitle": "Submit a Campaign",
+        "alignmentTitle": "Campaigns for Iran",
+        "alignmentSubtitle": "The six canonical demands of the Iranian people. We measure international alignment against these concrete policy goals.",
+        "errorLoading": "Error loading campaigns:"
     },
     "countriesPage": {
         "title": "Global Pressure Tracker - IranArchive",
@@ -165,7 +172,11 @@
         "unPosture": "UN Posture",
         "security": "Security Support",
         "countriesListTitle": "Countries",
-        "noCountriesFound": "No countries found matching your criteria."
+        "noCountriesFound": "No countries found matching your criteria.",
+        "alignmentTitle": "Country Alignment Data",
+        "alignmentSubtitle": "Explore how nations align with the 6 canonical demands of the Iranian people.",
+        "searchCountry": "Search country...",
+        "country": "Country"
     },
     "assetsPage": {
         "title": "Assets - IranArchive",
@@ -668,7 +679,13 @@
         "showFilters": "Filters",
         "lastUpdated": "Updated",
         "evidenceCount": "{count} evidence item | {count} evidence items",
-        "confidence": "Confidence"
+        "confidence": "Confidence",
+        "alignmentTitle": "Entities Directory",
+        "alignmentSubtitle": "Explore organizational and individual alignment to the 6 canonical demands.",
+        "searchEntity": "Search entity...",
+        "anyType": "Any Type",
+        "minOverallScore": "Min Overall Score",
+        "entity": "Entity"
     },
     "entityDetail": {
         "positionCard": "Position Card",

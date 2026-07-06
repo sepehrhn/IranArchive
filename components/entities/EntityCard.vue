@@ -16,7 +16,8 @@ const emit = defineEmits<{
 const { t, locale } = useI18n();
 
 const summary = computed(() => {
-    const s = props.entity.stance.summary;
+    const s = props.entity.stance.summary as string | { en?: string; fa?: string };
+    if (typeof s === 'string') return s;
     return (locale.value === 'fa' ? s.fa : s.en) || s.en || s.fa;
 });
 
@@ -35,7 +36,7 @@ const secondaryName = computed(() => {
 
 <template>
     <button
-        @click="emit('click', entity.slug)"
+        @click="emit('click', entity.slug || entity.id)"
         class="group w-full text-left bg-white dark:bg-surface-900 rounded-2xl border border-surface-200/60 dark:border-surface-800/60 p-5 hover:border-primary-300 dark:hover:border-primary-700 hover:shadow-lg hover:shadow-primary-500/5 transition-all duration-300 hover:-translate-y-0.5 focus:outline-none focus:ring-2 focus:ring-primary-500/30"
     >
         <!-- Top: Photo + Name -->

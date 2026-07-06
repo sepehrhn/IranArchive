@@ -6,309 +6,341 @@ import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 import yaml from 'js-yaml';
 
-const ajv = new Ajv();
+const ajv = new Ajv({ allErrors: true });
 addFormats(ajv);
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const rootDir = path.resolve(__dirname, '..');
+const schemasDir = path.join(rootDir, 'schemas');
+const dataDir = path.join(rootDir, 'data');
+const contentDir = path.join(rootDir, 'content');
 
-const schemasDir = path.resolve(__dirname, '../schemas');
-const dataDir = path.resolve(__dirname, '../data');
-
-// Load Schemas
-const incidentSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'incident.schema.json'), 'utf-8'));
-const evidenceSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'evidence.schema.json'), 'utf-8'));
-const victimSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'victim.schema.json'), 'utf-8'));
-const sourceSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'source.schema.json'), 'utf-8'));
+const legacyEvidenceSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'evidence.schema.json'), 'utf-8'));
+const legacyVictimSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'victim.schema.json'), 'utf-8'));
+const legacySourceSchema = JSON.parse(fs.readFileSync(path.join(schemasDir, 'source.schema.json'), 'utf-8'));
 const provinces = JSON.parse(fs.readFileSync(path.join(dataDir, 'provinces.json'), 'utf-8'));
 
-const validateIncident = ajv.compile(incidentSchema);
-const validateEvidence = ajv.compile(evidenceSchema);
-const validateVictim = ajv.compile(victimSchema);
-const validateSource = ajv.compile(sourceSchema);
-
-// Custom validators for i18n
-function validateEvidenceCustom(evidence, id) {
-  if (!evidence.type) throw new Error(`Evidence ${id} missing 'type'`);
-  if (!evidence.source_url) throw new Error(`Evidence ${id} missing 'source_url'`);
-  if (evidence.pii_risk && !['low', 'medium', 'high'].includes(evidence.pii_risk)) {
-    throw new Error(`Evidence ${id} invalid pii_risk`);
-  }
-  if (evidence.notes_i18n && typeof evidence.notes_i18n !== 'object') {
-    throw new Error(`Evidence ${id} invalid notes_i18n`);
-  }
-}
-
-function validateIncidentCustom(incident, id) {
-  const required = ['date_start', 'city', 'title', 'summary', 'status', 'evidence_ids'];
-  for (const field of required) {
-    if (!incident[field] && incident[field] !== 0) {
-      // Some specialized logic if needed, but for now assuming all required
-      // Note: check typescript definitions for strictness.
-      // throw new Error(`Incident ${id} missing required field: ${field}`); 
-      // The original script might have strict checks.
-    }
-  }
-
-  // Tags check removed
-  required.forEach(field => {
-    if (!incident[field]) throw new Error(`Incident ${id} missing '${field}'`);
-  });
-
-  if (incident.summary_i18n && typeof incident.summary_i18n !== 'object') {
-    throw new Error(`Incident ${id} invalid summary_i18n`);
-  }
-
-
-  if (!Array.isArray(incident.evidence_ids)) throw new Error(`Incident ${id} evidence_ids must be array`);
-}
+const validateLegacyEvidence = ajv.compile(legacyEvidenceSchema);
+const validateLegacyVictim = ajv.compile(legacyVictimSchema);
+const validateLegacySource = ajv.compile(legacySourceSchema);
 
 let hasErrors = false;
+let warnings = 0;
 
-// Store IDs for integrity check
-const incidentIds = new Set();
 const evidenceIds = new Set();
 const victimIds = new Set();
-const sourceIds = new Set();
+const incidentIds = new Set();
+const placeholderPatterns = [
+  /Title of the Incident/i,
+  /A brief summary of what happened/i,
+  /A detailed description of the incident/i,
+  /^Claim\s+\d+$/i,
+  /News Report Title/i,
+  /ev-YYYY/i
+];
 
-const incidentEvidenceRefs = new Map(); // incident_id -> [evidence_ids]
-const evidenceIncidentRefs = new Map(); // evidence_id -> incident_id
-const victimSourceRefs = new Map(); // victim_id -> [source_ids]
-const victimIncidentRefs = new Map(); // victim_id -> [{incident_id, supporting_sources}]
+function fail(message) {
+  console.error(message);
+  hasErrors = true;
+}
 
-// Validate Incidents
-const incidentsDir = path.join(dataDir, 'incidents');
-if (fs.existsSync(incidentsDir)) {
-  const files = fs.readdirSync(incidentsDir).filter(f => (f.endsWith('.yaml') || f.endsWith('.yml')) && f !== 'index.yaml');
-  for (const file of files) {
-    const content = yaml.load(fs.readFileSync(path.join(incidentsDir, file), 'utf-8'));
-    const valid = validateIncident(content);
-    if (!valid) {
-      console.error(`[INVALID] Incident ${file}:`, validateIncident.errors);
-      hasErrors = true;
+function warn(message) {
+  console.warn(message);
+  warnings += 1;
+}
+
+function isPlainObject(value) {
+  return value !== null && typeof value === 'object' && !Array.isArray(value);
+}
+
+function isNonEmptyString(value) {
+  return typeof value === 'string' && value.trim().length > 0;
+}
+
+function isUrl(value) {
+  return isNonEmptyString(value) && /^https?:\/\//i.test(value);
+}
+
+function collectStrings(value, out = []) {
+  if (typeof value === 'string') {
+    out.push(value);
+    return out;
+  }
+
+  if (Array.isArray(value)) {
+    value.forEach((item) => collectStrings(item, out));
+    return out;
+  }
+
+  if (isPlainObject(value)) {
+    Object.values(value).forEach((item) => collectStrings(item, out));
+  }
+
+  return out;
+}
+
+function hasPlaceholderText(value) {
+  return collectStrings(value).some((text) => placeholderPatterns.some((pattern) => pattern.test(text.trim())));
+}
+
+function reportPlaceholder(scope, id, value, status = 'verified') {
+  if (!hasPlaceholderText(value)) return;
+
+  const message = `[PLACEHOLDER] ${scope} ${id} contains starter-template placeholder text.`;
+  if (status === 'draft') {
+    warn(`[WARN] ${message}`);
+  } else {
+    fail(message);
+  }
+}
+
+function listFilesRecursive(dir, predicate, out = []) {
+  if (!fs.existsSync(dir)) return out;
+
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      listFilesRecursive(fullPath, predicate, out);
+    } else if (predicate(entry.name, fullPath)) {
+      out.push(fullPath);
+    }
+  }
+
+  return out;
+}
+
+function readYamlObject(filePath) {
+  try {
+    const parsed = yaml.load(fs.readFileSync(filePath, 'utf-8'));
+    if (!isPlainObject(parsed)) {
+      fail(`[INVALID_YAML] ${path.relative(rootDir, filePath)} must contain a YAML object.`);
+      return null;
+    }
+    return parsed;
+  } catch (error) {
+    fail(`[INVALID_YAML] ${path.relative(rootDir, filePath)}: ${error.message}`);
+    return null;
+  }
+}
+
+function readJsonObject(filePath) {
+  try {
+    const parsed = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+    if (!isPlainObject(parsed)) {
+      fail(`[INVALID_JSON] ${path.relative(rootDir, filePath)} must contain a JSON object.`);
+      return null;
+    }
+    return parsed;
+  } catch (error) {
+    fail(`[INVALID_JSON] ${path.relative(rootDir, filePath)}: ${error.message}`);
+    return null;
+  }
+}
+
+function validateAgainstSchema(filePath, data, validateFn, label) {
+  const valid = validateFn(data);
+  if (valid) return;
+
+  fail(`[INVALID] ${label} ${path.relative(rootDir, filePath)}: ${ajv.errorsText(validateFn.errors, { separator: '; ' })}`);
+}
+
+function validateVictimsYaml() {
+  const victimsDir = path.join(dataDir, 'victims');
+  const files = listFilesRecursive(victimsDir, (name) =>
+    (name.endsWith('.yaml') || name.endsWith('.yml')) && !name.endsWith('.example')
+  );
+
+  for (const filePath of files) {
+    const data = readYamlObject(filePath);
+    if (!data) continue;
+
+    const id = path.basename(filePath).replace(/\.(yaml|yml)$/i, '');
+    if (victimIds.has(id)) {
+      fail(`[DUPLICATE] Victim ID ${id} in ${path.relative(rootDir, filePath)}`);
+    }
+    victimIds.add(id);
+
+    if (!isNonEmptyString(data.name)) fail(`[INVALID] Victim ${id} missing required "name".`);
+    if (!isNonEmptyString(data.status)) fail(`[INVALID] Victim ${id} missing required "status".`);
+    if (data.source !== undefined && !Array.isArray(data.source) && !isNonEmptyString(data.source)) {
+      fail(`[INVALID] Victim ${id} "source" must be a URL string or array of URLs.`);
+    }
+    if (Array.isArray(data.source)) {
+      data.source.forEach((source, index) => {
+        if (!isUrl(source)) fail(`[INVALID] Victim ${id} source[${index}] must be an http(s) URL.`);
+      });
+    }
+    if (isNonEmptyString(data.source) && !isUrl(data.source)) {
+      fail(`[INVALID] Victim ${id} source must be an http(s) URL.`);
+    }
+    if (data.incident_province && !provinces.includes(data.incident_province)) {
+      fail(`[INVALID_PROVINCE] Victim ${id} has invalid incident_province: "${data.incident_province}"`);
+    }
+    if (data.birth_province && !provinces.includes(data.birth_province)) {
+      fail(`[INVALID_PROVINCE] Victim ${id} has invalid birth_province: "${data.birth_province}"`);
+    }
+  }
+}
+
+function validateEvidenceYaml() {
+  const evidencesDir = path.join(dataDir, 'evidences');
+  const files = listFilesRecursive(evidencesDir, (name) =>
+    (name.endsWith('.yaml') || name.endsWith('.yml')) && !name.endsWith('.example')
+  );
+
+  for (const filePath of files) {
+    const data = readYamlObject(filePath);
+    if (!data) continue;
+
+    const id = path.basename(filePath).replace(/\.(yaml|yml)$/i, '');
+    if (evidenceIds.has(id)) {
+      fail(`[DUPLICATE] Evidence ID ${id} in ${path.relative(rootDir, filePath)}`);
+    }
+    evidenceIds.add(id);
+
+    if (!['video', 'image', 'document', 'doc'].includes(data.type)) {
+      fail(`[INVALID] Evidence ${id} has invalid "type": ${data.type}`);
+    }
+    if (!isNonEmptyString(data.title)) fail(`[INVALID] Evidence ${id} missing required "title".`);
+    if (!isNonEmptyString(data.description)) fail(`[INVALID] Evidence ${id} missing required "description".`);
+    reportPlaceholder('Evidence', id, {
+      title: data.title,
+      description: data.description,
+      provenance: data.provenance,
+      corroboration: data.corroboration
+    }, 'verified');
+    if (!isNonEmptyString(data.file_path)) {
+      fail(`[INVALID] Evidence ${id} missing required "file_path".`);
     } else {
-      if (incidentIds.has(content.incident_id)) {
-        console.error(`[DUPLICATE] Incident ID ${content.incident_id} in ${file}`);
-        hasErrors = true;
-      }
-      incidentIds.add(content.incident_id);
-      incidentEvidenceRefs.set(content.incident_id, content.evidence_ids || []);
-
-      try {
-        validateIncidentCustom(content, content.incident_id);
-      } catch (e) {
-        console.error(`[INVALID] Incident ${file}:`, e.message);
-        hasErrors = true;
-      }
-
-      if (content.province && !provinces.includes(content.province)) {
-        console.error(`[INVALID_PROVINCE] Incident ${file} has invalid province: "${content.province}"`);
-        hasErrors = true;
+      const mediaPath = path.join(evidencesDir, data.file_path);
+      if (!fs.existsSync(mediaPath)) {
+        fail(`[MISSING_FILE] Evidence ${id} points to missing media file: ${data.file_path}`);
       }
     }
+    if (!isPlainObject(data.provenance)) {
+      fail(`[INVALID] Evidence ${id} missing required "provenance" object.`);
+    } else if (data.provenance.first_published_url && !isUrl(data.provenance.first_published_url)) {
+      fail(`[INVALID] Evidence ${id} provenance.first_published_url must be an http(s) URL.`);
+    }
+    if (!isPlainObject(data.corroboration)) fail(`[INVALID] Evidence ${id} missing required "corroboration" object.`);
+    if (!isPlainObject(data.technical)) warn(`[WARN] Evidence ${id} missing optional "technical" object.`);
+    if (typeof data.content_warning !== 'boolean') fail(`[INVALID] Evidence ${id} "content_warning" must be true or false.`);
   }
 }
 
-// Validate Evidence
-const evidenceDir = path.join(dataDir, 'evidence');
-if (fs.existsSync(evidenceDir)) {
-  const files = fs.readdirSync(evidenceDir).filter(f => f.endsWith('.json'));
-  for (const file of files) {
-    const content = JSON.parse(fs.readFileSync(path.join(evidenceDir, file), 'utf-8'));
-    const valid = validateEvidence(content);
-    if (!valid) {
-      console.error(`[INVALID] Evidence ${file}:`, validateEvidence.errors);
-      hasErrors = true;
+function validateIncidentsYaml() {
+  const incidentsDir = path.join(dataDir, 'incidents');
+  const files = listFilesRecursive(incidentsDir, (name) =>
+    (name.endsWith('.yaml') || name.endsWith('.yml')) && !name.endsWith('.example')
+  );
+
+  for (const filePath of files) {
+    const data = readYamlObject(filePath);
+    if (!data) continue;
+
+    const id = path.basename(filePath).replace(/\.(yaml|yml)$/i, '');
+    if (incidentIds.has(id)) {
+      fail(`[DUPLICATE] Incident ID ${id} in ${path.relative(rootDir, filePath)}`);
+    }
+    incidentIds.add(id);
+
+    if (!['draft', 'not_verified', 'disputed', 'verified'].includes(data.status)) {
+      fail(`[INVALID] Incident ${id} has invalid "status": ${data.status}`);
+    }
+    if (!isPlainObject(data.occurred_at) || !isNonEmptyString(data.occurred_at.start)) {
+      fail(`[INVALID] Incident ${id} missing required "occurred_at.start".`);
+    }
+    if (!isPlainObject(data.location)) {
+      fail(`[INVALID] Incident ${id} missing required "location" object.`);
     } else {
-      try {
-        validateEvidenceCustom(content, content.evidence_id);
-      } catch (e) {
-        console.error(`[INVALID] Evidence ${file}:`, e.message);
-        hasErrors = true;
+      if (!isNonEmptyString(data.location.country)) fail(`[INVALID] Incident ${id} missing "location.country".`);
+      if (data.location.province && !provinces.includes(data.location.province)) {
+        fail(`[INVALID_PROVINCE] Incident ${id} has invalid province: "${data.location.province}"`);
       }
-
-      if (evidenceIds.has(content.evidence_id)) {
-        console.error(`[DUPLICATE] Evidence ID ${content.evidence_id} in ${file}`);
-        hasErrors = true;
-      }
-      evidenceIds.add(content.evidence_id);
-      evidenceIncidentRefs.set(content.evidence_id, content.incident_id);
+    }
+    if (!isNonEmptyString(data.title)) fail(`[INVALID] Incident ${id} missing required "title".`);
+    if (!isNonEmptyString(data.summary)) fail(`[INVALID] Incident ${id} missing required "summary".`);
+    reportPlaceholder('Incident', id, {
+      title: data.title,
+      summary: data.summary,
+      narrative: data.narrative,
+      key_claims: data.key_claims,
+      sources: data.sources,
+      evidence_ids: data.evidence_ids,
+      timeline: data.timeline
+    }, data.status);
+    if (data.evidence_ids !== undefined && !Array.isArray(data.evidence_ids)) {
+      fail(`[INVALID] Incident ${id} "evidence_ids" must be an array.`);
+    }
+    if (Array.isArray(data.evidence_ids)) {
+      data.evidence_ids.forEach((evidenceId) => {
+        if (!evidenceIds.has(evidenceId)) {
+          fail(`[MISSING_LINK] Incident ${id} references missing evidence ${evidenceId}`);
+        }
+      });
+    }
+    if (data.sources !== undefined && !Array.isArray(data.sources)) {
+      fail(`[INVALID] Incident ${id} "sources" must be an array.`);
     }
   }
 }
 
-// Validate Sources
-const sourcesDir = path.join(dataDir, 'sources');
-if (fs.existsSync(sourcesDir)) {
-  const files = fs.readdirSync(sourcesDir).filter(f => f.endsWith('.json'));
-  for (const file of files) {
-    const content = JSON.parse(fs.readFileSync(path.join(sourcesDir, file), 'utf-8'));
-    const valid = validateSource(content);
-    if (!valid) {
-      console.error(`[INVALID] Source ${file}:`, validateSource.errors);
-      hasErrors = true;
-    } else {
-      if (sourceIds.has(content.id)) {
-        console.error(`[DUPLICATE] Source ID ${content.id} in ${file}`);
-        hasErrors = true;
-      }
-      sourceIds.add(content.id);
-      if (!content.archive_url) {
-        console.warn(`[WARN] Source ${file} missing archive_url`);
-      }
+function validateLegacyJsonDirectories() {
+  const legacyEvidenceDir = path.join(dataDir, 'evidence');
+  const legacySourcesDir = path.join(dataDir, 'sources');
+  const victimsDir = path.join(dataDir, 'victims');
+
+  for (const filePath of listFilesRecursive(legacyEvidenceDir, (name) => name.endsWith('.json'))) {
+    const data = readJsonObject(filePath);
+    if (data) validateAgainstSchema(filePath, data, validateLegacyEvidence, 'Legacy evidence');
+  }
+
+  for (const filePath of listFilesRecursive(legacySourcesDir, (name) => name.endsWith('.json'))) {
+    const data = readJsonObject(filePath);
+    if (data) {
+      validateAgainstSchema(filePath, data, validateLegacySource, 'Legacy source');
+      if (!data.archive_url) warn(`[WARN] Source ${path.relative(rootDir, filePath)} missing archive_url`);
+    }
+  }
+
+  for (const filePath of listFilesRecursive(victimsDir, (name) => name.endsWith('.json'))) {
+    const data = readJsonObject(filePath);
+    if (!data) continue;
+
+    validateAgainstSchema(filePath, data, validateLegacyVictim, 'Legacy victim');
+    const slugFromFilename = path.basename(filePath, '.json');
+    if (data.slug !== slugFromFilename) {
+      fail(`[MISMATCH] Victim slug ${data.slug} does not match filename ${path.basename(filePath)}`);
     }
   }
 }
 
-// Validate Victims
-const victimsDir = path.join(dataDir, 'victims');
-if (fs.existsSync(victimsDir)) {
-  const files = fs.readdirSync(victimsDir).filter(f => f.endsWith('.json'));
-  for (const file of files) {
-    const content = JSON.parse(fs.readFileSync(path.join(victimsDir, file), 'utf-8'));
-    const valid = validateVictim(content);
+function validateContentDocs() {
+  console.log('Validating content docs...');
+  const files = listFilesRecursive(contentDir, (name) => name.endsWith('.md') || name.endsWith('.mdx'));
 
-    // Slug match check
-    const slugFromFilename = file.replace('.json', '');
-    if (content.slug !== slugFromFilename) {
-      console.error(`[MISMATCH] Victim slug ${content.slug} does not match filename ${file}`);
-      hasErrors = true;
-    }
-
-    if (!valid) {
-      console.error(`[INVALID] Victim ${file}:`, validateVictim.errors);
-      hasErrors = true;
-    } else {
-      if (victimIds.has(content.id)) {
-        console.error(`[DUPLICATE] Victim ID ${content.id} in ${file}`);
-        hasErrors = true;
-      }
-      victimIds.add(content.id);
-      victimSourceRefs.set(content.id, content.sources || []);
-
-      if (content.incident_links) {
-        victimIncidentRefs.set(content.id, content.incident_links);
-      }
-
-      const p = content.death?.location?.province;
-      if (p && !provinces.includes(p)) {
-        console.error(`[INVALID_PROVINCE] Victim ${file} has invalid province: "${p}"`);
-        hasErrors = true;
-      }
+  for (const filePath of files) {
+    const content = fs.readFileSync(filePath, 'utf-8');
+    const parsed = matter(content);
+    const body = parsed.content.trim();
+    if (!body) fail(`[INVALID_CONTENT] ${path.relative(rootDir, filePath)} is empty.`);
+    if (parsed.data.url && !isUrl(parsed.data.url)) {
+      fail(`[INVALID_CONTENT] ${path.relative(rootDir, filePath)} frontmatter url must be an http(s) URL.`);
     }
   }
 }
 
-// Check Integrity
-// 1. Check if all evidence_ids referenced in incidents exist
-for (const [incId, evIds] of incidentEvidenceRefs) {
-  for (const evId of evIds) {
-    if (!evidenceIds.has(evId)) {
-      console.error(`[MISSING_LINK] Incident ${incId} references missing evidence ${evId}`);
-      hasErrors = true;
-    }
-  }
-}
-
-// 2. Check if all incident_ids referenced in evidence exist
-for (const [evId, incId] of evidenceIncidentRefs) {
-  if (!incidentIds.has(incId)) {
-    console.error(`[MISSING_LINK] Evidence ${evId} references missing incident ${incId}`);
-    hasErrors = true;
-  }
-
-  // Strict bidirectional check:
-  const incidentRefs = incidentEvidenceRefs.get(incId);
-  if (!incidentRefs || !incidentRefs.includes(evId)) {
-    console.error(`[MISSING_LINK] Evidence ${evId} points to Incident ${incId}, but Incident does not list it.`);
-    hasErrors = true;
-  }
-}
-
-// 3. Check Victim -> Source links
-for (const [vicId, srcIds] of victimSourceRefs) {
-  for (const srcId of srcIds) {
-    if (!sourceIds.has(srcId)) {
-      console.error(`[MISSING_LINK] Victim ${vicId} references missing source ${srcId}`);
-      hasErrors = true;
-    }
-  }
-}
-
-// 4. Check Victim -> Incident links and supporting sources
-for (const [vicId, links] of victimIncidentRefs) {
-  for (const link of links) {
-    if (!incidentIds.has(link.incident_id)) {
-      console.error(`[MISSING_LINK] Victim ${vicId} references missing incident ${link.incident_id}`);
-      hasErrors = true;
-    }
-    for (const srcId of link.supporting_sources) {
-      if (!sourceIds.has(srcId)) {
-        console.error(`[MISSING_LINK] Victim ${vicId} incident link references missing source ${srcId}`);
-        hasErrors = true;
-      }
-    }
-  }
-}
-
-// --- Validate Content Collections (Articles & Resources) ---
-console.log('Validating content collections...');
-const contentDir = path.join(__dirname, '../src/content');
-const articlesDir = path.join(contentDir, 'articles');
-const resourcesDir = path.join(contentDir, 'resources');
-
-// Validate Articles
-if (fs.existsSync(articlesDir)) {
-  const articleFiles = fs.readdirSync(articlesDir).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
-  articleFiles.forEach(file => {
-    const content = fs.readFileSync(path.join(articlesDir, file), 'utf-8');
-    const { data } = matter(content);
-
-    if (!data.title) {
-      console.error(`[INVALID_ARTICLE] ${file} missing 'title'`);
-      hasErrors = true;
-    }
-    if (!data.date) {
-      console.error(`[INVALID_ARTICLE] ${file} missing 'date'`);
-      hasErrors = true;
-    }
-    if (!data.summary) {
-      console.error(`[INVALID_ARTICLE] ${file} missing 'summary'`);
-      hasErrors = true;
-    }
-    if (!data.language || !['en', 'fa'].includes(data.language)) {
-      console.error(`[INVALID_ARTICLE] ${file} invalid or missing 'language' (must be 'en' or 'fa')`);
-      hasErrors = true;
-    }
-  });
-}
-
-// Validate Resources
-if (fs.existsSync(resourcesDir)) {
-  const resourceFiles = fs.readdirSync(resourcesDir).filter(f => f.endsWith('.md') || f.endsWith('.mdx'));
-  resourceFiles.forEach(file => {
-    const content = fs.readFileSync(path.join(resourcesDir, file), 'utf-8');
-    const { data } = matter(content);
-
-    if (!data.title) {
-      console.error(`[INVALID_RESOURCE] ${file} missing 'title'`);
-      hasErrors = true;
-    }
-    if (!data.url) {
-      console.error(`[INVALID_RESOURCE] ${file} missing 'url'`);
-      hasErrors = true;
-    }
-    // Simple URL regex check
-    if (data.url && !/^https?:\/\//.test(data.url)) {
-      console.error(`[INVALID_RESOURCE] ${file} 'url' must start with http:// or https://`);
-      hasErrors = true;
-    }
-  });
-}
+console.log('Validating live YAML data...');
+validateVictimsYaml();
+validateEvidenceYaml();
+validateIncidentsYaml();
+validateLegacyJsonDirectories();
+validateContentDocs();
 
 if (hasErrors) {
-  console.error("Validation FAILED");
+  console.error('Validation FAILED');
   process.exit(1);
-} else {
-  console.log("Validation SUCCESS");
-  process.exit(0);
 }
+
+console.log(`Validation SUCCESS${warnings > 0 ? ` with ${warnings} warning(s)` : ''}`);
+process.exit(0);

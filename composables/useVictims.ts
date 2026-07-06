@@ -21,7 +21,7 @@ export const useVictims = () => {
             try {
                 // GitHub Pages serves extension-less files as application/octet-stream.
                 // Force text response and parse manually to avoid empty lists in production.
-                const raw = await $fetch<string>('/api/victims', { responseType: 'text' });
+                const raw = await $fetch('/api/victims', { responseType: 'text' as any }) as string;
                 const loadedVictims = JSON.parse(raw) as unknown;
                 victimsData.value = Array.isArray(loadedVictims) ? (loadedVictims as Victim[]) : [];
 

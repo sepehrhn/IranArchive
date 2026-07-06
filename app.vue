@@ -1,9 +1,5 @@
 <script setup lang="ts">
-const head = useLocaleHead({
-    addDirAttribute: true,
-    identifierAttribute: 'id',
-    addSeoAttributes: true
-})
+const head = useLocaleHead()
 </script>
 
 <template>

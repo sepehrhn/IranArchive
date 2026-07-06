@@ -4,9 +4,9 @@ The Iran Archive Events calendar is a community-driven effort to track global so
 
 ## How to Submit
 
-### Option 1: Tag us on 𝕏 (Twitter)
+### Option 1: Tag us on X
 
-Tag our 𝕏 page [@Iran_Archive](https://x.com/Iran_Archive) on your event announcement on 𝕏.
+Tag [@Iran_Archive](https://x.com/Iran_Archive) on your event announcement on X.
 
 ### Option 2: Email
 
