@@ -1,4 +1,3 @@
-# https://nuxt.com/docs/getting-started/deployment#github-pages
 name: Deploy to GitHub Pages
 
 on:
@@ -13,57 +12,24 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: npm
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Validate and build
-        run: npm run check
-        env:
-          NODE_OPTIONS: --max-old-space-size=6144
-          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
-          NUXT_PUBLIC_MEDIA_REPO_OWNER: ${{ github.repository_owner }}
-          NUXT_PUBLIC_MEDIA_REPO_NAME: ${{ github.event.repository.name }}
-          NUXT_PUBLIC_MEDIA_REPO_REF: ${{ github.ref_name }}
-          NUXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ secrets.NUXT_PUBLIC_TURNSTILE_SITE_KEY }}
-          NUXT_PUBLIC_SUBMISSION_API_BASE: ${{ secrets.NUXT_PUBLIC_SUBMISSION_API_BASE }}
-
-      - name: Verify build output
-        run: |
-          if [ ! -d ".output/public" ]; then
-            echo "Error: .output/public directory not found!"
-            exit 1
-          fi
-          echo "Build output contents:"
-          ls -la .output/public
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./.output/public
-
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
-    needs: build
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
