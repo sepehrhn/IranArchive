@@ -109,3 +109,9 @@ update_geojson.js
 verify_api.js
 debug_image_download.ts
 debug_image.png
+
+# Generated incident catalogue
+!scripts/expand-incident-batch.js
+!scripts/generate-incident-catalog.js
+data/incident-batches/2026-verified-incidents.json
+data/incidents/generated/
