@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "@googlemaps/js-api-loader": "^2.0.2",
-    "@nuxtjs/color-mode": "latest",
     "@nuxtjs/i18n": "latest",
     "@nuxtjs/tailwindcss": "latest",
     "@primevue/themes": "latest",

@@ -218,7 +218,6 @@ onUnmounted(() => {
                             <ClientOnly>
                                 <div class="flex items-center gap-4 font-bold text-surface-400 dark:text-surface-500 tracking-[0.2em] uppercase" :class="locale === 'fa' ? 'text-xs' : 'text-[10px]'">
                                     <LanguageSwitcher class="hover:text-primary-500 transition-all hover:scale-110 cursor-pointer" />
-                                    <ThemeToggle class="hover:text-primary-500 transition-all hover:scale-110 cursor-pointer" />
                                     <a href="https://x.com/IranArchive" target="_blank" class="flex items-center hover:text-primary-500 transition-all hover:scale-110">
                                         <i class="pi pi-twitter text-lg"></i>
                                     </a>
@@ -350,7 +349,6 @@ onUnmounted(() => {
                         <div class="flex items-center gap-2 md:hidden">
                             <ClientOnly>
                                 <LanguageSwitcher />
-                                <ThemeToggle />
                             </ClientOnly>
                             <Button icon="pi pi-bars" text rounded aria-label="Menu" @click="mobileMenuOpen = true" class="!w-10 !h-10 hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all hover:scale-105" />
                         </div>

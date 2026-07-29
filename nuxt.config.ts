@@ -115,7 +115,6 @@ export default defineNuxtConfig({
     modules: [
         '@primevue/nuxt-module',
         '@nuxtjs/tailwindcss',
-        '@nuxtjs/color-mode',
         '@nuxtjs/i18n'
     ],
 
@@ -130,13 +129,6 @@ export default defineNuxtConfig({
             ripple: true
         },
         autoImport: true
-    },
-
-    colorMode: {
-        classSuffix: '',
-        preference: 'system',
-        fallback: 'light',
-        dataValue: 'theme'
     },
 
     i18n: {

@@ -64,7 +64,6 @@ const copy = computed(() => {
         dayShort: 'd',
         hourShort: 'h',
         minuteShort: 'm',
-        totalDuration: 'Total public blackout duration',
         phaseOne: 'Phase 1 — near-total protest shutdown',
         phaseOneDates: 'Jan 8, 16:30 UTC → Jan 27, ~12:00 UTC',
         interimPhase: 'Phase 2 — whitelisted access',
@@ -127,7 +126,6 @@ const copy = computed(() => {
         dayShort: 'روز',
         hourShort: 'ساعت',
         minuteShort: 'دقیقه',
-        totalDuration: 'کل مدت خاموشی دیجیتال عمومی',
         phaseOne: 'فاز ۱ — قطعی تقریباً کامل اعتراضات',
         phaseOneDates: '۸ ژانویه، ۱۶:۳۰ UTC ← ۲۷ ژانویه، حدود ۱۲:۰۰ UTC',
         interimPhase: 'فاز ۲ — دسترسی مبتنی بر فهرست سفید',
@@ -195,13 +193,6 @@ const formatTwoDigits = (value: number) => pn(String(value).padStart(2, '0'))
                 <p class="blackout-report__summary">{{ copy.summary }}</p>
             </div>
 
-            <div class="blackout-report__total">
-                <span>{{ copy.totalDuration }}</span>
-                <strong dir="ltr">
-                    {{ pn(totalBlackoutDuration.days) }}
-                    <small>{{ copy.dayShort }}</small>
-                </strong>
-            </div>
         </header>
 
         <div class="blackout-report__clock" dir="ltr">
@@ -349,9 +340,6 @@ const formatTwoDigits = (value: number) => pn(String(value).padStart(2, '0'))
 }
 
 .blackout-report__header {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.42fr);
-    gap: 3rem;
     padding: clamp(1.5rem, 4vw, 3rem);
     border-bottom: 1px solid var(--report-line);
 }
@@ -393,43 +381,6 @@ const formatTwoDigits = (value: number) => pn(String(value).padStart(2, '0'))
     margin: 1.4rem 0 0;
     color: var(--report-muted);
     line-height: 1.7;
-}
-
-.blackout-report__total {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    padding-inline-start: 1.5rem;
-    border-inline-start: 1px solid var(--report-line);
-}
-
-.blackout-report__total > span {
-    color: var(--report-muted);
-    font-size: 0.65rem;
-    font-weight: 800;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-}
-
-.blackout-report__total strong {
-    display: flex;
-    align-items: baseline;
-    gap: 0.45rem;
-    margin-top: 1.2rem;
-    font-family: 'Newsreader', Georgia, serif;
-    font-size: clamp(5rem, 9vw, 8rem);
-    font-weight: 500;
-    letter-spacing: -0.07em;
-    line-height: 0.8;
-}
-
-.blackout-report__total small {
-    color: var(--report-red);
-    font-family: Inter, sans-serif;
-    font-size: 0.75rem;
-    font-weight: 900;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
 }
 
 .blackout-report__clock {
@@ -720,23 +671,16 @@ const formatTwoDigits = (value: number) => pn(String(value).padStart(2, '0'))
 }
 
 @media (max-width: 900px) {
-    .blackout-report__header,
     .blackout-report__body,
     .blackout-precedent {
         grid-template-columns: 1fr;
     }
 
-    .blackout-report__total,
     .blackout-timeline,
     .blackout-precedent__image {
         padding-inline-start: 0;
         border-inline-start: 0;
         border-inline-end: 0;
-    }
-
-    .blackout-report__total {
-        padding-top: 1.5rem;
-        border-top: 1px solid var(--report-line);
     }
 
     .blackout-timeline {

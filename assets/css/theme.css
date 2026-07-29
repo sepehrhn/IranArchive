@@ -1,4 +1,6 @@
 :root {
+    color-scheme: dark;
+
     /* Primitive Colors (Internal use) */
     /* Zinc Palette for True Black/Neutral Dark Mode */
     --p-zinc-50: #fafafa;
@@ -25,30 +27,6 @@
     --p-primary-800: #92400e !important;
     --p-primary-900: #78350f !important;
     --p-primary-950: #451a03 !important;
-}
-
-[data-theme="light"] {
-    /* Semantic Tokens */
-    --bg: var(--p-zinc-50);
-    --surface-1: #ffffff;
-    /* Cards, Panels */
-    --surface-2: var(--p-zinc-50);
-    /* Backgrounds */
-    --text: var(--p-zinc-900);
-    --muted: var(--p-zinc-500);
-    --border: var(--p-zinc-200);
-
-    --primary: var(--p-primary-600);
-    --primary-contrast: #ffffff;
-
-    --danger: #ef4444;
-    --warning: #f59e0b;
-    --success: #10b981;
-    --info: #3b82f6;
-
-    --focus-ring: 0 0 0 2px var(--p-zinc-50), 0 0 0 4px var(--p-primary-500);
-    --shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
-    --overlay: rgba(0, 0, 0, 0.4);
 }
 
 [data-theme="dark"] {
