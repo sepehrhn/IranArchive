@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Spontaneous Iran Solidarity Gathering"
+featured: false
+
+description: |
+  Potential informal gathering due to ongoing uprising and recent diplomatic tensions; no official call found. | Tips: Check local Instagram tags on the day. Do not confuse with the Palestine vigil at Waagplein.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  # start_time: "14:00"
+
+location:
+  country: "NL"
+  city: "Groningen"
+  address: "Grote Markt, Groningen - Common gathering spot for spontaneous protests"
+
+online: []
+
+organizer:
+  name: "Local Iranian Diaspora (Unconfirmed)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

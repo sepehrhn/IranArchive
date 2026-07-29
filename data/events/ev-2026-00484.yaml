@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Grand Rally for Regime Change & Support for the Uprising"
+featured: false
+
+description: |
+  A major weekly solidarity rally (recurring on Sundays) calling for the fall of the Islamic Republic and supporting the protesters inside Iran. Demands include the expulsion of Iranian regime diplomats from Belgium/EU and the full implementation of the IRGC terrorist designation. Expect a large crowd with pre-1979 flags (Lion and Sun) and slogans against both the theocracy and dictatorship. | Tips: This has been the main location for large-scale Sunday rallies (e.g., the 15,000-person march on Jan 25). Dress warmly. Security presence is usually high but the atmosphere is peaceful.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  start_time: "14:00-17:00"
+
+location:
+  country: "BE"
+  city: "Brussels"
+  address: "Place Schuman (Schuman Roundabout) - In front of the European Commission/Council institutions. Metro: Schuman."
+
+online: []
+
+organizer:
+  name: "Iranian Diaspora Collectives / Coalition of Independent Associations"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Solidarity Protest (Unconfirmed)"
+featured: false
+
+description: |
+  While no specific announcement was found for this Saturday, JFK Memorial Plaza has been the site of recurring rallies (e.g., Feb 14, 2026) by independent groups like IranzVoiceDFW and Woman Life Freedom DFW. Activists often gather here on weekends to protest the crackdown. | Tips: Check 'IranzVoiceDFW' or 'Woman Life Freedom DFW' social media for last-minute announcements regarding street actions.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  # start_time: "14:00"
+
+location:
+  country: "US"
+  city: "Dallas"
+  address: "John F. Kennedy Memorial Plaza - 646 Main St, Dallas, TX 75202 (Common gathering point)"
+
+online: []
+
+organizer:
+  name: "Grassroots / Independent Activists"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

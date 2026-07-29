@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Stop the Bloodshed Vigil"
+featured: false
+
+description: |
+  Static demonstration protesting the lethal crackdown and mass detentions. Following the ban on direct embassy marches in Jan 2026, groups now gather at the nearby intersection with LED screens or banners visible to embassy staff. Focus is on human rights violations and the recent 'luggage seizure' incident. | Tips: Do not attempt to cross police barriers at the embassy perimeter. This location is residential; noise restrictions may apply.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "14:00-16:00"
+
+location:
+  country: "NL"
+  city: "The Hague"
+  address: "Near Iranian Embassy (Duinweg / Hogeweg) - Intersection of Duinweg and Hogeweg (Scheveningen). Police often cordon off the area directly in front of the embassy (Duinweg 20)."
+
+online: []
+
+organizer:
+  name: "Amnesty International / Local Activists"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Solidarity Rally for Student Uprising"
+featured: false
+
+description: |
+  A rally in solidarity with the 'second wave' of protests that began in Iranian universities on Feb 21. Participants often carry the 'Lion and Sun' flag. Expect speeches condemning the January massacres and calls for the expulsion of the Iranian ambassador following the recent diplomatic luggage dispute. | Tips: Dress warmly; recent protests have faced cold weather. Police presence is likely due to high diplomatic tensions.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "13:00-16:00"
+
+location:
+  country: "NL"
+  city: "The Hague"
+  address: "Malieveld (Koekamp) - Central grassy field near Den Haag Centraal station. Often a gathering point before marching to the Embassy."
+
+online: []
+
+organizer:
+  name: "Coalition of Iranian Diaspora / Pro-Pahlavi Groups"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

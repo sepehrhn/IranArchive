@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Solidarity Rally for Iran"
+featured: false
+
+description: |
+  A recurring grassroots gathering to support the uprising in Iran, condemn the execution of protesters, and call for regime change. Participants wave the Lion and Sun flag and hold signs in English and Persian. | Tips: This is the most consistent location for 'Woman Life Freedom' protests in San Diego. Bring flags and signs. Parking is available in the adjacent shopping center lots (Target/Home Depot), but park away from the immediate front to avoid towing risks.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "14:00-16:00"
+
+location:
+  country: "US"
+  city: "San Diego"
+  address: "Intersection of Balboa Ave & Genesee Ave, San Diego, CA 92117 - Protesters typically gather on the sidewalks near the Home Depot/Target parking lot corners."
+
+online: []
+
+organizer:
+  name: "Action For Iran / Iranians of San Diego (Grassroots)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

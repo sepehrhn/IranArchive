@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Solidarity Rally with Iran Uprising"
+featured: false
+
+description: |
+  Likely continuation of the weekly/bi-weekly solidarity rallies supporting the 2026 uprising. Recent protests have demanded the expulsion of Iranian diplomats and supported the 'Woman, Life, Freedom' movement. Participants often chant 'Down with Dictators' and carry pre-1979 flags. | Tips: Wear warm clothes as events are outdoors. Bring signs related to the 'Jan 2026 Crackdown' or 'Woman, Life, Freedom'. Check local social media for last-minute time changes.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "12:00-14:00"
+
+location:
+  country: "IE"
+  city: "Dublin"
+  address: "The Spire, O'Connell Street - GPO, O'Connell Street Lower, Dublin 1"
+
+online: []
+
+organizer:
+  name: "Iran Solidarity Protest (Grassroots/Diaspora)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

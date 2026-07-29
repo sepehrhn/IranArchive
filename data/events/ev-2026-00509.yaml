@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Solidarity Rally (Recurring)"
+featured: false
+
+description: |
+  Weekly gathering to support the Iranian people's uprising and demand justice for victims of the crackdown. | Tips: Check 'Woman Life Freedom Toronto' social media pages for last-minute confirmations.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  start_time: "13:00-15:00"
+
+location:
+  country: "CA"
+  city: "Toronto"
+  address: "Sankofa Square (formerly Yonge-Dundas Square) - Downtown Toronto, intersection of Yonge and Dundas."
+
+online: []
+
+organizer:
+  name: "Local Activists / PS752 Justice Supporters"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYMH2OZ688kqNURWYKzgItNguZnl8x4t8Yf92R6Z5NHCvm229yj662KV2RlkO3NXtQ4mJoSMTL4w3RuOXvp75KvpFP5m5vgLRuBu-kp0g0V-z49UnYDNlPqp1axA_26ab2Zw=="

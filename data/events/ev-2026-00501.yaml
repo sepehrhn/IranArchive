@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Solidarity Rally with the Iranian People"
+featured: false
+
+description: |
+  Recurring Sunday demonstration to condemn the January massacres and support the renewed university uprisings in Iran. Participants often march or hold a stationary rally with portraits of victims. | Tips: Sunday gatherings have been consistent ('comme chaque dimanche'). Expect speeches in French and Persian.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  start_time: "15:00-17:00"
+
+location:
+  country: "FR"
+  city: "Paris"
+  address: "Place de la République or Trocadéro - Central statue or Human Rights Parvis; check local telegram channels for last-minute confirmation."
+
+online: []
+
+organizer:
+  name: "Collective of Independent Iranian Associations (e.g., Iran Justice, Collectif Roja)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFN0Yj2BcjJ3OLltBIsayVbrafjnR_-4slsyFcQp9pjA3Otz2TxLHxCzMltHUfTwUhY3buVw-tWqKZ7XupoRPTTQVPcFv2fxTHDyVtUej7Lafuf1konu-H7uUop4rIg5ZVk9aJ7Hg=="

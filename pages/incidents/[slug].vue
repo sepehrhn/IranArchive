@@ -6,7 +6,7 @@
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 mt-8">
         <!-- Main Content Column (Left/Center) -->
-        <div class="lg:col-span-8 space-y-12">
+        <div class="lg:col-span-8 space-y-10">
             
             <!-- Key Claims & Narrative -->
             <section>
@@ -15,7 +15,7 @@
                 </div>
                 
                 <div class="prose dark:prose-invert max-w-none mb-6">
-                    <p class="lead text-lg">{{ incident.narrative }}</p>
+                    <p>{{ incident.narrative }}</p>
                 </div>
 
                 <div class="bg-surface-50 dark:bg-surface-900 rounded-lg p-6 border-l-4 border-primary-500">
@@ -25,11 +25,13 @@
                     </ul>
                 </div>
 
-                <div v-if="incident.limitations.length" class="mt-6">
-                    <Accordion>
-                        <AccordionPanel value="limitations">
-                           <AccordionHeader>Limitations & Unknowns</AccordionHeader>
-                           <AccordionContent>
+                <div v-if="incident.limitations.length" class="mt-8">
+                    <Accordion :pt="{ root: { class: '!bg-transparent !border-none' } }">
+                        <AccordionPanel value="limitations" :pt="{ root: { class: '!border-none' } }">
+                           <AccordionHeader :pt="{ root: { class: '!bg-surface-100 dark:!bg-surface-800 !border-none rounded-lg' } }">
+                                <span class="font-semibold text-surface-600 dark:text-surface-300">Limitations</span>
+                           </AccordionHeader>
+                           <AccordionContent :pt="{ content: { class: '!bg-transparent !dark:bg-transparent' } }">
                                <ul class="list-disc list-inside space-y-1 mb-4">
                                    <li v-for="(lim, idx) in incident.limitations" :key="idx">{{ lim }}</li>
                                </ul>
@@ -40,11 +42,7 @@
             </section>
 
              <!-- Evidence Gallery -->
-            <section id="evidence">
-                 <div class="flex items-center justify-between mb-4">
-                    <h2 class="text-2xl font-bold">Evidence Gallery</h2>
-                    <Badge :value="incident.evidence.length" severity="secondary" />
-                </div>
+            <section id="evidence" v-if="incident.evidence?.length > 0">
                 <IncidentsEvidenceGallery :evidence="incident.evidence" />
             </section>
 
@@ -77,9 +75,10 @@
                 </template>
             </Card>
 
+
             <!-- Verification Status -->
              <section>
-                 <IncidentsVerificationBlock :incident="incident" />
+                 <IncidentsVerificationBlock :incident="incident" mode="status" />
              </section>
 
             <!-- Timeline -->
@@ -87,6 +86,11 @@
                  <h2 class="text-xl font-bold mb-4">Timeline</h2>
                  <IncidentsTimelineBlock :events="incident.timeline" @view-evidence="scrollToEvidence" />
             </section>
+
+            <!-- Review History -->
+             <section>
+                 <IncidentsVerificationBlock :incident="incident" mode="history" />
+             </section>
 
         </div>
       </div>
@@ -119,16 +123,63 @@ const showSubmitModal = ref(false);
 
 const { data: incident, pending, error } = await useAsyncData<Incident>(`incident-${slug}`, async () => {
   try {
-    // In a real app, this might fetch from an API or a content module.
-    // Here we import the JSON directly based on the slug.
-    return await import(`~/data/incidents/${slug}.json`);
+    // Glob import all yaml files in data/incidents recursively
+    const incidents = import.meta.glob('~/data/incidents/**/*.yaml');
+    
+    // Find the file that matches the slug. 
+    // We assume slugs are unique across all folders.
+    // The key is the path, e.g., "../data/incidents/2026/01/incident.yaml"
+    const matchPath = Object.keys(incidents).find(path => {
+       // We'll have to lazy load to check the slug, or rely on filename? 
+       // The user request implies the slug is inside the file.
+       // However, loading ALL files to check slug is expensive.
+       // But wait, earlier code assumed filename matches slug? 
+       // "Import YAML directly based on the slug." -> return await import(`~/data/incidents/${slug}.yaml`);
+       // The new structure is date based. "martial-law-karaj-jan2026" is the slug, but file is "incident.yaml" inside "2026/01".
+       // This implies I can't find it easily by filename unless the filename IS the slug.
+       // But the user said: "Refactor `data/incidents` to `data/incidents/YYYY/MM/`" and "Move existing `incident.yaml` to `data/incidents/2026/01/`".
+       // If I name the file `incident.yaml`, I can't look it up by slug without reading it.
+       // UNLESS, I iterate and search. Since this generates a static site or runs on server, it might be okay.
+       // ALTERNATIVE: The file name IS the slug. `data/incidents/2026/01/martial-law-karaj-jan2026.yaml`.
+       // This is much better for lookup.
+       // Let's assume I should rename the file to the slug Name.
+       return path.endsWith(`/${slug}.yaml`);
+    });
+
+    if (matchPath) {
+        let incidentData = await incidents[matchPath]();
+        incidentData = unwrapModule(incidentData);
+
+        // Load generated metadata
+        // In a real prod build, this JSON should be imported or fetched.
+        // For SSG, importing it allows Vite to bundle it.
+        // We use a try-catch to avoid breaking if file doesn't exist yet.
+        let metadata = {};
+        try {
+            const metaModule = await import('~/data/generated/evidence-metadata.json');
+            metadata = unwrapModule(metaModule);
+        } catch (e) {
+            console.warn('Evidence metadata not found, skipping technical details injection.');
+        }
+
+        // Inject technical details
+        if (incidentData.evidence) {
+            incidentData.evidence = incidentData.evidence.map((ev: any) => {
+                if (ev.file_path && metadata[ev.file_path]) {
+                    ev.technical = { ...ev.technical, ...metadata[ev.file_path] };
+                }
+                return ev;
+            });
+        }
+
+        return incidentData;
+    }
+    return null;
   } catch (e) {
     if (import.meta.dev) console.error(e);
-    // Return null to trigger the "Not Found" state
     return null;
   }
 });
-
 // Using import() returns a module with 'default', accessing it:
 const unwrapModule = (mod: any) => mod?.default || mod;
 
