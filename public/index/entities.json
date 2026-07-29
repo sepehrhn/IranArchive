@@ -1,0 +1,220 @@
+[
+  {
+    "id": "ent-amnesty-international",
+    "slug": "amnesty-international",
+    "type": "ngo",
+    "entity_type": "other",
+    "names": {
+      "primary": "Amnesty International",
+      "native": "عفو بین‌الملل"
+    },
+    "country": "GB",
+    "campaign_positions": {
+      "protect_iran": {
+        "level": 2,
+        "last_updated": "2026-02-20",
+        "evidence_ids": [
+          "ev-migrated-placeholder"
+        ],
+        "notes": "Has extensively documented human rights abuses by the Islamic Republic, called for accountability, and supported victims' families."
+      },
+      "cut_financial_lifelines": {
+        "level": 0,
+        "last_updated": "2026-02-20",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "free_internet": {
+        "level": 0,
+        "last_updated": "2026-02-20",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "isolate_and_prosecute": {
+        "level": 0,
+        "last_updated": "2026-02-20",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "free_political_prisoners": {
+        "level": 0,
+        "last_updated": "2026-02-20",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "recognize_transition": {
+        "level": 0,
+        "last_updated": "2026-02-20",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      }
+    },
+    "overall_score": 2,
+    "last_activity": "2026-02-20",
+    "aligned_campaigns_count": 0
+  },
+  {
+    "id": "ent-bbc-persian",
+    "slug": "bbc-persian",
+    "type": "media",
+    "entity_type": "other",
+    "names": {
+      "primary": "BBC Persian",
+      "native": "بی‌بی‌سی فارسی",
+      "aliases": [
+        "BBC Farsi"
+      ]
+    },
+    "country": "GB",
+    "campaign_positions": {
+      "protect_iran": {
+        "level": 0,
+        "last_updated": "2026-02-01",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "cut_financial_lifelines": {
+        "level": 0,
+        "last_updated": "2026-02-01",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "free_internet": {
+        "level": 0,
+        "last_updated": "2026-02-01",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "isolate_and_prosecute": {
+        "level": 0,
+        "last_updated": "2026-02-01",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "free_political_prisoners": {
+        "level": 0,
+        "last_updated": "2026-02-01",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "recognize_transition": {
+        "level": 0,
+        "last_updated": "2026-02-01",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      }
+    },
+    "overall_score": 0,
+    "last_activity": "2026-02-01",
+    "aligned_campaigns_count": 0
+  },
+  {
+    "id": "ent-marco-rubio",
+    "slug": "marco-rubio",
+    "type": "politician",
+    "entity_type": "other",
+    "names": {
+      "primary": "Marco Rubio",
+      "native": "مارکو روبیو",
+      "aliases": [
+        "Sen. Rubio"
+      ]
+    },
+    "country": "US",
+    "campaign_positions": {
+      "protect_iran": {
+        "level": 2,
+        "last_updated": "2026-02-15",
+        "evidence_ids": [
+          "ev-migrated-placeholder"
+        ],
+        "notes": "Has consistently supported the Iranian people's democratic aspirations, called for sanctions against the Islamic Republic, and advocated for IRGC terrorist designation."
+      },
+      "cut_financial_lifelines": {
+        "level": 0,
+        "last_updated": "2026-02-15",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "free_internet": {
+        "level": 0,
+        "last_updated": "2026-02-15",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "isolate_and_prosecute": {
+        "level": 0,
+        "last_updated": "2026-02-15",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "free_political_prisoners": {
+        "level": 0,
+        "last_updated": "2026-02-15",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "recognize_transition": {
+        "level": 0,
+        "last_updated": "2026-02-15",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      }
+    },
+    "overall_score": 2,
+    "last_activity": "2026-02-15",
+    "aligned_campaigns_count": 0
+  },
+  {
+    "id": "ent-press-tv",
+    "slug": "press-tv",
+    "type": "media",
+    "entity_type": "other",
+    "names": {
+      "primary": "Press TV",
+      "native": "پرس تی‌وی"
+    },
+    "country": "IR",
+    "campaign_positions": {
+      "protect_iran": {
+        "level": 0,
+        "last_updated": "2026-01-25",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "cut_financial_lifelines": {
+        "level": 0,
+        "last_updated": "2026-01-25",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "free_internet": {
+        "level": 0,
+        "last_updated": "2026-01-25",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "isolate_and_prosecute": {
+        "level": 0,
+        "last_updated": "2026-01-25",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "free_political_prisoners": {
+        "level": 0,
+        "last_updated": "2026-01-25",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      },
+      "recognize_transition": {
+        "level": 0,
+        "last_updated": "2026-01-25",
+        "evidence_ids": [],
+        "notes": "No documented action in IranArchive yet."
+      }
+    },
+    "overall_score": 0,
+    "last_activity": "2026-01-25",
+    "aligned_campaigns_count": 0
+  }
+]

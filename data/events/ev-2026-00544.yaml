@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Visibility Rally"
+featured: false
+
+description: |
+  High-traffic location often used for visibility actions on Saturdays during active uprising periods. Expect smaller groups distributing flyers or holding banners. | Tips: Good for visibility; often crowded with tourists.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  # start_time: "14:00"
+
+location:
+  country: "US"
+  city: "New York City"
+  address: "Times Square / 42nd St & Broadway - Red Stairs area"
+
+online: []
+
+organizer:
+  name: "Various Activist Coalitions"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

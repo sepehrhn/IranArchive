@@ -1,0 +1,70 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Updates Schema",
+    "type": "object",
+    "required": [
+        "type",
+        "date",
+        "subject",
+        "campaign",
+        "change",
+        "summary"
+    ],
+    "properties": {
+        "type": {
+            "type": "string",
+            "enum": [
+                "campaign_update"
+            ]
+        },
+        "date": {
+            "type": "string"
+        },
+        "subject": {
+            "type": "object",
+            "required": [
+                "kind",
+                "id"
+            ],
+            "properties": {
+                "kind": {
+                    "type": "string",
+                    "enum": [
+                        "country",
+                        "entity"
+                    ]
+                },
+                "id": {
+                    "type": "string"
+                }
+            }
+        },
+        "campaign": {
+            "type": "string"
+        },
+        "change": {
+            "type": "object",
+            "required": [
+                "from_level",
+                "to_level"
+            ],
+            "properties": {
+                "from_level": {
+                    "type": "integer"
+                },
+                "to_level": {
+                    "type": "integer"
+                }
+            }
+        },
+        "summary": {
+            "type": "string"
+        },
+        "evidence_ids": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    }
+}

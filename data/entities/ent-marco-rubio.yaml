@@ -1,0 +1,93 @@
+type: politician
+names:
+  primary: Marco Rubio
+  native: مارکو روبیو
+  aliases:
+    - Sen. Rubio
+country:
+  iso2: US
+  name: United States
+visibility:
+  show_in: both
+roles:
+  - U.S. Secretary of State
+  - Former U.S. Senator
+links:
+  website: https://www.state.gov/secretary
+  social:
+    - platform: x
+      url: https://x.com/marcorubio
+      verified: true
+      handle: '@marcorubio'
+stance:
+  label: pro_people
+  confidence: 90
+  summary: Has consistently supported the Iranian people's democratic aspirations, called for sanctions against the Islamic Republic, and advocated for IRGC terrorist designation.
+  last_updated: '2026-02-15'
+  themes:
+    - called_for_sanctions
+    - called_irgc_terrorist
+    - condemned_repression
+  notes: Rubio has been one of the most vocal U.S. lawmakers on Iran policy.
+evidence_refs:
+  - evidence_id: ev_rubio_sanctions_2026
+    direction: supports_people
+    date: '2026-01-15'
+    quote: The United States stands with the brave people of Iran in their quest for freedom.
+    context: Statement made during press conference on Iran policy.
+    importance: 5
+    external_url: https://www.state.gov/secretary-rubio-remarks-on-iran
+  - evidence_id: ev_rubio_irgc_2025
+    direction: supports_people
+    date: '2025-09-20'
+    quote: The IRGC is without question a terrorist organization.
+    context: Senate hearing on Iran designations.
+    importance: 4
+    external_url: https://www.foreign.senate.gov/hearings/iran-policy
+review:
+  status: published
+  review_history:
+    - at: '2026-02-10'
+      by: admin
+      note: Initial entry created from public record.
+    - at: '2026-02-15'
+      by: reviewer1
+      note: Verified evidence links and stance summary.
+tags:
+  - us-politics
+  - sanctions
+featured: true
+entity_type: other
+campaign_positions:
+  protect_iran:
+    level: 2
+    last_updated: '2026-02-15'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Has consistently supported the Iranian people's democratic aspirations, called for sanctions against the Islamic Republic, and advocated for IRGC terrorist designation.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-02-15'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-02-15'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 0
+    last_updated: '2026-02-15'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-02-15'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-02-15'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+actions: []

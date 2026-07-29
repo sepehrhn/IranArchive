@@ -1,0 +1,86 @@
+type: ngo
+names:
+  primary: Amnesty International
+  native: عفو بین‌الملل
+country:
+  iso2: GB
+  name: United Kingdom
+visibility:
+  show_in: both
+roles:
+  - Human Rights Organization
+  - NGO
+links:
+  website: https://www.amnesty.org
+  social:
+    - platform: x
+      url: https://x.com/amnesty
+      verified: true
+      handle: '@amnesty'
+stance:
+  label: pro_people
+  confidence: 95
+  summary: Has extensively documented human rights abuses by the Islamic Republic, called for accountability, and supported victims' families.
+  last_updated: '2026-02-20'
+  themes:
+    - condemned_repression
+    - supported_human_rights_orgs
+    - called_for_sanctions
+evidence_refs:
+  - evidence_id: ev_amnesty_report_2026
+    direction: supports_people
+    date: '2026-01-20'
+    quote: Iranian security forces used unlawful force, including live ammunition, against peaceful protesters.
+    context: From Amnesty's urgent action report on January 2026 protests.
+    importance: 5
+    external_url: https://www.amnesty.org/en/latest/news/2026/01/iran-protests/
+  - evidence_id: ev_amnesty_families_2026
+    direction: supports_people
+    date: '2026-02-05'
+    quote: We stand with the families of those killed and demand a full independent investigation.
+    importance: 4
+    external_url: https://www.amnesty.org/en/latest/news/2026/02/iran-accountability/
+review:
+  status: published
+  review_history:
+    - at: '2026-02-20'
+      by: admin
+      note: Comprehensive entry based on published Amnesty reports.
+tags:
+  - human-rights
+  - international-org
+featured: true
+entity_type: other
+campaign_positions:
+  protect_iran:
+    level: 2
+    last_updated: '2026-02-20'
+    evidence_ids:
+      - ev-migrated-placeholder
+    notes: Has extensively documented human rights abuses by the Islamic Republic, called for accountability, and supported victims' families.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-02-20'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-02-20'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 0
+    last_updated: '2026-02-20'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-02-20'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-02-20'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+actions: []

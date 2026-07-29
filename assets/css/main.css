@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base logic for dark mode background to match standard dark palettes usually found in Tailwind */
+@layer base {
+    body {
+        @apply bg-surface-50 text-surface-900 dark:bg-surface-950 dark:text-surface-0 transition-colors duration-300;
+    }
+
+    [dir="rtl"],
+    [lang="fa"] {
+        font-family: 'Vazirmatn', 'Inter', system-ui, sans-serif !important;
+    }
+}
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}

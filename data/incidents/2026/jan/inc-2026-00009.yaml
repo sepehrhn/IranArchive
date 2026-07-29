@@ -1,0 +1,153 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "verified"
+
+ratings:
+  veracity: 9
+  evidence_availability: 6
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/08"
+  start_time: ""
+  # End date (optional)
+  end: "2026/01/09"
+  end_time: ""
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Kermanshah"
+  # City name
+  city: "Kermanshah"
+  # Specific address or landmark (optional)
+  address: "Golha Boulevard / Dareh Deraz and nearby neighborhoods"
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Uprising / Crackdown / Live Fire"
+
+# Estimated severity statistics (optional)
+severity:
+  deaths:
+    min: 12
+    max: 45
+  injured:
+    min: 2
+    max: 100
+  arrests:
+    min: 10
+    max: 100
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Live-Fire Crackdown in Kermanshah on January 8-9"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "Verified video and witness evidence show security forces using live ammunition, violent arrests, and heavy intimidation in Kermanshah on January 8-9, 2026. Amnesty documented unlawful force in Kermanshah city, while later Kurdish-rights reporting counted at least 45 deaths in the province."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  Kermanshah was one of the most violently repressed urban centers during the January 8-9, 2026 massacre.
+
+  Amnesty International said eyewitness testimony and verified audiovisual material from January 8 and 9 showed security forces in Kermanshah province, including Kermanshah city, unlawfully using firearms and other prohibited weapons against protesters. In one verified video from January 8, uniformed and plainclothes forces were visible around Golha Boulevard and nearby streets while protesters rushed to help people wounded on the ground; the person filming shouted that security forces had killed two people.
+
+  Additional reporting from Kurdish human-rights sources later described Kermanshah as one of the deadliest provinces of the crackdown, with many victims shot by direct live fire in districts including Dareh Deraz, Maskan, Dolatabad, and Jafarabad. Taken together, the material supports the core conclusion that the state response in Kermanshah was not crowd control but lethal repression.
+
+  Because internet and phone shutdowns began on January 8, the full citywide toll remains contested. The archive therefore records a conservative minimum alongside a wider upper range drawn from later human-rights reporting.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Security forces used live ammunition against protesters in Kermanshah on January 8 and 9, 2026."
+  - "Verified video from January 8 shows at least two badly wounded or killed people on the ground near Golha Boulevard while armed forces remain in control of the street."
+  - "Plainclothes and uniformed forces jointly carried out arrests and intimidation in Kermanshah city."
+  - "Later Kurdish-rights documentation put the death toll in Kermanshah province at at least 45."
+
+# Open questions or missing information
+open_questions:
+  - "What is the city-only death toll for Kermanshah, as distinct from the wider province?"
+  - "Which units were deployed in each neighborhood: FARAJA special units, Basij, IRGC, or mixed plainclothes teams?"
+  - "How many people were taken into detention from Golha Boulevard and nearby streets on January 8?"
+  - "Can additional videos from Dareh Deraz and Maskan be geolocated and timestamped?"
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "The province-wide death range is assembled from later human-rights reporting and cannot yet be fully disaggregated by city and neighborhood."
+  - "The internet blackout sharply reduced contemporaneous documentation from inside Kermanshah."
+  - "Some local victim documentation exists only through activist networks and social media rather than hospital or forensic records."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+evidence_ids: []
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-kerm-001"
+    label: "Amnesty International: massacre of protesters demands global diplomatic action"
+    url: "https://www.amnesty.org/en/latest/news/2026/01/iran-massacre-of-protesters-demands-global-diplomatic-action-to-signal-an-end-to-impunity/"
+    publisher: "Amnesty International"
+    published_at: "2026/01/14"
+    # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Includes verified audiovisual evidence from January 8-9 in Kermanshah province and specifically references Golha Boulevard in Kermanshah city."
+  - id: "src-kerm-002"
+    label: "KHRN: at least 150 Kurdish citizens killed in protest crackdown"
+    url: "https://kurdistanhumanrights.org/en/publications/2026/01/19/at-least-150-kurdish-citizens-killed-in-iran-protest-crackdown"
+    publisher: "Kurdistan Human Rights Network"
+    published_at: "2026/01/19"
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Provides later province-level victim accounting and identifies multiple January 8-9 killings in Kermanshah."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/08"
+    time: ""
+    title: "Live fire and violent arrests documented around Golha Boulevard"
+    description: "Verified footage reviewed by Amnesty shows uniformed and plainclothes forces operating around Golha Boulevard while protesters try to help wounded people on the ground."
+    evidence_ids: []
+    source_ids: ["src-kerm-001"]
+  - at: "2026/01/09"
+    time: ""
+    title: "Lethal repression continues across Kermanshah"
+    description: "Killings and injuries continue in Kermanshah city and province as internet shutdowns obscure the full scale of the crackdown."
+    evidence_ids: []
+    source_ids: ["src-kerm-001", "src-kerm-002"]
+
+# Internal review history
+review_history:
+  - at: "2026/03/08"
+    reviewer: "Codex"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "created"
+    to_status: "verified"
+    notes: "Created after targeted web research to cover a major January 8-9 incident previously missing from the incident archive."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []

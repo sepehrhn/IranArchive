@@ -1,0 +1,80 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+# This file serves as a template and documentation for adding new events.
+# Use this structure to submit new events to the platform.
+#
+# FILENAME CONVENTION:
+#   ev-YYYY-XXXXX.yaml (e.g., ev-2026-00001.yaml)
+#   The filename (without extension) becomes the unique Event ID.
+# -----------------------------------------------------------------------------
+
+# [REQUIRED] Core Details
+# The visible title of the event (e.g. "Berlin Rally for Freedom")
+title: "Global Rally for Freedom"
+
+# Set to true to highlight this event in the list
+featured: false
+
+# A full description of the event. Supports Markdown (bold, links, lists).
+# Use the pipe (|) for multi-line text blocks.
+description: |
+  Join us for a peaceful demonstration to echo the voices of the brave people in Iran.
+  We will march from the central station to the parliament.
+  
+  **Agenda:**
+  - 14:00: Gathering
+  - 15:00: March starts
+  - 16:30: Closing speeches
+  
+  Bring flags and signs.
+
+
+# [REQUIRED] Categorization
+# The type of event (physical vs online format)
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+# [REQUIRED] Timing
+date:
+  # Start date in YYYY/MM/DD format
+  start: "2026/02/01"
+  # Start time in HH:mm format (optional)
+  start_time: "14:00"
+  # End date (optional)
+  end: "2026/02/01"
+  # End time (optional)
+  end_time: "17:00"
+
+# Location (Required for in_person/hybrid events)
+location:
+  country: "DE"
+  # City name
+  city: "Berlin"
+  # Specific address or landmark (optional)
+  address: "Pariser Platz, 10117 Berlin"
+
+# Online Specifics (Required for online/hybrid events)
+online: []
+  # e.g., Zoom, YouTube, X Spaces
+  # platform: ""
+  # join_url: ""
+  # registration_url: ""
+
+# Organizer
+organizer:
+  name: "Iranians for Justice"
+  website: "https://example.org"
+  contact_email: "info@example.org"
+  # Social media links for the organizer
+  socials:
+    x: "https://x.com/example"
+    instagram: "https://instagram.com/example"
+    telegram: "https://t.me/example"
+
+# Announcement link (Required) - e.g. Instgram post or tweet
+# Sources (Required) - e.g. Instagram post or tweet links
+source:
+  - "https://example.org/poster.jpg"
+
+# Features

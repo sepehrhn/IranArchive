@@ -1,0 +1,143 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "verified"
+
+ratings:
+  veracity: 9
+  evidence_availability: 4
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/08"
+  start_time: "12:00"
+  # End date (optional)
+  end: "2026/01/22"
+  end_time: "23:59"
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Razavi Khorasan"
+  # City name
+  city: "Mashhad"
+  # Specific address or landmark (optional)
+  address: "Soroush Detention Center / Mashhad Prison"
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Uprising / Execution / Torture"
+
+# Estimated severity statistics (optional)
+# each range has 'min' and 'max' properties
+severity:
+  deaths:
+    min: 1
+    max: 100
+  injured:
+    min: 0
+    max: 0
+  arrests:
+    min: 500
+    max: 5000
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Mashhad Crackdown and Secret Detention"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "Security forces in Mashhad utilized secret detention centers like 'Soroush' to torture arrested protesters. On January 22, 33-year-old Ali Rahbar was executed."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  Following the nationwide uprising in January 2026, Mashhad became a focal point for severe repression. Reports indicate that security forces used secret detention centers, such as the "Soroush" facility, to hold and torture arrested protesters to extract forced confessions.
+  
+  Among the victims was 33-year-old Ali Rahbar, who was reportedly executed on January 22, 2026, in Mashhad. While the Iranian judiciary denied this execution, independent sources have corroborated the report.
+  
+  There were also reports of Iraqi militias being deployed to Mashhad under the guise of religious pilgrimage to assist in suppressing the protests.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Secret detention center 'Soroush' used for torture."
+  - "Execution of Ali Rahbar (33) on January 22, 2026."
+  - "Presence of Iraqi militias aiding in suppression."
+  - "Thousands of arrests in Mashhad."
+
+# Open questions or missing information
+open_questions:
+  - "Exact location of the Soroush detention center."
+  - "Full list of executed prisoners in Mashhad during this period."
+  - "Concrete evidence of Iraqi militia involvement (photos/videos)."
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "Judiciary denial of execution creates conflicting narratives."
+  - "Details on foreign militia involvement are based on witness reports and lack definitive visual proof."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+# Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
+# IDs are the filenames (e.g. ev-2026-00001-vid-001)
+evidence_ids: []
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-mashhad-001"
+    label: "Reports of executions and secret prisons"
+    url: ""
+    publisher: "Human Rights Sources"
+    published_at: "2026/01/24"
+    # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Compilation of reports from Mashhad regarding the crackdown."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/08"
+    time: ""
+    title: "Intensified Crackdown"
+    description: "Reports of mass arrests and use of secret detention centers begin to surface."
+    evidence_ids: []
+    source_ids: ["src-mashhad-001"]
+  - at: "2026/01/22"
+    time: ""
+    title: "Execution of Ali Rahbar"
+    description: "33-year-old protester Ali Rahbar is executed in Mashhad."
+    evidence_ids: []
+    source_ids: ["src-mashhad-001"]
+
+# Internal review history
+review_history:
+  - at: "2026/01/27"
+    reviewer: "Sepehr"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "created"
+    to_status: "verified"
+    notes: "Initial report created. High confidence on execution despite official denial."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []

@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Chicago's Rally & March for Int'l Women's Day"
+featured: false
+
+description: |
+  A major confirmed mobilization for International Women's Day, explicitly centering the 'Woman, Life, Freedom' movement and the current uprising in Iran. This is expected to be the largest gathering in the coming weeks. | Tips: Arrive early. This event will likely draw a larger, broader coalition of supporters beyond just the Iranian community.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/08"
+  start_time: "10:30-13:30"
+
+location:
+  country: "US"
+  city: "Chicago"
+  address: "Daley Plaza, 50 W Washington St, Chicago, IL 60602 - Main plaza; march may proceed to Trump Tower or Federal Plaza"
+
+online: []
+
+organizer:
+  name: "Coalition of Feminist & Iranian Diaspora Groups"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

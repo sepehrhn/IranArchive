@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Solidarity Rally for Iran Regime Change"
+featured: false
+
+description: |
+  Weekly demonstration in solidarity with the ongoing uprising in Iran. Participants call for the fall of the Islamic Republic, support for democratic transition (often invoking Reza Pahlavi), and an end to the brutal crackdown. | Tips: Dress warmly for outdoor weather. Bring flags (Lion and Sun) and signs. Check 'Iranian Association of Calgary' or 'Lion and Sun' social media for last-minute time changes.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "14:00-16:00"
+
+location:
+  country: "CA"
+  city: "Calgary"
+  address: "Calgary City Hall (Municipal Plaza) - 800 Macleod Trail SE. Protesters often gather at the plaza or march to the Harry Hays Building/Peace Bridge."
+
+online: []
+
+organizer:
+  name: "Iranian-Canadians / Lion and Sun Movement"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2wcvvcDQKevsnQhZNpxUb81kPM4eH30-Xo0TO-IdpeKtcqAFOxy01ec0jMZr5fDSCrkF_vHUd3XrqS9XyM2EqHp_GJIx0gOgyznCJ1bwf5TWm3jucjTIWGkGJtCm86LLZmMw3OmUYoMX0"
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEyuFmigT5NZuHvgmGqfm19F4Oj_p3AJ1IJ7001P6s4iPLL1rAMoxc7FKXxuVlSICtGT20kpl91A2Nrld2FfMi-95slbyGeePjiz9_PZg75rPKSZw2w33XR1goMyeC6dRCWyB6uNw=="

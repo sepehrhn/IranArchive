@@ -1,0 +1,94 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Campaigns Schema",
+    "type": "object",
+    "required": [
+        "campaigns"
+    ],
+    "properties": {
+        "campaigns": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": [
+                    "code",
+                    "title",
+                    "summary",
+                    "demand_number",
+                    "status_scale",
+                    "rubric",
+                    "action_types_allowed",
+                    "tags"
+                ],
+                "properties": {
+                    "code": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "summary": {
+                        "type": "string"
+                    },
+                    "demand_number": {
+                        "type": "integer"
+                    },
+                    "status_scale": {
+                        "type": "object",
+                        "required": [
+                            "min",
+                            "max"
+                        ],
+                        "properties": {
+                            "min": {
+                                "type": "integer"
+                            },
+                            "max": {
+                                "type": "integer"
+                            }
+                        }
+                    },
+                    "rubric": {
+                        "type": "object",
+                        "required": [
+                            "level_0",
+                            "level_1",
+                            "level_2",
+                            "level_3",
+                            "level_4"
+                        ],
+                        "properties": {
+                            "level_0": {
+                                "type": "string"
+                            },
+                            "level_1": {
+                                "type": "string"
+                            },
+                            "level_2": {
+                                "type": "string"
+                            },
+                            "level_3": {
+                                "type": "string"
+                            },
+                            "level_4": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "action_types_allowed": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "tags": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

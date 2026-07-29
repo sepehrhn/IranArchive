@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Sunday Solidarity Stand"
+featured: false
+
+description: |
+  A frequent location for Sunday afternoon political rallies. Given the recent crackdown (Jan-Feb 2026), community members often gather here. | Tips: Look for the Iranian flag (Lion and Sun) near the George Washington statue.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  # start_time: "14:00"
+
+location:
+  country: "US"
+  city: "New York City"
+  address: "Union Square - South Plaza (near 14th St)"
+
+online: []
+
+organizer:
+  name: "Local Community Members"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

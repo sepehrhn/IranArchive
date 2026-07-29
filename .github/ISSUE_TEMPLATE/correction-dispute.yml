@@ -1,0 +1,55 @@
+name: Correction or Dispute
+description: Suggest a correction or dispute a record
+title: "Correction: [Target]"
+labels: ["submission", "correction", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Correction Request
+        Use this form to suggest factual corrections (dates, locations, names) or to dispute an entry entirely.
+
+  - type: input
+    id: target
+    attributes:
+      label: Target Record
+      description: The Incident ID, Victim Name, or URL of the page.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: correction_type
+    attributes:
+      label: Type of Correction
+      options:
+        - "Factual Error (Date/Location/Name)"
+        - "Duplicate Record"
+        - "Missing Context"
+        - "Dispute (This did not happen)"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Explanation
+      description: clearly explain why the current record is incorrect.
+    validations:
+      required: true
+
+  - type: textarea
+    id: supporting_sources
+    attributes:
+      label: Supporting Sources
+      description: Links to evidence supporting your correction.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I strictly adhered to the community guidelines.
+          required: true

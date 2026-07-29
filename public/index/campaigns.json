@@ -1,0 +1,180 @@
+[
+  {
+    "code": "protect_iran",
+    "title": "Repression Deterrence & Protection",
+    "summary": "Support actions that dismantle the regime’s machinery of repression and protect protesters.",
+    "demand_number": 1,
+    "status_scale": {
+      "min": 0,
+      "max": 4
+    },
+    "rubric": {
+      "level_0": "Opposed / Enables regime repression.",
+      "level_1": "Symbolic statements only.",
+      "level_2": "Limited measures or conditional support.",
+      "level_3": "Substantial commitment + meaningful actions.",
+      "level_4": "Full alignment: sustained, concrete actions with enforcement."
+    },
+    "action_types_allowed": [
+      "statement",
+      "legislation",
+      "resolution",
+      "sanction",
+      "designation_or_listing",
+      "enforcement_action",
+      "diplomatic_action",
+      "funding_or_program",
+      "prosecution_or_warrant",
+      "export_control_or_license",
+      "technical_enablement",
+      "recognition_step"
+    ],
+    "tags": [
+      "security",
+      "protection"
+    ]
+  },
+  {
+    "code": "cut_financial_lifelines",
+    "title": "Maximum Financial Cutoff",
+    "summary": "Cut off the regime’s financial lifelines in full.",
+    "demand_number": 2,
+    "status_scale": {
+      "min": 0,
+      "max": 4
+    },
+    "rubric": {
+      "level_0": "Opposed / Funds or enables regime finance.",
+      "level_1": "Symbolic statements regarding regime funding.",
+      "level_2": "Targeted financial sanctions with loopholes.",
+      "level_3": "Comprehensive financial sanctions + active enforcement.",
+      "level_4": "Full financial isolation: zero financial interaction with the regime."
+    },
+    "action_types_allowed": [
+      "statement",
+      "legislation",
+      "sanction",
+      "enforcement_action",
+      "diplomatic_action"
+    ],
+    "tags": [
+      "finance",
+      "isolation"
+    ]
+  },
+  {
+    "code": "free_internet",
+    "title": "Free Internet for Iran",
+    "summary": "Ensure free internet and communications for the people of Iran.",
+    "demand_number": 3,
+    "status_scale": {
+      "min": 0,
+      "max": 4
+    },
+    "rubric": {
+      "level_0": "Opposed / Complies with regime internet restrictions.",
+      "level_1": "Statements of support for internet freedom.",
+      "level_2": "Sanctions on regime internet censors.",
+      "level_3": "Active provision of circumvention tools or satellite internet.",
+      "level_4": "Full alignment: unfettered, reliable free internet and tech enablement for Iranians."
+    },
+    "action_types_allowed": [
+      "statement",
+      "legislation",
+      "sanction",
+      "technical_enablement",
+      "funding_or_program",
+      "export_control_or_license"
+    ],
+    "tags": [
+      "internet",
+      "communications"
+    ]
+  },
+  {
+    "code": "isolate_and_prosecute",
+    "title": "Diplomatic Isolation & Accountability",
+    "summary": "Expel regime \"diplomats\" and prosecute criminals (includes IRGC designation/listing + full diplomacy cutoff concepts).",
+    "demand_number": 4,
+    "status_scale": {
+      "min": 0,
+      "max": 4
+    },
+    "rubric": {
+      "level_0": "Opposed / Maintains normal diplomatic relations.",
+      "level_1": "Symbolic condemnation without diplomatic consequences.",
+      "level_2": "Partial IRGC designation or limited diplomatic downgrades.",
+      "level_3": "Full IRGC terrorist designation + expulsion of ambassadors.",
+      "level_4": "Full alignment: complete diplomatic severance + universal jurisdiction prosecution of regime actors."
+    },
+    "action_types_allowed": [
+      "statement",
+      "legislation",
+      "resolution",
+      "sanction",
+      "designation_or_listing",
+      "diplomatic_action",
+      "prosecution_or_warrant"
+    ],
+    "tags": [
+      "diplomacy",
+      "justice",
+      "accountability"
+    ]
+  },
+  {
+    "code": "free_political_prisoners",
+    "title": "Free Political Prisoners Now",
+    "summary": "Immediate release of all political prisoners in Iran.",
+    "demand_number": 5,
+    "status_scale": {
+      "min": 0,
+      "max": 4
+    },
+    "rubric": {
+      "level_0": "Opposed / Ignores the issue.",
+      "level_1": "General statements of concern.",
+      "level_2": "Targeted advocacy or political sponsorship of specific prisoners.",
+      "level_3": "State-level demands + sanctions for hostage-taking/wrongful detention.",
+      "level_4": "Full alignment: sustained international pressure resulting in verifiable releases without concessions."
+    },
+    "action_types_allowed": [
+      "statement",
+      "legislation",
+      "resolution",
+      "sanction",
+      "diplomatic_action"
+    ],
+    "tags": [
+      "human_rights",
+      "prisoners"
+    ]
+  },
+  {
+    "code": "recognize_transition",
+    "title": "Recognition of Transitional Authority",
+    "summary": "Prepare to recognize a legitimate transitional government and build diplomatic relations.",
+    "demand_number": 6,
+    "status_scale": {
+      "min": 0,
+      "max": 4
+    },
+    "rubric": {
+      "level_0": "Opposed / Explicitly rejects opposition legitimacy.",
+      "level_1": "Informal meetings with opposition figures.",
+      "level_2": "Official meetings with the transitional team or Reza Pahlavi.",
+      "level_3": "Formal acknowledgment of the transitional authority’s legitimacy.",
+      "level_4": "Full alignment: official diplomatic recognition of the transitional government as the sole representative of Iran."
+    },
+    "action_types_allowed": [
+      "statement",
+      "legislation",
+      "diplomatic_action",
+      "recognition_step"
+    ],
+    "tags": [
+      "transition",
+      "legitimacy"
+    ]
+  }
+]

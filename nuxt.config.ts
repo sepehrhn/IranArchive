@@ -1,0 +1,164 @@
+import { defineNuxtConfig } from 'nuxt/config';
+import Aura from '@primevue/themes/aura';
+import yaml from '@rollup/plugin-yaml';
+import { resolve } from 'path';
+
+// https://nuxt.com/docs/api/configuration/nuxt-config
+export default defineNuxtConfig({
+    compatibilityDate: '2024-04-03',
+    ssr: true,
+    experimental: {
+        appManifest: false
+    },
+    vite: {
+        plugins: [
+            yaml()
+        ],
+        build: {
+            chunkSizeWarningLimit: 2000,
+            rollupOptions: {
+                output: {
+                    manualChunks(id) {
+                        if (!id.includes('node_modules')) return;
+                        if (id.includes('pdfjs-dist')) return 'vendor-pdf';
+                        if (id.includes('html2canvas') || id.includes('jspdf') || id.includes('qrcode')) return 'vendor-export';
+                        if (id.includes('d3-')) return 'vendor-maps';
+                        if (id.includes('@googlemaps')) return 'vendor-google-maps';
+                        if (id.includes('primevue') || id.includes('@primevue') || id.includes('primeicons')) return 'vendor-primevue';
+                    }
+                }
+            }
+        }
+    },
+
+    css: [
+        'primeicons/primeicons.css',
+        '~/assets/css/theme.css'
+    ],
+
+    runtimeConfig: {
+        public: {
+            googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY || '',
+            // Media loading from GitHub raw URLs
+            mediaRepoOwner: process.env.NUXT_PUBLIC_MEDIA_REPO_OWNER || 'sepehrhn',
+            mediaRepoName: process.env.NUXT_PUBLIC_MEDIA_REPO_NAME || 'IranArchive',
+            mediaRepoRef: process.env.NUXT_PUBLIC_MEDIA_REPO_REF || 'main',
+            mediaBaseRawUrl: process.env.NUXT_PUBLIC_MEDIA_BASE_RAW_URL || 'https://raw.githubusercontent.com',
+            // Submissions API
+            submissionApiBase: process.env.NUXT_PUBLIC_SUBMISSION_API_BASE || 'https://iranarchive-submissions.sepehrhadaeghnia.workers.dev',
+            turnstileSiteKey: process.env.NUXT_PUBLIC_TURNSTILE_SITE_KEY || '0x4AAAAAACOtO5pJOUTTP3dd'
+        }
+    },
+
+    app: {
+        baseURL: process.env.NUXT_APP_BASE_URL || '/',
+        head: {
+            title: 'IranArchive',
+            meta: [
+                { charset: 'utf-8' },
+                { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+                { name: 'description', content: 'IranArchive: A digital memorial and database documenting the crimes of the Islamic Republic.' },
+                // Open Graph / Facebook
+                { property: 'og:type', content: 'website' },
+                { property: 'og:url', content: 'https://iranarchive.com/' },
+                { property: 'og:title', content: 'IranArchive' },
+                { property: 'og:description', content: 'Documenting the crimes of the Islamic Republic. Honouring the victims. Seeking justice.' },
+                { property: 'og:image', content: 'https://iranarchive.com/og-image.jpg' }, // Assuming this exists or will be added
+                // Twitter
+                { name: 'twitter:card', content: 'summary_large_image' },
+                { name: 'twitter:url', content: 'https://iranarchive.com/' },
+                { name: 'twitter:title', content: 'IranArchive' },
+                { name: 'twitter:description', content: 'Documenting the crimes of the Islamic Republic. Honouring the victims. Seeking justice.' },
+                { name: 'twitter:image', content: 'https://iranarchive.com/og-image.jpg' }
+            ],
+            link: [
+                { rel: 'icon', type: 'image/svg+xml', href: '/lion-and-sun.svg' },
+                { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
+                { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
+                { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700&display=swap' }
+            ]
+        }
+    },
+
+    nitro: {
+        preset: 'github-pages',
+        prerender: {
+            // Keep prerender deterministic for CI: only render explicitly listed routes.
+            // This avoids crawling into heavy SSR routes that exhaust memory on GitHub runners.
+            crawlLinks: false,
+            routes: [
+                '/',
+                '/assets',
+                '/campaigns',
+                '/countries',
+                '/design-system',
+                '/docs/events-submission',
+                '/docs/incidents-submission',
+                '/entities',
+                '/events',
+                '/incidents',
+                '/submit',
+                '/victims',
+                '/data/events/events.ics',
+                '/api/assets',
+                '/api/events',
+                '/api/victims'
+            ]
+        }
+        // Note: Media files (evidences, campaigns, victims) are NOT copied to static output.
+        // They are loaded at runtime from GitHub raw URLs via utils/mediaUrl.ts
+    },
+
+
+
+
+    modules: [
+        '@primevue/nuxt-module',
+        '@nuxtjs/tailwindcss',
+        '@nuxtjs/color-mode',
+        '@nuxtjs/i18n'
+    ],
+
+    primevue: {
+        options: {
+            theme: {
+                preset: Aura,
+                options: {
+                    darkModeSelector: '[data-theme="dark"]',
+                }
+            },
+            ripple: true
+        },
+        autoImport: true
+    },
+
+    colorMode: {
+        classSuffix: '',
+        preference: 'system',
+        fallback: 'light',
+        dataValue: 'theme'
+    },
+
+    i18n: {
+        baseUrl: 'https://iranarchive.com',
+        strategy: 'no_prefix', // Simple approach for now, or 'prefix_except_default'
+        locales: [
+            { code: 'en', file: 'en.json', name: 'English', dir: 'ltr' },
+            { code: 'fa', file: 'fa.json', name: 'Persian', dir: 'ltr' } // User requested LTR global layout
+        ],
+
+        langDir: 'locales',
+        defaultLocale: 'en',
+        detectBrowserLanguage: {
+            useCookie: true,
+            cookieKey: 'i18n_redirected',
+            redirectOn: 'root',
+        },
+        vueI18n: './i18n.config.ts'
+    },
+
+    tailwindcss: {
+        configPath: '~/tailwind.config.js',
+        cssPath: '~/assets/css/main.css'
+    }
+})

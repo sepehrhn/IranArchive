@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "March 8 Mobilization Meeting (Pre-Event)"
+featured: false
+
+description: |
+  Organizing assemblies for the upcoming 'International Women's Day' (Frauen*kampftag) on March 8, which will feature a massive 'Woman Life Freedom' bloc. | Tips: Check 'Woman Life Freedom Berlin' Instagram for last-minute location changes.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  start_time: "14:00"
+
+location:
+  country: "DE"
+  city: "Berlin"
+  address: "Rosa-Luxemburg-Platz or Hermannplatz - Common meeting points for leftist/feminist Iranian groups."
+
+online: []
+
+organizer:
+  name: "Alliance of Internationalist Feminists / Woman* Life Freedom Berlin"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []
