@@ -29,8 +29,8 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="min-h-screen bg-surface-50/50 dark:bg-surface-950">
-    <div v-if="incident" class="px-4 py-8 max-w-7xl mx-auto">
+  <div>
+    <div v-if="incident">
       <IncidentsIncidentHeader :incident="incident" />
 
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 mt-12 items-start">

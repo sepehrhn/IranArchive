@@ -107,26 +107,19 @@ const handleListSelect = (iso: string) => {
 
 <template>
   <div class="min-h-screen pb-12">
-    <!-- Header Card -->
-    <div class="flex flex-col gap-6 bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-6">
-      <!-- Title & Main Actions -->
-      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-        <div>
-          <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">
-            {{ t('countriesPage.heroTitle') }}
-          </h1>
-          <p class="text-surface-500 dark:text-surface-400 mt-1 max-w-2xl text-sm md:text-base">
-            {{ t('countriesPage.heroSubtitle') }}
-          </p>
-        </div>
-        <div class="flex gap-2 w-full md:w-auto">
+    <ArchivePageHero
+      :eyebrow="t('common.globalPressure')"
+      :title="t('countriesPage.heroTitle')"
+      :description="t('countriesPage.heroSubtitle')"
+      index="IRANARCHIVE / GLOBAL PRESSURE"
+    >
+      <template #actions>
           <Button :label="t('countriesPage.methodology')" icon="pi pi-info-circle" severity="secondary" @click="methodologyVisible = true" class="w-full md:w-auto" />
-        </div>
-      </div>
-    </div>
+      </template>
+    </ArchivePageHero>
 
     <!-- Controls Toolbar (Sticky) -->
-    <div class="sticky-trigger sticky top-0 z-40 flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center bg-surface-0/95 dark:bg-surface-900/95 backdrop-blur-md p-4 rounded-xl border border-surface-200 dark:border-surface-700 shadow-md mb-8">
+    <div class="archive-toolbar sticky-trigger sticky top-0 z-40 flex flex-col lg:flex-row gap-4 justify-between items-start lg:items-center mb-8">
       <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0">
         <IconField iconPosition="left" class="w-full sm:w-64">
           <InputIcon class="pi pi-search" />

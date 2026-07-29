@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4 py-8 max-w-7xl">
+  <div>
     <div v-if="pending" class="flex justify-center py-20">
       <ProgressSpinner />
     </div>
@@ -13,18 +13,20 @@
       </div>
     </div>
     <div v-else>
-      <!-- Header -->
-      <div class="mb-12 bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-2xl p-8 relative overflow-hidden">
-        <div class="relative z-10 w-full md:w-2/3">
-          <div class="flex items-center gap-3 mb-4">
+      <ArchivePageHero
+        :eyebrow="`${$t('Demand') || 'Demand'} ${campaign.demand_number}`"
+        :title="campaign.title"
+        :description="campaign.summary"
+        index="IRANARCHIVE / CAMPAIGN RECORD"
+      >
+        <template #aside>
+          <div class="flex items-center gap-3">
             <span class="bg-primary-100 dark:bg-primary-900/50 text-primary-700 dark:text-primary-300 px-3 py-1 rounded-full text-sm font-bold tracking-wide uppercase">
               {{ $t('Demand') || 'Demand' }} {{ campaign.demand_number }}
             </span>
           </div>
-          <h1 class="text-4xl md:text-5xl font-bold mb-6 tracking-tight text-surface-900 dark:text-surface-0">{{ campaign.title }}</h1>
-          <p class="text-xl text-surface-600 dark:text-surface-300 leading-relaxed">{{ campaign.summary }}</p>
-        </div>
-      </div>
+        </template>
+      </ArchivePageHero>
 
       <!-- Rubric Info -->
       <div class="mb-12">

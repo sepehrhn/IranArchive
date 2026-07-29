@@ -215,31 +215,21 @@ watch(
 
 <template>
     <div class="space-y-8 pb-12">
-        <section class="relative overflow-hidden rounded-3xl border border-surface-700/40 bg-surface-950 text-white shadow-2xl shadow-surface-950/20">
-            <div class="absolute inset-0 archive-grid opacity-30"></div>
-            <div class="absolute -right-24 -top-32 h-96 w-96 rounded-full bg-primary-500/15 blur-3xl"></div>
-            <div class="absolute -bottom-40 left-1/3 h-96 w-96 rounded-full bg-blue-500/10 blur-3xl"></div>
-
-            <div class="relative grid gap-10 px-6 py-10 md:px-10 md:py-14 lg:grid-cols-[1fr_auto] lg:items-end">
-                <div class="max-w-3xl">
-                    <div class="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-surface-300 backdrop-blur">
-                        <i class="pi pi-history text-primary-400"></i>
-                        {{ t('eventsPage.eyebrow') }}
-                    </div>
-                    <h1 class="max-w-3xl text-4xl font-black tracking-tight md:text-6xl">
-                        {{ t('eventsPage.heroTitle') }}
-                    </h1>
-                    <p class="mt-5 max-w-2xl text-base leading-7 text-surface-300 md:text-lg">
-                        {{ t('eventsPage.heroSubtitle') }}
-                    </p>
-                    <div v-if="archiveRange" class="mt-7 flex items-center gap-3 text-sm font-semibold text-surface-300">
-                        <span class="h-px w-10 bg-primary-400"></span>
-                        {{ archiveRange }}
-                    </div>
+        <ArchivePageHero
+            :eyebrow="t('eventsPage.eyebrow')"
+            :title="t('eventsPage.heroTitle')"
+            :description="t('eventsPage.heroSubtitle')"
+            index="IRANARCHIVE / SOLIDARITY EVENTS"
+        >
+            <template #meta>
+                <div v-if="archiveRange" class="mt-7 flex items-center gap-3 text-sm font-semibold text-surface-300">
+                    <span class="h-px w-10 bg-primary-400"></span>
+                    {{ archiveRange }}
                 </div>
-
-                <div class="grid grid-cols-3 gap-3 lg:w-[430px]">
-                    <div class="rounded-2xl border border-white/10 bg-white/[0.06] p-4 backdrop-blur md:p-5">
+            </template>
+            <template #aside>
+                <div class="grid grid-cols-3 divide-x divide-white/10">
+                    <div class="px-3">
                         <p class="text-2xl font-black md:text-3xl">
                             <Skeleton v-if="pending" width="3rem" height="2rem" class="!bg-white/15" />
                             <span v-else>{{ $nFa(archiveStats.total) }}</span>
@@ -248,7 +238,7 @@ watch(
                             {{ t('eventsPage.archivedEvents') }}
                         </p>
                     </div>
-                    <div class="rounded-2xl border border-white/10 bg-white/[0.06] p-4 backdrop-blur md:p-5">
+                    <div class="px-3">
                         <p class="text-2xl font-black md:text-3xl">
                             <Skeleton v-if="pending" width="3rem" height="2rem" class="!bg-white/15" />
                             <span v-else>{{ $nFa(archiveStats.countries) }}</span>
@@ -257,7 +247,7 @@ watch(
                             {{ t('eventsPage.countriesRepresented') }}
                         </p>
                     </div>
-                    <div class="rounded-2xl border border-white/10 bg-white/[0.06] p-4 backdrop-blur md:p-5">
+                    <div class="px-3">
                         <p class="text-2xl font-black md:text-3xl">
                             <Skeleton v-if="pending" width="3rem" height="2rem" class="!bg-white/15" />
                             <span v-else>{{ $nFa(archiveStats.cities) }}</span>
@@ -267,10 +257,10 @@ watch(
                         </p>
                     </div>
                 </div>
-            </div>
-        </section>
+            </template>
+        </ArchivePageHero>
 
-        <section class="rounded-3xl border border-surface-200 bg-surface-0 p-5 shadow-sm dark:border-surface-800 dark:bg-surface-900 md:p-7">
+        <section class="archive-panel p-5 md:p-7">
             <div class="mb-6 flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
                 <div>
                     <p class="text-xs font-black uppercase tracking-[0.2em] text-primary-500">

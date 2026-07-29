@@ -1,16 +1,12 @@
 <template>
   <div class="min-h-screen pb-12">
-    <div class="container mx-auto px-4 mt-6 max-w-4xl">
-      
-      <!-- Header -->
-      <div class="bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-700 shadow-sm mb-6">
-        <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">
-          {{ t('submitPage.headerTitle') }}
-        </h1>
-        <p class="text-surface-500 dark:text-surface-400 mt-2">
-          {{ t('submitPage.headerSubtitle') }}
-        </p>
-      </div>
+    <ArchivePageHero
+      :eyebrow="t('common.submit')"
+      :title="t('submitPage.headerTitle')"
+      :description="t('submitPage.headerSubtitle')"
+      index="IRANARCHIVE / SECURE SUBMISSIONS"
+    />
+    <div class="mx-auto max-w-4xl">
 
       <!-- Privacy Warning -->
       <Message severity="warn" :closable="false" class="mb-6">

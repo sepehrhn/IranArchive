@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4 py-8 max-w-7xl">
+  <div>
     <div v-if="pending" class="flex justify-center py-20">
       <ProgressSpinner />
     </div>
@@ -13,21 +13,21 @@
       </div>
     </div>
     <div v-else>
-      <!-- Country Profile Header -->
-      <div class="mb-10 bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-2xl p-8 flex items-center gap-6">
-        <div class="text-[5rem] drop-shadow-md">
-           {{ getFlagEmoji(country.iso2) }}
-        </div>
-        <div>
-          <h1 class="text-4xl font-bold mb-2">{{ country.name }}</h1>
+      <ArchivePageHero
+        :eyebrow="$t('countriesPage.country')"
+        :title="country.name"
+        :description="`${country.region} / ${country.subregion}`"
+        index="IRANARCHIVE / COUNTRY PROFILE"
+      >
+        <template #aside>
+          <div class="mb-3 text-6xl">{{ getFlagEmoji(country.iso2) }}</div>
           <div class="flex items-center gap-4 text-surface-600 dark:text-surface-400">
-            <span class="flex items-center gap-1"><i class="pi pi-map-marker"></i> {{ country.region }} / {{ country.subregion }}</span>
             <span class="bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 px-3 py-1 rounded-full text-sm font-bold">
               Total Score: {{ country.overall_score || 0 }}
             </span>
           </div>
-        </div>
-      </div>
+        </template>
+      </ArchivePageHero>
 
       <!-- Campaign Status Grid -->
       <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">

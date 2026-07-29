@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4 py-8 max-w-7xl">
+  <div>
     <div v-if="pending" class="flex justify-center py-20">
       <ProgressSpinner />
     </div>
@@ -13,13 +13,13 @@
       </div>
     </div>
     <div v-else>
-      <!-- Entity Profile Header -->
-      <div class="mb-10 bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-2xl p-8">
-        <div class="flex flex-col md:flex-row gap-6 items-start">
-          <div class="flex-grow">
-            <h1 class="text-4xl font-bold mb-2">{{ entity.names?.primary || entity.id }}</h1>
-            <h2 v-if="entity.names?.native" class="text-2xl text-surface-600 dark:text-surface-400 mb-4">{{ entity.names.native }}</h2>
-            
+      <ArchivePageHero
+        :eyebrow="entity.entity_type || $t('common.entities')"
+        :title="entity.names?.primary || entity.id"
+        :description="entity.names?.native || ''"
+        index="IRANARCHIVE / ENTITY PROFILE"
+      >
+        <template #aside>
             <div class="flex flex-wrap items-center gap-3 mb-4">
               <Tag :value="entity.entity_type" severity="secondary" />
               <div v-if="entity.country" class="flex items-center gap-1 text-surface-600 font-medium bg-surface-200 dark:bg-surface-800 px-2 py-1 rounded">
@@ -30,9 +30,8 @@
                 Total Score: {{ entity.overall_score || 0 }}
               </span>
             </div>
-          </div>
-        </div>
-      </div>
+        </template>
+      </ArchivePageHero>
 
       <!-- Campaign Status Grid -->
       <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">

@@ -3,7 +3,14 @@
 </script>
 
 <template>
-    <div class="container mx-auto px-4 py-8 max-w-4xl prose dark:prose-invert">
+    <div>
+        <ArchivePageHero
+            eyebrow="Contributor guide"
+            title="Submitting an Incident"
+            description="How to contribute a documented incident for review and preservation."
+            index="IRANARCHIVE / SUBMISSION GUIDE"
+        />
+        <article class="mx-auto max-w-4xl prose dark:prose-invert">
         <!-- Breadcrumb / Back -->
         <div class="mb-4 not-prose">
             <NuxtLink to="/incidents" class="inline-flex items-center text-sm text-surface-600 dark:text-surface-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
@@ -12,7 +19,6 @@
             </NuxtLink>
         </div>
 
-        <h1>Submitting an Incident</h1>
         <p>The Iran Archive Incidents database tracks human rights violations and other significant events. Submissions are rigorously reviewed.</p>
 
         <h2>How to Submit</h2>
@@ -41,6 +47,6 @@
          </ul>
          <p>All disputed or unverified claims should be clearly marked.</p>
         
-
+        </article>
     </div>
 </template>

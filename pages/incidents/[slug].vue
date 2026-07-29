@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 py-8 max-w-7xl mx-auto">
+  <div>
     <div v-if="incident">
       <!-- Header -->
       <IncidentsIncidentHeader :incident="incident" />

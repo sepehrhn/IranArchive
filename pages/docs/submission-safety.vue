@@ -6,14 +6,20 @@ useSeoMeta({
 </script>
 
 <template>
-    <main class="container mx-auto max-w-4xl px-4 py-8 prose dark:prose-invert">
+    <div>
+        <ArchivePageHero
+            eyebrow="Safety policy"
+            title="Submission Safety and Takedowns"
+            description="How IranArchive reviews sensitive material, protects people, and handles correction or removal requests."
+            index="IRANARCHIVE / SAFETY POLICY"
+        />
+        <article class="mx-auto max-w-4xl prose dark:prose-invert">
         <div class="mb-4 not-prose">
             <NuxtLink to="/submit" class="inline-flex items-center text-sm text-surface-600 dark:text-surface-400 hover:text-primary-600">
                 <i class="pi pi-arrow-left mr-2" /> Back to submissions
             </NuxtLink>
         </div>
 
-        <h1>Submission Safety and Takedowns</h1>
         <p>Do not submit private addresses, phone numbers, identity documents, live locations, or information that could put a person at risk.</p>
 
         <h2>Review and publication</h2>
@@ -27,5 +33,6 @@ useSeoMeta({
 
         <h2>Upload limits</h2>
         <p>Each submission may include up to 10 files, totaling 75 MB. Individual files may not exceed 50 MB. Accepted formats are limited to common images, videos, and PDFs.</p>
-    </main>
+        </article>
+    </div>
 </template>

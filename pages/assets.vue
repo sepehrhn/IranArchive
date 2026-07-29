@@ -407,26 +407,17 @@ const clearFilters = () => {
 <template>
     <div class="space-y-6">
         <div class="w-full">
-            <!-- Hero Section -->
-            <div class="relative bg-gradient-to-br from-surface-800 via-surface-700 to-surface-800 dark:from-surface-950 dark:via-surface-900 dark:to-surface-950 rounded-2xl overflow-hidden mb-8">
-                <div class="absolute inset-0 bg-[url('/images/pattern.svg')] opacity-5"></div>
-                <div class="relative px-8 py-10 md:py-12">
-                    <div class="max-w-3xl">
-                        <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
-                            {{ t('assetsPage.heroTitle') }}
-                        </h1>
-                        <p class="text-lg text-surface-200 dark:text-surface-300 mb-6 leading-relaxed">
-                            {{ t('assetsPage.heroSubtitle') }}
-                        </p>
-                        
-                        <!-- Stats -->
-                        <div class="flex flex-wrap gap-6">
+            <ArchivePageHero
+                :eyebrow="t('common.assets')"
+                :title="t('assetsPage.heroTitle')"
+                :description="t('assetsPage.heroSubtitle')"
+                index="IRANARCHIVE / PUBLIC ASSETS"
+            >
+                <template #aside>
+                        <div>
                             <div class="flex items-center gap-3">
-                                <div class="w-12 h-12 rounded-full bg-surface-0/10 backdrop-blur-sm flex items-center justify-center border border-white/10">
-                                    <i class="pi pi-images text-white/80 text-xl"></i>
-                                </div>
                                 <div>
-                                    <p class="text-3xl font-bold text-white">
+                                    <p class="font-serif text-5xl leading-none text-white">
                                         <Skeleton v-if="loading" width="2rem" height="2.5rem" class="!bg-white/20" />
                                         <span v-else>{{ $nFa(stats.total) }}</span>
                                     </p>
@@ -434,9 +425,8 @@ const clearFilters = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+                </template>
+            </ArchivePageHero>
 
             <!-- Filter Bar (Sticky only on desktop) -->
             <div 
@@ -446,7 +436,7 @@ const clearFilters = () => {
                 :style="{ top: (isMobile ? 0 : headerOffset) + 'px' }"
             >
                 <div class="pointer-events-auto px-4">
-                    <div class="glass-panel w-fit mx-auto p-2 rounded-2xl flex flex-col md:flex-row gap-3 items-center shadow-lg shadow-surface-950/5 border border-surface-200/50 dark:border-surface-700/50 backdrop-blur-xl bg-surface-0/80 dark:bg-surface-900/80">
+                    <div class="archive-toolbar w-fit mx-auto flex flex-col md:flex-row gap-3 items-center">
                         
                         <!-- Search -->
                         <div 
@@ -606,7 +596,7 @@ const clearFilters = () => {
             </div>
 
             <!-- Empty State -->
-            <div v-else class="text-center py-32 bg-surface-50/50 dark:bg-surface-900/30 rounded-3xl border-2 border-dashed border-surface-200 dark:border-surface-800">
+            <div v-else class="archive-empty">
                 <div class="w-16 h-16 bg-surface-100 dark:bg-surface-800 rounded-2xl flex items-center justify-center mx-auto mb-6">
                     <i class="pi pi-search text-3xl text-surface-300 dark:text-surface-600"></i>
                 </div>
