@@ -1,0 +1,168 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "verified"
+
+ratings:
+  veracity: 9
+  evidence_availability: 6
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/08"
+  start_time: ""
+  # End date (optional)
+  end: "2026/01/15"
+  end_time: "04:30"
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Markazi"
+  # City name
+  city: "Arak"
+  # Specific address or landmark (optional)
+  address: "Shoora Square (Bagh-e Melli), nearby medical facilities, and Arak cemetery"
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Uprising / Live Fire / Coerced Burial"
+
+# Estimated severity statistics (optional)
+severity:
+  deaths:
+    min: 3
+    max: 4
+  injured:
+    min: 0
+    max: 20
+  arrests:
+    min: 0
+    max: 0
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Shoora Square Shootings and Coerced Burial in Arak"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "Security forces repeatedly used live ammunition around Shoora Square (Bagh-e Melli) in Arak on January 8-9, 2026. Named victim reporting documents at least two fatalities on January 8 there, and Iran Human Rights later detailed how Mohammad Ranjbar Hosseinabadi was shot on January 9 and buried at 4:30 a.m. under guard after his family was extorted and threatened."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  Shoora Square, also known as Bagh-e Melli, became a lethal focal point of repression in Arak during the January 8-9 massacre.
+
+  Public victim documentation already in circulation online records at least two January 8 killings tied directly to Shoora Square: Amir-Mahdi Nemati-Nezhad, age 17, and Ehsan Akbari, age 27. Ehsan Akbari's case is particularly detailed in family and activist reporting, which says he was first hit with birdshot and then shot with live ammunition from the roof of his former school after going to the area.
+
+  Iran Human Rights later published a fuller reconstruction of events on January 9 involving Mohammad Ranjbar Hosseinabadi, who joined a crowd at Shoora Square and was shot three times in the chest and abdomen within minutes. Because of the intensity of gunfire, bystanders could not reach him and security forces removed his wounded body themselves.
+
+  The repression continued after death. According to the family account relayed by IHR, officials would only release Ranjbar Hosseinabadi's body if the family signed a statement falsely presenting him as a Basiji and paid 600 million tomans in cash. After refusing the false statement but eventually paying the money, the family was forced to bury him at 4:30 a.m. on January 15 in the presence of 13 security personnel and only three relatives, under threats of arrest and confiscation of his property.
+
+  This combination of street killing, removal of the wounded by security forces, coercive body release, and forced predawn burial makes Arak one of the clearest documented examples of both lethal force and postmortem intimidation during the January 8-9 crackdown.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Security forces used live ammunition against crowds at Shoora Square in Arak on January 8 and 9, 2026."
+  - "Amir-Mahdi Nemati-Nezhad and Ehsan Akbari were among the people killed in or around Shoora Square on January 8."
+  - "Mohammad Ranjbar Hosseinabadi was shot on January 9 at Shoora Square and his wounded body was removed by security forces."
+  - "Authorities conditioned the release of Mohammad Ranjbar Hosseinabadi's body on money and a false declaration that he was a Basiji."
+
+# Open questions or missing information
+open_questions:
+  - "How many additional January 8 victims from Shoora Square remain unidentified or undocumented in public sources?"
+  - "Which security body controlled the square and the later coercive burial process?"
+  - "What hospital or medical facility first received the wounded from Shoora Square on January 8-9?"
+  - "Can ballistic or video evidence establish whether the same firing positions were used on both days?"
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "The confirmed minimum is built from victim-specific reporting and likely understates the total number of people shot in the square."
+  - "Open-source documentation remains fragmentary because of the January blackout and fear among families."
+  - "Some supporting victim reporting survives mainly through activist and family internet posts rather than formal records."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+evidence_ids: []
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-arak-001"
+    label: "Iran Human Rights: nighttime burial of Mohammad Ranjbar Hosseinabadi in Arak"
+    url: "https://iranhr.net/en/articles/8627/"
+    publisher: "Iran Human Rights"
+    published_at: "2026/02/20"
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Most detailed source on the January 9 shooting, extortion for body release, and predawn burial."
+  - id: "src-arak-002"
+    label: "Partial list of fatalities naming Ehsan Akbari in Arak"
+    url: "https://iranlc.org/wp-content/uploads/2026/02/List-of-fatalities.pdf"
+    publisher: "Iran Life Committee"
+    published_at: "2026/02/16"
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Search-result snippet identifies Ehsan Akbari as killed on January 8, 2026 in Arak after direct fire in Shora Square."
+  - id: "src-arak-003"
+    label: "Open-source victim documentation for Amir-Mahdi Nemati-Nezhad"
+    url: "https://x.com/ManotoNews/status/2015318720613134773"
+    publisher: "Manoto News"
+    published_at: ""
+    type: "secondary"
+    archived_urls: []
+    language: "fa"
+    notes: "Used together with archive-linked victim material to support the January 8 killing at Shoora Square."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/08"
+    time: ""
+    title: "Shootings at Shoora Square"
+    description: "Live ammunition is used against crowds around Shoora Square, with at least Amir-Mahdi Nemati-Nezhad and Ehsan Akbari documented among the dead."
+    evidence_ids: []
+    source_ids: ["src-arak-002", "src-arak-003"]
+  - at: "2026/01/09"
+    time: ""
+    title: "Mohammad Ranjbar Hosseinabadi shot and removed by security forces"
+    description: "After joining a crowd at Shoora Square, Mohammad Ranjbar Hosseinabadi is shot multiple times and removed from the scene by security forces while bystanders cannot reach him."
+    evidence_ids: []
+    source_ids: ["src-arak-001"]
+  - at: "2026/01/15"
+    time: "04:30"
+    title: "Forced predawn burial under guard"
+    description: "Following extortion and threats, Mohammad Ranjbar Hosseinabadi is buried at Arak cemetery in the dark under the watch of 13 security personnel."
+    evidence_ids: []
+    source_ids: ["src-arak-001"]
+
+# Internal review history
+review_history:
+  - at: "2026/03/08"
+    reviewer: "Codex"
+    change: "created"
+    to_status: "verified"
+    notes: "Created after web research to add Arak's January 8-9 Shoora Square killings and coerced burial practices, which were not covered by existing incident files."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []

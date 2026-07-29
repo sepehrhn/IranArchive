@@ -1,0 +1,124 @@
+name: Submit Evidence
+description: Report a new incident or provide evidence for existing ones
+title: "Evidence: [City] - [Date]"
+labels: ["submission", "evidence", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Safety Warning ⚠️
+        **DO NOT** include private addresses, phone numbers, or national IDs of individuals.
+        **DO NOT** upload content that endangers specific people unnecessarily.
+        This submission is **public**.
+
+  - type: input
+    id: city
+    attributes:
+      label: City
+      description: Where did this happen?
+      placeholder: e.g. Tehran
+    validations:
+      required: true
+
+  - type: input
+    id: province
+    attributes:
+      label: Province
+      placeholder: e.g. Tehran Province
+    validations:
+      required: false
+
+  - type: input
+    id: date
+    attributes:
+      label: Date of Incident
+      description: Use YYYY-MM-DD or approximate date/time.
+      placeholder: 2022-09-21
+    validations:
+      required: true
+      
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Neutral description of what happened.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence_links
+    attributes:
+      label: Evidence Links
+      description: One link per line (Twitter, Instagram, YouTube, etc.)
+      placeholder: https://...
+    validations:
+      required: true
+
+  - type: textarea
+    id: what_it_shows
+    attributes:
+      label: What does this evidence show?
+      description: Briefly describe the content of the media.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: identifiable_faces
+    attributes:
+      label: Does it show identifiable faces?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: minors
+    attributes:
+      label: Does it include minors?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: graphic
+    attributes:
+      label: Is the content graphic?
+      description: Contains blood, severe injury, or death.
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pii_risk
+    attributes:
+      label: PII Risk Level
+      description: "Low: Public event / Medium: Identifiable faces / High: Private home or ID cards visible"
+      options:
+        - "Low"
+        - "Medium"
+        - "High"
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional_notes
+    attributes:
+      label: Additional Notes
+      description: Any other context for maintainers.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I confirm I have not included private contact details (phone numbers, addresses) of individuals.
+          required: true
+        - label: I understand this submission will be publicly visible on GitHub.
+          required: true

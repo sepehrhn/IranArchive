@@ -1,0 +1,90 @@
+type: media
+names:
+  primary: BBC Persian
+  native: بی‌بی‌سی فارسی
+  aliases:
+    - BBC Farsi
+country:
+  iso2: GB
+  name: United Kingdom
+visibility:
+  show_in: both
+roles:
+  - News Outlet
+  - Broadcaster
+links:
+  website: https://www.bbc.com/persian
+  social:
+    - platform: x
+      url: https://x.com/bbcpersian
+      verified: true
+      handle: '@bbcpersian'
+    - platform: instagram
+      url: https://instagram.com/bbcpersian
+      verified: true
+      handle: '@bbcpersian'
+stance:
+  label: neutral
+  confidence: 65
+  summary: Reports on Iran's political situation with editorial standards. Has faced criticism from both pro-regime and pro-democracy camps for its coverage.
+  last_updated: '2026-02-01'
+  themes:
+    - spread_misinformation
+  notes: BBC Persian's neutrality is debated; some evidence suggests both-sidesism in coverage of state violence.
+evidence_refs:
+  - evidence_id: ev_bbc_coverage_2026
+    direction: neutral
+    date: '2026-01-10'
+    quote: Reports covered government and protester perspectives with equal weight.
+    context: Analysis of BBC Persian coverage during January 2026 protests.
+    importance: 3
+    external_url: https://monitoring.bbc.co.uk/product/c200qr3z
+  - evidence_id: ev_bbc_interview_regime
+    direction: disputed
+    date: '2026-01-12'
+    quote: Gave extensive airtime to regime spokesperson without challenge.
+    context: Critics noted the interview lacked pushback on claims about protester violence.
+    importance: 4
+    external_url: https://www.bbc.com/persian/articles/interview-jan-2026
+review:
+  status: published
+  review_history:
+    - at: '2026-02-01'
+      by: admin
+      note: Created with available evidence.
+tags:
+  - media
+  - uk
+entity_type: other
+campaign_positions:
+  protect_iran:
+    level: 0
+    last_updated: '2026-02-01'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  cut_financial_lifelines:
+    level: 0
+    last_updated: '2026-02-01'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_internet:
+    level: 0
+    last_updated: '2026-02-01'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  isolate_and_prosecute:
+    level: 0
+    last_updated: '2026-02-01'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  free_political_prisoners:
+    level: 0
+    last_updated: '2026-02-01'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+  recognize_transition:
+    level: 0
+    last_updated: '2026-02-01'
+    evidence_ids: []
+    notes: No documented action in IranArchive yet.
+actions: []

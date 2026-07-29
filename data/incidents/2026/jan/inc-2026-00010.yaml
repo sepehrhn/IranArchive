@@ -1,0 +1,160 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "verified"
+
+ratings:
+  veracity: 9
+  evidence_availability: 6
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/06"
+  start_time: ""
+  # End date (optional)
+  end: "2026/01/09"
+  end_time: ""
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Isfahan"
+  # City name
+  city: "Yazdanshahr"
+  # Specific address or landmark (optional)
+  address: "Motahari Boulevard and surrounding streets"
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Uprising / Crackdown / Mass Shooting"
+
+# Estimated severity statistics (optional)
+severity:
+  deaths:
+    min: 5
+    max: 20
+  injured:
+    min: 10
+    max: 100
+  arrests:
+    min: 0
+    max: 20
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Yazdanshahr Live-Fire Killings and Machine-Gun Fire"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "Security forces used sustained live fire in Yazdanshahr on January 9, reportedly shooting at rooftops, pedestrians, and shopkeepers as well as protesters. Named victim documentation and reporting center on the killing of Soheil Zilabi on Motahari Boulevard and indicate at least five fatalities in the city on that date."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  Yazdanshahr in Isfahan province moved from visible street confrontation to mass bloodshed over several days in early January 2026.
+
+  Iran International reported on January 6 that protesters in Yazdanshahr were already facing gunfire and the deployment of military-style vehicles. Iran Human Rights later published a detailed account describing Friday, January 9 as the decisive massacre day: a resident said security forces opened automatic fire without mercy, including at people on rooftops, pedestrians, and shopkeepers, and that bodies remained in the streets by the next morning.
+
+  The case of Soheil Zilabi, age 24, provides a well-documented focal point inside this broader incident. Victim documentation compiled from multiple public internet sources states that he was shot in the head on Motahari Boulevard, transferred to Fateme Alzahra Hospital, and died later that night. His body was reportedly returned to the family only after a delay of several days.
+
+  The archive's victim collection currently identifies five named fatalities with January 9 dates in Yazdanshahr during this wave of violence, supporting the use of a conservative fatality minimum for the incident. BBC Persian reporting republished by Yahoo also said footage from Yazdanshahr showed protesters coming under sustained machine-gun fire on January 9.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Security forces used automatic weapons and sustained live fire in Yazdanshahr on January 9, 2026."
+  - "People on rooftops, pedestrians, and shopkeepers were also targeted during the crackdown."
+  - "Soheil Zilabi was shot in the head on Motahari Boulevard and died at Fateme Alzahra Hospital the same night."
+  - "At least five named fatalities from Yazdanshahr are currently documented for January 9 in archive-linked victim material."
+
+# Open questions or missing information
+open_questions:
+  - "What was the full death toll in Yazdanshahr between the evening of January 9 and the following morning?"
+  - "Which exact units were firing from street level and which were positioned on rooftops?"
+  - "Can the available videos be geolocated to specific blocks along Motahari Boulevard and other streets?"
+  - "How many of the wounded avoided hospitals because of fear of arrest?"
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "The upper-range fatality estimate is still witness-based and not fully matched to a complete public victim list."
+  - "Much of the contemporaneous documentation surfaced after the blackout eased, limiting minute-by-minute reconstruction."
+  - "Some victim-level internet sources are social-media based and require continued preservation and archiving."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+evidence_ids: []
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-yzd-001"
+    label: "Iran Human Rights: widespread killing of protesters in Isfahan"
+    url: "https://iranhr.net/en/articles/8609/"
+    publisher: "Iran Human Rights"
+    published_at: "2026/02/12"
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Contains the most detailed published witness account for the January 9 crackdown in Yazdanshahr."
+  - id: "src-yzd-002"
+    label: "Iran International: protests in Yazdanshahr see gunfire and military-style vehicles"
+    url: "https://www.iranintl.com/en/202601069057"
+    publisher: "Iran International"
+    published_at: "2026/01/06"
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Shows the city had already entered an armed crackdown phase before the January 9 massacre."
+  - id: "src-yzd-003"
+    label: "Yahoo/BBC Persian weapons analysis mentioning sustained machine-gun fire in Yazdanshahr"
+    url: "https://ca.news.yahoo.com/machine-guns-machetes-weapons-massacred-163431028.html"
+    publisher: "Yahoo News Canada / BBC News Persian reporting cited"
+    published_at: "2026/02/09"
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "States that footage from the January 9 protests in Yazdanshahr showed protesters under sustained machine-gun fire."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/06"
+    time: ""
+    title: "Gunfire and military-style vehicles reported in Yazdanshahr"
+    description: "Iran International reports that protests in Yazdanshahr are already being met with gunfire and the deployment of military-style vehicles."
+    evidence_ids: []
+    source_ids: ["src-yzd-002"]
+  - at: "2026/01/09"
+    time: ""
+    title: "Mass live-fire crackdown across Motahari Boulevard and nearby streets"
+    description: "Witnesses later report automatic fire against protesters, rooftop onlookers, pedestrians, and shopkeepers. Soheil Zilabi is fatally shot after being hit in the head."
+    evidence_ids: []
+    source_ids: ["src-yzd-001", "src-yzd-003"]
+
+# Internal review history
+review_history:
+  - at: "2026/03/08"
+    reviewer: "Codex"
+    change: "created"
+    to_status: "verified"
+    notes: "Created after targeted web research and cross-checking against existing Yazdanshahr victim records already present in the archive."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: []
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []

@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Jin Jiyan Azadi – Solidarity with the Iranian Revolution"
+featured: false
+
+description: |
+  A large rally to support the 'Phase II' uprising in Iran, condemning the recent brutal crackdown and mass detentions. Protesters are expected to demand the release of political prisoners and call for the end of the Islamic Republic. | Tips: Bring signs with 'Woman Life Freedom' (Jin, Jiyan, Azadî). Warm clothing is recommended as the event may last several hours. Expect a march (Demo-Zug) moving through the city center.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "12:30"
+
+location:
+  country: "DE"
+  city: "Hannover"
+  address: "Steintorplatz - Steintorplatz is a central square often used for larger rallies. Alternatively, check Kröpcke-Uhr (a frequent starting point)."
+
+online: []
+
+organizer:
+  name: "Coalition including kargah e.V. and local activist groups"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFu9bnxAk0I1xOfJrEIrG1tfi6Uaz5FzannRKhWkZw1AU8GZt2nYtpuYaEmL-eW--E7qhq1Q7irz_Si_gM644xGiUViD6l8bwHFyDnUeNyWFtOahd5v"

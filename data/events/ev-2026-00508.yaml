@@ -1,0 +1,35 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Weekly Solidarity Rally (Sunday Option)"
+featured: false
+
+description: |
+  Due to Mardi Gras on Saturday, the regular weekly protest against the regime's massacres and executions may be moved to Sunday. Recent focuses include the 'No to Executions' campaign and solidarity with the Jan 2026 uprising victims. | Tips: Check the 'Solidarity with Iran - Sydney' Facebook page on Saturday night for Sunday confirmation.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/03/01"
+  start_time: "14:00-16:00"
+
+location:
+  country: "AU"
+  city: "Sydney"
+  address: "Sydney Town Hall / Hyde Park North - Steps of Town Hall or Archibald Fountain (Common Sunday meeting points)"
+
+online: []
+
+organizer:
+  name: "Solidarity with Iran - Sydney / Australian United Solidarity for Iran (AUSIRAN)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHnNAJthZ9d3IeKhLnW9NhhyItMVopsK_cxds5GdjBS29zlxB0NC4YNZWciHrDeLz9Xut4Qjr6AfbD0te7mI47MSkBlAOE2AAb-eLC9YQdkBaOl-F22yyQGDbmrf5qA"
+  - "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGlA0E3fwH0OSy8kDzRjmY7CxOjluXrDhtnghQIIOMGqGDDJpxVyQPLXSUjRax1poSqnrnuMoQWnGSE0g97vvSDu1quGALOX9awYRfvYtavEBC85ktCGTBLennj5QGgkuWqSTrG"

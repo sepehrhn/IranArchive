@@ -1,0 +1,23 @@
+name: Correction
+description: Suggest a correction to an existing record
+title: "[Correction]: "
+labels: ["correction", "triage"]
+body:
+  - type: input
+    id: record_id
+    attributes:
+      label: Record ID / URL
+      description: Which record implies the error?
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed Correction
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Supporting Sources
+      description: Provide evidence for why the change is correct.
