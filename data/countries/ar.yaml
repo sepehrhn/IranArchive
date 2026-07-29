@@ -26,8 +26,8 @@ campaign_statuses:
   protect_iran:
     level: 3
     last_updated: '2026-01-29'
-    evidence_ids:
-      - ev-migrated-placeholder
+    evidence_ids: []
+    evidence_status: incomplete
     notes: Cooperates on counter-terrorism; specifically targets Hezbollah/IRGC networks in the Tri-Border Area.
   cut_financial_lifelines:
     level: 0

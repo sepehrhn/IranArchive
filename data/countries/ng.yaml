@@ -26,8 +26,8 @@ campaign_statuses:
   protect_iran:
     level: 2
     last_updated: '2026-01-19'
-    evidence_ids:
-      - ev-migrated-placeholder
+    evidence_ids: []
+    evidence_status: incomplete
     notes: Monitors Iranian radicalization efforts via IMN.
   cut_financial_lifelines:
     level: 0

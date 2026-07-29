@@ -10,7 +10,7 @@
       class="p-0 px-2 py-1! text-xs h-6 max-h-6"
       @click="togglePopover"
     />
-    <span v-else class="text-xs text-surface-400 italic">{{ countOnly ? '-' : $t('No evidence') || 'No evidence' }}</span>
+    <span v-else class="text-xs text-surface-400 italic">{{ countOnly ? '-' : 'No supporting evidence recorded' }}</span>
 
     <Popover ref="op">
       <div class="p-3 w-64 max-w-sm">

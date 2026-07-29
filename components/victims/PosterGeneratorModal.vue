@@ -2,8 +2,6 @@
 import { ref, computed, watch, nextTick } from 'vue';
 import type { Victim } from '@/types/victim';
 import { useI18n } from 'vue-i18n';
-import QRCode from 'qrcode';
-import html2canvas from 'html2canvas';
 import { formatDate } from '@/utils/formatters';
 
 const props = defineProps<{
@@ -109,6 +107,7 @@ const sizes = computed(() => [
 watch(() => props.visible, async (newVal) => {
     if (newVal) {
         try {
+            const { default: QRCode } = await import('qrcode');
             const url = `${window.location.origin}/victims/${props.victim?.id}`;
             qrCodeDataUrl.value = await QRCode.toDataURL(url, {
                 margin: 0,
@@ -141,6 +140,7 @@ const handleDownload = async () => {
     }
 
     try {
+        const { default: html2canvas } = await import('html2canvas');
         // 2. Options for html2canvas
         // We want high resolution.
         // A4 at 300 DPI is huge (2480 x 3508).

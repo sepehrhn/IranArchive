@@ -4,6 +4,7 @@ import type { Env } from '../types';
  * Verify Cloudflare Turnstile token
  */
 export async function verifyTurnstile(token: string, secretKey: string, ip: string): Promise<boolean> {
+    if (!token || !secretKey) return false;
     const formData = new FormData();
     formData.append('secret', secretKey);
     formData.append('response', token);
@@ -14,8 +15,9 @@ export async function verifyTurnstile(token: string, secretKey: string, ip: stri
         body: formData
     });
 
+    if (!response.ok) return false;
     const data = await response.json() as { success: boolean };
-    return data.success;
+    return data.success === true;
 }
 
 /**
@@ -49,8 +51,8 @@ export async function checkRateLimit(env: Env, ipHash: string): Promise<boolean>
     const timestamps: number[] = JSON.parse(value);
     const recentSubmissions = timestamps.filter(t => t > windowStart);
 
-    // Allow max 20 submissions per hour
-    if (recentSubmissions.length >= 20) {
+    // Allow at most five initialized submissions per hour per hashed IP.
+    if (recentSubmissions.length >= 5) {
         return false;
     }
 
@@ -64,33 +66,46 @@ export async function checkRateLimit(env: Env, ipHash: string): Promise<boolean>
  * Sanitize filename
  */
 export function sanitizeFilename(filename: string): string {
-    return filename
+    const sanitized = filename
         .replace(/[^a-zA-Z0-9.-]/g, '-')
         .replace(/\.+/g, '.')
         .replace(/-+/g, '-')
         .toLowerCase();
+    return sanitized.replace(/^\.+|\.+$/g, '').slice(0, 120) || 'upload';
 }
 
 /**
  * Validate file based on kind
  */
-export function validateFile(file: { mime: string; size: number }, kind: string): { valid: boolean; error?: string } {
-    const MAX_SIZE = 90 * 1024 * 1024; // 90MB total
+export const MAX_FILE_SIZE = 50 * 1024 * 1024;
+export const MAX_TOTAL_SIZE = 75 * 1024 * 1024;
+export const MAX_FILES_PER_SUBMISSION = 10;
 
-    if (file.size > MAX_SIZE) {
-        return { valid: false, error: 'File too large' };
+export function validateFile(file: { mime: string; size: number; name?: string }, kind: string): { valid: boolean; error?: string } {
+
+    if (!Number.isSafeInteger(file.size) || file.size < 1 || file.size > MAX_FILE_SIZE) {
+        return { valid: false, error: 'Invalid file size' };
     }
+
+    if (!file.name || sanitizeFilename(file.name) === 'upload') return { valid: false, error: 'Invalid file name' };
 
     const allowedMimes: Record<string, string[]> = {
         victim: ['image/jpeg', 'image/png', 'image/webp'],
-        evidence: [
+        incident: [
             'image/jpeg', 'image/png', 'image/webp', 'image/gif',
             'video/mp4', 'video/webm', 'video/quicktime',
             'application/pdf'
-        ]
+        ],
+        evidence: [
+            'image/jpeg', 'image/png', 'image/webp',
+            'video/mp4', 'video/webm', 'video/quicktime',
+            'application/pdf'
+        ],
+        event: []
     };
 
     const allowed = allowedMimes[kind] || [];
+    if (kind === 'event' && file.size > 0) return { valid: false, error: 'Event submissions do not accept files' };
     if (allowed.length > 0 && !allowed.includes(file.mime)) {
         return { valid: false, error: 'Invalid file type' };
     }

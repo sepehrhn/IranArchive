@@ -70,7 +70,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { ref } from 'vue';
 const { t } = useI18n();
 import IncidentSubmissionForm from '~/components/submissions/IncidentSubmissionForm.vue';
 import EventSubmissionForm from '~/components/submissions/EventSubmissionForm.vue';
@@ -80,6 +80,7 @@ import {
   completeSubmission,
   uploadToR2,
   calculateSHA256,
+  validateUploadCollection,
   type SubmissionKind
 } from '~/utils/submissionsClient';
 
@@ -104,31 +105,25 @@ function resetForm() {
 }
 
 function handleSuccess(payload: any) {
-    console.log('Page: Event submission success', payload);
-    // Component shows success message internally now, but if we want to bubble up:
-    // submitted.value = true; 
-    // submissionId.value = payload.submissionId;
-    // But since the component is handling it UI-wise, we might not need to do anything here.
+    void payload;
 }
 
-onMounted(() => {
-  console.log('Page: submit.vue mounted');
-});
-
 async function handleSubmit(payload: { kind: SubmissionKind; data: any; files: File[]; turnstileToken: string }) {
-  console.log('Page: handleSubmit called', { kind: payload.kind, files: payload.files.length, token: !!payload.turnstileToken });
-  
   // Check honeypot
   if (honeypot.value) {
-    console.warn('Honeypot filled - potential spam');
+    return;
+  }
+
+  const uploadValidation = validateUploadCollection(payload.files);
+  if (!uploadValidation.valid) {
+    alert(uploadValidation.error);
     return;
   }
 
   submitting.value = true;
 
   try {
-    // Step 1: Calculate file hashes and init upload
-    console.log('Page: Calculating hashes...');
+    // Step 1: Calculate file hashes and initialize the upload.
     const fileInfos = [];
     for (const file of payload.files) {
       const sha256 = await calculateSHA256(file);
@@ -140,22 +135,15 @@ async function handleSubmit(payload: { kind: SubmissionKind; data: any; files: F
       });
     }
 
-    console.log('Page: calling initUpload...');
     const initResponse = await initUpload({
       turnstileToken: payload.turnstileToken,
       kind: payload.kind,
       files: fileInfos
     });
-    console.log('Page: initUpload success', initResponse);
 
     submissionId.value = initResponse.submissionId;
 
-    // Step 2: Upload files to R2
-    if (payload.files.length > 0) {
-        console.log('Page: Uploading files to R2...');
-        // ... (existing upload logic)
-    } 
-    
+    // Step 2: Upload the exact initialized files.
     const uploadedFiles = [];
     for (let i = 0; i < payload.files.length; i++) {
       const file = payload.files[i];
@@ -172,8 +160,7 @@ async function handleSubmit(payload: { kind: SubmissionKind; data: any; files: F
       });
     }
 
-    // Step 3: Complete submission
-    console.log('Page: calling completeSubmission...');
+    // Step 3: Complete submission.
     await completeSubmission({
       submissionId: submissionId.value,
       kind: payload.kind,
@@ -181,14 +168,11 @@ async function handleSubmit(payload: { kind: SubmissionKind; data: any; files: F
       uploadedFiles,
       turnstileToken: payload.turnstileToken
     });
-    console.log('Page: completeSubmission success');
-
-    // Success!
     submitted.value = true;
 
-  } catch (error: any) {
-    console.error('Submission error (Page):', error);
-    alert(`Submission failed: ${error.message || 'Unknown error'}`);
+  } catch (error) {
+    console.error('Submission error', error);
+    alert('Submission failed. Please try again or contact us by email.');
   } finally {
     submitting.value = false;
   }

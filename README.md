@@ -17,10 +17,12 @@ IranArchive is a Nuxt 3 static site and data archive for documenting victims, in
 
 ## Setup
 
+Use Node.js 22 or later.
+
 Install dependencies:
 
 ```bash
-npm install
+npm ci
 ```
 
 Start the local development server:
@@ -40,6 +42,8 @@ Run the full local quality gate:
 ```bash
 npm run check
 ```
+
+This validates data, typechecks the app, produces the GitHub Pages output, and runs browser smoke tests over the main public routes.
 
 ## Data Validation
 
@@ -91,7 +95,7 @@ Environment variables:
 | --- | --- | --- |
 | `NUXT_PUBLIC_MEDIA_REPO_OWNER` | `sepehrhn` | GitHub repository owner |
 | `NUXT_PUBLIC_MEDIA_REPO_NAME` | `IranArchive` | GitHub repository name |
-| `NUXT_PUBLIC_MEDIA_REPO_REF` | `main` | Git branch, tag, or ref used for media URLs |
+| `NUXT_PUBLIC_MEDIA_REPO_REF` | `main` locally; deployment commit SHA in CI | Git branch, tag, or immutable commit ref used for media URLs |
 | `NUXT_PUBLIC_MEDIA_BASE_RAW_URL` | `https://raw.githubusercontent.com` | Base URL for raw media |
 
 Local development also loads media from GitHub raw URLs, so an internet connection is required for media previews.
@@ -109,3 +113,11 @@ The workflow:
 5. Deploys with GitHub Pages.
 
 The custom domain is preserved through `public/CNAME`.
+
+Production deploys set `NUXT_PUBLIC_MEDIA_REPO_REF` to the commit SHA, so published media URLs are immutable for each release.
+
+`public/robots.txt`, `public/sitemap.xml`, and `public/og-image.png` provide crawl and social-preview metadata.
+
+## Submission safety
+
+Public uploads are limited to ten files, 50 MB per file, and 75 MB per submission. They are held for review before publication. See `/docs/submission-safety` for retention, correction, and takedown guidance.

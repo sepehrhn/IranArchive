@@ -1,6 +1,6 @@
 import type { Context } from 'hono';
 import type { Env, CompleteRequest, CompleteResponse, SubmissionRecord } from '../types';
-import { verifyTurnstile, hashIP } from '../lib/utils';
+import { sanitizeFilename } from '../lib/utils';
 
 export async function handleComplete(c: Context<{ Bindings: Env }>): Promise<Response> {
     try {
@@ -33,15 +33,27 @@ export async function handleComplete(c: Context<{ Bindings: Env }>): Promise<Res
             return c.json({ error: 'Submission kind mismatch' }, 400);
         }
 
-        // Verify uploaded files exist in R2
+        if (!Array.isArray(uploadedFiles) || uploadedFiles.length !== record.files.length) {
+            return c.json({ error: 'Uploaded file list does not match the initialized submission' }, 400);
+        }
+
+        // Verify uploaded files exist in R2 and exactly match the initialized submission.
+        const expectedFiles = new Map(record.files.map(file => [
+            `submissions/${submissionId}/uploads/${sanitizeFilename(file.name)}`,
+            file
+        ]));
         for (const file of uploadedFiles) {
+            const expected = expectedFiles.get(file.key);
+            if (!expected || file.originalName !== expected.name || file.mime !== expected.mime || file.size !== expected.size || file.sha256 !== expected.sha256) {
+                return c.json({ error: 'Uploaded file metadata does not match the initialized submission' }, 400);
+            }
             const object = await c.env.SUBMISSIONS_BUCKET.head(file.key);
             if (!object) {
                 return c.json({ error: `File not found: ${file.originalName}` }, 400);
             }
 
             // Verify size matches
-            if (object.size !== file.size) {
+            if (object.size !== expected.size || object.httpMetadata?.contentType !== expected.mime || object.customMetadata?.sha256 !== expected.sha256) {
                 return c.json({ error: `File size mismatch: ${file.originalName}` }, 400);
             }
         }

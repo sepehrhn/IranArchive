@@ -24,7 +24,7 @@ useSeoMeta({
     ogTitle: t('victimsPage.title'),
     description: t('victimsPage.description'),
     ogDescription: t('victimsPage.description'),
-    ogImage: 'https://iranarchive.com/og-image-victims.jpg',
+    ogImage: 'https://iranarchive.net/og-image.png',
     twitterCard: 'summary_large_image',
 })
 

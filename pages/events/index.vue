@@ -11,7 +11,7 @@ useSeoMeta({
     ogTitle: () => t('eventsPage.title'),
     description: () => t('eventsPage.description'),
     ogDescription: () => t('eventsPage.description'),
-    ogImage: 'https://iranarchive.com/og-image-events.jpg',
+    ogImage: 'https://iranarchive.net/og-image.png',
     twitterCard: 'summary_large_image',
 });
 

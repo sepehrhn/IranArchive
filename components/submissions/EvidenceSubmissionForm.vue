@@ -67,13 +67,13 @@
         <FileUpload
           mode="basic"
           :accept="acceptedFileTypes"
-          :maxFileSize="90000000"
+          :maxFileSize="52428800"
           @select="onFileSelect"
           chooseLabel="Choose File"
           :class="{ 'p-invalid': submitted && !selectedFile }"
         />
         <small class="text-surface-500">
-          Images (JPG, PNG, WebP), Videos (MP4, WebM), or Documents (PDF). Max 90MB.
+          Images (JPG, PNG, WebP), Videos (MP4, WebM), or Documents (PDF). Max 50MB.
         </small>
         <Message v-if="submitted && !selectedFile" severity="error" :closable="false" class="mt-2">
           Evidence file is required

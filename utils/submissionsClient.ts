@@ -7,6 +7,10 @@
 
 export type SubmissionKind = 'incident' | 'victim' | 'event';
 
+export const MAX_FILE_SIZE = 50 * 1024 * 1024;
+export const MAX_TOTAL_UPLOAD_SIZE = 75 * 1024 * 1024;
+export const MAX_FILES_PER_SUBMISSION = 10;
+
 export interface FileInfo {
     name: string;
     size: number;
@@ -78,12 +82,6 @@ export async function initUpload(params: InitUploadParams): Promise<InitUploadRe
             kind: params.kind,
             files: filesWithHash
         },
-        onRequest({ request, options }) {
-            console.log('Client: initUpload request', request);
-        },
-        onResponseError({ request, response, options }) {
-            console.error('Client: initUpload error', response);
-        }
     });
 
     return response;
@@ -137,7 +135,7 @@ export async function uploadToR2(file: File, putUrl: string): Promise<void> {
  * Validate file before upload
  */
 export function validateFile(file: File, kind: SubmissionKind): { valid: boolean; error?: string } {
-    const MAX_SIZE = 90 * 1024 * 1024; // 90MB
+    const MAX_SIZE = MAX_FILE_SIZE;
 
     // Check size
     if (file.size > MAX_SIZE) {
@@ -167,5 +165,16 @@ export function validateFile(file: File, kind: SubmissionKind): { valid: boolean
         };
     }
 
+    return { valid: true };
+}
+
+export function validateUploadCollection(files: File[]): { valid: boolean; error?: string } {
+    if (files.length > MAX_FILES_PER_SUBMISSION) {
+        return { valid: false, error: `You can upload at most ${MAX_FILES_PER_SUBMISSION} files at once.` };
+    }
+    const total = files.reduce((sum, file) => sum + file.size, 0);
+    if (total > MAX_TOTAL_UPLOAD_SIZE) {
+        return { valid: false, error: 'Combined uploads must be 75MB or less.' };
+    }
     return { valid: true };
 }

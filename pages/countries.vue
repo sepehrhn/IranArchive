@@ -21,7 +21,7 @@ useSeoMeta({
   ogTitle: t('countriesPage.title'),
   description: t('countriesPage.description'),
   ogDescription: t('countriesPage.description'),
-  ogImage: 'https://iranarchive.com/og-image-tracker.jpg',
+  ogImage: 'https://iranarchive.net/og-image.png',
   twitterCard: 'summary_large_image',
 });
 

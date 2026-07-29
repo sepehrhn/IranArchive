@@ -23,7 +23,7 @@ useSeoMeta({
   ogTitle: pageTitle,
   description: pageDescription,
   ogDescription: pageDescription,
-  ogImage: 'https://iranarchive.com/og-image-incidents.jpg',
+  ogImage: 'https://iranarchive.net/og-image.png',
   twitterCard: 'summary_large_image',
 })
 </script>

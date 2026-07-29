@@ -1,5 +1,3 @@
-import { toPersianDigits } from './utils/numbers'
-
 export default defineI18nConfig(() => ({
     legacy: false,
     fallbackLocale: 'en',
