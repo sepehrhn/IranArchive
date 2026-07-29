@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: خانه
+date_of_death: "2023-01-14"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested on January 14 after plainclothes agents raided his home and beat him in front of his wife and 7-year-old daughter. Has had no contact with his family since, and there is no information about his condition or whereabouts.
@@ -24,3 +24,12 @@ description: Arrested on January 14 after plainclothes agents raided his home an
 source_type: Social Media
 source:
   - https://x.com/saarmot/status/2022185476979835095
+  - https://t.me/akhbar_bazdashtiha/456
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - afa6770b-b416-4326-a3cf-d30aaa60b2fe
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

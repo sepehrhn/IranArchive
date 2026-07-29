@@ -1,9 +1,9 @@
 external_card_id: "7210"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48948_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48948_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49016_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52881_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48948_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48948_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49016_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52881_0_twitter_v1.jpg
 name: Azarnoosh Khorasani
 persian_name: آذرنوش خراسانی
 birth_date: ""
@@ -13,9 +13,9 @@ gender: Female
 age: 8
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
-incident_address: ""
+incident_address: Rahnamaei Street, Mashhad
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -29,3 +29,12 @@ source:
   - https://t.me/RememberTheirNames/2991
   - https://x.com/missmarpel75/status/2024015412325720095
   - https://x.com/gilasgoz/status/2024232813390631420
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7ea97ba5-5736-4a88-99b8-cd9524dd7819
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:b71925c3bd36305b

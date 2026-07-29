@@ -1,11 +1,11 @@
 external_card_id: "3778"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25520_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29675_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30226_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31002_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52150_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56430_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25520_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29675_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30226_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31002_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52150_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56430_0_twitter_v1.jpg
 name: Azhin Freydouni
 persian_name: آذین فریدونی
 birth_date: ""
@@ -15,12 +15,12 @@ gender: Male
 age: 40
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Andisheh, Shahriar
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -37,3 +37,12 @@ source:
   - https://x.com/i/status/2020811990021685370
   - https://t.me/JavidnamaneVatan/1637
   - https://x.com/i/status/2026559993479147774
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b091788f-23c0-4339-98a0-244e138069b7
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

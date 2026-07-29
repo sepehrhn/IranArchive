@@ -7,19 +7,28 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 40
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: external_source lists Behrouz (Shahrokh Arshi) among those killed on 2026-01-08 in Mashhad, Razavi Khorasan.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2215
+  - https://www.instagram.com/p/DYtv0nKiNH1/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 96ac57ac-13d7-4daf-8f01-870808a5f1e2
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T18:06:05.954491+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

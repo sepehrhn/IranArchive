@@ -15,7 +15,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,12 @@ source:
   - https://x.com/chaiteryak/status/2025935059845279960
   - https://x.com/javidnam25118/status/2025932837652770825
   - https://hengaw.net/en/news/2026/01/article-128
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c1b09772-4d39-4593-830a-1ebf9a6b5af6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

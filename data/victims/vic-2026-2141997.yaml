@@ -20,7 +20,7 @@ occupation: ""
 country: Iran
 incident_province: Qazvin
 incident_city: Qazvin
-incident_address: ""
+incident_address: Qazvin
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -36,3 +36,11 @@ source:
   - https://x.com/noorpahlavi20/status/2017031611246666097
   - https://x.com/i/status/2017031611246666097
   - https://x.com/zeberry3/status/2017279682123530555
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 91c5bddc-183e-49c2-b9df-4954d180e72f
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/874

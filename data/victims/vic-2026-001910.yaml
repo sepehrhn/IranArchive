@@ -11,12 +11,12 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Qasr-e Shirin
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,11 @@ description: |-
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/613
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 981f81f3-fb9c-4691-b184-876d5b4d8db5
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 37
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -24,3 +24,11 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3073
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_2211
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 0f764322-b63d-4cf5-8786-a9b361491d98
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:34f21fbc962fbad2

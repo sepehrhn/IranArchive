@@ -7,10 +7,10 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 23
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Neyshabur
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -23,3 +23,12 @@ description: Died in Neyshabur
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2790
+  - https://www.instagram.com/reel/DXeh59rgJYr/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 318dec15-2b83-4865-814b-0e0f3cef443e
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:f162c687e5301ac7

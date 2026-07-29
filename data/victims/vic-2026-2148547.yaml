@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ایذه, خوزستان
-incident_address: ""
-date_of_death: ""
+incident_address: Izeh
+date_of_death: "2026-01-03"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Student arrested during recent protests
@@ -26,3 +26,11 @@ source:
   - https://x.com/fzomorodif35743/status/2020433274540347455
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1207
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1208
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c5179a7a-378c-4863-bb67-f5c52e54bb03
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/children/276

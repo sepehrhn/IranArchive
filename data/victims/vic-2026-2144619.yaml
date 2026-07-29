@@ -1,7 +1,7 @@
 external_card_id: "8109"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_54190_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56354_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_54190_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56354_0_telegram_v1.jpg
 name: Maryam Borati
 persian_name: مریم براتی
 birth_date: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3168
   - https://t.me/JavidnamaneVatan/2276
+  - https://www.instagram.com/reel/DVIl1s4DP3l/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - f95e6318-bdda-463e-a90b-9323a59181d2
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:de8cb199eafc77cc

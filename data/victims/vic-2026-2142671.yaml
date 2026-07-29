@@ -1,14 +1,14 @@
 external_card_id: "1348"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21422_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21897_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22535_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27236_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38564_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50662_0_telegram_v1.jpg"
-  - "vic-2026-1d3d02fdab5b.jpg"
-  - "vic-2026-0e29281bfd6b.jpg"
-  - "vic-2026-2cc6c4d20711.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21422_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21897_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22535_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27236_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38564_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50662_0_telegram_v1.jpg
+  - vic-2026-1d3d02fdab5b.jpg
+  - vic-2026-0e29281bfd6b.jpg
+  - vic-2026-2cc6c4d20711.jpg
 name: Mohammad Hossein Parnoon
 persian_name: محمد حسین پرنون
 birth_date: ""
@@ -18,12 +18,12 @@ gender: Male
 age: 16
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Lorestan
 incident_city: Masour, Khorramabad
-incident_address: ""
+incident_address: Masur - Khorramabad
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -37,3 +37,11 @@ source:
   - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClXUMn
   - https://t.me/RememberTheirNames/1155
   - https://t.me/JavidnamaneVatan/787
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 6b7fec75-77a2-4ea8-bc38-a1bd581445fb
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

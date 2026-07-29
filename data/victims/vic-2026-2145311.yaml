@@ -1,7 +1,7 @@
 external_card_id: "5271"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41474_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55405_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41474_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55405_0_twitter_v1.jpg
 name: Omid Abbasi
 persian_name: امید عباسی
 birth_date: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2608
   - https://x.com/hosseinewr/status/2026360583184937272
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 2d2b413e-54d0-495c-9f73-5844138fdfb6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:3f20abff64235656

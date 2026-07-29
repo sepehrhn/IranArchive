@@ -13,7 +13,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: اهواز, خوزستان
-incident_address: ""
+incident_address: Sheiban Prison, Ahvaz
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -26,3 +26,11 @@ source_type: Social Media
 source:
   - https://x.com/autnews_org/status/2017632047485906974
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-460
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 3ccf266e-c2f6-4fb9-8778-31e3230d2e68
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/students/63

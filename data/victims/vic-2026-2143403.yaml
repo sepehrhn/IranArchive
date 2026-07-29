@@ -15,8 +15,8 @@ occupation: ""
 country: Iran
 incident_province: Yazd
 incident_city: Yazdanshahr
-incident_address: ""
-date_of_death: ""
+incident_address: مقابل دادگستری نجف‌آباد
+date_of_death: "2022-01-06"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested for demanding the release of around twenty young women (most about 20 years old) who were detained in Yazdanshahr. He gave the regime 24 hours and threatened peaceful protest in traditional clothes if they weren't freed. At risk of severe punishment, possibly execution.
@@ -30,3 +30,13 @@ source:
   - https://x.com/bisangar_ir/status/2019803462049915035
   - https://x.com/saarmot/status/2018796029303488712
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1061
+  - https://t.me/akhbar_bazdashtiha/417
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - f97bd983-bb57-4844-bb5a-ab3e3a264b91
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

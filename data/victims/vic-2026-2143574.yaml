@@ -1,7 +1,7 @@
 external_card_id: "2774"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26203_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30751_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26203_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30751_0_telegram_v1.jpg
 name: Ali Ghorbani
 persian_name: علی قربانی
 birth_date: ""
@@ -13,7 +13,7 @@ occupation: ""
 country: Iran
 incident_province: Fars
 incident_city: Pasargard
-incident_address: ""
+incident_address: Khorshid Intersection, Parand
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/historyinpik/status/2018065177816506579
   - https://t.me/RememberTheirNames/1782
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 3c2ee3d6-5a0a-41ef-a58b-687f9b4fb6d6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

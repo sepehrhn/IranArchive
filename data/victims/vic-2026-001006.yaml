@@ -1,8 +1,8 @@
 external_card_id: "4364"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37710_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37710_1_twitter_v1.jpg"
-  - "vic-2026-001006.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37710_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37710_1_twitter_v1.jpg
+  - vic-2026-001006.jpg
 name: Ahmad Hasanzadeh
 persian_name: احمد حسن زاده
 birth_date: ""
@@ -29,3 +29,11 @@ source_type: Social Media
 source:
   - https://x.com/visfehan/status/2014326018497012217
   - https://t.me/RememberTheirNames/632
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 66f9e3b5-9349-4c43-8c24-4fe72f1a4672
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/government/73

@@ -10,12 +10,12 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Khazaneh Bokharaei
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Unknown
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Killed in Khazaneh Bokharaei during Dey month 1404
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/1064
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 3de5e8e1-d887-4e80-acd9-e18182c86188
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

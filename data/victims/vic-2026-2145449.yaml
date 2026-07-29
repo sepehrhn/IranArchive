@@ -1,17 +1,17 @@
 external_card_id: "6950"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48009_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52887_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48009_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52887_0_twitter_v1.jpg
 name: Reza Bolandin Ghaleh Jouqi
 persian_name: رضا بلندین
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 22
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -27,3 +27,15 @@ source:
   - https://x.com/missmarpel75/status/2023420767703331145
   - https://x.com/gilasgoz/status/2024253584758448210
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_2453
+  - https://www.instagram.com/p/DVXgA5zEZ_D/
+  - https://external_source.org/fa/heroes
+  - https://www.hra-news.org/
+external_source_ids:
+  - 1688523a-917d-4cb1-a083-93712096e949
+  - a652c26f-b2c2-4958-a5c4-cb13ff2e2696
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:4fe5324d153d5f84
+  - HRANA-CW-2026/protesters/2453

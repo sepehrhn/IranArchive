@@ -1,15 +1,15 @@
 external_card_id: "1220"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21646_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22071_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22870_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23302_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31219_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31311_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38600_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49122_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49122_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49461_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21646_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22071_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22870_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23302_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31219_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31311_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38600_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49122_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49122_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49461_0_twitter_v1.jpg
 name: Mehdi Shafiei
 persian_name: مهدی شفیعی
 birth_date: ""
@@ -19,12 +19,12 @@ gender: Male
 age: 41
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Islam Shahr neighborhood
-incident_address: ""
+incident_address: Eslamshahr | Eslamshahr, Tehran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -44,3 +44,12 @@ source:
   - https://x.com/anjmotahed/status/2024462839440605520
   - https://x.com/iranintl/status/2017594876687228949
   - https://x.com/zhiyan_shah/status/2020529006085288234
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d21b605d-dc6e-4e09-ae7e-39627805b535
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Chaboksar
-incident_address: ""
-date_of_death: ""
+incident_address: منزلش در چابکسر
+date_of_death: "2023-01-11"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 18-year-old Gilaki citizen from Chaboksar, arrested during nationwide protests in Dey month 1404 in this city. According to informed sources, he was arrested after 20 Dey month while he was present beside the street by security forces of the Islamic Republic of Iran and has been in detention since then. According to these reports, Javad Ebrahimi has been subjected to severe pressure and torture and forced to make forced confessions about accusations that his family and those around him deny. Concerns about his physical and legal condition are serious. At the time of preparing this news, clear information about official charges, place of detention and his access to a lawyer has not been published.
@@ -26,3 +26,13 @@ source_type: Social Media
 source:
   - https://x.com/iranhrs99/status/2027073678685372863
   - https://x.com/hyrcanihrm/status/2026718439235043599
+  - https://t.me/akhbar_bazdashtiha/222
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 22c47314-65b2-4157-96d9-6c5941b52a42
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

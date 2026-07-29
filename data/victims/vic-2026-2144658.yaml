@@ -10,9 +10,9 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Fardis
-incident_address: ""
+incident_address: Fardis
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +23,11 @@ description: Shot directly in the heart with a war bullet by Islamic Republic fo
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/270
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 48537b10-1f1a-471b-bde4-7486c759f88f
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

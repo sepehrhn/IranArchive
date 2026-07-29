@@ -1,10 +1,10 @@
 external_card_id: "789"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20888_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26303_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37704_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39068_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49746_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20888_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26303_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37704_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39068_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49746_0_telegram_v1.jpg
 name: Ali Javanbakht
 persian_name: علی جوانبخت
 birth_date: ""
@@ -16,7 +16,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Farakhshar
-incident_address: ""
+incident_address: Farrokhshahr - Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -31,3 +31,11 @@ source:
   - https://x.com/allahbakhshii/status/2014323711487184978
   - https://t.me/RememberTheirNames/628
   - https://t.me/JavidnamaneVatan/122
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 8cd07db8-7211-4486-9d47-eeeaf9884dfe
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:174e1dc84e835f92

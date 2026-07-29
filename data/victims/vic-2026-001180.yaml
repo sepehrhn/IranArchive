@@ -1,11 +1,11 @@
 external_card_id: "2779"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26214_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37755_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49077_0_instagram_v1.jpg"
-  - "vic-2026-001180.jpg"
-  - "vic-2026-b5ef70afea29.jpg"
-  - "vic-2026-4148476d65a6.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26214_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37755_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49077_0_instagram_v1.jpg
+  - vic-2026-001180.jpg
+  - vic-2026-b5ef70afea29.jpg
+  - vic-2026-4148476d65a6.jpg
 name: Omid Rostami
 persian_name: امید رستمی
 birth_date: ""
@@ -15,7 +15,7 @@ gender: Male
 age: 40
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Khazaneh neighborhood
 incident_address: Khazaneh neighborhood
 date_of_death: "2026-01-08"
@@ -39,3 +39,11 @@ source:
   - https://t.me/RememberTheirNames/931
   - https://x.com/banafshehviola/status/2012600338701045873
   - https://x.com/isamanyasin/status/2015495110700806616
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7f6a1be2-a04f-4213-b863-ceb4c0b133d9
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

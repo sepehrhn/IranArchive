@@ -12,7 +12,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -21,7 +21,16 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: external_source lists Abolfazl Rezaei among those killed on 2026-01-09 in Mashhad, Razavi Khorasan.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1652
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b8155093-f7fd-4612-b25b-41365be371fb
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1172

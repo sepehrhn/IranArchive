@@ -10,7 +10,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kurdistan
 incident_city: Sanandaj
 incident_address: ""
 date_of_death: ""
@@ -20,8 +20,20 @@ disappearance_circumstances: Arrested by security forces on January 4, detained 
 suspected_actor: ""
 status: Missing
 detention_status: arrested
-description: Arrested by security forces on January 4, detained at the Sanandaj Intelligence Office for more than 40 days, under severe torture to extract a forced confession, previously detained multiple times for civil activism
+description: Arrested by security forces on January 4, 2026 (14 Dey 1404) and detained at Sanandaj Intelligence Office for 45 days. Under severe torture according to reports. Previously arrested multiple times for civil activities. Life is in danger.
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1546
   - https://x.com/saarmot/status/2024962664322269625
+  - https://x.com/hiwa_life/status/2024176354938486941
+  - https://external_source.org/fa/heroes
+external_card_ids:
+  - "6792"
+  - "7340"
+external_source_ids:
+  - 649f7e22-b68a-4cfd-8840-dc48dbde6aff
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

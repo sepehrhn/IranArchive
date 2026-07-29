@@ -1,9 +1,9 @@
 external_card_id: "4037"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31099_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40005_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40005_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47744_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31099_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40005_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40005_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47744_0_instagram_v1.jpg
 name: Mehdi Mohammadzadeh
 persian_name: مهدی محمدزاده
 birth_date: ""
@@ -13,12 +13,12 @@ gender: Male
 age: 23
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -30,3 +30,12 @@ source:
   - https://x.com/imdearie2/status/2019468342151520531
   - https://x.com/irannewsagency0/status/2019619770149089705
   - https://www.instagram.com/p/DUYm_JLDWtO
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 8a5c2f68-6fe9-4f3f-a6e9-d268bd61589b
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

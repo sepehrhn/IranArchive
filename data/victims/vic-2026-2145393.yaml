@@ -10,7 +10,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Qarchak
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -23,3 +23,15 @@ description: Died in Qarchak
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2194
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+  - https://iranmassacre.net/person/99-%D9%82%D8%A7%D8%B3%D9%85-%DA%A9%D8%A7%D8%B8%D9%85%DB%8C%D8%A7%D9%86/
+external_source_ids:
+  - 23838176-f77f-4ad6-908d-cbf9909197b2
+  - 3b7846ce-4652-428c-9173-cce584478ad6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/3109
+  - https://t.me/RememberTheirNames

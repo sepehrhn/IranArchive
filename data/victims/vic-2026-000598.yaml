@@ -1,12 +1,12 @@
 external_card_id: "736"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20753_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24028_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27285_0_web_v1.jpg"
-  - "vic-2026-000598.jpg"
-  - "vic-2026-8b4b3a6834a5.jpg"
-  - "vic-2026-8adc9fc62807.jpg"
-  - "vic-2026-58d55ef6c807.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20753_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24028_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27285_0_web_v1.jpg
+  - vic-2026-000598.jpg
+  - vic-2026-8b4b3a6834a5.jpg
+  - vic-2026-8adc9fc62807.jpg
+  - vic-2026-58d55ef6c807.jpg
 name: Faisal Yousefi
 persian_name: فیصل یوسفی
 birth_date: ""
@@ -16,7 +16,7 @@ gender: Male
 age: 25
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Hormozgan
 incident_city: Qeshm
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -37,3 +37,13 @@ source:
   - https://javidnaman.iranintl.com/memorial/yEYwvbhpDrCFHYzchQQtA3
   - https://x.com/irannewsagency0/status/2018978997871264060
   - https://t.me/RememberTheirNames/431
+  - https://external_source.org/fa/heroes
+  - https://www.instagram.com/p/DWDIalqE57V/
+external_source_ids:
+  - 290e7f98-74aa-41f5-967e-b2d559cc9d0c
+  - 85efe251-f4ba-4f0f-a27b-db1b69318929
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

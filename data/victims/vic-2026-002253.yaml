@@ -1,9 +1,9 @@
 external_card_id: "1542"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22318_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48347_0_web_v1.jpg"
-  - "vic-2026-002253.jpg"
-  - "vic-2026-30c5d1a24e90.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22318_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48347_0_web_v1.jpg
+  - vic-2026-002253.jpg
+  - vic-2026-30c5d1a24e90.jpg
 name: Sadegh Ghodsi
 persian_name: صادق قدسی
 birth_date: ""
@@ -16,7 +16,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Ghaleh Hassan Khan
 incident_address: Ghaleh Hassan Khan
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -32,3 +32,12 @@ source_type: Social Media
 source:
   - https://x.com/iranwire/status/2015916292235006023
   - https://javidnaman.iranintl.com/memorial/5b8e23b5-f108-4116-af4a-aff175882a62
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 68274ef0-6269-480b-b84d-665927edfa84
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:c6623741b34c7839

@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Azna
-incident_address: ""
-date_of_death: ""
+incident_address: استان همدان
+date_of_death: "2026-01-13"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested by security forces in Azna city, Lorestan province on 18 Dey month
@@ -24,3 +24,11 @@ description: Arrested by security forces in Azna city, Lorestan province on 18 D
 source_type: Social Media
 source:
   - https://x.com/allahbakhshii/status/2019423671958532184
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 92336600-8b4e-4191-bceb-af9012aff188
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/children/169

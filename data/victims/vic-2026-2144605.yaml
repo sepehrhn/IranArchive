@@ -1,7 +1,7 @@
 external_card_id: "7077"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48450_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49438_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48450_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49438_0_twitter_v1.jpg
 name: Mani Jamalpour
 persian_name: مانی جمالپور
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Shahriar
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -26,3 +26,12 @@ source:
   - https://t.me/RememberTheirNames/2909
   - https://x.com/hichkasofficial/status/2024092626304004417
   - https://x.com/gilasgoz/status/2023742923985002955
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 77af0245-78f7-46fb-9616-0679d56194c9
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/3151

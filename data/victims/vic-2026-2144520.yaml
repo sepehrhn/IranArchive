@@ -1,7 +1,7 @@
 external_card_id: "4045"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31112_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42099_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31112_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42099_0_twitter_v1.jpg
 name: Khadijeh Sharaflavi Zageh
 persian_name: خدیجه شرفلوی زاغه
 birth_date: ""
@@ -16,7 +16,7 @@ incident_city: Shahreh Qods
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2156
   - https://x.com/1youngcrazy/status/2021082010983277012
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 8b5cdeba-126f-4329-9081-43b1aaea0651
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

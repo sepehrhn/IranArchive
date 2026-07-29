@@ -1,10 +1,10 @@
 external_card_id: "1449"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22120_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30604_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38127_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38459_0_telegram_v1.jpg"
-  - "vic-2026-6a090a07b21f.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22120_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30604_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38127_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38459_0_telegram_v1.jpg
+  - vic-2026-6a090a07b21f.jpg
 name: Saeed Arian
 persian_name: سعید آریان
 birth_date: ""
@@ -14,7 +14,7 @@ gender: Male
 age: 55
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Markazi
 incident_city: Arak
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -30,3 +30,14 @@ source:
   - https://x.com/saeidvafa/status/2018923259660534110
   - https://x.com/saeidvafa/status/2015503706414801404
   - https://t.me/RememberTheirNames/1267
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 47cf6d4e-3f84-4945-b0a5-f4ae2fda2dac
+  - 7982fcf9-57ed-4567-82a8-aeb64be262d2
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1078
+  - iranintl-memorial:4cadc6aca39feb36

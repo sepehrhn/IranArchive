@@ -1,16 +1,16 @@
 external_card_id: "1269"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21721_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21721_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21721_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25498_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34059_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38585_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51645_0_telegram_v1.jpg"
-  - "vic-2026-4e1fcccb0ec5.jpg"
-  - "vic-2026-5fc6a610ab2f.jpg"
-  - "vic-2026-cd5cd8a51ed5.jpg"
-  - "vic-2026-831cdfab14a3.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21721_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21721_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21721_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25498_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34059_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38585_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51645_0_telegram_v1.jpg
+  - vic-2026-4e1fcccb0ec5.jpg
+  - vic-2026-5fc6a610ab2f.jpg
+  - vic-2026-cd5cd8a51ed5.jpg
+  - vic-2026-831cdfab14a3.jpg
 name: Mohammad Rajaei
 persian_name: محمد رجایی
 birth_date: ""
@@ -20,12 +20,12 @@ gender: Male
 age: 24
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Najafabad
-incident_address: ""
+incident_address: Najafabad, Isfahan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -37,3 +37,12 @@ source:
   - https://x.com/manotonews/status/2018867105182130247
   - https://t.me/RememberTheirNames/1133
   - https://t.me/JavidnamaneVatan/1161
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - f3e15b7b-0a7b-4e97-859e-34fdc24a6cde
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

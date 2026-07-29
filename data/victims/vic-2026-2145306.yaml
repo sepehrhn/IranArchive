@@ -7,13 +7,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 43
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Sade
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -23,3 +23,11 @@ description: Death occurred in Sade, Isfahan during Dey 1404
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1718
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 5fbe718f-5c61-438c-b3ad-e3666d6ebc57
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:e2d7a7db84f98df9

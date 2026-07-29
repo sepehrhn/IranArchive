@@ -17,8 +17,8 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: ""
+incident_province: Semnan
+incident_city: Shahroud
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
@@ -33,3 +33,11 @@ source:
   - https://x.com/SabaMajlessi/status/2014967575638126808
   - https://x.com/saarmot/status/2017077476002841071
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-981
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - e10f6ce3-9b44-4418-9300-4c22f79d5e3c
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -14,7 +14,7 @@ country: Iran
 incident_province: ""
 incident_city: Gorgan
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-11-26"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested on February 22 during a 40th-day memorial in Gorgan. Has faced ongoing security pressure since 2021 and was recently sentenced to six months in prison. No information has been released about charges or condition.
@@ -25,3 +25,12 @@ description: Arrested on February 22 during a 40th-day memorial in Gorgan. Has f
 source_type: Social Media
 source:
   - https://x.com/saarmot/status/2025812730871939166
+  - https://t.me/akhbar_bazdashtiha/187
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 75f6c8c3-402a-44d8-ae40-02045ee361c8
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

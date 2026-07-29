@@ -12,13 +12,21 @@ country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: external_source lists Amirali Peymani among those killed on 2026-01-08 in Isfahan.
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/ba8c421f-02e1-47c8-b34a-4d0de5896292
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 3e2dc9c3-29b9-43f4-9741-1ee3a62a42b9
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:82db882d1b21209d

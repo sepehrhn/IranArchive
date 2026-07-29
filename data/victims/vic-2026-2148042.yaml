@@ -21,8 +21,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: یاسوج, کهگیلویه و بویراحمد
-incident_address: ""
-date_of_death: ""
+incident_address: Yasuj
+date_of_death: "2026-01-03"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Lor resident of Yasuj, detained during protest on Friday, January 2, 2026 (12 Dey 1404) by Iranian government forces
@@ -35,3 +35,11 @@ source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-194
   - https://hengaw.net/en/news/2026/01/article-41
   - https://hengaw.net/fa/news/2026/01/article-41
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 676938ab-522e-4e09-b0ac-1dfc53ab7b81
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/226

@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 32
 occupation: ""
 country: Iran
 incident_province: Kerman
@@ -23,3 +23,12 @@ description: Died in Kerman
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2580
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 16451f25-8dce-4f95-9a5f-241b7c18e411
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:c42dd2083afafdbc

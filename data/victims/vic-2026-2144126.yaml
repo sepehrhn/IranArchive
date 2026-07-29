@@ -1,15 +1,15 @@
 external_card_id: "1507"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22254_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23529_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26790_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29358_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30024_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30277_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30886_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38184_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50315_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_57098_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22254_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23529_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26790_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29358_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30024_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30277_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30886_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38184_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50315_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_57098_0_telegram_v1.jpg
 name: Erfan Taghi Zadeh
 persian_name: عرفان تقی زاده
 birth_date: ""
@@ -19,12 +19,12 @@ gender: Male
 age: 22
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Rasht
 incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -43,3 +43,12 @@ source:
   - https://x.com/gilasgoz/status/2020967794477826130
   - https://x.com/dil_wan7819/status/2024982916443357230
   - https://t.me/JavidnamaneVatan/2341
+  - https://x.com/HyrcaniHRM/status/2016466016704864713?lang=en
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7b595feb-4816-405d-b226-72b8f6fc5b50
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

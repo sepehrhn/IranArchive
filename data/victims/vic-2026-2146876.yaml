@@ -10,10 +10,10 @@ gender: Female
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: اصفهان, اصفهان
-incident_address: ""
-date_of_death: ""
+incident_address: خانه‌ی اقوام
+date_of_death: "2023-01-28"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Taken from home, family has no information about her condition. Family calls her by the nickname 'Delnavaz' at home.
@@ -25,3 +25,13 @@ source_type: Social Media
 source:
   - https://x.com/NickSotoudeh/status/2018102331091583200
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1181
+  - https://t.me/akhbar_bazdashtiha/307
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - da6b0c98-5cff-4a03-b4e8-1f3899945c41
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

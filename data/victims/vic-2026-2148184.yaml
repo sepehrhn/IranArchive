@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: شیراز, فارس
-incident_address: ""
-date_of_death: ""
+incident_address: Shiraz
+date_of_death: "2026-01-21"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested by security forces in Shiraz on January 8, 2026, then transferred to Yasuj prison. Family has no information about his exact location or health condition despite efforts to get information from authorities.
@@ -28,3 +28,11 @@ source:
   - https://x.com/allahbakhshii/status/2026306183066165668
   - https://x.com/duygu_taj/status/2026362639824138625
   - https://x.com/i/status/2026306183066165668
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 2e8467ce-9ddb-493c-b803-aed6572dbb4f
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/2044

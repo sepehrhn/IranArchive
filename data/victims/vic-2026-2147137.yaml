@@ -1,17 +1,17 @@
 external_card_id: "8887"
 photo: []
 name: Ilya Kalanger
-persian_name: ""
+persian_name: ایلیا کلانگر
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Arak
-incident_address: ""
+incident_address: Arak
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -23,3 +23,11 @@ description: "Detained during protests. Listed in HRANA's 'Detained Students' se
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_STUDENT_87
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 0d8598d5-0426-460e-b629-fcef639a9e61
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/students/87

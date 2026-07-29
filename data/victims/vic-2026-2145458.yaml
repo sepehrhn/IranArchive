@@ -7,15 +7,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 33
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: ""
-incident_address: ""
+incident_province: Tehran
+incident_city: Tehran
+incident_address: Tehranpars, Estakhr Street
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,12 @@ description: Listed as a martyred name alongside Hani Ganji
 source_type: Social Media
 source:
   - https://x.com/hekasrehcrisis/status/2018189827808604464
+  - https://www.instagram.com/p/DUBo3ixCIx8/?hl=en
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 214df434-816a-4aaf-8354-5451fc6f7d8a
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

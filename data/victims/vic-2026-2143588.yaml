@@ -1,7 +1,7 @@
 external_card_id: "3941"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30858_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53782_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30858_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53782_0_instagram_v1.jpg
 name: Ali Kazemi
 persian_name: علی کاظمی
 birth_date: ""
@@ -11,12 +11,12 @@ gender: Male
 age: 24
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-incident_address: ""
+incident_address: Mesbah, Karaj
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1893
   - https://www.instagram.com/p/DU5K-4EjNue
+  - https://www.instagram.com/darrahevatan/p/DVPuGx5DVa4/?hl=uk
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - bac8e04f-6608-44dd-a402-f9d98375e110
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

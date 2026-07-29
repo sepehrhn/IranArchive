@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Dehloran
-incident_address: ""
-date_of_death: ""
+incident_address: Dehloran
+date_of_death: "2026-01-22"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Kurdish man from Dehloran arrested by regime forces on January 22 and transferred to an undisclosed location with no further information about his whereabouts
@@ -24,3 +24,11 @@ description: Kurdish man from Dehloran arrested by regime forces on January 22 a
 source_type: Social Media
 source:
   - https://x.com/saarmot/status/2018320510019383727
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d39f319c-980c-461a-8d75-0a1cbdb3657c
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/738

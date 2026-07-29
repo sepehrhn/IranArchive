@@ -15,7 +15,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed by forces of the Islamic Republic
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: 44-year-old lawyer from Shushtar living in Tehran, killed by Islami
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/1476
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 50617f70-82f8-4f24-b4e3-3c5fd46ee4e8
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

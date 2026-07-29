@@ -7,10 +7,10 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 23
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -23,3 +23,15 @@ description: Died in Mashhad
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2626
+  - https://www.instagram.com/reel/DWaq2zAjC-r/
+  - https://external_source.org/fa/heroes
+  - https://www.hra-news.org/
+external_source_ids:
+  - 2fe4bca1-3a8b-42f1-98fa-1766fce4d871
+  - 74f4fc24-79ff-4d36-a7a0-35226e39be39
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:c8374ed2d5d2b567
+  - HRANA-CW-2026/protesters/2909

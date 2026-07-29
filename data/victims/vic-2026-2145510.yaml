@@ -1,8 +1,8 @@
 external_card_id: "4167"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34073_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34766_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40144_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34073_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34766_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40144_0_telegram_v1.jpg
 name: Rouhollah Mahdian
 persian_name: روح‌الله مهدیان
 birth_date: ""
@@ -12,7 +12,7 @@ gender: Male
 age: 45
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -27,3 +27,12 @@ source:
   - https://x.com/iranwire/status/2019090591494062456
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaT7sydh
   - https://t.me/RememberTheirNames/2298
+  - https://www.instagram.com/p/DVSaCfejdfS/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 01453e9b-a373-423e-a5d6-fd18cd2e07d9
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:786c6171afb62f74

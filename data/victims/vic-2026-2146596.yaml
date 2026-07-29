@@ -16,7 +16,7 @@ country: Iran
 incident_province: ""
 incident_city: Chabahar
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 17-year-old Baloch teenager arrested by security forces on January 9, 2026 during popular protests in Chabahar. Has been in detention for nearly a month with no information about his fate, location of detention, or physical condition. Family has repeatedly followed up with security, police, and judicial authorities but received no clear response. No institution has officially accepted responsibility for his detention.
@@ -30,3 +30,12 @@ source:
   - https://x.com/i/status/2019192334223831340
   - https://x.com/followupiran/status/2020511914053267460
   - https://x.com/isamanyasin/status/2024236136076378410
+  - https://t.me/akhbar_bazdashtiha/466
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - beff44a8-fec5-4e91-9e91-4a5d65d921c6
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

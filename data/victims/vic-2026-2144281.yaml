@@ -1,16 +1,16 @@
 external_card_id: "1270"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21724_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22888_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23253_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23283_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23555_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23591_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24139_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24139_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24492_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26690_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38743_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21724_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22888_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23253_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23283_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23555_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23591_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24139_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24139_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24492_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26690_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38743_0_telegram_v1.jpg
 name: Hamidreza Bagheri
 persian_name: حمیدرضا باقری
 birth_date: ""
@@ -20,12 +20,12 @@ gender: Male
 age: 23
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Nasim Shahr (Hessarak Payin)
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -42,3 +42,12 @@ source:
   - https://x.com/MothrOfDrgns/status/2016952604878667888
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaT7apP1
   - https://t.me/RememberTheirNames/966
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c77b626a-7019-41ab-bccd-fa4197561d7a
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

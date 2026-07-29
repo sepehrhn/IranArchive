@@ -1,13 +1,13 @@
 external_card_id: "634"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20617_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26381_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49804_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50088_0_twitter_v1.jpg"
-  - "vic-2026-000231.jpg"
-  - "vic-2026-c6ce7de629d3.jpg"
-  - "vic-2026-7d1bb52e125a.jpg"
-  - "vic-2026-000913.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20617_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26381_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49804_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50088_0_twitter_v1.jpg
+  - vic-2026-000231.jpg
+  - vic-2026-c6ce7de629d3.jpg
+  - vic-2026-7d1bb52e125a.jpg
+  - vic-2026-000913.jpg
 name: Ali Bayat
 persian_name: علی بیات
 birth_date: ""
@@ -19,7 +19,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Narmak
-incident_address: ""
+incident_address: Haft-Hoz, Tehran | Narmak | Haft-Hoz, Narmak
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -42,3 +42,11 @@ source:
   - https://www.iran-emrooz.net/index.php/news2/125134/
   - https://x.com/Daikatuo/status/2007456429049856090
   - https://x.com/walterakam/status/2016571251636994153
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - fb529d43-baba-4029-8a6c-9ce8f2a0dcf8
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

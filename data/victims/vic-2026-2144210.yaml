@@ -13,7 +13,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -23,3 +23,12 @@ description: Shot in the heart with a war bullet on the first night of the call/
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/162
+  - https://www.instagram.com/reel/DWrSd8XiK_N/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d16e2475-ed44-46a7-ab11-4c4b12094a1e
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

@@ -1,23 +1,23 @@
 external_card_id: "1420"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22062_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22897_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29693_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22062_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22897_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29693_0_twitter_v1.jpg
 name: Ehsan Zal-nezhad
 persian_name: احسان زال نژاد
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 58
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Chalus
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -30,3 +30,12 @@ source:
   - https://x.com/HeKasrehCrisis/status/2018192440415408489
   - https://x.com/iranianpapppi3/status/2018472832897024124
   - https://x.com/IranNewsAgency0/status/2018272239381008707
+  - https://narrata.info/fa/narratives/89918381-5eb3-4d53-9c5a-eaac9a09da32/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 0558438d-ad5c-4b02-801b-66b149b4bcb6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:8357cc953cebeafb

@@ -1,13 +1,13 @@
 external_card_id: "2273"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23911_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23912_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30122_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30158_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30237_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34109_0_telegram_v1.jpg"
-  - "vic-2026-39ffe1d46e54.jpg"
-  - "vic-2026-b83633fa69ef.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23911_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23912_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30122_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30158_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30237_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34109_0_telegram_v1.jpg
+  - vic-2026-39ffe1d46e54.jpg
+  - vic-2026-b83633fa69ef.jpg
 name: Sepehr Afrazeh
 persian_name: سپهر افرازه
 birth_date: ""
@@ -22,7 +22,7 @@ incident_city: Isfahan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -35,3 +35,12 @@ source:
   - https://x.com/manotonews/status/2018640609444249669
   - https://x.com/kyokushinsoofi/status/2018743597349114334
   - https://t.me/RememberTheirNames/2206
+  - https://www.instagram.com/p/DWPtHt7AV0W/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 633c5272-5b31-4f01-9ea3-1eaaa4726bb3
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,9 +1,9 @@
 external_card_id: "4366"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37713_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39225_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49381_0_twitter_v1.jpg"
-  - "vic-2026-000420.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37713_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39225_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49381_0_twitter_v1.jpg
+  - vic-2026-000420.jpg
 name: Rahman Khorsandi
 persian_name: رحمان خورسندی
 birth_date: ""
@@ -13,7 +13,7 @@ gender: Male
 age: 60
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Fardis, Karaj
 incident_address: Fardis
 date_of_death: "2026-01-09"
@@ -34,3 +34,12 @@ source:
   - https://x.com/fseifikaran/status/2014312951633559984
   - https://t.me/RememberTheirNames/463
   - https://x.com/iranwire/status/2024360008654410176
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 83170650-d0dc-48c0-9d8d-92c0dfb7eb9d
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -11,8 +11,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Yaft Abad
-incident_address: ""
-date_of_death: ""
+incident_address: Yaftabad - Tehran
+date_of_death: "2026-01-06"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -22,3 +22,11 @@ description: Victim memorialized in Iran International database from Yaftabad ar
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMguf0
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a76276bf-9772-40c3-901b-62ce0f6ea529
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:79342dc5bd35292a

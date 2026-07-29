@@ -13,7 +13,7 @@ country: Iran
 incident_province: ""
 incident_city: Arak
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-13"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested on January 13, 2026 in Arak and held in solitary confinement since arrest. Life reported to be in danger.
@@ -24,3 +24,12 @@ description: Arrested on January 13, 2026 in Arak and held in solitary confineme
 source_type: Social Media
 source:
   - https://x.com/saeidvafa/status/2021336902092325253
+  - https://t.me/akhbar_bazdashtiha/19
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 70e90a60-ea60-4c92-babe-a6177427a2b5
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

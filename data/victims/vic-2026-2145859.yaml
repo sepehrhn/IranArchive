@@ -1,9 +1,9 @@
 external_card_id: "2303"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24089_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24180_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26989_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38790_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24089_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24180_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26989_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38790_0_telegram_v1.jpg
 name: Yaghoub Dalir Gardeh
 persian_name: یعقوب دلیر
 birth_date: ""
@@ -15,7 +15,7 @@ occupation: ""
 country: Iran
 incident_province: Gilan
 incident_city: Astaneh-ye Ashrafiyeh
-incident_address: ""
+incident_address: Astaneh-ye Ashrafiyeh - Gilan
 date_of_death: "2026-02-01"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -30,3 +30,12 @@ source:
   - https://x.com/pkhwshhal/status/2015089069697458179
   - https://javidnaman.iranintl.com/memorial/faVC3p6tCxw9DOdQYJBugO
   - https://t.me/RememberTheirNames/917
+  - https://x.com/HyrcaniHRM/status/2015029515878085108?lang=en
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - cd2338fa-e5cf-481a-b1f5-09735cfa79bf
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-26T17:18:11.898859+00:00"
+external_source_source_references:
+  - iranintl-memorial:df6b930357f0f541

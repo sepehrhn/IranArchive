@@ -1,8 +1,8 @@
 external_card_id: "6915"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47615_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48572_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56357_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47615_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48572_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56357_0_telegram_v1.jpg
 name: Mohammad Rezaei Navid
 persian_name: محمد رضایی‌نوید
 birth_date: ""
@@ -12,12 +12,12 @@ gender: Male
 age: 39
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Shahriar
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed by agents of the Islamic Republic
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -28,3 +28,15 @@ source:
   - https://www.instagram.com/p/DU0O4uADOga
   - https://x.com/gilasgoz/status/2024248374849913281
   - https://t.me/JavidnamaneVatan/2279
+  - https://www.javidarchive.org/fa/memorial/jn-h22nTBad3K42WBHvEkyXsp
+  - https://external_source.org/fa/heroes
+  - https://www.hra-news.org/
+external_source_ids:
+  - daae06a1-650e-490c-9d01-ea0a76d203d2
+  - 2abbd9a7-4f62-4bb6-bf82-1b0007201d41
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan
+  - HRANA-CW-2026/protesters/2714

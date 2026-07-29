@@ -1,15 +1,15 @@
 external_card_id: "9146"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55804_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55804_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55804_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55804_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55804_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55804_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55804_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55804_7_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55804_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55804_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55804_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55804_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55804_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55804_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55804_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55804_7_web_v1.jpg
 name: Mohammad Seidi
-persian_name: ""
+persian_name: محمد سیدی
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -17,7 +17,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -30,3 +30,12 @@ description: Kurdish man originally from Sarpol-e Zahab who was the primary prov
 source_type: Social Media
 source:
   - https://hengaw.net/en/news/2026/01/article-107
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 6154f4f8-5fc8-464f-a904-39eada09ebb7
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/133

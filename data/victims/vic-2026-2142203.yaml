@@ -1,14 +1,14 @@
 external_card_id: "1847"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23061_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23203_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26971_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30679_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50948_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53031_0_twitter_v1.jpg"
-  - "vic-2026-ed6ca7ddc144.jpg"
-  - "vic-2026-b5a9c2fd2011.jpg"
-  - "vic-2026-6e70acc8f3a9.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23061_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23203_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26971_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30679_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50948_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53031_0_twitter_v1.jpg
+  - vic-2026-ed6ca7ddc144.jpg
+  - vic-2026-b5a9c2fd2011.jpg
+  - vic-2026-6e70acc8f3a9.jpg
 name: Majid Asgharnejad
 persian_name: مجید اصغرنژاد
 birth_date: ""
@@ -18,12 +18,12 @@ gender: Male
 age: 31
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Amol
-incident_address: ""
+incident_address: Amol, Bouran Village
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -39,3 +39,12 @@ source:
   - https://t.me/JavidnamaneVatan/1048
   - https://x.com/dadban4/status/2025686862845952463
   - https://x.com/gilasgoz/status/2022015235121623402
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - aeeb3f02-b824-4a65-a15b-8e9d29a915a8
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

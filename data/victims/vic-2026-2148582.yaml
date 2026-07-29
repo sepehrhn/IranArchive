@@ -7,13 +7,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 30
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Gynecologist and urological resident arrested by security forces at her home in Isfahan. She worked as a doctor at Seyyed Alshohada (Omid) Hospital and several medical institutions in Isfahan. After arrest, she was transferred to Isfahan Central Prison and remains in custody. No official information has been released about the reason for her arrest, charges, current physical condition, or case status. She was arrested for upholding her oath as a doctor to help citizens.
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/nightsilver00/status/2024420804663120157
   - https://x.com/blackdee0/status/2024789040797790230
+  - https://t.me/akhbar_bazdashtiha/262
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 2d0990b5-73b5-4690-a369-6b290763f440
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

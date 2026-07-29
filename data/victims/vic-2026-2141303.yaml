@@ -1,22 +1,22 @@
 external_card_id: "1913"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23189_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23189_1_twitter_v1.jpg"
-  - "vic-2026-770dc01d0d86.jpg"
-  - "vic-2026-5125e22afa58.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23189_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23189_1_twitter_v1.jpg
+  - vic-2026-770dc01d0d86.jpg
+  - vic-2026-5125e22afa58.jpg
 name: Elina Bahrami
 persian_name: الینا بهرامی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 22
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -26,3 +26,12 @@ description: University student at University of Tehran in German Language and L
 source_type: Social Media
 source:
   - https://x.com/anjmotahed/status/2016480868353655098
+  - https://www.instagram.com/p/DYCrxoCCKWd/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 895c8894-5a56-4aa0-b2f6-026661b88342
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/870

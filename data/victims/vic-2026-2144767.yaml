@@ -1,7 +1,7 @@
 external_card_id: "7665"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51063_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51101_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51063_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51101_0_telegram_v1.jpg
 name: Mehrdad Heydari Bashsiz
 persian_name: مهراد حیدری
 birth_date: ""
@@ -26,3 +26,11 @@ source:
   - https://x.com/tavaana/status/2025293145173623167
   - https://t.me/RememberTheirNames/3097
   - https://x.com/gilasgoz/status/2025906759169126884
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 8b6b42e5-2585-43d8-87dd-22565d4da201
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:f218ab22e7e27345

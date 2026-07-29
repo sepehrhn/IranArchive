@@ -6,7 +6,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 16
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,3 +23,12 @@ description: "Charges: نامشخص"
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-66
+  - https://t.me/akhbar_bazdashtiha/720
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - cbd25877-da4e-470e-bdc2-d0984db15e33
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

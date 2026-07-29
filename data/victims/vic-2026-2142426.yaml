@@ -1,9 +1,9 @@
 external_card_id: "1875"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23114_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40196_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48412_0_web_v1.jpg"
-  - "vic-2026-88ff6bd6c1b7.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23114_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40196_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48412_0_web_v1.jpg
+  - vic-2026-88ff6bd6c1b7.jpg
 name: Ali Amirdadi
 persian_name: علی امیردادی
 birth_date: ""
@@ -28,3 +28,12 @@ source:
   - https://x.com/hekasrehcrisis/status/2016609434261205212
   - https://t.me/RememberTheirNames/2350
   - https://javidnaman.iranintl.com/memorial/7ad9f3c6-19b5-4687-8b4d-f96b1fa8a7fc
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 391882d3-d635-47ed-bfd7-7c47be1b44b9
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:9a4ae7207decda9e

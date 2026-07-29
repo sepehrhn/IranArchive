@@ -1,9 +1,9 @@
 external_card_id: "3356"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29190_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41928_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48262_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48392_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29190_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41928_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48262_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48392_0_web_v1.jpg
 name: Soudabeh (Narges) Sarbandi Farahani
 persian_name: سودابه (نرگس) سربندی
 birth_date: ""
@@ -13,7 +13,7 @@ gender: Female
 age: 18
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Rasht
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -31,3 +31,11 @@ source:
   - https://x.com/iranwire/status/2023635634766647735
   - https://javidnaman.iranintl.com/memorial/5VVXcTM3TsptqUxdXy9TLU
   - https://x.com/gilasgoz/status/2021310571648258235
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 3937923c-26b9-4863-abd9-0a8744e581c5
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - wikipedia-javidnaman:697

@@ -13,7 +13,7 @@ country: Iran
 incident_province: ""
 incident_city: Mashhad
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-21"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested on 24 Bahman (February 13, 2026) in Mashhad, no news about his condition since then
@@ -24,3 +24,12 @@ description: Arrested on 24 Bahman (February 13, 2026) in Mashhad, no news about
 source_type: Social Media
 source:
   - https://x.com/ilia__gj/status/2027066428805800167
+  - https://t.me/akhbar_bazdashtiha/533
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 2a3b0e2b-6863-4e4c-b726-d49bf69e5966
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

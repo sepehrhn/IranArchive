@@ -1,7 +1,7 @@
 external_card_id: "3854"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30651_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51958_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30651_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51958_0_telegram_v1.jpg
 name: Amirabbas Momeni
 persian_name: امیرعباس مومنی
 birth_date: ""
@@ -13,7 +13,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Eslamshahr
-incident_address: ""
+incident_address: Islamshahr - Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -26,3 +26,12 @@ source:
   - https://t.me/RememberTheirNames/1682
   - https://t.me/JavidnamaneVatan/1458
   - https://x.com/iranianpapppi3/status/2027409107792412754
+  - https://www.instagram.com/p/DUaMQi6jM-X/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c8c17954-75ad-44c8-9bba-3507f4df8642
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:43a20fed8df83351

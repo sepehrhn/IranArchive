@@ -1,9 +1,9 @@
 external_card_id: "1880"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23119_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40042_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40042_1_twitter_v1.jpg"
-  - "vic-2026-ccbdeef1c2c7.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23119_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40042_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40042_1_twitter_v1.jpg
+  - vic-2026-ccbdeef1c2c7.png
 name: Vahid Norouzi
 persian_name: وحید نوروزی
 birth_date: ""
@@ -15,10 +15,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehransar
-incident_address: ""
+incident_address: Tehran, Tehransar
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -28,3 +28,12 @@ source:
   - https://x.com/hekasrehcrisis/status/2016521282657886499
   - https://javidnaman.iranintl.com/memorial/h22nTBad3K42WBHvEswshb
   - https://x.com/shadowsgone_/status/2019798061313040728
+  - https://www.instagram.com/p/DVWTLg3k_dD/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 090f44ed-5b21-4739-8e28-d0bd0073ea20
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

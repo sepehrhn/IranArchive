@@ -23,7 +23,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Birjand
-incident_address: ""
+incident_address: Bojnord
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -38,3 +38,11 @@ source:
   - https://x.com/autnews_org/status/2020972888749375508
   - https://t.me/SinaAghighi/940
   - https://hengaw.net/en/news/2026/02/article-52
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 31ea738b-5b3d-4972-a436-45bc5371be8d
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/students/114

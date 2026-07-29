@@ -1,12 +1,12 @@
 external_card_id: "1253"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21316_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21700_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26429_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38574_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53405_0_telegram_v1.jpg"
-  - "vic-2026-000415.jpg"
-  - "vic-2026-57e80bd7f05d.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21316_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21700_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26429_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38574_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53405_0_telegram_v1.jpg
+  - vic-2026-000415.jpg
+  - vic-2026-57e80bd7f05d.jpg
 name: Pouya Jafari Lapouei
 persian_name: پویا جعفری
 birth_date: ""
@@ -18,7 +18,7 @@ occupation: ""
 country: Iran
 incident_province: Fars
 incident_city: Lapouei
-incident_address: ""
+incident_address: Lapui City - Fars
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -39,3 +39,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmOwZFp
   - https://t.me/RememberTheirNames/1145
   - https://t.me/JavidnamaneVatan/2156
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 0d0cb400-3f29-4a1c-9a8f-16336adbb2b6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:8ea86902d130e96f

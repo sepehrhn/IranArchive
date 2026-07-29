@@ -8,10 +8,10 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 28
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Khuzestan
 incident_city: Shushtar
 incident_address: ""
 date_of_death: ""
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/vahidmirzaeii/status/2020299545372979333
   - https://www.instagram.com/p/DU6Exb0jIOl
+  - https://t.me/akhbar_bazdashtiha/632
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7c523dc9-f36f-4568-bc7c-1907774753ff
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

@@ -1,25 +1,25 @@
 external_card_id: "7528"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27802_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50277_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53015_0_twitter_v1.jpg"
-  - "vic-2026-002104.jpg"
-  - "vic-2026-2b862a530f2d.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27802_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50277_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53015_0_twitter_v1.jpg
+  - vic-2026-002104.jpg
+  - vic-2026-2b862a530f2d.jpg
 name: Afsaneh Mehdinejad
 persian_name: افسانه مهدی‌نژاد
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 35
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Rasht
-incident_address: ""
+incident_address: Rasht
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -36,3 +36,15 @@ source:
   - https://x.com/meliii_white/status/2023892446615400605
   - https://x.com/gilasgoz/status/2022251895042056387
   - https://t.me/RememberTheirNames/687
+  - https://www.instagram.com/reel/DU7mjCjjRru/?hl=en
+  - https://external_source.org/fa/heroes
+  - https://www.hra-news.org/
+external_source_ids:
+  - 2def03a6-6aee-48e6-bb69-829c77c766f0
+  - 718b8918-86df-4965-a16f-e0015f1b3c6e
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/3975
+  - HRANA-CW-2026/protesters/1262

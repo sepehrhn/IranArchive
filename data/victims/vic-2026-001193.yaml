@@ -15,9 +15,9 @@ gender: Male
 age: 35
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Golestan
 incident_city: Gorgan
-incident_address: ""
+incident_address: Gorgan | Palace Square in the city of Gorgan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -39,3 +39,12 @@ source:
   - https://t.me/RememberTheirNames/855
   - https://x.com/HeKasrehCrisis/status/2015881985835647146
   - https://x.com/fseifikaran/status/2016313455184122150
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - abc06aac-0e8c-4677-95fb-e1e44fb3e0e1
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

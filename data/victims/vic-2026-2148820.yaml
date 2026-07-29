@@ -11,7 +11,7 @@ gender: Female
 age: 60
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: لاهیجان, گیلان
 incident_address: ""
 date_of_death: "2026-01-24"
@@ -27,3 +27,11 @@ source:
   - https://x.com/pkhwshhal/status/2015646818781258077
   - https://x.com/scarface_2582/status/2021149312248369225
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-80
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 545be4ea-1b78-45ff-b792-64213657536d
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

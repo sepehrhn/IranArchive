@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 48
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,3 +23,12 @@ description: Died in Qarchak
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3155
+  - https://www.instagram.com/reel/DUgjoITCIvU/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 162623a4-9229-4762-bccc-63051513954e
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:342ecc43b9f05786

@@ -1,9 +1,9 @@
 external_card_id: "2129"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23642_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27044_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27058_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30867_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23642_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27044_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27058_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30867_0_telegram_v1.jpg
 name: Jahanbakhsh Hesar Firouzeh
 persian_name: جهان حصارفیروزه
 birth_date: ""
@@ -13,7 +13,7 @@ gender: Male
 age: 71
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Fars
 incident_city: Shiraz
 incident_address: ""
 date_of_death: "2026-01-12"
@@ -29,3 +29,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/tCKl8UDDdoQQUGMvcQbGJy
   - https://javidnaman.iranintl.com/memorial/tCKl8UDDdoQQUGMvcV3Lcn
   - https://t.me/RememberTheirNames/1902
+  - https://iranhr.net/fa/articles/8611/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7919d5e6-daf0-401d-86da-78dc9201f2ed
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

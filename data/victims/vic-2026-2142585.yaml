@@ -1,12 +1,12 @@
 external_card_id: "855"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21013_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21178_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22897_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26176_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26213_0_twitter_v1.jpg"
-  - "vic-2026-c764682366cc.jpg"
-  - "vic-2026-0e9a03bbb427.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21013_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21178_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22897_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26176_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26213_0_twitter_v1.jpg
+  - vic-2026-c764682366cc.jpg
+  - vic-2026-0e9a03bbb427.jpg
 name: Iman Babaei
 persian_name: ایمان بابایی
 birth_date: ""
@@ -21,7 +21,7 @@ incident_city: Pirbakran, Falavarjan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -33,3 +33,11 @@ source:
   - https://t.me/persian_picture/4126
   - https://x.com/mousavi1355/status/2017953575452770374
   - https://x.com/visfehan/status/2018006496672469318
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 6ccd903b-6e31-46a4-86d0-68b89e31526a
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

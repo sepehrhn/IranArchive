@@ -1,10 +1,10 @@
 external_card_id: "1557"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22349_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23446_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29177_0_twitter_v1.jpg"
-  - "vic-2026-12ad828457d5.jpg"
-  - "vic-2026-3b407cf4d4ae.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22349_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23446_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29177_0_twitter_v1.jpg
+  - vic-2026-12ad828457d5.jpg
+  - vic-2026-3b407cf4d4ae.jpg
 name: Habib Sukhtesaraei
 persian_name: حبیب سوخته‌سرایی
 birth_date: ""
@@ -19,7 +19,7 @@ incident_city: Tehranpars
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,12 @@ source:
   - https://x.com/HyrcaniHRM/status/2016060772007158072
   - https://t.me/RememberTheirNames/1502
   - https://x.com/hiwa_life/status/2018054628072645106
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 3d1e24b9-f121-4b1c-a288-6817a488487e
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1164

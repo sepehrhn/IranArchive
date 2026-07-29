@@ -14,7 +14,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Babol
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -31,3 +31,12 @@ source_type: Social Media
 source:
   - https://x.com/alitagh30207454/status/2013220851089314151
   - https://x.com/fseifikaran/status/2013396146186563772
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - bdf1ac87-ee2e-443c-a409-f92813d01cc3
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/387

@@ -13,10 +13,10 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
-incident_address: ""
-date_of_death: ""
+incident_address: Mashhad
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://x.com/iliaaaa66/status/2017256547705913513
   - https://javidnaman.iranintl.com/memorial/arh0kOme1YEvhe6nV5hYu1
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b79a7fbe-0b1f-44b1-85de-d60227aa6ed6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

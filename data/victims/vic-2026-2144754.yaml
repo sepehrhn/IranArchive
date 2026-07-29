@@ -10,12 +10,12 @@ gender: Male
 age: 47
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Shahrak Vavan, Eslamshahr
-incident_address: ""
+incident_address: Vavan Town, Islamshahr
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Direct fire by Islamic Republic agents
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Shot and killed by direct fire from Islamic Republic agents while p
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/1878
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 01683618-493d-4fd6-a808-6070b4d06f2a
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

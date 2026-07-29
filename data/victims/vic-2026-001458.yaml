@@ -1,11 +1,11 @@
 external_card_id: "4200"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31161_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31252_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34138_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48778_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48778_1_twitter_v1.jpg"
-  - "vic-2026-001458.jpeg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31161_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31252_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34138_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48778_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48778_1_twitter_v1.jpg
+  - vic-2026-001458.jpeg
 name: Alireza Abolghasemi Sehat
 persian_name: علیرضا ابوالقاسمی صحت
 birth_date: ""
@@ -32,3 +32,11 @@ source:
   - https://t.me/RememberTheirNames/2235
   - https://x.com/iranianpapppi3/status/2020613877713813576
   - https://x.com/i/status/2020613877713813576
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 753cef77-8547-42fa-b730-207c14c406d6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:5b578755d599a9ed

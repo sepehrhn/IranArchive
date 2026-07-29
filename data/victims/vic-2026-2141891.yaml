@@ -30,8 +30,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: Tehran
+date_of_death: "2026-01-07"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Known as 'Yang Jahesh', disappeared on January 8 (18 Dey month) after posting his last message on X social media platform. Initially claimed to have been shot and killed with demands for money to return his body, but friends received information from sources that he is currently detained and likely still alive. The narrative of his death has not been confirmed. Artist and regime opponent. Was previously detained in 1401 (2022-2023). Has lost both parents and has one brother with whom he apparently has fundamental ideological differences.
@@ -51,3 +51,11 @@ source:
   - https://x.com/i/status/2017654121998749956
   - https://x.com/saarmot/status/2018467120993190279
   - https://x.com/smnzargarzadeh/status/2020448971781517662
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - f9f1d5aa-e4b8-4357-846c-eb2b9d6d6dbb
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/876

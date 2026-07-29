@@ -1,9 +1,9 @@
 external_card_id: "1413"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22052_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34104_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42103_0_twitter_v1.jpg"
-  - "vic-2026-5db61f045029.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22052_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34104_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42103_0_twitter_v1.jpg
+  - vic-2026-5db61f045029.jpg
 name: Mohaddeseh (Sadaf) Maleki
 persian_name: محدثه (صدف) مالکی
 birth_date: ""
@@ -13,7 +13,7 @@ gender: Female
 age: 26
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -28,3 +28,12 @@ source:
   - https://www.instagram.com/p/DT-jGaCEeaY
   - https://t.me/RememberTheirNames/2201
   - https://x.com/irannewsagency0/status/2021161113270812827
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - cb5099b4-af99-4c82-af2c-2bb72111fee4
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1548

@@ -11,8 +11,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: سوپرمارکت
+date_of_death: "2023-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 25-year-old actor and theater director's assistant, arrested at midnight on Friday January 9, 2026 while shopping at a supermarket. Being held at Tehran's Grand Prison (Fashafuyeh). Subjected to torture during initial interrogations. Charged with 'acting against national security'. No trial held yet. Suffers from asthma and lacks access to specialized medications in prison, causing deteriorating physical condition.
@@ -23,3 +23,12 @@ description: 25-year-old actor and theater director's assistant, arrested at mid
 source_type: Social Media
 source:
   - https://x.com/followupiran/status/2026338347375837389
+  - https://t.me/akhbar_bazdashtiha/360
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b1b15e2b-641a-413f-9a8b-8cc6febb033b
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

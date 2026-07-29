@@ -17,7 +17,7 @@ gender: Male
 age: 17
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kermanshah
 incident_city: Javanrud
 incident_address: ""
 date_of_death: ""
@@ -31,3 +31,11 @@ description: 17-year-old child arrested by government forces in Javanrud.
 source_type: Social Media
 source:
   - https://hengaw.net/en/news/2026/01/article-69
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 1741a337-223d-4989-a287-db30fd6bae69
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -13,7 +13,7 @@ country: Iran
 incident_province: ""
 incident_city: Mashhad
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-02-14"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 17-year-old girl arrested on 25 Bahman for distributing commemorative statements for the martyrs and supporting Reza Shah Pahlavi by Khamenei's mercenaries. Her mother says she has been detained but has no information about her condition.
@@ -24,3 +24,12 @@ description: 17-year-old girl arrested on 25 Bahman for distributing commemorati
 source_type: Social Media
 source:
   - https://x.com/batmaniei7vrc/status/2027101721441518040
+  - https://t.me/akhbar_bazdashtiha/682
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 1d96770e-19d2-4343-ad05-3d6b3ca9cd22
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

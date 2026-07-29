@@ -16,10 +16,10 @@ gender: Female
 age: 52
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kohgiluyeh and Boyer-Ahmad
 incident_city: Yasuj
-incident_address: ""
-date_of_death: ""
+incident_address: خانه
+date_of_death: "2024-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Born 1373 (Persian calendar), from Yasuj. Arrested by security forces at her home in Yasuj on 19 Dey 1404 and is currently in Yasuj Central Prison. Her right eye has suffered serious damage and she has lost vision in this eye, but prison officials are preventing her transfer to hospital.
@@ -35,3 +35,12 @@ source:
   - https://x.com/saarmot/status/2017040182638235756
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-918
   - https://x.com/simiinm/status/2017352962117599535
+  - https://t.me/akhbar_bazdashtiha/444
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 6f1f83ed-57f6-4aa1-9afc-5427c26f9f40
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

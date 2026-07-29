@@ -17,7 +17,7 @@ country: Iran
 incident_province: Kerman
 incident_city: Kerman
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-02-02"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 26-year-old Baha'i citizen arrested on February 1 after regime forces raided her home and confiscated her phone, laptop, and her parents' phones. Whereabouts remain unknown.
@@ -33,3 +33,12 @@ source:
   - https://x.com/shaghayeeee/status/2025191688793174218
   - https://x.com/saarmot/status/2020011604876623919
   - https://x.com/shaghayeeee/status/2027103680759992558
+  - https://t.me/akhbar_bazdashtiha/286
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 950172c7-07ad-4b26-9719-4c75be5ed42c
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

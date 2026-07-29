@@ -1,11 +1,11 @@
 external_card_id: "3482"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29420_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31039_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39968_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39968_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39968_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39968_3_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29420_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31039_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39968_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39968_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39968_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39968_3_twitter_v1.jpg
 name: Nima Khan Ahmadi
 persian_name: نیما خان احمدی
 birth_date: ""
@@ -15,12 +15,12 @@ gender: Male
 age: 20
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Fars
 incident_city: Ghaleh Hassan Khan
-incident_address: ""
+incident_address: اقلید، استان فارس
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -32,3 +32,12 @@ source:
   - https://x.com/IranNewsAgency0/status/2018610512808870270
   - https://t.me/RememberTheirNames/2063
   - https://x.com/callmenanaalk/status/2019453209052393764
+  - https://www.threads.com/@aban_khoonin/post/DZCJpnWDGEw/video-%D8%B4%D9%87%DB%8C%D8%AF-%D8%B1%D8%A7%D9%87-%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C-%D9%86%DB%8C%D9%85%D8%A7-%D8%AE%D8%A7%D9%86%D8%A7%D8%AD%D9%85%D8%AF%DB%8C%D8%A8%DB%8C%D8%B3%D8%AA-%D8%B3%D8%A7%D9%84%DA%AF%DB%8C-%D9%81%D8%B5%D9%84-%D8%AC%D8%A7%D9%86%D9%81%D8%B4%D8%A7%D9%86%DB%8C%D9%86%DB%8C%D9%85%D8%A7-%D8%AE%D8%A7%D9%86%D8%A7%D8%AD%D9%85%D8%AF%DB%8C-%D8%AC%D9%88%D8%A7%D9%86-%DB%B2%DB%B0-%D8%B3%D8%A7%D9%84%D9%84%D9%87%D8%A7%DB%8C-/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 012b1465-afc0-4347-bb1e-ae745a230baa
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

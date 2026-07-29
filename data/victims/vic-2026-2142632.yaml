@@ -1,10 +1,10 @@
 external_card_id: "1773"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22911_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23387_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48310_0_web_v1.jpg"
-  - "vic-2026-acc959acd5ce.jpg"
-  - "vic-2026-dc5a7797dbde.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22911_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23387_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48310_0_web_v1.jpg
+  - vic-2026-acc959acd5ce.jpg
+  - vic-2026-dc5a7797dbde.jpg
 name: Mehdi Darzi
 persian_name: مهدی درزی
 birth_date: ""
@@ -16,10 +16,10 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
-incident_address: ""
+incident_address: Mashhad
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,12 @@ source:
   - https://x.com/an1iyaa/status/2016258553594458396
   - https://t.me/RememberTheirNames/1595
   - https://javidnaman.iranintl.com/memorial/faVC3p6tCxw9DOdQYJB4M8
+  - https://www.instagram.com/p/DVGu_5jAYNU/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 267053e7-16c6-42d5-91a1-8d62765753b7
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

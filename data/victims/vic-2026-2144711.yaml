@@ -12,13 +12,21 @@ country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: external_source lists Mehdi Kargari Kishi among those killed on 2026-01-09 in Ezhiyeh, Isfahan.
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/b443ff87-2897-4ace-818a-6ba5e3f33c99
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b8d15ea7-8fc9-4433-8443-80fe16ce1c8a
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

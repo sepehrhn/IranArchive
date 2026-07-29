@@ -9,10 +9,10 @@ gender: Female
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Goldasht
 incident_address: ""
-date_of_death: ""
+date_of_death: "2021-02-18"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Civil and environmental activist arrested by security forces on Thursday 1404/11/30 while returning from a memorial ceremony for martyrs in Goldasht city. She was transferred to an unknown location and her health status, detention location, and potential charges are unknown.
@@ -23,3 +23,12 @@ description: Civil and environmental activist arrested by security forces on Thu
 source_type: Social Media
 source:
   - https://x.com/allahbakhshii/status/2026755639813501333
+  - https://t.me/akhbar_bazdashtiha/380
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 469c36af-4661-47f7-8dfe-c67c58965af2
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

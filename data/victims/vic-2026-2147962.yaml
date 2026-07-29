@@ -18,9 +18,18 @@ date_of_death_precision: Exact
 cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
-status: Missing
+status: Killed
 detention_status: unknown
-description: ""
+description: external_source lists Navid Azimi among those killed on 2026-01-08 in Ardabil.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3120
+  - https://www.instagram.com/p/DUtESFcDO_M/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - e2abadc6-2648-4aa2-8ead-c218781a2d90
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:1a80ec09cc4bb7d6

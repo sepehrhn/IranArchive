@@ -1,10 +1,10 @@
 external_card_id: "2747"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26144_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27006_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38949_0_telegram_v1.jpg"
-  - "vic-2026-43e0cc2c0384.jpg"
-  - "vic-2026-84e2336de722.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26144_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27006_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38949_0_telegram_v1.jpg
+  - vic-2026-43e0cc2c0384.jpg
+  - vic-2026-84e2336de722.jpg
 name: Davood Abi
 persian_name: داود آبی
 birth_date: ""
@@ -14,12 +14,12 @@ gender: Male
 age: 26
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-incident_address: ""
+incident_address: Shahin Vila, Karaj
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,14 @@ source:
   - https://x.com/Tavaana/status/2017792466460516718
   - https://javidnaman.iranintl.com/memorial/h22nTBad3K42WBHvEtqECP
   - https://t.me/RememberTheirNames/755
+  - https://www.instagram.com/reel/DUGWD0HgWGE/?hl=en
+  - https://external_source.org/fa/heroes
+  - https://www.instagram.com/reel/DVDsrx2jEzK/
+external_source_ids:
+  - 43e93e85-59e3-46e9-963c-9373cf9073d6
+  - 8ab6c516-2dce-447b-bbf1-ebc33e60bef9
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

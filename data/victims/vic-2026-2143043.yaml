@@ -1,10 +1,10 @@
 external_card_id: "2568"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25752_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25752_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51655_0_telegram_v1.jpg"
-  - "vic-2026-05f2ad5ca547.jpg"
-  - "vic-2026-3266806ca990.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25752_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25752_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51655_0_telegram_v1.jpg
+  - vic-2026-05f2ad5ca547.jpg
+  - vic-2026-3266806ca990.jpg
 name: Hossein Shad
 persian_name: حسین شاد
 birth_date: ""
@@ -19,7 +19,7 @@ incident_city: Hamadan
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed by mercenaries of the Islamic Republic
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -28,3 +28,11 @@ source_type: Social Media
 source:
   - https://x.com/hekasrehcrisis/status/2017671722028134896
   - https://t.me/JavidnamaneVatan/1171
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 6859e0bd-b4f4-4d58-9cae-10c46153068b
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

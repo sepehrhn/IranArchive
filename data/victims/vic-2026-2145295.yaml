@@ -1,8 +1,8 @@
 external_card_id: "3474"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29407_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52367_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53623_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29407_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52367_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53623_0_instagram_v1.jpg
 name: Nima Jafari
 persian_name: نیما جعفری
 birth_date: ""
@@ -12,12 +12,12 @@ gender: Male
 age: 16
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Fardis
-incident_address: ""
-date_of_death: ""
+incident_address: Karaj, Fardis, Ahri
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/d3f0d3e2-3c45-4dfd-917d-3619b2c0eabf
   - https://x.com/parnian_za/status/2025286445595066611
   - https://www.instagram.com/p/DVB3zLOD3qS
+  - https://javidnaman.iranintl.com/memorial/EHaCND9v0u9aDEC8cmR1sj
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7cd9f704-1a91-41f9-adf6-dd834d2d62b1
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-07-15T01:32:53.065852+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

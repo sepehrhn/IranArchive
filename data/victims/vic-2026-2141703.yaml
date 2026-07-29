@@ -1,15 +1,15 @@
 external_card_id: "275"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19984_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20116_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25834_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27150_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29024_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29041_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30071_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37547_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39382_0_telegram_v1.jpg"
-  - "vic-2026-c1b1afe51348.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19984_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20116_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25834_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27150_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29024_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29041_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30071_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37547_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39382_0_telegram_v1.jpg
+  - vic-2026-c1b1afe51348.jpg
 name: Sepehr (Abolfazl) Mousavifar
 persian_name: سپهر موسوی
 birth_date: ""
@@ -21,7 +21,7 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Fooladshahr
-incident_address: ""
+incident_address: In front of the Justice Building - Fooladshahr - Isfahan
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -41,3 +41,11 @@ source:
   - https://x.com/HeKasrehCrisis/status/2018392872844759308
   - https://x.com/indypersian/status/2012515705678135716
   - https://t.me/RememberTheirNames/304
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 82e71674-86a2-4ef6-a9a2-929063333f92
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:78be28044e989e35

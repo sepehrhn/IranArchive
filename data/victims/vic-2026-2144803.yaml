@@ -1,7 +1,7 @@
 external_card_id: "1235"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21661_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38451_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21661_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38451_0_telegram_v1.jpg
 name: Meysam Rahmati Torkashvand
 persian_name: میثم رحمتی
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Shahriar
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -26,3 +26,12 @@ source:
   - https://x.com/Tavaana/status/2015503879023292430
   - https://x.com/pouyajegarvnd/status/2014740488805392803
   - https://t.me/RememberTheirNames/1275
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - bf5bf28d-c161-477f-9670-53c4ba26c9b9
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/992

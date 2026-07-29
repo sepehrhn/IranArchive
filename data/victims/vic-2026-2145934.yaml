@@ -10,9 +10,9 @@ gender: Male
 age: 16
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Golestan
 incident_city: Azadshahr, Gorgan
-incident_address: ""
+incident_address: آزادشهر
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -24,3 +24,13 @@ description: 16-year-old from Baluchistan arrested in Azadshahr, Gorgan during D
 source_type: Social Media
 source:
   - https://x.com/ilia__gj/status/2026051053825712289
+  - https://t.me/akhbar_bazdashtiha/113
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 4d4cf5e5-425d-4ae6-9a29-8eaa121bd298
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

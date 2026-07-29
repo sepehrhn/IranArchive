@@ -1,7 +1,7 @@
 external_card_id: "7870"
 photo: []
 name: Tara Davoudi
-persian_name: ""
+persian_name: تارا داودی
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -11,8 +11,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: Kermanshah
+date_of_death: "2026-01-14"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Detained with her sister Kimia on January 14, described as illegal detention, whereabouts unknown
@@ -23,3 +23,11 @@ description: Detained with her sister Kimia on January 14, described as illegal 
 source_type: Social Media
 source:
   - https://x.com/saarmot/status/2016088298125414873
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d230ece8-c98e-4f04-9c3f-8b83b2891c92
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/765

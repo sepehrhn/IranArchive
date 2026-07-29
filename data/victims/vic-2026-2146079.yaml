@@ -6,13 +6,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 18
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ایذه, خوزستان
-incident_address: ""
-date_of_death: ""
+incident_address: Izeh
+date_of_death: "2025-12-30"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Charges: نامشخص"
@@ -23,3 +23,11 @@ description: "Charges: نامشخص"
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1209
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 197a5c23-1682-4f44-b8a5-82b1761bbe1f
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/children/270

@@ -23,8 +23,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: Tehran
+date_of_death: "2026-01-27"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Artist, musician and former political prisoner (from 2022 and anniversary of Kianoosh Sanjari) who was violently arrested at midnight on 8 Bahman by 10 armed plainclothes agents at his personal residence. He was severely beaten and abducted. All his electronic devices including mobile phone, laptop and hard drive were confiscated by the agents. Only received one brief phone call on 11 Bahman confirming he was alive. No reliable information available about charges, detaining authority or place of detention after 25 days.
@@ -41,3 +41,11 @@ source:
   - https://x.com/dadban4/status/2026231797701341403
   - https://x.com/allahbakhshii/status/2026581091738398737
   - https://hengaw.net/en/news/2026/01/article-216
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 632ae0c4-39da-4f4d-a03c-cc9ae2163c06
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/753

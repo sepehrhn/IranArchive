@@ -9,13 +9,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 25
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: West Azerbaijan
 incident_city: Sardasht
-incident_address: ""
-date_of_death: ""
+incident_address: منزل پدری
+date_of_death: "2024-02-04"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested at his father's house in Sardasht, West Azerbaijan. Described as an Iranian Kurd, patriotic Iranian, and intellectual. The regime holds full responsibility for his safety and security.
@@ -28,3 +28,12 @@ source:
   - https://x.com/azadandalibi/status/2019535624731034076
   - https://x.com/hemadnazari/status/2020484442846904461
   - https://x.com/justchangingun/status/2021155390382076108
+  - https://t.me/akhbar_bazdashtiha/338
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b29d2745-d47a-4d64-868e-30d5083089fb
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

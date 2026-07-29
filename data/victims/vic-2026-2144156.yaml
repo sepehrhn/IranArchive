@@ -1,8 +1,8 @@
 external_card_id: "7690"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51097_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52884_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56406_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51097_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52884_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56406_0_instagram_v1.jpg
 name: Farhad Honarmand Bagheri
 persian_name: فرهاد هنرمند
 birth_date: ""
@@ -27,3 +27,11 @@ source:
   - https://t.me/RememberTheirNames/3093
   - https://x.com/missmarpel75/status/2023494849501295036
   - https://www.instagram.com/p/DVOAqs_DGJ9
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 9e40a232-6809-4e11-b27b-11b975c1972e
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:f5970262aeb84942

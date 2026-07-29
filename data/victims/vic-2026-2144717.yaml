@@ -7,15 +7,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 24
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Damavand Gilavand
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Resident of Gilavand, Damavand, went to Tehran on Thursday for prot
 source_type: Social Media
 source:
   - https://www.instagram.com/p/DUvWQTnDCCD
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 6af9c104-111f-4e05-8bf5-cdd77b4cd481
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,9 +1,9 @@
 external_card_id: "2402"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24506_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29645_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38750_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48393_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24506_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29645_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38750_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48393_0_web_v1.jpg
 name: Mohammad Reza Karimifar
 persian_name: محمدرضا کریمی فر
 birth_date: ""
@@ -13,12 +13,12 @@ gender: Male
 age: 58
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Chalus
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,12 @@ source:
   - https://x.com/HyrcaniHRM/status/2018293546634072483
   - https://t.me/RememberTheirNames/959
   - https://javidnaman.iranintl.com/memorial/c9d4062f-f440-4279-ac73-46208aab51cc
+  - https://www.instagram.com/p/DUQTdJAjN1s/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 96d2ca0d-841e-4c9f-8a81-29e699336185
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:125f7cb6c2f3b235

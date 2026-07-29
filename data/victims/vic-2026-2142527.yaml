@@ -1,17 +1,17 @@
 external_card_id: "1939"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22989_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24136_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47625_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47645_0_instagram_v1.jpg"
-  - "vic-2026-3e2e50df68af.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22989_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24136_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47625_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47645_0_instagram_v1.jpg
+  - vic-2026-3e2e50df68af.jpg
 name: Behnam Hedayat
 persian_name: بهنام عنایت
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 32
 occupation: ""
 country: Iran
 incident_province: Fars
@@ -19,7 +19,7 @@ incident_city: Kazerun
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -32,3 +32,11 @@ source:
   - https://t.me/RememberTheirNames/2847
   - https://www.instagram.com/p/DUtO6WckTmN
   - https://x.com/gilasgoz/status/2024247116336369952
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 3551b973-a5cb-44c2-aade-d7e6a24f46a4
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

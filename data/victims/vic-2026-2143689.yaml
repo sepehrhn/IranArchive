@@ -1,20 +1,20 @@
 external_card_id: "1148"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21484_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55745_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55745_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55745_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55745_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55745_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55745_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55745_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55865_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55865_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55865_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55865_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55865_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55865_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55865_8_web_v1.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21484_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55745_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55745_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55745_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55745_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55745_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55745_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55745_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55865_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55865_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55865_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55865_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55865_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55865_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55865_8_web_v1.png
 name: Alireza Ramezani
 persian_name: علیرضا رمضانی
 birth_date: ""
@@ -24,7 +24,7 @@ gender: Male
 age: 30
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Rasht
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -39,3 +39,11 @@ source:
   - https://x.com/HengawO/status/2015022203226513772
   - https://hengaw.net/en/news/2026/01/article-195
   - https://hengaw.net/fa/news/2026/01/article-198-1
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 47534dae-4207-4cb3-a85a-e8da7249e5b9
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:7dc3801591f37786

@@ -12,10 +12,10 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Abolfath Esfahani Street
-incident_address: ""
+incident_address: Isfahan
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Memorial record from Iran International
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/yEYwvbhpDrCFHYzchxxnzr
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 5e9f7506-040a-4e5b-9a39-e5384dde10d5
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

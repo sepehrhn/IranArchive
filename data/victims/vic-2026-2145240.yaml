@@ -1,12 +1,12 @@
 external_card_id: "421"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20379_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21789_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38425_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42166_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42166_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50017_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50828_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20379_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21789_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38425_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42166_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42166_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50017_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50828_0_telegram_v1.jpg
 name: Mostafa Sharifi Shahrivar
 persian_name: مصطفی شریفی
 birth_date: ""
@@ -18,10 +18,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Tehran | Ariashahr | Ariashahr, Tehran | Sadeghiyeh Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -35,3 +35,12 @@ source:
   - https://x.com/tavaana/status/2021368313356616028
   - https://t.me/JavidnamaneVatan/357
   - https://t.me/JavidnamaneVatan/928
+  - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMj77F
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 35ae707c-d418-4876-b873-7f33f5a9624d
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

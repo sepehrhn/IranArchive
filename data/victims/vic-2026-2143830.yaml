@@ -1,7 +1,7 @@
 external_card_id: "4029"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31085_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47708_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31085_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47708_0_instagram_v1.jpg
 name: Amirhossein Bayatani
 persian_name: امیرحسین بیاتانی
 birth_date: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2129
   - https://www.instagram.com/p/DUqRIN4gPWF
+  - https://www.instagram.com/p/DUSaB3NjaQL/?hl=en
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c72ed565-8bdc-4059-b1d0-07ee710214f7
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1940

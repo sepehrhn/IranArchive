@@ -13,7 +13,7 @@ country: Iran
 incident_province: ""
 incident_city: تبریز, آذربایجان شرقی
 incident_address: ""
-date_of_death: ""
+date_of_death: "2021-02-01"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Physics student at Tabriz University arrested by security forces on Monday morning. No information about potential charges has been given to the family.
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/chaiteryak/status/2019224150221668577
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1305
+  - https://t.me/akhbar_bazdashtiha/502
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 4465c24f-acbc-4ceb-ab27-7fa3d068eef1
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

@@ -10,10 +10,10 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kerman
 incident_city: Jiroft
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Civil activist, former political prisoner, and dismissed employee of Social Security Organization. Arrested by IRGC Intelligence on 2026-01-08 in Jiroft, Kerman province. Has been held incommunicado for over a month with no official information about his location, physical condition, or legal status. Charged with serious accusations including 'moharebeh' (enmity against God), 'connection with hostile states', and 'connection with opposition groups'. Previously arrested in 1402 (2023) which led to his dismissal from work. Described as independent, nationalist, with no organizational affiliation to any political group or movement.
@@ -24,3 +24,13 @@ description: Civil activist, former political prisoner, and dismissed employee o
 source_type: Social Media
 source:
   - https://x.com/dadban4/status/2021592110726574256
+  - https://t.me/akhbar_bazdashtiha/550
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - e6cb61de-29e9-457c-b875-a4ae380bb696
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

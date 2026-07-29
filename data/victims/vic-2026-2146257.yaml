@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: Tehran
+date_of_death: "2026-01-02"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Detained at Haft Howz police station in Tehran, facing potential execution according to his mother's plea
@@ -25,3 +25,11 @@ description: Detained at Haft Howz police station in Tehran, facing potential ex
 source_type: Social Media
 source:
   - https://x.com/m_saeedy44360/status/2020419711390089388
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 039cf398-d7c4-4a20-9157-0d42324bfa46
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/137

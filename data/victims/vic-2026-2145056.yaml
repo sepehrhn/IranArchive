@@ -1,8 +1,8 @@
 external_card_id: "3799"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30989_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55690_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56675_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30989_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55690_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56675_0_twitter_v1.jpg
 name: Mohammad Reza Saremi
 persian_name: محمدرضا صارمی
 birth_date: ""
@@ -12,12 +12,12 @@ gender: Male
 age: 19
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Lahijan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,12 @@ source:
   - https://x.com/i/status/2026552050020999303
   - https://x.com/edvinfarhadg/status/2027195961777537153
   - https://x.com/sferi9338/status/2027429890325118989
+  - https://www.instagram.com/reel/DU_j7eSAD7z/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 36e104cc-dea2-4dfa-890f-47c6d0ac7995
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

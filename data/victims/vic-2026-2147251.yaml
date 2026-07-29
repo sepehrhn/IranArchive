@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Gilan
 incident_city: Siahkal
-incident_address: ""
-date_of_death: ""
+incident_address: Siahkal
+date_of_death: "2026-02-11"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Gilaki citizen from Dilman, Siahkal, arrested on February 11, 2026 by Iranian regime security forces while working as a taxi driver to cover his wife's cancer treatment costs. Has a 6-year-old son and his wife's physical condition is reported as unfavorable. No official information has been released about his detention location, physical condition, or potential charges, and his family remains completely uninformed.
@@ -24,3 +24,11 @@ description: Gilaki citizen from Dilman, Siahkal, arrested on February 11, 2026 
 source_type: Social Media
 source:
   - https://x.com/hyrcanihrm/status/2024196795098628534
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 5fde0095-b7ec-4210-84d1-4cb9c6c5708b
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/2754

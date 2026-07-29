@@ -1,8 +1,8 @@
 external_card_id: "3306"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29083_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30293_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56151_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29083_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30293_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56151_0_twitter_v1.jpg
 name: Mohammad Javad Faraji
 persian_name: محمدجواد فرجی
 birth_date: ""
@@ -12,12 +12,12 @@ gender: Male
 age: 34
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Parand
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,12 @@ source:
   - https://x.com/SaeidVafa/status/2017965262150983843
   - https://t.me/RememberTheirNames/2171
   - https://x.com/missmarpel75/status/2027120491329200200
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 69a4c77c-7c6e-4c4a-b215-07433f8e9d50
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

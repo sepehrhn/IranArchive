@@ -1,8 +1,8 @@
 external_card_id: "2535"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25643_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30829_0_telegram_v1.jpg"
-  - "vic-2026-6ce5198f2167.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25643_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30829_0_telegram_v1.jpg
+  - vic-2026-6ce5198f2167.jpg
 name: Mahmoud Bizhani
 persian_name: محمود بیژنی
 birth_date: ""
@@ -12,7 +12,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Semnan
 incident_city: Shahroud
 incident_address: ""
 date_of_death: "2026-01-10"
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/iranwire/status/2017486082091233295
   - https://t.me/RememberTheirNames/1864
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 2ace38d1-ef29-4c7c-ab18-0fd48a5ded4c
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1610

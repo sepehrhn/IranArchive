@@ -1,12 +1,12 @@
 external_card_id: "2608"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25819_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25853_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30152_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30848_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52812_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56066_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56355_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25819_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25853_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30152_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30848_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52812_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56066_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56355_0_telegram_v1.jpg
 name: Haditheh Akbarzadeh Torbati
 persian_name: حدیث اکبرزاده
 birth_date: ""
@@ -16,7 +16,7 @@ gender: Female
 age: 13
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Fardis, Karaj
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -36,3 +36,12 @@ source:
   - https://x.com/kyokushinsoofi/status/2018042968926728583
   - https://x.com/00ashmash/status/2025673010464833764
   - https://t.me/JavidnamaneVatan/2277
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d4d53c49-ca8a-4d62-830c-146fe238ce13
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/children/143

@@ -1,12 +1,12 @@
 external_card_id: "944"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21133_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21276_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21613_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37957_0_twitter_v1.jpg"
-  - "vic-2026-26ddd22e86c6.jpg"
-  - "vic-2026-6b30aaefeac9.jpg"
-  - "vic-2026-a7908f31b348.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21133_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21276_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21613_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37957_0_twitter_v1.jpg
+  - vic-2026-26ddd22e86c6.jpg
+  - vic-2026-6b30aaefeac9.jpg
+  - vic-2026-a7908f31b348.jpg
 name: Reza Sharifi
 persian_name: رضا شریفی
 birth_date: ""
@@ -16,12 +16,12 @@ gender: Male
 age: 44
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Markazi
 incident_city: Arak
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -32,3 +32,12 @@ source:
   - https://x.com/tavaana/status/2015030288913772624
   - https://x.com/SaeidVafa/status/2015438977545674843
   - https://x.com/behnam_chegini/status/2014754846574788669
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 10202342-1b24-4a11-9a05-f6f78b3e211a
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -7,13 +7,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 33
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Fariman
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -24,3 +24,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1715
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_3615
+  - https://www.threads.com/@media.mosavar/post/DUTFggTik-w/%D9%85%D9%87%D8%B1%D8%AF%D8%A7%D8%AF-%D8%A7%D8%A8%D8%B1%D8%A7%D9%87%DB%8C%D9%85%DB%8C%DB%B1%DB%B7-%D8%B3%D8%A7%D9%84%D9%87%D8%B3%D8%A7%DA%A9%D9%86-%D8%AF%DB%8C%D8%B2%D8%AC-%D8%B3%D9%85%D9%86%D8%A7%D9%86%DB%B1%DB%B9-%D8%AF%DB%8C-%DB%B1%DB%B4%DB%B0%DB%B4%D8%AF%D8%B1-%D8%AE%DB%8C%D8%A7%D8%A8%D8%A7%D9%86%D9%85%DB%8C%D8%A7%D9%86-%D9%85%D8%B1%D8%AF%D9%85%D8%A8%D8%A7-%D8%B5%D8%AF%D8%A7%DB%8C-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6%D8%A7?hl=en
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - ec8f1df6-6ccd-489b-9b81-fd20a03a339b
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:75c5002cde1ae348

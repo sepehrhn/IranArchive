@@ -6,11 +6,11 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 50
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: Mahshahr
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
@@ -23,3 +23,12 @@ description: Political prisoner sentenced to death
 source_type: Social Media
 source:
   - https://t.me/iliaen/629
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 3688cfc8-3927-4bf2-8027-a4ffbeb0690c
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Iran_Executions_DeathRow_Final_Comprehensive-2.xlsx

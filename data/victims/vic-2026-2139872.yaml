@@ -1,9 +1,9 @@
 external_card_id: "2056"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23500_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50328_0_telegram_v1.jpg"
-  - "vic-2026-2139872.jpg"
-  - "vic-2026-a3fb7def8d12.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23500_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50328_0_telegram_v1.jpg
+  - vic-2026-2139872.jpg
+  - vic-2026-a3fb7def8d12.jpg
 name: Amirhossein Donloo
 persian_name: امیرحسین دونلو
 birth_date: ""
@@ -30,3 +30,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1441
   - https://t.me/JavidnamaneVatan/499
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 5d44286d-6b03-4c75-8c1c-71aa19f933cb
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:c3cc6109d5ac52d1

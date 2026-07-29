@@ -14,7 +14,7 @@ country: Iran
 incident_province: ""
 incident_city: Rasht
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested after Amlash protests when he went to a relative's house in Rasht. Detained by security forces, facing serious charges, severely tortured in custody with reports of damage to three fingers. Family under pressure not to share information. Prosecutor told family he is accused of killing a Basij member and may face death sentence.
@@ -25,3 +25,13 @@ description: Arrested after Amlash protests when he went to a relative's house i
 source_type: Social Media
 source:
   - https://x.com/nikimahjoub/status/2025586126468042844
+  - https://t.me/akhbar_bazdashtiha/759
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 0b855b0d-0888-425c-90d9-c703d93271a0
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

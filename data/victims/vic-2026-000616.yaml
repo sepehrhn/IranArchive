@@ -1,11 +1,11 @@
 external_card_id: "684"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29104_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38380_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40059_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42460_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49959_0_telegram_v1.jpg"
-  - "vic-2026-000616.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29104_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38380_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40059_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42460_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49959_0_telegram_v1.jpg
+  - vic-2026-000616.jpg
 name: Hamed Talebi
 persian_name: حامد طالبی
 birth_date: ""
@@ -17,7 +17,7 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Chamgardan
-incident_address: ""
+incident_address: Chamgordan, Isfahan
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -36,3 +36,12 @@ source:
   - https://x.com/manotonews/status/2019606991841194073
   - https://www.instagram.com/p/DUfuzgwEQ9k
   - https://t.me/JavidnamaneVatan/299
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - be3cfbd9-841b-463e-a2d4-0be22245ace4
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,22 +1,22 @@
 external_card_id: "1684"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22740_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38405_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22740_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38405_0_telegram_v1.jpg
 name: Mostafa Khorrsandian
 persian_name: مصطفی خرسندیان
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 27
 occupation: ""
 country: Iran
 incident_province: Gilan
 incident_city: Rudbar Gilan
-incident_address: ""
+incident_address: Rudbar (Gilan)
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -26,3 +26,12 @@ source:
   - https://x.com/MartinNiko56009/status/2015043155196776880
   - https://t.me/RememberTheirNames/1321
   - https://x.com/hekasrehcrisis/status/2016154307071013253
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 692f7ec7-480c-4880-aeed-2536d96c9fd4
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

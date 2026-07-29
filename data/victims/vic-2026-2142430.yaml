@@ -1,12 +1,12 @@
 external_card_id: "1686"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22748_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22749_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29329_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38672_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49874_0_telegram_v1.jpg"
-  - "vic-2026-c002ccfd69b4.jpg"
-  - "vic-2026-9f4751919fd9.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22748_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22749_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29329_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38672_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49874_0_telegram_v1.jpg
+  - vic-2026-c002ccfd69b4.jpg
+  - vic-2026-9f4751919fd9.jpg
 name: Ali Ataei
 persian_name: علی عطایی
 birth_date: ""
@@ -18,10 +18,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran District 18
-incident_address: ""
+incident_address: Yaft Abad | Tehran, Yaft Abad | Tehran | District 18 Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -33,3 +33,11 @@ source:
   - https://javidnaman.iranintl.com/memorial/yEYwvbhpDrCFHYzchYPwY1
   - https://t.me/RememberTheirNames/1039
   - https://t.me/JavidnamaneVatan/214
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 84545b61-48ee-4e6f-887d-876f6368d97f
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

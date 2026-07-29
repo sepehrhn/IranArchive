@@ -1,9 +1,9 @@
 external_card_id: "4711"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39941_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48251_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49129_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_57297_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39941_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48251_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49129_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_57297_0_telegram_v1.jpg
 name: Shahrrokh Homayouni
 persian_name: شاهرخ همایونی
 birth_date: ""
@@ -30,3 +30,12 @@ source:
   - https://x.com/i/status/2023483711061454919
   - https://x.com/afkari_saeed/status/2019301231697571974
   - https://t.me/JavidnamaneVatan/2350
+  - https://www.instagram.com/p/DVkCA1xgTfG/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b5cfbb93-6009-473b-806e-9db7fb4dfe35
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:f4db3f14668dedde

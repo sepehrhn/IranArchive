@@ -1,20 +1,20 @@
 external_card_id: "2763"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26177_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37974_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37974_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38708_0_telegram_v1.jpg"
-  - "vic-2026-000427.jpg"
-  - "vic-2026-b37693d8861c.png"
-  - "vic-2026-000428.jpg"
-  - "vic-2026-000965.jpg"
-  - "vic-2026-096d156ff5c5.jpg"
-  - "vic-2026-2139829.jpg"
-  - "vic-2026-3f3d9286762f.jpg"
-  - "vic-2026-2058e537e746.jpg"
-  - "vic-2026-b3c2d05804b2.jpg"
-  - "vic-2026-dc6e04aabb21.jpg"
-  - "vic-2026-76e5d8537c7e.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26177_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37974_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37974_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38708_0_telegram_v1.jpg
+  - vic-2026-000427.jpg
+  - vic-2026-b37693d8861c.png
+  - vic-2026-000428.jpg
+  - vic-2026-000965.jpg
+  - vic-2026-096d156ff5c5.jpg
+  - vic-2026-2139829.jpg
+  - vic-2026-3f3d9286762f.jpg
+  - vic-2026-2058e537e746.jpg
+  - vic-2026-b3c2d05804b2.jpg
+  - vic-2026-dc6e04aabb21.jpg
+  - vic-2026-76e5d8537c7e.jpg
 name: Saeed Zamani
 persian_name: سعید زمانی
 birth_date: ""
@@ -24,9 +24,9 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Fardis, Karaj
-incident_address: ""
+incident_address: Fardis
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -52,3 +52,11 @@ source:
   - https://x.com/avatoday_news/status/2013260739021074934
   - https://x.com/LoabatK/status/2015525017254080746
   - https://x.com/kyokushinsoofi/status/2017692583401505017
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a1c06df1-f05d-4eb5-a037-4940ed978399
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

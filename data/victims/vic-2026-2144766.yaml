@@ -10,7 +10,7 @@ gender: Male
 age: 44
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -23,3 +23,11 @@ description: Father of two sons aged 9 and 13, killed at age 44. His family was 
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/1639
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 4b3e5a03-f1e7-48ea-b7cb-30ef2a8fdd89
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

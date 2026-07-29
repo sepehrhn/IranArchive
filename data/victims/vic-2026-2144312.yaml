@@ -13,7 +13,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -23,3 +23,12 @@ description: Died in Tehran during Dey 1404
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3052
+  - https://www.instagram.com/reel/DU3p_GBCNZ-/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d82fbc87-f4fb-487f-b11d-9a608776c960
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - https://t.me/RememberTheirNames

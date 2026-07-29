@@ -11,8 +11,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tabriz
-incident_address: ""
-date_of_death: ""
+incident_address: باشگاه
+date_of_death: "2023-01-13"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Well-known sports coach and influential sports figure in Tabriz. Arrested on 23 Dey 1404 (2026-01-13) when security agents stormed into his gym. Agents entered the gym without clear explanation and took him away. Family has been kept silent with repeated promises of his release.
@@ -23,3 +23,12 @@ description: Well-known sports coach and influential sports figure in Tabriz. Ar
 source_type: Social Media
 source:
   - https://x.com/allahbakhshii/status/2026398462841917666
+  - https://t.me/akhbar_bazdashtiha/221
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 97ba16af-744c-49af-b7a4-1c5153137247
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

@@ -1,7 +1,7 @@
 external_card_id: "8756"
 photo: []
 name: Vahid Zarei
-persian_name: ""
+persian_name: وحید زارعی
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -12,7 +12,7 @@ country: Iran
 incident_province: ""
 incident_city: Hamedan Prison
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-07"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Detained during protests. Listed in HRANA's 'Identified Detainees' section of The Crimson Winter report. Date of arrest: January 7, 2026 (1404/10/18). Current status: Unknown. Original source: HRANA."
@@ -23,3 +23,11 @@ description: "Detained during protests. Listed in HRANA's 'Identified Detainees'
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1569
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 4bd1d111-84c5-4075-b270-630e10030ab8
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/1569

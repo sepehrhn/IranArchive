@@ -13,7 +13,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-02-19"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Theater actor who was summoned by phone and went to the Intelligence Office in Tehran on Thursday, February 19, 2026. He has been out of reach since then with no news available. Illegal detention.
@@ -24,3 +24,12 @@ description: Theater actor who was summoned by phone and went to the Intelligenc
 source_type: Social Media
 source:
   - https://x.com/moeinnajafii/status/2024957070991081593
+  - https://t.me/akhbar_bazdashtiha/747
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - ec91bbd0-bfec-4d3c-ad75-4bb88b253923
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

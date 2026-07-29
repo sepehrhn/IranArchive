@@ -10,7 +10,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Pakdasht
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -24,3 +24,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2563
   - https://x.com/gilasgoz/status/2021984939139641371
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 71190df0-9e7a-4e37-9da4-c07c220987a6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/3297

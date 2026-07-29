@@ -15,7 +15,7 @@ incident_city: Mashhad
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Mathematics teacher, honored as martyr during Iran protests
 source_type: Social Media
 source:
   - https://x.com/tiffany_jaan/status/2014848619703124362
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - bdbbe838-8a5a-44ad-bdd5-e0bd9fa8fac3
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,8 +1,8 @@
 external_card_id: "1059"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21343_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31080_0_telegram_v1.jpg"
-  - "vic-2026-543c0f5c79be.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21343_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31080_0_telegram_v1.jpg
+  - vic-2026-543c0f5c79be.jpg
 name: Hassan Khalaj
 persian_name: حسن خلج
 birth_date: ""
@@ -12,12 +12,12 @@ gender: Male
 age: 27
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Ramsar
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,12 @@ source:
   - https://x.com/hyrcanihrm/status/2015024081163162042
   - https://x.com/linowtinop/status/2014711404821881270
   - https://t.me/RememberTheirNames/2124
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - eb38aeff-4f96-4a2d-ae4e-89bc64812c82
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

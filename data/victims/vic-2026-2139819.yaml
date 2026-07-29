@@ -1,10 +1,10 @@
 external_card_id: "1821"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23010_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23173_0_telegram_v1.jpg"
-  - "vic-2026-2139819.jpg"
-  - "vic-2026-5ad73435684f.jpg"
-  - "vic-2026-f04350b4fa9e.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23010_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23173_0_telegram_v1.jpg
+  - vic-2026-2139819.jpg
+  - vic-2026-5ad73435684f.jpg
+  - vic-2026-f04350b4fa9e.jpg
 name: Naji Savari
 persian_name: ناجی سواری
 birth_date: ""
@@ -14,12 +14,12 @@ gender: Male
 age: 50
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Khuzestan
 incident_city: Ahvaz
 incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -33,3 +33,12 @@ source:
   - https://t.me/iranhrs98/67319
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWhx1V
   - https://t.me/RememberTheirNames/241
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 8104d9e4-89a1-4fb1-abfe-64e7b71e1f7a
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

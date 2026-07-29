@@ -1,11 +1,11 @@
 external_card_id: "3142"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21398_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27239_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38036_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39229_0_telegram_v1.jpg"
-  - "vic-2026-912d6582775f.jpg"
-  - "vic-2026-a98c1cea6ff3.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21398_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27239_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38036_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39229_0_telegram_v1.jpg
+  - vic-2026-912d6582775f.jpg
+  - vic-2026-a98c1cea6ff3.jpg
 name: Amirhossein Razgardani
 persian_name: امیرحسین رازگردانی
 birth_date: ""
@@ -17,10 +17,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Arak
-incident_address: ""
+incident_address: Narmak, Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClXWqt
   - https://x.com/behnam_chegini/status/2015054173755040105
   - https://t.me/RememberTheirNames/459
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 627c6ac6-54b9-4e63-a627-9db274bd9ebd
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

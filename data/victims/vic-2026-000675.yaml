@@ -1,11 +1,11 @@
 external_card_id: "1044"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21326_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24906_0_twitter_v1.jpg"
-  - "vic-2026-000675.jpg"
-  - "vic-2026-8ab1d83c6b5d.jpg"
-  - "vic-2026-f3f634784fa1.jpg"
-  - "vic-2026-001584.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21326_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24906_0_twitter_v1.jpg
+  - vic-2026-000675.jpg
+  - vic-2026-8ab1d83c6b5d.jpg
+  - vic-2026-f3f634784fa1.jpg
+  - vic-2026-001584.jpg
 name: Maziyar Rahro Sangachini
 persian_name: مازیار رهرو سنگاچینی
 birth_date: ""
@@ -15,7 +15,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Anzali
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -33,3 +33,12 @@ source:
   - https://x.com/hyrcanihrm/status/2015037197347344753
   - https://x.com/IranianPlateau/status/2015148472605737021
   - https://x.com/pkhwshhal/status/2014957723679342987
+  - https://www.instagram.com/p/DU6_OaBgWb7/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - bc1388e4-644e-4488-ade8-ea3a33a76b2f
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/906

@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Shirvan
-incident_address: ""
-date_of_death: ""
+incident_address: Shirvan
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Kurdish citizen from Shirvan, North Khorasan province, arrested on January 9, 2025 (19 Dey 1404) without judicial warrant by security forces and transferred to unknown location. No information about his fate after 39 days of detention.
@@ -24,3 +24,11 @@ description: Kurdish citizen from Shirvan, North Khorasan province, arrested on 
 source_type: Social Media
 source:
   - https://x.com/iranwire/status/2026649035667296642
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - e0768802-4332-4d96-8c3b-bcec9f45387e
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/2722

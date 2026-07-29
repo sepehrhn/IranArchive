@@ -12,7 +12,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Ahvaz
-incident_address: ""
+incident_address: Ahvaz
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -24,3 +24,11 @@ description: 15-year-old from Ahvaz who was arrested three weeks ago and there h
 source_type: Social Media
 source:
   - https://x.com/i/status/2019318258097095047
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - aa5895ad-e0bd-44d7-b8e5-d63780556d61
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/children/291

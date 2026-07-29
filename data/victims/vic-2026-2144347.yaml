@@ -1,14 +1,14 @@
 external_card_id: "7379"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49543_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52016_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49543_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52016_0_telegram_v1.jpg
 name: Hassan Vaezi
 persian_name: حسن واعظی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 43
 occupation: ""
 country: Iran
 incident_province: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3014
   - https://t.me/JavidnamaneVatan/1516
+  - https://www.instagram.com/p/DVGyhb_E6iS/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a90581c0-4510-49d1-9552-ce236d22bf94
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:639d99b3238ba739

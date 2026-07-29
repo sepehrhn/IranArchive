@@ -10,12 +10,12 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Vavan, Eslamshahr
-incident_address: ""
+incident_address: Vavan Town - Islamshahr | Vavan Town, Islamshahr County
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Injured / Disabled | Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,12 @@ description: Died in Vavan, Eslamshahr
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1995
+  - https://www.instagram.com/p/DVGxDwBAR2e/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b2286fe2-2a25-4ef9-ad06-81d1e10c0936
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

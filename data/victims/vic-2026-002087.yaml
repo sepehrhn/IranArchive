@@ -1,20 +1,20 @@
 external_card_id: "1308"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21788_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22310_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23032_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23032_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29187_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38313_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50007_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52761_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52761_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53471_0_twitter_v1.jpg"
-  - "vic-2026-002087.jpg"
-  - "vic-2026-e6afd8ec863c.jpg"
-  - "vic-2026-5516ccedf4b1.jpg"
-  - "vic-2026-cf6ebd3d3ec5.jpg"
-  - "vic-2026-10459acd1159.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21788_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22310_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23032_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23032_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29187_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38313_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50007_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52761_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52761_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53471_0_twitter_v1.jpg
+  - vic-2026-002087.jpg
+  - vic-2026-e6afd8ec863c.jpg
+  - vic-2026-5516ccedf4b1.jpg
+  - vic-2026-cf6ebd3d3ec5.jpg
+  - vic-2026-10459acd1159.jpg
 name: Yousef Mehraban
 persian_name: یوسف مهربان
 birth_date: ""
@@ -29,7 +29,7 @@ incident_city: Haft Howz
 incident_address: Haft Howz
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -50,3 +50,11 @@ source:
   - https://x.com/jashnimitra/status/2018039990006014134
   - https://x.com/imanoracle/status/2025772326340657448
   - https://x.com/missmarpel75/status/2015023975605108805
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 872d021b-fc62-4307-a86b-cc000d58552c
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 30
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -23,3 +23,12 @@ description: Died in Tehranpars, Tehran
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2502
+  - https://www.instagram.com/p/DVWTizRk5sx/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7ac1476b-4bd9-4833-9a23-ed231fdf947e
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:3ce4dfa7d41247c4

@@ -1,9 +1,9 @@
 external_card_id: "4852"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40249_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42155_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47698_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56326_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40249_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42155_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47698_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56326_0_telegram_v1.jpg
 name: Mohammad Yasavoli Sharahi
 persian_name: محمد یساولی شراهی
 birth_date: ""
@@ -13,7 +13,7 @@ gender: Male
 age: 38
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Pakdasht
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -29,3 +29,14 @@ source:
   - https://x.com/a_neghabdaran_a/status/2021406113795801539
   - https://www.instagram.com/p/DUqzb-ZAOq_
   - https://t.me/JavidnamaneVatan/2248
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 17bae77b-ce52-4ad2-9ab9-1b27aa1aef6b
+  - 490a98d8-1574-4355-8efc-05fa876550a9
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/3326
+  - t.me/JavidnamaneVatan

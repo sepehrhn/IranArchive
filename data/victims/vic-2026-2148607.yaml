@@ -18,7 +18,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kermanshah
 incident_city: Qasr-e Shirin
 incident_address: ""
 date_of_death: ""
@@ -32,3 +32,11 @@ description: Kurdish citizen from Qasr-e Shirin, Kermanshah province, arrested b
 source_type: Social Media
 source:
   - https://hengaw.net/en/news/2026/01/article-82
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a1b1bf68-6b35-4d3b-bc5b-7419c1255fe3
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,7 +1,7 @@
 external_card_id: "4283"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34718_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41482_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34718_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41482_0_telegram_v1.jpg
 name: Ali Rahimi
 persian_name: علی رحیمی
 birth_date: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/sHbxgqPwudv03k1fYGzyXT
   - https://t.me/RememberTheirNames/2616
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - be1d5d1e-a5e2-4c68-87af-5ce54d5011a9
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:00e575a30d8f2dfd

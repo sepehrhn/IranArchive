@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gorgan
-incident_address: ""
-date_of_death: ""
+incident_address: Gorgan
+date_of_death: "2026-01-16"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Detained after regime forces raided his home at night on January 16. Whereabouts unknown following illegal detention.
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://x.com/saarmot/status/2017222929973379408
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1070
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 2a800a2e-9f2b-4598-9ee1-44a4ca12e26f
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/752

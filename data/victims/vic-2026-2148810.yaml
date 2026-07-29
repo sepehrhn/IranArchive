@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Chavar
-incident_address: ""
-date_of_death: ""
+incident_address: Chavar
+date_of_death: "2026-01-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Kurdish man violently arrested on January 10 and taken to an undisclosed location with no information about his condition or whereabouts
@@ -24,3 +24,11 @@ description: Kurdish man violently arrested on January 10 and taken to an undisc
 source_type: Social Media
 source:
   - https://x.com/saarmot/status/2018695912093102096
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - f4465f04-26af-40a2-91e2-fe2765a02a4e
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/740

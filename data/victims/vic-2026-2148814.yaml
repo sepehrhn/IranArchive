@@ -15,8 +15,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: یاسوج, کهگیلویه و بویراحمد
-incident_address: ""
-date_of_death: ""
+incident_address: Basuj
+date_of_death: "2026-01-03"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 26-year-old protester and graduate of Yasouj University of Medical Sciences, arrested on 12 Dey by security forces in Yasouj. Cousin of Arash Nikkhoo. No clear information available about charges and place of detention.
@@ -28,3 +28,11 @@ source_type: Social Media
 source:
   - https://x.com/vahidmirzaeii/status/2018763076661543173
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-236
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c5b263ce-7ad3-4d10-9743-a8ef2e42426f
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/136

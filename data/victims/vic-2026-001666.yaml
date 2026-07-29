@@ -1,11 +1,11 @@
 external_card_id: "2975"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26771_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38867_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42527_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50397_0_telegram_v1.jpg"
-  - "vic-2026-001666.jpg"
-  - "vic-2026-40412abd668b.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26771_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38867_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42527_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50397_0_telegram_v1.jpg
+  - vic-2026-001666.jpg
+  - vic-2026-40412abd668b.jpg
 name: Arshia Rezaei
 persian_name: عرشیا رضایی
 birth_date: ""
@@ -36,3 +36,12 @@ source:
   - https://t.me/RememberTheirNames/839
   - https://x.com/autnews_org/status/2022068227837436383
   - https://t.me/JavidnamaneVatan/568
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - af0988eb-40d3-4987-a74d-7b460a27ed9a
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:b389d466fe0139c8

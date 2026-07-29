@@ -1,14 +1,14 @@
 external_card_id: "3901"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30760_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56412_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30760_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56412_0_instagram_v1.jpg
 name: Mohammad Sam Kiani
 persian_name: محمدسام کیانی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 25
 occupation: ""
 country: Iran
 incident_province: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1791
   - https://www.instagram.com/p/DVO9hHYFdaf
+  - https://www.threads.com/@media.mosavar/post/DU6GXwrik6J/%D9%85%D8%AD%D9%85%D8%AF-%D8%B3%D8%A7%D9%85-%DA%A9%DB%8C%D8%A7%D9%86%DB%8C%DB%B2%DB%B6-%D8%B3%D8%A7%D9%84%D9%87%D8%B3%D8%A7%DA%A9%D9%86-%D8%AA%D9%87%D8%B1%D8%A7%D9%86%D8%AC%D9%88%D8%A7%D9%86%DB%8C-%D8%AF%D8%B1-%D9%85%DB%8C%D8%A7%D9%86%D9%87-%D8%B3%D8%A7%D9%84%D9%87%D8%A7%DB%8C%DB%8C-%DA%A9%D9%87-%D9%85%DB%8C%D8%AA%D9%88%D8%A7%D9%86%D8%B3%D8%AA%D9%BE%D8%B1-%D8%A7%D8%B2-%DA%A9%D8%B4%D9%81-%D8%AA%D9%84%D8%A7%D8%B4-?hl=en
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c6b76bed-3f8b-4103-8778-0e229294ebeb
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:809f9e268a8fc476

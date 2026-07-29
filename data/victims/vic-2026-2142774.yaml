@@ -1,8 +1,8 @@
 external_card_id: "2008"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23385_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41170_0_web_v1.jpg"
-  - "vic-2026-f64e04145b2d.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23385_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41170_0_web_v1.jpg
+  - vic-2026-f64e04145b2d.jpg
 name: Saeed Shahbazi
 persian_name: سعید شهبازی
 birth_date: ""
@@ -26,3 +26,11 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1597
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjaXaav
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a0ef8461-400b-4c80-b82b-54e587693a8f
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:272022fd171702d4

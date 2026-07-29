@@ -14,7 +14,7 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
+incident_address: Isfahan
 date_of_death: "2026-01-11"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -28,3 +28,14 @@ source:
   - https://x.com/amirkabirbozorg/status/2024133171030392886
   - https://x.com/nakhahari/status/2024114969067868530
   - https://x.com/saarmot/status/2025665207570141601
+  - https://t.me/akhbar_bazdashtiha/112
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b7ffc9e9-450e-46b1-acce-b4b499d913b5
+  - a742ee05-acfd-42a8-8334-fda8b7fe4871
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha
+  - HRANA-CW-2026/detainees/students/1

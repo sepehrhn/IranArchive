@@ -11,7 +11,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 29
 occupation: ""
 country: Iran
 incident_province: Yazd
@@ -38,3 +38,11 @@ source:
   - https://x.com/mooshulina/status/2014582834942333326
   - https://x.com/amirsld/status/2015536480270295462
   - https://x.com/amirsld/status/2015536879911723286
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 9547f216-ad53-4efb-84c5-5c90edea58c9
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:c18f3871d50c5039

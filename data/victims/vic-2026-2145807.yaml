@@ -7,15 +7,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 38
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Qale Hassan Khan
 incident_address: ""
 date_of_death: "2026-01-14"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,12 @@ description: Arrested on 18th Dey at Qale Hassan Khan, held in prison until 24th
 source_type: Social Media
 source:
   - https://x.com/bar0ninthetrees/status/2014817462609424609
+  - https://javidnaman.iranintl.com/memorial
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b7dc0ad7-feee-4c75-8f5c-ae53206b0ac4
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

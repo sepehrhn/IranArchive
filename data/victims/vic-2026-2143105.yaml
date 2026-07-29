@@ -1,14 +1,14 @@
 external_card_id: "7749"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22112_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25543_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31247_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38817_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41801_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48452_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51845_0_telegram_v1.jpg"
-  - "vic-2026-fc2db950170d.jpg"
-  - "vic-2026-72e8992fbd3b.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22112_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25543_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31247_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38817_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41801_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48452_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51845_0_telegram_v1.jpg
+  - vic-2026-fc2db950170d.jpg
+  - vic-2026-72e8992fbd3b.png
 name: Mehdi Najafi
 persian_name: مهدی نجفی
 birth_date: ""
@@ -18,12 +18,12 @@ gender: Male
 age: 21
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Qarchak
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -39,3 +39,12 @@ source:
   - https://x.com/yasamankhodajo/status/2021221505418379267
   - https://t.me/RememberTheirNames/2911
   - https://t.me/JavidnamaneVatan/1345
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - bcc6bb03-2896-4604-bbde-f201f8c8ff53
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

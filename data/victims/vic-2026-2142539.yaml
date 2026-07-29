@@ -1,15 +1,15 @@
 external_card_id: "3750"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21052_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21284_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30195_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30195_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30195_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30267_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30267_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30267_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48047_0_instagram_v1.jpg"
-  - "vic-2026-d871a4365405.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21052_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21284_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30195_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30195_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30195_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30267_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30267_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30267_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48047_0_instagram_v1.jpg
+  - vic-2026-d871a4365405.jpg
 name: Erfan Moghisseh
 persian_name: عرفان مقیسه
 birth_date: ""
@@ -24,7 +24,7 @@ incident_city: Moshirieh
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -36,3 +36,12 @@ source:
   - https://x.com/tinabakhshi/status/2018689332018598318
   - https://x.com/IranNewsAgency0/status/2018878306150703202
   - https://www.instagram.com/p/DUvoWTcjJ4_
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 5b9df44d-8deb-4b00-a831-bb32a22e9a13
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

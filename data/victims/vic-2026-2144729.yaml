@@ -12,10 +12,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehransar
-incident_address: ""
+incident_address: Tehransar
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Shot from behind by government agents in Tehransar. Nephew of Arash
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/678
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 42bd3b73-4d4d-43b6-92b2-568faec0ca1f
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

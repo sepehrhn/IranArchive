@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: خانه
+date_of_death: "2024-01-12"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Detained on January 12 after security forces raided his residence in Tehran. Whereabouts unknown, described as illegal detention.
@@ -24,3 +24,13 @@ description: Detained on January 12 after security forces raided his residence i
 source_type: Social Media
 source:
   - https://x.com/saarmot/status/2017685673541607425
+  - https://t.me/akhbar_bazdashtiha/418
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c3de8a50-059e-4127-ba7f-530f4c72832a
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

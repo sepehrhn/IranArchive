@@ -1,11 +1,11 @@
 external_card_id: "2352"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24294_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30912_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41178_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47677_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47761_0_instagram_v1.jpg"
-  - "vic-2026-4dcc9ba39b4d.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24294_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30912_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41178_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47677_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47761_0_instagram_v1.jpg
+  - vic-2026-4dcc9ba39b4d.jpg
 name: Taha Soleimani
 persian_name: طاها سلیمانی
 birth_date: ""
@@ -17,10 +17,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Sadeghiyeh, Tehran
 date_of_death: "2026-01-29"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -34,3 +34,11 @@ source:
   - https://www.instagram.com/p/DUsvCirDBih
   - https://www.instagram.com/p/DUNi3yNDcJc
   - https://x.com/fseifikaran/status/2017752537164575154
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 4480c275-39c8-40cb-8d9d-f608c4746313
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

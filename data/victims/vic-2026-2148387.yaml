@@ -13,7 +13,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Masjed Soleyman
-incident_address: ""
+incident_address: Masjed Soleyman
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -25,3 +25,11 @@ description: Brother of Kianoush Bahadori. Both brothers were protesters living 
 source_type: Social Media
 source:
   - https://x.com/masoudkazemi81/status/2021992699738697817
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 58b35cd9-6929-4689-a735-e2989768185c
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/2705

@@ -12,12 +12,12 @@ gender: Male
 age: 17
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Rudbar
-incident_address: ""
+incident_address: Rudbar (Gilan)
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,11 @@ source:
   - https://t.me/RememberTheirNames/1612
   - https://x.com/hekasrehcrisis/status/2016154307071013253
   - https://x.com/MartinNiko56009/status/2015043155196776880
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 938febf2-0a1c-41a1-b464-709fd89710e0
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

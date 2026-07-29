@@ -11,9 +11,9 @@ age: 20
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: Mashhad
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -23,3 +23,12 @@ description: Died by suicide two days after being released from detention. Foren
 source_type: Social Media
 source:
   - https://x.com/mobinahw/status/2024569991152968053
+  - https://www.instagram.com/p/DXQczP4GcPb/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 34dd3f00-c213-429f-ac64-ef7f04c1a9b0
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:4940944cbc2b5845

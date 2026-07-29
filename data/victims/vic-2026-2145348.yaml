@@ -13,13 +13,21 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: external_source lists Parvin Panahi among those killed on 2026-01-08 in Tehran.
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/tCKl8UDDdoQQUGMvcRn2kg
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 5ef4c0b1-cdb3-4e0e-91d1-666f3694f844
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:517cb9c830a5bf08
