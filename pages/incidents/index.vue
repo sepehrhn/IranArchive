@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { type Incident } from '~/types/incident';
 import { useStickyHeader } from '~/composables/useStickyHeader';
+import { verifiedHistoricalIncidentBatch } from '~/data/incidents/verifiedHistoricalIncidentBatch';
 
 const { t } = useI18n()
 const { headerOffset, headerHeight, registerStickyTrigger } = useStickyHeader()
@@ -18,7 +19,7 @@ useSeoMeta({
 const incidentModules = import.meta.glob('~/data/incidents/**/*.yaml', { eager: true });
 
 const baseIncidents = computed(() => {
-    return Object.entries(incidentModules)
+    const yamlIncidents = Object.entries(incidentModules)
         .map(([path, mod]: [string, any]) => {
             const incident = mod.default as Incident;
             
@@ -31,7 +32,9 @@ const baseIncidents = computed(() => {
                 ...incident,
                 id
             };
-        })
+        });
+
+    return [...yamlIncidents, ...verifiedHistoricalIncidentBatch]
         .filter(incident => incident.status !== 'draft')
         .sort((a, b) => {
             return new Date(b.occurred_at.start).getTime() - new Date(a.occurred_at.start).getTime();
