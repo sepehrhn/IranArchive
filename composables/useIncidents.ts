@@ -1,5 +1,6 @@
 import { ref } from 'vue';
 import type { Incident } from '~/types/incident';
+import { verifiedHistoricalIncidentBatch } from '~/data/incidents/verifiedHistoricalIncidentBatch';
 
 // In-memory cache
 const incidentsData = ref<Incident[]>([]);
@@ -12,7 +13,7 @@ export const useIncidents = () => {
 
         try {
             const files = import.meta.glob('~/data/incidents/**/*.yaml', { eager: true });
-            const loadedIncidents: Incident[] = [];
+            const loadedIncidents: Incident[] = [...verifiedHistoricalIncidentBatch];
 
             for (const path in files) {
                 const module = files[path] as any;
