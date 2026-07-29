@@ -1,14 +1,14 @@
 <template>
-  <div>
-    <ArchivePageHero
-      :eyebrow="$t('common.entities')"
-      :title="$t('entitiesPage.alignmentTitle')"
-      :description="$t('entitiesPage.alignmentSubtitle')"
-      index="IRANARCHIVE / ENTITY ALIGNMENT"
-    />
+  <div class="container mx-auto px-4 py-8 max-w-[1400px]">
+    <div class="mb-8">
+      <h1 class="text-4xl font-bold mb-2">{{ $t('entitiesPage.alignmentTitle') }}</h1>
+      <p class="text-xl text-surface-600 dark:text-surface-300">
+        {{ $t('entitiesPage.alignmentSubtitle') }}
+      </p>
+    </div>
 
     <!-- Filters -->
-    <div class="archive-toolbar mb-8 flex flex-wrap justify-between gap-4 items-center">
+    <div class="bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-xl p-4 mb-8 flex flex-wrap justify-between gap-4 items-center">
       <div class="flex gap-4 w-full md:w-auto flex-wrap sm:flex-nowrap">
         <IconField iconPosition="left" class="w-full sm:w-64">
           <InputIcon class="pi pi-search" />

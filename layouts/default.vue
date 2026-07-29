@@ -176,9 +176,9 @@ onUnmounted(() => {
 </script>
 
 <template>
-    <div class="min-h-screen flex flex-col bg-surface-950 text-surface-0 font-sans">
+    <div class="min-h-screen flex flex-col bg-surface-50 dark:bg-surface-950 text-surface-900 dark:text-surface-0 font-sans">
         <header 
-            class="sticky top-0 z-50 bg-[#11100f]/92 backdrop-blur-2xl transition-all duration-500 border-b border-white/10"
+            class="sticky top-0 z-50 bg-white/70 dark:bg-surface-900/70 backdrop-blur-2xl transition-all duration-500 border-b border-surface-200/30 dark:border-surface-800/30"
             :class="{ '-translate-y-full': !isHeaderVisible }"
         >
             <!-- Top Row: Logo & Utilities -->
@@ -186,7 +186,7 @@ onUnmounted(() => {
                 <nav class="container mx-auto px-4 sm:px-6 h-16 flex items-center justify-between relative z-10">
                     <div class="flex items-center gap-2 sm:gap-4">
                         <NuxtLink to="/" dir="ltr" class="flex items-center gap-3 font-black text-2xl tracking-tighter hover:scale-[1.02] transition-transform duration-500 group/logo" @click="closeMenu">
-                            <img src="/lion-and-sun.svg" alt="Lion and Sun" class="h-10 w-auto drop-shadow-[0_0_15px_rgba(214,58,47,0.25)] group-hover/logo:scale-110 transition-all duration-500 ease-out will-change-transform" />
+                            <img src="/lion-and-sun.svg" alt="Lion and Sun" class="h-10 w-auto drop-shadow-[0_0_15px_rgba(217,119,6,0.3)] group-hover/logo:scale-110 transition-all duration-500 ease-out will-change-transform" />
                             <span class="text-surface-900 dark:text-white flex items-baseline">
                                 IRAN<span class="text-primary-600 dark:text-primary-400 font-extralight ml-1">ARCHIVE</span>
                             </span>
@@ -288,7 +288,9 @@ onUnmounted(() => {
                                     class="donate-dropdown-trigger !rounded-full !px-8 !py-2.5 !border-none !text-white !font-black !tracking-[0.25em] hover:!-translate-y-0.5 !transition-all !duration-300"
                                     :class="[
                                         locale === 'fa' ? '!text-sm' : '!text-[11px]',
-                                        '!bg-[#d63a2f] hover:!bg-[#ef574b] !shadow-none'
+                                        isLandingPage
+                                            ? '!bg-[#d63a2f] hover:!bg-[#ef574b] !shadow-[0_8px_20px_rgba(214,58,47,0.28)] hover:!shadow-[0_12px_25px_rgba(214,58,47,0.38)]'
+                                            : '!bg-gradient-to-r !from-emerald-500 !to-teal-500 hover:!from-emerald-600 hover:!to-teal-600 !shadow-[0_8px_20px_rgba(16,185,129,0.3)] hover:!shadow-[0_12px_25px_rgba(16,185,129,0.4)]'
                                     ]"
                                 />
 
@@ -519,12 +521,9 @@ onUnmounted(() => {
             </div>
         </Drawer>
 
-        <main :class="isLandingPage ? 'flex-grow' : 'archive-main flex-grow'">
-            <div :class="isLandingPage ? '' : 'archive-shell archive-page'">
-                <slot />
-            </div>
+        <main :class="isLandingPage ? 'flex-grow' : 'flex-grow container mx-auto px-4 py-8'">
+            <slot />
         </main>
-        <AppFooter v-if="!isLandingPage" />
     </div>
 </template>
 

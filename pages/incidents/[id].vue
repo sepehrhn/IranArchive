@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div v-if="incident">
+  <div class="min-h-screen bg-surface-50/50 dark:bg-surface-950">
+    <div class="px-4 py-8 max-w-7xl mx-auto" v-if="incident">
       
       <!-- Hero / Header -->
       <IncidentsIncidentHeader :incident="incident" />

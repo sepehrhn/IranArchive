@@ -92,28 +92,28 @@ const clearFilters = () => {
 
 <template>
     <div class="space-y-6">
-        <ArchivePageHero
-            :eyebrow="t('common.incidents')"
-            :title="t('common.incidents')"
-            :description="t('incidentsPage.description')"
-            index="IRANARCHIVE / INCIDENT RECORDS"
-        >
-            <template #aside>
-                <p class="archive-kicker !mb-3">{{ t('incidentsPage.recordsFound', { count: '' }) }}</p>
-                <p class="font-serif text-5xl leading-none text-white">
+        <!-- Header Card -->
+        <div class="flex flex-col gap-6 bg-surface-0 dark:bg-surface-900 p-6 rounded-xl border border-surface-200 dark:border-surface-800 shadow-sm mb-6">
+            <!-- Title & Actions -->
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+                <div>
+                    <h1 class="text-3xl font-bold tracking-tight text-surface-900 dark:text-surface-0">{{ t('common.incidents') }}</h1>
+                    <p class="text-surface-500 dark:text-surface-400 mt-1 flex items-center gap-2">
                         <Skeleton v-if="loading" width="8rem" height="1.25rem" />
-                        <span v-else>{{ $nFa(filteredIncidents.length) }}</span>
-                </p>
-            </template>
-            <template #actions>
-                <Button :label="t('incidentsPage.submit')" icon="pi pi-plus" size="small" @click="showSubmitDialog = true" class="hidden md:flex" />
-            </template>
-        </ArchivePageHero>
+                        <span v-else>{{ t('incidentsPage.recordsFound', { count: $nFa(filteredIncidents.length) }) }}</span>
+                    </p>
+                </div>
+
+                <div>
+                    <Button :label="t('incidentsPage.submit')" icon="pi pi-plus" size="small" @click="showSubmitDialog = true" class="hidden md:flex" />
+                </div>
+            </div>
+        </div>
 
         <!-- Controls Toolbar -->
         <div 
             ref="filterBarRef"
-            class="archive-toolbar sticky-trigger flex flex-col lg:flex-row gap-4 justify-between items-center mb-8 sticky z-40 transition-all duration-300"
+            class="sticky-trigger flex flex-col lg:flex-row gap-4 justify-between items-center bg-surface-0/95 dark:bg-surface-900/95 p-4 rounded-xl border border-surface-200 dark:border-surface-800 shadow-md mb-8 sticky z-40 backdrop-blur-md transition-all duration-300"
             :style="{ top: headerOffset + 'px' }"
         >
             <div class="flex flex-col sm:flex-row gap-4 w-full lg:w-auto min-w-0 flex-grow">
@@ -149,7 +149,7 @@ const clearFilters = () => {
         </div>
 
         <!-- Empty State -->
-        <div v-else class="archive-empty flex flex-col items-center justify-center">
+        <div v-else class="flex flex-col items-center justify-center p-16 text-center bg-surface-0 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-800 border-dashed">
             <div class="w-16 h-16 bg-surface-100 dark:bg-surface-800 rounded-full flex items-center justify-center mb-4">
                 <i class="pi pi-search text-2xl text-surface-400"></i>
             </div>

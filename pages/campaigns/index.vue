@@ -1,11 +1,11 @@
 <template>
-  <div>
-    <ArchivePageHero
-      :eyebrow="$t('campaignsPage.heroTitle')"
-      :title="$t('campaignsPage.alignmentTitle')"
-      :description="$t('campaignsPage.alignmentSubtitle')"
-      index="IRANARCHIVE / CAMPAIGN TRACKER"
-    />
+  <div class="container mx-auto px-4 py-8">
+    <div class="mb-12">
+      <h1 class="text-4xl font-bold mb-4">{{ $t('campaignsPage.alignmentTitle') }}</h1>
+      <p class="text-xl text-surface-600 dark:text-surface-300 max-w-3xl">
+        {{ $t('campaignsPage.alignmentSubtitle') }}
+      </p>
+    </div>
 
     <!-- Loading State -->
     <div v-if="pending" class="flex justify-center p-12">

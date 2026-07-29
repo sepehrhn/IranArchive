@@ -323,15 +323,26 @@ const openPosterGenerator = (victim: Victim) => {
 
 <template>
     <div class="space-y-6">
-        <ArchivePageHero
-            :eyebrow="t('common.victims')"
-            :title="t('victimsPage.heroTitle')"
-            :description="t('victimsPage.heroSubtitle')"
-            index="IRANARCHIVE / MEMORIAL RECORD"
-        >
-            <template #aside>
-                    <div class="grid grid-cols-2 divide-x divide-white/10">
+        <!-- Hero Section -->
+        <div class="relative bg-gradient-to-br from-surface-800 via-surface-700 to-surface-800 dark:from-surface-950 dark:via-surface-900 dark:to-surface-950 rounded-2xl overflow-hidden">
+            <div class="absolute inset-0 bg-[url('/images/pattern.svg')] opacity-5"></div>
+            <div class="relative px-8 py-10 md:py-12">
+                <div class="max-w-3xl">
+                    <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
+                        {{ t('victimsPage.heroTitle') }}
+                    </h1>
+                    <p class="text-lg text-surface-200 dark:text-surface-300 mb-6 leading-relaxed">
+                        {{ t('victimsPage.heroSubtitle') }}
+                    </p>
+                    
+                    <!-- Stats -->
+                    <div class="flex flex-wrap gap-6 mb-8">
                         <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-red-500/20 flex items-center justify-center">
+                                <svg viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6 text-red-400">
+                                    <path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C8.17,3 8.82,3.12 9.44,3.33L13,9.35L9,14.35L12,21.35V21.35M16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35L11,14.35L15.5,9.35L12.85,4.27C13.87,3.47 15.17,3 16.5,3Z" />
+                                </svg>
+                            </div>
                             <div>
                                 <p class="text-3xl font-bold text-white">
                                     <Skeleton v-if="loading" width="2rem" height="2.5rem" class="!bg-white/20" />
@@ -340,7 +351,10 @@ const openPosterGenerator = (victim: Victim) => {
                                 <p class="text-sm text-surface-300 dark:text-surface-400">{{ t('victimsPage.killed') }}</p>
                             </div>
                         </div>
-                        <div class="flex items-center gap-3 pl-4">
+                        <div class="flex items-center gap-3">
+                            <div class="w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center">
+                                <i class="pi pi-search text-orange-400 text-xl"></i>
+                            </div>
                             <div>
                                 <p class="text-3xl font-bold text-white">
                                     <Skeleton v-if="loading" width="2rem" height="2.5rem" class="!bg-white/20" />
@@ -351,16 +365,18 @@ const openPosterGenerator = (victim: Victim) => {
                         </div>
 
                     </div>
-            </template>
-            <template #actions>
+                </div>
+
+                <div class="absolute top-8 right-8 md:top-12 md:right-8">
                     <Button
                         :label="t('victimsPage.submit')"
                         icon="pi pi-plus"
                         @click="showSubmitDialog = true"
                         class="hidden md:flex shadow-lg"
                     />
-            </template>
-        </ArchivePageHero>
+                </div>
+            </div>
+        </div>
 
         <!-- Filters Section (Sticky only on desktop) -->
         <div 
@@ -369,7 +385,7 @@ const openPosterGenerator = (victim: Victim) => {
             :class="isMobile ? 'relative mb-6' : 'sticky-trigger sticky'"
             :style="{ top: (isMobile ? 0 : headerOffset) + 'px' }"
         >
-            <div class="archive-toolbar w-full mx-auto overflow-hidden transition-all duration-300">
+            <div class="w-full mx-auto bg-surface-0/80 dark:bg-surface-900/80 backdrop-blur-xl rounded-2xl border border-surface-200/50 dark:border-surface-700/50 shadow-xl shadow-surface-900/5 overflow-hidden transition-all duration-300">
                 
                 <!-- Desktop Unified Bar -->
                 <div class="flex flex-col md:flex-row">
@@ -538,7 +554,7 @@ const openPosterGenerator = (victim: Victim) => {
 
 
         <!-- Empty State -->
-        <div v-else class="archive-empty">
+        <div v-else class="text-center py-16 bg-surface-50 dark:bg-surface-900 rounded-2xl border-2 border-dashed border-surface-300 dark:border-surface-700">
             <div class="w-20 h-20 mx-auto mb-6 rounded-full bg-surface-200 dark:bg-surface-800 flex items-center justify-center">
                 <i class="pi pi-search text-3xl text-surface-400"></i>
             </div>

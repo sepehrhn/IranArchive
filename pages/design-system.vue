@@ -9,13 +9,11 @@ const date = ref()
 </script>
 
 <template>
-  <div class="space-y-12">
-    <ArchivePageHero
-      eyebrow="Internal reference"
-      title="Design System"
-      description="Regression check for the editorial tokens and shared components used across IranArchive."
-      index="IRANARCHIVE / UI STANDARDS"
-    />
+  <div class="container mx-auto px-4 py-8 space-y-12">
+    <div class="mb-8">
+        <h1 class="text-4xl font-bold text-surface-900 dark:text-surface-0 mb-2">Design System</h1>
+        <p class="text-surface-600 dark:text-surface-400">Regression check for tokens and components.</p>
+    </div>
 
     <!-- Colors -->
     <section class="space-y-4">

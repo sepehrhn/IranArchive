@@ -3,14 +3,7 @@
 </script>
 
 <template>
-    <div>
-        <ArchivePageHero
-            eyebrow="Contributor guide"
-            title="Submitting an Event"
-            description="How to add a public solidarity event to the historical record."
-            index="IRANARCHIVE / SUBMISSION GUIDE"
-        />
-        <article class="mx-auto max-w-4xl prose dark:prose-invert">
+    <div class="container mx-auto px-4 py-8 max-w-4xl prose dark:prose-invert">
         <!-- Breadcrumb / Back -->
         <div class="mb-4 not-prose">
             <NuxtLink to="/events" class="inline-flex items-center text-sm text-surface-600 dark:text-surface-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors">
@@ -19,6 +12,7 @@
             </NuxtLink>
         </div>
 
+        <h1>Submitting an Event</h1>
         <p>The Iran Archive Events calendar is a community-driven effort to track global solidarity events. We welcome submissions from organizers and the community.</p>
 
         <h2>How to Submit</h2>
@@ -50,6 +44,6 @@
         </ul>
         <p>We prioritize the safety of attendees. If an event location is sensitive, set <code>location_visibility</code> to <code>approximate</code> or <code>withheld</code>.</p>
         
-        </article>
+
     </div>
 </template>
