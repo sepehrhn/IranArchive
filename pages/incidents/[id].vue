@@ -279,7 +279,7 @@ const pageImage = computed(() => {
             return getMediaUrl({ kind: 'evidence', relativePath: firstEvidence.file_path }, config);
         }
     }
-    return 'https://iranarchive.com/og-image-incidents.jpg';
+    return 'https://iranarchive.net/og-image.png';
 });
 
 useSeoMeta({

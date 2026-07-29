@@ -154,7 +154,7 @@ const config = useRuntimeConfig();
 if (!props.headless) {
     const pageTitle = computed(() => victim.value ? `${victim.value.name} — ${t('common.victims')}` : t('victimDetail.notFoundTitle'));
     const pageDescription = computed(() => victim.value?.description || t('victimDetail.notFoundDescription'));
-    const pageImage = computed(() => victim.value?.photo ? getMediaUrl({ kind: 'victim_photo', relativePath: victim.value.photo }, config) : 'https://iranarchive.com/og-image.jpg');
+    const pageImage = computed(() => victim.value?.photo ? getMediaUrl({ kind: 'victim_photo', relativePath: victim.value.photo }, config) : 'https://iranarchive.net/og-image.png');
     
     useSeoMeta({
         title: pageTitle,

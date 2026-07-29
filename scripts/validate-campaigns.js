@@ -53,8 +53,10 @@ if (fs.existsSync(countriesDir)) {
         // Custom logic: check evidence_ids when level > 0
         if (content.campaign_statuses) {
             for (const [campaignCode, status] of Object.entries(content.campaign_statuses)) {
-                if (status.level > 0 && (!status.evidence_ids || status.evidence_ids.length === 0)) {
-                    console.error(`[INVALID] Country (${filePath}): Campaign '${campaignCode}' has level ${status.level} but no evidence_ids.`);
+                const hasEvidence = Array.isArray(status.evidence_ids) && status.evidence_ids.length > 0;
+                const explicitlyIncomplete = status.evidence_status === 'incomplete';
+                if (status.level > 0 && !hasEvidence && !explicitlyIncomplete) {
+                    console.error(`[INVALID] Country (${filePath}): Campaign '${campaignCode}' has level ${status.level} but no evidence_ids or explicit incomplete evidence status.`);
                     hasErrors = true;
                 }
             }
@@ -75,8 +77,10 @@ if (fs.existsSync(entitiesDir)) {
 
         if (content.campaign_positions) {
             for (const [campaignCode, status] of Object.entries(content.campaign_positions)) {
-                if (status.level > 0 && (!status.evidence_ids || status.evidence_ids.length === 0)) {
-                    console.error(`[INVALID] Entity (${filePath}): Campaign '${campaignCode}' has level ${status.level} but no evidence_ids.`);
+                const hasEvidence = Array.isArray(status.evidence_ids) && status.evidence_ids.length > 0;
+                const explicitlyIncomplete = status.evidence_status === 'incomplete';
+                if (status.level > 0 && !hasEvidence && !explicitlyIncomplete) {
+                    console.error(`[INVALID] Entity (${filePath}): Campaign '${campaignCode}' has level ${status.level} but no evidence_ids or explicit incomplete evidence status.`);
                     hasErrors = true;
                 }
             }

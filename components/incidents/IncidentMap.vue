@@ -19,7 +19,6 @@
 </template>
 
 <script setup lang="ts">
-import { importLibrary, setOptions } from '@googlemaps/js-api-loader';
 
 const props = defineProps<{
   lat: number;
@@ -45,6 +44,7 @@ onMounted(async () => {
   }
 
   try {
+    const { importLibrary, setOptions } = await import('@googlemaps/js-api-loader');
     // Determine if we need to set options (only if not already loaded essentially, 
     // but setOptions handles some idempotency or we trust it doesn't crash if called again with same params before load)
     // Actually, to be safe, we can just call it. Usage of js-api-loader implies it manages the bootstrap.

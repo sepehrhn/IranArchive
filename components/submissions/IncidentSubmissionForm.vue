@@ -235,7 +235,7 @@
           mode="advanced"
           :multiple="true"
           accept="image/jpeg,image/png,image/webp,image/gif,video/mp4,video/webm,video/quicktime,application/pdf"
-          :maxFileSize="90000000"
+          :maxFileSize="52428800"
           @select="onFileSelect"
           @remove="onFileRemove"
           chooseLabel="Add Evidence Files"
@@ -249,7 +249,7 @@
           </template>
         </FileUpload>
         <small class="text-surface-500">
-          Images (JPG, PNG, WebP, GIF), Videos (MP4, WebM), or Documents (PDF). Max 90MB total.
+          Images (JPG, PNG, WebP, GIF), Videos (MP4, WebM), or Documents (PDF). Up to 10 files, 50MB each, 75MB total.
         </small>
         <div v-if="selectedFiles.length > 0" class="mt-2">
           <p class="text-sm font-medium">Selected: {{ selectedFiles.length }} file(s)</p>

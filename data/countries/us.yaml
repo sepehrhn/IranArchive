@@ -29,8 +29,8 @@ campaign_statuses:
   protect_iran:
     level: 3
     last_updated: '2026-01-19'
-    evidence_ids:
-      - ev-migrated-placeholder
+    evidence_ids: []
+    evidence_status: incomplete
     notes: Leads maritime security coalitions; enforces secondary sanctions; conducts deterrence operations.
   cut_financial_lifelines:
     level: 0
@@ -45,14 +45,14 @@ campaign_statuses:
   isolate_and_prosecute:
     level: 4
     last_updated: '2026-01-19'
-    evidence_ids:
-      - ev-migrated-placeholder
+    evidence_ids: []
+    evidence_status: incomplete
     notes: Migrated from irgc_designation/diplomacy.
   free_political_prisoners:
     level: 3
     last_updated: '2026-01-19'
-    evidence_ids:
-      - ev-migrated-placeholder
+    evidence_ids: []
+    evidence_status: incomplete
     notes: Migrated from un_posture leads_accountability.
   recognize_transition:
     level: 0

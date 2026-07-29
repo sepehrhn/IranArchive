@@ -24,7 +24,7 @@ useSeoMeta({
     ogTitle: t('assetsPage.title'),
     description: t('assetsPage.description'),
     ogDescription: t('assetsPage.description'),
-    ogImage: 'https://iranarchive.com/og-image-assets.jpg',
+    ogImage: 'https://iranarchive.net/og-image.png',
     twitterCard: 'summary_large_image',
 })
 

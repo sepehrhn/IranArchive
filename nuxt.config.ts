@@ -1,7 +1,8 @@
 import { defineNuxtConfig } from 'nuxt/config';
-import Aura from '@primevue/themes/aura';
+import Aura from '@primeuix/themes/aura';
 import yaml from '@rollup/plugin-yaml';
-import { resolve } from 'path';
+
+const siteUrl = process.env.NUXT_PUBLIC_SITE_URL || 'https://iranarchive.net';
 
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
@@ -38,6 +39,7 @@ export default defineNuxtConfig({
 
     runtimeConfig: {
         public: {
+            siteUrl,
             googleMapsApiKey: process.env.GOOGLE_MAPS_API_KEY || '',
             // Media loading from GitHub raw URLs
             mediaRepoOwner: process.env.NUXT_PUBLIC_MEDIA_REPO_OWNER || 'sepehrhn',
@@ -60,18 +62,19 @@ export default defineNuxtConfig({
                 { name: 'description', content: 'IranArchive: A digital memorial and database documenting the crimes of the Islamic Republic.' },
                 // Open Graph / Facebook
                 { property: 'og:type', content: 'website' },
-                { property: 'og:url', content: 'https://iranarchive.com/' },
+                { property: 'og:url', content: `${siteUrl}/` },
                 { property: 'og:title', content: 'IranArchive' },
                 { property: 'og:description', content: 'Documenting the crimes of the Islamic Republic. Honouring the victims. Seeking justice.' },
-                { property: 'og:image', content: 'https://iranarchive.com/og-image.jpg' }, // Assuming this exists or will be added
+                { property: 'og:image', content: `${siteUrl}/og-image.png` },
                 // Twitter
                 { name: 'twitter:card', content: 'summary_large_image' },
-                { name: 'twitter:url', content: 'https://iranarchive.com/' },
+                { name: 'twitter:url', content: `${siteUrl}/` },
                 { name: 'twitter:title', content: 'IranArchive' },
                 { name: 'twitter:description', content: 'Documenting the crimes of the Islamic Republic. Honouring the victims. Seeking justice.' },
-                { name: 'twitter:image', content: 'https://iranarchive.com/og-image.jpg' }
+                { name: 'twitter:image', content: `${siteUrl}/og-image.png` }
             ],
             link: [
+                { rel: 'canonical', href: `${siteUrl}/` },
                 { rel: 'icon', type: 'image/svg+xml', href: '/lion-and-sun.svg' },
                 { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
                 { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
@@ -94,6 +97,7 @@ export default defineNuxtConfig({
                 '/design-system',
                 '/docs/events-submission',
                 '/docs/incidents-submission',
+                '/docs/submission-safety',
                 '/entities',
                 '/events',
                 '/incidents',
@@ -132,7 +136,7 @@ export default defineNuxtConfig({
     },
 
     i18n: {
-        baseUrl: 'https://iranarchive.com',
+        baseUrl: siteUrl,
         strategy: 'no_prefix', // Simple approach for now, or 'prefix_except_default'
         locales: [
             { code: 'en', file: 'en.json', name: 'English', dir: 'ltr' },
@@ -146,7 +150,7 @@ export default defineNuxtConfig({
             cookieKey: 'i18n_redirected',
             redirectOn: 'root',
         },
-        vueI18n: './i18n.config.ts'
+        vueI18n: '../i18n.config.ts'
     },
 
     tailwindcss: {

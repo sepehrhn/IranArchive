@@ -8,7 +8,7 @@ export interface Env {
     GH_REPO_NAME: string;
 }
 
-export type SubmissionKind = 'incident' | 'victim' | 'evidence';
+export type SubmissionKind = 'incident' | 'victim' | 'evidence' | 'event';
 
 export interface FileInfo {
     name: string;

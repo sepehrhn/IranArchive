@@ -2,8 +2,6 @@
 import { ref, computed, watch, nextTick } from 'vue';
 import type { ParsedEvent } from '~/server/utils/events/schemas';
 import { useI18n } from 'vue-i18n';
-import QRCode from 'qrcode';
-import html2canvas from 'html2canvas';
 import { useCountries } from '~/composables/useCountries';
 
 const props = defineProps<{
@@ -53,6 +51,7 @@ const flagUrl = computed(() => {
 watch(() => props.event, async () => {
     if (props.event && import.meta.client) {
         try {
+            const { default: QRCode } = await import('qrcode');
             qrCodeUrl.value = await QRCode.toDataURL(eventLink.value, {
                 width: 400,
                 margin: 2,
@@ -90,6 +89,7 @@ const downloadPoster = async () => {
     await new Promise(resolve => setTimeout(resolve, 800));
 
     try {
+        const { default: html2canvas } = await import('html2canvas');
         const canvas = await html2canvas(posterRef.value, {
             scale: 2, // High res output
             useCORS: true,

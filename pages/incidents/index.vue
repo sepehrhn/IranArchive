@@ -13,7 +13,7 @@ useSeoMeta({
     ogTitle: t('incidentsPage.title'),
     description: t('incidentsPage.description'),
     ogDescription: t('incidentsPage.description'),
-    ogImage: 'https://iranarchive.com/og-image-incidents.jpg',
+    ogImage: 'https://iranarchive.net/og-image.png',
     twitterCard: 'summary_large_image',
 })
 const incidentModules = import.meta.glob('~/data/incidents/**/*.yaml', { eager: true });

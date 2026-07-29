@@ -1,4 +1,16 @@
 {
+  "2026/jan/img-2026-00001.jpeg": {
+    "sha256": "fe55eb0525c50dbff82e51c119fb9fc6727b36e8d29734b657c02cff9fe3a008",
+    "file_size_bytes": 179964,
+    "format": "jpeg",
+    "mime_type": "image/jpeg"
+  },
+  "2026/jan/img-2026-00001.yaml": {
+    "sha256": "8559f3d31d67768265c7467893c6aee85f9f335746f89e7f4bffd0b1d6e7fe29",
+    "file_size_bytes": 1824,
+    "format": "yaml",
+    "mime_type": "application/octet-stream"
+  },
   "2026/jan/vid-2026-00001.mp4": {
     "sha256": "88e87dd4d88b1831325068f4f813f9a97ca527f9bd0bb771959c2a0876991dc2",
     "file_size_bytes": 2502201,
@@ -6,32 +18,8 @@
     "mime_type": "video/mp4"
   },
   "2026/jan/vid-2026-00001.yaml": {
-    "sha256": "73c666eb4837a7fc78a92ea75fca0f12032c1e8308204f4a733ae61678c4ad3d",
-    "file_size_bytes": 1075,
-    "format": "yaml",
-    "mime_type": "application/octet-stream"
-  },
-  "2026/jan/vid-2026-00002.mp4": {
-    "sha256": "0cf7e7fdb9c2b26c15ee9f46ae38edc7bf141257b270e3f1c194c48c05985b76",
-    "file_size_bytes": 20949282,
-    "format": "mp4",
-    "mime_type": "video/mp4"
-  },
-  "2026/jan/vid-2026-00002.yaml": {
-    "sha256": "d15e675727b05a1ccbf4f191b3f57af561021dec546ad137a52129a529b435ff",
-    "file_size_bytes": 1135,
-    "format": "yaml",
-    "mime_type": "application/octet-stream"
-  },
-  "2026/jan/vid-2026-00003.mp4": {
-    "sha256": "319126c587707cb231de4672b0c878c97f47214078fea357a962e381998893ce",
-    "file_size_bytes": 54258001,
-    "format": "mp4",
-    "mime_type": "video/mp4"
-  },
-  "2026/jan/vid-2026-00003.yaml": {
-    "sha256": "d7fcc55752b39a2c54a6a9b0600c6ad879753f3b4334e54664734a7e14077baf",
-    "file_size_bytes": 1052,
+    "sha256": "60fd629a1980df1fdc8ee134ef8122520136ee6a292702a7a267f68e5e6200b0",
+    "file_size_bytes": 1098,
     "format": "yaml",
     "mime_type": "application/octet-stream"
   },
@@ -42,9 +30,39 @@
     "mime_type": "video/mp4"
   },
   "2026/jan/vid-2026-00004.yaml": {
-    "sha256": "f1c616b0da8c25c239ae071113adc6b7dbaeb1df038836d76ca5164d0246e30e",
-    "file_size_bytes": 938,
+    "sha256": "5732a9f92a5754df64a39c93a97b8643148d0fbd27d5c26b430bf8ce59195a17",
+    "file_size_bytes": 963,
     "format": "yaml",
+    "mime_type": "application/octet-stream"
+  },
+  "2026/jan/vid-2026-00005.mp4": {
+    "sha256": "4d5ab295a01b869ed5dbe9275b3156673caa8fd7c1f6b72e618f52f82f1f2784",
+    "file_size_bytes": 47604820,
+    "format": "mp4",
+    "mime_type": "video/mp4"
+  },
+  "2026/jan/vid-2026-00005.yaml": {
+    "sha256": "e5f31c9a5d03a17cd84455f674e3e0359e10ba8c10d229feac59cc100f85fc1a",
+    "file_size_bytes": 1715,
+    "format": "yaml",
+    "mime_type": "application/octet-stream"
+  },
+  "2026/jan/vid-2026-00006.mp4": {
+    "sha256": "f931c35e6de222c494fca495e560b470528fb49e05c985cd5d6e6987498811db",
+    "file_size_bytes": 4309483,
+    "format": "mp4",
+    "mime_type": "video/mp4"
+  },
+  "2026/jan/vid-2026-00006.yaml": {
+    "sha256": "2b76638d05b840a75228fb2be26bbfed545eeff2f498afa9d5e99d315cd9e429",
+    "file_size_bytes": 1876,
+    "format": "yaml",
+    "mime_type": "application/octet-stream"
+  },
+  "evidence.yaml.example": {
+    "sha256": "f6bafb8f6ff904b1b28bee3294baea04f58bb06f73dfe1ebc0146cc27b3aa8c0",
+    "file_size_bytes": 1233,
+    "format": "example",
     "mime_type": "application/octet-stream"
   }
 }

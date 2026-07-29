@@ -1,11 +1,18 @@
 import type { Context } from 'hono';
 import type { Env, InitRequest, InitResponse, SubmissionRecord } from '../types';
-import { verifyTurnstile, hashIP, checkRateLimit, validateFile, sanitizeFilename } from '../lib/utils';
+import { verifyTurnstile, hashIP, checkRateLimit, validateFile, sanitizeFilename, MAX_FILES_PER_SUBMISSION, MAX_TOTAL_SIZE } from '../lib/utils';
 
 export async function handleInit(c: Context<{ Bindings: Env }>): Promise<Response> {
     try {
         const body = await c.req.json() as InitRequest;
         const { turnstileToken, kind, files } = body;
+
+        if (!['incident', 'victim', 'evidence', 'event'].includes(kind) || !Array.isArray(files)) {
+            return c.json({ error: 'Invalid submission request' }, 400);
+        }
+        if (files.length > MAX_FILES_PER_SUBMISSION) {
+            return c.json({ error: `A submission may include at most ${MAX_FILES_PER_SUBMISSION} files` }, 400);
+        }
 
         // Get client IP
         const ip = c.req.header('CF-Connecting-IP') || c.req.header('X-Forwarded-For') || 'unknown';
@@ -34,16 +41,19 @@ export async function handleInit(c: Context<{ Bindings: Env }>): Promise<Respons
             totalSize += file.size;
         }
 
-        if (totalSize > 90 * 1024 * 1024) {
-            return c.json({ error: 'Total file size exceeds 90MB' }, 400);
+        if (totalSize > MAX_TOTAL_SIZE) {
+            return c.json({ error: 'Total file size exceeds 75MB' }, 400);
         }
 
         // Generate submission ID
         const submissionId = crypto.randomUUID();
 
         // Create upload keys and URLs
+        const sanitizedNames = new Set<string>();
         const uploads = files.map(file => {
             const sanitized = sanitizeFilename(file.name);
+            if (sanitizedNames.has(sanitized)) throw new Error('Duplicate file names are not allowed');
+            sanitizedNames.add(sanitized);
             const key = `submissions/${submissionId}/uploads/${sanitized}`;
 
             return {
@@ -76,13 +86,8 @@ export async function handleInit(c: Context<{ Bindings: Env }>): Promise<Respons
 
         return c.json(response);
 
-    } catch (error: any) {
+    } catch (error) {
         console.error('Init error:', error);
-        // RETURN DETAILED ERROR FOR DEBUGGING
-        return c.json({
-            error: 'Internal server error',
-            details: error.message || String(error),
-            stack: error.stack
-        }, 500);
+        return c.json({ error: 'Internal server error' }, 500);
     }
 }

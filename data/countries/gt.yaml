@@ -26,8 +26,8 @@ campaign_statuses:
   protect_iran:
     level: 2
     last_updated: '2026-01-19'
-    evidence_ids:
-      - ev-migrated-placeholder
+    evidence_ids: []
+    evidence_status: incomplete
     notes: Coops with US on regional security; opposes Iran's influence in the region.
   cut_financial_lifelines:
     level: 0
