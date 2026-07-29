@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 6ce43a0f-43cf-4344-9348-6732cdac7f98
-external_source_categories:
+source_registry_categories:
   - at-risk
 photo: []
 name: Farhad Soleimani
@@ -21,11 +21,11 @@ cause_of_death: ""
 disappearance_circumstances: Reported detained
 suspected_actor: ""
 status: Missing
-description: external_source lists Farhad Soleimani as detained and at risk of execution in Shiraz, Fars.
+description: An external registry lists Farhad Soleimani as detained and at risk of execution in Shiraz, Fars.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: true
 notes: |-
@@ -36,5 +36,5 @@ notes: |-
   Outcome: وضعیت: در خطر صدور اعدام
 
   Detention or execution location: عادل‌آباد
-external_source_source_references:
+source_registry_source_references:
   - Iran_Executions_DeathRow_Final_Comprehensive-2.xlsx

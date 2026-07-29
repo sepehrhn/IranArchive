@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 5e6d3362-5ad6-4d29-b255-7936054819b1
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Mansourzadeh
@@ -21,12 +21,12 @@ cause_of_death: ""
 disappearance_circumstances: "Place of arrest: Semirom"
 suspected_actor: ""
 status: Missing
-description: external_source lists Mansourzadeh as detained in Semirom, Isfahan.
+description: An external registry lists Mansourzadeh as detained in Semirom, Isfahan.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - Hodafit-javidnaman-2026-final.xlsx

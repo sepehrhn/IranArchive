@@ -25,11 +25,11 @@ source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-929
   - https://x.com/i/status/2026257160603079062
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 232f33c3-18ab-4e16-9b10-c6173f5cb271
-external_source_categories:
+source_registry_categories:
   - detainees
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
+source_registry_source_references:
   - HRANA-CW-2026/detainees/identified/700

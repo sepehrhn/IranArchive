@@ -35,11 +35,11 @@ source_type: Social Media
 source:
   - https://x.com/saarmot/status/2016683022867669307
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1300
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - c2058f17-6689-4b51-9823-e7e7a47a5615
-external_source_categories:
+source_registry_categories:
   - detainees
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
+source_registry_source_references:
   - Hodafit-javidnaman-2026-final.xlsx

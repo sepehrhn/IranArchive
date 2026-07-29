@@ -19,16 +19,16 @@ cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: external_source lists Mohsen Bavandpour among those killed on 2026-01-08 in Karaj, Alborz.
+description: An external registry lists Mohsen Bavandpour among those killed on 2026-01-08 in Karaj, Alborz.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1206
   - https://x.com/KurdistanHRN/status/2015878748961112321
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 12c06c2e-6181-44db-88fd-d17aa03def1c
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - Hodafit-javidnaman-2026-final.xlsx

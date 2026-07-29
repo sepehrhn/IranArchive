@@ -23,11 +23,11 @@ description: "Detained during protests. Listed in HRANA's 'Identified Detainees'
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1415
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 390712ea-e254-4ba2-906f-9e1465f4f3d7
-external_source_categories:
+source_registry_categories:
   - detainees
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
+source_registry_source_references:
   - HRANA-CW-2026/detainees/identified/1415

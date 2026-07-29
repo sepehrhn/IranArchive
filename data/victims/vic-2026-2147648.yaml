@@ -20,15 +20,15 @@ disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
 detention_status: unknown
-description: external_source lists Mohammad Amin Oladi Salahshouri among those killed on 2026-01-08 in Qazvin.
+description: An external registry lists Mohammad Amin Oladi Salahshouri among those killed on 2026-01-08 in Qazvin.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3152
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 50fd6ce9-20f7-4499-b25c-50ccd76b3c6c
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - iranintl-memorial:a5dbb3aa58947c28

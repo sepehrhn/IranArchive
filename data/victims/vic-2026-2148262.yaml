@@ -20,16 +20,16 @@ disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
 detention_status: unknown
-description: external_source lists Roghayeh (Nastaran) Soltani Sharifzadeh among those killed on 2026-01-09 in Shahriar.
+description: An external registry lists Roghayeh (Nastaran) Soltani Sharifzadeh among those killed on 2026-01-09 in Shahriar.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3105
   - https://javidnaman.iranintl.com/
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - ff5a1bdf-1872-4c71-9703-9c8f53b766e7
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - iranintl-memorial:4569c1bba5b44d46

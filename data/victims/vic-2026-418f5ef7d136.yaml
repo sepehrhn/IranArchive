@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 38819a1d-19db-4379-9fd3-41eb2a9d2387
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Abolfazl Ahmadi
@@ -21,12 +21,12 @@ cause_of_death: ""
 disappearance_circumstances: Reported detained
 suspected_actor: ""
 status: Missing
-description: external_source lists Abolfazl Ahmadi as detained.
+description: An external registry lists Abolfazl Ahmadi as detained.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - Hodafit-javidnaman-2026-final.xlsx

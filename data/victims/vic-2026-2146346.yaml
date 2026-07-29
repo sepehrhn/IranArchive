@@ -24,12 +24,12 @@ source_type: Social Media
 source:
   - https://t.me/iliaen/284
   - https://t.me/iliaen/798
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 82ebaadf-6d70-4113-a03b-e20042ce1d9d
-external_source_categories:
+source_registry_categories:
   - at-risk
 risk_of_execution: true
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
+source_registry_source_references:
   - Iran_Executions_DeathRow_Final_Comprehensive-2.xlsx

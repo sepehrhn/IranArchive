@@ -24,11 +24,11 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1877
   - https://www.hra-news.org/
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 94295d85-8480-425c-a430-862b29d38952
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - iranintl-memorial:6bfd598c02535d82

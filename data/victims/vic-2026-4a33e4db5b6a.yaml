@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 4128999e-c17b-4727-964c-42c1b24f9344
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Helena Rostami
@@ -21,12 +21,12 @@ cause_of_death: ""
 disappearance_circumstances: "Place of arrest: Tehran"
 suspected_actor: ""
 status: Missing
-description: external_source lists Helena Rostami as detained on 2025-12-30.
+description: An external registry lists Helena Rostami as detained on 2025-12-30.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - HRANA-CW-2026/detainees/identified/8

@@ -24,11 +24,11 @@ source_type: Social Media
 source:
   - https://x.com/i/status/2023401504724697318
   - https://www.instagram.com/p/DWdMJqzDKhE/
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - f12b08d4-32b8-4d21-84a2-57234aa7de4e
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - iranintl-memorial:1b05dc6f732d97ed

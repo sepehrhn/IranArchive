@@ -25,11 +25,11 @@ source_type: Social Media
 source:
   - https://x.com/iranwire/status/2018789172295983358
   - https://www.instagram.com/p/DUsF5ptDECB
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - a2d8ed10-1ad1-44d2-af0a-327b650e4264
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - wikipedia-javidnaman:556

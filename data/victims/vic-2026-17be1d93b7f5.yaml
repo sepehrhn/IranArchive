@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 56ee62f5-f4c7-4f83-a95c-0c6177d01e4f
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Moein Salimolnafs
@@ -32,9 +32,9 @@ description: |-
 source_type: Human Rights Archive
 source:
   - https://t.me/akhbar_bazdashtiha/239
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - akhbar_bazdashtiha

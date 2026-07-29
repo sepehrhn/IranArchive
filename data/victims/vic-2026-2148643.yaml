@@ -25,12 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/sirwana9/status/2024245614456741914
   - https://t.me/akhbar_bazdashtiha/130
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 7b547076-b3e3-4962-8a15-f0b389b147f0
-external_source_categories:
+source_registry_categories:
   - at-risk
 risk_of_execution: true
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
+source_registry_source_references:
   - akhbar_bazdashtiha

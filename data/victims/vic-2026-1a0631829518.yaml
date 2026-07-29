@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 9c40d467-3ad6-471c-b6e4-4cd61fe08e37
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Mahdi Ghobadsiah
@@ -21,12 +21,12 @@ cause_of_death: ""
 disappearance_circumstances: "Place of arrest: Gilan-e Gharb"
 suspected_actor: ""
 status: Missing
-description: external_source lists Mahdi Ghobadsiah as detained in Gilan-e Gharb, Kermanshah.
+description: An external registry lists Mahdi Ghobadsiah as detained in Gilan-e Gharb, Kermanshah.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - Hodafit-javidnaman-2026-final.xlsx

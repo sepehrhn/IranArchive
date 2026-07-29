@@ -20,16 +20,16 @@ disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
 detention_status: unknown
-description: external_source lists Nemat Hosseini among those killed on 2026-01-08 in Shiraz.
+description: An external registry lists Nemat Hosseini among those killed on 2026-01-08 in Shiraz.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3181
   - https://www.instagram.com/p/DVM_1eDjV-M/
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - abfe6fdf-aabc-4229-93b5-c251506114a9
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - iranintl-memorial:fe0bb769877a22c8

@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 4c85e156-aea6-4337-8c60-c56dde77f0e9
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Sajjad Rafiepour
@@ -34,9 +34,9 @@ description: |-
 source_type: Human Rights Archive
 source:
   - https://t.me/akhbar_bazdashtiha/21
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - akhbar_bazdashtiha

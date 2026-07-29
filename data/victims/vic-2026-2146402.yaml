@@ -24,11 +24,11 @@ source_type: Social Media
 source:
   - https://x.com/saeidvafa/status/2019173780623360003
   - https://t.me/akhbar_bazdashtiha/63
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 40df16ec-0ce5-429b-a752-63799c23f1eb
-external_source_categories:
+source_registry_categories:
   - detainees
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
+source_registry_source_references:
   - akhbar_bazdashtiha

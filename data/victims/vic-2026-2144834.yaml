@@ -19,16 +19,16 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: external_source lists Milad Najafpour among those killed on 2026-01-08 in Hashtgerd.
+description: An external registry lists Milad Najafpour among those killed on 2026-01-08 in Hashtgerd.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1767
   - https://www.hra-news.org/
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 4afdc9dd-1965-4118-9e21-a44d56ab991d
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - iranintl-memorial:7f2746415c019ed3

@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 3b7256c0-e93c-4c47-8968-42ef2c1c6c17
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Saleh Mohammadi
@@ -21,12 +21,12 @@ cause_of_death: ""
 disappearance_circumstances: "Place of arrest: Unknown | Qom"
 suspected_actor: ""
 status: Killed
-description: external_source lists Saleh Mohammadi among those killed in Qom.
+description: An external registry lists Saleh Mohammadi among those killed in Qom.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: executed
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - Hodafit-javidnaman-2026-final.xlsx

@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - a86cd531-14aa-4fe4-82ee-ee7b7efddcb5
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Vahid Naderi
@@ -21,11 +21,11 @@ cause_of_death: ""
 disappearance_circumstances: Reported detained
 suspected_actor: ""
 status: Killed
-description: external_source lists Vahid Naderi among those killed in Mashhad.
+description: An external registry lists Vahid Naderi among those killed in Mashhad.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: executed
 risk_of_execution: false
 notes: |-
@@ -36,5 +36,5 @@ notes: |-
   Outcome: تاریخ اعدام: شهریور ۱۴۰۵ · وضعیت: اعدام شده
 
   Detention or execution location: وکیل‌آباد
-external_source_source_references:
+source_registry_source_references:
   - Iran_Executions_DeathRow_Final_Comprehensive-2.xlsx

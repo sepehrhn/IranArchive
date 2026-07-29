@@ -19,15 +19,15 @@ disappearance_circumstances: "Place of arrest: Dehloran"
 suspected_actor: ""
 status: Missing
 detention_status: arrested
-description: external_source lists Aref Dorvishi as detained on 2025-12-31.
+description: An external registry lists Aref Dorvishi as detained on 2025-12-31.
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1446
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - e0cbcd27-0d2d-48eb-89b5-6479ffd22888
-external_source_categories:
+source_registry_categories:
   - detainees
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
+source_registry_source_references:
   - HRANA-CW-2026/detainees/identified/15

@@ -19,15 +19,15 @@ disappearance_circumstances: "Place of arrest: Gorgan"
 suspected_actor: ""
 status: Missing
 detention_status: arrested
-description: external_source lists Mahsima Askari Ziarat as detained on 2026-01-12.
+description: An external registry lists Mahsima Askari Ziarat as detained on 2026-01-12.
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-62
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 35af23fe-2ec8-4369-b7df-28eda4cf6030
-external_source_categories:
+source_registry_categories:
   - detainees
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
+source_registry_source_references:
   - HRANA-CW-2026/detainees/students/61

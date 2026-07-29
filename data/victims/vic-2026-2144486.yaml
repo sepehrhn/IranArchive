@@ -20,17 +20,17 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: external_source lists Javad Heydarnejad among those killed on 2026-01-08 in Mashhad, Razavi Khorasan.
+description: An external registry lists Javad Heydarnejad among those killed on 2026-01-08 in Mashhad, Razavi Khorasan.
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmP1HGa
   - https://t.me/RememberTheirNames/891
   - https://www.hra-news.org/
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 15f4e4cb-a642-4985-a006-3e41fe80ce3b
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - HRANA-CW-2026/protesters/729

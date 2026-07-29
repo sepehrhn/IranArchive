@@ -24,11 +24,11 @@ description: Victim listed in Iran International Memorial database
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaTEhu4B
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 5e842f21-5c28-4a67-9ad3-af5771891790
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - iranintl-memorial:91362d0682f2ce11

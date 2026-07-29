@@ -20,16 +20,16 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: external_source lists Amir Hossein Kaveh among those killed on 2026-01-08 in Mashhad.
+description: An external registry lists Amir Hossein Kaveh among those killed on 2026-01-08 in Mashhad.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1933
   - https://javidnaman.iranintl.com/memorial/z0JmINcmTJe7Ul3GOiWDoo
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 72bc5444-c295-4598-8873-f85ad5262527
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - iranintl-memorial:27d038f0bdde348f

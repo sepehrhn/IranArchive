@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 1f13cb49-9fd1-49c1-b964-ca8dd71fcc94
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Dr. Bahram Sajjadi
@@ -21,12 +21,12 @@ cause_of_death: ""
 disappearance_circumstances: "Place of arrest: Nain City"
 suspected_actor: ""
 status: Missing
-description: external_source lists Dr. Bahram Sajjadi as detained in Nain, Isfahan.
+description: An external registry lists Dr. Bahram Sajjadi as detained in Nain, Isfahan.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - Hodafit-javidnaman-2026-final.xlsx

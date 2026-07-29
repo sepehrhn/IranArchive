@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - b99e6819-ff7d-4bd4-ac0c-2175fc7ba176
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Reza (Gholamreza) Rasaei
@@ -21,11 +21,11 @@ cause_of_death: ""
 disappearance_circumstances: Reported detained
 suspected_actor: ""
 status: Killed
-description: external_source lists Reza (Gholamreza) Rasaei among those killed on 1046-08-07 in Sahneh (Kermanshah), Kermanshah.
+description: An external registry lists Reza (Gholamreza) Rasaei among those killed on 1046-08-07 in Sahneh (Kermanshah), Kermanshah.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: executed
 risk_of_execution: false
 notes: |-
@@ -36,5 +36,5 @@ notes: |-
   Outcome: تاریخ اعدام: ۱۶ مرداد ۱۴۰۳ · وضعیت: اعدام شده
 
   Detention or execution location: دیزل‌آباد کرمانشاه
-external_source_source_references:
+source_registry_source_references:
   - Iran_Executions_DeathRow_Final_Comprehensive-2.xlsx

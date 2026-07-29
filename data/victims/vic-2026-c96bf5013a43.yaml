@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 8662f233-aee7-4427-ac38-88e259138c9e
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Maryam Neghabi
@@ -21,12 +21,12 @@ cause_of_death: ""
 disappearance_circumstances: "Place of arrest: شهر نقاب از توابع سبزوار خراسان رضوی"
 suspected_actor: ""
 status: Missing
-description: external_source lists Maryam Neghabi as detained in Sabzevar, Razavi Khorasan.
+description: An external registry lists Maryam Neghabi as detained in Sabzevar, Razavi Khorasan.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - Hodafit-javidnaman-2026-final.xlsx

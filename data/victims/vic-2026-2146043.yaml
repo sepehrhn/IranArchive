@@ -20,15 +20,15 @@ disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
 detention_status: unknown
-description: external_source lists Ahmad Rafat among those killed on 2026-01-08 in Torbat-e Jam Central Square.
+description: An external registry lists Ahmad Rafat among those killed on 2026-01-08 in Torbat-e Jam Central Square.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3177
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 48b844ef-b220-4f2d-9ebd-2bb7115cba3d
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - iranintl-memorial:1a478c13850ac7c2

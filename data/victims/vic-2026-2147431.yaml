@@ -20,16 +20,16 @@ disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
 detention_status: unknown
-description: external_source lists Mehdi Abolhasan among those killed on 2026-01-08 in Tehran.
+description: An external registry lists Mehdi Abolhasan among those killed on 2026-01-08 in Tehran.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3088
   - https://www.instagram.com/p/DVGw2GEE4Ba/
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - a9bc74ae-cc1a-4c5e-b338-505346d0d1f4
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - iranintl-memorial:3bd8f9432dad11fd

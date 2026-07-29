@@ -30,7 +30,7 @@ const copy = computed(() => {
         recordTitle: 'Scale matters. So does every name behind it.',
         recordBody: 'These figures describe the current scope of this archive and the blackout documented below. They are not a substitute for the individual records, testimony, and evidence.',
         stats: [
-            { value: '13K+', label: 'victim registry records', note: '13,053 records synced with the current external_source registry' },
+            { value: '13K+', label: 'victim registry records', note: '13,053 records synced with the current source registry' },
             { value: '100', label: 'verified historical incidents', note: 'Bounded claims backed by rights investigations' },
             { value: '137d', label: 'public digital blackout', note: 'Plus 19 hours and 30 minutes in 2026' },
             { value: '47', label: 'years of state repression', note: 'From the establishment of the Islamic Republic to today' },

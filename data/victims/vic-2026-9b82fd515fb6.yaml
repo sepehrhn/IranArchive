@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 7668a75a-7b91-4a44-b30f-a4720f0fe42f
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Parviz Khosravi
@@ -21,12 +21,12 @@ cause_of_death: ""
 disappearance_circumstances: "Place of arrest: Mashhad"
 suspected_actor: ""
 status: Missing
-description: external_source lists Parviz Khosravi as detained on 2026-01-08.
+description: An external registry lists Parviz Khosravi as detained on 2026-01-08.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - HRANA-CW-2026/detainees/identified/770

@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 8d6882f5-e2c1-4d32-bd7c-a7377c9ff6bc
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Amirhossein Khan Mohammadi
@@ -21,12 +21,12 @@ cause_of_death: ""
 disappearance_circumstances: "Place of arrest: Abdanan"
 suspected_actor: ""
 status: Missing
-description: external_source lists Amirhossein Khan Mohammadi as detained.
+description: An external registry lists Amirhossein Khan Mohammadi as detained.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - HRANA-CW-2026/detainees/identified/464

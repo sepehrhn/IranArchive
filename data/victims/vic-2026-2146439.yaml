@@ -25,14 +25,14 @@ source_type: Social Media
 source:
   - https://x.com/azizamtara/status/2024665307567305064
   - https://t.me/akhbar_bazdashtiha/118
-  - https://external_source.org/fa/heroes
+  - https://iranarchive.net/sources/external-registry
   - https://www.instagram.com/p/DU7i8a5jeTX/
-external_source_ids:
+source_registry_ids:
   - 13849d19-a418-4b2e-aa05-56568bf76918
   - 9dc72e3e-0266-414f-aeec-0126b05d6acc
-external_source_categories:
+source_registry_categories:
   - detainees
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
+source_registry_source_references:
   - akhbar_bazdashtiha
-  - external_source.org
+  - source_registry.org

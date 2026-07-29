@@ -11,16 +11,16 @@ const provincesPath = path.join(rootDir, 'data', 'provinces.json');
 const faLocalePath = path.join(rootDir, 'i18n', 'locales', 'fa.json');
 
 const writeChanges = process.argv.includes('--write');
-const supabaseUrl = process.env.external_source_SUPABASE_URL;
-const supabaseAnonKey = process.env.external_source_SUPABASE_ANON_KEY;
-const external_sourceHeroesUrl = 'https://external_source.org/fa/heroes';
+const supabaseUrl = process.env.SOURCE_REGISTRY_SUPABASE_URL;
+const supabaseAnonKey = process.env.SOURCE_REGISTRY_SUPABASE_ANON_KEY;
+const sourceRegistryUrl = 'https://iranarchive.net/sources/external-registry';
 const pageSize = 1000;
 let uniqueRemoteSourceReferences = new Set();
 const invalidRemoteNameSamples = [];
 
 if (!supabaseUrl || !supabaseAnonKey) {
   console.error(
-    'Set external_source_SUPABASE_URL and external_source_SUPABASE_ANON_KEY before running this sync.'
+    'Set SOURCE_REGISTRY_SUPABASE_URL and SOURCE_REGISTRY_SUPABASE_ANON_KEY before running this sync.'
   );
   process.exit(1);
 }
@@ -387,7 +387,7 @@ function remoteSourceUrls(row) {
       if (source && isHttpUrl(source.url)) urls.push(source.url);
     }
   }
-  urls.push(external_sourceHeroesUrl);
+  urls.push(sourceRegistryUrl);
   return uniqueStrings(urls);
 }
 
@@ -401,7 +401,7 @@ function buildDescription(remote) {
       remote.date ? `on ${remote.date}` : '',
       location ? `in ${location}` : ''
     ].filter(Boolean);
-    return `external_source lists ${remote.name} among those killed${details.length ? ` ${details.join(' ')}` : ''}.`;
+    return `An external registry lists ${remote.name} among those killed${details.length ? ` ${details.join(' ')}` : ''}.`;
   }
 
   const qualifier = remote.riskOfExecution ? ' and at risk of execution' : '';
@@ -409,7 +409,7 @@ function buildDescription(remote) {
     remote.date ? `on ${remote.date}` : '',
     location ? `in ${location}` : ''
   ].filter(Boolean);
-  return `external_source lists ${remote.name} as detained${qualifier}${details.length ? ` ${details.join(' ')}` : ''}.`;
+  return `An external registry lists ${remote.name} as detained${qualifier}${details.length ? ` ${details.join(' ')}` : ''}.`;
 }
 
 function buildRemoteRecord(row, table) {
@@ -499,8 +499,8 @@ function toVictimYaml(remote) {
   ].filter(Boolean);
 
   const record = {
-    external_source_ids: [remote.id],
-    external_source_categories: [remote.category],
+    source_registry_ids: [remote.id],
+    source_registry_categories: [remote.category],
     photo: [],
     name: remote.name,
     persian_name: remote.persianName,
@@ -529,7 +529,7 @@ function toVictimYaml(remote) {
     description: remote.description,
     source_type: 'Human Rights Archive',
     source: remote.sourceUrls,
-    external_source_updated_at: remote.updatedAt
+    source_registry_updated_at: remote.updatedAt
   };
 
   if (remote.table === 'detainees') {
@@ -574,8 +574,8 @@ function loadLocalRecords() {
 }
 
 function indexRecord(indexes, wrapper) {
-  for (const id of arrayValue(wrapper.data.external_source_ids).map(asString).filter(Boolean)) {
-    indexes.byexternal_sourceId.set(id, wrapper);
+  for (const id of arrayValue(wrapper.data.source_registry_ids).map(asString).filter(Boolean)) {
+    indexes.bySourceRegistryId.set(id, wrapper);
   }
   for (const key of localNameKeys(wrapper.data)) {
     if (!indexes.byName.has(key)) indexes.byName.set(key, new Set());
@@ -586,10 +586,10 @@ function indexRecord(indexes, wrapper) {
     if (!indexes.byDate.has(date)) indexes.byDate.set(date, new Set());
     indexes.byDate.get(date).add(wrapper);
   }
-  const references = Array.isArray(wrapper.data.external_source_source_references)
-    ? wrapper.data.external_source_source_references
-    : wrapper.data.external_source_source_reference
-      ? [wrapper.data.external_source_source_reference]
+  const references = Array.isArray(wrapper.data.source_registry_source_references)
+    ? wrapper.data.source_registry_source_references
+    : wrapper.data.source_registry_source_reference
+      ? [wrapper.data.source_registry_source_reference]
       : [];
   for (const reference of references.map(asString).filter(Boolean)) {
     if (uniqueRemoteSourceReferences.has(reference)) {
@@ -600,7 +600,7 @@ function indexRecord(indexes, wrapper) {
 
 function buildIndexes(records) {
   const indexes = {
-    byexternal_sourceId: new Map(),
+    bySourceRegistryId: new Map(),
     byName: new Map(),
     byDate: new Map(),
     bySourceReference: new Map()
@@ -640,7 +640,7 @@ function exactSignals(remote, wrapper) {
   const a = remoteIdentity(remote);
   const b = recordIdentity(wrapper);
   const sourceOverlap = [...a.sourceUrls].some(
-    (url) => url !== external_sourceHeroesUrl && b.sourceUrls.has(url)
+    (url) => url !== sourceRegistryUrl && b.sourceUrls.has(url)
   );
   return {
     date: Boolean(a.date && b.date && a.date === b.date),
@@ -740,10 +740,10 @@ function nameSimilarity(remote, wrapper) {
 }
 
 function chooseMatch(remote, indexes) {
-  if (indexes.byexternal_sourceId.has(remote.id)) {
+  if (indexes.bySourceRegistryId.has(remote.id)) {
     return {
-      wrapper: indexes.byexternal_sourceId.get(remote.id),
-      method: 'external_source_id'
+      wrapper: indexes.bySourceRegistryId.get(remote.id),
+      method: 'source_registry_id'
     };
   }
   if (
@@ -849,37 +849,37 @@ function setIfMissing(target, key, value) {
   return true;
 }
 
-function isexternal_sourceManagedRecord(wrapper) {
+function isSourceRegistryManagedRecord(wrapper) {
   return (
     /^vic-2026-[0-9a-f]{12}\.ya?ml$/u.test(wrapper.file) &&
-    arrayValue(wrapper.data.external_source_ids).length > 0
+    arrayValue(wrapper.data.source_registry_ids).length > 0
   );
 }
 
 function mergeRemote(wrapper, remote) {
   const data = wrapper.data;
   let changed = false;
-  const managedRecord = isexternal_sourceManagedRecord(wrapper);
+  const managedRecord = isSourceRegistryManagedRecord(wrapper);
   const previousName = asString(data.name);
 
-  const existingIds = Array.isArray(data.external_source_ids)
-    ? data.external_source_ids
-    : data.external_source_id
-      ? [data.external_source_id]
+  const existingIds = Array.isArray(data.source_registry_ids)
+    ? data.source_registry_ids
+    : data.source_registry_id
+      ? [data.source_registry_id]
       : [];
   const ids = uniqueStrings([...existingIds, remote.id]);
   if (JSON.stringify(ids) !== JSON.stringify(existingIds)) {
-    data.external_source_ids = ids;
-    delete data.external_source_id;
+    data.source_registry_ids = ids;
+    delete data.source_registry_id;
     changed = true;
   }
 
-  const existingCategories = Array.isArray(data.external_source_categories)
-    ? data.external_source_categories
+  const existingCategories = Array.isArray(data.source_registry_categories)
+    ? data.source_registry_categories
     : [];
   const categories = uniqueStrings([...existingCategories, remote.category]);
   if (JSON.stringify(categories) !== JSON.stringify(existingCategories)) {
-    data.external_source_categories = categories;
+    data.source_registry_categories = categories;
     changed = true;
   }
 
@@ -926,7 +926,7 @@ function mergeRemote(wrapper, remote) {
   changed = setIfMissing(data, 'cause_of_death', remote.cause) || changed;
   if (
     managedRecord &&
-    asString(data.description).startsWith(`external_source lists ${previousName}`) &&
+    asString(data.description).startsWith(`An external registry lists ${previousName}`) &&
     data.description !== remote.description
   ) {
     data.description = remote.description;
@@ -966,28 +966,28 @@ function mergeRemote(wrapper, remote) {
     }
   }
 
-  const currentexternal_sourceUpdatedAt = asString(data.external_source_updated_at);
+  const currentSourceRegistryUpdatedAt = asString(data.source_registry_updated_at);
   if (
     remote.updatedAt &&
-    (!currentexternal_sourceUpdatedAt ||
-      Date.parse(remote.updatedAt) > Date.parse(currentexternal_sourceUpdatedAt))
+    (!currentSourceRegistryUpdatedAt ||
+      Date.parse(remote.updatedAt) > Date.parse(currentSourceRegistryUpdatedAt))
   ) {
-    data.external_source_updated_at = remote.updatedAt;
+    data.source_registry_updated_at = remote.updatedAt;
     changed = true;
   }
   if (remote.sourceReference) {
-    const existingReferences = Array.isArray(data.external_source_source_references)
-      ? data.external_source_source_references
-      : data.external_source_source_reference
-        ? [data.external_source_source_reference]
+    const existingReferences = Array.isArray(data.source_registry_source_references)
+      ? data.source_registry_source_references
+      : data.source_registry_source_reference
+        ? [data.source_registry_source_reference]
         : [];
     const references = uniqueStrings([
       ...existingReferences,
       remote.sourceReference
     ]);
     if (JSON.stringify(references) !== JSON.stringify(existingReferences)) {
-      data.external_source_source_references = references;
-      delete data.external_source_source_reference;
+      data.source_registry_source_references = references;
+      delete data.source_registry_source_reference;
       changed = true;
     }
   }
@@ -1000,13 +1000,13 @@ function mergeRemote(wrapper, remote) {
 function newVictimId(remote, usedFiles) {
   const digest = crypto
     .createHash('sha256')
-    .update(`external_source:${remote.table}:${remote.id}`)
+    .update(`source_registry:${remote.table}:${remote.id}`)
     .digest('hex');
   for (let length = 12; length <= digest.length; length += 2) {
     const file = `vic-2026-${digest.slice(0, length)}.yaml`;
     if (!usedFiles.has(file)) return file;
   }
-  throw new Error(`Unable to allocate a unique victim ID for external_source ${remote.id}`);
+  throw new Error(`Unable to allocate a unique victim ID for source_registry ${remote.id}`);
 }
 
 function likelyDuplicateKey(record) {
@@ -1063,9 +1063,9 @@ function mergeDuplicateData(primary, duplicate) {
     'photo',
     'source',
     'incident_ids',
-    'external_source_ids',
-    'external_source_categories',
-    'external_source_source_references'
+    'source_registry_ids',
+    'source_registry_categories',
+    'source_registry_source_references'
   ]) {
     const before = arrayValue(target[key]);
     const merged = uniqueStrings([...before, ...arrayValue(source[key])]);
@@ -1092,9 +1092,9 @@ function mergeDuplicateData(primary, duplicate) {
         'photo',
         'source',
         'incident_ids',
-        'external_source_ids',
-        'external_source_categories',
-        'external_source_source_references',
+        'source_registry_ids',
+        'source_registry_categories',
+        'source_registry_source_references',
         'external_card_id',
         'external_card_ids',
         'description',
@@ -1228,7 +1228,7 @@ const indexes = buildIndexes(
   localRecords.filter((record) => !record.deleted)
 );
 const usedFiles = new Set(localRecords.map((record) => record.file));
-console.log('Fetching verified external_source fallen and detainee records...');
+console.log('Fetching verified source_registry fallen and detainee records...');
 const [javidRows, detaineeRows] = await Promise.all([
   fetchTable('javidnaman'),
   fetchTable('detainees')
@@ -1266,7 +1266,7 @@ remotes.sort((a, b) => {
       record.province,
       record.city,
       record.sourceReference,
-      ...record.sourceUrls.filter((url) => url !== external_sourceHeroesUrl)
+      ...record.sourceUrls.filter((url) => url !== sourceRegistryUrl)
     ].filter(Boolean).length;
   return completeness(b) - completeness(a) || a.id.localeCompare(b.id);
 });
@@ -1277,7 +1277,7 @@ const updatedFiles = new Set();
 const matchMethods = {};
 const matchSamples = {};
 const matchedExistingFiles = new Set();
-const matchedexternal_sourceFiles = new Set();
+const matchedSourceRegistryFiles = new Set();
 
 for (const remote of remotes) {
   const match = chooseMatch(remote, indexes);
@@ -1311,7 +1311,7 @@ for (const remote of remotes) {
       }
     }
     if (wrapper.origin === 'existing') matchedExistingFiles.add(wrapper.file);
-    else matchedexternal_sourceFiles.add(wrapper.file);
+    else matchedSourceRegistryFiles.add(wrapper.file);
     if (mergeRemote(wrapper, remote)) updatedFiles.add(wrapper.file);
     continue;
   }
@@ -1322,12 +1322,12 @@ for (const remote of remotes) {
     file,
     filePath: path.join(victimsDir, file),
     data,
-    origin: 'external_source',
+    origin: 'source_registry',
     matchedRemoteIds: new Set([remote.id]),
     changed: true
   };
   if (remote.sourceReference) {
-    data.external_source_source_references = [remote.sourceReference];
+    data.source_registry_source_references = [remote.sourceReference];
   }
   localRecords.push(wrapper);
   usedFiles.add(file);
@@ -1337,12 +1337,12 @@ for (const remote of remotes) {
 
 let invalidManagedRecordsRemoved = 0;
 for (const wrapper of localRecords) {
-  if (wrapper.deleted || !isexternal_sourceManagedRecord(wrapper)) continue;
-  const ids = arrayValue(wrapper.data.external_source_ids).map(asString).filter(Boolean);
+  if (wrapper.deleted || !isSourceRegistryManagedRecord(wrapper)) continue;
+  const ids = arrayValue(wrapper.data.source_registry_ids).map(asString).filter(Boolean);
   if (ids.some((id) => validRemoteIds.has(id))) continue;
   if (isPlausibleIndividualName(wrapper.data.name)) continue;
   wrapper.deleted = true;
-  wrapper.deleteReason = 'external_source source row has no usable individual name';
+  wrapper.deleteReason = 'source_registry source row has no usable individual name';
   invalidManagedRecordsRemoved += 1;
 }
 
@@ -1357,23 +1357,23 @@ const activeRecords = localRecords.filter((record) => !record.deleted);
 const incidentChanges = rewriteIncidentVictimIds(duplicateMerges);
 
 const idOwners = new Map();
-const duplicateexternal_sourceIds = [];
+const duplicateSourceRegistryIds = [];
 for (const wrapper of activeRecords) {
-  const ids = Array.isArray(wrapper.data.external_source_ids)
-    ? wrapper.data.external_source_ids
+  const ids = Array.isArray(wrapper.data.source_registry_ids)
+    ? wrapper.data.source_registry_ids
     : [];
   for (const id of ids) {
     if (idOwners.has(id) && idOwners.get(id) !== wrapper.file) {
-      duplicateexternal_sourceIds.push([id, idOwners.get(id), wrapper.file]);
+      duplicateSourceRegistryIds.push([id, idOwners.get(id), wrapper.file]);
     } else {
       idOwners.set(id, wrapper.file);
     }
   }
 }
 
-if (duplicateexternal_sourceIds.length > 0) {
-  console.error('external_source IDs assigned to more than one victim record:');
-  console.error(duplicateexternal_sourceIds.slice(0, 20));
+if (duplicateSourceRegistryIds.length > 0) {
+  console.error('source_registry IDs assigned to more than one victim record:');
+  console.error(duplicateSourceRegistryIds.slice(0, 20));
   process.exit(1);
 }
 
@@ -1396,7 +1396,7 @@ if (remainingLikelyDuplicates.length > 0) {
 
 const changedRecords = activeRecords.filter(
   (record) =>
-    record.origin === 'external_source' ||
+    record.origin === 'source_registry' ||
     JSON.stringify(record.data) !== record.originalDataJson
 );
 if (writeChanges) {
@@ -1414,7 +1414,7 @@ if (writeChanges) {
 const summary = {
   mode: writeChanges ? 'write' : 'dry-run',
   local_before: initialCount,
-  external_source: {
+  source_registry: {
     javidnaman: javidRows.length,
     detainees: detaineeRows.length,
     at_risk: detaineeRows.filter(
@@ -1434,11 +1434,11 @@ const summary = {
   match_methods: matchMethods,
   match_samples: matchSamples,
   matched_existing_files: matchedExistingFiles.size,
-  matched_new_external_source_files: matchedexternal_sourceFiles.size,
+  matched_new_source_registry_files: matchedSourceRegistryFiles.size,
   updated_matched_files: updatedFiles.size,
   created_records_before_deduplication: created,
   retained_created_records: activeRecords.filter(
-    (record) => record.origin === 'external_source'
+    (record) => record.origin === 'source_registry'
   ).length,
   duplicate_records_consolidated: duplicateMerges.length,
   invalid_managed_records_removed: invalidManagedRecordsRemoved,
@@ -1448,32 +1448,32 @@ const summary = {
   changed_file_samples: changedRecords.slice(0, 30).map((record) => record.file),
   deleted_duplicate_files: localRecords.filter((record) => record.deleted).length,
   local_after: activeRecords.length,
-  unique_external_source_ids: idOwners.size,
-  duplicate_external_source_ids: duplicateexternal_sourceIds.length,
+  unique_source_registry_ids: idOwners.size,
+  duplicate_source_registry_ids: duplicateSourceRegistryIds.length,
   remaining_likely_duplicate_fingerprints: remainingLikelyDuplicates.length,
-  records_with_multiple_external_source_ids: activeRecords.filter(
+  records_with_multiple_source_registry_ids: activeRecords.filter(
     (record) =>
-      Array.isArray(record.data.external_source_ids) && record.data.external_source_ids.length > 1
+      Array.isArray(record.data.source_registry_ids) && record.data.source_registry_ids.length > 1
   ).length,
-  maximum_external_source_ids_on_one_record: Math.max(
+  maximum_source_registry_ids_on_one_record: Math.max(
     0,
     ...activeRecords.map((record) =>
-      Array.isArray(record.data.external_source_ids) ? record.data.external_source_ids.length : 0
+      Array.isArray(record.data.source_registry_ids) ? record.data.source_registry_ids.length : 0
     )
   ),
-  largest_external_source_id_groups: activeRecords
+  largest_source_registry_id_groups: activeRecords
     .filter(
       (record) =>
-        Array.isArray(record.data.external_source_ids) &&
-        record.data.external_source_ids.length > 1
+        Array.isArray(record.data.source_registry_ids) &&
+        record.data.source_registry_ids.length > 1
     )
-    .sort((a, b) => b.data.external_source_ids.length - a.data.external_source_ids.length)
+    .sort((a, b) => b.data.source_registry_ids.length - a.data.source_registry_ids.length)
     .slice(0, 10)
     .map((record) => ({
       file: record.file,
       name: record.data.name,
       persian_name: record.data.persian_name,
-      count: record.data.external_source_ids.length
+      count: record.data.source_registry_ids.length
     }))
 };
 

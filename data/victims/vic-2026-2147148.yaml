@@ -26,12 +26,12 @@ source:
   - https://x.com/i/status/2026264738640924684
   - https://x.com/realneo101/status/2026718843532407230
   - https://t.me/akhbar_bazdashtiha/196
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - ffb4a8c7-3c38-4e04-b123-38c2adefc7ac
-external_source_categories:
+source_registry_categories:
   - at-risk
 risk_of_execution: true
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
+source_registry_source_references:
   - akhbar_bazdashtiha

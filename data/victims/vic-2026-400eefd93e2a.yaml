@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - db2c3f46-e7a4-4932-beb3-a704db0c90a5
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Erfan Shakourzadeh
@@ -21,11 +21,11 @@ cause_of_death: ""
 disappearance_circumstances: "Place of arrest: Ghezel Hesar Prison, Karaj. Arresting authority: IRGC Intelligence Organization"
 suspected_actor: ""
 status: Killed
-description: external_source lists Erfan Shakourzadeh among those killed on 2026-05-11 in Karaj, Alborz.
+description: An external registry lists Erfan Shakourzadeh among those killed on 2026-05-11 in Karaj, Alborz.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: executed
 risk_of_execution: false
 notes: "Outcome: اعدام در ۲۱ اردیبهشت ۱۴۰۵ در زندان قزل‌حصار کرج به اتهام جاسوسی برای موساد و سیا · Executed 11 May 2026 at Ghezel Hesar Prison, Karaj on espionage charges"

@@ -25,11 +25,11 @@ source_type: Social Media
 source:
   - https://x.com/negxi3/status/2020967687284007140
   - https://t.me/akhbar_bazdashtiha/316
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 8cb8def4-5b54-4d41-aa61-77e251efb04a
-external_source_categories:
+source_registry_categories:
   - detainees
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
+source_registry_source_references:
   - akhbar_bazdashtiha

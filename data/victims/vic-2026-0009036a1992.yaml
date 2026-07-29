@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 67e51e8b-1b95-4d39-b159-4c141639d720
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Amirhossein Varmaqani
@@ -21,12 +21,12 @@ cause_of_death: ""
 disappearance_circumstances: "Place of arrest: Dehgolan"
 suspected_actor: ""
 status: Missing
-description: external_source lists Amirhossein Varmaqani as detained.
+description: An external registry lists Amirhossein Varmaqani as detained.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - HRANA-CW-2026/detainees/identified/2398

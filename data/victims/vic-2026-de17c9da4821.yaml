@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - d1d5aae2-70db-4089-976b-0a4b65e8c167
-external_source_categories:
+source_registry_categories:
   - at-risk
 photo: []
 name: Kambiz Kharoot
@@ -21,11 +21,11 @@ cause_of_death: ""
 disappearance_circumstances: Reported detained
 suspected_actor: ""
 status: Missing
-description: external_source lists Kambiz Kharoot as detained and at risk of execution in Zahedan.
+description: An external registry lists Kambiz Kharoot as detained and at risk of execution in Zahedan.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: true
 notes: |-
@@ -36,5 +36,5 @@ notes: |-
   Outcome: وضعیت: حکم اعدام (در خطر)
 
   Detention or execution location: مرکزی زاهدان
-external_source_source_references:
+source_registry_source_references:
   - Iran_Executions_DeathRow_Final_Comprehensive-2.xlsx

@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - ed531766-0591-4520-be98-6ccb92a9bb56
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Rouhollah Khaledi
@@ -21,12 +21,12 @@ cause_of_death: ""
 disappearance_circumstances: "Place of arrest: Lordegan"
 suspected_actor: ""
 status: Missing
-description: external_source lists Rouhollah Khaledi as detained on 2026-01-03.
+description: An external registry lists Rouhollah Khaledi as detained on 2026-01-03.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - HRANA-CW-2026/detainees/identified/366

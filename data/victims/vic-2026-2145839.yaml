@@ -19,16 +19,16 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: external_source lists Vahid Khosravi among those killed on 2026-01-08 in Kerman, Kerman.
+description: An external registry lists Vahid Khosravi among those killed on 2026-01-08 in Kerman, Kerman.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1329
   - https://witness.report/people.php?peopleId=f374768d-10c3-11f1-97e4-560003f1f421
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 40261d85-02de-4284-a2aa-031f2653d873
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - HRANA-CW-2026/protesters/3428

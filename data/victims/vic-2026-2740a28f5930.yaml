@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 596b596c-86b5-48f4-a93b-b80332114ec3
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Farshad Khosravi Pour
@@ -21,12 +21,12 @@ cause_of_death: ""
 disappearance_circumstances: Reported detained
 suspected_actor: ""
 status: Missing
-description: external_source lists Farshad Khosravi Pour as detained on 2026-01-14.
+description: An external registry lists Farshad Khosravi Pour as detained on 2026-01-14.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - HRANA-CW-2026/detainees/identified/2637

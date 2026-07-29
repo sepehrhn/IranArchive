@@ -25,12 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/dadban4/status/2021592110726574256
   - https://t.me/akhbar_bazdashtiha/550
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - e6cb61de-29e9-457c-b875-a4ae380bb696
-external_source_categories:
+source_registry_categories:
   - at-risk
 risk_of_execution: true
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
+source_registry_source_references:
   - akhbar_bazdashtiha

@@ -25,11 +25,11 @@ source_type: Social Media
 source:
   - https://x.com/hyrcanihrm/status/2026697698468876608
   - https://www.instagram.com/p/DVL_wO7jLES/
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - a5ff35d9-39b8-457c-8054-9fb7b1f8c627
-external_source_categories:
+source_registry_categories:
   - detainees
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
-external_source_source_references:
-  - external_source.org
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
+source_registry_source_references:
+  - source_registry.org

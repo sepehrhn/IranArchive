@@ -19,16 +19,16 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: external_source lists Zahra Fouladi among those killed on 2026-01-08 in Zanjan, Zanjan.
+description: An external registry lists Zahra Fouladi among those killed on 2026-01-08 in Zanjan, Zanjan.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2327
   - https://www.hra-news.org/
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 132c7154-d03c-4ad9-b288-ac01dc5de79f
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - HRANA-CW-2026/protesters/2524

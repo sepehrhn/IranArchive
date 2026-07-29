@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 32fef4e9-d5c6-4e95-a859-060af9cc0931
-external_source_categories:
+source_registry_categories:
   - detainees
 photo: []
 name: Ali Gilani
@@ -21,12 +21,12 @@ cause_of_death: ""
 disappearance_circumstances: "Place of arrest: Kerman"
 suspected_actor: ""
 status: Missing
-description: external_source lists Ali Gilani as detained.
+description: An external registry lists Ali Gilani as detained.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: false
-external_source_source_references:
+source_registry_source_references:
   - HRANA-CW-2026/detainees/identified/929

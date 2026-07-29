@@ -20,16 +20,16 @@ disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
 detention_status: unknown
-description: external_source lists Aidin Samaei among those killed on 2026-01-09 in Isfahan.
+description: An external registry lists Aidin Samaei among those killed on 2026-01-09 in Isfahan.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3198
   - https://javidarchive.org/en/memorial/jn-0e892d22-0581-458e-8782-86c6f1b2d1ae
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 25ea49a7-9635-49d4-8ffc-43293ef78aee
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - iranintl-memorial:cc49e563ef45bd5d

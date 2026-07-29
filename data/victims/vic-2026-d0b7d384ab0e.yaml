@@ -1,6 +1,6 @@
-external_source_ids:
+source_registry_ids:
   - 1edaaf13-8066-4f5e-86fd-b5697ea279fc
-external_source_categories:
+source_registry_categories:
   - at-risk
 photo: []
 name: Amirhossein Rostami
@@ -21,11 +21,11 @@ cause_of_death: ""
 disappearance_circumstances: Reported detained
 suspected_actor: ""
 status: Missing
-description: external_source lists Amirhossein Rostami as detained and at risk of execution in Rasht, Gilan.
+description: An external registry lists Amirhossein Rostami as detained and at risk of execution in Rasht, Gilan.
 source_type: Human Rights Archive
 source:
-  - https://external_source.org/fa/heroes
-external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+  - https://iranarchive.net/sources/external-registry
+source_registry_updated_at: "2026-06-21T00:33:18.783165+00:00"
 detention_status: detained
 risk_of_execution: true
 notes: |-
@@ -36,5 +36,5 @@ notes: |-
   Outcome: وضعیت: در خطر صدور اعدام
 
   Detention or execution location: لاکان رشت
-external_source_source_references:
+source_registry_source_references:
   - Iran_Executions_DeathRow_Final_Comprehensive-2.xlsx

@@ -19,16 +19,16 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: external_source lists Amir Gholami among those killed on 2026-01-08 in Qasemabad, Mashhad.
+description: An external registry lists Amir Gholami among those killed on 2026-01-08 in Qasemabad, Mashhad.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2232
   - https://www.hra-news.org/
-  - https://external_source.org/fa/heroes
-external_source_ids:
+  - https://iranarchive.net/sources/external-registry
+source_registry_ids:
   - 88b37ab3-8267-4c01-9bbc-1c8e216f0efe
-external_source_categories:
+source_registry_categories:
   - javidnaman
-external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
-external_source_source_references:
+source_registry_updated_at: "2026-06-21T00:35:10.530458+00:00"
+source_registry_source_references:
   - iranintl-memorial:a1eeb40f7d137cce
