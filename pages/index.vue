@@ -509,24 +509,16 @@ useHead(() => ({
 
 <style scoped>
 .landing-page {
-    --landing-paper: #f1eee7;
-    --landing-paper-deep: #e7e1d6;
-    --landing-ink: #11100f;
-    --landing-muted: #6e6961;
-    --landing-line: rgba(17, 16, 15, 0.18);
-    --landing-red: #d63a2f;
-    --landing-signal: #ef574b;
-    background: var(--landing-paper);
-    color: var(--landing-ink);
-    overflow: clip;
-}
-
-:global(.dark .landing-page) {
     --landing-paper: #11100f;
     --landing-paper-deep: #191714;
     --landing-ink: #f1eee7;
     --landing-muted: #aaa39a;
     --landing-line: rgba(241, 238, 231, 0.18);
+    --landing-red: #d63a2f;
+    --landing-signal: #ef574b;
+    background: var(--landing-paper);
+    color: var(--landing-ink);
+    overflow: clip;
 }
 
 .landing-shell {
