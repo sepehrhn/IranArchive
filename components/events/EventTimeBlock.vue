@@ -21,15 +21,14 @@ const formattedDate = computed(() => {
     const hasEndTime = d.end_time && d.end_time !== d.start_time;
     const isMultiDay = d.end && d.end !== d.start;
 
-    // Base: "Jan 28 — 11:00"
-    let result = `${startStr} — ${d.start_time}`;
+    // Keep source uncertainty visible: do not invent or print a missing time.
+    let result = d.start_time ? `${startStr} — ${d.start_time}` : startStr;
 
     if (isMultiDay) {
-        // "Jan 28 — 11:00 to Jan 30 — 14:00"
-        result += ` to ${formatDate(d.end!)} — ${d.end_time || d.start_time}`;
+        const endTime = d.end_time || d.start_time;
+        result += ` to ${formatDate(d.end!)}${endTime ? ` — ${endTime}` : ''}`;
     } else if (hasEndTime) {
-        // "Jan 28 — 11:00 - 14:00"
-        result += ` - ${d.end_time}`;
+        result += d.start_time ? ` - ${d.end_time}` : ` — ${d.end_time}`;
     }
 
     return result;
