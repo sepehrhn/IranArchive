@@ -55,7 +55,7 @@ const totalBlackoutDuration = toDurationParts(
 const copy = computed(() => {
     const english = {
         title: 'Digital Blackout in Iran',
-        phase: 'Continuous public digital blackout since January 8, 2026',
+        phase: 'January 8 → May 26, 2026',
         summary: 'Total time unrestricted global internet was not generally available to the Iranian public',
         days: 'Days',
         hours: 'Hours',
@@ -78,6 +78,11 @@ const copy = computed(() => {
         currentStatusTitle: 'Current status',
         currentStatusText: 'Global connectivity began returning on May 26 and rose afterward, but access remained uneven, slow, and heavily filtered.',
         sourcesTitle: 'Measurement and access sources',
+        reportLabel: 'Dossier 2026.01 · Digital repression',
+        precedentTitle: 'A documented precedent: Bloody November 2019',
+        precedentText: 'NetBlocks measured national connectivity collapsing to roughly 5% as authorities suppressed the November 2019 protests. The tactic returned at greater duration in 2026.',
+        precedentAlt: 'NetBlocks graph showing Iran network connectivity collapsing during the November 2019 internet shutdown',
+        precedentCredit: 'Graphic: NetBlocks · unaltered, used with source attribution',
         cloudflareTimelineSource: 'Cloudflare Radar: shutdown and restoration timeline',
         cloudflareWhitelistSource: 'Cloudflare: whitelists and white SIM cards restricted access to selected users',
         wiredSource: 'WIRED: access returned for state-approved users, not the general public',
@@ -113,7 +118,7 @@ const copy = computed(() => {
 
     const persian = {
         title: 'خاموشی دیجیتال ایران',
-        phase: 'خاموشی دیجیتال پیوسته عمومی از ۸ ژانویه ۲۰۲۶',
+        phase: '۸ ژانویه تا ۲۶ مه ۲۰۲۶',
         summary: 'کل مدتی که اینترنت جهانی آزاد و بدون محدودیت به‌طور عمومی در دسترس مردم ایران نبود',
         days: 'روز',
         hours: 'ساعت',
@@ -136,6 +141,11 @@ const copy = computed(() => {
         currentStatusTitle: 'وضعیت کنونی',
         currentStatusText: 'اتصال به اینترنت جهانی از ۲۶ مه به‌تدریج بازگشت، اما دسترسی همچنان نابرابر، کند و به‌شدت فیلترشده باقی ماند.',
         sourcesTitle: 'منابع اندازه‌گیری و دسترسی',
+        reportLabel: 'پرونده ۲۰۲۶.۰۱ · سرکوب دیجیتال',
+        precedentTitle: 'سابقه مستند: آبان خونین ۱۳۹۸',
+        precedentText: 'نت‌بلاکس در جریان سرکوب اعتراضات آبان ۱۳۹۸ سقوط اتصال ملی به حدود ۵ درصد را اندازه‌گیری کرد. همین روش در سال ۲۰۲۶ برای مدتی بسیار طولانی‌تر تکرار شد.',
+        precedentAlt: 'نمودار نت‌بلاکس از سقوط اتصال اینترنت ایران در خاموشی آبان ۱۳۹۸',
+        precedentCredit: 'نمودار: نت‌بلاکس · بدون تغییر و با ذکر منبع',
         cloudflareTimelineSource: 'کلادفلر رادار: خط زمانی قطعی و بازگشت اتصال',
         cloudflareWhitelistSource: 'کلادفلر: محدود شدن دسترسی به کاربران منتخب از طریق فهرست سفید و سیم‌کارت سفید',
         wiredSource: 'وایرد: بازگشت اینترنت برای کاربران مورد تأیید حکومت، نه عموم مردم',
@@ -176,149 +186,587 @@ const formatTwoDigits = (value: number) => pn(String(value).padStart(2, '0'))
 </script>
 
 <template>
-    <section class="flex flex-col items-center justify-center p-6 md:p-8 bg-surface-0 dark:bg-surface-900 text-surface-900 dark:text-surface-0 rounded-xl shadow-lg border border-surface-200 dark:border-surface-800 space-y-6 max-w-3xl mx-auto">
-        <header class="flex flex-col items-center space-y-2 text-center">
-            <h2 class="text-2xl md:text-3xl font-bold text-red-600 dark:text-red-500 uppercase tracking-widest">
-                {{ copy.title }}
-            </h2>
-            <div class="px-3 py-1 bg-red-500/10 rounded-full border border-red-500/20">
-                <span class="text-[10px] md:text-xs font-bold text-red-700 dark:text-red-400 uppercase tracking-wide">
-                    {{ copy.phase }}
-                </span>
+    <section class="blackout-report" aria-labelledby="blackout-report-title">
+        <header class="blackout-report__header">
+            <div>
+                <p class="blackout-report__label">{{ copy.reportLabel }}</p>
+                <h3 id="blackout-report-title">{{ copy.title }}</h3>
+                <p class="blackout-report__phase">{{ copy.phase }}</p>
+                <p class="blackout-report__summary">{{ copy.summary }}</p>
             </div>
-            <p class="text-surface-600 dark:text-surface-400 text-sm font-medium">
-                {{ copy.summary }}
-            </p>
+
+            <div class="blackout-report__total">
+                <span>{{ copy.totalDuration }}</span>
+                <strong dir="ltr">
+                    {{ pn(totalBlackoutDuration.days) }}
+                    <small>{{ copy.dayShort }}</small>
+                </strong>
+            </div>
         </header>
 
-        <ClientOnly>
-            <div class="grid grid-cols-4 gap-3 md:gap-8 w-full">
-                <div class="flex flex-col items-center">
-                    <span class="text-4xl md:text-6xl font-bold">{{ pn(totalBlackoutDuration.days) }}</span>
-                    <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold">{{ copy.days }}</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <span class="text-4xl md:text-6xl font-bold">{{ formatTwoDigits(totalBlackoutDuration.hours) }}</span>
-                    <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold">{{ copy.hours }}</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <span class="text-4xl md:text-6xl font-bold">{{ formatTwoDigits(totalBlackoutDuration.minutes) }}</span>
-                    <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold">{{ copy.minutes }}</span>
-                </div>
-                <div class="flex flex-col items-center">
-                    <span class="text-4xl md:text-6xl font-bold text-red-600 dark:text-red-500">{{ formatTwoDigits(totalBlackoutDuration.seconds) }}</span>
-                    <span class="text-xs md:text-sm uppercase text-surface-500 dark:text-surface-400 mt-2 font-semibold">{{ copy.seconds }}</span>
-                </div>
+        <div class="blackout-report__clock" dir="ltr">
+            <div>
+                <strong>{{ pn(totalBlackoutDuration.days) }}</strong>
+                <span>{{ copy.days }}</span>
             </div>
-            <template #fallback>
-                <div class="grid grid-cols-4 gap-3 md:gap-8 w-full animate-pulse">
-                    <div v-for="i in 4" :key="i" class="flex flex-col items-center">
-                        <div class="h-12 w-16 bg-surface-200 dark:bg-surface-700 rounded mb-2"></div>
-                        <div class="h-4 w-12 bg-surface-200 dark:bg-surface-700 rounded"></div>
-                    </div>
-                </div>
-            </template>
-        </ClientOnly>
-
-        <div class="w-full py-3 px-4 bg-surface-50 dark:bg-surface-800/50 rounded-xl border border-surface-200 dark:border-surface-700 flex flex-col md:flex-row items-center justify-between gap-2">
-            <div class="flex items-center gap-2 text-surface-600 dark:text-surface-400">
-                <i class="pi pi-calculator text-xs"></i>
-                <span class="text-xs font-bold uppercase tracking-tight">{{ copy.totalDuration }}</span>
+            <div>
+                <strong>{{ formatTwoDigits(totalBlackoutDuration.hours) }}</strong>
+                <span>{{ copy.hours }}</span>
             </div>
-            <div class="flex items-center gap-1.5 text-sm" dir="ltr">
-                <span class="font-bold">{{ pn(totalBlackoutDuration.days) }}{{ copy.dayShort }}</span>
-                <span class="text-surface-400">:</span>
-                <span class="font-bold">{{ formatTwoDigits(totalBlackoutDuration.hours) }}{{ copy.hourShort }}</span>
-                <span class="text-surface-400">:</span>
-                <span class="font-bold">{{ formatTwoDigits(totalBlackoutDuration.minutes) }}{{ copy.minuteShort }}</span>
+            <div>
+                <strong>{{ formatTwoDigits(totalBlackoutDuration.minutes) }}</strong>
+                <span>{{ copy.minutes }}</span>
             </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
-            <article class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl border border-surface-200 dark:border-surface-700 space-y-2">
-                <div class="flex items-center gap-2">
-                    <i class="pi pi-circle-fill text-red-500 text-[8px]"></i>
-                    <h3 class="text-sm font-bold">{{ copy.phaseOne }}</h3>
-                </div>
-                <p class="text-xs text-surface-500 dark:text-surface-400" dir="ltr">{{ copy.phaseOneDates }}</p>
-                <p class="text-lg font-bold" dir="ltr">
-                    {{ pn(periodDurations[0].days) }}{{ copy.dayShort }} {{ formatTwoDigits(periodDurations[0].hours) }}{{ copy.hourShort }} {{ formatTwoDigits(periodDurations[0].minutes) }}{{ copy.minuteShort }}
-                </p>
+        <div class="blackout-report__regimes" aria-hidden="true">
+            <span class="regime-one"></span>
+            <span class="regime-two"></span>
+            <span class="regime-three"></span>
+        </div>
+
+        <div class="blackout-report__phases">
+            <article>
+                <span class="phase-index">01</span>
+                <h4>{{ copy.phaseOne }}</h4>
+                <time dir="ltr">{{ copy.phaseOneDates }}</time>
+                <strong dir="ltr">
+                    {{ pn(periodDurations[0].days) }}{{ copy.dayShort }}
+                    {{ formatTwoDigits(periodDurations[0].hours) }}{{ copy.hourShort }}
+                    {{ formatTwoDigits(periodDurations[0].minutes) }}{{ copy.minuteShort }}
+                </strong>
             </article>
 
-            <article class="p-4 bg-amber-50/70 dark:bg-amber-950/20 rounded-xl border border-amber-200 dark:border-amber-900/50 space-y-2">
-                <div class="flex items-center gap-2">
-                    <i class="pi pi-lock text-amber-600 dark:text-amber-500"></i>
-                    <h3 class="text-sm font-bold text-amber-900 dark:text-amber-200">{{ copy.interimPhase }}</h3>
-                </div>
-                <p class="text-xs text-amber-700 dark:text-amber-400" dir="ltr">{{ copy.interimPhaseDates }}</p>
-                <p class="text-lg font-bold" dir="ltr">
-                    {{ pn(periodDurations[1].days) }}{{ copy.dayShort }} {{ formatTwoDigits(periodDurations[1].hours) }}{{ copy.hourShort }} {{ formatTwoDigits(periodDurations[1].minutes) }}{{ copy.minuteShort }}
-                </p>
-                <p class="text-xs text-surface-600 dark:text-surface-400 leading-relaxed">{{ copy.interimPhaseText }}</p>
+            <article class="phase-whitelist">
+                <span class="phase-index">02</span>
+                <h4>{{ copy.interimPhase }}</h4>
+                <time dir="ltr">{{ copy.interimPhaseDates }}</time>
+                <strong dir="ltr">
+                    {{ pn(periodDurations[1].days) }}{{ copy.dayShort }}
+                    {{ formatTwoDigits(periodDurations[1].hours) }}{{ copy.hourShort }}
+                    {{ formatTwoDigits(periodDurations[1].minutes) }}{{ copy.minuteShort }}
+                </strong>
+                <p>{{ copy.interimPhaseText }}</p>
             </article>
 
-            <article class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl border border-surface-200 dark:border-surface-700 space-y-2">
-                <div class="flex items-center gap-2">
-                    <i class="pi pi-circle-fill text-red-500 text-[8px]"></i>
-                    <h3 class="text-sm font-bold">{{ copy.phaseThree }}</h3>
-                </div>
-                <p class="text-xs text-surface-500 dark:text-surface-400" dir="ltr">{{ copy.phaseThreeDates }}</p>
-                <p class="text-lg font-bold" dir="ltr">
-                    {{ pn(periodDurations[2].days) }}{{ copy.dayShort }} {{ formatTwoDigits(periodDurations[2].hours) }}{{ copy.hourShort }} {{ formatTwoDigits(periodDurations[2].minutes) }}{{ copy.minuteShort }}
-                </p>
+            <article>
+                <span class="phase-index">03</span>
+                <h4>{{ copy.phaseThree }}</h4>
+                <time dir="ltr">{{ copy.phaseThreeDates }}</time>
+                <strong dir="ltr">
+                    {{ pn(periodDurations[2].days) }}{{ copy.dayShort }}
+                    {{ formatTwoDigits(periodDurations[2].hours) }}{{ copy.hourShort }}
+                    {{ formatTwoDigits(periodDurations[2].minutes) }}{{ copy.minuteShort }}
+                </strong>
             </article>
         </div>
 
-        <div class="w-full border-t border-surface-200 dark:border-surface-800 pt-6">
-            <h3 class="font-bold text-lg mb-5 text-start">{{ copy.timelineTitle }}</h3>
-            <ol class="relative border-s border-surface-300 dark:border-surface-700 ms-2 space-y-6">
-                <li v-for="item in copy.timeline" :key="item.date" class="ms-6">
-                    <span class="absolute flex items-center justify-center w-3 h-3 bg-red-500 rounded-full -start-[6.5px] ring-4 ring-surface-0 dark:ring-surface-900"></span>
-                    <time class="block mb-1 text-xs font-bold uppercase tracking-wide text-red-600 dark:text-red-400" dir="ltr">{{ item.date }}</time>
-                    <h4 class="text-sm font-bold mb-1">{{ item.title }}</h4>
-                    <p class="text-xs md:text-sm text-surface-600 dark:text-surface-400 leading-relaxed">{{ item.text }}</p>
-                </li>
-            </ol>
-        </div>
-
-        <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div class="p-4 rounded-xl border border-surface-200 dark:border-surface-700 bg-surface-50 dark:bg-surface-800 space-y-2">
-                <h3 class="font-bold text-sm flex items-center gap-2">
-                    <i class="pi pi-info-circle text-blue-500"></i>
-                    {{ copy.methodologyTitle }}
-                </h3>
-                <p class="text-xs text-surface-600 dark:text-surface-400 leading-relaxed">{{ copy.methodologyText }}</p>
+        <div class="blackout-report__body">
+            <div class="blackout-timeline">
+                <h4>{{ copy.timelineTitle }}</h4>
+                <ol>
+                    <li v-for="item in copy.timeline" :key="item.date">
+                        <time dir="ltr">{{ item.date }}</time>
+                        <div>
+                            <h5>{{ item.title }}</h5>
+                            <p>{{ item.text }}</p>
+                        </div>
+                    </li>
+                </ol>
             </div>
-            <div class="p-4 rounded-xl border border-green-200 dark:border-green-900/60 bg-green-50/70 dark:bg-green-950/20 space-y-2">
-                <h3 class="font-bold text-sm flex items-center gap-2 text-green-800 dark:text-green-300">
+
+            <aside class="blackout-notes">
+                <div>
+                    <i class="pi pi-calculator"></i>
+                    <h4>{{ copy.methodologyTitle }}</h4>
+                    <p>{{ copy.methodologyText }}</p>
+                </div>
+                <div class="blackout-notes__status">
                     <i class="pi pi-wifi"></i>
-                    {{ copy.currentStatusTitle }}
-                </h3>
-                <p class="text-xs text-surface-600 dark:text-surface-400 leading-relaxed">{{ copy.currentStatusText }}</p>
-            </div>
+                    <h4>{{ copy.currentStatusTitle }}</h4>
+                    <p>{{ copy.currentStatusText }}</p>
+                </div>
+            </aside>
         </div>
 
-        <footer class="w-full pt-2 text-xs text-surface-600 dark:text-surface-400">
-            <div class="font-bold text-surface-700 dark:text-surface-300 mb-2">{{ copy.sourcesTitle }}</div>
-            <div class="flex flex-col items-start gap-2">
-                <a href="https://blog.cloudflare.com/iran-internet-partially-restored-may-2026/" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-1">
-                    <i class="pi pi-external-link text-[10px]"></i>
-                    {{ copy.cloudflareTimelineSource }}
+        <figure id="blackout-precedent" class="blackout-precedent">
+            <div class="blackout-precedent__image">
+                <img
+                    src="/media/netblocks-iran-2019-blackout.jpg"
+                    :alt="copy.precedentAlt"
+                    width="1280"
+                    height="720"
+                    loading="lazy"
+                />
+            </div>
+            <figcaption>
+                <span class="phase-index">2019</span>
+                <h4>{{ copy.precedentTitle }}</h4>
+                <p>{{ copy.precedentText }}</p>
+                <a
+                    href="https://netblocks.org/reports/internet-disrupted-in-iran-amid-fuel-protests-in-multiple-cities-pA25L18b"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    {{ copy.precedentCredit }}
+                    <i class="pi pi-external-link"></i>
                 </a>
-                <a href="https://blog.cloudflare.com/q1-2026-internet-disruption-summary/" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-1">
-                    <i class="pi pi-external-link text-[10px]"></i>
-                    {{ copy.cloudflareWhitelistSource }}
+            </figcaption>
+        </figure>
+
+        <footer class="blackout-sources">
+            <h4>{{ copy.sourcesTitle }}</h4>
+            <div>
+                <a href="https://blog.cloudflare.com/iran-internet-partially-restored-may-2026/" target="_blank" rel="noopener noreferrer">
+                    <span>{{ copy.cloudflareTimelineSource }}</span>
+                    <i class="pi pi-external-link"></i>
                 </a>
-                <a href="https://www.wired.me/story/irans-internet-came-back-but-not-for-everyone" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-1">
-                    <i class="pi pi-external-link text-[10px]"></i>
-                    {{ copy.wiredSource }}
+                <a href="https://blog.cloudflare.com/q1-2026-internet-disruption-summary/" target="_blank" rel="noopener noreferrer">
+                    <span>{{ copy.cloudflareWhitelistSource }}</span>
+                    <i class="pi pi-external-link"></i>
                 </a>
-                <a href="https://t.me/netblocks/1503" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-1">
-                    <i class="pi pi-external-link text-[10px]"></i>
-                    {{ copy.netblocksSource }}
+                <a href="https://www.wired.me/story/irans-internet-came-back-but-not-for-everyone" target="_blank" rel="noopener noreferrer">
+                    <span>{{ copy.wiredSource }}</span>
+                    <i class="pi pi-external-link"></i>
+                </a>
+                <a href="https://t.me/netblocks/1503" target="_blank" rel="noopener noreferrer">
+                    <span>{{ copy.netblocksSource }}</span>
+                    <i class="pi pi-external-link"></i>
                 </a>
             </div>
         </footer>
     </section>
 </template>
+
+<style scoped>
+.blackout-report {
+    --report-line: rgba(255, 255, 255, 0.18);
+    --report-muted: #aaa39a;
+    --report-red: #ef574b;
+    color: #f2eee6;
+    border: 1px solid var(--report-line);
+    background: rgba(10, 10, 10, 0.72);
+}
+
+.blackout-report__header {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.42fr);
+    gap: 3rem;
+    padding: clamp(1.5rem, 4vw, 3rem);
+    border-bottom: 1px solid var(--report-line);
+}
+
+.blackout-report__label,
+.phase-index {
+    margin: 0;
+    color: var(--report-red);
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+}
+
+.blackout-report__header h3 {
+    max-width: 10ch;
+    margin: 1.1rem 0 0;
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: clamp(3.2rem, 6vw, 6rem);
+    font-weight: 500;
+    letter-spacing: -0.055em;
+    line-height: 0.92;
+}
+
+.blackout-report__phase {
+    display: inline-flex;
+    margin: 1.5rem 0 0;
+    padding: 0.45rem 0.65rem;
+    color: var(--report-red);
+    border: 1px solid rgba(239, 87, 75, 0.45);
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.blackout-report__summary {
+    max-width: 42rem;
+    margin: 1.4rem 0 0;
+    color: var(--report-muted);
+    line-height: 1.7;
+}
+
+.blackout-report__total {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-inline-start: 1.5rem;
+    border-inline-start: 1px solid var(--report-line);
+}
+
+.blackout-report__total > span {
+    color: var(--report-muted);
+    font-size: 0.65rem;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.blackout-report__total strong {
+    display: flex;
+    align-items: baseline;
+    gap: 0.45rem;
+    margin-top: 1.2rem;
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: clamp(5rem, 9vw, 8rem);
+    font-weight: 500;
+    letter-spacing: -0.07em;
+    line-height: 0.8;
+}
+
+.blackout-report__total small {
+    color: var(--report-red);
+    font-family: Inter, sans-serif;
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+}
+
+.blackout-report__clock {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border-bottom: 1px solid var(--report-line);
+}
+
+.blackout-report__clock > div {
+    min-height: 13rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-inline-end: 1px solid var(--report-line);
+}
+
+.blackout-report__clock > div:last-child {
+    border-inline-end: 0;
+}
+
+.blackout-report__clock strong {
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: clamp(3.8rem, 8vw, 7rem);
+    font-weight: 500;
+    letter-spacing: -0.06em;
+    line-height: 0.8;
+}
+
+.blackout-report__clock span {
+    margin-top: 1rem;
+    color: var(--report-muted);
+    font-size: 0.65rem;
+    font-weight: 900;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.blackout-report__regimes {
+    display: flex;
+    height: 0.42rem;
+    background: #191919;
+}
+
+.blackout-report__regimes span {
+    display: block;
+    height: 100%;
+}
+
+.regime-one {
+    width: 13.7%;
+    background: #ef574b;
+}
+
+.regime-two {
+    width: 23.1%;
+    background: #d7a93f;
+}
+
+.regime-three {
+    width: 63.2%;
+    background: #a91f19;
+}
+
+.blackout-report__phases {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border-bottom: 1px solid var(--report-line);
+}
+
+.blackout-report__phases article {
+    min-height: 19rem;
+    padding: 1.4rem;
+    border-inline-end: 1px solid var(--report-line);
+}
+
+.blackout-report__phases article:last-child {
+    border-inline-end: 0;
+}
+
+.blackout-report__phases h4 {
+    margin: 2.5rem 0 0;
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.05;
+}
+
+.blackout-report__phases time {
+    display: block;
+    margin-top: 1rem;
+    color: var(--report-muted);
+    font-size: 0.68rem;
+}
+
+.blackout-report__phases strong {
+    display: block;
+    margin-top: 1.3rem;
+    color: #f2eee6;
+    font-size: 0.78rem;
+}
+
+.blackout-report__phases p {
+    margin: 1rem 0 0;
+    color: var(--report-muted);
+    font-size: 0.76rem;
+    line-height: 1.55;
+}
+
+.phase-whitelist {
+    background: rgba(215, 169, 63, 0.07);
+}
+
+.blackout-report__body {
+    display: grid;
+    grid-template-columns: minmax(0, 1.25fr) minmax(18rem, 0.75fr);
+    border-bottom: 1px solid var(--report-line);
+}
+
+.blackout-timeline,
+.blackout-notes {
+    padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.blackout-timeline {
+    border-inline-end: 1px solid var(--report-line);
+}
+
+.blackout-timeline > h4,
+.blackout-sources > h4 {
+    margin: 0;
+    font-size: 0.7rem;
+    font-weight: 900;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+}
+
+.blackout-timeline ol {
+    margin: 2.5rem 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.blackout-timeline li {
+    display: grid;
+    grid-template-columns: 10rem minmax(0, 1fr);
+    gap: 1.5rem;
+    padding: 1.4rem 0;
+    border-top: 1px solid var(--report-line);
+}
+
+.blackout-timeline time {
+    color: var(--report-red);
+    font-size: 0.7rem;
+    font-weight: 900;
+}
+
+.blackout-timeline h5,
+.blackout-notes h4,
+.blackout-precedent h4 {
+    margin: 0;
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.45rem;
+    font-weight: 500;
+}
+
+.blackout-timeline p,
+.blackout-notes p,
+.blackout-precedent p {
+    margin: 0.6rem 0 0;
+    color: var(--report-muted);
+    font-size: 0.82rem;
+    line-height: 1.65;
+}
+
+.blackout-notes {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.blackout-notes > div {
+    padding: 1.3rem;
+    border: 1px solid var(--report-line);
+}
+
+.blackout-notes i {
+    display: inline-block;
+    margin-bottom: 2.5rem;
+    color: var(--report-red);
+}
+
+.blackout-notes__status {
+    background: rgba(70, 149, 103, 0.1);
+}
+
+.blackout-notes__status i {
+    color: #70bb8d;
+}
+
+.blackout-precedent {
+    display: grid;
+    grid-template-columns: minmax(0, 1.45fr) minmax(18rem, 0.55fr);
+    margin: 0;
+    border-bottom: 1px solid var(--report-line);
+}
+
+.blackout-precedent__image {
+    padding: clamp(1rem, 2vw, 1.5rem);
+    border-inline-end: 1px solid var(--report-line);
+}
+
+.blackout-precedent img {
+    width: 100%;
+    height: 100%;
+    min-height: 22rem;
+    display: block;
+    object-fit: contain;
+    background: #111;
+}
+
+.blackout-precedent figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.blackout-precedent h4 {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.blackout-precedent a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    color: #e9e4dc;
+    border-top: 1px solid var(--report-line);
+    font-size: 0.68rem;
+    font-weight: 800;
+}
+
+.blackout-sources {
+    padding: clamp(1.5rem, 4vw, 3rem);
+}
+
+.blackout-sources > div {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0;
+    margin-top: 1.5rem;
+    border-top: 1px solid var(--report-line);
+    border-inline-start: 1px solid var(--report-line);
+}
+
+.blackout-sources a {
+    min-height: 5.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem;
+    color: #c6c0b7;
+    border-inline-end: 1px solid var(--report-line);
+    border-bottom: 1px solid var(--report-line);
+    font-size: 0.74rem;
+    line-height: 1.45;
+}
+
+.blackout-sources a:hover {
+    color: #fff;
+    background: rgba(255, 255, 255, 0.04);
+}
+
+@media (max-width: 900px) {
+    .blackout-report__header,
+    .blackout-report__body,
+    .blackout-precedent {
+        grid-template-columns: 1fr;
+    }
+
+    .blackout-report__total,
+    .blackout-timeline,
+    .blackout-precedent__image {
+        padding-inline-start: 0;
+        border-inline-start: 0;
+        border-inline-end: 0;
+    }
+
+    .blackout-report__total {
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--report-line);
+    }
+
+    .blackout-timeline {
+        border-bottom: 1px solid var(--report-line);
+    }
+}
+
+@media (max-width: 640px) {
+    .blackout-report__clock,
+    .blackout-report__phases,
+    .blackout-sources > div {
+        grid-template-columns: 1fr;
+    }
+
+    .blackout-report__clock > div {
+        min-height: 9rem;
+        border-inline-end: 0;
+        border-bottom: 1px solid var(--report-line);
+    }
+
+    .blackout-report__clock > div:last-child {
+        border-bottom: 0;
+    }
+
+    .blackout-report__phases article {
+        min-height: auto;
+        border-inline-end: 0;
+        border-bottom: 1px solid var(--report-line);
+    }
+
+    .blackout-report__phases article:last-child {
+        border-bottom: 0;
+    }
+
+    .blackout-timeline li {
+        grid-template-columns: 1fr;
+        gap: 0.7rem;
+    }
+
+    .blackout-precedent img {
+        min-height: auto;
+    }
+}
+</style>

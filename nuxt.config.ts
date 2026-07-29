@@ -75,7 +75,7 @@ export default defineNuxtConfig({
                 { rel: 'icon', type: 'image/svg+xml', href: '/lion-and-sun.svg' },
                 { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
                 { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
-                { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700&display=swap' }
+                { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Vazirmatn:wght@300;400;500;600;700;800&display=swap' }
             ]
         }
     },

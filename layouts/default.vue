@@ -3,8 +3,10 @@ import { computed, ref, onMounted, onUnmounted } from 'vue';
 import { useStickyHeader } from '~/composables/useStickyHeader';
 
 const { t, locale } = useI18n();
+const route = useRoute();
 const mobileMenuOpen = ref(false);
 const { isHeaderVisible } = useStickyHeader();
+const isLandingPage = computed(() => route.path === '/');
 
 
 const isShareMenuOpen = ref(false);
@@ -181,9 +183,9 @@ onUnmounted(() => {
         >
             <!-- Top Row: Logo & Utilities -->
             <div class="relative group/top z-20">
-                <nav class="container mx-auto px-6 h-16 flex items-center justify-between relative z-10">
+                <nav class="container mx-auto px-4 sm:px-6 h-16 flex items-center justify-between relative z-10">
                     <div class="flex items-center gap-2 sm:gap-4">
-                        <NuxtLink to="/" class="flex items-center gap-3 font-black text-2xl tracking-tighter hover:scale-[1.02] transition-transform duration-500 group/logo" @click="closeMenu">
+                        <NuxtLink to="/" dir="ltr" class="flex items-center gap-3 font-black text-2xl tracking-tighter hover:scale-[1.02] transition-transform duration-500 group/logo" @click="closeMenu">
                             <img src="/lion-and-sun.svg" alt="Lion and Sun" class="h-10 w-auto drop-shadow-[0_0_15px_rgba(217,119,6,0.3)] group-hover/logo:scale-110 transition-all duration-500 ease-out will-change-transform" />
                             <span class="text-surface-900 dark:text-white flex items-baseline">
                                 IRAN<span class="text-primary-600 dark:text-primary-400 font-extralight ml-1">ARCHIVE</span>
@@ -284,8 +286,13 @@ onUnmounted(() => {
                                     icon="pi pi-heart-fill" 
                                     severity="success" 
                                     size="small"
-                                    class="donate-dropdown-trigger !rounded-full !px-8 !py-2.5 !bg-gradient-to-r !from-emerald-500 !to-teal-500 hover:!from-emerald-600 hover:!to-teal-600 !border-none !text-white !font-black !tracking-[0.25em] !shadow-[0_8px_20px_rgba(16,185,129,0.3)] hover:!shadow-[0_12px_25px_rgba(16,185,129,0.4)] hover:!-translate-y-0.5 !transition-all !duration-300"
-                                    :class="locale === 'fa' ? '!text-sm' : '!text-[11px]'"
+                                    class="donate-dropdown-trigger !rounded-full !px-8 !py-2.5 !border-none !text-white !font-black !tracking-[0.25em] hover:!-translate-y-0.5 !transition-all !duration-300"
+                                    :class="[
+                                        locale === 'fa' ? '!text-sm' : '!text-[11px]',
+                                        isLandingPage
+                                            ? '!bg-[#d63a2f] hover:!bg-[#ef574b] !shadow-[0_8px_20px_rgba(214,58,47,0.28)] hover:!shadow-[0_12px_25px_rgba(214,58,47,0.38)]'
+                                            : '!bg-gradient-to-r !from-emerald-500 !to-teal-500 hover:!from-emerald-600 hover:!to-teal-600 !shadow-[0_8px_20px_rgba(16,185,129,0.3)] hover:!shadow-[0_12px_25px_rgba(16,185,129,0.4)]'
+                                    ]"
                                 />
 
                                 <!-- Crypto Donate Dropdown -->
@@ -340,12 +347,12 @@ onUnmounted(() => {
                         </div>
 
                         <!-- Mobile Menu Button -->
-                        <div class="flex items-center gap-4 md:hidden">
+                        <div class="flex items-center gap-2 md:hidden">
                             <ClientOnly>
                                 <LanguageSwitcher />
                                 <ThemeToggle />
                             </ClientOnly>
-                            <Button icon="pi pi-bars" text rounded aria-label="Menu" @click="mobileMenuOpen = true" class="!w-12 !h-12 hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all hover:scale-105" />
+                            <Button icon="pi pi-bars" text rounded aria-label="Menu" @click="mobileMenuOpen = true" class="!w-10 !h-10 hover:bg-surface-200/50 dark:hover:bg-surface-800/50 transition-all hover:scale-105" />
                         </div>
                     </div>
                 </nav>
@@ -516,7 +523,7 @@ onUnmounted(() => {
             </div>
         </Drawer>
 
-        <main class="flex-grow container mx-auto px-4 py-8">
+        <main :class="isLandingPage ? 'flex-grow' : 'flex-grow container mx-auto px-4 py-8'">
             <slot />
         </main>
     </div>
