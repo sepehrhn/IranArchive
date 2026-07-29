@@ -30,7 +30,7 @@ const copy = computed(() => {
         recordTitle: 'Scale matters. So does every name behind it.',
         recordBody: 'These figures describe the current scope of this archive and the blackout documented below. They are not a substitute for the individual records, testimony, and evidence.',
         stats: [
-            { value: '21K+', label: 'victim registry records', note: 'Synced with the current external_source registry' },
+            { value: '13K+', label: 'victim registry records', note: '13,053 records synced with the current external_source registry' },
             { value: '100', label: 'verified historical incidents', note: 'Bounded claims backed by rights investigations' },
             { value: '137d', label: 'public digital blackout', note: 'Plus 19 hours and 30 minutes in 2026' },
             { value: '47', label: 'years of state repression', note: 'From the establishment of the Islamic Republic to today' },
@@ -176,7 +176,7 @@ const copy = computed(() => {
         recordTitle: 'مقیاس مهم است؛ تک‌تک نام‌های پشت آن هم.',
         recordBody: 'این ارقام دامنه کنونی آرشیو و خاموشی مستندشده در پایین صفحه را نشان می‌دهند. هیچ عددی جای پرونده فردی، شهادت و مدرک را نمی‌گیرد.',
         stats: [
-            { value: '۲۱هزار+', label: 'پرونده در فهرست قربانیان', note: 'همگام‌شده با فهرست کنونی ایران‌ترایال' },
+            { value: '۱۳هزار+', label: 'پرونده در فهرست قربانیان', note: '۱۳٬۰۵۳ پرونده همگام‌شده با فهرست کنونی ایران‌ترایال' },
             { value: '۱۰۰', label: 'رویداد تاریخی راستی‌آزمایی‌شده', note: 'ادعاهای محدود و متکی بر تحقیقات حقوق بشری' },
             { value: '۱۳۷ روز', label: 'خاموشی دیجیتال عمومی', note: 'به‌علاوه ۱۹ ساعت و ۳۰ دقیقه در سال ۲۰۲۶' },
             { value: '۴۷', label: 'سال سرکوب حکومتی', note: 'از استقرار جمهوری اسلامی تا امروز' },
