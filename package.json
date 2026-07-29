@@ -66,8 +66,10 @@
     "vue-tsc": "3.3.8"
   },
   "optionalDependencies": {
+    "@napi-rs/canvas-linux-x64-gnu": "0.1.100",
     "@oxc-minify/binding-linux-x64-gnu": "0.141.0",
     "@oxc-parser/binding-linux-x64-gnu": "0.140.0",
-    "@oxc-transform/binding-linux-x64-gnu": "0.141.0"
+    "@oxc-transform/binding-linux-x64-gnu": "0.141.0",
+    "@rollup/rollup-linux-x64-gnu": "4.62.3"
   }
 }
