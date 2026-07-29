@@ -1,29 +1,31 @@
 <script setup lang="ts">
-import { ref, computed, watch, onMounted } from 'vue';
-const { t } = useI18n();
+import { computed, onMounted, ref, watch } from 'vue';
 import type { ParsedEvent } from '~/server/utils/events/schemas';
 import { useCountries } from '~/composables/useCountries';
 import { useEvents } from '~/composables/useEvents';
-import { useStickyHeader } from '~/composables/useStickyHeader';
 
-const { isMobile } = useStickyHeader();
+const { t, locale } = useI18n();
 
 useSeoMeta({
-    title: t('eventsPage.title'),
-    ogTitle: t('eventsPage.title'),
-    description: t('eventsPage.description'),
-    ogDescription: t('eventsPage.description'),
+    title: () => t('eventsPage.title'),
+    ogTitle: () => t('eventsPage.title'),
+    description: () => t('eventsPage.description'),
+    ogDescription: () => t('eventsPage.description'),
     ogImage: 'https://iranarchive.com/og-image-events.jpg',
     twitterCard: 'summary_large_image',
-})
+});
 
-// Get Data
 const { listEvents } = useEvents();
+const { loadCountries } = useCountries();
+
 const events = ref<ParsedEvent[]>([]);
 const pending = ref(true);
-
-// Load countries
-const { loadCountries } = useCountries();
+const searchQuery = ref('');
+const selectedYear = ref<string | null>(null);
+const selectedCountry = ref<string | null>(null);
+const selectedCity = ref<string | null>(null);
+const sortOrder = ref<'newest' | 'oldest'>('newest');
+const visibleLimit = ref(24);
 
 onMounted(async () => {
     try {
@@ -34,378 +36,472 @@ onMounted(async () => {
     }
 });
 
-// State
+const getLocation = (event: ParsedEvent) => {
+    return Array.isArray(event.location) ? null : event.location;
+};
 
-const selectedCountry = ref<string | null>(null);
-const selectedCity = ref<string | null>(null);
-const showPastEvents = ref(false);
-const showSubmitDialog = ref(false);
-const filterLoading = ref(false);
+const getEventTimestamp = (event: ParsedEvent) => {
+    const [year, month, day] = event.date.start.split('/').map(Number);
+    const timeMatch = event.date.start_time?.match(/^(\d{1,2}):(\d{2})/);
+    const hours = timeMatch ? Number(timeMatch[1]) : 0;
+    const minutes = timeMatch ? Number(timeMatch[2]) : 0;
+    return Date.UTC(year, month - 1, day, hours, minutes);
+};
 
-// Stats
-const stats = computed(() => {
-    if (!events.value) return { upcoming: 0, past: 0, total: 0 };
-    const upcoming = events.value.filter(e => ['upcoming', 'ongoing'].includes(e.computed_state)).length;
-    const past = events.value.filter(e => ['past', 'held'].includes(e.computed_state)).length;
-    return { upcoming, past, total: events.value.length };
+const archivedEvents = computed(() => {
+    return events.value.filter(event => ['past', 'held'].includes(event.computed_state));
 });
 
-// Filtering Logic
-const filteredEvents = computed(() => {
-    if (!events.value) return [];
-    
-    let res = events.value;
+const archiveStats = computed(() => {
+    const countries = new Set<string>();
+    const cities = new Set<string>();
 
-    // 1. Filter by Past Events Toggle
-    if (showPastEvents.value) {
-        // Show ONLY past events when toggle is ON
-        res = res.filter(e => ['past', 'held'].includes(e.computed_state));
-    } else {
-        // Show only upcoming/ongoing events when toggle is OFF
-        res = res.filter(e => ['upcoming', 'ongoing'].includes(e.computed_state));
-    }
-
-    // 2. Filter by Country
-    if (selectedCountry.value) {
-        res = res.filter(e => e.location?.country === selectedCountry.value);
-    }
-
-    // 3. Filter by City
-    if (selectedCity.value) {
-        res = res.filter(e => e.location?.city === selectedCity.value);
-    }
-
-
-
-    // 5. Sort: Date order (closer dates top), then Featured
-    res = [...res].sort((a, b) => {
-        const getEventTime = (e: ParsedEvent) => {
-            const formattedDate = e.date.start.replace(/\//g, '-');
-            return new Date(`${formattedDate}T${e.date.start_time || '00:00'}:00`).getTime();
-        };
-
-        const aTime = getEventTime(a);
-        const bTime = getEventTime(b);
-        
-        // Primary sort: Date proximity
-        if (showPastEvents.value) {
-            // For past events, show newest first (closest to today)
-            if (aTime !== bTime) return bTime - aTime;
-        } else {
-            // For upcoming events, show earliest first (closest to today)
-            if (aTime !== bTime) return aTime - bTime;
-        }
-
-        // Secondary sort: Featured status
-        if (a.featured !== b.featured) return a.featured ? -1 : 1;
-        
-        return 0;
+    archivedEvents.value.forEach(event => {
+        const location = getLocation(event);
+        if (location?.country) countries.add(location.country);
+        if (location?.city) cities.add(`${location.country || ''}:${location.city}`);
     });
 
-    return res;
+    const timestamps = archivedEvents.value
+        .map(getEventTimestamp)
+        .filter(Number.isFinite)
+        .sort((a, b) => a - b);
+
+    return {
+        total: archivedEvents.value.length,
+        countries: countries.size,
+        cities: cities.size,
+        first: timestamps[0],
+        last: timestamps[timestamps.length - 1],
+    };
 });
 
-const handleCountrySelect = (countryCode: string | null) => {
-    selectedCountry.value = countryCode;
-    // City selection handled by watcher
-};
+const yearOptions = computed(() => {
+    const years = new Set(archivedEvents.value.map(event => event.date.start.slice(0, 4)));
+    return Array.from(years)
+        .sort((a, b) => Number(b) - Number(a))
+        .map(year => ({ label: year, value: year }));
+});
 
-const handleCitySelect = (city: string | null) => {
-    selectedCity.value = city;
-};
+const yearCounts = computed(() => {
+    const counts = new Map<string, number>();
+    archivedEvents.value.forEach(event => {
+        const year = event.date.start.slice(0, 4);
+        counts.set(year, (counts.get(year) || 0) + 1);
+    });
+    return yearOptions.value.map(option => ({
+        ...option,
+        count: counts.get(option.value) || 0,
+    }));
+});
 
-// Helper: Select first available city for current country
-const autoSelectCity = () => {
-    if (selectedCountry.value && events.value) {
-        const targetStates = showPastEvents.value ? ['past', 'held'] : ['upcoming', 'ongoing'];
-        const countryEvents = events.value.filter(e => 
-            e.location?.country === selectedCountry.value && 
-            targetStates.includes(e.computed_state) &&
-            e.location?.city
-        );
-        
-        if (countryEvents.length > 0) {
-            const cities = Array.from(new Set(countryEvents.map(e => e.location.city!))).sort();
-            if (cities.length > 0) {
-                // Only change if current city is invalid or null
-                if (!selectedCity.value || !cities.includes(selectedCity.value)) {
-                    selectedCity.value = cities[0];
-                }
-                return;
-            }
+const countryOptions = computed(() => {
+    const codes = new Set<string>();
+    archivedEvents.value.forEach(event => {
+        const country = getLocation(event)?.country;
+        if (country) codes.add(country);
+    });
+
+    return Array.from(codes)
+        .map(code => ({
+            label: t(`countries.${code}`, code),
+            value: code,
+        }))
+        .sort((a, b) => a.label.localeCompare(b.label));
+});
+
+const cityOptions = computed(() => {
+    const cities = new Set<string>();
+    archivedEvents.value.forEach(event => {
+        const location = getLocation(event);
+        if (
+            location?.city &&
+            (!selectedCountry.value || location.country === selectedCountry.value)
+        ) {
+            cities.add(location.city);
         }
-    }
+    });
+
+    return Array.from(cities)
+        .sort((a, b) => a.localeCompare(b))
+        .map(city => ({ label: city, value: city }));
+});
+
+const sortOptions = computed(() => [
+    { label: t('eventsPage.newestFirst'), value: 'newest' },
+    { label: t('eventsPage.oldestFirst'), value: 'oldest' },
+]);
+
+const filteredEvents = computed(() => {
+    const query = searchQuery.value.trim().toLocaleLowerCase();
+
+    const filtered = archivedEvents.value.filter(event => {
+        const location = getLocation(event);
+        const matchesYear = !selectedYear.value || event.date.start.startsWith(selectedYear.value);
+        const matchesCountry = !selectedCountry.value || location?.country === selectedCountry.value;
+        const matchesCity = !selectedCity.value || location?.city === selectedCity.value;
+
+        if (!matchesYear || !matchesCountry || !matchesCity) return false;
+        if (!query) return true;
+
+        const searchable = [
+            event.title,
+            event.description,
+            event.organizer?.name,
+            location?.city,
+            location?.address,
+            location?.country ? t(`countries.${location.country}`, location.country) : '',
+            ...(event.tags || []),
+        ]
+            .filter(Boolean)
+            .join(' ')
+            .toLocaleLowerCase();
+
+        return searchable.includes(query);
+    });
+
+    return [...filtered].sort((a, b) => {
+        const direction = sortOrder.value === 'newest' ? -1 : 1;
+        return (getEventTimestamp(a) - getEventTimestamp(b)) * direction;
+    });
+});
+
+const visibleEvents = computed(() => filteredEvents.value.slice(0, visibleLimit.value));
+
+const archiveGroups = computed(() => {
+    const groups = new Map<string, ParsedEvent[]>();
+
+    visibleEvents.value.forEach(event => {
+        const key = event.date.start.slice(0, 7);
+        const group = groups.get(key) || [];
+        group.push(event);
+        groups.set(key, group);
+    });
+
+    return Array.from(groups.entries()).map(([key, groupEvents]) => {
+        const [year, month] = key.split('/').map(Number);
+        const label = new Intl.DateTimeFormat(locale.value === 'fa' ? 'fa-IR' : 'en-US', {
+            month: 'long',
+            year: 'numeric',
+            timeZone: 'UTC',
+        }).format(new Date(Date.UTC(year, month - 1, 1)));
+
+        return {
+            key,
+            label,
+            events: groupEvents,
+        };
+    });
+});
+
+const archiveRange = computed(() => {
+    if (!archiveStats.value.first || !archiveStats.value.last) return '';
+
+    const formatter = new Intl.DateTimeFormat(locale.value === 'fa' ? 'fa-IR' : 'en-US', {
+        month: 'short',
+        year: 'numeric',
+        timeZone: 'UTC',
+    });
+
+    const first = formatter.format(new Date(archiveStats.value.first));
+    const last = formatter.format(new Date(archiveStats.value.last));
+    return first === last ? first : `${first} – ${last}`;
+});
+
+const hasActiveFilters = computed(() => {
+    return Boolean(
+        searchQuery.value ||
+        selectedYear.value ||
+        selectedCountry.value ||
+        selectedCity.value
+    );
+});
+
+const resetFilters = () => {
+    searchQuery.value = '';
+    selectedYear.value = null;
+    selectedCountry.value = null;
     selectedCity.value = null;
+    visibleLimit.value = 24;
 };
 
-// Auto-select first country on page load or context change
-const autoSelectCountry = () => {
-    if (events.value && events.value.length > 0) {
-        const targetStates = showPastEvents.value ? ['past', 'held'] : ['upcoming', 'ongoing'];
-        
-        // Try to keep current country if it has events
-        if (selectedCountry.value) {
-            const hasEvents = events.value.some(e => 
-                e.location?.country === selectedCountry.value && 
-                targetStates.includes(e.computed_state)
-            );
-            if (hasEvents) {
-                // Country is valid, just re-check city
-                autoSelectCity();
-                return;
-            }
-        }
-
-        const firstCountryWithEvents = events.value.find(e => 
-            e.location?.country && targetStates.includes(e.computed_state)
-        )?.location?.country;
-        
-        if (firstCountryWithEvents) {
-            selectedCountry.value = firstCountryWithEvents;
-            // Watcher will trigger autoSelectCity
-        } else {
-            selectedCountry.value = null;
-            selectedCity.value = null;
-        }
-    }
-};
-
-// Auto-select first city when country changes
 watch(selectedCountry, () => {
-    autoSelectCity();
-});
-
-watch(() => events.value, (newEvents) => {
-    if (newEvents && newEvents.length > 0) {
-        autoSelectCountry();
+    if (
+        selectedCity.value &&
+        !cityOptions.value.some(option => option.value === selectedCity.value)
+    ) {
+        selectedCity.value = null;
     }
-}, { immediate: true });
-
-// When toggle changes, re-evaluate country and city
-watch(showPastEvents, () => {
-    autoSelectCountry();
 });
 
-// Simulate loading on filter change for better UX
-watch([() => selectedCountry.value, () => selectedCity.value, () => showPastEvents.value], () => {
-    filterLoading.value = true;
-    setTimeout(() => {
-        filterLoading.value = false;
-    }, 300);
-});
-
-const isLoading = computed(() => pending.value || filterLoading.value);
-
-const submissionStepTitle = ref(t('eventsPage.submitDialogTitle'));
-
+watch(
+    [searchQuery, selectedYear, selectedCountry, selectedCity, sortOrder],
+    () => {
+        visibleLimit.value = 24;
+    }
+);
 </script>
 
 <template>
-    <div class="space-y-6">
-        <div class="w-full">
-            <!-- Hero Section -->
-            <div class="relative bg-gradient-to-br from-surface-800 via-surface-700 to-surface-800 dark:from-surface-950 dark:via-surface-900 dark:to-surface-950 rounded-2xl overflow-hidden mb-8">
-                <div class="absolute inset-0 bg-[url('/images/pattern.svg')] opacity-5"></div>
-                <div class="relative px-8 py-10 md:py-12">
-                    <div class="max-w-3xl">
-                        <h1 class="text-4xl md:text-5xl font-bold text-white mb-4">
-                            {{ t('eventsPage.heroTitle') }}
-                        </h1>
-                        <p class="text-lg text-surface-200 dark:text-surface-300 mb-6 leading-relaxed">
-                            {{ t('eventsPage.heroSubtitle') }}
-                        </p>
-                        
-                        <!-- Stats -->
-                        <div class="flex flex-wrap gap-6 mb-8">
-                            <div class="flex items-center gap-3">
-                                <div class="w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
-                                    <i class="pi pi-calendar text-blue-400 text-xl"></i>
-                                </div>
-                                <div>
-                                    <p class="text-3xl font-bold text-white">
-                                        <Skeleton v-if="pending" width="2rem" height="2.5rem" class="!bg-white/20" />
-                                        <span v-else>{{ $nFa(stats.upcoming) }}</span>
-                                    </p>
-                                    <p class="text-sm text-surface-300 dark:text-surface-400">{{ t('eventsPage.upcoming') }}</p>
-                                </div>
-                            </div>
-                            <div class="flex items-center gap-3">
-                                <div class="w-12 h-12 rounded-full bg-gray-500/20 flex items-center justify-center">
-                                    <i class="pi pi-history text-gray-400 text-xl"></i>
-                                </div>
-                                <div>
-                                    <p class="text-3xl font-bold text-white">
-                                        <Skeleton v-if="pending" width="2rem" height="2.5rem" class="!bg-white/20" />
-                                        <span v-else>{{ $nFa(stats.past) }}</span>
-                                    </p>
-                                    <p class="text-sm text-surface-300 dark:text-surface-400">{{ t('eventsPage.pastEvents') }}</p>
-                                </div>
-                            </div>
+    <div class="space-y-8 pb-12">
+        <section class="relative overflow-hidden rounded-3xl border border-surface-700/40 bg-surface-950 text-white shadow-2xl shadow-surface-950/20">
+            <div class="absolute inset-0 archive-grid opacity-30"></div>
+            <div class="absolute -right-24 -top-32 h-96 w-96 rounded-full bg-primary-500/15 blur-3xl"></div>
+            <div class="absolute -bottom-40 left-1/3 h-96 w-96 rounded-full bg-blue-500/10 blur-3xl"></div>
 
-                        </div>
+            <div class="relative grid gap-10 px-6 py-10 md:px-10 md:py-14 lg:grid-cols-[1fr_auto] lg:items-end">
+                <div class="max-w-3xl">
+                    <div class="mb-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-surface-300 backdrop-blur">
+                        <i class="pi pi-history text-primary-400"></i>
+                        {{ t('eventsPage.eyebrow') }}
                     </div>
+                    <h1 class="max-w-3xl text-4xl font-black tracking-tight md:text-6xl">
+                        {{ t('eventsPage.heroTitle') }}
+                    </h1>
+                    <p class="mt-5 max-w-2xl text-base leading-7 text-surface-300 md:text-lg">
+                        {{ t('eventsPage.heroSubtitle') }}
+                    </p>
+                    <div v-if="archiveRange" class="mt-7 flex items-center gap-3 text-sm font-semibold text-surface-300">
+                        <span class="h-px w-10 bg-primary-400"></span>
+                        {{ archiveRange }}
+                    </div>
+                </div>
 
-                    <!-- Action Button in Top Right -->
-                    <div class="absolute top-8 right-8 md:top-12 md:right-8 flex flex-col items-end gap-3">
-                        <Button
-                            :label="t('eventsPage.submit')"
-                            icon="pi pi-plus"
-                            @click="showSubmitDialog = true"
-                            class="hidden md:flex shadow-lg"
-                        />
-                        
-                        <!-- Past Events Toggle (Desktop) -->
-                        <div class="hidden md:flex items-center gap-3 bg-surface-900/30 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-white/10 shadow-sm">
-                            <span class="text-sm font-bold text-white">{{ t('eventsPage.showPastEvents') }}</span>
-                            <InputSwitch v-model="showPastEvents" />
-                        </div>
+                <div class="grid grid-cols-3 gap-3 lg:w-[430px]">
+                    <div class="rounded-2xl border border-white/10 bg-white/[0.06] p-4 backdrop-blur md:p-5">
+                        <p class="text-2xl font-black md:text-3xl">
+                            <Skeleton v-if="pending" width="3rem" height="2rem" class="!bg-white/15" />
+                            <span v-else>{{ $nFa(archiveStats.total) }}</span>
+                        </p>
+                        <p class="mt-1 text-[10px] font-bold uppercase tracking-wider text-surface-400 md:text-xs">
+                            {{ t('eventsPage.archivedEvents') }}
+                        </p>
+                    </div>
+                    <div class="rounded-2xl border border-white/10 bg-white/[0.06] p-4 backdrop-blur md:p-5">
+                        <p class="text-2xl font-black md:text-3xl">
+                            <Skeleton v-if="pending" width="3rem" height="2rem" class="!bg-white/15" />
+                            <span v-else>{{ $nFa(archiveStats.countries) }}</span>
+                        </p>
+                        <p class="mt-1 text-[10px] font-bold uppercase tracking-wider text-surface-400 md:text-xs">
+                            {{ t('eventsPage.countriesRepresented') }}
+                        </p>
+                    </div>
+                    <div class="rounded-2xl border border-white/10 bg-white/[0.06] p-4 backdrop-blur md:p-5">
+                        <p class="text-2xl font-black md:text-3xl">
+                            <Skeleton v-if="pending" width="3rem" height="2rem" class="!bg-white/15" />
+                            <span v-else>{{ $nFa(archiveStats.cities) }}</span>
+                        </p>
+                        <p class="mt-1 text-[10px] font-bold uppercase tracking-wider text-surface-400 md:text-xs">
+                            {{ t('eventsPage.citiesRepresented') }}
+                        </p>
                     </div>
                 </div>
             </div>
+        </section>
 
-            <!-- Mobile Filters (Sticky only on desktop/if needed, but user wants it disabled for mobile) -->
-            <div 
-                class="sticky-trigger md:hidden z-30 bg-surface-0/95 dark:bg-surface-900/95 backdrop-blur-md py-4 px-1 rounded-xl border border-surface-200 dark:border-surface-800 shadow-md"
-                :class="isMobile ? 'relative mb-6' : 'sticky top-20'"
-            >
-                <EventsMobileFilters 
-                    :events="events || []"
-                    :selectedCountry="selectedCountry"
-                    :selectedCity="selectedCity"
-                    :showPastEvents="showPastEvents"
-                    :pending="pending"
-                    @update:selectedCountry="handleCountrySelect"
-                    @update:selectedCity="handleCitySelect"
-                    @update:showPastEvents="showPastEvents = $event"
+        <section class="rounded-3xl border border-surface-200 bg-surface-0 p-5 shadow-sm dark:border-surface-800 dark:bg-surface-900 md:p-7">
+            <div class="mb-6 flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
+                <div>
+                    <p class="text-xs font-black uppercase tracking-[0.2em] text-primary-500">
+                        {{ t('eventsPage.exploreArchive') }}
+                    </p>
+                    <h2 class="mt-2 text-2xl font-black text-surface-900 dark:text-surface-0">
+                        {{ t('eventsPage.timeline') }}
+                    </h2>
+                    <p class="mt-1 max-w-2xl text-sm leading-6 text-surface-500 dark:text-surface-400">
+                        {{ t('eventsPage.archiveDescription') }}
+                    </p>
+                </div>
+                <Button
+                    v-if="hasActiveFilters"
+                    :label="t('eventsPage.clearFilters')"
+                    icon="pi pi-filter-slash"
+                    severity="secondary"
+                    text
+                    size="small"
+                    @click="resetFilters"
                 />
             </div>
 
-            <!-- Mobile Submit Button (Floating) -->
-            <div class="fixed bottom-6 right-6 z-20 md:hidden">
-                <Button 
-                    icon="pi pi-plus" 
-                    rounded
-                    raised
-                    size="large"
-                    class="!w-14 !h-14 !shadow-2xl shadow-primary-500/30"
-                    @click="showSubmitDialog = true"
+            <div class="grid gap-3 md:grid-cols-2 xl:grid-cols-[minmax(260px,1.5fr)_0.7fr_1fr_1fr_0.9fr]">
+                <div class="relative">
+                    <i class="pi pi-search absolute left-3 top-1/2 z-10 -translate-y-1/2 text-surface-400"></i>
+                    <InputText
+                        v-model="searchQuery"
+                        :placeholder="t('eventsPage.searchPlaceholder')"
+                        class="w-full !pl-10"
+                    />
+                </div>
+                <Select
+                    v-model="selectedYear"
+                    :options="yearOptions"
+                    optionLabel="label"
+                    optionValue="value"
+                    :placeholder="t('eventsPage.allYears')"
+                    showClear
+                    class="w-full"
+                />
+                <Select
+                    v-model="selectedCountry"
+                    :options="countryOptions"
+                    optionLabel="label"
+                    optionValue="value"
+                    :placeholder="t('eventsPage.allCountries')"
+                    showClear
+                    filter
+                    class="w-full"
+                />
+                <Select
+                    v-model="selectedCity"
+                    :options="cityOptions"
+                    optionLabel="label"
+                    optionValue="value"
+                    :placeholder="t('eventsPage.allCities')"
+                    showClear
+                    filter
+                    class="w-full"
+                />
+                <Select
+                    v-model="sortOrder"
+                    :options="sortOptions"
+                    optionLabel="label"
+                    optionValue="value"
+                    class="w-full"
                 />
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-[240px_240px_1fr] gap-8 items-start">
-                <!-- Country Sidebar (Desktop) -->
-                <aside class="sticky-trigger hidden lg:block sticky top-20 max-h-[calc(100vh-2rem)] overflow-y-auto custom-scrollbar">
-                    <div class="bg-surface-0 dark:bg-surface-900 p-4 rounded-2xl border border-surface-200 dark:border-surface-700">
-                        <div v-if="pending" class="space-y-4">
-                            <Skeleton width="100%" height="2rem" />
-                            <div class="space-y-2">
-                                <Skeleton v-for="i in 5" :key="i" width="100%" height="2.5rem" />
-                            </div>
-                        </div>
-                        <EventsCountrySidebar 
-                            v-else-if="events"
-                            :events="events" 
-                            :selectedCountry="selectedCountry"
-                            :showPastEvents="showPastEvents"
-                            @selectCountry="handleCountrySelect"
-                        />
-                    </div>
-                </aside>
+            <div v-if="yearCounts.length > 1" class="mt-5 flex gap-2 overflow-x-auto pb-1 hide-scrollbar">
+                <button
+                    type="button"
+                    class="whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-bold transition-colors"
+                    :class="selectedYear === null
+                        ? 'border-primary-500 bg-primary-500 text-white'
+                        : 'border-surface-200 text-surface-600 hover:border-primary-300 dark:border-surface-700 dark:text-surface-300'"
+                    @click="selectedYear = null"
+                >
+                    {{ t('eventsPage.allYears') }}
+                </button>
+                <button
+                    v-for="year in yearCounts"
+                    :key="year.value"
+                    type="button"
+                    class="whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-bold transition-colors"
+                    :class="selectedYear === year.value
+                        ? 'border-primary-500 bg-primary-500 text-white'
+                        : 'border-surface-200 text-surface-600 hover:border-primary-300 dark:border-surface-700 dark:text-surface-300'"
+                    @click="selectedYear = year.value"
+                >
+                    {{ year.label }} · {{ $nFa(year.count) }}
+                </button>
+            </div>
+        </section>
 
-                <!-- City Sidebar (Desktop) -->
-                <aside class="sticky-trigger hidden lg:block sticky top-20 max-h-[calc(100vh-2rem)] overflow-y-auto custom-scrollbar">
-                    <div v-if="selectedCountry || pending" class="bg-surface-0 dark:bg-surface-900 p-4 rounded-2xl border border-surface-200 dark:border-surface-700">
-                        <div v-if="pending" class="space-y-4">
-                             <Skeleton width="100%" height="2rem" />
-                            <div class="space-y-2">
-                                <Skeleton v-for="i in 5" :key="i" width="100%" height="2.5rem" />
-                            </div>
-                        </div>
-                        <EventsCitySidebar 
-                            v-else-if="events && selectedCountry"
-                            :events="events" 
-                            :selectedCountry="selectedCountry"
-                            :selectedCity="selectedCity"
-                            :showPastEvents="showPastEvents"
-                            @selectCity="handleCitySelect"
-                        />
-                    </div>
-                     <div v-else-if="!pending" class="text-center p-8 opacity-50">
-                        <i class="pi pi-map text-4xl text-surface-300 mb-2"></i>
-                        <p class="text-sm text-surface-500">{{ t('eventsPage.selectCountry') }}</p>
-                    </div>
-                </aside>
-
-                <!-- Events Content -->
-                <main class="min-w-0">
-                    <div v-if="isLoading" class="flex flex-col gap-6">
-                        <EventsEventSkeleton v-for="i in 4" :key="i" />
-                    </div>
-
-                    <div v-else-if="filteredEvents.length > 0" class="flex flex-col gap-6">
-                        <TransitionGroup name="list">
-                            <EventsEventCard v-for="ev in filteredEvents" :key="ev.id" :event="ev" />
-                        </TransitionGroup>
-                    </div>
-                    
-                    <div v-else class="text-center py-32 bg-surface-50/50 dark:bg-surface-900/30 rounded-3xl border-2 border-dashed border-surface-200 dark:border-surface-800">
-                        <div class="w-16 h-16 bg-surface-100 dark:bg-surface-800 rounded-2xl flex items-center justify-center mx-auto mb-6">
-                            <i class="pi pi-search text-3xl text-surface-300 dark:text-surface-600"></i>
-                        </div>
-                        <h2 class="text-2xl font-bold text-surface-700 dark:text-surface-200 mb-2">{{ t('eventsPage.emptyTitle') }}</h2>
-                        <p class="text-surface-500 dark:text-surface-400 text-lg max-w-sm mx-auto">
-                            {{ t('eventsPage.emptyDescription') }}
-                        </p>
-                    </div>
-                </main>
+        <section>
+            <div class="mb-5 flex flex-wrap items-center justify-between gap-3 px-1">
+                <p class="text-sm font-semibold text-surface-500 dark:text-surface-400">
+                    {{ t('eventsPage.showing') }}
+                    <span class="font-black text-surface-900 dark:text-surface-100">{{ $nFa(Math.min(visibleEvents.length, filteredEvents.length)) }}</span>
+                    {{ t('eventsPage.of') }}
+                    <span class="font-black text-surface-900 dark:text-surface-100">{{ $nFa(filteredEvents.length) }}</span>
+                    {{ t('eventsPage.records') }}
+                </p>
+                <p class="flex items-center gap-2 text-xs text-surface-400">
+                    <i class="pi pi-info-circle"></i>
+                    {{ t('eventsPage.expandHint') }}
+                </p>
             </div>
 
-            <!-- Submit Event Dialog -->
-            <Dialog 
-                v-model:visible="showSubmitDialog" 
-                modal 
-                :header="submissionStepTitle" 
-                :style="{ width: '90vw', maxWidth: '1000px' }"
-                :draggable="false"
-                class="submission-dialog"
-            >
-                <SubmissionsEventSubmissionForm @update:step-title="submissionStepTitle = $event" />
-            </Dialog>
-    </div>
+            <div v-if="pending" class="space-y-6">
+                <EventsEventSkeleton v-for="i in 4" :key="i" />
+            </div>
+
+            <div v-else-if="archiveGroups.length" class="space-y-12">
+                <section
+                    v-for="group in archiveGroups"
+                    :key="group.key"
+                    class="relative border-l border-surface-200 pl-5 dark:border-surface-800 md:pl-8"
+                >
+                    <div class="sticky top-20 z-10 mb-5 flex items-center gap-3">
+                        <span class="-ml-[1.65rem] h-3 w-3 rounded-full border-2 border-primary-500 bg-surface-50 shadow-[0_0_0_5px_rgba(99,102,241,0.12)] dark:bg-surface-950 md:-ml-[2.15rem]"></span>
+                        <div class="flex items-center gap-3 rounded-full border border-surface-200 bg-surface-0/95 px-4 py-2 shadow-sm backdrop-blur dark:border-surface-700 dark:bg-surface-900/95">
+                            <h2 class="text-sm font-black uppercase tracking-[0.12em] text-surface-800 dark:text-surface-100">
+                                {{ group.label }}
+                            </h2>
+                            <span class="rounded-full bg-surface-100 px-2 py-0.5 text-[10px] font-bold text-surface-500 dark:bg-surface-800 dark:text-surface-400">
+                                {{ $nFa(group.events.length) }}
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="grid gap-6 xl:grid-cols-2">
+                        <EventsEventCard
+                            v-for="event in group.events"
+                            :key="event.id"
+                            :event="event"
+                        />
+                    </div>
+                </section>
+
+                <div v-if="visibleEvents.length < filteredEvents.length" class="flex justify-center pt-2">
+                    <Button
+                        :label="t('eventsPage.loadMore')"
+                        icon="pi pi-chevron-down"
+                        iconPos="right"
+                        severity="secondary"
+                        outlined
+                        class="!rounded-xl !px-6"
+                        @click="visibleLimit += 24"
+                    />
+                </div>
+            </div>
+
+            <div v-else class="rounded-3xl border-2 border-dashed border-surface-200 bg-surface-50/50 px-6 py-24 text-center dark:border-surface-800 dark:bg-surface-900/30">
+                <div class="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-2xl bg-surface-100 dark:bg-surface-800">
+                    <i class="pi pi-search text-2xl text-surface-400"></i>
+                </div>
+                <h2 class="text-2xl font-black text-surface-800 dark:text-surface-100">
+                    {{ t('eventsPage.noResultsTitle') }}
+                </h2>
+                <p class="mx-auto mt-2 max-w-md text-surface-500 dark:text-surface-400">
+                    {{ t('eventsPage.noResultsDescription') }}
+                </p>
+                <Button
+                    :label="t('eventsPage.clearFilters')"
+                    icon="pi pi-filter-slash"
+                    severity="secondary"
+                    class="mt-6"
+                    @click="resetFilters"
+                />
+            </div>
+        </section>
+
+        <aside class="flex gap-4 rounded-2xl border border-amber-200/70 bg-amber-50/70 p-5 text-amber-950 dark:border-amber-900/50 dark:bg-amber-950/20 dark:text-amber-100">
+            <i class="pi pi-book mt-0.5 text-lg text-amber-600 dark:text-amber-400"></i>
+            <div>
+                <h2 class="font-black">{{ t('eventsPage.archiveNoteTitle') }}</h2>
+                <p class="mt-1 text-sm leading-6 text-amber-900/75 dark:text-amber-100/70">
+                    {{ t('eventsPage.archiveNoteDescription') }}
+                </p>
+            </div>
+        </aside>
     </div>
 </template>
 
 <style scoped>
-:deep(.submission-dialog) .p-dialog-header {
-    @apply px-6 pt-6 md:px-8 md:pt-8;
-}
-:deep(.submission-dialog) .p-dialog-content {
-    @apply px-6 pb-6 md:px-8 md:pb-8;
-}
-
-.custom-scrollbar::-webkit-scrollbar {
-    width: 4px;
-}
-.custom-scrollbar::-webkit-scrollbar-track {
-    @apply bg-transparent;
-}
-.custom-scrollbar::-webkit-scrollbar-thumb {
-    @apply bg-surface-200 dark:bg-surface-700 rounded-full;
+.archive-grid {
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+    background-size: 36px 36px;
+    mask-image: linear-gradient(to bottom right, black, transparent 80%);
 }
 
-.list-move, /* apply transition to moving elements */
-.list-enter-active,
-.list-leave-active {
-  transition: all 0.5s ease;
+.hide-scrollbar::-webkit-scrollbar {
+    display: none;
 }
-.list-enter-from,
-.list-leave-to {
-  opacity: 0;
-  transform: translateY(30px);
-}
-.list-leave-active {
-  position: absolute; /* ensure removed items are taken out of flow */
-  width: 100%; /* prevent collapse width */
-  z-index: 0;
+
+.hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 </style>

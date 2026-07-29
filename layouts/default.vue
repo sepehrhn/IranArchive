@@ -353,7 +353,7 @@ onUnmounted(() => {
             </div>
 
             <!-- Bottom Row: Navigation -->
-            <div class="bg-surface-50/10 dark:bg-surface-950/10 border-t border-surface-200/20 dark:border-surface-800/20 relative z-10">
+            <div class="hidden md:block bg-surface-50/10 dark:bg-surface-950/10 border-t border-surface-200/20 dark:border-surface-800/20 relative z-10">
                 <nav class="container mx-auto px-6 h-14 flex items-center gap-2 overflow-visible no-scrollbar">
                         <NuxtLink 
                             to="/incidents" 

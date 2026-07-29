@@ -87,91 +87,6 @@ const hasDetails = computed(() => {
     );
 });
 
-// Calendar Popup
-const showCalendarPopup = ref(false);
-
-// Helper to parse event date and time
-const parseEventDateTime = (dateStr: string, timeStr?: string | null) => {
-    // dateStr is in YYYY/MM/DD format, convert to YYYY-MM-DD for Date parsing
-    const formattedDate = dateStr.replace(/\//g, '-');
-    const dateTimeStr = timeStr ? `${formattedDate}T${timeStr}:00` : `${formattedDate}T00:00:00`;
-    return new Date(dateTimeStr);
-};
-
-const openGoogleCalendar = () => {
-    const ev = props.event;
-    const start = parseEventDateTime(ev.date.start, ev.date.start_time);
-    const end = (ev.date.end && ev.date.end_time)
-        ? parseEventDateTime(ev.date.end, ev.date.end_time)
-        : new Date(start.getTime() + 3 * 60 * 60 * 1000); // 3 hour default
-    
-    const startStr = start.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
-    const endStr = end.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
-    
-    const loc = Array.isArray(ev.location) ? null : (ev.location as any);
-    const location = ev.type === 'online' 
-        ? 'Online' 
-        : `${loc?.address || ''}, ${loc?.city || ''}, ${loc?.country || ''}`;
-    
-    const details = `${ev.description || ev.title}\n\nOrganizer: ${ev.organizer.name}`;
-    
-    const url = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(ev.title)}&dates=${startStr}/${endStr}&details=${encodeURIComponent(details)}&location=${encodeURIComponent(location)}`;
-    
-    window.open(url, '_blank');
-    showCalendarPopup.value = false;
-};
-
-// ICS Download
-const downloadICS = () => {
-    const ev = props.event;
-    
-    const formatDate = (date: Date) => {
-        return date.toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
-    };
-
-    const start = parseEventDateTime(ev.date.start, ev.date.start_time);
-    const end = (ev.date.end && ev.date.end_time)
-        ? parseEventDateTime(ev.date.end, ev.date.end_time)
-        : new Date(start.getTime() + 3 * 60 * 60 * 1000); // 3 hour default
-    
-    const description = `
-${ev.description || ev.title}
-
-Organizer: ${ev.organizer.name}
-Link: ${ev.online?.join_url || window.location.href}
-`.trim();
-
-    const loc = Array.isArray(ev.location) ? null : (ev.location as any);
-    const location = ev.type === 'online' 
-        ? 'Online' 
-        : `${loc?.address || ''}, ${loc?.city || ''}, ${loc?.country || ''}`;
-
-    const content = [
-        'BEGIN:VCALENDAR',
-        'VERSION:2.0',
-        'PRODID:-//IranArchive//Events//EN',
-        'BEGIN:VEVENT',
-        `UID:${ev.id}@iranarchive.net`,
-        `DTSTAMP:${formatDate(new Date())}`,
-        `DTSTART:${formatDate(start)}`,
-        `DTEND:${formatDate(end)}`,
-        `SUMMARY:${ev.title}`,
-        `DESCRIPTION:${description.replace(/\n/g, '\\n')}`,
-        `LOCATION:${location}`,
-        'END:VEVENT',
-        'END:VCALENDAR'
-    ].join('\r\n');
-
-    const blob = new Blob([content], { type: 'text/calendar;charset=utf-8' });
-    const link = document.createElement('a');
-    link.href = URL.createObjectURL(blob);
-    link.download = `${ev.id}.ics`;
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    showCalendarPopup.value = false;
-};
-
 const showMapsPopup = ref(false);
 const showShareDialog = ref(false);
 
@@ -261,21 +176,12 @@ const openAppleMaps = () => {
 
             <!-- Date & Location Blocks -->
             <div class="grid grid-cols-1 gap-3 mb-4">
-                <button 
-                    @click="showCalendarPopup = true"
-                    class="group/date flex items-center gap-3 p-3 rounded-xl bg-surface-50/80 dark:bg-surface-950/40 border border-surface-100 dark:border-surface-800 hover:bg-primary-50 dark:hover:bg-primary-900/10 hover:border-primary-200 dark:hover:border-primary-800/50 transition-all duration-200 text-left w-full relative overflow-hidden"
-                    title="Add to Calendar"
-                >
-                    <div class="w-10 h-10 rounded-lg bg-white dark:bg-surface-800 flex items-center justify-center shadow-sm border border-surface-100 dark:border-surface-800 group-hover/date:border-primary-200 dark:group-hover/date:border-primary-700/50 transition-colors">
-                        <i class="pi pi-calendar-plus text-primary-500 dark:text-primary-400 group-hover/date:scale-110 transition-transform duration-300"></i>
+                <div class="flex w-full items-center gap-3 rounded-xl border border-surface-100 bg-surface-50/80 p-3 text-left dark:border-surface-800 dark:bg-surface-950/40">
+                    <div class="flex h-10 w-10 items-center justify-center rounded-lg border border-surface-100 bg-white shadow-sm dark:border-surface-800 dark:bg-surface-800">
+                        <i class="pi pi-calendar text-primary-500 dark:text-primary-400"></i>
                     </div>
                     <EventsEventTimeBlock :event="event" class="flex-1" />
-                    
-                    <!-- Hover hint -->
-                    <div class="absolute right-3 top-1/2 -translate-y-1/2 opacity-0 group-hover/date:opacity-100 transition-opacity duration-200">
-                        <i class="pi pi-angle-right text-primary-500 text-lg"></i>
-                    </div>
-                </button>
+                </div>
                 
                 <button 
                     @click="showMapsPopup = true"
@@ -293,6 +199,13 @@ const openAppleMaps = () => {
                     </div>
                 </button>
             </div>
+
+            <p
+                v-if="event.description?.trim()"
+                class="mb-4 line-clamp-3 text-sm leading-6 text-surface-600 dark:text-surface-400"
+            >
+                {{ excerpt }}
+            </p>
 
             <!-- Expand/Collapse Button -->
             <button
@@ -387,46 +300,6 @@ const openAppleMaps = () => {
                 </div>
             </div>
         </Transition>
-
-        <!-- Calendar Popup Modal -->
-        <Dialog v-model:visible="showCalendarPopup" modal header="Add to Calendar" :style="{ width: '450px' }" :draggable="false" class="premium-dialog">
-            <template #header>
-                <div class="flex items-center justify-between w-full">
-                    <span class="text-lg font-bold text-surface-900 dark:text-surface-0">Add to Calendar</span>
-                </div>
-            </template>
-            
-            <div class="px-1">
-                <!-- Summary Block -->
-                <div class="bg-surface-50 dark:bg-surface-950/50 p-4 rounded-2xl mb-5 border border-surface-100 dark:border-surface-800/50">
-                    <div class="text-xs font-black uppercase tracking-widest text-primary-500 dark:text-primary-400 mb-2">Event Timing</div>
-                    <div class="font-bold text-surface-900 dark:text-surface-0 leading-tight mb-1">
-                        {{ event.title }}
-                    </div>
-                    <div class="text-xs text-surface-500 font-medium">
-                        <EventsEventTimeBlock :event="event" class="!text-surface-500" />
-                    </div>
-                </div>
-
-                <div class="grid grid-cols-1 gap-2">
-                    <button @click="openGoogleCalendar" class="selection-row group/item">
-                        <div class="icon-wrap !bg-transparent !border-0 !p-0">
-                            <img src="/img/icons/google-logo.svg" alt="Google" class="w-full h-full object-contain" />
-                        </div>
-                        <span class="row-title">Google Calendar</span>
-                        <i class="pi pi-chevron-right row-arrow"></i>
-                    </button>
-
-                    <button @click="downloadICS" class="selection-row group/item">
-                        <div class="icon-wrap !bg-transparent !border-0 !p-0">
-                            <img src="/img/icons/apple-logo.svg" alt="Apple" class="w-full h-full object-contain dark:invert" />
-                        </div>
-                        <span class="row-title">Apple / Other (.ics)</span>
-                        <i class="pi pi-chevron-right row-arrow"></i>
-                    </button>
-                </div>
-            </div>
-        </Dialog>
 
         <!-- Maps Selection Popup -->
         <Dialog v-model:visible="showMapsPopup" modal header="View on Map" :style="{ width: '450px' }" :draggable="false" class="premium-dialog">
