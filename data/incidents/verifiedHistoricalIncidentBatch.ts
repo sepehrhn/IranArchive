@@ -128,7 +128,7 @@ export const verifiedHistoricalIncidentBatch: Incident[] = seeds.map((s, index) 
   id:`ia-batch-${String(index+1).padStart(3,'0')}`,
   status:'verified',
   ratings:{veracity:s.veracity,evidence_availability:s.evidence},
-  occurred_at:{start:s.date,start_time:'',end:'',end_time:'',timezone:'Asia/Tehran',precision:s.kind==='capital'?'Approx':'Exact'},
+  occurred_at:{start:s.date,start_time:'',end:'',end_time:'',timezone:'Asia/Tehran',precision:s.kind==='capital'?'approx':'exact'},
   location:{country:'Iran',province:s.province,city:s.city,address:'',lat:undefined,lng:undefined},
   incident_type:s.kind==='child'?'Uprising / Killing of Child':s.kind==='capital'?'Judicial Repression / Death Penalty':'Uprising / Crackdown / Unlawful Killing',
   severity:{deaths:{min:s.kind==='child'?1:0,max:s.kind==='child'?1:0},injured:{min:0,max:0},arrests:{min:0,max:0}},
