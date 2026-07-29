@@ -16,12 +16,11 @@ useSeoMeta({
 });
 
 const { listEvents } = useEvents();
-const { loadCountries } = useCountries();
+const { loadCountries, getCountryFlagUrl } = useCountries();
 
 const events = ref<ParsedEvent[]>([]);
 const pending = ref(true);
 const searchQuery = ref('');
-const selectedYear = ref<string | null>(null);
 const selectedCountry = ref<string | null>(null);
 const selectedCity = ref<string | null>(null);
 const sortOrder = ref<'newest' | 'oldest'>('newest');
@@ -76,25 +75,6 @@ const archiveStats = computed(() => {
     };
 });
 
-const yearOptions = computed(() => {
-    const years = new Set(archivedEvents.value.map(event => event.date.start.slice(0, 4)));
-    return Array.from(years)
-        .sort((a, b) => Number(b) - Number(a))
-        .map(year => ({ label: year, value: year }));
-});
-
-const yearCounts = computed(() => {
-    const counts = new Map<string, number>();
-    archivedEvents.value.forEach(event => {
-        const year = event.date.start.slice(0, 4);
-        counts.set(year, (counts.get(year) || 0) + 1);
-    });
-    return yearOptions.value.map(option => ({
-        ...option,
-        count: counts.get(option.value) || 0,
-    }));
-});
-
 const countryOptions = computed(() => {
     const codes = new Set<string>();
     archivedEvents.value.forEach(event => {
@@ -111,13 +91,12 @@ const countryOptions = computed(() => {
 });
 
 const cityOptions = computed(() => {
+    if (!selectedCountry.value) return [];
+
     const cities = new Set<string>();
     archivedEvents.value.forEach(event => {
         const location = getLocation(event);
-        if (
-            location?.city &&
-            (!selectedCountry.value || location.country === selectedCountry.value)
-        ) {
+        if (location?.city && location.country === selectedCountry.value) {
             cities.add(location.city);
         }
     });
@@ -137,11 +116,10 @@ const filteredEvents = computed(() => {
 
     const filtered = archivedEvents.value.filter(event => {
         const location = getLocation(event);
-        const matchesYear = !selectedYear.value || event.date.start.startsWith(selectedYear.value);
         const matchesCountry = !selectedCountry.value || location?.country === selectedCountry.value;
         const matchesCity = !selectedCity.value || location?.city === selectedCity.value;
 
-        if (!matchesYear || !matchesCountry || !matchesCity) return false;
+        if (!matchesCountry || !matchesCity) return false;
         if (!query) return true;
 
         const searchable = [
@@ -211,7 +189,6 @@ const archiveRange = computed(() => {
 const hasActiveFilters = computed(() => {
     return Boolean(
         searchQuery.value ||
-        selectedYear.value ||
         selectedCountry.value ||
         selectedCity.value
     );
@@ -219,23 +196,17 @@ const hasActiveFilters = computed(() => {
 
 const resetFilters = () => {
     searchQuery.value = '';
-    selectedYear.value = null;
     selectedCountry.value = null;
     selectedCity.value = null;
     visibleLimit.value = 24;
 };
 
 watch(selectedCountry, () => {
-    if (
-        selectedCity.value &&
-        !cityOptions.value.some(option => option.value === selectedCity.value)
-    ) {
-        selectedCity.value = null;
-    }
+    selectedCity.value = null;
 });
 
 watch(
-    [searchQuery, selectedYear, selectedCountry, selectedCity, sortOrder],
+    [searchQuery, selectedCountry, selectedCity, sortOrder],
     () => {
         visibleLimit.value = 24;
     }
@@ -323,7 +294,7 @@ watch(
                 />
             </div>
 
-            <div class="grid gap-3 md:grid-cols-2 xl:grid-cols-[minmax(260px,1.5fr)_0.7fr_1fr_1fr_0.9fr]">
+            <div class="grid gap-3 md:grid-cols-2 xl:grid-cols-[minmax(280px,1.5fr)_1fr_1fr_0.9fr]">
                 <div class="relative">
                     <i class="pi pi-search absolute left-3 top-1/2 z-10 -translate-y-1/2 text-surface-400"></i>
                     <InputText
@@ -333,15 +304,6 @@ watch(
                     />
                 </div>
                 <Select
-                    v-model="selectedYear"
-                    :options="yearOptions"
-                    optionLabel="label"
-                    optionValue="value"
-                    :placeholder="t('eventsPage.allYears')"
-                    showClear
-                    class="w-full"
-                />
-                <Select
                     v-model="selectedCountry"
                     :options="countryOptions"
                     optionLabel="label"
@@ -350,13 +312,38 @@ watch(
                     showClear
                     filter
                     class="w-full"
-                />
+                >
+                    <template #value="slotProps">
+                        <div v-if="slotProps.value" class="flex min-w-0 items-center gap-2">
+                            <img
+                                :src="getCountryFlagUrl(slotProps.value)"
+                                :alt="countryOptions.find(country => country.value === slotProps.value)?.label || slotProps.value"
+                                class="h-3.5 w-5 flex-shrink-0 rounded-sm object-cover shadow-sm"
+                            />
+                            <span class="truncate">
+                                {{ countryOptions.find(country => country.value === slotProps.value)?.label }}
+                            </span>
+                        </div>
+                        <span v-else class="text-surface-400">{{ slotProps.placeholder }}</span>
+                    </template>
+                    <template #option="slotProps">
+                        <div class="flex items-center gap-3">
+                            <img
+                                :src="getCountryFlagUrl(slotProps.option.value)"
+                                :alt="slotProps.option.label"
+                                class="h-4 w-6 flex-shrink-0 rounded object-cover shadow-sm"
+                            />
+                            <span>{{ slotProps.option.label }}</span>
+                        </div>
+                    </template>
+                </Select>
                 <Select
                     v-model="selectedCity"
                     :options="cityOptions"
                     optionLabel="label"
                     optionValue="value"
-                    :placeholder="t('eventsPage.allCities')"
+                    :placeholder="selectedCountry ? t('eventsPage.allCities') : t('eventsPage.chooseCountryFirst')"
+                    :disabled="!selectedCountry"
                     showClear
                     filter
                     class="w-full"
@@ -368,31 +355,6 @@ watch(
                     optionValue="value"
                     class="w-full"
                 />
-            </div>
-
-            <div v-if="yearCounts.length > 1" class="mt-5 flex gap-2 overflow-x-auto pb-1 hide-scrollbar">
-                <button
-                    type="button"
-                    class="whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-bold transition-colors"
-                    :class="selectedYear === null
-                        ? 'border-primary-500 bg-primary-500 text-white'
-                        : 'border-surface-200 text-surface-600 hover:border-primary-300 dark:border-surface-700 dark:text-surface-300'"
-                    @click="selectedYear = null"
-                >
-                    {{ t('eventsPage.allYears') }}
-                </button>
-                <button
-                    v-for="year in yearCounts"
-                    :key="year.value"
-                    type="button"
-                    class="whitespace-nowrap rounded-full border px-3 py-1.5 text-xs font-bold transition-colors"
-                    :class="selectedYear === year.value
-                        ? 'border-primary-500 bg-primary-500 text-white'
-                        : 'border-surface-200 text-surface-600 hover:border-primary-300 dark:border-surface-700 dark:text-surface-300'"
-                    @click="selectedYear = year.value"
-                >
-                    {{ year.label }} · {{ $nFa(year.count) }}
-                </button>
             </div>
         </section>
 
@@ -421,9 +383,9 @@ watch(
                     :key="group.key"
                     class="relative border-l border-surface-200 pl-5 dark:border-surface-800 md:pl-8"
                 >
-                    <div class="sticky top-20 z-10 mb-5 flex items-center gap-3">
-                        <span class="-ml-[1.65rem] h-3 w-3 rounded-full border-2 border-primary-500 bg-surface-50 shadow-[0_0_0_5px_rgba(99,102,241,0.12)] dark:bg-surface-950 md:-ml-[2.15rem]"></span>
-                        <div class="flex items-center gap-3 rounded-full border border-surface-200 bg-surface-0/95 px-4 py-2 shadow-sm backdrop-blur dark:border-surface-700 dark:bg-surface-900/95">
+                    <div class="sticky top-20 z-10 mb-5 flex items-center">
+                        <span class="absolute -left-[26.5px] top-1/2 h-3 w-3 -translate-y-1/2 rounded-full border-2 border-primary-500 bg-surface-50 shadow-[0_0_0_5px_rgba(99,102,241,0.12)] dark:bg-surface-950 md:-left-[38.5px]"></span>
+                        <div class="flex items-center gap-3 rounded-full border border-surface-200 bg-surface-0/95 px-4 py-2 shadow-sm backdrop-blur dark:border-surface-700 dark:bg-surface-900/95 md:-ml-2">
                             <h2 class="text-sm font-black uppercase tracking-[0.12em] text-surface-800 dark:text-surface-100">
                                 {{ group.label }}
                             </h2>
@@ -496,12 +458,4 @@ watch(
     mask-image: linear-gradient(to bottom right, black, transparent 80%);
 }
 
-.hide-scrollbar::-webkit-scrollbar {
-    display: none;
-}
-
-.hide-scrollbar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
 </style>
