@@ -1,0 +1,172 @@
+# Verification status of the incident
+# Options: 'draft' | 'not_verified' | 'disputed' | 'verified'
+status: "verified"
+
+ratings:
+  veracity: 10
+  evidence_availability: 6
+
+# Date and time range of the incident
+occurred_at:
+  # Start date in YYYY/MM/DD format
+  start: "2026/01/08"
+  start_time: "20:00"
+  # End date (optional)
+  end: "2026/01/16"
+  end_time: "00:00"
+  # Timezone string (e.g. 'Asia/Tehran')
+  timezone: "Asia/Tehran"
+  # Date precision
+  # Options: 'Exact' | 'Approx' | 'Unknown'
+  precision: "Exact"
+
+# Location details
+location:
+  country: "Iran"
+  # Province name
+  province: "Bushehr"
+  # City name
+  city: "Bushehr"
+  # Specific address or landmark (optional)
+  address: "City hospitals and streets"
+  # Latitude (optional)
+  lat:
+  # Longitude (optional)
+  lng:
+
+# Type of incident (free text, e.g. Protest, Crackdown, Arrest, Strike)
+incident_type: "Uprising / Shooting / Killing"
+
+# Estimated severity statistics (optional)
+# each range has 'min' and 'max' properties
+severity:
+  deaths:
+    min: 20
+    max: 30
+  injured:
+    min: 20
+    max: 100
+  arrests:
+    min: 0
+    max: 0
+
+# -----------------------------------------------------------------------------
+# Content Section
+# -----------------------------------------------------------------------------
+
+# Human-readable title of the incident
+title: "Bushehr Uprising: Shooting and Casualties"
+
+# Brief summary (1-2 sentences) for lists and previews
+summary: "Security forces in Bushehr fired on protesters on January 8-9, causing severe eye injuries. Nurse Mansoureh Heydari was among those killed on January 16."
+
+# Detailed narrative of the event. Supports Markdown.
+narrative: |
+  During the nationwide uprising in January 2026, Bushehr witnessed intense protests and a subsequent violent crackdown. On the nights of January 8 and 9, 2026, security forces fired at protesters from elevated positions, resulting in over 20 people specifically sustaining severe eye injuries.
+  
+  Medical centers in Bushehr were reportedly overwhelmed by the influx of wounded individuals. Among the tragic casualties was Mansoureh Heydari, a nurse at the Social Security Hospital in Bushehr, who was identified as a victim killed in the uprising on January 16, 2026.
+  
+  Initial reports from a caller on January 13, 2026, had estimated a death toll between 20 and 30, which remains unverified but aligns with the scale of violence reported.
+
+# Key claims made about the incident (that may or may not be verified yet)
+key_claims:
+  - "Security forces fired from elevated positions on Jan 8 & 9."
+  - "Over 20 protesters sustained severe eye injuries."
+  - "Nurse Mansoureh Heydari killed on Jan 16, 2026."
+  - "Hospitals in Bushehr were overwhelmed."
+
+# Open questions or missing information
+open_questions:
+  - "Exact cause of death for Mansoureh Heydari."
+  - "Full list of the 20-30 estimated victims."
+  - "Specific locations of the shooting incidents."
+
+# Limitations of the current report (e.g. lack of video, biased sources)
+limitations:
+  - "Death toll estimate (20–30) relies on initial phone reports and requires further corroboration."
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+
+# Evidence IDs (referencing files in /data/evidences/)
+# Evidence files are now stored separately in /data/evidences/YYYY/MM/ev-ID.yaml
+# IDs are the filenames (e.g. ev-2026-00001-vid-001)
+evidence_ids: []
+
+# Sources (News reports, social media posts, etc.)
+sources:
+  - id: "src-001"
+    label: "Phone report from Bushehr resident"
+    url: ""
+    publisher: "Primary source (phone call)"
+    published_at: "2026/01/13"
+    # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
+    type: "primary"
+    archived_urls: []
+    language: ""
+    notes: "Initial report of 20-30 deaths."
+  - id: "src-002"
+    label: "Reports on Bushehr eye injuries and nurse death"
+    url: ""
+    publisher: "Human Rights Sources"
+    published_at: "2026/01/20"
+    # Type: 'primary' (eyewitness) | 'secondary' (reporting/analysis)
+    type: "secondary"
+    archived_urls: []
+    language: "en"
+    notes: "Confirmed details on eye injuries and death of Mansoureh Heydari."
+
+# Timeline of events within the incident
+timeline:
+  - at: "2026/01/08"
+    time: ""
+    title: "Shootings from Rooftops"
+    description: "Security forces fire on protesters; many sustain eye injuries."
+    evidence_ids: []
+    source_ids: ["src-002"]
+  - at: "2026/01/13"
+    time: ""
+    title: "Initial Report Received"
+    description: "Caller reports confirmation of shooting and 20-30 estimated deaths."
+    evidence_ids: []
+    source_ids: ["src-001"]
+  - at: "2026/01/16"
+    time: ""
+    title: "Death of Mansoureh Heydari"
+    description: "Nurse Mansoureh Heydari is killed during the uprising."
+    evidence_ids: []
+    source_ids: ["src-002"]
+
+# Internal review history
+review_history:
+  - at: "2026/01/13"
+    reviewer: "Sepehr"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "created"
+    to_status: "not_verified"
+    notes: "Initial intake from phone report."
+  - at: "2026/01/17"
+    reviewer: "Sepehr"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "status_changed"
+    to_status: "verified"
+    notes: "Status verified based on corroborated reports."
+  - at: "2026/01/27"
+    reviewer: "Sepehr"
+    # Change type: 'created' | 'status_changed' | 'evidence_added' | 'details_updated'
+    change: "details_updated"
+    to_status: "verified"
+    notes: "Updated with details on eye injuries and specific victim Mansoureh Heydari."
+
+# -----------------------------------------------------------------------------
+# Relations
+# -----------------------------------------------------------------------------
+
+# Victims involved
+victims: 
+  - "vic-2026-000138"
+  - "vic-2026-000178"
+
+# Related incidents (e.g. other protests in the same chain)
+related_incidents: []

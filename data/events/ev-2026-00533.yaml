@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "City Hall Vigil (Potential)"
+featured: false
+
+description: |
+  Potential gathering to mark the recent escalation of violence against students in Iran. Less consistent than the Galleria rally. | Tips: Check 'Woman Life Freedom Houston' social media for confirmation.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "15:00-17:00"
+
+location:
+  country: "US"
+  city: "Houston"
+  address: "Houston City Hall, 901 Bagby St, Houston, TX 77002 - Hermann Square (front lawn)."
+
+online: []
+
+organizer:
+  name: "Houston Iranian Activists"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

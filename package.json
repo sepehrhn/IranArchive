@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "iranarchive",
   "private": true,
   "type": "module",
   "scripts": {
@@ -7,22 +7,62 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "validate": "node scripts/validate-data.js && node scripts/validate-campaigns.js",
+    "typecheck": "nuxi prepare && vue-tsc --noEmit -p tsconfig.typecheck.json",
+    "check": "npm run validate && npm run validate:entities && npm run typecheck && npm run build",
+    "gen-metadata": "node scripts/generate-metadata.js",
+    "generate-thumbnails": "node scripts/generate-pdf-thumbnails.js",
+    "validate:entities": "node scripts/validate-entities.js",
+    "gen-indexes": "node scripts/generate-campaign-indexes.js && node scripts/generate-search-index.js",
+    "audit:data": "node scripts/audit-data-coverage.js"
   },
   "dependencies": {
+    "@googlemaps/js-api-loader": "^2.0.2",
     "@nuxtjs/color-mode": "latest",
     "@nuxtjs/i18n": "latest",
     "@nuxtjs/tailwindcss": "latest",
     "@primevue/themes": "latest",
+    "@types/d3-geo": "^3.1.0",
+    "@types/d3-selection": "^3.0.11",
+    "@types/d3-zoom": "^3.0.8",
+    "@types/markdown-it": "^14.1.2",
+    "canvas-confetti": "^1.9.4",
+    "d3-geo": "^3.1.1",
+    "d3-selection": "^3.0.0",
+    "d3-zoom": "^3.0.0",
+    "html2canvas": "^1.4.1",
+    "jalaali-js": "^1.2.8",
+    "jspdf": "^4.1.0",
+    "markdown-it": "^14.1.0",
     "nuxt": "^3.11.2",
+    "pdfjs-dist": "^5.4.624",
     "primeicons": "latest",
     "primevue": "latest",
+    "qrcode": "^1.5.4",
     "tailwindcss": "latest",
     "vue": "^3.4.21",
-    "vue-router": "^4.3.0"
+    "vue-router": "^4.3.0",
+    "vue3-persian-datetime-picker": "^1.2.2",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@primevue/nuxt-module": "^4.5.4",
-    "tailwindcss-primeui": "latest"
+    "@rollup/plugin-yaml": "^4.1.2",
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/canvas-confetti": "^1.9.0",
+    "@types/html2canvas": "^0.5.35",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^25.0.10",
+    "@types/qrcode": "^1.5.6",
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.1",
+    "puppeteer": "^24.36.1",
+    "tailwindcss-primeui": "latest",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1",
+    "vue-tsc": "^3.2.4"
   }
 }

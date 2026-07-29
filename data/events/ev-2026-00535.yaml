@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Malmö Saturday Rally"
+featured: false
+
+description: |
+  Regular Saturday rallies have been occurring in Malmö since Jan 2026. Verify organizer on site to ensure it meets your criteria (look for 'Woman Life Freedom' banners). | Tips: Avoid groups with yellow vests/Rajavi portraits if wishing to avoid MEK/NCRI.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  start_time: "13:00-15:00"
+
+location:
+  country: "SE"
+  city: "Lund"
+  address: "Gustav Adolfs Torg or Möllevångstorget, Malmö - 15 min by train from Lund."
+
+online: []
+
+organizer:
+  name: "Various (Check banners to distinguish from MEK)"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []

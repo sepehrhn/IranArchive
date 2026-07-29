@@ -12,9 +12,8 @@
             "type": "string",
             "enum": [
                 "video",
-                "photo",
-                "doc",
-                "testimony"
+                "image",
+                "doc"
             ]
         },
         "source_url": {

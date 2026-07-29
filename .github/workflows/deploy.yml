@@ -1,8 +1,10 @@
+# https://nuxt.com/docs/getting-started/deployment#github-pages
 name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main", "master"]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -12,7 +14,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -25,23 +27,35 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: "npm"
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build with Nuxt
-        run: npm run generate
+      - name: Validate and build
+        run: npm run check
         env:
-          # If your repo is <user>/<repo>, this usually defaults to /<repo>/ on GH Pages
-          # But for custom domains or root deployments, usage varies.
-          # Here we assume a repo deployment. Custom domains can override this.
-          NUXT_APP_BASE_URL: /${{ github.event.repository.name }}/
+          NODE_OPTIONS: --max-old-space-size=6144
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          NUXT_PUBLIC_MEDIA_REPO_OWNER: ${{ github.repository_owner }}
+          NUXT_PUBLIC_MEDIA_REPO_NAME: ${{ github.event.repository.name }}
+          NUXT_PUBLIC_MEDIA_REPO_REF: ${{ github.ref_name }}
+          NUXT_PUBLIC_TURNSTILE_SITE_KEY: ${{ secrets.NUXT_PUBLIC_TURNSTILE_SITE_KEY }}
+          NUXT_PUBLIC_SUBMISSION_API_BASE: ${{ secrets.NUXT_PUBLIC_SUBMISSION_API_BASE }}
+
+      - name: Verify build output
+        run: |
+          if [ ! -d ".output/public" ]; then
+            echo "Error: .output/public directory not found!"
+            exit 1
+          fi
+          echo "Build output contents:"
+          ls -la .output/public
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .output/public
+          path: ./.output/public
 
   deploy:
     environment:

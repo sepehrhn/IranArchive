@@ -1,0 +1,34 @@
+# -----------------------------------------------------------------------------
+# EVENT DATA SCHEMA - IRAN ARCHIVE
+# -----------------------------------------------------------------------------
+title: "Protest Against Regime's 'Fajr' Festival"
+featured: false
+
+description: |
+  Protests are anticipated outside the embassy to boycott and condemn the '8th Fajr International Crafts and Traditional Arts Festival' scheduled by the regime for Feb 28–Mar 1. Diaspora groups frequently gather here to denounce regime propaganda events and the presence of Islamic Republic officials. | Tips: Check 'Woman Life Freedom Stockholm' social media for specific meeting times, as embassy protests often mobilize rapidly in response to regime events.
+
+# Options: in_person, online, hybrid
+type: "in_person" 
+
+date:
+  start: "2026/02/28"
+  # start_time: "14:00"
+
+location:
+  country: "SE"
+  city: "Stockholm"
+  address: "Embassy of the Islamic Republic of Iran - Elfsviksvägen, Lidingö (accessible by bus/tram from Ropsten)."
+
+online: []
+
+organizer:
+  name: "Independent activists / Local community groups"
+  website: ""
+  contact_email: ""
+  socials:
+    x: ""
+    instagram: ""
+    telegram: ""
+
+source:
+  []
