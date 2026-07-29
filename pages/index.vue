@@ -529,7 +529,8 @@ useHead(() => ({
 .landing-hero {
     position: relative;
     isolation: isolate;
-    min-height: min(880px, calc(100svh - 3rem));
+    /* Account for the 7.5rem desktop header and its two one-pixel borders. */
+    min-height: calc(100svh - 7.5rem - 2px);
     display: flex;
     flex-direction: column;
     color: #f4f0e8;
@@ -565,7 +566,7 @@ useHead(() => ({
     grid-template-columns: minmax(0, 1.45fr) minmax(18rem, 0.55fr);
     gap: clamp(3rem, 8vw, 8rem);
     align-items: center;
-    padding-block: clamp(5rem, 11vw, 9rem);
+    padding-block: clamp(1.75rem, 3.2vw, 3.25rem);
 }
 
 .landing-kicker {
@@ -603,7 +604,7 @@ useHead(() => ({
     margin: 0;
     max-width: 12ch;
     font-family: 'Newsreader', Georgia, serif;
-    font-size: clamp(4.2rem, 8.8vw, 8.8rem);
+    font-size: clamp(3.8rem, 6.5vw, 6.75rem);
     font-weight: 500;
     letter-spacing: -0.065em;
     line-height: 0.82;
@@ -617,7 +618,7 @@ useHead(() => ({
 
 .landing-hero__body {
     max-width: 48rem;
-    margin: clamp(2.1rem, 4vw, 3.5rem) 0 0;
+    margin: clamp(1.5rem, 2.4vw, 2.25rem) 0 0;
     color: #c6c0b7;
     font-size: clamp(1.05rem, 1.8vw, 1.35rem);
     line-height: 1.65;
@@ -627,7 +628,7 @@ useHead(() => ({
     display: flex;
     flex-wrap: wrap;
     gap: 0.75rem;
-    margin-top: 2.4rem;
+    margin-top: 1.6rem;
 }
 
 .landing-button {
@@ -671,9 +672,9 @@ useHead(() => ({
 
 .landing-hero__dispatch {
     position: relative;
-    align-self: end;
-    margin-bottom: clamp(0rem, 4vw, 3rem);
-    padding: 1.5rem;
+    align-self: center;
+    margin: 0;
+    padding: 1.35rem;
     border-top: 3px solid var(--landing-signal);
     border-inline-start: 1px solid rgba(255, 255, 255, 0.18);
     background: rgba(255, 255, 255, 0.05);
@@ -702,10 +703,10 @@ useHead(() => ({
 .dispatch-value {
     display: block;
     max-width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 1.7rem;
     color: #fff;
     font-family: 'Newsreader', Georgia, serif;
-    font-size: clamp(4rem, 6vw, 6.25rem);
+    font-size: clamp(3.7rem, 5.2vw, 5.8rem);
     font-weight: 500;
     letter-spacing: -0.07em;
     line-height: 0.8;
@@ -722,7 +723,7 @@ useHead(() => ({
 }
 
 .landing-hero__dispatch p {
-    margin: 1.5rem 0 0;
+    margin: 1.25rem 0 0;
     color: #bdb7ae;
     font-size: 0.88rem;
     line-height: 1.65;
@@ -733,7 +734,7 @@ useHead(() => ({
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 1.25rem;
     padding-top: 1rem;
     color: #f4f0e8;
     border-top: 1px solid rgba(255, 255, 255, 0.16);
