@@ -29,4 +29,6 @@ All events are reviewed. We assign a verification status:
 -   **Verified**: Confirmed by reliable sources or known organizers.
 -   **Not Verified**: Source is unclear.
 
+Iran Archive does not list events organized by the NCRI, PMOI/MEK, OIAC, or their affiliated groups. Announcements and reports published by those organizations are not accepted as verification sources.
+
 We prioritize the safety of attendees. If an event location is sensitive, set `location_visibility` to `approximate` or `withheld`.

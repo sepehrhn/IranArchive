@@ -30,6 +30,14 @@ let warnings = 0;
 const evidenceIds = new Set();
 const victimIds = new Set();
 const incidentIds = new Set();
+const eventIds = new Set();
+const excludedEventSourceDomains = [
+  'ncr-iran.org',
+  'oiac.org',
+  'iranfreedom.org',
+  'mojahedin.org',
+  'maryam-rajavi.com'
+];
 const placeholderPatterns = [
   /Title of the Incident/i,
   /A brief summary of what happened/i,
@@ -285,6 +293,48 @@ function validateIncidentsYaml() {
   }
 }
 
+function validateEventsYaml() {
+  const eventsDir = path.join(dataDir, 'events');
+  const files = listFilesRecursive(eventsDir, (name) =>
+    (name.endsWith('.yaml') || name.endsWith('.yml')) && !name.endsWith('.example')
+  );
+
+  for (const filePath of files) {
+    const data = readYamlObject(filePath);
+    if (!data) continue;
+
+    const id = path.basename(filePath).replace(/\.(yaml|yml)$/i, '');
+    if (eventIds.has(id)) {
+      fail(`[DUPLICATE] Event ID ${id} in ${path.relative(rootDir, filePath)}`);
+    }
+    eventIds.add(id);
+
+    const organizerName = data.organizer?.name || '';
+    const explicitlyUnaffiliated = /\b(non[- ]?mek|not affiliated with mek|distinguish from mek|avoid mek)\b/i.test(organizerName);
+    const excludedOrganizer = /\b(ncri|pmoi|mek|oiac)\b|national council of resistance|mojah(?:e|a)din|maryam rajavi|iran democratic association/i.test(organizerName);
+
+    if (excludedOrganizer && !explicitlyUnaffiliated) {
+      fail(`[EXCLUDED_EVENT] Event ${id} has an NCRI/PMOI/MEK-affiliated organizer: "${organizerName}".`);
+    }
+
+    const urls = [
+      data.organizer?.website,
+      ...(Array.isArray(data.source) ? data.source : [])
+    ].filter(isNonEmptyString);
+
+    for (const url of urls) {
+      try {
+        const hostname = new URL(url).hostname.toLowerCase().replace(/^www\./, '');
+        if (excludedEventSourceDomains.some((domain) => hostname === domain || hostname.endsWith(`.${domain}`))) {
+          fail(`[EXCLUDED_EVENT] Event ${id} uses excluded NCRI/PMOI/MEK-affiliated source domain: ${hostname}.`);
+        }
+      } catch {
+        fail(`[INVALID] Event ${id} source or organizer website must be an http(s) URL: ${url}`);
+      }
+    }
+  }
+}
+
 function validateLegacyJsonDirectories() {
   const legacyEvidenceDir = path.join(dataDir, 'evidence');
   const legacySourcesDir = path.join(dataDir, 'sources');
@@ -334,6 +384,7 @@ console.log('Validating live YAML data...');
 validateVictimsYaml();
 validateEvidenceYaml();
 validateIncidentsYaml();
+validateEventsYaml();
 validateLegacyJsonDirectories();
 validateContentDocs();
 
