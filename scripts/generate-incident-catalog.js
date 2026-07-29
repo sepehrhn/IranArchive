@@ -167,12 +167,13 @@ function victimCandidate(fileName) {
   const provinceRaw = cleanString(raw.incident_province || raw.province);
   const province = provinces.has(provinceRaw) ? provinceRaw : '';
   const precisionRaw = cleanString(raw.date_of_death_precision).toLowerCase();
-  const exactDate = precisionRaw === 'exact' || precisionRaw === '';
+  const exactDate = precisionRaw === 'exact';
   const sourceDomains = unique(sources.map(domainOf).filter(Boolean));
   const cause = cleanString(raw.cause_of_death);
   const actor = cleanString(raw.suspected_actor);
   const description = cleanString(raw.description);
-  const age = Number.isFinite(Number(raw.age)) ? Number(raw.age) : null;
+  const ageRaw = cleanString(raw.age === undefined || raw.age === null ? '' : String(raw.age));
+  const age = ageRaw && Number.isFinite(Number(ageRaw)) ? Number(ageRaw) : null;
 
   const qualityScore =
     Math.min(sources.length, 5) * 12
