@@ -55,7 +55,7 @@
     "@rollup/plugin-yaml": "^4.1.2",
     "@tailwindcss/typography": "^0.5.19",
     "@types/canvas-confetti": "^1.9.0",
-    "@types/html2canvas": "^1.0.0",
+    "@types/html2canvas": "^0.5.35",
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^25.0.10",
     "@types/qrcode": "^1.5.6",
