@@ -123,7 +123,7 @@ const copy = computed(() => {
             {
                 year: '2026',
                 tag: 'Mass killing + blackout',
-                title: 'The current crackdown',
+                title: 'The January Massacres',
                 body: 'Verified videos and testimony show security forces firing on protesters while a nationwide blackout obstructed documentation and concealed the scale of killing.',
                 source: 'Amnesty International',
                 href: 'https://www.amnesty.org/en/latest/campaigns/2026/01/what-happened-at-the-protests-in-iran/',
@@ -269,7 +269,7 @@ const copy = computed(() => {
             {
                 year: '۲۰۲۶',
                 tag: 'کشتار و خاموشی',
-                title: 'سرکوب کنونی',
+                title: 'کشتارهای ژانویه',
                 body: 'ویدئوهای راستی‌آزمایی‌شده و شهادت‌ها تیراندازی نیروهای امنیتی به معترضان را نشان می‌دهد؛ هم‌زمان خاموشی سراسری ثبت و راستی‌آزمایی کشتار را مختل کرد.',
                 source: 'عفو بین‌الملل',
                 href: 'https://www.amnesty.org/en/latest/campaigns/2026/01/what-happened-at-the-protests-in-iran/',
@@ -709,13 +709,15 @@ useHead(() => ({
 
 .dispatch-value {
     display: block;
+    max-width: 100%;
     margin-top: 2.5rem;
     color: #fff;
     font-family: 'Newsreader', Georgia, serif;
-    font-size: clamp(4.5rem, 7vw, 7rem);
+    font-size: clamp(4rem, 6vw, 6.25rem);
     font-weight: 500;
     letter-spacing: -0.07em;
     line-height: 0.8;
+    white-space: nowrap;
 }
 
 .landing-hero__dispatch h2 {
@@ -982,9 +984,7 @@ useHead(() => ({
 }
 
 .history-section {
-    background:
-        linear-gradient(90deg, transparent 0 49.95%, var(--landing-line) 50%, transparent 50.05%),
-        var(--landing-paper);
+    background: var(--landing-paper);
 }
 
 .history-list {

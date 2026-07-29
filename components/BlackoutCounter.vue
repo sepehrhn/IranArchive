@@ -469,7 +469,8 @@ const formatTwoDigits = (value: number) => pn(String(value).padStart(2, '0'))
 }
 
 .blackout-report__regimes {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     height: 0.42rem;
     background: #191919;
 }
@@ -480,17 +481,14 @@ const formatTwoDigits = (value: number) => pn(String(value).padStart(2, '0'))
 }
 
 .regime-one {
-    width: 13.7%;
     background: #ef574b;
 }
 
 .regime-two {
-    width: 23.1%;
     background: #d7a93f;
 }
 
 .regime-three {
-    width: 63.2%;
     background: #a91f19;
 }
 
@@ -501,13 +499,26 @@ const formatTwoDigits = (value: number) => pn(String(value).padStart(2, '0'))
 }
 
 .blackout-report__phases article {
+    --phase-color: #ef574b;
     min-height: 19rem;
     padding: 1.4rem;
     border-inline-end: 1px solid var(--report-line);
 }
 
+.blackout-report__phases article:nth-child(2) {
+    --phase-color: #d7a93f;
+}
+
+.blackout-report__phases article:nth-child(3) {
+    --phase-color: #c92f28;
+}
+
 .blackout-report__phases article:last-child {
     border-inline-end: 0;
+}
+
+.blackout-report__phases .phase-index {
+    color: var(--phase-color);
 }
 
 .blackout-report__phases h4 {
