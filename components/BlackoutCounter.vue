@@ -21,6 +21,10 @@ const blackoutPeriods = [
         endedAt: Date.parse('2026-01-27T12:00:00Z'),
     },
     {
+        startedAt: Date.parse('2026-01-27T12:00:00Z'),
+        endedAt: Date.parse('2026-02-28T07:00:00Z'),
+    },
+    {
         startedAt: Date.parse('2026-02-28T07:00:00Z'),
         endedAt: Date.parse('2026-05-26T12:00:00Z'),
     },
@@ -51,8 +55,8 @@ const totalBlackoutDuration = toDurationParts(
 const copy = computed(() => {
     const english = {
         title: 'Digital Blackout in Iran',
-        phase: 'Two nationwide shutdown phases since January 2026',
-        summary: 'Combined near-total blackout time, excluding the interim access gap',
+        phase: 'Continuous public digital blackout since January 8, 2026',
+        summary: 'Total time unrestricted global internet was not generally available to the Iranian public',
         days: 'Days',
         hours: 'Hours',
         minutes: 'Minutes',
@@ -60,55 +64,57 @@ const copy = computed(() => {
         dayShort: 'd',
         hourShort: 'h',
         minuteShort: 'm',
-        totalDuration: 'Cumulative blackout duration',
-        phaseOne: 'Phase 1 — protest shutdown',
+        totalDuration: 'Total public blackout duration',
+        phaseOne: 'Phase 1 — near-total protest shutdown',
         phaseOneDates: 'Jan 8, 16:30 UTC → Jan 27, ~12:00 UTC',
-        phaseTwo: 'Phase 2 — wartime shutdown',
-        phaseTwoDates: 'Feb 28, 07:00 UTC → May 26, 12:00 UTC',
-        accessGap: 'Interim access gap — excluded',
-        accessGapDates: 'Jan 27 → Feb 28',
-        accessGapText: 'International access returned unevenly and remained heavily filtered.',
-        timelineTitle: 'Measurement timeline',
+        interimPhase: 'Phase 2 — whitelisted access',
+        interimPhaseDates: 'Jan 27, ~12:00 UTC → Feb 28, 07:00 UTC',
+        interimPhaseText: 'Traffic partially recovered, but meaningful global access remained unavailable to the general public and was largely reserved for government-linked or whitelisted users, including “white SIM” holders.',
+        phaseThree: 'Phase 3 — near-total wartime shutdown',
+        phaseThreeDates: 'Feb 28, 07:00 UTC → May 26, 12:00 UTC',
+        timelineTitle: 'Digital blackout timeline',
         methodologyTitle: 'How the total is calculated',
-        methodologyText: 'The counter adds 451 hours 30 minutes from phase 1 to NetBlocks’ exact 2,093-hour phase 2 measurement: 2,544 hours 30 minutes in total. Jan 27 through Feb 28 is not counted. Phase 1’s Jan 27 endpoint is approximate because measurement sources identify the day broader recovery began, not an exact minute.',
+        methodologyText: 'The counter treats January 8 through May 26 as one continuous public digital blackout with three access regimes: near-total shutdown, discriminatory whitelisted access, and renewed near-total shutdown. The middle period is included because ordinary people still lacked meaningful, unrestricted global internet access. Total: 3,307 hours 30 minutes, or 137 days 19 hours 30 minutes.',
         currentStatusTitle: 'Current status',
         currentStatusText: 'Global connectivity began returning on May 26 and rose afterward, but access remained uneven, slow, and heavily filtered.',
-        sourcesTitle: 'Measurement sources',
-        cloudflareSource: 'Cloudflare Radar: both shutdown phases and restoration windows',
-        netblocksSource: 'NetBlocks: phase 2 ended after exactly 2,093 hours',
+        sourcesTitle: 'Measurement and access sources',
+        cloudflareTimelineSource: 'Cloudflare Radar: shutdown and restoration timeline',
+        cloudflareWhitelistSource: 'Cloudflare: whitelists and white SIM cards restricted access to selected users',
+        wiredSource: 'WIRED: access returned for state-approved users, not the general public',
+        netblocksSource: 'NetBlocks: wartime phase ended after exactly 2,093 hours',
         timeline: [
             {
                 date: 'Jan 8 · 16:30 UTC',
-                title: 'First nationwide blackout begins',
+                title: 'Nationwide blackout begins',
                 text: 'Traffic collapsed to near zero during the nationwide protest crackdown.',
             },
             {
                 date: 'Jan 21–26',
-                title: 'Brief, limited restoration windows',
-                text: 'Small amounts of traffic returned twice, but neither window became sustained nationwide access.',
+                title: 'Brief controlled connectivity windows',
+                text: 'Small amounts of traffic returned twice, but neither window became sustained, generally available public access.',
             },
             {
                 date: 'Jan 27 · ~12:00 UTC',
-                title: 'Broader filtered access returns',
-                text: 'The cumulative clock pauses. The following interval is excluded from the blackout total.',
+                title: 'Whitelisted access phase begins',
+                text: 'Traffic partially recovered, but the public digital blackout continued through aggressive filtering and privileged access for selected users and white SIM cards.',
             },
             {
                 date: 'Feb 28 · 07:00 UTC',
-                title: 'Second nationwide blackout begins',
+                title: 'Near-total wartime shutdown begins',
                 text: 'Connectivity again fell to near zero as the war began.',
             },
             {
                 date: 'May 26 · 12:00 UTC',
-                title: 'Partial restoration after 2,093 hours',
-                text: 'International connectivity began a sustained rise, ending the second counted phase.',
+                title: 'Sustained public restoration begins',
+                text: 'International connectivity began a sustained rise after 2,093 hours of the wartime phase, ending the counted blackout period.',
             },
         ] satisfies TimelineItem[],
     }
 
     const persian = {
         title: 'خاموشی دیجیتال ایران',
-        phase: 'دو دوره قطعی سراسری از ژانویه ۲۰۲۶',
-        summary: 'مجموع زمان قطعی نزدیک به کامل، بدون احتساب فاصله دسترسی میان دو دوره',
+        phase: 'خاموشی دیجیتال پیوسته عمومی از ۸ ژانویه ۲۰۲۶',
+        summary: 'کل مدتی که اینترنت جهانی آزاد و بدون محدودیت به‌طور عمومی در دسترس مردم ایران نبود',
         days: 'روز',
         hours: 'ساعت',
         minutes: 'دقیقه',
@@ -116,47 +122,49 @@ const copy = computed(() => {
         dayShort: 'روز',
         hourShort: 'ساعت',
         minuteShort: 'دقیقه',
-        totalDuration: 'مجموع زمان خاموشی دیجیتال',
-        phaseOne: 'دوره اول — قطعی هم‌زمان با اعتراضات',
+        totalDuration: 'کل مدت خاموشی دیجیتال عمومی',
+        phaseOne: 'فاز ۱ — قطعی تقریباً کامل اعتراضات',
         phaseOneDates: '۸ ژانویه، ۱۶:۳۰ UTC ← ۲۷ ژانویه، حدود ۱۲:۰۰ UTC',
-        phaseTwo: 'دوره دوم — قطعی دوران جنگ',
-        phaseTwoDates: '۲۸ فوریه، ۰۷:۰۰ UTC ← ۲۶ مه، ۱۲:۰۰ UTC',
-        accessGap: 'فاصله دسترسی میان دو دوره — محاسبه نشده',
-        accessGapDates: '۲۷ ژانویه ← ۲۸ فوریه',
-        accessGapText: 'دسترسی بین‌المللی به‌صورت نابرابر بازگشت و همچنان به‌شدت فیلتر بود.',
-        timelineTitle: 'خط زمانی اندازه‌گیری‌ها',
+        interimPhase: 'فاز ۲ — دسترسی مبتنی بر فهرست سفید',
+        interimPhaseDates: '۲۷ ژانویه، حدود ۱۲:۰۰ UTC ← ۲۸ فوریه، ۰۷:۰۰ UTC',
+        interimPhaseText: 'بخشی از ترافیک بازگشت، اما دسترسی واقعی به اینترنت جهانی همچنان برای عموم مردم ممکن نبود و عمدتاً به کاربران مورد تأیید یا وابسته به حکومت، از جمله دارندگان «سیم‌کارت سفید»، محدود می‌شد.',
+        phaseThree: 'فاز ۳ — قطعی تقریباً کامل دوران جنگ',
+        phaseThreeDates: '۲۸ فوریه، ۰۷:۰۰ UTC ← ۲۶ مه، ۱۲:۰۰ UTC',
+        timelineTitle: 'خط زمانی خاموشی دیجیتال',
         methodologyTitle: 'روش محاسبه مجموع',
-        methodologyText: 'این شمارنده ۴۵۱ ساعت و ۳۰ دقیقه دوره اول را با اندازه‌گیری دقیق ۲۰۹۳ ساعته نت‌بلاکس برای دوره دوم جمع می‌کند: در مجموع ۲۵۴۴ ساعت و ۳۰ دقیقه. فاصله ۲۷ ژانویه تا ۲۸ فوریه محاسبه نشده است. زمان پایان دوره اول در ۲۷ ژانویه تقریبی است، زیرا منابع اندازه‌گیری روز آغاز بازگشت گسترده‌تر را مشخص کرده‌اند، نه دقیقه دقیق آن را.',
+        methodologyText: 'این شمارنده فاصله ۸ ژانویه تا ۲۶ مه را یک خاموشی دیجیتال پیوسته عمومی با سه وضعیت دسترسی در نظر می‌گیرد: قطعی تقریباً کامل، دسترسی تبعیض‌آمیز مبتنی بر فهرست سفید و قطعی تقریباً کامل دوباره. دوره میانی نیز محاسبه می‌شود، زیرا مردم عادی همچنان به اینترنت جهانی آزاد و معنادار دسترسی نداشتند. مجموع: ۳۳۰۷ ساعت و ۳۰ دقیقه، معادل ۱۳۷ روز و ۱۹ ساعت و ۳۰ دقیقه.',
         currentStatusTitle: 'وضعیت کنونی',
         currentStatusText: 'اتصال به اینترنت جهانی از ۲۶ مه به‌تدریج بازگشت، اما دسترسی همچنان نابرابر، کند و به‌شدت فیلترشده باقی ماند.',
-        sourcesTitle: 'منابع اندازه‌گیری',
-        cloudflareSource: 'کلادفلر رادار: دو دوره قطعی و پنجره‌های بازگشت اتصال',
-        netblocksSource: 'نت‌بلاکس: پایان دوره دوم پس از دقیقاً ۲۰۹۳ ساعت',
+        sourcesTitle: 'منابع اندازه‌گیری و دسترسی',
+        cloudflareTimelineSource: 'کلادفلر رادار: خط زمانی قطعی و بازگشت اتصال',
+        cloudflareWhitelistSource: 'کلادفلر: محدود شدن دسترسی به کاربران منتخب از طریق فهرست سفید و سیم‌کارت سفید',
+        wiredSource: 'وایرد: بازگشت اینترنت برای کاربران مورد تأیید حکومت، نه عموم مردم',
+        netblocksSource: 'نت‌بلاکس: پایان فاز جنگ پس از دقیقاً ۲۰۹۳ ساعت',
         timeline: [
             {
                 date: '۸ ژانویه · ۱۶:۳۰ UTC',
-                title: 'آغاز نخستین قطعی سراسری',
+                title: 'آغاز قطعی سراسری',
                 text: 'هم‌زمان با سرکوب اعتراضات سراسری، ترافیک اینترنت به نزدیک صفر سقوط کرد.',
             },
             {
                 date: '۲۱ تا ۲۶ ژانویه',
-                title: 'پنجره‌های کوتاه و محدود اتصال',
-                text: 'دو بار مقدار کمی ترافیک بازگشت، اما هیچ‌کدام به دسترسی سراسری و پایدار تبدیل نشد.',
+                title: 'پنجره‌های کوتاه و کنترل‌شده اتصال',
+                text: 'دو بار مقدار کمی ترافیک بازگشت، اما هیچ‌کدام به دسترسی عمومی، پایدار و سراسری تبدیل نشد.',
             },
             {
                 date: '۲۷ ژانویه · حدود ۱۲:۰۰ UTC',
-                title: 'بازگشت گسترده‌تر اما فیلترشده',
-                text: 'شمارنده تجمعی در این نقطه متوقف می‌شود و فاصله بعدی در مجموع محاسبه نشده است.',
+                title: 'آغاز فاز دسترسی فهرست سفید',
+                text: 'بخشی از ترافیک بازگشت، اما خاموشی دیجیتال عمومی با فیلترینگ تهاجمی و دسترسی ویژه برای کاربران منتخب و سیم‌کارت‌های سفید ادامه یافت.',
             },
             {
                 date: '۲۸ فوریه · ۰۷:۰۰ UTC',
-                title: 'آغاز دومین قطعی سراسری',
+                title: 'آغاز قطعی تقریباً کامل دوران جنگ',
                 text: 'با آغاز جنگ، اتصال کشور دوباره به نزدیک صفر سقوط کرد.',
             },
             {
                 date: '۲۶ مه · ۱۲:۰۰ UTC',
-                title: 'بازگشت نسبی پس از ۲۰۹۳ ساعت',
-                text: 'اتصال بین‌المللی وارد روند افزایشی پایدار شد و دومین دوره محاسبه‌شده پایان یافت.',
+                title: 'آغاز بازگشت پایدار دسترسی عمومی',
+                text: 'پس از ۲۰۹۳ ساعت از فاز جنگ، اتصال بین‌المللی وارد روند افزایشی پایدار شد و دوره محاسبه‌شده خاموشی پایان یافت.',
             },
         ] satisfies TimelineItem[],
     }
@@ -240,21 +248,24 @@ const formatTwoDigits = (value: number) => pn(String(value).padStart(2, '0'))
 
             <article class="p-4 bg-amber-50/70 dark:bg-amber-950/20 rounded-xl border border-amber-200 dark:border-amber-900/50 space-y-2">
                 <div class="flex items-center gap-2">
-                    <i class="pi pi-pause-circle text-amber-600 dark:text-amber-500"></i>
-                    <h3 class="text-sm font-bold text-amber-900 dark:text-amber-200">{{ copy.accessGap }}</h3>
+                    <i class="pi pi-lock text-amber-600 dark:text-amber-500"></i>
+                    <h3 class="text-sm font-bold text-amber-900 dark:text-amber-200">{{ copy.interimPhase }}</h3>
                 </div>
-                <p class="text-xs text-amber-700 dark:text-amber-400" dir="ltr">{{ copy.accessGapDates }}</p>
-                <p class="text-xs text-surface-600 dark:text-surface-400 leading-relaxed">{{ copy.accessGapText }}</p>
+                <p class="text-xs text-amber-700 dark:text-amber-400" dir="ltr">{{ copy.interimPhaseDates }}</p>
+                <p class="text-lg font-bold" dir="ltr">
+                    {{ pn(periodDurations[1].days) }}{{ copy.dayShort }} {{ formatTwoDigits(periodDurations[1].hours) }}{{ copy.hourShort }} {{ formatTwoDigits(periodDurations[1].minutes) }}{{ copy.minuteShort }}
+                </p>
+                <p class="text-xs text-surface-600 dark:text-surface-400 leading-relaxed">{{ copy.interimPhaseText }}</p>
             </article>
 
             <article class="p-4 bg-surface-50 dark:bg-surface-800 rounded-xl border border-surface-200 dark:border-surface-700 space-y-2">
                 <div class="flex items-center gap-2">
                     <i class="pi pi-circle-fill text-red-500 text-[8px]"></i>
-                    <h3 class="text-sm font-bold">{{ copy.phaseTwo }}</h3>
+                    <h3 class="text-sm font-bold">{{ copy.phaseThree }}</h3>
                 </div>
-                <p class="text-xs text-surface-500 dark:text-surface-400" dir="ltr">{{ copy.phaseTwoDates }}</p>
+                <p class="text-xs text-surface-500 dark:text-surface-400" dir="ltr">{{ copy.phaseThreeDates }}</p>
                 <p class="text-lg font-bold" dir="ltr">
-                    {{ pn(periodDurations[1].days) }}{{ copy.dayShort }} {{ formatTwoDigits(periodDurations[1].hours) }}{{ copy.hourShort }} {{ formatTwoDigits(periodDurations[1].minutes) }}{{ copy.minuteShort }}
+                    {{ pn(periodDurations[2].days) }}{{ copy.dayShort }} {{ formatTwoDigits(periodDurations[2].hours) }}{{ copy.hourShort }} {{ formatTwoDigits(periodDurations[2].minutes) }}{{ copy.minuteShort }}
                 </p>
             </article>
         </div>
@@ -293,7 +304,15 @@ const formatTwoDigits = (value: number) => pn(String(value).padStart(2, '0'))
             <div class="flex flex-col items-start gap-2">
                 <a href="https://blog.cloudflare.com/iran-internet-partially-restored-may-2026/" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-1">
                     <i class="pi pi-external-link text-[10px]"></i>
-                    {{ copy.cloudflareSource }}
+                    {{ copy.cloudflareTimelineSource }}
+                </a>
+                <a href="https://blog.cloudflare.com/q1-2026-internet-disruption-summary/" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-1">
+                    <i class="pi pi-external-link text-[10px]"></i>
+                    {{ copy.cloudflareWhitelistSource }}
+                </a>
+                <a href="https://www.wired.me/story/irans-internet-came-back-but-not-for-everyone" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-1">
+                    <i class="pi pi-external-link text-[10px]"></i>
+                    {{ copy.wiredSource }}
                 </a>
                 <a href="https://t.me/netblocks/1503" target="_blank" rel="noopener noreferrer" class="text-primary-600 dark:text-primary-400 hover:underline flex items-center gap-1">
                     <i class="pi pi-external-link text-[10px]"></i>
