@@ -1,8 +1,8 @@
 external_card_id: "5484"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42261_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42505_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56074_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42261_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42505_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56074_0_twitter_v1.jpg
 name: Somayeh Rezaei Manesh
 persian_name: سمیه رضایی‌منش
 birth_date: ""
@@ -12,7 +12,7 @@ gender: Female
 age: 44
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Fardis
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -28,3 +28,12 @@ source:
   - https://x.com/outofken/status/2021801806331080763
   - https://x.com/gilasgoz/status/2021717325657813012
   - https://x.com/mahmocean/status/2026946352463106378
+  - https://www.instagram.com/p/DVsEgQSDf1D/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b9739528-8d6b-49c2-968d-f4eb704533e4
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:d8f1ff867820fa8b

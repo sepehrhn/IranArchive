@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: تبریز, آذربایجان شرقی
-incident_address: ""
-date_of_death: ""
+incident_address: Tabriz
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 14-year-old arrested during protests and has been missing since arrest. Described as illegal detention (بازداشت غیرقانونی)
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://x.com/jeanne2022rev/status/2017564360713875473
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1117
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 695b8f16-901b-4905-aa77-60985a5265e4
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/children/278

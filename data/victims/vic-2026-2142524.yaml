@@ -1,11 +1,11 @@
 external_card_id: "1162"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21504_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21731_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31009_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53040_0_twitter_v1.jpg"
-  - "vic-2026-6e8dd5e13b50.jpg"
-  - "vic-2026-e8649737962f.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21504_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21731_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31009_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53040_0_twitter_v1.jpg
+  - vic-2026-6e8dd5e13b50.jpg
+  - vic-2026-e8649737962f.jpg
 name: Atena Hosseiniyan
 persian_name: آتنا حسینیان
 birth_date: ""
@@ -15,12 +15,12 @@ gender: Female
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Golestan
 incident_city: Gorgan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -32,3 +32,12 @@ source:
   - https://t.me/RememberTheirNames/2033
   - https://x.com/mtm9920/status/2021480556467548657
   - https://x.com/mahmocean/status/2025623182485361117
+  - https://www.javidarchive.org/fr/memorial/jn-EHaCND9v0u9aDEC8ci1HJl
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d679dc7d-b80f-480d-b247-dfcdc274a23b
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,10 +1,10 @@
 external_card_id: "3033"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26951_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28972_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30204_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30874_0_telegram_v1.jpg"
-  - "vic-2026-695aea5bd8aa.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26951_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28972_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30204_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30874_0_telegram_v1.jpg
+  - vic-2026-695aea5bd8aa.jpg
 name: Akbar Mozalghani
 persian_name: اکبر مزلقانی
 birth_date: ""
@@ -16,10 +16,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Karaj
-incident_address: ""
+incident_address: Karaj
 date_of_death: "2026-01-05"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,12 @@ source:
   - https://x.com/persian_picture/status/2018728055938703801
   - https://t.me/RememberTheirNames/1909
   - https://x.com/irannewsagency0/status/2018965658571346290
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8ff133fe-32d7-418b-8c86-96b8b37db069
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

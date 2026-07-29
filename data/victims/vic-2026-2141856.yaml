@@ -12,9 +12,9 @@ age: 29
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
-incident_address: ""
-date_of_death: ""
+incident_city: Unknown
+incident_address: Unknown
+date_of_death: "2026-01-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 29-year-old who called his family on Saturday 20 Dey (January 10, 2026) saying he had been arrested, after which no information about him has been available
@@ -26,3 +26,11 @@ source_type: Social Media
 source:
   - https://x.com/FSeifikaran/status/2016521561742725301
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-801
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6b25d365-e9cd-4890-8111-248164e95ea6
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/761

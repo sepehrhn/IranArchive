@@ -1,7 +1,7 @@
 external_card_id: "1563"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22365_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48073_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22365_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48073_0_instagram_v1.jpg
 name: Miaad Sadeh Mirinejad
 persian_name: میعاد ساده میری‌نژاد
 birth_date: ""
@@ -16,7 +16,7 @@ incident_city: Ilam
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Direct fire by agents (lung and heart rupture due to bullet impact)
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,13 @@ source_type: Social Media
 source:
   - https://x.com/iranwire/status/2015802856847139304
   - https://www.instagram.com/p/DUu_RroDJ1g
+  - https://t.me/JavidnamaneVatan/1929
+  - https://www.instagram.com/p/DUWOardCAXb/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 0222f14c-cb1c-4b78-9c15-670b8d2553e2
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

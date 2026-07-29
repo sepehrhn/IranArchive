@@ -1,11 +1,11 @@
 external_card_id: "2479"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25510_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30015_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31062_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34300_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51903_0_telegram_v1.jpg"
-  - "vic-2026-e2822a7fd051.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25510_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30015_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31062_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34300_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51903_0_telegram_v1.jpg
+  - vic-2026-e2822a7fd051.jpg
 name: Reza Akbari
 persian_name: رضا اکبری
 birth_date: ""
@@ -15,12 +15,12 @@ gender: Male
 age: 22
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Esfahan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -35,3 +35,12 @@ source:
   - https://x.com/tavaana/status/2019616265153995169
   - https://t.me/JavidnamaneVatan/1403
   - https://x.com/heidivalor/status/2021345178188120349
+  - https://www.threads.com/@media.mosavar/post/DU2qaqbisNA/%D8%B1%D8%B6%D8%A7-%D8%A7%DA%A9%D8%A8%D8%B1%DB%8C%DB%B2%DB%B2-%D8%B3%D8%A7%D9%84%D9%87%D8%A7%D9%87%D9%84-%D8%B2%D8%B1%DB%8C%D9%86%D8%B4%D9%87%D8%B1-%D8%A7%D8%B5%D9%81%D9%87%D8%A7%D9%86%D8%AC%D9%88%D8%A7%D9%86%DB%8C-%D8%A8%D8%A7-%D8%A2%DB%8C%D9%86%D8%AF%D9%87%D8%A7%DB%8C-%DA%A9%D9%87-%D9%87%D9%86%D9%88%D8%B2-%D9%88%D8%B1%D9%82-%D9%86%D8%AE%D9%88%D8%B1%D8%AF%D9%87-%D8%A8%D9%88%D8%AF%D8%A8%D8%A7-%D9%82%D8%AF%D9%85%D9%87
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d4ebbe73-b4e4-4e05-9dc6-90ae24a93274
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -11,15 +11,23 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: دهدشت, کهگیلویه و بویراحمد
-incident_address: ""
+incident_address: Dehdasht
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
-disappearance_circumstances: ""
+disappearance_circumstances: "Place of arrest: Dehdasht"
 suspected_actor: ""
 status: Missing
 detention_status: arrested
-description: ""
+description: IranTrial lists Mojtaba Esmaeili as detained.
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1433
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 43f2e76e-af01-4aff-82d8-9b2b67a82068
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/2200

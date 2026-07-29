@@ -1,10 +1,10 @@
 external_card_id: "4221"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34215_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41485_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42428_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48397_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48745_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34215_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41485_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42428_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48397_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48745_0_twitter_v1.jpg
 name: Reza Farhadi
 persian_name: رضا فرهادی
 birth_date: ""
@@ -31,3 +31,12 @@ source:
   - https://www.instagram.com/p/DUhAyj7DJdF
   - https://javidnaman.iranintl.com/memorial/3c3fe38d-1f0f-4115-80c9-587919bc0d13
   - https://x.com/allahbakhshii/status/2020915921863299267
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - da71be1b-30e5-42ad-b1e9-4b4d95ba48c7
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:aa4e24be75cdb8ce

@@ -1,14 +1,14 @@
 external_card_id: "5191"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41283_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53643_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41283_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53643_0_instagram_v1.jpg
 name: Sina Alishiri
 persian_name: سینا علیشیری
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 30
 occupation: ""
 country: Iran
 incident_province: ""
@@ -26,3 +26,12 @@ source:
   - https://t.me/RememberTheirNames/2565
   - https://www.instagram.com/p/DU-3hm3gUeF
   - https://x.com/gilasgoz/status/2021984786357924312
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5f5c3e96-fcd2-4407-8cba-659c96cd227c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:2f8a8c5e31ff9b64

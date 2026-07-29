@@ -12,7 +12,7 @@ gender: Female
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Sistan and Baluchestan
 incident_city: Zahedan
 incident_address: ""
 date_of_death: ""
@@ -29,3 +29,11 @@ source:
   - https://x.com/hamalilalin/status/2016007851030782067
   - https://x.com/saarmot/status/2017669377512853571
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-880
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f1f3138b-1c0e-4ad6-a9e6-ee9db95efa5b
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

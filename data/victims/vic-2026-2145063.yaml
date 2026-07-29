@@ -1,7 +1,7 @@
 external_card_id: "4198"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34136_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49058_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34136_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49058_0_instagram_v1.jpg
 name: Mohammad Sadeghi
 persian_name: محمد صادقی
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: 52
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Qarchak
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2233
   - https://www.instagram.com/p/DU3Zq-bEW6W
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 99027989-087c-4867-991e-7500f7eb3ba7
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3289

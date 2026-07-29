@@ -1,7 +1,7 @@
 external_card_id: "6912"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47610_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53165_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47610_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53165_0_telegram_v1.jpg
 name: Mohammad Mehralizadeh
 persian_name: محمد مهرعلیزاده
 birth_date: ""
@@ -11,12 +11,12 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-incident_address: ""
+incident_address: Jahannama Town, Karaj
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Shot by Islamic Republic agents
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2832
   - https://t.me/JavidnamaneVatan/1981
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - a273dd43-16bd-4812-aaeb-d5130fd5ca60
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

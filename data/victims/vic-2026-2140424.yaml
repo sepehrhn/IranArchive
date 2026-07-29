@@ -1,8 +1,8 @@
 external_card_id: "1831"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23027_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38656_0_telegram_v1.jpg"
-  - "vic-2026-0fbcc31641e2.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23027_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38656_0_telegram_v1.jpg
+  - vic-2026-0fbcc31641e2.jpg
 name: Hossein Sadeghi
 persian_name: حسین صادقی
 birth_date: ""
@@ -12,7 +12,7 @@ gender: Male
 age: 21
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Lorestan
 incident_city: Khorramabad
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -27,3 +27,12 @@ source:
   - https://x.com/me_azadi/status/2016423265267273817
   - https://x.com/HeKasrehCrisis/status/2018176426197803236
   - https://t.me/RememberTheirNames/1056
+  - https://www.instagram.com/p/DTssNvykTqb/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 207b4b60-74d9-4bd8-8854-7e893ce8e8cf
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/2895

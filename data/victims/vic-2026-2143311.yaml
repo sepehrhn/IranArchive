@@ -14,7 +14,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Saadat Abad
-incident_address: ""
+incident_address: Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -28,3 +28,11 @@ source:
   - https://x.com/ashoobmotlagh/status/2017145321382445121
   - https://x.com/san_giacomo_/status/2020887222094798888
   - https://x.com/_niki09_/status/2020880680243056727
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d16000ad-02e0-4ebd-a006-f7999dcf6f9c
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/students/54

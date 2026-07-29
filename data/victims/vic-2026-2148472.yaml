@@ -11,7 +11,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: بوکان, کردستان
-incident_address: ""
+incident_address: Bukan
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -31,3 +31,11 @@ description: |-
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-751
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 7f6d21de-6873-4f43-99b6-040b23eddfbb
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/children/88

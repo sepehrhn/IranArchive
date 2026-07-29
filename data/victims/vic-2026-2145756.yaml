@@ -1,10 +1,10 @@
 external_card_id: "3093"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22717_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24265_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27049_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38655_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50755_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22717_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24265_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27049_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38655_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50755_0_telegram_v1.jpg
 name: Siavash Mansouri-nejad
 persian_name: سیاوش منصوری‌نژاد
 birth_date: ""
@@ -14,12 +14,12 @@ gender: Male
 age: 30
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Mehrshahr, Karaj
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -32,3 +32,12 @@ source:
   - https://x.com/Tavaana/status/2018228275672134126
   - https://t.me/RememberTheirNames/1057
   - https://t.me/JavidnamaneVatan/855
+  - https://www.instagram.com/reel/DU8bHfriDrI/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 947d40f5-2ef8-4c0b-a66b-1acf1cb600fa
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:7dfdf34f2e32a316

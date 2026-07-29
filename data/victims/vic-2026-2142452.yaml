@@ -1,11 +1,11 @@
 external_card_id: "7752"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22186_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31008_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38187_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42613_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52093_0_telegram_v1.jpg"
-  - "vic-2026-617fd37258b2.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22186_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31008_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38187_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42613_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52093_0_telegram_v1.jpg
+  - vic-2026-617fd37258b2.jpg
 name: Alireza Panahi
 persian_name: علیرضا پناهی
 birth_date: ""
@@ -17,10 +17,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Qarchak
-incident_address: ""
+incident_address: قرچک - تهران
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -34,3 +34,12 @@ source:
   - https://www.instagram.com/p/DUncq_pjJIi
   - https://t.me/javidnamhamedan/294
   - https://t.me/JavidnamaneVatan/1580
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6a438412-cef7-4427-90e1-55a94166f65b
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

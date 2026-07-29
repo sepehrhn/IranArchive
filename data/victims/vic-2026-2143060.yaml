@@ -1,9 +1,9 @@
 external_card_id: "1785"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22941_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24285_0_telegram_v1.jpg"
-  - "vic-2026-102be2f8f9b9.jpg"
-  - "vic-2026-01ec96bf5e62.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22941_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24285_0_telegram_v1.jpg
+  - vic-2026-102be2f8f9b9.jpg
+  - vic-2026-01ec96bf5e62.jpg
 name: Kian Abulhadi
 persian_name: کیان ابوالهادی
 birth_date: ""
@@ -13,12 +13,12 @@ gender: Male
 age: 25
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kerman
 incident_city: Rafsanjan
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,12 @@ source_type: Social Media
 source:
   - https://x.com/tavaana/status/2016309497191428523
   - https://t.me/javanmardi77/154248
+  - https://x.com/Tavaana/status/2016309497191428523
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 1f5f37d6-aae7-45a4-9be2-bb7168791c1e
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

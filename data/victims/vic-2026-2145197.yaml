@@ -1,7 +1,7 @@
 external_card_id: "1607"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38351_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41429_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38351_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41429_0_twitter_v1.jpg
 name: Morteza Panahi
 persian_name: مرتضی پناهی
 birth_date: ""
@@ -26,3 +26,11 @@ source:
   - https://x.com/ras_e_isole/status/2014680813284008416
   - https://t.me/RememberTheirNames/1377
   - https://x.com/masoudkazemi81/status/2020960217605997028
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bc6c3c37-114c-4972-a3e6-b435a56c7890
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:1d4ddf376cc022f6

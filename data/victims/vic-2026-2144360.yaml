@@ -1,23 +1,23 @@
 external_card_id: "7627"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40289_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50959_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51683_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40289_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50959_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51683_0_telegram_v1.jpg
 name: Hesam Ghoreyshi Najafabadi
 persian_name: سید حسام قریشی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 35
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Najafabad
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,12 @@ source:
   - https://t.me/RememberTheirNames/2443
   - https://t.me/JavidnamaneVatan/1059
   - https://t.me/JavidnamaneVatan/1199
+  - https://www.instagram.com/p/DUJiiV5CnY5/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bf432e40-707b-4deb-ab60-3cb6c1476aa4
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

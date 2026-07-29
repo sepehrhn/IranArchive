@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: مشهد, خراسان رضوی
-incident_address: ""
-date_of_death: ""
+incident_address: Vakilabad Prison, Mashhad
+date_of_death: "2026-01-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 45-year-old Bahai citizen residing in Mashhad, arrested by intelligence agents at her workplace on Sunday, January 11, 2026, and transferred to an unknown location. After several days of interrogation, she was transferred to Vakil-Abad prison where she remains in unclear conditions. She has been held in quarantine ward initially, then moved to other wards with limited phone contact. Has undergone trial inside the prison and is awaiting sentencing. Her temporary detention period expired on February 10, 2026, but she continues to be held without clear legal status.
@@ -27,3 +27,11 @@ source:
   - https://x.com/kian_sabeti/status/2015893132223902140
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1189
   - https://x.com/dialogue1402/status/2024723999821910444
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 7c27da40-3d3b-4c97-b2fe-d928c2fb3596
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/718

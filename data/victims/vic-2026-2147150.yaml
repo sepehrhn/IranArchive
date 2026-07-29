@@ -6,20 +6,36 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 30
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: لنگرود, گیلان
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
-disappearance_circumstances: ""
+disappearance_circumstances: Reported detained
 suspected_actor: ""
 status: Missing
 detention_status: arrested
-description: ""
+description: |-
+  ایمان وفایی ۳۰ سال دارد و اهل لنگرود است. او در تاریخ ۱۸ دی ۱۴۰۴ بازداشت شده و از آن زمان تاکنون در زندان لاهیجان در بند به سر می‌برد. اطلاعی از سلامتی، وضعیت پرونده و دلایل بازداشت او در دست نیست. صدایش  باشیم.
+
+  @akhbar_bazdashtiha
+
+  🕊31
+
+      26 views04:13
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-923
+  - https://t.me/akhbar_bazdashtiha/766
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 80b9715c-b6ee-40ee-a4ce-d379584a4880
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

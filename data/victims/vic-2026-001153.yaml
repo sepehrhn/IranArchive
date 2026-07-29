@@ -1,20 +1,20 @@
 external_card_id: "435"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20311_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20311_1_twitter_v1.jpg"
-  - "vic-2026-001153.jpg"
-  - "vic-2026-7152899b3675.jpg"
-  - "vic-2026-712439718d27.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20311_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20311_1_twitter_v1.jpg
+  - vic-2026-001153.jpg
+  - vic-2026-7152899b3675.jpg
+  - vic-2026-712439718d27.jpg
 name: Mohammad Mostafazadeh
 persian_name: محمد مصطفی‌زاده
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 25
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Mozigoleh village
 incident_address: Muzigoleh
 date_of_death: "2026-01-08"
@@ -34,3 +34,12 @@ source_type: Social Media
 source:
   - https://x.com/fseifikaran/status/2013396146186563772
   - https://t.me/RememberTheirNames/1126
+  - https://www.instagram.com/reel/DUDCaV3jK-E/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 7b363379-d0ac-40ae-81b5-5cfa8ac17ec5
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

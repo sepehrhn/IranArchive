@@ -1,7 +1,7 @@
 external_card_id: "3252"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28946_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28946_1_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28946_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28946_1_twitter_v1.jpg
 name: Mohammad Bakht Grousi
 persian_name: محمد بخت گروسی
 birth_date: ""
@@ -13,10 +13,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Tehran | Taleghani Street / Tehran
 date_of_death: "2026-01-28"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -24,3 +24,12 @@ description: Shot with war bullet in the abdomen on Taleghani Street in Tehran, 
 source_type: Social Media
 source:
   - https://x.com/huntedpsychoo/status/2015806214903394520
+  - https://www.instagram.com/p/DWAOGDZE8Ez/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 1ce828d8-b2a7-4724-b880-9acf4aba59c7
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

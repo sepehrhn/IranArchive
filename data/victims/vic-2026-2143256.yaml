@@ -1,22 +1,22 @@
 external_card_id: "741"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20758_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20878_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21066_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26519_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38967_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55872_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55872_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55872_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55872_3_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55872_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55872_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55872_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55872_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55872_8_web_v1.jpg"
-  - "vic-2026-502d415f44d2.jpg"
-  - "vic-2026-b5993b5c9d5d.jpg"
-  - "vic-2026-a4770038a65e.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20758_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20878_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21066_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26519_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38967_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55872_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55872_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55872_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55872_3_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55872_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55872_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55872_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55872_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55872_8_web_v1.jpg
+  - vic-2026-502d415f44d2.jpg
+  - vic-2026-b5993b5c9d5d.jpg
+  - vic-2026-a4770038a65e.jpg
 name: Saeid Taghvaei
 persian_name: سعید تقوایی
 birth_date: ""
@@ -26,12 +26,12 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Markazi
 incident_city: Arak
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -44,3 +44,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWgo2e
   - https://t.me/RememberTheirNames/737
   - https://hengaw.net/fa/news/2026/01/article-190-1
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 20bc3809-29e5-4975-9043-05119f0485d6
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1215

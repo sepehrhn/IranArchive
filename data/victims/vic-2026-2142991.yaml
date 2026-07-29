@@ -8,15 +8,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 32
 occupation: ""
 country: Iran
 incident_province: Lorestan
 incident_city: Boroujerd
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -24,3 +24,12 @@ description: Killed at Chaharrah-e Hafez in Borujerd, Lorestan province
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMjBHO
+  - https://www.instagram.com/p/DVPv7M4DSmA/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c7920ef5-0da4-45f4-96cf-01384210b971
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 40
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,3 +23,12 @@ description: Died in Shiraz
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2550
+  - https://www.instagram.com/p/DU_AS6ikjTp/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 07d3b536-5d72-4055-96a1-e1aa96390194
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:10356a299dd51726

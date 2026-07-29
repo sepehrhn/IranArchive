@@ -1,16 +1,16 @@
 external_card_id: "4046"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25738_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29670_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31113_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48566_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25738_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29670_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31113_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48566_0_instagram_v1.jpg
 name: Mohammad Ghasemi Nia
 persian_name: محمد قاسمی‌نیا
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 39
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -29,3 +29,12 @@ source:
   - https://x.com/missmarpel75/status/2018327816048169302
   - https://t.me/RememberTheirNames/2157
   - https://www.instagram.com/p/DU0tILNjPNG
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 65ca67d0-5e98-4341-9850-70c684fdf99b
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3298

@@ -11,8 +11,8 @@ occupation: ""
 country: Iran
 incident_province: Golestan
 incident_city: Gorgan
-incident_address: ""
-date_of_death: ""
+incident_address: Kakh Square, Gorgan - Golestan
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -22,3 +22,11 @@ description: Victim documented in Iran International memorial at Kakh Square in 
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/h22nTBad3K42WBHvEu6QRi
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - cdb872cf-2119-4a0b-afa0-1b765d6f0284
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:eee03f366860a483

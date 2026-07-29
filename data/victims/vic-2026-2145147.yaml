@@ -1,11 +1,11 @@
 external_card_id: "683"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21845_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21845_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24296_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26566_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38382_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42406_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21845_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21845_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24296_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26566_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38382_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42406_0_instagram_v1.jpg
 name: Mohsen Ramezani Charmheini
 persian_name: محسن رمضانی
 birth_date: ""
@@ -17,7 +17,7 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Chamgardan
-incident_address: ""
+incident_address: Chamgordan - Isfahan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -33,3 +33,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWhRf1
   - https://t.me/RememberTheirNames/1345
   - https://www.instagram.com/p/DUiGeRDjI2v
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f02bfec2-be3d-4ccd-b36a-8d4584b43deb
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:177e5d83e77d4774

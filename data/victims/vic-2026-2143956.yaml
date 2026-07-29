@@ -1,8 +1,8 @@
 external_card_id: "2770"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26198_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38544_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42102_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26198_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38544_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42102_0_twitter_v1.jpg
 name: Ashkan Arar Shushtari
 persian_name: اشکان شوشتری
 birth_date: ""
@@ -27,3 +27,12 @@ source:
   - https://x.com/mousavi1355/status/2018067201040015716
   - https://t.me/RememberTheirNames/1177
   - https://x.com/a_neghabdaran_a/status/2021368017993773139
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f13221a9-c5de-40c0-b424-6e13c0574033
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1845

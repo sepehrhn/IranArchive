@@ -19,7 +19,15 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: IranTrial lists Rasoul Gholyani among those killed in Karaj.
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/CoXljdUpHLN0XegRJyKHJr
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5b84ce49-626d-41de-91b4-99b6d2f3c85a
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:6d4a438876481815

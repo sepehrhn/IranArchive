@@ -1,17 +1,17 @@
 external_card_id: "8500"
 photo: []
 name: Ebrahim Ghanbarzehi Gorgij
-persian_name: ""
+persian_name: ابراهیم قنبرزهی گرگیج
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gorgan Prison
-incident_address: ""
+incident_address: Gorgan Prison
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -23,3 +23,11 @@ description: "Detained during protests. Listed in HRANA's 'Identified Detainees'
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_714
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f7a4d056-5949-4224-85a9-1c7f6307538c
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/714

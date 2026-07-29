@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: گرمسار, سمنان
-incident_address: ""
-date_of_death: ""
+incident_address: Garmsar
+date_of_death: "2026-01-26"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 24-year-old arrested from in front of his house. He is the sole caregiver for his sick mother who has heart problems and is now left in complete uncertainty without her son, with no phone calls or news
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://x.com/i/status/2016847274001813891
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-70
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 96f42bbf-8d10-4feb-9089-ed25edc8c497
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/2262

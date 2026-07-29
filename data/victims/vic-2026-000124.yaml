@@ -9,7 +9,7 @@ gender: Female
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Golestan
 incident_city: Gorgan
 incident_address: ""
 date_of_death: "2026-01-03"
@@ -25,3 +25,11 @@ description: |-
 source_type: Social Media
 source:
   - https://x.com/banafshehviola/status/2013141432769663222
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 605dfded-6458-4572-8894-16311e41b9af
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

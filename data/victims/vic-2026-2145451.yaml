@@ -1,7 +1,7 @@
 external_card_id: "4502"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38363_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_57081_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38363_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_57081_0_telegram_v1.jpg
 name: Reza Eisapour
 persian_name: رضا عیسی‌پور
 birth_date: ""
@@ -26,3 +26,11 @@ source:
   - https://t.me/RememberTheirNames/1365
   - https://x.com/iranianpapppi3/status/2026140326637797552
   - https://t.me/JavidnamaneVatan/2324
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8142b824-90fa-448f-b607-448ce8357177
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:b79f0fee223b224a

@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Ilam
 incident_city: Ilam
-incident_address: ""
-date_of_death: ""
+incident_address: Ilam
+date_of_death: "2026-01-27"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Former political prisoner of the Woman, Life, Freedom movement. Rearrested on January 27 and transferred to an undisclosed location with no information on her whereabouts. Described as illegal detention.
@@ -24,3 +24,11 @@ description: Former political prisoner of the Woman, Life, Freedom movement. Rea
 source_type: Social Media
 source:
   - https://x.com/saarmot/status/2017671250806558918
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 9e083310-195d-412a-976b-886248d27c05
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/747

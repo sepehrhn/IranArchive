@@ -1,20 +1,20 @@
 external_card_id: "2125"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23637_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41556_0_telegram_v1.jpg"
-  - "vic-2026-cedf86cb1949.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23637_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41556_0_telegram_v1.jpg
+  - vic-2026-cedf86cb1949.jpg
 name: Hamid Feizi
 persian_name: حمید فیضی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 33
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Mehrshahr, Karaj
-incident_address: ""
+incident_address: Kianmehr, Karaj
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -26,3 +26,15 @@ source_type: Social Media
 source:
   - https://x.com/soshiantofiran/status/2016768839346708648
   - https://t.me/RememberTheirNames/2690
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+  - https://www.instagram.com/p/DUCyvKoDAW_/
+irantrial_ids:
+  - 02b3760d-3e4a-445a-bdb1-e5b82b90f07f
+  - bf9bd8f1-f6ad-4b08-8703-2c2f632001e7
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1713
+  - HRANA-CW-2026/protesters/2351

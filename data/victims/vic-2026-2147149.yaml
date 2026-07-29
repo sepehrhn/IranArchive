@@ -11,8 +11,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: یاسوج, کهگیلویه و بویراحمد
-incident_address: ""
-date_of_death: ""
+incident_address: Yasuj
+date_of_death: "2026-01-03"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: |-
@@ -27,3 +27,11 @@ description: |-
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-922
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b212f62a-ff81-4575-8884-469990354afe
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/students/103

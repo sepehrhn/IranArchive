@@ -1,9 +1,9 @@
 external_card_id: "5255"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41447_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41447_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41906_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49115_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41447_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41447_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41906_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49115_0_twitter_v1.jpg
 name: Morteza Aghaei
 persian_name: مرتضی آقایی
 birth_date: ""
@@ -28,3 +28,12 @@ source:
   - https://x.com/hekasrehcrisis/status/2021071196406841582
   - https://t.me/RememberTheirNames/2699
   - https://x.com/i/status/2023440508450738281
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8198699b-6861-489a-8be9-c96ce5af83b3
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:4e5843f0ee7e9cb9

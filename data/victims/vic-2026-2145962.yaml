@@ -11,7 +11,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ازنا, لرستان
-incident_address: ""
+incident_address: Khorramabad
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -23,3 +23,11 @@ description: "Charges: نامشخص"
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1167
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 885c6e3f-9abc-4815-b454-f8df781f6fae
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/children/70

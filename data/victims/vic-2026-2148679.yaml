@@ -11,8 +11,8 @@ age: 21
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
-incident_address: ""
+incident_city: Mashhad
+incident_address: Mashhad
 date_of_death: "2026-02-11"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -24,3 +24,11 @@ description: Kidnapped by the Ministry of Intelligence on 22 Bahman
 source_type: Social Media
 source:
   - https://x.com/takemebackto5o5/status/2022448548285915405
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 9eecc3df-0688-4306-a612-d5db3d398b2c
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/students/120

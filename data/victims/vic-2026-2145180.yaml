@@ -1,22 +1,22 @@
 external_card_id: "3330"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29117_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29713_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29117_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29713_0_telegram_v1.jpg
 name: Mokhtar Shakourpanah
 persian_name: مختار شکورپناه
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 50
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Rasht
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://x.com/HyrcaniHRM/status/2018270744174596219
   - https://t.me/RememberTheirNames/2091
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ae7fc61b-1ecb-414c-88a8-7359a24a4f77
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,8 +1,8 @@
 external_card_id: "4216"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34208_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48560_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52002_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34208_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48560_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52002_0_telegram_v1.jpg
 name: Mossayeb Saeidi
 persian_name: مصیب سعیدی
 birth_date: ""
@@ -12,12 +12,12 @@ gender: Male
 age: 28
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Tous, Mashhad
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,11 @@ source:
   - https://www.instagram.com/p/DU2aB7SDLmY
   - https://t.me/JavidnamaneVatan/1502
   - https://x.com/gilasgoz/status/2023734200436723809
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - cc6f31a3-da57-42d6-b345-9fd7c2955301
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,8 +1,8 @@
 external_card_id: "4189"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34123_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42196_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53544_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34123_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42196_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53544_0_instagram_v1.jpg
 name: Amir Yektayi Yeganeh
 persian_name: امیر یکتایی یگانه
 birth_date: ""
@@ -12,7 +12,7 @@ gender: Male
 age: 16
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Qarchak
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -27,3 +27,12 @@ source:
   - https://t.me/RememberTheirNames/2220
   - https://javidnaman.iranintl.com/memorial/KjEttE2kDZFmUqANv5Ixyh
   - https://www.instagram.com/p/DVFlwk0DmZQ
+  - https://www.instagram.com/p/DUbE8Y7EWAJ/?hl=en
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d136e997-a33c-4ded-b5e3-deea3f684180
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:ce775dd150b25ec1

@@ -13,10 +13,10 @@ gender: Male
 age: 19
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Lorestan
 incident_city: Boroujerd
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 19 years old, arrested on the night of January 8th (18 Dey). Boroujerd court has charged him with moharebeh (enmity against God) and he is currently held in Khorramabad prison. His case has been transferred to Khorramabad court for final sentencing.
@@ -30,3 +30,13 @@ source:
   - https://x.com/salarvandn21943/status/2020601381514797216
   - https://www.instagram.com/p/DU5kym3k9UP
   - https://x.com/i/status/2026361441968648427
+  - https://t.me/akhbar_bazdashtiha/481
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 3ef50e0e-1688-48b2-ad42-6398c1a7e774
+irantrial_categories:
+  - at-risk
+risk_of_execution: true
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

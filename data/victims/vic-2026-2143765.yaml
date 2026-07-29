@@ -1,23 +1,23 @@
 external_card_id: "4849"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40243_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40407_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41626_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40243_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40407_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41626_0_instagram_v1.jpg
 name: Amir Mahdi Salegi
 persian_name: امیرمهدی سلگی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 21
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-incident_address: ""
+incident_address: Mohammad Shahr, Karaj
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,11 @@ source:
   - https://t.me/RememberTheirNames/2397
   - https://x.com/mahii7z/status/2019008936603775175
   - https://www.instagram.com/p/DUfC-KajJgD
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 4f6fca26-e7f1-4086-b2fa-9d64424981de
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

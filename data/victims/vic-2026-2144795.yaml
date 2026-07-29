@@ -1,7 +1,7 @@
 external_card_id: "7125"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48649_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52827_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48649_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52827_0_twitter_v1.jpg
 name: Meysam Karaniyan
 persian_name: میثم کُرانیان
 birth_date: ""
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://www.instagram.com/p/DU0dcnJDJKu
   - https://x.com/missmarpel75/status/2017591069454508255
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f4860185-b756-4f21-aff0-40b39344b735
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:674962c5b4bf98b0

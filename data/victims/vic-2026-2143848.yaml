@@ -1,9 +1,9 @@
 external_card_id: "2160"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23710_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27059_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34310_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40176_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23710_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27059_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34310_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40176_0_telegram_v1.jpg
 name: Amirhossein Moayyed
 persian_name: امیرحسین موید
 birth_date: ""
@@ -13,7 +13,7 @@ gender: Male
 age: 17
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Lorestan
 incident_city: Borujerd
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -30,3 +30,12 @@ source:
   - https://x.com/__injaneb96/status/2019133731022467420
   - https://t.me/RememberTheirNames/2330
   - https://x.com/i/status/2019133970097795584
+  - https://www.instagram.com/p/DVnbmOcFPeQ/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - e49d14ae-6746-4801-89c0-7599f6a6dfe4
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:53312f82154ac7e1

@@ -1,9 +1,9 @@
 external_card_id: "3189"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27319_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38512_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49358_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51617_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27319_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38512_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49358_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51617_0_telegram_v1.jpg
 name: Amir Hossein Mohammadi
 persian_name: امیرحسین محمدی
 birth_date: ""
@@ -15,10 +15,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Andisheh
-incident_address: ""
+incident_address: Andisheh Phase 1, Karaj
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Shot directly in the neck by agents of the Islamic Republic
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,14 @@ source:
   - https://t.me/RememberTheirNames/1210
   - https://x.com/kurdpa_farsi/status/2024117911384678589
   - https://t.me/JavidnamaneVatan/1133
+  - https://www.instagram.com/p/DULQWJmDKIb/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - da537899-0d03-4a1d-bc56-d62d87aa8eb8
+  - 154c9ec2-bd3f-484b-843a-d2e29eb63318
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan
+  - Hodafit-javidnaman-2026-final.xlsx

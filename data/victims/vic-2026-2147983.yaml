@@ -16,8 +16,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: منزل
+date_of_death: "2023-01-12"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 22-year-old resident of Afsarieh, Tehran, arrested by security agents on January 8, 2026 after leaving home. On January 12, 2026, agents visited her family claiming it was a 'simple interrogation' while threatening them to remain silent. After more than a month, no information about her condition or charges has been provided to her family.
@@ -31,3 +31,12 @@ source:
   - https://x.com/allahbakhshii/status/2024888429742281001
   - https://x.com/khatibiofficial/status/2025218109129277708
   - https://x.com/ilia__gj/status/2025298750449635785
+  - https://t.me/akhbar_bazdashtiha/141
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8caa2507-95f4-45e2-9a0f-12afa9acc6d5
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

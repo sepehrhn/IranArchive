@@ -5,14 +5,14 @@ persian_name: شریف آزاد
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: دهلران, ایلام
-incident_address: ""
-date_of_death: ""
+incident_address: Dehloran
+date_of_death: "2025-12-31"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Charges: نامشخص"
@@ -23,3 +23,11 @@ description: "Charges: نامشخص"
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1463
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b7df0996-0468-42ed-845a-e03296a5d3b3
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/38

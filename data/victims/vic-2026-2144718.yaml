@@ -1,14 +1,14 @@
 external_card_id: "6882"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47557_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50602_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47557_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50602_0_telegram_v1.jpg
 name: Mehdi Mashhadi Kazemi
 persian_name: مهدی مشهدی کاظمی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 21
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/persian_picture/status/2022328919538741249
   - https://t.me/RememberTheirNames/3077
+  - https://www.instagram.com/p/DVKZe1ik2iV/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 32ea269c-ac76-4b40-adbe-7a66b8f3f7cd
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:b357cca4158e525b

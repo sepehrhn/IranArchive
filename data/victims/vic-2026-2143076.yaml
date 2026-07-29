@@ -1,26 +1,26 @@
 external_card_id: "1268"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21721_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21721_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21721_2_twitter_v1.jpg"
-  - "vic-2026-4e1fcccb0ec5.jpg"
-  - "vic-2026-5fc6a610ab2f.jpg"
-  - "vic-2026-cd5cd8a51ed5.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21721_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21721_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21721_2_twitter_v1.jpg
+  - vic-2026-4e1fcccb0ec5.jpg
+  - vic-2026-5fc6a610ab2f.jpg
+  - vic-2026-cd5cd8a51ed5.jpg
 name: Majid Chatrai
 persian_name: مجید چترایی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 0
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Najafabad
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -28,3 +28,12 @@ description: Listed among martyrs from Najafabad, Isfahan during protests
 source_type: Social Media
 source:
   - https://x.com/visfehan/status/2015459826583695724
+  - https://www.instagram.com/p/DT2hoTJjLVi/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 08a15bbe-57a7-4016-af1a-3da6b5601ba6
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

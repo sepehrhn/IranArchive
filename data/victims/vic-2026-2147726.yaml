@@ -6,20 +6,28 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 19
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: تهران, تهران
-incident_address: ""
-date_of_death: ""
+incident_address: Tehran
+date_of_death: "2026-01-01"
 date_of_death_precision: Approximate
 cause_of_death: ""
-disappearance_circumstances: ""
+disappearance_circumstances: "Place of arrest: Tehran"
 suspected_actor: ""
 status: Missing
 detention_status: arrested
-description: ""
+description: IranTrial lists Mohammad Mahdi Yeganeh as detained on 2026-01-01.
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1364
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 30c2e0e0-8328-47c7-9024-206b4607cacd
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/children/75

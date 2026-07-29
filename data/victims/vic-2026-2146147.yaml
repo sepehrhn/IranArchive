@@ -6,10 +6,10 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 2528
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: North Khorasan
 incident_city: اسفراین, خراسان شمالی
 incident_address: ""
 date_of_death: ""
@@ -23,3 +23,11 @@ description: "Charges: نامشخص"
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1170
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - fa554d61-0783-4a4b-8c04-3261acf57f92
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

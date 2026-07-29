@@ -1,10 +1,10 @@
 external_card_id: "2886"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21401_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26620_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38049_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38819_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41854_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21401_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26620_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38049_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38819_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41854_0_twitter_v1.jpg
 name: Parham Davoodi Kashani
 persian_name: پرهام داوودی کاشانی
 birth_date: ""
@@ -14,7 +14,7 @@ gender: Male
 age: 18
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Baharestan
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -31,3 +31,11 @@ source:
   - https://x.com/indypersian/status/2015091252719435778
   - https://t.me/RememberTheirNames/888
   - https://x.com/iranianpapppi3/status/2021313119071396351
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 05854dfa-e5a5-4284-ab6f-e8ef2f9413e0
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:8d263e6ce4df6ea9

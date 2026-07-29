@@ -1,7 +1,7 @@
 external_card_id: "3748"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30265_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34252_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30265_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34252_0_telegram_v1.jpg
 name: Farideh Khoshnam
 persian_name: فریده خوشنام
 birth_date: ""
@@ -16,7 +16,7 @@ incident_city: Isfahan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/vahidmirzaeii/status/2018861554439958690
   - https://t.me/RememberTheirNames/2261
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c093ec84-5b7a-4916-9e2d-0f49262e346d
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

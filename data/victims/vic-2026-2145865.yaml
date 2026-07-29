@@ -1,7 +1,7 @@
 external_card_id: "5396"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41911_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42364_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41911_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42364_0_instagram_v1.jpg
 name: Yaser Dolati
 persian_name: یاسر دولتی
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2704
   - https://www.instagram.com/p/DUksA2LDFHz
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - a2cdf07f-6107-41ba-85cd-05913cc3571a
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3838

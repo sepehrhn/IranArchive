@@ -1,10 +1,10 @@
 external_card_id: "1766"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23483_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26864_0_web_v1.jpg"
-  - "vic-2026-2139758.jpg"
-  - "vic-2026-d27be0494bf8.jpg"
-  - "vic-2026-ebffd72ffc8d.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23483_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26864_0_web_v1.jpg
+  - vic-2026-2139758.jpg
+  - vic-2026-d27be0494bf8.jpg
+  - vic-2026-ebffd72ffc8d.jpg
 name: Ahmad Alijani
 persian_name: احمد علیجانی
 birth_date: ""
@@ -19,7 +19,7 @@ incident_city: Kashmar
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -33,3 +33,12 @@ source:
   - https://t.me/RememberTheirNames/1459
   - https://javidnaman.iranintl.com/memorial/arh0kOme1YEvhe6nUtIzZj
   - https://x.com/HeKasrehCrisis/status/2017808955427209246
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 45e6acce-b26a-445f-968e-d6dcd34da22c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

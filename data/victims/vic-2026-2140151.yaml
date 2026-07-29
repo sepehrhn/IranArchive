@@ -1,15 +1,15 @@
 external_card_id: "1935"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23215_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23215_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23215_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30770_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40841_0_twitter_v1.jpg"
-  - "vic-2026-2140151.jpg"
-  - "vic-2026-1a90a8788492.jpg"
-  - "vic-2026-7c5c1977c0c5.jpg"
-  - "vic-2026-2c2900120642.jpg"
-  - "vic-2026-57515215bb46.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23215_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23215_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23215_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30770_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40841_0_twitter_v1.jpg
+  - vic-2026-2140151.jpg
+  - vic-2026-1a90a8788492.jpg
+  - vic-2026-7c5c1977c0c5.jpg
+  - vic-2026-2c2900120642.jpg
+  - vic-2026-57515215bb46.jpg
 name: Omid Kolabi
 persian_name: امید کلابی
 birth_date: ""
@@ -21,10 +21,10 @@ occupation: ""
 country: Iran
 incident_province: Gilan
 incident_city: Prehsar
-incident_address: ""
+incident_address: Pareh Sar, Talesh, Gilan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -38,3 +38,11 @@ source:
   - https://t.me/RememberTheirNames/1802
   - https://x.com/hengawo/status/2020226304222892381
   - https://x.com/HeKasrehCrisis/status/2016742995190559132
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ca05820c-5803-4426-8472-3ed3fc08ca55
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

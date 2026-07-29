@@ -9,12 +9,12 @@ gender: Male
 age: 20
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Ferdows Boulevard
-incident_address: ""
-date_of_death: ""
+incident_address: Sadeghiyeh
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -22,3 +22,11 @@ description: Killed on Ferdows Boulevard. Persian name Mohammadreza indicates ma
 source_type: Social Media
 source:
   - https://x.com/Sashtyani/status/2015552388304601276
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 07c5a151-501d-4d7d-95f2-f6191c0027b7
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

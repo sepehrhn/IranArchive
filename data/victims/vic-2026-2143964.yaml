@@ -1,7 +1,7 @@
 external_card_id: "1908"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23178_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29002_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23178_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29002_0_twitter_v1.jpg
 name: Ataollah Pour Rahmati
 persian_name: عطا پوررحمتی
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: 50
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Torbat-e Jam
 incident_address: ""
 date_of_death: "2026-01-10"
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/tavaana/status/2016434603767300536
   - https://x.com/i/status/2016546916851442139
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - af28dc9a-086e-4cb6-b290-c6d30a5e828b
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1272

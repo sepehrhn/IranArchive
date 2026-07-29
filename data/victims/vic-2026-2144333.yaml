@@ -1,7 +1,7 @@
 external_card_id: "7057"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48396_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_54186_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48396_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_54186_0_telegram_v1.jpg
 name: Hassan Moghami
 persian_name: حسن مقامی
 birth_date: ""
@@ -14,7 +14,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -26,3 +26,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/48bc21a1-28ea-4d5e-9d96-691d5bb5b124
   - https://t.me/RememberTheirNames/3164
   - https://x.com/gilasgoz/status/2026402341331620256
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - dab1458a-96db-49dc-8706-bb6703639b91
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3916

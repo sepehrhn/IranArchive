@@ -6,13 +6,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 16
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Fooladshahr
-incident_address: ""
-date_of_death: ""
+incident_address: درب منزل
+date_of_death: "2021-02-18"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested during protests
@@ -23,3 +23,12 @@ description: Arrested during protests
 source_type: Social Media
 source:
   - https://x.com/i/status/2026264738640924684
+  - https://t.me/akhbar_bazdashtiha/192
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c7390fe7-ae6c-44b3-b24f-addd7888dc14
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

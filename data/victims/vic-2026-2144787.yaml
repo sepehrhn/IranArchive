@@ -1,7 +1,7 @@
 external_card_id: "7046"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48359_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_54253_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48359_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_54253_0_twitter_v1.jpg
 name: Melina Mirzaei
 persian_name: ملینا میرزایی
 birth_date: ""
@@ -14,7 +14,7 @@ country: Iran
 incident_province: ""
 incident_city: Fardis
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/EHaCND9v0u9aDEC8cYFwdB
   - https://x.com/i/status/2026025675761590723
+  - https://www.instagram.com/p/DVkqK68jB1S/?hl=da
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 06328945-80b7-4f79-bdba-0a0b74aa74cd
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:21e62961d76ca835

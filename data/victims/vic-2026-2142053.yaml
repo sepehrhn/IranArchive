@@ -11,9 +11,9 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: مشهد, خراسان رضوی
-incident_address: ""
+incident_address: Arrested in Mashhad. | Mashhad
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -26,3 +26,11 @@ source_type: Social Media
 source:
   - https://x.com/iranwire/status/2012939020506964224
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1020
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6f3707a4-fecd-4bcf-a536-ddb9d5b6d1e5
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

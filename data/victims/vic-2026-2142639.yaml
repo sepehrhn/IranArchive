@@ -1,10 +1,10 @@
 external_card_id: "1497"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22226_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30869_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34743_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49897_0_telegram_v1.jpg"
-  - "vic-2026-ca6f3a62bf80.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22226_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30869_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34743_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49897_0_telegram_v1.jpg
+  - vic-2026-ca6f3a62bf80.jpg
 name: Mehdi Ranjbari
 persian_name: مهدی رنجبری
 birth_date: ""
@@ -16,10 +16,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehranpars
-incident_address: ""
+incident_address: Tehranpars, 4th District | Tehran | Tehran Pars
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaTE55SL
   - https://x.com/hekasrehcrisis/status/2015835381925642414
   - https://t.me/JavidnamaneVatan/237
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ed8c7cb6-f9cd-401d-9915-09efba459928
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

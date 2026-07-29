@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Ilam
 incident_city: Ilam
-incident_address: ""
-date_of_death: ""
+incident_address: Darreh Shahr
+date_of_death: "2026-01-14"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 30-year-old Kurdish citizen from Ilam, detained on January 14 and taken to an undisclosed location. No information about his condition or whereabouts.
@@ -24,3 +24,11 @@ description: 30-year-old Kurdish citizen from Ilam, detained on January 14 and t
 source_type: Social Media
 source:
   - https://x.com/saarmot/status/2018694052527362355
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - e8588996-5e7e-4e8c-b57a-b5a4ab09aaf6
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/736

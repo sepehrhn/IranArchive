@@ -1,7 +1,7 @@
 external_card_id: "2126"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30012_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34236_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30012_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34236_0_telegram_v1.jpg
 name: Mobin Aslani
 persian_name: مبین اصلانی
 birth_date: ""
@@ -27,3 +27,12 @@ source:
   - https://x.com/sayswbaa/status/2016768779682812413
   - https://x.com/ashk_shadi/status/2018458004535001501
   - https://t.me/RememberTheirNames/2245
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 44ad374a-041f-4db6-a104-769bb6555e69
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:f2012bb67f895fab

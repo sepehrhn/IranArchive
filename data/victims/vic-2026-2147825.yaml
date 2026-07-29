@@ -10,10 +10,10 @@ gender: Male
 age: 22
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Chahar Mahaal and Bakhtiari
 incident_city: Shahrekord
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-01"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 22 years old from Shahrekord, Chaharmahal and Bakhtiari province, arrested early morning on 11 Dey month in Tehran by security forces and transferred to Evin prison. According to his relatives, this arrest occurred while he was on his way home after finishing work hours. No clear information is available about the reason for arrest and the status of his case, and his family has expressed concern about his condition.
@@ -24,3 +24,12 @@ description: 22 years old from Shahrekord, Chaharmahal and Bakhtiari province, a
 source_type: Social Media
 source:
   - https://x.com/allahbakhshii/status/2023688776371810418
+  - https://t.me/akhbar_bazdashtiha/163
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bab12cbb-2d6d-4411-b637-2f51501fecff
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

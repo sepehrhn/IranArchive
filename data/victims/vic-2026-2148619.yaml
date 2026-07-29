@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Kerman
 incident_city: Kerman
-incident_address: ""
-date_of_death: ""
+incident_address: Kerman
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Protester from Kerman who was illegally detained and is at risk of execution
@@ -24,3 +24,11 @@ description: Protester from Kerman who was illegally detained and is at risk of 
 source_type: Social Media
 source:
   - https://x.com/aryammehr_2/status/2018915956807053326
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 32c530e7-5f3c-4671-ae1b-1c81f0904b36
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/2100

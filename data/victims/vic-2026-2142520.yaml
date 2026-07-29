@@ -1,13 +1,13 @@
 external_card_id: "382"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20224_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20684_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26817_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39457_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42434_0_instagram_v1.jpg"
-  - "vic-2026-af76e0263d2a.jpg"
-  - "vic-2026-51944b15f48f.jpg"
-  - "vic-2026-8e5292d3d8d7.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20224_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20684_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26817_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39457_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42434_0_instagram_v1.jpg
+  - vic-2026-af76e0263d2a.jpg
+  - vic-2026-51944b15f48f.jpg
+  - vic-2026-8e5292d3d8d7.jpg
 name: Arya Honarmand
 persian_name: آریا هنرمند
 birth_date: ""
@@ -19,10 +19,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Killed in Nazi Abad / Tehran | Shot in the head
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -35,3 +35,11 @@ source:
   - https://x.com/iliaaaa66/status/2015118263718396229
   - https://t.me/RememberTheirNames/226
   - https://www.instagram.com/p/DUgevv1jBuw
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6c75ac8b-1824-4545-a042-2a8987d242ca
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

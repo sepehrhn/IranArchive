@@ -1,22 +1,22 @@
 external_card_id: "7440"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22321_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23098_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24383_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24383_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24383_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31072_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41142_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49846_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51571_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_5_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_7_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22321_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23098_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24383_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24383_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24383_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31072_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41142_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49846_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51571_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_5_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_7_web_v1.jpg
 name: Iman Najjar Hosseini Zavareh
 persian_name: ایمان نجارحسینی
 birth_date: ""
@@ -28,10 +28,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Naein
-incident_address: ""
+incident_address: Isfahan Hospital
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Shot by agents and prevention of surgery
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -47,3 +47,14 @@ source:
   - https://t.me/JavidnamaneVatan/186
   - https://t.me/JavidnamaneVatan/914
   - https://hengaw.net/en/news/2026/01/article-181
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 557b9468-4110-47f1-8184-3fdcebba6704
+  - e717e858-70c1-4041-b817-477e828bb53b
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:6dba87f6b7469992
+  - t.me/JavidnamaneVatan

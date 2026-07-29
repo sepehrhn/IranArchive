@@ -1,9 +1,9 @@
 external_card_id: "1744"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22883_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41932_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51628_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52927_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22883_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41932_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51628_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52927_0_twitter_v1.jpg
 name: Mohsen Darbandari
 persian_name: محسن دربندی
 birth_date: ""
@@ -15,10 +15,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Shahrziba
-incident_address: ""
+incident_address: Shahr-e Ziba, Tehran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Shot by security forces/mercenaries of the Islamic Republic
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,14 @@ source:
   - https://t.me/RememberTheirNames/2725
   - https://t.me/JavidnamaneVatan/1144
   - https://x.com/mahmocean/status/2021350017261502520
+  - https://irantrial.org/fa/heroes
+  - https://www.hra-news.org/
+irantrial_ids:
+  - dac1713c-9ffd-4d4d-ac19-e6cd92bbbf32
+  - fac2a180-28b4-4ba7-bb63-7ec27ed8819d
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan
+  - HRANA-CW-2026/protesters/114

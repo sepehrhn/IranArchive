@@ -1,7 +1,7 @@
 external_card_id: "4982"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40852_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40852_1_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40852_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40852_1_twitter_v1.jpg
 name: Abolfazl Sharifnia
 persian_name: ابولفضل شریف‌نیا
 birth_date: ""
@@ -24,3 +24,11 @@ description: Killed on 18 Dey in Pakdasht, Tehran. Family was forced to pay 1 bi
 source_type: Social Media
 source:
   - https://x.com/afkari_saeed/status/2020382566587724024
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 454dc70a-36a8-46b7-aa59-ea676bb5b55e
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1766

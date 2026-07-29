@@ -1,16 +1,16 @@
 external_card_id: "3434"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22075_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29350_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38343_0_telegram_v1.jpg"
-  - "vic-2026-000005.jpg"
-  - "vic-2026-000948.jpg"
-  - "vic-2026-c8652b938b65.jpg"
-  - "vic-2026-f1e6ece37391.jpg"
-  - "vic-2026-d80ee95a198b.png"
-  - "vic-2026-6d85fb72472d.jpg"
-  - "vic-2026-851f2b466967.jpg"
-  - "vic-2026-a1469dfb6728.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22075_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29350_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38343_0_telegram_v1.jpg
+  - vic-2026-000005.jpg
+  - vic-2026-000948.jpg
+  - vic-2026-c8652b938b65.jpg
+  - vic-2026-f1e6ece37391.jpg
+  - vic-2026-d80ee95a198b.png
+  - vic-2026-6d85fb72472d.jpg
+  - vic-2026-851f2b466967.jpg
+  - vic-2026-a1469dfb6728.jpg
 name: Masoud Bahmani
 persian_name: مسعود بهمنی
 birth_date: ""
@@ -20,7 +20,7 @@ gender: Male
 age: 34
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Hamadan
 incident_city: Shahriar
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -44,3 +44,12 @@ source:
   - https://x.com/baharatish/status/2017323347172794649
   - https://x.com/persian_picture/status/2017687757225591181
   - https://x.com/Suzana654321/status/2016219106144305486
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 9be07606-1784-4830-b2df-dbd22f8547da
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

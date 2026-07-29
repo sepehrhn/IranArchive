@@ -1,26 +1,26 @@
 external_card_id: "3809"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19700_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19700_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19700_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19700_3_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27168_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39273_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55799_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55799_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55799_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55799_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55799_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55799_5_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55799_6_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55799_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55799_8_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55918_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55918_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55918_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55918_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55918_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55918_8_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19700_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19700_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19700_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19700_3_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27168_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39273_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55799_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55799_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55799_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55799_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55799_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55799_5_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55799_6_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55799_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55799_8_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55918_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55918_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55918_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55918_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55918_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55918_8_web_v1.jpg
 name: Ali Janan (Janani)
 persian_name: علی جانان
 birth_date: ""
@@ -32,10 +32,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Eslamshahr Tehran | Tehran | Eslamshahr | Eslamshahr
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -50,3 +50,11 @@ source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_116
   - https://hengaw.net/en/news/2026/01/article-114
   - https://hengaw.net/fa/news/2026/01/article-116-1
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 9e0d78b5-a056-41e0-ba14-bcf7b8b38279
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

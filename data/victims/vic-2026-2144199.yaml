@@ -1,7 +1,7 @@
 external_card_id: "3485"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29425_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30742_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29425_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30742_0_telegram_v1.jpg
 name: Forouzan Mirian
 persian_name: فروزان میریان
 birth_date: ""
@@ -11,12 +11,12 @@ gender: Female
 age: 45
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Shahinshahr
 incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -26,3 +26,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/ZBUVI2NrkWUZFuhpR3aJjg
   - https://t.me/RememberTheirNames/1773
   - https://x.com/gilasgoz/status/2021507382153707999
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 3e95b7ad-ec01-47f2-9f7a-6e5bf80db968
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

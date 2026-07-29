@@ -15,8 +15,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Rasht
-incident_address: ""
-date_of_death: ""
+incident_address: محل کارش در تعمیرگاه
+date_of_death: "2023-01-29"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Deaf young man arrested and charged with 'moharebeh' (enmity against God), a charge that can carry the death penalty. He is unable to hear or speak, making it difficult for him to defend himself in interrogations.
@@ -30,3 +30,13 @@ source:
   - https://x.com/mojtabapacino/status/2024165758553514278
   - https://x.com/ilia__gj/status/2024482191980286110
   - https://x.com/1youngcrazy/status/2024560274011800060
+  - https://t.me/akhbar_bazdashtiha/119
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - af15a369-84d2-4b1a-9fbc-305db60b47da
+irantrial_categories:
+  - at-risk
+risk_of_execution: true
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

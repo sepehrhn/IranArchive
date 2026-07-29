@@ -1,13 +1,13 @@
 external_card_id: "1105"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21146_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21419_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21460_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22281_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25812_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26151_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38038_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38395_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21146_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21419_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21460_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22281_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25812_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26151_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38038_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38395_0_telegram_v1.jpg
 name: Mostafa Nouri Shirazi
 persian_name: مصطفی نوری شیرازی
 birth_date: ""
@@ -17,12 +17,12 @@ gender: Male
 age: 24
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Nowshahr
-incident_address: ""
+incident_address: Nur City | Nur, Mazandaran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -37,3 +37,11 @@ source:
   - https://x.com/spidygiirl/status/2017733151150239925
   - https://x.com/realneo101/status/2015070590919385235
   - https://t.me/RememberTheirNames/1332
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d47fc7a8-a341-4521-8dd6-6ce080c729bf
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

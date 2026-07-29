@@ -1,9 +1,9 @@
 external_card_id: "1750"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22895_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30909_0_telegram_v1.jpg"
-  - "placeholder.png"
-  - "vic-2026-f175c4f52910.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22895_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30909_0_telegram_v1.jpg
+  - placeholder.png
+  - vic-2026-f175c4f52910.jpg
 name: Abdolali Salimi
 persian_name: عبدالعلی سلیمی
 birth_date: ""
@@ -15,7 +15,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Hashtgerd
-incident_address: ""
+incident_address: Hashtgerd - Tehran
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -25,7 +25,7 @@ status: Killed
 description: |-
   47-year-old worker, father's name Mir Ali, company worker/supervisor of two children and elderly mother, died during the early hours of the call on the eighteenth (18 Dey)
 
-  Abdolali Salimi was targeted by direct fire from security forces in the early hours of February 7, 2026 (18 Dey 1404) in Hashtgerd. 
+  Abdolali Salimi was targeted by direct fire from security forces in the early hours of February 7, 2026 (18 Dey 1404) in Hashtgerd.
   He was the guardian of two young children and his elderly mother.
 
 
@@ -35,3 +35,12 @@ source:
   - https://x.com/persephone7597/status/2016146989306581040
   - https://javidnaman.iranintl.com/memorial/arh0kOme1YEvhe6nUw0fa3
   - https://t.me/RememberTheirNames/1944
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - fa8ed8ae-890c-4e47-8c78-9a13e69f1cae
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:82d1c0b2357db3c6

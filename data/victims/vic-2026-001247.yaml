@@ -1,12 +1,12 @@
 external_card_id: "4171"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21591_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34092_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38934_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39768_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49812_0_telegram_v1.jpg"
-  - "vic-2026-001247.jpg"
-  - "vic-2026-8bc4b90edfe8.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21591_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34092_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38934_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39768_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49812_0_telegram_v1.jpg
+  - vic-2026-001247.jpg
+  - vic-2026-8bc4b90edfe8.jpg
 name: Shadan Moradi Lindi
 persian_name: شادان مرادی
 birth_date: ""
@@ -16,7 +16,7 @@ gender: Male
 age: 43
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Golshahr, Karaj
 incident_address: Golshahr
 date_of_death: "2026-01-08"
@@ -41,3 +41,14 @@ source:
   - https://t.me/RememberTheirNames/770
   - https://x.com/hekasrehcrisis/status/2016603027705147823
   - https://t.me/JavidnamaneVatan/152
+  - https://x.com/HeKasrehCrisis/status/2016603027705147823?lang=en
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 05e62cb8-59c2-4f2b-8d0f-3cd95d2bd6ae
+  - 97166724-6e08-4704-a886-3b596fe3c45a
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - t.me/JavidnamaneVatan

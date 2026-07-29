@@ -7,13 +7,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 21
 occupation: ""
 country: Iran
 incident_province: Golestan
 incident_city: Golestan
-incident_address: ""
-date_of_death: ""
+incident_address: Pakdasht - Tehran
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -23,3 +23,12 @@ description: Died in Golestan province in Dey 1404
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3086
+  - https://www.instagram.com/p/DT2N2KijLSc/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - a95f4026-6578-4604-8639-db18544ec6e8
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:0ffcf22f67120f40

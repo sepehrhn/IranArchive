@@ -1,8 +1,8 @@
 external_card_id: "1659"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22687_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42647_0_instagram_v1.jpg"
-  - "vic-2026-c6d3c45fe851.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22687_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42647_0_instagram_v1.jpg
+  - vic-2026-c6d3c45fe851.jpg
 name: Amir Jalilian
 persian_name: امیر جلیلیان
 birth_date: ""
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/kurdpa_farsi/status/2016189391601807388
   - https://www.instagram.com/p/DUpfhdjjv4-
+  - https://www.instagram.com/p/DQCXsI4khYX/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - db6b1c3b-0436-4c8b-a7b6-0ae926ae18bb
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1915

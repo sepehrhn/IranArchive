@@ -1,8 +1,8 @@
 external_card_id: "4603"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39126_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39762_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41184_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39126_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39762_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41184_0_web_v1.jpg
 name: Alireza Monji Azad
 persian_name: علیرضا منجی آزاد
 birth_date: ""
@@ -28,3 +28,12 @@ source:
   - https://x.com/hyrcanihrm/status/2016462710523740502
   - https://x.com/hekasrehcrisis/status/2019630319326953902
   - https://javidnaman.iranintl.com/memorial/GJcxY52Stm1VDduxn02CuB
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f95bf56d-21c3-4b18-9005-dc707ed88848
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:3056fd285a148cf2

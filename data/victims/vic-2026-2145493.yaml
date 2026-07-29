@@ -10,12 +10,12 @@ gender: Male
 age: 32
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Fardis
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Shot with a combat weapon by repressive forces
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: 32 years old, from Ramhormoz, Khuzestan, of Lor ethnicity. Shot wit
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/49
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 508187b8-9895-4452-93a4-f9f661600047
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

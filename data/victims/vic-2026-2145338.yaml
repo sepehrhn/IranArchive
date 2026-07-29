@@ -1,15 +1,15 @@
 external_card_id: "3320"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29097_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29811_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29811_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29823_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30150_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31028_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41071_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47668_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47746_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51792_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29097_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29811_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29811_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29823_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30150_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31028_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41071_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47668_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47746_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51792_0_telegram_v1.jpg
 name: Pardis Mohammadi Dolat-Abadi
 persian_name: پردیس محمدی
 birth_date: ""
@@ -24,7 +24,7 @@ incident_city: Isfahan
 incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -41,3 +41,14 @@ source:
   - https://www.instagram.com/p/DUtOBiZDN2I
   - https://www.instagram.com/p/DUYeEMyjnLB
   - https://t.me/JavidnamaneVatan/1308
+  - https://irantrial.org/fa/heroes
+  - https://www.hra-news.org/
+irantrial_ids:
+  - ad012a97-95d9-484c-927f-ea16c72156a1
+  - beb194b8-a54e-4ab4-b648-59028b2881bd
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - HRANA-CW-2026/protesters/2151

@@ -14,7 +14,7 @@ country: Iran
 incident_province: Ilam
 incident_city: Ilam
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested by IRGC Intelligence Organization on January 9, 2026, and transferred to Mahpareh prison in the city after nearly a month. Lost hearing in one ear under torture and needs medical attention
@@ -25,3 +25,12 @@ description: Arrested by IRGC Intelligence Organization on January 9, 2026, and 
 source_type: Social Media
 source:
   - https://x.com/fseifikaran/status/2020531816600383993
+  - https://t.me/akhbar_bazdashtiha/343
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 30bfcb1f-7975-4db8-ac99-221c86a6164c
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

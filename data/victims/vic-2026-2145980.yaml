@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Sabzevar
-incident_address: ""
-date_of_death: ""
+incident_address: Sabzevar
+date_of_death: "2026-01-02"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Student arrested during recent protests
@@ -24,3 +24,11 @@ description: Student arrested during recent protests
 source_type: Social Media
 source:
   - https://x.com/fzomorodif35743/status/2020433274540347455
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d0909784-d304-4347-b928-ea4aa24054c4
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/children/80

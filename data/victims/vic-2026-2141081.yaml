@@ -16,7 +16,7 @@ incident_city: Iran
 incident_address: ""
 date_of_death: "2026-01-07"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -26,3 +26,12 @@ source:
   - https://x.com/iranrights_org/status/2009327674204819557
   - https://x.com/Aryammehr_2/status/2014713558991507464
   - https://x.com/allahbakhshii/status/2014703432146227558
+  - https://www.dw.com/fa-ir/خبرگاه-علی-اردستانی-به-اتهام-جاسوسی-برای-اسرائیل-اعدام-شد/live-75415031
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c74c52ca-1b1a-4541-86ff-bf1eead7fffd
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,8 +1,8 @@
 external_card_id: "2974"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26769_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48439_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49875_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26769_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48439_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49875_0_telegram_v1.jpg
 name: Ahmad Ghasempour Pilerudi
 persian_name: احمد قاسم‌پور پیله‌رود
 birth_date: ""
@@ -14,7 +14,7 @@ occupation: ""
 country: Iran
 incident_province: Alborz
 incident_city: Fardis, Karaj
-incident_address: ""
+incident_address: Fardis Karaj - Alborz
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -27,3 +27,11 @@ source:
   - https://javidnaman.iranintl.com/memorial/7G0E78pdgELSDZc0CqntuA
   - https://t.me/RememberTheirNames/2898
   - https://t.me/JavidnamaneVatan/215
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - cbe8d239-10c9-4fca-99fc-1008f6c53359
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:79a3c26dec4ba6fa

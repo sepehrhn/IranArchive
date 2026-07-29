@@ -1,21 +1,21 @@
 external_card_id: "2395"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24465_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30703_0_telegram_v1.jpg"
-  - "vic-2026-9c10d2460686.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24465_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30703_0_telegram_v1.jpg
+  - vic-2026-9c10d2460686.jpg
 name: Mahdi Abbasian
 persian_name: مهدی عباسیان
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 25
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Nasimshahr
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/IranianPlateau/status/2016969276989620629
   - https://t.me/RememberTheirNames/1734
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 10bf199e-34ee-4ee1-a697-e1660e3a6fc1
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:f8622641470482fb

@@ -1,32 +1,32 @@
 external_card_id: "9121"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55789_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55789_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55789_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55789_3_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55789_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55789_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55789_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55789_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55789_8_web_v1.jpg"
-  - "vic-2026-000127.jpg"
-  - "vic-2026-c679c12f2aa6.jpg"
-  - "vic-2026-63196f8dfac7.jpg"
-  - "vic-2026-bf7a6ea4e880.jpg"
-  - "vic-2026-72ccccdab45f.png"
-  - "vic-2026-5e6b6fbe2ba6.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55789_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55789_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55789_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55789_3_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55789_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55789_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55789_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55789_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55789_8_web_v1.jpg
+  - vic-2026-000127.jpg
+  - vic-2026-c679c12f2aa6.jpg
+  - vic-2026-63196f8dfac7.jpg
+  - vic-2026-bf7a6ea4e880.jpg
+  - vic-2026-72ccccdab45f.png
+  - vic-2026-5e6b6fbe2ba6.jpg
 name: Fardin Ghanbari
 persian_name: فردین قنبری
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 0
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Sari
-incident_address: ""
+incident_address: Sari | At his workplace on Mahdieh Street in Sari
 date_of_death: "2026-01-14"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -45,3 +45,11 @@ source:
   - https://x.com/walterakam/status/2015354087114424337
   - https://t.me/RememberTheirNames/1471
   - https://x.com/hekasrehcrisis/status/2017451662307098927
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 411eb3e2-8b15-4a98-9421-8c63d58042b1
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,8 +1,8 @@
 external_card_id: "2062"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23515_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27004_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56016_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23515_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27004_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56016_0_twitter_v1.jpg
 name: Azar Nasirpour Lichayee
 persian_name: آذر نصیرپور
 birth_date: ""
@@ -14,7 +14,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Rasht
-incident_address: ""
+incident_address: Saadi St - Rasht - Gilan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -28,3 +28,11 @@ source:
   - https://javidnaman.iranintl.com/memorial/h22nTBad3K42WBHvEsLGoA
   - https://x.com/IranNewsAgency0/status/2018618094566945096
   - https://x.com/me_azadi/status/2026972748954607628
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 2162b6a6-b402-4d42-8b87-3c1efed8390c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:cab8b89adae836b8

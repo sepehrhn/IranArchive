@@ -6,11 +6,11 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 21
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: Tehran
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
@@ -22,3 +22,11 @@ description: Was a grocery store apprentice in the neighborhood. Shot in the leg
 source_type: Social Media
 source:
   - https://x.com/shivaa88/status/2025254937664315798
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 4f75b8da-ab02-49b2-bc9c-d4d7371be2d7
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:853d06dc1b3cd175

@@ -1,10 +1,10 @@
 external_card_id: "1261"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21715_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21879_0_twitter_v1.jpg"
-  - "vic-2026-001741.jpg"
-  - "vic-2026-2d05961934fe.jpg"
-  - "vic-2026-bfa8f3275096.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21715_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21879_0_twitter_v1.jpg
+  - vic-2026-001741.jpg
+  - vic-2026-2d05961934fe.jpg
+  - vic-2026-bfa8f3275096.jpg
 name: Mehdi Soleimani
 persian_name: مهدی سلیمانی
 birth_date: ""
@@ -19,7 +19,7 @@ incident_city: Dehno
 incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -34,3 +34,12 @@ source:
   - https://x.com/visfehan/status/2015362298538307659
   - https://x.com/VIsfehan/status/2015407128404435304
   - https://t.me/RememberTheirNames/1294
+  - https://www.instagram.com/reel/DVJvTwqgEM_/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - aa315800-2419-4afa-8345-4e0aec641413
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

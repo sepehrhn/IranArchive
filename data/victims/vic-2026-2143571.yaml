@@ -1,9 +1,9 @@
 external_card_id: "3032"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26950_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29079_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29342_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30880_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26950_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29079_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29342_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30880_0_telegram_v1.jpg
 name: Ali Farzan Arab
 persian_name: علی عرب
 birth_date: ""
@@ -29,3 +29,11 @@ source:
   - https://x.com/ManotoNews/status/2018127353264906625
   - https://javidnaman.iranintl.com/memorial/ZBUVI2NrkWUZFuhpR4cJye
   - https://t.me/RememberTheirNames/1915
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 70bdbe31-bebc-4029-8758-4a71ae36b21e
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:741385c35b87177e

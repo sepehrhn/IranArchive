@@ -1,11 +1,11 @@
 external_card_id: "2848"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20348_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20348_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20348_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26450_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29045_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38110_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20348_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20348_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20348_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26450_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29045_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38110_0_twitter_v1.jpg
 name: Abolfazl Alipour
 persian_name: ابوالفضل علی‌پور
 birth_date: ""
@@ -20,7 +20,7 @@ incident_city: Babol
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -32,3 +32,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWfl9h
   - https://x.com/i/status/2017946572336570397
   - https://x.com/anjmotahed/status/2015371411473256537
+  - https://www.iranintl.com/202601256453
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 66e2ea5e-98fd-442a-86be-284d8ab92076
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,7 +1,7 @@
 external_card_id: "5193"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41285_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50860_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41285_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50860_0_telegram_v1.jpg
 name: Akbar Joodi
 persian_name: اکبر جودی
 birth_date: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2567
   - https://t.me/JavidnamaneVatan/960
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 3f039f70-3f69-4b14-bb34-9175920519d9
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:089fd5041af3c166

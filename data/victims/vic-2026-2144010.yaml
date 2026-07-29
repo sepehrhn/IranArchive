@@ -6,15 +6,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 19
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: ""
+incident_province: Gilan
+incident_city: Rasht
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -22,3 +22,11 @@ description: Mother states that what they did to her child, even Yazid did not d
 source_type: Social Media
 source:
   - https://x.com/navidmajd11/status/2020872239302746245
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f58c0df0-6ec2-4d64-b4d9-9d1dec70e35a
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,9 +1,9 @@
 external_card_id: "5448"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42154_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42306_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48385_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49325_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42154_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42306_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48385_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49325_0_twitter_v1.jpg
 name: Seyedeh Ghazaleh Hosseini
 persian_name: غزاله سادات حسینی
 birth_date: ""
@@ -30,3 +30,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/tCKl8UDDdoQQUGMvcXECDL
   - https://x.com/visfehan/status/2024099373047529656
   - https://x.com/gilasgoz/status/2021736826063466903
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c9872f34-73bb-45dc-821a-7b973c22baa4
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:3e65a4bd2bb3d91a

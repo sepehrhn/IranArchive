@@ -1,20 +1,20 @@
 external_card_id: "5265"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41465_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53017_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53017_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53017_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53017_3_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41465_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53017_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53017_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53017_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53017_3_twitter_v1.jpg
 name: Fatemeh Emamdoost
 persian_name: فاطمه امام‌دوست
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 39
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -28,3 +28,11 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2599
   - https://x.com/nikimahjoub/status/2025587946775019730
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 17d40799-0956-4474-bb26-512bce6a4746
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:e61b00ae93e35fa7

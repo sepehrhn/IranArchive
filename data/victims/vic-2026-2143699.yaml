@@ -1,15 +1,15 @@
 external_card_id: "6958"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48042_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48420_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50621_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48042_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48420_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50621_0_telegram_v1.jpg
 name: Alireza Sheikh Emami
 persian_name: علیرضا شیخ امامی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 47
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -17,7 +17,7 @@ incident_city: Haft-e Howz
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,12 @@ source:
   - https://www.instagram.com/p/DUw9EKeDO6r
   - https://t.me/RememberTheirNames/2879
   - https://t.me/JavidnamaneVatan/746
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8f65ff1d-bdd6-4bad-88c5-3c863dbdfd10
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

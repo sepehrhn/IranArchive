@@ -1,9 +1,9 @@
 external_card_id: "1374"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21985_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38759_0_telegram_v1.jpg"
-  - "vic-2026-000839.jpg"
-  - "vic-2026-5e3283470f98.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21985_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38759_0_telegram_v1.jpg
+  - vic-2026-000839.jpg
+  - vic-2026-5e3283470f98.jpg
 name: Sara Arab
 persian_name: سارا عرب
 birth_date: ""
@@ -13,7 +13,7 @@ gender: Female
 age: 39
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -33,3 +33,12 @@ source_type: Social Media
 source:
   - https://x.com/ElaaBita2022/status/2014955387183890950
   - https://t.me/RememberTheirNames/949
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - eb0d141b-cf7c-44aa-b9c4-0ebbba17d4a5
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

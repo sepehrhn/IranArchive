@@ -12,7 +12,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Tehran
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://x.com/HengawO/status/2017685668806226288
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1727
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f30f546f-9ccb-4a5e-a77a-aeff315c2b4f
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/1727

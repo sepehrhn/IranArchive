@@ -1,18 +1,18 @@
 external_card_id: "8511"
 photo: []
 name: Ghorban Behzadian-Nejad
-persian_name: ""
+persian_name: قربان بهزادیان‌نژاد
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
-incident_address: ""
-date_of_death: ""
+incident_city: Unknown
+incident_address: Unknown
+date_of_death: "2026-02-07"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Detained during protests. Listed in HRANA's 'Identified Detainees' section of The Crimson Winter report. Date of arrest: February 7, 2026 (1404/11/18). Current status: Detained. Original source: Fars News Agency."
@@ -23,3 +23,11 @@ description: "Detained during protests. Listed in HRANA's 'Identified Detainees'
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1029
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b0e1a390-6232-40c3-b7c0-d106530d17ab
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/1029

@@ -1,14 +1,14 @@
 external_card_id: "4773"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24464_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24464_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25540_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25540_1_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40068_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40259_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42544_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52297_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52851_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24464_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24464_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25540_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25540_1_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40068_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40259_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42544_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52297_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52851_0_twitter_v1.jpg
 name: Erfan Safari Sarshakeh
 persian_name: عرفان صفری سرشکه
 birth_date: ""
@@ -18,7 +18,7 @@ gender: Male
 age: 23
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Eslamshahr
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -38,3 +38,12 @@ source:
   - https://x.com/hengawo/status/2022000145861095642
   - https://t.me/JavidnamaneVatan/1784
   - https://x.com/missmarpel75/status/2017561070932463617
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5a994119-875e-43c5-a541-0468c923c827
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/2840

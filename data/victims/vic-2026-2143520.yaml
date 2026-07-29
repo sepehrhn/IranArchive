@@ -10,7 +10,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -24,3 +24,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2613
   - https://x.com/gilasgoz/status/2021959505354088886
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 62ca6a55-f0e0-4061-b36c-9699e9e0452d
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1857

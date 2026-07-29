@@ -7,13 +7,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 22
 occupation: ""
 country: Iran
 incident_province: Mazandaran
 incident_city: Noor
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -23,3 +23,12 @@ description: Killed by government forces during protests on Thursday and Friday 
 source_type: Social Media
 source:
   - https://x.com/alitagh30207454/status/2015074385925746874
+  - https://narrata.info/en/narratives/2b7833ce-ba15-41dd-9dcc-71ff75eca31a/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 23d85edb-2e0c-4d2c-b237-d82f75c73331
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/171

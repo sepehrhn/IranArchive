@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: Tehran
+date_of_death: "2025-12-31"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Rock climbing champion and former national team member arrested on 12th of Dey and transferred to Tehran's Greater Prison (Evin). Remains in temporary detention with uncertain legal status. Political prisoner being held deliberately without clear legal proceedings as a pressure tactic by intelligence and security institutions in cooperation with the judicial system.
@@ -28,3 +28,11 @@ source:
   - https://x.com/dadban4/status/2019387213272731869
   - https://x.com/monaborzouei/status/2019463878443160021
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-874
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 0904ecce-b82a-4500-921c-66165e005387
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/2353

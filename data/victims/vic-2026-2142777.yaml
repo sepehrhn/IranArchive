@@ -1,12 +1,12 @@
 external_card_id: "2574"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25766_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27062_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31022_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42073_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42459_0_instagram_v1.jpg"
-  - "vic-2026-689751d6cbb5.jpg"
-  - "vic-2026-cb3d8274a3ff.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25766_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27062_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31022_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42073_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42459_0_instagram_v1.jpg
+  - vic-2026-689751d6cbb5.jpg
+  - vic-2026-cb3d8274a3ff.png
 name: Saina Nezam Doost
 persian_name: ساینا نظام دوست
 birth_date: ""
@@ -16,12 +16,12 @@ gender: Male
 age: 25
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -34,3 +34,12 @@ source:
   - https://t.me/RememberTheirNames/2046
   - https://x.com/uomomees/status/2020813125696561439
   - https://www.instagram.com/p/DUfvya9kUQa
+  - https://www.instagram.com/reel/DVA2dMDjdMJ/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 1da9eab1-0460-4b9f-b6cf-b4677a158ac3
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:cf7158fe36d22ba5

@@ -15,9 +15,9 @@ age: null
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
-incident_address: ""
-date_of_death: ""
+incident_city: خانه‌ی خود
+incident_address: خانه‌ی خود
+date_of_death: "2024-01-15"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Theatre actor who was violently arrested over a week ago. No information on her whereabouts and her life is in imminent danger.
@@ -30,3 +30,12 @@ source:
   - https://x.com/justchangingun/status/2016658852972789812
   - https://x.com/i/status/2016845388041355642
   - https://x.com/saarmot/status/2018008277578133585
+  - https://t.me/akhbar_bazdashtiha/419
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 2505c08f-fdaf-45df-82db-fab2742fabb6
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

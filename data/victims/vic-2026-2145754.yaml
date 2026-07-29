@@ -10,9 +10,9 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Parand
-incident_address: ""
+incident_address: Tehran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +23,12 @@ description: Shot directly in the leg in Parand on Friday. Described as a martyr
 source_type: Social Media
 source:
   - https://www.instagram.com/p/DUf3ws5EYNT
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b37741ae-318e-4939-a7ff-c38b32891dfe
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/2638

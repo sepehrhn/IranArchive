@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 42
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -23,3 +23,12 @@ description: Father of a 9-year-old son, shot in the throat and stomach by suppr
 source_type: Social Media
 source:
   - https://www.instagram.com/p/DUyNehpDKr2
+  - https://www.instagram.com/p/DWANczKAS1h/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 911c301d-437f-49f0-8182-feeffef8c940
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:9fe616de59e9a83b

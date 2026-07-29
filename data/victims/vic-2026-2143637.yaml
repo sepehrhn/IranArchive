@@ -1,7 +1,7 @@
 external_card_id: "4262"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34347_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42252_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34347_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42252_0_web_v1.jpg
 name: Ali Yaghmorloo
 persian_name: علی یغمورلو
 birth_date: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2277
   - https://javidnaman.iranintl.com/memorial/QssiqVUH9FM3kxUYSARs9R
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6cffe8ad-030a-47b9-95f5-695f8ea9ef89
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:3d35cc2341756b85

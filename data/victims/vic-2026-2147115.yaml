@@ -13,7 +13,7 @@ country: Iran
 incident_province: ""
 incident_city: Mahalat
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-21"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested on the first day of Bahman month in Mahalat county. Security agents initially came to his house with six armed forces intending to arrest him, but were unsuccessful as he was not home. The agents reportedly threatened his father and put pressure on the family, ultimately forcing him to turn himself in to security authorities. He is currently being held in Mahalat prison.
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/followupiran/status/2026740824831049874
   - https://x.com/18mandana/status/2026579009312608647
+  - https://t.me/akhbar_bazdashtiha/370
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b5deac36-62c6-44fc-ae5e-0700dbebd785
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

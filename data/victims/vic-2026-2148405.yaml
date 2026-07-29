@@ -21,7 +21,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gachsaran
-incident_address: ""
+incident_address: Yasuj
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -35,3 +35,11 @@ source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-244
   - https://hengaw.net/en/news/2026/01/article-41
   - https://hengaw.net/fa/news/2026/01/article-41
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 3442d9a5-9d9d-4c8e-a14f-341654cff4f9
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/2083

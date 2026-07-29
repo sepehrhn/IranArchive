@@ -1,7 +1,7 @@
 external_card_id: "4991"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40865_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42105_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40865_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42105_0_twitter_v1.jpg
 name: Nooraldin Abdali Pourghobadi
 persian_name: نورالدین عبدلی پورقبادی
 birth_date: ""
@@ -13,7 +13,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Malard
-incident_address: ""
+incident_address: Malard - Tehran Road
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -26,3 +26,12 @@ source:
   - https://x.com/kurdistanhrn/status/2020525257115762937
   - https://x.com/hengawo/status/2021137947794219013
   - https://x.com/me_azadi/status/2024093702159810730
+  - https://www.instagram.com/reel/DYRI9Ugt00G/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c6d95270-3006-47ed-a83c-db99e9cf9682
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:7f9be4f7390982bb

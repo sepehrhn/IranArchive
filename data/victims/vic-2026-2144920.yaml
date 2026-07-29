@@ -1,8 +1,8 @@
 external_card_id: "4687"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30678_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39808_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39808_1_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30678_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39808_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39808_1_twitter_v1.jpg
 name: Mohammad Haghighi Asl
 persian_name: محمد حقیقی‌اصل
 birth_date: ""
@@ -12,7 +12,7 @@ gender: Male
 age: 22
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Ramsar
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -27,3 +27,12 @@ source:
   - https://t.me/RememberTheirNames/1709
   - https://x.com/masoudkazemi81/status/2016843516966543574
   - https://x.com/gilasgoz/status/2022015380953481679
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - cbdc57c5-217c-4859-9360-bdca596f1c8f
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1414

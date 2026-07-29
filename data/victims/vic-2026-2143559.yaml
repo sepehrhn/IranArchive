@@ -1,8 +1,8 @@
 external_card_id: "3124"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27166_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29162_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39022_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27166_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29162_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39022_0_telegram_v1.jpg
 name: Ali Baratian
 persian_name: علی براتیان
 birth_date: ""
@@ -28,3 +28,11 @@ source:
   - https://x.com/visfehan/status/2018398684623290488
   - https://x.com/VIsfehan/status/2018636330520182906
   - https://t.me/RememberTheirNames/678
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 455661c6-dd11-4d3c-b4cd-b78ca0c2a7c1
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:0fbf6f68d829cc80

@@ -10,10 +10,10 @@ gender: Male
 age: 30
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-incident_address: ""
-date_of_death: ""
+incident_address: Karaj
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -26,3 +26,12 @@ source:
   - https://t.me/RememberTheirNames/1552
   - https://x.com/HeKasrehCrisis/status/2018020697612718311
   - https://t.me/RememberTheirNames/1969
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 79e4b494-31b1-4a4a-afbb-12f82a35be69
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/800

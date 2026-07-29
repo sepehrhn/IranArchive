@@ -11,9 +11,9 @@ age: null
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
-incident_address: ""
-date_of_death: ""
+incident_city: تهران
+incident_address: محله نازی‌آباد تهران
+date_of_death: "2024-01-07"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Graduate of social work from Allameh Tabataba'i University and master's student in rehabilitation counseling at University of Rehabilitation Sciences and Social Health, arrested during recent protests and charged with 'assembly and conspiracy against national security'
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/anjmotahed/status/2018320943915897240
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-345
+  - https://t.me/akhbar_bazdashtiha/468
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ff2b9fb6-0dbc-42c9-b270-2a3db4b41895
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

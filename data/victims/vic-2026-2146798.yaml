@@ -14,8 +14,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: خیابان کاشانی
+date_of_death: "2024-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 30-year-old environmental health specialist and German language instructor, arrested by security forces on Kashani Street in Tehran on January 8, 2026 (18 Dey). Transferred to Evin Prison and currently held in Ward 209 which is under the supervision of security institutions. No information available about charges, legal status, access to lawyer or regular contact with family as of the report date.
@@ -28,3 +28,12 @@ source:
   - https://x.com/tavaana/status/2020299672938856626
   - https://x.com/followupiran/status/2021637738760466647
   - https://x.com/saarmot/status/2022311948851806596
+  - https://t.me/akhbar_bazdashtiha/327
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f52d43f6-0cce-4df6-92db-85ac8947e5cf
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

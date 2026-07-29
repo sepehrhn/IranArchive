@@ -1,11 +1,11 @@
 external_card_id: "3612"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21465_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29818_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30879_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48356_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52081_0_telegram_v1.jpg"
-  - "vic-2026-3974aab4ce5d.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21465_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29818_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30879_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48356_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52081_0_telegram_v1.jpg
+  - vic-2026-3974aab4ce5d.jpg
 name: Parsa Lorestani Beiranvand
 persian_name: پارسا لرستانی
 birth_date: ""
@@ -20,7 +20,7 @@ incident_city: Khorramabad
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -33,3 +33,12 @@ source:
   - https://x.com/allahbakhshii/status/2019460218711691470
   - https://javidnaman.iranintl.com/memorial/KjEttE2kDZFmUqANv80SHR
   - https://t.me/JavidnamaneVatan/1568
+  - https://x.com/IranIntl/status/2015797120633098363
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 42d41e76-f800-48f5-987e-831ddae4c5ad
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

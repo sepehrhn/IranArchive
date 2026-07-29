@@ -6,7 +6,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 30
 occupation: ""
 country: Iran
 incident_province: ""
@@ -22,3 +22,11 @@ description: Shot directly with war bullets by IRGC (Revolutionary Guards) in La
 source_type: Social Media
 source:
   - https://x.com/iranintlbrk/status/2016418459756699844
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 85f70994-c8aa-47bf-8c39-17f12b437280
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:137ca82b69c6fee1

@@ -20,8 +20,8 @@ occupation: ""
 country: Iran
 incident_province: Qazvin
 incident_city: Qazvin
-incident_address: ""
-date_of_death: ""
+incident_address: Qazvin
+date_of_death: "2026-02-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Sister of Javad Heydari who was killed during Woman, Life, Freedom movement. Mother of Zahra and Mohammadreza Irandoust. Arrested while attempting to follow up on her children's situation at Choobindar Prison in Qazvin. Detained by intelligence agents on prosecutor's order and transferred to undisclosed location.
@@ -32,3 +32,11 @@ description: Sister of Javad Heydari who was killed during Woman, Life, Freedom 
 source_type: Social Media
 source:
   - https://hengaw.net/en/news/2026/02/article-52
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 23a71694-e27c-45cf-a3a4-2437c07a4b1b
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/2447

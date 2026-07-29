@@ -7,15 +7,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 22
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Eslamshahr
-incident_address: ""
+incident_address: Eslamshahr, Vavan Town
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,12 @@ description: Died in Eslamshahr on 19 Dey 1404
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2558
+  - https://www.instagram.com/p/DUYvYs-CI38/?hl=en
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - af34d682-6d39-4d30-bb09-8b422d99c196
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

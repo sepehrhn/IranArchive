@@ -12,7 +12,7 @@ gender: Male
 age: 20
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kohgiluyeh and Boyer-Ahmad
 incident_city: Sar-e Abtaveh
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/salarvandn21943/status/2017719150374695198
   - https://x.com/iranwire/status/2017835647017312343
+  - https://www.instagram.com/p/DUp7DxjiGF5/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 0da63504-69c4-418c-88cc-a9b93ebced1e
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:392a051ab695f8fd

@@ -12,7 +12,7 @@ gender: Male
 age: 37
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Marlik
 incident_address: Marlik
 date_of_death: "2026-01-26"
@@ -30,3 +30,12 @@ description: |-
 source_type: Social Media
 source:
   - https://x.com/Tavaana/status/2014987469394239772
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f5e66746-750c-494b-a6d5-a6f5060a50ea
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/826

@@ -1,8 +1,8 @@
 external_card_id: "2512"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25573_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30301_0_telegram_v1.jpg"
-  - "vic-2026-c658ee9d9976.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25573_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30301_0_telegram_v1.jpg
+  - vic-2026-c658ee9d9976.jpg
 name: Amirmehdi Khorsandi
 persian_name: امیرمهدی خرسندی
 birth_date: ""
@@ -14,10 +14,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran (Khak Sefid
-incident_address: ""
+incident_address: Tehran | Tehran, Tehranpars
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/sinayousefilaw/status/2017325341765685680
   - https://t.me/RememberTheirNames/2179
+  - https://www.threads.com/@khaa.n6306/post/DYw6eAWjMcq
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - e8849ad2-e36c-426e-a555-cc7d0a873e25
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

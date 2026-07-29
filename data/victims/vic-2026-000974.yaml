@@ -1,14 +1,14 @@
 external_card_id: "9201"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55843_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55843_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55843_2_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55843_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55843_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55843_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55843_6_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55843_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55843_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55843_2_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55843_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55843_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55843_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55843_6_web_v1.jpg
 name: Mostafa
-persian_name: ""
+persian_name: مصطفی
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -16,9 +16,9 @@ gender: Male
 age: 15
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Lorestan
 incident_city: Azna
-incident_address: ""
+incident_address: Azna-Lorestan | Tehran
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -33,3 +33,11 @@ source_type: Social Media
 source:
   - https://hengaw.net/en/news/2026/01/article-7
   - https://en.wikipedia.org/wiki/Killing_of_Shayan_Asadollahi
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bb79ae0c-321d-442f-9d55-cbe5fbd7e739
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

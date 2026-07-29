@@ -15,7 +15,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Rudsar
-incident_address: ""
+incident_address: Rudsar
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -30,3 +30,11 @@ source:
   - https://x.com/i/status/2018316808839729514
   - https://x.com/mario___ng/status/2018335238028435788
   - https://x.com/scarface_2582/status/2020767756640235885
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 4027b63b-560e-4b22-81fc-291616d6a8f0
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/959

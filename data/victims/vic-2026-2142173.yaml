@@ -1,13 +1,13 @@
 external_card_id: "1849"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23435_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24129_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26649_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30025_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50284_0_telegram_v1.jpg"
-  - "vic-2026-8485cdb0f37c.jpg"
-  - "vic-2026-dc70141b9ffe.jpg"
-  - "vic-2026-49591db14aea.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23435_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24129_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26649_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30025_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50284_0_telegram_v1.jpg
+  - vic-2026-8485cdb0f37c.jpg
+  - vic-2026-dc70141b9ffe.jpg
+  - vic-2026-49591db14aea.jpg
 name: Matin Abbasi
 persian_name: متین عباسی
 birth_date: ""
@@ -19,7 +19,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Saba Shahr
-incident_address: ""
+incident_address: Sabashahr - Tehran
 date_of_death: "2026-01-14"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -35,3 +35,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWj50W
   - https://x.com/iranwire/status/2018222456125673944
   - https://t.me/JavidnamaneVatan/483
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 7804d949-9285-47ac-b11d-8bfc4340663f
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:bade85ede32553d5

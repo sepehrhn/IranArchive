@@ -13,7 +13,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: اصفهان, اصفهان
-incident_address: ""
+incident_address: Isfahan
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -26,3 +26,11 @@ source_type: Social Media
 source:
   - https://x.com/_thedeadstar/status/2017403825036951997
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1194
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 48f9b69f-9a6d-4ff1-a6b8-5693eb4bde04
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/children/97

@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Zarin Shahr
-incident_address: ""
-date_of_death: ""
+incident_address: خانه‌ی پدری
+date_of_death: "2023-01-07"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 17-year-old arrested by plainclothes agents who raided his parents' home without providing any explanation to the family. Family has been unable to get clear information about his detention location, charges, or case status from relevant authorities. Unofficially reported to be held in Dowlatabad Prison in Isfahan, but judicial authorities and prison officials have not provided transparent explanations.
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/eghdammoshtarak/status/2026649036762108356
   - https://x.com/followupiran/status/2027134084569575753
+  - https://t.me/akhbar_bazdashtiha/373
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8fef1a6e-3ccc-4568-9af6-e27b5a291776
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

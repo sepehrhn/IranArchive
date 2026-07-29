@@ -11,9 +11,9 @@ age: null
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
-incident_address: ""
-date_of_death: ""
+incident_city: Iranshahr
+incident_address: Iranshahr
+date_of_death: "2026-01-07"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Detained individual whose life is reported to be in danger
@@ -24,3 +24,11 @@ description: Detained individual whose life is reported to be in danger
 source_type: Social Media
 source:
   - https://x.com/balochestan1422/status/2019848271708189154
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f02fe5fc-cc2e-45ef-9ef9-cdb4a7bb38a4
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/831

@@ -1,18 +1,18 @@
 external_card_id: "1872"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23109_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23109_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23352_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27321_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30185_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38174_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40075_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52275_0_telegram_v1.jpg"
-  - "vic-2026-001853.jpg"
-  - "vic-2026-cfc22e2bcda6.jpg"
-  - "vic-2026-78e51b93da13.jpg"
-  - "vic-2026-b5a92b612f16.jpg"
-  - "vic-2026-30310f4ba4f0.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23109_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23109_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23352_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27321_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30185_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38174_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40075_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52275_0_telegram_v1.jpg
+  - vic-2026-001853.jpg
+  - vic-2026-cfc22e2bcda6.jpg
+  - vic-2026-78e51b93da13.jpg
+  - vic-2026-b5a92b612f16.jpg
+  - vic-2026-30310f4ba4f0.jpg
 name: Alireza Tahernejad
 persian_name: علیرضا طاهرنژاد
 birth_date: ""
@@ -27,7 +27,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -48,3 +48,11 @@ source:
   - https://x.com/iranintl/status/2015649588401574263
   - https://x.com/iranwire/status/2019833228643942881
   - https://t.me/JavidnamaneVatan/1762
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 4fd8b579-dca2-4b30-9536-85c07fe7eb45
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

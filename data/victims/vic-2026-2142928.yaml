@@ -1,9 +1,9 @@
 external_card_id: "2960"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26747_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49791_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53564_0_instagram_v1.jpg"
-  - "vic-2026-183d24c5058b.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26747_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49791_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53564_0_instagram_v1.jpg
+  - vic-2026-183d24c5058b.png
 name: Amir Dashti
 persian_name: امیر دشتی
 birth_date: ""
@@ -15,10 +15,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Tehran | Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -28,3 +28,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/7G0E78pdgELSDZc0Co2nt4
   - https://t.me/RememberTheirNames/3051
   - https://www.instagram.com/p/DU-Bf4OjDNI
+  - https://www.instagram.com/p/DVpjxiXAfU0/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 0f1ba782-6886-439d-80af-aa260cdb48cb
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

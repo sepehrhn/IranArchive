@@ -1,8 +1,8 @@
 external_card_id: "3949"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27052_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30889_0_telegram_v1.jpg"
-  - "vic-2026-34cff389b2c6.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27052_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30889_0_telegram_v1.jpg
+  - vic-2026-34cff389b2c6.jpg
 name: Jafar Shakouri Elizeh
 persian_name: جعفر شکوری
 birth_date: ""
@@ -17,7 +17,7 @@ incident_city: Manjil
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -26,3 +26,14 @@ source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/tCKl8UDDdoQQUGMvcTMRKI
   - https://t.me/RememberTheirNames/1924
+  - https://x.com/HyrcaniHRM/status/2017645504411107456
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8a52ea77-3f8c-4013-be10-c4c1f1aa88c2
+  - 3144923e-7063-40e2-b9ac-9a321bf11577
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - iranintl-memorial:61d0123eff6ef8d2

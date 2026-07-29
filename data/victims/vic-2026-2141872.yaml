@@ -16,8 +16,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: زرین‌شهر/اصفهان, اصفهان
-incident_address: ""
-date_of_death: ""
+incident_address: محل کار
+date_of_death: "2023-01-26"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Subjected to torture and other ill-treatment, sustained facial injuries and bruising from beatings while in custody. At risk of death penalty in relation to the January uprising.
@@ -33,3 +33,12 @@ source:
   - https://x.com/iliaaaa6/status/2016928468387197165
   - https://x.com/i/status/2016988759766503463
   - https://x.com/i/status/2016928468387197165
+  - https://t.me/akhbar_bazdashtiha/464
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ec4d4514-6a6f-4e22-a344-1358244b9397
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

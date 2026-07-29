@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Ilam
 incident_city: Malekshahi
-incident_address: ""
-date_of_death: ""
+incident_address: Malekshahi - Ilam
+date_of_death: "2026-01-04"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -23,3 +23,11 @@ description: Victim documented in Iran International Memorial database from Male
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWfrde
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 3b9c2e15-732f-4a62-9db0-d53bbe708e7d
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:52fb94790a1d7f2c

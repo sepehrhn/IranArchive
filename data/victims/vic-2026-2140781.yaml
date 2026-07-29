@@ -1,11 +1,11 @@
 external_card_id: "2132"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22340_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23652_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26658_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41809_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47756_0_instagram_v1.jpg"
-  - "vic-2026-f9490a5784eb.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22340_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23652_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26658_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41809_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47756_0_instagram_v1.jpg
+  - vic-2026-f9490a5784eb.jpg
 name: Hossein Akrami Souraki
 persian_name: حسین اکرامی سورکی
 birth_date: ""
@@ -15,7 +15,7 @@ gender: Male
 age: 38
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Sari
 incident_address: ""
 date_of_death: "2026-01-31"
@@ -36,3 +36,11 @@ source:
   - https://x.com/manotonews/status/2021132528573350120
   - https://www.instagram.com/p/DUQ0f2IDWOo
   - https://www.instagram.com/p/DUxogMHDG53
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 2d2de131-1246-4791-9239-0cb2e9e4cd9e
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:bd8f2e66fec6b764

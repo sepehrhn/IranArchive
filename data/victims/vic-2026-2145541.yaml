@@ -1,7 +1,7 @@
 external_card_id: "4177"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34098_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52518_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34098_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52518_0_telegram_v1.jpg
 name: Saeed Ghaziani
 persian_name: سعید قاضیانی
 birth_date: ""
@@ -13,10 +13,10 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Qarchak
-incident_address: ""
+incident_address: Qarchak
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -26,3 +26,12 @@ source:
   - https://t.me/RememberTheirNames/2195
   - https://x.com/irannewsagency0/status/2019487712856736143
   - https://t.me/JavidnamaneVatan/1817
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 3dc31053-e0c3-4cff-b418-2e36adc2a189
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

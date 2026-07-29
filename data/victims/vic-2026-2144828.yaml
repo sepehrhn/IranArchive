@@ -10,12 +10,12 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Parand
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,12 @@ description: Died on 19 Dey 1404 in Parand
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2153
+  - https://www.instagram.com/p/DU0lbAljCgx/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 89857e37-db7a-40bb-b4c3-c48b17b159ec
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

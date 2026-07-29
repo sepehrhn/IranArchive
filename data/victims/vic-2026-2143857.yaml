@@ -15,7 +15,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Direct shooting by agents after initial injury
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Initially wounded by Islamic Republic agents and then killed by dir
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/1407
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - fafecf5b-a7b6-4984-a214-af515cfc7ffe
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

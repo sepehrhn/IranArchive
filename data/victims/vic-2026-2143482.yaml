@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 20
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -23,3 +23,12 @@ description: Death occurred in Dowlatabad, Tehran area
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2564
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 72091b12-2f32-4bc7-a369-92e86a54f214
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:4a03bb38c83f5612

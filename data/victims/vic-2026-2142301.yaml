@@ -1,16 +1,16 @@
 external_card_id: "1431"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22078_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22078_1_twitter_v1.png"
-  - "vic-2026-03ec4e9f136f.png"
-  - "vic-2026-3fc32231581c.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22078_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22078_1_twitter_v1.png
+  - vic-2026-03ec4e9f136f.png
+  - vic-2026-3fc32231581c.png
 name: Amir Mohammad Belorian
 persian_name: امیرمحمد بلوریان
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 27
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -18,7 +18,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -26,3 +26,12 @@ description: Shopkeeper from Ala-al-Din Passage, directly targeted by bullets du
 source_type: Social Media
 source:
   - https://x.com/hekasrehcrisis/status/2015831372863095284
+  - https://www.instagram.com/reel/DVRAASDDLYC/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 115df201-f9ae-43e9-8302-9fd5edc15195
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

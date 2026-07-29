@@ -14,9 +14,9 @@ country: Iran
 incident_province: Tehran
 incident_city: Karaj, Andisheh
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -24,3 +24,13 @@ description: Father of an 8-year-old child. Killed in Shahrak Andisheh, Tehran, 
 source_type: Social Media
 source:
   - https://x.com/atenamoghaddam1/status/2015470107695390792
+  - https://www.instagram.com/p/DT-2GdyEQVX/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 2bc667e5-6034-42fe-800e-e820051acdb5
+  - bba47fc8-d000-41c4-b38c-84e4d89e8669
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

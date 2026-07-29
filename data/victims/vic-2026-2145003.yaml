@@ -1,12 +1,12 @@
 external_card_id: "1358"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21929_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21929_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25575_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25575_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26859_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37835_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47675_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21929_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21929_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25575_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25575_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26859_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37835_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47675_0_instagram_v1.jpg
 name: Mohammad Moein Mohammad Yousefi
 persian_name: معین محمدیوسفی
 birth_date: ""
@@ -18,10 +18,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Nazi Abad, Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -34,3 +34,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/arh0kOme1YEvhe6nUrgQXf
   - https://x.com/simonederayeh/status/2014582624837349728
   - https://www.instagram.com/p/DUs18MpjJrb
+  - https://javidnaman.iranintl.com/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c91ed992-3ee0-40fc-b261-ae7ddf58c02c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

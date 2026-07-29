@@ -1,10 +1,10 @@
 external_card_id: "1300"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21780_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38556_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42467_0_instagram_v1.jpg"
-  - "vic-2026-001640.jpg"
-  - "vic-2026-c534c1ce0d58.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21780_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38556_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42467_0_instagram_v1.jpg
+  - vic-2026-001640.jpg
+  - vic-2026-c534c1ce0d58.jpg
 name: Ali Varkabari
 persian_name: علی ورک‌باری
 birth_date: ""
@@ -16,10 +16,10 @@ occupation: ""
 country: Iran
 incident_province: Qazvin
 incident_city: Qazvin
-incident_address: ""
+incident_address: Qazvin | Qazvin
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -35,3 +35,11 @@ source:
   - https://t.me/RememberTheirNames/1163
   - https://www.instagram.com/p/DUfbyNajlqT
   - https://x.com/missmarpel75/status/2015023581055394004
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 98803a5f-472d-44b3-9ff2-972b1f7ddd55
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 29
 occupation: ""
 country: Iran
 incident_province: Kerman
@@ -19,7 +19,16 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: IranTrial lists Vahid Khosravi among those killed on 2026-01-08 in Kerman, Kerman.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1329
+  - https://witness.report/people.php?peopleId=f374768d-10c3-11f1-97e4-560003f1f421
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 40261d85-02de-4284-a2aa-031f2653d873
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3428

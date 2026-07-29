@@ -15,7 +15,7 @@ country: Iran
 incident_province: Isfahan
 incident_city: Malekshahr
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-12"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 16-year-old boxer arrested on 22 Dey (January 12, 2026) in Malekshahr, Isfahan without judicial warrant or legal evidence. Held in unknown detention facility with no official information about his whereabouts, physical or mental condition since arrest.
@@ -29,3 +29,12 @@ source:
   - https://x.com/simiinm/status/2024877265172177385
   - https://x.com/ilia__gj/status/2026330019404849377
   - https://x.com/ilia__gj/status/2024570137580298568
+  - https://t.me/akhbar_bazdashtiha/120
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 12d27c3c-1856-42f7-8899-0b555a0ea4e4
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Nahavand
-incident_address: ""
-date_of_death: ""
+incident_address: Nahavand
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested during Dey month protests in Nahavand, Qeysarieh Square by motorcycle forces affiliated with IRGC. Currently imprisoned in Nahavand or Hamadan prison
@@ -24,3 +24,11 @@ description: Arrested during Dey month protests in Nahavand, Qeysarieh Square by
 source_type: Social Media
 source:
   - https://x.com/followupiran/status/2022338533638455484
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c3105dda-6a7e-43c1-8a4e-7e83e24cd7d1
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/2140

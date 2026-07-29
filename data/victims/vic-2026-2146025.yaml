@@ -7,12 +7,12 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 50
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Nahavand
-incident_address: ""
+incident_address: Tehran - Home
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -24,3 +24,11 @@ description: Medical staff member in Nahavand who has spent years helping people
 source_type: Social Media
 source:
   - https://x.com/pouyajegarvnd/status/2020579103515324654
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f2fb5c35-b8be-4b67-bb89-a56a8e5e0815
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

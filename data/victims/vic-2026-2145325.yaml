@@ -1,29 +1,29 @@
 external_card_id: "9109"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20256_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20435_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20743_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21109_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22660_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26236_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39556_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55779_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55779_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55779_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55779_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55779_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55779_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55779_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55779_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55779_8_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55898_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55898_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55898_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55898_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55898_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55898_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55898_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55898_8_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20256_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20435_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20743_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21109_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22660_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26236_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39556_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55779_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55779_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55779_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55779_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55779_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55779_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55779_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55779_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55779_8_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55898_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55898_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55898_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55898_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55898_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55898_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55898_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55898_8_web_v1.jpg
 name: Omid Saeedi
 persian_name: امید ساعدی
 birth_date: ""
@@ -38,7 +38,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -54,3 +54,12 @@ source:
   - https://t.me/RememberTheirNames/124
   - https://hengaw.net/en/news/2026/01/article-147
   - https://hengaw.net/fa/news/2026/01/article-147-2
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bfd93b55-9314-4499-a656-5c10e925ce94
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

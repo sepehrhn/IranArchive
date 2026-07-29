@@ -13,7 +13,7 @@ country: Iran
 incident_province: Gilan
 incident_city: Lashtanesha, Rasht
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-30"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 20-year-old Gilaki citizen from Lashtanesha (part of Rasht), arrested by security forces on 10 Bahman 1404. Severely beaten during arrest, condition so critical he was transferred to hospital under guard. Security forces preventing family visits, no transparent information about his location, medical treatment or legal proceedings.
@@ -24,3 +24,13 @@ description: 20-year-old Gilaki citizen from Lashtanesha (part of Rasht), arrest
 source_type: Social Media
 source:
   - https://x.com/hyrcanihrm/status/2019034273374732667
+  - https://t.me/akhbar_bazdashtiha/48
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 521f42ee-c74d-4fc2-b225-6e08ba31e911
+irantrial_categories:
+  - at-risk
+risk_of_execution: true
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

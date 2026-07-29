@@ -1,7 +1,7 @@
 external_card_id: "3593"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29743_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30306_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29743_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30306_0_telegram_v1.jpg
 name: Sarina Elyasi
 persian_name: سارینا الیاسی
 birth_date: ""
@@ -16,7 +16,7 @@ incident_city: Hamadan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/javidnamhamedan/194
   - https://t.me/javidnamhamedan/206
+  - https://www.instagram.com/reel/DU05ICWFvnI/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 3090cbbb-d655-48df-91b6-e8949b853f91
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

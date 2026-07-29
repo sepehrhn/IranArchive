@@ -9,7 +9,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: ""
@@ -22,3 +22,11 @@ description: Victim mentioned in connection with Iran Massacre
 source_type: Social Media
 source:
   - https://x.com/gilasgoz/status/2021732100857041227
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 86d80bb1-c38e-43f2-87ac-016ba9ba020f
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3818

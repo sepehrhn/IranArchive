@@ -21,7 +21,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Javanrud
-incident_address: ""
+incident_address: Javanrud
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -35,3 +35,11 @@ source:
   - https://x.com/KurdistanHRN/status/2015119404925698343
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-931
   - https://hengaw.net/en/news/2026/01/article-148-1
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - dc5ef253-bedd-43c8-889d-d2afb7f18554
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/557

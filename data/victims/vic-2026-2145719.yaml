@@ -7,15 +7,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 21
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Shahrqods
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,12 @@ description: Died on January 8, 2026 in Shahrqods, Tehran
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2576
+  - https://www.instagram.com/reel/DUAC5bADiq4/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bffc15f1-14f5-4ea2-96d7-884a02ed753e
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

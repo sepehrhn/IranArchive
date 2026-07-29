@@ -1,22 +1,22 @@
 external_card_id: "3402"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55821_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55821_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55821_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55821_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55821_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55821_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55821_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55821_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55821_8_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_7_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55821_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55821_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55821_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55821_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55821_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55821_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55821_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55821_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55821_8_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_7_web_v1.jpg
 name: Behrouz Safaei
 persian_name: بهروز صفایی
 birth_date: ""
@@ -28,10 +28,10 @@ occupation: ""
 country: Iran
 incident_province: Kermanshah
 incident_city: Kermanshah
-incident_address: ""
+incident_address: Darreh Derizh, Kermanshah
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -42,3 +42,11 @@ source:
   - https://t.me/RememberTheirNames/84
   - https://hengaw.net/en/news/2026/01/article-78
   - https://hengaw.net/en/news/2026/01/article-68
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8f85ce79-d8ce-4bc3-8a1d-43f207cd5793
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

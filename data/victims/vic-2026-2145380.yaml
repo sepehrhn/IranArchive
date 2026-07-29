@@ -1,9 +1,9 @@
 external_card_id: "4293"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34742_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48590_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49364_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52934_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34742_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48590_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49364_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52934_0_twitter_v1.jpg
 name: Pouriya Javadi
 persian_name: پوریا جوادی
 birth_date: ""
@@ -30,3 +30,11 @@ source:
   - https://www.instagram.com/p/DUya3G5DM0v
   - https://x.com/hekasrehcrisis/status/2024139858801750212
   - https://x.com/autnews_org/status/2020457850322002406
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5d54f8dc-3126-4e69-9360-a27aea59d4f4
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:002009648de91e28

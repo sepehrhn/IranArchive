@@ -20,8 +20,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
-incident_address: ""
-date_of_death: ""
+incident_address: خانه خود
+date_of_death: "2026-01-03"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Mathematics professor at Payam Noor University arrested at her home by Intelligence Ministry forces on 2026-01-03, transferred to Vakil-Abad Prison. Held in solitary confinement for over a month in poor physical conditions without adequate medical access. Family under severe security pressure, father's shop sealed. Previously fired from her job after 2022 protests due to protest activities and social media posts.
@@ -34,3 +34,14 @@ source:
   - https://x.com/autnews_org/status/2021632156968120502
   - https://x.com/saarmot/status/2022467566208160028
   - https://hengaw.net/en/news/2026/01/article-34
+  - https://t.me/akhbar_bazdashtiha/18
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bce636d9-9010-4035-8b7a-68e7f1ca2403
+  - 07231616-e140-4169-8558-5ed6926a2145
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha
+  - HRANA-CW-2026/detainees/identified/2704

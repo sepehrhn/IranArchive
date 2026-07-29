@@ -10,12 +10,12 @@ gender: Female
 age: 17
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Markazi
 incident_city: Saveh
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -24,3 +24,11 @@ source_type: Social Media
 source:
   - https://x.com/irannewsagency0/status/2018591465518112806
   - https://x.com/HeKasrehCrisis/status/2018566227438834149
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6cd3ea3f-571d-4087-bc41-04a4f02ae5dc
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

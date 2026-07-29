@@ -1,26 +1,26 @@
 external_card_id: "687"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20693_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22826_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22826_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22826_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28907_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30457_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38731_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41151_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41379_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41401_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41401_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41976_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53308_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55759_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55759_1_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55759_2_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55759_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55759_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55759_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55759_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55759_7_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20693_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22826_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22826_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22826_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28907_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30457_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38731_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41151_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41379_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41401_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41401_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41976_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53308_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55759_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55759_1_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55759_2_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55759_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55759_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55759_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55759_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55759_7_web_v1.jpg
 name: Danial Karshenasan
 persian_name: دانیال کارشناس
 birth_date: ""
@@ -35,7 +35,7 @@ incident_city: Yazd
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -55,3 +55,11 @@ source:
   - https://www.instagram.com/p/DT3oSNsAQ27
   - https://t.me/JavidnamaneVatan/2059
   - https://hengaw.net/en/news/2026/01/article-177
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f6602f2a-e927-48ab-a33f-60b97b4b5faa
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
-date_of_death: ""
+incident_address: مدرسه‌اش
+date_of_death: "2026-02-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Teacher arrested suddenly and violently by security forces at his school on 21 Bahman. After arrest, his home was searched and some belongings were taken. He suffers from heart disease, has a history of angioplasty, and needs essential medications. Family has received no information about his whereabouts, physical condition, or charges despite repeated follow-ups.
@@ -24,3 +24,12 @@ description: Teacher arrested suddenly and violently by security forces at his s
 source_type: Social Media
 source:
   - https://x.com/i/status/2023340819923485030
+  - https://t.me/akhbar_bazdashtiha/32
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5d3c1de0-acd5-4d1d-b0ac-4b104a2fc640
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

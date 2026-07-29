@@ -13,7 +13,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 25-year-old single man and head of household, arrested on 19 Dey by security forces and transferred to Greater Tehran Prison. Under severe interrogation pressure in detention with serious concerns about his physical and mental condition. Reports indicate that detention conditions and applied pressures have put his health and life safety at serious risk. Family also under pressure to remain silent about his condition.
@@ -24,3 +24,12 @@ description: 25-year-old single man and head of household, arrested on 19 Dey by
 source_type: Social Media
 source:
   - https://x.com/amirkabirbozorg/status/2025322623111233788
+  - https://t.me/akhbar_bazdashtiha/265
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 64fff73d-268d-4ee6-a309-5f3671f94deb
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

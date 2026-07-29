@@ -14,7 +14,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-02-01"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Breadwinner for his mother and two orphaned sisters. After his father died in 1401 (2022), regime agents arrested Hojjat the same night due to his presence in protests. He has been arrested again and his current whereabouts are unknown.
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/king_fishpoet/status/2019405738280370359
   - https://x.com/avin585/status/2025566092681212121
+  - https://t.me/akhbar_bazdashtiha/333
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 824c3297-3897-46b5-8760-da90548792b1
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

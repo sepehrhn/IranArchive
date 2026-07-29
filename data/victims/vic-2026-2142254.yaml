@@ -8,7 +8,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 22
 occupation: ""
 country: Iran
 incident_province: Isfahan
@@ -24,3 +24,12 @@ description: Died during protests in Isfahan
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1633
+  - https://www.instagram.com/p/DUCCGN-CgEM/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 3888e03b-de29-4067-bd77-8e0df61cf141
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:abf85ff5f702782a

@@ -23,7 +23,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Narmak neighborhood
-incident_address: ""
+incident_address: نارمک تهران
 date_of_death: "2026-01-02"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -50,3 +50,12 @@ source:
   - https://x.com/Alithegeek/status/2016613702288756877
   - https://x.com/i/status/2017972120161042504
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-828
+  - https://t.me/akhbar_bazdashtiha/365
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 75d0ec4e-76eb-4ede-9b99-9d364cf318e7
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

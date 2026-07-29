@@ -8,13 +8,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 38
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
-incident_address: ""
-date_of_death: ""
+incident_address: خانه
+date_of_death: "2024-01-23"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Activist fighter described as a hero. House was raided at midnight on Friday, 3rd of Bahman month in Mashhad. Has been missing for two weeks with no contact since the raid. Life is in danger.
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/realneo101/status/2020054937690853844
   - https://x.com/iranianpapppi3/status/2021060840749953459
+  - https://t.me/akhbar_bazdashtiha/670
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - dc781c88-4bbe-4bbc-80c7-5ddef0da2556
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

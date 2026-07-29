@@ -7,10 +7,10 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 32
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Markazi
 incident_city: اراک, مرکزی
 incident_address: ""
 date_of_death: ""
@@ -27,3 +27,11 @@ source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1039
   - https://x.com/saeidvafa/status/2015864467230265804
   - https://x.com/saeidvafa/status/2015827546433007797
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 36248948-3a05-467c-ac48-d3fdc0e847e0
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

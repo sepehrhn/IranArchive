@@ -1,14 +1,14 @@
 external_card_id: "851"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21009_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21349_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37862_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38874_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39308_0_telegram_v1.jpg"
-  - "vic-2026-000681.jpg"
-  - "vic-2026-4af5fe27ce1a.jpg"
-  - "vic-2026-0db02120f066.jpg"
-  - "vic-2026-4184caff4eeb.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21009_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21349_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37862_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38874_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39308_0_telegram_v1.jpg
+  - vic-2026-000681.jpg
+  - vic-2026-4af5fe27ce1a.jpg
+  - vic-2026-0db02120f066.jpg
+  - vic-2026-4184caff4eeb.jpg
 name: Mehdi Mohammadi
 persian_name: مهدی محمدی
 birth_date: ""
@@ -18,7 +18,7 @@ gender: Male
 age: 23
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Khuzestan
 incident_city: Rasht
 incident_address: Golsar
 date_of_death: "2026-01-08"
@@ -42,3 +42,12 @@ source:
   - https://t.me/RememberTheirNames/832
   - https://t.me/RememberTheirNames/379
   - https://iranhrs.org/جانباختگان-اعتراضات-سراسری-۱۴۰۴-اسام/
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 608ecf7e-39bf-45b7-b01b-0dbd7abde7a6
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,22 +1,22 @@
 external_card_id: "3899"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30757_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55559_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30757_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55559_0_instagram_v1.jpg
 name: Salar Maghsoudi
 persian_name: سالار مقصودی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 39
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Haft-Hoz
-incident_address: ""
+incident_address: Tehran Plaza
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1788
   - https://www.instagram.com/p/DVKt6l7jO79
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 3db665ae-b52d-46de-8091-8d8239f444ca
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

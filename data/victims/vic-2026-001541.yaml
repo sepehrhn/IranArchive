@@ -1,12 +1,12 @@
 external_card_id: "1383"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22351_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22753_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22753_1_twitter_v1.jpg"
-  - "vic-2026-001541.jpg"
-  - "vic-2026-b8942df12649.jpg"
-  - "vic-2026-67f4ab4208c4.jpg"
-  - "vic-2026-5b8150e08ad2.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22351_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22753_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22753_1_twitter_v1.jpg
+  - vic-2026-001541.jpg
+  - vic-2026-b8942df12649.jpg
+  - vic-2026-67f4ab4208c4.jpg
+  - vic-2026-5b8150e08ad2.jpg
 name: Mehdi Eskandarian
 persian_name: مهدی اسکندری
 birth_date: ""
@@ -16,12 +16,12 @@ gender: Male
 age: 44
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Andisheh
 incident_address: Fardis
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -40,3 +40,12 @@ source:
   - https://x.com/ANITABAKT/status/2015755135163437446
   - https://x.com/aliyazdani7612/status/2016236592243818790
   - https://t.me/RememberTheirNames/1577
+  - https://www.instagram.com/sherzad_rojhalat/p/DU8xYX-DcB6/?hl=vi
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5036a46d-8f9c-4f9e-a853-0ea5bf8c03f4
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

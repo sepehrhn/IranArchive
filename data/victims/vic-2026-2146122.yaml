@@ -8,13 +8,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 20
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Arak
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Former football player for Aluminium Arak, Bargh Shiraz, Pas and other teams. Arrested at home one month ago along with his brother and nephew. No news from them since arrest and no visitation rights granted to anyone. His parents have died and he has no one to follow up on his case.
@@ -28,3 +28,11 @@ source:
   - https://x.com/batmaniei7vrc/status/2025247435229168019
   - https://x.com/iranbanoo_/status/2025240871776436402
   - https://x.com/saeidvafa/status/2024835286555849144
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - dcbcf862-f9bf-4c3c-87f6-b56b5ec49d07
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/1097

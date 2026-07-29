@@ -11,8 +11,8 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
-date_of_death: ""
+incident_address: Motahari Street - Isfahan
+date_of_death: "2023-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -22,3 +22,12 @@ description: Victim documented in Iran International Memorial, died on Motahari 
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClUROu
+  - https://x.com/allahbakhshii/status/2022237546575470683
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 9890315c-0f4b-4832-91cd-518249d84376
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:63e1b64c6b9a8553

@@ -1,11 +1,11 @@
 external_card_id: "1738"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22875_0_instagram_v1.webp"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30120_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30120_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30981_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53621_0_instagram_v1.jpg"
-  - "vic-2026-851cd5c315d9.webp"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22875_0_instagram_v1.webp
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30120_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30120_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30981_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53621_0_instagram_v1.jpg
+  - vic-2026-851cd5c315d9.webp
 name: Morteza Mohammadi
 persian_name: مرتضی محمدی
 birth_date: ""
@@ -15,12 +15,12 @@ gender: Male
 age: 35
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Fardis, Karaj
-incident_address: ""
+incident_address: Fardis, Karaj
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,12 @@ source:
   - https://x.com/iwasshiin/status/2018625831816622384
   - https://t.me/RememberTheirNames/2005
   - https://www.instagram.com/p/DVCFimaj6pA
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ad93df8b-c591-4134-b7ad-b873b842c27a
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

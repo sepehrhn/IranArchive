@@ -1,14 +1,14 @@
 external_card_id: "7502"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50130_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52132_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50130_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52132_0_telegram_v1.jpg
 name: Payam Rabbani
 persian_name: پیام ربانی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 33
 occupation: ""
 country: Iran
 incident_province: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3065
   - https://t.me/JavidnamaneVatan/1619
+  - https://www.instagram.com/reel/DU8dstlAFgY/?hl=en
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - cf4c095a-57c5-43b1-9db9-71efd0d090e8
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:1304740fddc14bf0

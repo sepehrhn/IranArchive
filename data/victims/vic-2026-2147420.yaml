@@ -10,7 +10,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: ""
@@ -24,3 +24,11 @@ description: Healthcare worker who has been detained in Mashhad
 source_type: Social Media
 source:
   - https://www.instagram.com/p/DU6UyA3oDbi
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d37f0695-3f95-4828-845f-f6610b86458c
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

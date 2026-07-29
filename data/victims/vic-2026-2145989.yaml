@@ -19,7 +19,7 @@ gender: Male
 age: 20
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Khuzestan
 incident_city: Sabzevar
 incident_address: ""
 date_of_death: ""
@@ -34,3 +34,12 @@ source_type: Social Media
 source:
   - https://hengaw.net/en/news/2026/01/article-41
   - https://hengaw.net/fa/news/2026/01/article-41
+  - https://t.me/akhbar_bazdashtiha/386
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - db18d1c8-0203-458d-939b-4eff7907b978
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

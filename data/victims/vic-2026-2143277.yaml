@@ -8,15 +8,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 24
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -24,3 +24,12 @@ description: Killed in Mashhad during protests, described as a child of Iran kil
 source_type: Social Media
 source:
   - https://x.com/pishibaadab/status/2015139320311488867
+  - https://www.instagram.com/p/DUMfQ2DDM-v/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 70c50e22-bc19-478f-8496-7cbfe3c8e918
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

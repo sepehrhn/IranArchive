@@ -13,7 +13,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -23,3 +23,12 @@ description: Listed in Iran International Memorial as a victim
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/tCKl8UDDdoQQUGMvcT69KY
+  - https://www.instagram.com/p/DVncCFzlEjV/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 0bad4fc5-f38d-4ae2-8e38-b1f8f42ec131
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:b93064d995c0d3d6

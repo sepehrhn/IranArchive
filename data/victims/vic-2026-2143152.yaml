@@ -1,8 +1,8 @@
 external_card_id: "419"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30085_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30653_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48366_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30085_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30653_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48366_0_web_v1.jpg
 name: Mohammad Rahmati
 persian_name: محمد رحمتی
 birth_date: ""
@@ -29,3 +29,12 @@ source:
   - https://t.me/RememberTheirNames/1684
   - https://javidnaman.iranintl.com/memorial/EHaCND9v0u9aDEC8cXsv56
   - https://x.com/gilasgoz/status/2022017522963558519
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 326dd8fe-dad4-4da4-a7f6-fdcc47e0d703
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:32662ffafd9c7bb5

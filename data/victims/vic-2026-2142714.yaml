@@ -1,7 +1,7 @@
 external_card_id: "441"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31013_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51973_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31013_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51973_0_telegram_v1.jpg
 name: Mostafa Ghorbani
 persian_name: مصطفی قربانی
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: 38
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Golestan
 incident_city: Gorgan
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -27,3 +27,12 @@ source:
   - https://x.com/fmhrnzi/status/2014326017486131637
   - https://t.me/RememberTheirNames/2037
   - https://t.me/JavidnamaneVatan/1473
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 1070ec94-dd42-43eb-979e-8a3d1ab3b802
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1087

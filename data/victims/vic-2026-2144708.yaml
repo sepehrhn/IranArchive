@@ -1,8 +1,8 @@
 external_card_id: "4596"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38948_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42100_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56362_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38948_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42100_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56362_0_telegram_v1.jpg
 name: Mehdi Jarrahi
 persian_name: مهدی جراحی
 birth_date: ""
@@ -28,3 +28,12 @@ source:
   - https://x.com/iranintl/status/2021315573183885318
   - https://x.com/chaiteryak/status/2025883258978762867
   - https://t.me/JavidnamaneVatan/2284
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 2def239d-b21e-4c96-a711-d0b3ae217deb
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:1b977b49655736f2

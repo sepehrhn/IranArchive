@@ -1,7 +1,7 @@
 external_card_id: "4271"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41930_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42338_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41930_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42338_0_instagram_v1.jpg
 name: Mostafa Eisavand
 persian_name: مصطفی عیسوند
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: 26
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Khuzestan
 incident_city: Dezful
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -27,3 +27,12 @@ source:
   - https://t.me/RememberTheirNames/2723
   - https://www.instagram.com/p/DUm8s8MjD4T
   - https://x.com/gilasgoz/status/2021732463001649524
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 68049665-3b27-4035-9f79-5b89d1b8d0fb
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3584

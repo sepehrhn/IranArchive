@@ -1,9 +1,9 @@
 external_card_id: "2011"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23390_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27305_0_web_v1.png"
-  - "vic-2026-e2d7e50d8822.jpg"
-  - "vic-2026-d0773b0588f7.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23390_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27305_0_web_v1.png
+  - vic-2026-e2d7e50d8822.jpg
+  - vic-2026-d0773b0588f7.png
 name: Mohammad Hossein Sarikhani
 persian_name: محمدحسین ساریخانی
 birth_date: ""
@@ -15,10 +15,10 @@ occupation: ""
 country: Iran
 incident_province: Qazvin
 incident_city: Qazvin
-incident_address: ""
+incident_address: Qazvin
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -28,3 +28,11 @@ source:
   - https://t.me/RememberTheirNames/1559
   - https://javidnaman.iranintl.com/memorial/yEYwvbhpDrCFHYzchnR5OO
   - https://x.com/iranianpapppi3/status/2026137888270811559
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 75945950-78d3-47f4-a532-e27adfb1446b
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

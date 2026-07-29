@@ -1,8 +1,8 @@
 external_card_id: "3746"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30262_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41313_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52111_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30262_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41313_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52111_0_telegram_v1.jpg
 name: Mohammad Eskandari
 persian_name: محمد اسکندری
 birth_date: ""
@@ -12,7 +12,7 @@ gender: Male
 age: 24
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Chahar Mahaal and Bakhtiari
 incident_city: Shahrekord
 incident_address: ""
 date_of_death: "2026-01-24"
@@ -27,3 +27,12 @@ source:
   - https://x.com/AminAkramipour/status/2018742526828478889
   - https://t.me/RememberTheirNames/2595
   - https://t.me/JavidnamaneVatan/1598
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 90f568ca-aba6-436e-9bcd-be4e60a97850
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3183

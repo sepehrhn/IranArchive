@@ -9,13 +9,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 39
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-12"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Intelligence protection agents of the Islamic Republic raided his home and arrested him. He is a jewelry designer and artisan, well-known figure in jewelry design who has led jewelry workshops for many historical television series in Iran.
@@ -27,3 +27,12 @@ source_type: Social Media
 source:
   - https://x.com/justalondaisy/status/2021971339876180082
   - https://www.instagram.com/p/DVL2Xe-DOFE
+  - https://t.me/akhbar_bazdashtiha/324
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 228e705d-6537-43c2-a978-fa6f4f26336a
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

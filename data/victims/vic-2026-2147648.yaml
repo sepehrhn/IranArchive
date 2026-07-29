@@ -18,9 +18,17 @@ date_of_death_precision: Exact
 cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
-status: Missing
+status: Killed
 detention_status: unknown
-description: ""
+description: IranTrial lists Mohammad Amin Oladi Salahshouri among those killed on 2026-01-08 in Qazvin.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3152
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 50fd6ce9-20f7-4499-b25c-50ccd76b3c6c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:a5dbb3aa58947c28

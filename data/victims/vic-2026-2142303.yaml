@@ -1,10 +1,10 @@
 external_card_id: "1539"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22312_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22312_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38660_0_telegram_v1.jpg"
-  - "vic-2026-1e45a9290f5c.jpg"
-  - "vic-2026-631824be0c37.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22312_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22312_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38660_0_telegram_v1.jpg
+  - vic-2026-1e45a9290f5c.jpg
+  - vic-2026-631824be0c37.jpg
 name: Amir Zamoradi
 persian_name: امیر زمردی
 birth_date: ""
@@ -14,7 +14,7 @@ gender: Male
 age: 27
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -29,3 +29,12 @@ source:
   - https://x.com/FSeifikaran/status/2015955691115000152
   - https://x.com/irannewsagency0/status/2018967478693470565
   - https://t.me/RememberTheirNames/1052
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - afd31f3f-fb77-4796-8f7a-c6a679d47bcd
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1210

@@ -10,12 +10,12 @@ gender: Male
 age: 25
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Fars
 incident_city: Shiraz
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -24,3 +24,11 @@ source_type: Social Media
 source:
   - https://x.com/ahora988951/status/2027375443444167144
   - https://x.com/hoorieh81/status/2027369391004827902
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - de71dac4-d6b2-4595-a7b9-660f3f6f584c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

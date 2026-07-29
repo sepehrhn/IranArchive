@@ -21,8 +21,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: Tehran
+date_of_death: "2026-01-25"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested on 5th of Bahman (2026-01-24) and has been on hunger strike since her arrest until at least 12th of Bahman (2026-01-31). Daughter of Masoomeh Heidari and niece of killed protester Javad Heidari.
@@ -36,3 +36,11 @@ source:
   - https://x.com/VOAfarsi/status/2017750919123755157
   - https://x.com/Tavaana/status/2018404455792685323
   - https://hengaw.net/en/news/2026/02/article-52
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 914b2dbb-e1cb-4594-8dfe-5ce91152c8a3
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/2065

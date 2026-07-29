@@ -15,7 +15,7 @@ gender: Male
 age: 21
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Manjil
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -44,3 +44,12 @@ source:
   - https://x.com/saarmot/status/2017798470598332635
   - https://x.com/saarmot/status/2017671744069214232
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-814
+  - https://t.me/akhbar_bazdashtiha/407
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bb1640ee-b945-4ffb-823b-bb30c6f35dfc
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

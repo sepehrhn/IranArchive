@@ -19,7 +19,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-06"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Mining engineering undergraduate student at University of Tehran, admitted in 1402. Arrested by security forces at Enghelab Square while returning to dormitory on 12 Dey month. Held in complete news blackout for 48 days until released on bail on 20 Bahman month. Upon release from prison, was in severely poor physical condition and immediately hospitalized. Physical and mental health conditions remain critical and require special medical care. Judicial authorities have opened a new case file with modified charges and are pursuing a heavy sentence.
@@ -35,3 +35,13 @@ source:
   - https://www.instagram.com/p/DU3RsqIjKCq
   - https://www.instagram.com/p/DU1O0XjDRU0
   - https://x.com/autnews_org/status/2026781658439913555
+  - https://t.me/akhbar_bazdashtiha/270
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c6d07c5f-385b-4f37-801d-17127e5923e4
+irantrial_categories:
+  - at-risk
+risk_of_execution: true
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

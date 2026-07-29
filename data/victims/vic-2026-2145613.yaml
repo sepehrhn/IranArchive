@@ -1,7 +1,7 @@
 external_card_id: "4731"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39976_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40162_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39976_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40162_0_telegram_v1.jpg
 name: Saman (Younes) Darmian
 persian_name: سامان (یونس) درمیان
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: 21
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://x.com/iranwire/status/2019432245564420101
   - https://t.me/RememberTheirNames/2316
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 4afa5d8c-6e30-4737-ad10-64aef159f4f4
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - wikipedia-javidnaman:587

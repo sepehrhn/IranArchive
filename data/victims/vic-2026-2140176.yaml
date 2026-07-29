@@ -1,12 +1,12 @@
 external_card_id: "2094"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23568_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30885_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51682_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52839_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52882_0_twitter_v1.jpg"
-  - "vic-2026-2140176.jpg"
-  - "vic-2026-4d12da7a77ec.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23568_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30885_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51682_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52839_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52882_0_twitter_v1.jpg
+  - vic-2026-2140176.jpg
+  - vic-2026-4d12da7a77ec.jpg
 name: Zahra Shadmehr
 persian_name: زهرا شادمهر
 birth_date: ""
@@ -16,12 +16,12 @@ gender: Female
 age: 50
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Rasht
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -36,3 +36,12 @@ source:
   - https://t.me/JavidnamaneVatan/1198
   - https://x.com/mashreghidokht/status/2018011705427591338
   - https://x.com/missmarpel75/status/2023051893665300540
+  - https://www.instagram.com/sdaeshoma/reel/DUEDJAGgU0I/?hl=kn
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bed78f3b-89f1-4d0a-a9b5-acd8a783e3e6
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

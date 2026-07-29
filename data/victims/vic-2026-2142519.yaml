@@ -1,16 +1,16 @@
 external_card_id: "1415"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22054_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22555_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22673_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22763_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38180_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38636_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50176_0_telegram_v1.jpg"
-  - "vic-2026-ade530c2ef62.jpg"
-  - "vic-2026-4aecceb2234a.jpg"
-  - "vic-2026-60fc2d5400c0.jpg"
-  - "vic-2026-70f7855bad75.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22054_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22555_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22673_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22763_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38180_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38636_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50176_0_telegram_v1.jpg
+  - vic-2026-ade530c2ef62.jpg
+  - vic-2026-4aecceb2234a.jpg
+  - vic-2026-60fc2d5400c0.jpg
+  - vic-2026-70f7855bad75.jpg
 name: Arya Ariankhoo
 persian_name: آریا آرین‌خو
 birth_date: ""
@@ -22,10 +22,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Yousef Abad, Tehran
-incident_address: ""
+incident_address: Tehran, Yousef Abad
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -41,3 +41,11 @@ source:
   - https://t.me/RememberTheirNames/1078
   - https://t.me/JavidnamaneVatan/375
   - https://x.com/gilasgoz/status/2021330860964717029
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5d85f6b4-e36f-4950-8787-253716cadf80
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

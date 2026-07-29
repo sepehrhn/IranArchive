@@ -1,7 +1,7 @@
 external_card_id: "7076"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48445_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50862_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48445_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50862_0_telegram_v1.jpg
 name: Soheil Sadeghi
 persian_name: سهیل صادقی
 birth_date: ""
@@ -13,10 +13,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Sadeghiyeh
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2904
   - https://t.me/JavidnamaneVatan/962
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5185ca06-4780-4f07-b54e-1e29b975a533
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

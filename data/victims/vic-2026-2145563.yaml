@@ -1,22 +1,22 @@
 external_card_id: "5435"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42128_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42303_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42128_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42303_0_telegram_v1.jpg
 name: Saeedeh Farhadi
 persian_name: سعیده فرهادی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 40
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Chalus
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/afkari_saeed/status/2021438011133878581
   - https://t.me/RememberTheirNames/2786
+  - https://www.instagram.com/reel/DVnYlAgFKll/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - cf23e09f-8b16-4c50-9d57-969d8f460af4
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,10 +1,10 @@
 external_card_id: "973"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21178_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22897_0_telegram_v1.jpg"
-  - "vic-2026-001067.jpg"
-  - "vic-2026-867f006a2041.jpg"
-  - "vic-2026-928f7c56b145.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21178_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22897_0_telegram_v1.jpg
+  - vic-2026-001067.jpg
+  - vic-2026-867f006a2041.jpg
+  - vic-2026-928f7c56b145.jpg
 name: Ehsan Yazdani
 persian_name: احسان يزدانى
 birth_date: ""
@@ -17,7 +17,7 @@ country: Iran
 incident_province: ""
 incident_city: Chalus
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: Unknown
 disappearance_circumstances: ""
@@ -31,3 +31,11 @@ source_type: Social Media
 source:
   - https://x.com/maryammoqaddam/status/2014711935275536389
   - https://t.me/persian_picture/4126
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 932dec98-7ea6-4d17-974f-fd510042ca34
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:67da96ca784ce09a

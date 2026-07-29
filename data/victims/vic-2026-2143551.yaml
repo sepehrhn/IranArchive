@@ -12,7 +12,7 @@ country: Iran
 incident_province: Fars
 incident_city: Shiraz
 incident_address: ""
-date_of_death: ""
+date_of_death: "2022-11-16"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -22,3 +22,12 @@ description: "Killed during killed protester citizens protests. HRANA verificati
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_833
+  - https://jahtari.org/archive/index.htm
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 06541a8b-557c-4b4e-bb56-13e7172caf63
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/833

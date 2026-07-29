@@ -16,7 +16,7 @@ gender: Male
 age: 56
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Ilam
 incident_city: Chardavol
 incident_address: ""
 date_of_death: "2026-01-03"
@@ -30,3 +30,11 @@ description: Arrested by government forces and transferred to unknown locations
 source_type: Social Media
 source:
   - https://hengaw.net/fa/news/2026/01/article-32
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - a72ec246-aa42-465f-aa98-388ab9917b00
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

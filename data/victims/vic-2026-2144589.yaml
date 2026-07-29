@@ -12,14 +12,22 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Eslamshahr - Tehran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: IranTrial lists Majid Khoshechin among those killed on 2026-01-09 in Tehran.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3104
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 69cede1a-2a66-4201-ab00-de984bd40a32
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:2428205571b6b7d6

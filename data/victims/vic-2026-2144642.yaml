@@ -10,7 +10,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -23,3 +23,12 @@ description: Death occurred in Mashhad on 18 Dey 1404
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2846
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d261a2ef-d43e-4ea1-a489-c215e60cd5c7
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3556

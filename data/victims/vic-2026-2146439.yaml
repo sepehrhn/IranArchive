@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Qazvin
 incident_city: Qazvin
-incident_address: ""
-date_of_death: ""
+incident_address: Qazvin
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested on January 8 on charges of gathering and collusion against national security. Family under pressure from security agencies.
@@ -24,3 +24,15 @@ description: Arrested on January 8 on charges of gathering and collusion against
 source_type: Social Media
 source:
   - https://x.com/azizamtara/status/2024665307567305064
+  - https://t.me/akhbar_bazdashtiha/118
+  - https://irantrial.org/fa/heroes
+  - https://www.instagram.com/p/DU7i8a5jeTX/
+irantrial_ids:
+  - 13849d19-a418-4b2e-aa05-56568bf76918
+  - 9dc72e3e-0266-414f-aeec-0126b05d6acc
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha
+  - irantrial.org

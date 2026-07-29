@@ -10,7 +10,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: East Azerbaijan
 incident_city: مراغه, آذربایجان شرقی
 incident_address: ""
 date_of_death: ""
@@ -26,3 +26,11 @@ source:
   - https://x.com/paitiraocha/status/2015464632983457922
   - https://x.com/iranintlsport/status/2015813284503425086
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-996
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8044e10c-0d73-4784-a700-d06f0e2b4ab9
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,7 +1,7 @@
 external_card_id: "3911"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30788_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41042_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30788_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41042_0_web_v1.jpg
 name: Omid Shahsavari
 persian_name: امید شهسواری
 birth_date: ""
@@ -20,8 +20,16 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: IranTrial lists Omid Shahsavari among those killed on 2026-01-08 in Qazvin.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1820
   - https://javidnaman.iranintl.com/memorial/GJcxY52Stm1VDduxnWNJXg
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 38e28198-b6fb-4cdd-a122-fc3f047ff3c5
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:8d8fe8c86a303626

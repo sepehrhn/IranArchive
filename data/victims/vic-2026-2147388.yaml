@@ -10,10 +10,10 @@ gender: Male
 age: 16
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: ""
+incident_province: Isfahan
+incident_city: شاهین شهر
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-02-17"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 16-year-old man arrested on February 17, 2026 during a raid at his workplace
@@ -24,3 +24,12 @@ description: 16-year-old man arrested on February 17, 2026 during a raid at his 
 source_type: Social Media
 source:
   - https://x.com/jananpanah/status/2025332451950616861
+  - https://t.me/akhbar_bazdashtiha/183
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 4f565ae9-fa36-4904-8dbf-89526556f157
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

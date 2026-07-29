@@ -1,11 +1,11 @@
 external_card_id: "2161"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24545_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24545_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37751_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40018_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40018_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40018_2_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24545_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24545_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37751_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40018_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40018_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40018_2_twitter_v1.jpg
 name: Amirhossein Asadian Goodarzi
 persian_name: امیرحسین گودرزی
 birth_date: ""
@@ -15,7 +15,7 @@ gender: Male
 age: 21
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Markazi
 incident_city: Arak
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -31,3 +31,11 @@ source:
   - https://x.com/autnews_org/status/2017276282094981277
   - https://x.com/behnam_chegini/status/2014477515268476931
   - https://x.com/hekasrehcrisis/status/2019654348368736258
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5b8ab0f2-06d8-40b7-b828-330baa39591c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:7750ccc8478c7981

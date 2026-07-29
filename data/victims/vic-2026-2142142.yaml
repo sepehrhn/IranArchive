@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tabriz
-incident_address: ""
-date_of_death: ""
+incident_address: Tabriz
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Former political prisoner who was arrested on the evening of 19 Dey around 8 PM on one of the streets in Tabriz. His family was unaware of his arrest for four days until IRGC intelligence forces raided their home on 23 Dey. Since his arrest, no information has been provided about his detention location, physical and mental condition, charges, or the arresting authority. He had been summoned months earlier to serve sentences but had avoided appearing and begun living in hiding, not even visiting his own home to avoid arrest.
@@ -26,3 +26,11 @@ source_type: Social Media
 source:
   - https://x.com/Tavaana/status/2013761028085965292
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1131
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b23dfbe6-8707-40c6-abdf-50f7e9c0109a
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/587

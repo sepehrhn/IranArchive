@@ -1,7 +1,7 @@
 external_card_id: "942"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21131_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38847_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21131_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38847_0_telegram_v1.jpg
 name: Hassan Si Sakhti
 persian_name: حسن سی‌سختی
 birth_date: ""
@@ -11,12 +11,12 @@ gender: Male
 age: 45
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Fars
 incident_city: Marvdasht
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/manotonews/status/2014805470217969764
   - https://t.me/RememberTheirNames/859
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 26415e89-c0cf-4c45-877f-4dae2951b89f
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:13fe7bb6c223dd5a

@@ -1,28 +1,28 @@
 external_card_id: "1123"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21451_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27093_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39586_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55824_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55824_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55824_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55824_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55824_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55824_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55824_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55824_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55824_8_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55823_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55823_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55823_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55823_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55823_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55823_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55823_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55823_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55823_8_web_v1.jpg"
-  - "vic-2026-c31bf6a36ced.jpg"
-  - "vic-2026-e543fe6f98eb.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21451_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27093_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39586_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55824_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55824_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55824_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55824_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55824_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55824_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55824_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55824_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55824_8_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55823_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55823_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55823_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55823_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55823_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55823_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55823_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55823_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55823_8_web_v1.jpg
+  - vic-2026-c31bf6a36ced.jpg
+  - vic-2026-e543fe6f98eb.jpg
 name: Diako Mohammadi
 persian_name: دیاکو محمدی
 birth_date: ""
@@ -34,10 +34,10 @@ occupation: ""
 country: Iran
 incident_province: Hormozgan
 incident_city: Qeshm
-incident_address: ""
+incident_address: Qeshm
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -49,3 +49,12 @@ source:
   - https://t.me/RememberTheirNames/93
   - https://hengaw.net/en/news/2026/01/article-75
   - https://hengaw.net/en/news/2026/01/article-76
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - a70a6980-956d-4429-b43c-13c322773a6a
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

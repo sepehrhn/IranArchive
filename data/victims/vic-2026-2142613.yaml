@@ -1,11 +1,11 @@
 external_card_id: "1130"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21466_0_instagram_v1.webp"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22440_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38807_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56433_0_twitter_v1.jpg"
-  - "vic-2026-47c52193b888.webp"
-  - "vic-2026-948fe2d60f78.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21466_0_instagram_v1.webp
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22440_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38807_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56433_0_twitter_v1.jpg
+  - vic-2026-47c52193b888.webp
+  - vic-2026-948fe2d60f78.jpg
 name: Mahin Merhamati
 persian_name: مهین مرحمتی
 birth_date: ""
@@ -20,7 +20,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,12 @@ source:
   - https://x.com/Bestynisha/status/2014792212387656033
   - https://t.me/RememberTheirNames/900
   - https://x.com/i/status/2026611661092610376
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 09a288bc-00de-49bd-b1ac-30e29ee1c988
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

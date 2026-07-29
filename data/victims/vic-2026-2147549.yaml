@@ -1,18 +1,18 @@
 external_card_id: "8462"
 photo: []
 name: Mikail Fathiyan Nasab
-persian_name: ""
+persian_name: میکائیل فتحیان نسب
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 17
 occupation: ""
 country: Iran
 incident_province: Hamadan
 incident_city: Hamadan Province
-incident_address: ""
-date_of_death: ""
+incident_address: استان همدان
+date_of_death: "2026-01-07"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Child detained during protests. Listed in HRANA's 'Detained Children' section of The Crimson Winter report (born before December 2007). Date of arrest: January 7, 2026 (17/10/1404). Current status: Detained and held in Hamadan Juvenile Correction and Rehabilitation Center. Original source: HRANA."
@@ -23,3 +23,11 @@ description: "Child detained during protests. Listed in HRANA's 'Detained Childr
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_CHILD_229
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8ea65d5b-a52d-498d-a59b-f0ef63c9f3d4
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/children/229

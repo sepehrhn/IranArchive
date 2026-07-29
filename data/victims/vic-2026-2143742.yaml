@@ -7,12 +7,12 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 25
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Varamin
-incident_address: ""
+incident_address: Kalantari Square, Qarchak - Tehran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -23,3 +23,12 @@ description: Died in Qarchak, Varamin area
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1115
+  - https://www.instagram.com/p/DT6AF6miCW6/?img_index=3
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 38bff7b8-e3fd-46d1-98b6-6d2860501107
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:15a4e8f59c7e8a85

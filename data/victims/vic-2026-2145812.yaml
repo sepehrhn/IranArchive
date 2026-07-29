@@ -15,7 +15,7 @@ incident_city: ""
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Gunshot to the head
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Shot in the head with a war bullet by Islamic Republic agents
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/1754
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 66cf4396-4437-4641-8961-0d080509f870
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

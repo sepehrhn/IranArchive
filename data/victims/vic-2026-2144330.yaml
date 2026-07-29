@@ -10,9 +10,9 @@ gender: Male
 age: 18
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Fardis, Karaj
-incident_address: ""
+incident_address: Fardis, Karaj
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -24,3 +24,12 @@ source_type: Social Media
 source:
   - https://x.com/i/status/2017937451210178718
   - https://t.me/JavidnamaneVatan/1397
+  - https://www.instagram.com/reel/DVIAyCDAuJo/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - dd02abdd-be31-45e8-acde-f5abf5277d95
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

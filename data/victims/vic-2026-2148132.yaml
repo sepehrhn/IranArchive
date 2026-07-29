@@ -11,15 +11,23 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ایلام, ایلام
-incident_address: ""
-date_of_death: ""
+incident_address: Ilam
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
-disappearance_circumstances: ""
+disappearance_circumstances: "Place of arrest: Ilam"
 suspected_actor: ""
 status: Missing
 detention_status: arrested
-description: ""
+description: IranTrial lists Pouya Norzi as detained on 2026-01-09.
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1054
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 7fbc72b1-a90f-41d7-88c5-26da6d97e914
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/1992

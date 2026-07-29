@@ -1,7 +1,7 @@
 external_card_id: "8507"
 photo: []
 name: Ali (Alborz) Adi
-persian_name: ""
+persian_name: علی (البرز) آدی
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -11,7 +11,7 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
+incident_address: Isfahan
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -23,3 +23,11 @@ description: "Detained during protests. Listed in HRANA's 'Identified Detainees'
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_982
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6787cc58-4ab9-45b0-8aeb-0b46008a711b
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/982

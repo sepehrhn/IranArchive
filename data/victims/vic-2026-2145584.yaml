@@ -10,12 +10,12 @@ gender: Male
 age: 26
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
-incident_address: ""
+incident_address: Around Meraj Square (near the police station), Mashhad
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Hit by live ammunition (direct fire)
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Shot with war bullet near Meraj Square and close to a police statio
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/90
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8e0c247b-e3eb-452c-aeb5-aa7a12d773be
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

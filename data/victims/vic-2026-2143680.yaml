@@ -1,7 +1,7 @@
 external_card_id: "3879"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30704_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41131_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30704_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41131_0_web_v1.jpg
 name: Alireza Nasiri Deh Sarkhi
 persian_name: علیرضا نصیری
 birth_date: ""
@@ -13,15 +13,27 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
+incident_address: Isfahan
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: IranTrial lists Alireza Nasiri among those killed on 2026-01-09 in Isfahan, Isfahan.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1735
   - https://javidnaman.iranintl.com/memorial/6p68dFah8jC3OLYuqJk3YO
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+  - https://www.instagram.com/p/DVBndf3jL0O/
+irantrial_ids:
+  - ef9de11c-ac30-486b-b391-b9bfebd4ff6e
+  - af3b9b64-a020-4744-8119-bad128615276
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1201
+  - Hodafit-javidnaman-2026-final.xlsx

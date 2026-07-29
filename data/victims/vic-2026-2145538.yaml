@@ -1,7 +1,7 @@
 external_card_id: "2957"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26744_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38371_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26744_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38371_0_telegram_v1.jpg
 name: Saeed Ebrahimi Far
 persian_name: سعید ابراهیمی‌فر
 birth_date: ""
@@ -13,7 +13,7 @@ occupation: ""
 country: Iran
 incident_province: Fars
 incident_city: Jahrom
-incident_address: ""
+incident_address: Jahrom - Fars
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -26,3 +26,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaTIzSlN
   - https://t.me/RememberTheirNames/1357
   - https://x.com/gilasgoz/status/2022018948817191302
+  - https://www.instagram.com/p/DVpjuNQAUA-/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 234eb722-0361-4717-8ec9-0d1c81d6173f
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:37aeb386c3882194

@@ -10,12 +10,12 @@ gender: Male
 age: 16
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Bahnmir, Babolsar
-incident_address: ""
+incident_address: Babolsar
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Shot by security forces
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,12 @@ description: 16-year-old monarchist from Bahnmir in Babolsar, shot by Khamenei's
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/950
+  - https://x.com/AmirMiresmaeili/status/2017016172386889794
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 432456e5-6ce3-4521-8fcb-b725e323550c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

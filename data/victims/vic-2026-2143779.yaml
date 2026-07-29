@@ -1,16 +1,16 @@
 external_card_id: "9143"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55803_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55803_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55803_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55803_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55803_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55803_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55803_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55803_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55803_8_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55803_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55803_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55803_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55803_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55803_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55803_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55803_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55803_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55803_8_web_v1.jpg
 name: Amir Mohammad Yazdani
-persian_name: ""
+persian_name: امیرمحمد یزدانی
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -20,10 +20,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Narmak
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,11 @@ description: Killed by live ammunition in the Narmak area during widespread crac
 source_type: Social Media
 source:
   - https://hengaw.net/en/news/2026/01/article-108
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 17ecfd2c-e260-467c-8b6d-d187d4c33e77
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

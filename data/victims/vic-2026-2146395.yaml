@@ -14,7 +14,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Chaharbagh Jannat Abad Tehran | Jannat Abad, Tehran
 date_of_death: "2026-01-11"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -35,3 +35,11 @@ source:
   - https://x.com/saarmot/status/2015582734740054514
   - https://x.com/justchangingun/status/2015483071617749010
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-810
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c51a9522-b61f-4e15-ad7f-c9988f94d3a5
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

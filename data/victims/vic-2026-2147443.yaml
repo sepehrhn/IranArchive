@@ -1,7 +1,7 @@
 external_card_id: "8596"
 photo: []
 name: Mehdi Dastjerdi
-persian_name: ""
+persian_name: مهدی دستجردی
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -12,7 +12,7 @@ country: Iran
 incident_province: ""
 incident_city: Hamedan Province
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-03"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Detained during protests. Listed in HRANA's 'Identified Detainees' section of The Crimson Winter report. Date of arrest: January 13, 2026 (1404/10/24). Current status: Detained in Tuyserkan Prison, Ward 3 (Defendants). Original source: HRANA."
@@ -24,3 +24,11 @@ source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1378
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1473
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - aff5c717-a5df-46bb-9676-8dba6bb575d2
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/1473

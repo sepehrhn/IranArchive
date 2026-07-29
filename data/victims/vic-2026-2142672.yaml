@@ -1,9 +1,9 @@
 external_card_id: "5203"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22187_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41299_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42224_0_web_v1.jpg"
-  - "vic-2026-0d7a8582e092.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22187_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41299_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42224_0_web_v1.jpg
+  - vic-2026-0d7a8582e092.jpg
 name: Mohammad Hossein Payedar Hosseini
 persian_name: محمدحسین پایدار حسینی
 birth_date: ""
@@ -15,7 +15,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: East Tehran
-incident_address: ""
+incident_address: Tehranpars, Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -28,3 +28,12 @@ source:
   - https://x.com/ewenniii/status/2015777382641054092
   - https://t.me/RememberTheirNames/2581
   - https://javidnaman.iranintl.com/memorial/GJcxY52Stm1VDduxn4SYuB
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 9b3c5cae-4848-4349-910e-699f988e4961
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3379

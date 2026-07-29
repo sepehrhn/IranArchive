@@ -13,7 +13,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Sabzevar
-incident_address: ""
+incident_address: Sabzevar
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -25,3 +25,11 @@ description: Arrested in Sabzevar. No official information about his condition o
 source_type: Social Media
 source:
   - https://x.com/bisangar_ir/status/2017286734472437914
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 38449f12-02f3-4078-aa4c-e02ae916e070
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/children/105

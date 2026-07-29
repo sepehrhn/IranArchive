@@ -1,14 +1,14 @@
 external_card_id: "9469"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56117_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56269_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56117_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56269_0_telegram_v1.jpg
 name: Azra Mehdinejad
 persian_name: عذرا مهدی نژاد
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 57
 occupation: ""
 country: Iran
 incident_province: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/hadeeselahi/status/2026978864778359097
   - https://t.me/RememberTheirNames/3195
+  - https://www.instagram.com/p/DUAqvGMDCau/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 44e5dd77-55e8-4052-a38a-cb0cbf2cf1db
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:25eba97888dfda00

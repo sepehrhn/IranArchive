@@ -1,14 +1,14 @@
 external_card_id: "4230"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29292_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34235_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29292_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34235_0_telegram_v1.jpg
 name: Behzad Hosseini Aghozbani
 persian_name: بهزاد حسینی آغوزبنی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 36
 occupation: ""
 country: Iran
 incident_province: ""
@@ -20,8 +20,20 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: |-
+  ۲۱۲۸. بهزاد حسینی آغوزبنی
+  ۱۹ دی ۱۴۰۴ رشت
+   @RememberTheirNames
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaT7pwfD
   - https://t.me/RememberTheirNames/2244
+  - https://x.com/HyrcaniHRM/status/2019091544549032427
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - fa7e02ec-2407-4a6a-afb1-0b2c4554a4e1
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - https://t.me/RememberTheirNames

@@ -11,10 +11,10 @@ gender: Male
 age: 32
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Fariman
-incident_address: ""
-date_of_death: ""
+incident_address: دبیرستان شهید بهشتی فریمان
+date_of_death: "2023-02-21"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Biology teacher and well-known educator from Fariman, arrested by intelligence forces while teaching at Shahid Beheshti High School and transferred to Vakil Abad prison in Mashhad. Previously arrested during 2022 protests (Mahsa uprising) and released with bail and threats of severe sentences including execution. Current charges include 'encouraging participation in protests', 'propaganda activities against the system', 'insulting the leadership', and 'insulting sanctities'. Married with one child.
@@ -26,3 +26,13 @@ source_type: Social Media
 source:
   - https://x.com/shahramsadidi/status/2026054121288089756
   - https://x.com/bisangar_ir/status/2027041724506279943
+  - https://t.me/akhbar_bazdashtiha/404
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 482d9014-a119-462d-95cd-354520eeab17
+irantrial_categories:
+  - at-risk
+risk_of_execution: true
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

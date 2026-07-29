@@ -1,11 +1,11 @@
 external_card_id: "269"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19977_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19977_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26565_0_web_v1.jpg"
-  - "vic-2026-d19d432d1d0f.jpg"
-  - "vic-2026-aba3968cd36d.jpg"
-  - "vic-2026-1676d3b27266.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19977_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19977_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26565_0_web_v1.jpg
+  - vic-2026-d19d432d1d0f.jpg
+  - vic-2026-aba3968cd36d.jpg
+  - vic-2026-1676d3b27266.jpg
 name: Majid Shoghi
 persian_name: مجید شوقی
 birth_date: ""
@@ -15,12 +15,12 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Rasht
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -30,3 +30,12 @@ source:
   - https://x.com/BabakTaghvaee1/status/2012623932541567389
   - https://x.com/fereshteh531/status/2012853618672562359
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWhL7d
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - badc54b3-9661-4aec-97ae-18d94a324291
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/254

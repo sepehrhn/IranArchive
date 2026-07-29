@@ -1,12 +1,12 @@
 external_card_id: "432"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20309_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26340_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28807_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30231_0_twitter_v1.jpg"
-  - "vic-2026-000889.jpg"
-  - "vic-2026-b59512a09a94.jpg"
-  - "vic-2026-f5f56e6e672c.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20309_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26340_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28807_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30231_0_twitter_v1.jpg
+  - vic-2026-000889.jpg
+  - vic-2026-b59512a09a94.jpg
+  - vic-2026-f5f56e6e672c.jpg
 name: Mohammad Hossein Khalaj
 persian_name: محمدحسین خلج
 birth_date: ""
@@ -18,7 +18,7 @@ occupation: ""
 country: Iran
 incident_province: Qazvin
 incident_city: Alvand
-incident_address: ""
+incident_address: Alvand - Qazvin
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -40,3 +40,12 @@ source:
   - https://x.com/askheraboutmobi/status/2018630352680706068
   - https://www.instagram.com/p/DUgfLS2DfBV
   - https://t.me/RememberTheirNames/440
+  - https://www.instagram.com/p/DWD4uRpDNRC/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 376d5f49-1c50-4aa4-8540-cecfc0a35ac9
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:30b19b1aed507c0c

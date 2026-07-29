@@ -7,13 +7,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 39
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -23,3 +23,12 @@ description: Died in Tehran during Dey 1404
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3140
+  - https://www.instagram.com/p/DV1FwTZAT5O/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - db165832-2a51-49a0-9448-1d335999c4cb
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:44c7ed8b37ee8dcb

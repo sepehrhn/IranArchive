@@ -5,14 +5,14 @@ persian_name: اردلان عدیلی
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: ""
+incident_province: Fars
+incident_city: شیراز
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Charges: نامشخص"
@@ -23,3 +23,12 @@ description: "Charges: نامشخص"
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-342
+  - https://t.me/akhbar_bazdashtiha/430
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 38c4c7d0-35ed-4f27-9882-3526931cfac2
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

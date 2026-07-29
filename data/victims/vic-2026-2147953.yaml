@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
-date_of_death: ""
+incident_address: منزل
+date_of_death: "2021-01-14"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Theater actor arrested on 25 Dey when security forces raided his personal residence in Isfahan. Currently imprisoned in Dastgerd prison which has very inhumane conditions. Kept in limbo in prison and after about a month, they haven't even read his case file.
@@ -24,3 +24,12 @@ description: Theater actor arrested on 25 Dey when security forces raided his pe
 source_type: Social Media
 source:
   - https://x.com/esmaeils1169/status/2021131569310716061
+  - https://t.me/akhbar_bazdashtiha/10
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - cd1d30d4-3eaa-48ac-8b76-019698fbbd65
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

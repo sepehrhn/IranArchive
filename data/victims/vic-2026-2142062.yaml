@@ -19,7 +19,7 @@ country: Iran
 incident_province: ""
 incident_city: ""
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-13"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested during a private gathering with friends who were using Starlink internet due to internet outages. The tweet requests official announcement of his status and detention location, transparent announcement of charges according to law, and provision of rights to contact family and immediate access to a lawyer.
@@ -35,3 +35,12 @@ source:
   - https://x.com/i/status/2017205157558165813
   - https://x.com/saarmot/status/2015942899376984460
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1033
+  - https://t.me/akhbar_bazdashtiha/422
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 904385e2-b39d-4057-81ac-b3495942ea07
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

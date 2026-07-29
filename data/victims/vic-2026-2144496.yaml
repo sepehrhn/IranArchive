@@ -10,7 +10,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Haft-e Tir, Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -23,3 +23,12 @@ description: Incident occurred in Haft-e Tir area of Mashhad
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2224
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - dc8e79a1-5a5f-4ac0-9d92-cf7b39b95a2e
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1404

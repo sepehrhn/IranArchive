@@ -6,12 +6,12 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 16
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Khuzestan
 incident_city: باغملک ایذه, خوزستان
-incident_address: ""
+incident_address: Baghmalek Izeh | Izeh | Baghmalek Izeh
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -31,3 +31,11 @@ description: |-
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1024
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d8365d43-ee09-4284-a6ea-ca801b686172
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

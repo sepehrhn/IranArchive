@@ -10,12 +10,12 @@ gender: Male
 age: 36
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-incident_address: ""
+incident_address: 3rd Square of Fardis, Karaj
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed by agents of the Islamic Republic
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Father of two sons. Killed by Islamic Republic agents at the third 
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/829
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5f226e7a-82dd-4945-a89e-ab77f2f9cc00
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

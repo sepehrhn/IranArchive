@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 50
 occupation: ""
 country: Iran
 incident_province: ""
@@ -19,7 +19,16 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: IranTrial lists Atollah Pourrahmati among those killed in Torbat-e Jam.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1098
+  - https://www.instagram.com/p/DVkCEscAT9z/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f5a0fbc3-91f1-47ac-8be1-552778f96a85
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:bfaae00340d5eb19

@@ -12,7 +12,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Shiraz
-incident_address: ""
+incident_address: Yasuj
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -24,3 +24,11 @@ description: Arrested by security forces in Shiraz and held in Adel-Abad prison.
 source_type: Social Media
 source:
   - https://x.com/hayleymshll/status/2018334466523943191
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 2bede284-05a5-4881-9d95-c70867ff0370
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/286

@@ -12,7 +12,7 @@ country: Iran
 incident_province: ""
 incident_city: Mashhad
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -22,3 +22,11 @@ description: Victim mentioned in context of Iran Massacre
 source_type: Social Media
 source:
   - https://x.com/gilasgoz/status/2024238498916467006
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5f842c83-bd86-4db9-8f4a-35c6a696ec18
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:015ef0d3ab496348

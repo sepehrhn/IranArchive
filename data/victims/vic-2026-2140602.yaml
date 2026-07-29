@@ -1,14 +1,14 @@
 external_card_id: "1321"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21818_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22061_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22898_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23439_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50352_0_telegram_v1.jpg"
-  - "vic-2026-04026572aff4.jpg"
-  - "vic-2026-78e6b75a49a4.jpg"
-  - "vic-2026-6fdf29d0b53c.jpg"
-  - "vic-2026-56ef0f735f70.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21818_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22061_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22898_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23439_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50352_0_telegram_v1.jpg
+  - vic-2026-04026572aff4.jpg
+  - vic-2026-78e6b75a49a4.jpg
+  - vic-2026-6fdf29d0b53c.jpg
+  - vic-2026-56ef0f735f70.jpg
 name: Abbas Eshaghi
 persian_name: عباس اسحاقی
 birth_date: ""
@@ -23,7 +23,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -36,3 +36,12 @@ source:
   - https://t.me/RememberTheirNames/1509
   - https://x.com/IranNewsAgency0/status/2018511500336668847
   - https://t.me/JavidnamaneVatan/523
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 756d8406-5619-49a8-9586-86be25b6577c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

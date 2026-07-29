@@ -1,9 +1,9 @@
 external_card_id: "5398"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41913_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47672_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52015_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56545_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41913_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47672_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52015_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56545_0_twitter_v1.jpg
 name: Saeed Zarei
 persian_name: سعید زارعی
 birth_date: ""
@@ -13,7 +13,7 @@ gender: Male
 age: 35
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Fars
 incident_city: Nurabad Mamasani
 incident_address: Falak-e Amuzesh va Parvaresh
 date_of_death: "2026-01-10"
@@ -34,3 +34,12 @@ source:
   - https://x.com/gilasgoz/status/2021733524504817886
   - https://x.com/saarmot/status/2026044774919397386
   - https://x.com/EhsanZareei/status/2014445102333083721
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 14d60fe2-d87f-4c23-b79f-8fab17c67590
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

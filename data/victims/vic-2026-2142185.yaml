@@ -1,10 +1,10 @@
 external_card_id: "7747"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52035_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55461_0_twitter_v1.jpg"
-  - "vic-2026-b2973d027001.jpg"
-  - "vic-2026-c7b8d538d569.jpg"
-  - "vic-2026-3f32783eff84.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52035_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55461_0_twitter_v1.jpg
+  - vic-2026-b2973d027001.jpg
+  - vic-2026-c7b8d538d569.jpg
+  - vic-2026-3f32783eff84.jpg
 name: Saman Yousefi
 persian_name: سامان یوسفی
 birth_date: ""
@@ -19,7 +19,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -30,3 +30,11 @@ source:
   - https://x.com/missmarpel75/status/2026486979160899912
   - https://x.com/indypersian/status/2013634895013097882
   - https://x.com/ManotoNews/status/2015794101875261792
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 732eff59-0ef8-4584-b89c-c3adcaea5ee2
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

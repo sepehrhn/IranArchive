@@ -1,11 +1,11 @@
 external_card_id: "1674"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22716_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22716_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39251_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50246_0_telegram_v1.jpg"
-  - "vic-2026-4fff8926bd57.jpg"
-  - "vic-2026-0de879db91c3.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22716_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22716_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39251_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50246_0_telegram_v1.jpg
+  - vic-2026-4fff8926bd57.jpg
+  - vic-2026-0de879db91c3.jpg
 name: Amirmohammad Khayat
 persian_name: امیرمحمد خیاط
 birth_date: ""
@@ -15,12 +15,12 @@ gender: Male
 age: 22
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Neyshabour
-incident_address: ""
+incident_address: Khayyam Square, Nishapur
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -30,3 +30,15 @@ source:
   - https://x.com/HeKasrehCrisis/status/2015476812189434101
   - https://t.me/RememberTheirNames/437
   - https://t.me/JavidnamaneVatan/445
+  - https://www.instagram.com/p/DVELB5PE2fa/
+  - https://irantrial.org/fa/heroes
+  - https://www.hra-news.org/
+irantrial_ids:
+  - 12f0cfb9-7cdf-4f3f-a525-e46540392317
+  - ae47c746-b7cd-4ce3-a23b-8ebdb31a1c51
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - HRANA-CW-2026/protesters/476

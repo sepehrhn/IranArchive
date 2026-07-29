@@ -1,14 +1,14 @@
 external_card_id: "7343"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49447_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49545_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49447_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49545_0_telegram_v1.jpg
 name: Mohammad Malek
 persian_name: محمد مالک
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 19
 occupation: ""
 country: Iran
 incident_province: Qazvin
@@ -26,3 +26,11 @@ source:
   - https://x.com/mahmocean/status/2024311227271270634
   - https://t.me/RememberTheirNames/3016
   - https://x.com/gilasgoz/status/2024246448943223061
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 874df359-5eec-436c-8822-b8dff9e878bc
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:9afca86e4878bb7a

@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
-incident_address: ""
-date_of_death: ""
+incident_address: Mashhad
+date_of_death: "2026-01-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Mountaineer and animal rights defender, arrested on the evening of January 11, 2026 in Mashhad along with his wife
@@ -24,3 +24,11 @@ description: Mountaineer and animal rights defender, arrested on the evening of 
 source_type: Social Media
 source:
   - https://x.com/mahshid_nazemi/status/2025701866995318790
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 421f1db9-e7a7-4b1b-bad6-c35c60b1a7db
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/1647

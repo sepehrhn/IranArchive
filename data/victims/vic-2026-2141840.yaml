@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ایوان, ایلام
-incident_address: ""
-date_of_death: ""
+incident_address: Ivan
+date_of_death: "2026-01-14"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: |-
@@ -34,3 +34,11 @@ source_type: Social Media
 source:
   - https://x.com/HengawO/status/2012472910401642719
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1616
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5021ee3a-194c-4003-b340-fa40a1d813db
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/542

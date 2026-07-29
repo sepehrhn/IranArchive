@@ -1,12 +1,12 @@
 external_card_id: "2897"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21952_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21952_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26647_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30951_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51898_0_telegram_v1.jpg"
-  - "vic-2026-548b47757d2b.jpg"
-  - "vic-2026-6981dc347c39.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21952_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21952_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26647_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30951_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51898_0_telegram_v1.jpg
+  - vic-2026-548b47757d2b.jpg
+  - vic-2026-6981dc347c39.jpg
 name: Kasra Vafaparvar
 persian_name: کسری وفاپور
 birth_date: ""
@@ -21,7 +21,7 @@ incident_city: Fardis, Karaj
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -33,3 +33,12 @@ source:
   - https://x.com/IranNewsAgency0/status/2018614390853964054
   - https://t.me/RememberTheirNames/1975
   - https://t.me/JavidnamaneVatan/1398
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 08bb1db0-c4c4-4d18-b9de-c278cbb6dbf0
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

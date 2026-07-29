@@ -1,15 +1,15 @@
 external_card_id: "4973"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40832_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40832_1_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52151_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40832_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40832_1_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52151_0_telegram_v1.jpg
 name: Masumeh (Faezeh) Ali-Abadi
 persian_name: معصومه (فائزه) علی‌آبادی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 34
 occupation: ""
 country: Iran
 incident_province: ""
@@ -26,3 +26,11 @@ source_type: Social Media
 source:
   - https://x.com/hekasrehcrisis/status/2020219661002936522
   - https://t.me/JavidnamaneVatan/1638
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 68d7992f-4ded-4bfc-ac97-ddc81d78ebe0
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:a8708f97b4df3c5c

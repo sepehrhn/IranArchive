@@ -10,12 +10,12 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 30
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Dizicheh
-incident_address: ""
+incident_address: Dizicheh | Dizicheh | Dizcheh
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: Unknown
@@ -28,3 +28,11 @@ source:
   - https://x.com/abhaddadii/status/2012993637005627689
   - https://x.com/SabaMajlessi/status/2014967575638126808
   - https://x.com/saarmot/status/2017077476002841071
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - af7669e4-071c-433e-9220-667622a70ce3
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

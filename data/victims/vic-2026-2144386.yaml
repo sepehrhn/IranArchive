@@ -1,24 +1,24 @@
 external_card_id: "9061"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20533_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38980_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49759_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_5_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_8_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20533_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38980_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49759_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_5_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_8_web_v1.jpg
 name: Hossein Barati
 persian_name: حسین براتی
 birth_date: ""
@@ -30,10 +30,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Sadeh Lenjan
-incident_address: ""
+incident_address: Sedeh, a town in Zarrin Shahr, Isfahan
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -45,3 +45,12 @@ source:
   - https://t.me/JavidnamaneVatan/135
   - https://hengaw.net/en/news/2026/01/article-181
   - https://hengaw.net/fa/news/2026/01/article-186-1
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 2cf744b0-1fb0-4847-b324-c5eafaead601
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

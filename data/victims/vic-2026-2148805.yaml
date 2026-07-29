@@ -1,17 +1,17 @@
 external_card_id: "8445"
 photo: []
 name: Zabihollah Limoochi
-persian_name: ""
+persian_name: ذبیح‌الله لیموچی
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: 17
 occupation: ""
 country: Iran
 incident_province: Yazd
 incident_city: Yazdan Shahr
-incident_address: ""
+incident_address: Yazdan Shahr
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -23,3 +23,11 @@ description: "Child detained during protests. Listed in HRANA's 'Detained Childr
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_CHILD_60
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d7984232-6ed4-4d6b-9513-3ebfc844c0bf
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/children/60

@@ -1,8 +1,8 @@
 external_card_id: "5025"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40938_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41218_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41647_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40938_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41218_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41647_0_twitter_v1.jpg
 name: Parastoo Namavar
 persian_name: پرستو نام‌آور
 birth_date: ""
@@ -27,3 +27,12 @@ source:
   - https://x.com/mahmocean/status/2020463997678490099
   - https://t.me/RememberTheirNames/2500
   - https://x.com/i/status/2020437388611530998
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b933981c-a7aa-4954-bc64-7b07fbd0f57a
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:520dcd2ddb11ccff

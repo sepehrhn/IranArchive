@@ -12,8 +12,8 @@ age: null
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
-incident_address: ""
+incident_city: Urmia
+incident_address: Urmia
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -25,3 +25,11 @@ description: Kurdish citizen arrested during December protests in cities of Luma
 source_type: Social Media
 source:
   - https://x.com/HengawO/status/2012472910401642719
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c0c803d6-1e3b-404d-b477-8248ea93583f
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/550

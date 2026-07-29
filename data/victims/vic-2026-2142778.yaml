@@ -1,14 +1,14 @@
 external_card_id: "752"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20779_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23595_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25602_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40801_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41066_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48756_0_twitter_v1.jpg"
-  - "vic-2026-089b01468e10.jpg"
-  - "vic-2026-fe2be3f698cc.jpg"
-  - "vic-2026-1b732042b6c1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20779_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23595_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25602_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40801_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41066_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48756_0_twitter_v1.jpg
+  - vic-2026-089b01468e10.jpg
+  - vic-2026-fe2be3f698cc.jpg
+  - vic-2026-1b732042b6c1.jpg
 name: Sajdeh Karimi
 persian_name: ساجده کریمی
 birth_date: ""
@@ -18,12 +18,12 @@ gender: Female
 age: 18
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Astaneh Ashrafiyeh
-incident_address: ""
+incident_address: Astaneh-ye Ashrafiyeh Urban Area | Astaneh-ye Ashrafiyeh
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -36,3 +36,12 @@ source:
   - https://x.com/kyokushinsoofi/status/2019915065252556916
   - https://javidnaman.iranintl.com/memorial/1abe707b-1318-482e-a15a-7ea0cc647acd
   - https://x.com/frying_oil/status/2020822564319482235
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 777d9181-db49-4f34-949d-e059563fa391
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

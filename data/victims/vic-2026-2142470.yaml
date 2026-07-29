@@ -1,13 +1,13 @@
 external_card_id: "2255"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23878_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25614_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25838_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30721_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53557_0_instagram_v1.jpg"
-  - "vic-2026-1ac81f68e0ea.jpg"
-  - "vic-2026-72f303ae2b3b.jpg"
-  - "vic-2026-e1ccdd7c9f76.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23878_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25614_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25838_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30721_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53557_0_instagram_v1.jpg
+  - vic-2026-1ac81f68e0ea.jpg
+  - vic-2026-72f303ae2b3b.jpg
+  - vic-2026-e1ccdd7c9f76.jpg
 name: Amir Ali Zakeri
 persian_name: امیرعلی ذاکری
 birth_date: ""
@@ -19,10 +19,10 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Qarchak
-incident_address: ""
+incident_address: Qarchak, Varamin
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -35,3 +35,12 @@ source:
   - https://x.com/kyokushinsoofi/status/2017576035361976475
   - https://t.me/RememberTheirNames/1752
   - https://www.instagram.com/p/DVAqZmzDuNX
+  - https://www.instagram.com/p/DUq6Q3sAMaV/?hl=en
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - da0c7c7e-af67-45fd-8cd3-8ff4f99cfb09
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

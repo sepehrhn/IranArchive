@@ -1,7 +1,7 @@
 external_card_id: "3672"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30091_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30291_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30091_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30291_0_telegram_v1.jpg
 name: Saeed Rahimi
 persian_name: سعید رحیمی
 birth_date: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/iranintl/status/2018503482483900464
   - https://t.me/RememberTheirNames/2169
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bb23eb30-919a-4f01-b188-fab075d5da13
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:5c1b1266364096e2

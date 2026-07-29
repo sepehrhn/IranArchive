@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: مشهد, خراسان رضوی
-incident_address: ""
-date_of_death: ""
+incident_address: Mashhad
+date_of_death: "2026-01-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Citizen with disability, son of Iran-Iraq war casualty, arrested and tortured by IRGC intelligence interrogators in Mashhad. Interrogators burned his hand with a lighter and kept him for about 10 days in a room with very intense light that was on 24/7. Accused of 'leadership' in protests despite having disability in both legs and being under welfare organization supervision for years. Temporary detention extended for another month, denied right to choose lawyer.
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-104
   - https://x.com/iranwire/status/2026344432732086465
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 908f5168-557b-4aa5-bf05-0c9289ecd7dd
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/1752

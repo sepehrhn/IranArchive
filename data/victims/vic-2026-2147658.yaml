@@ -20,8 +20,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Esfarayen
-incident_address: ""
-date_of_death: ""
+incident_address: Esfarayen
+date_of_death: "2025-12-21"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Kurdish citizen from Esfarayen. Arrested on January 14, 2026 during government forces raid on his home. After two weeks of interrogation in security detention centers, transferred to Esfarayen prison.
@@ -33,3 +33,11 @@ source_type: Social Media
 source:
   - https://x.com/rozhenabaloch/status/2025293395753836549
   - https://hengaw.net/en/news/2026/02/article-122
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b0f3ea51-979b-4f8f-a854-60790607d3ab
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/2481

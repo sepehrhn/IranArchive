@@ -1,8 +1,8 @@
 external_card_id: "7038"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48332_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52483_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56307_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48332_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52483_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56307_0_telegram_v1.jpg
 name: Mehrdad Soltani
 persian_name: مهرداد سلطانی
 birth_date: ""
@@ -27,3 +27,11 @@ source:
   - https://javidnaman.iranintl.com/memorial/JBD8VcS53KpKZlWXO2E0MF
   - https://t.me/javidnamhamedan/457
   - https://t.me/javidnamhamedan/511
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 170737f1-9b38-4dd7-ac12-5ab612d99a63
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:0ab827d26e2c4a7f

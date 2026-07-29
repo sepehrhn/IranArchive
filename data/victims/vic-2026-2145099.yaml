@@ -1,9 +1,9 @@
 external_card_id: "3013"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28990_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28990_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39784_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40951_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28990_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28990_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39784_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40951_0_twitter_v1.jpg
 name: Mohammadreza Ahmadparast
 persian_name: محمدرضا احمدپرست
 birth_date: ""
@@ -29,3 +29,12 @@ source:
   - https://x.com/i/status/2016643067210592430
   - https://t.me/RememberTheirNames/1660
   - https://x.com/indypersian/status/2020628458397974884
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b98e6022-d4d4-42ba-9854-67e459023ea1
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:fc7443d95dcb0654

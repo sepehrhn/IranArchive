@@ -1,10 +1,10 @@
 external_card_id: "2313"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24178_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34178_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41102_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41193_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50819_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24178_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34178_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41102_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41193_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50819_0_telegram_v1.jpg
 name: Ali Jafari Ghodsi Pahmadani
 persian_name: علی جعفری
 birth_date: ""
@@ -32,3 +32,11 @@ source:
   - https://t.me/RememberTheirNames/2475
   - https://t.me/JavidnamaneVatan/919
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_2891
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b2a84a2f-3cb8-4239-b347-1fa866206a91
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/2891

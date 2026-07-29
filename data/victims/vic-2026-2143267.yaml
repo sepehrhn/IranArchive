@@ -17,12 +17,21 @@ incident_city: Nourabad, Lorestan
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: IranTrial lists Sepideh Anvari among those killed.
 source_type: Social Media
 source:
   - https://x.com/roudysimo/status/2017541833090351151
   - https://t.me/javanmardi77/154329
+  - https://www.instagram.com/p/DUN8knuDc-l/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 096754fb-6bdf-4ba6-b55e-1fe471269cfd
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

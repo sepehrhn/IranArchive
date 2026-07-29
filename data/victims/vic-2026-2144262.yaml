@@ -1,7 +1,7 @@
 external_card_id: "6970"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48066_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_54209_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48066_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_54209_0_telegram_v1.jpg
 name: Hamid Ashouri
 persian_name: حمید عاشوری
 birth_date: ""
@@ -13,10 +13,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Chitgar, Tehran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Shot in the forehead by agents
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://www.instagram.com/p/DUvXVPhDFsT
   - https://t.me/JavidnamaneVatan/2207
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6c81209f-3350-4dc8-8690-c58e3d70688f
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

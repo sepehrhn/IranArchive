@@ -1,12 +1,12 @@
 external_card_id: "3784"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38058_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38723_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42344_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50874_0_telegram_v1.jpg"
-  - "vic-2026-000639.jpg"
-  - "vic-2026-001711.jpg"
-  - "vic-2026-002128.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38058_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38723_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42344_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50874_0_telegram_v1.jpg
+  - vic-2026-000639.jpg
+  - vic-2026-001711.jpg
+  - vic-2026-002128.jpg
 name: Jafar Javidi
 persian_name: جعفر جاویدی
 birth_date: ""
@@ -16,7 +16,7 @@ gender: Male
 age: 29
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -41,3 +41,12 @@ source:
   - https://www.instagram.com/p/DUmaPwegi0Z
   - https://t.me/JavidnamaneVatan/974
   - https://t.me/RememberTheirNames/711
+  - https://www.instagram.com/p/DU1klQBiI2n/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - df096665-d770-4d4c-9fcc-ff5c99c1b2b6
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,8 +1,8 @@
 external_card_id: "5000"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40892_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40892_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41464_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40892_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40892_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41464_0_telegram_v1.jpg
 name: Amirhossein Ghorbani
 persian_name: امیرحسین قربانی
 birth_date: ""
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/afkari_saeed/status/2020525626961039604
   - https://t.me/RememberTheirNames/2598
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - db215b75-e1fb-457e-b571-c7ed5995937a
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1961

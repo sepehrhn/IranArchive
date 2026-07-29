@@ -1,17 +1,17 @@
 external_card_id: "690"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20697_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20763_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21779_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21935_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26632_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39043_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41875_0_twitter_v1.jpg"
-  - "vic-2026-4df4f6f24759.jpg"
-  - "vic-2026-e66284c71523.jpg"
-  - "vic-2026-b10a7dd28c98.jpg"
-  - "vic-2026-25ee646afdc5.jpg"
-  - "vic-2026-d717fbb03cb1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20697_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20763_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21779_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21935_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26632_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39043_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41875_0_twitter_v1.jpg
+  - vic-2026-4df4f6f24759.jpg
+  - vic-2026-e66284c71523.jpg
+  - vic-2026-b10a7dd28c98.jpg
+  - vic-2026-25ee646afdc5.jpg
+  - vic-2026-d717fbb03cb1.jpg
 name: Armin Jashani Nejad
 persian_name: آرمین جشنی نژاد
 birth_date: ""
@@ -21,12 +21,12 @@ gender: Male
 age: 23
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Khuzestan
 incident_city: Mahshahr
-incident_address: ""
+incident_address: Near Farhangsara area, Mahshahr - Khuzestan
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -42,3 +42,14 @@ source:
   - https://t.me/RememberTheirNames/655
   - https://x.com/manotonews/status/2021139574567711040
   - https://x.com/gilasgoz/status/2022255023271342542
+  - https://irantrial.org/fa/heroes
+  - https://www.hra-news.org/
+irantrial_ids:
+  - 42e9ad09-60a2-484e-81fa-6080f78984bf
+  - 8bec615e-ac3f-4320-b986-1fc6ea75dfed
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:9590d07d36b7aa4c
+  - HRANA-CW-2026/protesters/557

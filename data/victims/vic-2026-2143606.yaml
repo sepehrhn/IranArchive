@@ -7,15 +7,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 34
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Hamadan
 incident_city: Malayer
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,12 @@ description: Shot with war bullets by forces of the Islamic Republic
 source_type: Social Media
 source:
   - https://t.me/javidnamhamedan/108
+  - https://javidnaman.iranintl.com/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 2b9f3e3c-67fd-4220-ac8d-435ebeac19a1
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

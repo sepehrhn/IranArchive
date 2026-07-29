@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Ilam
 incident_city: Ilam Province
-incident_address: ""
-date_of_death: ""
+incident_address: Dehloran
+date_of_death: "2026-01-30"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Kurdish citizen from Ilam Province arrested violently by security forces without judicial warrant between 27 Dey and 10 Bahman 1404. Being held in unknown location with no official information about status after more than 16 days of detention.
@@ -24,3 +24,11 @@ description: Kurdish citizen from Ilam Province arrested violently by security f
 source_type: Social Media
 source:
   - https://x.com/kurdpa_farsi/status/2018151872738304037
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c87b3347-31f7-43ca-9cea-193cda3f7765
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/889

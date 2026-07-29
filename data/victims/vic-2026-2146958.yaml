@@ -11,9 +11,9 @@ age: null
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
-incident_address: ""
-date_of_death: ""
+incident_city: Bushehr
+incident_address: Bushehr
+date_of_death: "2026-02-04"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested on 16 Bahman (February 5, 2026) and taken to an unknown location. No one has any news of him. Family and relatives are worried about him.
@@ -24,3 +24,11 @@ description: Arrested on 16 Bahman (February 5, 2026) and taken to an unknown lo
 source_type: Social Media
 source:
   - https://x.com/tarashg6ro/status/2019546053377421783
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8a0a689b-59de-4c24-afb2-11111e314b29
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/988

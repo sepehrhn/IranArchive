@@ -12,7 +12,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Dehdasht
-incident_address: ""
+incident_address: Dehdasht
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -24,3 +24,11 @@ description: Boxing coach from Kohgiluyeh and Boyer-Ahmad Province, violently ar
 source_type: Social Media
 source:
   - https://x.com/saarmot/status/2026436981408849928
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8e4d88cf-ad39-4919-9f22-490131a79a2f
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/578

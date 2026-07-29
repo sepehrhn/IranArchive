@@ -1,23 +1,23 @@
 external_card_id: "4465"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38202_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38202_1_twitter_v1.jpg"
-  - "vic-2026-001430.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38202_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38202_1_twitter_v1.jpg
+  - vic-2026-001430.jpg
 name: Morteza Sheikhi
 persian_name: مرتضی شیخی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 36
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
-incident_address: ""
+incident_address: Mashhad | Meraj Square, Mashhad
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -35,3 +35,12 @@ source:
   - https://x.com/auslaendermann/status/2015360334777798896
   - https://x.com/auslaendermann/status/2015423024606961736
   - https://t.me/RememberTheirNames/950
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 2ee5b577-8e7b-4ea2-a71d-e4ccd8e30f21
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,10 +1,10 @@
 external_card_id: "3185"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27314_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31083_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34182_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50960_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52030_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27314_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31083_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34182_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50960_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52030_0_telegram_v1.jpg
 name: Seyyed Ali Asghar Hosseini
 persian_name: علی اصغر حسینی
 birth_date: ""
@@ -19,7 +19,7 @@ incident_city: Kerman
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -32,3 +32,11 @@ source:
   - https://www.instagram.com/p/DUWT8vMDzeF
   - https://t.me/JavidnamaneVatan/1060
   - https://t.me/JavidnamaneVatan/1530
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b2f14092-9e5e-45e8-95bf-a72741e7ab04
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:cb16b8347599270b

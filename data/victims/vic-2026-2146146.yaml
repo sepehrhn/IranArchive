@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: نارمک
+date_of_death: "2024-01-03"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested on 13th of Dey month in Narmak neighborhood in Tehran. Has been imprisoned in Tehran Grand Prison for more than forty days. Has a bachelor's degree in architecture and is an international entrepreneur. Was arrested before the protests of 18th and 19th of Dey month and according to informed sources did not participate in protests.
@@ -24,3 +24,12 @@ description: Arrested on 13th of Dey month in Narmak neighborhood in Tehran. Has
 source_type: Social Media
 source:
   - https://x.com/followupiran/status/2025847785828811013
+  - https://t.me/akhbar_bazdashtiha/359
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 2d25fcca-8457-4ac8-9497-acbb642f6e73
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

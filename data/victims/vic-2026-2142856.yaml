@@ -1,13 +1,13 @@
 external_card_id: "43"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19656_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19656_1_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19656_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19656_3_twitter_v1.jpg"
-  - "vic-2026-99b4a5dee29d.jpg"
-  - "vic-2026-07e27c2d5b0f.png"
-  - "vic-2026-a7964da0b851.jpg"
-  - "vic-2026-a32d36fcfc59.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19656_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19656_1_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19656_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19656_3_twitter_v1.jpg
+  - vic-2026-99b4a5dee29d.jpg
+  - vic-2026-07e27c2d5b0f.png
+  - vic-2026-a7964da0b851.jpg
+  - vic-2026-a32d36fcfc59.jpg
 name: Wahab Ghaedi
 persian_name: وهاب قاعدی
 birth_date: ""
@@ -17,7 +17,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Lorestan
 incident_city: Azna
 incident_address: ""
 date_of_death: "2026-01-01"
@@ -31,3 +31,12 @@ source_type: Social Media
 source:
   - https://x.com/Daikatuo/status/2007455396248633743
   - https://www.iran-emrooz.net/index.php/news2/125134/
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - afe3578e-00de-4573-9b0e-b86c412bb2d9
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/24

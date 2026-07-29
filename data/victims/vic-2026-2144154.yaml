@@ -1,20 +1,20 @@
 external_card_id: "4058"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31141_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31200_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41267_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49023_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50154_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52486_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53526_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56305_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31141_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31200_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41267_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49023_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50154_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52486_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53526_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56305_0_telegram_v1.jpg
 name: Farhad Amin
 persian_name: فرهاد امین
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 25
 occupation: ""
 country: Iran
 incident_province: Hamadan
@@ -22,7 +22,7 @@ incident_city: Hamadan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -41,3 +41,12 @@ source:
   - https://t.me/javidnamhamedan/467
   - https://t.me/javidnamhamedan/482
   - https://t.me/javidnamhamedan/509
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6cb10705-d839-4ed8-88b1-cdd9dc8114b4
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

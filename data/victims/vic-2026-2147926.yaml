@@ -13,7 +13,7 @@ country: Iran
 incident_province: ""
 incident_city: Meshkan, Sabzevar
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested on 20 Dey, currently held in Vakil-Abad prison in Mashhad. Has been tortured and forced to confess. Has no father and was raised in welfare services. Has an elderly grandmother who is crying over his situation.
@@ -24,3 +24,12 @@ description: Arrested on 20 Dey, currently held in Vakil-Abad prison in Mashhad.
 source_type: Social Media
 source:
   - https://x.com/shahramsadidi/status/2026009935272607801
+  - https://t.me/akhbar_bazdashtiha/381
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bef1ce5a-1163-4264-a029-713f967f8eb6
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

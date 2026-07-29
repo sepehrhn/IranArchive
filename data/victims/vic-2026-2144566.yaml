@@ -1,8 +1,8 @@
 external_card_id: "5409"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41929_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42123_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52419_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41929_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42123_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52419_0_twitter_v1.jpg
 name: Mahmoud Adineh
 persian_name: محمود آدینه
 birth_date: ""
@@ -17,7 +17,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,12 @@ source:
   - https://t.me/RememberTheirNames/2722
   - https://x.com/dadban4/status/2021261842572554305
   - https://x.com/missmarpel75/status/2025519789855412459
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5315b170-8140-418a-a984-06dcb386d25e
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

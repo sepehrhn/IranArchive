@@ -1,9 +1,9 @@
 external_card_id: "1662"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22690_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23486_0_telegram_v1.jpg"
-  - "vic-2026-d606ba43e7cf.jpg"
-  - "vic-2026-93c4821a80c6.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22690_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23486_0_telegram_v1.jpg
+  - vic-2026-d606ba43e7cf.jpg
+  - vic-2026-93c4821a80c6.jpg
 name: Omid Allahdad
 persian_name: امید الله‌داد
 birth_date: ""
@@ -18,7 +18,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,12 @@ source_type: Social Media
 source:
   - https://www.instagram.com/p/DUBSIcogBAS
   - https://t.me/RememberTheirNames/1455
+  - https://www.instagram.com/p/DUJQxl6k-OK/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 91ea4d90-5558-4ff6-ac72-29581e8505ea
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

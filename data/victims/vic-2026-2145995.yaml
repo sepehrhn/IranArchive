@@ -20,8 +20,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: تهران, تهران
-incident_address: ""
-date_of_death: ""
+incident_address: Tehran
+date_of_death: "2026-01-07"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: |-
@@ -39,3 +39,11 @@ source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-769
   - https://hengaw.net/en/news/2026/01/article-58
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ff3702e4-1dc4-4733-a954-a2bbfa68909a
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/406

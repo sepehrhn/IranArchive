@@ -1,8 +1,8 @@
 external_card_id: "790"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20890_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39148_0_telegram_v1.jpg"
-  - "vic-2026-f3590561354d.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20890_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39148_0_telegram_v1.jpg
+  - vic-2026-f3590561354d.jpg
 name: Soheil Kikhaei
 persian_name: سهیل کیخایی
 birth_date: ""
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/manotonews/status/2014359902156636387
   - https://t.me/RememberTheirNames/543
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - efdc3545-b068-43c9-9515-bc5eee3e20c1
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/596

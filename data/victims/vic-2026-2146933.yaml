@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Karaj
-incident_address: ""
-date_of_death: ""
+incident_address: محل کار خود
+date_of_death: "2026-01-21"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Abducted by security forces of the terrorist Islamic Republic regime at his workplace on the first day of Bahman month. Has two children who are extremely worried about their father's condition. No news of him has been available since his abduction.
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/iranianpapppi3/status/2025676563673416001
   - https://x.com/irannewsagency0/status/2026006192615743982
+  - https://t.me/akhbar_bazdashtiha/624
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d7e0e7f7-d30d-414f-a697-618e7d3024ce
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

@@ -10,12 +10,12 @@ gender: Male
 age: 19
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Hormozgan
 incident_city: Jiroft
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Baloch citizen from Garmsir Jiroft in Hormozgan province, killed du
 source_type: Social Media
 source:
   - https://x.com/rozhenabaloch/status/2021336169771041072
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 782f3501-8c6b-4254-9d7a-fc646b1ec5bb
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

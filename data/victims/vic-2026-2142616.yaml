@@ -1,12 +1,12 @@
 external_card_id: "2736"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26126_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26691_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40838_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40838_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42606_0_telegram_v1.jpg"
-  - "vic-2026-a30a135523d4.jpg"
-  - "vic-2026-17e82789448f.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26126_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26691_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40838_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40838_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42606_0_telegram_v1.jpg
+  - vic-2026-a30a135523d4.jpg
+  - vic-2026-17e82789448f.jpg
 name: Majid Karimi
 persian_name: مجید کریمی
 birth_date: ""
@@ -18,7 +18,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehranpars
-incident_address: ""
+incident_address: Tehranpars - Tehran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -33,3 +33,12 @@ source:
   - https://x.com/saeidvafa/status/2020228999813661017
   - https://t.me/RememberTheirNames/2803
   - https://x.com/gilasgoz/status/2022240140685639870
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8cbbe9af-51ee-4a6f-a793-ee30faaeb1c0
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:c8b78ecbc67ecc20

@@ -13,7 +13,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehranpars
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -23,3 +23,12 @@ description: Victim listed in Iran International Memorial from Tehranpars area
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/CoXljdUpHLN0XegRK2ldtR
+  - https://witness.report/people/d08bc51d-1320-11f1-b649-560003f1f421/hiwa-moradkhani
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bb809f26-4650-49c6-954b-3bbd61041f11
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:32108efb95ac0840

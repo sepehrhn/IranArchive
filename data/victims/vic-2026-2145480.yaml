@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 40
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,3 +24,12 @@ source_type: Social Media
 source:
   - https://x.com/amureza64/status/2023039179433893924
   - https://x.com/raminka7/status/2023030665789513962
+  - https://www.instagram.com/p/DUXrsYYDOiM/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 49ba5484-c04d-4e12-8a27-8c25f7fc1511
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:31c08c898f4f0f41

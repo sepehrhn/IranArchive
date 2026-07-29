@@ -5,7 +5,7 @@ persian_name: ا مالبنی غالمی کمساری
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: null
 occupation: ""
 country: Iran
@@ -22,3 +22,11 @@ description: "Killed during killed protester citizens protests. HRANA verificati
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_1879
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f6ecd30b-8e87-4485-9cf4-92eb1226bfe5
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1879

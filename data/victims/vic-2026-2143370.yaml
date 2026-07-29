@@ -15,9 +15,9 @@ gender: Male
 age: 18
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kurdistan
 incident_city: Sanandaj
-incident_address: ""
+incident_address: Sanandaj - Kurdistan
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -31,3 +31,11 @@ source:
   - https://x.com/dadban4/status/2012199580704628775
   - https://x.com/hengawo/status/2011732625166307802
   - https://x.com/HengawO/status/2012472910401642719
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - da9ae768-7c57-413f-8f58-9b77a6b4891c
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

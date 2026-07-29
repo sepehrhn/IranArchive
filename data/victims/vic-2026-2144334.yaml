@@ -6,11 +6,11 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 25
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: Najafabad, Isfahan
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
@@ -22,3 +22,11 @@ description: "Killed during killed protester citizens protests. HRANA verificati
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_2287
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 066ba311-072e-4453-8243-21265a29d7df
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:1da6b909737e0674

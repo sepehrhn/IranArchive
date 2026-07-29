@@ -1,7 +1,7 @@
 external_card_id: "2840"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26430_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38816_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26430_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38816_0_telegram_v1.jpg
 name: Javad Heydarnejad
 persian_name: جواد حیدرنژاد
 birth_date: ""
@@ -20,8 +20,17 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: IranTrial lists Javad Heydarnejad among those killed on 2026-01-08 in Mashhad, Razavi Khorasan.
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmP1HGa
   - https://t.me/RememberTheirNames/891
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 15f4e4cb-a642-4985-a006-3e41fe80ce3b
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/729

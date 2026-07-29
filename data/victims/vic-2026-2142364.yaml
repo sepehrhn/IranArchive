@@ -1,13 +1,13 @@
 external_card_id: "2034"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23436_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27296_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39927_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49472_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49472_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50781_0_telegram_v1.jpg"
-  - "vic-2026-6f4efe7afc27.jpg"
-  - "vic-2026-f0ee236b0b49.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23436_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27296_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39927_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49472_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49472_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50781_0_telegram_v1.jpg
+  - vic-2026-6f4efe7afc27.jpg
+  - vic-2026-f0ee236b0b49.png
 name: Meysam Asadi
 persian_name: میثم اسدی
 birth_date: ""
@@ -17,12 +17,12 @@ gender: Male
 age: 19
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-incident_address: ""
+incident_address: Karaj | Hesarak, Karaj | Hesarak, Karaj
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -34,3 +34,12 @@ source:
   - https://x.com/manotonews/status/2019425782268063956
   - https://x.com/thekoorowsh/status/2024380521392791664
   - https://t.me/JavidnamaneVatan/881
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 097f307f-36ab-4296-9e79-089d95d76497
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1189

@@ -12,7 +12,7 @@ country: Iran
 incident_province: ""
 incident_city: Mashhad
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -22,3 +22,12 @@ description: Listed in Iran International Memorial as victim of protests in Mash
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/faVC3p6tCxw9DOdQXwmnoS
+  - https://www.instagram.com/reel/DVV2-Y6DIst/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d6cdd687-cc1f-493a-9620-d837655320d8
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:674342470fe25c56

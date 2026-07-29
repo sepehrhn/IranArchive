@@ -16,10 +16,10 @@ gender: Male
 age: 25
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Shahin Shahr
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-15"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested by IRGC forces on January 15. Nearly three weeks later, authorities contacted his family only to return his confiscated car, without providing any information about his whereabouts or condition.
@@ -33,3 +33,12 @@ source:
   - https://x.com/choopanam/status/2018482763045949844
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1570
   - https://x.com/saarmot/status/2022469838241673499
+  - https://t.me/akhbar_bazdashtiha/487
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - a737d291-59f8-4837-b57e-f92ff9cef4a5
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

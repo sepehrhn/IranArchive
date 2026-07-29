@@ -11,15 +11,23 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: سوق, کهگیلویه و بویراحمد
-incident_address: ""
-date_of_death: ""
+incident_address: Soq
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
-disappearance_circumstances: ""
+disappearance_circumstances: "Place of arrest: Soq"
 suspected_actor: ""
 status: Missing
 detention_status: arrested
-description: ""
+description: IranTrial lists Vahid Sadeghi – Date of Birth as detained on 2026-01-08.
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1565
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c6111bcc-64bc-4b8a-b3a9-230f30203492
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/2325

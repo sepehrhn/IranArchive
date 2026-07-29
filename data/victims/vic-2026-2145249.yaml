@@ -1,8 +1,8 @@
 external_card_id: "4241"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34258_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40411_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40411_1_twitter_v1.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34258_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40411_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40411_1_twitter_v1.png
 name: Nader Hasanvand
 persian_name: نادر حسنوند
 birth_date: ""
@@ -27,3 +27,12 @@ source:
   - https://t.me/RememberTheirNames/2267
   - https://javidnaman.iranintl.com/memorial/faVC3p6tCxw9DOdQYCymqi
   - https://x.com/vahid/status/2019171695362298111
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 2866b0ae-7003-4f4f-b20f-a1a7cbf06de8
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:41043eca23709a42

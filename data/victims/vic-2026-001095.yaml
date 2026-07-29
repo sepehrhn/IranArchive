@@ -1,8 +1,8 @@
 external_card_id: "323"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53462_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53599_0_instagram_v1.jpg"
-  - "vic-2026-001095.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53462_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53599_0_instagram_v1.jpg
+  - vic-2026-001095.jpg
 name: Hojjat Maleki
 persian_name: حجت ملکی
 birth_date: ""
@@ -12,7 +12,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Dizicheh
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -35,3 +35,12 @@ source:
   - https://x.com/parnian_za/status/2025881520364466465
   - https://www.instagram.com/p/DVGKcmMDKkZ
   - https://t.me/RememberTheirNames/576
+  - https://www.instagram.com/p/DVGKcmMDKkZ/?hl=en
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - e4c41046-83e6-403f-b568-38118e10f046
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

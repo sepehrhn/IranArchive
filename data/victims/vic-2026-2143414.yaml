@@ -15,10 +15,10 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kermanshah
 incident_city: Karaj
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Kidnapped by plainclothes forces in Karaj on Saturday, 20 Dey 1404. Blogger and Kurdish from Kalar region of Dalahu in Kermanshah province. His fate, health condition and detention location remain unknown.
@@ -31,3 +31,12 @@ source:
   - https://x.com/iranhrs99/status/2012963645798428966
   - https://x.com/hengawo/status/2013547854837493921
   - https://x.com/hiwa_life/status/2014397354850275610
+  - https://t.me/akhbar_bazdashtiha/541
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ab4715e2-414f-46c9-b1e6-7f1e511e0562
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

@@ -1,9 +1,9 @@
 external_card_id: "3463"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34074_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34116_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34211_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52048_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34074_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34116_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34211_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52048_0_telegram_v1.jpg
 name: Amir Janghali
 persian_name: امیر جانقلی
 birth_date: ""
@@ -18,7 +18,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -30,3 +30,11 @@ source:
   - https://t.me/RememberTheirNames/2213
   - https://www.instagram.com/p/DUUs-DfiZmx
   - https://t.me/JavidnamaneVatan/1548
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 4181867e-fc23-4224-8e32-ee5626c0278f
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

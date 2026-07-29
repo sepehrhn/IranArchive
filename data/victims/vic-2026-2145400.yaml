@@ -1,7 +1,7 @@
 external_card_id: "9655"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_57423_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_57533_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_57423_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_57533_0_instagram_v1.jpg
 name: Raheleh Sharafati Moghaddam
 persian_name: راحله شرافتی‌مقدم
 birth_date: ""
@@ -11,12 +11,12 @@ gender: Female
 age: 44
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
-incident_address: ""
+incident_address: Private residence (Mashhad)
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Gunshot wound and infection due to not going to the hospital
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/2391
   - https://www.instagram.com/p/DVhKk1FjJqz
+  - https://www.instagram.com/p/DU2wkMkCOGs/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - dbedfddb-4b0f-4255-a505-ffe86384984c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

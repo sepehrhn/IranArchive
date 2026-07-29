@@ -1,12 +1,12 @@
 external_card_id: "1378"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21997_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29304_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30906_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31156_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42533_0_twitter_v1.jpg"
-  - "vic-2026-000571.jpg"
-  - "vic-2026-4386208633e1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21997_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29304_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30906_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31156_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42533_0_twitter_v1.jpg
+  - vic-2026-000571.jpg
+  - vic-2026-4386208633e1.jpg
 name: Danial Cheraghian
 persian_name: دانیال چراغیان
 birth_date: ""
@@ -16,7 +16,7 @@ gender: Male
 age: 29
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Fardis, Karaj
 incident_address: Fardis
 date_of_death: "2026-01-08"
@@ -39,3 +39,12 @@ source:
   - https://t.me/RememberTheirNames/1941
   - https://t.me/javidnamhamedan/31
   - https://x.com/hoda2728/status/2021994551414493395
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ed1d5bd1-8546-49dc-b26d-acc10591d872
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

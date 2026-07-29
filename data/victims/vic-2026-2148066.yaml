@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: تهران, تهران
-incident_address: ""
-date_of_death: ""
+incident_address: Tehran
+date_of_death: "2026-01-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested with violence from her home at midnight on 23 Dey 1404 and transferred to Ward 209 of Evin Prison. She made one brief phone call to inform her family of her arrest, but since then there has been no information about her condition, place of detention, charges, or case proceedings. Deprived of access to information, legal counsel, and formal charges.
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://x.com/IranNewsAgency0/status/2018005191748972719
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1324
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 37ec295d-70cf-4084-8009-9ab00a516c68
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/1983

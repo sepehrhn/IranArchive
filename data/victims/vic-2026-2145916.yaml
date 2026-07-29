@@ -6,13 +6,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 28
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ""
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -22,3 +22,12 @@ description: "Killed during killed protester citizens protests. HRANA verificati
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_2423
+  - https://www.instagram.com/p/DUA_zmpkVqo/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 1a02a96d-93f9-4ad2-a0da-03d4131f701f
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/2423

@@ -13,7 +13,7 @@ country: Iran
 incident_province: ""
 incident_city: Karaj
 incident_address: ""
-date_of_death: ""
+date_of_death: "2022-12-31"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 19-year-old arrested on 10 Dey month and being held in Karaj prison, family has been left in uncertainty for 50 days
@@ -24,3 +24,12 @@ description: 19-year-old arrested on 10 Dey month and being held in Karaj prison
 source_type: Social Media
 source:
   - https://x.com/khatibiofficial/status/2025218775813849501
+  - https://t.me/akhbar_bazdashtiha/153
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - fa684b4d-abce-47b5-b2b1-16a5b08a59b4
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

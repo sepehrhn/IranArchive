@@ -8,15 +8,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 58
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/hichkasofficial/status/2014823590269485061
   - https://x.com/esmaeils1169/status/2014816176866554104
+  - https://www.instagram.com/p/DVkCHdOk7uv/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ed517a79-c699-4f2c-a1d6-357c4f3c4da5
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

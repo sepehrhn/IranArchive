@@ -20,7 +20,7 @@ country: Iran
 incident_province: ""
 incident_city: Mashhad
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-02"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested during the seventh day memorial ceremony for Khosro Alikordi
@@ -31,3 +31,11 @@ description: Arrested during the seventh day memorial ceremony for Khosro Alikor
 source_type: Social Media
 source:
   - https://hengaw.net/fa/news/2025/12/article-95-1
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - dae961cc-5965-4760-86a8-1e217d85a465
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/1496

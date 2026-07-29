@@ -1,8 +1,8 @@
 external_card_id: "2735"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26125_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30053_0_twitter_v1.jpg"
-  - "vic-2026-2534a4eaba71.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26125_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30053_0_twitter_v1.jpg
+  - vic-2026-2534a4eaba71.jpg
 name: Mohammad Javad Khoubi
 persian_name: محمد جواد خوبی
 birth_date: ""
@@ -12,7 +12,7 @@ gender: Male
 age: 22
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Rasht
 incident_address: ""
 date_of_death: "2026-01-10"
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/HyrcaniHRM/status/2017896402911670330
   - https://x.com/kyokushinsoofi/status/2018370954481569855
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 194dbb83-e320-4b2a-9bbc-1dc05e879a30
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1712

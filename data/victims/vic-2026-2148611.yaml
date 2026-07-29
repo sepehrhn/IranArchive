@@ -14,7 +14,7 @@ country: Iran
 incident_province: Kermanshah
 incident_city: Kermanshah
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 21-year-old Kurdish Yarsan citizen from Kermanshah living in Tehran, arrested without judicial warrant by security forces on Thursday January 8, 2026 and transferred to unknown location. Family has received no official information about his whereabouts or condition, and forced confession videos were broadcast on government-affiliated Rubika channels claiming he was in contact with 'Kurdish groups'. Has had no contact with family during detention.
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/followupiran/status/2021527725773599127
   - https://x.com/isamanyasin/status/2023120362888708446
+  - https://t.me/akhbar_bazdashtiha/325
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 99eec795-d832-49d7-b68e-f05e73c73dfb
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

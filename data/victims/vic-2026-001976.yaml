@@ -1,16 +1,16 @@
 external_card_id: "1506"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22253_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38675_0_telegram_v1.jpg"
-  - "vic-2026-001976.jpg"
-  - "vic-2026-0624dd8005fb.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22253_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38675_0_telegram_v1.jpg
+  - vic-2026-001976.jpg
+  - vic-2026-0624dd8005fb.jpg
 name: Mehran Jahanbakhshi
 persian_name: مهران جهانبخشی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 21
 occupation: ""
 country: Iran
 incident_province: Isfahan
@@ -33,3 +33,11 @@ source:
   - https://x.com/i/status/2015603463334306006
   - https://x.com/hirman__/status/2015603463334306006
   - https://t.me/RememberTheirNames/1036
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 90d99c0b-bafe-4299-b13b-cd3f61b691a1
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:b7939dfbdf282f12

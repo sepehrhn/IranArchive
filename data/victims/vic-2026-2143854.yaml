@@ -1,8 +1,8 @@
 external_card_id: "1647"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22668_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41097_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50407_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22668_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41097_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50407_0_telegram_v1.jpg
 name: Amirhossein Nedafizadeh
 persian_name: اميرحسين ندافی
 birth_date: ""
@@ -17,7 +17,7 @@ incident_city: Isfahan
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,12 @@ source:
   - https://x.com/fseifikaran/status/2015950766616322457
   - https://javidnaman.iranintl.com/memorial/yEYwvbhpDrCFHYzchkASwu
   - https://t.me/JavidnamaneVatan/578
+  - https://www.instagram.com/p/DVSY0SgAV_o/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 120ea6e1-a6b9-4b08-bad1-6e422a2db47b
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

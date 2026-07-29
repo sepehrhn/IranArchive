@@ -7,15 +7,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 30
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kermanshah
 incident_city: Islamabad-e Gharb
-incident_address: ""
+incident_address: Eslamabad-e Gharb - Kermanshah
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Nurse at Imam Reza Hospital in Kermanshah, internal medicine ward. 
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/457
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 4778f55e-6acb-45bd-a614-f937443c1bec
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:d8381cc121bc59dc

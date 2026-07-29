@@ -1,25 +1,25 @@
 external_card_id: "5289"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41527_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42201_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55556_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55739_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55739_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55739_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55739_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55739_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55739_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55739_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55739_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55739_8_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55857_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55857_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55857_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55857_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55857_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55857_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55857_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55857_8_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41527_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42201_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55556_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55739_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55739_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55739_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55739_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55739_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55739_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55739_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55739_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55739_8_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55857_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55857_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55857_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55857_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55857_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55857_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55857_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55857_8_web_v1.jpg
 name: Javad Heydari
 persian_name: جواد حیدری
 birth_date: ""
@@ -31,10 +31,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Masjed Soleyman
-incident_address: ""
+incident_address: Isfahan
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -47,3 +47,11 @@ source:
   - https://x.com/visfehan/status/2026641673149640752
   - https://hengaw.net/en/news/2026/02/article-19
   - https://hengaw.net/fa/news/2026/02/article-19
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f026aad2-4e49-47ef-9681-bed954200ef0
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

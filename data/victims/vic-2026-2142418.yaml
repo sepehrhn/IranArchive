@@ -1,33 +1,33 @@
 external_card_id: "291"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20036_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20036_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20109_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20436_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21178_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22107_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22445_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22897_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26471_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37549_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39484_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_7_web_v1.jpg"
-  - "vic-2026-cc68313eda95.jpg"
-  - "vic-2026-a58fcb4117e6.jpg"
-  - "vic-2026-c5b446ba0276.jpg"
-  - "vic-2026-536944257239.jpg"
-  - "vic-2026-928f7c56b145.jpg"
-  - "vic-2026-640e0d9fd2b0.jpg"
-  - "vic-2026-d75c1e84c964.jpg"
-  - "vic-2026-867f006a2041.jpg"
-  - "vic-2026-25f65492dad8.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20036_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20036_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20109_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20436_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21178_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22107_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22445_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22897_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26471_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37549_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39484_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_7_web_v1.jpg
+  - vic-2026-cc68313eda95.jpg
+  - vic-2026-a58fcb4117e6.jpg
+  - vic-2026-c5b446ba0276.jpg
+  - vic-2026-536944257239.jpg
+  - vic-2026-928f7c56b145.jpg
+  - vic-2026-640e0d9fd2b0.jpg
+  - vic-2026-d75c1e84c964.jpg
+  - vic-2026-867f006a2041.jpg
+  - vic-2026-25f65492dad8.jpg
 name: Afshin Miyarkiani
 persian_name: افشین میارکیانی
 birth_date: ""
@@ -37,12 +37,12 @@ gender: Male
 age: 53
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Chalus
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -60,3 +60,11 @@ source:
   - https://x.com/hyrcanihrm/status/2012628020096291177
   - https://t.me/RememberTheirNames/198
   - https://hengaw.net/fa/news/2026/01/article-145-1
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 69ab7c02-9b8f-4cbd-920e-b85c580b4b14
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

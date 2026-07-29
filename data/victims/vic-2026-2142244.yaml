@@ -1,15 +1,15 @@
 external_card_id: "1001"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21223_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23124_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25455_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29159_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30131_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34789_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39328_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40961_0_twitter_v1.jpg"
-  - "vic-2026-9a81ef815c33.jpg"
-  - "vic-2026-1860eb01db08.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21223_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23124_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25455_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29159_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30131_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34789_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39328_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40961_0_twitter_v1.jpg
+  - vic-2026-9a81ef815c33.jpg
+  - vic-2026-1860eb01db08.jpg
 name: Mahsa Dezfouliyan Kermanshahi
 persian_name: مهسا دزفولیان کرمانشاهی
 birth_date: ""
@@ -21,10 +21,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: فردیس
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -39,3 +39,11 @@ source:
   - https://javidnaman.iranintl.com/memorial/tCKl8UDDdoQQUGMvcOtO3g
   - https://t.me/RememberTheirNames/359
   - https://x.com/jashnimitra/status/2020493918627148260
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 095ddbfe-2c33-4854-af0b-0ca0a4fb0b47
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

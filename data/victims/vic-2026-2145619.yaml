@@ -10,12 +10,12 @@ gender: Male
 age: 35
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Fardis
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -24,3 +24,12 @@ source_type: Social Media
 source:
   - https://x.com/hyrcanihrm/status/2020152193710445032
   - https://x.com/iranintl/status/2017666098062152177
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f7dfbca2-bbc8-436d-8879-7c931d5bb1a5
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:25d0ee14fd5e954b

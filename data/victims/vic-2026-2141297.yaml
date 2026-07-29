@@ -1,8 +1,8 @@
 external_card_id: "3012"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26842_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50617_0_telegram_v1.jpg"
-  - "vic-2026-7edda76a5fd8.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26842_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50617_0_telegram_v1.jpg
+  - vic-2026-7edda76a5fd8.jpg
 name: Ebrahim Khani
 persian_name: ابراهیم خانی
 birth_date: ""
@@ -12,7 +12,7 @@ gender: Male
 age: 44
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Fars
 incident_city: Shiraz
 incident_address: ""
 date_of_death: "2026-01-11"
@@ -27,3 +27,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/MM61u0X6XFjkXemkHd5LJR
   - https://x.com/HeKasrehCrisis/status/2017837754432843939
   - https://t.me/JavidnamaneVatan/742
+  - https://www.instagram.com/p/DVJ0EKmkgIp/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 91f212dd-ceff-4ee7-bd46-fe66d90213b5
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3941

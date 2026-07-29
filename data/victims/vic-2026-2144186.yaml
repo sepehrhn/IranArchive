@@ -1,8 +1,8 @@
 external_card_id: "1996"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23367_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26882_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_57415_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23367_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26882_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_57415_0_telegram_v1.jpg
 name: Fatemeh (Luna) Kermani-nejad
 persian_name: فاطمه (لونا) کرمانی‌نژاد
 birth_date: ""
@@ -12,7 +12,7 @@ gender: Female
 age: 23
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -27,3 +27,12 @@ source:
   - https://t.me/RememberTheirNames/1615
   - https://javidnaman.iranintl.com/memorial/dAFvTE7JQz41wFziqkUtyx
   - https://t.me/JavidnamaneVatan/2383
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 9c1232ce-ea18-431f-b182-cf6c20948eba
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1292

@@ -1,14 +1,14 @@
 external_card_id: "9379"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55901_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55901_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55901_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55901_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55901_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55901_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55901_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55901_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55901_8_web_v1.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55901_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55901_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55901_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55901_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55901_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55901_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55901_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55901_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55901_8_web_v1.png
 name: Morteza Shaneh
 persian_name: مرتضی شانه
 birth_date: ""
@@ -18,12 +18,12 @@ gender: Male
 age: 32
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Sabzevar
-incident_address: ""
+incident_address: Mashhad? Sabzevar?
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,12 @@ description: Shot by government suppression forces during protests in Masoudiyeh
 source_type: Social Media
 source:
   - https://hengaw.net/fa/news/2026/01/article-144-1
+  - https://www.instagram.com/p/DUHaDAuDSA0/?hl=en
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 1eeb9934-717e-4d1c-964e-cbffb84fd762
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

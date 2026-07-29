@@ -1,9 +1,9 @@
 external_card_id: "4024"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31076_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52782_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52782_1_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52782_2_twitter_v1.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31076_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52782_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52782_1_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52782_2_twitter_v1.png
 name: Taha Hoshyar Baghbanani
 persian_name: طاها هوشیار
 birth_date: ""
@@ -13,12 +13,12 @@ gender: Male
 age: 12
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Rasht
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -28,3 +28,15 @@ source:
   - https://t.me/RememberTheirNames/2120
   - https://x.com/hekasrehcrisis/status/2018560048210067935
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_CHILD_161
+  - https://x.com/RadioFarda_/status/2020916466518733274?lang=en
+  - https://irantrial.org/fa/heroes
+  - https://www.instagram.com/p/DUyHeC3DXwP/
+irantrial_ids:
+  - 10ddca0b-d64a-4a6d-9716-63e8e5bcf1f9
+  - f55f6bc0-6146-4cd8-9f9e-ea5259ae1beb
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/children/161
+  - Hodafit-javidnaman-2026-final.xlsx

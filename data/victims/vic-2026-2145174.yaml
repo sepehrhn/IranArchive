@@ -1,12 +1,12 @@
 external_card_id: "1264"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21718_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22162_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28940_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38722_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42515_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47687_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52528_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21718_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22162_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28940_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38722_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42515_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47687_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52528_0_telegram_v1.jpg
 name: Mojtaba Rezavani Rostami
 persian_name: مجتبی رضوانی رستمی
 birth_date: ""
@@ -18,10 +18,10 @@ occupation: ""
 country: Iran
 incident_province: Mazandaran
 incident_city: Rostam Kola
-incident_address: ""
+incident_address: Rostamkola, Mazandaran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -36,3 +36,12 @@ source:
   - https://x.com/m0rtezaaaa/status/2022042757460897891
   - https://www.instagram.com/p/DUsMsGfjOJB
   - https://t.me/JavidnamaneVatan/1827
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6fe35a77-866e-4c1f-990d-4e4aa2929c79
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -18,9 +18,18 @@ date_of_death_precision: Exact
 cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
-status: Missing
+status: Killed
 detention_status: unknown
-description: ""
+description: IranTrial lists Roghayeh (Nastaran) Soltani Sharifzadeh among those killed on 2026-01-09 in Shahriar.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3105
+  - https://javidnaman.iranintl.com/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ff5a1bdf-1872-4c71-9703-9c8f53b766e7
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:4569c1bba5b44d46

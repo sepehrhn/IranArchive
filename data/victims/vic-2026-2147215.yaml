@@ -1,7 +1,7 @@
 external_card_id: "8447"
 photo: []
 name: Kasra Qaderbeigi
-persian_name: ""
+persian_name: کسری قادربیگی
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -11,8 +11,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Asmanabad
-incident_address: ""
-date_of_death: ""
+incident_address: Asmanabad
+date_of_death: "2026-02-03"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Child detained during protests. Listed in HRANA's 'Detained Children' section of The Crimson Winter report (born before December 2007). Date of arrest: February 3, 2026 (14/11/1404). Current status: Detained. Original source: Kurdpa."
@@ -23,3 +23,11 @@ description: "Child detained during protests. Listed in HRANA's 'Detained Childr
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_CHILD_103
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 921a0f20-4404-4027-a629-8690d485cc2e
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/children/103

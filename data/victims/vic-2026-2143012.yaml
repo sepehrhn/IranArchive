@@ -14,13 +14,22 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: IranTrial lists Hadi Zarei among those killed on 2026-01-09 in Tehran.
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaTExp19
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - cfd6fa4d-10d3-4c40-aedc-0dbb03b0268f
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:0c1f2bc821a17ebe

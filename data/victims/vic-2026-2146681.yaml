@@ -9,9 +9,9 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Ilam
 incident_city: گنجه, ایلام
-incident_address: ""
+incident_address: Kurdish citizen in Ilam
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -23,3 +23,11 @@ description: "Charges: نامشخص"
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-71
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 4de83fec-31ce-4108-aa36-7529e49038b7
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

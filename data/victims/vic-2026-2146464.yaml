@@ -11,7 +11,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: شازند, مرکزی
-incident_address: ""
+incident_address: Shazand
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -29,3 +29,11 @@ description: |-
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-823
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c24c5892-e702-4b64-9bff-5a483ed46796
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/1764

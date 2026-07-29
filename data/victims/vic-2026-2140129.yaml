@@ -1,12 +1,12 @@
 external_card_id: "1799"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22970_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23194_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24135_0_twitter_v1.jpg"
-  - "vic-2026-2140129.jpg"
-  - "vic-2026-a7710bd690e3.jpg"
-  - "vic-2026-bb709af8914d.jpg"
-  - "vic-2026-03274366c744.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22970_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23194_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24135_0_twitter_v1.jpg
+  - vic-2026-2140129.jpg
+  - vic-2026-a7710bd690e3.jpg
+  - vic-2026-bb709af8914d.jpg
+  - vic-2026-03274366c744.jpg
 name: Leila Gardani
 persian_name: لیلا گردانی
 birth_date: ""
@@ -16,12 +16,12 @@ gender: Female
 age: 42
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Fars
 incident_city: Marvdasht
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -34,3 +34,11 @@ source:
   - https://x.com/dgharibeh/status/2016120149250555979
   - https://x.com/outofken/status/2016657577594208576
   - https://x.com/NickSotoudeh/status/2015469145610170619
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8fdb1614-5776-4bd8-9439-5e421c293855
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

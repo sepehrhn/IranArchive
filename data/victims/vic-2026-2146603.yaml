@@ -1,7 +1,7 @@
 external_card_id: "8794"
 photo: []
 name: Babak Moradzadeh
-persian_name: ""
+persian_name: بابک مرادزاده
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -12,7 +12,7 @@ country: Iran
 incident_province: ""
 incident_city: Hamedan Province
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Detained during protests. Listed in HRANA's 'Identified Detainees' section of The Crimson Winter report. Date of arrest: January 9, 2026 (1404/10/20). Current status: Unknown. Original source: HRANA."
@@ -23,3 +23,11 @@ description: "Detained during protests. Listed in HRANA's 'Identified Detainees'
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1632
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f57a5269-c44a-4dae-969e-13bbf7a0e8df
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/1632

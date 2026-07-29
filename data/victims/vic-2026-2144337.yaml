@@ -9,8 +9,8 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: ""
+incident_province: Mazandaran
+incident_city: Chalus
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
@@ -22,3 +22,11 @@ description: "Killed during killed protester citizens protests. HRANA verificati
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_2265
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 570d52eb-7f01-4999-80ae-c0f9023e118c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-24T18:11:57.242094+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/2265

@@ -11,15 +11,23 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: تربت جام, خراسان رضوی
-incident_address: ""
+incident_address: Torbat-e Jam
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
-disappearance_circumstances: ""
+disappearance_circumstances: "Place of arrest: Torbat-e Jam"
 suspected_actor: ""
 status: Missing
 detention_status: arrested
-description: ""
+description: IranTrial lists Sohrab Enayati as detained.
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1115
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5af8c11c-04d7-4aa6-853d-7ca7611cb9de
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/695

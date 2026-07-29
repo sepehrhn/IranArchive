@@ -7,10 +7,10 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 20
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Ekbatan
 incident_address: ""
 date_of_death: ""
@@ -26,3 +26,12 @@ source:
   - https://t.me/iliaen/284
   - https://t.me/iliaen/285
   - https://t.me/iliaen/798
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b60b1946-f3f1-4388-b210-4db2d405206c
+irantrial_categories:
+  - at-risk
+risk_of_execution: true
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Iran_Executions_DeathRow_Final_Comprehensive-2.xlsx

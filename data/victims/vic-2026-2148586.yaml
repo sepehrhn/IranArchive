@@ -12,7 +12,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: خانه‌ی خود در تهران
 date_of_death: "2026-01-14"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -24,3 +24,14 @@ description: Arrested violently at his home at 7:30 AM by security forces. Two o
 source_type: Social Media
 source:
   - https://x.com/followupiran/status/2020538036790984745
+  - https://t.me/akhbar_bazdashtiha/312
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 7407e623-7da7-4d2a-99ea-b91fb11f0a37
+  - 2ce90b79-f9d8-485b-9a56-dd2e08ea7f47
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha
+  - HRANA-CW-2026/detainees/identified/2688

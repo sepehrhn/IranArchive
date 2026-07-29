@@ -1,11 +1,11 @@
 external_card_id: "1121"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21447_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38717_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42249_0_web_v1.jpg"
-  - "vic-2026-000337.jpg"
-  - "vic-2026-6d8c3b559e44.jpg"
-  - "vic-2026-001964.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21447_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38717_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42249_0_web_v1.jpg
+  - vic-2026-000337.jpg
+  - vic-2026-6d8c3b559e44.jpg
+  - vic-2026-001964.jpg
 name: Mehdi Arshadi
 persian_name: مهدی ارشدی
 birth_date: ""
@@ -15,7 +15,7 @@ gender: Male
 age: 28
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Sidi, Mashhad
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -38,3 +38,12 @@ source:
   - https://t.me/RememberTheirNames/993
   - https://javidnaman.iranintl.com/memorial/GJcxY52Stm1VDduxnUf9Lg
   - https://t.me/RememberTheirNames/983
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 0d01866e-8a6f-4f3a-a0e9-b6169480a7cd
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

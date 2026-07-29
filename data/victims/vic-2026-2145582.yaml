@@ -1,7 +1,7 @@
 external_card_id: "4302"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34761_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50123_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34761_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50123_0_telegram_v1.jpg
 name: Sajjad Asghari
 persian_name: سجاد اصغری
 birth_date: ""
@@ -11,12 +11,12 @@ gender: Male
 age: 33
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-incident_address: ""
+incident_address: Karaj | Fardis, Karaj | Saadi Street, Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/CoXljdUpHLN0XegRK0OujS
   - https://t.me/RememberTheirNames/3058
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 1f1b59fb-678f-44e4-8ac9-b9308d1433d7
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

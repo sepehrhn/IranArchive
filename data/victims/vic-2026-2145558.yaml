@@ -1,14 +1,14 @@
 external_card_id: "9651"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_57313_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_57461_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_57313_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_57461_0_telegram_v1.jpg
 name: Saeed Siavoshi
 persian_name: سعید سیاوشی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 40
 occupation: ""
 country: Iran
 incident_province: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/2366
   - https://t.me/RememberTheirNames/3238
+  - https://www.instagram.com/p/DVh0cTODeQS/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c04c920f-03ad-470c-b2e6-4d7f7feebd62
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:5656da7dff10cfe4

@@ -1,11 +1,11 @@
 external_card_id: "7116"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48619_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50446_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52861_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52861_1_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52861_2_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52861_3_twitter_v1.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48619_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50446_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52861_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52861_1_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52861_2_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52861_3_twitter_v1.png
 name: Sepideh Parizi
 persian_name: سپیده پاریزی
 birth_date: ""
@@ -15,12 +15,12 @@ gender: Female
 age: 36
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kerman
 incident_city: Sirjan
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -30,3 +30,12 @@ source:
   - https://www.instagram.com/p/DU2jYOLjLbs
   - https://t.me/JavidnamaneVatan/617
   - https://x.com/hekasrehcrisis/status/2018371925140000791
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 3159aff1-4acb-4fed-84d8-85ed7e7a239b
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

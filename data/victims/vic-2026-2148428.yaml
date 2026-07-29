@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Ilam
 incident_city: Chavar
-incident_address: ""
-date_of_death: ""
+incident_address: Chavar
+date_of_death: "2026-02-02"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Kurdish citizen from Chavar city in Ilam province, arrested by government forces on Tuesday 14 Bahman 1404 (February 3, 2025), no information available about his fate since then
@@ -24,3 +24,11 @@ description: Kurdish citizen from Chavar city in Ilam province, arrested by gove
 source_type: Social Media
 source:
   - https://x.com/hengawo/status/2020518347117343053
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 07fbae47-efbb-4cd1-999b-fdda60d0dcc0
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/1039

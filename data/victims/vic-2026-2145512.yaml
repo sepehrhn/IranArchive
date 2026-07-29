@@ -1,16 +1,16 @@
 external_card_id: "2861"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19937_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19937_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20034_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21918_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21918_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21918_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21918_3_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23082_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26512_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37659_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39613_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19937_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19937_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20034_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21918_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21918_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21918_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21918_3_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23082_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26512_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37659_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39613_0_telegram_v1.jpg
 name: Rouhollah Setareh Moshtari
 persian_name: روح‌الله ستاره مشتری
 birth_date: ""
@@ -20,12 +20,12 @@ gender: Male
 age: 26
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Khorasan Razavi
-incident_address: ""
+incident_address: روستای قزلکند، شهر چناران، استان خراسان
 date_of_death: "2026-01-07"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -39,3 +39,16 @@ source:
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWggHg
   - https://x.com/manotonews/status/2013989966729142579
   - https://t.me/RememberTheirNames/64
+  - https://www.facebook.com/manototv/posts/%D8%B1%D9%88%D8%AD%D8%A7%D9%84%D9%84%D9%87-%D8%B3%D8%AA%D8%A7%D8%B1%D9%87-%D9%85%D8%B4%D8%AA%D8%B1%DB%8C%DB%B2%DB%B6-%D8%B3%D8%A7%D9%84%D9%87-%D8%B3%D8%A7%DA%A9%D9%86-%DA%86%D9%86%D8%A7%D8%B1%D8%A7%D9%86-%DB%B1%DB%B7-%D8%AF%DB%8C-%DB%B1%DB%B4%DB%B0%DB%B4-%D8%AF%D8%B1-%D8%AC%D8%B1%DB%8C%D8%A7%D9%86-%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6%D8%A7%D8%AA-%D9%85%D8%B1%D8%AF%D9%85%DB%8C-%D8%A8%D8%A7-%D8%B4%D9%84%DB%8C/1432694771560863/
+  - https://irantrial.org/fa/heroes
+  - https://x.com/missmarpel75/status/2008861308482166938
+irantrial_ids:
+  - 7e0568da-bfc8-44f3-9cc7-7ef700761f80
+  - 36529221-69d7-4a57-a621-1a45be747db7
+  - db34bc81-1c47-4092-a7a5-c94345dc6b00
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - wikipedia-javidnaman:34

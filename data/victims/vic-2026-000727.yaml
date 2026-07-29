@@ -1,15 +1,15 @@
 external_card_id: "1099"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21415_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21525_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21525_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38694_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48348_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50858_0_telegram_v1.jpg"
-  - "vic-2026-000727.jpg"
-  - "vic-2026-2643b8bf363f.jpg"
-  - "vic-2026-c24fd88d69da.jpg"
-  - "vic-2026-3f10d37a5ffb.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21415_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21525_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21525_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38694_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48348_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50858_0_telegram_v1.jpg
+  - vic-2026-000727.jpg
+  - vic-2026-2643b8bf363f.jpg
+  - vic-2026-c24fd88d69da.jpg
+  - vic-2026-3f10d37a5ffb.jpg
 name: Mohammad Pirousar
 persian_name: محمد پیروسار
 birth_date: ""
@@ -19,9 +19,9 @@ gender: Male
 age: 37
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: East Azerbaijan
 incident_city: Tabriz
-incident_address: ""
+incident_address: Tabriz | Shahnaz, Tabriz
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -44,3 +44,15 @@ source:
   - https://t.me/RememberTheirNames/1016
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjeIqlL
   - https://t.me/JavidnamaneVatan/958
+  - https://narrata.info/sv/narratives/85802488-76e1-481b-b1cd-e1c45da90cd4/
+  - https://irantrial.org/fa/heroes
+  - https://www.hra-news.org/
+irantrial_ids:
+  - 256b11b2-d3fe-4cf5-8c27-f2baf7beb060
+  - 14d7de36-506c-4e18-945a-fb781895349d
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - HRANA-CW-2026/protesters/840

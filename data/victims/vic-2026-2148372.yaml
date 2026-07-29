@@ -14,8 +14,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Shiraz
-incident_address: ""
-date_of_death: ""
+incident_address: منزل
+date_of_death: "2023-02-14"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Sister of Alireza, arrested while following up on her detained brother's condition and transferred to Adelabad Prison in Shiraz
@@ -26,3 +26,12 @@ description: Sister of Alireza, arrested while following up on her detained brot
 source_type: Social Media
 source:
   - https://x.com/iranianpapppi3/status/2025322552953118823
+  - https://t.me/akhbar_bazdashtiha/249
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f9324783-0980-4163-be3f-7ca6c6d23cf7
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

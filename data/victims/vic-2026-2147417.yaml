@@ -12,7 +12,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Pakdasht
-incident_address: ""
+incident_address: Pakdasht
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -24,3 +24,11 @@ description: Tried in court in Pakdasht, facing death sentence charges. Reported
 source_type: Social Media
 source:
   - https://www.instagram.com/p/DU47jQSEigF
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 492dbd5c-8bf5-4934-a9c0-5ce81c652432
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/2541

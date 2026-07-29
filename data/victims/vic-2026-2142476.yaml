@@ -1,11 +1,11 @@
 external_card_id: "4026"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25805_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29800_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31081_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41058_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50890_0_telegram_v1.jpg"
-  - "vic-2026-1e9fa5c11fc9.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25805_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29800_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31081_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41058_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50890_0_telegram_v1.jpg
+  - vic-2026-1e9fa5c11fc9.jpg
 name: Amir Hossein Rafiei
 persian_name: امیرحسین رفیعی
 birth_date: ""
@@ -17,7 +17,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Varamin
-incident_address: ""
+incident_address: Varamin - Tehran
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -32,3 +32,12 @@ source:
   - https://t.me/RememberTheirNames/2125
   - https://javidnaman.iranintl.com/memorial/tCKl8UDDdoQQUGMvch5OIw
   - https://t.me/JavidnamaneVatan/990
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - e5a0d8ea-69a9-40d9-95fc-5ad9b0662cba
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:2ae23b09becfb107

@@ -7,15 +7,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 37
 occupation: ""
 country: Iran
 incident_province: Kermanshah
 incident_city: Kermanshah
-incident_address: ""
+incident_address: Golrizan Boulevard, Kermanshah
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Died on 18 Dey 1404 in Kermanshah
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1380
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6314a0c2-8c5f-4612-8545-b4b16c964315
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

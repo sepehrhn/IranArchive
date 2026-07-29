@@ -1,7 +1,7 @@
 external_card_id: "997"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41531_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48043_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41531_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48043_0_instagram_v1.jpg
 name: Mehrab Tahaghooghi Sarshouri
 persian_name: محراب تحققی
 birth_date: ""
@@ -11,12 +11,12 @@ gender: Male
 age: 24
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,14 @@ source:
   - https://x.com/hamiparvane/status/2016280101512474649
   - https://t.me/RememberTheirNames/2665
   - https://www.instagram.com/p/DUv_SivjENO
+  - https://www.instagram.com/p/DUn2hZSitAx/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8412d66d-8de9-4441-aaf2-3a2818f3e2da
+  - 703ef224-dc07-4adb-8cd4-a3fe3ede3376
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - https://t.me/RememberTheirNames

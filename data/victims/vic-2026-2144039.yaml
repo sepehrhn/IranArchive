@@ -10,12 +10,12 @@ gender: Male
 age: 29
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj, Fardis
-incident_address: ""
+incident_address: Fardis, Karaj
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Direct fire by Islamic Republic agents
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Shot directly by Islamic Republic agents. He was born in Hamadan an
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/1906
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 0c7cf334-cb8a-49e1-b13f-18f9009f11cd
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

@@ -1,7 +1,7 @@
 external_card_id: "3604"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29872_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40281_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29872_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40281_0_telegram_v1.jpg
 name: Jafar Lordakani
 persian_name: جعفر لوردکانی
 birth_date: ""
@@ -26,3 +26,11 @@ source:
   - https://x.com/i/status/2018008371681796231
   - https://x.com/Katierebel2nd/status/2017996277871509525
   - https://t.me/RememberTheirNames/2435
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6fcf1be5-e121-4e83-9b6a-9a7b830b65e5
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - https://t.me/RememberTheirNames

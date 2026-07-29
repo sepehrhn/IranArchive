@@ -1,23 +1,23 @@
 external_card_id: "7754"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42304_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52109_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55478_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42304_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52109_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55478_0_twitter_v1.jpg
 name: Benyamin Golriz Mozhdehi
 persian_name: بنیامین گلریز
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 34
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kermanshah
 incident_city: Rasht
-incident_address: ""
+incident_address: Bisotun, Rasht
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -28,3 +28,12 @@ source:
   - https://t.me/RememberTheirNames/2787
   - https://t.me/JavidnamaneVatan/1596
   - https://x.com/missmarpel75/status/2026043734819799292
+  - https://www.instagram.com/p/DXyxQzMDIFI/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b3a78628-f621-4896-b6e4-6c00ddf17228
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

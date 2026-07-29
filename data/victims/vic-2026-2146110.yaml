@@ -1,7 +1,7 @@
 external_card_id: "8886"
 photo: []
 name: Ali Albouhlaf
-persian_name: ""
+persian_name: علی آل‌بوحلف
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -11,8 +11,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: Tehran
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Detained during protests. Listed in HRANA's 'Detained Students' section of The Crimson Winter report. Date of arrest: January 8, 2026 (18 Dey 1404). Current status: Detained. Original source: United Students."
@@ -23,3 +23,11 @@ description: "Detained during protests. Listed in HRANA's 'Detained Students' se
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_STUDENT_77
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ef61caa2-f6f1-47bc-ad29-2b06f19f0c17
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/students/77

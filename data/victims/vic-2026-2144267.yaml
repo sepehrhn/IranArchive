@@ -1,7 +1,7 @@
 external_card_id: "5290"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41529_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50009_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41529_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50009_0_telegram_v1.jpg
 name: Hamid Hatami Majdpishi
 persian_name: حمید حاتمی مجدپیشی
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Shahriar
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2663
   - https://t.me/JavidnamaneVatan/349
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b6151d3a-3da1-4f62-b365-b8a6761cf185
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/2344

@@ -1,8 +1,8 @@
 external_card_id: "3008"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26834_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47652_0_instagram_v1.jpg"
-  - "vic-2026-26098d271506.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26834_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47652_0_instagram_v1.jpg
+  - vic-2026-26098d271506.png
 name: Mohammad Goneh Farahani
 persian_name: محمد گونه فراهانی
 birth_date: ""
@@ -12,12 +12,12 @@ gender: Male
 age: 35
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-incident_address: ""
+incident_address: Fardis Karaj, 5th Square | Fardis, Karaj
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/CoXljdUpHLN0XegRK2DLvR
   - https://www.instagram.com/p/DUr0wQxDECx
+  - https://www.instagram.com/reel/DU0nPGnkriW/?hl=en
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - efef5443-e35e-41ab-bc3f-10db91562fb0
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

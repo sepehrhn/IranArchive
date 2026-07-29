@@ -1,25 +1,25 @@
 external_card_id: "3827"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37742_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37859_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37888_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55748_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55748_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55748_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55748_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55748_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55748_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55748_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55748_7_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55748_8_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55868_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55868_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55868_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55868_4_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55868_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55868_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55868_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55868_8_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37742_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37859_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37888_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55748_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55748_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55748_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55748_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55748_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55748_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55748_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55748_7_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55748_8_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55868_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55868_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55868_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55868_4_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55868_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55868_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55868_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55868_8_web_v1.jpg
 name: Hossein Rahimi
 persian_name: حسین رحیمی
 birth_date: ""
@@ -31,10 +31,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
+incident_address: Khaneh Isfahan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -47,3 +47,12 @@ source:
   - https://x.com/hengawo/status/2014772586857598984
   - https://hengaw.net/en/news/2026/01/article-192
   - https://hengaw.net/fa/news/2026/01/article-195-2
+  - https://javidnaman.iranintl.com/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 7d692a18-564d-4e78-b8c3-3e5c25281f25
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

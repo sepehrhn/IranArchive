@@ -1,7 +1,7 @@
 external_card_id: "8885"
 photo: []
 name: Arshia Mehr Azma
-persian_name: ""
+persian_name: عرشیا مهرآزما
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -11,7 +11,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Tehran
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -23,3 +23,11 @@ description: "Detained during protests. Listed in HRANA's 'Detained Students' se
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_STUDENT_49
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - e323c99d-b26f-4c0f-90aa-59b27ab4bc5c
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/students/49

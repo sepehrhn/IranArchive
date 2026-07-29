@@ -1,13 +1,13 @@
 external_card_id: "219"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20456_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25958_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26357_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50639_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53571_0_instagram_v1.jpg"
-  - "vic-2026-739c09bed8f6.jpg"
-  - "vic-2026-63a895d54467.jpg"
-  - "vic-2026-97224b6b1ba3.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20456_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25958_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26357_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50639_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53571_0_instagram_v1.jpg
+  - vic-2026-739c09bed8f6.jpg
+  - vic-2026-63a895d54467.jpg
+  - vic-2026-97224b6b1ba3.jpg
 name: Meysam Razmi
 persian_name: میثم رزمی
 birth_date: ""
@@ -22,7 +22,7 @@ incident_city: Bushehr
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -35,3 +35,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMiVdw
   - https://t.me/JavidnamaneVatan/764
   - https://www.instagram.com/p/DU8IYa0jIQd
+  - https://www.instagram.com/p/DWDHCfMgSqj/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 1f5c6045-1b6c-415a-92d9-f76979de81d4
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -6,13 +6,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 37
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Qaleh Hassan Khan
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -22,3 +22,13 @@ description: Victim of Iran Massacre, from Qaleh Hassan Khan area of Tehran
 source_type: Social Media
 source:
   - https://x.com/gilasgoz/status/2021956899089133596
+  - https://t.me/RememberTheirNames/2773
+  - https://www.instagram.com/p/DVcg9ZoE7j7/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - a9dfc1aa-b2b9-4da1-9528-2a4ddbc809cd
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - https://t.me/RememberTheirNames

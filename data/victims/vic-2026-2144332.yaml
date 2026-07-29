@@ -10,12 +10,12 @@ gender: Male
 age: 45
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Shahre Rey
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,12 @@ description: Shot in the chest at Behesht Nazi Abad Square, Shahre Rey. The witn
 source_type: Social Media
 source:
   - https://x.com/hekasrehcrisis/status/2015906437067899321
+  - https://www.instagram.com/p/DVcg-1UEyFR/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5890c187-fbee-495c-a5bf-83dbc07a824e
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

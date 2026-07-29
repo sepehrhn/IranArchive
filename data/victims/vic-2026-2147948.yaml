@@ -14,7 +14,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-05"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: English teacher arrested on 17 Dey in Tehransar neighborhood. After arrest, spent one week in complete silence with no family contact. After 7 days made one short call to his sister to inform he was alive. Currently in poor physical condition, subjected to torture and hit by sulfur bullets. Both parents are deceased, only sister is following his case.
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/bisangar_ir/status/2023834450920866188
   - https://x.com/khatibiofficial/status/2024190149547225462
+  - https://t.me/akhbar_bazdashtiha/122
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 3e12234c-1d4a-40d9-8373-614c9f4e8e5e
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

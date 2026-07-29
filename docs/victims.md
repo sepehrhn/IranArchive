@@ -54,6 +54,31 @@ Local filenames are resolved from `data/victims/img/`. External URLs should be p
 
 If a victim is linked to an incident, add the victim ID to the incident YAML under `victims`, or add `incident_ids` to the victim record if the incident already exists.
 
+## IranTrial Synchronization
+
+Use `scripts/sync-irantrial-victims.mjs` to compare the registry with IranTrial's
+verified public Eternal Wall records. The script runs as a dry run unless
+`--write` is supplied.
+
+```bash
+IRANTRIAL_SUPABASE_URL="https://..." \
+IRANTRIAL_SUPABASE_ANON_KEY="..." \
+node scripts/sync-irantrial-victims.mjs
+```
+
+The sync:
+
+- imports verified fallen records as `Killed`;
+- imports verified detainee and at-risk records as `Missing`;
+- treats executed detainee records as `Killed`;
+- records stable provenance in `irantrial_ids`, `irantrial_categories`, and
+  `irantrial_source_references`;
+- normalizes provinces to `data/provinces.json`;
+- merges only strong identity matches and rejects duplicate IranTrial IDs.
+
+Wounded records are not imported because the current victim registry supports
+only `Killed` and `Missing`. They must not be relabeled to fit those categories.
+
 ## Validation
 
 Before committing:

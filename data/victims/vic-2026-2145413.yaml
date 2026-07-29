@@ -1,7 +1,7 @@
 external_card_id: "9492"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56180_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56268_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56180_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56268_0_telegram_v1.jpg
 name: Ramin Rostami
 persian_name: رامین رستمی
 birth_date: ""
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://x.com/gilasgoz/status/2027159289060565400
   - https://t.me/RememberTheirNames/3194
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 784f0da3-e4a3-4562-b48a-cb56e4ab4ce5
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:2362240716aad371

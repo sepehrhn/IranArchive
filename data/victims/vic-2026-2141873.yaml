@@ -18,7 +18,7 @@ country: Iran
 incident_province: ""
 incident_city: Rasht
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-15"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 19-year-old football player arrested at home after plainclothes officers discovered pellet gun wounds on his body during a search - wounds he had sustained earlier during protests. Reportedly faces death sentence that has been verbally communicated to his family, though no official sentence has been issued yet
@@ -35,3 +35,13 @@ source:
   - https://x.com/Tavaana/status/2013520971110498448
   - https://x.com/i/status/2016990711514562721
   - https://x.com/soldierofcyruss/status/2019298357743935901
+  - https://t.me/akhbar_bazdashtiha/287
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d6f34ed4-b08f-4b39-8e60-d4088d829775
+irantrial_categories:
+  - at-risk
+risk_of_execution: true
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

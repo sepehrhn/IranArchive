@@ -10,15 +10,23 @@ age: 24
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: In
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: IranTrial lists Taha Yousefinejad among those killed on 2026-01-09 in In.
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaT7XlH7
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 15048176-9969-415c-9688-336870b79587
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:1a18510803844c45

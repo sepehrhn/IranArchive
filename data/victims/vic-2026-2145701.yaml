@@ -1,7 +1,7 @@
 external_card_id: "4290"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34732_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37887_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34732_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37887_0_twitter_v1.jpg
 name: Seyyed Mehdi Hosseini
 persian_name: سید مهدی حسینی
 birth_date: ""
@@ -13,10 +13,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: Piroozi, Tehran
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/CoXljdUpHLN0XegRJy1njZ
   - https://x.com/hengawo/status/2014781999668437226
+  - https://www.instagram.com/p/DUuqLpijZYZ/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - a2c5e761-7059-40ca-925a-d2303ec7b461
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

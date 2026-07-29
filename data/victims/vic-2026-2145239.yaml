@@ -1,8 +1,8 @@
 external_card_id: "3979"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30962_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50106_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50106_1_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30962_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50106_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50106_1_twitter_v1.jpg
 name: Mostafa Salehi
 persian_name: مصطفی صالحی
 birth_date: ""
@@ -17,7 +17,7 @@ incident_city: Yazdanshahr
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1986
   - https://x.com/moeinnajafii/status/2024873562939548106
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 1b7abd7f-3c29-45e4-82d8-71d55d9b6b38
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

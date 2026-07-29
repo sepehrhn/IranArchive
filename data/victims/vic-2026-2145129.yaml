@@ -1,9 +1,9 @@
 external_card_id: "5194"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41287_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49480_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49480_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49480_2_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41287_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49480_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49480_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49480_2_twitter_v1.jpg
 name: Mohammadreza Zarei Bakhshayesh
 persian_name: محمدرضا زارعی
 birth_date: ""
@@ -13,7 +13,7 @@ gender: Male
 age: 40
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Shahriar
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -28,3 +28,14 @@ source:
   - https://t.me/RememberTheirNames/2569
   - https://x.com/iranianpapppi3/status/2024212984604561826
   - https://x.com/gilasgoz/status/2021984562214318531
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 50adf6a9-6af4-4934-b183-f9e151f31b62
+  - 421c2358-5d68-488f-8fbf-1c51868d716b
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3410
+  - https://t.me/RememberTheirNames

@@ -1,11 +1,11 @@
 external_card_id: "3896"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20040_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20040_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22729_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30745_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50754_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56227_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20040_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20040_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22729_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30745_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50754_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56227_0_twitter_v1.jpg
 name: Farhad Pourkaveh Dehkordi
 persian_name: فرهاد پورکاوه دهکردی
 birth_date: ""
@@ -33,3 +33,11 @@ source:
   - https://t.me/JavidnamaneVatan/854
   - https://x.com/allahbakhshii/status/2026259923416355187
   - https://x.com/irannewsagency0/status/2027330425312481521
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 85542f5f-2dc1-417b-a04b-5d3fafb94a36
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:ec22e6cac2ce579f

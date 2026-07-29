@@ -13,7 +13,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-25"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested on his birthday, February 24, while following up on the case of a detained friend. Being held in Greater Tehran Prison. Described as illegal detention.
@@ -24,3 +24,12 @@ description: Arrested on his birthday, February 24, while following up on the ca
 source_type: Social Media
 source:
   - https://x.com/saarmot/status/2022310789915222179
+  - https://t.me/akhbar_bazdashtiha/661
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 12345e4d-f45a-4158-8b53-377c6b415674
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

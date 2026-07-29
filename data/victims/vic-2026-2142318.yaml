@@ -1,13 +1,13 @@
 external_card_id: "378"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20216_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21760_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26541_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30075_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39360_0_telegram_v1.jpg"
-  - "vic-2026-34b4cb9f37aa.jpg"
-  - "vic-2026-1ee20423e4b7.jpg"
-  - "vic-2026-a71b01464617.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20216_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21760_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26541_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30075_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39360_0_telegram_v1.jpg
+  - vic-2026-34b4cb9f37aa.jpg
+  - vic-2026-1ee20423e4b7.jpg
+  - vic-2026-a71b01464617.jpg
 name: Arshia Keykhaei
 persian_name: عرشیا کیخایی
 birth_date: ""
@@ -17,12 +17,12 @@ gender: Male
 age: 18
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-incident_address: ""
+incident_address: Shahrak-e Banafsh-e Karaj, Karaj
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -34,3 +34,16 @@ source:
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWh6RE
   - https://x.com/aminbehroozi2/status/2018307754369135019
   - https://t.me/RememberTheirNames/326
+  - https://www.facebook.com/tavaana/photos/%DA%A9%D8%B4%D8%AA%D9%87-%D8%B4%D8%AF%D9%86-%D8%B9%D8%B1%D8%B4%DB%8C%D8%A7-%DA%A9%DB%8C%D8%AE%D8%A7%DB%8C%DB%8C-%D9%86%D9%88%D8%AC%D9%88%D8%A7%D9%86-%DB%B1%DB%B8-%D8%B3%D8%A7%D9%84%D9%87-%D8%A8%D8%A7-%D8%B4%D9%84%DB%8C%DA%A9-%D9%85%D8%B3%D8%AA%D9%82%DB%8C%D9%85-%D8%AF%D8%B1-%DA%A9%D8%B1%D8%AC%D8%B9%D8%B1%D8%B4%DB%8C%D8%A7-%DA%A9%DB%8C%D8%AE%D8%A7%DB%8C%DB%8C-%DB%B1%DB%B8-%D8%B3%D8%A7%D9%84%D9%87-%D8%B4/1295679155924366/
+  - https://irantrial.org/fa/heroes
+  - https://www.hra-news.org/
+irantrial_ids:
+  - 29439f46-c40d-4d7e-a7dd-0cbdfaf1d6c8
+  - 5e5c7726-4f36-49c9-b1a4-fb98f54f9f4b
+  - c65e6ee6-db32-4f27-a8f1-84f04d98bdc3
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - HRANA-CW-2026/protesters/388

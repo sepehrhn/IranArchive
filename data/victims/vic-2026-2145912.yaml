@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 47
 occupation: ""
 country: Iran
 incident_province: Zanjan
@@ -19,7 +19,16 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: IranTrial lists Zahra Fouladi among those killed on 2026-01-08 in Zanjan, Zanjan.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2327
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 132c7154-d03c-4ad9-b288-ac01dc5de79f
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/2524

@@ -10,12 +10,12 @@ gender: Female
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Babol
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Direct gunshots to the head by the forces of the Islamic Republic
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,12 @@ description: Shot directly in the head by Islamic Republic forces
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/999
+  - https://www.instagram.com/reel/DU-c-eOjIa4/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 79a77166-5689-4d36-a808-b67d6b2ff314
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

@@ -7,10 +7,10 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 19
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Parand
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -23,3 +23,12 @@ description: Died in Parand on 19 Dey 1404
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2542
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 03e3b6e5-ad23-4b17-a765-4729a74cabbe
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:3a30bc7e2a50693a

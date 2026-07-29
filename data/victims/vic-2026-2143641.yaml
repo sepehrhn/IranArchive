@@ -10,12 +10,12 @@ gender: Male
 age: 25
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed by the oppressors of the Islamic Republic
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Killed by Islamic Republic suppressors in the city of Mashhad
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/557
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 3b51bae5-d081-4a42-b5d2-ddff23fdcffb
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

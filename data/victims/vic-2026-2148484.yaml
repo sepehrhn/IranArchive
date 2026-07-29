@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tabriz
-incident_address: ""
-date_of_death: ""
+incident_address: Tabriz
+date_of_death: "2026-02-17"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 24-year-old pharmacy student at Tabriz University who was arrested at her personal residence by IRGC Intelligence agents on February 8, 2026, and released on bail of 5 billion tomans on February 11, 2026. After release, she was hospitalized due to severe physical injuries from brutal torture during detention, including broken hands, feet, and several ribs. She is currently under treatment at Tabriz International Hospital.
@@ -24,3 +24,11 @@ description: 24-year-old pharmacy student at Tabriz University who was arrested 
 source_type: Social Media
 source:
   - https://x.com/autnews_org/status/2022912735743209750
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ead6ff00-90e5-4b7d-8115-727008755064
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/students/121

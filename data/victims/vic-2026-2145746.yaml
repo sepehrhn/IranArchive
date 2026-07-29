@@ -6,15 +6,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 28
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Punak
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -22,3 +22,12 @@ description: Hospital employee at Day Hospital in Tehran for over 10 years. Shot
 source_type: Social Media
 source:
   - https://x.com/iranianpapppi3/status/2026716388862140637
+  - https://javidnaman.iranintl.com/memorial/D75x1FC3qUAIKDBE4OgSKz
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - c196fd4e-68ed-4c83-9690-5a4c59180596
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

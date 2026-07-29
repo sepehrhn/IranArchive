@@ -16,7 +16,7 @@ gender: Male
 age: 19
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Ilam
 incident_city: Abdanan
 incident_address: ""
 date_of_death: "2026-01-03"
@@ -30,3 +30,11 @@ description: Arrested by government forces during protests
 source_type: Social Media
 source:
   - https://hengaw.net/fa/news/2026/01/article-32
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 9e092e6c-8451-4891-b733-c0d8c810d5fa
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

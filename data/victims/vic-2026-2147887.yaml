@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
-date_of_death: ""
+incident_address: خانه خود در محله چهارباغ اصفهان
+date_of_death: "2024-02-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Resident of Chaharbach-e Khajou area of Isfahan, arrested by plainclothes forces at around 4 AM on Monday. Currently facing severe interrogations and deprived of access to lawyer.
@@ -24,3 +24,12 @@ description: Resident of Chaharbach-e Khajou area of Isfahan, arrested by plainc
 source_type: Social Media
 source:
   - https://x.com/followupiran/status/2027004080678219906
+  - https://t.me/akhbar_bazdashtiha/372
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 2d19901e-0963-4f72-afd5-3ac52cd2c962
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

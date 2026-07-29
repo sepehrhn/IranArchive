@@ -14,7 +14,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://www.instagram.com/p/DT4F__RAo5U
   - https://x.com/gilasgoz/status/2022241621467947249
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8cf6ac15-a44b-49a8-ba22-672d6d605090
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:3d15846472472d83

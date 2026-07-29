@@ -1,10 +1,10 @@
 external_card_id: "2079"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23547_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34775_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39307_0_telegram_v1.jpg"
-  - "vic-2026-2139909.jpg"
-  - "vic-2026-4dc664cb8ae1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23547_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34775_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39307_0_telegram_v1.jpg
+  - vic-2026-2139909.jpg
+  - vic-2026-4dc664cb8ae1.jpg
 name: Heidar Karimi
 persian_name: حیدر کریمی
 birth_date: ""
@@ -14,12 +14,12 @@ gender: Male
 age: 21
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Neyshabur
-incident_address: ""
+incident_address: Nishapur | Nishapur
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -32,3 +32,12 @@ source:
   - https://x.com/manotonews/status/2016813574652645774
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaTBXJjZ
   - https://t.me/RememberTheirNames/380
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d49f19b0-accd-4f11-b57a-810fbcc711a0
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/440

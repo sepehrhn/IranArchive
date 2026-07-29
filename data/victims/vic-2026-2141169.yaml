@@ -8,15 +8,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 44
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Shahre Rey
-incident_address: ""
-date_of_death: ""
+incident_address: Dowlat Abad, Tehran
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -24,3 +24,12 @@ description: Victim documented in Iran International memorial
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClXxgE
+  - https://www.instagram.com/p/DUgxBA2iheZ/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d839987d-9dd2-438e-8341-db5bf32031c5
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

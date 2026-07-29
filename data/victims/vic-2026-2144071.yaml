@@ -1,14 +1,14 @@
 external_card_id: "2393"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24460_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25793_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25793_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25793_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29015_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30837_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34299_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40906_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50077_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24460_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25793_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25793_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25793_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29015_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30837_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34299_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40906_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50077_0_twitter_v1.jpg
 name: Diyako Sakhaei
 persian_name: دیاکو سخایی
 birth_date: ""
@@ -20,10 +20,10 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Kermanshah, Elahieh neighborhood
-incident_address: ""
+incident_address: Elahiyeh, Kermanshah
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -39,3 +39,11 @@ source:
   - https://x.com/gomnam20006/status/2020548976089391369
   - https://x.com/parnian_za/status/2024852398179836054
   - https://x.com/masoudkazemi81/status/2017608238980624458
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 29cf42a3-a2b6-4db3-99d2-f556049161aa
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

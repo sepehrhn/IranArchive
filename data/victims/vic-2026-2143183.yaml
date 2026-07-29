@@ -1,9 +1,9 @@
 external_card_id: "3017"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26855_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38452_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49983_0_telegram_v1.jpg"
-  - "vic-2026-05cedf2337d5.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26855_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38452_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49983_0_telegram_v1.jpg
+  - vic-2026-05cedf2337d5.jpg
 name: Mojtaba Karri
 persian_name: مجتبی کری
 birth_date: ""
@@ -13,12 +13,12 @@ gender: Male
 age: 37
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Golestan
 incident_city: Gorgan
 incident_address: ""
 date_of_death: "2026-01-26"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,12 @@ source:
   - https://x.com/IranNewsAgency0/status/2018152555063185647
   - https://t.me/RememberTheirNames/1274
   - https://t.me/JavidnamaneVatan/323
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d8a35d2e-2ded-4d22-abd2-662fc3396b63
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

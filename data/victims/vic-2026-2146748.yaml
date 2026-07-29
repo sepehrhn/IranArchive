@@ -5,21 +5,29 @@ persian_name: ایلکین محمدیان
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
-age: null
+gender: Female
+age: 20
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: ""
+incident_province: Ardabil
+incident_city: Ardabil
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
-disappearance_circumstances: ""
+disappearance_circumstances: "Place of arrest: Ardabil"
 suspected_actor: ""
 status: Missing
 detention_status: arrested
-description: ""
+description: IranTrial lists Ilkin Mohammadyan as detained in Ardabil, Ardabil.
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-699
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 0cfa48ca-3ba7-4d31-bb47-a0a987474ed9
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

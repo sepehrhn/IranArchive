@@ -12,7 +12,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Tehran
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -24,3 +24,11 @@ description: Mother of Homa Teymouri, arrested at home along with her daughter a
 source_type: Social Media
 source:
   - https://x.com/followupiran/status/2025140677600743781
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 562c6f1f-df82-4d98-a4a2-4afff2242db5
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/2755

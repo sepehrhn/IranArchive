@@ -1,7 +1,7 @@
 external_card_id: "4179"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34106_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40919_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34106_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40919_0_twitter_v1.jpg
 name: Mohammad Esmaili Livousi
 persian_name: محمد اسماعیلی لیوسی
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: 30
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Khuzestan
 incident_city: Dezful
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -26,3 +26,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaT8Gfe7
   - https://t.me/RememberTheirNames/2203
   - https://x.com/labkhand07/status/2020468420878143573
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 7a6b6e9b-e572-4888-96d2-e2bcaa8e7158
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3235

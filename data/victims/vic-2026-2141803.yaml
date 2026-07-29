@@ -13,7 +13,7 @@ occupation: ""
 country: Iran
 incident_province: Gilan
 incident_city: Shaft
-incident_address: ""
+incident_address: Shaft
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -25,3 +25,11 @@ description: 35-year-old Gilaki citizen from Shaft, Gilan province, arrested by 
 source_type: Social Media
 source:
   - https://x.com/HyrcaniHRM/status/2014010788495712497
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 54afacd9-5424-42ac-a9ca-b849543d15f6
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/586

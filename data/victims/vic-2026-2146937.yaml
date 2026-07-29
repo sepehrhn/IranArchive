@@ -10,10 +10,10 @@ gender: Male
 age: 43
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Fars
 incident_city: Shiraz
-incident_address: ""
-date_of_death: ""
+incident_address: خانه اقوامش در شیراز
+date_of_death: "2026-02-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 43-year-old shopkeeper from Chenar village, Asadabad county, Hamadan province. Arrested on 2026-02-09 in Shiraz during a raid on relatives' house. Under severe torture to force confession of leadership charges with intent to execute him.
@@ -24,3 +24,12 @@ description: 43-year-old shopkeeper from Chenar village, Asadabad county, Hamada
 source_type: Social Media
 source:
   - https://x.com/gershasp7/status/2025031342837129337
+  - https://t.me/akhbar_bazdashtiha/15
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 0c9f58c0-9214-4c23-96ea-f04ea46a7a40
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

@@ -1,8 +1,8 @@
 external_card_id: "4752"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40025_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40235_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41172_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40025_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40235_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41172_0_web_v1.jpg
 name: Zohreh Khaksar
 persian_name: زهره خاکسار
 birth_date: ""
@@ -17,7 +17,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-11"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -28,3 +28,12 @@ source:
   - https://t.me/RememberTheirNames/2389
   - https://javidnaman.iranintl.com/memorial/f8d63e7c-ee38-4ac2-90a0-d20b0030520f
   - https://x.com/me_azadi/status/2026971769874141552
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 24dfe742-77ca-4d26-9a1d-c34e6fc8dda2
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

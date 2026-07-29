@@ -18,9 +18,9 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Ilam
 incident_city: Abdanan
-incident_address: ""
+incident_address: Abdanan - Ilam
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -32,3 +32,11 @@ description: From Abdanan, Ilam Province. Arrested by government forces and tran
 source_type: Social Media
 source:
   - https://hengaw.net/en/news/2026/01/article-65
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bae2f08d-1338-44df-8832-9e7171fd210f
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

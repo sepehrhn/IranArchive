@@ -1,16 +1,16 @@
 external_card_id: "1600"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23468_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26617_0_web_v1.jpg"
-  - "vic-2026-5ebc624ba0a1.jpg"
-  - "vic-2026-ba9f054cc11d.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23468_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26617_0_web_v1.jpg
+  - vic-2026-5ebc624ba0a1.jpg
+  - vic-2026-ba9f054cc11d.jpg
 name: Mojtaba Jouzi
 persian_name: مجتبی جوزی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 0
 occupation: ""
 country: Iran
 incident_province: Isfahan
@@ -18,7 +18,7 @@ incident_city: Najafabad
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -33,3 +33,11 @@ source:
   - https://x.com/hannigan220/status/2014648644780085468
   - https://t.me/RememberTheirNames/1478
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWiixC
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 50ddfc63-5f50-4ff3-a6ba-6022e284c338
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

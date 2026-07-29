@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Marivan
-incident_address: ""
-date_of_death: ""
+incident_address: خانه
+date_of_death: "2023-01-06"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 17-year-old arrested on January 6, 2026 during government forces' raid on his family home in Marivan. The arrest involved violence and insults to him and his family members. Family and relatives' efforts to find out his location and condition have been unsuccessful, raising concerns about his health and fate. He was previously injured in the leg during November 2022 popular protests in Marivan when targeted with numerous shotgun pellets.
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/NoaMagid/status/2008721547582906414
   - https://x.com/followupiran/status/2023069935497281583
+  - https://t.me/akhbar_bazdashtiha/334
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 20fdbe5d-2e80-458f-ad94-d4a5d8a95938
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

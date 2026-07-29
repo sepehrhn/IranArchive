@@ -1,8 +1,8 @@
 external_card_id: "1843"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31047_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41083_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56106_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31047_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41083_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56106_0_twitter_v1.jpg
 name: Mehdi Sadeghi
 persian_name: مهدی صادقی
 birth_date: ""
@@ -14,10 +14,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Falavarjan, Isfahan
-incident_address: ""
+incident_address: Malekshahr, Isfahan
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaTCmjzh
   - https://x.com/moeinnajafii/status/2027041829070204998
   - https://x.com/i/status/2027041829070204998
+  - https://www.instagram.com/p/DUupJSokqFw/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 76f3c151-0d8e-4359-8fee-0b35e9568157
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

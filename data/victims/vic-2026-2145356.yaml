@@ -1,12 +1,12 @@
 external_card_id: "2573"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22198_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22198_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22198_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25765_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26871_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39290_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53191_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22198_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22198_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22198_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25765_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26871_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39290_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53191_0_telegram_v1.jpg
 name: Payam Rokh Bakhsh
 persian_name: پیام رخ‌بخش
 birth_date: ""
@@ -16,7 +16,7 @@ gender: Male
 age: 32
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Fars
 incident_city: Shiraz
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -33,3 +33,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/arh0kOme1YEvhe6nV3fOXp
   - https://t.me/RememberTheirNames/398
   - https://t.me/JavidnamaneVatan/2007
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 2c794d65-48d7-4202-ae70-150c9201646e
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:859085b6ea8df147

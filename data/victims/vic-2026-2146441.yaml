@@ -13,7 +13,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 19-year-old software engineering student at Islamic Azad University, Yadegar-e Imam Branch. Arrested during protest gatherings on Iranzamin Street in Shahrak-e Gharb, Tehran. Injured during arrest after being struck on the back of the head. Held in detention facility under unclear conditions. Forced confession extracted under pressure. Sentenced to six years in prison on charge of 'destruction of public property'.
@@ -24,3 +24,12 @@ description: 19-year-old software engineering student at Islamic Azad University
 source_type: Social Media
 source:
   - https://www.instagram.com/p/DU8uYOqDo-7
+  - https://t.me/akhbar_bazdashtiha/345
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f8173a9b-5336-4c71-903a-5210cdf783da
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

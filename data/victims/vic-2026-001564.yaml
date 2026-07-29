@@ -1,12 +1,12 @@
 external_card_id: "1471"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22172_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30271_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30271_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31116_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42246_0_web_v1.jpg"
-  - "vic-2026-001564.jpg"
-  - "vic-2026-a26b3d3c26cb.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22172_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30271_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30271_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31116_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42246_0_web_v1.jpg
+  - vic-2026-001564.jpg
+  - vic-2026-a26b3d3c26cb.jpg
 name: Amirmehdi Razgardani
 persian_name: امیرمهدی رازگردانی
 birth_date: ""
@@ -16,12 +16,12 @@ gender: Male
 age: 19
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Razgardan village, Arak
 incident_address: Razgardan
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -37,3 +37,12 @@ source:
   - https://x.com/tinabakhshi/status/2018737621762187427
   - https://t.me/RememberTheirNames/2160
   - https://javidnaman.iranintl.com/memorial/6p68dFah8jC3OLYuqWjULe
+  - https://www.instagram.com/popular/%D9%85%D8%A7%D8%B2%DB%8C%D8%A7%D8%B1-%D8%A2%D8%B1%DB%8C%D8%A7%D9%86-%D9%81%D8%B1/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f57cd591-f07c-410b-92bf-c41c896927c4
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

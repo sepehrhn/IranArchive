@@ -6,20 +6,36 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 22
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: تهران
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-13"
 date_of_death_precision: Approximate
 cause_of_death: ""
-disappearance_circumstances: ""
+disappearance_circumstances: "Arresting authority: نیروهای امنیتی"
 suspected_actor: ""
 status: Missing
 detention_status: arrested
-description: ""
+description: |-
+  پرستو ربیعی ۲۲ سال دارد. او  در  تاریخ ۲۳ دی با هجوم نیروهای امنیتی به خانه‌‌ی خود در  تهران بازداشت شده و اکنون در زندان قرچک در بند است. گفته می‌شود او با اتهام اجتماع و تبانی علیه نظام روبروست. صدایش باشیم.
+
+  @akhbar_bazdashtiha
+
+  🕊21
+
+      28 views13:05
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-667
+  - https://t.me/akhbar_bazdashtiha/328
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 483d52cf-ad8d-4fdc-b437-388e48d1c967
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

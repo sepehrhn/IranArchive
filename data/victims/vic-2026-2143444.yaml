@@ -1,9 +1,9 @@
 external_card_id: "3349"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29178_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34346_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38097_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48361_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29178_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34346_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38097_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48361_0_web_v1.jpg
 name: Abdullah (Shahram) Mohammadzadeh
 persian_name: عبدالله (شهرام) محمدزاده
 birth_date: ""
@@ -18,7 +18,7 @@ incident_city: Esfarayen
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,12 @@ source:
   - https://t.me/RememberTheirNames/2276
   - https://x.com/yaldarta/status/2014946096523481285
   - https://javidnaman.iranintl.com/memorial/GJcxY52Stm1VDduxne5b1B
+  - https://x.com/HeKasrehCrisis/status/2018178980340228256
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - a632f9cd-b836-453f-86ce-890a173c4f95
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,10 +1,10 @@
 external_card_id: "7779"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34137_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52311_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52871_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52871_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53394_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34137_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52311_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52871_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52871_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53394_0_telegram_v1.jpg
 name: Maliheh Firouzeh
 persian_name: ملیحه فیروزه
 birth_date: ""
@@ -14,12 +14,12 @@ gender: Female
 age: 24
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: North Khorasan
 incident_city: Bojnurd
-incident_address: ""
+incident_address: Bojnord Cor Bojnourd
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -30,3 +30,12 @@ source:
   - https://t.me/JavidnamaneVatan/1798
   - https://x.com/persian_picture/status/2024563444263837738
   - https://t.me/JavidnamaneVatan/2145
+  - https://x.com/HastiGh4/status/2025104355796680770
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b9dfe53d-34fe-44bf-abea-6e97a0926c53
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

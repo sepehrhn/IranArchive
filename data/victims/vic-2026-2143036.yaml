@@ -1,10 +1,10 @@
 external_card_id: "2859"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34044_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34044_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34044_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38378_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50522_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34044_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34044_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34044_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38378_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50522_0_telegram_v1.jpg
 name: Hossein Karimi
 persian_name: حسین کریمی
 birth_date: ""
@@ -16,10 +16,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Yaft Abad, Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -30,3 +30,12 @@ source:
   - https://x.com/rsheermohammadi/status/2019081336166789562
   - https://t.me/RememberTheirNames/1349
   - https://t.me/JavidnamaneVatan/693
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 4b2120ba-7cba-4826-a73d-b532ad724faa
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

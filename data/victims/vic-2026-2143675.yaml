@@ -1,7 +1,7 @@
 external_card_id: "3806"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30189_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40227_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30189_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40227_0_telegram_v1.jpg
 name: AliReza Mansour Abadi
 persian_name: علیرضا منصورآبادی
 birth_date: ""
@@ -11,12 +11,12 @@ gender: Male
 age: 32
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Fars
 incident_city: Moaliabad, Shiraz
-incident_address: ""
+incident_address: Maali Abad, Shiraz
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -26,3 +26,14 @@ source:
   - https://x.com/sonofthebeach22/status/2018667188081861007
   - https://x.com/HeKasrehCrisis/status/2018927506615574751
   - https://t.me/RememberTheirNames/2381
+  - https://irantrial.org/fa/heroes
+  - https://www.hra-news.org/
+irantrial_ids:
+  - c69f7ac8-3cd9-4716-a2e8-1fc2c92f0c37
+  - db0efdec-0bdb-4ada-8644-371f30ddc4fb
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - iranintl-memorial:8826aee6e8dbaf7f

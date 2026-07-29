@@ -11,12 +11,12 @@ gender: Female
 age: 13
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Fars
 incident_city: Shiraz
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -24,3 +24,12 @@ description: 13-year-old from Shiraz, mentioned as 'last photo' suggesting death
 source_type: Social Media
 source:
   - https://x.com/Sashtyani/status/2014656543262736501
+  - https://narrata.info/fa/narratives/d9d6048f-e294-4e61-a5fc-69b325db1e08/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8b671575-b4a1-41c7-aa3e-e6fca0641b0b
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

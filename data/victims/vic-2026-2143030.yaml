@@ -1,8 +1,8 @@
 external_card_id: "3088"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27041_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38214_0_twitter_v1.jpg"
-  - "vic-2026-af0e59b67767.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27041_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38214_0_twitter_v1.jpg
+  - vic-2026-af0e59b67767.jpg
 name: Hassan Hosseini
 persian_name: حسن حسینی
 birth_date: ""
@@ -12,12 +12,12 @@ gender: Male
 age: 55
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/tCKl8UDDdoQQUGMvcQ6CWd
   - https://x.com/behnam_chegini/status/2014737595159171180
+  - https://www.instagram.com/p/DVpj9mSAU1R/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 16c870ec-e6f1-433b-bdbc-9db9d7f23b0c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

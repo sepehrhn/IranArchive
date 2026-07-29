@@ -1,8 +1,8 @@
 external_card_id: "2074"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23540_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40153_0_telegram_v1.jpg"
-  - "vic-2026-ca073656fa13.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23540_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40153_0_telegram_v1.jpg
+  - vic-2026-ca073656fa13.jpg
 name: Ehsan Rasouli
 persian_name: احسان رسولی
 birth_date: ""
@@ -12,7 +12,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Fari Abad village, Bakharz county, Khorasan Razavi province
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/ashkvuo7000/status/2016542352450502879
   - https://t.me/RememberTheirNames/2307
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - e18e75ab-245c-4734-9b67-77e355fc4def
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/1791

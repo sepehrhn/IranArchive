@@ -1,17 +1,17 @@
 external_card_id: "2236"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23847_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23847_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23847_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23847_3_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23875_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38936_0_telegram_v1.jpg"
-  - "vic-2026-001783.jpg"
-  - "vic-2026-d972b30a7e33.jpg"
-  - "vic-2026-3004728a32ce.jpg"
-  - "vic-2026-c9e8f37c60c5.jpg"
-  - "vic-2026-08bdfa4dbc7c.jpg"
-  - "vic-2026-f8d812caee9b.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23847_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23847_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23847_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23847_3_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23875_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38936_0_telegram_v1.jpg
+  - vic-2026-001783.jpg
+  - vic-2026-d972b30a7e33.jpg
+  - vic-2026-3004728a32ce.jpg
+  - vic-2026-c9e8f37c60c5.jpg
+  - vic-2026-08bdfa4dbc7c.jpg
+  - vic-2026-f8d812caee9b.jpg
 name: Parnia Khalaji
 persian_name: پرنیا خلجی
 birth_date: ""
@@ -23,10 +23,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Shamshiri, Mehrabad, Tehran | Shamshiri Mehrabad
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -41,3 +41,12 @@ source:
   - https://x.com/elhamyazdiha/status/2017295023943938271
   - https://x.com/noamagid/status/2017372227465838861
   - https://t.me/RememberTheirNames/768
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 64a0b66a-8ca3-464f-a28b-af93a15c3a6e
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

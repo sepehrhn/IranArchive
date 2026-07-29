@@ -1,7 +1,7 @@
 external_card_id: "7086"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27023_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48475_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27023_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48475_0_telegram_v1.jpg
 name: Morteza Haddad Shalkouhi
 persian_name: مرتضی حداد شالکوهی
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: 45
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Rasht
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -26,3 +26,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/iMjEtPfAQOhDvQyO6DfRte
   - https://t.me/RememberTheirNames/2934
   - https://x.com/hyrcanihrm/status/2020512921172803920
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8807f88f-81ca-4675-9a71-961f04cbd006
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/2906

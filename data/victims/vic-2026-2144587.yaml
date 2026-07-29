@@ -1,23 +1,23 @@
 external_card_id: "4351"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37653_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38446_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_5_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55757_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55875_8_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37653_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38446_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_5_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55757_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55875_8_web_v1.jpg
 name: Majid Hashemi
 persian_name: مجید هاشمی
 birth_date: ""
@@ -29,10 +29,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Mobarakeh
-incident_address: ""
+incident_address: Mobarakeh, Isfahan
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -43,3 +43,12 @@ source:
   - https://t.me/RememberTheirNames/1280
   - https://hengaw.net/en/news/2026/01/article-181
   - https://hengaw.net/fa/news/2026/01/article-186-1
+  - https://javidnaman.iranintl.com/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b2b41e39-2050-4cf5-abf0-152fd70e53ad
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

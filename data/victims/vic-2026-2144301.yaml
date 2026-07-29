@@ -1,7 +1,7 @@
 external_card_id: "4609"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39164_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50930_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39164_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50930_0_telegram_v1.jpg
 name: Hamidreza Shahin
 persian_name: حمیدرضا شاهین
 birth_date: ""
@@ -13,10 +13,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
+incident_address: Homayounshahr (Khomeyni Shahr), Isfahan
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/527
   - https://t.me/JavidnamaneVatan/1030
+  - https://www.instagram.com/reel/DU4rl9xgD0A/?hl=en
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6211ab57-330c-4562-8a64-8e1a74491581
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

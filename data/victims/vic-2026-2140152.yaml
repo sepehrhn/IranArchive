@@ -1,30 +1,30 @@
 external_card_id: "1933"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23213_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23256_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23256_1_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23256_2_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30743_0_telegram_v1.jpg"
-  - "vic-2026-2140152.jpg"
-  - "vic-2026-b14c7abbaeb6.jpg"
-  - "vic-2026-db0318d17eea.png"
-  - "vic-2026-db7f37fff2a0.png"
-  - "vic-2026-a1a478b2d074.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23213_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23256_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23256_1_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23256_2_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30743_0_telegram_v1.jpg
+  - vic-2026-2140152.jpg
+  - vic-2026-b14c7abbaeb6.jpg
+  - vic-2026-db0318d17eea.png
+  - vic-2026-db7f37fff2a0.png
+  - vic-2026-a1a478b2d074.png
 name: Parham Aghamohammadi
 persian_name: پرهام آقامحمدی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 32
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Parand
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -37,3 +37,12 @@ source:
   - https://x.com/i/status/2016113356734611843
   - https://x.com/hekasrehcrisis/status/2016375447827710377
   - https://t.me/RememberTheirNames/1774
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f68eedf6-6c77-4eff-b521-dc5f80e04c7d
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

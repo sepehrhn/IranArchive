@@ -11,8 +11,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: دلیجان, مرکزی
-incident_address: ""
-date_of_death: ""
+incident_address: Delijan
+date_of_death: "2026-01-28"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Athlete from Markazi Province, arrested by security forces
@@ -24,3 +24,11 @@ source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1053
   - https://x.com/saeidvafa/status/2016298917554425904
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 9fc55e43-4a7c-413e-ab0e-9e5bbbc9d1e4
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/1990

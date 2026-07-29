@@ -10,7 +10,7 @@ gender: Male
 age: 21
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -23,3 +23,11 @@ description: Shot in the heart with a war bullet in the evening in the Shahin Vi
 source_type: Social Media
 source:
   - https://x.com/iranwire/status/2020149240870367654
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - a9d6e27b-d336-43f1-9121-f9d3c4ed0d41
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/3621

@@ -1,13 +1,13 @@
 external_card_id: "9137"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55800_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55800_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55800_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55800_3_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55800_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55800_5_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55800_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55800_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55800_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55800_3_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55800_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55800_5_web_v1.jpg
 name: Payam Babo Kuhestani
-persian_name: ""
+persian_name: پیام بابا کوهستانی
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -15,7 +15,7 @@ gender: Male
 age: 35
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Chalus
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -28,3 +28,12 @@ description: Killed by direct fire from government forces during protests in the
 source_type: Social Media
 source:
   - https://hengaw.net/en/news/2026/01/article-113
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5d338b6a-72c7-4a06-a45c-58a82c7a99e9
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/143

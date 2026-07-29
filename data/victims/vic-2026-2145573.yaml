@@ -1,7 +1,7 @@
 external_card_id: "4013"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31049_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50542_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31049_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50542_0_telegram_v1.jpg
 name: Sahab Mashayekh
 persian_name: سحاب مشایخ
 birth_date: ""
@@ -13,10 +13,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
+incident_address: Isfahan (likely near Malekshahr junction)
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2073
   - https://t.me/JavidnamaneVatan/713
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 86378f57-360c-470a-9115-ec82be169648
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

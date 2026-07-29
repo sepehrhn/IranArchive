@@ -12,13 +12,21 @@ country: Iran
 incident_province: ""
 incident_city: Jahrom
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: IranTrial lists Mohammad Jame among those killed on 2026-01-09 in Jahrom.
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjYl5PO
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ab78acbe-1d9e-4efe-943d-51bc2bc14cea
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:a8b1dd75e3b93709

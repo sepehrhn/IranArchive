@@ -1,29 +1,29 @@
 external_card_id: "278"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19999_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20436_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20900_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21474_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24104_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27220_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39548_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49913_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53043_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55900_7_web_v1.jpg"
-  - "vic-2026-000636.jpg"
-  - "vic-2026-76b7e0fa6952.jpg"
-  - "vic-2026-536944257239.jpg"
-  - "vic-2026-442800b1c319.jpg"
-  - "vic-2026-20454fb11637.jpg"
-  - "vic-2026-9855ea242b5e.jpg"
-  - "vic-2026-8a28d9b66bfb.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19999_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20436_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20900_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21474_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24104_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27220_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39548_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49913_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53043_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55900_7_web_v1.jpg
+  - vic-2026-000636.jpg
+  - vic-2026-76b7e0fa6952.jpg
+  - vic-2026-536944257239.jpg
+  - vic-2026-442800b1c319.jpg
+  - vic-2026-20454fb11637.jpg
+  - vic-2026-9855ea242b5e.jpg
+  - vic-2026-8a28d9b66bfb.jpg
 name: Houman Sabbagh
 persian_name: هومن صباغ
 birth_date: ""
@@ -33,9 +33,9 @@ gender: Male
 age: 37
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Lahijan
-incident_address: ""
+incident_address: شیشه‌گران لاهیجان - گیلان
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -63,3 +63,12 @@ source:
   - https://t.me/JavidnamaneVatan/253
   - https://x.com/finalbattleiran/status/2025624920642691316
   - https://hengaw.net/fa/news/2026/01/article-145-1
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - b75e588f-f7cd-4ac6-b054-b5dadddee439
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

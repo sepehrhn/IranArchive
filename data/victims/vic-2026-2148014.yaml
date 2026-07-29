@@ -16,8 +16,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: تهران, تهران
-incident_address: ""
-date_of_death: ""
+incident_address: Tehran
+date_of_death: "2026-01-15"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested during nighttime raid by IRGC forces at 2 AM at their home. Cause of arrest stated as 'presence of their personal car on the street on the night of 18 Dey'. Two sisters arrested together. Have been held for three weeks with unclear detention facility and responsible agency (possibly IRGC Intelligence or Intelligence Security). Only had two very brief phone calls with family to report they are alive. No information about charges, case details, or exact location of detention.
@@ -33,3 +33,11 @@ source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1366
   - https://x.com/i/status/2023415690150211598
   - https://x.com/saarmot/status/2023580148675609032
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 200a3900-c242-4a8e-86f6-2060ac6fee5f
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/933

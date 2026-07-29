@@ -8,7 +8,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 31
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,3 +24,12 @@ description: Died in Sabzevar on January 8, 2026
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1109
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ad305f4f-72c3-4a47-a99a-8345843ad0c5
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:6721f6fa9859100a

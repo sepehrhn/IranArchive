@@ -1,11 +1,11 @@
 external_card_id: "861"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21024_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21853_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26359_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30289_0_telegram_v1.jpg"
-  - "vic-2026-33408612efe2.jpg"
-  - "vic-2026-a53b65f42bb9.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21024_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21853_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26359_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30289_0_telegram_v1.jpg
+  - vic-2026-33408612efe2.jpg
+  - vic-2026-a53b65f42bb9.jpg
 name: Nader Mohammadi Abdehvand
 persian_name: نادر محمدی عبده‌وند
 birth_date: ""
@@ -15,7 +15,7 @@ gender: Male
 age: 35
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Joyabad
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -31,3 +31,14 @@ source:
   - https://x.com/SalarvandN21943/status/2015433254803751162
   - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMiXn0
   - https://t.me/RememberTheirNames/2167
+  - https://articleeighteen.com/fa/news/20746/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 22001984-cf29-441e-90cd-e577cbc68e19
+  - 686d2625-5215-4c5d-b12a-cc1d546023b4
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/2162
+  - https://t.me/RememberTheirNames

@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 44
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -23,3 +23,11 @@ description: Death occurred on January 8, 2026 in Tehran
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/3143
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6751fa99-cce3-42e5-b565-d30c1425546c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:28b6eb694c89f686

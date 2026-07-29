@@ -1,8 +1,8 @@
 external_card_id: "685"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27253_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38381_0_telegram_v1.jpg"
-  - "vic-2026-1ac2e860fc7b.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27253_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38381_0_telegram_v1.jpg
+  - vic-2026-1ac2e860fc7b.jpg
 name: Afshin Rezaeiyan
 persian_name: افشین رضاییان
 birth_date: ""
@@ -14,7 +14,7 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Chamgardan
-incident_address: ""
+incident_address: Chamgordan - Isfahan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -28,3 +28,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClXiui
   - https://x.com/i/status/2017977857754923156
   - https://t.me/RememberTheirNames/1346
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 90751003-ceea-42d4-8210-0a5a68d29ddc
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:2ff0021a8e51e2be

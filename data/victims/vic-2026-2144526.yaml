@@ -6,16 +6,16 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 40
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: Mahabad
 incident_address: ""
-date_of_death: ""
+date_of_death: "1046-05-16"
 date_of_death_precision: Approximate
 cause_of_death: ""
-disappearance_circumstances: ""
+disappearance_circumstances: Reported detained
 suspected_actor: ""
 status: Killed
 description: Political prisoner sentenced to death
@@ -23,3 +23,12 @@ source_type: Social Media
 source:
   - https://t.me/iliaen/629
   - https://t.me/iliaen/634
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bcee3d06-bed6-4cb2-8a7c-0167a24bf9dd
+irantrial_categories:
+  - detainees
+detention_status: executed
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Iran_Executions_DeathRow_Final_Comprehensive-2.xlsx

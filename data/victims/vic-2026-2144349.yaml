@@ -1,8 +1,8 @@
 external_card_id: "7049"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48367_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48586_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56373_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48367_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48586_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56373_0_telegram_v1.jpg
 name: Hasti Samadi
 persian_name: هستی صمدی
 birth_date: ""
@@ -15,7 +15,7 @@ country: Iran
 incident_province: ""
 incident_city: Jannat Abad
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -27,3 +27,11 @@ source:
   - https://javidnaman.iranintl.com/memorial/D75x1FC3qUAIKDBE4QMj6Z
   - https://www.instagram.com/p/DUyqTH-jFD4
   - https://t.me/JavidnamaneVatan/2295
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 676dbebe-dd89-48f0-ab2e-d38c84a76491
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:489f77cf9c7c20bd

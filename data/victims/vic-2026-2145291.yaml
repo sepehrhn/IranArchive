@@ -1,16 +1,16 @@
 external_card_id: "3478"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29411_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53037_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55860_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55860_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55860_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55860_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55860_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55860_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55860_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55860_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55860_8_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29411_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53037_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55860_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55860_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55860_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55860_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55860_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55860_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55860_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55860_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55860_8_web_v1.jpg
 name: Nima Abbasi
 persian_name: نیما عباسی
 birth_date: ""
@@ -22,10 +22,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
+incident_address: Hasht Behesht, Isfahan
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -35,3 +35,11 @@ source:
   - https://javidnaman.iranintl.com/memorial/f9a5ad2d-83ae-4268-8ee1-a2b8f6db2c9c
   - https://x.com/zahra_masgedyy/status/2025722476861243598
   - https://hengaw.net/fa/news/2026/01/article-225
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 6dc7d534-4c96-403d-94cc-108dc20109bc
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

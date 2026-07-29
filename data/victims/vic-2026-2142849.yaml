@@ -1,9 +1,9 @@
 external_card_id: "979"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21180_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23510_0_telegram_v1.jpg"
-  - "vic-2026-9cc4ca1ec0bd.png"
-  - "vic-2026-2f373672dec9.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21180_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23510_0_telegram_v1.jpg
+  - vic-2026-9cc4ca1ec0bd.png
+  - vic-2026-2f373672dec9.jpg
 name: Mehdi Ziaei
 persian_name: مهدی ضیایی
 birth_date: ""
@@ -13,12 +13,12 @@ gender: Male
 age: 17
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Hormozgan
 incident_city: Bandar Abbas
 incident_address: ""
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,11 @@ source_type: Social Media
 source:
   - https://x.com/daikatuo/status/2014810898167115939
   - https://t.me/RememberTheirNames/1431
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 94fdf8f7-68e1-4635-8816-232edb6858e2
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

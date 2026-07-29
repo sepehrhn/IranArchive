@@ -5,11 +5,11 @@ persian_name: قانع خاطری
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kurdistan
 incident_city: سنندج, کردستان
 incident_address: ""
 date_of_death: ""
@@ -27,3 +27,11 @@ description: |-
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1544
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 17f898e3-e66c-4b3d-beab-93f40007101c
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

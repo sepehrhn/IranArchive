@@ -1,11 +1,11 @@
 external_card_id: "4454"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38168_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38727_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40958_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42413_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48349_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53146_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38168_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38727_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40958_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42413_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48349_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53146_0_telegram_v1.jpg
 name: Amirhossein Jafari Pourfard
 persian_name: امیرحسین جعفری
 birth_date: ""
@@ -17,7 +17,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Salsabil Street, Tehran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -33,3 +33,12 @@ source:
   - https://www.instagram.com/p/DUhwMlmjNaS
   - https://javidnaman.iranintl.com/memorial/s7x3ao9lUCHAJRA4I5S5E4
   - https://t.me/JavidnamaneVatan/1962
+  - https://www.instagram.com/p/DU3ad3IkUTX/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 91478d67-9c47-4206-9161-bd5aeef3c3d3
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:3069a8f2271e85c6

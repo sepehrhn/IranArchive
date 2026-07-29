@@ -11,7 +11,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: تربت جام, خراسان رضوی
-incident_address: ""
+incident_address: Torbat-e Jam
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -24,3 +24,11 @@ source_type: Social Media
 source:
   - https://x.com/HeKasrehCrisis/status/2016362073760952571
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1000
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 23e2162a-78e8-4072-ad20-a47383c23ff9
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/696

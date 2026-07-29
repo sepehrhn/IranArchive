@@ -1,8 +1,8 @@
 external_card_id: "2909"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26673_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37705_0_twitter_v1.jpg"
-  - "vic-2026-b31c1a78c3ca.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26673_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37705_0_twitter_v1.jpg
+  - vic-2026-b31c1a78c3ca.jpg
 name: Ramin Saheri
 persian_name: رامین سحری
 birth_date: ""
@@ -15,7 +15,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Falah District, Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -27,3 +27,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjeEIYQ
   - https://x.com/pkhwshhal/status/2014372693735321885
   - https://x.com/gilasgoz/status/2022253515251613994
+  - https://www.instagram.com/p/DWF4t7zkwzN/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 4289be6b-9980-43f7-ac55-7396a47ea7db
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/618

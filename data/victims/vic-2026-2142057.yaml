@@ -17,8 +17,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Gorgan
-incident_address: ""
-date_of_death: ""
+incident_address: Gorgan
+date_of_death: "2026-01-30"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Shot during national uprising on 19 Dey month but managed to reach home. Security forces raided her residence the following night, arrested her and took her away. No information available about her detention location or condition. This case constitutes enforced disappearance and her life is in immediate danger.
@@ -31,3 +31,11 @@ source:
   - https://x.com/ewenniii/status/2017492156261310801
   - https://x.com/i/status/2017555936345252001
   - https://x.com/IranNewsAgency0/status/2017555936345252001
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 21a5b0b1-c7e0-4d81-b4f9-f787d7a9584c
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/836

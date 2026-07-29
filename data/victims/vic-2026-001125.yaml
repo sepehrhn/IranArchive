@@ -1,11 +1,11 @@
 external_card_id: "802"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20920_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30851_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40053_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42375_0_instagram_v1.jpg"
-  - "vic-2026-001125.jpg"
-  - "vic-2026-61de9d10f51c.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20920_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30851_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40053_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42375_0_instagram_v1.jpg
+  - vic-2026-001125.jpg
+  - vic-2026-61de9d10f51c.jpg
 name: Matin Parvizi
 persian_name: متین پرویزی
 birth_date: ""
@@ -17,7 +17,7 @@ occupation: ""
 country: Iran
 incident_province: Zanjan
 incident_city: Zanjan
-incident_address: ""
+incident_address: Zanjan | Police Station 12 Zanjan - Sabzeh Meydan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -39,3 +39,12 @@ source:
   - https://x.com/autnews_org/status/2019768204915065312
   - https://x.com/anjmotahed/status/2021232158736613635
   - https://www.instagram.com/p/DUkE8GpjEG4
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f621e9f3-df24-4565-b5fe-b15968710629
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

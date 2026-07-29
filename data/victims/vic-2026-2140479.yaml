@@ -13,10 +13,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
+incident_address: Isfahan
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -24,3 +24,12 @@ description: 48-year-old father of two children, resident of Isfahan, killed dur
 source_type: Social Media
 source:
   - https://x.com/manotonews/status/2017735393920356528
+  - https://x.com/ManotoNews/status/2017735393920356528?lang=en
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - e02d25e0-ebd1-4bab-afd4-ad7f95c6f3b1
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

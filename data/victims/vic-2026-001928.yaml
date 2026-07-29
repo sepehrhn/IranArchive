@@ -1,16 +1,16 @@
 external_card_id: "1783"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22936_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26714_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38455_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40051_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52852_0_twitter_v1.jpg"
-  - "vic-2026-001928.jpg"
-  - "vic-2026-6076ce6bfde3.jpg"
-  - "vic-2026-fd7219a2ab62.jpg"
-  - "vic-2026-2139895.jpg"
-  - "vic-2026-82967058543a.jpg"
-  - "vic-2026-ba1fd68d02d0.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22936_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26714_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38455_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40051_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52852_0_twitter_v1.jpg
+  - vic-2026-001928.jpg
+  - vic-2026-6076ce6bfde3.jpg
+  - vic-2026-fd7219a2ab62.jpg
+  - vic-2026-2139895.jpg
+  - vic-2026-82967058543a.jpg
+  - vic-2026-ba1fd68d02d0.png
 name: Hadi Faghani
 persian_name: هادی فغانی
 birth_date: ""
@@ -25,7 +25,7 @@ incident_city: Gorgan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -46,3 +46,12 @@ source:
   - https://x.com/missmarpel75/status/2017249885217546402
   - https://x.com/iranintlbrk/status/2015812585472340478
   - https://x.com/hengawo/status/2013911264154546507
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 4fc38fe5-4761-42bc-82e6-ffe6e2a0d68c
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

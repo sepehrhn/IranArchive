@@ -1,13 +1,13 @@
 external_card_id: "1499"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21300_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21300_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21347_0_instagram_v1.webp"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21546_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22229_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38696_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52864_0_twitter_v1.jpg"
-  - "vic-2026-24d79ba21687.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21300_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21300_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21347_0_instagram_v1.webp
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21546_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22229_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38696_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52864_0_twitter_v1.jpg
+  - vic-2026-24d79ba21687.jpg
 name: Kian Poursafar Delshad
 persian_name: کیان پورصفر دلشاد
 birth_date: ""
@@ -17,12 +17,12 @@ gender: Male
 age: 27
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Anzali
-incident_address: ""
+incident_address: Anzali (Nasser Khosrow)
 date_of_death: "2026-01-15"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -36,3 +36,12 @@ source:
   - https://x.com/pkhwshhal/status/2015819690245845281
   - https://t.me/RememberTheirNames/1014
   - https://x.com/hadeeselahi/status/2017518977191182612
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 5ae7a7f4-83aa-4dad-971b-061d198c9647
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

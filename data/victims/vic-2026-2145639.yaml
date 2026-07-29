@@ -1,10 +1,10 @@
 external_card_id: "3738"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30252_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34750_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38347_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49893_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52746_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30252_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34750_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38347_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49893_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52746_0_twitter_v1.jpg
 name: Sasan Keshvari
 persian_name: ساسان کشوری
 birth_date: ""
@@ -16,7 +16,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Sabalan Square - Tehran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -31,3 +31,12 @@ source:
   - https://t.me/RememberTheirNames/1381
   - https://t.me/JavidnamaneVatan/233
   - https://x.com/kyokushinsoofi/status/2017279475944177917
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - afd27d63-ba36-46b2-93c6-ac14d1295b29
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:045883788f8c69d4

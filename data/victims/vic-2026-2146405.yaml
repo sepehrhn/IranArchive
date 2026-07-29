@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Hamadan
 incident_city: Hamadan
-incident_address: ""
-date_of_death: ""
+incident_address: خانه‌اش در همدان
+date_of_death: "2023-01-18"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 26-year-old arrested at his home in Hamadan on 28 Dey with beatings. Reportedly forced to make a confession and faces charges of 'moharebeh' (enmity against God)
@@ -24,3 +24,13 @@ description: 26-year-old arrested at his home in Hamadan on 28 Dey with beatings
 source_type: Social Media
 source:
   - https://x.com/mario___ng/status/2022724894358696374
+  - https://t.me/akhbar_bazdashtiha/67
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - e11ee635-8518-48e8-a05b-795cf3187f39
+irantrial_categories:
+  - at-risk
+risk_of_execution: true
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - akhbar_bazdashtiha

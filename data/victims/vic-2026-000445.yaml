@@ -1,11 +1,11 @@
 external_card_id: "1443"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22106_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23770_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37735_0_twitter_v1.jpg"
-  - "vic-2026-000445.jpg"
-  - "vic-2026-f2f3f8e61268.jpg"
-  - "vic-2026-e1c3e5baf9df.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22106_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23770_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37735_0_twitter_v1.jpg
+  - vic-2026-000445.jpg
+  - vic-2026-f2f3f8e61268.jpg
+  - vic-2026-e1c3e5baf9df.jpg
 name: Siavash Mansouri
 persian_name: سیاوش منصوری
 birth_date: ""
@@ -15,7 +15,7 @@ gender: Male
 age: 30
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -38,3 +38,12 @@ source:
   - https://x.com/hirman__/status/2014395919282602441
   - https://t.me/RememberTheirNames/1057
   - https://x.com/IranIntl/status/2013431954973028543
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - e00188f8-2e6d-404c-8117-42c261bb545e
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/protesters/678

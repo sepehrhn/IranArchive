@@ -1,12 +1,12 @@
 external_card_id: "2518"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25589_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25589_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27283_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51910_0_telegram_v1.jpg"
-  - "vic-2026-e2fdc34fc501.jpg"
-  - "vic-2026-3d63f3918ae4.jpg"
-  - "vic-2026-58b514b0798f.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25589_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25589_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27283_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51910_0_telegram_v1.jpg
+  - vic-2026-e2fdc34fc501.jpg
+  - vic-2026-3d63f3918ae4.jpg
+  - vic-2026-58b514b0798f.png
 name: Amir Mohammad Hatami
 persian_name: امیرمحمد حاتمی
 birth_date: ""
@@ -16,12 +16,12 @@ gender: Male
 age: 18
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Shahinshahr
-incident_address: ""
+incident_address: Shahin Shahr, Isfahan
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,12 @@ source:
   - https://x.com/sasanrahimpour1/status/2017274602150330634
   - https://javidnaman.iranintl.com/memorial/yEYwvbhpDrCFHYzchO7SQa
   - https://t.me/JavidnamaneVatan/1410
+  - https://www.instagram.com/p/DUvpUBGCGJs/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - bf0c9ee4-0d71-4732-9759-337e29361460
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -10,10 +10,10 @@ gender: Female
 age: 36
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Ekbatan
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-02-04"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -23,3 +23,12 @@ description: 36-year-old doctor residing in Ekbatan. Killed by agents of the Isl
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/615
+  - https://www.instagram.com/reel/DYSGPhAN0Mk/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - cc4f38c8-6aeb-4166-b038-438639195b3e
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan

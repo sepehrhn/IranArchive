@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 31
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -24,3 +24,12 @@ source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/arh0kOme1YEvhe6nUp7efN
   - https://t.me/RememberTheirNames/2214
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - ef2af8fe-e105-4e04-b3fe-b4ec86330721
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:f4d91732c9aa1b09

@@ -1,19 +1,19 @@
 external_card_id: "848"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21007_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21374_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23690_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31139_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38842_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47627_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50859_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21007_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21374_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23690_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31139_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38842_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47627_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50859_0_telegram_v1.jpg
 name: Morteza Zoom-Poosh
 persian_name: مرتضی ذوم‌پوش
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 0
 occupation: ""
 country: Iran
 incident_province: Hamadan
@@ -21,7 +21,7 @@ incident_city: Hamadan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -36,3 +36,12 @@ source:
   - https://t.me/javidnamhamedan/308
   - https://t.me/JavidnamaneVatan/959
   - https://x.com/mothrofdrgns/status/2017734664748707948
+  - https://www.instagram.com/p/DVsEioigdgY/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 64ef6384-2d34-4bdc-91a4-9ee7eb6b0eda
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:cac6fccb5e5393c8

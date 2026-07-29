@@ -1,15 +1,15 @@
 external_card_id: "365"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20187_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20335_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23469_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27081_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39453_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39652_0_twitter_v1.jpg"
-  - "vic-2026-542127bbed85.jpg"
-  - "vic-2026-40c2cacd347b.jpg"
-  - "vic-2026-30bde8c7726a.jpg"
-  - "vic-2026-5d1ee42866bf.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20187_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20335_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23469_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27081_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39453_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39652_0_twitter_v1.jpg
+  - vic-2026-542127bbed85.jpg
+  - vic-2026-40c2cacd347b.jpg
+  - vic-2026-30bde8c7726a.jpg
+  - vic-2026-5d1ee42866bf.jpg
 name: Ahmad Asghari
 persian_name: احمد عسگری
 birth_date: ""
@@ -19,12 +19,12 @@ gender: Male
 age: 37
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -37,3 +37,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClTMo1
   - https://t.me/RememberTheirNames/230
   - https://x.com/iranintlsport/status/2016086022237339711
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 30fc0e22-4c94-462d-9752-bfb085c53346
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

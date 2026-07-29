@@ -12,7 +12,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Arak
-incident_address: ""
+incident_address: Arak
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -24,3 +24,11 @@ description: Arrested in Arak with no information available about his current co
 source_type: Social Media
 source:
   - https://x.com/saeidvafa/status/2023049534683639810
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 0eeed97e-94be-4df9-a59e-e10e7c1e9ad4
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/2689

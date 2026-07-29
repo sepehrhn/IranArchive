@@ -7,15 +7,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 30
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,12 @@ description: Killed in Tehran, buried in Luklayeh village in Langarud. A banner 
 source_type: Social Media
 source:
   - https://x.com/pkhwshhal/status/2018830352316510566
+  - https://x.com/HyrcaniHRM/status/2019388289979949156
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 4f6fb0fe-9c36-4e93-97be-4909bd7503d8
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

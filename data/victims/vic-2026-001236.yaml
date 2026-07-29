@@ -1,11 +1,11 @@
 external_card_id: "1045"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21327_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26956_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38705_0_telegram_v1.jpg"
-  - "vic-2026-001236.jpg"
-  - "vic-2026-26257b4b577a.jpg"
-  - "vic-2026-68444da0fbdd.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21327_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26956_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38705_0_telegram_v1.jpg
+  - vic-2026-001236.jpg
+  - vic-2026-26257b4b577a.jpg
+  - vic-2026-68444da0fbdd.jpg
 name: Yalda Jafari
 persian_name: یلدا جعفری
 birth_date: ""
@@ -36,3 +36,12 @@ source:
   - https://x.com/zizicgoogoolian/status/2014772948390052018
   - https://javidnaman.iranintl.com/memorial/faVC3p6tCxw9DOdQXwgB2q
   - https://t.me/RememberTheirNames/1005
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - d40a988a-58b8-425d-bfdb-522e709f6d8a
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

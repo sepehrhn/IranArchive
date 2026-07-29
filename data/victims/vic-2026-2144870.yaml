@@ -1,8 +1,8 @@
 external_card_id: "7061"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48409_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52147_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55678_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48409_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52147_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55678_0_twitter_v1.jpg
 name: Mohammad Amin Akbarian
 persian_name: محمدامین اکبریان
 birth_date: ""
@@ -28,3 +28,11 @@ source:
   - https://t.me/JavidnamaneVatan/1634
   - https://x.com/visfehan/status/2026241849430605979
   - https://x.com/i/status/2026241849430605979
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 82a04e17-0907-456e-818e-895c5303de55
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:37789895f815c01a

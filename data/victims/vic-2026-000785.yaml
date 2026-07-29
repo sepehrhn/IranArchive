@@ -1,16 +1,16 @@
 external_card_id: "862"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21025_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21025_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22103_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26442_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38735_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49852_0_telegram_v1.jpg"
-  - "vic-2026-000785.jpg"
-  - "vic-2026-a216737d2086.jpg"
-  - "vic-2026-5824d155c6df.jpg"
-  - "vic-2026-053f3a53c21c.jpg"
-  - "vic-2026-eefecd7bd25d.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21025_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21025_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22103_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26442_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38735_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49852_0_telegram_v1.jpg
+  - vic-2026-000785.jpg
+  - vic-2026-a216737d2086.jpg
+  - vic-2026-5824d155c6df.jpg
+  - vic-2026-053f3a53c21c.jpg
+  - vic-2026-eefecd7bd25d.jpg
 name: Pezhman Shahpiri
 persian_name: پژمان شهپیری
 birth_date: ""
@@ -22,7 +22,7 @@ occupation: ""
 country: Iran
 incident_province: Khuzestan
 incident_city: Izeh
-incident_address: ""
+incident_address: Izeh - Khuzestan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -43,3 +43,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWfeAp
   - https://t.me/RememberTheirNames/974
   - https://t.me/JavidnamaneVatan/192
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 1a1179b2-4667-413a-bdc1-91980c7f2fd7
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:f284131f71b12fa7

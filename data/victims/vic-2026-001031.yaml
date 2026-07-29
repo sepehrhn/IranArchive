@@ -1,33 +1,33 @@
 external_card_id: "450"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20339_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50929_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55774_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55774_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55774_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55774_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55774_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55774_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55774_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55774_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55774_8_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55890_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55890_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55890_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55890_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55890_4_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55890_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55890_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55890_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55890_8_web_v1.jpg"
-  - "vic-2026-001031.jpg"
-  - "vic-2026-bbaf03c6919f.jpg"
-  - "vic-2026-002112.jpg"
-  - "vic-2026-40d4bc79b62f.jpg"
-  - "vic-2026-8e02d88f82c1.png"
-  - "vic-2026-dba37ba66745.jpg"
-  - "vic-2026-888efa08eb2d.jpg"
-  - "vic-2026-a9779dc904bc.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20339_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50929_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55774_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55774_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55774_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55774_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55774_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55774_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55774_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55774_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55774_8_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55890_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55890_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55890_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55890_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55890_4_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55890_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55890_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55890_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55890_8_web_v1.jpg
+  - vic-2026-001031.jpg
+  - vic-2026-bbaf03c6919f.jpg
+  - vic-2026-002112.jpg
+  - vic-2026-40d4bc79b62f.jpg
+  - vic-2026-8e02d88f82c1.png
+  - vic-2026-dba37ba66745.jpg
+  - vic-2026-888efa08eb2d.jpg
+  - vic-2026-a9779dc904bc.jpg
 name: Amir Nadafi
 persian_name: امیر ندافی
 birth_date: ""
@@ -39,7 +39,7 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Khomeini Shahr
-incident_address: ""
+incident_address: Khomeyni Shahr, Isfahan
 date_of_death: "2026-01-11"
 date_of_death_precision: Exact
 cause_of_death: Unknown
@@ -60,3 +60,11 @@ source:
   - https://www.iran-emrooz.net/index.php/news2/125134/
   - https://x.com/Daikatuo/status/2007456429049856090
   - https://x.com/walterakam/status/2016571251636994153
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - e1adf737-156e-4e83-9814-4db0512f73f4
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

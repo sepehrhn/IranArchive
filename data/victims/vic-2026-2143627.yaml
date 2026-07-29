@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 40
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,3 +23,12 @@ description: Died in Mashhad on 19 Dey 1404
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2536
+  - https://www.hra-news.org/
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 8303463c-6406-4330-a0ca-c731c841febe
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:60a3c231643b10cb

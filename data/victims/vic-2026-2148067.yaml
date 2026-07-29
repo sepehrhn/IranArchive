@@ -6,12 +6,12 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 26
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Sistan and Baluchestan
 incident_city: زاهدان, سیستان و بلوچستان
-incident_address: ""
+incident_address: Arrested in Chabahar
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -27,3 +27,11 @@ description: |-
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1042
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - cedff2ab-74e3-41b0-a13c-c284231eb330
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

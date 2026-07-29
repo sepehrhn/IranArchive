@@ -11,7 +11,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Rasht
-incident_address: ""
+incident_address: Yasuj
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -23,3 +23,11 @@ description: Arrested at his home in Jamaran, Rasht. Described as an orphan with
 source_type: Social Media
 source:
   - https://x.com/pesarake_jahel/status/2023446061541716143
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - f7cb751a-95ed-4c02-beea-d6af14fa4620
+irantrial_categories:
+  - detainees
+irantrial_updated_at: "2026-06-21T00:33:18.783165+00:00"
+irantrial_source_references:
+  - HRANA-CW-2026/detainees/identified/284

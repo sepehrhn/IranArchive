@@ -1,19 +1,19 @@
 external_card_id: "7181"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48910_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48910_1_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48910_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48910_1_twitter_v1.jpg
 name: Mojtaba Fallahi Fard
 persian_name: مجتبی فلاحی فرد
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 33
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
+incident_address: Baharestan - Isfahan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -24,3 +24,11 @@ description: Shot in the neck by snipers while disabling CCTV cameras on a pole 
 source_type: Social Media
 source:
   - https://x.com/afkari_saeed/status/2023622901220401195
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 0091b492-815d-438b-8358-aa9ba7c8e89d
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - iranintl-memorial:3ffffeb886b87b3a

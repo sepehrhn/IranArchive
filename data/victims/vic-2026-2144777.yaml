@@ -1,7 +1,7 @@
 external_card_id: "7751"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40135_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52086_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40135_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52086_0_telegram_v1.jpg
 name: Mehrpouya Abdollahi Peydani Bakhtiari
 persian_name: مهرپویا عبداللهی
 birth_date: ""
@@ -13,10 +13,10 @@ occupation: ""
 country: Iran
 incident_province: Kerman
 incident_city: Kerman
-incident_address: ""
+incident_address: Detention center in Kerman City
 date_of_death: "2026-01-30"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Possible injection or forced medication during detention (without visible external injuries)
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -26,3 +26,12 @@ source:
   - https://t.me/RememberTheirNames/2289
   - https://x.com/anjmotahed/status/2021232158736613635
   - https://t.me/JavidnamaneVatan/1573
+  - https://t.me/JavidnamaneVatan/1572
+  - https://irantrial.org/fa/heroes
+irantrial_ids:
+  - 091d88cb-a2b9-4539-afdf-01080859e9dc
+irantrial_categories:
+  - javidnaman
+irantrial_updated_at: "2026-06-21T00:35:10.530458+00:00"
+irantrial_source_references:
+  - t.me/JavidnamaneVatan
