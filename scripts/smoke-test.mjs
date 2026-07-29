@@ -44,7 +44,10 @@ const server = createServer(async (req, res) => {
 
 await new Promise((resolve) => server.listen(0, '127.0.0.1', resolve));
 const port = server.address().port;
-const browser = await puppeteer.launch({ headless: true });
+const browser = await puppeteer.launch({
+  headless: true,
+  args: process.platform === 'linux' ? ['--no-sandbox'] : []
+});
 
 try {
   for (const route of routes) {
