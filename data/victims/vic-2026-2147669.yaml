@@ -14,8 +14,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: Tehran
+date_of_death: "2026-01-24"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Young painter living in Tehran, born in 1378, arrested at his home on 20 Dey 1404. Family says they have had no news of him since then and their efforts to find any trace of him have been unsuccessful. Legal perspective notes complete lack of information about his condition, no access to lawyer, and pressure for forced confessions violate fair trial principles, prohibition of torture and enforced disappearance.
@@ -28,3 +28,11 @@ source:
   - https://x.com/dadban4/status/2024879716491047138
   - https://x.com/saarmot/status/2019670567465767146
   - https://www.instagram.com/p/DVJD1kHDRI-
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - ec3117bb-399d-4e9c-a0ab-7b88032d124e
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/691

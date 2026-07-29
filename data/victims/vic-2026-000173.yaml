@@ -1,20 +1,20 @@
 external_card_id: "179"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19809_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19809_1_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19809_2_twitter_v1.jpg"
-  - "vic-2026-000173.png"
-  - "vic-2026-1729396378bf.png"
-  - "vic-2026-e8b57043870a.png"
-  - "vic-2026-155da0c4ffec.jpg"
-  - "vic-2026-31d211fe69ce.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19809_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19809_1_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19809_2_twitter_v1.jpg
+  - vic-2026-000173.png
+  - vic-2026-1729396378bf.png
+  - vic-2026-e8b57043870a.png
+  - vic-2026-155da0c4ffec.jpg
+  - vic-2026-31d211fe69ce.png
 name: Amir Ali Latifi
 persian_name: امیرعلی لطیفی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 20
 occupation: ""
 country: Iran
 incident_province: Gilan
@@ -37,3 +37,12 @@ source_type: Social Media
 source:
   - https://x.com/Daikatuo/status/2012217391527117076
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWgEZw
+  - https://www.instagram.com/p/DULNxsBjJDM/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 400f1263-8e90-4ec4-8dea-32af80b406d0
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:4ed62fe7e958ea12

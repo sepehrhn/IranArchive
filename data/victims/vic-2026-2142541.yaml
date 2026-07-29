@@ -1,10 +1,10 @@
 external_card_id: "1048"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21330_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38687_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49473_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50417_0_telegram_v1.jpg"
-  - "vic-2026-ddb5fa0c3620.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21330_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38687_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49473_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50417_0_telegram_v1.jpg
+  - vic-2026-ddb5fa0c3620.png
 name: Esmaeil Beigi
 persian_name: اسماعیل بیگی
 birth_date: ""
@@ -16,10 +16,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
+incident_address: Isfahan
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -30,3 +30,12 @@ source:
   - https://t.me/RememberTheirNames/1024
   - https://x.com/dadban4/status/2024392758572544344
   - https://t.me/JavidnamaneVatan/588
+  - https://javidnaman.iranintl.com/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d4b33e7d-9a62-4827-b032-ce2df1d93730
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1621

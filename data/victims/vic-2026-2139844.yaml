@@ -8,7 +8,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 40
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,3 +24,12 @@ description: Died on January 8, 2026 in Karaj during the protests
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1653
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 60b9cf51-2fc2-49dc-8d31-6c758d8e5ae6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:814d8eb1a3d4b662

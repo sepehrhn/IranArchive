@@ -1,14 +1,14 @@
 external_card_id: "1571"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22375_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23298_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23298_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23428_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23902_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27013_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40829_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40829_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48688_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22375_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23298_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23298_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23428_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23902_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27013_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40829_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40829_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48688_0_twitter_v1.jpg
 name: Ehsan Abul-Hassan Beigi
 persian_name: احسان ابوالحسنی بیگی
 birth_date: ""
@@ -18,7 +18,7 @@ gender: Male
 age: 30
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Fars
 incident_city: Shiraz
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -38,3 +38,11 @@ source:
   - https://x.com/ostoghodos/status/2020247072893727089
   - https://x.com/iamalibeigi/status/2020211614478381553
   - https://x.com/i/status/2021983929784480150
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 838c1afc-f746-4b36-bf41-02b47aa6ed29
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:55570a3377352e9a

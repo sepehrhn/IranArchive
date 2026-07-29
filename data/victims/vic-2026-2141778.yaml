@@ -15,7 +15,7 @@ occupation: ""
 country: Iran
 incident_province: Ilam
 incident_city: Lomar, Sirvan County
-incident_address: ""
+incident_address: سیروان استان ایلام
 date_of_death: "2026-01-12"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -28,3 +28,11 @@ source_type: Social Media
 source:
   - https://x.com/HengawO/status/2012177481999036887
   - https://x.com/HengawO/status/2012472910401642719
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 5209548e-245d-44e9-99fe-0ed2933fdc05
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

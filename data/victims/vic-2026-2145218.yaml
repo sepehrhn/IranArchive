@@ -1,28 +1,28 @@
 external_card_id: "4565"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38689_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55942_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55942_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55942_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55942_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55942_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55942_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55942_6_web_v1.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38689_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55942_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55942_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55942_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55942_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55942_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55942_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55942_6_web_v1.png
 name: Mostafa Faraji
 persian_name: مصطفی فرجی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 34
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1021
   - https://hengaw.net/fa/news/2026/01/article-32
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 12e597a5-97ba-4ebc-bd77-561d22be9937
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -8,12 +8,12 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 32
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Khorramabad
-incident_address: ""
+incident_address: Alavi Street, Khorramabad
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -24,3 +24,11 @@ description: Lor ethnicity from Khorramabad, shot by suppression forces in Masou
 source_type: Social Media
 source:
   - https://x.com/hirman__/status/2016736771728355696
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 9dce0606-2761-474a-8709-0ded8576a765
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:1c82856182c56fb1

@@ -1,7 +1,7 @@
 external_card_id: "4834"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40199_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48312_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40199_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48312_0_web_v1.jpg
 name: Mehdi Azimi
 persian_name: مهدی عظیمی
 birth_date: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2353
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaTDOymP
+  - https://www.instagram.com/p/DU6_HmfDVSn/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7c33e562-0d94-4266-94b7-ca19fc3838e6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:0bfa8171498f1a3c

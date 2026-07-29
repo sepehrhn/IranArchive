@@ -23,7 +23,7 @@ occupation: ""
 country: Iran
 incident_province: Qazvin
 incident_city: Qazvin
-incident_address: ""
+incident_address: خانه‌ی خودش
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -45,3 +45,12 @@ source:
   - https://www.instagram.com/p/DU2vX4OjF-2
   - https://x.com/balochestan1422/status/2026607427764838844
   - https://x.com/i/status/2026657389630431692
+  - https://t.me/akhbar_bazdashtiha/512
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b69d143b-7c8a-4621-beca-506fe72f5c95
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

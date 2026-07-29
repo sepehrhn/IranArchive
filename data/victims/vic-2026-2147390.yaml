@@ -15,7 +15,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Khuzestan
 incident_city: Dezful
 incident_address: ""
 date_of_death: ""
@@ -32,3 +32,11 @@ source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-658
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_791
   - https://hengaw.net/en/news/2026/01/article-216
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - e79c7913-7426-4c5d-a471-718d640a9d90
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

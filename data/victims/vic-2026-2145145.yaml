@@ -1,7 +1,7 @@
 external_card_id: "2731"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26117_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48334_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26117_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48334_0_web_v1.jpg
 name: Mohsen Moghadam Gorabi
 persian_name: محسن مقدم گورابی
 birth_date: ""
@@ -11,10 +11,10 @@ gender: Male
 age: 50
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Rasht
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/HyrcaniHRM/status/2017889911408361511
   - https://javidnaman.iranintl.com/memorial/AihVWIC374ZkzYtGRfzJCX
+  - https://www.instagram.com/p/DU0pG33korW/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - fd229614-9767-4a4b-96a1-2b2310a09798
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:063f8be5e8eda72f

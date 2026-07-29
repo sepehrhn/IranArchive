@@ -1,7 +1,7 @@
 external_card_id: "8463"
 photo: []
 name: Sajad Lotfali Khani
-persian_name: ""
+persian_name: سجاد لطفعلی خانی
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -11,8 +11,8 @@ occupation: ""
 country: Iran
 incident_province: Hamadan
 incident_city: Hamadan Province
-incident_address: ""
-date_of_death: ""
+incident_address: استان همدان
+date_of_death: "2026-01-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Child detained during protests. Listed in HRANA's 'Detained Children' section of The Crimson Winter report (born before December 2007). Date of arrest: January 10, 2026 (1404/10/20). Current status: Detained and held in Hamadan Juvenile Correction and Rehabilitation Center. Original source: HRANA."
@@ -23,3 +23,11 @@ description: "Child detained during protests. Listed in HRANA's 'Detained Childr
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_CHILD_253
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 9c8f0b77-add7-41c8-a4e4-6d6a81d2c619
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/children/253

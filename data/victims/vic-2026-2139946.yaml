@@ -1,10 +1,10 @@
 external_card_id: "3254"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28951_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31000_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38329_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49409_0_twitter_v1.jpg"
-  - "vic-2026-2139946.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28951_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31000_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38329_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49409_0_twitter_v1.jpg
+  - vic-2026-2139946.jpg
 name: Mehrnoush Esfandiari
 persian_name: مهرنوش اسفندیاری
 birth_date: ""
@@ -16,10 +16,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Ghasemabad
-incident_address: ""
+incident_address: Afsariyeh
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -33,3 +33,12 @@ source:
   - https://t.me/RememberTheirNames/2024
   - https://t.me/RememberTheirNames/1400
   - https://x.com/hyrcanihrm/status/2024394001437065431
+  - https://www.instagram.com/p/DVGyP_-jWfO/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7a5f4df8-87ee-4fe7-ae3b-34f40550abc5
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

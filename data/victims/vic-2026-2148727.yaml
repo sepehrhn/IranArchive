@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Azna
-incident_address: ""
-date_of_death: ""
+incident_address: Eslamshahr
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Retired teacher from Azna, arrested by security forces on January 8, 2026. Currently facing execution. Previously arrested during the 2022 protest movement.
@@ -24,3 +24,16 @@ description: Retired teacher from Azna, arrested by security forces on January 8
 source_type: Social Media
 source:
   - https://x.com/amirkabirbozorg/status/2026772025491214764
+  - https://t.me/akhbar_bazdashtiha/106
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 34f2f64d-dbaf-44f3-9e12-508a6aeaab9b
+  - 96274268-97c3-4156-8832-6cd09d749811
+external_source_categories:
+  - at-risk
+  - detainees
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha
+  - HRANA-CW-2026/detainees/identified/2752

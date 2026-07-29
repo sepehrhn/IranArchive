@@ -16,7 +16,7 @@ gender: Male
 age: 20
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Ilam
 incident_city: Darrehshahr
 incident_address: ""
 date_of_death: "2026-01-04"
@@ -30,3 +30,11 @@ description: Arrested by government forces of the Islamic Republic of Iran durin
 source_type: Social Media
 source:
   - https://hengaw.net/fa/news/2026/01/article-32
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c98a93a1-3d35-45e6-ad39-a6c0196d9d8b
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

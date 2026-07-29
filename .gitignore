@@ -36,6 +36,7 @@ scripts/*
 !scripts/standardize_cities.js
 !scripts/validate-campaigns.js
 !scripts/validate-entities.js
+!scripts/sync-external_source-victims.mjs
 !scripts/generate-campaign-indexes.js
 !scripts/generate-search-index.js
 !scripts/audit-data-coverage.js

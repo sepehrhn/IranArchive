@@ -6,7 +6,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 27
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -23,3 +23,11 @@ source_type: Social Media
 source:
   - https://x.com/gilasgoz/status/2024250848683921771
   - https://www.instagram.com/p/DVhY7zPjCeF
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 8ccd8dc6-94b6-4a70-9a1b-d80360dbd806
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:53b0824a08929adb

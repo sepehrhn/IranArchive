@@ -12,9 +12,9 @@ age: 16
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
-incident_address: ""
-date_of_death: ""
+incident_city: Kamyaran
+incident_address: Kamyaran
+date_of_death: "2026-02-11"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 16-year-old teenager arrested by security forces and transferred to unknown location during recent days
@@ -25,3 +25,11 @@ description: 16-year-old teenager arrested by security forces and transferred to
 source_type: Social Media
 source:
   - https://x.com/iranhrs99/status/2012963645798428966
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - f9a1931d-544c-416f-8632-dcc2ee57f16a
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/children/84

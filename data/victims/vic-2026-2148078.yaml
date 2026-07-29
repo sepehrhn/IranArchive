@@ -11,7 +11,7 @@ gender: Male
 age: 17
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Khuzestan
 incident_city: Behbahan
 incident_address: ""
 date_of_death: ""
@@ -26,3 +26,11 @@ source_type: Social Media
 source:
   - https://x.com/mahshid_nazemi/status/2018476279297966200
   - https://x.com/itsongbird7777/status/2021261732342091958
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - cba05c25-9e90-4192-856c-e50190305a7d
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -10,9 +10,9 @@ age: null
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
-incident_address: ""
-date_of_death: ""
+incident_city: Tehran
+incident_address: Tehran
+date_of_death: "2026-02-27"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Charges: نامشخص"
@@ -23,3 +23,11 @@ description: "Charges: نامشخص"
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-353
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 3c6b0962-30bc-4841-85c8-bd6ecfe2652b
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/students/62

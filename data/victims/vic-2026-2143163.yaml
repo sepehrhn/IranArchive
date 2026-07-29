@@ -13,10 +13,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Dowlatabad, Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/857
   - https://x.com/outofken/status/2016358943837323363
+  - https://www.javidarchive.org/fa/memorial/jn-h22nTBad3K42WBHvEkyXsp
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - f78773f3-2197-4490-9cdd-b24b4658fe79
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

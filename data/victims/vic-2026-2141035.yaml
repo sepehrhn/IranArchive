@@ -1,11 +1,11 @@
 external_card_id: "2362"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24330_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24330_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26528_0_web_v1.jpg"
-  - "vic-2026-205e52a35fda.jpg"
-  - "vic-2026-6fdd7d66fe31.jpg"
-  - "vic-2026-d0314300f105.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24330_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24330_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26528_0_web_v1.jpg
+  - vic-2026-205e52a35fda.jpg
+  - vic-2026-6fdd7d66fe31.jpg
+  - vic-2026-d0314300f105.jpg
 name: Seyyed Mohammad Hashemi
 persian_name: سید محمد هاشمی
 birth_date: ""
@@ -15,7 +15,7 @@ gender: Male
 age: 19
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Babol
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -29,3 +29,12 @@ source_type: Social Media
 source:
   - https://x.com/HeKasrehCrisis/status/2016746215451357343
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjWgsrX
+  - https://www.instagram.com/p/DV1Gu7BgWsU/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 24773225-d687-4c5f-854b-c9f5b38c7d98
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/417

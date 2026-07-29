@@ -1,10 +1,10 @@
 external_card_id: "2415"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24541_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26751_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30828_0_telegram_v1.jpg"
-  - "vic-2026-a3c0c6774c32.jpg"
-  - "vic-2026-dccb3135f8d5.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24541_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26751_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30828_0_telegram_v1.jpg
+  - vic-2026-a3c0c6774c32.jpg
+  - vic-2026-dccb3135f8d5.jpg
 name: Arash Mousazadeh
 persian_name: آرش موسی‌زاده
 birth_date: ""
@@ -16,10 +16,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Piroozi
-incident_address: ""
+incident_address: Piroozi - Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,15 @@ source:
   - https://x.com/iranintl/status/2017411012920570241
   - https://javidnaman.iranintl.com/memorial/7G0E78pdgELSDZc0CobgM2
   - https://t.me/RememberTheirNames/1863
+  - https://www.instagram.com/p/DYF6dPED3ia/
+  - https://external_source.org/fa/heroes
+  - https://www.hra-news.org/
+external_source_ids:
+  - b4606f52-f853-4cc5-b2a8-6cb5583e7182
+  - f27c63bd-bb9a-4005-8550-643bad8b988c
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:f9c8263babc153b9
+  - HRANA-CW-2026/protesters/1570

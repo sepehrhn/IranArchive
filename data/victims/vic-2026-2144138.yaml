@@ -1,7 +1,7 @@
 external_card_id: "4854"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40252_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52167_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40252_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52167_0_telegram_v1.jpg
 name: Esmaeil Sadeghi Asl
 persian_name: اسماعیل صادقی اصل
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: 25
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Bumehen
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2406
   - https://t.me/JavidnamaneVatan/1654
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c36d71ab-dc90-403c-aa9d-081a0b7454c6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1836

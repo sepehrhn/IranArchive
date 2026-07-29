@@ -1,10 +1,10 @@
 external_card_id: "1661"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22689_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31105_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49856_0_telegram_v1.jpg"
-  - "vic-2026-2139935.jpg"
-  - "vic-2026-53712ae5b9b1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22689_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31105_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49856_0_telegram_v1.jpg
+  - vic-2026-2139935.jpg
+  - vic-2026-53712ae5b9b1.jpg
 name: Matin Goli
 persian_name: متین گلی
 birth_date: ""
@@ -16,10 +16,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Baharestan
-incident_address: ""
+incident_address: Baharestan / Isfahan, originally from Masjed Soleyman
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -33,3 +33,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClXkt5
   - https://t.me/RememberTheirNames/2149
   - https://t.me/JavidnamaneVatan/196
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 8e958788-ece1-436b-b98c-b9b37dc33e86
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,9 +1,9 @@
 external_card_id: "3577"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29687_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29687_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30297_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50531_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29687_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29687_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30297_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50531_0_telegram_v1.jpg
 name: Mahdi Kabook
 persian_name: مهدی کبوک
 birth_date: ""
@@ -15,10 +15,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehranpars
-incident_address: ""
+incident_address: Tehranpars
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -28,3 +28,11 @@ source:
   - https://x.com/anitabakt/status/2018410149719781585
   - https://t.me/RememberTheirNames/2175
   - https://t.me/JavidnamaneVatan/702
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 6ffa8b94-0fd3-41df-9947-ca71ee61a29f
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

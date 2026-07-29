@@ -1,10 +1,10 @@
 external_card_id: "1041"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21323_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26235_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29790_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39735_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50287_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21323_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26235_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29790_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39735_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50287_0_telegram_v1.jpg
 name: Omid Khorsand
 persian_name: امید خرسند
 birth_date: ""
@@ -19,7 +19,7 @@ incident_city: Shahinshahr - Isfahan
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,12 @@ source:
   - https://x.com/i/status/2018058024368107873
   - https://x.com/hashshaashin/status/2016179019956334915
   - https://t.me/JavidnamaneVatan/486
+  - https://narrata.info/fa/narratives/dc41304b-3b0b-4e6e-a81a-4d1eae46c8b3/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 0b964724-777f-4672-8e8e-da16ca0381b5
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

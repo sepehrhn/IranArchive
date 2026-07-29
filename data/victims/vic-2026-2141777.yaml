@@ -15,7 +15,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Arak
-incident_address: ""
+incident_address: Arak
 date_of_death: "2026-01-13"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -28,3 +28,11 @@ source_type: Social Media
 source:
   - https://x.com/iranwire/status/2012407881136554226
   - https://x.com/HengawO/status/2012601363801186338
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 70175e74-8f48-427b-87b3-719f97cfc165
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/1980

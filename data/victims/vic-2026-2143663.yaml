@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 19
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,3 +23,12 @@ description: Died in Mashhad on January 8, 2026
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2956
+  - https://www.instagram.com/reel/DU4JRMgkU0t/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - cf7d0e52-7509-4dc0-9b17-2414be301011
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/2910

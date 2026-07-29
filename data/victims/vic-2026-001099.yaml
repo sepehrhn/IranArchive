@@ -12,7 +12,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Sabzevar
 incident_address: ""
 date_of_death: "2026-01-10"
@@ -32,3 +32,11 @@ source_type: Social Media
 source:
   - https://x.com/shahramsadidi/status/2014074679607046202
   - https://t.me/RememberTheirNames/562
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7bffc47f-9c43-47c2-926c-ff86295d4102
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

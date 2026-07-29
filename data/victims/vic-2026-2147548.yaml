@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Hormozgan
 incident_city: Honguyeh
-incident_address: ""
-date_of_death: ""
+incident_address: خانه
+date_of_death: "2023-02-16"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 16-year-old arrested when security forces raided his home in Honguyeh, Hormozgan on February 16, 2026
@@ -24,3 +24,12 @@ description: 16-year-old arrested when security forces raided his home in Honguy
 source_type: Social Media
 source:
   - https://x.com/blackdee0/status/2027265502507421995
+  - https://t.me/akhbar_bazdashtiha/238
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b29e0e94-9661-4743-8925-486d7df41925
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

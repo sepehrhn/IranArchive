@@ -1,10 +1,10 @@
 external_card_id: "3287"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29051_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29051_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34787_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51737_0_telegram_v1.jpg"
-  - "vic-2026-001608.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29051_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29051_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34787_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51737_0_telegram_v1.jpg
+  - vic-2026-001608.jpg
 name: Ramin Raeisi
 persian_name: رامین رئیسی
 birth_date: ""
@@ -16,10 +16,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Baharestan
-incident_address: ""
+incident_address: Baharestan, Isfahan
 date_of_death: "2026-01-17"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -36,3 +36,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/7G0E78pdgELSDZc0D0DZiG
   - https://t.me/JavidnamaneVatan/1253
   - https://t.me/RememberTheirNames/1327
+  - https://www.threads.com/@love.balaa/post/DXfpgeZkb0b/video-posted-by-mah-mirzalou-love-balaa
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d13ed67c-699b-4df7-b623-cdfebe903df9
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

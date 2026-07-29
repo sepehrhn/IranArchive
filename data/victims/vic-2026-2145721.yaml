@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 45
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -23,3 +23,11 @@ description: Died in Haft-Hooz area of Tehran
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2506
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 9623df6c-7384-4b4c-8599-05f9e673b933
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:bf6ab7cf7402bbaf

@@ -11,15 +11,23 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: آزاد آمل, مازندران
-incident_address: ""
+incident_address: Unknown
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
-disappearance_circumstances: ""
+disappearance_circumstances: "Place of arrest: Unknown"
 suspected_actor: ""
 status: Missing
 detention_status: arrested
-description: ""
+description: external_source lists Mohammad Hossein Talebi as detained.
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1159
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 13668276-104e-4b6c-99d2-6931bec32092
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/students/69

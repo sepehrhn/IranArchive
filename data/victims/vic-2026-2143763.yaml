@@ -1,7 +1,7 @@
 external_card_id: "4847"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40237_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51827_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40237_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51827_0_telegram_v1.jpg
 name: Amir Mahboubi
 persian_name: امیر محبوبی
 birth_date: ""
@@ -16,7 +16,7 @@ incident_city: Qarchak
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Direct fire by Islamic Republic agents
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2391
   - https://t.me/JavidnamaneVatan/1327
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7fb7ba5d-598c-4c31-b76a-474cd7b32ce8
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

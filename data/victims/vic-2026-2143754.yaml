@@ -1,10 +1,10 @@
 external_card_id: "3459"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29383_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29628_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30296_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50453_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51917_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29383_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29628_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30296_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50453_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51917_0_telegram_v1.jpg
 name: Amir Hossein Mirzaei
 persian_name: امیرحسین میرزایی
 birth_date: ""
@@ -14,12 +14,12 @@ gender: Male
 age: 23
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Golestan
 incident_city: Gorgan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Direct fire by agents of the Islamic Republic
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,14 @@ source:
   - https://t.me/RememberTheirNames/2174
   - https://t.me/JavidnamaneVatan/624
   - https://t.me/JavidnamaneVatan/1417
+  - https://external_source.org/fa/heroes
+  - https://www.hra-news.org/
+external_source_ids:
+  - 0f454c1b-3213-4dd4-8c64-964f437046a7
+  - 1b051a48-16d6-4349-b74f-b22b6872bbd4
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,7 +1,7 @@
 external_card_id: "4552"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38632_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56212_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38632_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56212_0_twitter_v1.jpg
 name: Mohammad Karimi Parmahr
 persian_name: محمد کریمی پرمهر
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: 47
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Chalus
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -25,3 +25,15 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1082
   - https://x.com/iranwire/status/2027076933880615284
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+  - https://www.instagram.com/reel/DQoNA-jgVRq/
+external_source_ids:
+  - 6c04b856-d4fd-4b84-97c7-b2b8f26bbfe1
+  - df7483fd-43fc-4a88-89f7-e35538e0dc88
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/908
+  - iranintl-memorial:59311d0a8055eba1

@@ -9,10 +9,10 @@ gender: Female
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: ""
+incident_province: Qazvin
+incident_city: Qazvin
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -22,3 +22,12 @@ description: Mentioned as deceased, had dreams of becoming a professional photog
 source_type: Social Media
 source:
   - https://x.com/i/status/2026189579561128185
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - bad423fe-fa1c-45e8-84ab-76ec866a85b5
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/children/36

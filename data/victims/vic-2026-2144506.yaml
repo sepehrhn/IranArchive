@@ -1,8 +1,8 @@
 external_card_id: "3412"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29312_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38154_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38506_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29312_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38154_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38506_0_telegram_v1.jpg
 name: Kamyar Nesari
 persian_name: کامیار نثاری
 birth_date: ""
@@ -12,12 +12,12 @@ gender: Male
 age: 59
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -27,3 +27,11 @@ source:
   - https://javidnaman.iranintl.com/memorial/CoXljdUpHLN0XegRK2jikI
   - https://x.com/fseifikaran/status/2015453470657032264
   - https://t.me/RememberTheirNames/1216
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 6dadacf5-8ff1-4c1e-8788-57b52b69a130
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

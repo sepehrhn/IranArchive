@@ -1,8 +1,8 @@
 external_card_id: "3958"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30902_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42633_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52531_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30902_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42633_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52531_0_telegram_v1.jpg
 name: Amirmohammad Vaheedi
 persian_name: امیرمحمد وحیدی
 birth_date: ""
@@ -27,3 +27,11 @@ source:
   - https://t.me/RememberTheirNames/1937
   - https://www.instagram.com/p/DUq2OuBjFDx
   - https://t.me/JavidnamaneVatan/1830
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 763014bf-af92-4adb-bf92-1327fc2af8aa
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:68ccbaf41bee7f11

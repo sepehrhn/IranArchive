@@ -12,7 +12,7 @@ country: Iran
 incident_province: ""
 incident_city: Karaj
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -22,3 +22,12 @@ description: Victim documented in Iran International Memorial database
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/yEYwvbhpDrCFHYzchppDjH
+  - https://www.instagram.com/p/DVu2vmEDOtN/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d94f519c-8b62-4bd4-b9f6-c8e4aedf773a
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:218cc14b92efe000

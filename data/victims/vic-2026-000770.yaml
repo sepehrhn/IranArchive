@@ -1,18 +1,18 @@
 external_card_id: "2142"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23674_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24421_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24421_1_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25576_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28927_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29414_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37526_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50934_0_telegram_v1.jpg"
-  - "vic-2026-000770.jpg"
-  - "vic-2026-810a233051d6.jpg"
-  - "vic-2026-0804cd20fef4.png"
-  - "vic-2026-1388d62d524d.png"
-  - "vic-2026-52f8042f0eb2.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23674_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24421_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24421_1_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25576_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28927_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29414_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37526_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50934_0_telegram_v1.jpg
+  - vic-2026-000770.jpg
+  - vic-2026-810a233051d6.jpg
+  - vic-2026-0804cd20fef4.png
+  - vic-2026-1388d62d524d.png
+  - vic-2026-52f8042f0eb2.jpg
 name: Nima Palizgari
 persian_name: نیما پالیزگر
 birth_date: ""
@@ -22,9 +22,9 @@ gender: Male
 age: 40
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
-incident_address: ""
+incident_address: Fardis, Karaj
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -49,3 +49,12 @@ source:
   - https://x.com/soranmansournia/status/2012249572823720305
   - https://t.me/JavidnamaneVatan/1034
   - https://t.me/RememberTheirNames/389
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - fe66cfd1-e092-49c9-8f82-28d8bf6b26ba
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

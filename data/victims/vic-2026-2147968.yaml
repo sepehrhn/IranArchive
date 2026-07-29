@@ -20,7 +20,7 @@ occupation: ""
 country: Iran
 incident_province: Gilan
 incident_city: Gilan-e Gharb
-incident_address: ""
+incident_address: Gilan-e Gharb - Kermanshah
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -32,3 +32,11 @@ description: From Gilan-e Gharb, Kermanshah Province. Arrested by government for
 source_type: Social Media
 source:
   - https://hengaw.net/en/news/2026/01/article-65
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 8f21174b-a223-4bc9-aa82-cc722a6d487d
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

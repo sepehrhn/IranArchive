@@ -1,13 +1,13 @@
 external_card_id: "20"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19694_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19694_1_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19694_2_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19694_3_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19707_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_19878_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26238_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26795_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19694_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19694_1_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19694_2_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19694_3_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19707_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_19878_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26238_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26795_0_web_v1.jpg
 name: Amir Heydar Doust
 persian_name: امیر حیدردوست
 birth_date: ""
@@ -19,10 +19,10 @@ occupation: ""
 country: Iran
 incident_province: Gilan
 incident_city: Manjil
-incident_address: ""
+incident_address: منجیل استان گیلان | منجیل
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -37,3 +37,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMgrOk
   - https://javidnaman.iranintl.com/memorial/7G0E78pdgELSDZc0D7gpQy
   - https://x.com/IranNewsAgency0/status/2018613032247500891
+  - https://www.instagram.com/p/DWF4I4jgRAP/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a4330e75-515b-4ece-a4d2-b3c8eaa809bf
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,7 +1,7 @@
 external_card_id: "1345"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38891_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48376_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38891_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48376_0_web_v1.jpg
 name: Moslem Toshkan
 persian_name: مسلم توشکان
 birth_date: ""
@@ -13,7 +13,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Shahabad (Islamabad-e Gharb)
-incident_address: ""
+incident_address: Islamabad-e Gharb - Kermanshah
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -26,3 +26,11 @@ source:
   - https://x.com/nejatbahrami/status/2015451612404162809
   - https://t.me/RememberTheirNames/813
   - https://javidnaman.iranintl.com/memorial/RJjnIjSCmOs2kB7sdre7HY
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 801c5567-ff81-45ce-8b4d-c339bce9557e
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:62f7053a8978e074

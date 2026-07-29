@@ -6,7 +6,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 58
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -22,3 +22,12 @@ description: Killed during protests
 source_type: Social Media
 source:
   - https://x.com/FSeifikaran/status/2011734542428885036
+  - https://www.instagram.com/p/DUjkkm1khv-/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 0b55e0c2-56f3-4f90-bf08-e47da5677458
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

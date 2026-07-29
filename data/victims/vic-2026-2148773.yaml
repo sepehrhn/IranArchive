@@ -10,8 +10,8 @@ gender: Female
 age: 24
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: ""
+incident_province: Tehran
+incident_city: Tehran
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
@@ -27,3 +27,11 @@ source:
   - https://x.com/saarmot/status/2015571226446397844
   - https://x.com/mindy0100/status/2017780978547146896
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1136
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 87ff00b6-cfc0-4b4c-8876-42b8a74dc6f7
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

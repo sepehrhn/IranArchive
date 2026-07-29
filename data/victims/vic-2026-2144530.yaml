@@ -10,7 +10,7 @@ gender: Male
 age: 25
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -23,3 +23,12 @@ description: Killed by agents of the Islamic Republic
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/1260
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 5dff33a3-bfc2-4dcf-97da-e25d193f9517
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/3133

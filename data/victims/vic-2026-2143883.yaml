@@ -1,9 +1,9 @@
 external_card_id: "3257"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23118_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28954_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30808_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34793_0_web_v1.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23118_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28954_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30808_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34793_0_web_v1.png
 name: Amirreza Hasanvand
 persian_name: امیررضا حسنوند
 birth_date: ""
@@ -13,7 +13,7 @@ gender: Male
 age: 24
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Lorestan
 incident_city: Khorramabad
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -30,3 +30,12 @@ source:
   - https://x.com/khoshrof/status/2015475304580489489
   - https://t.me/RememberTheirNames/1840
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjX3GM3
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 1f1fe9b5-38d8-4b53-92fb-cdec33f607e0
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1315

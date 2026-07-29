@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 37
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -23,3 +23,12 @@ description: Incident occurred in Nasim Shahr area of Tehran
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2726
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c581dc18-3196-4d48-a28c-92b4bc17812e
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:12e4b8b47d5c1c1a

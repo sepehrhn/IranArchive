@@ -17,7 +17,7 @@ country: Iran
 incident_province: ""
 incident_city: Eslamshahr
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-03-30"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Student from Eslamshahr, Tehran province. Sentenced to death on charges of moharebeh (enmity against God) by Branch 15 of Tehran Revolutionary Court under Judge Salwati. Case relates to minor fire damage to a Sepah Bank ATM in Eslamshahr. According to Armin, the device suffered limited burning and was not completely burned. First arrested in Farvardin 1402. Family awaiting appeal hearing date at Supreme Court.
@@ -32,3 +32,13 @@ source:
   - https://x.com/iranwire/status/2025276577613807633
   - https://x.com/day19146/status/2025458660449681664
   - https://www.instagram.com/p/DVD6SOcDdex
+  - https://t.me/akhbar_bazdashtiha/280
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 230cafb2-7ee5-46c3-ae58-68ad182a6ae9
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

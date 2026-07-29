@@ -1,13 +1,13 @@
 external_card_id: "3689"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24279_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30124_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39661_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39778_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41856_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42214_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52810_0_twitter_v1.jpg"
-  - "vic-2026-41c82ceb15c1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24279_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30124_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39661_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39778_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41856_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42214_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52810_0_twitter_v1.jpg
+  - vic-2026-41c82ceb15c1.jpg
 name: Milad Ghaedi
 persian_name: میلاد قائدی
 birth_date: ""
@@ -19,10 +19,10 @@ occupation: ""
 country: Iran
 incident_province: Fars
 incident_city: Meymand
-incident_address: ""
+incident_address: میمند - فارس
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -37,3 +37,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/82746b43-36d0-4444-9c9f-5972ac5153cd
   - https://x.com/missmarpel75/status/2017344872592621705
   - https://x.com/gilasgoz/status/2022018302357463169
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 42d7365c-60cd-4128-b461-ca70093c37b6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

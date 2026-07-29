@@ -6,13 +6,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 19
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: ایلام, ایلام
-incident_address: ""
-date_of_death: ""
+incident_address: Ilam
+date_of_death: "2026-01-04"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Charges: نامشخص"
@@ -23,3 +23,11 @@ description: "Charges: نامشخص"
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1229
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 124a7b19-bb14-45dd-b834-5b407ba12573
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/children/45

@@ -1,7 +1,7 @@
 external_card_id: "4817"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40152_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49895_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40152_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49895_0_telegram_v1.jpg
 name: Ahad Akbari
 persian_name: احد اکبری
 birth_date: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2306
   - https://t.me/JavidnamaneVatan/235
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 6384af3f-e0b2-44a3-8c4a-f97e168abe47
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-07-27T02:15:04.547668+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1784

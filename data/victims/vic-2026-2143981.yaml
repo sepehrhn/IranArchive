@@ -1,11 +1,11 @@
 external_card_id: "2778"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26211_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30022_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30985_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42335_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51914_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_54233_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26211_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30022_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30985_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42335_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51914_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_54233_0_instagram_v1.jpg
 name: Azra Bahadori Nejad
 persian_name: عذرا بهادری
 birth_date: ""
@@ -15,12 +15,12 @@ gender: Female
 age: 47
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Sabzevar
 incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -35,3 +35,14 @@ source:
   - https://www.instagram.com/p/DUnCAiPDDYp
   - https://t.me/JavidnamaneVatan/1414
   - https://www.instagram.com/p/DVJYcM3j6cK
+  - https://external_source.org/fa/heroes
+  - https://www.hra-news.org/
+external_source_ids:
+  - 2f2283d1-d883-43ef-a312-11a80fada3a2
+  - 2708f536-374e-45a3-a5e2-64a257ed8dba
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - HRANA-CW-2026/protesters/2831

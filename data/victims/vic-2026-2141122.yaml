@@ -1,11 +1,11 @@
 external_card_id: "1466"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22157_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23564_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26858_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40088_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48731_0_twitter_v1.jpg"
-  - "vic-2026-91e75c4226f7.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22157_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23564_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26858_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40088_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48731_0_twitter_v1.jpg
+  - vic-2026-91e75c4226f7.jpg
 name: Abdullah Fathi Mard Manjazi
 persian_name: عبدالله فتحی
 birth_date: ""
@@ -17,7 +17,7 @@ occupation: ""
 country: Iran
 incident_province: Khuzestan
 incident_city: Shushtar
-incident_address: ""
+incident_address: Shushtar - Khuzestan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -32,3 +32,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/arh0kOme1YEvhe6nUr1dFr
   - https://x.com/kyokushinsoofi/status/2019810072738640137
   - https://x.com/historyinpik/status/2020971483032658055
+  - https://www.instagram.com/p/DVsFWzdDSLm/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - fb909ba2-7d9a-4b79-80e9-4f340941cab7
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:64c39335800921da

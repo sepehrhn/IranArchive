@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Arak
-incident_address: ""
-date_of_death: ""
+incident_address: City
+date_of_death: "2026-01-11"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Detained in Arak along with his cousin Younes Adineh, little information available about their current condition
@@ -25,3 +25,12 @@ description: Detained in Arak along with his cousin Younes Adineh, little inform
 source_type: Social Media
 source:
   - https://x.com/saeidvafa/status/2024353538613428467
+  - https://www.instagram.com/p/DU7i5eljURt/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 22e74db5-33e8-4a72-b9b6-599d2b4b0bef
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - external_source.org

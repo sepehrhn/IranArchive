@@ -6,7 +6,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 19
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,3 +23,12 @@ source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-901
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_2986
+  - https://www.threads.com/@media.mosavar/post/DVQ4OaUCgYg/%D8%B9%D9%84%DB%8C%D8%B1%D8%B6%D8%A7-%D8%AC%D9%88%D8%A7%D9%86%D8%A8%D8%AE%D8%AA%DB%B1%DB%B9-%D8%B3%D8%A7%D9%84%D9%87%D8%B3%D8%A7%DA%A9%D9%86-%D9%81%D8%B1%D8%AE%D8%B4%D9%87%D8%B1%D9%86%D9%88%D8%B2%D8%AF%D9%87-%D8%B3%D8%A7%D9%84%D8%A8%D8%A7-%D8%B2%D9%86%D8%AF%DA%AF%DB%8C%D8%A7%DB%8C-%DA%A9%D9%87-%D8%AA%D8%A7%D8%B2%D9%87-%D8%AF%D8%B1-%D8%AD%D8%A7%D9%84-%DA%AF%D8%B4%D9%88%D8%AF%D9%86-%D8%A8%D9%88%D8%AF%D8%A8%D8%A7-%D8%B1
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b6db27f3-0ebd-4892-b603-6055271f0548
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/2986

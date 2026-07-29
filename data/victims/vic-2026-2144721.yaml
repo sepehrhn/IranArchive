@@ -10,7 +10,7 @@ gender: Male
 age: 16
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -23,3 +23,12 @@ description: 16-year-old victim in Mashhad
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1392
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 555fbd85-a7d4-4f24-84ff-33210e421dcd
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/children/81

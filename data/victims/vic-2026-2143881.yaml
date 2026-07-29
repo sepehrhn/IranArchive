@@ -10,7 +10,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Golestan
 incident_city: Gorgan
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -23,3 +23,12 @@ description: Death occurred in Gorgan on 19 Dey 1404
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/904
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - ee0d6566-915a-4909-9640-bfb02d985a8b
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1284

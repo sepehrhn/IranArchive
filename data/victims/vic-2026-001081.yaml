@@ -1,17 +1,17 @@
 external_card_id: "786"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24027_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25621_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38448_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41174_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53671_0_instagram_v1.jpg"
-  - "vic-2026-001081.jpg"
-  - "vic-2026-997a99897a28.jpg"
-  - "vic-2026-8f6f72235108.jpg"
-  - "vic-2026-001682.jpg"
-  - "vic-2026-c5bdb59ad168.jpg"
-  - "vic-2026-2907c210fd03.jpg"
-  - "vic-2026-b70cd0490dac.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24027_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25621_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38448_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41174_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53671_0_instagram_v1.jpg
+  - vic-2026-001081.jpg
+  - vic-2026-997a99897a28.jpg
+  - vic-2026-8f6f72235108.jpg
+  - vic-2026-001682.jpg
+  - vic-2026-c5bdb59ad168.jpg
+  - vic-2026-2907c210fd03.jpg
+  - vic-2026-b70cd0490dac.jpg
 name: Farshad Saki
 persian_name: فرشاد ساکی
 birth_date: ""
@@ -21,9 +21,9 @@ gender: Male
 age: 36
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Yaftabad
-incident_address: ""
+incident_address: Yaft Abad, Tehran | Tehran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -47,3 +47,12 @@ source:
   - https://x.com/tonyfreeman2015/status/2015649188369834163
   - https://x.com/i/status/2015649188369834163
   - https://x.com/Walterakam/status/2015877884447994162
+  - https://iranunified.com/remember/farshad-saki/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 31b8e002-8977-4bd2-82bc-fa1fa3df1943
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

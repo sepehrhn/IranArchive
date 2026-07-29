@@ -1,10 +1,10 @@
 external_card_id: "2923"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26695_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30163_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41939_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_54185_0_telegram_v1.jpg"
-  - "vic-2026-80deed348f34.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26695_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30163_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41939_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_54185_0_telegram_v1.jpg
+  - vic-2026-80deed348f34.jpg
 name: Abbas Moradi
 persian_name: عباس مرادی
 birth_date: ""
@@ -16,7 +16,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Andisheh
-incident_address: ""
+incident_address: Andisheh - Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -30,3 +30,12 @@ source:
   - https://x.com/kyokushinsoofi/status/2018379010905100552
   - https://t.me/RememberTheirNames/2732
   - https://t.me/RememberTheirNames/3163
+  - https://www.instagram.com/p/DVsFXyojeX-/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7d80a931-36f7-4346-aabb-1523ec09c83b
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:ae21be4ef964b402

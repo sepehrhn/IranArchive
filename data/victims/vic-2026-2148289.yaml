@@ -14,8 +14,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: مشهد, خراسان رضوی
-incident_address: ""
-date_of_death: ""
+incident_address: Mashhad
+date_of_death: "2026-01-30"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested from home at 7 PM. Has broken hands and jaw, and suffers from heart disease. Being tortured while having heart condition. Family told they need 4 billion toman bail for release.
@@ -28,3 +28,11 @@ source:
   - https://x.com/ewenniii/status/2017546564667933010
   - https://x.com/itsongbird7777/status/2017496022222549395
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-685
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 2fedfe41-06de-4b2f-909b-8f2fd28c44fd
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/873

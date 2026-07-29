@@ -1,7 +1,7 @@
 external_card_id: "3981"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29361_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30967_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29361_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30967_0_telegram_v1.jpg
 name: Amir Taha Eskandari Shirjabad
 persian_name: امیر طاها اسکندری شیرج‌آباد
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: 19
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Eslamshahr
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -26,3 +26,14 @@ source:
   - https://javidnaman.iranintl.com/memorial/CoXljdUpHLN0XegRK1lNjD
   - https://x.com/HeKasrehCrisis/status/2017844846141055347
   - https://t.me/RememberTheirNames/1991
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - adb79e0a-e8e7-46cb-b290-ec8c1f00206c
+  - eedcc771-b441-4905-a691-dffcd4057141
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1997
+  - https://t.me/RememberTheirNames

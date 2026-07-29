@@ -1,13 +1,13 @@
 external_card_id: "2372"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24363_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26758_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41860_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41914_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47709_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49640_0_telegram_v1.jpg"
-  - "vic-2026-884df9699508.jpg"
-  - "vic-2026-59438f9cfba4.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24363_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26758_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41860_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41914_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47709_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49640_0_telegram_v1.jpg
+  - vic-2026-884df9699508.jpg
+  - vic-2026-59438f9cfba4.jpg
 name: Ghasem Shams
 persian_name: قاسم شمس
 birth_date: ""
@@ -19,7 +19,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Ferdowsieh, Shahriyar
-incident_address: ""
+incident_address: Shahriar - Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -35,3 +35,12 @@ source:
   - https://t.me/RememberTheirNames/2707
   - https://www.instagram.com/p/DUqNt47gBsu
   - https://t.me/JavidnamaneVatan/16
+  - https://www.instagram.com/p/DUqNt47gBsu/?hl=en
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a7ea3081-68b4-47d1-8c72-6767f8cbb32b
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:89ffdb8f17ae98bb

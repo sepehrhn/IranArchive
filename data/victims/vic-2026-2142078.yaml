@@ -20,7 +20,7 @@ country: Iran
 incident_province: Kerman
 incident_city: Kerman
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Citizen from Kerman who was arrested during protests and taken away. Since that day, his whereabouts, condition, and whether he is alive or dead are unknown.
@@ -37,3 +37,13 @@ source:
   - https://x.com/saarmot/status/2015938472750567823
   - https://x.com/mushiomili2/status/2016953283810607266
   - https://www.instagram.com/p/DU-VK-DEssm
+  - https://t.me/akhbar_bazdashtiha/415
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d4367fa7-8f1e-4e8d-ac2a-21236bd8b05c
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

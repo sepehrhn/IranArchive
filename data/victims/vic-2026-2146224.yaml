@@ -8,18 +8,18 @@ photo:
   - https://storage.googleapis.com/media-cdn-7k9x2/img_55834_5_web_v1.jpg
   - https://storage.googleapis.com/media-cdn-7k9x2/img_55834_6_web_v1.jpg
 name: Alireza Karimi
-persian_name: ""
+persian_name: علیرضا کریمی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 23
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Sedeh Lenjan
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Resident of Sedeh Lenjan, Isfahan Province, arrested during December protests
@@ -30,3 +30,11 @@ description: Resident of Sedeh Lenjan, Isfahan Province, arrested during Decembe
 source_type: Social Media
 source:
   - https://hengaw.net/en/news/2026/01/article-34
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b7f3aac4-5251-4803-abf1-9ebd2e81dfa4
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/1210

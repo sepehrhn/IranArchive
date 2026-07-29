@@ -13,10 +13,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Khorasan Square, Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Direct fire by forces of the Islamic Republic
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -28,3 +28,11 @@ source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/1701
   - https://t.me/RememberTheirNames/1546
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 963935cc-e080-46a0-96df-b264afde07ac
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

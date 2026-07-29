@@ -13,7 +13,7 @@ country: Iran
 incident_province: ""
 incident_city: Tabriz
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-02-16"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Student at Tabriz University of Medical Sciences, mentioned in context of not being forgotten and needing media attention
@@ -24,3 +24,12 @@ description: Student at Tabriz University of Medical Sciences, mentioned in cont
 source_type: Social Media
 source:
   - https://x.com/avin585/status/2026429354469654964
+  - https://t.me/akhbar_bazdashtiha/765
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 12207847-45e9-4919-9482-9278baf622e4
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

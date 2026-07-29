@@ -21,7 +21,7 @@ gender: Male
 age: 30
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -38,3 +38,12 @@ source:
   - https://x.com/jeanne2022rev/status/2015786366378934653
   - https://hengaw.net/en/news/2026/01/article-84
   - https://hengaw.net/en/news/2026/01/article-76
+  - https://t.me/akhbar_bazdashtiha/627
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7b3a5f0a-a5f5-40d6-9980-63de7e7d184a
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

@@ -1,18 +1,18 @@
 external_card_id: "8594"
 photo: []
 name: Hani Torabian
-persian_name: ""
+persian_name: هانی ترابیان
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Female
 age: 37
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Hamedan Province
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-07"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Detained during protests. Listed in HRANA's 'Identified Detainees' section of The Crimson Winter report. Date of arrest: January 12, 2026 (1404/10/23). Current status: Detained in Tuyserkan Prison, Ward 3 (Defendants). Original source: HRANA."
@@ -25,3 +25,11 @@ source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1376
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1575
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1585
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 37782e8f-7a3c-460d-9054-54b0cb68608c
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/1575

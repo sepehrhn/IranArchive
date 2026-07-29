@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 39
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -23,3 +23,12 @@ description: Killed during the January 2026 protests in Tehran
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2972
+  - https://javidnaman.iranintl.com/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - f4b9bd39-7721-4b37-9389-bd86f0eaa630
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - https://t.me/RememberTheirNames

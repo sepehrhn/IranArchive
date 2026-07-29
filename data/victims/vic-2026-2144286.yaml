@@ -1,12 +1,12 @@
 external_card_id: "823"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20952_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21023_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22319_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25506_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38811_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49823_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50528_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20952_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21023_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22319_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25506_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38811_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49823_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50528_0_telegram_v1.jpg
 name: Hamidreza Hematilor Bahmei
 persian_name: حمیدرضا همتی
 birth_date: ""
@@ -21,7 +21,7 @@ incident_city: Isfahan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -37,3 +37,11 @@ source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-900
   - https://t.me/JavidnamaneVatan/163
   - https://t.me/JavidnamaneVatan/699
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 83b6252b-37d3-4458-8f4f-5e9669482f3d
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

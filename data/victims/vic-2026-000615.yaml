@@ -1,19 +1,19 @@
 external_card_id: "4091"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31297_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49606_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50165_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53530_0_telegram_v1.jpg"
-  - "vic-2026-000615.jpg"
-  - "vic-2026-caa4745e6e76.jpg"
-  - "vic-2026-d7b4285aea95.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31297_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49606_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50165_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53530_0_telegram_v1.jpg
+  - vic-2026-000615.jpg
+  - vic-2026-caa4745e6e76.jpg
+  - vic-2026-d7b4285aea95.jpg
 name: Hadi Forough
 persian_name: هادی فروغ
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 43
 occupation: ""
 country: Iran
 incident_province: Tehran
@@ -42,3 +42,12 @@ source:
   - https://x.com/sonofthebeach22/status/2015026105967575469
   - https://x.com/HeKasrehCrisis/status/2015538900425466045
   - https://t.me/RememberTheirNames/201
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 8f7ab29e-cad0-43c4-92db-12962becb29e
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

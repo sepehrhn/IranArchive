@@ -5,13 +5,13 @@ persian_name: مرصاد رستم‌پور
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: یاسوج, کهگیلویه و بویراحمد
-incident_address: ""
+incident_address: Yasuj
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -27,3 +27,11 @@ description: |-
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-298
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 1cc317ee-d0cf-4c0c-b4a7-a71e5a902880
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/2243

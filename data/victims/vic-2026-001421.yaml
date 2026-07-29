@@ -1,15 +1,15 @@
 external_card_id: "1465"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22156_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22363_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26958_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30229_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34058_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38515_0_telegram_v1.jpg"
-  - "vic-2026-001421.jpg"
-  - "vic-2026-e850353535ab.jpg"
-  - "vic-2026-76b1b30c2972.jpg"
-  - "vic-2026-33a02595497a.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22156_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22363_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26958_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30229_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34058_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38515_0_telegram_v1.jpg
+  - vic-2026-001421.jpg
+  - vic-2026-e850353535ab.jpg
+  - vic-2026-76b1b30c2972.jpg
+  - vic-2026-33a02595497a.jpg
 name: Milad Mohebbi
 persian_name: میلاد محبی
 birth_date: ""
@@ -24,7 +24,7 @@ incident_city: Kermanshah
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -47,3 +47,11 @@ source:
   - https://x.com/missmarpel75/status/2018816204778217682
   - https://t.me/RememberTheirNames/1207
   - https://x.com/atenamoghaddam1/status/2015609532958089242
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 8597b609-5cae-4127-936c-afbd9474e564
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

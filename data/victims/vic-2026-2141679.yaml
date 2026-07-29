@@ -1,8 +1,8 @@
 external_card_id: "7705"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26440_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51629_0_telegram_v1.jpg"
-  - "vic-2026-7171e1073a7b.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26440_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51629_0_telegram_v1.jpg
+  - vic-2026-7171e1073a7b.png
 name: Reza Rahmati Pak
 persian_name: رضا رحمتی
 birth_date: ""
@@ -15,7 +15,7 @@ country: Iran
 incident_province: Tehran
 incident_city: Sarsabil
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-07"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/3Fy5sC7qrylDAVNVjVRYMr
   - https://t.me/JavidnamaneVatan/1145
+  - https://www.instagram.com/p/DVhJTlIEehg/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - ae68e1ea-69a5-4275-b14f-65a4477fcf72
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:c8bc85ffd5e95ebd

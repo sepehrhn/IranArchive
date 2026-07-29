@@ -7,13 +7,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 19
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Yasuj
-incident_address: ""
-date_of_death: ""
+incident_address: Yasuj
+date_of_death: "2026-01-15"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Kidnapped/detained teenager in Yasuj ruins area
@@ -24,3 +24,11 @@ description: Kidnapped/detained teenager in Yasuj ruins area
 source_type: Social Media
 source:
   - https://x.com/baharatish/status/2024968115142934895
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b8d9c838-6248-44f5-939e-c550cb356fac
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/children/305

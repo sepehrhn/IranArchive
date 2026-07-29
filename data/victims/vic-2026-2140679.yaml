@@ -8,15 +8,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 26
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -24,3 +24,11 @@ description: Died on his path to freedom (در مسیر آزادی به جاود
 source_type: Social Media
 source:
   - https://x.com/hoorieh81/status/2017228163667964018
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 81a9c3ba-df26-40c3-847b-70978f8eed3f
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:9703124f4cee0de2

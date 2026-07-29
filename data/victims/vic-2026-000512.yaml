@@ -1,23 +1,23 @@
 external_card_id: "691"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20698_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39067_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49745_0_telegram_v1.jpg"
-  - "vic-2026-000512.jpg"
-  - "vic-2026-20b1c14075b9.jpg"
-  - "vic-2026-f135d69129bd.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20698_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39067_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49745_0_telegram_v1.jpg
+  - vic-2026-000512.jpg
+  - vic-2026-20b1c14075b9.jpg
+  - vic-2026-f135d69129bd.jpg
 name: Alireza Sedian
 persian_name: علیرضا سدیان
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 22
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Farakhshahr
-incident_address: ""
+incident_address: فرخشهر، استان چهارمحال و بختیاری
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -31,3 +31,12 @@ source:
   - https://t.me/RememberTheirNames/629
   - https://t.me/JavidnamaneVatan/121
   - https://x.com/sonofthebeach22/status/2016877669342646578
+  - https://www.instagram.com/reel/DZB_K59sW1A/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - e2c37083-dec4-4d60-b8c1-908f12bcc1ce
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:6d55dbc4048eaa6b

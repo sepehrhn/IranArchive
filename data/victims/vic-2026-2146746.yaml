@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: Ilam
 incident_city: Lumar
-incident_address: ""
-date_of_death: ""
+incident_address: Lumar
+date_of_death: "2026-01-18"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 38-year-old Kurdish citizen from Lumar city in Ilam Province, arrested by Islamic Republic of Iran government forces on Wednesday 8 Bahman 1404 and transferred to an unknown location. Despite 12 days passing since his arrest, no information about his fate or detention location is available, and his family's inquiries have been unsuccessful.
@@ -26,3 +26,11 @@ source_type: Social Media
 source:
   - https://x.com/kurdpa_farsi/status/2020450179359625454
   - https://x.com/hengawo/status/2020833555295641685
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 9d6c37fb-9f67-4518-85a9-31a94800b87f
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/858

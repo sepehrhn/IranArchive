@@ -10,7 +10,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Rasht
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -23,3 +23,12 @@ description: Listed as victim number 2162 in memorial account
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2280
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - bdd6c4d0-b95d-4190-9807-446084cfb579
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1715

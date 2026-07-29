@@ -1,7 +1,7 @@
 external_card_id: "4287"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34728_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38760_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34728_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38760_0_telegram_v1.jpg
 name: Mojgan Erfanifar
 persian_name: مژگان عرفانی‌فر
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Female
 age: 40
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Sabzevar
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -20,8 +20,16 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: external_source lists Mozhgan Erfanifar among those killed on 2026-01-08 in Sabzevar, Razavi Khorasan.
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/yEYwvbhpDrCFHYzchUG4T3
   - https://t.me/RememberTheirNames/948
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7fae28ef-95ff-47d7-b694-a32a7393f0db
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:ec7e2cf922aefe2c

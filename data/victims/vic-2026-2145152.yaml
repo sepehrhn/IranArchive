@@ -7,15 +7,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 45
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Fardis Karaj
-incident_address: ""
+incident_address: Madani Hospital, Karaj
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Hit by a live bullet to the back of the knee and severe bleeding
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,13 @@ description: Killed in Fardis Karaj. He was the principal of Niknam High School 
 source_type: Social Media
 source:
   - https://www.instagram.com/p/DVAlZL0AOXA
+  - https://t.me/JavidnamaneVatan/1438
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - cb45f5e7-170d-4fb7-b6e8-d6279a7ce858
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

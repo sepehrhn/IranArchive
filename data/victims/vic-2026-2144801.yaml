@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 33
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,3 +23,12 @@ description: Death occurred in Karaj on 18 Dey 1404
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2964
+  - https://www.instagram.com/p/DU6_FUIgTjQ/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a9b592e1-6a7b-4416-8179-52bd31be7c98
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:5d1e251964f65b0f

@@ -1,8 +1,8 @@
 external_card_id: "2616"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25843_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30792_0_telegram_v1.jpg"
-  - "vic-2026-de8e4d1d6dae.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25843_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30792_0_telegram_v1.jpg
+  - vic-2026-de8e4d1d6dae.jpg
 name: Rahman Hosseinnejad
 persian_name: رحمان حسین‌نژاد
 birth_date: ""
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/iranwire/status/2017713755740680619
   - https://t.me/RememberTheirNames/1824
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 67ea1c3a-4516-461e-9c7d-14b8dc065c70
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/534

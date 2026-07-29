@@ -1,24 +1,24 @@
 external_card_id: "2851"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26472_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39600_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55830_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55830_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55830_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55830_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55830_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55830_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55830_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55830_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55830_8_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55829_7_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26472_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39600_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55830_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55830_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55830_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55830_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55830_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55830_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55830_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55830_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55830_8_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55829_7_web_v1.jpg
 name: Akram Pirgazi
 persian_name: اکرم پیرگزی
 birth_date: ""
@@ -30,10 +30,10 @@ occupation: ""
 country: Iran
 incident_province: Razavi Khorasan
 incident_city: Neyshabur
-incident_address: ""
+incident_address: Neyshabur, Razavi Khorasan | Neyshabur
 date_of_death: "2026-01-07"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -45,3 +45,14 @@ source:
   - https://x.com/gilasgoz/status/2022252927830917520
   - https://hengaw.net/en/news/2026/01/article-65
   - https://hengaw.net/en/news/2026/01/article-68
+  - https://external_source.org/fa/heroes
+  - https://www.hra-news.org/
+external_source_ids:
+  - 4bbe7569-c825-4d9f-b457-3de13bcd20a2
+  - cd6cd314-6a9a-4b3b-88c9-45c4ef398af8
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - HRANA-CW-2026/protesters/32

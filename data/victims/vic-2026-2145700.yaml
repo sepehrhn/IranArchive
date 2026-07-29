@@ -1,24 +1,24 @@
 external_card_id: "3860"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30665_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39810_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50616_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50675_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30665_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39810_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50616_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50675_0_telegram_v1.jpg
 name: Seyyed Mehdi Ahmadi
 persian_name: مهدی احمدی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 23
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Markazi
 incident_city: Arak
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Direct shooting at the heart by agents
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -30,3 +30,12 @@ source:
   - https://t.me/JavidnamaneVatan/741
   - https://t.me/JavidnamaneVatan/800
   - https://x.com/gilasgoz/status/2022016021914431992
+  - https://www.instagram.com/reel/DUie7yzABpW/?hl=en
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a32f0551-951e-49ae-b73b-24605f82e0bd
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

@@ -1,10 +1,10 @@
 external_card_id: "3230"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28866_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30825_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39804_0_twitter_v1.jpg"
-  - "vic-2026-2139816.jpg"
-  - "vic-2026-65a1ef850ce9.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28866_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30825_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39804_0_twitter_v1.jpg
+  - vic-2026-2139816.jpg
+  - vic-2026-65a1ef850ce9.jpg
 name: Mohammad Yazdani
 persian_name: محمد یزدانی
 birth_date: ""
@@ -16,10 +16,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Shahrqods
-incident_address: ""
+incident_address: Shahr-e Qods, Tehran
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -33,3 +33,12 @@ source:
   - https://t.me/RememberTheirNames/1860
   - https://x.com/becrebb/status/2016666868501942298
   - https://t.me/javanmardi77/154079
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 44d97f9b-4bcf-472b-8de5-54694edb19bc
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

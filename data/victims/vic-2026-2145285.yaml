@@ -1,12 +1,12 @@
 external_card_id: "8212"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23154_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23341_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25470_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25596_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29435_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52863_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52863_1_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23154_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23341_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25470_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25596_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29435_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52863_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52863_1_twitter_v1.jpg
 name: Naznin Taqva Shirdokhtar
 persian_name: نازنین تقوا
 birth_date: ""
@@ -21,7 +21,7 @@ incident_city: Rasht
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -36,3 +36,12 @@ source:
   - https://x.com/irannewsagency0/status/2020772905970245969
   - https://x.com/omid_133a/status/2017521832346227173
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_1356
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 1d074439-0f15-44d4-a173-36141590a7b2
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

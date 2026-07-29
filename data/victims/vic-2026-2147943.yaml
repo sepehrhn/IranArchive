@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tabriz
-incident_address: ""
-date_of_death: ""
+incident_address: Tabriz
+date_of_death: "2026-02-15"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested at her personal residence in Tabriz by plainclothes forces. All personal belongings including laptop, mobile phone, and flash drives were confiscated.
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/mrsamsolomon/status/2023795608428093794
   - https://x.com/khatibiofficial/status/2025219464912830719
+  - https://www.instagram.com/p/DU5FldojYzZ/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 94b16c5e-1ef6-4d20-bcd5-ee4cfb69c949
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - external_source.org

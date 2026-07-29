@@ -1,9 +1,9 @@
 external_card_id: "2737"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26128_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29663_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38414_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50807_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26128_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29663_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38414_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50807_0_telegram_v1.jpg
 name: Sajjad Kamankeshan
 persian_name: سجاد کمان‌کش
 birth_date: ""
@@ -15,10 +15,10 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Khomein
-incident_address: ""
+incident_address: Arak
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -33,3 +33,11 @@ source:
   - https://t.me/RememberTheirNames/1312
   - https://t.me/JavidnamaneVatan/907
   - https://x.com/irannewsagency0/status/2026956475571093849
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7165a654-22e3-45a2-a48f-b265c2aa37fb
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

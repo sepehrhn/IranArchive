@@ -1,7 +1,7 @@
 external_card_id: "8793"
 photo: []
 name: Soheil Yavari
-persian_name: ""
+persian_name: سهیل یاوری
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -12,7 +12,7 @@ country: Iran
 incident_province: ""
 incident_city: Hamedan Province
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Detained during protests. Listed in HRANA's 'Identified Detainees' section of The Crimson Winter report. Date of arrest: January 8, 2026 (1404/10/19). Current status: Unknown. Original source: HRANA."
@@ -23,3 +23,11 @@ description: "Detained during protests. Listed in HRANA's 'Identified Detainees'
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1630
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - fb18e7b9-16b3-49aa-97e7-23c70e64ba6d
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/1630

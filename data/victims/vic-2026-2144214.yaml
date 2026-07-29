@@ -12,7 +12,7 @@ country: Iran
 incident_province: ""
 incident_city: ""
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -22,3 +22,12 @@ description: "Killed during killed protester citizens protests. HRANA verificati
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_3043
+  - https://fa.wikipedia.org/wiki/%D9%81%D9%87%D8%B1%D8%B3%D8%AA_%D8%AF%D9%88%D9%84%D8%AA%DB%8C_%DA%A9%D8%B4%D8%AA%D9%87%E2%80%8C%D8%B4%D8%AF%DA%AF%D8%A7%D9%86_%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6%D8%A7%D8%AA_%D8%AF%DB%8C_%DB%B1%DB%B4%DB%B0%DB%B4_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7e43074d-18da-4ce1-87d3-35c411ce600c
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/3043

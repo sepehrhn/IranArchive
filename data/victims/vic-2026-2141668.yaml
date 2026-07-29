@@ -14,13 +14,21 @@ country: Iran
 incident_province: Gilan
 incident_city: Kolachai
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: external_source lists Ramtin Keshavarz Ghasemabadi among those killed on 2026-01-08 in Kelachay, Gilan, Gilan.
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaT7rtyj
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 855a0a09-e4a2-4c20-977d-de06d4432838
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:e8a13cdbf7240286

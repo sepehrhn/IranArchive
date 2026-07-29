@@ -1,7 +1,7 @@
 external_card_id: "8552"
 photo: []
 name: Amir Mehdi Rostami Mymand
-persian_name: ""
+persian_name: امیرمهدی رستمی میمند
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -12,7 +12,7 @@ country: Iran
 incident_province: ""
 incident_city: Hamedan Prison
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-03"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Detained during protests. Listed in HRANA's 'Identified Detainees' section of The Crimson Winter report. Date of arrest: January 9, 2026 (1404/10/20). Current status: Detained in Tuyserkan Prison, Ward 1 (Care and Health). Original source: HRANA."
@@ -26,3 +26,11 @@ source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1472
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1501
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1516
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d62ad10c-5b1a-4878-8193-e080a35c487c
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/1472

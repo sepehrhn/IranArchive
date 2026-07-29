@@ -1,9 +1,9 @@
 external_card_id: "1245"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21678_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25502_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42237_0_web_v1.jpg"
-  - "vic-2026-f03919bd3d63.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21678_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25502_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42237_0_web_v1.jpg
+  - vic-2026-f03919bd3d63.jpg
 name: Alireza Khodadadei
 persian_name: علیرضا خداداده‌ای
 birth_date: ""
@@ -16,9 +16,9 @@ country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,12 @@ source:
   - https://x.com/i/status/2015435523435717061
   - https://x.com/mousavi1355/status/2017464437091799131
   - https://javidnaman.iranintl.com/memorial/LqRhfyF7r3RGaorrWJWAYy
+  - https://www.instagram.com/reel/DU34_TUCNZB/?hl=en
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 47fdb243-877b-4c3b-a12a-1e733006d3ec
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:cbfbe1287d5c1745

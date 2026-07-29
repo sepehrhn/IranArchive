@@ -1,14 +1,14 @@
 external_card_id: "392"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20240_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39362_0_telegram_v1.jpg"
-  - "vic-2026-000181.jpg"
-  - "vic-2026-686bdbbc6cab.jpg"
-  - "vic-2026-2139796.jpg"
-  - "vic-2026-dadbcf25a940.jpg"
-  - "vic-2026-aeb6721f2527.jpg"
-  - "vic-2026-c133488c84f8.jpg"
-  - "vic-2026-a8e948a1c619.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20240_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39362_0_telegram_v1.jpg
+  - vic-2026-000181.jpg
+  - vic-2026-686bdbbc6cab.jpg
+  - vic-2026-2139796.jpg
+  - vic-2026-dadbcf25a940.jpg
+  - vic-2026-aeb6721f2527.jpg
+  - vic-2026-c133488c84f8.jpg
+  - vic-2026-a8e948a1c619.jpg
 name: Hossein Khabiri
 persian_name: حسین خبیری
 birth_date: ""
@@ -18,7 +18,7 @@ gender: Male
 age: 25
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Karaj
 incident_address: Mehrshahr
 date_of_death: "2026-01-10"
@@ -40,3 +40,12 @@ source:
   - https://t.me/RememberTheirNames/324
   - https://x.com/KurdistanHRN/status/2016642848137904294
   - https://x.com/masoudkazemi81/status/2017117673381863718
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 9f16bcbe-9607-4e10-909e-206a6faf195c
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

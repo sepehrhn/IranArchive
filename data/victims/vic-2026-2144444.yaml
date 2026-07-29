@@ -1,9 +1,9 @@
 external_card_id: "2768"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26195_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31032_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41872_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50238_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26195_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31032_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41872_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50238_0_telegram_v1.jpg
 name: Iraj Kiani Boroujeni
 persian_name: ایرج کیانی
 birth_date: ""
@@ -18,7 +18,7 @@ incident_city: Isfahan
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -30,3 +30,15 @@ source:
   - https://x.com/irannewsagency0/status/2021269491783479769
   - https://t.me/JavidnamaneVatan/437
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_2058
+  - https://x.com/IranIntl/status/2021268981357654126?lang=en
+  - https://external_source.org/fa/heroes
+  - https://www.hra-news.org/
+external_source_ids:
+  - d3e7b65c-1979-4596-bfc6-9c8f7b1d5e17
+  - f0ba8b3c-feaa-4778-afa2-55991eb11303
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - HRANA-CW-2026/protesters/2058

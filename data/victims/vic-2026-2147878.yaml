@@ -6,12 +6,12 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 30
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Arak
-incident_address: ""
+incident_address: مغازه محل کارش
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -23,3 +23,13 @@ description: Barber on Imam Street in Arak who disappeared on Saturday, January 
 source_type: Social Media
 source:
   - https://x.com/saeidvafa/status/2016500497725734987
+  - https://t.me/akhbar_bazdashtiha/129
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a16539c6-ca81-4d2d-ac34-3947fe3c183d
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

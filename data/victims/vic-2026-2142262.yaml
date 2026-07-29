@@ -1,8 +1,8 @@
 external_card_id: "2483"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25516_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31191_0_telegram_v1.jpg"
-  - "vic-2026-cbb3e9bfb4c6.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25516_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31191_0_telegram_v1.jpg
+  - vic-2026-cbb3e9bfb4c6.jpg
 name: Nima Samari
 persian_name: نیما ثمری
 birth_date: ""
@@ -17,7 +17,7 @@ incident_city: Tehran
 incident_address: ""
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -26,3 +26,11 @@ source_type: Social Media
 source:
   - https://x.com/realmeaban/status/2017258887464820758
   - https://t.me/javidnamhamedan/67
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 8457ed41-ac1e-4a8b-a410-498c5d71d0ef
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,8 +1,8 @@
 external_card_id: "1538"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22311_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38468_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42258_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22311_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38468_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42258_0_web_v1.jpg
 name: Bahram Abbasgholijadeh
 persian_name: بهرام عباسقلی‌زاده
 birth_date: ""
@@ -27,3 +27,12 @@ source:
   - https://x.com/FSeifikaran/status/2016024097470205988
   - https://t.me/RememberTheirNames/1256
   - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMgveD
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c1e4cf5e-6ced-4cc8-94f7-1db325c21738
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:b410b0f721941b80

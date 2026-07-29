@@ -11,9 +11,9 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: ""
-incident_address: ""
+incident_province: Kurdistan
+incident_city: Marivan
+incident_address: Marivan - Kani Dinar
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -25,3 +25,11 @@ description: Kurdish citizen arrested during December protests in cities of Luma
 source_type: Social Media
 source:
   - https://x.com/HengawO/status/2012472910401642719
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d29db326-96e6-42d5-8021-fb6ec5990326
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

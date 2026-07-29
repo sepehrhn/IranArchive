@@ -14,8 +14,8 @@ occupation: ""
 country: Iran
 incident_province: Kerman
 incident_city: Kerman
-incident_address: ""
-date_of_death: ""
+incident_address: محل کارش
+date_of_death: "2024-02-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Baha'i citizen arrested by security agents at his workplace on Tuesday 21 Bahman during protests in Kerman. After searching his home, he was transferred to an unknown location. Part of arrests targeting Baha'i citizens of Kerman coinciding with popular protests.
@@ -28,3 +28,12 @@ source:
   - https://x.com/shaghayeeee/status/2021322033129247009
   - https://x.com/kian_sabeti/status/2021338710407774401
   - https://x.com/hengawo/status/2021577260080287915
+  - https://t.me/akhbar_bazdashtiha/147
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - f537d6c1-d097-48f5-8e6e-9310a57d203c
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

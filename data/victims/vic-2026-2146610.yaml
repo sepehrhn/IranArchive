@@ -14,8 +14,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Rasht
-incident_address: ""
-date_of_death: ""
+incident_address: Rasht
+date_of_death: "2026-02-01"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Brother of Mohammad Rasul Momeni Zadeh who was killed during the Jina uprising. Arrested on morning of 13 Bahman month when security forces raided his home, broke down the door. During the raid, mobile phone and electronic devices were confiscated. The arresting agency and his detention location are unknown.
@@ -30,3 +30,11 @@ source:
   - https://x.com/Tavaana/status/2018389174945210693
   - https://x.com/IranNewsAgency0/status/2018596054464077904
   - https://x.com/hemadnazari/status/2019919854086836545
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - ad9fb3a0-168c-4e9e-af7c-a264d1ed9586
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/914

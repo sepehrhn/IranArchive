@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Zanjan
 incident_city: Zanjan
-incident_address: ""
-date_of_death: ""
+incident_address: خیابان سعدی زنجان
+date_of_death: "2023-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 24-year-old Kurdish citizen from Sanandaj, nutrition student at Zanjan University, working at a cafe in Zanjan. Arrested by Islamic Republic forces while leaving work near Saadi Street after finishing his shift. Transferred to unknown location and his fate remains unknown despite 31 days passing since arrest.
@@ -24,3 +24,12 @@ description: 24-year-old Kurdish citizen from Sanandaj, nutrition student at Zan
 source_type: Social Media
 source:
   - https://x.com/hengawo/status/2020839931506053323
+  - https://t.me/akhbar_bazdashtiha/72
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d9754460-aa57-4ceb-a3bf-ec9c709c4613
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

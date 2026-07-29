@@ -1,13 +1,13 @@
 external_card_id: "1878"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23117_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31066_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34206_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40836_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41049_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49054_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49801_0_telegram_v1.jpg"
-  - "vic-2026-cb323f917325.png"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23117_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31066_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34206_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40836_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41049_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49054_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49801_0_telegram_v1.jpg
+  - vic-2026-cb323f917325.png
 name: Hesam Tabassi
 persian_name: حسام طبسی
 birth_date: ""
@@ -19,7 +19,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehranpars, Tehran
-incident_address: ""
+incident_address: Tehranpars neighborhood, Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -37,3 +37,11 @@ source:
   - https://x.com/anjmotahed/status/2021232158736613635
   - https://www.instagram.com/p/DU3rRcdAQ8P
   - https://t.me/JavidnamaneVatan/141
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 832f1808-27b6-4d7a-8171-ee455dc8024f
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:bea7064665acd6f5

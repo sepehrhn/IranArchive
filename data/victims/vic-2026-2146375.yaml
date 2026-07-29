@@ -13,7 +13,7 @@ country: Iran
 incident_province: ""
 incident_city: Arak
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-03-04"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Father of Mehrshad Shahidi, arrested by security forces on Wednesday March 4, 2026 in Arak
@@ -24,3 +24,12 @@ description: Father of Mehrshad Shahidi, arrested by security forces on Wednesda
 source_type: Social Media
 source:
   - https://x.com/eghdammoshtarak/status/2029669619292684723
+  - https://t.me/akhbar_bazdashtiha/303
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 34997feb-81f6-4a47-a0cc-412cb56a10e8
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

@@ -1,15 +1,15 @@
 external_card_id: "7836"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52479_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52732_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_54299_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52479_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52732_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_54299_0_twitter_v1.jpg
 name: Soheila Shahsavari
 persian_name: سهیلا شهسواری
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Female
-age: null
+age: 45
 occupation: ""
 country: Iran
 incident_province: Qazvin
@@ -29,3 +29,12 @@ source:
   - https://x.com/nasi_hami59/status/2025627673603809623
   - https://x.com/gilasgoz/status/2025903493576319068
   - https://x.com/i/status/2025939818060927375
+  - https://www.instagram.com/reel/DU1o6lZDRWg/?hl=en
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 641ebc90-abf7-4b16-a735-9f8dd57f2101
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:cecda80a78328d3d

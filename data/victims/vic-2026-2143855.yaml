@@ -1,9 +1,9 @@
 external_card_id: "4822"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40165_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40980_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40980_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53583_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40165_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40980_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40980_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53583_0_instagram_v1.jpg
 name: Amirhossein Nejat
 persian_name: امیرحسین نجات
 birth_date: ""
@@ -13,12 +13,12 @@ gender: Male
 age: 19
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Fars
 incident_city: Darab
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -28,3 +28,11 @@ source:
   - https://t.me/RememberTheirNames/2319
   - https://x.com/iranianpapppi3/status/2020247925968748920
   - https://www.instagram.com/p/DU6OKC1jIyd
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 29274916-088b-4216-8e55-ce42e2313056
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

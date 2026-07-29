@@ -15,7 +15,7 @@ incident_city: Zanjan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Gunshot to the back of the head
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: 17-year-old boxer shot from behind in Zanjan
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/492
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 30506f08-9037-49e6-be91-008cfd44dec5
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

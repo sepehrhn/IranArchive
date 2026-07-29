@@ -14,8 +14,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Babol
-incident_address: ""
-date_of_death: ""
+incident_address: Gorgan
+date_of_death: "2026-02-10"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Student from Babel living in Gorgan. Arrested on 21 Dey by plainclothes agents in front of his own house. Last seen with pellet wounds to his leg. No information about his condition has been given to his family for about 20 days since his arrest.
@@ -27,3 +27,11 @@ source_type: Social Media
 source:
   - https://x.com/callme_ghazal/status/2017678520764227857
   - https://x.com/i/status/2018928553686151574
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - ef166daf-9f07-4d7d-b3a9-aeb1a7059ae3
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/students/64

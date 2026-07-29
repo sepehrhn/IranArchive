@@ -1,14 +1,14 @@
 external_card_id: "307"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20073_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20073_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27221_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39196_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53647_0_instagram_v1.jpg"
-  - "vic-2026-000870.jpg"
-  - "vic-2026-c41a484d8b19.jpg"
-  - "vic-2026-38683ef02b79.jpg"
-  - "vic-2026-30cc17667f23.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20073_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20073_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27221_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39196_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53647_0_instagram_v1.jpg
+  - vic-2026-000870.jpg
+  - vic-2026-c41a484d8b19.jpg
+  - vic-2026-38683ef02b79.jpg
+  - vic-2026-30cc17667f23.jpg
 name: Younes Momeni
 persian_name: یونس مومنی
 birth_date: ""
@@ -18,7 +18,7 @@ gender: Male
 age: 31
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -37,3 +37,12 @@ source:
   - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClWvrZ
   - https://t.me/RememberTheirNames/492
   - https://www.instagram.com/p/DU-cGWykTtl
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 8f667328-7c63-4f09-97d6-c6bdc1fac8ac
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

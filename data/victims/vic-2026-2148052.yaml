@@ -12,7 +12,7 @@ country: Iran
 incident_province: ""
 incident_city: Sari
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-02-21"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested during protests
@@ -23,3 +23,12 @@ description: Arrested during protests
 source_type: Social Media
 source:
   - https://x.com/i/status/2026264738640924684
+  - https://t.me/akhbar_bazdashtiha/203
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 58886c1d-b79b-486d-97be-42eb04ccc9e6
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

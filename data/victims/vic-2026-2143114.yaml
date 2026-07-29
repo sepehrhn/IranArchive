@@ -8,13 +8,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 40
 occupation: ""
 country: Iran
 incident_province: ""
-incident_city: ""
+incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -24,3 +24,11 @@ description: Killed by the Islamic regime
 source_type: Social Media
 source:
   - https://x.com/me_hamed_myself/status/2017249910521802842
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 76f804e6-135d-4cf9-ac20-920f0236ce30
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:7c830c36e4330dda

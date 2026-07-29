@@ -1,9 +1,9 @@
 external_card_id: "3027"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26876_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38818_0_telegram_v1.jpg"
-  - "vic-2026-002086.jpg"
-  - "vic-2026-dbb2ff9e4ad1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26876_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38818_0_telegram_v1.jpg
+  - vic-2026-002086.jpg
+  - vic-2026-dbb2ff9e4ad1.jpg
 name: Yousef Jalambadani
 persian_name: یوسف جلمبادانی
 birth_date: ""
@@ -13,9 +13,9 @@ gender: Male
 age: 28
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Sabzevar
-incident_address: ""
+incident_address: Sabzevar - Razavi Khorasan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -27,3 +27,15 @@ source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/arh0kOme1YEvhe6nV7aH61
   - https://t.me/RememberTheirNames/889
+  - https://www.instagram.com/p/DWAQdFsE2g_/
+  - https://external_source.org/fa/heroes
+  - https://www.hra-news.org/
+external_source_ids:
+  - ae76a58d-3b6b-43dd-9702-3ff933889cdf
+  - e53417ae-080b-4feb-be9b-f67f627c6de1
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:2e434113eb8fd8e1
+  - HRANA-CW-2026/protesters/739

@@ -9,7 +9,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: نیشابور/مشهد, خراسان رضوی
 incident_address: ""
 date_of_death: ""
@@ -33,3 +33,11 @@ description: |-
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-196
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - ba0c2eab-9111-4922-a1d7-962dbcd1dfa8
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,9 +1,9 @@
 external_card_id: "2781"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26217_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29008_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29008_1_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31037_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26217_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29008_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29008_1_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31037_0_telegram_v1.jpg
 name: Sara Saeidi Ahmadabad
 persian_name: سارا سعیدی
 birth_date: ""
@@ -15,7 +15,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Mashhad
-incident_address: ""
+incident_address: Emamat, Mashhad
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -30,3 +30,12 @@ source:
   - https://x.com/HeKasrehCrisis/status/2017825360805552176
   - https://t.me/RememberTheirNames/2061
   - https://x.com/hekasrehcrisis/status/2017825358091895132
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 58e770b1-17d5-4c7b-9655-39b4f4370a76
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:d64c8e2f76c0f41f

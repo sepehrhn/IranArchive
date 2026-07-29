@@ -1,19 +1,19 @@
 external_card_id: "5336"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55742_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55742_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55742_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55742_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55742_4_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55742_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55742_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55863_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55863_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55863_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55863_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55863_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55863_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55863_7_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55742_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55742_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55742_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55742_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55742_4_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55742_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55742_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55863_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55863_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55863_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55863_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55863_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55863_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55863_7_web_v1.jpg
 name: Rasoul Jafari
 persian_name: رسول جعفری
 birth_date: ""
@@ -23,7 +23,7 @@ gender: Male
 age: 21
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: North Khorasan
 incident_city: Esfarayen
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -38,3 +38,12 @@ source:
   - https://x.com/anjmotahed/status/2021232158736613635
   - https://hengaw.net/en/news/2026/01/article-214
   - https://hengaw.net/fa/news/2026/01/article-218
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 0d4363fe-0d65-4e79-a5a4-c11459ec6d27
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/3873

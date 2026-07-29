@@ -25,7 +25,7 @@ country: Iran
 incident_province: ""
 incident_city: نهاوند, همدان
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 19-year-old detained protester facing fabricated security charges including espionage and cooperation with Israel that could lead to death sentence. Accused of making Molotov cocktails and possessing military ammunition. Denied access to lawyer, violating right to defense and fair trial. Part of judicial suppression and systematic intimidation of protesters.
@@ -49,3 +49,13 @@ source:
   - https://x.com/sillemou/status/2021943626268651652
   - https://x.com/hamid0pahlavi/status/2022835721791304146
   - https://x.com/gomnam20006/status/2024796305332306309
+  - https://t.me/akhbar_bazdashtiha/97
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - efd04eb3-5852-4d00-88a4-bb312b8c138f
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

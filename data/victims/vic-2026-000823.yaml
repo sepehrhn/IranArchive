@@ -1,16 +1,16 @@
 external_card_id: "808"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20926_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21442_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21442_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22950_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38884_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42234_0_web_v1.jpg"
-  - "vic-2026-000823.jpg"
-  - "vic-2026-cc5f11d3f1fe.jpg"
-  - "vic-2026-121563a804e9.jpg"
-  - "vic-2026-5f3b669200be.jpg"
-  - "vic-2026-251b770074b4.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20926_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21442_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21442_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22950_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38884_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42234_0_web_v1.jpg
+  - vic-2026-000823.jpg
+  - vic-2026-cc5f11d3f1fe.jpg
+  - vic-2026-121563a804e9.jpg
+  - vic-2026-5f3b669200be.jpg
+  - vic-2026-251b770074b4.jpg
 name: Saeed Sanjideh
 persian_name: سعید سنجیده
 birth_date: ""
@@ -22,7 +22,7 @@ occupation: ""
 country: Iran
 incident_province: Bushehr
 incident_city: Bushehr
-incident_address: ""
+incident_address: Bushehr,
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -44,3 +44,11 @@ source:
   - https://t.me/RememberTheirNames/820
   - https://javidnaman.iranintl.com/memorial/8321cd51-c882-4f7a-9ab5-b76bd3929c6d
   - https://x.com/yasamankhodajo/status/2017894883579580902
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 60b20ade-7add-4cfd-a6ab-69ef6261b8ed
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

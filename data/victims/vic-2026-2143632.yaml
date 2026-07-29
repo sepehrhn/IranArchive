@@ -1,20 +1,20 @@
 external_card_id: "5222"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41368_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41418_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49563_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41368_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41418_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49563_0_telegram_v1.jpg
 name: Ali Soltani
 persian_name: علی سلطانی
 birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 30
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Shahrake Andisheh
-incident_address: ""
+incident_address: Andisheh - Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -27,3 +27,11 @@ source:
   - https://x.com/saeidvafa/status/2020845270888546571
   - https://x.com/saeidvafa/status/2020845092072788082
   - https://t.me/RememberTheirNames/3034
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 58b2b4fc-c33b-4115-9449-1ddd8980d646
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:ec19a069c2e63319

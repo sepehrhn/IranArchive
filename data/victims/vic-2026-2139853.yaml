@@ -1,14 +1,14 @@
 external_card_id: "2040"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23453_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26408_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39736_0_twitter_v1.png"
-  - "vic-2026-2139853.jpg"
-  - "vic-2026-7b8ea46f3deb.jpg"
-  - "vic-2026-4d068397e315.jpg"
-  - "vic-2026-2139856.jpg"
-  - "vic-2026-107dba8c45b4.jpg"
-  - "vic-2026-f20fa8291b1d.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23453_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26408_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39736_0_twitter_v1.png
+  - vic-2026-2139853.jpg
+  - vic-2026-7b8ea46f3deb.jpg
+  - vic-2026-4d068397e315.jpg
+  - vic-2026-2139856.jpg
+  - vic-2026-107dba8c45b4.jpg
+  - vic-2026-f20fa8291b1d.jpg
 name: Ali Fatehi
 persian_name: علی فاتحی
 birth_date: ""
@@ -20,7 +20,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Piroozi St - Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -38,3 +38,15 @@ source:
   - https://x.com/hekasrehcrisis/status/2016401200233558302
   - https://t.me/RememberTheirNames/1425
   - https://x.com/mabbasi90/status/2017341037543387315
+  - https://www.instagram.com/reel/DUjTGi0APP9/
+  - https://external_source.org/fa/heroes
+  - https://www.hra-news.org/
+external_source_ids:
+  - 2bba8f6b-c5f5-466c-8532-ce2382dc4f03
+  - dbcbe0d3-39ec-483c-ae29-f40b70b1db16
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:f8a8e550c91bb596
+  - HRANA-CW-2026/protesters/1239

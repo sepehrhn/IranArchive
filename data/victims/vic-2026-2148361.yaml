@@ -14,8 +14,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: خانه
+date_of_death: "2023-01-17"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Doctor from Tehran detained for advocating for humanity
@@ -26,3 +26,12 @@ description: Doctor from Tehran detained for advocating for humanity
 source_type: Social Media
 source:
   - https://x.com/batmaniei7vrc/status/2020404489019162856
+  - https://t.me/akhbar_bazdashtiha/647
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a59bb131-f8bf-4339-979e-4b9048ee130a
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

@@ -1,9 +1,9 @@
 external_card_id: "571"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20526_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39212_0_telegram_v1.jpg"
-  - "vic-2026-000376.jpg"
-  - "vic-2026-1cba00bc159b.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20526_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39212_0_telegram_v1.jpg
+  - vic-2026-000376.jpg
+  - vic-2026-1cba00bc159b.jpg
 name: Mohammad Mostafaei
 persian_name: محمد مصطفایی
 birth_date: ""
@@ -15,7 +15,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Karaj
-incident_address: ""
+incident_address: Karaj
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -33,3 +33,12 @@ source_type: Social Media
 source:
   - https://x.com/manotonews/status/2013937719353786767
   - https://t.me/RememberTheirNames/476
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b2b4e493-1d27-40e0-91ef-b86b339dddd4
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

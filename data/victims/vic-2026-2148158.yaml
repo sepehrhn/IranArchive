@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Shahin Shahr
-incident_address: ""
-date_of_death: ""
+incident_address: Shahin Shahr
+date_of_death: "2026-01-11"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested in Shahin Shahr, no news or trace for 20 days since arrest
@@ -24,3 +24,11 @@ description: Arrested in Shahin Shahr, no news or trace for 20 days since arrest
 source_type: Social Media
 source:
   - https://x.com/NeginNiknaam0/status/2017981638592823570
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 633633db-d974-4fbd-983d-06401a4ce8bd
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/867

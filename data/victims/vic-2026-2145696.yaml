@@ -1,8 +1,8 @@
 external_card_id: "7074"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42255_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48440_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51074_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42255_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48440_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51074_0_twitter_v1.jpg
 name: Seyyed Jafar Hosseini
 persian_name: سید جعفر حسینی
 birth_date: ""
@@ -14,7 +14,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Shahrak Andisheh
-incident_address: ""
+incident_address: Andisheh - Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -28,3 +28,11 @@ source:
   - https://javidnaman.iranintl.com/memorial/s7x3ao9lUCHAJRA4I2iRJY
   - https://t.me/RememberTheirNames/2899
   - https://x.com/hyrcanihrm/status/2025124553073045913
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 49100f8e-c203-44a3-9dbb-15aea64a8ab6
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:95dd497fd911d963

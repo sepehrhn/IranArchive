@@ -18,9 +18,9 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kermanshah
 incident_city: Sonqor
-incident_address: ""
+incident_address: Sonqor - Kermanshah
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
@@ -32,3 +32,11 @@ description: From Sonqor. Arrested by government forces raiding his home without
 source_type: Social Media
 source:
   - https://hengaw.net/en/news/2026/01/article-65
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a2a686cd-58b9-4d4e-a108-7cb282f149aa
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

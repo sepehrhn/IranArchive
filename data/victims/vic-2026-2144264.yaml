@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 23
 occupation: ""
 country: Iran
 incident_province: ""
@@ -25,3 +25,12 @@ source:
   - https://x.com/gigii_coo/status/2026703462470176955
   - https://x.com/i/status/2026703462470176955
   - https://x.com/i/status/2026919655323963660
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 430f5b74-8565-4649-b4b4-978e56e6a70f
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:de4eeff40400a870

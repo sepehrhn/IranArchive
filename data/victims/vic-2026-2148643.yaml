@@ -7,13 +7,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 25
 occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
-date_of_death: ""
+incident_address: آریاشهر تهران
+date_of_death: "2023-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: From the Satarkhan area of Tehran, taken from his home by agents, whereabouts unknown, no one available to follow up on his case
@@ -24,3 +24,13 @@ description: From the Satarkhan area of Tehran, taken from his home by agents, w
 source_type: Social Media
 source:
   - https://x.com/sirwana9/status/2024245614456741914
+  - https://t.me/akhbar_bazdashtiha/130
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7b547076-b3e3-4962-8a15-f0b389b147f0
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

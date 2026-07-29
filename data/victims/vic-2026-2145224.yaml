@@ -1,11 +1,11 @@
 external_card_id: "4522"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38488_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41134_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41800_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49569_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52558_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53607_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38488_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41134_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41800_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49569_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52558_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53607_0_instagram_v1.jpg
 name: Mostafa Jamali Amiri
 persian_name: مصطفی امیری
 birth_date: ""
@@ -15,7 +15,7 @@ gender: Male
 age: 35
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Isfahan
 incident_city: Fooladshahr
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -33,3 +33,14 @@ source:
   - https://t.me/RememberTheirNames/3040
   - https://t.me/JavidnamaneVatan/1857
   - https://www.instagram.com/p/DVEcoD-jbms
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 55325b2b-2106-415d-8895-2f0bef407521
+  - 7e33b859-6905-40a2-9b99-421c6d2ca435
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1314
+  - iranintl-memorial:51ffa9c628f69844

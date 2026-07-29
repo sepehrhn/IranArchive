@@ -1,12 +1,12 @@
 external_card_id: "2149"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23693_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26070_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38513_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40931_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41408_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42082_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52853_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23693_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26070_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38513_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40931_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41408_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42082_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52853_0_twitter_v1.jpg
 name: Alireza Rezaei
 persian_name: علیرضا رضایی
 birth_date: ""
@@ -16,12 +16,12 @@ gender: Male
 age: 20
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: تهران, تهران
-incident_address: ""
+incident_address: Andisheh town in Shahriar, near Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -38,3 +38,12 @@ source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#FRM-8
   - https://x.com/missmarpel75/status/2016460552499818675
   - https://x.com/gilasgoz/status/2022243802019500422
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - cb7ae63c-07b1-4095-adae-67abffd219ea
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

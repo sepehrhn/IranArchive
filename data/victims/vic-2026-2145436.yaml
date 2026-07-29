@@ -1,9 +1,9 @@
 external_card_id: "7493"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50120_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52833_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56147_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_57082_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50120_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52833_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56147_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_57082_0_telegram_v1.jpg
 name: Reihaneh Seyed Mashhour Shaterban
 persian_name: ریحانه سیدمشهور شتربان
 birth_date: ""
@@ -13,12 +13,12 @@ gender: Female
 age: 18
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Parand
-incident_address: ""
+incident_address: Fatemeh Zahra Hospital, Robat Karim
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Shot with two live bullets to the skull and forehead by agents of the Islamic Republic
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -29,3 +29,12 @@ source:
   - https://x.com/maymoonmast/status/2017960623447978006
   - https://x.com/iranwire/status/2027069586546323677
   - https://t.me/JavidnamaneVatan/2325
+  - https://www.instagram.com/reel/DVLUHNWiIHZ/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - ea0d8573-9673-4b1a-9f76-85a32a5057a1
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

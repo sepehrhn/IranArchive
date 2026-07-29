@@ -1,14 +1,14 @@
 external_card_id: "1755"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22897_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22930_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23128_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23565_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29682_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29682_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38645_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50420_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56220_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22897_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22930_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23128_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23565_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29682_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29682_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38645_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50420_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56220_0_twitter_v1.jpg
 name: Yousef Bakhshi Kohneh Forood
 persian_name: یوسف بخشی
 birth_date: ""
@@ -18,12 +18,12 @@ gender: Male
 age: 27
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Mazandaran
 incident_city: Chalus
-incident_address: ""
+incident_address: Chalus, in front of the police station | Chalus
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -42,3 +42,15 @@ source:
   - https://t.me/JavidnamaneVatan/591
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_3855
   - https://x.com/manotonews/status/2027171826661494907
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+  - https://kurdpa.net/fa/news/2026/01/166
+external_source_ids:
+  - 1a9166af-1ad6-4c27-851b-5b5a70b9dea7
+  - 6b66e20d-8bb8-4892-9adc-1bf048493809
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - HRANA-CW-2026/protesters/3855

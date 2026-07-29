@@ -1,8 +1,8 @@
 external_card_id: "3833"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31078_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48260_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48395_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31078_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48260_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48395_0_web_v1.jpg
 name: Ali Gholamlou
 persian_name: علی غلاملو
 birth_date: ""
@@ -12,7 +12,7 @@ gender: Male
 age: 18
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Ferdowsieh
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -29,3 +29,12 @@ source:
   - https://t.me/RememberTheirNames/2122
   - https://x.com/miss_83h/status/2023366290761552118
   - https://javidnaman.iranintl.com/memorial/FIJiQxKUnxVcKYHceNmupv
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 20a9398f-2569-41bf-b91d-dd29e2d083db
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/children/193

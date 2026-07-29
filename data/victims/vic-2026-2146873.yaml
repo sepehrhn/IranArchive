@@ -12,10 +12,10 @@ gender: Female
 age: 18
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: North Khorasan
 incident_city: Shirvan
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-01-07"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 18-year-old from Shirvan, North Khorasan province, arrested on January 8, 2026 by security forces of the terrorist clerical regime and transferred to Bojnurd prison. According to cellmates, she was last seen with a bruised body and since then there has been no news or information about her physical condition and detention circumstances. Her family and relatives remain in complete ignorance about her status.
@@ -28,3 +28,12 @@ source:
   - https://x.com/i/status/2020584960730746949
   - https://x.com/blackdee0/status/2024609079302430997
   - https://x.com/scarface_2582/status/2025110855327547499
+  - https://t.me/akhbar_bazdashtiha/484
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 35796cf9-e86a-437c-a257-4cbd967a2f8e
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

@@ -1,9 +1,9 @@
 external_card_id: "1920"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23197_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30259_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30812_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39897_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23197_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30259_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30812_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39897_0_twitter_v1.jpg
 name: Hossein Shirmohammadi Lor
 persian_name: حسین شیرمحمدی
 birth_date: ""
@@ -30,3 +30,12 @@ source:
   - https://x.com/hirman__/status/2018815728229683614
   - https://t.me/RememberTheirNames/1844
   - https://x.com/historyinpik/status/2019405474056282437
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 4ea5d046-60de-4b22-bdad-02a1afb9ef8f
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:b083c141fe31fe5a

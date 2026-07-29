@@ -8,12 +8,12 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 32
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: تهران, تهران
-incident_address: ""
+incident_address: Tehranpars - Tehran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -27,3 +27,12 @@ source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-994
   - https://x.com/jacob15759299/status/2015773173589979596
   - https://x.com/nejatbahrami/status/2015451612404162809
+  - https://www.instagram.com/p/DUBTl3LiLzR/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 26d80bad-0a62-4879-ac55-4aff74533275
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:9f9dc836b75a0f71

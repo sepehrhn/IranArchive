@@ -6,15 +6,15 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 37
 occupation: ""
 country: Iran
 incident_province: Qazvin
 incident_city: Qazvin
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -22,3 +22,12 @@ description: Victim commemorated in Iran Massacre memorial post
 source_type: Social Media
 source:
   - https://x.com/gilasgoz/status/2024232498209669199
+  - https://www.instagram.com/reel/DUuWB9xio2r/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 2e0d42cd-f36a-45a1-a18c-22cbe1e0c9bc
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

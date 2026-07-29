@@ -1,14 +1,14 @@
 external_card_id: "7745"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20752_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23279_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_25654_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_27250_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52012_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56056_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_56056_1_twitter_v1.jpg"
-  - "vic-2026-9feccf513df5.jpg"
-  - "vic-2026-b3df193583cc.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20752_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23279_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_25654_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_27250_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52012_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56056_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_56056_1_twitter_v1.jpg
+  - vic-2026-9feccf513df5.jpg
+  - vic-2026-b3df193583cc.jpg
 name: Aynaz Rahimi Haji Abadi
 persian_name: آیناز رحیمی حاجی آبادی
 birth_date: ""
@@ -20,10 +20,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Najafabad
-incident_address: ""
+incident_address: Najafabad - Isfahan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -37,3 +37,11 @@ source:
   - https://javidnaman.iranintl.com/memorial/vN7MNz32cVvzOpuuClXhS4
   - https://t.me/JavidnamaneVatan/1512
   - https://x.com/mojtabapacino/status/2024878010168492353
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 6e1f8193-ae5b-4172-9b2d-17e14af78d65
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:3bbdf32fd672bd0c

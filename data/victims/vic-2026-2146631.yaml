@@ -9,7 +9,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: East Azerbaijan
 incident_city: مراغه, آذربایجان شرقی
 incident_address: ""
 date_of_death: ""
@@ -23,3 +23,11 @@ description: "Charges: نامشخص"
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-97
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 3dd53725-86d4-49a1-ab11-2f2adcaef121
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

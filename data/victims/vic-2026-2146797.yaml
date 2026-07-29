@@ -9,10 +9,10 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Khuzestan
 incident_city: Jannat Makan
-incident_address: ""
-date_of_death: ""
+incident_address: جنت‌مکان
+date_of_death: "2023-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested during protests
@@ -23,3 +23,12 @@ description: Arrested during protests
 source_type: Social Media
 source:
   - https://x.com/i/status/2026264738640924684
+  - https://t.me/akhbar_bazdashtiha/191
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 3df9ad8b-ae41-4feb-bd1a-398f733ae72e
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

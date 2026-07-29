@@ -9,12 +9,12 @@ gender: Male
 age: 20
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Khuzestan
 incident_city: Khorramshahr
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-09"
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -22,3 +22,11 @@ description: Victim commemorated in Iran International Memorial
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmMhjLz
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c939c284-29c2-4e86-a853-38a039eacaad
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -1,9 +1,9 @@
 external_card_id: "3445"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29362_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34248_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39914_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53683_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29362_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34248_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39914_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53683_0_instagram_v1.jpg
 name: Milad Gachloo
 persian_name: میلاد گچلو
 birth_date: ""
@@ -29,3 +29,11 @@ source:
   - https://t.me/RememberTheirNames/2257
   - https://x.com/kurdistanhrn/status/2019177300634280087
   - https://www.instagram.com/p/DU57rYOj702
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 588a7aed-1ed6-4cce-998a-1ae8d7f28f48
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:304dff78e4b7438b

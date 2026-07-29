@@ -11,10 +11,10 @@ gender: Female
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Kurdistan
 incident_city: Divandareh
 incident_address: ""
-date_of_death: ""
+date_of_death: "2023-02-19"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Kurdish woman from Divandareh, aunt of Arsalan Qahramani who was killed in Tehran protests in Dey month. Arrested on Thursday, 20 Bahman 1404 (February 9, 2026) by IRGC intelligence forces. Her fate is unknown.
@@ -26,3 +26,12 @@ source_type: Social Media
 source:
   - https://x.com/kurdistanhrn/status/2025329841621336227
   - https://x.com/hengawo/status/2025181823999873223
+  - https://t.me/akhbar_bazdashtiha/188
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 46e3b2c0-194c-44df-9234-4309de9b2630
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

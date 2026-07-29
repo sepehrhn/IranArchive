@@ -13,8 +13,8 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: سبزوار, خراسان رضوی
-incident_address: ""
-date_of_death: ""
+incident_address: Sabzevar Prison
+date_of_death: "2026-01-20"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Arrested on 30 Dey (January 19, 2026) with severe beatings in Sabzevar. Transferred to Sabzevar prison after extensive interrogations. Face was unrecognizable from torture during court appearance.
@@ -26,3 +26,11 @@ source_type: Social Media
 source:
   - https://x.com/shahramsadidi/status/2015926316587979071
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1017
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 5d18672b-f7b7-40f9-882c-29308684e575
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/697

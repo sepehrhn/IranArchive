@@ -6,7 +6,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 30
 occupation: ""
 country: Iran
 incident_province: ""
@@ -24,3 +24,12 @@ source_type: Social Media
 source:
   - https://t.me/iliaen/1889
   - https://t.me/iliaen/1890
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - e063fe0a-99ed-45b1-abad-37619074590f
+external_source_categories:
+  - at-risk
+risk_of_execution: true
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Iran_Executions_DeathRow_Final_Comprehensive-2.xlsx

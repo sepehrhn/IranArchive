@@ -19,7 +19,18 @@ cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: external_source lists Fatemeh Sheikh Ghahderijani among those killed on 2026-01-08 in Falavarjan, Isfahan.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2081
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 6bde5e06-4562-4383-9706-0c0c83320763
+  - 82d140d5-9d47-4aa1-83a8-d7c5050cd7e9
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/3055
+  - https://t.me/RememberTheirNames

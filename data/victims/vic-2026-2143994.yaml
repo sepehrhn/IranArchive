@@ -6,7 +6,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 59
 occupation: ""
 country: Iran
 incident_province: ""
@@ -22,3 +22,12 @@ description: "Killed during killed protester citizens protests. HRANA verificati
 source_type: Social Media
 source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_KILLED_2118
+  - https://www.javidarchive.org/it/memorial/jn-0148de75-acd5-44e5-b406-0c80c13b5e25
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 00c623ad-858b-4cb1-9bae-80f37d3d391b
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:072ffb092c7522a5

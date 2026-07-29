@@ -1,9 +1,9 @@
 external_card_id: "3344"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29155_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30123_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_34726_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41496_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29155_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30123_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_34726_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41496_0_telegram_v1.jpg
 name: Alireza Pournakhaei
 persian_name: علیرضا پورنخعی
 birth_date: ""
@@ -18,7 +18,7 @@ incident_city: Kerman
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -30,3 +30,15 @@ source:
   - https://x.com/IranNewsAgency0/status/2018270255374594184
   - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmTTlUo
   - https://t.me/RememberTheirNames/2630
+  - https://www.instagram.com/p/DUvoB98iNWX/
+  - https://external_source.org/fa/heroes
+  - https://www.hra-news.org/
+external_source_ids:
+  - f8836ce1-f107-4dbf-9272-92e273fc8662
+  - 81a6312f-bddf-4eed-ad77-f7f737f47837
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx
+  - HRANA-CW-2026/protesters/2983

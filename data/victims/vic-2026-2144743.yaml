@@ -7,7 +7,7 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 25
 occupation: ""
 country: Iran
 incident_province: ""
@@ -23,3 +23,12 @@ description: Died in Mashhad
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2843
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 21272db4-08b6-441e-a089-969ffdc30bd1
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:cbd2550d534e73ba

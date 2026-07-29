@@ -1,28 +1,28 @@
 external_card_id: "423"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20286_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26389_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37616_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39336_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55773_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55773_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55773_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55773_3_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55773_4_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55773_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55773_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55773_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55889_1_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55889_2_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55889_3_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55889_4_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55889_5_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55889_6_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55889_7_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_55889_8_web_v1.jpg"
-  - "vic-2026-000195.jpg"
-  - "vic-2026-90efd4a3b8d5.jpg"
-  - "vic-2026-b0c5669d91c8.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20286_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26389_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37616_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39336_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55773_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55773_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55773_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55773_3_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55773_4_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55773_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55773_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55773_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55889_1_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55889_2_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55889_3_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55889_4_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55889_5_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55889_6_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55889_7_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_55889_8_web_v1.jpg
+  - vic-2026-000195.jpg
+  - vic-2026-90efd4a3b8d5.jpg
+  - vic-2026-b0c5669d91c8.jpg
 name: Omid Fadakar
 persian_name: امید فداکار
 birth_date: ""
@@ -34,7 +34,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Robat Karim
-incident_address: ""
+incident_address: Tehran / Shahriar / Adran
 date_of_death: "2026-01-10"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -53,3 +53,12 @@ source:
   - https://t.me/RememberTheirNames/350
   - https://hengaw.net/en/news/2026/01/article-157
   - https://hengaw.net/fa/news/2026/01/article-160-1
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 2e960dcc-0dcc-4fa2-8858-e8f020e38041
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

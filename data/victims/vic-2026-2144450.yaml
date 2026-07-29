@@ -15,7 +15,7 @@ incident_city: Isfahan
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Shot in the heart with live ammunition by suppressive forces
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Shot in the heart by suppressive forces with a war bullet in Isfaha
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/429
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 9eaf128c-17ea-4dd9-9375-4c89bb38a909
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

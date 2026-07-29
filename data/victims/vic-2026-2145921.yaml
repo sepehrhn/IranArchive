@@ -11,7 +11,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Dehloran
-incident_address: ""
+incident_address: "Place of burial: Dehloran"
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -22,3 +22,12 @@ description: Killed during the massacre of 18-19 Dey. From the Oraim tribe, daug
 source_type: Social Media
 source:
   - https://x.com/eisabazyar1/status/2020919877377175572
+  - https://x.com/missmarpel75/status/2021453725819339195
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d1ed9bfe-ad79-46e2-8e45-92ba51ef402a
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:f702895baa4465d1

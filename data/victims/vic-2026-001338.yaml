@@ -1,11 +1,11 @@
 external_card_id: "2946"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21563_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26731_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_54254_0_twitter_v1.jpg"
-  - "vic-2026-001338.jpg"
-  - "vic-2026-541449d70ac1.jpg"
-  - "vic-2026-e3d636895296.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21563_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26731_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_54254_0_twitter_v1.jpg
+  - vic-2026-001338.jpg
+  - vic-2026-541449d70ac1.jpg
+  - vic-2026-e3d636895296.jpg
 name: Farhad Farsi
 persian_name: فرهاد فارسی
 birth_date: ""
@@ -17,7 +17,7 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
+incident_address: Isfahan | Nazar Intersection, Isfahan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -39,3 +39,11 @@ source:
   - https://javidnaman.iranintl.com/memorial/6fdnU2KKCNcBWVCaTEiKNX
   - https://x.com/i/status/2026007762950357218
   - https://t.me/RememberTheirNames/1292
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 519f9cfb-62cb-4c51-8188-fa3fe3019793
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

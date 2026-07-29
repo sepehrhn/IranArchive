@@ -7,19 +7,28 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 20
 occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Isfahan
-incident_address: ""
+incident_address: Nikabad - Isfahan
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
-description: ""
+description: external_source lists Abolfazl Tavoosi Nikabadi among those killed on 2026-01-09 in Isfahan.
 source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1293
+  - https://shohadayeghiam.info/3503
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - c39da76d-f9cc-4540-b397-ed89943cd5f3
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:eaa165eae0f912c4

@@ -1,11 +1,11 @@
 external_card_id: "807"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20925_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_22058_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37631_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38149_0_twitter_v1.jpg"
-  - "vic-2026-d69e1ea57eeb.jpg"
-  - "vic-2026-69f08e9614f2.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20925_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_22058_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37631_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38149_0_twitter_v1.jpg
+  - vic-2026-d69e1ea57eeb.jpg
+  - vic-2026-69f08e9614f2.jpg
 name: Mohammad Hossein Aman (Al-Boghbish)
 persian_name: محمدحسین امان (آلبوغبیش)
 birth_date: ""
@@ -15,7 +15,7 @@ gender: Male
 age: 25
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Khuzestan
 incident_city: Ma'sho (Mahshahr)
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -31,3 +31,12 @@ source:
   - https://x.com/fseifikaran/status/2015759001204519288
   - https://x.com/iranwire/status/2013704601552240973
   - https://x.com/hiwa_life/status/2015532561011823087
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a28ae921-6510-4288-9009-5854ae0b8e80
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/470

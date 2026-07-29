@@ -1,15 +1,15 @@
 external_card_id: "994"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21218_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21218_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37882_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38646_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48352_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_49042_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52803_0_twitter_v1.jpg"
-  - "vic-2026-000519.jpg"
-  - "vic-2026-2e4930f45ded.jpg"
-  - "vic-2026-6ddf7b16a169.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21218_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21218_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37882_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38646_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48352_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_49042_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52803_0_twitter_v1.jpg
+  - vic-2026-000519.jpg
+  - vic-2026-2e4930f45ded.jpg
+  - vic-2026-6ddf7b16a169.jpg
 name: Amin Toulabi
 persian_name: امین طولابی
 birth_date: ""
@@ -19,9 +19,9 @@ gender: Male
 age: 39
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Khorramabad
-incident_address: ""
+incident_address: Tehran | Khorramabad
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: Gunshot
@@ -46,3 +46,11 @@ source:
   - https://x.com/amin8sh/status/2017936509622489380
   - https://x.com/gilasgoz/status/2021331274539946197
   - https://x.com/monfaredashkan/status/2014808549164228637
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - b02ba5a5-6404-428e-b653-40fc29fc9142
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -8,13 +8,13 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 22
 occupation: ""
 country: Iran
 incident_province: Kerman
 incident_city: Kerman
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-13"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: Law student at Bahonar University of Kerman, detained following protests. Appeared in forced confession video published by Mehr News Agency on January 14 regarding setting fire to Kosar Square mawkeb. Faces potential heavy sentences.
@@ -27,3 +27,12 @@ source:
   - https://x.com/i/status/2016898747331154287
   - https://www.instagram.com/p/DVGfEJFjV1C
   - https://www.instagram.com/p/DU599qkE95U
+  - https://t.me/akhbar_bazdashtiha/654
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 80b3e9de-a785-491c-a5f7-f7298d99a65e
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

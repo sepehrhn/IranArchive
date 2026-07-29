@@ -1,10 +1,10 @@
 external_card_id: "4969"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40826_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_42507_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_47717_0_instagram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52055_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53639_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40826_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_42507_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_47717_0_instagram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52055_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53639_0_instagram_v1.jpg
 name: Abolfazl Azad
 persian_name: ابوالفضل آزاد
 birth_date: ""
@@ -14,12 +14,12 @@ gender: Male
 age: 36
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Eslamshahr
-incident_address: ""
+incident_address: Vavan City, Islamshahr
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,12 @@ source:
   - https://www.instagram.com/p/DUszeweDH1L
   - https://t.me/JavidnamaneVatan/1555
   - https://www.instagram.com/p/DU_TBTsmLwj
+  - https://www.instagram.com/reel/DUwW7WMDHTj/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 39c17853-1f54-47c0-8eb9-10e3029f103f
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

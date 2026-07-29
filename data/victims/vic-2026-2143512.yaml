@@ -10,7 +10,7 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Alborz
 incident_city: Malard
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -24,3 +24,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1780
   - https://x.com/gilasgoz/status/2021506630018277567
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - ac5943c6-ebd3-4c1e-a8be-4b3abeb58357
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1517

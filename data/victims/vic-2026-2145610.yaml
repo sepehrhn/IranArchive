@@ -1,7 +1,7 @@
 external_card_id: "5243"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41427_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_41476_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41427_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_41476_0_telegram_v1.jpg
 name: Saleh Rashidmohammad
 persian_name: صالح رشیدمحمد
 birth_date: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://x.com/mahmocean/status/2020930033854890217
   - https://t.me/RememberTheirNames/2610
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 7350e7b9-d3ba-4a33-92b6-9f10fe06a65e
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:9487cff6cb3e89b9

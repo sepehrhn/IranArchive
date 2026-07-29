@@ -5,21 +5,29 @@ persian_name: نیکیار راستین
 birth_date: ""
 birth_province: ""
 birth_city: ""
-gender: ""
+gender: Male
 age: null
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: تهران, تهران
-incident_address: ""
+incident_address: Tehran
 date_of_death: ""
 date_of_death_precision: Approximate
 cause_of_death: ""
-disappearance_circumstances: ""
+disappearance_circumstances: "Place of arrest: Tehran"
 suspected_actor: ""
 status: Missing
 detention_status: arrested
-description: ""
+description: external_source lists Nikyar Rastin as detained.
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1310
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - cf809cc7-2098-4d7c-b4fe-b7eb873bd647
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/2308

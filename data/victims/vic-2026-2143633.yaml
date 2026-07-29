@@ -1,7 +1,7 @@
 external_card_id: "6951"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48010_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48369_0_web_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48010_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48369_0_web_v1.jpg
 name: Ali Tabassi Feyzabadi
 persian_name: علی طبسی فیض‌آبادی
 birth_date: ""
@@ -11,7 +11,7 @@ gender: Male
 age: 41
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: "2026-01-08"
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2854
   - https://javidnaman.iranintl.com/memorial/D75x1FC3qUAIKDBE4RHYij
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 8d7a40ce-b9b1-4585-92ee-2da381c443b4
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:2a46642ff7945eec

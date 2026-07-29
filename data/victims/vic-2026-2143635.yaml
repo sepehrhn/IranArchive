@@ -6,10 +6,10 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 27
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
 incident_address: ""
 date_of_death: ""
@@ -22,3 +22,12 @@ description: Victim of Iran Massacre
 source_type: Social Media
 source:
   - https://x.com/gilasgoz/status/2024238365348938238
+  - https://www.instagram.com/p/DU_Ca0WAeHJ/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - d69cf48a-3d17-4056-a1d1-d3083db1490e
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/1563

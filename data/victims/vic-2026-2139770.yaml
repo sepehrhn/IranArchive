@@ -1,9 +1,9 @@
 external_card_id: "3926"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30824_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39804_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51990_0_telegram_v1.jpg"
-  - "vic-2026-2139770.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30824_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39804_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51990_0_telegram_v1.jpg
+  - vic-2026-2139770.jpg
 name: Amirhossein Sartipi
 persian_name: امیرحسین سرتیپی
 birth_date: ""
@@ -18,7 +18,7 @@ incident_city: Shahreh Qods
 incident_address: ""
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,11 @@ source:
   - https://t.me/RememberTheirNames/1859
   - https://x.com/becrebb/status/2016666868501942298
   - https://t.me/JavidnamaneVatan/1490
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 455ad736-7edb-496e-a536-ad57bdb12f24
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

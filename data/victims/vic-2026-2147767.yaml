@@ -1,7 +1,7 @@
 external_card_id: "8518"
 photo: []
 name: Mohammad Saleh Taghti Yadollahpour
-persian_name: ""
+persian_name: محمد صالح ثقتی یدالله پور
 birth_date: ""
 birth_province: ""
 birth_city: ""
@@ -12,7 +12,7 @@ country: Iran
 incident_province: ""
 incident_city: Hamedan Prison
 incident_address: ""
-date_of_death: ""
+date_of_death: "2026-01-03"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: "Detained during protests. Listed in HRANA's 'Identified Detainees' section of The Crimson Winter report. Date of arrest: January 3, 2026 (1404/10/14). Current status: Unknown. Original source: HRANA 978."
@@ -26,3 +26,11 @@ source:
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1493
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1503
   - https://www.hra-iran.org/wp-content/uploads/2026/02/The-Crimson-Winter-English-version.pdf#HRANA_DETAINED_1556
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 9ab6b595-0c9f-4b9e-8a67-6d1179129ca9
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/detainees/identified/1503

@@ -15,7 +15,7 @@ incident_city: Ghargh Abad
 incident_address: ""
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,12 @@ description: Shot directly by Islamic Republic agents. He was initially wounded.
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/1166
+  - https://www.instagram.com/p/DZSWqxfNXt9/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 2b04aa81-88f9-44ae-896b-87a0a547279d
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

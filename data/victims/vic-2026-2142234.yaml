@@ -1,16 +1,16 @@
 external_card_id: "722"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20733_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_20989_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23314_0_twitter_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_26315_0_web_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39063_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_40404_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50611_0_telegram_v1.jpg"
-  - "vic-2026-f6e880f8a52e.jpg"
-  - "vic-2026-ca90685f5090.jpg"
-  - "vic-2026-a20cd09da340.png"
-  - "vic-2026-bac01089d3fe.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20733_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_20989_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23314_0_twitter_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_26315_0_web_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39063_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_40404_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50611_0_telegram_v1.jpg
+  - vic-2026-f6e880f8a52e.jpg
+  - vic-2026-ca90685f5090.jpg
+  - vic-2026-a20cd09da340.png
+  - vic-2026-bac01089d3fe.jpg
 name: Ghazal Janghorbaan
 persian_name: غزل جانقربان
 birth_date: ""
@@ -22,10 +22,10 @@ occupation: ""
 country: Iran
 incident_province: Isfahan
 incident_city: Zayanderud, Isfahan
-incident_address: ""
+incident_address: Zayandeh Rud
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -41,3 +41,12 @@ source:
   - https://x.com/hoorieh81/status/2018760743466754060
   - https://x.com/i/status/2020692180160131239
   - https://t.me/JavidnamaneVatan/736
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 93c9d6a0-e96b-4f30-9a9c-36664bac54f1
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

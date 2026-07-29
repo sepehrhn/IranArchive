@@ -6,10 +6,10 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 18
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Ilam
 incident_city: سرابله, ایلام
 incident_address: ""
 date_of_death: ""
@@ -23,3 +23,11 @@ description: "Charges: نامشخص"
 source_type: Social Media
 source:
   - https://docs.google.com/spreadsheets/d/1r3TPvhMLJ6hno5SEylgSLjsrN5OomZSbR6AbrneIvxA/edit?gid=0#ADM-1525
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a83c77a6-36b8-44ee-8b16-88ed727be597
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

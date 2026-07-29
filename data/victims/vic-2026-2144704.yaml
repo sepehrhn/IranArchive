@@ -10,7 +10,7 @@ gender: Male
 age: 40
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Gilan
 incident_city: Bandar-e Anzali
 incident_address: ""
 date_of_death: "2026-01-09"
@@ -23,3 +23,12 @@ description: Shot with bullets in Pardis Market in Bandar-e Anzali. Father of an
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/559
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 5f7d5b41-866f-4bf1-b70f-6828c9550c4b
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/682

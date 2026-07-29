@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Qom
 incident_city: Qom
-incident_address: ""
-date_of_death: ""
+incident_address: خیابان دوطفلان مسلم (اطراف نیروگاه قم)
+date_of_death: "2023-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 22-year-old karate athlete arrested during protests on Do Tofalan Moslem Street (near Qom power plant). Accused of serious charges including harming an officer. Has been under severe pressure in IRGC intelligence detention center in Qom for over fifty days to confess. Has not accepted the charges but is under intense physical and psychological pressure.
@@ -24,3 +24,12 @@ description: 22-year-old karate athlete arrested during protests on Do Tofalan M
 source_type: Social Media
 source:
   - https://x.com/followupiran/status/2026690701317050550
+  - https://t.me/akhbar_bazdashtiha/368
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - eafb1277-be89-48b1-bb4f-17d276044dca
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

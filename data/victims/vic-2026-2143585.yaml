@@ -1,9 +1,9 @@
 external_card_id: "4036"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28854_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28854_1_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28854_2_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_31097_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28854_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28854_1_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28854_2_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_31097_0_telegram_v1.jpg
 name: Ali Jazayeri
 persian_name: علی جزایری
 birth_date: ""
@@ -15,7 +15,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Ayatollah Kashani Avenue, Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -27,3 +27,12 @@ source_type: Social Media
 source:
   - https://x.com/ashoobmotlagh/status/2017558070100959322
   - https://t.me/RememberTheirNames/2141
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 6dc34886-f343-4071-847c-02c12eb69a46
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-26T00:19:36.804603+00:00"
+external_source_source_references:
+  - iranintl-memorial:34d1f47635eb9c98

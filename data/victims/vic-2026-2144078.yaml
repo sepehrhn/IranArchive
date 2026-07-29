@@ -10,12 +10,12 @@ gender: Male
 age: null
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Tehran
 incident_city: Eslamshahr
 incident_address: ""
 date_of_death: ""
 date_of_death_precision: Approximate
-cause_of_death: ""
+cause_of_death: Killed by agents of the Islamic Republic
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,11 @@ description: Killed by agents of the Islamic Republic during Dey month 1404
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/839
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 0735a875-082e-4077-b14e-3d4acaf84016
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

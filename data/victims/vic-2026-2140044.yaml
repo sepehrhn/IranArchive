@@ -1,8 +1,8 @@
 external_card_id: "3316"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29701_0_web_v1.png"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_52821_0_twitter_v1.jpg"
-  - "vic-2026-2140044.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29701_0_web_v1.png
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_52821_0_twitter_v1.jpg
+  - vic-2026-2140044.jpg
 name: Mohammad Khodapanah
 persian_name: محمد خداپناه
 birth_date: ""
@@ -14,10 +14,10 @@ occupation: ""
 country: Iran
 incident_province: North Khorasan
 incident_city: Jajarm
-incident_address: ""
+incident_address: Jajarm, Khorasan
 date_of_death: "2026-01-01"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -31,3 +31,11 @@ source:
   - https://javidnaman.iranintl.com/memorial/CoXljdUpHLN0XegRJxozoh
   - https://x.com/aban_khoonin/status/2017264462714097793
   - https://t.me/RememberTheirNames/1507
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 3e207460-c368-4046-acff-b73c0f1473e1
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - Hodafit-javidnaman-2026-final.xlsx

@@ -15,7 +15,7 @@ country: Iran
 incident_province: ""
 incident_city: Kashan
 incident_address: ""
-date_of_death: ""
+date_of_death: "2024-01-09"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: 23-year-old girl arrested on January 9th in Kashan on false leadership charges. Previously expelled from Azad University of Kashan during 2022 protests. Her situation is very concerning due to serious charges
@@ -28,3 +28,12 @@ source:
   - https://x.com/autnews_org/status/2026891913731723283
   - https://x.com/greenlandiran/status/2026928871858385318
   - https://x.com/armintext98979/status/2027075228518559758
+  - https://t.me/akhbar_bazdashtiha/218
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - a4bbf0b3-f004-4a02-93b5-baf4af796db6
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha

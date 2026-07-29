@@ -7,16 +7,16 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 23
 occupation: ""
 country: Iran
-incident_province: ""
-incident_city: ""
+incident_province: Tehran
+incident_city: Tehran
 incident_address: ""
-date_of_death: ""
+date_of_death: "1046-01-22"
 date_of_death_precision: Approximate
 cause_of_death: ""
-disappearance_circumstances: ""
+disappearance_circumstances: Reported detained
 suspected_actor: ""
 status: Killed
 description: Executed despite being ill. According to the post, he was sick and under their own laws should not have been executed
@@ -27,3 +27,12 @@ source:
   - https://t.me/iliaen/206
   - https://t.me/iliaen/223
   - https://t.me/iliaen/602
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 0317e3d1-34d9-4975-8e00-45d2d40aefa6
+external_source_categories:
+  - detainees
+detention_status: executed
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - Iran_Executions_DeathRow_Final_Comprehensive-2.xlsx

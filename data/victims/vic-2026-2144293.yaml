@@ -1,7 +1,7 @@
 external_card_id: "2017"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_23401_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51623_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_23401_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51623_0_telegram_v1.jpg
 name: Hamidreza Mohammadi Moghaddam (Student, Shahroud University of Technology)
 persian_name: علیرضا مقدم
 birth_date: ""
@@ -25,3 +25,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1548
   - https://t.me/JavidnamaneVatan/1139
+  - https://www.instagram.com/p/DVkCb8Ik4iX/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - f83e2e34-4b27-4019-aa26-c5658ab6867e
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:cd2712f3ba7fab4e

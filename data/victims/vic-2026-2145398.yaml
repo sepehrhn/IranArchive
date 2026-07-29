@@ -1,9 +1,9 @@
 external_card_id: "6994"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48249_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_48434_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53305_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_54291_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48249_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_48434_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53305_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_54291_0_twitter_v1.jpg
 name: Raheleh Akrami
 persian_name: راحله اکرمی
 birth_date: ""
@@ -15,7 +15,7 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Narmak, Tehran
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -30,3 +30,12 @@ source:
   - https://x.com/i/status/2023488643625873799
   - https://t.me/JavidnamaneVatan/2056
   - https://x.com/i/status/2026233326424522803
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - dfbc19eb-f3cb-40b0-af03-158f2a51eef0
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/2424

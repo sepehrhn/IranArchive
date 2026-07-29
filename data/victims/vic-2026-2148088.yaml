@@ -13,7 +13,7 @@ occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Tabriz
-incident_address: ""
+incident_address: خانه
 date_of_death: "2026-02-01"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -26,3 +26,14 @@ source_type: Social Media
 source:
   - https://x.com/fuckeduprainman/status/2018283132948987931
   - https://x.com/blcksull/status/2019093702942117889
+  - https://t.me/akhbar_bazdashtiha/455
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - ae20942e-0803-44ab-a202-5e65cfa7d38f
+  - 1e86dcc0-0c1f-4b01-95c2-8883099147da
+external_source_categories:
+  - detainees
+external_source_updated_at: "2026-06-21T00:33:18.783165+00:00"
+external_source_source_references:
+  - akhbar_bazdashtiha
+  - HRANA-CW-2026/detainees/students/76

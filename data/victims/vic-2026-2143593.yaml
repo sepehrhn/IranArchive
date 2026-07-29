@@ -12,8 +12,8 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Malard
-incident_address: ""
-date_of_death: ""
+incident_address: Tehran, Malard
+date_of_death: "2026-01-08"
 date_of_death_precision: Approximate
 cause_of_death: ""
 disappearance_circumstances: ""
@@ -23,3 +23,12 @@ description: Memorial record from Iran International
 source_type: Social Media
 source:
   - https://javidnaman.iranintl.com/memorial/255P39jiXgM2t3lNmNPe1d
+  - https://www.instagram.com/p/DU0qnZSks-0/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 48ff90be-4da9-4ae1-afd7-98fc5e5feb7d
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:3538f75a4c38e32b

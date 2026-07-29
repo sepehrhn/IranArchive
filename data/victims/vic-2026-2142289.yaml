@@ -1,14 +1,14 @@
 external_card_id: "925"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_21092_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_24198_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_28920_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_37952_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38291_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_38322_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53395_0_telegram_v1.jpg"
-  - "vic-2026-9b1fc0dee154.jpg"
-  - "vic-2026-48de1987c72b.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_21092_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_24198_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_28920_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_37952_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38291_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_38322_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53395_0_telegram_v1.jpg
+  - vic-2026-9b1fc0dee154.jpg
+  - vic-2026-48de1987c72b.jpg
 name: Abolfazl Sheikh Veysi
 persian_name: ابوالفضل شیخ‌ویسی
 birth_date: ""
@@ -18,9 +18,9 @@ gender: Male
 age: 18
 occupation: ""
 country: Iran
-incident_province: ""
+incident_province: Razavi Khorasan
 incident_city: Mashhad
-incident_address: ""
+incident_address: Toroq neighborhood, Mashhad
 date_of_death: "2026-01-09"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -37,3 +37,12 @@ source:
   - https://x.com/balochestan1422/status/2015913529979568624
   - https://t.me/RememberTheirNames/1407
   - https://t.me/JavidnamaneVatan/2146
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - da580912-0caf-4cd5-acc9-f80dac4bd464
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - HRANA-CW-2026/protesters/695

@@ -1,8 +1,8 @@
 external_card_id: "3276"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_29019_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_39693_0_twitter_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50525_0_telegram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_29019_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_39693_0_twitter_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50525_0_telegram_v1.jpg
 name: Ali Salehpour Lor
 persian_name: علی صالحپور
 birth_date: ""
@@ -27,3 +27,12 @@ source:
   - https://x.com/i/status/2017721215767457941
   - https://x.com/i/status/2015593579599552818
   - https://t.me/JavidnamaneVatan/696
+  - https://javidnaman.iranintl.com/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 10a11281-b9f1-4976-8f8a-27bfbd5e7e4d
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:d564b8f076bb0f60

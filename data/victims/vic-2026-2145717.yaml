@@ -1,7 +1,7 @@
 external_card_id: "3956"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_30901_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_50085_0_twitter_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_30901_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_50085_0_twitter_v1.jpg
 name: Shahab Alimardani
 persian_name: شهاب علیمردانی
 birth_date: ""
@@ -25,3 +25,11 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/1936
   - https://x.com/gilasgoz/status/2024605074463260786
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 9c7b6115-37fb-4c79-9670-9fa0e85696cc
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - https://t.me/RememberTheirNames

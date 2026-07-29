@@ -12,10 +12,10 @@ occupation: ""
 country: Iran
 incident_province: Tehran
 incident_city: Tehran
-incident_address: ""
+incident_address: Nabard Street, Piroozi Neighborhood, Tehran
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
-cause_of_death: ""
+cause_of_death: Killed by security forces (Khamenei's soldiers)
 disappearance_circumstances: ""
 suspected_actor: ""
 status: Killed
@@ -23,3 +23,12 @@ description: 55-year-old war veteran from Iran-Iraq war, went to help victims of
 source_type: Social Media
 source:
   - https://t.me/JavidnamaneVatan/867
+  - https://javidnaman.iranintl.com/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - be7d0bbb-e023-4d4f-a669-ba54ba6ce9b8
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - t.me/JavidnamaneVatan

@@ -7,12 +7,12 @@ birth_date: ""
 birth_province: ""
 birth_city: ""
 gender: Male
-age: null
+age: 20
 occupation: ""
 country: Iran
 incident_province: ""
 incident_city: Azadshahr
-incident_address: ""
+incident_address: Azadshahr - Golestan
 date_of_death: "2026-01-08"
 date_of_death_precision: Exact
 cause_of_death: ""
@@ -24,3 +24,12 @@ source_type: Social Media
 source:
   - https://t.me/RememberTheirNames/2712
   - https://x.com/gilasgoz/status/2021310943481807059
+  - https://www.hra-news.org/
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - 80646304-8251-4be4-b8af-2fb118f8c999
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:fe351d2bbfb0da27

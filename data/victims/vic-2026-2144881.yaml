@@ -1,7 +1,7 @@
 external_card_id: "7694"
 photo:
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_51105_0_telegram_v1.jpg"
-  - "https://storage.googleapis.com/media-cdn-7k9x2/img_53554_0_instagram_v1.jpg"
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_51105_0_telegram_v1.jpg
+  - https://storage.googleapis.com/media-cdn-7k9x2/img_53554_0_instagram_v1.jpg
 name: Mohammad Amin Sabet
 persian_name: محمدامین ثابت
 birth_date: ""
@@ -26,3 +26,11 @@ source:
   - https://t.me/RememberTheirNames/3101
   - https://www.instagram.com/p/DVCBX49jMAX
   - https://x.com/gilasgoz/status/2025906506806255635
+  - https://external_source.org/fa/heroes
+external_source_ids:
+  - e1a1adfe-5282-4dbc-93d4-9adbb6e633ce
+external_source_categories:
+  - javidnaman
+external_source_updated_at: "2026-06-21T00:35:10.530458+00:00"
+external_source_source_references:
+  - iranintl-memorial:e8b26de1317d746c
