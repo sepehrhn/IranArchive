@@ -59,6 +59,7 @@ scripts/*
 !scripts/update_*
 
 *.txt
+!public/robots.txt
 *.log
 *.html
 *.cjs
