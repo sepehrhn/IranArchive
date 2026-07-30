@@ -288,9 +288,7 @@ onUnmounted(() => {
                                     class="donate-dropdown-trigger !rounded-full !px-8 !py-2.5 !border-none !text-white !font-black !tracking-[0.25em] hover:!-translate-y-0.5 !transition-all !duration-300"
                                     :class="[
                                         locale === 'fa' ? '!text-sm' : '!text-[11px]',
-                                        isLandingPage
-                                            ? '!bg-[#d63a2f] hover:!bg-[#ef574b] !shadow-[0_8px_20px_rgba(214,58,47,0.28)] hover:!shadow-[0_12px_25px_rgba(214,58,47,0.38)]'
-                                            : '!bg-gradient-to-r !from-emerald-500 !to-teal-500 hover:!from-emerald-600 hover:!to-teal-600 !shadow-[0_8px_20px_rgba(16,185,129,0.3)] hover:!shadow-[0_12px_25px_rgba(16,185,129,0.4)]'
+                                        '!bg-gradient-to-r !from-emerald-500 !to-teal-500 hover:!from-emerald-600 hover:!to-teal-600 !shadow-[0_8px_20px_rgba(16,185,129,0.3)] hover:!shadow-[0_12px_25px_rgba(16,185,129,0.4)]'
                                     ]"
                                 />
 
