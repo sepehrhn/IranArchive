@@ -359,7 +359,7 @@ useHead(() => ({
                 </aside>
             </div>
             <div class="landing-hero__rule" aria-hidden="true">
-                <span>IRANARCHIVE / EVIDENCE BEFORE ERASURE / 1979—PRESENT</span>
+                <span class="landing-shell">IRANARCHIVE / EVIDENCE BEFORE ERASURE / 1979—PRESENT</span>
             </div>
         </section>
 
@@ -509,7 +509,6 @@ useHead(() => ({
 
 <style scoped>
 .landing-page {
-    --landing-shell-max: 1536px;
     --landing-paper: #11100f;
     --landing-paper-deep: #191714;
     --landing-ink: #f1eee7;
@@ -523,8 +522,7 @@ useHead(() => ({
 }
 
 .landing-shell {
-    width: min(100% - 2rem, var(--landing-shell-max));
-    margin-inline: auto;
+    @apply container mx-auto px-4 sm:px-6;
 }
 
 .landing-hero {
@@ -754,11 +752,6 @@ useHead(() => ({
     font-weight: 900;
     letter-spacing: 0.25em;
     white-space: nowrap;
-}
-
-.landing-hero__rule span {
-    width: min(100% - 2rem, var(--landing-shell-max));
-    margin-inline: auto;
 }
 
 .landing-index {
@@ -1203,10 +1196,6 @@ useHead(() => ({
 }
 
 @media (max-width: 640px) {
-    .landing-shell {
-        width: min(100% - 1.25rem, var(--landing-shell-max));
-    }
-
     .landing-hero {
         min-height: auto;
     }
