@@ -509,6 +509,7 @@ useHead(() => ({
 
 <style scoped>
 .landing-page {
+    --landing-shell-max: 1536px;
     --landing-paper: #11100f;
     --landing-paper-deep: #191714;
     --landing-ink: #f1eee7;
@@ -522,7 +523,7 @@ useHead(() => ({
 }
 
 .landing-shell {
-    width: min(100% - 2rem, 1280px);
+    width: min(100% - 2rem, var(--landing-shell-max));
     margin-inline: auto;
 }
 
@@ -756,7 +757,7 @@ useHead(() => ({
 }
 
 .landing-hero__rule span {
-    width: min(100% - 2rem, 1280px);
+    width: min(100% - 2rem, var(--landing-shell-max));
     margin-inline: auto;
 }
 
@@ -1203,7 +1204,7 @@ useHead(() => ({
 
 @media (max-width: 640px) {
     .landing-shell {
-        width: min(100% - 1.25rem, 1280px);
+        width: min(100% - 1.25rem, var(--landing-shell-max));
     }
 
     .landing-hero {
